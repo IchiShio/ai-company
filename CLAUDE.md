@@ -263,7 +263,7 @@ python3 add_questions.py
 | スタディサプリENGLISH | ✅ 提携済み・リンク設置済み | `services/studysapuri-english/` |
 | Bizmates（オンライン英会話） | ✅ 提携済み・リンク設置済み | `services/bizmates/`、`index.html` |
 | Bizmates Plus（コーチング） | ✅ 提携済み・リンク設置済み | `articles/english-coaching-ranking/`、`articles/english-coaching-vs-online-eikaiwa/` |
-| DMM英会話 | ⏳ 審査中 | `services/dmm-eikaiwa/`（リンク未設置） |
+| DMM英会話 | ✅ 提携済み・リンク設置済み | `services/dmm-eikaiwa/` |
 | PROGRIT | ⏳ 審査中 | `services/progrit/`（リンク未設置） |
 | トライズ | ⏳ 審査中 | `services/toraiz/`（リンク未設置） |
 | THE ENGLISH COMPANY | ⏳ 審査中（別ASP） | `services/english-company/`（リンク未設置） |
