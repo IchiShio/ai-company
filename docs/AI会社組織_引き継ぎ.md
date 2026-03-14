@@ -119,6 +119,29 @@
 - GA4: `ga4_traffic.csv`（旧: `ga4_traffic_acquisition.csv`）、`ga4_pages.csv`
 - Ahrefs: `ahrefs_metrics.csv`（旧: `ahrefs_overview.csv`）、`ahrefs_keywords.csv`、`ahrefs_pages.csv`、`ahrefs_backlinks.csv`
 
+### 5. native-real.com SEOチェッカー（native-real-seo-checker）
+
+**概要**: SEOパイプラインの各スキルが求められるパフォーマンスを発揮しているか検査する。手抜き・不完全実行・品質基準未達を検出し、❌ FAILの場合は即中断してユーザーに報告する。
+
+**呼び出し**: `native-real-seo-pipeline` の各ステップ後に自動実行。単独では `/native-real-seo-checker`。
+
+**検査内容**:
+- Check 1（collector後）: 必須ファイル11種の存在確認・行数チェック・エラーログ確認
+- Check 2（analyzer後）: A〜G全7分析の完全性・Top5の具体性（ページ名・変更内容・数値が明記されているか）
+- Check 3（executor後）: 全件実行確認・リライト3000字以上・title28〜32字・meta100〜120字・OGタグ更新漏れ・git push完了
+
+**判定**:
+- ✅ PASS: 基準クリア → 次ステップへ
+- ⚠️ WARNING: 基準ギリギリ → 警告のみ・継続
+- ❌ FAIL: 基準未達 → 即中断・原因と対処をユーザーに報告
+
+**ファイル**:
+- `~/projects/claude/ai-company/skills/native-real-seo-checker/SKILL.md`
+
+**追加日**: 2026-03-15
+
+---
+
 ### 4. native-real.com 週次SEOパイプライン（native-real-seo-pipeline）
 
 **概要**: `native-real-data-collector` → `native-real-seo-analyzer` → `native-real-seo-executor` の3スキルをワンコマンドで連続実行するオーケストレータースキル。
@@ -130,6 +153,7 @@
 - `model: claude-opus-4-6` 指定（executor と同じ Opus で動作）
 - Top 5 アクションを確認なしで全件自動実行（2026-03-15 自動化）
 - Ahrefs MCP 4ツールは並列実行
+- 各ステップ後に `native-real-seo-checker` で品質検査（❌ FAILで即中断）
 
 **ファイル**:
 - `~/projects/claude/ai-company/skills/native-real-seo-pipeline/SKILL.md`
