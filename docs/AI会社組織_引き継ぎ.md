@@ -108,6 +108,30 @@
 - Ahrefsのカラム名: `best_position`（positionではない）、`sum_traffic`（trafficではない）
 - 全ツールで `mode=subdomains` を指定（domainだとwwwが除外される）
 
+**保存ファイル名（2026-03-15 統一済み）**:
+- SC: `queries.csv`, `pages.csv`, `dates.csv`, `devices.csv`, `countries.csv`（`search_console_` プレフィックスなし）
+- GA4: `ga4_traffic.csv`（旧: `ga4_traffic_acquisition.csv`）、`ga4_pages.csv`
+- Ahrefs: `ahrefs_metrics.csv`（旧: `ahrefs_overview.csv`）、`ahrefs_keywords.csv`、`ahrefs_pages.csv`、`ahrefs_backlinks.csv`
+
+### 4. native-real.com 週次SEOパイプライン（native-real-seo-pipeline）
+
+**概要**: `native-real-data-collector` → `native-real-seo-analyzer` → `native-real-seo-executor` の3スキルをワンコマンドで連続実行するオーケストレータースキル。
+
+**呼び出し**: `/native-real-seo-pipeline`
+
+**設計方針**:
+- シンオーケストレーター（各スキルの処理は個別スキルに委譲、重複なし）
+- `model: claude-opus-4-6` 指定（executor と同じ Opus で動作）
+- Step 3（executor）のアクション選択だけユーザー確認を挟む（git push を伴うため）
+- Ahrefs MCP 4ツールは並列実行
+
+**ファイル**:
+- `~/projects/claude/ai-company/skills/native-real-seo-pipeline/SKILL.md`
+
+**追加日**: 2026-03-15
+
+---
+
 ### 3. native-real.com SEO分析スキル（native-real-seo-analyzer）
 
 **概要**: native-real-data-collectorが収集したCSV12ファイルを読み込み、7つの分析フレームワークで評価し「次の1週間で何をすべきか」をTop 5優先アクションとして提案する。「分析者」ではなく「参謀」として振る舞う設計。
