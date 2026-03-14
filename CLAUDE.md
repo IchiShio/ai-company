@@ -12,8 +12,10 @@ ai-company/
 ├── docs/
 │   └── AI会社組織_引き継ぎ.md   # ビジョン・進捗・スキル仕様書
 ├── skills/
-│   └── x-schedule-post/
-│       └── SKILL.md              # X予約投稿スキル
+│   ├── x-schedule-post/
+│   │   └── SKILL.md              # X予約投稿スキル
+│   └── native-real-data-collector/
+│       └── SKILL.md              # SEOデータ自動収集スキル
 └── CLAUDE.md
 ```
 

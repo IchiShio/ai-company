@@ -80,6 +80,56 @@
 - ツールバー（左→右）: 画像, GIF, リンク, リスト, 絵文字, **スケジュール（6番目）**, 位置情報, 旗, 太字, 斜体
 - `form_input` でドロップダウン設定が確実に動作する
 
+### 2. native-real.com SEOデータ収集スキル（native-real-data-collector）
+
+**概要**: native-real.com（英語学習サービス比較サイト）のSEOデータを3つのソースから自動収集し、Google Drive同期フォルダに日付別CSVとして保存する。データ収集のみ。分析は別スキルが担当。
+
+**データソース**:
+- Google Search Console（ブラウザ自動操作 / ichieigo7@gmail.com）
+- Google Analytics GA4（ブラウザ自動操作 / プロパティID: a382654252p525926980）
+- Ahrefs MCP（4ツール: site-explorer-metrics, organic-keywords, pages-by-traffic, all-backlinks）
+
+**保存先**: `~/マイドライブ/02_AI・ブログ・仕事/GoogleG4,SearchConsole/YYYY-MM-DD/`（Google Drive同期フォルダ）
+
+**スケジュールタスク**: `native-real-seo-data-collection`（毎朝6:05 AM、cron: `0 6 * * *`）
+
+**ファイル**:
+- `~/projects/claude/ai-company/skills/native-real-data-collector/SKILL.md`
+
+**テスト結果（2026年3月14日実施）**:
+- Search Console: ZIPエクスポート → 展開 → CSV 5ファイル取得成功（クエリ300件、ページ109件等）
+- GA4: トラフィック獲得・ページとスクリーンの2レポートCSV取得成功
+- Ahrefs: 4ツール全て取得成功（APIユニット消費: 約386/回、月約12,000/25,000上限）
+- Google Drive同期: ローカル保存 → Drive自動反映を確認
+
+**テストで判明した注意点**:
+- Search ConsoleのZIP内CSVは日本語ファイル名が文字化けする → ヘッダー行で識別
+- GA4のCSVはBraveブラウザで `.com.brave.Browser.*` 一時ファイル名になることがある
+- Ahrefsのカラム名: `best_position`（positionではない）、`sum_traffic`（trafficではない）
+- 全ツールで `mode=subdomains` を指定（domainだとwwwが除外される）
+
+### 3. native-real.com SEO分析スキル（native-real-seo-analyzer）
+
+**概要**: native-real-data-collectorが収集したCSV12ファイルを読み込み、7つの分析フレームワークで評価し「次の1週間で何をすべきか」をTop 5優先アクションとして提案する。「分析者」ではなく「参謀」として振る舞う設計。
+
+**分析フレームワーク**:
+- A. クイックウィン（順位4〜20 AND インプレ≥5のクエリ）
+- B. 高インプレ低CTR（期待CTRとの乖離をスコア化）
+- C. チャネル品質（GA4: エンゲージ率・時間・セッション数で総合スコア）
+- D. コンテンツ品質（GA4: スター/要改善/潜在に3分類）
+- E. キーワードギャップ（Ahrefs: volume × 順位割引）
+- F. バックリンク品質（スパムリンク検出 → Disavow推奨）
+- G. 28日間トレンド（前半14日/後半14日で変化率、急落時は原因調査を1位強制）
+
+**出力**: Top 5優先アクション（「○○のtitleタグを△△に変更する」レベルの具体性）
+
+**ファイル**:
+- `~/projects/claude/ai-company/skills/native-real-seo-analyzer/SKILL.md`
+
+**追加日**: 2026-03-14
+
+---
+
 ## 未着手・構想中のスキル
 
 以下は想定される候補。どの部門のどの末端業務から着手してもよい。
