@@ -32,7 +32,7 @@
 ├── コンテンツ部門
 │   ├── @ichi_eigo（英語学習）— X投稿、note記事、ListenUp連携
 │   ├── @careermigaki（キャリア転職）— X投稿、スレッド
-│   └── native-real.com — ブログ、SEO、アフィリエイト
+│   └── native-real.com — SEO・アフィリエイト収入（主目的: A8.net申込増）
 ├── コーチング部門
 │   ├── 顧客管理
 │   ├── 教材作成
@@ -118,6 +118,28 @@
 - SC: `queries.csv`, `pages.csv`, `dates.csv`, `devices.csv`, `countries.csv`（`search_console_` プレフィックスなし）
 - GA4: `ga4_traffic.csv`（旧: `ga4_traffic_acquisition.csv`）、`ga4_pages.csv`
 - Ahrefs: `ahrefs_metrics.csv`（旧: `ahrefs_overview.csv`）、`ahrefs_keywords.csv`、`ahrefs_pages.csv`、`ahrefs_backlinks.csv`
+
+### 6. native-real.com SEO部長（native-real-bucho）
+
+**概要**: native-real SEO部門の部長AI。社員スキル（checker）が自動リカバリーに失敗した場合にエスカレーションを受け取り、状況を判断して対処する。部長でも解決できない場合のみ社長（ユーザー）に報告する。
+
+**部門の主目的**: アフィリエイト収入増加（A8.net経由のオンライン英会話サービス申込）
+
+**呼び出し**: checkerからのエスカレーション自動受信 / 手動では `/native-real-bucho`
+
+**対処パターン**:
+- パターン1: データ収集一部失敗 → Ahrefsデータのみで分析続行
+- パターン2: 分析品質不足 → analyzer再指示（具体的なセクション・数値計算を指定）
+- パターン3: 実行品質基準未達 → 文字数追記・title修正・push再実行
+- パターン4: 慢性的な繰り返し障害 → 根本原因を特定してスキルファイル自体を修正
+- パターン5: 解決不能 → 社長へ構造化レポートで報告
+
+**ファイル**:
+- `~/projects/claude/ai-company/skills/native-real-bucho/SKILL.md`
+
+**追加日**: 2026-03-15
+
+---
 
 ### 5. native-real.com SEOチェッカー（native-real-seo-checker）
 

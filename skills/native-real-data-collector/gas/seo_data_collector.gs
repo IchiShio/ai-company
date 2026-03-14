@@ -7,7 +7,7 @@
 const CONFIG = {
   SC_PROPERTY:      'https://native-real.com/',
   GA4_PROPERTY_ID:  '525926980',
-  DRIVE_FOLDER_ID:  '1UsvXavXHcvX8W95iAu0p-jJnrRyyZ-0l', // GoogleG4,SearchConsole フォルダ
+  DRIVE_FOLDER_ID:  '1LnafXdJFw1wW9ROg2ldtdOd1lWcqJfd_', // GoogleG4,SearchConsole フォルダ（マイドライブ直下）
   TIMEZONE:         'Asia/Tokyo',
   DAYS:             28,
 };

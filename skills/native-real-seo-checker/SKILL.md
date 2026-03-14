@@ -212,7 +212,7 @@ cd ~/projects/claude/native-real && git status
 1. 欠損しているファイルのソース（SC / GA4 / Ahrefs）を特定する
 2. そのソースだけ再取得を試みる（`native-real-data-collector` の該当手順のみ実行）
 3. 再取得後、Check 1 を再実行する
-4. 再チェックも FAIL → ユーザーに報告して中断
+4. 再チェックも FAIL → `native-real-bucho` にエスカレーション
 
 **Check 2 FAIL（分析不完全 / Top5が曖昧）**
 1. 失敗した項目を特定する（欠落セクション or 曖昧なアクション）
@@ -220,7 +220,7 @@ cd ~/projects/claude/native-real && git status
    - セクション欠落 → 該当セクション（例: E. キーワード機会）だけ再実行
    - Top5が曖昧 → Top5の生成ロジックを再実行し、ページ名・変更内容・数値を明示させる
 3. seo_report.md を更新し、Check 2 を再実行する
-4. 再チェックも FAIL → ユーザーに報告して中断
+4. 再チェックも FAIL → `native-real-bucho` にエスカレーション
 
 **Check 3 FAIL（品質基準未達 / 実行漏れ）**
 1. 失敗した項目を特定する（未実行アクション / 文字数不足 / title超過 / OGタグ漏れ / push漏れ）
@@ -231,22 +231,19 @@ cd ~/projects/claude/native-real && git status
    - OGタグ / JSON-LD 更新漏れ → 該当箇所を修正
    - git push漏れ → `git push origin main` を再実行
 3. 修正後、Check 3 を再実行する
-4. 再チェックも FAIL → ユーザーに報告して中断
+4. 再チェックも FAIL → `native-real-bucho` にエスカレーション
 
 ### リトライ上限
 
 - リカバリーは**各 Check につき1回まで**
-- 2回目も FAIL の場合は以下のフォーマットでユーザーに報告して中断する:
+- 2回目も FAIL の場合は `native-real-bucho` に以下のフォーマットでエスカレーションする:
 
 ```
-🚨 FAIL（リカバリー失敗）: Check {N} - {スキル名}
+エスカレーション元: Check {N} - {スキル名}
 
 問題: {具体的な問題内容}
 試みたリカバリー: {実施した対処内容}
 結果: 解決できませんでした
-
-対処をお願いします:
-  {ユーザーへの具体的な手順}
 ```
 
 ⚠️ WARNING の場合はリカバリー不要。報告のみ行い処理を継続する。
