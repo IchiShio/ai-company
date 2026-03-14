@@ -85,9 +85,15 @@
 **概要**: native-real.com（英語学習サービス比較サイト）のSEOデータを3つのソースから自動収集し、Google Drive同期フォルダに日付別CSVとして保存する。データ収集のみ。分析は別スキルが担当。
 
 **データソース**:
-- Google Search Console（ブラウザ自動操作 / ichieigo7@gmail.com）
-- Google Analytics GA4（ブラウザ自動操作 / プロパティID: a382654252p525926980）
+- Google Search Console（**GAS経由** / ichieigo7@gmail.com）※ 2026-03-15 Claude in Chrome から移行
+- Google Analytics GA4（**GAS経由** / プロパティID: a382654252p525926980）※ 同上
 - Ahrefs MCP（4ツール: site-explorer-metrics, organic-keywords, pages-by-traffic, all-backlinks）
+
+**GASスクリプト**:
+- `~/projects/claude/ai-company/skills/native-real-data-collector/gas/seo_data_collector.gs`
+- GASプロジェクト名: `native-real-seo-data-collector`（ichieigo7@gmail.com）
+- トリガー: 毎朝6時自動実行
+- セットアップ手順: `gas/SETUP.md`
 
 **保存先**: `~/マイドライブ/02_AI・ブログ・仕事/GoogleG4,SearchConsole/YYYY-MM-DD/`（Google Drive同期フォルダ）
 
@@ -122,7 +128,7 @@
 **設計方針**:
 - シンオーケストレーター（各スキルの処理は個別スキルに委譲、重複なし）
 - `model: claude-opus-4-6` 指定（executor と同じ Opus で動作）
-- Step 3（executor）のアクション選択だけユーザー確認を挟む（git push を伴うため）
+- Top 5 アクションを確認なしで全件自動実行（2026-03-15 自動化）
 - Ahrefs MCP 4ツールは並列実行
 
 **ファイル**:
