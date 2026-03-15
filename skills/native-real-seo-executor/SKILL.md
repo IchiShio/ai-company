@@ -229,16 +229,26 @@ domain:another-spam.net
 https://example.com/specific-spam-page
 ```
 
-**作成後の手順をユーザーに案内する**:
-```
-disavow.txt を作成しました。
+**作成後のGSCアップロード（自動＋手動）**:
 
-Google Search Console での送信手順:
-1. https://search.google.com/search-console/ を開く
-2. 「リンク否認」ツール（Search Console ヘルプで検索）にアクセス
-3. プロパティ: https://native-real.com/ を選択
-4. 作成した disavow.txt をアップロードして送信
-```
+1. Claude in Chrome で否認ページを自動で開く:
+   ```
+   https://search.google.com/search-console/disavow-links?resource_id=https%3A%2F%2Fnative-real.com%2F
+   ```
+2. ページが開いたらユーザーに以下を依頼する:
+   ```
+   disavow.txt を更新しました（X件のスパムドメイン）。
+
+   ブラウザにSearch Consoleの否認ページを開きました。
+   「否認リストをアップロード」（または「置き換える」）をクリックし、
+   以下のファイルを選択してください:
+     ~/projects/claude/native-real/disavow.txt
+
+   ⚠️ 注意: 「否認をキャンセル」は絶対にクリックしないでください（既存の否認が全解除されます）
+   ```
+3. ユーザーがアップロード完了を報告したら次のステップに進む
+
+**注意**: Google Search ConsoleにはDisavow用のAPIがないため、ファイル選択のみユーザーの手動操作が必要。ページを開くところまでは自動化する。
 
 ---
 
