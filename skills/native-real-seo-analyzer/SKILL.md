@@ -27,7 +27,8 @@ description: |
 |---|---|---|---|
 | Tier 1（収益直結） | `/`（ランキングTOP）・`/services/*/` | A8.netアフィリエイトリンク → 直接収益 | **3.0** |
 | Tier 2（収益支援） | `/articles/*/` | 比較・ガイド記事 → 内部リンクでサービスページへ誘導 | **1.5** |
-| Tier 3（SEOサポート） | `/real-phrases/*/`・`/listening/` | トラフィック獲得・サイト権威性向上 | **1.0** |
+| Tier 2.5（エンゲージメント） | `/listening/` | ListenUpクイズ → axis別CTAでサービスページへ誘導 | **2.0** |
+| Tier 3（SEOサポート） | `/real-phrases/*/` | トラフィック獲得・サイト権威性向上 | **1.0** |
 
 **Top 5 アクション選定はこの収益ティアを最重要視する。**
 同じクリック増でもTier 1ページへの施策を最優先する。
@@ -295,6 +296,37 @@ DR別分布: DR0-10: XX件 / DR11-30: XX件 / DR31-60: XX件 / DR61+: XX件
 
 ---
 
+### H. ListenUpエンゲージメント分析（ga4_pages.csv + GA4イベント）
+
+**データソース**: ga4_pages.csv の `/listening/` 行 + GA4カスタムイベント（quiz_session_complete）
+
+**基本指標**（ga4_pages.csv から取得）:
+```
+ListenUp PV数 / エンゲージメント率 / 平均エンゲージメント時間
+```
+
+**GA4イベントベースの分析**（データがある場合）:
+
+| 指標 | 確認方法 | 判定 |
+|---|---|---|
+| モード別セッション数 | `quiz_session_complete` の `quiz_mode` 集計 | daily/weak/revengeが合計20%未満 → モード認知不足 |
+| axis別正解率 | `axis_speed_acc`〜`axis_distractor_acc` の平均 | 特定axisが他より20pt以上低い → 問題品質要確認 |
+| 完了率 | セッション開始数 vs `quiz_session_complete` 数 | 50%未満 → 離脱原因調査 |
+
+**出力形式**:
+```
+### H. ListenUpエンゲージメント
+- PV: XX（サイト内順位: X位）
+- エンゲージメント率: XX%（平均XX秒）
+- モード分布: normal XX% / daily XX% / weak XX% / revenge XX%
+- axis正解率: speed XX% / reduction XX% / vocab XX% / context XX% / distractor XX%
+- 判定: [良好/要改善]（理由）
+```
+
+**注意**: GA4イベントデータはga4_pages.csvには含まれない。GA4管理画面のイベントレポートから取得可能な場合のみ詳細分析を行う。ga4_pages.csvの基本指標だけでも「スター/要改善/潜在」分類に反映する。
+
+---
+
 ## Step 2: Top 5 優先アクションの生成
 
 ### 社長方針（2026-03-15）: 既存改善 > 新規作成
@@ -324,7 +356,8 @@ effort_weight:
 affiliate_weight（URL収益ティアに基づく）:
   Tier 1 = /（ルート）または /services/ を含む → 3.0
   Tier 2 = /articles/ を含む             → 1.5
-  Tier 3 = /real-phrases/ または /listening/ 等 → 1.0
+  Tier 2.5 = /listening/                    → 2.0
+  Tier 3 = /real-phrases/ 等                → 1.0
 
 優先度スコア = インパクト × effort_weight × affiliate_weight
 ```

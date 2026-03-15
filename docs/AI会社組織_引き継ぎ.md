@@ -119,6 +119,27 @@
 - GA4: `ga4_traffic.csv`（旧: `ga4_traffic_acquisition.csv`）、`ga4_pages.csv`
 - Ahrefs: `ahrefs_metrics.csv`（旧: `ahrefs_overview.csv`）、`ahrefs_keywords.csv`、`ahrefs_pages.csv`、`ahrefs_backlinks.csv`
 
+### 8. ListenUpプロダクト管理（native-real-buchoに統合）
+
+**概要**: ListenUp（`/listening/`）のプロダクト改善とエンゲージメント管理。2026-03-15にTier 3からTier 2.5に昇格。
+
+**現在の機能（2026-03-15時点）**:
+- 1,099問（lv1〜lv5 × 5 axis: speed/reduction/vocab/context/distractor）
+- **seenSet**: 既出問題管理（localStorageベース、全問消化でリセット）
+- **4つのクイズモード**: normal / daily（曜日別axis） / weak（弱点axis） / revenge（SRS+wrongOnce）
+- **SRS（間隔反復）**: 2回間違えた問題をAnki式スケジュールで復習管理
+- **マイルストーン**: 50/100/300/500/1000問達成で称号表示
+- **パーソナライズCTA**: axis別弱点に基づくA8.netアフィリエイトサービス推薦（SESSION_BY_AXIS）
+- **GA4イベント**: `quiz_answer`（quiz_mode, question_axis）、`quiz_session_complete`（quiz_mode, axis_*_acc）
+
+**認証**: Firebase匿名認証 + Firestore残存（メアド登録は撤去済み、匿名localStorage運用）
+
+**問題生成パイプライン**: `generate_questions.py` → `add_questions.py`（MP3生成 → questions.js追記 → git push）
+
+**追加日**: 2026-03-15（Tier 2.5昇格・seenSet・モード・マイルストーン・GA4拡張）
+
+---
+
 ### 6. native-real.com SEO部長（native-real-bucho）
 
 **概要**: native-real SEO部門の部長AI。社員スキル（checker）が自動リカバリーに失敗した場合にエスカレーションを受け取り、状況を判断して対処する。部長でも解決できない場合のみ社長（ユーザー）に報告する。
@@ -206,6 +227,39 @@
 
 ---
 
+### 7. X投稿PDCAアナライザー（x-post-pdca-analyzer）
+
+**概要**: X投稿1本1本のパフォーマンスを X API v2 で取得し、SNSマーケター・Webライター・Webマーケターの3つの専門家視点でPDCA分析を行い、次の投稿の改善提案を構造化データで出力する。
+
+**対応アカウント**: @ichi_eigo, @careermigaki
+
+**データソース**: X API v2（Basic プラン $200/月）
+- `public_metrics`: インプレッション、いいね、RT、リプライ、引用RT、ブックマーク
+- `non_public_metrics`（OAuth 1.0a設定時）: プロフィールクリック、URLクリック
+
+**分析の7軸**: フック力、コンテンツ価値、感情トリガー、言葉選び・文体、CTA力、タイミング、フォーマット
+
+**出力**: 次スキル連携用JSON（`winning_patterns`, `improvement_actions`, `next_post_guidelines`）+ ユーザー向けサマリー。x-schedule-post や投稿文面作成スキルに直接渡せる形式。
+
+**ファイル構成**:
+- `~/projects/claude/ai-company/skills/x-post-pdca-analyzer/SKILL.md`
+- `~/projects/claude/ai-company/skills/x-post-pdca-analyzer/scripts/fetch_tweet_metrics.py` — API一括取得＆KPI算出スクリプト
+- `~/projects/claude/ai-company/skills/x-post-pdca-analyzer/references/api-setup-guide.md` — X API取得手順
+- `~/projects/claude/ai-company/skills/x-post-pdca-analyzer/references/kpi-benchmarks.md` — S〜D 5段階評価基準
+
+**ステータス**: SKILL.md・スクリプト・リファレンス作成済み。X API Basicプランの Bearer Token 取得済み。
+
+**残タスク（Claude Codeで実施）**:
+1. `.env` にAPIキー5つを設定する（`~/projects/claude/ai-company/.env` — テンプレート作成済み、値の貼付が必要）
+2. `pip install requests python-dotenv requests-oauthlib --break-system-packages` で依存ライブラリをインストール
+3. `python skills/x-post-pdca-analyzer/scripts/fetch_tweet_metrics.py --username ichi_eigo --count 3` で動作確認
+4. 動作確認後、`ln -s ~/projects/claude/ai-company/skills/x-post-pdca-analyzer ~/.claude/skills/x-post-pdca-analyzer` でグローバル公開
+5. 実データでPDCA分析を実行してスキルの調整
+
+**追加日**: 2026-03-15
+
+---
+
 ## 未着手・構想中のスキル
 
 以下は想定される候補。どの部門のどの末端業務から着手してもよい。
@@ -215,7 +269,7 @@
 - **テーマローテーションスキル** — 17テーマのローテーション管理
 - **@careermigaki スレッド作成スキル** — IODフレームワーク、STAR面接対策等
 - **note.com記事スキル** — 5カテゴリテンプレート（Story, Problem-solving等）
-- **Twitter分析スキル** — アナリティクスCSVを読み込んで改善ポイント抽出
+- ~~**Twitter分析スキル**~~ → **x-post-pdca-analyzer として完成済み**
 
 ### 管理・経理部門
 - **freee連携スキル** — MCP経由での会計データ操作（設定途中）

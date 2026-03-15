@@ -209,6 +209,49 @@ mkdir -p ~/projects/claude/native-real/{type}/{slug}/
 
 ---
 
+### タイプF: ListenUp問題追加
+
+**対象**: `/listening/` の問題プール拡充
+
+**実行条件**:
+- analyzerのH分析で問題プール枯渇サインが検出された場合
+- 特定axisの問題数が不足している場合（部長からの指示）
+- 定期的な問題補充（月1回目安）
+
+**実行手順**:
+```bash
+cd ~/projects/claude/native-real
+
+# 全axis均等に生成（通常）
+python3 generate_questions.py --count 100
+
+# 特定axis補強（部長指示がある場合）
+python3 generate_questions.py --count 100 --axis-only distractor
+
+# 生成後に本番追加（MP3生成 → questions.js追記 → git push）
+python3 add_questions.py
+```
+
+**品質確認**:
+- 生成後のaxis分布を確認（各axis 18〜22%が目標）
+- `node --check` は .html に対して使えないため、sed でスクリプト抽出して構文チェック:
+  ```bash
+  sed -n '/<script>/,/<\/script>/p' listening/index.html > /tmp/listenup_check.js && node --check /tmp/listenup_check.js
+  ```
+
+**実行前の確認フォーマット**:
+```
+### ListenUp問題追加
+
+現在の問題数: X,XXX問
+追加予定: XXX問（axis: {指定またはall}）
+現在のaxis分布: speed XX% / reduction XX% / vocab XX% / context XX% / distractor XX%
+
+問題生成を実行しますか？（generate → add → git pushまで自動実行）
+```
+
+---
+
 ### タイプD: Disavow ファイル作成・更新
 
 **ファイルパス**: `~/projects/claude/native-real/disavow.txt`
