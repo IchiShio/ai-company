@@ -210,3 +210,22 @@ Check 結果:
 
 GitHub Pages 反映: 1〜2分後
 ```
+
+### Step 4: 部長サイト状況レポート
+
+全Checkが完了した後、**Agent tool** で部長サブエージェントを生成してサイト状況レポートを出力させる:
+
+```
+description: "SEO bucho site report"
+prompt: |
+  以下のSKILL.mdを読み、「パイプライン完了後レポート」セクションに従って
+  サイト状況レポートを生成せよ。
+  SKILL.mdパス: /Users/yusuke/.claude/skills/native-real-bucho/SKILL.md
+
+  データフォルダ: ~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/{今日の日付}/
+
+  レポートはターミナルに出力すること（ファイル保存不要）。
+mode: bypassPermissions
+```
+
+このレポートがパイプラインの最終出力となる。

@@ -154,6 +154,24 @@ else
   echo "⚠️ git: uncommitted changes"
 fi
 
+# ========================================
+# Step 4: 部長サイト状況レポート
+# ========================================
+echo ""
+echo "--- Step 4: 部長サイト状況レポート ---"
+
+claude -p "
+以下のSKILL.mdを読み、「パイプライン完了後レポート」セクションに従って
+サイト状況レポートを生成せよ。
+SKILL.mdパス: $SKILLS_DIR/native-real-bucho/SKILL.md
+
+データフォルダ: $DATA_DIR
+
+レポートはそのまま出力すること（ファイル保存不要）。
+" --resume "$SESSION_ID" \
+  --allowedTools "Bash,Read,Glob,Grep" \
+  --output-format text 2>/dev/null
+
 echo ""
 echo "========================================="
 echo "✅ パイプライン完了"
