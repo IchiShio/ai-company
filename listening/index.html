@@ -2716,12 +2716,19 @@ function goToStart() {
   if (total > 0) {
     try {
       const p = loadProgress();
+      const _axStats = p.axisStats || {};
       gtag('event', 'quiz_session_complete', {
         session_questions: total,
         session_correct: score,
         session_accuracy: total > 0 ? Math.round(score / total * 100) : 0,
         lifetime_questions: p.totalAnswered,
-        daily_streak: p.dailyStreak
+        daily_streak: p.dailyStreak,
+        quiz_mode: quizMode,
+        axis_speed_acc: (_axStats.speed?.a || 0) >= 5 ? Math.round((_axStats.speed.c / _axStats.speed.a) * 100) : -1,
+        axis_reduction_acc: (_axStats.reduction?.a || 0) >= 5 ? Math.round((_axStats.reduction.c / _axStats.reduction.a) * 100) : -1,
+        axis_vocab_acc: (_axStats.vocab?.a || 0) >= 5 ? Math.round((_axStats.vocab.c / _axStats.vocab.a) * 100) : -1,
+        axis_context_acc: (_axStats.context?.a || 0) >= 5 ? Math.round((_axStats.context.c / _axStats.context.a) * 100) : -1,
+        axis_distractor_acc: (_axStats.distractor?.a || 0) >= 5 ? Math.round((_axStats.distractor.c / _axStats.distractor.a) * 100) : -1
       });
     } catch(e) {}
   }
@@ -3036,7 +3043,9 @@ function choose(selected) {
       max_level_reached: LEVELS[currentLevel],
       lifetime_questions: p.totalAnswered,
       lifetime_accuracy: _lifeAcc,
-      daily_streak: p.dailyStreak
+      daily_streak: p.dailyStreak,
+      quiz_mode: quizMode,
+      question_axis: ax || 'unknown'
     });
   } catch(e) { /* gtag未定義の場合は無視 */ }
 
