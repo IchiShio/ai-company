@@ -201,9 +201,19 @@ function formatDate(date) {
 }
 
 function getOrCreateFolder(parentId, name) {
-  const parent   = DriveApp.getFolderById(parentId);
-  const existing = parent.getFoldersByName(name);
-  return existing.hasNext() ? existing.next() : parent.createFolder(name);
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const parent   = DriveApp.getFolderById(parentId);
+      const existing = parent.getFoldersByName(name);
+      return existing.hasNext() ? existing.next() : parent.createFolder(name);
+    } catch (e) {
+      if (attempt < 2) {
+        Utilities.sleep((attempt + 1) * 3000); // 3秒、6秒と待機してリトライ
+      } else {
+        throw e;
+      }
+    }
+  }
 }
 
 function saveCsv(folder, filename, header, rows) {

@@ -50,7 +50,7 @@ description: |
 ### データフォルダの自動検出
 
 ```
-ベースパス: ~/マイドライブ/02_AI・ブログ・仕事/GoogleG4,SearchConsole/
+ベースパス: ~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/
 ```
 
 - ユーザーが日付を指定した場合 → その日付フォルダを使用（例: `2026-03-14`）
@@ -58,7 +58,7 @@ description: |
 
 フォルダ検出コマンド例:
 ```bash
-ls ~/マイドライブ/02_AI・ブログ・仕事/GoogleG4,SearchConsole/ | sort | tail -1
+ls ~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/ | sort | tail -1
 ```
 
 ### 読み込む12ファイル
@@ -415,7 +415,7 @@ affiliate_weight（URL収益ティアに基づく）:
 ### 保存先
 
 ```
-/Users/yusuke/マイドライブ/02_AI・ブログ・仕事/GoogleG4,SearchConsole/{YYYY-MM-DD}/seo_report.md
+/Users/yusuke/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/{YYYY-MM-DD}/seo_report.md
 ```
 
 - `{YYYY-MM-DD}` は分析に使用したデータフォルダの日付（最新フォルダと同じ）

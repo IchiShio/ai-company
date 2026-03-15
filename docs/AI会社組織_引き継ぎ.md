@@ -95,7 +95,7 @@
 - トリガー: 毎朝6時自動実行
 - セットアップ手順: `gas/SETUP.md`
 
-**保存先**: `~/マイドライブ/02_AI・ブログ・仕事/GoogleG4,SearchConsole/YYYY-MM-DD/`（Google Drive同期フォルダ）
+**保存先**: `~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/YYYY-MM-DD/`（Google Drive同期フォルダ）
 
 **スケジュールタスク**: `native-real-seo-data-collection`（毎朝6:05 AM、cron: `0 6 * * *`）
 
