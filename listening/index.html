@@ -862,6 +862,53 @@
       flex-shrink: 0;
     }
 
+    /* ── QUIZ MODE SELECTOR ── */
+    .quiz-mode-selector {
+      display: none; /* showReturningStatsで表示 */
+      flex-wrap: wrap; justify-content: center; gap: 6px;
+      margin: 0 auto 16px; max-width: 400px;
+      animation: fadeUp 0.6s 0.3s ease-out both;
+    }
+    .qm-btn {
+      padding: 7px 14px; border-radius: 20px; border: 1px solid var(--border);
+      background: var(--bg); font-size: 12px; font-weight: 600;
+      color: var(--text-2); cursor: pointer; transition: all 0.18s;
+      font-family: inherit; line-height: 1.3;
+    }
+    .qm-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+    .qm-btn.qm-active { background: var(--gold); color: #fff; border-color: var(--gold); }
+    .qm-btn-sub { display: block; font-size: 10px; font-weight: 400; opacity: 0.8; }
+
+    /* ── MILESTONE & SEEN PROGRESS ── */
+    .milestone-wrap {
+      display: none;
+      align-items: center; justify-content: center;
+      margin: 0 auto 8px; max-width: 400px;
+      animation: fadeUp 0.6s 0.2s ease-out both;
+    }
+    .milestone-text {
+      font-size: 13px; font-weight: 600;
+      color: var(--gold); letter-spacing: 0.2px;
+    }
+    .seen-progress-wrap {
+      display: none;
+      flex-direction: column; align-items: center; gap: 4px;
+      margin: 0 auto 16px; max-width: 400px; width: 100%;
+      animation: fadeUp 0.6s 0.25s ease-out both;
+    }
+    .seen-progress-bar {
+      width: 100%; height: 6px; border-radius: 3px;
+      background: var(--surface-2); overflow: hidden;
+    }
+    .seen-progress-fill {
+      height: 100%; border-radius: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transition: width 0.6s ease-out;
+    }
+    .seen-progress-label {
+      font-size: 11px; color: var(--text-3);
+    }
+
     /* ── DAILY MISSION DOTS (free-banner 内) ── */
     .dm-dots-wrap {
       display: inline-flex; align-items: center; gap: 5px; margin-right: 10px;
@@ -1821,6 +1868,13 @@
         <div class="rs-divider"></div>
         <div class="rs-item"><span id="rsAccuracy">—</span><small>正解率</small></div>
       </div>
+      <div class="milestone-wrap" id="milestoneWrap">
+        <span id="milestoneText" class="milestone-text"></span>
+      </div>
+      <div class="seen-progress-wrap" id="seenProgressWrap">
+        <div class="seen-progress-bar"><div class="seen-progress-fill" id="seenFill"></div></div>
+        <span class="seen-progress-label" id="seenLabel"></span>
+      </div>
       <div class="streak-status-wrap" id="streakStatusWrap">
         <span id="streakStatusText" class="streak-status-text"></span>
       </div>
@@ -1864,6 +1918,12 @@
             <div class="hm-opt">🏨 ホテルのフロント</div>
           </div>
         </div>
+      </div>
+      <div class="quiz-mode-selector" id="quizModeSelector">
+        <button class="qm-btn qm-active" data-mode="normal" onclick="selectMode('normal')">通常モード</button>
+        <button class="qm-btn" data-mode="daily" onclick="selectMode('daily')"><span class="qm-btn-sub" id="dailyModeLabel">今日のテーマ</span></button>
+        <button class="qm-btn" data-mode="weak" onclick="selectMode('weak')">弱点集中</button>
+        <button class="qm-btn" data-mode="revenge" onclick="selectMode('revenge')">リベンジ</button>
       </div>
       <div class="hero-ctas">
         <button class="btn-primary-lg" id="freeTrialBtn" onclick="beginQuiz()">今日の練習を始める</button>
@@ -2290,24 +2350,9 @@
       <a class="mission-article-link" href="/real-phrases/no-worries/">"No worries" — 大丈夫だよ</a>
       <a class="mission-article-link" href="/real-phrases/">→ フレーズ集をもっと見る（101表現）</a>
     </div>
-    <div class="mission-service-cta">
-      <div class="mission-service-label">🎯 リスニング力を実践で活かす</div>
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM" class="mission-service-card" target="_blank" rel="nofollow noopener">
-        <span class="mission-service-icon">🇯🇵</span>
-        <span class="mission-service-info">
-          <span class="mission-service-name">レアジョブ英会話</span>
-          <span class="mission-service-desc">毎日25分・業界最安値クラス・無料体験あり</span>
-        </span>
-        <span class="mission-service-arrow">→</span>
-      </a>
-      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE" class="mission-service-card" target="_blank" rel="nofollow noopener">
-        <span class="mission-service-icon">🌐</span>
-        <span class="mission-service-info">
-          <span class="mission-service-name">ネイティブキャンプ</span>
-          <span class="mission-service-desc">24時間・回数無制限・7日間無料</span>
-        </span>
-        <span class="mission-service-arrow">→</span>
-      </a>
+    <div class="mission-service-cta" id="missionServiceCta">
+      <div class="mission-service-label" id="missionServiceLabel">🎯 リスニング力を実践で活かす</div>
+      <div id="missionServiceCards"></div>
       <a href="/" style="display:block;text-align:center;font-size:12px;color:var(--text-3);text-decoration:none;margin-top:8px;transition:color 0.18s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text-3)'">全12サービスをランキングで比較する →</a>
     </div>
     <button class="mission-btn-back" onclick="closeMissionComplete()">← TOPに戻る</button>
@@ -2488,6 +2533,41 @@ function showReturningStats() {
   document.getElementById('rsAccuracy').textContent      = acc + '%';
   document.getElementById('returningStats').style.display = 'flex';
 
+  // マイルストーン称号
+  const MILESTONES = [
+    [1000, 'Listening Master'],
+    [500, 'Listening Expert'],
+    [300, 'Listening Adept'],
+    [100, 'Listening Challenger'],
+    [50, 'Listening Starter']
+  ];
+  const ms = MILESTONES.find(([n]) => p.totalAnswered >= n);
+  if (ms) {
+    document.getElementById('milestoneWrap').style.display = 'flex';
+    document.getElementById('milestoneText').textContent = ms[1] + ' — ' + ms[0] + '問達成';
+  }
+
+  // seenSet 進捗バー
+  const seen = loadSeen();
+  const totalQ = new Set(DATA.map(q => getSrsId(q)).filter(Boolean)).size;
+  if (seen.size > 0 && totalQ > 0) {
+    const pct = Math.min(100, Math.round(seen.size / totalQ * 100));
+    document.getElementById('seenProgressWrap').style.display = 'flex';
+    document.getElementById('seenFill').style.width = pct + '%';
+    document.getElementById('seenLabel').textContent = seen.size + ' / ' + totalQ + ' 問クリア（' + pct + '%）';
+  }
+
+  // モードセレクター表示 + 日替わりラベル更新
+  document.getElementById('quizModeSelector').style.display = 'flex';
+  const dailyAx = getDailyAxis();
+  const dailyLabel = dailyAx ? AXIS_USER_LABELS[dailyAx] : '総合';
+  document.getElementById('dailyModeLabel').textContent = '今日: ' + dailyLabel;
+  // リベンジモードの有無チェック（SRS+wrongOnceが空なら非活性）
+  const revBtn = document.querySelector('.qm-btn[data-mode="revenge"]');
+  const hasRevenge = Object.keys(loadSrs()).length > 0 || loadWrongOnce().size > 0;
+  if (!hasRevenge) { revBtn.style.opacity = '0.4'; revBtn.style.pointerEvents = 'none'; }
+  else { revBtn.style.opacity = '1'; revBtn.style.pointerEvents = 'auto'; }
+
   // ストリーク状態バナー
   if (p.dailyStreak >= 2) {
     const wrap = document.getElementById('streakStatusWrap');
@@ -2538,6 +2618,27 @@ const AXIS_USER_MSGS = {
 };
 
 // ─────────────────────────────────────────
+// QUIZ MODES
+// ─────────────────────────────────────────
+let quizMode = 'normal'; // 'normal' | 'daily' | 'weak' | 'revenge'
+const DAILY_AXES = ['speed', 'reduction', 'vocab', 'context', 'distractor', null, null]; // 月〜金=axis, 土日=総合
+
+function selectMode(mode) {
+  quizMode = mode;
+  document.querySelectorAll('.qm-btn').forEach(b => {
+    b.classList.toggle('qm-active', b.dataset.mode === mode);
+  });
+  // ボタンラベルをモードに合わせて変更
+  const btn = document.getElementById('freeTrialBtn');
+  const labels = { normal: '今日の練習を始める', daily: '今日のテーマに挑戦', weak: '弱点を集中トレーニング', revenge: 'リベンジ開始' };
+  btn.textContent = labels[mode] || labels.normal;
+}
+
+function getDailyAxis() {
+  return DAILY_AXES[new Date().getDay() === 0 ? 6 : new Date().getDay() - 1];
+}
+
+// ─────────────────────────────────────────
 // STATE
 // ─────────────────────────────────────────
 const LEVELS = ['lv1', 'lv2', 'lv3', 'lv4', 'lv5'];
@@ -2555,6 +2656,7 @@ let answered           = false;
 let srsItems           = {}; // { "q042": { interval, reps, dueDate } }
 let reviewQueue        = []; // 本日 due の SRS 問題（セッション開始時に確定）
 let wrongOnce          = new Set(); // 1回だけ間違えた問題ID（SRS未登録・登録閾値管理）
+let seenSet            = new Set(); // 解いた問題ID（既出管理・鮮度維持）
 let _firestoreLoadPromise = null; // Firestore 非同期読み込みの Promise（beginQuiz で await）
 let isPlaying          = false;
 
@@ -2593,6 +2695,7 @@ async function beginQuiz() {
   recoveryMode = false; postRecoveryLevel = -1; playCount = 0;
   srsItems  = loadSrs();       // Firestore sync 済み or localStorage フォールバック
   wrongOnce = loadWrongOnce(); // 登録閾値: 1回目間違い記録（localStorage のみ）
+  seenSet   = loadSeen();      // 既出問題管理（鮮度維持）
   initPools();
   document.getElementById('startScreen').classList.remove('active');
   document.getElementById('quizScreen').classList.add('active');
@@ -2631,13 +2734,50 @@ function goToStart() {
 const MAX_REVIEWS_PER_SESSION = 5;
 
 function initPools() {
-  pools = {
-    0: shuffle(DATA.filter(q => q.diff === 'lv1')),
-    1: shuffle(DATA.filter(q => q.diff === 'lv2')),
-    2: shuffle(DATA.filter(q => q.diff === 'lv3')),
-    3: shuffle(DATA.filter(q => q.diff === 'lv4')),
-    4: shuffle(DATA.filter(q => q.diff === 'lv5'))
-  };
+  // 全問消化チェック — seenSetがDATA総数以上ならリセット（2周目へ）
+  const totalIds = new Set(DATA.map(q => getSrsId(q)).filter(Boolean));
+  if (seenSet.size >= totalIds.size) {
+    seenSet.clear();
+    saveSeen();
+  }
+
+  // モード別のベースフィルタ
+  let baseFilter = () => true;
+  if (quizMode === 'daily') {
+    const ax = getDailyAxis();
+    if (ax) baseFilter = q => q.axis === ax;
+  } else if (quizMode === 'weak') {
+    const p = loadProgress();
+    const axisStats = p.axisStats || {};
+    const AXES = ['speed', 'reduction', 'vocab', 'context', 'distractor'];
+    const withData = AXES.filter(a => (axisStats[a]?.a || 0) >= 3);
+    if (withData.length >= 2) {
+      const sorted = [...withData].sort((a, b) => (axisStats[a].c / axisStats[a].a) - (axisStats[b].c / axisStats[b].a));
+      const weakAxes = new Set(sorted.slice(0, 2));
+      baseFilter = q => weakAxes.has(q.axis);
+    }
+  } else if (quizMode === 'revenge') {
+    const ids = new Set([...Object.keys(srsItems), ...wrongOnce]);
+    baseFilter = q => ids.has(getSrsId(q));
+  }
+
+  // 各レベルのプールを作成（未見問題を先頭に配置）
+  pools = {};
+  for (let i = 0; i <= 4; i++) {
+    const lvQuestions = DATA.filter(q => q.diff === LEVELS[i]).filter(baseFilter);
+    const unseen = shuffle(lvQuestions.filter(q => !seenSet.has(getSrsId(q))));
+    const seen   = shuffle(lvQuestions.filter(q => seenSet.has(getSrsId(q))));
+    pools[i] = [...unseen, ...seen];
+  }
+
+  // revenge/weak/dailyモードでプールが極端に少ない場合、全問題にフォールバック
+  const totalInPools = Object.values(pools).reduce((s, p) => s + p.length, 0);
+  if (totalInPools < 5 && quizMode !== 'normal') {
+    for (let i = 0; i <= 4; i++) {
+      const lvQ = DATA.filter(q => q.diff === LEVELS[i]);
+      pools[i] = shuffle(lvQ);
+    }
+  }
 
   // 本日 due の SRS 復習問題を最大5件キューに積む
   const today = getToday();
@@ -2670,9 +2810,12 @@ function pickQuestion() {
   // ⓪ SRS 復習問題を最優先（Anki 方式：復習を先に消化してから新問題へ）
   if (reviewQueue.length > 0) return reviewQueue.shift();
 
-  // プールが空なら再初期化
+  // プールが空なら再初期化（未見問題を優先）
   if (!pools[currentLevel] || !pools[currentLevel].length) {
-    pools[currentLevel] = shuffle(DATA.filter(q => q.diff === LEVELS[currentLevel]));
+    const lvQ = DATA.filter(q => q.diff === LEVELS[currentLevel]);
+    const unseen = shuffle(lvQ.filter(q => !seenSet.has(getSrsId(q))));
+    const seen   = shuffle(lvQ.filter(q => seenSet.has(getSrsId(q))));
+    pools[currentLevel] = unseen.length > 0 ? [...unseen, ...seen] : shuffle(lvQ);
   }
   const pool = pools[currentLevel];
 
@@ -2845,6 +2988,7 @@ function choose(selected) {
     if (ok) p.axisStats[ax].c++;
   }
   saveProgress(p);
+  markSeen(current);
 
   // SRS 更新（セッション内即再出題の isRetry は除外）
   // 案B: 登録閾値 — 2回間違えた問題だけ SRS に登録する
@@ -3197,6 +3341,38 @@ function showMissionComplete() {
     axisWrap.style.display = 'none';
   }
 
+  // axis別パーソナライズサービス提案
+  const SERVICE_BY_AXIS = {
+    speed: { icon: '🌐', name: 'ネイティブキャンプ', desc: '回数無制限で速い英語に慣れる・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE', reason: '早口の英語に慣れるには、大量のリアル会話が効果的です' },
+    reduction: { icon: '🌐', name: 'ネイティブキャンプ', desc: 'ネイティブ講師と崩れた発音を実践練習・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE', reason: '音の変化は、ネイティブとの実際の会話で身につきます' },
+    vocab: { icon: '🇯🇵', name: 'DMM英会話', desc: '13,000以上の教材で語彙を実践的に増やす', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR', reason: '語彙やイディオムは、会話の中で使うと定着します' },
+    context: { icon: '🇯🇵', name: 'レアジョブ英会話', desc: '毎日25分・実践的な場面練習・無料体験あり', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM', reason: '場面の読み取り力は、対話型レッスンで鍛えられます' },
+    distractor: { icon: '🏢', name: 'Bizmates', desc: 'ビジネス英語特化・精密なリスニング力を鍛える', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K5OB5U+54AA+5YRHE', reason: '細かい聴き分けは、ビジネス会話での実践が近道です' }
+  };
+  const DEFAULT_SERVICES = [
+    { icon: '🇯🇵', name: 'レアジョブ英会話', desc: '毎日25分・業界最安値クラス・無料体験あり', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM' },
+    { icon: '🌐', name: 'ネイティブキャンプ', desc: '24時間・回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' }
+  ];
+  const cardsEl = document.getElementById('missionServiceCards');
+  const labelEl = document.getElementById('missionServiceLabel');
+  if (rows.length >= 2 && rows[0].rate < 75) {
+    const weakAxis = rows[0].key;
+    const svc = SERVICE_BY_AXIS[weakAxis];
+    if (svc) {
+      labelEl.textContent = '🎯 ' + svc.reason;
+      cardsEl.innerHTML = `<a href="${svc.url}" class="mission-service-card" target="_blank" rel="nofollow noopener">
+        <span class="mission-service-icon">${svc.icon}</span>
+        <span class="mission-service-info"><span class="mission-service-name">${svc.name}</span><span class="mission-service-desc">${svc.desc}</span></span>
+        <span class="mission-service-arrow">&rarr;</span></a>`;
+    }
+  } else {
+    labelEl.textContent = '🎯 リスニング力を実践で活かす';
+    cardsEl.innerHTML = DEFAULT_SERVICES.map(s => `<a href="${s.url}" class="mission-service-card" target="_blank" rel="nofollow noopener">
+      <span class="mission-service-icon">${s.icon}</span>
+      <span class="mission-service-info"><span class="mission-service-name">${s.name}</span><span class="mission-service-desc">${s.desc}</span></span>
+      <span class="mission-service-arrow">&rarr;</span></a>`).join('');
+  }
+
   document.getElementById('missionOverlay').classList.add('show');
 
   // Firestore へ学習データを保存（セッション終了時に1回）
@@ -3213,6 +3389,7 @@ function closeMissionComplete() {
 // ─────────────────────────────────────────
 const SRS_KEY        = 'listenup_srs';
 const WRONG_ONCE_KEY = 'listenup_wo';
+const SEEN_KEY       = 'listenup_seen';
 const SRS_TTL_DAYS   = 30;  // due から N日以上過去のアイテムを自動削除
 const SRS_MAX        = 200; // アクティブアイテムの上限（安全弁）
 
@@ -3252,6 +3429,18 @@ function saveSrs() {
   pruneSrsItems();
   capSrsItems();
   try { localStorage.setItem(SRS_KEY, JSON.stringify(srsItems)); } catch {}
+}
+
+// ─── Seen Set（既出問題管理）───
+function loadSeen() {
+  try { return new Set(JSON.parse(localStorage.getItem(SEEN_KEY) || '[]')); } catch { return new Set(); }
+}
+function saveSeen() {
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify([...seenSet])); } catch {}
+}
+function markSeen(q) {
+  const id = getSrsId(q);
+  if (id) { seenSet.add(id); saveSeen(); }
 }
 
 function addDays(n) {
