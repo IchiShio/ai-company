@@ -968,6 +968,34 @@
       display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
     }
     @media (max-width: 520px) { .lp-articles-grid { grid-template-columns: 1fr; } }
+    .lp-phrases-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    }
+    @media (max-width: 640px) { .lp-phrases-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 400px) { .lp-phrases-grid { grid-template-columns: 1fr; } }
+    .lp-phrase-chip {
+      display: block; padding: 10px 14px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 10px;
+      text-decoration: none; transition: all var(--t); text-align: center;
+    }
+    .lp-phrase-chip:hover { border-color: var(--teal); transform: translateY(-1px); background: var(--teal-bg); }
+    .lp-phrase-en { font-size: 13px; font-weight: 700; color: var(--text-1); line-height: 1.4; }
+    .lp-phrase-ja { font-size: 10px; color: var(--text-3); margin-top: 3px; }
+
+    .lp-services-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+    }
+    @media (max-width: 520px) { .lp-services-grid { grid-template-columns: 1fr; } }
+    .lp-service-card {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 16px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 12px;
+      text-decoration: none; transition: all var(--t);
+    }
+    .lp-service-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .lp-service-icon { font-size: 24px; flex-shrink: 0; }
+    .lp-service-name { font-size: 13px; font-weight: 700; color: var(--text-1); }
+    .lp-service-desc { font-size: 10px; color: var(--text-3); margin-top: 2px; }
     .lp-article-card {
       display: block; padding: 14px 16px; background: var(--surface);
       border: 1px solid var(--border); border-radius: 12px;
@@ -1578,13 +1606,14 @@
       text-decoration: none;
     }
     .lp-nav-logo svg { width: 24px; height: 24px; color: var(--gold); }
-    .lp-nav-right { display: flex; align-items: center; gap: 20px; }
+    .lp-nav-right { display: flex; align-items: center; gap: 6px; }
     .lp-nav-link {
-      font-size: 13px; font-weight: 600;
+      font-size: 12px; font-weight: 600;
       color: var(--text-2); text-decoration: none;
       transition: color var(--t);
+      padding: 6px 10px; border-radius: 8px;
     }
-    .lp-nav-link:hover { color: var(--text-1); }
+    .lp-nav-link:hover { color: var(--text-1); background: var(--surface); }
     .lp-nav-cta {
       background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
       color: #000; font-size: 13px; font-weight: 800;
@@ -1599,7 +1628,7 @@
       box-shadow: 0 4px 22px rgba(245,166,35,0.45);
       transform: translateY(-1px);
     }
-    @media (max-width: 480px) {
+    @media (max-width: 640px) {
       .lp-nav-link { display: none; }
     }
 
@@ -1668,6 +1697,9 @@
       ListenUp
     </a>
     <div class="lp-nav-right">
+      <a class="lp-nav-link" href="/">ランキング</a>
+      <a class="lp-nav-link" href="/articles/">学習コラム</a>
+      <a class="lp-nav-link" href="/real-phrases/">フレーズ集</a>
       <button class="lp-nav-cta" onclick="beginQuiz()">今日の練習を始める</button>
     </div>
   </div>
@@ -1978,18 +2010,98 @@
         </a>
       </div>
       <div style="text-align:center;margin-top:24px;">
-        <a href="https://native-real.com/" style="display:inline-block;padding:12px 28px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.35);border-radius:12px;color:var(--gold);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(251,191,36,0.2)'" onmouseout="this.style.background='rgba(251,191,36,0.12)'">英会話サービスをランキングで比較する →</a>
+        <a href="/articles/" style="display:inline-block;padding:12px 28px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.35);border-radius:12px;color:var(--gold);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(251,191,36,0.2)'" onmouseout="this.style.background='rgba(251,191,36,0.12)'">学習コラムをもっと見る →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── PHRASES SECTION ── -->
+  <div class="lp-articles reveal" style="background:var(--teal-bg);">
+    <div class="lp-articles-inner">
+      <div class="lp-articles-eyebrow">REAL PHRASES</div>
+      <h2 class="lp-articles-h">リスニングに出てくる<span style="color:var(--teal)">ネイティブ表現</span></h2>
+      <div class="lp-phrases-grid">
+        <a class="lp-phrase-chip" href="/real-phrases/not-gonna-lie/">
+          <div class="lp-phrase-en">"Not gonna lie"</div>
+          <div class="lp-phrase-ja">正直に言うと</div>
+        </a>
+        <a class="lp-phrase-chip" href="/real-phrases/kind-of/">
+          <div class="lp-phrase-en">"Kind of"</div>
+          <div class="lp-phrase-ja">ちょっと・まあ</div>
+        </a>
+        <a class="lp-phrase-chip" href="/real-phrases/no-worries/">
+          <div class="lp-phrase-en">"No worries"</div>
+          <div class="lp-phrase-ja">大丈夫だよ</div>
+        </a>
+        <a class="lp-phrase-chip" href="/real-phrases/you-know-what-i-mean/">
+          <div class="lp-phrase-en">"You know what I mean"</div>
+          <div class="lp-phrase-ja">わかるでしょ？</div>
+        </a>
+        <a class="lp-phrase-chip" href="/real-phrases/got-it/">
+          <div class="lp-phrase-en">"Got it"</div>
+          <div class="lp-phrase-ja">了解</div>
+        </a>
+        <a class="lp-phrase-chip" href="/real-phrases/out-of-the-blue/">
+          <div class="lp-phrase-en">"Out of the blue"</div>
+          <div class="lp-phrase-ja">突然</div>
+        </a>
+      </div>
+      <div style="text-align:center;margin-top:24px;">
+        <a href="/real-phrases/" style="display:inline-block;padding:12px 28px;background:rgba(14,165,233,0.12);border:1px solid rgba(14,165,233,0.35);border-radius:12px;color:var(--teal);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(14,165,233,0.2)'" onmouseout="this.style.background='rgba(14,165,233,0.12)'">フレーズ集をもっと見る（101表現）→</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SERVICE RANKING SECTION ── -->
+  <div class="lp-articles reveal">
+    <div class="lp-articles-inner">
+      <div class="lp-articles-eyebrow">RECOMMENDED SERVICES</div>
+      <h2 class="lp-articles-h">リスニング力を<span class="text-gold">実践で活かす</span></h2>
+      <div class="lp-services-grid">
+        <a class="lp-service-card" href="/services/rarejob/">
+          <span class="lp-service-icon">🇯🇵</span>
+          <div>
+            <div class="lp-service-name">レアジョブ英会話</div>
+            <div class="lp-service-desc">毎日25分・業界最安値クラス</div>
+          </div>
+        </a>
+        <a class="lp-service-card" href="/services/nativecamp/">
+          <span class="lp-service-icon">🌐</span>
+          <div>
+            <div class="lp-service-name">ネイティブキャンプ</div>
+            <div class="lp-service-desc">24時間・回数無制限</div>
+          </div>
+        </a>
+        <a class="lp-service-card" href="/services/cambly/">
+          <span class="lp-service-icon">🇺🇸</span>
+          <div>
+            <div class="lp-service-name">Cambly</div>
+            <div class="lp-service-desc">ネイティブ講師のみ</div>
+          </div>
+        </a>
+        <a class="lp-service-card" href="/services/dmm-eikaiwa/">
+          <span class="lp-service-icon">💬</span>
+          <div>
+            <div class="lp-service-name">DMM英会話</div>
+            <div class="lp-service-desc">130ヵ国の講師・教材充実</div>
+          </div>
+        </a>
+      </div>
+      <div style="text-align:center;margin-top:24px;">
+        <a href="/" style="display:inline-block;padding:12px 28px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.35);border-radius:12px;color:var(--gold);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(251,191,36,0.2)'" onmouseout="this.style.background='rgba(251,191,36,0.12)'">全12サービスをランキングで比較する →</a>
       </div>
     </div>
   </div>
 
   <div class="lp-footer">
     <div style="margin-bottom:8px">
-      <a href="/privacy/" style="color:var(--text-3);text-decoration:none;margin:0 10px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">プライバシーポリシー</a>
-      <a href="https://native-real.com/" style="color:var(--text-3);text-decoration:none;margin:0 10px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">英会話サービス比較</a>
-      <a href="/prompts/" style="color:var(--text-3);text-decoration:none;margin:0 10px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">AIプロンプト集</a>
+      <a href="/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">サービス比較ランキング</a>
+      <a href="/articles/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">学習コラム</a>
+      <a href="/real-phrases/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">フレーズ集</a>
+      <a href="/prompts/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">AIプロンプト集</a>
+      <a href="/privacy/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">プライバシーポリシー</a>
     </div>
-    © 2026 ListenUp · 全問無料
+    © 2026 native-real.com · ListenUp 全問無料
   </div>
 
 </div>
@@ -2093,9 +2205,15 @@
     </div>
     <div class="mission-articles">
       <div class="mission-articles-label">📖 次に読む</div>
-      <a class="mission-article-link" href="/articles/english-speaking-improvement/">スピーキングが伸びない3つの共通点と今日からできる改善法</a>
+      <a class="mission-article-link" href="/articles/english-listening-why-cant-hear/">英語のリスニングが聞き取れない原因と根本解決法</a>
+      <a class="mission-article-link" href="/articles/shadowing-complete-guide/">シャドーイングのやり方完全ガイド【効果・手順・教材】</a>
       <a class="mission-article-link" href="/articles/english-habit-guide/">社会人が英語を習慣化する方法【挫折しない7つのコツ】</a>
-      <a class="mission-article-link" href="/articles/online-eikaiwa-frequency-guide/">英会話は週何回受けると効果が出る？科学的根拠から解説</a>
+    </div>
+    <div class="mission-articles" style="border-top:none;padding-top:0;margin-top:-4px;">
+      <div class="mission-articles-label">💡 クイズに出てくるフレーズ</div>
+      <a class="mission-article-link" href="/real-phrases/not-gonna-lie/">"Not gonna lie" — 正直に言うと</a>
+      <a class="mission-article-link" href="/real-phrases/no-worries/">"No worries" — 大丈夫だよ</a>
+      <a class="mission-article-link" href="/real-phrases/">→ フレーズ集をもっと見る（101表現）</a>
     </div>
     <div class="mission-service-cta">
       <div class="mission-service-label">🎯 リスニング力を実践で活かす</div>
@@ -2115,6 +2233,7 @@
         </span>
         <span class="mission-service-arrow">→</span>
       </a>
+      <a href="/" style="display:block;text-align:center;font-size:12px;color:var(--text-3);text-decoration:none;margin-top:8px;transition:color 0.18s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text-3)'">全12サービスをランキングで比較する →</a>
     </div>
     <button class="mission-btn-back" onclick="closeMissionComplete()">← TOPに戻る</button>
   </div>
