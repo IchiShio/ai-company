@@ -33,6 +33,50 @@ Tier 1ページ（`/`・`/services/*/`）への施策を最優先とすること
 
 ---
 
+## Step 0: テクニカルSEOベースラインチェック
+
+**実行タイミング**: パイプライン開始時（月1回、または新規ページ追加時）
+
+Step 1 の前に、サイト全体のテクニカルSEOベースラインを検査する。
+**Check 0 を自分で直接実行する**（Agent不要）:
+
+### Check 0（直接実行）
+
+`~/projects/claude/native-real/` 内の全 index.html ファイルを検査する:
+- `articles/*/index.html`
+- `real-phrases/*/index.html`
+- `services/*/index.html`
+- `index.html`（トップページ）
+
+各ページで以下を確認する:
+
+**メタタグ検査**:
+1. `<title>` が60文字以内か
+2. `<meta name="description">` が70〜120文字か
+3. `<meta name="author">` が存在するか
+4. `<meta property="og:title">` が存在するか
+5. `<meta property="og:description">` が存在するか
+6. `<meta property="og:image">` が存在するか
+7. `<meta property="og:url">` が存在するか
+8. `<meta property="og:type">` が存在するか
+9. `<meta property="og:locale">` が `ja_JP` であるか
+10. `<meta name="twitter:card">` が存在するか
+11. `<meta name="twitter:title">` が存在するか
+12. `<meta name="twitter:description">` が存在するか
+
+**構造化データ検査**:
+1. JSON-LDに `datePublished` が含まれるか
+2. JSON-LDに `dateModified` が含まれるか
+3. JSON-LDに `author` (`"@type": "Person"`) が含まれるか
+4. `articles/*/` と `services/*/` に FAQPage スキーマがあるか（推奨）
+
+**判定**:
+- ⚠️ WARNING → 欠落リストを表示し、Step 1 へ進む（パイプラインは止めない）
+  - WARNING の場合、Step 3 の executor に修正リストを追加で渡し、Top 5 アクションに加えてベースライン修正も実行させる
+- ✅ PASS → Step 1 へ進む
+
+---
+
 ## Step 1: データ収集
 
 **Agent tool** で以下のサブエージェントを生成する:
@@ -159,6 +203,7 @@ mode: bypassPermissions
   ...
 
 Check 結果:
+  Check 0 (baseline):  ✅/⚠️
   Check 1 (collector): ✅/⚠️
   Check 2 (analyzer):  ✅/⚠️
   Check 3 (executor):  ✅/⚠️

@@ -31,6 +31,72 @@ description: |
 
 ---
 
+## Check 0: テクニカルSEOベースラインチェック
+
+**実行タイミング**: パイプライン実行前（Step 1 の前）。月1回、または新規ページ追加時。
+
+**検査対象**: `~/projects/claude/native-real/` 内の全 index.html ファイル
+- `articles/*/index.html`
+- `real-phrases/*/index.html`
+- `services/*/index.html`
+- `index.html`（トップページ）
+
+### 検査項目
+
+**0-A. 必須メタタグの完全性（各ページ）**
+
+| タグ | 必須 | 確認方法 |
+|---|---|---|
+| `<title>` | 必須 | 60文字以内（サフィックス含む） |
+| `<meta name="description">` | 必須 | 70〜120文字 |
+| `<meta name="author">` | 必須 | 存在するか |
+| `<meta property="og:title">` | 必須 | 存在するか |
+| `<meta property="og:description">` | 必須 | 存在するか |
+| `<meta property="og:image">` | 必須 | 存在するか |
+| `<meta property="og:url">` | 必須 | 存在するか |
+| `<meta property="og:type">` | 必須 | 存在するか |
+| `<meta property="og:locale">` | 必須 | `ja_JP` であるか |
+| `<meta name="twitter:card">` | 必須 | 存在するか |
+| `<meta name="twitter:title">` | 必須 | 存在するか |
+| `<meta name="twitter:description">` | 必須 | 存在するか |
+
+**0-B. 構造化データの完全性（各ページ）**
+
+| スキーマ | 必須 | 確認方法 |
+|---|---|---|
+| datePublished | 必須 | JSON-LDに含まれるか |
+| dateModified | 必須 | JSON-LDに含まれるか |
+| author (Person) | 必須 | JSON-LDに `"@type": "Person"` が含まれるか |
+| FAQPage | 推奨 | `articles/*/` と `services/*/` には推奨、`real-phrases/*/` は任意 |
+
+**0-C. 判定ルール**
+
+- 必須タグが欠落しているページが1つでもある → ⚠️ WARNING（リストを出力）
+- 全ページ完備 → ✅ PASS
+- Check 0 は ❌ FAIL にはしない（既存ページの基盤整備なので、パイプラインは止めない）
+- ⚠️ WARNING が出たら、executorに修正リストを渡して一括修正させる
+
+**0-D. 出力形式**
+
+```
+## ✅/⚠️ Check 0: テクニカルSEOベースライン
+
+検査ページ数: XX件
+完全準拠: XX件
+要修正: XX件
+
+要修正ページ一覧:
+| ページ | 欠落タグ |
+|---|---|
+| /articles/xxx/ | og:locale, twitter:title, twitter:description |
+| /services/xxx/ | author, datePublished, FAQPage |
+...
+
+→ 判定: WARNING（XX件のページに欠落あり）
+```
+
+---
+
 ## Check 1: native-real-data-collector の検査
 
 **実行タイミング**: Step 1（データ収集）完了後
@@ -253,11 +319,13 @@ cd ~/projects/claude/native-real && git status
 ## 単独実行時の動作
 
 `/native-real-seo-checker` を単独で呼び出した場合:
-1. 最新日付フォルダを自動検出
-2. Check 1 → Check 2 → Check 3 の順に全て実行
-3. 総合スコアを表示:
+1. まず Check 0（テクニカルSEOベースライン）を実行
+2. 最新日付フォルダを自動検出
+3. Check 1 → Check 2 → Check 3 の順に全て実行
+4. 総合スコアを表示:
    ```
    ## 総合チェック結果
+   Check 0 (baseline):  ✅ PASS
    Check 1 (collector): ✅ PASS
    Check 2 (analyzer):  ✅ PASS
    Check 3 (executor):  ⚠️ WARNING（title 33文字 - 基準超過）
