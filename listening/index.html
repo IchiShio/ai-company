@@ -3562,17 +3562,15 @@ function buildShareText() {
 
 function collectSharePhrases() {
   var phrases = [];
-  var seen = new Set();
-  for (var i = 0; i < sessionPhrases.length; i++) {
+  for (var i = 0; i < sessionPhrases.length && phrases.length < 6; i++) {
     var item = sessionPhrases[i];
-    for (var j = 0; j < (item.kp || []).length; j++) {
-      var kp = item.kp[j];
-      if (!seen.has(kp) && phrases.length < 6) {
-        var jaShort = item.ja ? item.ja.split('\u3002')[0].split('\u3001')[0] : '';
-        phrases.push({ en: kp, ja: jaShort });
-        seen.add(kp);
-      }
-    }
+    var kps = item.kp || [];
+    if (kps.length === 0) continue;
+    // 1問につき代表フレーズ1つ + 文全体の短い訳
+    var en = kps.length === 1 ? kps[0] : kps.slice(0, 2).join(' / ');
+    var jaShort = item.ja ? item.ja.split('\u3002')[0] : '';
+    if (jaShort.length > 25) jaShort = jaShort.substring(0, 25) + '\u2026';
+    phrases.push({ en: en, ja: jaShort });
   }
   return phrases;
 }
