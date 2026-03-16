@@ -87,7 +87,10 @@ prompt: |
   以下のSKILL.mdを読み、その指示に従ってデータ収集を実行せよ。
   SKILL.mdパス: /Users/yusuke/.claude/skills/native-real-data-collector/SKILL.md
 
-  SC/GA4データはGASが毎朝自動取得済み。Ahrefsデータのみ取得すること。
+  まず ~/projects/claude/native-real/docs/site-context.md を読み込み、
+  競合サイト情報（ベンチマーク競合のドメイン）を取得すること。
+
+  SC/GA4データはGASが毎朝自動取得済み。Ahrefsデータ（自サイト+競合）を取得すること。
   データフォルダ: ~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/{今日の日付}/
   collection_log.txt も更新すること。
 mode: bypassPermissions
@@ -97,7 +100,7 @@ mode: bypassPermissions
 
 ### Check 1（直接実行）
 以下を確認する:
-1. データフォルダに必須ファイルが存在するか: queries.csv, pages.csv, dates.csv, ga4_traffic.csv, ga4_pages.csv, collection_log.txt
+1. データフォルダに必須ファイルが存在するか: queries.csv, pages.csv, dates.csv, ga4_traffic.csv, ga4_pages.csv, collection_log.txt（ahrefs_competitor_keywords.csv, ahrefs_competitors.csv は任意）
 2. 各ファイルの行数が最低基準を満たすか: queries≥10, pages≥5, dates≥14, ga4_traffic≥2, ga4_pages≥5
 3. collection_log.txt にエラーがないか
 
@@ -117,10 +120,13 @@ prompt: |
   以下のSKILL.mdを読み、その指示に従ってSEO分析レポートを作成せよ。
   SKILL.mdパス: /Users/yusuke/.claude/skills/native-real-seo-analyzer/SKILL.md
 
+  まず ~/projects/claude/native-real/docs/site-context.md を読み込み、
+  ビジネスコンテキスト・競合情報・ターゲットキーワードを把握すること。
+
   データフォルダ: ~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/{今日の日付}/
   レポート保存先: 同フォルダの seo_report.md
 
-  全7セクション（A〜G）とTop 5を必ず含めること。
+  全9セクション（A〜I）とTop 5（フェーズタグ付き）を必ず含めること。
   Top 5は収益ティア（affiliate_weight）を考慮してスコアリングすること。
 mode: bypassPermissions
 ```
@@ -129,8 +135,8 @@ mode: bypassPermissions
 
 ### Check 2（直接実行）
 1. seo_report.md が存在するか
-2. 7セクション（A〜G）が全て含まれるか: `## A.`, `## B.`, `## C.`, `## D.`, `## E.`, `## F.`, `## G.` を検索
-3. Top 5 テーブルが5行あるか
+2. 9セクション（A〜I）が全て含まれるか: `## A.`, `## B.`, `## C.`, `## D.`, `## E.`, `## F.`, `## G.`, `## H.`, `## I.` を検索（H/Iはデータなしによるスキップ注記もPASS扱い）
+3. Top 5 テーブルが5行あり、各行にフェーズタグが含まれるか
 4. 各アクションにページ名・変更内容・数値が含まれるか
 
 - ✅ PASS → Step 3 へ
