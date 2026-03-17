@@ -126,7 +126,7 @@ prompt: |
   データフォルダ: ~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/{今日の日付}/
   レポート保存先: 同フォルダの seo_report.md
 
-  全9セクション（A〜I）とTop 5（フェーズタグ付き）を必ず含めること。
+  全10セクション（A〜J）とTop 5（フェーズタグ付き）を必ず含めること。
   Top 5は収益ティア（affiliate_weight）を考慮してスコアリングすること。
 mode: bypassPermissions
 ```
@@ -135,7 +135,7 @@ mode: bypassPermissions
 
 ### Check 2（直接実行）
 1. seo_report.md が存在するか
-2. 9セクション（A〜I）が全て含まれるか: `## A.`, `## B.`, `## C.`, `## D.`, `## E.`, `## F.`, `## G.`, `## H.`, `## I.` を検索（H/Iはデータなしによるスキップ注記もPASS扱い）
+2. 10セクション（A〜J）が全て含まれるか: `## A.`, `## B.`, `## C.`, `## D.`, `## E.`, `## F.`, `## G.`, `## H.`, `## I.`, `## J.` を検索（H/I/Jはデータなしによるスキップ注記もPASS扱い）
 3. Top 5 テーブルが5行あり、各行にフェーズタグが含まれるか
 4. 各アクションにページ名・変更内容・数値が含まれるか
 

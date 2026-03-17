@@ -58,9 +58,31 @@ Search Console APIまたはブラウザから以下を取得する。
      - 「国」→ 国データ
      - 「日付」→ 日付チャートデータ
 
+**カバレッジ（ページインデックス状況）データ:**
+
+検索パフォーマンスに加え、Search Console の「ページ」レポートも取得する。
+Googleが直接指摘する404・インデックス未登録等の問題であり、放置するとクロールバジェット浪費やサイト評価低下につながるため**毎回必ず取得する**。
+
+1. `https://search.google.com/search-console/index?resource_id=https%3A%2F%2Fnative-real.com%2F` にアクセスする
+2. ページが読み込まれたら「ページのインデックス登録」レポートが表示されていることを確認する
+3. ページ右上の「エクスポート」ボタン（↓アイコン）→ 「CSV をダウンロード」を選択する
+4. ZIPファイルを展開すると以下が含まれる:
+   - メタデータ.csv → `coverage_metadata.csv` にリネーム
+   - 重大な問題.csv → `coverage_errors.csv` にリネーム
+   - 重大ではない問題.csv → `coverage_warnings.csv` にリネーム
+   - 平均読み込み時間のチャート.csv → `coverage_chart.csv` にリネーム
+   - 日本語ファイル名が文字化けする場合は中身で判別する:
+     - 「プロパティ,値」ヘッダー → メタデータ
+     - 「理由,ソース,確認,ページ」ヘッダー → 問題ファイル（行数が多い方が重大な問題）
+     - 「日付,未登録,登録済み」ヘッダー → チャート
+
+**重要**: `coverage_errors.csv` に「見つかりませんでした（404）」等のデータ行がある場合、
+`collection_log.txt` に `⚠️ カバレッジ問題あり: {問題内容} ({ページ数}件)` と警告を記録すること。
+
 **ブラウザが使えない場合のフォールバック:**
 - Ahrefsが接続されている場合は `site-explorer-organic-keywords` と `site-explorer-pages-by-traffic` で代替データを取得する
 - どちらも使えない場合はスキップし、ログに記録する
+- カバレッジデータはブラウザ必須のためスキップし、ログに「カバレッジ: ブラウザ不可のためスキップ」と記録する
 
 ### 2. Google Analytics（GA4）
 
@@ -193,6 +215,10 @@ GoogleG4,SearchConsole/
     ├── ahrefs_backlinks.csv
     ├── ahrefs_competitor_keywords.csv
     ├── ahrefs_competitors.csv
+    ├── coverage_metadata.csv
+    ├── coverage_errors.csv
+    ├── coverage_warnings.csv
+    ├── coverage_chart.csv
     └── collection_log.txt
 ```
 
@@ -217,6 +243,7 @@ GoogleG4,SearchConsole/
   - Ahrefsバックリンク: [成功/スキップ/エラー] (行数: XX)
   - Ahrefs競合キーワード: [成功/スキップ/エラー] (行数: XX)
   - Ahrefs競合検出: [成功/スキップ/エラー] (行数: XX)
+  - SCカバレッジ: [成功/スキップ/エラー] (登録済みXX/未登録XX/エラーXX件)
 備考: [エラー内容やスキップ理由があれば記載]
 ```
 
