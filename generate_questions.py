@@ -282,7 +282,7 @@ def main():
         sys.exit(1)
 
     count = args.count
-    default_ratios = [0.15, 0.25, 0.30, 0.20, 0.10]
+    default_ratios = [0.25, 0.30, 0.25, 0.15, 0.05]
     if any(x is not None for x in [args.lv1, args.lv2, args.lv3, args.lv4, args.lv5]):
         lv = [args.lv1 or 0, args.lv2 or 0, args.lv3 or 0, args.lv4 or 0, args.lv5 or 0]
     else:
