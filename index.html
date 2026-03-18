@@ -1042,8 +1042,9 @@
 
     /* ── MISSION: SERVICE CTA ── */
     .mission-service-cta {
-      border-top: 1px solid var(--border);
-      padding-top: 14px; margin: 4px 0 18px;
+      background: linear-gradient(135deg, rgba(251,191,36,0.08) 0%, rgba(251,191,36,0.02) 100%);
+      border: 1px solid rgba(251,191,36,0.25); border-radius: 12px;
+      padding: 14px 14px 12px; margin: 12px 0 14px;
     }
     .mission-service-label {
       font-size: 11px; font-weight: 700; color: var(--text-3);
@@ -1061,6 +1062,35 @@
     .mission-service-name { display: block; font-size: 13px; font-weight: 700; color: var(--text-1); }
     .mission-service-desc { display: block; font-size: 11px; color: var(--text-3); margin-top: 1px; }
     .mission-service-arrow { font-size: 14px; color: var(--gold); font-weight: 700; flex-shrink: 0; }
+
+    /* ── INLINE CTA (10問ごと) ── */
+    .inline-cta {
+      margin: 14px 0 6px; padding: 14px 14px 12px;
+      background: linear-gradient(135deg, rgba(251,191,36,0.08) 0%, rgba(251,191,36,0.02) 100%);
+      border: 1px solid rgba(251,191,36,0.25); border-radius: 12px;
+      animation: inlineCtaIn 0.35s ease-out;
+    }
+    @keyframes inlineCtaIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+    .inline-cta-label {
+      font-size: 11px; font-weight: 700; color: var(--gold);
+      letter-spacing: 0.5px; margin-bottom: 8px;
+    }
+    .inline-cta-card {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 14px; border-radius: 10px;
+      background: var(--bg); border: 1px solid var(--border);
+      text-decoration: none; transition: all var(--t);
+    }
+    .inline-cta-card:active { transform: scale(0.98); }
+    .inline-cta-icon { font-size: 22px; flex-shrink: 0; }
+    .inline-cta-info { flex: 1; text-align: left; }
+    .inline-cta-name { display: block; font-size: 13px; font-weight: 700; color: var(--text-1); }
+    .inline-cta-desc { display: block; font-size: 11px; color: var(--text-3); margin-top: 2px; }
+    .inline-cta-arrow { font-size: 16px; color: var(--gold); font-weight: 700; flex-shrink: 0; }
+    .inline-cta-dismiss {
+      display: block; text-align: center; font-size: 11px; color: var(--text-3);
+      margin-top: 8px; cursor: pointer; background: none; border: none; padding: 4px;
+    }
 
     /* ── LP: BOTTOM EMAIL CTA ── */
     .lp-bottom-cta {
@@ -2413,6 +2443,7 @@
           <div class="transcript-ja" id="transcriptJa"></div>
         </div>
 
+        <div id="inlineCtaSlot"></div>
         <button class="next-btn" id="nextBtn" onclick="next()">次の問題 →</button>
       </div>
 
@@ -2441,6 +2472,11 @@
       <div class="mission-axis-rows" id="missionAxisRows"></div>
       <p class="mission-axis-msg" id="missionAxisMsg"></p>
     </div>
+    <div class="mission-service-cta" id="missionServiceCta">
+      <div class="mission-service-label" id="missionServiceLabel">🎯 リスニング力を実践で活かす</div>
+      <div id="missionServiceCards"></div>
+      <a href="/ranking/" style="display:block;text-align:center;font-size:12px;color:var(--text-3);text-decoration:none;margin-top:8px;transition:color 0.18s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text-3)'">全12サービスをランキングで比較する →</a>
+    </div>
     <div class="share-card-wrap" id="shareCardWrap">
       <div class="share-card-title">📝 今日覚えたフレーズ</div>
       <ul class="share-phrase-list" id="sharePhraseList"></ul>
@@ -2463,11 +2499,6 @@
       <a class="mission-article-link" href="/real-phrases/not-gonna-lie/">"Not gonna lie" — 正直に言うと</a>
       <a class="mission-article-link" href="/real-phrases/no-worries/">"No worries" — 大丈夫だよ</a>
       <a class="mission-article-link" href="/real-phrases/">→ フレーズ集をもっと見る（101表現）</a>
-    </div>
-    <div class="mission-service-cta" id="missionServiceCta">
-      <div class="mission-service-label" id="missionServiceLabel">🎯 リスニング力を実践で活かす</div>
-      <div id="missionServiceCards"></div>
-      <a href="/ranking/" style="display:block;text-align:center;font-size:12px;color:var(--text-3);text-decoration:none;margin-top:8px;transition:color 0.18s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text-3)'">全12サービスをランキングで比較する →</a>
     </div>
     <button class="mission-btn-back" onclick="closeMissionComplete()">← TOPに戻る</button>
   </div>
@@ -3260,10 +3291,70 @@ function choose(selected) {
   const nextBtn = document.getElementById('nextBtn');
   nextBtn.classList.add('show');
 
+  // 10問ごとのインラインCTA
+  showInlineCta();
+
   // 次へボタンが見えるように自動スクロール
   setTimeout(() => {
     nextBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }, 300);
+}
+
+// ─────────────────────────────────────────
+// INLINE CTA（10問ごと）
+// ─────────────────────────────────────────
+var inlineCtaDismissed = false;
+
+function showInlineCta() {
+  var slot = document.getElementById('inlineCtaSlot');
+  slot.innerHTML = '';
+  if (inlineCtaDismissed) return;
+  if (total < 5 || total % 10 !== 0) return;
+
+  var p = loadProgress();
+  var axisStats = p.axisStats || {};
+  var weakAxis = null;
+  var weakRate = 100;
+  Object.keys(axisStats).forEach(function(key) {
+    var s = axisStats[key];
+    if (s.a >= 5) {
+      var rate = Math.round(s.c / s.a * 100);
+      if (rate < weakRate) { weakRate = rate; weakAxis = key; }
+    }
+  });
+
+  var INLINE_SERVICES = {
+    speed: { icon: '🎧', name: 'ネイティブキャンプ', desc: '速い英語に慣れる！回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' },
+    reduction: { icon: '🎧', name: 'ネイティブキャンプ', desc: '音の変化を実践練習・回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' },
+    vocab: { icon: '📚', name: 'DMM英会話', desc: '13,000教材で語彙力UP・無料体験2回', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR' },
+    context: { icon: '💬', name: 'レアジョブ英会話', desc: '毎日25分の実践会話・無料体験あり', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM' },
+    distractor: { icon: '🏢', name: 'Bizmates', desc: 'ビジネス英語で精密リスニング力UP', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K5OB5U+54AA+5YRHE' }
+  };
+  var DEFAULT_INLINE = { icon: '🎧', name: 'ネイティブキャンプ', desc: 'リスニング力を実戦で伸ばす・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' };
+
+  var svc = (weakAxis && INLINE_SERVICES[weakAxis]) ? INLINE_SERVICES[weakAxis] : DEFAULT_INLINE;
+  var acc = total > 0 ? Math.round(score / total * 100) : 0;
+  var label = acc < 50
+    ? '🔥 リスニングの壁を突破するなら'
+    : (weakAxis ? '💡 ' + AXIS_USER_LABELS[weakAxis] + 'を伸ばすなら' : '🎯 リスニング力を次のレベルへ');
+
+  slot.innerHTML = '<div class="inline-cta">'
+    + '<div class="inline-cta-label">' + label + '</div>'
+    + '<a href="' + svc.url + '" class="inline-cta-card" target="_blank" rel="nofollow noopener" onclick="try{gtag(\'event\',\'inline_cta_click\',{service:\'' + svc.name + '\',question_number:' + total + '})}catch(_){}">'
+    + '<span class="inline-cta-icon">' + svc.icon + '</span>'
+    + '<span class="inline-cta-info"><span class="inline-cta-name">' + svc.name + '</span><span class="inline-cta-desc">' + svc.desc + '</span></span>'
+    + '<span class="inline-cta-arrow">&rarr;</span></a>'
+    + '<button class="inline-cta-dismiss" onclick="dismissInlineCta()">閉じる</button>'
+    + '</div>';
+
+  try { gtag('event', 'inline_cta_show', { service: svc.name, question_number: total }); } catch(_) {}
+}
+
+function dismissInlineCta() {
+  inlineCtaDismissed = true;
+  var slot = document.getElementById('inlineCtaSlot');
+  slot.innerHTML = '';
+  try { gtag('event', 'inline_cta_dismiss', { question_number: total }); } catch(_) {}
 }
 
 // ─────────────────────────────────────────
@@ -3536,15 +3627,21 @@ function showMissionComplete() {
     const weakAxis = rows[0].key;
     const svc = SERVICE_BY_AXIS[weakAxis];
     if (svc) {
-      labelEl.textContent = '🎯 ' + svc.reason;
-      cardsEl.innerHTML = `<a href="${svc.url}" class="mission-service-card" target="_blank" rel="nofollow noopener">
+      const ctaMsg = acc < 50
+        ? '🔥 聞き取れなかった原因は「実践不足」かも'
+        : '🎯 ' + svc.reason;
+      labelEl.textContent = ctaMsg;
+      cardsEl.innerHTML = `<a href="${svc.url}" class="mission-service-card" target="_blank" rel="nofollow noopener" onclick="try{gtag('event','mission_cta_click',{service:'${svc.name}',accuracy:${acc}})}catch(_){}">
         <span class="mission-service-icon">${svc.icon}</span>
         <span class="mission-service-info"><span class="mission-service-name">${svc.name}</span><span class="mission-service-desc">${svc.desc}</span></span>
         <span class="mission-service-arrow">&rarr;</span></a>`;
     }
   } else {
-    labelEl.textContent = '🎯 リスニング力を実践で活かす';
-    cardsEl.innerHTML = DEFAULT_SERVICES.map(s => `<a href="${s.url}" class="mission-service-card" target="_blank" rel="nofollow noopener">
+    const defaultMsg = acc < 50
+      ? '🔥 リスニングの壁を突破するなら'
+      : '🎯 リスニング力を実践で活かす';
+    labelEl.textContent = defaultMsg;
+    cardsEl.innerHTML = DEFAULT_SERVICES.map(s => `<a href="${s.url}" class="mission-service-card" target="_blank" rel="nofollow noopener" onclick="try{gtag('event','mission_cta_click',{service:'${s.name}',accuracy:${acc}})}catch(_){}">
       <span class="mission-service-icon">${s.icon}</span>
       <span class="mission-service-info"><span class="mission-service-name">${s.name}</span><span class="mission-service-desc">${s.desc}</span></span>
       <span class="mission-service-arrow">&rarr;</span></a>`).join('');
