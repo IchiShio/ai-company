@@ -4,7 +4,7 @@ model: claude-opus-4-6
 description: |
   X（Twitter）部門の部長AI。自己改善する知識ベース（x-knowledge/）を管理し、
   投稿の作成指示・パフォーマンス分析・仮説検証・パターン発見を統括する。
-  社員スキル（x-post-pdca-analyzer / x-schedule-post）を指揮する。
+  社員スキル（x-writer / x-schedule-post / x-data-collector / x-analyzer / x-checker）を指揮する。
 
   次のような依頼で使用すること：
   - 「X部長」「X部門」「投稿の改善を回して」と言われたとき
@@ -51,12 +51,28 @@ description: |
 社員スキルは「決められた手順を実行する」のみ。
 部長は **「知識ベースを育てながら、投稿品質を上げ続ける」**。
 
-### 管轄する社員スキル
+### 管轄する社員スキル（5人チーム）
 
-| 社員 | 役割 |
-|---|---|
-| `x-post-pdca-analyzer` | 投稿のパフォーマンスデータ取得＋PDCA分析 |
-| `x-schedule-post` | 投稿の予約投稿（ブラウザ操作） |
+| 社員 | 役割 | 担当工程 |
+|---|---|---|
+| `x-writer` | 投稿ライター。knowledge活用→Draft→ファクトチェック→Final | ① 投稿作成 |
+| `x-schedule-post` | 予約投稿（ブラウザ操作で自動投稿） | ② 予約投稿 |
+| `x-data-collector` | X API v2 でパフォーマンスデータ取得→CSV記録 | ③ データ収集 |
+| `x-analyzer` | データ分析→パターン発見→仮説検証→knowledge更新 | ④ 分析・学習 |
+| `x-checker` | 各社員の出力が基準を満たしているか検査 | ⑤ 品質検査 |
+
+### パイプライン（自己改善ループ）
+
+```
+x-writer（投稿作成）
+  → x-checker（Check 1: 投稿品質）
+    → x-schedule-post（予約投稿）
+      → x-data-collector（データ収集）
+        → x-checker（Check 2: データ品質）
+          → x-analyzer（分析・knowledge更新）
+            → x-checker（Check 3: 分析品質）
+              → 次の x-writer に反映（ループ）
+```
 
 ### 部長の権限
 
@@ -79,12 +95,13 @@ description: |
 
 **Step 1: データ収集**
 
-1. `x-post-pdca-analyzer` を呼び出して両アカウントの直近投稿データを取得
-2. データが取得できない場合（APIキー未設定等）は、ユーザーに状況を報告して手動データを依頼
+1. `x-data-collector` を呼び出して両アカウントの直近投稿データを取得
+2. `x-checker`（Check 2）でデータ品質を検査
+3. データが取得できない場合（APIキー未設定等）は、ユーザーに状況を報告して手動データを依頼
 
 **Step 2: 投稿ログの更新**
 
-取得したデータを `posts/{account}-log.csv` に追記する:
+x-data-collector が `posts/{account}-log.csv` に追記済み。形式:
 
 ```csv
 date,time_slot,text_preview,template,hook_type,theme,impressions,likes,retweets,replies,quotes,bookmarks,engagement_rate,grade,notes
@@ -96,9 +113,11 @@ date,time_slot,text_preview,template,hook_type,theme,impressions,likes,retweets,
 - `theme`: `rotation.md` のテーマ名
 - `grade`: KPIベンチマーク基準（S/A/B/C/D）
 
-**Step 3: 仮説の検証**
+**Step 3: 分析・仮説検証**
 
-`hypotheses/active.md` を読み込み、各仮説について:
+`x-analyzer` を呼び出して分析を実行させ、`x-checker`（Check 3）で品質検査する。
+
+analyzer が行う仮説検証の流れ:
 
 1. 目標サンプル数に達した仮説があるか確認
 2. 達した場合 → 成功指標と照合して判定:
@@ -106,25 +125,13 @@ date,time_slot,text_preview,template,hook_type,theme,impressions,likes,retweets,
    - **成功指標を満たさなかった** → `false-beliefs.md` に移動、`active.md` から削除
 3. まだサンプル不足 → 投稿数を更新し、中間データを記録
 
-**Step 4: パターン発見（自己改善の鍵）**
+**Step 4: 部長レビュー**
 
-投稿ログ全体を分析して、仮説にない新しいパターンを探す:
+analyzer のレポートを確認し、部長として判断を加える:
 
-- フック型×エンゲージメント率のクロス分析
-- テーマ×時間帯の相互作用
-- 文字数とインプレッションの相関
-- 曜日別パフォーマンス
-- 連続投稿テーマの影響
-
-**発見したパターンが統計的に有意（5投稿以上で一貫した傾向）なら:**
-1. 新しい仮説として `active.md` に追加する
-2. または十分なサンプルがあれば直接 `patterns.md` に登録する
-
-**Step 5: テンプレート・フックの更新**
-
-- `hooks.md`: 各フックパターンのステータス（✅/🧪/❌）を実績に基づいて更新
-- `templates.md`: 各テンプレートの使用回数と平均エンゲージメント率を更新
-- `rotation.md`: テーマ別の使用回数と平均エンゲージメント率を更新
+- パターン発見の妥当性を確認（サンプル数は十分か、因果関係は正しいか）
+- 知識ベース更新内容が適切か確認
+- 来週の方針を決定する
 
 **Step 6: レポート出力**
 
@@ -200,59 +207,33 @@ cd ~/projects/claude/ai-company && git add -A && git commit -m "X週次レビュ
 
 ### `/x-bucho post` — 知識ベースを活用した投稿作成
 
-部長が知識ベースの知見を総動員して最高品質の投稿を作成する。
+部長が方針を決め、社員に実行させる。
 
 #### 実行手順
 
-**Step 1: 知識の読み込み**（INDEX.md の「投稿を作成する」パスに従う）
+**Step 1: 方針決定（部長の仕事）**
 
-1. `craft/templates.md` → 使うテンプレートを選ぶ
-2. `craft/hooks.md` → 効果が確認されたフックパターンを優先
-3. `voice/{account}.md` → トーンを合わせる
-4. `themes/rotation.md` → 次に使うべきテーマを選ぶ
-5. `learnings/patterns.md` → 勝ちパターンを適用
-6. `hypotheses/active.md` → テスト中の仮説があれば意図的に試す
+`themes/rotation.md` と `hypotheses/active.md` を確認し、以下を決める:
+- 対象アカウント
+- テーマ（またはテーマの方向性）
+- テストすべき仮説があれば指定
 
-**Step 2: テーマ選択**
+**Step 2: x-writer に投稿作成を指示**
 
-- ローテーション表で使用回数が少ないテーマを優先
-- ただし `patterns.md` でエンゲージメント率が高いと確認されたテーマは頻度を上げる
-- 直前の投稿と同テーマは避ける
+決定した方針を x-writer に渡す。x-writer が knowledge を活用して Draft を作成する。
 
-**Step 3: 投稿文の生成**
+**Step 3: x-checker（Check 1）で品質検査**
 
-- 選んだテンプレート×フックパターン×テーマで Draft を作成
-- `copywriting-rules.md` のルールに準拠しているか確認
-- `voice/{account}.md` のトーンに合っているか確認
-- テスト中の仮説がある場合は、意図的にその要素を盛り込む（例: H1テスト中なら数字入りフック）
+x-checker が投稿の品質基準を検査。PASS なら次へ、NG なら x-writer に差し戻し。
 
-**Step 4: ファクトチェック**
+**Step 4: ユーザーに提示**
 
-- 英語学習に関する主張は正確か
-- 数値データは信頼できるソースに基づいているか
+x-writer の出力をユーザーに提示して承認を得る。
 
-**Step 5: ユーザーに提示**
-
-```
-📝 投稿案（@xxx）
-
-テーマ: {テーマ名}
-テンプレート: {ID}
-フック: {パターン名}
-仮説テスト: {H番号 or なし}
-
----
-{投稿本文}
----
-
-文字数: XXX字
-投稿理由: {なぜこのテーマ・テンプレート・フックを選んだか}
-```
-
-**Step 6: 承認後**
+**Step 5: 承認後 → x-schedule-post で予約投稿**
 
 ユーザーが承認したら `x-schedule-post` に渡して予約投稿する。
-投稿後、`posts/{account}-log.csv` に記録を追加する（パフォーマンスデータは後日レビュー時に埋める）。
+x-writer が `posts/{account}-log.csv` に仮記録を追加する（パフォーマンスデータは後日 x-data-collector が埋める）。
 
 ---
 
