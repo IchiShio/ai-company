@@ -3,20 +3,35 @@
 
 import sys
 import os
+import subprocess
 import requests
 from requests_oauthlib import OAuth1
-from dotenv import load_dotenv
 
-load_dotenv(os.path.expanduser("~/projects/claude/ai-company/.env"))
+OP_ITEM = "X API - @ichi_eigo"
+OP_ACCOUNT = "my.1password.com"
 
-auth = OAuth1(
-    os.getenv("X_API_KEY"),
-    os.getenv("X_API_SECRET"),
-    os.getenv("X_ACCESS_TOKEN"),
-    os.getenv("X_ACCESS_TOKEN_SECRET"),
-)
+
+def op_read(field):
+    """1Passwordからフィールドを取得する。"""
+    result = subprocess.run(
+        ["op", "read", f"op://Private/{OP_ITEM}/{field}", "--account", OP_ACCOUNT],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"op read failed for {field}: {result.stderr.strip()}")
+    return result.stdout.strip()
+
+
+def get_auth():
+    return OAuth1(
+        op_read("X_API_KEY"),
+        op_read("X_API_SECRET"),
+        op_read("X_ACCESS_TOKEN"),
+        op_read("X_ACCESS_TOKEN_SECRET"),
+    )
 
 def post_tweet(text):
+    auth = get_auth()
     resp = requests.post(
         "https://api.x.com/2/tweets",
         json={"text": text},
