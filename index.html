@@ -1091,6 +1091,10 @@
       display: block; text-align: center; font-size: 11px; color: var(--text-3);
       margin-top: 8px; cursor: pointer; background: none; border: none; padding: 4px;
     }
+    .inline-cta-banner { text-align: center; }
+    .inline-cta-banner a { display: inline-block; border-radius: 8px; overflow: hidden; }
+    .inline-cta-banner img:not([width="1"]) { max-width: 100%; height: auto; border-radius: 8px; }
+    .inline-cta-banner img[width="1"] { position: absolute; opacity: 0; }
 
     /* ── LP: BOTTOM EMAIL CTA ── */
     .lp-bottom-cta {
@@ -3301,16 +3305,82 @@ function choose(selected) {
 }
 
 // ─────────────────────────────────────────
-// INLINE CTA（10問ごと）
+// CTA A/B テスト基盤
 // ─────────────────────────────────────────
-var inlineCtaDismissed = false;
+// バリアント: 'card' = カード型テキスト, 'banner' = A8バナー画像
+// ユーザーごとに固定（localStorage）、セッション跨ぎで一貫
+var CTA_VARIANT = (function() {
+  var stored = localStorage.getItem('listenup_cta_variant');
+  if (stored === 'card' || stored === 'banner') return stored;
+  var v = Math.random() < 0.5 ? 'card' : 'banner';
+  localStorage.setItem('listenup_cta_variant', v);
+  return v;
+})();
 
-function showInlineCta() {
-  var slot = document.getElementById('inlineCtaSlot');
-  slot.innerHTML = '';
-  if (inlineCtaDismissed) return;
-  if (total < 5 || total % 10 !== 0) return;
+// A8バナー素材マップ（A8管理画面から取得して差し替える）
+// banner_url: バナー画像のIMGタグ全体（A8発行コード）
+// banner未設定のサービスはカード型にフォールバック
+var A8_BANNERS = {
+  nativecamp: {
+    url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE',
+    // ↓ A8管理画面 > 広告リンク > バナー > 300x250 を貼る
+    img: '',
+    pixel: 'https://www15.a8.net/0.gif?a8mat=44WLF2+BW2OQA+35VG+6LWTE'
+  },
+  dmm: {
+    url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR',
+    img: '',
+    pixel: 'https://www13.a8.net/0.gif?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR'
+  },
+  rarejob: {
+    url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM',
+    img: '',
+    pixel: 'https://www13.a8.net/0.gif?a8mat=4AXFOG+JNCII+1SVU+686ZM'
+  },
+  bizmates: {
+    url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K5OB5U+54AA+5YRHE',
+    img: '',
+    pixel: 'https://www13.a8.net/0.gif?a8mat=4AXFOG+K5OB5U+54AA+5YRHE'
+  }
+};
 
+// サービスID → バナーキーのマッピング
+var SVC_TO_BANNER_KEY = {
+  'ネイティブキャンプ': 'nativecamp',
+  'DMM英会話': 'dmm',
+  'レアジョブ英会話': 'rarejob',
+  'Bizmates': 'bizmates'
+};
+
+function ctaTrack(eventName, params) {
+  params.cta_variant = CTA_VARIANT;
+  try { gtag('event', eventName, params); } catch(_) {}
+}
+
+// バナーHTML生成（img が設定済みならバナー、未設定ならカードにフォールバック）
+function renderBannerCta(svc, placement) {
+  var bannerKey = SVC_TO_BANNER_KEY[svc.name];
+  var banner = bannerKey ? A8_BANNERS[bannerKey] : null;
+  if (banner && banner.img) {
+    return '<div class="inline-cta-banner">'
+      + '<a href="' + banner.url + '" target="_blank" rel="nofollow noopener" onclick="ctaTrack(\'cta_click\',{service:\'' + svc.name + '\',placement:\'' + placement + '\',question_number:' + total + '})">'
+      + banner.img + '</a>'
+      + '<img border="0" width="1" height="1" src="' + banner.pixel + '" alt="">'
+      + '</div>';
+  }
+  // バナー未設定 → カード型にフォールバック
+  return renderCardCta(svc, placement);
+}
+
+function renderCardCta(svc, placement) {
+  return '<a href="' + svc.url + '" class="inline-cta-card" target="_blank" rel="nofollow noopener" onclick="ctaTrack(\'cta_click\',{service:\'' + svc.name + '\',placement:\'' + placement + '\',question_number:' + total + '})">'
+    + '<span class="inline-cta-icon">' + svc.icon + '</span>'
+    + '<span class="inline-cta-info"><span class="inline-cta-name">' + svc.name + '</span><span class="inline-cta-desc">' + svc.desc + '</span></span>'
+    + '<span class="inline-cta-arrow">&rarr;</span></a>';
+}
+
+// 弱点axis取得（共通ユーティリティ）
+function getWeakAxis() {
   var p = loadProgress();
   var axisStats = p.axisStats || {};
   var weakAxis = null;
@@ -3322,39 +3392,51 @@ function showInlineCta() {
       if (rate < weakRate) { weakRate = rate; weakAxis = key; }
     }
   });
+  return { axis: weakAxis, rate: weakRate };
+}
 
-  var INLINE_SERVICES = {
-    speed: { icon: '🎧', name: 'ネイティブキャンプ', desc: '速い英語に慣れる！回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' },
-    reduction: { icon: '🎧', name: 'ネイティブキャンプ', desc: '音の変化を実践練習・回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' },
-    vocab: { icon: '📚', name: 'DMM英会話', desc: '13,000教材で語彙力UP・無料体験2回', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR' },
-    context: { icon: '💬', name: 'レアジョブ英会話', desc: '毎日25分の実践会話・無料体験あり', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM' },
-    distractor: { icon: '🏢', name: 'Bizmates', desc: 'ビジネス英語で精密リスニング力UP', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K5OB5U+54AA+5YRHE' }
-  };
-  var DEFAULT_INLINE = { icon: '🎧', name: 'ネイティブキャンプ', desc: 'リスニング力を実戦で伸ばす・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' };
+// ─────────────────────────────────────────
+// INLINE CTA（10問ごと）
+// ─────────────────────────────────────────
+var inlineCtaDismissed = false;
 
-  var svc = (weakAxis && INLINE_SERVICES[weakAxis]) ? INLINE_SERVICES[weakAxis] : DEFAULT_INLINE;
+var INLINE_SERVICES = {
+  speed: { icon: '🎧', name: 'ネイティブキャンプ', desc: '速い英語に慣れる！回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' },
+  reduction: { icon: '🎧', name: 'ネイティブキャンプ', desc: '音の変化を実践練習・回数無制限・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' },
+  vocab: { icon: '📚', name: 'DMM英会話', desc: '13,000教材で語彙力UP・無料体験2回', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR' },
+  context: { icon: '💬', name: 'レアジョブ英会話', desc: '毎日25分の実践会話・無料体験あり', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM' },
+  distractor: { icon: '🏢', name: 'Bizmates', desc: 'ビジネス英語で精密リスニング力UP', url: 'https://px.a8.net/svt/ejp?a8mat=4AXFOG+K5OB5U+54AA+5YRHE' }
+};
+var DEFAULT_INLINE = { icon: '🎧', name: 'ネイティブキャンプ', desc: 'リスニング力を実戦で伸ばす・7日間無料', url: 'https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE' };
+
+function showInlineCta() {
+  var slot = document.getElementById('inlineCtaSlot');
+  slot.innerHTML = '';
+  if (inlineCtaDismissed) return;
+  if (total < 5 || total % 10 !== 0) return;
+
+  var weak = getWeakAxis();
+  var svc = (weak.axis && INLINE_SERVICES[weak.axis]) ? INLINE_SERVICES[weak.axis] : DEFAULT_INLINE;
   var acc = total > 0 ? Math.round(score / total * 100) : 0;
   var label = acc < 50
     ? '🔥 リスニングの壁を突破するなら'
-    : (weakAxis ? '💡 ' + AXIS_USER_LABELS[weakAxis] + 'を伸ばすなら' : '🎯 リスニング力を次のレベルへ');
+    : (weak.axis ? '💡 ' + AXIS_USER_LABELS[weak.axis] + 'を伸ばすなら' : '🎯 リスニング力を次のレベルへ');
+
+  var ctaHtml = CTA_VARIANT === 'banner' ? renderBannerCta(svc, 'inline') : renderCardCta(svc, 'inline');
 
   slot.innerHTML = '<div class="inline-cta">'
     + '<div class="inline-cta-label">' + label + '</div>'
-    + '<a href="' + svc.url + '" class="inline-cta-card" target="_blank" rel="nofollow noopener" onclick="try{gtag(\'event\',\'inline_cta_click\',{service:\'' + svc.name + '\',question_number:' + total + '})}catch(_){}">'
-    + '<span class="inline-cta-icon">' + svc.icon + '</span>'
-    + '<span class="inline-cta-info"><span class="inline-cta-name">' + svc.name + '</span><span class="inline-cta-desc">' + svc.desc + '</span></span>'
-    + '<span class="inline-cta-arrow">&rarr;</span></a>'
+    + ctaHtml
     + '<button class="inline-cta-dismiss" onclick="dismissInlineCta()">閉じる</button>'
     + '</div>';
 
-  try { gtag('event', 'inline_cta_show', { service: svc.name, question_number: total }); } catch(_) {}
+  ctaTrack('cta_show', { service: svc.name, placement: 'inline', question_number: total });
 }
 
 function dismissInlineCta() {
   inlineCtaDismissed = true;
-  var slot = document.getElementById('inlineCtaSlot');
-  slot.innerHTML = '';
-  try { gtag('event', 'inline_cta_dismiss', { question_number: total }); } catch(_) {}
+  document.getElementById('inlineCtaSlot').innerHTML = '';
+  ctaTrack('cta_dismiss', { placement: 'inline', question_number: total });
 }
 
 // ─────────────────────────────────────────
@@ -3631,20 +3713,25 @@ function showMissionComplete() {
         ? '🔥 聞き取れなかった原因は「実践不足」かも'
         : '🎯 ' + svc.reason;
       labelEl.textContent = ctaMsg;
-      cardsEl.innerHTML = `<a href="${svc.url}" class="mission-service-card" target="_blank" rel="nofollow noopener" onclick="try{gtag('event','mission_cta_click',{service:'${svc.name}',accuracy:${acc}})}catch(_){}">
-        <span class="mission-service-icon">${svc.icon}</span>
-        <span class="mission-service-info"><span class="mission-service-name">${svc.name}</span><span class="mission-service-desc">${svc.desc}</span></span>
-        <span class="mission-service-arrow">&rarr;</span></a>`;
+      if (CTA_VARIANT === 'banner') {
+        cardsEl.innerHTML = renderBannerCta(svc, 'mission');
+      } else {
+        cardsEl.innerHTML = renderCardCta(svc, 'mission');
+      }
+      ctaTrack('cta_show', { service: svc.name, placement: 'mission', accuracy: acc });
     }
   } else {
     const defaultMsg = acc < 50
       ? '🔥 リスニングの壁を突破するなら'
       : '🎯 リスニング力を実践で活かす';
     labelEl.textContent = defaultMsg;
-    cardsEl.innerHTML = DEFAULT_SERVICES.map(s => `<a href="${s.url}" class="mission-service-card" target="_blank" rel="nofollow noopener" onclick="try{gtag('event','mission_cta_click',{service:'${s.name}',accuracy:${acc}})}catch(_){}">
-      <span class="mission-service-icon">${s.icon}</span>
-      <span class="mission-service-info"><span class="mission-service-name">${s.name}</span><span class="mission-service-desc">${s.desc}</span></span>
-      <span class="mission-service-arrow">&rarr;</span></a>`).join('');
+    if (CTA_VARIANT === 'banner') {
+      // バナーモード: デフォルトはネイティブキャンプ1つ
+      cardsEl.innerHTML = renderBannerCta(DEFAULT_SERVICES[1], 'mission');
+    } else {
+      cardsEl.innerHTML = DEFAULT_SERVICES.map(s => renderCardCta(s, 'mission')).join('');
+    }
+    ctaTrack('cta_show', { service: 'default', placement: 'mission', accuracy: acc });
   }
 
   // Render share card
