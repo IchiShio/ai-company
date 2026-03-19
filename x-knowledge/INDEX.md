@@ -6,7 +6,7 @@
 
 | やりたいこと | 読むファイル |
 |---|---|
-| 投稿を作成する | `craft/templates.md` → `craft/hooks.md` → `voice/{account}.md` → `themes/rotation.md` |
+| 投稿を作成する | `craft/templates.md` → `craft/hooks.md` → `voice/{account}.md` → `themes/rotation.md` → `facts/{テーマ}.md` |
 | 投稿を分析する | `posts/{account}-log.csv` → `learnings/patterns.md` → `hypotheses/active.md` |
 | 仮説を検証する | `hypotheses/active.md` → `posts/{account}-log.csv` → `learnings/patterns.md` |
 | 週次レビューする | 全ファイルを順に確認（posts → learnings → hypotheses → craft → themes） |
@@ -34,6 +34,10 @@ x-knowledge/
 ├── learnings/
 │   ├── patterns.md          ← データから発見した勝ちパターン
 │   └── false-beliefs.md     ← 「効くと思ったが効かなかった」記録
+├── facts/
+│   ├── INDEX.md             ← Factストック一覧（17テーマ対応）
+│   ├── README.md            ← Factのフォーマット・ルール
+│   └── {テーマ}.md          ← テーマ別Factファイル（随時追加）
 └── themes/
     └── rotation.md          ← テーマローテーション＋実績追跡
 ```
