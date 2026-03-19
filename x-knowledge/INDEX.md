@@ -7,6 +7,7 @@
 | やりたいこと | 読むファイル |
 |---|---|
 | 投稿を作成する | `craft/templates.md` → `craft/hooks.md` → `voice/{account}.md` → `themes/rotation.md` → `facts/{テーマ}.md` |
+| 7日分バッチを作成する | 上記 + `posts/batch-template.md`（出力フォーマット）+ `hypotheses/active.md`（A/Bテスト配分） |
 | 投稿を分析する | `posts/{account}-log.csv` → `learnings/patterns.md` → `hypotheses/active.md` |
 | 仮説を検証する | `hypotheses/active.md` → `posts/{account}-log.csv` → `learnings/patterns.md` |
 | 週次レビューする | 全ファイルを順に確認（posts → learnings → hypotheses → craft → themes） |
@@ -28,7 +29,9 @@ x-knowledge/
 │   └── careermigaki.md      ← @careermigaki のトーン・ペルソナ定義
 ├── posts/
 │   ├── ichi-eigo-log.csv    ← 投稿ログ＋パフォーマンスデータ
-│   └── careermigaki-log.csv ← 投稿ログ＋パフォーマンスデータ
+│   ├── careermigaki-log.csv ← 投稿ログ＋パフォーマンスデータ
+│   ├── batch-template.md    ← バッチ作成時の出力フォーマット
+│   └── batch-XXX.md         ← 作成済みバッチ（XXXは連番）
 ├── hypotheses/
 │   └── active.md            ← テスト中の仮説（データで検証・淘汰）
 ├── learnings/
