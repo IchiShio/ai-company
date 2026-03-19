@@ -33,6 +33,10 @@
 │   ├── @ichi_eigo（英語学習）— X投稿、note記事、ListenUp連携
 │   ├── @careermigaki（キャリア転職）— X投稿、スレッド
 │   └── native-real.com — SEO・アフィリエイト収入（主目的: A8.net申込増）
+├── 記憶しない英単語 部門（有料サブスク / native-real.com/kioku-shinai/）
+│   ├── コンテンツ生成（Claude APIで語源・認知言語学解説を事前生成）
+│   ├── ★ファクトチェッカー（kioku-shinai-fact-checker）— 3パス検証、嘘ゼロ保証
+│   └── （今後追加）部長、問題生成パイプライン
 ├── コーチング部門
 │   ├── 顧客管理
 │   ├── 教材作成
@@ -257,6 +261,31 @@
 5. 実データでPDCA分析を実行してスキルの調整
 
 **追加日**: 2026-03-15
+
+---
+
+### 9. 記憶しない英単語 — ファクトチェッカー（kioku-shinai-fact-checker）
+
+**概要**: 「記憶しない英単語」（native-real.com/kioku-shinai/）の語源・認知言語学解説のファクトチェック専任。生成された解説データを3パス（語源検証→認知言語学検証→整合性チェック）で検証し、ハルシネーション・不正確な記述を検出・修正する。
+
+**検証の3パス**:
+- Pass 1: 語源検証（EtymOnline, Wiktionary で裏取り）
+- Pass 2: 認知言語学検証（Lakoff, Tyler & Evans 等の文献で裏取り）
+- Pass 3: 整合性チェック（語源↔認知言語学↔記憶フックの矛盾検出）
+
+**パイプライン**: コンテンツ生成 → ★ファクトチェック → 修正 → ★再ファクトチェック → 2回連続FAILで部長エスカレーション
+
+**絶対ルール**:
+- 自分の知識だけで判断しない。必ずWebで出典を確認する
+- 「たぶん正しい」は不合格。出典確認できないものは全てFAIL
+- 民間語源（folk etymology）を事実として使うことは禁止
+- False cognate（偽の同根語）の検出
+
+**ファイル**:
+- `~/projects/claude/ai-company/skills/kioku-shinai-fact-checker/SKILL.md`
+- `~/projects/claude/ai-company/skills/kioku-shinai-fact-checker/references/verification-sources.md`
+
+**追加日**: 2026-03-19
 
 ---
 
