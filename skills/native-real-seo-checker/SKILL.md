@@ -317,12 +317,97 @@ cd ~/projects/claude/native-real && git status
 
 ---
 
+## Check 4: CTA効果検証（広告A/Bテスト）
+
+**実行タイミング**: 週次（単独実行時に自動実行）。データ蓄積期間として最低7日必要。
+
+**背景**: ListenUpクイズ内のアフィリエイトCTAにA/Bテスト基盤を導入済み。
+- バリアント `card`（カード型テキスト）vs `banner`（A8バナー画像）
+- ユーザーごとにlocalStorageで50:50振り分け
+- GA4イベント: `cta_show`, `cta_click`, `cta_dismiss`（全て `cta_variant` パラメータ付き）
+- 表示位置: `inline`（10問ごと）、`mission`（ミッション完了画面）
+
+### 検査項目
+
+**4-A. GA4データ取得**
+
+GA4のブラウザ操作またはGA4 Data APIで以下を取得する:
+- 過去7日間の `cta_show` イベント数（`cta_variant` 別）
+- 過去7日間の `cta_click` イベント数（`cta_variant` 別）
+- 過去7日間の `cta_dismiss` イベント数（`cta_variant` 別）
+
+取得方法: GA4 → 探索 → 自由形式
+- ディメンション: `cta_variant`, `placement`（カスタムディメンション）
+- 指標: イベント数
+- フィルタ: イベント名 = `cta_show` / `cta_click` / `cta_dismiss`
+
+**4-B. CTR計算**
+
+| バリアント | show数 | click数 | CTR (%) | dismiss率 (%) |
+|---|---|---|---|---|
+| card | — | — | click/show×100 | dismiss/show×100 |
+| banner | — | — | click/show×100 | dismiss/show×100 |
+
+**4-C. 統計的有意性の簡易判定**
+
+- 合計show数が **100件未満** → ⚠️ WARNING「データ不足、来週再判定」
+- 合計show数が100件以上で、CTR差が **1.5倍以上** → 勝者判定可能
+- CTR差が1.5倍未満 → 「有意差なし、継続観測」
+
+**4-D. 勝者判定時のアクション提案**
+
+勝者が判定された場合:
+```
+🏆 勝者: {variant}（CTR {X}% vs {Y}%）
+
+推奨アクション:
+index.html の CTA_VARIANT 振り分けを勝者に100%切り替え:
+- localStorage.setItem('listenup_cta_variant', '{winner}') を全ユーザーに適用
+- または CTA_VARIANT の初期化ロジックを固定値に変更
+```
+
+**4-E. placement別分析**
+
+inline（10問ごと）と mission（完了画面）でCTRが大きく異なる場合:
+- 低CTRの配置は表示タイミングの調整を提案
+- dismiss率が50%超の配置は表示頻度の削減を提案
+
+**4-F. 判定ルール**
+
+- GA4にCTAイベントが存在しない → ⚠️ WARNING（計測未開始 or GTM未設定）
+- データ不足（show<100） → ⚠️ WARNING（来週再判定）
+- 有意差あり → 勝者とアクション提案を出力
+- 有意差なし → 「継続観測」と出力
+- Check 4 は ❌ FAIL にはしない（パイプラインは止めない）
+
+### 出力形式
+
+```
+## ✅/⚠️ Check 4: CTA効果検証（A/Bテスト）
+
+期間: YYYY-MM-DD 〜 YYYY-MM-DD（7日間）
+
+| バリアント | placement | show | click | CTR | dismiss | dismiss率 |
+|---|---|---|---|---|---|---|
+| card | inline | XX | XX | X.X% | XX | X.X% |
+| card | mission | XX | XX | X.X% | — | — |
+| banner | inline | XX | XX | X.X% | XX | X.X% |
+| banner | mission | XX | XX | X.X% | — | — |
+
+合計CTR: card X.X% vs banner X.X%
+判定: {勝者あり → 推奨アクション / データ不足 → 来週再判定 / 有意差なし → 継続観測}
+
+→ 判定: PASS（{理由}）
+```
+
+---
+
 ## 単独実行時の動作
 
 `/native-real-seo-checker` を単独で呼び出した場合:
 1. まず Check 0（テクニカルSEOベースライン）を実行
 2. 最新日付フォルダを自動検出
-3. Check 1 → Check 2 → Check 3 の順に全て実行
+3. Check 1 → Check 2 → Check 3 → Check 4 の順に全て実行
 4. 総合スコアを表示:
    ```
    ## 総合チェック結果
@@ -330,4 +415,5 @@ cd ~/projects/claude/native-real && git status
    Check 1 (collector): ✅ PASS
    Check 2 (analyzer):  ✅ PASS
    Check 3 (executor):  ⚠️ WARNING（title 33文字 - 基準超過）
+   Check 4 (cta-test):  ⚠️ WARNING（データ不足 - 来週再判定）
    ```
