@@ -348,3 +348,39 @@ GitHub Pages への反映: 1〜2分後
 - 英語フレーズページは「ネイティブが実際に使う文脈」を重視した例文を作る
 - SEOを意識しつつも、読者が読んで価値を感じる内容を最優先にする
 - HTMLの構造（GTMスニペット・canonical・JSON-LD等）は既存ページのパターンを厳守する
+
+---
+
+## kioku-shinai 改善実行（追加対象）
+
+seo_report.md の Section K で提案されたkioku-shinai向けアクションを実行する。
+
+### 対象リポジトリ
+
+```
+~/projects/claude/kioku-shinai
+```
+
+### 実行可能なアクション
+
+| アクション種別 | 対象ファイル | 説明 |
+|---|---|---|
+| UI改善 | `src/app/trial/trial-app.tsx` | 選択肢サイズ、余白、フォント等の調整 |
+| 解説改善 | `public/data/{word}.json` | 語源説明、認知言語学、hook等のテキスト修正 |
+| 単語追加 | `public/data/` + `public/audio/` | 新しい単語データJSON + Edge TTS音声生成 |
+| 出題形式改善 | `public/data/{word}.json` の formats | 選択肢・文・ヒントの改善 |
+| LP改善 | `src/app/page.tsx` | ランディングページのコピー・構成変更 |
+
+### 単語データ追加手順
+
+1. Claude APIで単語データJSONを生成（`src/lib/types.ts` の `WordData` 型に準拠）
+2. `kioku-shinai-fact-checker` スキルで検証
+3. `python3 scripts/generate_audio.py` で音声生成
+4. `public/data/{word}.json` と `public/audio/{word}/` に配置
+5. git commit & push
+
+### デプロイ
+
+```bash
+cd ~/projects/claude/kioku-shinai && git add -A && git commit -m "{変更内容}" && git push origin main
+```
