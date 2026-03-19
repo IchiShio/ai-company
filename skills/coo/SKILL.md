@@ -84,7 +84,9 @@ gh run list --repo IchiShio/ai-company --workflow ichi-eigo-post.yml --limit 3
 gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --limit 3
 ```
 
-**Step 2: 判断 → 部長にGoサイン**
+**Step 2: 判断 → 各部長にGoサイン**
+
+#### X部門（x-bucho / cm-bucho）
 
 | 状況 | COOの判断 | 部長への指示 |
 |------|----------|------------|
@@ -92,7 +94,31 @@ gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --
 | 3日以上データ未収集 | パフォーマンス取得が必要 | `x-data-collector` or `cm-data-collector` を実行 |
 | 投稿データが10件以上溜まった | 週次レビューの時期 | `/x-bucho review` or `/cm-bucho review` を実行 |
 | GitHub Actions 失敗あり | エラー対処が必要 | ログ確認 → 原因特定 → 修正 → 再実行 |
-| 全て正常 | 何もしない | 社長に「異常なし」と報告 |
+
+#### native-real部門（native-real-bucho）
+
+**毎日実行する日次タスク（社長承認済み 2026-03-18）:**
+
+| タスク | 内容 |
+|--------|------|
+| データ確認 | 最新SC/GA4データを読み、前日比トレンド把握 |
+| title/meta改善 | 順位15位以内でCTR 0%のページを10件改善 |
+| コンテンツリライト | Tier 1サービスページを1件/日（3,000字+FAQ schema） |
+
+COOは毎日 native-real-bucho に上記3タスクの実行を指示する。
+リライト対象はロードマップ順（memory `project_native_real_daily_tasks.md` 参照）。
+
+**週次タスク（週末）:**
+- Ahrefsデータ収集 + フル分析レポート
+- 内部リンク整備 2〜3件
+- テクニカルSEO修正 20件
+
+#### 全部門共通
+
+| 状況 | COOの判断 |
+|------|----------|
+| 全て正常・日次タスク完了 | 社長に「完了」と報告 |
+| エスカレーションあり | COOが判断して対処、対処不能なら社長に報告 |
 
 **Step 3: 実行**
 
@@ -106,14 +132,20 @@ gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --
 ```
 おはようございます。本日の状況です。
 
-■ @ichi_eigo: 残8件（3/24まで）→ 問題なし
-■ @careermigaki: 残4件 → バッチ補充しました（3/30まで延長）
-■ GitHub Actions: 全件成功
-■ 昨日の投稿パフォーマンス: データ収集しました
-  - @ichi_eigo 3/20朝: imp 3,500 / eng 2.1%
-  - @careermigaki 3/20朝: imp 1,200 / eng 3.8%
+■ X部門
+  @ichi_eigo: 残8件（3/24まで）→ 問題なし
+  @careermigaki: 残4件 → バッチ補充しました（3/30まで延長）
+  GitHub Actions: 全件成功
+  昨日のパフォーマンス:
+    @ichi_eigo 3/20朝: imp 3,500 / eng 2.1%
+    @careermigaki 3/20朝: imp 1,200 / eng 3.8%
 
-本日のアクション: なし（自動投稿が予定通り実行されます）
+■ native-real部門
+  本日のリライト対象: /services/cambly/
+  title/meta改善: 10件実行 → 完了
+  前日比: クリック +12、インプレ +340
+
+本日のアクション: native-real日次タスク実行中
 ```
 
 ### バッチ補充ルール
