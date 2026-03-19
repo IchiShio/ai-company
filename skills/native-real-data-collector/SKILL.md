@@ -269,3 +269,47 @@ GoogleG4,SearchConsole/
 - エラーが発生した場合は collection_log.txt にエラー内容を記録する
 - 全データソースが失敗した場合でも、空のログファイルだけは保存する（「今日は取得できなかった」という記録自体に価値がある）
 - ブラウザアクセスが必要なデータソース（GA4、Search Console直接アクセス）は、ブラウザが使えない環境ではスキップする
+
+---
+
+## kioku-shinai データ収集（追加対象）
+
+kioku-shinai（記憶しない英単語）はnative-real部門配下の新サービス。
+パイプライン実行時、native-real.comのデータ収集後にkioku-shinaiのデータも収集する。
+
+### データソース
+
+#### 1. localStorage フィードバック（現フェーズ）
+
+kioku-shinaiはまだGA4未設定のため、フィードバックデータはブラウザのlocalStorageに保存されている。
+収集方法: ブラウザツールで `http://localhost:3002/trial`（またはデプロイ先URL）を開き、
+JavaScriptコンソールで以下を実行:
+
+```javascript
+JSON.parse(localStorage.getItem('kioku_feedback') || '[]')
+```
+
+取得したJSONを `kioku-shinai-feedback-YYYY-MM-DD.json` として保存する。
+
+#### 2. GA4（将来：GA4設定後）
+
+GA4のプロパティが設定されたら、以下のイベントを収集対象に追加:
+- `trial_start`: 体験開始
+- `trial_answer`: 回答（正誤・形式・単語）
+- `trial_complete`: 体験完了
+- `feedback_submit`: フィードバック送信
+
+### 保存先
+
+```
+~/Library/CloudStorage/GoogleDrive-ichieigo7@gmail.com/マイドライブ/GoogleG4,SearchConsole/YYYY-MM-DD/
+└── kioku-shinai-feedback-YYYY-MM-DD.json
+```
+
+### collection_log.txt への追記
+
+```
+--- kioku-shinai ---
+Feedback records: {N}件
+Status: OK / SKIP（データなし） / ERROR（{理由}）
+```

@@ -61,7 +61,57 @@ curl -s http://127.0.0.1:3100/api/activity?companyId=92ed295c-352f-471e-b71b-833
 
 ---
 
+## 日次オペレーション（自動実行の監督）
+
+COOは各部長への日次指示を管理する。社長が「レビューして」「バッチ作って」と言わなくても、COOが自律的にサイクルを回す。
+
+### 日次チェック（毎セッション開始時）
+
+1. **投稿状況の確認**
+   - `schedule.json` の投稿が残り何件か確認
+   - 残り3日分（6投稿）を切ったら次バッチ作成を部長に指示
+2. **データ収集トリガー**
+   - 3日以上データ未取得の投稿があれば `x-data-collector` / `cm-data-collector` に指示
+3. **エラー確認**
+   - GitHub Actions の直近の実行結果を確認（失敗していれば対処）
+
+### 週次サイクル管理
+
+| 曜日目安 | タスク | COOの指示先 |
+|---------|--------|-----------|
+| 水 or 木 | データ収集（3日分の投稿パフォーマンス） | x-data-collector / cm-data-collector |
+| 金 or 土 | 週次レビュー（仮説検証・パターン発見） | x-bucho review / cm-bucho review |
+| 土 or 日 | 次週バッチ作成（7日14投稿） | x-bucho post / cm-bucho post |
+| 日 | schedule.json 更新 → push | 自動 |
+
+### バッチ補充ルール
+
+- **@ichi_eigo**: `~/projects/claude/ai-company/x-knowledge/posts/schedule.json`
+- **@careermigaki**: `~/projects/claude/careermigaki-ops/cm-knowledge/posts/schedule.json`
+
+schedule.json の未投稿分が **6件以下** になったら、部長にバッチ作成を指示する。
+部長が作成したバッチを schedule.json に変換し、git push する。
+
+### GitHub Actions 監視
+
+```bash
+# @ichi_eigo の直近実行結果
+gh run list --repo IchiShio/ai-company --workflow ichi-eigo-post.yml --limit 5
+
+# @careermigaki の直近実行結果
+gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --limit 5
+```
+
+失敗があれば原因を調査し、部長にエスカレーションまたは自分で修正する。
+
+---
+
 ## コマンド
+
+### `/coo daily` — 日次チェック
+
+上記「日次チェック」を実行し、必要なアクションがあれば部長に指示を出す。
+アクションがなければ「異常なし」と報告。
 
 ### `/coo dashboard` — 全社統合ダッシュボード
 
