@@ -61,57 +61,79 @@ curl -s http://127.0.0.1:3100/api/activity?companyId=92ed295c-352f-471e-b71b-833
 
 ---
 
-## 日次オペレーション（自動実行の監督）
+## 日次オペレーション（社長は「おはよう」だけ）
 
-COOは各部長への日次指示を管理する。社長が「レビューして」「バッチ作って」と言わなくても、COOが自律的にサイクルを回す。
+社長が「おはよう」と声をかけたら、COOが全部門の状況を確認し、必要な部長にGoサインを出す。
+社長は個別の部長に指示する必要はない。COOが全て判断して回す。
 
-### 日次チェック（毎セッション開始時）
+### `/coo` or 社長の「おはよう」— 日次オペレーション開始
 
-1. **投稿状況の確認**
-   - `schedule.json` の投稿が残り何件か確認
-   - 残り3日分（6投稿）を切ったら次バッチ作成を部長に指示
-2. **データ収集トリガー**
-   - 3日以上データ未取得の投稿があれば `x-data-collector` / `cm-data-collector` に指示
-3. **エラー確認**
-   - GitHub Actions の直近の実行結果を確認（失敗していれば対処）
+**社長のやること**: 「おはよう」と言うだけ。あとはCOOが全て判断・実行する。
 
-### 週次サイクル管理
+**COOが実行する手順:**
 
-| 曜日目安 | タスク | COOの指示先 |
-|---------|--------|-----------|
-| 水 or 木 | データ収集（3日分の投稿パフォーマンス） | x-data-collector / cm-data-collector |
-| 金 or 土 | 週次レビュー（仮説検証・パターン発見） | x-bucho review / cm-bucho review |
-| 土 or 日 | 次週バッチ作成（7日14投稿） | x-bucho post / cm-bucho post |
-| 日 | schedule.json 更新 → push | 自動 |
+**Step 1: 状況確認（30秒）**
+
+```bash
+# 投稿残数を確認
+cat ~/projects/claude/ai-company/x-knowledge/posts/schedule.json | python3 -c "import sys,json;d=json.load(sys.stdin);print(f'@ichi_eigo 残: {sum(1 for x in d if not x.get(\"posted\"))}件')"
+cat ~/projects/claude/careermigaki-ops/cm-knowledge/posts/schedule.json | python3 -c "import sys,json;d=json.load(sys.stdin);print(f'@careermigaki 残: {sum(1 for x in d if not x.get(\"posted\"))}件')"
+
+# GitHub Actions 直近の実行結果
+gh run list --repo IchiShio/ai-company --workflow ichi-eigo-post.yml --limit 3
+gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --limit 3
+```
+
+**Step 2: 判断 → 部長にGoサイン**
+
+| 状況 | COOの判断 | 部長への指示 |
+|------|----------|------------|
+| schedule.json 残 ≤ 6件 | バッチ補充が必要 | `/x-bucho post` or `/cm-bucho post` → schedule.json更新 → push |
+| 3日以上データ未収集 | パフォーマンス取得が必要 | `x-data-collector` or `cm-data-collector` を実行 |
+| 投稿データが10件以上溜まった | 週次レビューの時期 | `/x-bucho review` or `/cm-bucho review` を実行 |
+| GitHub Actions 失敗あり | エラー対処が必要 | ログ確認 → 原因特定 → 修正 → 再実行 |
+| 全て正常 | 何もしない | 社長に「異常なし」と報告 |
+
+**Step 3: 実行**
+
+判断に基づき、部長スキルを直接呼び出して実行する。
+社長への確認は不要（COOに委任されている）。
+
+**Step 4: 報告**
+
+実行結果を社長に簡潔に報告する：
+
+```
+おはようございます。本日の状況です。
+
+■ @ichi_eigo: 残8件（3/24まで）→ 問題なし
+■ @careermigaki: 残4件 → バッチ補充しました（3/30まで延長）
+■ GitHub Actions: 全件成功
+■ 昨日の投稿パフォーマンス: データ収集しました
+  - @ichi_eigo 3/20朝: imp 3,500 / eng 2.1%
+  - @careermigaki 3/20朝: imp 1,200 / eng 3.8%
+
+本日のアクション: なし（自動投稿が予定通り実行されます）
+```
 
 ### バッチ補充ルール
 
 - **@ichi_eigo**: `~/projects/claude/ai-company/x-knowledge/posts/schedule.json`
 - **@careermigaki**: `~/projects/claude/careermigaki-ops/cm-knowledge/posts/schedule.json`
 
-schedule.json の未投稿分が **6件以下** になったら、部長にバッチ作成を指示する。
-部長が作成したバッチを schedule.json に変換し、git push する。
+schedule.json の未投稿分が **6件以下** になったら、部長にバッチ作成を指示し、
+作成されたバッチを schedule.json に変換して git push まで完了する。
 
 ### GitHub Actions 監視
 
 ```bash
-# @ichi_eigo の直近実行結果
 gh run list --repo IchiShio/ai-company --workflow ichi-eigo-post.yml --limit 5
-
-# @careermigaki の直近実行結果
 gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --limit 5
 ```
-
-失敗があれば原因を調査し、部長にエスカレーションまたは自分で修正する。
 
 ---
 
 ## コマンド
-
-### `/coo daily` — 日次チェック
-
-上記「日次チェック」を実行し、必要なアクションがあれば部長に指示を出す。
-アクションがなければ「異常なし」と報告。
 
 ### `/coo dashboard` — 全社統合ダッシュボード
 
