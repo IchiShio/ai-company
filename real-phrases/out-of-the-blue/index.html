@@ -112,6 +112,24 @@ img{max-width:100%;height:auto;}
 .sidebar-service-list{display:flex;flex-direction:column;gap:10px;}
 .sidebar-service-item a{font-size:0.88rem;text-decoration:none;color:var(--text);}
 .sidebar-service-item a:hover{color:var(--primary);}
+@media(min-width:1025px){.sidebar{position:sticky;top:70px;max-height:calc(100vh - 90px);overflow-y:auto;}}
+.sidebar-phrase-list{list-style:none;padding:0;margin:0;}
+.sidebar-phrase-list li{padding:7px 0;border-bottom:1px solid var(--border);font-size:0.86rem;}
+.sidebar-phrase-list li:last-child{border-bottom:none;}
+.sidebar-phrase-list a{color:var(--text);text-decoration:none;display:block;}
+.sidebar-phrase-list a:hover{color:var(--primary);}
+.sidebar-phrase-list .phrase-en{font-weight:600;}
+.sidebar-phrase-list .phrase-ja{color:var(--text-muted);font-size:0.8rem;}
+.sidebar-promo{background:linear-gradient(135deg,#faf5ff,#ede9fe);border:2px solid #c084fc;border-radius:var(--radius-lg);padding:18px;margin-bottom:20px;}
+.sidebar-promo h4{border-bottom:none;padding-bottom:0;color:#7c3aed;font-size:0.95rem;}
+.sidebar-promo p{font-size:0.84rem;color:var(--text-muted);margin-bottom:12px;}
+.sidebar-promo a.promo-btn{display:block;background:#7c3aed;color:white;text-align:center;padding:10px;border-radius:var(--radius);text-decoration:none;font-weight:700;font-size:0.88rem;transition:background 0.2s;}
+.sidebar-promo a.promo-btn:hover{background:#6d28d9;}
+.sidebar-article-list{list-style:none;padding:0;margin:0;}
+.sidebar-article-list li{padding:8px 0;border-bottom:1px solid var(--border);font-size:0.86rem;}
+.sidebar-article-list li:last-child{border-bottom:none;}
+.sidebar-article-list a{color:var(--text);text-decoration:none;}
+.sidebar-article-list a:hover{color:var(--primary);}
 .site-footer{background:#2c2520;color:rgba(255,255,255,0.65);padding:48px 0 24px;margin-top:72px;font-size:0.88rem;}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;margin-bottom:32px;}
 .site-footer h4{color:rgba(255,255,255,0.9);font-size:0.95rem;margin-bottom:14px;}
@@ -511,13 +529,32 @@ img{max-width:100%;height:auto;}
     <aside class="sidebar">
       <div class="sidebar-widget">
         <h4>🎧 リスニングで使えるようにしよう</h4>
-        <p style="font-size:0.88rem;color:var(--text-muted);margin-bottom:14px;">フレーズを覚えたら、実際の音声で定着させよう。</p>
-        <a href="/" style="display:block;background:var(--accent);color:white;text-align:center;padding:10px;border-radius:var(--radius);text-decoration:none;font-weight:700;font-size:0.9rem;">リスニングクイズで練習する →</a>
+        <p style="font-size:0.88rem;color:var(--text-muted);margin-bottom:14px;">フレーズを覚えたら、実際の音声で定着させよう。1,200問以上が無料。</p>
+        <a href="/" style="display:block;background:var(--accent);color:white;text-align:center;padding:10px;border-radius:var(--radius);text-decoration:none;font-weight:700;font-size:0.9rem;">無料でリスニング練習 →</a>
+      </div>
+      <div class="sidebar-promo">
+        <h4>🧠 記憶しない英単語</h4>
+        <p>語源×認知言語学で「覚えなくても思い出せる」新感覚の単語学習。220語を無料で体験。</p>
+        <a href="/kioku-shinai/" class="promo-btn">無料で試す →</a>
       </div>
       <div class="sidebar-widget">
-        <h4>フレーズ集一覧</h4>
-        <p style="font-size:0.88rem;color:var(--text-muted);">100のネイティブ英語フレーズを一覧で確認できます。</p>
-        <a href="/real-phrases/" style="display:block;margin-top:12px;color:var(--primary);font-size:0.88rem;text-decoration:none;font-weight:600;">→ フレーズ集トップへ</a>
+        <h4>人気フレーズ TOP5</h4>
+        <ul class="sidebar-phrase-list">
+          <li><a href="/real-phrases/not-gonna-lie/"><span class="phrase-en">Not gonna lie</span><br><span class="phrase-ja">正直に言うと</span></a></li>
+          <li><a href="/real-phrases/im-dead/"><span class="phrase-en">I'm dead</span><br><span class="phrase-ja">爆笑・ウケすぎ</span></a></li>
+          <li><a href="/real-phrases/catch-you-later/"><span class="phrase-en">Catch you later</span><br><span class="phrase-ja">またね</span></a></li>
+          <li><a href="/real-phrases/at-the-end-of-the-day/"><span class="phrase-en">At the end of the day</span><br><span class="phrase-ja">結局のところ</span></a></li>
+          <li><a href="/real-phrases/no-way/"><span class="phrase-en">No way!</span><br><span class="phrase-ja">まさか！</span></a></li>
+        </ul>
+        <a href="/real-phrases/" style="display:block;margin-top:12px;color:var(--primary);font-size:0.84rem;text-decoration:none;font-weight:600;">→ 100フレーズ一覧へ</a>
+      </div>
+      <div class="sidebar-widget">
+        <h4>関連する学習コラム</h4>
+        <ul class="sidebar-article-list">
+          <li><a href="/articles/english-speaking-improvement/">スピーキング上達法まとめ</a></li>
+          <li><a href="/articles/english-listening-guide/">リスニング完全ガイド</a></li>
+          <li><a href="/articles/english-vocabulary-guide/">語彙力アップの方法</a></li>
+        </ul>
       </div>
     </aside>
   </div>
