@@ -1042,28 +1042,64 @@
 
     /* ── MISSION: SERVICE CTA ── */
     .mission-service-cta {
-      background: linear-gradient(135deg, rgba(251,191,36,0.08) 0%, rgba(251,191,36,0.02) 100%);
-      border: 1px solid rgba(251,191,36,0.25); border-radius: 12px;
-      padding: 14px 14px 12px; margin: 12px 0 14px;
+      background: linear-gradient(135deg, rgba(251,191,36,0.12) 0%, rgba(251,191,36,0.04) 100%);
+      border: 2px solid rgba(251,191,36,0.4); border-radius: 14px;
+      padding: 18px 16px 14px; margin: 16px 0 14px;
     }
     .mission-service-label {
-      font-size: 11px; font-weight: 700; color: var(--text-3);
-      letter-spacing: 0.6px; text-align: center; margin-bottom: 10px;
+      font-size: 13px; font-weight: 800; color: var(--gold);
+      letter-spacing: 0.3px; text-align: center; margin-bottom: 12px;
     }
     .mission-service-card {
-      display: flex; align-items: center; gap: 8px;
-      padding: 10px 12px; border-radius: 10px; margin-bottom: 6px;
-      background: var(--surface); border: 1px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+      padding: 14px 16px; border-radius: 12px; margin-bottom: 8px;
+      background: var(--surface); border: 1.5px solid var(--gold);
       text-decoration: none; transition: all var(--t);
     }
-    .mission-service-card:hover { border-color: var(--gold); background: rgba(251,191,36,0.05); }
-    .mission-service-icon { font-size: 20px; flex-shrink: 0; }
+    .mission-service-card:hover { background: rgba(251,191,36,0.1); transform: translateY(-1px); }
+    .mission-service-icon { font-size: 22px; flex-shrink: 0; }
     .mission-service-info { flex: 1; text-align: left; }
-    .mission-service-name { display: block; font-size: 13px; font-weight: 700; color: var(--text-1); }
-    .mission-service-desc { display: block; font-size: 11px; color: var(--text-3); margin-top: 1px; }
-    .mission-service-arrow { font-size: 14px; color: var(--gold); font-weight: 700; flex-shrink: 0; }
+    .mission-service-name { display: block; font-size: 14px; font-weight: 800; color: var(--text-1); }
+    .mission-service-desc { display: block; font-size: 12px; color: var(--text-2); margin-top: 2px; }
+    .mission-service-arrow { font-size: 16px; color: var(--gold); font-weight: 700; flex-shrink: 0; }
+    .mission-service-reason { font-size: 11px; color: var(--text-3); text-align: center; margin-top: 6px; }
 
     /* ── INLINE CTA (10問ごと) ── */
+    /* ── Wrong-answer CTA ── */
+    .wrong-cta {
+      margin: 16px 0 8px;
+      padding: 14px 16px;
+      background: linear-gradient(135deg, rgba(251,191,36,0.08), rgba(251,191,36,0.03));
+      border: 1px solid rgba(251,191,36,0.25);
+      border-radius: 12px;
+    }
+    .wrong-cta-label {
+      font-size: 11px; font-weight: 700; color: var(--gold); margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+    .wrong-cta .inline-cta-card {
+      margin: 0; border: 1px solid rgba(251,191,36,0.3);
+      background: rgba(251,191,36,0.06);
+    }
+    /* ── Sticky bottom CTA bar ── */
+    .sticky-cta-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 900;
+      background: var(--bg-1); border-top: 1px solid var(--border);
+      padding: 10px 16px; display: none; align-items: center; justify-content: center; gap: 12px;
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.15);
+    }
+    .sticky-cta-bar.show { display: flex; }
+    .sticky-cta-text { font-size: 12px; color: var(--text-2); font-weight: 600; }
+    .sticky-cta-btn {
+      display: inline-block; padding: 8px 20px; border-radius: 8px;
+      background: var(--gold); color: #000; font-size: 12px; font-weight: 700;
+      text-decoration: none; white-space: nowrap; transition: opacity 0.2s;
+    }
+    .sticky-cta-btn:hover { opacity: 0.85; }
+    .sticky-cta-close {
+      background: none; border: none; color: var(--text-3); font-size: 18px;
+      cursor: pointer; padding: 4px 8px; line-height: 1;
+    }
     .inline-cta {
       margin: 14px 0 6px; padding: 14px 14px 12px;
       background: linear-gradient(135deg, rgba(251,191,36,0.08) 0%, rgba(251,191,36,0.02) 100%);
@@ -2447,6 +2483,7 @@
           <div class="transcript-ja" id="transcriptJa"></div>
         </div>
 
+        <div id="wrongAnswerCta"></div>
         <div id="inlineCtaSlot"></div>
         <button class="next-btn" id="nextBtn" onclick="next()">次の問題 →</button>
       </div>
@@ -3059,6 +3096,7 @@ function loadQ() {
   document.getElementById('loadingView').classList.add('show');
   document.getElementById('questionView').classList.remove('show');
   document.getElementById('explEl').classList.remove('show');
+  document.getElementById('wrongAnswerCta').innerHTML = '';
   document.getElementById('axisFeedback').classList.remove('show');
   document.getElementById('transcriptToggle').classList.remove('show');
   document.getElementById('transcriptToggle').textContent = '英文を確認する ▾';
@@ -3295,8 +3333,15 @@ function choose(selected) {
   const nextBtn = document.getElementById('nextBtn');
   nextBtn.classList.add('show');
 
-  // 10問ごとのインラインCTA
+  // 不正解時CTA（axis連動）
+  document.getElementById('wrongAnswerCta').innerHTML = '';
+  if (!ok) showWrongAnswerCta(current.axis);
+
+  // 5問ごとのインラインCTA
   showInlineCta();
+
+  // スティッキーバー更新
+  updateStickyBar();
 
   // 次へボタンが見えるように自動スクロール
   setTimeout(() => {
@@ -3412,7 +3457,7 @@ function showInlineCta() {
   var slot = document.getElementById('inlineCtaSlot');
   slot.innerHTML = '';
   if (inlineCtaDismissed) return;
-  if (total < 5 || total % 10 !== 0) return;
+  if (total < 5 || total % 5 !== 0) return;
 
   var weak = getWeakAxis();
   var svc = (weak.axis && INLINE_SERVICES[weak.axis]) ? INLINE_SERVICES[weak.axis] : DEFAULT_INLINE;
@@ -3436,6 +3481,52 @@ function dismissInlineCta() {
   inlineCtaDismissed = true;
   document.getElementById('inlineCtaSlot').innerHTML = '';
   ctaTrack('cta_dismiss', { placement: 'inline', question_number: total });
+}
+
+// ─────────────────────────────────────────
+// WRONG-ANSWER CTA（不正解時に解説下に表示）
+// ─────────────────────────────────────────
+function showWrongAnswerCta(axis) {
+  var slot = document.getElementById('wrongAnswerCta');
+  slot.innerHTML = '';
+  var svc = (axis && INLINE_SERVICES[axis]) ? INLINE_SERVICES[axis] : DEFAULT_INLINE;
+  var labels = {
+    speed: 'スピードに追いつくには、実践練習が効果的',
+    reduction: '音の変化は、ネイティブとの会話で慣れるのが近道',
+    vocab: '語彙力は、実際の会話で使うと定着します',
+    context: '文脈の読み取りは、対話型レッスンで鍛えられます',
+    distractor: '細かい聴き分けは、実践的な会話練習で磨けます'
+  };
+  var label = (axis && labels[axis]) ? labels[axis] : 'リスニング力を伸ばすなら、実践が一番の近道';
+  slot.innerHTML = '<div class="wrong-cta">'
+    + '<div class="wrong-cta-label">💡 ' + label + '</div>'
+    + renderCardCta(svc, 'wrong_answer')
+    + '</div>';
+  ctaTrack('cta_show', { service: svc.name, placement: 'wrong_answer', question_number: total, axis: axis || 'none' });
+}
+
+// ─────────────────────────────────────────
+// STICKY BOTTOM CTA BAR（3問回答後に表示）
+// ─────────────────────────────────────────
+var stickyBarDismissed = false;
+function updateStickyBar() {
+  if (stickyBarDismissed || total < 3) return;
+  var bar = document.getElementById('stickyCta');
+  var weak = getWeakAxis();
+  var svc = (weak.axis && INLINE_SERVICES[weak.axis]) ? INLINE_SERVICES[weak.axis] : DEFAULT_INLINE;
+  document.getElementById('stickyCtaText').textContent = weak.axis
+    ? AXIS_USER_LABELS[weak.axis] + 'を伸ばすなら'
+    : 'リスニング力を実戦で伸ばす';
+  var btn = document.getElementById('stickyCtaBtn');
+  btn.href = svc.url;
+  btn.textContent = svc.name + ' 無料体験 →';
+  btn.onclick = function() { ctaTrack('cta_click', { service: svc.name, placement: 'sticky', question_number: total }); };
+  bar.classList.add('show');
+}
+function closeStickyBar() {
+  stickyBarDismissed = true;
+  document.getElementById('stickyCta').classList.remove('show');
+  ctaTrack('cta_dismiss', { placement: 'sticky', question_number: total });
 }
 
 // ─────────────────────────────────────────
@@ -3704,28 +3795,31 @@ function showMissionComplete() {
   ];
   const cardsEl = document.getElementById('missionServiceCards');
   const labelEl = document.getElementById('missionServiceLabel');
-  if (rows.length >= 2 && rows[0].rate < 75) {
+  // 常にサービス提案を表示（弱点ありなし問わず）
+  if (rows.length >= 2 && rows[0].key) {
     const weakAxis = rows[0].key;
     const svc = SERVICE_BY_AXIS[weakAxis];
     if (svc) {
       const ctaMsg = acc < 50
         ? '🔥 聞き取れなかった原因は「実践不足」かも'
-        : '🎯 ' + svc.reason;
+        : acc < 80
+        ? '📈 あなたの弱点を克服する最短ルート'
+        : '🎯 この実力、実践で活かさないのはもったいない！';
       labelEl.textContent = ctaMsg;
       if (CTA_VARIANT === 'banner') {
         cardsEl.innerHTML = renderBannerCta(svc, 'mission');
       } else {
         cardsEl.innerHTML = renderCardCta(svc, 'mission');
       }
+      cardsEl.innerHTML += '<div class="mission-service-reason">' + svc.reason + '</div>';
       ctaTrack('cta_show', { service: svc.name, placement: 'mission', accuracy: acc });
     }
   } else {
     const defaultMsg = acc < 50
       ? '🔥 リスニングの壁を突破するなら'
-      : '🎯 リスニング力を実践で活かす';
+      : '🎯 クイズで鍛えた耳を、実践で活かそう';
     labelEl.textContent = defaultMsg;
     if (CTA_VARIANT === 'banner') {
-      // バナーモード: デフォルトはネイティブキャンプ1つ
       cardsEl.innerHTML = renderBannerCta(DEFAULT_SERVICES[1], 'mission');
     } else {
       cardsEl.innerHTML = DEFAULT_SERVICES.map(s => renderCardCta(s, 'mission')).join('');
@@ -4096,6 +4190,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 <canvas id="confettiCanvas" style="position:fixed;inset:0;pointer-events:none;z-index:9999;display:none"></canvas>
+
+<div class="sticky-cta-bar" id="stickyCta">
+  <span class="sticky-cta-text" id="stickyCtaText">リスニング力を伸ばすなら</span>
+  <a href="" class="sticky-cta-btn" id="stickyCtaBtn" target="_blank" rel="nofollow noopener">無料体験を見る →</a>
+  <button class="sticky-cta-close" onclick="closeStickyBar()" aria-label="閉じる">&times;</button>
+</div>
 
 </body>
 </html>
