@@ -90,7 +90,7 @@ gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --
 
 | 状況 | COOの判断 | 部長への指示 |
 |------|----------|------------|
-| **毎日（必須）** | 前日の投稿パフォーマンスを分析 | `/x-bucho daily` を実行（fetch-metrics.yml → 分析 → knowledge更新） |
+| **毎日（必須）** | 前日の投稿パフォーマンスを分析 | `/x-bucho daily` + `/cm-bucho daily` を実行（両アカウントのfetch-metrics.yml → 分析 → knowledge更新） |
 | schedule.json 残 ≤ 6件 | バッチ補充が必要 | `/x-bucho post` or `/cm-bucho post` → schedule.json更新 → push |
 | 3日以上データ未収集 | パフォーマンス取得が必要 | `x-data-collector` or `cm-data-collector` を実行 |
 | 投稿データが10件以上溜まった | 週次レビューの時期 | `/x-bucho review` or `/cm-bucho review` を実行 |
