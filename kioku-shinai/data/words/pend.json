@@ -1,0 +1,442 @@
+{
+  "root": "pend/pens",
+  "rootMeaning": "ぶら下がる・量る",
+  "rootLang": "ラテン語 pendere（PIE *spend-）",
+  "imageSchema": "天秤の両皿がぶら下がり、揺れながらバランスを取るイメージ。何かが宙吊りになって「決まらない状態」や、重さを「量る」動きが全語に通底する。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "天秤(pend)は皿が「ぶら下がって」いる。pendantは首からぶら下がる飾り。dependは誰かにぶら下がって頼る。pendが見えたら「ぶら下がり・揺れ・量る」を連想するだけで6語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "depend",
+      "phonetic": "/dɪˈpend/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "de", "meaning": "下へ・完全に", "type": "prefix"},
+        {"part": "pend", "meaning": "ぶら下がる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ pendere（ぶら下がる）= 下にぶら下がる → 頼る・次第である",
+        "fact": "ラテン語 dependere「下にぶら下がる、頼る」から。14世紀後半に「〜から吊り下がる」という物理的意味で英語に入り、15世紀に「〜に頼る、〜次第である」の抽象的意味に転じた。depend on は1640年代から確認できる。",
+        "source": "EtymOnline: depend",
+        "cognates": ["dependent", "dependence", "dependency", "independence", "dependable"]
+      },
+      "cognitive": {
+        "oneliner": "下にぶら下がっている→支えがなければ落ちる→頼る",
+        "fact": "VERTICALITYスキーマの応用。自分が誰か・何かの下にぶら下がっている(de + pendere)状態が「依存」。支柱がなければ落下するという物理的イメージが「頼る」「〜次第である」という抽象概念の根拠になっている。",
+        "source": "Lakoff & Johnson (1980) UP-DOWN スキーマ"
+      },
+      "gap": "depend on だけで覚えると it depends や depending on the situation で詰まる。語源の「下にぶら下がる」がわかれば、「何に吊り下げられているかによって結果が変わる」= 「〜次第だ」という意味が自然に出てくる。",
+      "gapOneliner": "depend = 「頼る」も「〜次第だ」も、何かにぶら下がっている状態",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ロープで崖に(de)ぶら下がっている(pend)状態がdepend。上の人が手を離したら落ちる=「頼っている」。It depends = 何にぶら下がるかで結果が変わる、つまり「状況次第」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "dependの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["下にぶら下がる→頼る", "前に量る→提案する", "外へ吊るす→除外する", "一緒にぶら下がる→協力する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + pend の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["下へ + ぶら下がる = 頼る", "離れて + 量る = 払う", "完全に + 揺れる = 決める", "下へ + 量る = 差し引く"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The project's success will ______ on the team's cooperation.",
+          "hint": "「下にぶら下がる」→「〜次第だ」",
+          "explanationFocus": "gap",
+          "choices": ["depend", "suspend", "append", "expend"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "dependと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["on each other（お互いに頼る）", "the weather（天気を量る）", "a building（建物にぶら下がる）", "the cost（費用を決める）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Whether we proceed depends on the budget approval.\" — dependsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜次第だ", "〜を無視する", "〜に反対する", "〜を記録する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The outcome will depend on how well we prepare."]
+    },
+    {
+      "word": "suspend",
+      "phonetic": "/səˈspend/",
+      "toeicRank": "TSL 612位相当（suspension）",
+      "parts": [
+        {"part": "sus (sub)", "meaning": "下から・下に", "type": "prefix"},
+        {"part": "pend", "meaning": "ぶら下がる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "sub（下から）+ pendere（ぶら下がる）= 下からぶら下げる → 宙吊りにする → 一時停止する",
+        "fact": "ラテン語 suspendere「下からつり下げる、宙吊りにする」から。13世紀後半に「つり下げる」の物理的意味で英語に入り、14世紀初頭に「一時的に保留・中断する」の比喩的意味が生まれた。「宙ぶらりん」な状態が「保留・停止」に転じた。",
+        "source": "EtymOnline: suspend",
+        "cognates": ["suspension", "suspense", "suspended", "suspender"]
+      },
+      "cognitive": {
+        "oneliner": "宙にぶら下げられた状態→決まらない・動けない→中断・停止",
+        "fact": "STASISスキーマ（静止・保留）。物体を宙吊り(sus + pendere)にすると前にも後ろにも動けない。この「動けない宙ぶらりん」が「業務停止」「資格停止」「物語のサスペンス（結末が宙吊り）」へと抽象化された。",
+        "source": "Johnson (1987) STASISスキーマ"
+      },
+      "gap": "「停職にする」と「つり下げる」を別々に覚えがちだが、どちらも「宙吊り」。suspend a license = 免許を宙吊りにする（停止）。suspense映画 = 結末が宙吊りのまま続く緊張感。bridgeのsuspension = ケーブルで宙吊りにした構造。",
+      "gapOneliner": "suspend = 「つり下げる」も「停止する」も、宙吊りにして動けなくすること",
+      "hook": {
+        "label": "記憶フック",
+        "text": "吊り橋(suspension bridge)はケーブルで「下から(sus)ぶら下げ(pend)」られている。suspend an employee = 社員を「宙吊り」にする=出勤停止。サスペンス映画も結末が宙吊りだから haらはらする。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "suspendの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["下からぶら下げる→宙吊り・中断", "前にぶら下げる→予告する", "外にぶら下げる→発表する", "離してぶら下げる→分離する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sus(sub) + pend の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["下から + ぶら下がる = 宙吊り・停止", "強く + 量る = 重視する", "再び + 揺れる = 再開する", "外へ + ぶら下げる = 公表する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The athlete was ______ for two games after the violation.",
+          "hint": "「宙吊りにする」→「出場停止にする」",
+          "explanationFocus": "gap",
+          "choices": ["suspended", "depended", "compensated", "appended"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "suspendと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["operations（業務を停止する）", "profits（利益をぶら下げる）", "weather（天気を止める）", "friends（友人を停止する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company decided to suspend all overseas travel temporarily.\" — suspendの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["一時停止する", "永久禁止する", "奨励する", "記録する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The manager decided to suspend the project until further notice."]
+    },
+    {
+      "word": "expense",
+      "phonetic": "/ɪkˈspens/",
+      "toeicRank": "TSL 198位",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "pens", "meaning": "量る・支払う", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ pendere（量って支払う）= 外に量り出す → 費用・支出",
+        "fact": "ラテン語 expensa（pecunia）「量り出されたお金」から。pendereの「量る→支払う」の転義が起点。14世紀後半に「費用、支出」として英語に入り、複数形 expenses として「経費精算」の意味は17世紀から。TOEICの頻出語で expense report（経費報告書）は必須表現。",
+        "source": "EtymOnline: expense",
+        "cognates": ["expensive", "expend", "expenditure", "inexpensive"]
+      },
+      "cognitive": {
+        "oneliner": "外に量り出されたお金→出て行くもの→費用",
+        "fact": "SOURCE-PATH-GOALスキーマ。手元（SOURCE）にある資産を外(ex-)に量り出す(pendere)動き。お金が「外に出る」という空間的イメージが「費用」「出費」の概念を支えている。expensive（高価な）= 多くを外に出さなければならないもの。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "expense（費用）とexpensive（高価な）の関係に気づかない学習者が多い。「外に量り出されるもの」= expense、「多くを外に出さなければならない」= expensive。また at the expense of〜（〜を犠牲にして）も「〜を外に出すことによって」と読むと自然に入る。",
+      "gapOneliner": "expense = 外に量り出されたお金。at the expense of = 〜を代償として払って",
+      "hook": {
+        "label": "記憶フック",
+        "text": "財布から「外に(ex)量り出される(pense)」お金がexpense（費用）。出て行くお金が多いほどexpensive（高価）。TOEIC頻出のexpense report = 外に出たお金の記録。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "expenseの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に量り出すお金→費用", "外にぶら下げるもの→展示品", "前に払うもの→前払い", "中に量るもの→資産"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + pens(e) の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 量る・払う = 費用", "外へ + ぶら下げる = 展示する", "強く + 測る = 評価する", "再び + 払う = 返金する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please submit your ______ report by the end of the month.",
+          "hint": "「外に量り出したお金」→「経費」",
+          "explanationFocus": "gap",
+          "choices": ["expense", "suspense", "dependence", "independence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "expenseと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["business expenses（業務経費）", "building expenses（建物を量る）", "weather expense（天気の費用）", "friend expense（友達コスト）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The expansion was achieved at the expense of quality.\" — at the expense ofの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜を犠牲にして", "〜のおかげで", "〜に加えて", "〜と同時に"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please keep all receipts for your travel expenses."]
+    },
+    {
+      "word": "compensate",
+      "phonetic": "/ˈkɒmpenseɪt/",
+      "toeicRank": "TSL 489位相当（compensation）",
+      "parts": [
+        {"part": "com", "meaning": "一緒に・完全に", "type": "prefix"},
+        {"part": "pens", "meaning": "量る", "type": "root"},
+        {"part": "ate", "meaning": "〜する", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "com（一緒に）+ pendere（量る）+ ate = 一緒に量り合わせる → 釣り合いを取る → 補償する",
+        "fact": "ラテン語 compensare「一緒に量る、均衡させる」から。1640年代に「均衡させる、相殺する」で英語に入り、その後「（損失・不足を）補う」「賃金で報いる」へ。天秤の両皿を「一緒に量って釣り合わせる」イメージが原点。",
+        "source": "EtymOnline: compensate",
+        "cognates": ["compensation", "compensatory", "recompense"]
+      },
+      "cognitive": {
+        "oneliner": "天秤の両皿を一緒に量って釣り合わせる→不足を補う・補償する",
+        "fact": "BALANCEスキーマ。天秤の左皿（損失・不足）と右皿（補償額）を com-（一緒に）pendere（量って）均衡させる動き。「損害賠償」も「残業代の支払い」も「弱点を強みでカバーする」も、すべて「天秤を釣り合わせる」行為。",
+        "source": "Johnson (1987) BALANCEスキーマ"
+      },
+      "gap": "「補償する」だけで覚えると compensate for the lack of experience（経験不足を補う）や compensate for the loss（損失を補填する）の自然な使い方が出てこない。「天秤の傾きを一緒に量って戻す」イメージがあれば compensate for + 不足・損失 が自動的に出てくる。",
+      "gapOneliner": "compensate = 傾いた天秤を量り直して釣り合わせる→補う・補償する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "天秤の左皿が下がった（損失）ら、右皿に重りを「一緒に(com)量り入れて(pens)」バランスを戻す(ate)のがcompensate。compensation（補償・報酬）= 釣り合わせるために支払われるもの。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "compensateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["一緒に量り合わせる→補償する", "前に量る→支払う", "外に量り出す→費用を出す", "下に量る→差し引く"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "com + pens + ate の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["一緒に + 量る + する = 釣り合わせる・補う", "完全に + 払う + する = 完済する", "共に + ぶら下げる + する = 協力する", "強く + 量る + する = 重視する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company agreed to ______ workers for the overtime.",
+          "hint": "「一緒に量り釣り合わせる」→「補償する」",
+          "explanationFocus": "gap",
+          "choices": ["compensate", "suspend", "depend", "expend"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "compensateと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["for the loss（損失を補填する）", "the building（建物を量る）", "the weather（天気を補う）", "a friend（友人を補償する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His enthusiasm compensates for his lack of experience.\" — compensatesの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["補う", "隠す", "強調する", "拡大する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company will compensate employees for any additional costs."]
+    },
+    {
+      "word": "independent",
+      "phonetic": "/ˌɪndɪˈpendənt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "in", "meaning": "否定", "type": "prefix"},
+        {"part": "de", "meaning": "下へ", "type": "prefix"},
+        {"part": "pend", "meaning": "ぶら下がる", "type": "root"},
+        {"part": "ent", "meaning": "〜な状態の", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "in（否定）+ de（下へ）+ pendere（ぶら下がる）= 下にぶら下がっていない → 独立した",
+        "fact": "ラテン語 independentem（主格 independens）「ぶら下がっていない」から。depend の否定形として構成。英語での使用は1630年代から。dependent「依存した」← de + pendere「下にぶら下がる」の否定 in- が付いた形。independence（独立）は1640年代から。",
+        "source": "EtymOnline: independent",
+        "cognates": ["independence", "independently", "interdependence", "depend", "dependent"]
+      },
+      "cognitive": {
+        "oneliner": "何にもぶら下がっていない状態→自力で立っている→独立した",
+        "fact": "UPRIGHTスキーマ（直立・自立）。dependが「下にぶら下がる」なら、independentは「どこにもぶら下がっていない」。重力に逆らって自力で立っているイメージが「自立・独立」の概念を支える。an independent thinker = 誰の考えにもぶら下がらない人。",
+        "source": "Lakoff & Johnson (1980) UP IS AUTONOMOUS"
+      },
+      "gap": "independent contractor（独立請負人）や independent study（自主学習）のような複合表現でよく出る。「独立した」と暗記するより「誰にもぶら下がっていない」イメージを持つと、independent judgment（自分の判断）や independent verification（独立した検証）も自然に理解できる。",
+      "gapOneliner": "independent = どこにもぶら下がっていない→他に頼らず自力で立っている",
+      "hook": {
+        "label": "記憶フック",
+        "text": "dependent（依存）は天井からぶら下がっている。in-（否定）でそのひもを切ったのがindependent。アメリカ独立宣言(Declaration of Independence) = イギリスからのひもを切った宣言。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "independentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["どこにもぶら下がっていない→独立した", "中にぶら下がっている→内部的な", "完全にぶら下がる→完全依存の", "外にぶら下がる→目立っている"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + de + pend + ent の分解で正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["否定 + 下へ + ぶら下がる + 状態 = 自立した", "中 + 強く + 量る + もの = 内部指標", "前 + 離れて + 揺れる + 性質 = 先行する", "上 + 外へ + ぶら下がる + 状態 = 突出した"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We hired an ______ auditor to review the financial statements.",
+          "hint": "「どこにもぶら下がっていない」→「独立した・第三者の」",
+          "explanationFocus": "gap",
+          "choices": ["independent", "dependent", "suspended", "compensated"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "independentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["contractor（独立請負業者）", "building（独立した建物）", "weather（独立した天気）", "payment（独立した支払い）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The report was based on an independent investigation.\" — independentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["第三者による・独立した", "内部の", "緊急の", "公式の"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The startup became financially independent within three years."]
+    },
+    {
+      "word": "appendix",
+      "phonetic": "/əˈpendɪks/",
+      "toeicRank": "TSL外・TOEFL/ビジネス文書頻出",
+      "parts": [
+        {"part": "ap (ad)", "meaning": "〜に向かって・付加", "type": "prefix"},
+        {"part": "pend", "meaning": "ぶら下がる", "type": "root"},
+        {"part": "ix", "meaning": "もの・結果", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に）+ pendere（ぶら下がる）= 〜にぶら下がるもの → 付録・虫垂",
+        "fact": "ラテン語 appendix「付属物、追加物」から。appendere「〜につり下げる」の名詞形。1540年代に「書物の付録・補遺」として英語に入り、1610年代に解剖学用語として「虫垂（腸にぶら下がった管状器官）」の意味が加わった。両義が「ぶら下がっているもの」で完全に一致する。",
+        "source": "EtymOnline: appendix",
+        "cognates": ["append", "appendage", "appendectomy", "appendicitis"]
+      },
+      "cognitive": {
+        "oneliner": "本体に「ぶら下がっている」もの→付録も虫垂も同じイメージ",
+        "fact": "ATTACHMENT（付着）スキーマ。本体の末端に ap-（向かって）pendere（ぶら下がる）もの。本の本文から末尾にぶら下がる「付録」、大腸の末端にぶら下がる「虫垂」——まったく異なる分野の語義が同じ空間イメージで統一されている。",
+        "source": "Johnson (1987) ATTACHMENTスキーマ"
+      },
+      "gap": "appendix を「虫垂」と「付録」の2つとして別々に覚えるのは非効率。どちらも「本体の末端にぶら下がっている付属物」。append（追加する）という動詞とセットで覚えると、append + ix（するもの・された結果）= appendix という語構成が見えてくる。",
+      "gapOneliner": "appendix = 本体にぶら下がった付属物。付録も虫垂も「末端のぶら下がり」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "報告書の最後に「くっついて(ap)ぶら下がっている(pend)もの(ix)」がappendix（付録）。お腹の腸の末端に「くっついてぶら下がっている」小さな管もappendix（虫垂）。どちらも「本体にぶら下がった付属品」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "appendixの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜にぶら下がるもの→付録・付属", "外に量るもの→費用一覧", "一緒に量るもの→索引", "下にぶら下げるもの→脚注"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ap(ad) + pend + ix の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜に + ぶら下がる + もの = 付属物・付録", "前に + 量る + こと = 序文", "離れて + ぶら下がる + もの = 独立文書", "外へ + 量る + もの = 費用明細"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Additional data and charts are included in the ______ at the back of the report.",
+          "hint": "「本体にぶら下がったもの」→「付録」",
+          "explanationFocus": "gap",
+          "choices": ["appendix", "expense", "suspension", "compensation"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "appendixと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["see Appendix A（付録Aを参照）", "submit an appendix（虫垂を提出）", "reduce the appendix（付録を減らす）", "depend on appendix（付録に頼る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The raw survey data can be found in Appendix B of this document.\" — Appendixの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["付録・巻末資料", "本文", "序章", "目次"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please refer to the appendix for the full list of references."]
+    }
+  ]
+}
