@@ -41,3 +41,13 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+
+      - name: Mark as posted and push
+        if: steps.text.outputs.post_text != ''
+        run: |
+          python3 scripts/mark_posted.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add x-knowledge/posts/schedule.json
+          git diff --cached --quiet || git commit -m "mark posted: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
