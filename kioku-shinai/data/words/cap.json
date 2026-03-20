@@ -1,0 +1,581 @@
+{
+  "root": "cap/cep/ceiv",
+  "rootMeaning": "取る",
+  "rootLang": "ラテン語 capere（PIE *kap-）",
+  "imageSchema": "手を伸ばして何かを掴み取るイメージ。鷹が獲物を爪で取る（capture）ように、対象に向けて手を伸ばし確保する動き。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "cap/cep/ceivが見えたら「取る」と読み替えるだけで8語が一気に読める。receive（受け取る）、accept（受け入れる）、capture（捕らえる）—全て「取る」動詞の変奏。"
+  },
+  "words": [
+    {
+      "word": "receive",
+      "phonetic": "/rɪˈsiːv/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "re", "meaning": "再び・戻って", "type": "prefix"},
+        {"part": "ceiv", "meaning": "取る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "re（戻って）+ capere（取る）= こちら側に取り戻す → 受け取る",
+        "fact": "ラテン語 recipere「取り戻す、受け入れる」から（re- + capere）。13世紀末に古フランス語 receivre 経由で英語に入った。「こちら側に向けて取る」という方向性が「受け取る」という意味を生んだ。名詞 receipt（レシート）も同根。",
+        "source": "EtymOnline: receive",
+        "cognates": ["receipt", "receiver", "reception", "receptive", "recipient"]
+      },
+      "cognitive": {
+        "oneliner": "相手から自分の方に取り込む→受け取る",
+        "fact": "PATHスキーマ（SOURCE→GOAL）の受動側。送り手（SOURCE）から受け手（GOAL）に向けてものが移動するとき、GOALの視点でその取り込み動作を表す。能動のgive に対応する受動の動き。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「受け取る」だけで覚えると receive criticism（批判を受ける）やreceive a signal（信号を受信する）で詰まる。語源の「こちら側に取り込む」がわかれば、情報・電波・感情など無形のものを「受け取る」場合も自然に理解できる。",
+      "gapOneliner": "receive = 物だけでなく批判・信号・訓練も「こちら側に取り込む」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（戻って）+ ceive（取る）＝「自分のほうに取り戻す」のがreceive。郵便物を受け取るのも、電波を受信するのも、全部「こちら側に取り込む」動き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "receiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["こちら側に取る→受け取る", "前に取り出す→生み出す", "離れて取る→奪い去る", "一緒に取る→共有する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + ceive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["戻って + 取る = 受け取る", "再び + 取る = 繰り返す", "反対に + 取る = 返却する", "離れて + 取る = 手放す"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Did you ______ my email yesterday?",
+          "hint": "「こちら側に取り込む」→「受け取る」",
+          "explanationFocus": "gap",
+          "choices": ["receive", "perceive", "achieve", "believe"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "receiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["feedback（フィードバックを受ける）", "money（お金を取る）", "building（建物を受け取る）", "weather（天気を受信する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She received mixed reviews for her performance.\" — receivedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["受けた", "与えた", "批判した", "避けた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["I received your email this morning."]
+    },
+    {
+      "word": "accept",
+      "phonetic": "/əkˈsɛpt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ac", "meaning": "〜に向けて（ad-の変形）", "type": "prefix"},
+        {"part": "cept", "meaning": "取る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ac（〜に向けて）+ capere（取る）= 対象に向けて取る → 受け入れる",
+        "fact": "ラテン語 acceptare「受け入れる、受け取る」から（ad- + capere の頻出形）。14世紀初頭に古フランス語 accepter 経由で英語に入った。前置詞 ad-（〜に向けて）が c の前で ac- に変化する同化現象。",
+        "source": "EtymOnline: accept",
+        "cognates": ["acceptance", "acceptable", "unacceptable", "accepted"]
+      },
+      "cognitive": {
+        "oneliner": "差し出されたものへ向けて手を伸ばし取る→受け入れる",
+        "fact": "AGENCYスキーマ（意志的取得）の典型。単なる受け取り（receive）と異なり、積極的に「向かって取りに行く」意志がある。accept an offer = オファーに向かって取る＝受諾する。拒否（reject）との対比が鮮明。",
+        "source": "Lakoff & Johnson (1980) AGENCYメタファー"
+      },
+      "gap": "receiveとacceptの違いが曖昧になりがち。receive = 受動的に受け取る（手元に届く）、accept = 能動的に受け入れる（意志で取る）。I received the offer but didn't accept it.（オファーは届いたが受諾しなかった）で差がわかる。",
+      "gapOneliner": "accept = 意志を持って「向かって取る」。receiveより能動的な受け入れ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ac（〜に向かって）+ cept（取る）。差し出された手に「向かって手を伸ばして取る」のがaccept。拒否(reject)は手を引っ込めること。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "acceptの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜に向けて取る→受け入れる", "外に取り出す→除外する", "完全に取る→知覚する", "一緒に取る→概念化する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ac + cept の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜に向けて + 取る = 受け入れる", "離れて + 取る = 手放す", "下に + 取る = 押さえる", "再び + 取る = 取り戻す"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We are pleased to ______ your job application.",
+          "hint": "「〜に向けて取る」→「受け入れる」",
+          "explanationFocus": "gap",
+          "choices": ["accept", "except", "expect", "concept"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "acceptと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["responsibility（責任を受け入れる）", "money（お金を取る）", "weather（天気を受け入れる）", "building（建物を承認する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He finally accepted that he had made a mistake.\" — acceptedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["認めた", "否定した", "報告した", "隠した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please accept our sincere apologies."]
+    },
+    {
+      "word": "except",
+      "phonetic": "/ɪkˈsɛpt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "cept", "meaning": "取る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ capere（取る）= 外に取り出す → 除外する",
+        "fact": "ラテン語 excipere「外に取り出す、取り除く」の過去分詞 exceptus から。14世紀後半に英語に入り、前置詞・接続詞としての「〜を除いて」は15世紀から。acceptとはex-（外）とac-（向かって）という方向が正反対。",
+        "source": "EtymOnline: except",
+        "cognates": ["exception", "exceptional", "unexceptional"]
+      },
+      "cognitive": {
+        "oneliner": "グループの外に取り出す→除外する・〜を除いて",
+        "fact": "CONTAINERスキーマの反転。容器（グループ）の中にあるものを外(ex-)に取り出す(capere)動き。例外(exception)とは「外に取り出された存在」。Everyone except Tom = Tomだけ外に取り出された状態。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "accept（受け入れる）との混同が最大の落とし穴。except は「外に取り出す」なのでexclude（除外する）に近い。except for = 〜を除けば、という例外化の表現が頻出。exceptionalは「外に取り出された→普通でない→並外れた」。",
+      "gapOneliner": "except = 外に取り出す。acceptと逆方向、exceptionalは「普通の外に出た→卓越した」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ex（外へ）+ cept（取る）＝「外に取り出す」のがexcept。acceptは「中へ向かって取る」の逆。Everyone except Tom—Tomだけ外に出されたイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "exceptの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に取り出す→除外する", "〜に向けて取る→受け入れる", "完全に取る→知覚する", "一緒に取る→概念化する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + cept の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 取る = 除外する", "中へ + 取る = 受け入れる", "前へ + 取る = 先取りする", "下へ + 取る = 差し引く"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Everyone passed the exam ______ John.",
+          "hint": "「外に取り出す」→「〜を除いて」",
+          "explanationFocus": "gap",
+          "choices": ["except", "accept", "expect", "concept"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "exceptと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["for（〜を除いて）", "on（〜に受け入れる）", "to（〜に向けて除く）", "with（〜と一緒に除く）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The store is open every day except Sunday.\" — exceptの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜を除いて", "〜に加えて", "〜のために", "〜にもかかわらず"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The office is open every day except Sunday."]
+    },
+    {
+      "word": "perceive",
+      "phonetic": "/pərˈsiːv/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "per", "meaning": "完全に・通して", "type": "prefix"},
+        {"part": "ceiv", "meaning": "取る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "per（完全に）+ capere（取る）= 完全に取り込む → 知覚する・認識する",
+        "fact": "ラテン語 percipere「完全に把握する、感じ取る」から（per- + capere）。13世紀後半に古フランス語 percevoir 経由で英語に入った。感覚器官を通して「完全に取り込む」ことから、視覚・聴覚・触覚などの知覚全般を表す。",
+        "source": "EtymOnline: perceive",
+        "cognates": ["perception", "perceptive", "imperceptible", "perceptible"]
+      },
+      "cognitive": {
+        "oneliner": "感覚を通して情報を完全に取り込む→知覚する・認識する",
+        "fact": "CONTAINERスキーマと完全性（per-）の組み合わせ。外部からの刺激を感覚という「通路」を経由して意識の内側に完全(per-)に取り込む(capere)動き。see（見る）が物理的な視覚なら、perceiveはその意味的解釈まで含む深い認識。",
+        "source": "Johnson (1987) CONTAINERスキーマ + 完全性メタファー"
+      },
+      "gap": "seeやhearと混同しがち。perceive = 感覚を通じて意味まで「完全に取り込む」ので、I perceived her disappointment = 彼女のがっかりした様子を読み取った（表情から意味まで取り込んだ）。単純な視覚より深い認知的プロセス。",
+      "gapOneliner": "perceive = 感覚的に受け取るだけでなく、意味まで完全に取り込む認識",
+      "hook": {
+        "label": "記憶フック",
+        "text": "per（完全に）+ ceive（取る）＝感覚で「完全に取り込む」のがperceive。see（見る）より深い—相手の感情・意図まで丸ごと受け取るイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "perceiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全に取り込む→知覚する", "外に取り出す→除外する", "戻って取る→受け取る", "一緒に取る→概念化する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "per + ceive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + 取る = 知覚する", "再び + 取る = 受け取る", "外へ + 取る = 除外する", "下に + 取る = 押さえ込む"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He failed to ______ the subtle change in her tone.",
+          "hint": "「完全に取り込む」→「感じ取る」",
+          "explanationFocus": "gap",
+          "choices": ["perceive", "receive", "achieve", "believe"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "perceiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["a threat（脅威と認識する）", "a letter（手紙を知覚する）", "money（お金を感じる）", "a building（建物を取り込む）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She perceived a note of sadness in his voice.\" — perceivedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["感じ取った", "無視した", "報告した", "否定した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["How do customers perceive our brand?"]
+    },
+    {
+      "word": "concept",
+      "phonetic": "/ˈkɒnsɛpt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "con", "meaning": "一緒に", "type": "prefix"},
+        {"part": "cept", "meaning": "取る（こと）", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ capere（取ること）= 一緒に取りまとめること → 概念",
+        "fact": "ラテン語 concipere「一緒に取り込む、心に描く」の過去分詞形 conceptus（名詞）から。16世紀後半に英語に入った。複数の感覚・経験を「一緒に取りまとめた」精神的産物が「概念」。conceive（構想する）と同根で、conceptは名詞形。",
+        "source": "EtymOnline: concept",
+        "cognates": ["conceive", "conception", "conceptual", "preconception"]
+      },
+      "cognitive": {
+        "oneliner": "複数の経験や感覚を一緒に取り込んでまとめたもの→概念",
+        "fact": "CONTAINERスキーマとGROUPINGの組み合わせ。バラバラな経験・観察を意識という容器の中で一緒に(con-)取り込み(capere)、ひとまとめにした抽象的なパッケージが「概念」。リンゴ・ミカン・ブドウを一緒に取り込んで「果物」という概念が生まれるイメージ。",
+        "source": "Lakoff & Johnson (1980) CONTAINERメタファー"
+      },
+      "gap": "「概念」と訳語だけ覚えると、The concept behind this product（この製品の背後にある考え方）やa new concept in design（デザインの新しい発想）で使い方が見えにくくなる。語源の「取りまとめた精神的産物」がわかれば、アイデア・発想・理念など広い文脈で使える。",
+      "gapOneliner": "concept = 経験を取りまとめた精神的産物。「概念」だけでなく「発想・考え方」も",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con（一緒に）+ cept（取る）＝いろんな経験を「一緒に取りまとめた」のがconcept。リンゴ・ミカン・ブドウを束にして「フルーツ」という概念を作るイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "conceptの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["一緒に取りまとめること→概念", "外に取り出すこと→例外", "完全に取り込むこと→知覚", "戻って取ること→受け取り"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + cept の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["一緒に + 取ること = 概念", "外へ + 取ること = 除外", "再び + 取ること = 受け取り", "強く + 取ること = 捕獲"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The designer introduced a revolutionary ______ for mobile interfaces.",
+          "hint": "「一緒に取りまとめた発想」→「概念・コンセプト」",
+          "explanationFocus": "gap",
+          "choices": ["concept", "except", "accept", "precept"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "conceptと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["grasp（概念を把握する）", "run（概念を走る）", "build（概念を建てる）", "send（概念を送る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The concept of work-life balance has changed significantly.\" — conceptの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["概念・考え方", "法律・規則", "統計・数値", "設備・施設"],
+          "correct": 0
+        }
+      ],
+      "examples": ["This concept will change the way we work."]
+    },
+    {
+      "word": "capable",
+      "phonetic": "/ˈkeɪpəbl/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "cap", "meaning": "取る", "type": "root"},
+        {"part": "able", "meaning": "〜できる", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "capere（取る）+ -able（できる）= 取ることができる → 有能な・〜できる",
+        "fact": "後期ラテン語 capabilis「受け入れる能力のある」から（capere + -abilis）。16世紀後半に英語に入った。元々は「何かを収容・受容できる」という意味で、そこから「行動・仕事を取り組む能力がある」→「有能な」へ意味拡張。",
+        "source": "EtymOnline: capable",
+        "cognates": ["capability", "incapable", "capacity", "incapacity"]
+      },
+      "cognitive": {
+        "oneliner": "課題を「取る・掴む」ことができる→能力がある・有能な",
+        "fact": "GRASP IS UNDERSTANDING メタファーの拡張。課題や仕事を「掴み取る(cap-)こと(-able)ができる」という身体的イメージが、認知的・職務的な「能力」の意味を生んだ。capable of doing = 〜を取り行う能力がある。",
+        "source": "Lakoff & Johnson (1980) UNDERSTANDING IS GRASPINGメタファー"
+      },
+      "gap": "able（〜できる）との違いが曖昧になりがち。She is able to lift it（彼女はそれを持ち上げられる）は一時的・個別の能力、She is capable（彼女は有能だ）は全般的な資質。capable of は持続的な潜在能力を示す。",
+      "gapOneliner": "capable = 「取り掴む力がある」潜在的・全般的な能力。ableより深い資質を示す",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cap（取る）+ able（できる）＝「取ることができる」のがcapable。仕事をガッと掴み取れる人＝有能な人。capable of anything = 何でも掴み取れる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "capableの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["取ることができる→有能な", "外に取り出せる→除外できる", "完全に取り込める→知覚できる", "一緒に取れる→共有できる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cap + able の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["取る + できる = 有能な", "受け取る + できる = 受容的な", "除く + できる = 除外可能な", "知覚する + できる = 感知可能な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is ______ of handling multiple projects at once.",
+          "hint": "「取ることができる」→「〜の能力がある」",
+          "explanationFocus": "gap",
+          "choices": ["capable", "available", "suitable", "reliable"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "capableと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["of（〜の能力がある）", "for（〜のために有能な）", "on（〜の上で有能な）", "at（〜において取れる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He is a highly capable engineer with 10 years of experience.\" — capableの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["有能な", "経験豊富な", "著名な", "積極的な"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She is capable of leading the entire team."]
+    },
+    {
+      "word": "capture",
+      "phonetic": "/ˈkæptʃər/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "capt", "meaning": "取る", "type": "root"},
+        {"part": "ure", "meaning": "行為・結果", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "capere（取る）+ -ura（行為）= 取ること → 捕らえる・捉える",
+        "fact": "ラテン語 captura「捕獲、漁獲」から（capere の名詞形 captus + -ura）。16世紀後半に英語に入り、当初は「捕虜として捕まえる」だったが、19世紀以降「写真に捉える」「データを取得する」など意味が広がった。captain（隊長）・captive（捕虜）と同根。",
+        "source": "EtymOnline: capture",
+        "cognates": ["captive", "captivate", "captivating", "caption", "captain"]
+      },
+      "cognitive": {
+        "oneliner": "物理的に・比喩的に「掴み取る」→捕らえる・捉える",
+        "fact": "PHYSICAL FORCE（物理的力）スキーマの典型。手や罠で物理的に掴み取る動きが原義。そこから「カメラが瞬間を取る」「システムがデータを取る」「表現が本質を取る」など多様なドメインに転用された。captivateは「心を捕らえる」→「魅了する」。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「捕らえる」だけで覚えると capture the moment（瞬間を捉える）、capture market share（市場シェアを獲得する）、capture data（データを取得する）で詰まる。語源の「取る・掴む」がわかれば、物理的捕獲から抽象的取得まで一貫して理解できる。",
+      "gapOneliner": "capture = 物理的な捕獲から「瞬間を捉える・シェアを獲得する」まで全て「掴み取る」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "capt（取る）+ ure（行為）＝「取ること・取る行為」がcapture。鷹が獲物を爪で「掴み取る」イメージ。写真も「瞬間を掴み取る」から capture the moment。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "captureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["取ること→捕らえる", "導くこと→案内する", "送ること→届ける", "示すこと→表示する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "capt + ure の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["取る + 行為 = 捕らえること", "導く + 行為 = 案内すること", "送る + 行為 = 配達すること", "見る + 行為 = 観察すること"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The photographer managed to ______ the perfect moment.",
+          "hint": "「掴み取る」→「捉える」",
+          "explanationFocus": "gap",
+          "choices": ["capture", "rapture", "feature", "texture"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "captureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["market share（市場シェアを獲得する）", "money（お金を捕まえる）", "weather（天気を取る）", "building（建物を捕まえる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new app captures user data in real time.\" — capturesの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["取得する", "削除する", "送信する", "表示する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The camera captured the entire incident."]
+    },
+    {
+      "word": "participate",
+      "phonetic": "/pɑːrˈtɪsɪpeɪt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "parti", "meaning": "部分", "type": "prefix"},
+        {"part": "cip", "meaning": "取る", "type": "root"},
+        {"part": "ate", "meaning": "動詞化", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "pars（部分）+ capere（取る）+ -ate = 部分を取る → 参加する",
+        "fact": "ラテン語 participare「分かち合う、参加する」から（particeps = pars「部分」+ capere「取る」）。16世紀初頭に英語に入った。「全体のある部分を自分のものとして取る」という意味が「参加する・関与する」に転じた。participant（参加者）は文字通り「部分を取る人」。",
+        "source": "EtymOnline: participate",
+        "cognates": ["participant", "participation", "participatory", "participial"]
+      },
+      "cognitive": {
+        "oneliner": "グループや活動の「一部分を自分の取り分として取る」→参加する",
+        "fact": "PART-WHOLE（部分-全体）スキーマとGRASPの組み合わせ。全体（活動・イベント・議論）のある一部分(parti-)を自分の取り分として取る(capere)動き。「全体に全員が全力参加」ではなく、各人が「自分の部分を担う・取る」という協働感覚。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "「参加する」＝joinと同じと思いがちだが、participateはより能動的。join a club = クラブに加入する（所属）、participate in a discussion = 議論の一部を担う（能動的関与）。TOEICでは participate in a meeting / program / survey が頻出。",
+      "gapOneliner": "participate = 単なる所属(join)ではなく、活動の一部を能動的に「取る・担う」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "parti（部分）+ cip（取る）+ ate＝「部分を取る」のがparticipate。ケーキを皆で分けるとき、自分のスライス（部分）を取る人が参加者(participant)。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "participateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["部分を取る→参加する", "完全に取る→知覚する", "外に取り出す→除外する", "一緒に取る→概念化する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "parti + cip + ate の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["部分 + 取る + 動詞化 = 参加する", "前 + 取る + 動詞化 = 先取りする", "外 + 取る + 動詞化 = 除外する", "一緒 + 取る + 動詞化 = 共有する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "All employees are encouraged to ______ in the training program.",
+          "hint": "「部分を取る」→「参加する」",
+          "explanationFocus": "gap",
+          "choices": ["participate", "anticipate", "appreciate", "negotiate"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "participateと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["in（〜に参加する）", "on（〜の上で参加する）", "for（〜のために参加する）", "to（〜に向けて参加する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Over 500 companies participated in the trade fair.\" — participatedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["参加した", "開催した", "視察した", "撤退した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["All team members are expected to participate in the weekly meeting."]
+    }
+  ]
+}
