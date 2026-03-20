@@ -1,0 +1,444 @@
+{
+  "root": "clud/clus/clos",
+  "rootMeaning": "閉じる",
+  "rootLang": "ラテン語 claudere（PIE *kleh₂u-）",
+  "imageSchema": "扉を押して閉める手のイメージ。錠前(clavis=鍵)と同じ語根から派生し、何かを閉じ込める・締め出す・締めくくる動き。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "錠前屋(locksmith)が鍵(key)で扉を「閉じる」。ラテン語の claudere（閉じる）が語源で、clud/clus/clos の形に変化する。include（中に閉じ込める）、exclude（外に閉め出す）、conclude（完全に閉じる＝結論を出す）——閉じる方向が変わるだけで意味が決まる。"
+  },
+  "words": [
+    {
+      "word": "include",
+      "phonetic": "/ɪnˈkluːd/",
+      "toeicRank": "TSL 上位・NGSL 上位",
+      "parts": [
+        {"part": "in", "meaning": "中に", "type": "prefix"},
+        {"part": "clud", "meaning": "閉じる", "type": "root"},
+        {"part": "e", "meaning": "動詞語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "in（中に）+ claudere（閉じる）= 中に閉じ込める → 含める",
+        "fact": "ラテン語 includere「中に閉じ込める、囲い込む」から。15世紀初頭に「囲い込む」で英語に入り、1530年代に「リストや範囲の中に入れる」の意味に定着。exclude と対義語ペアとして確立したのは17世紀。",
+        "source": "EtymOnline: include",
+        "cognates": ["inclusion", "inclusive", "including", "included"]
+      },
+      "cognitive": {
+        "oneliner": "CONTAINERスキーマ——境界の中に入れる動き",
+        "fact": "CONTAINERスキーマの典型例。「中に(in-)閉じ込める(cludere)」という空間的動作が比喩的に拡張され、集合・リスト・範囲の「境界内に入れる」操作を表す。The price includes tax = 価格という容器の中に税が閉じ込められている。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「含む」だけで覚えると including と included の違いで詰まる。including = 「〜を含めて閉じ込めている（進行中の状態）」、included = 「既に閉じ込められた（完了）」。The price includes tax と Tax is included in the price は同じ構造。",
+      "gapOneliner": "include = 「中に閉じ込める」——境界の内側に入れる動作",
+      "hook": {
+        "label": "記憶フック",
+        "text": "招待リストに名前を「中に(in)閉じ込める(clud)」のがinclude。その輪の外に置くのがexclude。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "includeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["中に閉じ込める→含める", "上に閉じる→覆う", "前に閉じる→予防する", "共に閉じる→結論する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + clud の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中に + 閉じる = 含める", "否定 + 閉じる = 除外する", "強意 + 閉じる = 閉鎖する", "後ろに + 閉じる = 締め切る"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The package price ______ all meals and transportation.",
+          "hint": "「中に閉じ込める」→「含む」",
+          "explanationFocus": "gap",
+          "choices": ["includes", "excludes", "concludes", "discloses"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "includeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["tax（税を含む）", "weather（天気を含む）", "luck（運を含む）", "speed（速度を含む）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Does the rent include utilities?\" — includeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["含む", "除外する", "増やす", "請求する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The price includes tax and service charge."]
+    },
+    {
+      "word": "exclude",
+      "phonetic": "/ɪkˈskluːd/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "clud", "meaning": "閉じる", "type": "root"},
+        {"part": "e", "meaning": "動詞語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ claudere（閉じる）= 外に向けて閉じる → 締め出す",
+        "fact": "ラテン語 excludere「締め出す、遮断する」から。15世紀初頭に「外に追い出す」で英語に入り、1530年代に「リストや範囲から除外する」へ。もともとは物理的に扉を閉めて入れない動作が語義の核。",
+        "source": "EtymOnline: exclude",
+        "cognates": ["exclusion", "exclusive", "excluding", "excluded"]
+      },
+      "cognitive": {
+        "oneliner": "境界の外側に押し出して扉を閉める動き",
+        "fact": "CONTAINERスキーマの「外へ」バージョン。include が内側に引き込む力なら、exclude は外側(ex-)に押し出して扉を閉める(cludere)力。「輪の外に置く」という社会的排除のイメージとも直結している。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「除外する」だけでなく excluding VAT（VAT除く）、not excluding の二重否定もTOEICに頻出。語源の「外に向けて閉じる」がわかれば not excluding = 「外に閉め出さない＝含む」と理解できる。",
+      "gapOneliner": "exclude = 「外に向けて閉じる」——境界の外に押し出して閉める",
+      "hook": {
+        "label": "記憶フック",
+        "text": "クラブの入口で「外(ex)に向けて扉を閉める(clud)」のがexclude。VIP以外は全員締め出し。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "excludeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外へ閉じる→締め出す", "内に閉じる→含める", "共に閉じる→結論する", "強く閉じる→封鎖する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + clud の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 閉じる = 締め出す", "中に + 閉じる = 含める", "前に + 閉じる = 防ぐ", "後ろに + 閉じる = 遅らせる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The price is $500, ______ shipping costs.",
+          "hint": "「外に向けて閉じる」→「除外する」",
+          "explanationFocus": "gap",
+          "choices": ["excluding", "including", "concluding", "disclosing"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "excludeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["members（メンバーを除外する）", "money（お金を閉じる）", "time（時間を締め出す）", "weather（天気を除外する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Children under 12 are excluded from the program.\" — excludedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["締め出される", "招待される", "保護される", "登録される"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The quoted price excludes tax and delivery charges."]
+    },
+    {
+      "word": "conclude",
+      "phonetic": "/kənˈkluːd/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "con", "meaning": "完全に・共に", "type": "prefix"},
+        {"part": "clud", "meaning": "閉じる", "type": "root"},
+        {"part": "e", "meaning": "動詞語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "con（完全に）+ claudere（閉じる）= 完全に閉じる → 締めくくる・結論を出す",
+        "fact": "ラテン語 concludere「完全に閉じる、締めくくる」から。14世紀後半に「論証を締めくくる」で英語に入り、15世紀に「決定する」、16世紀に「終わらせる」と意味が広がった。conclusion（1382年）の方が名詞形として先に定着した珍しいケース。",
+        "source": "EtymOnline: conclude",
+        "cognates": ["conclusion", "conclusive", "inconclusive", "conclusively"]
+      },
+      "cognitive": {
+        "oneliner": "議論や思考の出口を完全に閉じる→これ以上開けられない最終地点",
+        "fact": "CONTAINER + PATH スキーマの複合。議論(con-)を完全に閉じる(cludere)とは、思考のパスを「最終地点で封鎖する」こと。これ以上進めない=結論。会議を「完全に閉じる」→終了、交渉を「完全に閉じる」→合意、という拡張が起きた。",
+        "source": "Johnson (1987) PATH + CONTAINERスキーマ"
+      },
+      "gap": "「結論を出す」と「終える」を別語として暗記しがちだが、どちらも「完全に閉じる」。conclude a meeting = 会議を完全に閉じる（終わらせる）、conclude that = 思考プロセスを完全に閉じた結果として〜と判断する。",
+      "gapOneliner": "conclude = 「完全に閉じる」——議論も会議も思考もすべて同じ動作",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ミステリー小説の最終章で探偵が「完全に(con)扉を閉じる(clud)」——それがconclude。もう逃げ場はない、これが結論だ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "concludeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全に閉じる→結論を出す", "外に閉じる→締め出す", "中に閉じる→含める", "再び閉じる→再開する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + clud の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + 閉じる = 締めくくる", "共に + 開く = 公開する", "反対に + 閉じる = 開始する", "下に + 閉じる = 抑圧する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The report ______ that further investment is necessary.",
+          "hint": "「完全に閉じる」→「結論を出す」",
+          "explanationFocus": "gap",
+          "choices": ["concludes", "includes", "excludes", "discloses"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "concludeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["negotiations（交渉を締めくくる）", "money（お金を結論する）", "weather（天気を締めくくる）", "friends（友人を閉じる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Investigators concluded that the fire was accidental.\" — concludedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["結論づけた", "否定した", "発見した", "報告した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The committee concluded that the proposal needed revision."]
+    },
+    {
+      "word": "disclose",
+      "phonetic": "/dɪsˈkloʊz/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "dis", "meaning": "離れて・反対に", "type": "prefix"},
+        {"part": "clos", "meaning": "閉じる", "type": "root"},
+        {"part": "e", "meaning": "動詞語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "dis（離れて）+ claudere（閉じる）= 閉じた状態を解く → 開示する・暴露する",
+        "fact": "古フランス語 desclos（開いた）を経由したラテン語 discludere「閉じたものを開く、分離する」から。14世紀後半に「蓋を取る」の物理的意味で英語に入り、15世紀に「隠していた情報を明かす」の意味へ。現代では法律・金融分野での情報開示義務(disclosure requirement)に多用。",
+        "source": "EtymOnline: disclose",
+        "cognates": ["disclosure", "undisclosed", "nondisclosure", "full disclosure"]
+      },
+      "cognitive": {
+        "oneliner": "「閉じている状態」を逆転させる——封印を解いて中を見せる動き",
+        "fact": "CONTAINERスキーマの「閉じた状態を解く」操作。情報が容器の中に隠されていた状態(clos-)を、dis-(分離・逆転)することで外に出す。物理的な「蓋を開ける」から比喩的な「秘密を明かす」へとスキーマが拡張している。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「開示する」「暴露する」が別語に見えるが、どちらも「閉じていたものを開く」。TOEIC法律文書では disclose financial information（財務情報を開示する）、ビジネスメールでは I must disclose a conflict of interest（利益相反を開示しなければならない）の形が頻出。",
+      "gapOneliner": "disclose = 「閉じた状態を開く」——秘密も財務情報も同じ動作",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「閉じた(clos)状態を分離させる(dis)」のがdisclose。金庫を開けて中身を見せる——それが情報開示。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "discloseの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["閉じた状態を開く→開示する", "完全に閉じる→結論する", "外に閉じる→締め出す", "再び閉じる→隠す"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "dis + clos の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["逆転させる + 閉じる = 開示する", "否定する + 閉じる = 封鎖する", "強める + 閉じる = 秘密にする", "前に + 閉じる = 予防する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Companies are required to ______ any potential conflicts of interest.",
+          "hint": "「閉じた状態を開く」→「開示する」",
+          "explanationFocus": "gap",
+          "choices": ["disclose", "enclose", "conclude", "exclude"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "discloseと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["information（情報を開示する）", "product（製品を閉じる）", "building（建物を開く）", "weather（天気を明かす）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The whistleblower disclosed sensitive documents to the press.\" — disclosedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["暴露した", "盗んだ", "破壊した", "保管した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company is required to disclose all financial risks to investors."]
+    },
+    {
+      "word": "enclose",
+      "phonetic": "/ɪnˈkloʊz/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "en", "meaning": "中に・囲んで", "type": "prefix"},
+        {"part": "clos", "meaning": "閉じる", "type": "root"},
+        {"part": "e", "meaning": "動詞語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "en（中に）+ claudere（閉じる）= 中に入れて閉じる → 同封する・囲む",
+        "fact": "古フランス語 enclos（囲われた土地）を経由したラテン語 includere / inclaustrum から。13世紀に「土地を柵で囲う」の農業的意味で英語に入り、14世紀に「手紙の中に入れる＝同封する」の意味へ。英国のエンクロージャー運動（農地の囲い込み、15-18世紀）でも中心語となった歴史的単語。",
+        "source": "EtymOnline: enclose",
+        "cognates": ["enclosure", "enclosed", "enclosing"]
+      },
+      "cognitive": {
+        "oneliner": "対象物の周囲を閉じて囲い込む動き——境界を作って内側に収める",
+        "fact": "CONTAINERスキーマの「境界を作る」操作。en-(中に)でclos-(閉じる)ことで対象の周囲に境界を作る。封筒に書類を入れて封じる(enclose a document)も、牧場を柵で囲う(enclose a field)も、同じ「周囲を閉じて内側に収める」動作のスキーマが働く。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "ビジネス英語で Please find enclosed... / Please find the document enclosed は定型表現。「同封する」の訳だけで覚えると enclose a garden with a fence（庭を柵で囲う）で詰まる。「中に入れて閉じる」が核心。",
+      "gapOneliner": "enclose = 「中に入れて閉じる」——同封も囲いも同じ境界を作る動作",
+      "hook": {
+        "label": "記憶フック",
+        "text": "封筒(envelope)に書類を「中に入れて(en)閉じる(clos)」のがenclose。牧場を柵で「中に囲んで閉じる」のも同じenclose。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "encloseの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["中に入れて閉じる→同封する・囲む", "外に向けて閉じる→締め出す", "完全に閉じる→結論する", "閉じた状態を開く→開示する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "en + clos の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中に + 閉じる = 囲い込む", "外へ + 閉じる = 追い出す", "反対に + 閉じる = 開放する", "強意 + 閉じる = 密封する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please find ______ a copy of the signed contract.",
+          "hint": "「中に入れて閉じる」→「同封する」",
+          "explanationFocus": "gap",
+          "choices": ["enclosed", "disclosed", "concluded", "excluded"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "encloseと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["document（書類を同封する）", "secret（秘密を囲む）", "decision（決定を閉じる）", "meeting（会議を囲む）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The property is enclosed by a stone wall.\" — enclosedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["囲まれている", "売却されている", "建設されている", "解放されている"],
+          "correct": 0
+        }
+      ],
+      "examples": ["I have enclosed my resume and a cover letter with this application."]
+    },
+    {
+      "word": "exclusive",
+      "phonetic": "/ɪkˈskluːsɪv/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "clus", "meaning": "閉じる", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質を持つ", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ claudere（閉じる）+ -ive（〜の性質）= 外に閉め出す性質を持つ → 排他的な・独占的な",
+        "fact": "中世ラテン語 exclusivus から。exclude の形容詞形として15世紀後半に「他を締め出す性質がある」で英語に入り、16世紀に「独占的な」へ。ビジネス英語での exclusive deal（独占契約）、exclusive rights（独占権）は17世紀以降に確立。luxury ブランドが exclusive を好んで使うのは「他者を閉め出すことで価値を生む」という語義が直結するため。",
+        "source": "EtymOnline: exclusive",
+        "cognates": ["exclusively", "exclusivity", "exclusiveness", "non-exclusive"]
+      },
+      "cognitive": {
+        "oneliner": "「他を外に閉め出す」性質——閉め出すことで特権性が生まれる",
+        "fact": "CONTAINERスキーマ＋FORCE スキーマの融合。外(ex-)に閉め出す(clus-)性質(-ive)を持つということは、その輪の内側に入れるのは選ばれた者だけ。排他性が価値を生む逆説的な構造。exclusive club（排他的クラブ）はまさに「外に閉め出すことで希少性を作る」仕組み。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「排他的な」と「独占的な」が別の訳語に見えて混乱しやすい。exclusive interview = 他メディアを「外に閉め出した」独占インタビュー、exclusive to members = メンバー以外を「外に閉め出した」会員限定。どちらも「他を締め出す」が核心。",
+      "gapOneliner": "exclusive = 「外に閉め出す性質」——排他的・独占的・限定的、すべて同じ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "高級クラブの扉に「外(ex)に閉め出す(clus)性質(ive)——EXCLUSIVE MEMBERS ONLY」。締め出すことで価値が生まれる逆説。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "exclusiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に閉め出す性質→排他的な", "中に閉じ込める性質→包括的な", "完全に閉じる性質→決定的な", "閉じた状態を開く性質→開放的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + clus + ive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 閉じる + 性質 = 排他的な", "中に + 閉じる + 性質 = 包括的な", "共に + 閉じる + 性質 = 協調的な", "反対に + 閉じる + 性質 = 開放的な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The magazine published an ______ interview with the CEO.",
+          "hint": "「外に閉め出す性質」→「独占的な」",
+          "explanationFocus": "gap",
+          "choices": ["exclusive", "inclusive", "conclusive", "reclusive"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "exclusiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["rights（独占権）", "problems（問題を排他）", "weather（天気を独占）", "numbers（数字を排他）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"This offer is exclusive to our premium members.\" — exclusiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["限定の・限られた", "無料の", "義務的な", "一時的な"],
+          "correct": 0
+        }
+      ],
+      "examples": ["We signed an exclusive deal with the distributor for five years."]
+    }
+  ]
+}

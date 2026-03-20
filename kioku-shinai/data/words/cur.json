@@ -1,0 +1,581 @@
+{
+  "root": "cur/cour/curs",
+  "rootMeaning": "走る・流れる",
+  "rootLang": "ラテン語 currere（PIE *kers-）",
+  "imageSchema": "川が流れるように、あるいは人が走るように、何かが一定方向に動き続けるイメージ。current（流れ）・course（コース・進路）・occur（出来事が「走り出てくる」）が同じ動きから生まれた。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "電流(current)は「今まさに流れているもの」。currency（通貨）は市場を「流れる」もの。currere（走る）が見えたら「流れ・動き」と読み替えるだけで、8語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "current",
+      "phonetic": "/ˈkʌrənt/",
+      "toeicRank": "TSL上位・NGSL上位",
+      "parts": [
+        {"part": "cur", "meaning": "走る・流れる", "type": "root"},
+        {"part": "rent", "meaning": "〜している（現在分詞語尾）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "currere（走る）+ -ent（〜している）= 今まさに流れている → 現在の・流れ",
+        "fact": "ラテン語 currens（現在分詞 of currere「走る」）から。13世紀に「流れている水」の意味で英語に入り、14世紀に「今この瞬間に流れている＝現在の」という形容詞用法に。電気の「電流」は1747年フランクリンが採用。",
+        "source": "EtymOnline: current",
+        "cognates": ["currently", "currency", "concurrent", "undercurrent"]
+      },
+      "cognitive": {
+        "oneliner": "今まさに流れている状態 → 「現在」と「流れ」が同一語源",
+        "fact": "TIME IS A RIVER メタファーの具体化。「今」という瞬間は常に「流れ続けている」状態。current events（時事）も current of air（気流）も同じ「今まさに動いている」感覚。",
+        "source": "Lakoff & Johnson (1980) TIME IS A RIVER メタファー"
+      },
+      "gap": "current = 「現在の」だけで覚えると、current（海流）や current（電流）で詰まる。語源の「今まさに流れている」を意識すれば、形容詞・名詞の両用法が一本のイメージに収まる。",
+      "gapOneliner": "current = 「現在の」も「流れ」も、今まさに流れているもの",
+      "hook": {
+        "label": "記憶フック",
+        "text": "川の「流れ(current)」は「今(cur)まさに走っている(-rent)」水。だから current = 現在の / 流れ。電流もニュースも「今流れているもの」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "currentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["今まさに流れている → 現在の・流れ", "戻って流れる → 過去の", "上に流れる → 昇進する", "止まって流れる → 停止する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cur + rent の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["走る + 〜している = 今まさに流れている", "曲がる + 〜している = 曲がりくねった", "止まる + 〜している = 静止した", "戻る + 〜している = 繰り返す"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "What is the ______ status of the project?",
+          "hint": "「今まさに流れている」→「現在の」",
+          "explanationFocus": "gap",
+          "choices": ["current", "ancient", "future", "former"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "currentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["affairs（時事問題）", "history（古い歴史）", "tradition（伝統）", "memory（記憶）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The strong ocean current carried the boat off course.\" — currentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["海流", "嵐", "風", "波"],
+          "correct": 0
+        }
+      ],
+      "examples": ["What is the current status of the project?"]
+    },
+    {
+      "word": "occur",
+      "phonetic": "/əˈkɜːr/",
+      "toeicRank": "TSL上位・NGSL上位",
+      "parts": [
+        {"part": "oc", "meaning": "向かって（ob- の異形）", "type": "prefix"},
+        {"part": "cur", "meaning": "走る・流れる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ob（向かって）+ currere（走る）= 向かって走ってくる → 出来事が起きる",
+        "fact": "ラテン語 occurrere「向かって走る、出くわす」から（ob-「向かって」+ currere「走る」）。15世紀末に「（考えが）心に浮かぶ」「（出来事が）起きる」の意味で英語に入った。ob- は c の前で oc- に変化。",
+        "source": "EtymOnline: occur",
+        "cognates": ["occurrence", "occurred", "recurring"]
+      },
+      "cognitive": {
+        "oneliner": "出来事が向かって走ってくる → 「起きる」は受け身のイメージ",
+        "fact": "PATHスキーマで「出来事がこちらに向かって走ってくる」感覚。happen と異なり、occur は「予期せず出くわす」ニュアンスが強い（特に problems / errors / changes に多用）。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "occur to me（〜を思いつく）は「アイデアが私に向かって走ってくる」。It occurred to me that... の形はTOEICリーディングに頻出。「起きる」だけで覚えると思いつく用法で詰まる。",
+      "gapOneliner": "occur = 「起きる」も「思い浮かぶ」も、向かって走ってくる動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "アクシデントが「向かって(oc)走ってくる(cur)」のがoccur。It occurred to me. = アイデアが私に走り込んできた。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "occurの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["向かって走ってくる → 起きる", "前に走る → 予定する", "共に走る → 協力する", "離れて走る → 逃げる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "oc + cur の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["向かって + 走る = 出くわす・起きる", "下に + 走る = 落下する", "後ろに + 走る = 後退する", "上に + 走る = 上昇する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The accident ______ at the intersection around midnight.",
+          "hint": "「向かって走ってくる」→「起きる」",
+          "explanationFocus": "gap",
+          "choices": ["occurred", "produced", "reduced", "conducted"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "occurと最も自然に結びつく句は？",
+          "explanationFocus": "hook",
+          "choices": ["to me（思い浮かぶ）", "with me（一緒に）", "from me（私から）", "by me（私のそばで）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"It never occurred to him that she might be lying.\" — occurredの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["思い浮かんだ", "証明された", "心配された", "否定された"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The accident occurred at the intersection around midnight."]
+    },
+    {
+      "word": "concur",
+      "phonetic": "/kənˈkɜːr/",
+      "toeicRank": "TSL外・ビジネス英語頻出",
+      "parts": [
+        {"part": "con", "meaning": "共に・一緒に", "type": "prefix"},
+        {"part": "cur", "meaning": "走る・流れる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "con（共に）+ currere（走る）= 一緒に走る → 同時に起きる → 同意する",
+        "fact": "ラテン語 concurrere「一緒に走る、集まる、一致する」から。15世紀に「同時に起こる」で英語に入り、16世紀に「意見が一致する」の意味へ拡張。会議・法廷で「同意します」として今も使われる。",
+        "source": "EtymOnline: concur",
+        "cognates": ["concurrent", "concurrence", "concurrently"]
+      },
+      "cognitive": {
+        "oneliner": "意見が一緒に同じ方向に走る → 「同意する」の空間的イメージ",
+        "fact": "AGREEMENT IS ALIGNMENT メタファー。二つの考えが同じ方向（con-）に走る（currere）と「一致」が生まれる。I concur. はビジネスシーンで「I agree.」より格式が高い。",
+        "source": "Lakoff & Johnson (1980) AGREEMENT IS ALIGNMENT"
+      },
+      "gap": "concur with（〜に同意する）はビジネスメールで頻出。concurrent（同時並行の）・concurrently（同時に）はプロジェクト管理文書に多用される。「同意」だけでなく「同時性」も押さえること。",
+      "gapOneliner": "concur = 一緒に走る → 「同意」も「同時」も同じ語源",
+      "hook": {
+        "label": "記憶フック",
+        "text": "二人が「一緒に(con)走って(cur)」同じゴールに向かうのがconcur。意見も「一緒に走って」一致する。I concur. = 私も同じ方向に走っています（同意します）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "concurの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["共に走る → 同意する・同時に起きる", "前に走る → 先導する", "後ろに走る → 反対する", "外に走る → 逃げる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + cur の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["共に + 走る = 一緒に向かう・同意する", "下に + 走る = 撤回する", "外に + 走る = 反論する", "上に + 走る = 主張する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "All board members ______ with the proposed strategy.",
+          "hint": "「共に走る」→「同意する」",
+          "explanationFocus": "gap",
+          "choices": ["concur", "occur", "incur", "recur"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "concurと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["with（〜に同意する）", "against（〜に反対する）", "from（〜から離れる）", "over（〜を超える）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The three judges concurred in their verdict.\" — concurredの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["同意した", "異議を唱えた", "審議した", "撤回した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["All board members concur with the proposed strategy."]
+    },
+    {
+      "word": "incur",
+      "phonetic": "/ɪnˈkɜːr/",
+      "toeicRank": "TSL外・TOEIC Part 7頻出",
+      "parts": [
+        {"part": "in", "meaning": "中へ・向かって", "type": "prefix"},
+        {"part": "cur", "meaning": "走る・流れる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "in（中へ）+ currere（走る）= 〜の中へ走り込む → 責任・損失を被る",
+        "fact": "ラテン語 incurrere「〜の中に走り込む、〜に突進する」から。15世紀に「危険や罰の中に走り込む」で英語に入り、現代では incur costs（費用が発生する）・incur debt（負債を負う）・incur a penalty（罰則を受ける）の形で定着。",
+        "source": "EtymOnline: incur",
+        "cognates": ["incurrence", "incurred"]
+      },
+      "cognitive": {
+        "oneliner": "悪いものの中に走り込む → 不可避的に「被る・負う」",
+        "fact": "EVENTS ARE CONTAINERS メタファー。リスクや費用という「容器（in-）」の中に自ら走り込む（currere）ことで、否応なしに引き受けてしまうイメージ。incur は常にネガティブな目的語（cost / debt / loss / risk / penalty）と共起する。",
+        "source": "Johnson (1987) CONTAINER スキーマ"
+      },
+      "gap": "incur は必ずネガティブな名詞と使う（incur expenses / incur liability）。TOEIC Part 7の財務文書・契約書に頻出。「費用が発生する」を cause costs と書かず incur costs と書くのがビジネス英語の常識。",
+      "gapOneliner": "incur = 損失・費用・ペナルティの中に走り込む → 避けられず被る",
+      "hook": {
+        "label": "記憶フック",
+        "text": "借金の「中へ(in)走り込む(cur)」のがincur。incur debt = 負債の中に自ら突っ込む。incur costs = コストという落とし穴に走り込む。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "incurの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["中へ走り込む → 損失・費用を被る", "外に走り出る → 利益を得る", "前に走る → 費用を前払いする", "上に走る → 利益が増える"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + cur の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中へ + 走る = 〜の中に突き込む（被る）", "再び + 走る = 繰り返す", "一緒に + 走る = 協力する", "離れて + 走る = 避ける"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company ______ significant losses during the third quarter.",
+          "hint": "「中へ走り込む」→「〜を被る」",
+          "explanationFocus": "gap",
+          "choices": ["incurred", "occurred", "concurred", "recurred"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "incurと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["expenses（経費が発生する）", "profits（利益を得る）", "friends（友人を作る）", "skills（スキルを得る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Late payment will incur a penalty fee.\" — incurの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（罰則を）被ることになる", "（罰則を）避けられる", "（罰則を）提示する", "（罰則を）交渉できる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company incurred significant losses during the third quarter."]
+    },
+    {
+      "word": "recur",
+      "phonetic": "/rɪˈkɜːr/",
+      "toeicRank": "TSL外・TOEIC Part 7頻出",
+      "parts": [
+        {"part": "re", "meaning": "再び・戻って", "type": "prefix"},
+        {"part": "cur", "meaning": "走る・流れる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "re（再び）+ currere（走る）= 再び走ってくる → 繰り返し起きる",
+        "fact": "ラテン語 recurrere「戻って走る、繰り返す」から。17世紀に英語に入り、医学では「症状が再発する」、ITでは「処理が再帰する（recursive）」の意味で使われる。re-currere のイメージ通り「また走ってくる」こと。",
+        "source": "EtymOnline: recur",
+        "cognates": ["recurrence", "recurring", "recurrent", "recursive"]
+      },
+      "cognitive": {
+        "oneliner": "同じ出来事がまた走ってくる → 再発・繰り返しの視覚的イメージ",
+        "fact": "CYCLE IS CIRCULAR PATH メタファー。一度走り去った出来事（cur-）が再び（re-）戻ってくる円環運動。recurring dream（繰り返し見る夢）・recurring cost（定期費用）・recurring decimal（循環小数）が典型。",
+        "source": "Lakoff & Johnson (1980) CYCLE メタファー"
+      },
+      "gap": "recurring cost（毎月発生する経費）はSaaS・会計文書に頻出。recurrent（形容詞）・recurrence（名詞）も同セットで覚える。医学では「症状の再発」にも使われ、TOEICの医療シーンに登場することがある。",
+      "gapOneliner": "recur = また走ってくる → 「再発する」も「定期的に発生する」も同じ動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "悪夢が「再び(re)走ってくる(cur)」のがrecur。recurring nightmare / recurring cost = また走ってきた悪夢/費用。re- が見えたら「また来た！」と思えばOK。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "recurの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["再び走ってくる → 繰り返し起きる", "前に走る → 先取りする", "一緒に走る → 同時発生する", "外に走る → 例外として起きる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + cur の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["再び + 走る = また走ってくる（繰り返す）", "後ろ + 走る = 後退する", "内に + 走る = 内向きになる", "上に + 走る = エスカレートする"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The same technical issue tends to ______ every time we update the system.",
+          "hint": "「再び走ってくる」→「繰り返し起きる」",
+          "explanationFocus": "gap",
+          "choices": ["recur", "occur", "incur", "concur"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "recurringと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["cost（定期費用）", "discovery（新発見）", "promotion（昇進）", "invention（発明）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Her migraines recur about once a month.\" — recurの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["再発する", "悪化する", "治まる", "始まる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The same technical issue tends to recur every time we update the system."]
+    },
+    {
+      "word": "currency",
+      "phonetic": "/ˈkʌrənsi/",
+      "toeicRank": "TSL上位・NGSL上位",
+      "parts": [
+        {"part": "cur", "meaning": "走る・流れる", "type": "root"},
+        {"part": "rency", "meaning": "〜な状態・性質（-ency）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "currere（走る・流れる）+ -ency（〜の状態）= 流れ続けるもの → 通貨・流通",
+        "fact": "ラテン語 currentia「流れ」から、17世紀後半に英語で「流通している状態」の意味で登場。1699年頃から「通貨・流通貨幣」の意味で定着。「市場を流れ回るもの」がそのまま貨幣を指すようになった。",
+        "source": "EtymOnline: currency",
+        "cognates": ["current", "concurrent", "undercurrent"]
+      },
+      "cognitive": {
+        "oneliner": "社会の中を絶えず流れ回るもの → お金は「流通」そのもの",
+        "fact": "MONEY IS A FLUID メタファーの典型。currency（通貨）・cash flow（キャッシュフロー）・liquidity（流動性）など、金融用語は「流れる」メタファーに満ちている。currency の本質は「今流通している状態」。",
+        "source": "Lakoff & Johnson (1980) MONEY IS A FLUID メタファー"
+      },
+      "gap": "currency には「通貨」以外に「現在通用していること（current-cy）」の意味がある。gain currency（広まる）・lose currency（廃れる）はTOEICに出る。「外貨」だけで覚えると応用が利かない。",
+      "gapOneliner": "currency = 「通貨」も「広く流通している状態」も、流れ続けるものすべて",
+      "hook": {
+        "label": "記憶フック",
+        "text": "お金が社会を「流れ(cur)続ける状態(-rency)」がcurrency。現在(current)と同根。通貨も「今まさに流れているもの」。foreign currency = 外国を流れるお金。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "currencyの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["流れ続けるもの・状態 → 通貨", "止まっているもの → 固定資産", "溜まっていくもの → 貯蓄", "上昇するもの → 株式"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cur + rency の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["流れる + 状態 = 流通しているもの（通貨）", "止まる + 状態 = 静止したもの", "増える + 状態 = 増加するもの", "燃える + 状態 = エネルギー"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please check the exchange rate before converting your ______.",
+          "hint": "「流れ続けるもの」→「通貨」",
+          "explanationFocus": "gap",
+          "choices": ["currency", "current", "course", "occurrence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "currencyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["foreign（外国通貨）", "ancient（古代語）", "broken（壊れた）", "silent（無音の）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"This theory has gained currency among economists recently.\" — currencyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["広まり・通用", "資金", "批判", "歴史"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please check the exchange rate before converting your currency."]
+    },
+    {
+      "word": "course",
+      "phonetic": "/kɔːrs/",
+      "toeicRank": "TSL上位・NGSL上位",
+      "parts": [
+        {"part": "cour", "meaning": "走る・流れる（currere の古フランス語形）", "type": "root"},
+        {"part": "se", "meaning": "名詞化語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 cursus（走ること・進路）→ 古フランス語 cours → 英語 course = 流れゆく道筋",
+        "fact": "ラテン語 cursus「走ること、流れ、進路」（currere の過去分詞 curs- から）→ 古フランス語 cours → 中英語 cours。13世紀に「流れ・進路」で英語に入り、14世紀に「学習の課程」へ拡張。of course（もちろん）は「流れ上当然」。",
+        "source": "EtymOnline: course",
+        "cognates": ["discourse", "recourse", "concourse", "intercourse"]
+      },
+      "cognitive": {
+        "oneliner": "走り続けた道筋そのもの → 進路・コース・過程",
+        "fact": "PATH スキーマの典型語。SOURCE から GOAL へ続く「走った軌跡」が course。in the course of time（時の流れの中で）・of course（流れ上当然）はどちらも「流れてきたパス」のイメージ。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "course は「授業・コース」だけでなく「進路・経路・流れ・過程・料理のコース」と多義。of course / in due course / in the course of はTOEICイディオムとして頻出。語源「流れゆく道筋」で全義が統一される。",
+      "gapOneliner": "course = 何かが流れ走った道筋 → 「コース」も「もちろん」も同じ根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "川が「流れ(cour)」てきた道筋(-se)がcourse。学習コースも「学びが流れる道筋」、of course = 流れ上当然。船のコースも皿のコースも「流れてきた経路」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "courseの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["走り流れた道筋 → 進路・コース・過程", "止まった場所 → 目的地", "跳び越えた壁 → 障害", "積み上げたもの → 蓄積"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cour（走る）から生まれた course が表す本質は？",
+          "explanationFocus": "cognitive",
+          "choices": ["走り続けた道筋 → 進路・過程", "止まり続けた場所 → 終点", "高く積んだもの → 地位", "深く掘ったもの → 根拠"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is taking an online English ______ to prepare for her promotion.",
+          "hint": "「流れる道筋」→「学習コース」",
+          "explanationFocus": "gap",
+          "choices": ["course", "currency", "current", "concurrence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "of courseが表す意味は語源的には？",
+          "explanationFocus": "hook",
+          "choices": ["流れ上当然・もちろん", "全く違う・意外にも", "途中で止まる・保留", "後で決める・未定"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"In the course of the investigation, new evidence came to light.\" — in the course ofの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜の過程において", "〜の結果として", "〜を無視して", "〜の前に"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She is taking an online English course to prepare for her promotion."]
+    },
+    {
+      "word": "excursion",
+      "phonetic": "/ɪkˈskɜːrʒən/",
+      "toeicRank": "TSL外・TOEIC Part 4（旅行シーン）頻出",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "curs", "meaning": "走る・流れる", "type": "root"},
+        {"part": "ion", "meaning": "〜すること・行為", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ cursus（走ること）+ -ion（行為）= 外へ走り出ること → 小旅行・遠足",
+        "fact": "ラテン語 excursio「突撃、外への走り出し」（ex-「外へ」+ currere「走る」の過去分詞幹 curs-）から。16世紀に軍事用語「突出・奇襲」で英語に入り、17世紀に「短い旅行・遠足」に転じた。",
+        "source": "EtymOnline: excursion",
+        "cognates": ["excursive", "cursor", "cursory", "discourse"]
+      },
+      "cognitive": {
+        "oneliner": "日常の外へ走り出る → 短い逸脱・遠足",
+        "fact": "CONTAINER スキーマ + PATHスキーマの組み合わせ。日常生活という「容器」の外(ex-)に走り出る(curs-)行為が excursion。「日常から逸れた短い冒険」というイメージが tour / trip と区別するポイント。",
+        "source": "Johnson (1987) CONTAINER + PATHスキーマ"
+      },
+      "gap": "excursion は日帰りまたは短期の団体旅行・遠足を指す（tour や trip より短い）。TOEIC Part 4 のバスツアー・観光アナウンスに頻出。shore excursion（寄港地観光）はクルーズ旅行文書の定番語。",
+      "gapOneliner": "excursion = 外へ走り出た短い旅 → 日帰り遠足・寄港地観光",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「外へ(ex)走り出る(curs)行為(-ion)」がexcursion。日常という枠の「外に走り出る」から遠足・小旅行の意味に。shore excursion = 船から陸に走り出る寄港地観光。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "excursionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外へ走り出ること → 小旅行・遠足", "内へ走り込むこと → 調査", "共に走ること → 団体移動", "戻って走ること → 帰宅"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + curs + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 走る + 行為 = 外へ走り出る行為（遠足）", "再び + 走る + 行為 = 繰り返す旅", "共に + 走る + 行為 = チーム移動", "前へ + 走る + 行為 = 先行調査"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The tour includes a half-day ______ to the nearby national park.",
+          "hint": "「外へ走り出ること」→「小旅行」",
+          "explanationFocus": "gap",
+          "choices": ["excursion", "currency", "recurrence", "concurrence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "excursionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["shore（寄港地観光）", "office（オフィス旅行）", "digital（デジタル旅行）", "indoor（屋内旅行）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Passengers may book optional shore excursions at the front desk.\" — excursionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["寄港地観光ツアー", "船内レストラン", "乗船手続き", "荷物預かりサービス"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The tour includes a half-day excursion to the nearby national park."]
+    }
+  ]
+}

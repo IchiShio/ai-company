@@ -1,0 +1,440 @@
+{
+  "root": "reg/rect",
+  "rootMeaning": "まっすぐ・支配する",
+  "rootLang": "ラテン語 regere（PIE *h₃reǵ-）",
+  "imageSchema": "王が杖を真っ直ぐ前に伸ばして道を示し、民を導くイメージ。regereは「まっすぐに動かす＝支配する」という意味を持ち、直線的な力の行使を表す。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "王（king）の語源的同族語がreg-。ラテン語のrex（王）もreg-から来ている。「まっすぐ支配する」イメージで、regulate（規制する）・correct（正す）・direct（向ける）・region（地域）・regular（規則的な）・erect（直立した）の6語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "regulate",
+      "phonetic": "/ˈreɡjʊleɪt/",
+      "toeicRank": "TSL 400位相当",
+      "parts": [
+        {"part": "reg", "meaning": "まっすぐ・支配する", "type": "root"},
+        {"part": "ul", "meaning": "指小辞（小さく）", "type": "suffix"},
+        {"part": "ate", "meaning": "動詞化", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "regere（支配する）+ -ula（小さく）+ -ate（動詞）= 細かく整えて支配する → 規制する",
+        "fact": "ラテン語 regulare「まっすぐにする、規則に従わせる」から。regulaは「定規、規則」（regereの派生）。1670年代に「規則によって統制する」の意味で英語に入った。「定規で線を引く」ように対象をまっすぐに整える動きが語源的本質。",
+        "source": "EtymOnline: regulate",
+        "cognates": ["regulation", "regulator", "regulatory", "irregular", "deregulate"]
+      },
+      "cognitive": {
+        "oneliner": "まっすぐな基準を当てて逸脱を修正し続ける→規制・調整する",
+        "fact": "PATHスキーマの応用。望ましい直線的な経路から外れようとする対象を、繰り返し(-ate の反復的含意)まっすぐに引き戻す動き。体温調節も交通規制も「基準線への継続的な引き戻し」というイメージで統一できる。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「規制する」と覚えると regulate temperature（体温を調節する）やregulate sleep（睡眠を整える）で詰まる。語源の「まっすぐに整える」がわかれば、法規制も体内調節も同じイメージで読める。",
+      "gapOneliner": "regulate = 法規制も体の調節も、まっすぐな基準に合わせ続けること",
+      "hook": {
+        "label": "記憶フック",
+        "text": "定規(rule)を当てて曲がった線を「まっすぐに整える」のがregulate。政府が市場を規制するのも、体が体温を調節するのも、基準線からの逸れを戻し続ける動き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regulateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["まっすぐに整えて支配する→規制する", "前に押し出す→生み出す", "一緒に動かす→操作する", "後ろに引く→縮小する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "reg + ul + ate の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["支配する + 小さく + 動詞 = 細かく整える", "前へ + 一緒に + 動詞 = 集める", "後ろへ + 繰り返し + 動詞 = 元に戻す", "外へ + 強く + 動詞 = 追い出す"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government needs to ______ the financial industry more strictly.",
+          "hint": "「まっすぐに整える」→「規制する」",
+          "explanationFocus": "gap",
+          "choices": ["regulate", "generate", "evaluate", "calculate"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "regulateと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["body temperature（体温を調節する）", "a song（歌を規制する）", "a friend（友人を整える）", "the sky（空を調節する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new law regulates how companies collect personal data.\" — regulatesの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["規制する", "促進する", "記録する", "無視する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The government regulates food safety standards."]
+    },
+    {
+      "word": "correct",
+      "phonetic": "/kəˈrekt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "cor", "meaning": "完全に（con-の変化形）", "type": "prefix"},
+        {"part": "rect", "meaning": "まっすぐにする", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "com（完全に）+ regere（まっすぐにする）= 完全にまっすぐにする → 正す・正しい",
+        "fact": "ラテン語 corrigere「まっすぐにする、正す」の過去分詞 correctus から。14世紀後半に「誤りを正す」の意味で英語に入り、形容詞「正しい、適切な」の用法は1670年代から。con- が cor- に変化するのはr音の前での同化現象（assimilation）。",
+        "source": "EtymOnline: correct",
+        "cognates": ["correction", "correctly", "incorrect", "corrective", "incorrigible"]
+      },
+      "cognitive": {
+        "oneliner": "曲がったものを完全にまっすぐに戻す→正す・正しい",
+        "fact": "UP IS GOOD / STRAIGHT IS CORRECT の体系的メタファー。曲がった（間違った）ものを完全に(cor-)まっすぐ(rect)に引き戻す動き。「採点で答えを正す」も「姿勢を正す」も同じ空間的イメージで理解できる。",
+        "source": "Lakoff & Johnson (1980) 方向性メタファー"
+      },
+      "gap": "形容詞「正しい」と動詞「正す」を別の単語のように覚えがちだが、どちらも「完全にまっすぐな状態」という同一イメージ。correct answer = まっすぐな答え、correct a mistake = まっすぐに戻す動作。",
+      "gapOneliner": "correct = 形容詞「正しい」も動詞「正す」も、完全にまっすぐな状態を指す",
+      "hook": {
+        "label": "記憶フック",
+        "text": "曲がった釘を「完全に(cor)まっすぐ(rect)に」叩き直すのがcorrect。テストの答えを赤ペンで直すのも、姿勢を正すのも、曲がったものを完全にまっすぐにする動き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "correctの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全にまっすぐにする→正す", "一緒に導く→案内する", "後ろに引く→元に戻す", "前に出す→提案する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cor + rect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + まっすぐ = 正しい", "一緒に + 導く = 実施する", "前に + まっすぐ = 前進する", "外に + 曲げる = 逸脱する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ any errors you find in the report.",
+          "hint": "「完全にまっすぐにする」→「正す」",
+          "explanationFocus": "gap",
+          "choices": ["correct", "collect", "connect", "protect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "correctと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["answer（正しい答え）", "weather（正しい天気）", "color（正しい色）", "distance（正しい距離）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The editor corrected the manuscript before publication.\" — correctedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["修正した", "印刷した", "読んだ", "削除した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The teacher corrected the students' homework carefully."]
+    },
+    {
+      "word": "direct",
+      "phonetic": "/dɪˈrekt/",
+      "toeicRank": "TSL 150位相当",
+      "parts": [
+        {"part": "di", "meaning": "離れて・完全に（dis-の変化形）", "type": "prefix"},
+        {"part": "rect", "meaning": "まっすぐにする", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "dis（完全に）+ regere（まっすぐにする）= 完全にまっすぐに向ける → 向ける・直接の",
+        "fact": "ラテン語 dirigere「まっすぐに向ける、整列させる」の過去分詞 directus から。14世紀後半に形容詞「まっすぐな、直接の」で英語に入り、動詞「向ける、指示する、監督する」は15世紀から。dis- が di- に短縮されるのは子音簡略化。",
+        "source": "EtymOnline: direct",
+        "cognates": ["direction", "director", "directly", "indirect", "misdirect", "directory"]
+      },
+      "cognitive": {
+        "oneliner": "目標に向かって完全にまっすぐ向ける→向ける・直接の",
+        "fact": "PATHスキーマとAIMスキーマの統合。SOURCE から GOAL へ向かう経路を完全に(di-)まっすぐ(rect)に設定する動き。映画監督(director)が場面を「まっすぐに導く」のも、direct flight（直行便）も、曲がりなく一点に向かうイメージで統一できる。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "動詞「向ける・指示する」と形容詞「直接の」と名詞「方向（direction）」を別々に覚えがちだが、全て「完全にまっすぐに向ける」の展開。direct traffic = 交通をまっすぐに向かわせる、direct question = まっすぐな（回り道のない）質問。",
+      "gapOneliner": "direct = 動詞・形容詞・名詞派生すべて、曲がりなくまっすぐ向けること",
+      "hook": {
+        "label": "記憶フック",
+        "text": "矢印(→)がまっすぐ一点を「向いている」のがdirect。映画監督(director)は俳優全員を正しい方向に「まっすぐ向ける」人。direct flight = 目的地にまっすぐ向かう便。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "directの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全にまっすぐ向ける→指示する・直接の", "一緒にまっすぐにする→整列させる", "後ろへまっすぐ引く→退く", "前へまっすぐ出す→突き出す"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "di + rect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + まっすぐ = 直接に向ける", "二つ + まっすぐ = 二方向に分ける", "外に + まっすぐ = 外に出す", "下に + まっすぐ = 下に向ける"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Can you ______ me to the nearest exit?",
+          "hint": "「まっすぐに向ける」→「道を教える」",
+          "explanationFocus": "gap",
+          "choices": ["direct", "detect", "deflect", "collect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "directと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["flight（直行便）", "rain（直接の雨）", "book（直接の本）", "tree（まっすぐな木）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She directed her team to focus on the key issues.\" — directedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["指示した", "禁止した", "混乱させた", "無視した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The manager directed the team to finish the project by Friday."]
+    },
+    {
+      "word": "region",
+      "phonetic": "/ˈriːdʒən/",
+      "toeicRank": "TSL 500位相当",
+      "parts": [
+        {"part": "reg", "meaning": "支配する・王", "type": "root"},
+        {"part": "ion", "meaning": "名詞化（場所・状態）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "regere（支配する）+ -io（名詞）= 支配が及ぶ場所 → 地域・地方",
+        "fact": "ラテン語 regio「方向、路線、行政区、地域」から。regio はまさに regere「まっすぐに支配する」の名詞形。「王の杖がまっすぐに向く方向」→「その方向に広がる支配地域」という意味の変遷。14世紀後半に英語に入った。",
+        "source": "EtymOnline: region",
+        "cognates": ["regional", "interregional", "regime", "reign", "rex（ラテン語・王）"]
+      },
+      "cognitive": {
+        "oneliner": "支配権が及ぶ範囲＝まっすぐ引いた境界線の内側→地域",
+        "fact": "CONTAINERスキーマの応用。王(reg-)がまっすぐな境界線を引いて支配した範囲が「地域」。地図上で直線的に区切られた行政区がイメージの原型。体の部位にも使われる（the region of the heart = 心臓付近）のは、身体も境界線で区切られた「領域」として認識するから。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「地域」と一語で覚えると in the region of £500（約500ポンドで）やthe abdominal region（腹部）で詰まる。「支配・境界線の内側」がわかれば、地理的地域も身体部位も金額の概算も全て「ある範囲の内側」として読める。",
+      "gapOneliner": "region = 地理的地域も身体部位も、支配・境界が及ぶ範囲の内側",
+      "hook": {
+        "label": "記憶フック",
+        "text": "王(reg-=rex)が地図の上でまっすぐ線を引いて「俺の支配地域はここだ」と決めたのがregion。ラテン語のrex（王）もreg-から来ている。reign（統治する）とも同族。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["支配が及ぶ場所→地域", "前に広がる場所→未来", "一緒にいる場所→コミュニティ", "後ろにある場所→過去"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "reg + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["支配する + 名詞 = 支配が及ぶ範囲", "まっすぐ + 名詞 = 直線", "生む + 名詞 = 産物", "導く + 名詞 = 案内"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The Asia-Pacific ______ is one of the fastest-growing markets in the world.",
+          "hint": "「支配が及ぶ範囲」→「地域」",
+          "explanationFocus": "gap",
+          "choices": ["region", "reason", "season", "legion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "regionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["coastal（沿岸地域）", "mental（精神的地域）", "digital（デジタル地域）", "verbal（言語地域）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The project will cost in the region of $2 million.\" — in the region ofの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["約〜の範囲で", "まさに〜の金額で", "〜より少なく", "〜の地方で"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Sales in the Asia-Pacific region increased by 15% last year."]
+    },
+    {
+      "word": "regular",
+      "phonetic": "/ˈreɡjʊlər/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "reg", "meaning": "まっすぐ・規則", "type": "root"},
+        {"part": "ul", "meaning": "指小辞（小さく）", "type": "suffix"},
+        {"part": "ar", "meaning": "形容詞化（〜の性質を持つ）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "regula（定規・規則）+ -ar（〜の性質）= 定規のような性質を持つ → 規則的な",
+        "fact": "ラテン語 regularis「規則に従った、定規のような」から。regulaは「まっすぐな棒・定規・規則」（regereの派生形）。14世紀後半に「宗教規則に従った修道士」の意味で英語に入り、15世紀以降に「規則正しい、普通の」の一般的用法に広がった。",
+        "source": "EtymOnline: regular",
+        "cognates": ["regularly", "irregular", "regularity", "regularize", "regulate"]
+      },
+      "cognitive": {
+        "oneliner": "定規で引いたようにまっすぐで均一な性質→規則的・普通の",
+        "fact": "STRAIGHT IS NORMAL / REGULAR メタファー。定規(regula)で線を引いたように均等で予測可能なリズム・パターンを持つこと。irregular（不規則な）がまさに「定規通りでない」こと。regular customer（常連客）も「定規通りに繰り返し来る人」というイメージ。",
+        "source": "Lakoff & Johnson (1980) 構造的メタファー"
+      },
+      "gap": "「規則正しい」だけで覚えると regular coffee（普通のコーヒー）やregular customer（常連客）で戸惑う。「定規で測ったような均一さ・予測可能性」がわかれば、健康習慣も顧客の行動も「定規通りに繰り返す」で統一して読める。",
+      "gapOneliner": "regular = 規則正しいも普通のも常連も、定規通りに均一で予測可能なこと",
+      "hook": {
+        "label": "記憶フック",
+        "text": "定規(rule←regula←reg-)で引いた線のように「均一で繰り返しがある」のがregular。regular meetings = 定規のように等間隔に並ぶ会議。regular customer = 定規通り繰り返し来る客。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regularの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["定規のような性質→規則的な", "王のような性質→権威ある", "道のような性質→通り道の", "前方の性質→進んだ"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "reg + ul + ar の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["規則 + 小さく + 形容詞 = 定規通りの性質", "支配 + 強く + 形容詞 = 権力のある", "導く + 一緒に + 形容詞 = 協力的な", "生む + 繰り返し + 形容詞 = 生産的な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He is a ______ customer at this coffee shop and comes in every morning.",
+          "hint": "「定規通りに繰り返す」→「常連の・定期的な」",
+          "explanationFocus": "gap",
+          "choices": ["regular", "popular", "familiar", "similar"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "regularと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["exercise（定期的な運動）", "dream（規則的な夢）", "luck（普通の幸運）", "idea（一般的なアイデア）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We hold regular team meetings every Monday morning.\" — regularの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["定期的な", "重要な", "短い", "任意の"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Regular exercise is important for maintaining good health."]
+    },
+    {
+      "word": "erect",
+      "phonetic": "/ɪˈrekt/",
+      "toeicRank": "TSL外・TOEIC L&R 頻出（建設文書）",
+      "parts": [
+        {"part": "e", "meaning": "上へ・外へ（ex-の変化形）", "type": "prefix"},
+        {"part": "rect", "meaning": "まっすぐにする", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（上へ）+ regere（まっすぐにする）= 上へまっすぐに立てる → 直立した・建てる",
+        "fact": "ラテン語 erigere「まっすぐに立てる、起こす」の過去分詞 erectus から。14世紀後半に形容詞「直立した、まっすぐに立った」で英語に入り、動詞「建てる・組み立てる」の用法は1530年代から。建設現場の「足場を立てる」から「建物を建立する」へ拡張。",
+        "source": "EtymOnline: erect",
+        "cognates": ["erection", "erector", "erectile"]
+      },
+      "cognitive": {
+        "oneliner": "上方向にまっすぐ引き起こす→直立した・建てる",
+        "fact": "UP IS MORE / UPRIGHT IS ACTIVE メタファー。地面に横たわるものを上方向(e-=ex-)にまっすぐ(rect)引き起こす動き。建物を「起こす」（erect a building）も、背筋をまっすぐにする（erect posture）も、同じ垂直上方向へのまっすぐな力のイメージ。",
+        "source": "Lakoff & Johnson (1980) UP IS MORE メタファー"
+      },
+      "gap": "「直立した」という形容詞だけで覚えると erect a scaffold（足場を組む）やerect a statue（像を建立する）という動詞用法で詰まる。「上へまっすぐに立てる」がわかれば、形容詞（直立した状態）も動詞（立てる動作）も同じイメージで読める。",
+      "gapOneliner": "erect = 形容詞「直立した」も動詞「建てる」も、上へまっすぐに立てること",
+      "hook": {
+        "label": "記憶フック",
+        "text": "倒れている柱を「上に(e=ex)まっすぐ(rect)立てる」のがerect。erect posture = 上にまっすぐな姿勢（直立）。erect a building = 上にまっすぐ建物を立てる（建設する）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "erectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["上へまっすぐに立てる→直立した・建てる", "外へまっすぐ向ける→指示する", "完全にまっすぐにする→正す", "一緒にまっすぐにする→整列する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "e + rect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["上へ・外へ + まっすぐ = 直立させる", "完全に + まっすぐ = 修正する", "一緒に + まっすぐ = 整列させる", "後ろへ + まっすぐ = 後退する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Workers began to ______ the scaffolding around the old building.",
+          "hint": "「上へまっすぐ立てる」→「組み立てる・設置する」",
+          "explanationFocus": "gap",
+          "choices": ["erect", "elect", "eject", "effect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "erectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["statue（像を建立する）", "problem（問題を立てる）", "idea（アイデアを直立させる）", "question（質問をまっすぐにする）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The soldiers stood erect during the ceremony.\" — erectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["直立して", "緊張して", "整列して", "静かに"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The construction crew will erect the new building framework next week."]
+    }
+  ]
+}
