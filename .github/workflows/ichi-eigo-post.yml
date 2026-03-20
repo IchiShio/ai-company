@@ -12,6 +12,9 @@ on:
         description: '投稿テキスト（空欄ならスケジュール通り）'
         required: false
 
+permissions:
+  contents: write
+
 jobs:
   post:
     runs-on: ubuntu-latest
