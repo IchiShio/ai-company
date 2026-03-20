@@ -3,23 +3,30 @@
 
 import os
 import json
+import sys
 import requests
+from requests_oauthlib import OAuth1
 
 
-def bearer_headers():
-    token = os.environ["X_BEARER_TOKEN"]
-    return {"Authorization": f"Bearer {token}"}
+def get_auth():
+    return OAuth1(
+        os.environ["X_API_KEY"],
+        os.environ["X_API_SECRET"],
+        os.environ["X_ACCESS_TOKEN"],
+        os.environ["X_ACCESS_TOKEN_SECRET"],
+    )
 
 
-def get_user_id():
-    resp = requests.get("https://api.x.com/2/users/me", headers=bearer_headers())
+def get_user_id(auth):
+    resp = requests.get("https://api.x.com/2/users/me", auth=auth)
+    print(f"GET /2/users/me -> {resp.status_code}", file=sys.stderr)
     if resp.status_code != 200:
-        print(f"ERROR {resp.status_code}: {resp.text}")
+        print(f"Response: {resp.text}", file=sys.stderr)
     resp.raise_for_status()
     return resp.json()["data"]["id"]
 
 
-def get_recent_tweets(user_id, max_results=10):
+def get_recent_tweets(auth, user_id, max_results=10):
     params = {
         "max_results": max_results,
         "tweet.fields": "created_at,public_metrics,text",
@@ -28,17 +35,19 @@ def get_recent_tweets(user_id, max_results=10):
     resp = requests.get(
         f"https://api.x.com/2/users/{user_id}/tweets",
         params=params,
-        headers=bearer_headers(),
+        auth=auth,
     )
+    print(f"GET /2/users/{user_id}/tweets -> {resp.status_code}", file=sys.stderr)
     if resp.status_code != 200:
-        print(f"ERROR {resp.status_code}: {resp.text}")
+        print(f"Response: {resp.text}", file=sys.stderr)
     resp.raise_for_status()
     return resp.json()
 
 
 def main():
-    user_id = get_user_id()
-    data = get_recent_tweets(user_id, max_results=10)
+    auth = get_auth()
+    user_id = get_user_id(auth)
+    data = get_recent_tweets(auth, user_id, max_results=10)
 
     if "data" not in data:
         print("No tweets found")
