@@ -1082,6 +1082,25 @@
       background: rgba(251,191,36,0.06);
     }
     /* ── Sticky bottom CTA bar ── */
+    /* ── Service card v2 (with direct CTA) ── */
+    .lp-service-card-v2 {
+      display: flex; align-items: center; gap: 8px;
+      padding: 12px 14px; border-radius: 12px;
+      background: var(--surface); border: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    .lp-service-card-v2:hover { border-color: var(--gold); }
+    .lp-svc-link {
+      display: flex; align-items: center; gap: 8px; flex: 1;
+      text-decoration: none; color: inherit; min-width: 0;
+    }
+    .lp-svc-cta {
+      display: inline-block; padding: 8px 14px; border-radius: 8px;
+      background: var(--gold); color: #000; font-size: 11px; font-weight: 700;
+      text-decoration: none; white-space: nowrap; flex-shrink: 0;
+      transition: opacity 0.2s;
+    }
+    .lp-svc-cta:hover { opacity: 0.85; }
     .sticky-cta-bar {
       position: fixed; bottom: 0; left: 0; right: 0; z-index: 900;
       background: var(--bg-1); border-top: 1px solid var(--border);
@@ -2363,41 +2382,55 @@
   <!-- ── SERVICE RANKING SECTION ── -->
   <div class="lp-articles reveal">
     <div class="lp-articles-inner">
-      <div class="lp-articles-eyebrow">RECOMMENDED SERVICES</div>
-      <h2 class="lp-articles-h">リスニング力を<span class="text-gold">実践で活かす</span></h2>
+      <div class="lp-articles-eyebrow">NEXT STEP</div>
+      <h2 class="lp-articles-h">クイズで見つけた弱点を<span class="text-gold">実践で克服</span></h2>
+      <p style="text-align:center;color:var(--text-3);font-size:13px;margin:-8px 0 20px;">ListenUpで耳を鍛えたら、次はネイティブとの実戦。無料体験で実力を試そう。</p>
       <div class="lp-services-grid">
-        <a class="lp-service-card" href="/services/rarejob/">
-          <span class="lp-service-icon">🇯🇵</span>
-          <div>
-            <div class="lp-service-name">レアジョブ英会話</div>
-            <div class="lp-service-desc">毎日25分・業界最安値クラス</div>
-          </div>
-        </a>
-        <a class="lp-service-card" href="/services/nativecamp/">
-          <span class="lp-service-icon">🌐</span>
-          <div>
-            <div class="lp-service-name">ネイティブキャンプ</div>
-            <div class="lp-service-desc">24時間・回数無制限</div>
-          </div>
-        </a>
-        <a class="lp-service-card" href="/services/cambly/">
-          <span class="lp-service-icon">🇺🇸</span>
-          <div>
-            <div class="lp-service-name">Cambly</div>
-            <div class="lp-service-desc">ネイティブ講師のみ</div>
-          </div>
-        </a>
-        <a class="lp-service-card" href="/services/dmm-eikaiwa/">
-          <span class="lp-service-icon">💬</span>
-          <div>
-            <div class="lp-service-name">DMM英会話</div>
-            <div class="lp-service-desc">130ヵ国の講師・教材充実</div>
-          </div>
-        </a>
+        <div class="lp-service-card-v2">
+          <a href="/services/nativecamp/" class="lp-svc-link">
+            <span class="lp-service-icon">🌐</span>
+            <div>
+              <div class="lp-service-name">ネイティブキャンプ</div>
+              <div class="lp-service-desc">24時間・回数無制限 / 月額6,480円</div>
+            </div>
+          </a>
+          <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE" class="lp-svc-cta" target="_blank" rel="nofollow noopener">7日間無料 →</a>
+        </div>
+        <div class="lp-service-card-v2">
+          <a href="/services/rarejob/" class="lp-svc-link">
+            <span class="lp-service-icon">🇯🇵</span>
+            <div>
+              <div class="lp-service-name">レアジョブ英会話</div>
+              <div class="lp-service-desc">毎日25分 / 月額4,980円〜</div>
+            </div>
+          </a>
+          <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM" class="lp-svc-cta" target="_blank" rel="nofollow noopener">無料体験2回 →</a>
+        </div>
+        <div class="lp-service-card-v2">
+          <a href="/services/dmm-eikaiwa/" class="lp-svc-link">
+            <span class="lp-service-icon">💬</span>
+            <div>
+              <div class="lp-service-name">DMM英会話</div>
+              <div class="lp-service-desc">130ヵ国の講師・13,000教材 / 月額5,450円〜</div>
+            </div>
+          </a>
+          <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR" class="lp-svc-cta" target="_blank" rel="nofollow noopener">無料体験2回 →</a>
+        </div>
+        <div class="lp-service-card-v2">
+          <a href="/services/cambly/" class="lp-svc-link">
+            <span class="lp-service-icon">🇺🇸</span>
+            <div>
+              <div class="lp-service-name">Cambly</div>
+              <div class="lp-service-desc">ネイティブ講師のみ / 月額3,790円〜</div>
+            </div>
+          </a>
+          <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JLRDUQ+59PE+5YRHE" class="lp-svc-cta" target="_blank" rel="nofollow noopener">無料体験1回 →</a>
+        </div>
       </div>
       <div style="text-align:center;margin-top:24px;">
         <a href="/ranking/" style="display:inline-block;padding:12px 28px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.35);border-radius:12px;color:var(--gold);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(251,191,36,0.2)'" onmouseout="this.style.background='rgba(251,191,36,0.12)'">全12サービスをランキングで比較する →</a>
       </div>
+      <p style="text-align:center;font-size:10px;color:var(--text-4);margin-top:12px;">※本サイトはアフィリエイトリンクを含みます。</p>
     </div>
   </div>
 
