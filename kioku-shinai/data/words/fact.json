@@ -1,0 +1,725 @@
+{
+  "root": "fact/fect/fic",
+  "rootMeaning": "作る・する",
+  "rootLang": "ラテン語 facere（PIE *dʰeh₁-）",
+  "imageSchema": "手を動かして何かを形にするイメージ。粘土を手で「作る」ように、ゼロから存在を生み出す、あるいは何かに働きかけて変化を「する」動き。facere の変化形 fect・fic が語末・語中に現れる。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "factory（工場）は物を「作る」場所。fact（事実）はかつて「行われたこと・作られたもの」の意味だった。fact/fect/ficが見えたら「作る・する」と読み替えるだけで、10語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "effect",
+      "phonetic": "/ɪˈfekt/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {"part": "ef (ex)", "meaning": "外へ", "type": "prefix"},
+        {"part": "fect", "meaning": "作る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ facere（作る）= 外に作り出す → 生じさせる → 効果",
+        "fact": "ラテン語 efficere「成し遂げる、外に作り出す」の過去分詞 effectus から。14世紀後半に「原因によって生み出された結果」として英語に入り、名詞「効果・結果」が主用法に。動詞 effect（〜を実現する）は15世紀後半から。affect と混同しやすいが、effect は「外に作り出された結果」が原義。",
+        "source": "EtymOnline: effect",
+        "cognates": ["effective", "effectively", "effectiveness", "ineffective"]
+      },
+      "cognitive": {
+        "oneliner": "原因が外に作り出したもの→結果・効果",
+        "fact": "CAUSATION（因果）スキーマの典型。原因という力が外側(ef-)に何かを作り出す(fect)ことで結果が生まれる。「cause and effect（原因と結果）」という対語がそのまま空間的因果を表す。",
+        "source": "Lakoff & Johnson (1980) CAUSATIONスキーマ"
+      },
+      "gap": "effect（名詞）とaffect（動詞）の混同はTOEIC最頻出ミスのひとつ。effect = 外に作り出された「もの（名詞）」、affect = 〜に向けて作用する「動き（動詞）」。effect を動詞で使う場合は「実現させる」（effect a change = 変化を生み出す）という特殊用法。",
+      "gapOneliner": "effect（名詞）= 外に作り出された結果、affect（動詞）= 〜に作用する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "薬が体の「外に(ef)作り出す(fect)」変化が副作用(side effect)。effectは「外に作り出されたもの」＝結果・効果。名詞がデフォルト。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "effectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に作り出されたもの→効果", "前に作る→生産する", "中に作る→感染させる", "一緒に作る→製造する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ef + fect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 作る = 結果を生む", "反対に + 作る = 破壊する", "下に + 作る = 基礎を置く", "再び + 作る = 再生産する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new policy had a positive ______ on employee morale.",
+          "hint": "「外に作り出されたもの」→「効果」（名詞）",
+          "explanationFocus": "gap",
+          "choices": ["effect", "affect", "defect", "infect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "effectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["side effect（副作用）", "side affect（副影響）", "side defect（副欠陥）", "side infect（副感染）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The medicine takes effect within 30 minutes.\" — effectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["効果を発揮する", "副作用を起こす", "影響を受ける", "欠陥を生じる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The new regulation will take effect next month."]
+    },
+    {
+      "word": "perfect",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {"part": "per", "meaning": "完全に・通して", "type": "prefix"},
+        {"part": "fect", "meaning": "作る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "per（完全に）+ facere（作る）= 完全に作り上げた → 完全な",
+        "fact": "ラテン語 perfectus「完成した、仕上げられた」（perficere の過去分詞）から。13世紀後半に「欠点のない、完全な」として英語に入り、形容詞用法が定着。動詞 perfect（完成させる）は15世紀から。per- は「完全に・徹底的に」を表す強意接頭辞で、「最初から最後まで作り通した状態」が原義。",
+        "source": "EtymOnline: perfect",
+        "cognates": ["perfectly", "perfection", "imperfect", "perfectionist"]
+      },
+      "cognitive": {
+        "oneliner": "最初から最後まで作り通した→完成している→完全な",
+        "fact": "COMPLETION（完了）スキーマ。per-（通して）が「途中で止まらず最初から最後まで」という継続的な作業を表し、その結果として全ての工程が完成した状態を意味する。「作り切った状態」＝完全無欠。",
+        "source": "Johnson (1987) COMPLETIONスキーマ"
+      },
+      "gap": "「完璧な」という訳語で覚えると perfect timing（絶好のタイミング）や perfect stranger（完全な他人）で戸惑う。語源の「完全に作り上げた」から考えると、「これ以上手を加える必要がない状態」がperfectの本質。",
+      "gapOneliner": "perfect = 「完璧」ではなく「完全に作り上げた、これ以上不要な状態」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "職人が「完全に(per)作り上げた(fect)」作品がperfect。最初から最後まで作り通して、欠けたところが一切ない。だから「完全な」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "perfectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全に作り上げた→完全な", "前に作る→先進的な", "外に作る→明らかな", "共に作る→協力的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "per + fect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + 作る = 完成した", "反対に + 作る = 壊れた", "中に + 作る = 内蔵した", "外に + 作る = 輸出した"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "This location is ______ for a team meeting.",
+          "hint": "「完全に作り上げた」→「完璧な・最適な」",
+          "explanationFocus": "gap",
+          "choices": ["perfect", "defect", "effect", "infect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "perfectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["timing（絶好のタイミング）", "defect（完全な欠陥）", "infection（完璧な感染）", "factory（完全な工場）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She spent years trying to perfect her technique.\" — perfectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["完成させる（動詞）", "完全な（形容詞）", "欠陥を直す", "効果を出す"],
+          "correct": 0
+        }
+      ],
+      "examples": ["This is the perfect opportunity to expand our business."]
+    },
+    {
+      "word": "defect",
+      "phonetic": "/ˈdiːfekt/",
+      "toeicRank": "TSL 中位・ビジネス頻出",
+      "parts": [
+        {"part": "de", "meaning": "離れて・下に", "type": "prefix"},
+        {"part": "fect", "meaning": "作る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "de（離れて）+ facere（作る）= 作りから離れる → 欠陥・不備",
+        "fact": "ラテン語 defectus「失敗、欠落」（deficere「不足する、離れる」の過去分詞）から。15世紀後半に「欠陥、不完全さ」として英語に入り、製造業・品質管理文脈で頻用。動詞 defect（離反する）は17世紀から別義で発展。",
+        "source": "EtymOnline: defect",
+        "cognates": ["defective", "defection", "deficiency"]
+      },
+      "cognitive": {
+        "oneliner": "あるべき「作り」から外れた部分→欠陥",
+        "fact": "DEVIATION（逸脱）スキーマ。理想的な「作り」の基準から de-（離れた）部分が fect（作られている）状態。完全に作られた状態(perfect)からずれたものが defect。",
+        "source": "Johnson (1987) DEVIATIONスキーマ"
+      },
+      "gap": "defect（名詞「欠陥」）と動詞の defect（「離反する」）は同じスペルで発音とアクセントが異なる。名詞: /ˈdiːfekt/（DEEfekt）、動詞: /dɪˈfekt/（diFECT）。TOEICでは名詞の製品欠陥・製造上の不具合の意味で登場することが多い。",
+      "gapOneliner": "defect（名詞）= 製造上の欠陥、defect（動詞）= 離反する——アクセント位置が違う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "工場の製品が「作り(fect)から外れた(de)」部分がdefect（欠陥）。品質検査でdefectが見つかると出荷できない。perfectの反対がdefect。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "defectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["作りから外れた→欠陥", "外に作る→効果", "完全に作る→完璧", "中に作る→感染"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + fect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["離れて + 作る = 欠陥", "完全に + 作る = 完成品", "外へ + 作る = 輸出品", "中へ + 作る = 内製品"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The product was recalled due to a manufacturing ______.",
+          "hint": "「作りから外れた」→「欠陥」",
+          "explanationFocus": "gap",
+          "choices": ["defect", "effect", "perfect", "infect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "defectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["manufacturing defect（製造上の欠陥）", "manufacturing effect（製造上の効果）", "manufacturing perfect（製造上の完璧）", "manufacturing infect（製造上の感染）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Quality control found a defect in the batch.\" — defectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["欠陥", "効果", "感染", "改善"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The inspector found a defect in the production line."]
+    },
+    {
+      "word": "affect",
+      "phonetic": "/əˈfekt/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {"part": "af (ad)", "meaning": "〜に向けて", "type": "prefix"},
+        {"part": "fect", "meaning": "作る・する", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に向けて）+ facere（作用する）= 〜に向けて作用する → 影響する",
+        "fact": "ラテン語 afficere「〜に向けて作用する、働きかける」の過去分詞 affectus から。14世紀後半に「心に作用する、感動させる」で英語に入り、後に「影響する」全般に拡張。心理学では名詞 affect（感情、情動）として使われる。effect との混同が英語学習者の最頻出ミス。",
+        "source": "EtymOnline: affect",
+        "cognates": ["affection", "affective", "affected", "unaffected"]
+      },
+      "cognitive": {
+        "oneliner": "ある対象に向かって力を作用させる→影響する",
+        "fact": "FORCE（力）スキーマ。何かに向けて(af-)作用を起こす(fect)力の流れ。「原因 → 対象 → 影響」という因果の矢印をイメージ。affect は「矢印の動き」（動詞）、effect は「矢が当たった結果」（名詞）。",
+        "source": "Lakoff & Johnson (1980) FORCEスキーマ"
+      },
+      "gap": "affect と effect の混同を防ぐには品詞で覚える。affect = 動詞「影響する」（Affect = Action = 動詞のA）、effect = 名詞「効果」（Effect = End result = 名詞のE）。ただし affect には名詞用法（心理学の「感情」）、effect には動詞用法（「実現させる」）も存在するため注意。",
+      "gapOneliner": "affect（動詞）= 影響する、effect（名詞）= 効果 ——Aが動詞、Eが名詞",
+      "hook": {
+        "label": "記憶フック",
+        "text": "台風が街に「向かって(af)作用する(fect)」のがaffect（影響する）。動詞がデフォルト。結果として生まれた被害がeffect（効果・結果）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "affectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜に向けて作用する→影響する", "外に作り出す→効果を生む", "完全に作る→完成させる", "作りから外れる→欠陥をつくる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "af + fect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜に向けて + 作る = 影響する", "外へ + 作る = 結果を生む", "離れて + 作る = 欠陥になる", "完全に + 作る = 完成する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The delay will ______ our delivery schedule.",
+          "hint": "「〜に向けて作用する」→「影響する」（動詞）",
+          "explanationFocus": "gap",
+          "choices": ["affect", "effect", "defect", "perfect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "affectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["negatively affect（悪影響を与える）", "negatively effect（悪い効果）", "negatively defect（悪い欠陥）", "negatively perfect（悪い完璧）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"How will the merger affect our team structure?\" — affectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["影響する", "完成させる", "欠陥を生む", "感染させる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The weather will affect our outdoor event plans."]
+    },
+    {
+      "word": "infect",
+      "phonetic": "/ɪnˈfekt/",
+      "toeicRank": "TSL 中位・医療・ニュース頻出",
+      "parts": [
+        {"part": "in", "meaning": "中に", "type": "prefix"},
+        {"part": "fect", "meaning": "作る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "in（中に）+ facere（作る）= 中に何かを作り込む → 汚染する → 感染させる",
+        "fact": "ラテン語 inficere「中に入れて染める、汚染する」の過去分詞 infectus から。14世紀後半に「毒や疾病で汚染する」として英語に入り、感染症文脈での用法が定着。染料を布の中に作り込む（染める）という具体的イメージが原義。比喩的に「悪影響を中に作り込む」意味でも使われる。",
+        "source": "EtymOnline: infect",
+        "cognates": ["infection", "infectious", "disinfect", "disinfectant"]
+      },
+      "cognitive": {
+        "oneliner": "体や物の中に有害なものを作り込む→感染させる",
+        "fact": "CONTAINERスキーマ。体という容器の中(in-)に病原体を作り込む(fect)動き。染料が布の中に染み込むイメージが原義。「感染が広がる」は「中に作り込む動き」が連鎖していくプロセス。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "infect（感染させる）とinfection（感染症）、infectious（感染性の）はTOEIC・TOEFLで同時出題されるセット語。disinfect（消毒する）はdis-（除去）+ infect で「感染を取り除く」。接頭辞の組み合わせで意味が変わる典型例。",
+      "gapOneliner": "infect = 中に病原体を作り込む、disinfect = それを取り除く",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ウイルスが細胞の「中(in)に作り込まれる(fect)」のがinfect（感染させる）。染料が布の中に染み込むように、病原体が体の中に入り込む。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "infectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["中に作り込む→感染させる", "外に作り出す→効果を出す", "完全に作る→完成させる", "〜に向けて作る→影響する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + fect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中に + 作る = 感染させる", "外へ + 作る = 輸出する", "後ろに + 作る = 取り消す", "上に + 作る = 上積みする"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The virus can ______ thousands of people within days.",
+          "hint": "「中に作り込む」→「感染させる」",
+          "explanationFocus": "gap",
+          "choices": ["infect", "affect", "effect", "defect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "infectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["infect a wound（傷口に感染させる）", "infect a result（結果を感染させる）", "infect a policy（方針を感染させる）", "infect a schedule（スケジュールを感染させる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His enthusiasm infected the whole team.\" — infectedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（比喩的に）広がった・染めた", "実際に病気にさせた", "傷つけた", "影響を受けた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The bacteria can infect open wounds quickly."]
+    },
+    {
+      "word": "efficient",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "toeicRank": "TSL 上位・ビジネス頻出",
+      "parts": [
+        {"part": "ef (ex)", "meaning": "外へ", "type": "prefix"},
+        {"part": "fic", "meaning": "作る", "type": "root"},
+        {"part": "ient", "meaning": "〜な性質の", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ facere（作る）+ iens（〜する性質）= 外に作り出す力がある → 効率的な",
+        "fact": "ラテン語 efficientem（efficere の現在分詞）から。efficere は ex-（外へ）+ facere（作る）= 「成し遂げる、外に作り出す」。14世紀後半に「結果を生み出す力のある」として英語に入り、近代的な「無駄なく成果を出す」の意味は19世紀産業革命期に確立。",
+        "source": "EtymOnline: efficient",
+        "cognates": ["efficiency", "efficiently", "inefficient", "inefficiency"]
+      },
+      "cognitive": {
+        "oneliner": "最小の投入で最大の成果を外に作り出す→効率的な",
+        "fact": "FORCE（力）× RESULT（結果）の複合スキーマ。ef-（外へ）+ fic（作る）で「力の出力が外の結果に直結する」イメージ。無駄な動きなく、投入した力がそのまま成果として外に現れる状態が efficient の本質。",
+        "source": "Lakoff & Johnson (1980) FORCEスキーマ"
+      },
+      "gap": "efficient（効率的）と effective（効果的）の違いはTOEIC頻出。efficient = 少ないリソースで作り出す（プロセスの質）、effective = 外に作り出される結果が出ている（結果の質）。efficient worker は速くて無駄がない、effective worker は目標を達成できる。",
+      "gapOneliner": "efficient = プロセスが無駄なし（効率）、effective = 結果が出ている（効果）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "燃料を「外に(ef)無駄なく作り出す(fic)」エンジンがefficient（高効率）。投入したエネルギーがそのまま推進力になる状態。無駄ゼロが efficient の本質。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "efficientの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に作り出す力がある→効率的な", "完全に作った→完璧な", "中に作り込む→徹底的な", "〜に向けて作る→効果的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ef + fic + ient の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 作る + 性質 = 効率的な", "中へ + 作る + 性質 = 徹底的な", "下へ + 作る + 性質 = 基礎的な", "反対に + 作る + 性質 = 非効率な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We need to find a more ______ way to process orders.",
+          "hint": "「外に無駄なく作り出す性質」→「効率的な」",
+          "explanationFocus": "gap",
+          "choices": ["efficient", "sufficient", "deficient", "proficient"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "efficientと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["fuel-efficient（燃費効率が良い）", "fuel-sufficient（燃料十分な）", "fuel-deficient（燃料欠乏の）", "fuel-proficient（燃料熟練の）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new system is far more efficient than the old one.\" — efficientの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["効率的な", "効果的な", "十分な", "熟練した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The new software makes our workflow much more efficient."]
+    },
+    {
+      "word": "sufficient",
+      "phonetic": "/səˈfɪʃənt/",
+      "toeicRank": "TSL 中位・学術・ビジネス頻出",
+      "parts": [
+        {"part": "suf (sub)", "meaning": "下から・〜の下に", "type": "prefix"},
+        {"part": "fic", "meaning": "作る", "type": "root"},
+        {"part": "ient", "meaning": "〜な性質の", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "sub（下から）+ facere（作る）= 下から支えるように作る → 必要量を満たす → 十分な",
+        "fact": "ラテン語 sufficientem（sufficere の現在分詞）から。sufficere は sub-（下から）+ facere（作る）= 「下から供給する、補完する」。14世紀後半に「必要なものを満たす量がある」として英語に入り、「十分な」の意味に定着。sufficient evidence（十分な証拠）のようなフォーマル表現でよく使われる。",
+        "source": "EtymOnline: sufficient",
+        "cognates": ["sufficiency", "sufficiently", "insufficient", "self-sufficient"]
+      },
+      "cognitive": {
+        "oneliner": "下から必要量を満たすように作り供給する→十分な",
+        "fact": "CONTAINMENT × SUPPLY スキーマ。必要量という「容器」の底(sub-)から満たすように作り上げる(fic)動き。容器がちょうど満たされた状態 = sufficient。不足なく「下から補給されている」イメージ。",
+        "source": "Johnson (1987) CONTAINMENTスキーマ"
+      },
+      "gap": "sufficient（十分な）と enough の違い：sufficient はフォーマル・書き言葉向け。TOEIC では sufficient funds（十分な資金）、sufficient time（十分な時間）のように名詞修飾で使われる。反意語 insufficient は「審査に通らない」「条件を満たさない」文脈で頻出。",
+      "gapOneliner": "sufficient = 書き言葉・フォーマルな「十分な」。insufficient = 条件不足で頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "コップを「下から(suf)満たすように作る(fic)」とちょうど満杯になる。それがsufficient（十分な）。コップが溢れず、でも底を突かない「ちょうど」の状態。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sufficientの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["下から満たすように作る→十分な", "外に作り出す→効率的な", "完全に作る→完璧な", "中に作り込む→徹底的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "suf + fic + ient の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["下から + 作る + 性質 = 十分な", "外へ + 作る + 性質 = 効率的な", "上から + 作る + 性質 = 過剰な", "反対に + 作る + 性質 = 不十分な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We do not have ______ data to draw conclusions.",
+          "hint": "「下から満たすように作る」→「十分な」",
+          "explanationFocus": "gap",
+          "choices": ["sufficient", "efficient", "deficient", "proficient"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sufficientと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["sufficient evidence（十分な証拠）", "sufficient defect（十分な欠陥）", "sufficient infect（十分な感染）", "sufficient effect（十分な効果）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The proposal lacks sufficient detail to be approved.\" — sufficientの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["十分な", "効率的な", "完全な", "正確な"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please ensure you have sufficient time to complete the application."]
+    },
+    {
+      "word": "manufacture",
+      "phonetic": "/ˌmænjuˈfæktʃər/",
+      "toeicRank": "TSL 上位・製造業文書で頻出",
+      "parts": [
+        {"part": "manu", "meaning": "手で", "type": "prefix"},
+        {"part": "fact", "meaning": "作る", "type": "root"},
+        {"part": "ure", "meaning": "行為・結果", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "manus（手）+ factura（作ること）= 手で作ること → 製造する",
+        "fact": "ラテン語 manus（手）+ factura（作ること、facere の名詞形）から。16世紀中頃にフランス語 manufacture 経由で英語に入り、当初は「手工業製品」を指した。産業革命後に機械生産にも拡張されたが、語源には「手(manu)で作る(fact)」がそのまま残る。manufacturer（製造業者）はTOEICビジネス文書の常連語。",
+        "source": "EtymOnline: manufacture",
+        "cognates": ["manufacturer", "manufacturing", "manufactured", "manufacture date"]
+      },
+      "cognitive": {
+        "oneliner": "素材を手で加工して新しい製品を作り上げる→製造する",
+        "fact": "CREATION（創造）スキーマ。manu（手）という身体的なツールで fact（作る）という変換作業を行うイメージ。職人の手作業から工場のベルトコンベアまで、「素材→製品」への変換プロセス全体を指す。",
+        "source": "Johnson (1987) CREATIONスキーマ"
+      },
+      "gap": "manufacture は動詞・名詞両用。TOEIC では manufactured goods（製造品）、manufacturing plant（製造工場）、manufacturer's warranty（メーカー保証）のコロケーションが頻出。「製造日」は manufacturing date または date of manufacture。",
+      "gapOneliner": "manufacture = 手で作ること。manufactured goods・manufacturing plant・manufacturer がTOEICセット語",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「手(manu)で作る(fact)こと(ure)」がmanufacture。昔は職人が手で作っていた。今は機械でも manufacture と言う。手作りの温もりがある語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "manufactureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["手で作ること→製造する", "外に作り出す→輸出する", "中に作り込む→内製する", "完全に作る→完成品にする"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "manu + fact + ure の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["手で + 作る + 行為 = 製造すること", "機械で + 作る + 行為 = 自動化すること", "外へ + 作る + 行為 = 輸出すること", "中で + 作る + 行為 = 内製すること"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company ______s automotive parts in three countries.",
+          "hint": "「手で作る」→「製造する」",
+          "explanationFocus": "gap",
+          "choices": ["manufactures", "produces", "constructs", "generates"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "manufactureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["manufacturing plant（製造工場）", "manufacturing infect（製造感染）", "manufacturing effect（製造効果）", "manufacturing deficient（製造欠乏）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The manufacturer issued a recall for safety reasons.\" — manufacturerの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["製造業者・メーカー", "輸入業者", "販売代理店", "保険会社"],
+          "correct": 0
+        }
+      ],
+      "examples": ["This plant manufactures electronic components for export."]
+    },
+    {
+      "word": "benefit",
+      "phonetic": "/ˈbenɪfɪt/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {"part": "bene", "meaning": "良く・善い", "type": "prefix"},
+        {"part": "fit (fic)", "meaning": "作る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "bene（良く）+ facere（作る）= 良いものを作る → 善行 → 利益・恩恵",
+        "fact": "ラテン語 benefactum「善行、良いことを為すこと」（bene「良く」+ factum facere の過去分詞）から。古フランス語 bienfet 経由で14世紀後半に英語に入り、当初は「善行、親切な行為」の意。その後「恩恵、利益」に転じ、現代では employee benefits（福利厚生）のような経済的利益の意味が主流。",
+        "source": "EtymOnline: benefit",
+        "cognates": ["beneficial", "beneficiary", "benefactor", "benefit package"]
+      },
+      "cognitive": {
+        "oneliner": "良いものを作り与える→恩恵→利益",
+        "fact": "GIFT（贈与）スキーマ。bene（善い）ものを fact/fit（作って）相手に渡すイメージ。「善行」から「恩恵」、さらに「受け取れる経済的利益」へと意味が拡張した。benefit of the doubt（善意の解釈）にはこの「善いものを与える」原義が残っている。",
+        "source": "Johnson (1987) GIFTスキーマ"
+      },
+      "gap": "benefit はTOEICで多義的に使われる。名詞「利益・恩恵」（benefits package）、動詞「〜の利益になる」（benefit from〜）、そして employee benefits（福利厚生）は頻出コロケーション。benefit from は「〜から利益を得る」で受益者が主語に来る。",
+      "gapOneliner": "benefit = 名詞「恩恵・利益」・動詞「利益になる」。benefit from〜 = 〜から恩恵を受ける",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「良く(bene)作ってくれる(fit)もの」がbenefit（利益・恩恵）。会社が従業員に「良いものを作り与える」のがemployee benefits（福利厚生）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "benefitの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["良く作る→利益・恩恵", "外に作り出す→効果", "手で作る→製品", "完全に作る→完璧"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "bene + fit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["良く + 作る = 恩恵・利益", "完全に + 作る = 完成品", "外に + 作る = 輸出品", "手で + 作る = 手作り品"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "All employees will ______ from the new health insurance plan.",
+          "hint": "「良く作られるものを受ける」→「利益を得る」（動詞）",
+          "explanationFocus": "gap",
+          "choices": ["benefit", "effect", "perfect", "affect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "benefitと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["employee benefits（従業員の福利厚生）", "employee effects（従業員の効果）", "employee defects（従業員の欠陥）", "employee perfects（従業員の完璧）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new policy is designed to benefit both employees and customers.\" — benefitの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["利益をもたらす（動詞）", "製造する（動詞）", "影響する（動詞）", "感染させる（動詞）"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Working remotely has many benefits for employee productivity."]
+    },
+    {
+      "word": "sacrifice",
+      "phonetic": "/ˈsækrɪfaɪs/",
+      "toeicRank": "TSL 中位・上級語彙",
+      "parts": [
+        {"part": "sacri", "meaning": "神聖な", "type": "prefix"},
+        {"part": "fice (fic)", "meaning": "作る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "sacer（神聖な）+ facere（作る）= 神聖なものとして作る・捧げる → 犠牲",
+        "fact": "ラテン語 sacrificium「神への供物、犠牲」（sacer「神聖な」+ facere「作る・する」）から。古フランス語 sacrifice 経由で13世紀後半に英語に入り、宗教的な「いけにえ・奉納」から「大切なものを手放す」という世俗的な意味に拡張。make a sacrifice（犠牲を払う）はTOEIC・TOEFLで自然なコロケーション。",
+        "source": "EtymOnline: sacrifice",
+        "cognates": ["sacrificial", "self-sacrifice", "sacrificially"]
+      },
+      "cognitive": {
+        "oneliner": "神聖な目的のために何かを作り捧げる→犠牲にする",
+        "fact": "GIFT（贈与）× LOSS（喪失）の複合スキーマ。sacri（神聖なもの）のために fice（作り捧げる）という行為。自分にとって価値あるものを失うことで、より高い目的が達成される構造。現代では宗教性が薄れ「目標のためにコストを払う」意味で使われる。",
+        "source": "Lakoff & Johnson (1980) GIFTスキーマ"
+      },
+      "gap": "sacrifice は名詞・動詞どちらでも使える。make a sacrifice（犠牲を払う）= 名詞用法、sacrifice one's time（時間を犠牲にする）= 動詞用法。at the sacrifice of〜（〜を犠牲にして）は上級フォーマル表現。ビジネス文書では「より大きな利益のための代償」文脈で登場する。",
+      "gapOneliner": "sacrifice = 名詞「犠牲」・動詞「犠牲にする」。make a sacrifice が最頻出コロケーション",
+      "hook": {
+        "label": "記憶フック",
+        "text": "古代ローマで「神聖な(sacri)祭壇に捧げ物を作る(fice)」のがsacrifice。大切なものを神に捧げる。現代では「成功のために睡眠を犠牲にする」も sacrifice。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sacrificeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["神聖なものとして作り捧げる→犠牲", "手で作る→製造する", "良く作る→利益をもたらす", "完全に作る→完成させる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sacri + fice の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["神聖な + 作る = 捧げる→犠牲", "良い + 作る = 恩恵をもたらす", "手で + 作る = 手作りする", "完全に + 作る = 完璧にする"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She had to ______ her personal life for her career.",
+          "hint": "「神聖な目的のために作り捧げる」→「犠牲にする」",
+          "explanationFocus": "gap",
+          "choices": ["sacrifice", "benefit", "manufacture", "affect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sacrificeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["make a sacrifice（犠牲を払う）", "make a benefit（利益をつくる）", "make an effect（効果をつくる）", "make a defect（欠陥をつくる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Success often requires sacrifice.\" — sacrificeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["犠牲・代償", "利益・恩恵", "製造・生産", "効果・結果"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Starting a business requires sacrifice of time and comfort."]
+    }
+  ]
+}

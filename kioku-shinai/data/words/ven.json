@@ -1,0 +1,584 @@
+{
+  "root": "ven/vent",
+  "rootMeaning": "来る",
+  "rootLang": "ラテン語 venire（PIE *gʷem-「歩く・来る」）",
+  "imageSchema": "どこかから目的地に向かってやってくる動き。人や出来事が「来る」方向・目的・起点によって意味が変わる。convenient = 一緒に来て都合よく揃う、adventure = 未知の方向へ踏み出してくる、revenue = お金が戻ってくる流れ。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "「来る」がキーワード。con（一緒に）+ ven（来る）で convenient（便利な）。人々が「一緒に来る」場所が venue（会場）。前から来る pre + vent = prevent（防ぐ）。ven/ventが見えたら「何かが来る」と読み替えるだけで8語が解ける。"
+  },
+  "words": [
+    {
+      "word": "convenient",
+      "phonetic": "/kənˈviːniənt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "con", "meaning": "一緒に", "type": "prefix"},
+        {"part": "ven", "meaning": "来る", "type": "root"},
+        {"part": "ient", "meaning": "〜な（形容詞語尾）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ venire（来る）= 一緒にうまく来る → 都合がよい",
+        "fact": "ラテン語 convenire「一緒に来る、合致する」の形容詞形 conveniens から。15世紀に「適切な、ふさわしい」で英語に入り、17世紀以降「手軽で都合のよい」に。convenient store の便利さも「必要なものが一緒に来て揃っている」イメージ。",
+        "source": "EtymOnline: convenient",
+        "cognates": ["convenience", "convene", "convention", "inconvenient"]
+      },
+      "cognitive": {
+        "oneliner": "必要なものが「一緒に来て揃う」→都合がよい・便利",
+        "fact": "FITNESSスキーマの応用。必要な条件がすべて一緒に(con-)やってくる(venire)状態が「便利・都合よい」。逆に条件が揃わないのが inconvenient。「時間・場所・手段が揃う」具体的なイメージで記憶できる。",
+        "source": "Johnson (1987) FITNESSスキーマ"
+      },
+      "gap": "「便利な」だけで覚えると Is this convenient for you?（ご都合はいかがですか？）という定型表現で使えない。「あなたにとって条件が揃うか？」という対人配慮の表現。a convenient location（便利な立地）の用法もTOEICで頻出。",
+      "gapOneliner": "convenient = モノの「便利さ」だけでなく、相手への都合伺いにも使う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "コンビニ（convenience store）は必要なものが「一緒に(con)来て(ven)」揃っているから便利。convenient の語源がそのままコンビニに残っている。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "convenientの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["一緒に来る→都合がよい", "前に来る→先を見越す", "外に来る→目立つ", "後ろに来る→遅れる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + ven + ient の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["一緒に + 来る + 形容詞 = 都合がよい", "強く + 来る + 形容詞 = 積極的な", "外へ + 来る + 形容詞 = 目立つ", "下に + 来る + 形容詞 = 劣る"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Would Thursday afternoon be ______ for you?",
+          "hint": "「一緒に来る」→「都合がよい」",
+          "explanationFocus": "gap",
+          "choices": ["convenient", "conventional", "consistent", "confident"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "convenientと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["location（便利な立地）", "problem（便利な問題）", "weather（便利な天気）", "history（便利な歴史）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The hotel is conveniently located near the airport.\" — convenientlyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["便利に（都合よく）", "意図的に", "急いで", "偶然に"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Is this time convenient for you?"]
+    },
+    {
+      "word": "convention",
+      "phonetic": "/kənˈvenʃən/",
+      "toeicRank": "TSL 431位相当",
+      "parts": [
+        {"part": "con", "meaning": "一緒に", "type": "prefix"},
+        {"part": "vent", "meaning": "来る", "type": "root"},
+        {"part": "ion", "meaning": "こと・もの（名詞語尾）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ venire（来る）+ ion = 一緒に来ること → 大会・慣習",
+        "fact": "ラテン語 conventio「合意、集会」から。15世紀初頭に「合意・協定」の意味で英語に入り、16世紀に「定期集会・大会」、17世紀に「社会的慣習・しきたり」へと意味が広がった。政治大会（political convention）と社会的慣習（social convention）の両方に使われる。",
+        "source": "EtymOnline: convention",
+        "cognates": ["conventional", "unconventional", "convene", "convenient"]
+      },
+      "cognitive": {
+        "oneliner": "人々が「一緒に来る」場・その場で定まったもの→大会・慣習",
+        "fact": "CONTAINERスキーマとREPETITIONスキーマの複合。人々が一緒に(con-)来る(vent)行事が「大会」、そこで繰り返し合意されてきたことが「慣習・しきたり」。「みんながそうしてきた」歴史的反復が conventional（型通りの）につながる。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「大会」と「慣習」が同じ単語なのは奇妙に見えるが、どちらも「人々が一緒に来て決めたこと」。annual sales convention（年次販売大会）と social convention（社会的慣習）は同根。conventional wisdom = 「みんなが集まって積み上げてきた通念」。",
+      "gapOneliner": "convention = 「大会（集まる場）」も「慣習（集まって決めたこと）」も同語源",
+      "hook": {
+        "label": "記憶フック",
+        "text": "コミックコンベンション（コミコン）は好きな人たちが「一緒に(con)来る(vent)」イベント。そこで繰り返される共通ルールが「慣習（convention）」になった。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "conventionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["一緒に来ること→大会・慣習", "前に来ること→予測", "外に来ること→発表", "後ろに来ること→回顧"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + vent + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["一緒に + 来る + 名詞 = 集会・慣習", "強く + 来る + 名詞 = 強制", "反対に + 来る + 名詞 = 対立", "下に + 来る + 名詞 = 下落"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Our team will attend the annual sales ______ in Chicago.",
+          "hint": "「一緒に来ること」→「大会・コンベンション」",
+          "explanationFocus": "gap",
+          "choices": ["convention", "conversation", "connection", "conclusion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "conventionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["annual（年次大会）", "private（個人大会）", "silent（沈黙の慣習）", "random（無作為の集会）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"It's a social convention to shake hands when meeting someone.\" — conventionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["慣習・しきたり", "法律・規制", "技術・スキル", "命令・指示"],
+          "correct": 0
+        }
+      ],
+      "examples": ["We attended the annual sales convention in Chicago."]
+    },
+    {
+      "word": "adventure",
+      "phonetic": "/ədˈventʃər/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ad", "meaning": "〜に向かって", "type": "prefix"},
+        {"part": "vent", "meaning": "来る", "type": "root"},
+        {"part": "ure", "meaning": "こと・もの（名詞語尾）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に向かって）+ venire（来る）= 向かってくること → 降りかかる出来事 → 冒険",
+        "fact": "ラテン語 adventura「起ころうとしていること」（venire の未来分詞 adventurus の女性形）から。13世紀に古フランス語 aventure 経由で「偶然の出来事・運命」として英語に入り、14世紀に「危険を伴う冒険的な試み」に。",
+        "source": "EtymOnline: adventure",
+        "cognates": ["adventurous", "adventurer", "advent", "venture"]
+      },
+      "cognitive": {
+        "oneliner": "自分に向かって「来るもの」を引き受けに行く→冒険",
+        "fact": "AGENCYスキーマとPATHスキーマの複合。元々は「向かってくる運命・偶然」だったが、それに「向かって自ら進む」能動性が加わって「冒険」になった。未知のことが「やってくる」方向へ踏み出す勇気がadventureの核心。",
+        "source": "Lakoff (1987) PATHスキーマ"
+      },
+      "gap": "adventure は「楽しい冒険」だけでなく、business adventure（事業上の大胆な試み）やadventure capital（ベンチャー資本、venture capitalの旧語）のように「リスクを取って未知へ進む」ビジネス文脈でも使う。",
+      "gapOneliner": "adventure = 向かってくる未知を引き受ける行為。楽しさもリスクも含む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "未知の山が「向かって(ad)来る(vent)」イメージ。冒険者はその山へ向かって進む。advent（キリストの到来）も同根で「来ること」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "adventureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["向かって来ること→冒険", "一緒に来ること→集合", "外に来ること→出発", "後ろに来ること→回帰"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ad + vent + ure の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜へ + 来る + 名詞 = 冒険（向かってくる出来事）", "反対に + 来る + 名詞 = 対抗", "再び + 来る + 名詞 = 再挑戦", "下に + 来る + 名詞 = 失敗"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Starting a new business is always a bit of an ______.",
+          "hint": "「向かってくるものへ踏み出す」→「冒険・試み」",
+          "explanationFocus": "gap",
+          "choices": ["adventure", "advantage", "advertise", "advance"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "adventureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["spirit of（冒険心）", "method of（冒険の手法）", "price of（冒険の値段）", "rule of（冒険のルール）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Moving abroad for work turned out to be quite an adventure.\" — adventureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["冒険的な経験", "失敗・苦労", "単純な仕事", "退屈な日常"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Moving abroad for work was quite an adventure."]
+    },
+    {
+      "word": "venue",
+      "phonetic": "/ˈvenjuː/",
+      "toeicRank": "TSL 600位台",
+      "parts": [
+        {"part": "ven", "meaning": "来る", "type": "root"},
+        {"part": "ue", "meaning": "場所（古フランス語名詞語尾）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "venire（来る）の女性過去分詞 venue = 来た場所・到着地 → 会場",
+        "fact": "古フランス語 venue「到着、来ること」（venir「来る」の女性過去分詞形）から。13世紀の法律用語として「訴訟が開かれる地区」を指し、「当事者がやって来る場所」が語源。18世紀以降にイベント・集会の「会場」全般へ拡張。",
+        "source": "EtymOnline: venue",
+        "cognates": ["avenue", "revenue", "convene"]
+      },
+      "cognitive": {
+        "oneliner": "人々が「来る（ために指定された）場所」→会場",
+        "fact": "CONTAINERスキーマ＋DESTINATIONスキーマ。venue は「来る(ven-)先として指定された場」。avenue（並木道、大通り）も同語源で「やって来るための通路」。人が集まるためのゴール地点が venue。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "venue はホテルの宴会場・ライブハウス・会議室など「特定のイベントのために来る場所」を指す。TOEIC では change the venue（会場を変更する）、book a venue（会場を予約する）が頻出。place や location と違い、イベント開催地のニュアンスが必須。",
+      "gapOneliner": "venue = イベント専用の「来る場所」。place や location より目的が特定されている",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「来る(ven)場所(ue)」= venue。avenue も「来るための道」。人が来る目的地があれば venue が使える。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "venueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["来る場所→会場", "前に来る→先発", "一緒に来る→集合", "来ないこと→欠席"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ven（来る）が venue にどう現れているか？",
+          "explanationFocus": "cognitive",
+          "choices": ["来る場所として指定された地点→会場", "来る速さ→スピード", "来る人数→人口", "来る目的→動機"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We need to book a ______ for the product launch event.",
+          "hint": "「来る場所」→「会場」",
+          "explanationFocus": "gap",
+          "choices": ["venue", "avenue", "revenue", "volume"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "venueと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["book a（会場を予約する）", "earn a（会場を稼ぐ）", "write a（会場を書く）", "lose a（会場を失う）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The conference venue has been changed to the downtown hotel.\" — venueの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["開催場所", "開催日時", "参加者リスト", "会議の議題"],
+          "correct": 0
+        }
+      ],
+      "examples": ["We need to book a venue for the annual conference."]
+    },
+    {
+      "word": "event",
+      "phonetic": "/ɪˈvent/",
+      "toeicRank": "TSL外・NGSL最高頻度",
+      "parts": [
+        {"part": "e (ex)", "meaning": "外へ", "type": "prefix"},
+        {"part": "vent", "meaning": "来る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ venire（来る）= 外に出てくること → 起こる出来事",
+        "fact": "ラテン語 eventus「起こること、結果」（evenire「出てくる、起こる」の過去分詞）から。16世紀初頭に「出来事、結果」として英語に入り、17世紀後半にスポーツや式典の「イベント」へ拡張。in the event（いざとなれば）は「それが外に出てきた時に」という原義が残る。",
+        "source": "EtymOnline: event",
+        "cognates": ["eventual", "eventually", "eventful", "uneventful"]
+      },
+      "cognitive": {
+        "oneliner": "内側から「外に出てくる」もの→出来事・事象",
+        "fact": "SOURCEスキーマの応用。潜在していた可能性や原因が「外に(ex-)出てくる(venire)」瞬間が event。eventual（最終的な）は「ようやく外に出てきた」、eventually（ついに）は「外に出てくるまで時間がかかった」意味を持つ。",
+        "source": "Johnson (1987) SOURCEスキーマ"
+      },
+      "gap": "event は「イベント」だけでなく、in the event of an emergency（緊急事態が起きた場合には）という条件表現でもTOEICに頻出。「何かが外に出てきた（起きた）場合」という原義がそのまま生きている。",
+      "gapOneliner": "event = 楽しいイベントだけでなく「何かが起きた場合」の条件表現にも使う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "水面下にあった何かが「外に(e)出てくる(vent)」のが event。スポーツの試合も会社の行事も「現れ出てくる場」。eventually = ついに外に出てきた。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "eventの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に出てくること→出来事", "一緒に来ること→集会", "中に入ること→参加", "後ろに来ること→結末"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "e（ex）+ vent の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 来る = 出来事（外に出てくること）", "強く + 来る = 強制的な出来事", "下に + 来る = 失敗", "前から + 来る = 予測された出来事"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "In the ______ of a fire, please use the emergency exit.",
+          "hint": "「外に出てくること」→「出来事・（〜の）場合」",
+          "explanationFocus": "gap",
+          "choices": ["event", "advent", "extent", "effect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "eventと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["upcoming（近々のイベント）", "invisible（見えないイベント）", "silent（沈黙のイベント）", "empty（空っぽのイベント）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The day turned out to be quite eventful.\" — eventfulの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["出来事の多い（充実した）", "退屈な", "計画通りの", "静かな"],
+          "correct": 0
+        }
+      ],
+      "examples": ["In the event of a delay, please contact our office."]
+    },
+    {
+      "word": "invent",
+      "phonetic": "/ɪnˈvent/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "in", "meaning": "中に・〜の上に", "type": "prefix"},
+        {"part": "vent", "meaning": "来る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "in（上に・〜に向かって）+ venire（来る）= 行き着く・見つける → 発明する",
+        "fact": "ラテン語 invenire「中に入って来る、見つける、発見する」から。15世紀に「見つける・発見する」で英語に入り、16世紀に「考案する・発明する」へ。inventory（在庫）も同語源で「見つけて一覧にしたもの」。",
+        "source": "EtymOnline: invent",
+        "cognates": ["invention", "inventor", "inventive", "inventory", "inventing"]
+      },
+      "cognitive": {
+        "oneliner": "探して「中にたどり着く」→発見する・発明する",
+        "fact": "PATHスキーマ＋DISCOVERYスキーマ。invenire は「探索した結果、そこにたどり着く（来る）」動き。「発見」と「発明」が同じ語源なのは、どちらも「まだ名前のないものに初めてたどり着く」行為だから。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "invent と discover は日本語では別物だが、どちらもラテン語では「見つける」。invent は「それまで存在しなかったものを作り出す」、discover は「すでにあったが知られていなかったものを見つける」の違いがTOEICで問われる。",
+      "gapOneliner": "invent = ゼロから作り出す（電話を発明）、discover = 存在したものを見つける（大陸を発見）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "頭の中（in）を探索して答えに「たどり着く(vent)」のが invent。何もなかった場所に新しいアイデアがやってくるイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "inventの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["中にたどり着く→発明する・考案する", "外に来る→発表する", "一緒に来る→協力する", "前に来る→予告する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + vent の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中へ + 来る = 発明する（探してたどり着く）", "強く + 来る = 強制する", "再び + 来る = 再発明する", "下に + 来る = 発見する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Thomas Edison helped ______ the phonograph in 1877.",
+          "hint": "「中にたどり着く」→「発明する」",
+          "explanationFocus": "gap",
+          "choices": ["invent", "prevent", "invest", "intend"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "inventと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["a solution（解決策を考案する）", "a building（建物を発明する）", "a meeting（会議を発明する）", "a salary（給料を発明する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She invented a new process to reduce manufacturing costs.\" — inventedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["考案した", "廃止した", "調査した", "購入した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She invented a new process to cut production costs."]
+    },
+    {
+      "word": "prevent",
+      "phonetic": "/prɪˈvent/",
+      "toeicRank": "TSL 318位",
+      "parts": [
+        {"part": "pre", "meaning": "前に・先に", "type": "prefix"},
+        {"part": "vent", "meaning": "来る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pre（先に）+ venire（来る）= 先に来て立ちふさがる → 防ぐ",
+        "fact": "ラテン語 praevenire「先に来る、先手を打つ」から。15世紀に「先回りして準備する」として英語に入り、16世紀に「妨げる・阻止する」に意味が変化。元々は「先に来ること」で中立的だったが、「先に来て（悪いことが来るのを）遮断する」という含意が強くなった。",
+        "source": "EtymOnline: prevent",
+        "cognates": ["prevention", "preventive", "preventable"]
+      },
+      "cognitive": {
+        "oneliner": "悪いものが来る前に「先回りして来る」→防ぐ・阻止する",
+        "fact": "BLOCKINGスキーマ＋PATHスキーマ。来ようとしているものに対して先回り(pre-)してやって来る(venire)ことで経路を塞ぐ。「予防（prevention）は治療に勝る」も「病気が来る前に先に来て止める」イメージ。",
+        "source": "Johnson (1987) BLOCKINGスキーマ"
+      },
+      "gap": "prevent A from doing B（AがBするのを防ぐ）の構文がTOEICで頻出。「先に来てAの行動経路を塞ぐ」イメージで prevent O from -ing の形を丸暗記せずに理解できる。prevent と avoid の違いも重要：prevent は他者・外力への作用、avoid は自分が回避する。",
+      "gapOneliner": "prevent A from doing B = Aが来る前に先手を打ってBという行動を塞ぐ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "悪い出来事が「来る(vent)前に(pre)」立ちはだかるのが prevent。予防注射も事故防止も「先に来て止める」行為。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "preventの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["先に来て立ちふさがる→防ぐ", "一緒に来る→協調する", "外に来る→出現する", "後ろから来る→追いかける"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pre + vent の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["先に + 来る = 防ぐ（先回りして塞ぐ）", "前に + 見る = 予測する", "強く + 来る = 強制する", "上に + 来る = 上回る"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Wearing a mask can help ______ the spread of the virus.",
+          "hint": "「先に来て塞ぐ」→「防ぐ」",
+          "explanationFocus": "gap",
+          "choices": ["prevent", "invent", "event", "present"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "preventと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["accidents（事故を防ぐ）", "meetings（会議を防ぐ）", "salaries（給料を防ぐ）", "buildings（建物を防ぐ）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new policy is designed to prevent employees from working overtime.\" — preventの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["防ぐ・阻止する", "奨励する", "管理する", "記録する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Regular maintenance can prevent equipment failure."]
+    },
+    {
+      "word": "revenue",
+      "phonetic": "/ˈrevənjuː/",
+      "toeicRank": "TSL 287位",
+      "parts": [
+        {"part": "re", "meaning": "戻って", "type": "prefix"},
+        {"part": "ven", "meaning": "来る", "type": "root"},
+        {"part": "ue", "meaning": "もの・こと（古フランス語名詞語尾）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "re（戻って）+ venire（来る）= 戻ってくるもの → 収益・歳入",
+        "fact": "古フランス語 revenue「戻ってきたもの」（revenir「戻ってくる」の女性過去分詞）から。15世紀初頭に「国家・領主への年収入」として英語に入り、特に投資・事業から「戻ってくる」お金を指すように。venue（来る場所）と同語源で「re-」が「戻り」を加えた語。",
+        "source": "EtymOnline: revenue",
+        "cognates": ["venue", "avenue", "revenant（帰ってくる者・亡霊）"]
+      },
+      "cognitive": {
+        "oneliner": "投じたものが「戻ってくる」お金の流れ→収益・歳入",
+        "fact": "CYCLE（循環）スキーマの応用。出て行ったお金や労力が「戻って(re-)来る(venire)」のが revenue。単なる income（入ってくるもの）と異なり、「一度出て行って戻ってくる」循環的なイメージが revenue の核心。企業の売上高・国家の税収どちらにも使う。",
+        "source": "Johnson (1987) CYCLEスキーマ"
+      },
+      "gap": "revenue と income と profit の違いがTOEICで問われる。revenue = 総売上（戻ってきた全額）、income = 受け取る収入（個人・法人ともに）、profit = 費用を引いた後の利益。revenue が「戻ってきた総額」で最も広い概念。",
+      "gapOneliner": "revenue = 経費を引く前の総売上・歳入。profit（利益）や income とは別",
+      "hook": {
+        "label": "記憶フック",
+        "text": "投資したお金が「戻って(re)来る(ven)もの(ue)」= revenue（収益）。venue（来る場所）に re-（戻り）を付けただけ。国税庁のIRS（Internal Revenue Service）の Revenue もこの語。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "revenueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["戻ってくるもの→収益・歳入", "前に来るもの→予算", "一緒に来るもの→共同収入", "外に来るもの→支出"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + ven + ue の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["戻って + 来る + 名詞 = 収益（戻ってくるお金）", "再び + 来る + 名詞 = 再投資", "反対に + 来る + 名詞 = 損失", "下に + 来る + 名詞 = 赤字"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company's annual ______ exceeded 10 million dollars last year.",
+          "hint": "「戻ってくるもの」→「収益・売上高」",
+          "explanationFocus": "gap",
+          "choices": ["revenue", "venture", "avenue", "tenure"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "revenueと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["annual（年間収益）", "private（個人的な収益）", "silent（沈黙の収益）", "outdoor（屋外の収益）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new product line significantly boosted the company's revenue.\" — revenueの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["売上・収益", "費用・支出", "従業員数", "市場シェア"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company's revenue grew by 15% this quarter."]
+    }
+  ]
+}

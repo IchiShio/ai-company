@@ -1,0 +1,724 @@
+{
+  "root": "spec/spect",
+  "rootMeaning": "見る",
+  "rootLang": "ラテン語 specere / spectare（PIE *speḱ-）",
+  "imageSchema": "目を向けて対象を注視するイメージ。単なる視覚ではなく「意図をもって見る・確かめる」動き。スペクトルのように光を分解して「全体を見渡す」拡張も含む。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "spectator（観客）は「見る人」。spectacle（眼鏡・見世物）は「見るもの」。spec/spectが見えたら「見る」と読み替えるだけで、10語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "inspect",
+      "phonetic": "/ɪnˈspekt/",
+      "toeicRank": "TOEIC頻出・Part 1/7",
+      "parts": [
+        {"part": "in", "meaning": "中へ", "type": "prefix"},
+        {"part": "spect", "meaning": "見る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "in（中へ）+ specere（見る）= 中をのぞき込む → 検査する",
+        "fact": "ラテン語 inspicere「中を見る、調べる」から。15世紀後半に「注意深く調べる」の意味で英語に入った。軍事・税関・工場など「権限を持った者が内部を確認する」場面で特に発達した語。",
+        "source": "EtymOnline: inspect",
+        "cognates": ["inspection", "inspector", "inspectorate"]
+      },
+      "cognitive": {
+        "oneliner": "内側に視線を向けて隅々まで確かめる→検査する",
+        "fact": "CONTAINERスキーマの応用。外から内部(in-)に視線(spect)を差し込んで確かめる動き。税関検査員が荷物の中を開けて見る、工場検査員がラインの内部を確認するイメージが典型。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「検査する」だけで覚えると inspect の持つ「権限・責任をもって内部を見る」ニュアンスが抜ける。TOEICでは The manager will inspect the facility.（管理者が施設を点検する）のように、肩書きある人物が実施する場面が多い。",
+      "gapOneliner": "inspect = 単なる「見る」ではなく「権限をもって内部を確認する」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "工場検査員が機械の「中(in)を見る(spect)」のがinspect。検査官バッジを持った人物が扉を開けて内部をのぞき込む場面を想像。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "inspectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["中をのぞき込む→検査する", "前を見る→期待する", "上から見る→監督する", "離れて見る→観察する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + spect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中へ + 見る = 検査する", "上へ + 見る = 期待する", "外へ + 見る = 展望する", "後ろへ + 見る = 振り返る"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The safety officer will ______ the equipment before the shift begins.",
+          "hint": "「中をのぞき込む」→「点検する」",
+          "explanationFocus": "gap",
+          "choices": ["inspect", "expect", "respect", "suspect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "inspectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["the factory（工場を点検する）", "the weather（天気を検査する）", "a person's mind（心を調べる）", "a rumor（噂を点検する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Customs officers inspected every piece of luggage.\" — inspectedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["検査した", "荷造りした", "紛失した", "配達した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The safety officer will inspect the equipment before the shift begins."]
+    },
+    {
+      "word": "expect",
+      "phonetic": "/ɪkˈspekt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "spect", "meaning": "見る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ spectare（見る）= 外に向かって見る → 待ち望む → 期待する",
+        "fact": "ラテン語 exspectare「外を見張る、待ち望む」から。1560年代に「〜が起こると考える」の意味で英語に入った。もともと「目を外に向けて何かが来るのを待つ」という視覚的な構造が基盤。",
+        "source": "EtymOnline: expect",
+        "cognates": ["expectation", "unexpected", "expectancy"]
+      },
+      "cognitive": {
+        "oneliner": "外に視線を向けて何かが来るのを待つ→期待する",
+        "fact": "PATHスキーマの時間的拡張。空間的に「外(ex-)を見る(spect)」が時間軸に投影され、「未来に向かって見る = 期待する」に転じた。Lakoffのいう時間の空間メタファーの典型例。",
+        "source": "Lakoff & Johnson (1999) 時間の空間メタファー"
+      },
+      "gap": "「期待する」の訳語が強すぎて、expect は「当然そうなると思っている（半ば確信）」というニュアンスが伝わりにくい。hope（ただ願う）とは異なり、I expect the report by Friday. は「金曜までに提出されて当然」という要求に近い。",
+      "gapOneliner": "expect = 単なる「期待」ではなく「当然そうなると見込んでいる」確信ニュアンス",
+      "hook": {
+        "label": "記憶フック",
+        "text": "空港の出口(exit)で外(ex)を見つめて(spect)到着便を待つ人。未来を「外に向かって見ている」のがexpect。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "expectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外へ見る→待ち望む→期待する", "外に出る→逃げる", "外を歩く→外出する", "外で叫ぶ→宣言する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + spect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 見る = 期待する", "前へ + 見る = 見通す", "外へ + 話す = 説明する", "後ろへ + 見る = 後悔する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We ______ the project to be completed by the end of the month.",
+          "hint": "「外を見る」→「当然そうなると見込む」",
+          "explanationFocus": "gap",
+          "choices": ["expect", "inspect", "respect", "prospect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "expectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["results（結果を期待する）", "buildings（建物を期待する）", "traffic（交通を期待する）", "prices（値段を期待する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Employees are expected to arrive on time.\" — expectedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜するよう求められている", "〜するかもしれない", "〜することを禁じられている", "〜することが難しい"],
+          "correct": 0
+        }
+      ],
+      "examples": ["We expect the project to be completed by the end of the month."]
+    },
+    {
+      "word": "respect",
+      "phonetic": "/rɪˈspekt/",
+      "toeicRank": "TOEIC頻出・Part 7",
+      "parts": [
+        {"part": "re", "meaning": "再び・振り返って", "type": "prefix"},
+        {"part": "spect", "meaning": "見る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "re（振り返って）+ spectare（見る）= 振り返ってもう一度見る → 重く見る → 尊敬する",
+        "fact": "ラテン語 respectus「振り返ること、配慮」から。古フランス語 respecter を経て14世紀末に英語へ。「わざわざ振り返って見るほど価値がある」が「尊敬・敬意」に転じた。名詞の「点・観点」（in this respect）も同根。",
+        "source": "EtymOnline: respect",
+        "cognates": ["respectful", "respectable", "disrespect", "irrespective"]
+      },
+      "cognitive": {
+        "oneliner": "わざわざ振り返って見るほど価値がある→尊敬・敬意",
+        "fact": "ATTENTION IS TURNING TOWARDメタファー。前に進む中でわざわざ(re-)立ち止まって振り返り見る(spect)動作は、それだけ対象が重要・価値があることを身体的に示す。尊敬の本質は「注意を向け直すこと」。",
+        "source": "Lakoff & Johnson (1980) ATTENTION IS TURNING TOWARD"
+      },
+      "gap": "「尊敬する」の意味ばかりが強調されるが、TOEICではwith respect to（〜に関して）やin all respects（あらゆる点で）の名詞用法が頻出。「観点・点」という意味も「その角度から見る」という語源で理解できる。",
+      "gapOneliner": "respect = 「尊敬」だけでなく「観点・点（with respect to）」もTOEICで頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "通り過ぎた後に「振り返って(re)もう一度見る(spect)」ほど印象的な人物。それがrespect（尊敬）される人。with respect to = その観点から振り返って見ると。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "respectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["振り返って見る→尊敬する", "再び聞く→尊重する", "繰り返す→習慣にする", "振り返って走る→やり直す"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + spect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["振り返って + 見る = 尊敬する", "再び + 話す = 繰り返す", "後ろへ + 走る = 退く", "再び + 感じる = 共感する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "______ to your question about the budget, I will send the figures tomorrow.",
+          "hint": "「振り返って見る」→「〜に関して（with _____ to）」",
+          "explanationFocus": "gap",
+          "choices": ["respect", "expect", "inspect", "prospect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "respectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["mutual（相互尊重）", "electric（電気尊敬）", "rapid（素早い尊敬）", "annual（年次尊敬）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The two proposals differ in several key respects.\" — respectsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["点・観点", "尊敬の念", "敬意の表明", "評価結果"],
+          "correct": 0
+        }
+      ],
+      "examples": ["With respect to your inquiry, we will respond within 24 hours."]
+    },
+    {
+      "word": "suspect",
+      "phonetic": "/səˈspekt/（動）/ /ˈsʌspekt/（名・形）",
+      "toeicRank": "TOEIC頻出・Part 4/7",
+      "parts": [
+        {"part": "sub", "meaning": "下から・こっそり", "type": "prefix"},
+        {"part": "spect", "meaning": "見る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "sub（下から）+ spectare（見る）= 下からこっそりのぞき見る → 疑いの目で見る → 疑う",
+        "fact": "ラテン語 suspicere「下から見上げる、不審に思う」から（sub- + specere）。14世紀後半に「不信の念を抱く」の意味で英語に入った。「下からこっそりのぞき見る」動作が「信用できない気配を感じる」に転じた。",
+        "source": "EtymOnline: suspect",
+        "cognates": ["suspicion", "suspicious", "suspiciously"]
+      },
+      "cognitive": {
+        "oneliner": "下からこっそりのぞき見る→疑いのまなざしで見る→疑う",
+        "fact": "DOWN IS BAD / HIDDEN IS SUSPICIOUS メタファーの複合。真正面から見るのではなく下から(sub-)こっそり見る(spect)動作は、オープンではなく不信感のある視線を表す。身体的なコソコソ感が「疑い」の意味基盤。",
+        "source": "Lakoff & Johnson (1980) 身体化された意味"
+      },
+      "gap": "動詞と名詞でアクセントが変わる（動詞: /səˈspekt/、名詞: /ˈsʌspekt/）のが日本人の盲点。TOEICでは a prime suspect（有力容疑者）という名詞用法と、I suspect there is a problem.（問題があると疑っている）の動詞用法が両方出る。",
+      "gapOneliner": "suspect = 動詞「疑う」と名詞「容疑者」でアクセント位置が異なる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "探偵が柱の陰から「下から(sub)こっそりのぞく(spect)」のがsuspect。疑いのまなざしで見る動作そのもの。名詞のsuspect（容疑者）はその視線を向けられた人。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "suspectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["下からこっそり見る→疑う", "下に置く→服従する", "隠れて話す→秘密にする", "下に引く→差し引く"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sub + spect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["下から + 見る = 疑う", "下に + 置く = 服従する", "後ろへ + 見る = 後悔する", "中へ + 見る = 検査する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Police arrested the ______ after reviewing the security footage.",
+          "hint": "「下からこっそり見られる人」→「容疑者」（名詞用法）",
+          "explanationFocus": "gap",
+          "choices": ["suspect", "spectator", "inspector", "prospect"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "suspectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["foul play（不正行為を疑う）", "good news（良い知らせを疑う）", "safety（安全を疑う）", "profits（利益を疑う）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"I suspect the figures in this report are not accurate.\" — suspectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜ではないかと疑っている", "〜であることを確認した", "〜を期待している", "〜を報告した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The manager suspects that the data has been altered."]
+    },
+    {
+      "word": "prospect",
+      "phonetic": "/ˈprɒspekt/",
+      "toeicRank": "TOEIC頻出・Part 7・ビジネス語彙",
+      "parts": [
+        {"part": "pro", "meaning": "前へ", "type": "prefix"},
+        {"part": "spect", "meaning": "見る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ spectare（見る）= 前を見渡す → 見通し・将来性",
+        "fact": "ラテン語 prospectus「前方への眺め、見通し」から。15世紀に「景色・眺め」で英語に入り、17世紀に「将来の見込み」の抽象的意味へ。ビジネス英語では「見込み客（prospective customer）」の省略形として使われる。",
+        "source": "EtymOnline: prospect",
+        "cognates": ["prospective", "prospector", "prospectus"]
+      },
+      "cognitive": {
+        "oneliner": "前方を見渡す→未来の可能性・見込みを「見る」→見通し",
+        "fact": "PATHスキーマの未来投影。前方(pro-)を遠く見る(spect)視線が、空間的な「眺め」から時間的な「将来の見込み」へ転じた。山の頂上から前方を展望する身体イメージが基盤。",
+        "source": "Lakoff & Johnson (1999) 時間の空間メタファー"
+      },
+      "gap": "「見通し」だけで覚えると、TOEICで頻出の prospects（複数形で「将来性・可能性」）と sales prospect（見込み客）の用法で詰まる。特に「見込み客」の意味はマーケティング・営業文書で必須。",
+      "gapOneliner": "prospect = 「見通し」だけでなく「見込み客（sales prospect）」もTOEICビジネス頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "営業マンが「前(pro)を見渡して(spect)」次の商談相手を探している。その相手がprospect（見込み客）。前方の可能性を眺めるイメージで「見通し・将来性」も同じ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "prospectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["前を見渡す→見通し・見込み", "前に進む→発展する", "前に置く→提案する", "前に叫ぶ→宣伝する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pro + spect の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["前へ + 見る = 見通し", "前へ + 走る = 前進する", "前へ + 話す = 提案する", "前へ + 置く = 提供する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The sales team is focusing on converting ______ into paying customers.",
+          "hint": "「前を見渡された人」→「見込み客」",
+          "explanationFocus": "gap",
+          "choices": ["prospects", "spectators", "inspectors", "suspects"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "prospectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["job（就職の見込み）", "electric（電気の展望）", "daily（毎日の見通し）", "manual（手動の可能性）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The economic prospects for next year look promising.\" — prospectsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["見通し・将来性", "報告書", "投資家", "統計データ"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The job prospects in this field are excellent."]
+    },
+    {
+      "word": "perspective",
+      "phonetic": "/pəˈspektɪv/",
+      "toeicRank": "TOEIC頻出・Part 7・ビジネス文書",
+      "parts": [
+        {"part": "per", "meaning": "通して・完全に", "type": "prefix"},
+        {"part": "spect", "meaning": "見る", "type": "root"},
+        {"part": "ive", "meaning": "〜に関する（形容詞→名詞化）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "per（通して）+ spectare（見る）= 奥まで見通す → 遠近法 → 視点",
+        "fact": "中世ラテン語 perspectiva（ars）「光学の（技術）」から。14世紀に絵画の「遠近法」として英語に入り、17世紀以降「物事を見る角度・観点」の抽象的意味へ拡張。語源の「通して完全に見る」が「本質を見抜く視点」へ転じた。",
+        "source": "EtymOnline: perspective",
+        "cognates": ["perspectival", "perspectively"]
+      },
+      "cognitive": {
+        "oneliner": "奥まで通して見る→全体を把握した上での見方→視点",
+        "fact": "SEEING IS UNDERSTANDING メタファー。物理的に「通して(per-)見る(spect)」が認知的な「理解の角度・立場」に転じた。遠近法（パースペクティブ）が空間を「正しく見る技術」であるように、視点は現実を「正しく理解する角度」。",
+        "source": "Lakoff & Johnson (1980) SEEING IS UNDERSTANDING"
+      },
+      "gap": "「視点」と訳されるが、from a business perspective（ビジネスの観点から）のように「立場・観点・文脈」として機能することが多い。put things in perspective（物事を正しい角度で見る）というイディオムもTOEICで出る。",
+      "gapOneliner": "perspective = 「視点」よりも「物事を見る文脈・立場」がビジネス英語での本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "長いトンネルを「通り抜けて(per)見る(spect)」と奥まで視界が広がる。それがperspective（視点・遠近法）。トンネルの出口から見える光景＝物事の全体像を捉える視点。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "perspectiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["通して見る→視点・観点", "前を見る→見通し", "中を見る→内省", "上から見る→概観"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "per + spect + ive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["通して + 見る + 性質 = 視点", "前へ + 見る + 性質 = 予測", "再び + 見る + 性質 = 尊敬", "外へ + 見る + 性質 = 期待"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "From a customer's ______, the new interface is much easier to use.",
+          "hint": "「通して見る角度」→「観点・立場」",
+          "explanationFocus": "gap",
+          "choices": ["perspective", "prospect", "spectacle", "inspection"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "perspectiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["global（グローバルな視点）", "electric（電気的な視点）", "rapid（素早い視点）", "annual（年次視点）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"It's important to keep things in perspective during a crisis.\" — in perspectiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["正しい角度・バランスで", "秘密にして", "急いで", "詳細に記録して"],
+          "correct": 0
+        }
+      ],
+      "examples": ["From a business perspective, the merger makes sense."]
+    },
+    {
+      "word": "specify",
+      "phonetic": "/ˈspesɪfaɪ/",
+      "toeicRank": "TOEIC頻出・Part 5/7",
+      "parts": [
+        {"part": "spec", "meaning": "見る・種", "type": "root"},
+        {"part": "ify", "meaning": "〜にする", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "species（見て分けた種）+ ify（〜にする）= 種を見定めて区別する → 明示する",
+        "fact": "後期ラテン語 specificare「種を示す」から（species + facere）。speciesはspecere（見る）から「見て分類した種・種類」。14世紀末に「詳細を述べる、明確に定める」の意味で英語に入った。",
+        "source": "EtymOnline: specify",
+        "cognates": ["specific", "specification", "species", "specimen"]
+      },
+      "cognitive": {
+        "oneliner": "見て分類する→種を特定する→明確に指定する",
+        "fact": "CATEGORIZATION IS SEEING スキーマ。混沌とした集合の中からひとつの「種(spec-)」を目で見定めて(-ify)区別する認知操作。TOEICの契約書・仕様書文脈で「条件を目に見える形で特定する」のが specify。",
+        "source": "Johnson (1987) CATEGORIZATION IS SEEING"
+      },
+      "gap": "「明示する」だけで覚えると、as specified in the contract（契約書に規定された通り）やplease specify your requirements（要件を具体的に述べてください）のビジネス用法のニュアンスが薄れる。「曖昧さを排除して見える化する」が本質。",
+      "gapOneliner": "specify = 曖昧さを排除して「見える形で特定・明示する」→契約・仕様書で必須",
+      "hook": {
+        "label": "記憶フック",
+        "text": "仕様書(specification)は「見て(spec)分かるように作る(-ify)」書類。specifyはその動詞形。設計図で「ここはこの材質を指定する」イメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "specifyの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["種を見定めて区別する→明示する", "種を育てる→発展させる", "詳細を隠す→秘密にする", "種類を増やす→多様化する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "spec + ify の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["種・見る + 〜にする = 明示する", "前へ + 〜にする = 前進させる", "再び + 〜にする = 繰り返す", "外へ + 〜にする = 輸出する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ the exact dimensions you need for the custom order.",
+          "hint": "「見える形で特定する」→「明示する」",
+          "explanationFocus": "gap",
+          "choices": ["specify", "simplify", "satisfy", "classify"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "specifyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["requirements（要件を明示する）", "weather（天気を明示する）", "feelings（感情を明示する）", "luck（運を明示する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The contract specifies that payment must be made within 30 days.\" — specifiesの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["明確に定めている", "おおまかに示している", "変更を禁じている", "期限を延長している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please specify the delivery date in your order form."]
+    },
+    {
+      "word": "spectator",
+      "phonetic": "/spekˈteɪtər/",
+      "toeicRank": "TOEIC標準語彙",
+      "parts": [
+        {"part": "spect", "meaning": "見る", "type": "root"},
+        {"part": "ator", "meaning": "〜する人", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "spectare（見る）+ ator（〜する人）= 見る人 → 観客",
+        "fact": "ラテン語 spectator「見る人、観客」から。spectareは繰り返し・継続を表す反復動詞（specere の反復形）。1580年代に英語に入った。現代では sports spectator（スポーツ観戦者）のように「能動的参加者ではなく見ている側の人」を指す。",
+        "source": "EtymOnline: spectator",
+        "cognates": ["spectacle", "spectacular", "spectate"]
+      },
+      "cognitive": {
+        "oneliner": "継続して見続ける人→観客・傍観者",
+        "fact": "AGENT IS -OR/-ER スキーマ。spectare（継続して見る）の行為者を示す -ator がついた語。「参加する」のではなく「見る側にとどまる」という受動的位置づけが spectator の核。TOEIC のスポーツ・イベント文脈で安定して出る。",
+        "source": "Johnson (1987) AGENT IS -OR/-ER スキーマ"
+      },
+      "gap": "「観客」と訳されるが、audience（音や言葉を聴く人）との違いを意識したい。spectator は視覚的な見物・観戦に特化し、スポーツ・行列・事故現場を見ている人も含む。mere spectator = ただの傍観者（何もしない）という批判的ニュアンスも出る。",
+      "gapOneliner": "spectator = 「観客」だがaudienceと異なり視覚特化・傍観者ニュアンスを持つ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "スタジアムのスタンドで「見て(spect)いる人(-ator)」がspectator。フィールドに入らず見ているだけの人。mere spectatorは「ただ見ているだけで何もしない傍観者」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "spectatorの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["見る + 人 = 観客", "話す + 人 = 演説家", "走る + 人 = 選手", "聞く + 人 = 聴衆"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "spect + ator の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["見る + 人 = 観客", "話す + 人 = 話者", "前へ + 人 = 先駆者", "外へ + 人 = 輸出者"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Over 50,000 ______ attended the championship game.",
+          "hint": "「見ている人」→「観客・観戦者」",
+          "explanationFocus": "gap",
+          "choices": ["spectators", "inspectors", "prospects", "suspects"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "spectatorと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["sport（観戦スポーツ）", "document（文書観客）", "electric（電気観客）", "annual（年次観客）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We cannot remain mere spectators while the situation worsens.\" — mere spectatorsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["ただ見ているだけの傍観者", "主要な観客", "経験豊富な観察者", "公式の立会人"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Thousands of spectators gathered to watch the parade."]
+    },
+    {
+      "word": "spectacular",
+      "phonetic": "/spekˈtækjʊlər/",
+      "toeicRank": "TOEIC標準語彙・Part 7",
+      "parts": [
+        {"part": "spect", "meaning": "見る", "type": "root"},
+        {"part": "acul", "meaning": "小さな〜（spectaculum の縮小辞）", "type": "root"},
+        {"part": "ar", "meaning": "〜に関する・〜の性質の", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "spectaculum（見世物）+ ar（〜の性質）= 見世物にふさわしい → 壮観な",
+        "fact": "ラテン語 spectaculum「見世物、公開の見せ場」から派生した spectacular。spectaculumはspectare（見る）の指小辞形。1680年代から「見世物に関する」として英語に現れ、19世紀以降「壮大な・圧倒的に素晴らしい」の形容詞として定着。",
+        "source": "EtymOnline: spectacular",
+        "cognates": ["spectacle", "spectacles（眼鏡）", "spectacularly"]
+      },
+      "cognitive": {
+        "oneliner": "見世物にふさわしい→目を奪われるほど素晴らしい→壮観な",
+        "fact": "SEEING IS EVALUATING メタファー。「見る(spect-)に値する・見せる価値がある」ことが「素晴らしい」という評価に転じた。見ることが体験の基準となる身体的評価軸の典型例。",
+        "source": "Lakoff & Johnson (1980) SEEING IS EVALUATING"
+      },
+      "gap": "「壮観な」と訳すと硬すぎる。TOEICではa spectacular view（素晴らしい眺め）、spectacular results（目覚ましい成果）のように「目を引くほど印象的な」という意味で、ビジネス・観光両方に登場する。名詞としての「大規模ショー」用法も存在。",
+      "gapOneliner": "spectacular = 「壮観な」だけでなく「目覚ましい（成果など）」のビジネス用法も頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ローマの競技場でのspectacle（見世物）の中でも最大級のもの(-ar = の性質)がspectacular。現代では花火や成果にも使う。「思わず目を奪われる」レベルの何か。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "spectacularの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["見世物にふさわしい→壮観な", "見て学ぶ→印象的な", "見物に行く→観光的な", "見やすい→明確な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "spectacul + ar の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["見世物 + の性質 = 壮観な", "見る人 + の性質 = 観客的な", "前を見る + の性質 = 先進的な", "内を見る + の性質 = 内省的な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The hotel offers a ______ view of the ocean from every room.",
+          "hint": "「見世物にふさわしい」→「素晴らしい・壮観な」",
+          "explanationFocus": "gap",
+          "choices": ["spectacular", "particular", "regular", "circular"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "spectacularと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["scenery（壮観な景色）", "document（壮観な書類）", "schedule（壮観なスケジュール）", "budget（壮観な予算）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The team delivered spectacular results despite the tight deadline.\" — spectacularの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["目覚ましい・印象的な", "平均的な", "予想通りの", "わずかな"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The fireworks display was truly spectacular."]
+    },
+    {
+      "word": "spectrum",
+      "phonetic": "/ˈspektrəm/",
+      "toeicRank": "TOEIC上級語彙・Part 7",
+      "parts": [
+        {"part": "spectr", "meaning": "見えるもの・像", "type": "root"},
+        {"part": "um", "meaning": "〜もの（ラテン語名詞中性形）", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "specere（見る）の派生名詞 spectrum = 見えるもの・像 → 光のスペクトル → 範囲",
+        "fact": "ラテン語 spectrum「幽霊・像・見えるもの」から（specere「見る」の過去分詞幹 spectr- + -um）。1671年にニュートンが光の分散実験でこの語を採用し、「可視光の連続体」を指す科学用語として定着。20世紀に「連続する幅・範囲」の比喩的意味に拡張。",
+        "source": "EtymOnline: spectrum",
+        "cognates": ["spectre/specter（幽霊）", "spectroscopy", "specter"]
+      },
+      "cognitive": {
+        "oneliner": "目に見えるもの（光の像）→連続する全体の広がり→範囲・スペクトル",
+        "fact": "CONTAINERスキーマとPATHスキーマの融合。虹のように端から端まで連続して「見える(spectr-)全体像(-um)」が「広がりや範囲」の意味に転じた。a broad spectrum（幅広い範囲）やacross the political spectrum（政治的立場の全域にわたって）がTOEICで出る。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "物理の「光のスペクトル」だけで覚えると、TOEIC/ビジネス文書に頻出のa wide spectrum of opinions（幅広い意見）、across the spectrum（あらゆる立場にわたって）という抽象的用法で詰まる。「連続する幅・全体の広がり」が現代の中心義。",
+      "gapOneliner": "spectrum = 「光のスペクトル」だけでなく「幅広い範囲」の抽象的用法がTOEICで重要",
+      "hook": {
+        "label": "記憶フック",
+        "text": "プリズムを通すと光が「見える(-um)全体像(spectr)」として広がる。それがspectrum。虹の7色が端から端まで連続するように、spectrumは「見渡せる全体の幅」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "spectrumの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["見えるもの→連続する範囲・スペクトル", "聞こえるもの→音の範囲", "感じるもの→感情の幅", "動くもの→速度の範囲"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "spectr + um の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["見えるもの + 名詞形 = 範囲・スペクトル", "聞こえるもの + 名詞形 = 音域", "触れるもの + 名詞形 = 質感", "走るもの + 名詞形 = 速度域"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new policy affects a wide ______ of industries.",
+          "hint": "「見えるもの全体の広がり」→「幅広い範囲」",
+          "explanationFocus": "gap",
+          "choices": ["spectrum", "spectator", "prospect", "inspection"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "spectrumと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["broad（幅広い範囲）", "electric（電気の範囲）", "rapid（急速な範囲）", "annual（年次範囲）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The conference attracted professionals from across the spectrum of the financial industry.\" — across the spectrumの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["あらゆる分野・立場にわたって", "特定の専門分野から", "海外の機関から", "過去の業界から"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company serves a broad spectrum of clients, from startups to large corporations."]
+    }
+  ]
+}

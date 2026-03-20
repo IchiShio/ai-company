@@ -1,0 +1,580 @@
+{
+  "root": "pos/pon/pose",
+  "rootMeaning": "置く",
+  "rootLang": "ラテン語 ponere（PIE *po-sinere）",
+  "imageSchema": "何かを特定の場所に「置く」動き。位置を確定させる・固定する・留まらせるイメージ。prefix次第で「前・後ろ・上・下・外・離れた場所」に置く動きに変わる。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "「ポジション(position)」は置かれた状態。pos/pon/poseが見えたら「置く」と読み替えるだけで、compose（一緒に置く=作曲）・propose（前に置く=提案）・expose（外に置く=さらす）が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "position",
+      "phonetic": "/pəˈzɪʃən/",
+      "toeicRank": "TSL 200位相当",
+      "parts": [
+        {"part": "pos", "meaning": "置く", "type": "root"},
+        {"part": "ition", "meaning": "状態・行為", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "pos（置く）+ ition（状態）= 置かれた状態 → 位置・立場",
+        "fact": "ラテン語 positio「置くこと、配置」から。ponere（置く）の過去分詞 positus に接尾辞 -ion を付けた形。14世紀に「物が置かれている場所」の意味で英語に入り、その後「立場・地位・職位」へと意味が拡張した。",
+        "source": "EtymOnline: position",
+        "cognates": ["positive", "deposit", "compose", "propose", "suppose"]
+      },
+      "cognitive": {
+        "oneliner": "置かれた結果の「状態」→場所も地位も同じイメージ",
+        "fact": "CONTAINERスキーマの応用。物が空間内の固定点に「置かれた結果」として場所が決まり、それが抽象的に組織の「地位・立場」に転じた。TOEIC頻出の job position（職位）も「組織内のある場所に置かれた状態」。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「位置」だけで覚えると in a position to help（助けられる立場にある）やposition paper（立場文書）で詰まる。語源の「置かれた状態」がわかれば、場所・地位・姿勢・立場すべて同じイメージで読める。",
+      "gapOneliner": "position = 物理的「位置」も組織的「立場」も、置かれた状態が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "チェスの駒を盤上に「置く(pos)と固まった状態(ition)」がposition。駒の位置も、会社での地位も、「置かれた状態」が共通イメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "positionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["置かれた状態→位置・立場", "前に進む→前進する", "力を集める→権力を持つ", "名前を付ける→分類する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pos + ition の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["置く + 状態 = 位置・立場", "動く + 状態 = 運動", "言う + 状態 = 発言", "見る + 状態 = 視点"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She applied for a management ______ at the company.",
+          "hint": "「置かれた状態」→「職位」",
+          "explanationFocus": "gap",
+          "choices": ["position", "permission", "possession", "promotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "positionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["job（職位）", "weather（天気の位置）", "color（色の位置）", "sound（音の位置）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"I'm not in a position to comment on that.\" — positionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["立場", "位置情報", "ポーズ", "所有物"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She applied for a management position at the company."]
+    },
+    {
+      "word": "compose",
+      "phonetic": "/kəmˈpoʊz/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "com", "meaning": "一緒に", "type": "prefix"},
+        {"part": "pose", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "com（一緒に）+ ponere（置く）= 一緒に置く → 構成する・作曲する",
+        "fact": "ラテン語 componere「一緒に置く、組み合わせる」のフランス語経由形 composer から。15世紀に「文章を書く、詩を作る」の意味で英語に入り、16世紀に「音楽を作曲する」へ拡張。be composed of（〜から成る）は「複数の要素が一緒に置かれている状態」の直接的な表現。",
+        "source": "EtymOnline: compose",
+        "cognates": ["composer", "composition", "composite", "compound", "component"]
+      },
+      "cognitive": {
+        "oneliner": "複数の要素を「一緒に置く」→組み合わせて作り上げる動き",
+        "fact": "PARTSスキーマ（部分→全体）の典型。音符を一緒に置いて交響曲になる、文字を一緒に置いて文章になる。compose oneself（平静を取り戻す）も「バラバラになった自分の要素を一緒に置き直す」イメージ。",
+        "source": "Johnson (1987) PARTSスキーマ"
+      },
+      "gap": "「作曲する」だけで覚えると be composed of water（水からできている）やcompose yourself（落ち着いて）で詰まる。語源の「一緒に置く」がわかれば、作曲も構成も平静も同じイメージで読める。",
+      "gapOneliner": "compose = 「作曲する」も「構成する」も、要素を一緒に置く動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "作曲家が音符を「一緒に(com)置いて(pose)」曲を作るのがcompose。チームが複数の人から「一緒に置かれて」できているのもbe composed of。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "composeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["一緒に置く→作曲する・構成する", "前に置く→提案する", "外に置く→さらす", "後ろに置く→延期する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "com + pose の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["一緒に + 置く = 作曲する", "強く + 置く = 強制する", "外に + 置く = 輸出する", "下に + 置く = 押さえつける"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Beethoven began to ______ his famous symphonies at a young age.",
+          "hint": "「一緒に置く」→「作曲する」",
+          "explanationFocus": "gap",
+          "choices": ["compose", "expose", "propose", "dispose"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "composeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["music（音楽を作曲する）", "weather（天気を作る）", "money（お金を組む）", "speed（速度を作る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Please compose yourself before the interview.\" — composeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["平静を取り戻す", "動き回る", "準備する", "練習する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Beethoven began to compose his famous symphonies at a young age."]
+    },
+    {
+      "word": "propose",
+      "phonetic": "/prəˈpoʊz/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "pro", "meaning": "前に", "type": "prefix"},
+        {"part": "pose", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pro（前に）+ ponere（置く）= 前に置く → 提案する",
+        "fact": "ラテン語 proponere「前に置く、提示する、公表する」のフランス語経由形 proposer から。14世紀末に「提案する、意図する」の意味で英語に入った。「相手の目の前に（pro-）アイデアを置く（pose）」という視覚的イメージが原義。",
+        "source": "EtymOnline: propose",
+        "cognates": ["proposal", "proposition", "proponent"]
+      },
+      "cognitive": {
+        "oneliner": "相手の目の「前に」アイデアを「置く」→検討してもらうために差し出す動き",
+        "fact": "GIVINGスキーマの変形。物を渡すように、アイデアや計画を相手の前に置いて判断をゆだねる。propose marriage（プロポーズ）も「相手の前に（自分の気持ちを）置いて決断を求める」動きとして理解できる。",
+        "source": "Lakoff & Johnson (1980) GIVINGスキーマ"
+      },
+      "gap": "「提案する」だけで覚えると I propose a toast（乾杯を提案する）やpropose a theory（理論を提唱する）の幅広い用法で詰まる。語源の「前に置く」がわかれば、提案・提唱・プロポーズすべて同じ動きとして読める。",
+      "gapOneliner": "propose = ビジネス提案もプロポーズも、相手の前にアイデアを置く動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "プロポーズは「前に(pro)置く(pose)」が語源。指輪を相手の「前に置いて」判断を求める動きがそのまま語源になっている。ビジネス提案も同じイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "proposeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["前に置く→提案する", "一緒に置く→作る", "外に置く→公開する", "離して置く→捨てる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pro + pose の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["前に + 置く = 提案する", "後ろに + 置く = 延期する", "上に + 置く = 課す", "外に + 置く = さらす"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The manager will ______ a new budget plan at the meeting.",
+          "hint": "「前に置く」→「提案する」",
+          "explanationFocus": "gap",
+          "choices": ["propose", "compose", "expose", "impose"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "proposeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["a solution（解決策を提案する）", "a building（建物を提案する）", "a mistake（間違いを提案する）", "a rain（雨を提案する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He proposed a new approach to solving the problem.\" — proposeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["提案した", "反対した", "実行した", "調査した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The manager will propose a new budget plan at the meeting."]
+    },
+    {
+      "word": "dispose",
+      "phonetic": "/dɪˈspoʊz/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {"part": "dis", "meaning": "離して・ばらばらに", "type": "prefix"},
+        {"part": "pose", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "dis（離して）+ ponere（置く）= 離して置く → 処分する・配置する",
+        "fact": "ラテン語 disponere「各所に配置する、整理する」のフランス語経由形 disposer から。14世紀末に「配置する、準備する」の意味で英語に入った。dispose of（処分する）の of は「切り離して置く」動きを強調。dispose someone to do（〜する気にさせる）という心理的配置の用法も同根。",
+        "source": "EtymOnline: dispose",
+        "cognates": ["disposal", "disposition", "indisposed"]
+      },
+      "cognitive": {
+        "oneliner": "あるべき場所に「離して置く」→整理する・処分する・気持ちを向ける",
+        "fact": "SEPARATIONスキーマの応用。まとまった状態から切り離してそれぞれの場所に置く動き。ゴミを「本来置くべき場所（ゴミ箱）に離して置く」のが dispose of。心が「ある方向に離れて置かれる」状態が disposition（傾向・気質）。",
+        "source": "Johnson (1987) SEPARATIONスキーマ"
+      },
+      "gap": "「処分する」だけで覚えると be disposed to help（助ける気がある）やdisposition（性質・傾向）で詰まる。語源の「離して置く」がわかれば、物の処分も心の向きも同じ根から生まれた概念として読める。",
+      "gapOneliner": "dispose = ゴミを「処分する」も心が「向く」も、離した場所に置く動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ゴミを「離れた(dis)場所に置く(pose)」のがdispose of。dispose of waste = 廃棄物を（元の場所から離して）処分する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "disposeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["離して置く→処分する", "一緒に置く→まとめる", "上に置く→載せる", "前に置く→提案する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "dis + pose の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["離して + 置く = 処分する", "反対に + 置く = 反論する", "再び + 置く = 回収する", "下に + 置く = 預ける"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ of all waste materials in the designated bins.",
+          "hint": "「離して置く」→「処分する」",
+          "explanationFocus": "gap",
+          "choices": ["dispose", "compose", "expose", "suppose"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "disposeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["of waste（廃棄物を処分する）", "of music（音楽を処分する）", "of weather（天気を処分する）", "of ideas（アイデアを処分する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"How do you dispose of old electronics?\" — disposeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["処分する", "修理する", "販売する", "保管する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please dispose of all waste materials in the designated bins."]
+    },
+    {
+      "word": "expose",
+      "phonetic": "/ɪkˈspoʊz/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ex", "meaning": "外に", "type": "prefix"},
+        {"part": "pose", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外に）+ ponere（置く）= 外に置く → さらす・暴露する",
+        "fact": "ラテン語 exponere「外に置く、展示する、危険にさらす」のフランス語経由形 exposer から。15世紀初頭に「覆いを取る、危険にさらす」の意味で英語に入った。写真の「露出（exposure）」も光を「外に置いて当てる」動き。expose a scandal = スキャンダルを「覆いの外に置く（暴く）」。",
+        "source": "EtymOnline: expose",
+        "cognates": ["exposure", "exposition", "exposed"]
+      },
+      "cognitive": {
+        "oneliner": "保護された内側から「外に出して置く」→隠れていたものが見える状態になる",
+        "fact": "CONTAINER OUT スキーマ。内側（隠れた場所）から外（見える場所）に置く動き。be exposed to risks（リスクにさらされる）は「守られた内側から外の危険な場所に置かれる」状態。写真の露出も「光の外側に置かれる」時間の長さ。",
+        "source": "Johnson (1987) CONTAINERスキーマ（OUT方向）"
+      },
+      "gap": "「暴露する」だけで覚えると be exposed to sunlight（日光にさらされる）やexposure therapy（暴露療法）で詰まる。語源の「外に置く」がわかれば、報道の暴露も光への露出も医療の曝露療法も同じイメージで読める。",
+      "gapOneliner": "expose = スキャンダル暴露も日光にさらされるも、外に置く動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "秘密を「外に(ex)置く(pose)」のがexpose。屋根のない建物が雨風に「外に置かれて」いるのも exposed。カメラのシャッターが光を「外に置いて」受け取るのも exposure。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "exposeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に置く→さらす・暴露する", "上に置く→課す", "一緒に置く→構成する", "後ろに置く→延期する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + pose の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外に + 置く = さらす", "前に + 置く = 提案する", "下に + 置く = 預ける", "離して + 置く = 処分する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The journalist worked to ______ the corruption in the local government.",
+          "hint": "「外に置く」→「暴露する」",
+          "explanationFocus": "gap",
+          "choices": ["expose", "propose", "compose", "impose"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "exposeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["to risks（リスクにさらす）", "to plans（計画にさらす）", "to budgets（予算にさらす）", "to profits（利益にさらす）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Children should not be exposed to violent content.\" — exposeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["さらされる", "引き付けられる", "守られる", "楽しむ"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The journalist worked to expose the corruption in the local government."]
+    },
+    {
+      "word": "impose",
+      "phonetic": "/ɪmˈpoʊz/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {"part": "im", "meaning": "上に・中に", "type": "prefix"},
+        {"part": "pose", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "im（上に）+ ponere（置く）= 上に置く → 課す・強制する",
+        "fact": "ラテン語 imponere「上に置く、負担をかける、だます」のフランス語経由形 imposer から。15世紀末に「義務・税・刑罰を課す」の意味で英語に入った。impose a tax = 税を「上に置く（誰かの肩に乗せる）」。impose on someone（迷惑をかける）も「相手の上に自分の要求を置く」動きが原義。",
+        "source": "EtymOnline: impose",
+        "cognates": ["imposition", "imposing", "impostor"]
+      },
+      "cognitive": {
+        "oneliner": "相手の「上に」負担を「置く」→強制的に負わせる動き",
+        "fact": "FORCE DOWNスキーマ。上から下に向かって押しつける力。impose sanctions（制裁を課す）は制裁を相手国の「上に置く」動き。imposing building（威圧的な建物）も「見る者の上に圧力を置く」高さや規模のある建築物を指す。",
+        "source": "Johnson (1987) FORCEスキーマ（DOWN方向）"
+      },
+      "gap": "「課す」だけで覚えると impose on you（ご迷惑をおかけする）やimposing appearance（堂々たる外見）で詰まる。語源の「上に置く」がわかれば、義務を課すことも、威圧感を「置く」外見も同じイメージで読める。",
+      "gapOneliner": "impose = 税を「課す」も迷惑を「かける」も、相手の上に置く動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "重い荷物を「上に(im)置く(pose)」のがimpose。impose a tax = 税という荷物を上に置く（課す）。impose on someone = 相手の上に自分の都合を置く（迷惑をかける）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "imposeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["上に置く→課す", "外に置く→さらす", "前に置く→提案する", "離して置く→処分する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "im + pose の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["上に + 置く = 課す", "一緒に + 置く = 構成する", "後ろに + 置く = 延期する", "下に + 置く = 預ける"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government decided to ______ a new tax on luxury goods.",
+          "hint": "「上に置く」→「課す」",
+          "explanationFocus": "gap",
+          "choices": ["impose", "expose", "propose", "compose"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "imposeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["restrictions（制限を課す）", "music（音楽を課す）", "weather（天気を課す）", "colors（色を課す）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"I don't want to impose on your time.\" — imposeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["迷惑をかける", "頼りにする", "楽しませる", "感謝する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The government decided to impose a new tax on luxury goods."]
+    },
+    {
+      "word": "postpone",
+      "phonetic": "/poʊstˈpoʊn/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {"part": "post", "meaning": "後ろに・後で", "type": "prefix"},
+        {"part": "pone", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "post（後ろに）+ ponere（置く）= 後ろに置く → 延期する",
+        "fact": "ラテン語 postponere「後ろに置く、後回しにする、軽視する」から直接英語に入った語。15世紀末〜16世紀初頭に「重要度を下げる、後回しにする」の意味で使われ始め、17世紀に現在の「延期する」の意味が定着した。post-（後に）は postpone 以外にも postscript（追伸：手紙の後ろに書いたもの）、postwar（戦後）に現れる接頭辞。",
+        "source": "EtymOnline: postpone",
+        "cognates": ["postponement", "postscript", "posterior"]
+      },
+      "cognitive": {
+        "oneliner": "予定を時間軸の「後ろに」ずらして「置く」→延期する",
+        "fact": "TIME IS SPACE メタファーの典型例。時間を線形の空間として捉え、予定を前方（今）から後方（未来）に移動させる動き。postpone indefinitely（無期限延期）は「どこか不定の後ろに置く」。delay との違いは意図性—postpone は意図的に日時を後ろに再設定する。",
+        "source": "Lakoff & Johnson (1980) TIME IS SPACEメタファー"
+      },
+      "gap": "「延期する」だけで覚えると postpone indefinitely（無期限延期）やpostpone vs. delay の使い分けで詰まる。語源の「後ろに置く」がわかれば、delay（遅れる）との違い—postpone は意図的に後ろに「置き直す」—が体感できる。",
+      "gapOneliner": "postpone = delay との違いは意図性。意図して後ろに置き直すのがpostpone",
+      "hook": {
+        "label": "記憶フック",
+        "text": "カレンダーの予定を「後ろ(post)に置き直す(pone)」のがpostpone。postは郵便局(post office)の「後から届く」イメージ、poneはponere（置く）。後ろの日付に置き直す動きがそのまま「延期する」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "postponeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["後ろに置く→延期する", "前に置く→提案する", "外に置く→さらす", "一緒に置く→作曲する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "post + pone の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["後ろに + 置く = 延期する", "前に + 置く = 提案する", "上に + 置く = 課す", "下に + 置く = 預ける"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Due to the storm, the outdoor event was ______ until next week.",
+          "hint": "「後ろに置く」→「延期する」",
+          "explanationFocus": "gap",
+          "choices": ["postponed", "proposed", "composed", "disposed"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "postponeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["a meeting（会議を延期する）", "a friendship（友情を延期する）", "a color（色を延期する）", "a sound（音を延期する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The launch has been postponed indefinitely.\" — postponedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["延期された", "中止された", "前倒しされた", "承認された"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Due to the storm, the outdoor event was postponed until next week."]
+    },
+    {
+      "word": "deposit",
+      "phonetic": "/dɪˈpɒzɪt/",
+      "toeicRank": "TSL 600位相当",
+      "parts": [
+        {"part": "de", "meaning": "下に・離して", "type": "prefix"},
+        {"part": "posit", "meaning": "置く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "de（下に）+ ponere（置く）= 下に置く → 預ける・保証金",
+        "fact": "ラテン語 deponere「下に置く、脇に置く、預ける」の過去分詞 depositus から。16世紀初頭に「保管のために預ける」の意味で英語に入った。銀行への「預金（deposit）」は「お金を銀行という保管場所の下に置く」動き。地質学の「堆積物（deposit）」も「川底に下に置かれたもの」。",
+        "source": "EtymOnline: deposit",
+        "cognates": ["deposition", "depository", "depot"]
+      },
+      "cognitive": {
+        "oneliner": "安全な場所の「下に」置いて「預ける」→保管・担保の概念",
+        "fact": "DOWN IS SAFE スキーマ。地下金庫や銀行の安全な場所に「下に置く」ことで保管・保護される感覚。security deposit（敷金）は「保証として下に置いておくお金」。geological deposit（鉱床）も「地層の下に置かれた資源の塊」。",
+        "source": "Johnson (1987) UP-DOWN方向スキーマ"
+      },
+      "gap": "「預金」だけで覚えると security deposit（敷金・保証金）やdeposit of minerals（鉱床）で詰まる。語源の「下に置く」がわかれば、銀行預金も敷金も鉱床も「安全な低い場所に置かれたもの」として一貫して読める。",
+      "gapOneliner": "deposit = 銀行「預金」も「敷金」も「鉱床」も、下に置いて保管したもの",
+      "hook": {
+        "label": "記憶フック",
+        "text": "お金を金庫の底（下）に「下に(de)置く(posit)」のがdeposit。銀行のdeposit（預金）も、アパートのdeposit（敷金）も、地層のdeposit（鉱床）も、全部「下に置いて保管したもの」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "depositの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["下に置く→預ける・保証金", "上に置く→課す", "前に置く→提案する", "外に置く→さらす"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + posit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["下に + 置く = 預ける", "一緒に + 置く = 作る", "後ろに + 置く = 延期する", "外に + 置く = さらす"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "You need to pay a security ______ before moving into the apartment.",
+          "hint": "「下に置く」→「保証金」",
+          "explanationFocus": "gap",
+          "choices": ["deposit", "receipt", "invoice", "budget"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "depositと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["bank（銀行預金）", "weather（天気の預金）", "color（色の預金）", "music（音楽の預金）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The river left thick deposits of silt along the banks.\" — depositsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["堆積物", "水流", "波紋", "支流"],
+          "correct": 0
+        }
+      ],
+      "examples": ["You need to pay a security deposit before moving into the apartment."]
+    }
+  ]
+}

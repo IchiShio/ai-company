@@ -1,0 +1,581 @@
+{
+  "root": "ced/cess",
+  "rootMeaning": "行く・譲る",
+  "rootLang": "ラテン語 cedere（PIE *ked-）",
+  "imageSchema": "人が道を歩いて前後左右に移動したり、立ち止まって相手に道を譲るイメージ。「行く方向」が接頭辞によって決まり、意味が分岐する。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "「ced/cess = 行く・譲る」。proceed（前に行く）、exceed（外に行く＝超える）、access（〜へ行く）—全部「行く」方向が違うだけ。ced/cessが見えたら「どちらへ行く？」と問うだけで8語が読める。"
+  },
+  "words": [
+    {
+      "word": "proceed",
+      "phonetic": "/prəˈsiːd/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "pro", "meaning": "前へ", "type": "prefix"},
+        {"part": "ceed", "meaning": "行く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ cedere（行く）= 前へ進む → 続ける・進める",
+        "fact": "ラテン語 procedere「前へ行く、前進する」から。14世紀末に英語に入り、最初は文字通り「前進する」の意味。15世紀には「ある行動を続ける」、法律用語で「手続きを進める」の意味にも拡張。派生語 procedure（手順）は17世紀初頭から。",
+        "source": "EtymOnline: proceed",
+        "cognates": ["procedure", "proceedings", "proceeds"]
+      },
+      "cognitive": {
+        "oneliner": "前方に向かって進む→止まらずに続ける動き",
+        "fact": "PATHスキーマ（SOURCE→PATH→GOAL）の典型。pro-（前方）の方向性が「停止しない」「継続する」という意味を生み出す。TOEICでは「会議を進める」「次のステップに進む」文脈で頻出。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「進む」だけで覚えると proceeds（収益）で詰まる。前に「行った結果」として手に入るものが proceeds（売上・収益）。proceed with caution = 注意しながら前へ行く、proceed to → 次の段階へ行く、という方向感覚がわかれば全て読める。",
+      "gapOneliner": "proceed = 動詞「進める」も名詞複数形 proceeds「収益」も、前に行って得られるもの",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「前に(pro)行く(ceed)」のがproceed。会議を前に進める、計画を続けて前に進める。プロが前に「進む」からpro-ceed。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "proceedの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["前へ行く→進める・続ける", "前に走る→急ぐ", "前に立つ→目立つ", "前に置く→提案する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pro + ceed の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["前へ + 行く = 進める", "強く + 行く = 強制する", "外へ + 行く = 超える", "後ろへ + 行く = 後退する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ to the next step after completing the form.",
+          "hint": "「前へ行く」→「進む」",
+          "explanationFocus": "gap",
+          "choices": ["proceed", "exceed", "succeed", "concede"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "proceedと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["with caution（慎重に進む）", "with height（高さで進む）", "with color（色で進む）", "with noise（音で進む）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The trial will proceed as scheduled despite the delay.\" — proceedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["予定通り進行する", "延期される", "取り消される", "見直される"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please proceed to the next step after completing the form."]
+    },
+    {
+      "word": "succeed",
+      "phonetic": "/səkˈsiːd/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "suc", "meaning": "下から・後から（sub-の変形）", "type": "prefix"},
+        {"part": "ceed", "meaning": "行く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "sub（下から・後から）+ cedere（行く）= 後に続いて行く → 後を継ぐ・成功する",
+        "fact": "ラテン語 succedere「後から行く、後を継ぐ」から。sub-が「下・後」の意味を持ちcの前でsucに変化。14世紀後半に「後継者になる」で英語に入り、15世紀に「意図した結果を得る→成功する」の意味が加わった。success（成功）は1530年代から。",
+        "source": "EtymOnline: succeed",
+        "cognates": ["success", "successful", "succession", "successor"]
+      },
+      "cognitive": {
+        "oneliner": "後に続いて行く→前の人の跡を埋める→その結果うまくいく",
+        "fact": "「跡を継ぐ」から「成功する」への意味変化は、後継者が前任者の仕事を引き継いでうまく完遂するイメージ。TOEIC文書でsucceed in doing（〜に成功する）とsucceed A（Aの後任になる）の2用法を区別できると高得点に直結する。",
+        "source": "Lakoff & Johnson (1980) 連鎖メタファー"
+      },
+      "gap": "「成功する」だけで覚えると succeed him as CEO（彼の後任としてCEOになる）で詰まる。「後から行く＝後を継ぐ」が本義なので、succession planning（後継計画）や successor（後継者）も同じ語根から読める。",
+      "gapOneliner": "succeed = 「成功する」と「後継ぎになる」、どちらも「後に続いて行く」が根っこ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "王位継承でsucceed。先代の後を「続いて(suc)行く(ceed)」のがsucceed。その後継がうまくいけば「成功」になった。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "succeedの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["後から行く→後を継ぐ・成功する", "前へ行く→急速に進む", "外へ行く→超える", "一緒に行く→協力する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "suc + ceed の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["後から + 行く = 後を継ぐ", "強く + 行く = 強行する", "上へ + 行く = 昇進する", "前へ + 行く = 先行する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She will ______ him as director of the department.",
+          "hint": "「後から行く」→「後継ぎになる」",
+          "explanationFocus": "gap",
+          "choices": ["succeed", "proceed", "exceed", "precede"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "succeedと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["in achieving（達成に成功する）", "in weather（天気に成功する）", "in building（建物に成功する）", "in color（色に成功する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new manager succeeded in turning around the struggling division.\" — succeededの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["成功した", "後退した", "失敗した", "断念した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She will succeed him as director of the department."]
+    },
+    {
+      "word": "exceed",
+      "phonetic": "/ɪkˈsiːd/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ex", "meaning": "外へ", "type": "prefix"},
+        {"part": "ceed", "meaning": "行く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ cedere（行く）= 外へ行く → 限界を越え出る → 超える",
+        "fact": "ラテン語 excedere「外へ行く、去る、度を越す」から。14世紀後半に「限度を超える」の意味で英語に入った。excess（超過）は14世紀末、excessive（過度な）は15世紀初頭から。「外へ飛び出す」という空間的な動きが「基準を超える」に転じた典型。",
+        "source": "EtymOnline: exceed",
+        "cognates": ["excess", "excessive", "exceedingly"]
+      },
+      "cognitive": {
+        "oneliner": "外へ飛び出す→設定された境界線を越えて出ていく",
+        "fact": "CONTAINERスキーマ（境界・内外）の応用。設定された枠（予算・制限・期待）の外へ(ex-)行く(cedere)動き。「予算を超える」「期待を超える」「速度制限を超える」はどれも同じイメージ。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「超える」と覚えただけでは exceed expectations（期待を超える）と exceed budget（予算超過）の語感の違いに戸惑う。前者はポジティブ、後者はネガティブ。どちらも「外へ飛び出す」が語源なので文脈で色づけされる。",
+      "gapOneliner": "exceed = 「外へ飛び出す」ので、良い方向にも悪い方向にも「超える」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「外へ(ex)行く(ceed)」のがexceed。スピードメーターの針が枠の外へ飛び出すと exceed the speed limit。期待値の枠を越えれば exceed expectations。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "exceedの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外へ行く→限界を超える", "前へ行く→先行する", "後ろへ行く→退く", "上へ行く→昇る"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + ceed の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 行く = 超える", "前へ + 行く = 進む", "一緒に + 行く = 同行する", "下に + 行く = 下回る"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The project cost will ______ our original budget by 30%.",
+          "hint": "「外へ行く」→「（予算を）超える」",
+          "explanationFocus": "gap",
+          "choices": ["exceed", "proceed", "succeed", "precede"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "exceedと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["expectations（期待を超える）", "friends（友人を超える）", "music（音楽を超える）", "weather（天気を超える）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new product's sales far exceeded our forecasts.\" — exceededの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["大幅に上回った", "下回った", "一致した", "達しなかった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The project cost will exceed our original budget by 30%."]
+    },
+    {
+      "word": "access",
+      "phonetic": "/ˈækses/",
+      "toeicRank": "TSL 200位以内",
+      "parts": [
+        {"part": "ac", "meaning": "〜へ向かって（ad-の変形）", "type": "prefix"},
+        {"part": "cess", "meaning": "行く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ad（〜へ向かって）+ cessus（行くこと）= 〜に向かって行くこと → 近づく手段・アクセス",
+        "fact": "ラテン語 accessus「近づくこと、接近」から、cedere の過去分詞 cessus が派生。ad-がcの前でacに変化。14世紀に「近づく手段・権利」で英語に入り、1960年代以降にコンピュータ用語として「データにアクセスする」の動詞用法が広まった。",
+        "source": "EtymOnline: access",
+        "cognates": ["accessible", "accessibility", "inaccessible"]
+      },
+      "cognitive": {
+        "oneliner": "〜へ向かって行くこと→場所・情報・権限への到達経路",
+        "fact": "PATHスキーマ（GOAL到達）の名詞化。「どこかへ行く経路・権利」が access の本義。have access to（〜へのアクセス権を持つ）は「〜へ行く権利を持っている」、access the system（システムにアクセスする）は「システムへ向かって行く」。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「アクセスする」はカタカナ語として知っていても、accessible（近づきやすい＝利用しやすい）やinaccessible（近づけない＝利用困難な）への応用が遅れがち。「〜へ向かって行ける」という動きのイメージが語族全体をつなぐ。",
+      "gapOneliner": "access = 「〜へ向かって行く」経路・権利。accessible/inaccessibleも同じイメージで読める",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「〜へ向かって(ac)行くこと(cess)」がaccess。ドアに近づいて入れることがaccess。入れなければinaccessible。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "accessの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜へ向かって行くこと → アクセス・近づく手段", "外へ行くこと → 超える", "一緒に行くこと → 協力する", "前へ行くこと → 進む"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ac + cess の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜へ向かって + 行く = 近づく手段", "強く + 行く = 強行する", "外へ + 行く = 越える", "後ろへ + 行く = 後退する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "All employees have ______ to the shared drive.",
+          "hint": "「〜へ向かって行くこと」→「アクセス権」",
+          "explanationFocus": "gap",
+          "choices": ["access", "excess", "process", "success"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "accessと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["to information（情報へのアクセス）", "to weather（天気へのアクセス）", "to color（色へのアクセス）", "to noise（音へのアクセス）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Remote workers need secure access to company data at all times.\" — accessの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["データへの接続・利用権", "データの削除権", "データの複製権", "データの公開権"],
+          "correct": 0
+        }
+      ],
+      "examples": ["All employees have access to the shared drive."]
+    },
+    {
+      "word": "process",
+      "phonetic": "/ˈprɑːses/",
+      "toeicRank": "TSL 100位以内",
+      "parts": [
+        {"part": "pro", "meaning": "前へ", "type": "prefix"},
+        {"part": "cess", "meaning": "行くこと", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ cessus（行くこと）= 前へ進んでいくこと → 過程・手順",
+        "fact": "ラテン語 processus「前進、進行」から。cedere の過去分詞 cessus に pro- を付けた名詞。14世紀後半に「前へ進む動き」「時間の経過」で英語に入り、法律用語の「訴訟手続き」から17世紀に「一連の操作・工程」へ拡張。動詞「処理する」は1530年代。",
+        "source": "EtymOnline: process",
+        "cognates": ["processor", "processing", "processed"]
+      },
+      "cognitive": {
+        "oneliner": "前へ進んでいくこと→段階を追って流れていく一連の動き",
+        "fact": "PATHスキーマの名詞化。「前へ行く（proceed）」の名詞形が「前へ行くこと（process）」。コンピュータの「プロセッサ」が「情報を前へ進める装置」であることも同じ語源。TOEIC頻出の in process（進行中）は「前へ行っている最中」。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「過程」「手順」「処理する」と訳語が多く混乱しがち。全て「前へ進んでいく一連の動き」のバリエーション。a manufacturing process = 製造が前へ進む流れ、process an order = 注文を前へ進める（処理する）。",
+      "gapOneliner": "process = 「前へ進んでいくこと」。名詞「過程・手順」も動詞「処理する」も同じイメージ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「前へ(pro)進んでいくこと(cess)」がprocess。工場の製造ラインが前へ前へと進んでいく流れ。手続きも情報処理も、ステップが前に流れていくのがprocess。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "processの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["前へ進むこと→過程・手順", "外へ行くこと→超える", "後ろへ行くこと→後退する", "下へ行くこと→下落する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pro + cess の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["前へ + 行くこと = 過程・手順", "後ろへ + 行くこと = 後退", "強く + 行くこと = 強行", "外へ + 行くこと = 超過"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The approval ______ usually takes three to five business days.",
+          "hint": "「前へ進んでいくこと」→「手続き・過程」",
+          "explanationFocus": "gap",
+          "choices": ["process", "access", "excess", "success"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "processと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["an application（申請を処理する）", "a weather（天気を処理する）", "a color（色を処理する）", "a friend（友人を処理する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Our team will process your refund request within 48 hours.\" — processの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（手続きを進めて）処理する", "拒否する", "保管する", "転送する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The approval process usually takes three to five business days."]
+    },
+    {
+      "word": "necessary",
+      "phonetic": "/ˈnesəseri/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "ne", "meaning": "否定（not）", "type": "prefix"},
+        {"part": "cess", "meaning": "行く・退く", "type": "root"},
+        {"part": "ary", "meaning": "〜の性質を持つ", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ne（not）+ cedere（退く・行ってしまう）+ -ary = 退いてくれない → 避けられない → 必要な",
+        "fact": "ラテン語 necessarius「避けられない、不可欠な」から。ne-（否定）+ cedere（退く・離れる）= 「退いてくれない」が原義。14世紀末に英語に入り「不可欠な」の意味で定着。necessity（必要性）は14世紀、necessitate（〜を余儀なくさせる）は1620年代。",
+        "source": "EtymOnline: necessary",
+        "cognates": ["necessity", "necessitate", "necessarily", "unnecessary"]
+      },
+      "cognitive": {
+        "oneliner": "退いてくれない→どかすことができない→なければならない",
+        "fact": "否定+動作のFORCEスキーマ。「退く(cedere)ことができない(ne-)」→「どうしても存在する」→「必要である」という論理的転化。unnecessary（不要な）は「退いてもいいもの」=「ne-をさらに否定した状態」として理解できる。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "スペルが難しくて正確に書けない人が多い。ne+cess+ary = 「行けない＋性質」と分解すると、cがcc（ダブルc）になる理由（ne-のeと-cessのcが並ぶ）が把握しやすくなる。副詞 necessarily（副詞）もTOEICでnot necessarily（必ずしも〜ではない）として頻出。",
+      "gapOneliner": "necessary = ne（not）+ cess（行く）+ ary。「退いてくれない性質」= 必要",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「ne（退かない）+ cess（行く）+ ary」= 退いてくれない。Not necessary = 「退いてもいいよ」= 不要。スペルは「1つのc、2つのs」— ne-C-ess-ary。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "necessaryの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["退いてくれない性質→必要な", "前へ行く性質→積極的な", "外へ行く性質→超過した", "一緒に行く性質→協力的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ne + cess + ary の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["退かない + 行く + 性質 = 必要な", "前へ + 行く + 性質 = 進歩的な", "外へ + 行く + 性質 = 超過した", "後ろへ + 行く + 性質 = 保守的な"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "It is ______ to submit all documents before the deadline.",
+          "hint": "「退いてくれない」→「避けられない→必要な」",
+          "explanationFocus": "gap",
+          "choices": ["necessary", "accessory", "ordinary", "secondary"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "necessaryと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["measures（必要な措置）", "colors（必要な色）", "music（必要な音楽）", "weather（必要な天気）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Management said it would make whatever changes were necessary to stay competitive.\" — necessaryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["必要な・不可欠な", "任意の", "緊急の", "計画外の"],
+          "correct": 0
+        }
+      ],
+      "examples": ["It is necessary to submit all documents before the deadline."]
+    },
+    {
+      "word": "precede",
+      "phonetic": "/prɪˈsiːd/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {"part": "pre", "meaning": "前に・先に", "type": "prefix"},
+        {"part": "cede", "meaning": "行く", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pre（前に）+ cedere（行く）= 先に行く → 先行する・前にある",
+        "fact": "ラテン語 praecedere「前に行く、先行する」から。15世紀初頭に「前に位置する、先行する」の意味で英語に入った。precedent（先例）は14世紀末とこちらの方が先に定着。precedence（優先権）は1580年代から。",
+        "source": "EtymOnline: precede",
+        "cognates": ["precedent", "precedence", "unprecedented"]
+      },
+      "cognitive": {
+        "oneliner": "先に行く→時間的・順序的に前の位置を占める",
+        "fact": "PATHスキーマの時間軸への適用。「先に行く」が「時間的に前にある」「優先順位が高い」に転じる。unprecedented（前例のない）は「先に(pre-)行った(cedent)ものがない(un-)」という語源から読める。",
+        "source": "Johnson (1987) PATHスキーマ・時間軸"
+      },
+      "gap": "proceed（前に進む）と混同しやすい。precede は「先行する」という相対的な位置関係を表し、proceed は「（自分が）前へ進む」という自身の動き。A precedes B = AはBより先に行く（AがBの前にある）。",
+      "gapOneliner": "precede = 「先に行く」→ A precedes B は「AがBの前にある」。proceedとの混同注意",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「前に(pre)行く(cede)」のがprecede。前置詞 pre-（事前・前もって）の時間感覚そのまま。precedent（先例）は「先に行ったもの」。unprecedented = 先例なし。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "recedeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["先に行く→先行する・前にある", "後ろに行く→後退する", "外へ行く→超える", "下に行く→衰退する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pre + cede の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["前に + 行く = 先行する", "後ろへ + 行く = 後退する", "外へ + 行く = 超える", "強く + 行く = 強行する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "A brief introduction will ______ the main presentation.",
+          "hint": "「先に行く」→「先行する・前にある」",
+          "explanationFocus": "gap",
+          "choices": ["precede", "proceed", "succeed", "exceed"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "precedeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["the announcement（発表に先行する）", "the color（色に先行する）", "the weather（天気に先行する）", "the music（音楽に先行する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The formal dinner was preceded by a cocktail reception.\" — precededの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜の前に行われた", "〜の後に続いた", "〜に取って代わった", "〜と同時に行われた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["A brief introduction will precede the main presentation."]
+    },
+    {
+      "word": "concede",
+      "phonetic": "/kənˈsiːd/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {"part": "con", "meaning": "完全に・強意", "type": "prefix"},
+        {"part": "cede", "meaning": "行く・譲る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "con（完全に）+ cedere（退く・譲る）= 完全に退く → 認める・譲歩する",
+        "fact": "ラテン語 concedere「退く、許可する、認める」から。con-は「一緒に」のほか「完全に」という強意用法もある。1630年代に「ある点を認める、譲歩する」の意味で英語に入った。concession（譲歩・権利の付与）は15世紀から使われていた。",
+        "source": "EtymOnline: concede",
+        "cognates": ["concession", "concessions stand"]
+      },
+      "cognitive": {
+        "oneliner": "完全に退く→相手の主張から引き下がって認める",
+        "fact": "FORCEスキーマ（抵抗と屈服）の応用。立場や主張から完全に(con-)退く(cedere)ことが「認める・譲歩する」の意味を生む。debate（議論）での concede a point（一点を認める）、選挙での concede defeat（敗北を認める）が典型。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「認める」はadmitやacknowledgeでも言えるが、concedeには「本当は認めたくないが、しぶしぶ退く」というニュアンスがある。語源の「完全に退く」がわかれば、concede defeat（敗北を認める）の重みが伝わる。concession（コンセッション）は売店のほか、契約・権利の「許可・付与」の意味でも使われる。",
+      "gapOneliner": "concede = 「しぶしぶ退く」。admitより抵抗感がある認め方",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「完全に(con)退く(cede)」のがconcede。選挙で負けた候補者が「敗北を認める concede defeat」と演説するシーン。道を完全に譲ること。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "concedeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全に退く→認める・譲歩する", "一緒に行く→協力する", "外へ行く→超える", "前へ行く→進める"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + cede の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + 退く = 認める・譲歩する", "前へ + 行く = 先行する", "外へ + 行く = 超える", "後ろへ + 行く = 後退する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The candidate finally had to ______ defeat after the final results were announced.",
+          "hint": "「完全に退く」→「（敗北を）認める」",
+          "explanationFocus": "gap",
+          "choices": ["concede", "precede", "proceed", "exceed"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "concedeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["defeat（敗北を認める）", "weather（天気を認める）", "color（色を認める）", "music（音楽を認める）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The CEO conceded that the company had made several strategic errors.\" — concedeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（しぶしぶ）認めた", "否定した", "主張した", "発表した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The candidate finally had to concede defeat after the final results were announced."]
+    }
+  ]
+}

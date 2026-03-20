@@ -1,0 +1,581 @@
+{
+  "root": "mit/miss",
+  "rootMeaning": "送る",
+  "rootLang": "ラテン語 mittere（起源不詳）",
+  "imageSchema": "手紙や荷物を特定の方向に放つイメージ。矢を放つように、何かを意図的に相手・目的地・外部に向けて「送り出す」動き。mittere は古代ローマの軍事・外交用語として「使者を送り出す」が原義。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "「ミット（mitt）に向けてボールを送る」イメージ。野球の捕手ミットに球を送り込むように、mit/miss が見えたら「送る」と読み替えるだけで、submit（下に送る）からemission（外に送ること）まで8語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "submit",
+      "phonetic": "/səbˈmɪt/",
+      "toeicRank": "TSL 300位台・TOEIC頻出",
+      "parts": [
+        {"part": "sub", "meaning": "下に", "type": "prefix"},
+        {"part": "mit", "meaning": "送る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "sub（下に）+ mittere（送る）= 下に向けて送る → 提出する・服従させる",
+        "fact": "ラテン語 submittere「下に送る、下に置く」から。14世紀後半に「服従させる、従わせる」の意味で英語に入り、1540年代に「考慮・判断のために差し出す」→「提出する」へ。submit a report / submit a form がTOEICの典型用法。",
+        "source": "EtymOnline: submit",
+        "cognates": ["submission", "submissive"]
+      },
+      "cognitive": {
+        "oneliner": "自分より上位の存在・場所に向けて下から送り届ける動き",
+        "fact": "UPとDOWNの垂直スキーマ。権限を持つ相手（上司・機関・審査委員会）の「下に(sub-)」自分のものを「送る(mittere)」。物理的に机の上に書類を置く動作が「上位者に向けて送る」という権力関係を含意している。",
+        "source": "Lakoff & Johnson (1980) 垂直スキーマ（UP = POWER）"
+      },
+      "gap": "「提出する」と丸暗記すると submit to authority（権威に服従する）で詰まる。語源の「下に向けて送る＝上位のものに自分を差し出す」がわかれば、書類提出も服従も同じ動き。",
+      "gapOneliner": "submit = 「提出する」も「服従する」も、上位に向けて下から送り出す動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "上司の机（sub=下の位置）に書類を「送り込む(mit)」のがsubmit。提出もお辞儀も、相手より下の位置から差し出す動作。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "submitの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["下に向けて送る→提出する", "上に向けて送る→昇進する", "横に送る→転送する", "外に送る→輸出する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sub + mit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["下に + 送る = 提出する", "強く + 送る = 強制する", "前に + 送る = 提案する", "一緒に + 送る = 共有する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ your report by Friday.",
+          "hint": "「下に向けて送る」→「提出する」",
+          "explanationFocus": "gap",
+          "choices": ["submit", "permit", "commit", "transmit"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "submitと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["an application（申請書を提出する）", "a meeting（会議を送る）", "a product（商品を下げる）", "a policy（方針を服従させる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"All participants must submit their proposals before the deadline.\" — submitの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["提出する", "審査する", "受け取る", "承認する"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Please submit your report by Friday."]
+    },
+    {
+      "word": "permit",
+      "phonetic": "/pəˈmɪt/",
+      "toeicRank": "TSL 400位台・TOEIC頻出",
+      "parts": [
+        {"part": "per", "meaning": "通して・完全に", "type": "prefix"},
+        {"part": "mit", "meaning": "送る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "per（通して）+ mittere（送る）= 通り抜けるよう送る → 許可する",
+        "fact": "ラテン語 permittere「通り抜けさせる、自由にさせる」から。15世紀初頭に「承認する・許可する」として英語に入った。名詞のpermit（許可証）は1714年頃から。per- は「完全に通過する」ニュアンスがあり、「障壁を通して送り出す＝通過を許可する」が原義。",
+        "source": "EtymOnline: permit",
+        "cognates": ["permission", "permissive", "permissible"]
+      },
+      "cognitive": {
+        "oneliner": "障壁や制限の「向こう側に通して送る」→許可する",
+        "fact": "BARRIER スキーマの応用。本来は通れない障壁（規則・権限・門）の向こう側に、per-（通して）mittere（送る）ことで通過を認める動き。「あなたを向こうへ送り出すことを認める」が許可の身体的イメージ。",
+        "source": "Johnson (1987) BARRIERスキーマ"
+      },
+      "gap": "動詞 permit（許可する）と名詞 permit（許可証）で品詞転換があるが、語源的には同じ「通して送る」。Smoking is not permitted here（ここでは喫煙は許可されない）のような受動態がTOEICに頻出。",
+      "gapOneliner": "permit = 動詞「許可する」も名詞「許可証」も、通り抜けさせる行為・その証明",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ゲート（per=通して）にボールを「送り込む(mit)」と通過できる。それがpermit。障壁を越えて通してあげることが「許可」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "permitの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["通して送る→許可する", "下に送る→提出する", "外に送る→放出する", "一緒に送る→委ねる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "per + mit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["通して + 送る = 許可する", "再び + 送る = 再送する", "前に + 送る = 提案する", "後ろに + 送る = 返送する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Smoking is not ______ in this building.",
+          "hint": "「通して送る」→「許可される」（受動態）",
+          "explanationFocus": "gap",
+          "choices": ["permitted", "submitted", "committed", "admitted"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "permitと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["entry（入場を許可する）", "money（お金を送る）", "study（勉強を通す）", "weather（天気を許す）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"You will need a work permit to be employed here.\" — permitの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["許可証", "申請書", "契約書", "推薦状"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Smoking is not permitted in this building."]
+    },
+    {
+      "word": "admit",
+      "phonetic": "/ədˈmɪt/",
+      "toeicRank": "TSL 500位台・TOEIC頻出",
+      "parts": [
+        {"part": "ad", "meaning": "〜に向かって", "type": "prefix"},
+        {"part": "mit", "meaning": "送る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に向けて）+ mittere（送る）= 〜の中に向けて送る → 入場させる・認める",
+        "fact": "ラテン語 admittere「〜に向けて送り込む、入れる」から。14世紀後半に「中に入れる・許可する」で英語に入り、「入場させる」→「(考えを)受け入れる」→「(事実を)認める」の意味へ拡張。admit a mistake はTOEICに頻出。",
+        "source": "EtymOnline: admit",
+        "cognates": ["admission", "admittance", "admissible"]
+      },
+      "cognitive": {
+        "oneliner": "ある空間・意識の「内側に向けて送り込む」→入れる・認める",
+        "fact": "CONTAINERスキーマ。外にいる人や事実を、ある容器（建物・組織・意識）の内側に向けて(ad-)送り込む(mittere)動き。「病院に入院させる」も「間違いを認める」も、容器の内側への受け入れという同じ身体的イメージ。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「入場させる」と「認める」が別の単語だと感じやすいが、どちらも「向かって送り込む」。admit defeat = 敗北をわが意識の中に送り込む（認める）。be admitted to hospital = 病院という容器に送り込まれる（入院する）。",
+      "gapOneliner": "admit = 「入場させる」も「認める」も、内側に向けて送り込む動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "会場のドア（ad=〜に向かって）に人を「送り込む(mit)」のがadmit。コンサートへの入場も、自分の間違いを意識の中に送り込むこと（認める）も同じ動き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "admitの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["〜に向けて送る→入場させる・認める", "〜から送り出す→追い出す", "〜を通して送る→許可する", "〜の下に送る→提出する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ad + mit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜に向けて + 送る = 入れる・認める", "離れて + 送る = 解散させる", "一緒に + 送る = 委ねる", "越えて + 送る = 伝送する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He finally ______ that he had made an error.",
+          "hint": "「〜に向けて送る」→「(事実を)認める」",
+          "explanationFocus": "gap",
+          "choices": ["admitted", "submitted", "permitted", "committed"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "admitと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["a mistake（間違いを認める）", "a product（商品を送る）", "a schedule（スケジュールを入れる）", "a meeting（会議を許可する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The patient was admitted to the hospital last night.\" — admittedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["入院させられた", "退院させられた", "検査された", "治療された"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He admitted that he had made a mistake."]
+    },
+    {
+      "word": "commit",
+      "phonetic": "/kəˈmɪt/",
+      "toeicRank": "TSL 400位台・TOEIC頻出",
+      "parts": [
+        {"part": "com", "meaning": "一緒に・完全に", "type": "prefix"},
+        {"part": "mit", "meaning": "送る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "com（完全に）+ mittere（送る）= 完全に送り渡す → 委ねる・約束する・犯す",
+        "fact": "ラテン語 committere「一緒に送る、任せる、(戦闘を)始める」から。14世紀後半に「(人・事を)誰かに委ねる・任せる」で英語に入り、15世紀に「(行為を)行う・犯す」、20世紀ビジネス語として「約束する・責任を持つ」の意味が定着。commit to a project がTOEICの典型。",
+        "source": "EtymOnline: commit",
+        "cognates": ["commitment", "committee", "commission"]
+      },
+      "cognitive": {
+        "oneliner": "自分の全力・意思を「完全に相手や目的に送り渡す」→委ねる・約束する",
+        "fact": "FORCEスキーマ。com-（完全に・一体となって）+ mittere（送る）で、自分のリソースや存在を対象に向けて完全に送り込む動き。committee（委員会）も「問題を委ねられた人たち」が語源。commit suicide は「自分を死に向けて完全に送り出す」。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "commit to（〜に取り組む・約束する）、commit a crime（罪を犯す）、be committed（熱心である）と訳語が散らばって見えるが、全て「完全に送り渡す」。commit a crime = 悪行に自分を完全に送り込む。",
+      "gapOneliner": "commit = 「約束する」も「罪を犯す」も、全力・全存在を完全に送り渡す動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "自分の全エネルギー(com=完全に)をプロジェクトに「送り込む(mit)」のがcommit。約束も犯罪も、後には引けない形で自分を送り渡してしまうこと。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "commitの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["完全に送り渡す→委ねる・約束する", "通して送る→許可する", "下に送る→提出する", "外に送る→放出する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "com + mit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["完全に + 送る = 委ねる・約束する", "外に + 送る = 放出する", "下に + 送る = 提出する", "離れて + 送る = 解散させる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The team is fully ______ to meeting the deadline.",
+          "hint": "「完全に送り渡す」→「取り組む・約束する」（受動態）",
+          "explanationFocus": "gap",
+          "choices": ["committed", "submitted", "permitted", "admitted"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "commitと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["to a goal（目標に約束する）", "a weather（天気を犯す）", "the money（お金を通す）", "a building（建物を委ねる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We are committed to providing the best service.\" — committedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["取り組んでいる・約束している", "許可されている", "提出されている", "入院している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["We are committed to providing the best service."]
+    },
+    {
+      "word": "transmit",
+      "phonetic": "/trænsˈmɪt/",
+      "toeicRank": "TSL 600位台・TOEIC中頻度",
+      "parts": [
+        {"part": "trans", "meaning": "越えて・向こうへ", "type": "prefix"},
+        {"part": "mit", "meaning": "送る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "trans（越えて）+ mittere（送る）= 向こう側に越えて送る → 伝送する・伝染させる",
+        "fact": "ラテン語 transmittere「向こう側に送る、渡す」から。15世紀に「転送する、引き渡す」で英語に入り、17世紀に「(病気を)感染させる」、19世紀後半に電信・無線技術の発展とともに「(信号・データを)送信する」の意味が主流に。",
+        "source": "EtymOnline: transmit",
+        "cognates": ["transmission", "transmitter", "transmissible"]
+      },
+      "cognitive": {
+        "oneliner": "ある空間・媒介を「越えて向こう側に送り届ける」→伝送する・感染させる",
+        "fact": "PATHスキーマ（SOURCE → MEDIUM → GOAL）。trans-（越えて）mittere（送る）で、空間的・時間的障壁を越えた送信行為。電波が空気を越えて届く、ウイルスが人から人へ越えて広がる、財産が世代を越えて引き継がれる、全て同じ経路イメージ。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「送信する」と覚えると transmit disease（病気を伝染させる）や transmit values（価値観を伝える）で詰まる。「何らかの媒介を越えて送り届ける」がわかれば電波も病原菌も文化も全て読める。",
+      "gapOneliner": "transmit = 媒介を越えて届ける。電波・病気・価値観、全て「向こう側に送る」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "トランスミッション(trans=越えて)でエンジンの力を車輪に「送る(mit)」イメージ。障壁や空間を越えて力・情報・病気を届けることがtransmit。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "transmitの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["越えて送る→伝送する", "下に送る→提出する", "通して送る→許可する", "完全に送る→委ねる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "trans + mit の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["越えて + 送る = 伝送する", "一緒に + 送る = 委ねる", "離れて + 送る = 解散させる", "〜に向けて + 送る = 入場させる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The satellite can ______ data across the globe.",
+          "hint": "「越えて送る」→「伝送する」",
+          "explanationFocus": "gap",
+          "choices": ["transmit", "submit", "permit", "commit"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "transmitと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["a signal（信号を伝送する）", "a meeting（会議を越える）", "a report（報告書を提出する）", "a goal（目標を超える）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The disease can be transmitted through direct contact.\" — transmittedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["感染・伝染する", "治療される", "予防される", "診断される"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The satellite transmits data across the globe."]
+    },
+    {
+      "word": "dismiss",
+      "phonetic": "/dɪsˈmɪs/",
+      "toeicRank": "TSL 600位台・TOEIC中頻度",
+      "parts": [
+        {"part": "dis", "meaning": "離れて・ばらばらに", "type": "prefix"},
+        {"part": "miss", "meaning": "送る", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "dis（離れて）+ mittere（送る）= ばらばらに送り出す → 解散させる・却下する",
+        "fact": "ラテン語 dimittere の中世ラテン語形 dismissus から。dimittere は「ばらばらに送り出す」で、15世紀に「(集会を)解散させる、(人を)去らせる」として英語に入った。dismiss an employee（解雇する）、dismiss a case（訴訟を棄却する）、dismiss an idea（考えを却下する）がTOEICに出る。",
+        "source": "EtymOnline: dismiss",
+        "cognates": ["dismissal", "dismissive"]
+      },
+      "cognitive": {
+        "oneliner": "一か所に集まっていたものを「ばらばらに散らして送り出す」→解散・却下",
+        "fact": "CONTAINER + FORCE スキーマ。容器（会議室・法廷・意識）の中にいた人や考えを、dis-（ばらばらに離れて）mittere（送り出す）することで存在が消える動き。「解雇」も「訴訟棄却」も「意見を一蹴する」も、内側から外に散らす同じイメージ。",
+        "source": "Johnson (1987) CONTAINERスキーマ + FORCEスキーマ"
+      },
+      "gap": "dismiss an employee（解雇する）とdismiss an idea（アイデアを却下する）を別物に感じやすいが、どちらも「ばらばらに送り出す=存在しないものとして扱う」。dismissive（軽蔑的な）も「相手を簡単に送り出してしまう態度」。",
+      "gapOneliner": "dismiss = 「解雇」も「却下」も「一蹴」も、ばらばらに送り出して存在を消す動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "会議終了「解散（dis=ばらばらに）して送り出す(miss)」のがdismiss。人を解雇するのも、裁判官が訴訟を棄却するのも、全員を「ばらばらに追い払う」同じ動き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "dismissの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["ばらばらに送り出す→解散させる・却下する", "越えて送る→伝送する", "完全に送る→約束する", "下に送る→提出する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "dis + miss の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["ばらばらに + 送る = 解散させる・却下する", "通して + 送る = 許可する", "〜に向けて + 送る = 入場させる", "一緒に + 送る = 委ねる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The judge decided to ______ the case due to lack of evidence.",
+          "hint": "「ばらばらに送り出す」→「(訴訟を)棄却する」",
+          "explanationFocus": "gap",
+          "choices": ["dismiss", "transmit", "submit", "emit"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "dismissと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["an employee（従業員を解雇する）", "a signal（信号を送る）", "a report（報告書を提出する）", "a plan（計画を許可する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She dismissed his concerns as unnecessary.\" — dismissedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["一蹴した・取り合わなかった", "認めた", "伝達した", "承認した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The manager dismissed the employee last week."]
+    },
+    {
+      "word": "mission",
+      "phonetic": "/ˈmɪʃən/",
+      "toeicRank": "TSL 500位台・TOEIC頻出",
+      "parts": [
+        {"part": "miss", "meaning": "送る", "type": "root"},
+        {"part": "ion", "meaning": "行為・状態を表す名詞", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "mittere（送る）の過去分詞 missus + ion = 送られること → 使命・任務",
+        "fact": "ラテン語 missio「送ること、解放すること」から。16世紀に宗教的な「(神に)遣わされること・布教」の意味で英語に入り、17世紀に「特定の目的を持った派遣任務」へ拡張。mission-critical（任務に不可欠な）、mission statement（使命表明）がビジネス英語・TOEICの典型表現。",
+        "source": "EtymOnline: mission",
+        "cognates": ["missionary", "mission statement", "omission", "commission"]
+      },
+      "cognitive": {
+        "oneliner": "特定の目的のために「送り出されること」→使命・任務",
+        "fact": "AGENCYスキーマ。送り手（神・組織・国家）が受け手を特定の目的のために外に送り出す（missio）行為。「送られた者」は使命を帯びた存在となる。宇宙ミッション（NASA）、軍事ミッション、企業のmission statementまで、全て「使命を帯びて派遣される」構造。",
+        "source": "Johnson (1987) AGENCYスキーマ"
+      },
+      "gap": "「使命」と「任務」を別語義として覚えがちだが、どちらも「送られること」の帰結。mission statement = 会社がどこに向かって「送り出されているか」を宣言する文書。on a mission = 使命を帯びて動いている状態。",
+      "gapOneliner": "mission = 送り出されること。使命も任務も、誰かに送り出された目的の表れ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "スパイ映画「ミッション：インポッシブル」はまさに「不可能な任務に送り出された(mission)」話。会社のmission statementも「自分たちはどこへ送り出されているか（何のためにあるか）」の宣言。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "missionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["送られること→使命・任務", "集められること→集団", "作られること→製品", "学ばれること→教訓"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "miss + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["送る + 名詞化 = 送られること・使命", "書く + 名詞化 = 書かれたもの", "集める + 名詞化 = 集合体", "求める + 名詞化 = 要求"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Our company's ______ is to make education accessible to everyone.",
+          "hint": "「送られること」→「使命」",
+          "explanationFocus": "gap",
+          "choices": ["mission", "emission", "commission", "submission"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "missionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["statement（使命表明）", "permit（使命許可）", "transmit（使命を送る）", "reduction（使命削減）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The team was sent on a mission to assess the damage.\" — missionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["任務・派遣", "許可証", "申告書", "報告書"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Our company's mission is to provide quality service."]
+    },
+    {
+      "word": "emission",
+      "phonetic": "/ɪˈmɪʃən/",
+      "toeicRank": "TSL 600位台・TOEIC中頻度（環境トピック）",
+      "parts": [
+        {"part": "e", "meaning": "外へ（ex-の短縮）", "type": "prefix"},
+        {"part": "miss", "meaning": "送る", "type": "root"},
+        {"part": "ion", "meaning": "行為・状態を表す名詞", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "e（外へ）+ mittere（送る）+ ion（名詞）= 外に送り出すこと → 排出・放出",
+        "fact": "ラテン語 emissio「送り出すこと」から。emittere（外に送り出す）の名詞形で、17世紀に「(光・熱・音の)放射」として科学用語として英語に入り、20世紀後半の環境問題の文脈で CO₂ emissions（二酸化炭素排出量）として一般語に。TOEICでは環境・エネルギートピックで頻出。",
+        "source": "EtymOnline: emission",
+        "cognates": ["emit", "emissive", "emitter", "carbon emissions"]
+      },
+      "cognitive": {
+        "oneliner": "内部から「外に向けて送り出される」もの→排出・放出",
+        "fact": "SOURCE-PATH-GOALスキーマ。発生源（工場・エンジン・生物）の内部から、外側(e- = ex-)に向けてmittere（送り出される）プロセス。光の放射も温室効果ガスの排出も、同じ「内から外へ送り出す」経路スキーマ。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "emissionは環境文脈（CO₂排出）以外に、emission of light（光の放射）、radio emission（電波放射）でも使う。どれも「内部から外に送り出されるもの」。emit（動詞）との関係も語源で一発理解。emit CO₂ = CO₂を外に送り出す。",
+      "gapOneliner": "emission = 外に送り出されたもの。CO₂も光も電波も、内から外への送り出し",
+      "hook": {
+        "label": "記憶フック",
+        "text": "排気管（e=外へ）からガスが「送り出される(miss)こと(ion)」がemission。工場の煙突から外に「送り出されるもの」が排出量。emit（動詞）とセットで覚えると完璧。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "emissionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に送り出すこと→排出・放出", "内に送り込むこと→吸収", "越えて送ること→伝送", "下に送ること→提出"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "e + miss + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外へ + 送る + 名詞 = 排出・放出", "一緒に + 送る + 名詞 = 委任", "下に + 送る + 名詞 = 提出", "越えて + 送る + 名詞 = 伝送"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company pledged to cut carbon ______ by 50% by 2030.",
+          "hint": "「外に送り出すこと」→「(CO₂の)排出量」",
+          "explanationFocus": "gap",
+          "choices": ["emissions", "missions", "admissions", "transmissions"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "emissionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": ["carbon（炭素排出量）", "permit（排出許可証以外の文脈で）", "submit（排出を提出する）", "admit（排出を認める）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The factory has reduced its greenhouse gas emissions significantly.\" — emissionsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["排出量", "吸収量", "消費量", "生産量"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company aims to reduce carbon emissions by 2030."]
+    }
+  ]
+}
