@@ -913,6 +913,833 @@
       "examples": [
         "The company's revenue grew by 15% this quarter."
       ]
+    },
+    {
+      "word": "conventional",
+      "phonetic": "kənˈvenʃənəl",
+      "toeicRank": "中級",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "vent",
+          "meaning": "来る、集まる",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        },
+        {
+          "part": "-al",
+          "meaning": "〜的な、〜の",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "一緒に集まる慣習に基づいた",
+        "fact": "ラテン語conventioから、人々が一緒に集まることを意味した。中世には慣例や慣習を指すようになった",
+        "source": "EtymOnline: Latin conventio from convenire",
+        "cognates": [
+          "convene",
+          "convention",
+          "covenant"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "社会全体で共有される慣行や規範",
+        "fact": "conventionalは個人的な工夫よりも、社会的に受け入れられた標準的なやり方を示す。因習的で革新的でない側面を強調する",
+        "source": "社会心理学的な言葉の使われ方"
+      },
+      "gap": "因習的/慣例的",
+      "gapOneliner": "文化的規範に従う、個性的でない",
+      "hook": {
+        "label": "記憶フック",
+        "text": "CON-VENT-IONAL = みんなで一緒に来る場所（convention）の習慣的なやり方"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "conventionalの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "因習的な、慣例的な",
+            "一時的な、仮の",
+            "便利な、都合よい",
+            "未来的な、革新的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "conventionalの語源として正しいものはどれ？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "人々が一緒に来て集まることから、共通の慣行を意味するようになった",
+            "便利さから生まれた言葉",
+            "来ることの拒否を意味していた",
+            "個人の発明を示す言葉"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She prefers ______ clothes rather than experimental fashion.",
+          "hint": "因習的な",
+          "explanationFocus": "gap",
+          "choices": [
+            "conventional",
+            "convenient",
+            "eventual",
+            "preventive"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "conventionalと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "conventional wisdom（一般的な認識）",
+            "conventional emergency",
+            "conventional invention",
+            "conventional venture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The architect rejected conventional design to create something unique.\" — conventionalの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "通常受け入れられている標準的な",
+            "非常に便利な",
+            "最終的な、決定的な",
+            "防止可能な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "conventional wisdom（一般的な認識）",
+        "conventional medicine（西洋医学）",
+        "conventional weapons（通常兵器）"
+      ]
+    },
+    {
+      "word": "convenience",
+      "phonetic": "kənˈviːnjəns",
+      "toeicRank": "中級",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "-ience",
+          "meaning": "名詞化（状態・性質）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "一緒に来ることができることから、都合がつくことを意味する",
+        "fact": "ラテン語convenientia（都合、相応しさ）から。物事がうまく一致し、都合がつく状態を表す",
+        "source": "EtymOnline: Latin convenientia from convenire",
+        "cognates": [
+          "convenient",
+          "convene",
+          "convention"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "努力や不便さなくうまく作動する状態",
+        "fact": "時間や労力の節約、容易さと関連。個人的な都合や利便性を強調する",
+        "source": "日常語彙の実際の使われ方"
+      },
+      "gap": "便利さ、都合のよさ",
+      "gapOneliner": "事がうまく運ぶ、手間がかからない",
+      "hook": {
+        "label": "記憶フック",
+        "text": "CON-VEN-IENCE = みんなで一緒に来ても都合がつく便利さ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "convenienceの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "便利さ、都合のよさ",
+            "慣例的なやり方",
+            "将来の可能性",
+            "妨げ、障害"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "convenienceはなぜ「便利さ」を意味するのか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に来ることがうまくいくことから、都合がつく状態を表す",
+            "発明から生まれた言葉",
+            "防止することの利点から",
+            "最終的な結果から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "For your ______, we can schedule the meeting at any time.",
+          "hint": "都合のよさ",
+          "explanationFocus": "gap",
+          "choices": [
+            "convenience",
+            "conventional",
+            "intervention",
+            "prevention"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "convenienceと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "convenience store（コンビニ）",
+            "convenience limitation",
+            "convenience prevention",
+            "convenience venture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new app offers convenience by saving time and effort.\" — convenienceの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "時間や労力を節約できる快適さ",
+            "慣習的な習慣",
+            "最終的な結果",
+            "危険を防ぐこと"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "at your convenience（ご都合のよいときに）",
+        "convenience store（便利店）",
+        "for convenience（便宜上、利便性のため）"
+      ]
+    },
+    {
+      "word": "eventually",
+      "phonetic": "ɪˈventʃuəli",
+      "toeicRank": "中級",
+      "parts": [
+        {
+          "part": "e-",
+          "meaning": "～の外へ",
+          "type": "prefix"
+        },
+        {
+          "part": "vent",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "-ual",
+          "meaning": "～に関する",
+          "type": "suffix"
+        },
+        {
+          "part": "-ly",
+          "meaning": "副詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "あらゆる出来事を通じて、最終的に到達する",
+        "fact": "ラテン語eventus（結果、結末）から。あらゆる段階を経た後、最終的な結果に至ることを表す",
+        "source": "EtymOnline: Latin eventus from evenire",
+        "cognates": [
+          "event",
+          "eventual",
+          "eventuality"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "時間をかけて、遅かれ早かれ起こることが確実である",
+        "fact": "複数のプロセスや段階を経た後、必然的に到達する状態を強調する。不確実性から確実性へ向かう時間軸を表す",
+        "source": "論理的時系列の表現"
+      },
+      "gap": "遅かれ早かれ、結局のところ",
+      "gapOneliner": "時間が経てば必ず起こる、最終的には",
+      "hook": {
+        "label": "記憶フック",
+        "text": "E-VENT-UALLY = 様々なeventを経て、最後に到達する"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "eventuallyの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "結局のところ、遅かれ早かれ",
+            "一度に、すぐに",
+            "都合よく、幸運にも",
+            "防止することで"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "eventuallyはなぜ「最終的に」を意味するのか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "様々なevent（出来事）を経て、最終的な結果に至ることから",
+            "便利さから生まれた言葉",
+            "来ることを拒否する意味から",
+            "慣例から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He struggled at first, but ______ became a successful manager.",
+          "hint": "結局のところ",
+          "explanationFocus": "gap",
+          "choices": [
+            "eventually",
+            "convenient",
+            "conventional",
+            "fortunately"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "eventuallyと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "eventually succeeded（最終的に成功した）",
+            "eventually prevented",
+            "eventually conventional",
+            "eventually ventured"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"After many failed attempts, they eventually achieved their goal.\" — eventuallyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "長い時間と努力の後、最終的に",
+            "都合よく、すぐに",
+            "一度に、同時に",
+            "妨害されながらも"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "eventually succeeded（最終的に成功した）",
+        "will eventually arrive（結局到着するだろう）",
+        "eventually realized（結局気づいた）"
+      ]
+    },
+    {
+      "word": "intervention",
+      "phonetic": "ˌɪntərˈvenʃən",
+      "toeicRank": "上級",
+      "parts": [
+        {
+          "part": "inter-",
+          "meaning": "～の間に",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "二者の間に来て割り込むこと",
+        "fact": "ラテン語interventio（間に入ること）から。他者や状況の間に入り込む行為を表す",
+        "source": "EtymOnline: Latin interventio from intervenire",
+        "cognates": [
+          "intervene",
+          "intervening",
+          "interventionist"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "進行中の状況に意図的に関与し、影響を与える行動",
+        "fact": "受動的な観察ではなく、能動的に割り込み、進行過程を変える意思的な行為を強調する。医療、外交、教育など多くの文脈で使用される",
+        "source": "専門用語としての用法"
+      },
+      "gap": "介入、仲裁",
+      "gapOneliner": "進行中の事柄に割り込んで関与すること",
+      "hook": {
+        "label": "記憶フック",
+        "text": "INTER-VENT-ION = 二者の間に来て、進行中の事態に割り込む"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "interventionの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "介入、仲裁",
+            "来ることの拒否",
+            "予防、防止",
+            "発明、創造"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "interventionはなぜ「介入」を意味するのか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "二者の間に来て割り込む行為から",
+            "予防することから",
+            "新しい発明から",
+            "慣例から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The teacher's ______ helped resolve the conflict between students.",
+          "hint": "介入、仲裁",
+          "explanationFocus": "gap",
+          "choices": [
+            "intervention",
+            "invention",
+            "prevention",
+            "venture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "interventionと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "military intervention（軍事介入）",
+            "intervention prevention",
+            "intervention convention",
+            "intervention venture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Without government intervention, the economic crisis would have been worse.\" — interventionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "状況に割り込んで関与し、影響を与える行動",
+            "予防策",
+            "新しい発明",
+            "慣例的な習慣"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "military intervention（軍事介入）",
+        "medical intervention（医学的介入）",
+        "government intervention（政府介入）",
+        "divine intervention（神の御業）"
+      ]
+    },
+    {
+      "word": "invention",
+      "phonetic": "ɪnˈvenʃən",
+      "toeicRank": "中級",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "～の中へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "心の中に来るアイデアから、新たに創造されるもの",
+        "fact": "ラテン語inventio（発見、発明）から。inventus（見つけられた）という過去分詞形に由来。心や頭の中で思いついたものを具体化すること",
+        "source": "EtymOnline: Latin inventio from invenire",
+        "cognates": [
+          "invent",
+          "inventor",
+          "inventive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "創意工夫から生まれた、これまでになかった新しいもの",
+        "fact": "発見と発明は密接に関連しており、既存のものを新しい組み合わせで創造する創造的行為を表す。社会に貢献し、技術を進歩させるもの",
+        "source": "創造性と技術進歩の文脈"
+      },
+      "gap": "発明、創作",
+      "gapOneliner": "新しく創造されたもの、工夫したもの",
+      "hook": {
+        "label": "記憶フック",
+        "text": "IN-VENT-ION = 心の中に来たアイデアから創造される新しいもの"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "inventionの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "発明、創作",
+            "介入、仲裁",
+            "予防、防止",
+            "便利さ、都合"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "inventionはなぜ「発明」を意味するのか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "心の中に来たアイデアから、新しく創造されるものを指す",
+            "予防することから",
+            "間に来ることから",
+            "慣例から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the telephone revolutionized communication worldwide.",
+          "hint": "発明",
+          "explanationFocus": "gap",
+          "choices": [
+            "invention",
+            "intervention",
+            "prevention",
+            "convenience"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "inventionと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "great invention（偉大な発明）",
+            "invention prevention",
+            "invention intervention",
+            "invention venture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His invention of the electric light changed modern society.\" — inventionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "新しく創造された、これまでになかった技術や工夫",
+            "既存のものの改良",
+            "予防策",
+            "慣例的な習慣"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "a remarkable invention（素晴らしい発明）",
+        "the invention of electricity（電気の発明）",
+        "necessity is the mother of invention（必要は発明の母である）"
+      ]
+    },
+    {
+      "word": "prevention",
+      "phonetic": "prɪˈvenʃən",
+      "toeicRank": "中級",
+      "parts": [
+        {
+          "part": "pre-",
+          "meaning": "～の前に",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "事柄が来る前に、それを妨げること",
+        "fact": "ラテン語praeventio（先回りする）から。問題や危機が発生する前に、それを回避または停止させる行為を表す",
+        "source": "EtymOnline: Latin praeventio from praevenire",
+        "cognates": [
+          "prevent",
+          "preventive",
+          "preventable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "悪い結果が起きる前に、積極的に対策を講じること",
+        "fact": "治療後の対応よりも、事前の予防措置を重視する。医学、安全、環境など多くの分野で戦略的重要性を強調する",
+        "source": "公衆衛生・安全管理の文脈"
+      },
+      "gap": "予防、防止",
+      "gapOneliner": "悪いことが起こるのを事前に防ぐこと",
+      "hook": {
+        "label": "記憶フック",
+        "text": "PRE-VENT-ION = 来る前に妨げる、つまり予防"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "preventionの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "予防、防止",
+            "発明、創作",
+            "介入、仲裁",
+            "便利さ、都合"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "preventionはなぜ「予防」を意味するのか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "悪いことが来る前に、それを妨げることから",
+            "発明することから",
+            "間に来ることから",
+            "慣例から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Disease ______ is better than cure.",
+          "hint": "予防",
+          "explanationFocus": "gap",
+          "choices": [
+            "prevention",
+            "invention",
+            "intervention",
+            "convenience"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "preventionと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "disease prevention（病気の予防）",
+            "prevention intervention",
+            "prevention invention",
+            "prevention venture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Regular exercise is important for the prevention of heart disease.\" — preventionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "悪い結果が起きるのを事前に防ぐこと",
+            "病気の治療",
+            "新しい発明",
+            "慣例的な習慣"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "disease prevention（病気の予防）",
+        "crime prevention（犯罪防止）",
+        "prevention is better than cure（予防は治療より優る）",
+        "loss prevention（損失防止）"
+      ]
+    },
+    {
+      "word": "venture",
+      "phonetic": "ˈventʃər",
+      "toeicRank": "中級",
+      "parts": [
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "-ture",
+          "meaning": "名詞化（～すること、状態）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "危険に立ち向かって前に進む、運命に身を任せる",
+        "fact": "ラテン語ventura（未来の出来事）から。古フランス語aventure経由で英語に入った。不確実な結果を覚悟で前に進む勇敢な試みを表す",
+        "source": "EtymOnline: Latin ventura, Old French aventure",
+        "cognates": [
+          "adventure",
+          "adventurous",
+          "event"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "失敗の危険を承知で、新しい事業や挑戦に踏み出すこと",
+        "fact": "不確実性と機会が内在する。ビジネス、投資、探検など冒険的な取り組みを表す。成功と失敗の両方の可能性を含む",
+        "source": "起業家精神と投資の文脈"
+      },
+      "gap": "冒険、企業",
+      "gapOneliner": "成功するかどうか不確かな新しい試み",
+      "hook": {
+        "label": "記憶フック",
+        "text": "VENT-URE = 危険な未来に向かって来る、つまり冒険的事業"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "ventureの意味として最も適切なものを選んでください",
+          "explanationFocus": "etymology",
+          "choices": [
+            "冒険、企業",
+            "予防、防止",
+            "発明、創作",
+            "便利さ、都合"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ventureはなぜ「冒険」を意味するのか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "不確実な未来に向かって勇敢に進むことから",
+            "予防することから",
+            "発明することから",
+            "慣例から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Starting a new business is a risky ______ but could be rewarding.",
+          "hint": "冒険、企業",
+          "explanationFocus": "gap",
+          "choices": [
+            "venture",
+            "intervention",
+            "prevention",
+            "convenience"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "ventureと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "joint venture（合弁事業）",
+            "venture prevention",
+            "venture conventional",
+            "venture intervention"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Entrepreneurs venture into new markets despite the risks.\" — ventureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "失敗の可能性を承知で、新しい事業に勇敢に踏み出す",
+            "予防策を講じる",
+            "既存の方法を続ける",
+            "発明する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "joint venture（合弁事業）",
+        "venture capital（ベンチャーキャピタル）",
+        "business venture（事業）",
+        "adventure and venture（冒険）"
+      ]
     }
   ]
 }

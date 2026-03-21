@@ -1130,6 +1130,944 @@
       "examples": [
         "Starting a business requires sacrifice of time and comfort."
       ]
+    },
+    {
+      "word": "beneficial",
+      "phonetic": "ˌbenəˈfɪʃəl",
+      "toeicRank": "高頻出",
+      "parts": [
+        {
+          "part": "bene-",
+          "meaning": "良い・善の",
+          "type": "prefix"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ial",
+          "meaning": "〜に関する・〜的な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「良いことをもたらす」という意味で、ラテン語のbeneficiumに由来",
+        "fact": "beneficium（ラテン）= bene（良い）+ facere（作る・する）。古くはローマ帝国で与えられる恩恵を意味した",
+        "source": "EtymOnline: beneficium (Latin)",
+        "cognates": [
+          "benefit",
+          "benefactor",
+          "benevolent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「良い結果を作る」→「有益な・ためになる」という論理的な意味拡張",
+        "fact": "facereの「作る」という具体的な動作から、抽象的な「有益性」へと発展。良いものを生み出すことが有益性の本質",
+        "source": "語義発展の論理"
+      },
+      "gap": "beneficialは「有益な」だが、benefitは「恩恵・利益」と異なる品詞。接尾辞-ialで形容詞化される点がポイント",
+      "gapOneliner": "benefit（名詞）→ beneficial（形容詞）の品詞転換メカニズム",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「ベネフィット（benefit）がある」→「ベネフィシャル（beneficial）=有益な」。接尾辞-ialで形容詞化"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "beneficialの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "有益な・ためになる",
+            "損害をもたらす",
+            "詐欺的な",
+            "危険な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "beneficialのbene-とfic-から推測される意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "良いことを作る・もたらす",
+            "悪いことを否定する",
+            "複数のことを分ける",
+            "信念を持つ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Regular exercise has ______ effects on your health.",
+          "hint": "「有益な」という形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "beneficial",
+            "benefit",
+            "benefiting",
+            "benefited"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "beneficialと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "effect（効果）",
+            "harm（害）",
+            "mistake（間違い）",
+            "loss（損失）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The beneficial bacteria in yogurt help with digestion.\" — beneficialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "有益な・健康に良い",
+            "有害な",
+            "珍しい",
+            "高価な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "beneficial effects（有益な効果）",
+        "beneficial for health（健康に良い）"
+      ]
+    },
+    {
+      "word": "certificate",
+      "phonetic": "sərˈtɪfɪkət",
+      "toeicRank": "高頻出",
+      "parts": [
+        {
+          "part": "certi-",
+          "meaning": "確実に・確認する",
+          "type": "prefix"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ate",
+          "meaning": "〜を作る・〜にする",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「確かなことを作る・証明する」という意味で、ラテン語のcertificareに由来",
+        "fact": "certus（確実な）+ facere（作る・する）。中世ラテン語で「確認する・証明する」を意味した",
+        "source": "EtymOnline: certificare (Medieval Latin)",
+        "cognates": [
+          "certify",
+          "certain",
+          "certificate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「確実であることを作る・証明する」→「証明書・資格証」という具体的な対象物へと発展",
+        "fact": "動詞から名詞へ、また証明という抽象的行為から証明書という具体的な物体への転換",
+        "source": "語義発展の論理"
+      },
+      "gap": "certificateは名詞（証明書）だが、動詞の-ate形と混同しやすい。certificateはすでに名詞化した形",
+      "gapOneliner": "certificateはcertify（動詞）の名詞形で、「証明書」という物質的な対象物を指す",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「サーティファイ（certify）する」→「サーティフィケート（certificate）=証明書」。何かを証明する行為の結果が証明書"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "certificateの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "証明書・資格証",
+            "秘密",
+            "質問",
+            "計画"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "certificateのcerti-とfic-から推測される本来の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "確実なことを証明・作成する",
+            "不確実なものを隠す",
+            "複数の情報を合わせる",
+            "新しい基準を決める"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She received a ______ in nursing after completing the course.",
+          "hint": "「資格証」という意味の名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "certificate",
+            "certify",
+            "certified",
+            "certifying"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "certificateと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "obtain（取得する）",
+            "destroy（破壊する）",
+            "hide（隠す）",
+            "forget（忘れる）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He earned a certificate of completion from the university.\" — certificateの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "修了証・資格証",
+            "罰状",
+            "招待状",
+            "手紙"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "obtain a certificate（証明書を取得する）",
+        "certificate of completion（修了証）"
+      ]
+    },
+    {
+      "word": "deficiency",
+      "phonetic": "dɪˈfɪʃənsi",
+      "toeicRank": "中頻出",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "否定・反対・下降",
+          "type": "prefix"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ency",
+          "meaning": "〜の性質・〜の状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「足りないことを作り出す」→「欠乏・不足」という意味で、ラテン語のdeficiereに由来",
+        "fact": "de（下・否定）+ facere（作る・する）。本来は「不足を生じさせる」という意味の動詞から発展",
+        "source": "EtymOnline: deficere (Latin)",
+        "cognates": [
+          "deficient",
+          "deficit",
+          "deficiency"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「作り出せない・足りなくする」という否定的な「作る」→「欠乏・不足」という抽象的な状態を指す",
+        "fact": "de-の否定的プレフィックスとfacereの「作る」が組み合わさることで、逆説的に「作れない状態」を表現",
+        "source": "プレフィックス・ルート統合の論理"
+      },
+      "gap": "deficiencyは「不足・欠乏」という抽象的な状態を示すが、deficitは「不足額」という具体的な数値を示す違いがある",
+      "gapOneliner": "deficiency（状態）vs. deficit（数値）、またdeficient（形容詞）との品詞の違い",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「デフ（不足）+ ファク（作る）」→「足りない状態を作り出す」＝欠乏。ビタミン欠乏症などで頻出"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "deficiencyの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "欠乏・不足・不備",
+            "過剰",
+            "完璧さ",
+            "強化"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "deficiencyのde-とfic-から推測される意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "足りない状態を作る→欠乏",
+            "異なるものを作る",
+            "強いものを作る",
+            "多くのものを作る"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "A vitamin D ______ can cause weak bones.",
+          "hint": "「欠乏・不足」という意味の名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "deficiency",
+            "deficient",
+            "deficit",
+            "defect"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "deficiencyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cause（引き起こす）",
+            "celebrate（祝う）",
+            "create（作成する）",
+            "confirm（確認する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Iron deficiency anemia affects millions of people worldwide.\" — deficiencyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "欠乏・不足",
+            "過剰",
+            "症状",
+            "治療"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "vitamin deficiency（ビタミン欠乏症）",
+        "iron deficiency（鉄分不足）"
+      ]
+    },
+    {
+      "word": "infection",
+      "phonetic": "ɪnˈfekʃən",
+      "toeicRank": "高頻出",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "中へ・内部に",
+          "type": "prefix"
+        },
+        {
+          "part": "-fect-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "〜の行為・〜の状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「内部に悪いものを作り込む」という意味で、ラテン語のinficereに由来",
+        "fact": "in（中に）+ facere（作る・する）。本来は「毒を塗る・汚染させる」という意味から発展",
+        "source": "EtymOnline: inficere (Latin)",
+        "cognates": [
+          "infect",
+          "infectious",
+          "disinfect"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「病原体を内部に植え付ける」という具体的な動作から、「感染・感染症」という医学的な概念へ発展",
+        "fact": "ローマ時代から毒や汚染を意味していたが、近代医学で病原体による感染を指すようになった",
+        "source": "医学用語の発展"
+      },
+      "gap": "infectionは名詞（感染・感染症）だが、infectは動詞（感染させる）。形容詞はinfectious。品詞による意味の微妙な違い",
+      "gapOneliner": "infect（動詞）→ infection（名詞）→ infectious（形容詞）の品詞変化と意味の関連性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「イン（中に）+ フェク（作る）」→「内部に病原体を作る」＝感染。医療の現場で最頻出の単語"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "infectionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感染・感染症",
+            "治療",
+            "回復",
+            "予防"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "infectionのin-とfect-から推測される本来の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "内部に悪いものを作り込む→感染",
+            "外部から守る",
+            "複数の部分を接続する",
+            "新しい構造を作る"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The doctor diagnosed a bacterial ______ and prescribed antibiotics.",
+          "hint": "「感染症」という医学用語",
+          "explanationFocus": "gap",
+          "choices": [
+            "infection",
+            "infect",
+            "infectious",
+            "infected"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "infectionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "prevent（予防する）",
+            "spread（広がる）",
+            "treat（治療する）",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He developed a serious respiratory infection after exposure to cold weather.\" — infectionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感染症・感染",
+            "症状",
+            "体質",
+            "体温"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "bacterial infection（細菌感染）",
+        "prevent infection（感染を防ぐ）",
+        "respiratory infection（呼吸器感染症）"
+      ]
+    },
+    {
+      "word": "magnificent",
+      "phonetic": "mæɡˈnɪfɪsənt",
+      "toeicRank": "中頻出",
+      "parts": [
+        {
+          "part": "magni-",
+          "meaning": "大きい",
+          "type": "prefix"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ent",
+          "meaning": "〜である・〜する（形容詞語尾）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「大きな印象を作る」→「壮大な・素晴らしい」という意味で、ラテン語のmagnificusに由来",
+        "fact": "magnus（大きい）+ facere（作る・する）。中世フランス語を経由して英語に入った",
+        "source": "EtymOnline: magnificus (Latin)",
+        "cognates": [
+          "magnify",
+          "magnitude",
+          "magnificent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「大きな効果・印象を作り出す」という概念から、「壮大で素晴らしい」という評価的な意味へ拡張",
+        "fact": "規模の大きさが、そのまま心理的な印象の大きさ（素晴らしさ）へと転換される",
+        "source": "感覚的意味論"
+      },
+      "gap": "magnificentは形容詞で「壮大な」だが、magnifyは動詞で「拡大する」、magnitudeは名詞で「大きさ」と品詞が異なる",
+      "gapOneliner": "magnify（動詞）→ magnificent（形容詞）→ magnificence（名詞）の品詞体系と意味の関連性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「マグニ（大きい）+ ファシェント（作る）」→「大きな印象を作る」＝壮大。建築や景色で使われることが多い"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "magnificentの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "壮大な・素晴らしい",
+            "小さな",
+            "平凡な",
+            "つまらない"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "magnificentのmagni-とfic-から推測される意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "大きな印象を作る→壮大・素晴らしい",
+            "小さな変化を作る",
+            "多くの量を数える",
+            "複雑な計画を立てる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ palace is a masterpiece of architecture.",
+          "hint": "「壮大な」という形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "magnificent",
+            "magnify",
+            "magnitude",
+            "magnificence"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "magnificentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "view（景色）",
+            "building（建物）",
+            "performance（パフォーマンス）",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The sunset over the mountains was absolutely magnificent.\" — magnificentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "壮大で素晴らしい",
+            "小さくて地味な",
+            "危険で恐ろしい",
+            "複雑で理解困難な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "magnificent view（壮大な景色）",
+        "magnificent building（雄大な建物）",
+        "magnificence（壮大さ）"
+      ]
+    },
+    {
+      "word": "manufacturer",
+      "phonetic": "ˌmænjəˈfæktʃərər",
+      "toeicRank": "高頻出",
+      "parts": [
+        {
+          "part": "manu-",
+          "meaning": "手",
+          "type": "prefix"
+        },
+        {
+          "part": "-fact-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "〜の行為・〜の結果",
+          "type": "suffix"
+        },
+        {
+          "part": "-er",
+          "meaning": "〜する者・〜する物",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「手で作る者」→「製造業者」という意味で、ラテン語のmanufacturaに由来",
+        "fact": "manus（手）+ facere（作る・する）。産業革命以前は文字通り手工業を意味していた",
+        "source": "EtymOnline: manufactura (Latin)",
+        "cognates": [
+          "manufacture",
+          "manual",
+          "manuscript"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「手で製品を作る」という具体的な行為から、「大規模な製造業を営む者・企業」という抽象的な概念へ発展",
+        "fact": "産業革命により手作業から機械製造へと転換したが、語源の「手」は残された。概念の抽象化の例",
+        "source": "産業史と言語発展の関係"
+      },
+      "gap": "manufacturerは「製造業者」という人格を持つ名詞だが、manufactur（e）は「製造プロセス」という行為、manufacturingは「製造業」という産業",
+      "gapOneliner": "manufacture（動詞・名詞）→ manufacturer（人名詞）→ manufacturing（業界名詞）の品詞体系",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「マヌ（手）+ ファクチャー（作る）」→「手で作る業者」＝メーカー。今では大規模な製造企業を指す"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "manufacturerの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "製造業者・メーカー",
+            "販売者",
+            "消費者",
+            "運送業者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "manufacturerのmanu-とfact-から推測される本来の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "手で製品を作る者→メーカー",
+            "多くのお金を数える者",
+            "複雑な計画を立てる者",
+            "複数の場所から集める者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The car ______ produces thousands of vehicles annually.",
+          "hint": "「製造業者」という意味の名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "manufacturer",
+            "manufacture",
+            "manufacturing",
+            "manufactures"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "manufacturerと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "produce（製造する）",
+            "supply（供給する）",
+            "warranty（保証）",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The smartphone manufacturer released a new model last month.\" — manufacturerの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "製造業者・メーカー",
+            "販売代理店",
+            "修理業者",
+            "設計家"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "car manufacturer（自動車メーカー）",
+        "the manufacturer's warranty（製造業者の保証）"
+      ]
+    },
+    {
+      "word": "proficient",
+      "phonetic": "prəˈfɪʃənt",
+      "toeicRank": "中頻出",
+      "parts": [
+        {
+          "part": "pro-",
+          "meaning": "前へ・進む",
+          "type": "prefix"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ent",
+          "meaning": "〜である・〜する（形容詞語尾）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「進んで成果を作り出す」→「熟練した・上手な」という意味で、ラテン語のproficiensに由来",
+        "fact": "pro（前に・進んで）+ facere（作る・する）。本来は「進歩を遂行する」という意味",
+        "source": "EtymOnline: proficiens (Latin)",
+        "cognates": [
+          "proficiency",
+          "profit",
+          "profess"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「継続的に成果を生み出す」という動的なプロセスから、「その分野で優れている」という静的な能力状態を示す",
+        "fact": "継続的な努力と成果の蓄積が、現在の高い技術レベルを生み出したというロジック",
+        "source": "プロセスから状態への概念転換"
+      },
+      "gap": "proficientは形容詞（上手な・熟練した）だが、proficiencyは名詞（熟練度）。また語源のprofitとは異なる意味",
+      "gapOneliner": "proficiency（名詞）→ proficient（形容詞）の品詞の違い、またprofitとの意味的な距離",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「プロ（前へ）+ ファシェント（作る）」→「進んで成果を作る」＝上手な。スキルや言語能力の習得で使われることが多い"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "proficientの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "熟練した・上手な",
+            "初心者の",
+            "下手な",
+            "怠け者の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "proficientのpro-とfic-から推測される意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "継続的に成果を作る→熟練している",
+            "後ろに進む",
+            "単一の結果を作る",
+            "短時間の変化を作る"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is ______ in three languages: English, Spanish, and Mandarin.",
+          "hint": "「熟練した」という形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "proficient",
+            "proficiency",
+            "proficiently",
+            "profit"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "proficientと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "in（〜において）",
+            "skill（技能）",
+            "language（言語）",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"After years of practice, he became proficient at playing the piano.\" — proficientの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "熟練した・上手な",
+            "興味を失った",
+            "基礎を忘れた",
+            "才能がない"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "proficient in English（英語が上手な）",
+        "high proficiency（高い熟練度）",
+        "become proficient（上達する）"
+      ]
+    },
+    {
+      "word": "artificial",
+      "phonetic": "ɑːrˈtɪfɪʃəl",
+      "toeicRank": "高頻出",
+      "parts": [
+        {
+          "part": "arti-",
+          "meaning": "技術・工芸",
+          "type": "prefix"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る・する",
+          "type": "root"
+        },
+        {
+          "part": "-ial",
+          "meaning": "〜に関する・〜的な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「技術で作られた」→「人工的な・つくり物の」という意味で、ラテン語のartificialssに由来",
+        "fact": "ars（技術・芸術）+ facere（作る・する）。中世ラテン語から発展",
+        "source": "EtymOnline: artificialis (Latin)",
+        "cognates": [
+          "artifact",
+          "artist",
+          "artificial",
+          "artifice"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「人間の技術で意図的に作られたもの」という概念から、「自然ではなく、作られた・偽の」という評価的な意味へ拡張",
+        "fact": "自然対人工という二項対立の概念が、evaluative な「劣った・不自然な」という意味合いを帯びるようになった",
+        "source": "自然と人工の対比論"
+      },
+      "gap": "artificialは形容詞（人工的な）だが、artifact（人工物）、artifice（技巧・人工的な手段）は異なる品詞と用法。また「偽りの」という道徳的な評価が伴うことがある",
+      "gapOneliner": "artificial（形容詞）vs. artifact（名詞）vs. artificer（職人）の品詞と意味の関連性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「アルティ（技術）+ ファシャル（作る）」→「技術で人工的に作られた」。artificial intelligence（AI）など現代用語で頻出"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "artificialの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "人工的な・つくり物の",
+            "自然な",
+            "本物の",
+            "高価な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "artificialのarti-とfic-から推測される意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "技術で作られた→人工的な",
+            "自然に生まれた",
+            "長時間持続する",
+            "複雑で理解困難な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ flowers in the vase look surprisingly realistic.",
+          "hint": "「人工的な」という形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "artificial",
+            "artifact",
+            "artificer",
+            "artifice"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "artificialと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "intelligence（知能）",
+            "light（光）",
+            "sweetener（甘味料）",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Artificial intelligence is revolutionizing many industries.\" — artificialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "人工的な・人間が作った",
+            "自然発生的な",
+            "宇宙由来の",
+            "神秘的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "artificial intelligence（人工知能）",
+        "artificial sweetener（人工甘味料）",
+        "artificial flowers（造花）"
+      ]
     }
   ]
 }
