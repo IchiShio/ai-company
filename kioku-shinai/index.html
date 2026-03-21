@@ -187,6 +187,30 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 .fade-up{animation:fadeUp .3s ease}
 
+/* ── CARD MODE ── */
+.card-counter{font-size:13px;color:var(--text3);text-align:center;padding:20px 0 8px;font-weight:500}
+.card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 24px;margin-bottom:16px;animation:fadeUp .3s ease}
+.card-word-row{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:2px}
+.card-word{font-family:'Inter',sans-serif;font-size:40px;font-weight:900;letter-spacing:-1px}
+.card-phonetic{font-size:14px;color:var(--text3);text-align:center;margin-bottom:16px}
+.card-oneliner{font-size:17px;font-weight:700;text-align:center;line-height:1.5;padding:14px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin:16px 0}
+.card-hook{background:var(--gold-soft);border-radius:var(--radius-sm);padding:14px 16px;margin-bottom:4px}
+.card-hook-label{font-size:12px;font-weight:800;color:var(--gold);margin-bottom:4px}
+.card-hook-text{font-size:14px;line-height:1.6}
+.card-toggle{display:block;width:100%;text-align:center;padding:10px;font-size:14px;font-weight:600;color:var(--text2);background:none;border:none;cursor:pointer;transition:color .15s}
+.card-toggle:hover{color:var(--text1)}
+.card-toggle-arrow{transition:transform .2s;display:inline-block;font-size:12px}
+.card-toggle.open .card-toggle-arrow{transform:rotate(180deg)}
+.card-details .exp-section{margin-bottom:12px}
+.card-root-tag{text-align:center;font-size:13px;color:var(--text3);padding:12px 0 0;border-top:1px solid var(--border);margin-top:12px}
+.card-actions{padding-bottom:40px}
+.btn-card-quiz{display:block;width:100%;text-align:center;padding:14px;font-size:15px;font-weight:600;color:var(--accent);background:none;border:2px solid var(--border);border-radius:var(--radius);cursor:pointer;margin-top:10px;transition:border-color .15s}
+.btn-card-quiz:hover{border-color:var(--accent)}
+.btn-card-all{display:block;width:100%;text-align:center;padding:12px;font-size:14px;font-weight:500;color:var(--text3);background:none;border:none;cursor:pointer;margin-top:4px}
+.btn-card-all:hover{color:var(--text1)}
+.header-mode-link{font-size:13px;color:var(--text2);text-decoration:none;padding:8px 12px;border-radius:8px;transition:background .15s}
+.header-mode-link:hover{background:var(--surface)}
+
 /* ── FOOTER ── */
 .footer{text-align:center;padding:40px 20px;font-size:12px;color:var(--text3);border-top:1px solid var(--border);margin-top:40px}
 .footer a{color:var(--text2);text-decoration:none}
@@ -199,11 +223,31 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 <!-- ═══════ HEADER ═══════ -->
 <div class="header">
   <a href="/" class="header-logo"><span>native</span>-real</a>
+  <a class="header-mode-link" id="headerModeLink" href="#" onclick="showRootSelect();return false">語根一覧</a>
   <button class="header-back" id="backBtn" style="display:none" onclick="goBack()">← 戻る</button>
 </div>
 
+<!-- ═══════ SCREEN: CARD (DEFAULT) ═══════ -->
+<div class="screen active" id="screenCard">
+<div class="container">
+  <div class="card-counter" id="cardCounter"></div>
+  <div id="cardArea">
+    <div style="text-align:center;padding:80px 0;color:var(--text3)">読み込み中...</div>
+  </div>
+  <div class="card-actions">
+    <button class="btn-cta" onclick="nextCard()">次の単語</button>
+    <button class="btn-card-quiz" id="cardQuizBtn" onclick="startRootFromCard()">この語根をクイズで学ぶ</button>
+    <button class="btn-card-all" onclick="showRootSelect()">語根一覧から選ぶ</button>
+  </div>
+  <div class="footer">
+    <a href="/">ListenUp（リスニング）</a> ｜ <a href="/ranking/">サービス比較</a><br>
+    &copy; 2026 native-real.com
+  </div>
+</div>
+</div>
+
 <!-- ═══════ SCREEN: LP ═══════ -->
-<div class="screen active" id="screenLp">
+<div class="screen" id="screenLp">
 <div class="container">
   <div class="lp-hero">
     <h1>記憶しない<br><span class="accent">英単語</span></h1>
@@ -352,14 +396,18 @@ const ROOTS = [
 function showScreen(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  document.getElementById('backBtn').style.display = id==='screenLp'?'none':'block';
+  const isCard = id==='screenCard';
+  const isLP = id==='screenLp';
+  document.getElementById('backBtn').style.display = (isCard||isLP)?'none':'block';
+  document.getElementById('headerModeLink').style.display = isCard?'':'none';
   window.scrollTo(0,0);
 }
 
 function goBack(){
   const active = document.querySelector('.screen.active');
   if(active.id==='screenQuiz'||active.id==='screenComplete') showScreen('screenSelect');
-  else showScreen('screenLp');
+  else if(active.id==='screenSelect') showScreen('screenCard');
+  else showScreen('screenCard');
 }
 
 function showRootSelect(){
@@ -615,8 +663,120 @@ function playAudio(word){
   audioEl.play().catch(()=>{});
 }
 
+/* ══════════════════════════════
+   CARD MODE
+   ══════════════════════════════ */
+let allRootsData = {};
+let cardRootId = null;
+let cardCount = 0;
+let cardSeen = [];
+
+async function showRandomCard(){
+  const available = ROOTS.filter(r=>r.available);
+  let root;
+  do { root = available[Math.floor(Math.random()*available.length)]; }
+  while(available.length>1 && root.id===cardRootId);
+
+  if(!allRootsData[root.id]){
+    try{
+      const res = await fetch(`data/words/${root.file}`);
+      allRootsData[root.id] = await res.json();
+    }catch(e){return;}
+  }
+
+  const data = allRootsData[root.id];
+  const recent = cardSeen.filter(s=>s.r===root.id).map(s=>s.w);
+  const unseen = data.words.map((_,i)=>i).filter(i=>!recent.includes(i));
+  const wordIdx = unseen.length>0
+    ? unseen[Math.floor(Math.random()*unseen.length)]
+    : Math.floor(Math.random()*data.words.length);
+
+  cardRootId = root.id;
+  cardCount++;
+  cardSeen.push({r:root.id, w:wordIdx});
+  if(cardSeen.length>60) cardSeen=cardSeen.slice(-40);
+
+  document.getElementById('cardCounter').textContent=cardCount+'語目';
+  renderCard(data.words[wordIdx], data, root);
+
+  // Preload next root
+  const next = available[Math.floor(Math.random()*available.length)];
+  if(!allRootsData[next.id]) fetch(`data/words/${next.file}`).then(r=>r.json()).then(d=>{allRootsData[next.id]=d;}).catch(()=>{});
+}
+
+function renderCard(word, rootData, rootDef){
+  const area = document.getElementById('cardArea');
+  const partsHtml = word.parts.map((p,i)=>
+    `${i>0?'<span class="etym-plus">+</span>':''}
+    <div class="etym-part ${p.type}">
+      <div class="etym-part-name">${p.part}</div>
+      <div class="etym-part-meaning">${p.meaning}</div>
+    </div>`).join('');
+
+  area.innerHTML=`<div class="card">
+    <div class="card-word-row">
+      <span class="card-word">${word.word}</span>
+      <button class="q-play" onclick="playAudio('${word.word}')">
+        <svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg>
+      </button>
+    </div>
+    <div class="card-phonetic">${word.phonetic}</div>
+
+    <div class="etym-blocks">${partsHtml}</div>
+
+    <div class="card-oneliner">${word.etymology.oneliner}</div>
+
+    <div class="card-hook">
+      <div class="card-hook-label">${word.hook.label}</div>
+      <div class="card-hook-text">${word.hook.text}</div>
+    </div>
+
+    <button class="card-toggle" onclick="toggleCardDetails(this)">
+      もっと詳しく <span class="card-toggle-arrow">▼</span>
+    </button>
+    <div class="card-details" style="display:none">
+      <div class="exp-section">
+        <div class="exp-section-label">語源</div>
+        <div class="exp-section-text">${word.etymology.fact}</div>
+      </div>
+      <div class="exp-section">
+        <div class="exp-section-label">認知言語学</div>
+        <div class="exp-section-text">${word.cognitive.fact}</div>
+      </div>
+      <div class="exp-section">
+        <div class="exp-section-label gold">和訳のズレ</div>
+        <div class="exp-section-text">${word.gap}</div>
+      </div>
+    </div>
+
+    <div class="card-root-tag">
+      語根: <strong>${rootData.root}</strong>（${rootData.rootMeaning}）
+    </div>
+  </div>`;
+
+  document.getElementById('cardQuizBtn').textContent=
+    `語根「${rootData.root}」をクイズで学ぶ（${rootData.words.length}語）`;
+}
+
+function toggleCardDetails(btn){
+  const details = btn.nextElementSibling;
+  const open = details.style.display!=='none';
+  details.style.display = open?'none':'block';
+  btn.classList.toggle('open',!open);
+}
+
+function nextCard(){
+  showRandomCard();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function startRootFromCard(){
+  if(cardRootId) startRoot(cardRootId);
+}
+
 /* ── INIT ── */
 renderLpTree();
+showRandomCard();
 </script>
 </body>
 </html>
