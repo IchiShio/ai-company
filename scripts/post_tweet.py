@@ -1,33 +1,31 @@
 #!/usr/bin/env python3
-"""X API v2 で投稿するスクリプト。cronから呼び出される。"""
+"""X API v2 で投稿するスクリプト。ローカル実行用（.envから認証情報を取得）。"""
 
 import sys
 import os
-import subprocess
 import requests
 from requests_oauthlib import OAuth1
+from pathlib import Path
 
-OP_ITEM = "X API - @ichi_eigo"
-OP_ACCOUNT = "my.1password.com"
+# .env を読み込む（python-dotenvがなくても動くように自前実装）
+def load_env():
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if env_path.exists():
+        for line in env_path.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, _, value = line.partition("=")
+                os.environ.setdefault(key.strip(), value.strip())
 
-
-def op_read(field):
-    """1Passwordからフィールドを取得する。"""
-    result = subprocess.run(
-        ["op", "read", f"op://Private/{OP_ITEM}/{field}", "--account", OP_ACCOUNT],
-        capture_output=True, text=True,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"op read failed for {field}: {result.stderr.strip()}")
-    return result.stdout.strip()
+load_env()
 
 
 def get_auth():
     return OAuth1(
-        op_read("X_API_KEY"),
-        op_read("X_API_SECRET"),
-        op_read("X_ACCESS_TOKEN"),
-        op_read("X_ACCESS_TOKEN_SECRET"),
+        os.environ["X_API_KEY"],
+        os.environ["X_API_SECRET"],
+        os.environ["X_ACCESS_TOKEN"],
+        os.environ["X_ACCESS_TOKEN_SECRET"],
     )
 
 def post_tweet(text):
