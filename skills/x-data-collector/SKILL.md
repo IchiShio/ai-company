@@ -45,12 +45,14 @@ X_ACCESS_TOKEN         # optional
 X_ACCESS_TOKEN_SECRET  # optional
 ```
 
-**取得方法**:
+**取得方法（.env から読み込み）**:
 ```bash
-op read "op://Private/X API - @ichi_eigo/X_BEARER_TOKEN" --account my.1password.com
+# ai-company/.env に保存済み（1Password不要）
+source ~/projects/claude/ai-company/.env
+echo $X_BEARER_TOKEN
 ```
 
-**Bearer Token が取得できない場合** → エラーを報告して終了。1Passwordへのログインを案内。
+**Bearer Token が取得できない場合** → `~/projects/claude/ai-company/.env` の存在と内容を確認。
 
 **Bearer Token のみの場合** → public_metrics のみ取得（十分に有用）。
 
@@ -70,16 +72,17 @@ cd ~/projects/claude/ai-company && python3 skills/x-post-pdca-analyzer/scripts/f
 スクリプトがエラーの場合は、直接 Python で X API v2 を叩く:
 
 ```python
-import requests, os, json, subprocess
+import requests, os, json
+from pathlib import Path
 
-def op_read(field):
-    result = subprocess.run(
-        ["op", "read", f"op://Private/X API - @ichi_eigo/{field}", "--account", "my.1password.com"],
-        capture_output=True, text=True,
-    )
-    return result.stdout.strip()
+# .env から読み込み
+env_path = Path.home() / "projects/claude/ai-company/.env"
+for line in env_path.read_text().splitlines():
+    if line.strip() and not line.startswith("#") and "=" in line:
+        k, _, v = line.partition("=")
+        os.environ.setdefault(k.strip(), v.strip())
 
-BEARER = op_read("X_BEARER_TOKEN")
+BEARER = os.environ["X_BEARER_TOKEN"]
 headers = {"Authorization": f"Bearer {BEARER}"}
 
 # ユーザーID取得
