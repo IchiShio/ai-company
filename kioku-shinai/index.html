@@ -121,9 +121,10 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 /* Question area */
 .q-word{text-align:center;padding:24px 0 8px}
 .q-word-text{font-family:'Inter',sans-serif;font-size:42px;font-weight:900;letter-spacing:-1px;display:inline}
-.q-play{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--accent-soft);border:none;cursor:pointer;margin-left:8px;vertical-align:middle;transition:background .15s}
-.q-play:hover{background:rgba(192,57,43,.15)}
-.q-play svg{width:16px;height:16px;fill:var(--accent)}
+.q-play{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;margin-left:10px;vertical-align:middle;transition:background .15s,transform .1s;box-shadow:0 2px 8px rgba(192,57,43,.3)}
+.q-play:hover{background:var(--accent2);transform:scale(1.08)}
+.q-play:active{transform:scale(.95)}
+.q-play svg{width:20px;height:20px;fill:#fff}
 .q-phonetic{font-size:14px;color:var(--text3);text-align:center;margin-bottom:4px}
 .q-instruction{font-size:17px;font-weight:700;text-align:center;padding:12px 0 16px}
 
