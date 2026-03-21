@@ -449,7 +449,7 @@ x-knowledge/posts/batch-XXX.md
     ↓
 予約投稿（x-schedule-post）
     ↓
-データ収集（x-post-pdca-analyzer）
+データ収集（x-data-collector）
     ↓
 パターン発見・仮説検証（週次レビュー）
     ↓
