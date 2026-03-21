@@ -8,11 +8,11 @@ Claude Codeには「スキル」という仕組みがあります。
 
 ```
 ~/.claude/skills/
-├── native-real-data-collector/
+├── seo-data-collector/
 │   └── SKILL.md    ← SEOデータを自動収集する「社員」
-├── native-real-seo-analyzer/
+├── seo-analyzer/
 │   └── SKILL.md    ← データを分析して改善案を出す「社員」
-├── native-real-seo-checker/
+├── seo-checker/
 │   └── SKILL.md    ← 品質を検査する「社員」
 └── x-writer/
     └── SKILL.md    ← X投稿を書く「社員」
@@ -28,9 +28,9 @@ SKILL.mdは単なるプロンプトのテンプレートではありません。
 
 ```yaml
 ---
-name: native-real-data-collector
+name: seo-data-collector
 description: |
-  native-real.com のSEOデータを3つのソースから自動収集し、
+  自社サイトのSEOデータを3つのソースから自動収集し、
   Google Driveに日付別CSVとして保存する。データ収集のみ。
   分析は別スキルが担当。
 ---
@@ -102,7 +102,7 @@ AI会社の組織は3つの層で構成されます。
         │                     │
 ┌───────▼───────┐     ┌───────▼───────┐
 │   部長（判断者）  │     │   部長（判断者）  │
-│  native-real部門 │     │    X部門        │
+│   SEO部門       │     │    X部門        │
 │  状況判断・指示   │     │  状況判断・指示   │
 └───┬───┬───┬───┘     └───┬───┬───┬───┘
     │   │   │             │   │   │
@@ -134,7 +134,7 @@ AI会社の組織は3つの層で構成されます。
 
 僕の場合、以下の2人の部長がいます。
 
-- **native-real-bucho**: SEO部門の部長。collector、analyzer、executor、checkerを指揮する
+- **seo-bucho**: SEO部門の部長。collector、analyzer、executor、checkerを指揮する
 - **x-bucho**: X部門の部長。writer、checker、scheduler、analyzerを指揮する
 
 部長の仕事は3つです。
@@ -207,7 +207,7 @@ Step 4: 社長（人間）に報告する
    → checker が「❌ FAIL: GA4データ欠損」を報告
    → パイプラインが中断される
 
-3. 部長（native-real-bucho）がエスカレーションを受け取る
+3. 部長（seo-bucho）がエスカレーションを受け取る
    → 「GA4なしでもSearch ConsoleとAhrefsのデータで分析できるか？」を判断
    → 可能と判断 → analyzerに「GA4抜きで分析続行」を指示
 
