@@ -268,7 +268,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
   <p class="note">登録不要 · 無料 · 開くたびに違う単語</p>
 
   <div class="lp-insight">
-    <div class="lp-insight-big">語根を<em>1つ</em>知るだけで、<br>20語が読める。</div>
+    <div class="lp-insight-big">語根を<em>1つ</em>知るだけで、<br>8語が読める。</div>
     <p class="lp-insight-body">暗記じゃない。分解して、理解する。<br>理解したものは、忘れない。</p>
   </div>
 
@@ -283,7 +283,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 
   <div class="lp-stats">
     <div class="lp-stat"><div class="lp-stat-num">30</div><div class="lp-stat-label">語根</div></div>
-    <div class="lp-stat"><div class="lp-stat-num">465+</div><div class="lp-stat-label">収録語</div></div>
+    <div class="lp-stat"><div class="lp-stat-num">220+</div><div class="lp-stat-label">収録語</div></div>
     <div class="lp-stat"><div class="lp-stat-num">5</div><div class="lp-stat-label">出題形式</div></div>
   </div>
   <p class="lp-stat-note">語根・単語は毎週追加中</p>
@@ -319,7 +319,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 <div class="screen" id="screenSelect">
 <div class="wrap">
   <div class="roots-title">30の語根</div>
-  <p class="roots-sub">1つ選ぶだけで、6〜20語をクイズで学べます</p>
+  <p class="roots-sub">1つ選ぶだけで、6〜10語をクイズで学べます</p>
   <div class="roots-grid" id="rootGrid"></div>
   <div class="footer">
     <a href="/">ListenUp</a> · <a href="/ranking/">サービス比較</a><br>
@@ -392,36 +392,36 @@ function renderLpTree(){
 
 /* ── ROOT DEFINITIONS ── */
 const ROOTS = [
-  {id:'duct',label:'duct/duc',meaning:'導く',count:20,file:'duct.json',available:true},
-  {id:'spec',label:'spec/spect',meaning:'見る',count:17,file:'spec.json',available:true},
-  {id:'port',label:'port',meaning:'運ぶ',count:16,file:'port.json',available:true},
-  {id:'ven',label:'ven/vent',meaning:'来る',count:15,file:'ven.json',available:true},
-  {id:'mit',label:'mit/miss',meaning:'送る',count:17,file:'mit.json',available:true},
-  {id:'ten',label:'ten/tain',meaning:'保つ',count:19,file:'ten.json',available:true},
-  {id:'fact',label:'fact/fect/fic',meaning:'作る',count:18,file:'fact.json',available:true},
-  {id:'sta',label:'sta/stat/sist',meaning:'立つ',count:19,file:'sta.json',available:true},
-  {id:'ced',label:'ced/cess',meaning:'行く',count:18,file:'ced.json',available:true},
-  {id:'cap',label:'cap/cep/ceiv',meaning:'取る',count:16,file:'cap.json',available:true},
-  {id:'pos',label:'pos/pon/pose',meaning:'置く',count:17,file:'pos.json',available:true},
-  {id:'fer',label:'fer',meaning:'運ぶ',count:17,file:'fer.json',available:true},
-  {id:'scrib',label:'scrib/script',meaning:'書く',count:14,file:'scrib.json',available:true},
-  {id:'tract',label:'tract',meaning:'引く',count:17,file:'tract.json',available:true},
-  {id:'rupt',label:'rupt',meaning:'壊す',count:13,file:'rupt.json',available:true},
-  {id:'struct',label:'struct',meaning:'建てる',count:15,file:'struct.json',available:true},
-  {id:'vis',label:'vis/vid',meaning:'見る(2)',count:18,file:'vis.json',available:true},
-  {id:'sign',label:'sign',meaning:'しるし',count:13,file:'sign.json',available:true},
-  {id:'gen',label:'gen',meaning:'生む・種',count:13,file:'gen.json',available:true},
-  {id:'form',label:'form',meaning:'形',count:15,file:'form.json',available:true},
-  {id:'loc',label:'loc',meaning:'場所',count:12,file:'loc.json',available:true},
-  {id:'dic',label:'dic/dict',meaning:'言う',count:14,file:'dic.json',available:true},
-  {id:'clos',label:'clud/clus',meaning:'閉じる',count:14,file:'clos.json',available:true},
-  {id:'cur',label:'cur/cour',meaning:'走る',count:15,file:'cur.json',available:true},
-  {id:'reg',label:'reg/rect',meaning:'まっすぐ',count:15,file:'reg.json',available:true},
-  {id:'part',label:'part',meaning:'分ける',count:13,file:'part.json',available:true},
-  {id:'ject',label:'ject',meaning:'投げる',count:15,file:'ject.json',available:true},
-  {id:'pend',label:'pend/pens',meaning:'ぶら下がる',count:14,file:'pend.json',available:true},
-  {id:'sent',label:'sent/sens',meaning:'感じる',count:12,file:'sent.json',available:true},
-  {id:'valu',label:'valu/val',meaning:'価値',count:14,file:'valu.json',available:true},
+  {id:'duct',label:'duct/duc',meaning:'導く',count:8,file:'duct.json',available:true},
+  {id:'spec',label:'spec/spect',meaning:'見る',count:10,file:'spec.json',available:true},
+  {id:'port',label:'port',meaning:'運ぶ',count:8,file:'port.json',available:true},
+  {id:'ven',label:'ven/vent',meaning:'来る',count:8,file:'ven.json',available:true},
+  {id:'mit',label:'mit/miss',meaning:'送る',count:8,file:'mit.json',available:true},
+  {id:'ten',label:'ten/tain',meaning:'保つ',count:8,file:'ten.json',available:true},
+  {id:'fact',label:'fact/fect/fic',meaning:'作る',count:10,file:'fact.json',available:true},
+  {id:'sta',label:'sta/stat/sist',meaning:'立つ',count:10,file:'sta.json',available:true},
+  {id:'ced',label:'ced/cess',meaning:'行く',count:8,file:'ced.json',available:true},
+  {id:'cap',label:'cap/cep/ceiv',meaning:'取る',count:8,file:'cap.json',available:true},
+  {id:'pos',label:'pos/pon/pose',meaning:'置く',count:8,file:'pos.json',available:true},
+  {id:'fer',label:'fer',meaning:'運ぶ',count:8,file:'fer.json',available:true},
+  {id:'scrib',label:'scrib/script',meaning:'書く',count:8,file:'scrib.json',available:true},
+  {id:'tract',label:'tract',meaning:'引く',count:8,file:'tract.json',available:true},
+  {id:'rupt',label:'rupt',meaning:'壊す',count:6,file:'rupt.json',available:true},
+  {id:'struct',label:'struct',meaning:'建てる',count:6,file:'struct.json',available:true},
+  {id:'vis',label:'vis/vid',meaning:'見る(2)',count:8,file:'vis.json',available:true},
+  {id:'sign',label:'sign',meaning:'しるし',count:7,file:'sign.json',available:true},
+  {id:'gen',label:'gen',meaning:'生む・種',count:7,file:'gen.json',available:true},
+  {id:'form',label:'form',meaning:'形',count:6,file:'form.json',available:true},
+  {id:'loc',label:'loc',meaning:'場所',count:6,file:'loc.json',available:true},
+  {id:'dic',label:'dic/dict',meaning:'言う',count:6,file:'dic.json',available:true},
+  {id:'clos',label:'clud/clus',meaning:'閉じる',count:6,file:'clos.json',available:true},
+  {id:'cur',label:'cur/cour',meaning:'走る',count:8,file:'cur.json',available:true},
+  {id:'reg',label:'reg/rect',meaning:'まっすぐ',count:6,file:'reg.json',available:true},
+  {id:'part',label:'part',meaning:'分ける',count:6,file:'part.json',available:true},
+  {id:'ject',label:'ject',meaning:'投げる',count:6,file:'ject.json',available:true},
+  {id:'pend',label:'pend/pens',meaning:'ぶら下がる',count:6,file:'pend.json',available:true},
+  {id:'sent',label:'sent/sens',meaning:'感じる',count:6,file:'sent.json',available:true},
+  {id:'valu',label:'valu/val',meaning:'価値',count:6,file:'valu.json',available:true},
 ];
 
 /* ══════════════════════════════
