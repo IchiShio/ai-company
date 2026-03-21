@@ -38,8 +38,9 @@ jobs:
       - name: Post to X
         if: steps.text.outputs.post_text != ''
         run: |
-          python3 scripts/post_tweet_ga.py "${{ steps.text.outputs.post_text }}"
+          python3 scripts/post_tweet_ga.py
         env:
+          POST_TEXT: ${{ steps.text.outputs.post_text }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}

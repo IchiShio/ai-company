@@ -30,9 +30,11 @@ def post_tweet(text):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 post_tweet_ga.py <text>", file=sys.stderr)
+    text = os.environ.get("POST_TEXT", "").strip()
+    if not text and len(sys.argv) >= 2:
+        text = sys.argv[1]
+    if not text:
+        print("ERROR: POST_TEXT env var or argument required", file=sys.stderr)
         sys.exit(1)
-    text = sys.argv[1]
     success = post_tweet(text)
     sys.exit(0 if success else 1)

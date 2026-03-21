@@ -9,10 +9,15 @@ from datetime import datetime, timezone, timedelta
 JST = timezone(timedelta(hours=9))
 
 # 手動テキストが指定されていればそのまま使う
+GITHUB_OUTPUT = os.environ.get("GITHUB_OUTPUT", "")
+
 manual = os.environ.get("MANUAL_TEXT", "").strip()
 if manual:
-    # GitHub Actions output format
-    print(f"post_text={manual}")
+    if GITHUB_OUTPUT:
+        with open(GITHUB_OUTPUT, "a") as fh:
+            fh.write(f"post_text<<EOF\n{manual}\nEOF\n")
+    else:
+        print(f"post_text={manual}")
     sys.exit(0)
 
 now_jst = datetime.now(JST)
@@ -39,9 +44,12 @@ slot = "morning" if current_hour < 12 else "evening"
 for entry in schedule:
     if entry["date"] == current_date and entry["slot"] == slot and not entry.get("posted"):
         text = entry["text"]
-        # 改行をエスケープしてGitHub Actionsに渡す
-        escaped = text.replace("%", "%25").replace("\n", "%0A").replace("\r", "%0D")
-        print(f"post_text={escaped}")
+        # デリミタ方式でGitHub Actionsに渡す（%等の特殊文字がそのまま保持される）
+        if GITHUB_OUTPUT:
+            with open(GITHUB_OUTPUT, "a") as fh:
+                fh.write(f"post_text<<EOF\n{text}\nEOF\n")
+        else:
+            print(f"post_text={text}")
         sys.exit(0)
 
 # 該当なし
