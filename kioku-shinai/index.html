@@ -60,30 +60,72 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 .header-back:hover{background:var(--surface)}
 
 /* ── LP ── */
-.lp-hero{padding:80px 0 40px;text-align:center}
+.lp-hero{padding:72px 0 40px;text-align:center}
 .lp-hero h1{font-size:36px;font-weight:900;line-height:1.2;letter-spacing:-.5px;margin-bottom:12px}
 .lp-hero .accent{color:var(--accent)}
-.lp-hero .sub{font-size:18px;color:var(--text2);font-weight:500;margin-bottom:40px;line-height:1.6}
-
-/* Root demo on LP */
-.lp-demo{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:28px 24px;margin-bottom:32px;text-align:left}
-.lp-demo h3{font-size:15px;font-weight:700;color:var(--text2);margin-bottom:16px;text-transform:uppercase;letter-spacing:1px}
-.lp-demo .root-label{display:inline-block;background:var(--root-soft);color:var(--root);font-size:28px;font-weight:900;padding:8px 20px;border-radius:var(--radius-sm);margin-bottom:4px}
-.lp-demo .root-meaning{font-size:15px;color:var(--text2);margin-bottom:20px}
-.lp-tree{display:flex;flex-direction:column;gap:8px}
-.lp-tree-item{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:var(--radius-sm);background:var(--surface);transition:background .15s}
-.lp-tree-prefix{font-weight:800;color:var(--prefix);min-width:50px;text-align:right;font-size:15px}
-.lp-tree-plus{color:var(--text3);font-size:13px}
-.lp-tree-root{font-weight:800;color:var(--root);font-size:15px}
-.lp-tree-arrow{color:var(--text3);font-size:13px}
-.lp-tree-word{font-weight:700;font-size:15px}
-.lp-tree-ja{color:var(--text2);font-size:13px;margin-left:auto}
+.lp-hero .sub{font-size:18px;color:var(--text2);font-weight:500;margin-bottom:36px;line-height:1.6}
 
 .btn-cta{display:block;width:100%;background:var(--accent);color:#fff;border:none;padding:18px;border-radius:var(--radius);font-size:17px;font-weight:700;cursor:pointer;transition:background .15s,transform .1s;text-align:center}
 .btn-cta:hover{background:var(--accent2)}
 .btn-cta:active{transform:scale(.98)}
-
 .lp-note{text-align:center;font-size:13px;color:var(--text3);margin-top:12px}
+
+/* LP Mockup card */
+.lp-mockup{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:24px 20px;margin-bottom:32px;pointer-events:none;position:relative;overflow:hidden}
+.lp-mockup::after{content:'';position:absolute;bottom:0;left:0;right:0;height:48px;background:linear-gradient(transparent,var(--bg))}
+.lp-mockup .mock-word{font-family:'Inter',sans-serif;font-size:32px;font-weight:900;letter-spacing:-.5px;text-align:center;margin-bottom:2px}
+.lp-mockup .mock-phonetic{font-size:13px;color:var(--text3);text-align:center;margin-bottom:14px}
+.lp-mockup .mock-parts{display:flex;align-items:center;justify-content:center;gap:6px;margin-bottom:12px}
+.lp-mockup .mock-oneliner{font-size:15px;font-weight:700;text-align:center;line-height:1.5;padding:10px 0;border-top:1px solid var(--border)}
+
+/* LP Feature strip */
+.lp-features{display:flex;gap:8px;margin:32px 0;flex-wrap:wrap;justify-content:center}
+.lp-feat{flex:1;min-width:110px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px 10px;text-align:center}
+.lp-feat-icon{font-size:24px;margin-bottom:6px}
+.lp-feat-label{font-size:12px;font-weight:700;color:var(--text1);line-height:1.4}
+.lp-feat-sub{font-size:11px;color:var(--text3);margin-top:2px}
+
+/* LP Stats */
+.lp-stats{display:flex;justify-content:center;gap:0;margin:32px 0;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px 0;overflow:hidden}
+.lp-stat{flex:1;text-align:center;border-right:1px solid var(--border)}
+.lp-stat:last-child{border-right:none}
+.lp-stat-num{font-family:'Inter',sans-serif;font-size:28px;font-weight:900;color:var(--accent);letter-spacing:-1px}
+.lp-stat-label{font-size:12px;color:var(--text2);margin-top:2px}
+
+/* LP Philosophy */
+.lp-philosophy{margin:40px 0;padding:32px 24px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius)}
+.lp-ph-eyebrow{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:2px;margin-bottom:16px;text-transform:uppercase}
+.lp-ph-hook{font-size:20px;font-weight:900;line-height:1.4;margin-bottom:16px}
+.lp-ph-body{font-size:15px;line-height:1.8;color:var(--text2);margin-bottom:16px}
+.lp-ph-body strong{color:var(--text1)}
+.lp-ph-quote{border-left:3px solid var(--gold);padding:12px 16px;margin:16px 0;font-size:15px;font-weight:600;line-height:1.6;color:var(--text1);background:var(--gold-soft);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+
+/* LP Steps */
+.lp-steps{margin:40px 0}
+.lp-steps-title{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:2px;text-transform:uppercase;text-align:center;margin-bottom:20px}
+.lp-step{display:flex;gap:16px;margin-bottom:16px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px}
+.lp-step-no{font-family:'Inter',sans-serif;font-size:28px;font-weight:900;color:var(--accent);opacity:.3;flex-shrink:0;line-height:1}
+.lp-step-body h3{font-size:16px;font-weight:800;margin-bottom:4px}
+.lp-step-body p{font-size:14px;color:var(--text2);line-height:1.6}
+
+/* LP Live demo */
+.lp-live{margin:40px 0;text-align:center}
+.lp-live-label{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px}
+.lp-live-sub{font-size:14px;color:var(--text2);margin-bottom:20px}
+
+/* LP Tree (kept for mockup) */
+.lp-tree{display:flex;flex-direction:column;gap:6px;margin-top:12px}
+.lp-tree-item{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:var(--radius-sm);background:var(--surface)}
+.lp-tree-prefix{font-weight:800;color:var(--prefix);min-width:44px;text-align:right;font-size:14px}
+.lp-tree-plus{color:var(--text3);font-size:12px}
+.lp-tree-root{font-weight:800;color:var(--root);font-size:14px}
+.lp-tree-arrow{color:var(--text3);font-size:12px}
+.lp-tree-word{font-weight:700;font-size:14px}
+.lp-tree-ja{color:var(--text2);font-size:12px;margin-left:auto}
+
+/* LP Bottom CTA */
+.lp-bottom-cta{margin:40px 0;text-align:center}
+.lp-bottom-cta p{font-size:14px;color:var(--text2);margin-bottom:16px;line-height:1.6}
 
 /* ── ROOT SELECT ── */
 .root-select{padding:24px 0 40px}
@@ -224,12 +266,12 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 <!-- ═══════ HEADER ═══════ -->
 <div class="header">
   <a href="/" class="header-logo"><span>native</span>-real</a>
-  <a class="header-mode-link" id="headerModeLink" href="#" onclick="showRootSelect();return false">語根一覧</a>
+  <a class="header-mode-link" id="headerModeLink" href="#" style="display:none" onclick="showRootSelect();return false">語根一覧</a>
   <button class="header-back" id="backBtn" style="display:none" onclick="goBack()">← 戻る</button>
 </div>
 
-<!-- ═══════ SCREEN: CARD (DEFAULT) ═══════ -->
-<div class="screen active" id="screenCard">
+<!-- ═══════ SCREEN: CARD ═══════ -->
+<div class="screen" id="screenCard">
 <div class="container">
   <div class="card-counter" id="cardCounter"></div>
   <div id="cardArea">
@@ -248,22 +290,139 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 </div>
 
 <!-- ═══════ SCREEN: LP ═══════ -->
-<div class="screen" id="screenLp">
+<div class="screen active" id="screenLp">
 <div class="container">
+
+  <!-- Hero -->
   <div class="lp-hero">
     <h1>記憶しない<br><span class="accent">英単語</span></h1>
-    <p class="sub">語根30個で、TOEIC600語が<br>芋づる式に読める。</p>
+    <p class="sub">語根を1つ知るだけで、<br>8〜10語が<strong>芋づる式</strong>に読める。</p>
+
+    <!-- Mockup card -->
+    <div class="lp-mockup">
+      <div class="mock-word">produce</div>
+      <div class="mock-phonetic">/prəˈdjuːs/</div>
+      <div class="mock-parts">
+        <div class="etym-part prefix"><div class="etym-part-name">pro</div><div class="etym-part-meaning">前へ</div></div>
+        <span class="etym-plus">+</span>
+        <div class="etym-part root"><div class="etym-part-name">duce</div><div class="etym-part-meaning">導く</div></div>
+      </div>
+      <div class="mock-oneliner">前へ導き出す → 生み出す</div>
+    </div>
+
+    <button class="btn-cta" onclick="startCardMode()">今日の単語を見る</button>
+    <p class="lp-note">登録不要・完全無料・毎回違う単語</p>
   </div>
 
-  <div class="lp-demo">
-    <h3>例: 語根 duct</h3>
-    <div class="root-label">duct</div>
-    <div class="root-meaning">= 導く（ラテン語 ducere）</div>
+  <!-- Feature strip -->
+  <div class="lp-features">
+    <div class="lp-feat">
+      <div class="lp-feat-icon">🧩</div>
+      <div class="lp-feat-label">語根で芋づる式</div>
+      <div class="lp-feat-sub">丸暗記ゼロ</div>
+    </div>
+    <div class="lp-feat">
+      <div class="lp-feat-icon">🔊</div>
+      <div class="lp-feat-label">発音つき</div>
+      <div class="lp-feat-sub">全220語</div>
+    </div>
+    <div class="lp-feat">
+      <div class="lp-feat-icon">🧠</div>
+      <div class="lp-feat-label">認知言語学</div>
+      <div class="lp-feat-sub">イメージで理解</div>
+    </div>
+    <div class="lp-feat">
+      <div class="lp-feat-icon">🎯</div>
+      <div class="lp-feat-label">TOEIC頻出</div>
+      <div class="lp-feat-sub">実用語のみ</div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="lp-stats">
+    <div class="lp-stat">
+      <div class="lp-stat-num">30</div>
+      <div class="lp-stat-label">語根</div>
+    </div>
+    <div class="lp-stat">
+      <div class="lp-stat-num">220</div>
+      <div class="lp-stat-label">収録語</div>
+    </div>
+    <div class="lp-stat">
+      <div class="lp-stat-num">5</div>
+      <div class="lp-stat-label">出題形式</div>
+    </div>
+  </div>
+
+  <!-- Philosophy -->
+  <div class="lp-philosophy">
+    <div class="lp-ph-eyebrow">Why it works</div>
+    <div class="lp-ph-hook">「覚えても忘れる」の<br>正体を知っていますか？</div>
+    <p class="lp-ph-body">
+      単語帳で覚えた単語を、1週間後にいくつ覚えていますか？<br>
+      <strong>エビングハウスの忘却曲線</strong>によれば、丸暗記した情報の約75%は1週間で消えます。
+    </p>
+    <p class="lp-ph-body">
+      でも、<strong>「なぜそう言うのか」を理解した知識</strong>は違います。
+      語源や接頭辞の意味を掴めば、それは暗記ではなく<strong>理解</strong>。
+      理解は忘却曲線の外にあります。
+    </p>
+    <div class="lp-ph-quote">
+      「duct = 導く」を知っていれば、<br>
+      produce, reduce, conduct, introduce...<br>
+      すべて「なるほど」で繋がる。
+    </div>
+    <p class="lp-ph-body">
+      <strong>30個の語根</strong>さえ理解すれば、<strong>220語が芋づる式</strong>に読めるようになります。
+      これが「記憶しない」英単語学習の正体です。
+    </p>
+  </div>
+
+  <!-- How It Works -->
+  <div class="lp-steps">
+    <div class="lp-steps-title">How it works</div>
+    <div class="lp-step">
+      <div class="lp-step-no">01</div>
+      <div class="lp-step-body">
+        <h3>カードを見る</h3>
+        <p>開くたびにランダムな単語が1枚。語根の分解と記憶フックで、直感的に理解できる。</p>
+      </div>
+    </div>
+    <div class="lp-step">
+      <div class="lp-step-no">02</div>
+      <div class="lp-step-body">
+        <h3>次の単語へ</h3>
+        <p>タップひとつで次の単語。30語根×8語が毎回ランダムで飽きない。通勤中でも、寝る前でも。</p>
+      </div>
+    </div>
+    <div class="lp-step">
+      <div class="lp-step-no">03</div>
+      <div class="lp-step-body">
+        <h3>深く学ぶ（オプション）</h3>
+        <p>気になった語根があればクイズモードへ。英→日、穴埋め、コロケーションなど5形式で定着させる。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live demo: show one actual tree -->
+  <div class="lp-live">
+    <div class="lp-live-label">Try it</div>
+    <p class="lp-live-sub">語根1つで、こんなに広がる</p>
+  </div>
+  <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:20px;margin-bottom:12px">
+    <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:14px">
+      <span style="font-size:28px;font-weight:900;color:var(--root)">duct</span>
+      <span style="font-size:14px;color:var(--text2)">= 導く</span>
+    </div>
     <div class="lp-tree" id="lpTree"></div>
   </div>
 
-  <button class="btn-cta" onclick="showRootSelect()">無料で体験する</button>
-  <p class="lp-note">登録不要・全機能無料</p>
+  <!-- Bottom CTA -->
+  <div class="lp-bottom-cta">
+    <p>開くたびに、新しい単語と出会う。<br>今日は何が出るか、見てみよう。</p>
+    <button class="btn-cta" onclick="startCardMode()">無料で始める</button>
+    <p class="lp-note">登録不要・広告なし</p>
+  </div>
 
   <div class="footer">
     <a href="/">ListenUp（リスニング）</a> ｜ <a href="/ranking/">サービス比較</a><br>
@@ -397,10 +556,10 @@ const ROOTS = [
 function showScreen(id){
   document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  const isCard = id==='screenCard';
   const isLP = id==='screenLp';
+  const isCard = id==='screenCard';
   document.getElementById('backBtn').style.display = (isCard||isLP)?'none':'block';
-  document.getElementById('headerModeLink').style.display = isCard?'':'none';
+  document.getElementById('headerModeLink').style.display = (isCard)?'':'none';
   window.scrollTo(0,0);
 }
 
@@ -408,7 +567,12 @@ function goBack(){
   const active = document.querySelector('.screen.active');
   if(active.id==='screenQuiz'||active.id==='screenComplete') showScreen('screenSelect');
   else if(active.id==='screenSelect') showScreen('screenCard');
-  else showScreen('screenCard');
+  else showScreen('screenLp');
+}
+
+function startCardMode(){
+  showScreen('screenCard');
+  if(cardCount===0) showRandomCard();
 }
 
 function showRootSelect(){
@@ -777,7 +941,7 @@ function startRootFromCard(){
 
 /* ── INIT ── */
 renderLpTree();
-showRandomCard();
+// Card mode starts when user taps CTA on LP
 </script>
 </body>
 </html>
