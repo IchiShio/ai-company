@@ -34,28 +34,25 @@
 
 :root{
   --bg:#fff;
-  --surface:#f5f5f5;
-  --text:#111;
-  --text2:#777;
-  --text3:#b0b0b0;
-  --accent:#c0392b;
-  --accent2:#d94436;
-  --accent-soft:rgba(192,57,43,.06);
-  --prefix:#2563eb;
-  --prefix-soft:rgba(37,99,235,.07);
-  --root-c:#c0392b;
-  --root-soft:rgba(192,57,43,.07);
-  --suffix:#059669;
-  --suffix-soft:rgba(5,150,105,.07);
-  --correct:#16a34a;
-  --correct-soft:rgba(22,163,74,.06);
-  --wrong:#dc2626;
-  --wrong-soft:rgba(220,38,38,.06);
-  --gold:#b8860b;
-  --gold-soft:rgba(184,134,11,.07);
-  --shadow:0 1px 2px rgba(0,0,0,.04),0 4px 16px rgba(0,0,0,.03);
-  --r:14px;
-  --r-sm:10px;
+  --surface:#f5f5f7;
+  --text:#1d1d1f;
+  --text2:#86868b;
+  --text3:#aeaeb2;
+  --accent:#007AFF;
+  --accent2:#0071e3;
+  --accent-soft:rgba(0,122,255,.05);
+  --prefix:#5856d6;
+  --prefix-soft:rgba(88,86,214,.07);
+  --root-c:#ff9500;
+  --root-soft:rgba(255,149,0,.08);
+  --suffix:#34c759;
+  --suffix-soft:rgba(52,199,89,.07);
+  --correct:#34c759;
+  --correct-soft:rgba(52,199,89,.05);
+  --wrong:#ff3b30;
+  --wrong-soft:rgba(255,59,48,.05);
+  --r:12px;
+  --r-sm:8px;
 }
 
 html{scroll-behavior:smooth}
@@ -69,7 +66,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 /* ── HEADER ── */
 .hd{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
 .hd-title{font-size:14px;font-weight:800;color:var(--text);letter-spacing:-.02em;text-decoration:none}
-.hd-title em{font-style:normal;color:var(--accent)}
+.hd-title em{font-style:normal;color:var(--root-c)}
 .hd-link{font-size:13px;color:var(--text3);text-decoration:none;padding:6px 12px;border-radius:8px;transition:all .15s}
 .hd-link:hover{background:var(--surface);color:var(--text2)}
 .hd-back{font-size:13px;color:var(--text2);background:none;border:none;cursor:pointer;padding:6px 12px;border-radius:8px;transition:all .15s}
@@ -97,7 +94,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 .etym-plus{color:var(--text3);font-size:14px;font-weight:300}
 
 /* Play button */
-.play-btn{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;transition:all .12s;box-shadow:0 2px 8px rgba(192,57,43,.25);flex-shrink:0}
+.play-btn{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;transition:all .12s;box-shadow:0 2px 8px rgba(0,122,255,.25);flex-shrink:0}
 .play-btn:hover{background:var(--accent2);transform:scale(1.06)}
 .play-btn:active{transform:scale(.95)}
 .play-btn svg{width:18px;height:18px;fill:#fff;margin-left:2px}
@@ -112,7 +109,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 .lp-hero{padding:72px 0 44px;text-align:center}
 .lp-hero h1{font-size:14px;font-weight:700;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:20px}
 .lp-headline{font-size:32px;font-weight:900;line-height:1.25;letter-spacing:-.5px;margin-bottom:14px}
-.lp-headline em{font-style:normal;color:var(--accent)}
+.lp-headline em{font-style:normal;color:var(--wrong)}
 .lp-sub{font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:40px}
 
 .lp-demo{background:var(--surface);border-radius:var(--r);padding:28px 24px;margin-bottom:14px;text-align:center}
@@ -122,7 +119,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 
 .lp-insight{text-align:center;padding:48px 4px 4px;max-width:380px;margin:0 auto}
 .lp-insight-big{font-size:22px;font-weight:900;line-height:1.35;margin-bottom:10px;letter-spacing:-.3px}
-.lp-insight-big em{font-style:normal;color:var(--accent)}
+.lp-insight-big em{font-style:normal;color:var(--root-c)}
 .lp-insight-body{font-size:14px;color:var(--text2);line-height:1.7}
 
 .lp-cascade{background:var(--surface);border-radius:var(--r);overflow:hidden;margin:24px 0 0}
