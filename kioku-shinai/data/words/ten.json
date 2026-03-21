@@ -13,14 +13,25 @@
       "phonetic": "/meɪnˈteɪn/",
       "toeicRank": "TSL 297位",
       "parts": [
-        {"part": "main", "meaning": "手（manus）", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "main",
+          "meaning": "手（manus）",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "manus（手）+ tenere（保つ）= 手で保つ → 維持する",
         "fact": "ラテン語 manu tenere「手で保持する」から古フランス語 maintenir を経て13世紀に英語へ。本来は「手で支え続ける」の物理的な意味で、中英語では「城や地位を保持する」の意。現代英語の「維持する・主張する」は14世紀以降の意味拡張。",
         "source": "EtymOnline: maintain",
-        "cognates": ["maintenance", "maintainable"]
+        "cognates": [
+          "maintenance",
+          "maintainable"
+        ]
       },
       "cognitive": {
         "oneliner": "手で握り続けて離さない→現状を保持し続ける動き",
@@ -39,7 +50,12 @@
           "difficulty": 1,
           "instruction": "maintainの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["手で保つ→維持する", "前に保つ→提案する", "離れて保つ→放棄する", "下に保つ→抑える"],
+          "choices": [
+            "手で保つ→維持する",
+            "前に保つ→提案する",
+            "離れて保つ→放棄する",
+            "下に保つ→抑える"
+          ],
           "correct": 0
         },
         {
@@ -47,7 +63,12 @@
           "difficulty": 2,
           "instruction": "main（手）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["手で保つ = 維持する", "手で動かす = 操作する", "手で作る = 製造する", "手で示す = 説明する"],
+          "choices": [
+            "手で保つ = 維持する",
+            "手で動かす = 操作する",
+            "手で作る = 製造する",
+            "手で示す = 説明する"
+          ],
           "correct": 0
         },
         {
@@ -57,7 +78,12 @@
           "sentence": "We need to ______ a high level of customer service.",
           "hint": "「手で保つ」→「維持する」",
           "explanationFocus": "gap",
-          "choices": ["maintain", "obtain", "retain", "attain"],
+          "choices": [
+            "maintain",
+            "obtain",
+            "retain",
+            "attain"
+          ],
           "correct": 0
         },
         {
@@ -65,7 +91,12 @@
           "difficulty": 3,
           "instruction": "maintainと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["equipment（機器を整備する）", "money（お金を保つ）", "weather（天気を維持する）", "color（色を手で持つ）"],
+          "choices": [
+            "equipment（機器を整備する）",
+            "money（お金を保つ）",
+            "weather（天気を維持する）",
+            "color（色を手で持つ）"
+          ],
           "correct": 0
         },
         {
@@ -73,25 +104,43 @@
           "difficulty": 4,
           "instruction": "\"She maintained that the report was accurate.\" — maintainedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["主張した", "確認した", "否定した", "修正した"],
+          "choices": [
+            "主張した",
+            "確認した",
+            "否定した",
+            "修正した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The company maintains strict quality standards."]
+      "examples": [
+        "The company maintains strict quality standards."
+      ]
     },
     {
       "word": "obtain",
       "phonetic": "/əbˈteɪn/",
       "toeicRank": "TSL 432位",
       "parts": [
-        {"part": "ob", "meaning": "〜に向かって", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "ob",
+          "meaning": "〜に向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "ob（〜に向かって）+ tenere（保つ）= 対象に向かって保つ → 獲得する",
         "fact": "ラテン語 obtinere「保持する、占有する」から古フランス語 obtenir を経て15世紀初頭に英語へ。古典ラテン語では「地位・権利を保有する」の意が強く、中英語でも「成功する・目的を達する」の意で使われた。現代の「手に入れる」の意味は16世紀以降に定着。",
         "source": "EtymOnline: obtain",
-        "cognates": ["obtainable", "unobtainable"]
+        "cognates": [
+          "obtainable",
+          "unobtainable"
+        ]
       },
       "cognitive": {
         "oneliner": "目標に向かって手を伸ばし保持する→獲得する動き",
@@ -110,7 +159,12 @@
           "difficulty": 1,
           "instruction": "obtainの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["向かって保つ→獲得する", "手で保つ→維持する", "再び保つ→取り戻す", "一緒に保つ→含む"],
+          "choices": [
+            "向かって保つ→獲得する",
+            "手で保つ→維持する",
+            "再び保つ→取り戻す",
+            "一緒に保つ→含む"
+          ],
           "correct": 0
         },
         {
@@ -118,7 +172,12 @@
           "difficulty": 2,
           "instruction": "ob（向かって）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["向かって + 保つ = 獲得する", "反対に + 保つ = 拒否する", "外へ + 保つ = 追い出す", "下に + 保つ = 抑圧する"],
+          "choices": [
+            "向かって + 保つ = 獲得する",
+            "反対に + 保つ = 拒否する",
+            "外へ + 保つ = 追い出す",
+            "下に + 保つ = 抑圧する"
+          ],
           "correct": 0
         },
         {
@@ -128,7 +187,12 @@
           "sentence": "You must ______ a work permit before starting the job.",
           "hint": "「向かって保つ」→「取得する」",
           "explanationFocus": "gap",
-          "choices": ["obtain", "maintain", "retain", "sustain"],
+          "choices": [
+            "obtain",
+            "maintain",
+            "retain",
+            "sustain"
+          ],
           "correct": 0
         },
         {
@@ -136,7 +200,12 @@
           "difficulty": 3,
           "instruction": "obtainと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["permission（許可を得る）", "memory（記憶を保つ）", "weather（天気を得る）", "opinion（意見を獲得する）"],
+          "choices": [
+            "permission（許可を得る）",
+            "memory（記憶を保つ）",
+            "weather（天気を得る）",
+            "opinion（意見を獲得する）"
+          ],
           "correct": 0
         },
         {
@@ -144,25 +213,45 @@
           "difficulty": 4,
           "instruction": "\"The researcher obtained funding from three different sources.\" — obtainedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["調達した", "要求した", "返却した", "管理した"],
+          "choices": [
+            "調達した",
+            "要求した",
+            "返却した",
+            "管理した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["She obtained a master's degree from a top university."]
+      "examples": [
+        "She obtained a master's degree from a top university."
+      ]
     },
     {
       "word": "contain",
       "phonetic": "/kənˈteɪn/",
       "toeicRank": "TSL 219位",
       "parts": [
-        {"part": "con", "meaning": "一緒に・完全に", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "con",
+          "meaning": "一緒に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "con（一緒に）+ tenere（保つ）= 一緒に保つ → 含む・封じ込める",
         "fact": "ラテン語 continere「一緒に保つ、閉じ込める」から古フランス語 contenir を経て14世紀初頭に英語へ。本来は「物理的に封じ込める」の意。14世紀末に「〜を中に持つ、含む」に拡張。contain oneself「自分を抑制する」は感情を「封じ込める」の転義。",
         "source": "EtymOnline: contain",
-        "cognates": ["container", "content", "contents", "containment"]
+        "cognates": [
+          "container",
+          "content",
+          "contents",
+          "containment"
+        ]
       },
       "cognitive": {
         "oneliner": "全てを内側にまとめて保つ→容器が中身を保持する・感情を抑える",
@@ -181,7 +270,12 @@
           "difficulty": 1,
           "instruction": "containの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["一緒に保つ→含む", "前に保つ→主張する", "離れて保つ→放棄する", "上に保つ→維持する"],
+          "choices": [
+            "一緒に保つ→含む",
+            "前に保つ→主張する",
+            "離れて保つ→放棄する",
+            "上に保つ→維持する"
+          ],
           "correct": 0
         },
         {
@@ -189,7 +283,12 @@
           "difficulty": 2,
           "instruction": "con（一緒に）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["一緒に + 保つ = 含む", "反対に + 保つ = 排除する", "外に + 保つ = 展示する", "下に + 保つ = 沈める"],
+          "choices": [
+            "一緒に + 保つ = 含む",
+            "反対に + 保つ = 排除する",
+            "外に + 保つ = 展示する",
+            "下に + 保つ = 沈める"
+          ],
           "correct": 0
         },
         {
@@ -199,7 +298,12 @@
           "sentence": "This report ______ all the data from last year's survey.",
           "hint": "「一緒に保つ」→「含む」",
           "explanationFocus": "gap",
-          "choices": ["contains", "maintains", "obtains", "retains"],
+          "choices": [
+            "contains",
+            "maintains",
+            "obtains",
+            "retains"
+          ],
           "correct": 0
         },
         {
@@ -207,7 +311,12 @@
           "difficulty": 3,
           "instruction": "containと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["costs（コストを抑える）", "friends（友人を含む）", "weather（天気を封じ込める）", "music（音楽を保つ）"],
+          "choices": [
+            "costs（コストを抑える）",
+            "friends（友人を含む）",
+            "weather（天気を封じ込める）",
+            "music（音楽を保つ）"
+          ],
           "correct": 0
         },
         {
@@ -215,25 +324,44 @@
           "difficulty": 4,
           "instruction": "\"Authorities are working to contain the spread of the virus.\" — containの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["封じ込める", "調査する", "報告する", "治療する"],
+          "choices": [
+            "封じ込める",
+            "調査する",
+            "報告する",
+            "治療する"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The package contains fragile items."]
+      "examples": [
+        "The package contains fragile items."
+      ]
     },
     {
       "word": "retain",
       "phonetic": "/rɪˈteɪn/",
       "toeicRank": "TSL 487位",
       "parts": [
-        {"part": "re", "meaning": "再び・後ろに", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "re",
+          "meaning": "再び・後ろに",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "re（後ろに）+ tenere（保つ）= 後ろに引き戻して保つ → 保持する",
         "fact": "ラテン語 retinere「後ろに保つ、引き留める」から古フランス語 retenir を経て14世紀末に英語へ。本来は「人を引き留める、離さない」の物理的意味。15世紀に「情報・特性を保持する」に拡張。弁護士をretain（顧問契約する）は「報酬を前払いして手元に引き留める」の意で17世紀から。",
         "source": "EtymOnline: retain",
-        "cognates": ["retention", "retainer", "retentive"]
+        "cognates": [
+          "retention",
+          "retainer",
+          "retentive"
+        ]
       },
       "cognitive": {
         "oneliner": "離れようとするものを後ろに引き留めて保つ→保持・維持",
@@ -252,7 +380,12 @@
           "difficulty": 1,
           "instruction": "retainの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["後ろに保つ→保持する", "手で保つ→整備する", "向かって保つ→獲得する", "一緒に保つ→含む"],
+          "choices": [
+            "後ろに保つ→保持する",
+            "手で保つ→整備する",
+            "向かって保つ→獲得する",
+            "一緒に保つ→含む"
+          ],
           "correct": 0
         },
         {
@@ -260,7 +393,12 @@
           "difficulty": 2,
           "instruction": "re（後ろに）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["後ろに + 保つ = 引き留める", "再び + 保つ = 回収する", "離れて + 保つ = 放置する", "下に + 保つ = 抑え込む"],
+          "choices": [
+            "後ろに + 保つ = 引き留める",
+            "再び + 保つ = 回収する",
+            "離れて + 保つ = 放置する",
+            "下に + 保つ = 抑え込む"
+          ],
           "correct": 0
         },
         {
@@ -270,7 +408,12 @@
           "sentence": "The company needs to ______ its best employees.",
           "hint": "「後ろに保つ」→「引き留める」",
           "explanationFocus": "gap",
-          "choices": ["retain", "maintain", "obtain", "attain"],
+          "choices": [
+            "retain",
+            "maintain",
+            "obtain",
+            "attain"
+          ],
           "correct": 0
         },
         {
@@ -278,7 +421,12 @@
           "difficulty": 3,
           "instruction": "retainと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["customers（顧客を引き留める）", "buildings（建物を保持する）", "weather（天気を維持する）", "prices（価格を引き留める）"],
+          "choices": [
+            "customers（顧客を引き留める）",
+            "buildings（建物を保持する）",
+            "weather（天気を維持する）",
+            "prices（価格を引き留める）"
+          ],
           "correct": 0
         },
         {
@@ -286,25 +434,44 @@
           "difficulty": 4,
           "instruction": "\"She was able to retain most of the information from the training.\" — retainの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["記憶に保持した", "書き留めた", "共有した", "質問した"],
+          "choices": [
+            "記憶に保持した",
+            "書き留めた",
+            "共有した",
+            "質問した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The company introduced a new policy to retain talented staff."]
+      "examples": [
+        "The company introduced a new policy to retain talented staff."
+      ]
     },
     {
       "word": "sustain",
       "phonetic": "/səˈsteɪn/",
       "toeicRank": "TSL 455位",
       "parts": [
-        {"part": "sus", "meaning": "下から（sub）", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "sus",
+          "meaning": "下から（sub）",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "sub（下から）+ tenere（保つ）= 下から支えて保つ → 持続する",
         "fact": "ラテン語 sustinere「下から支える、持ちこたえる」から古フランス語 sustenir を経て13世紀末に英語へ。sub-がs-で始まるsの前でsus-に変化（cf. suspend, suspect）。本来は「物理的に下から支える」の意。14世紀に「困難に耐える」、「食料で生命を維持する」へ拡張。sustainable（持続可能な）は1972年ローマクラブ報告以降に普及。",
         "source": "EtymOnline: sustain",
-        "cognates": ["sustainable", "sustainability", "sustenance"]
+        "cognates": [
+          "sustainable",
+          "sustainability",
+          "sustenance"
+        ]
       },
       "cognitive": {
         "oneliner": "下から支え続けて保つ→持続・支援・耐久",
@@ -323,7 +490,12 @@
           "difficulty": 1,
           "instruction": "sustainの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["下から保つ→持続する", "手で保つ→維持する", "一緒に保つ→含む", "後ろに保つ→保持する"],
+          "choices": [
+            "下から保つ→持続する",
+            "手で保つ→維持する",
+            "一緒に保つ→含む",
+            "後ろに保つ→保持する"
+          ],
           "correct": 0
         },
         {
@@ -331,7 +503,12 @@
           "difficulty": 2,
           "instruction": "sus（下から）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["下から + 保つ = 持続する", "反対に + 保つ = 停止する", "外へ + 保つ = 広げる", "上へ + 保つ = 達成する"],
+          "choices": [
+            "下から + 保つ = 持続する",
+            "反対に + 保つ = 停止する",
+            "外へ + 保つ = 広げる",
+            "上へ + 保つ = 達成する"
+          ],
           "correct": 0
         },
         {
@@ -341,7 +518,12 @@
           "sentence": "The team struggled to ______ their performance throughout the project.",
           "hint": "「下から保つ」→「持続する」",
           "explanationFocus": "gap",
-          "choices": ["sustain", "maintain", "retain", "obtain"],
+          "choices": [
+            "sustain",
+            "maintain",
+            "retain",
+            "obtain"
+          ],
           "correct": 0
         },
         {
@@ -349,7 +531,12 @@
           "difficulty": 3,
           "instruction": "sustainと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["growth（成長を持続する）", "permission（許可を持続する）", "color（色を支える）", "schedule（スケジュールを保つ）"],
+          "choices": [
+            "growth（成長を持続する）",
+            "permission（許可を持続する）",
+            "color（色を支える）",
+            "schedule（スケジュールを保つ）"
+          ],
           "correct": 0
         },
         {
@@ -357,25 +544,44 @@
           "difficulty": 4,
           "instruction": "\"Two workers sustained minor injuries in the accident.\" — sustainedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["負った", "回避した", "報告した", "治療した"],
+          "choices": [
+            "負った",
+            "回避した",
+            "報告した",
+            "治療した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The company aims to sustain steady growth over the next decade."]
+      "examples": [
+        "The company aims to sustain steady growth over the next decade."
+      ]
     },
     {
       "word": "attain",
       "phonetic": "/əˈteɪn/",
       "toeicRank": "TSL 612位",
       "parts": [
-        {"part": "at", "meaning": "〜に向けて（ad）", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "at",
+          "meaning": "〜に向けて（ad）",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "ad（〜に向けて）+ tenere（保つ）= ゴールに向けて保つ → 達成する",
         "fact": "ラテン語 attingere「〜に触れる・達する」と attinere「〜に向けて保つ」の混交から古フランス語 ataindre を経て14世紀初頭に英語へ。ad-がtの前でat-に同化（cf. attend, attempt）。本来は「目標地点に到達する」の物理的意味。14世紀後半に「目的・年齢・地位に達する」の抽象的意味に拡張。",
         "source": "EtymOnline: attain",
-        "cognates": ["attainment", "attainable", "unattainable"]
+        "cognates": [
+          "attainment",
+          "attainable",
+          "unattainable"
+        ]
       },
       "cognitive": {
         "oneliner": "目標に向けて手を伸ばし、ついに到達して保持する→達成する",
@@ -394,7 +600,12 @@
           "difficulty": 1,
           "instruction": "attainの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["向けて保つ→達成する", "手で保つ→維持する", "後ろに保つ→取り戻す", "一緒に保つ→含む"],
+          "choices": [
+            "向けて保つ→達成する",
+            "手で保つ→維持する",
+            "後ろに保つ→取り戻す",
+            "一緒に保つ→含む"
+          ],
           "correct": 0
         },
         {
@@ -402,7 +613,12 @@
           "difficulty": 2,
           "instruction": "at（向けて）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["向けて + 保つ = 達成する", "反対に + 保つ = 失う", "外へ + 保つ = 放出する", "下に + 保つ = 抑制する"],
+          "choices": [
+            "向けて + 保つ = 達成する",
+            "反対に + 保つ = 失う",
+            "外へ + 保つ = 放出する",
+            "下に + 保つ = 抑制する"
+          ],
           "correct": 0
         },
         {
@@ -412,7 +628,12 @@
           "sentence": "She worked hard to ______ a managerial position.",
           "hint": "「向けて保つ」→「達成する・到達する」",
           "explanationFocus": "gap",
-          "choices": ["attain", "obtain", "retain", "maintain"],
+          "choices": [
+            "attain",
+            "obtain",
+            "retain",
+            "maintain"
+          ],
           "correct": 0
         },
         {
@@ -420,7 +641,12 @@
           "difficulty": 3,
           "instruction": "attainと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["a goal（目標を達成する）", "permission（許可を達成する）", "a discount（割引に達する）", "a product（製品を達成する）"],
+          "choices": [
+            "a goal（目標を達成する）",
+            "permission（許可を達成する）",
+            "a discount（割引に達する）",
+            "a product（製品を達成する）"
+          ],
           "correct": 0
         },
         {
@@ -428,25 +654,45 @@
           "difficulty": 4,
           "instruction": "\"The program helps students attain proficiency in English.\" — attainの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["習得する・到達する", "学習する", "測定する", "証明する"],
+          "choices": [
+            "習得する・到達する",
+            "学習する",
+            "測定する",
+            "証明する"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["It takes years of practice to attain fluency in a foreign language."]
+      "examples": [
+        "It takes years of practice to attain fluency in a foreign language."
+      ]
     },
     {
       "word": "content",
       "phonetic": "名詞・形容詞: /ˈkɒntent/ 動詞: /kənˈtent/",
       "toeicRank": "TSL 148位",
       "parts": [
-        {"part": "con", "meaning": "一緒に・完全に", "type": "prefix"},
-        {"part": "tent", "meaning": "保つ（tenere過去分詞）", "type": "root"}
+        {
+          "part": "con",
+          "meaning": "一緒に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "tent",
+          "meaning": "保つ（tenere過去分詞）",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "con（完全に）+ tentus（保たれた）= 完全に保たれた状態 → 内容・満足した",
         "fact": "ラテン語 contentus「抑制された・満足している」（continere の過去分詞）から。「内容物」の名詞は14世紀末に「容器に保たれているもの」の意で英語へ。「満足している」の形容詞は15世紀初頭に「自分の欲求が完全に保たれた状態」の意で定着。アクセント位置で品詞が変わる珍しい語。",
         "source": "EtymOnline: content",
-        "cognates": ["contents", "contentment", "discontent", "malcontent"]
+        "cognates": [
+          "contents",
+          "contentment",
+          "discontent",
+          "malcontent"
+        ]
       },
       "cognitive": {
         "oneliner": "完全に内側に保たれた状態→容器の中身（内容）・欲求が満たされた（満足）",
@@ -465,7 +711,12 @@
           "difficulty": 1,
           "instruction": "contentの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["完全に保たれた→内容・満足", "一緒に保つ→封じ込める", "後ろに保つ→維持する", "向けて保つ→達成する"],
+          "choices": [
+            "完全に保たれた→内容・満足",
+            "一緒に保つ→封じ込める",
+            "後ろに保つ→維持する",
+            "向けて保つ→達成する"
+          ],
           "correct": 0
         },
         {
@@ -473,7 +724,12 @@
           "difficulty": 2,
           "instruction": "con（完全に）+ tent（保たれた）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["完全に + 保たれた = 内容・満足", "一緒に + 動く = 競争する", "外へ + 保つ = 展示する", "反対に + 保つ = 不満"],
+          "choices": [
+            "完全に + 保たれた = 内容・満足",
+            "一緒に + 動く = 競争する",
+            "外へ + 保つ = 展示する",
+            "反対に + 保つ = 不満"
+          ],
           "correct": 0
         },
         {
@@ -483,7 +739,12 @@
           "sentence": "The ______ of this training manual is well organized.",
           "hint": "「完全に保たれたもの」→「内容」",
           "explanationFocus": "gap",
-          "choices": ["content", "context", "contract", "contact"],
+          "choices": [
+            "content",
+            "context",
+            "contract",
+            "contact"
+          ],
           "correct": 0
         },
         {
@@ -491,7 +752,12 @@
           "difficulty": 3,
           "instruction": "contentと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["marketing（コンテンツマーケティング）", "permission（内容の許可）", "weather（天気の内容）", "schedule（スケジュールの中身）"],
+          "choices": [
+            "marketing（コンテンツマーケティング）",
+            "permission（内容の許可）",
+            "weather（天気の内容）",
+            "schedule（スケジュールの中身）"
+          ],
           "correct": 0
         },
         {
@@ -499,25 +765,44 @@
           "difficulty": 4,
           "instruction": "\"She seemed content with the outcome of the negotiation.\" — contentの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["満足している", "驚いている", "懸念している", "集中している"],
+          "choices": [
+            "満足している",
+            "驚いている",
+            "懸念している",
+            "集中している"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The website's content is updated on a weekly basis."]
+      "examples": [
+        "The website's content is updated on a weekly basis."
+      ]
     },
     {
       "word": "entertain",
       "phonetic": "/ˌentərˈteɪn/",
       "toeicRank": "TSL 544位",
       "parts": [
-        {"part": "enter", "meaning": "間に（inter）", "type": "prefix"},
-        {"part": "tain", "meaning": "保つ", "type": "root"}
+        {
+          "part": "enter",
+          "meaning": "間に（inter）",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "inter（間に）+ tenere（保つ）= 人々の間に保つ → 楽しませる",
         "fact": "ラテン語 intertenere「間に保つ」から古フランス語 entretenir を経て15世紀後半に英語へ。inter-がenter-に変化するフランス語経由の借用語。本来は「(客の)気持ちを引きつけてつなぎ止める」の意で「もてなす」。「楽しませる」の意は17世紀初頭から。entertain an idea（考えを心に持つ）は「アイデアを心の中につなぎ止める」の転義。",
         "source": "EtymOnline: entertain",
-        "cognates": ["entertainment", "entertainer", "entertaining"]
+        "cognates": [
+          "entertainment",
+          "entertainer",
+          "entertaining"
+        ]
       },
       "cognitive": {
         "oneliner": "人と人の間につなぎ止めて保つ→関心を引きつけ続ける・もてなす",
@@ -536,7 +821,12 @@
           "difficulty": 1,
           "instruction": "entertainの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["間に保つ→楽しませる", "手で保つ→維持する", "下から保つ→持続する", "完全に保つ→含む"],
+          "choices": [
+            "間に保つ→楽しませる",
+            "手で保つ→維持する",
+            "下から保つ→持続する",
+            "完全に保つ→含む"
+          ],
           "correct": 0
         },
         {
@@ -544,7 +834,12 @@
           "difficulty": 2,
           "instruction": "enter（間に）+ tain（保つ）の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["間に + 保つ = もてなす・楽しませる", "中に + 動く = 参加する", "外へ + 保つ = 発表する", "上に + 保つ = 持ち上げる"],
+          "choices": [
+            "間に + 保つ = もてなす・楽しませる",
+            "中に + 動く = 参加する",
+            "外へ + 保つ = 発表する",
+            "上に + 保つ = 持ち上げる"
+          ],
           "correct": 0
         },
         {
@@ -554,7 +849,12 @@
           "sentence": "The hotel can ______ up to 500 guests at its banquet hall.",
           "hint": "「間に保つ」→「もてなす」",
           "explanationFocus": "gap",
-          "choices": ["entertain", "maintain", "contain", "sustain"],
+          "choices": [
+            "entertain",
+            "maintain",
+            "contain",
+            "sustain"
+          ],
           "correct": 0
         },
         {
@@ -562,7 +862,12 @@
           "difficulty": 3,
           "instruction": "entertainと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["clients（クライアントをもてなす）", "costs（コストを楽しむ）", "weather（天気をもてなす）", "schedules（スケジュールを楽しむ）"],
+          "choices": [
+            "clients（クライアントをもてなす）",
+            "costs（コストを楽しむ）",
+            "weather（天気をもてなす）",
+            "schedules（スケジュールを楽しむ）"
+          ],
           "correct": 0
         },
         {
@@ -570,11 +875,1322 @@
           "difficulty": 4,
           "instruction": "\"The board declined to entertain any further proposals.\" — entertainの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["検討する", "否決する", "受け取る", "発表する"],
+          "choices": [
+            "検討する",
+            "否決する",
+            "受け取る",
+            "発表する"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The company regularly entertains clients at its executive dining room."]
+      "examples": [
+        "The company regularly entertains clients at its executive dining room."
+      ]
+    },
+    {
+      "word": "attendance",
+      "phonetic": "/əˈtendəns/",
+      "toeicRank": "800",
+      "parts": [
+        {
+          "part": "at-",
+          "meaning": "〜に向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "tend",
+          "meaning": "保つ、注意を向ける",
+          "type": "root"
+        },
+        {
+          "part": "-ance",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「注意を向け続ける状態」から「出席」の意味になった",
+        "fact": "ラテン語attendereは「ad（〜に）+ tenere（保つ）」で、「注意を向け続ける」という意味。出席することは注意を向け続けることから転じた",
+        "source": "EtymOnline: Latin attendere",
+        "cognates": [
+          "attend",
+          "attention",
+          "attentive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「そこに存在し続けて注意を向ける」→「出席」",
+        "fact": "心理学的に、出席とは単なる物理的な存在ではなく、注意を向け続ける行為を伴う。これが言語に反映されている",
+        "source": "認知言語学"
+      },
+      "gap": "attendanceは「出席」「参加」「出席率」など複数の意味を持つが、すべてtenere（保つ）の「継続」という核を共有している",
+      "gapOneliner": "「保ち続ける」という概念が複数の意味を統一している",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Attend = At（〜に）+ Tend（注意を向け続ける）」→ だからAttendanceは「そこに居続けて注意を向けている状態」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "attendanceの最も基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "出席、参加",
+            "注意深さ",
+            "保守管理",
+            "延長"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "attendanceのattendはどのような語根の組み合わせ？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ad（〜に）+ tenere（保つ）",
+            "ad（〜に）+ tendere（伸ばす）",
+            "at（〜で）+ dere（与える）",
+            "at（〜で）+ need（必要）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "High ______ at the conference indicates strong interest.",
+          "hint": "出席者数が多いことを示す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "attendance",
+            "attention",
+            "attainment",
+            "extension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "attendanceと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "record",
+            "effort",
+            "duration",
+            "quality"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The attendance policy requires students to maintain regular presence.\" — attendanceの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "出席、参加",
+            "注意力",
+            "継続性",
+            "遠隔参加"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Perfect attendance",
+        "Attendance record",
+        "School attendance"
+      ]
+    },
+    {
+      "word": "attention",
+      "phonetic": "/əˈtenʃən/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "at-",
+          "meaning": "〜に向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "tent",
+          "meaning": "保つ、伸ばす",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「心を〜に向け続ける行為」という意味のラテン語attendereから派生",
+        "fact": "attendereの名詞形attentioは「心を向け続けること」。tenereは「保つ」という意味で、注意を保ち続けることがattentionの本質",
+        "source": "EtymOnline: Latin attendere",
+        "cognates": [
+          "attend",
+          "attentive",
+          "intent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「意識を特定の対象に向け続ける心理状態」",
+        "fact": "注意（attention）は脳の資源配分。tenereが「保つ」という意味なのは、注意力を一点に保ち続けるプロセスを反映",
+        "source": "認知心理学"
+      },
+      "gap": "attentionは「注意」「関心」「配慮」など複数の訳語を持つが、すべて「意識を向け続ける」という共通点を持つ",
+      "gapOneliner": "対象に向けられた意識の継続性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Attention = At + Tend + Ion」→ 「〜に注意を向け続ける行為」。tendはtenereから来ており「保つ」の意"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "attentionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "注意、注目",
+            "拡張",
+            "継続",
+            "強度"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "attentionとintensityに共通する語根は何？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "tend/tens（伸ばす、張る）",
+            "tain（保つ）",
+            "tain（維持する）",
+            "tinu（続く）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please pay ______ to the safety instructions.",
+          "hint": "注意を向けるという意味の名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "attention",
+            "attendance",
+            "intention",
+            "extension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "attentionと最も自然に結びつく動詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "pay",
+            "give",
+            "require",
+            "demand"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The teacher demanded the students' attention during the lecture.\" — attentionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "注意力、集中力",
+            "出席",
+            "返答",
+            "理解"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Pay attention",
+        "Grab attention",
+        "Attention to detail"
+      ]
+    },
+    {
+      "word": "continent",
+      "phonetic": "/ˈkɑːntɪnənt/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "tain/tin",
+          "meaning": "保つ、保有する",
+          "type": "root"
+        },
+        {
+          "part": "-ent",
+          "meaning": "性質、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「陸地を一体に保つ大陸」という意味から派生した地理用語",
+        "fact": "ラテン語continensは「con（一緒に）+ tenere（保つ）」で、「つながって保たれている陸地」という意味。中世に大陸を指す専門用語として確立",
+        "source": "EtymOnline: Latin continens",
+        "cognates": [
+          "contain",
+          "continuous",
+          "content",
+          "container"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「つながって保たれている一体の陸地」という物理的概念から生まれた用語",
+        "fact": "大陸という概念は、複数の領土が海に囲まれながら陸地として一体に保たれている状態を表現。tenereの「保つ」がこの一体性を表現",
+        "source": "地理学史"
+      },
+      "gap": "continentには「大陸」と「自制的な」という2つの異なる意味があるが、いずれも「保ち続ける」という根底の概念から派生",
+      "gapOneliner": "物理的な一体性と行為の統制性の両方が「保つ」に統一される",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Continent = Con（一緒に）+ Tain（保つ）」→ アジア大陸、ヨーロッパ大陸など、陸地がつながって保たれている"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "continentの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "大陸",
+            "継続的",
+            "強度",
+            "注意"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "continentのcon-と-entはどのような構成？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "con（共に）+ tend（伸ばす）+ ent（性質）",
+            "con（一緒に）+ tain（保つ）+ ent（状態）",
+            "con（反対）+ tin（続く）+ ent（者）",
+            "con（全く）+ ten（保つ）+ ent（方向）"
+          ],
+          "correct": 1
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Africa is the world's second-largest ______.",
+          "hint": "陸地の広がりを示す地理用語",
+          "explanationFocus": "gap",
+          "choices": [
+            "continent",
+            "continuous",
+            "container",
+            "content"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "continentと最も自然に結びつく形容詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "African",
+            "dark",
+            "wide",
+            "modern"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The seven continents are separated by oceans.\" — continentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "大陸",
+            "地形",
+            "地域",
+            "領土"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "African continent",
+        "Asian continent",
+        "Continental drift"
+      ]
+    },
+    {
+      "word": "continuous",
+      "phonetic": "/kənˈtɪnjuəs/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "tin",
+          "meaning": "保つ、続く",
+          "type": "root"
+        },
+        {
+          "part": "-uous",
+          "meaning": "性質を示す形容詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「つながり続ける」というラテン語continuusから派生した形容詞",
+        "fact": "ラテン語continuusは「con（一緒に）+ tinuus（続く）」で、「絶え間なく続く、つながり続ける」という意味。中断がない状態を表現",
+        "source": "EtymOnline: Latin continuus",
+        "cognates": [
+          "contain",
+          "continue",
+          "content",
+          "continent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「時間軸の中で途切れずに保ち続けられる状態」",
+        "fact": "continuousは時間的連続性を強調。tinuereの「保つ、続く」が、何かが中断されずに保ち続けられるプロセスを表現",
+        "source": "認知言語学"
+      },
+      "gap": "continuousは「継続的な」「連続した」など複数の訳語を持つが、すべて「中断なく続く」という共通概念を持つ",
+      "gapOneliner": "時間的な中断のない継続性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Continuous = Con（一緒に）+ Tin（保つ）+ Uous（性質）」→ 常に一緒につながって保たれている状態"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "continuousの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "連続した、途切れない",
+            "大陸の",
+            "保有している",
+            "注視する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "continueとcontinuousの語根の違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "同じ語根から派生した異なる品詞",
+            "全く異なる語根である",
+            "continueは名詞、continuousは動詞",
+            "continuousは古い形式である"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We need ______ improvement in our service quality.",
+          "hint": "「絶え間ない」という意味の形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "continuous",
+            "continent",
+            "contained",
+            "attending"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "continuousと最も自然に結びつく名詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "improvement",
+            "line",
+            "process",
+            "development"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The continuous rainfall caused severe flooding in the region.\" — continuousの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "絶え間ない、継続した",
+            "大規模な",
+            "周期的な",
+            "激しい"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Continuous improvement",
+        "Continuous rain",
+        "Continuous line"
+      ]
+    },
+    {
+      "word": "detention",
+      "phonetic": "/dɪˈtenʃən/",
+      "toeicRank": "800",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "〜から、下へ",
+          "type": "prefix"
+        },
+        {
+          "part": "tent",
+          "meaning": "保つ、保有する",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「保つこと」から「拘束、抑留」という意味に転じた",
+        "fact": "ラテン語detentioは「de（〜から）+ tenere（保つ）」で、「人を保有する、保ち続ける」という意味。法律用語として「抑留、拘束」を指すようになった",
+        "source": "EtymOnline: Latin detentio",
+        "cognates": [
+          "detain",
+          "detainee",
+          "contain",
+          "maintain"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「人を力で保ち続ける、自由を奪って保有する」という行為",
+        "fact": "detentionの本質は「保つ（tenere）」ことだが、人の自由を保ち続ける、つまり拘束することを意味する。tenereの一方的で強制的な使用",
+        "source": "法律用語の発展"
+      },
+      "gap": "detentionは「拘留、抑留」の他に「学校での放課後指導」という用法もあるが、いずれも「一定期間保ち続ける」という共通点を持つ",
+      "gapOneliner": "強制的に保ち続けられる状態",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Detention = De（下へ）+ Tain（保つ）」→ 人を下（獄舎）に保つ、つまり「拘留」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "detentionの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "拘留、抑留",
+            "注意",
+            "拡張",
+            "継続"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "detainとdetentionの関係は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "動詞と名詞の関係で、同じ語根から派生",
+            "全く異なる意味である",
+            "detainは古い用法である",
+            "detentionは動詞である"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The suspect was held in ______ pending trial.",
+          "hint": "法律用語で「拘留」を意味する名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "detention",
+            "attention",
+            "extension",
+            "intention"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "detentionと最も自然に結びつく形容詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "unlawful",
+            "police",
+            "military",
+            "forced"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Children received detention after school for misbehavior.\" — detentionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "放課後の罰としての保持、拘束",
+            "注意",
+            "説諭",
+            "懲罰"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Police detention",
+        "Unlawful detention",
+        "After-school detention"
+      ]
+    },
+    {
+      "word": "entertainment",
+      "phonetic": "/ˌentərˈteɪnmənt/",
+      "toeicRank": "800",
+      "parts": [
+        {
+          "part": "enter-",
+          "meaning": "間に、〜に",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ、保有する",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「来客を保有する、もてなす」という意味のフランス語entertainから派生",
+        "fact": "中期フランス語entertainは「entre（間に）+ tenir（保つ）」で、「間に人を保つ、つまり客人をもてなす」という意味。やがて「娯楽」という意味に転じた",
+        "source": "EtymOnline: French entertenir",
+        "cognates": [
+          "entertain",
+          "entertainer",
+          "maintain",
+          "contain"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「来客の注意や気分を楽しく保ち続ける行為」",
+        "fact": "entertainmentの本質は「保つ（tenir/tain）」こと。客人を楽しい状態に保ち続けることが、やがて娯楽全般を指すようになった",
+        "source": "言語文化史"
+      },
+      "gap": "entertainmentは「娯楽」「演芸」など複数の意味を持つが、すべて「人を楽しい状態に保ち続ける」という共通点を持つ",
+      "gapOneliner": "人の興味や楽しさを保ち続ける活動",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Entertainment = Enter（間に）+ Tain（保つ）+ Ment（行為）」→ ゲストを間に保つ、つまり「もてなし」から「娯楽」へ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "entertainmentの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "娯楽、演芸",
+            "注意",
+            "拡張",
+            "拘留"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "entertainmentはどの言語から英語に取り入れられた？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "フランス語の『entre（間に）+ tenir（保つ）』から",
+            "ラテン語の『in + tenere』から",
+            "ゲルマン語から",
+            "ギリシャ語から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The concert provided excellent ______ for the audience.",
+          "hint": "観客を楽しい状態に保つもの",
+          "explanationFocus": "gap",
+          "choices": [
+            "entertainment",
+            "attention",
+            "detention",
+            "extension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "entertainmentと最も自然に結びつく形容詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "live",
+            "family",
+            "quality",
+            "popular"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The film industry provides entertainment for millions of people worldwide.\" — entertainmentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "娯楽、人々を楽しく保つもの",
+            "情報",
+            "教育",
+            "広告"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Live entertainment",
+        "Entertainment industry",
+        "Family entertainment"
+      ]
+    },
+    {
+      "word": "extension",
+      "phonetic": "/ɪkˈstenʃən/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "ex-",
+          "meaning": "外へ、から",
+          "type": "prefix"
+        },
+        {
+          "part": "tens",
+          "meaning": "伸ばす、張る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「外へ伸ばすこと」という意味のラテン語extensioから派生",
+        "fact": "ラテン語extensioは「ex（外へ）+ tendere（伸ばす）」で、「外に伸ばされた状態」を表現。tenereの変形tensumが使われ、物理的な拡張を示唆",
+        "source": "EtymOnline: Latin extensio",
+        "cognates": [
+          "extend",
+          "extensive",
+          "extensor",
+          "tender",
+          "tendon"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「物理的または概念的に外へ拡張する行為」",
+        "fact": "extensionは物質的な延長（電話線の延長）から概念的な拡張（期間の延長）まで多用途。tendereの「伸ばす」という根本概念が多様な文脈で適用される",
+        "source": "認知言語学"
+      },
+      "gap": "extensionは「延長、拡張」の他に「電話の外線」「大学の生涯教育事業」など多くの専門用語を持つが、すべて「元のものを伸ばして外に広げる」という共通点を持つ",
+      "gapOneliner": "中核から外へ伸ばされた状態",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Extension = Ex（外へ）+ Tend（伸ばす）+ Ion（行為）」→ 何かを外に伸ばす行為、つまり「延長」「拡張」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "extensionの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "延長、拡張",
+            "注意",
+            "拘留",
+            "娯楽"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "tensionとextensionに共通する語根は何？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "tend/tens（伸ばす、張る）",
+            "tain（保つ）",
+            "tinu（続く）",
+            "tene（保有する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The project deadline was granted a two-week ______.",
+          "hint": "期間を外に伸ばすこと",
+          "explanationFocus": "gap",
+          "choices": [
+            "extension",
+            "intention",
+            "attention",
+            "detention"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "extensionと最も自然に結びつく単語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cord",
+            "phone",
+            "deadline",
+            "building"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The university offers extension courses for adult learners.\" — extensionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "拡張された、外に伸ばされた",
+            "追加の",
+            "オプショナルな",
+            "距離的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Deadline extension",
+        "Phone extension",
+        "File extension",
+        "University extension"
+      ]
+    },
+    {
+      "word": "intensity",
+      "phonetic": "/ɪnˈtensɪti/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "中へ、内に",
+          "type": "prefix"
+        },
+        {
+          "part": "tens",
+          "meaning": "伸ばす、張る",
+          "type": "root"
+        },
+        {
+          "part": "-ity",
+          "meaning": "性質、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「内部に張り詰められた状態」というラテン語intensusから派生",
+        "fact": "ラテン語intensusは「in（内に）+ tensus（張られた）」で、「張り詰められた、強く張られた」という意味。物理的な張力から心理的な強度まで応用",
+        "source": "EtymOnline: Latin intensus",
+        "cognates": [
+          "intense",
+          "intensify",
+          "tensor",
+          "tendon",
+          "extend"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「内部で強く張られた状態、強度」",
+        "fact": "intensityは感覚的・心理的な「強さ」を表現。光の強度、感情の強度など、内的な張力の大きさを示す。tensusの「張る」が強度を表現する根底",
+        "source": "認知言語学・物理学"
+      },
+      "gap": "intensityは「強度」「激しさ」など複数の訳語を持つが、すべて「内的な張力の程度」という共通の基礎を持つ",
+      "gapOneliner": "内的張力の強さ、密度",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Intensity = In（内に）+ Tens（張る）+ Ity（性質）」→ 内に張り詰められた力の程度、つまり「強度」「激しさ」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "intensityの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "強度、激しさ",
+            "注意",
+            "娯楽",
+            "拡張"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "intenseとintensityの品詞上の関係は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "形容詞と名詞の関係で、同じ語根から派生",
+            "intenseは英語、intensityはフランス語から",
+            "全く異なる意味である",
+            "intensityは古い形式である"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the earthquake was measured on the Richter scale.",
+          "hint": "地震の強さを示す概念",
+          "explanationFocus": "gap",
+          "choices": [
+            "intensity",
+            "extension",
+            "attention",
+            "intention"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "intensityと最も自然に結びつく名詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "color",
+            "light",
+            "emotion",
+            "pain"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The intensity of the competition increased as the deadline approached.\" — intensityの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "強度、激しさ",
+            "複雑さ",
+            "参加者数",
+            "難易度"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "High intensity",
+        "Light intensity",
+        "Emotional intensity"
+      ]
+    },
+    {
+      "word": "intention",
+      "phonetic": "/ɪnˈtenʃən/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "中へ、内に",
+          "type": "prefix"
+        },
+        {
+          "part": "tent",
+          "meaning": "伸ばす、張る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「心を〜に向けて張る」という意味のラテン語intentioから派生",
+        "fact": "ラテン語intentioは「in（内に）+ tendere（伸ばす）」で、「心を内に伸ばして向ける、焦点を当てる」という意味。心理的な意思を示す",
+        "source": "EtymOnline: Latin intentio",
+        "cognates": [
+          "intend",
+          "intent",
+          "intensive",
+          "tender",
+          "attend"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「心の焦点を特定の目的に向けて張り詰める状態」",
+        "fact": "intentionは内的な意志や目的を表現。tendereの「伸ばす」が、心や注意を特定の方向に伸ばして固定する心理状態を表現",
+        "source": "認知言語学・心理学"
+      },
+      "gap": "intentionは「意図」「目的」「意思」など複数の訳語を持つが、すべて「心が何かに向かって張り詰められた状態」という共通点を持つ",
+      "gapOneliner": "心を特定の目的に向けて張り詰める意志の状態",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Intention = In（内に）+ Tend（伸ばす）+ Ion（状態）」→ 心を内に伸ばして何かに向ける、つまり「意図」「目的」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "intentionの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "意図、目的",
+            "注意",
+            "娯楽",
+            "延長"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "intentとintentionの関係は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "形容詞と名詞で、同じ語根から派生",
+            "全く異なる言語から来ている",
+            "intentは新しい造語である",
+            "intentionは動詞である"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "My ______ is to finish the project by Friday.",
+          "hint": "心の内的な目的を示す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "intention",
+            "attention",
+            "extension",
+            "detention"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "intentionと最も自然に結びつく形容詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "good",
+            "bad",
+            "clear",
+            "strong"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She stated her intention to run for office in the next election.\" — intentionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "意図、目的",
+            "能力",
+            "決定",
+            "約束"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Good intention",
+        "Clear intention",
+        "With the intention of"
+      ]
+    },
+    {
+      "word": "maintenance",
+      "phonetic": "/ˈmeɪntənəns/",
+      "toeicRank": "800",
+      "parts": [
+        {
+          "part": "main-",
+          "meaning": "手で、保つ",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ、保有する",
+          "type": "root"
+        },
+        {
+          "part": "-ance",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「手で保つ、維持する」というラテン語maintenireから派生",
+        "fact": "ラテン語maintenireは「manu（手で）+ tenere（保つ）」で、「手で物を保ち続ける、維持する」という意味。やがて一般的な「保守、維持」を指すようになった",
+        "source": "EtymOnline: Latin manu + tenere",
+        "cognates": [
+          "maintain",
+          "maintainer",
+          "contain",
+          "sustain",
+          "detain"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「物や状態を手で保ち続ける、維持する行為」",
+        "fact": "maintenanceの本質は「保つ（tenere）」こと。元の状態を持続させるために継続的に手を加える必要性を表現",
+        "source": "言語発展史"
+      },
+      "gap": "maintenanceは「保守」「維持」の他に「養扶費」という法律用語としても使われるが、いずれも「状態を保ち続ける」という共通点を持つ",
+      "gapOneliner": "継続的に何かを保ち続ける行為と状態",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Maintenance = Main（手で）+ Tain（保つ）+ Ance（状態）」→ 手で継続的に保つこと、つまり「保守」「維持」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "maintenanceの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "保守、維持管理",
+            "注意",
+            "娯楽",
+            "拡張"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "maintenanceの『main』はどの言語からの語根？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ラテン語manu（手）から",
+            "フランス語mainから",
+            "ゲルマン語mainからから",
+            "ギリシャ語から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Regular ______ of your car will extend its lifespan.",
+          "hint": "機械や物を保ち続けることを示す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "maintenance",
+            "attendance",
+            "attention",
+            "extension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "maintenanceと最も自然に結びつく形容詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "regular",
+            "preventive",
+            "routine",
+            "proper"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The building requires ongoing maintenance to remain safe and functional.\" — maintenanceの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "保守、維持管理",
+            "修理",
+            "改築",
+            "検査"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Building maintenance",
+        "Vehicle maintenance",
+        "Routine maintenance",
+        "Maintenance cost"
+      ]
+    },
+    {
+      "word": "sustainable",
+      "phonetic": "/səˈsteɪnəbəl/",
+      "toeicRank": "850",
+      "parts": [
+        {
+          "part": "sus-",
+          "meaning": "下から支える",
+          "type": "prefix"
+        },
+        {
+          "part": "tain",
+          "meaning": "保つ、保有する",
+          "type": "root"
+        },
+        {
+          "part": "-able",
+          "meaning": "〜できる、〜しうる",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「下から支えて保つことができる」という意味のラテン語sustainereから派生",
+        "fact": "ラテン語sustainereは「sus（下から）+ tenere（保つ）」で、「下から支えて保つ」という意味。現代では環境問題の文脈で「継続可能な」を意味する",
+        "source": "EtymOnline: Latin sustinere",
+        "cognates": [
+          "sustain",
+          "sustained",
+          "contain",
+          "maintain",
+          "detain"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「下から支えて継続的に保つことができる状態」",
+        "fact": "sustainableは環境・社会・経済が長期的に保ち続けられることを表現。susは「下から支える」という土台への信頼を示唆",
+        "source": "環境社会学"
+      },
+      "gap": "sustainableは「持続可能な」という現代的な訳語を持つが、根底には「保つ、保ち続ける」という古いラテン語の概念がある",
+      "gapOneliner": "下から支えて継続的に保つことができる性質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「Sustainable = Sus（下から支える）+ Tain（保つ）+ Able（できる）」→ 下から支えて保ち続けることができる、つまり「持続可能な」"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sustainableの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "持続可能な",
+            "裕福な",
+            "拡張できる",
+            "継続的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sustainとsustainableの語根の違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "同じ語根から派生した異なる品詞",
+            "全く異なる語根である",
+            "sustainは動詞、sustainableは動詞である",
+            "sustainableは古い用法である"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company promotes ______ practices to protect the environment.",
+          "hint": "長期的に保ち続けることができるという意味の形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "sustainable",
+            "sustained",
+            "sustained",
+            "sustaining"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sustainableと最も自然に結びつく名詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "development",
+            "energy",
+            "agriculture",
+            "practice"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We need to shift toward sustainable energy sources to combat climate change.\" — sustainableの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "持続可能な、長期的に保ち続けられる",
+            "新しい",
+            "効率的な",
+            "安価な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Sustainable development",
+        "Sustainable energy",
+        "Sustainable agriculture",
+        "Sustainability"
+      ]
     }
   ]
 }

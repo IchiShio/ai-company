@@ -13,15 +13,33 @@
       "phonetic": "/ˈreɡjʊleɪt/",
       "toeicRank": "TSL 400位相当",
       "parts": [
-        {"part": "reg", "meaning": "まっすぐ・支配する", "type": "root"},
-        {"part": "ul", "meaning": "指小辞（小さく）", "type": "suffix"},
-        {"part": "ate", "meaning": "動詞化", "type": "suffix"}
+        {
+          "part": "reg",
+          "meaning": "まっすぐ・支配する",
+          "type": "root"
+        },
+        {
+          "part": "ul",
+          "meaning": "指小辞（小さく）",
+          "type": "suffix"
+        },
+        {
+          "part": "ate",
+          "meaning": "動詞化",
+          "type": "suffix"
+        }
       ],
       "etymology": {
         "oneliner": "regere（支配する）+ -ula（小さく）+ -ate（動詞）= 細かく整えて支配する → 規制する",
         "fact": "ラテン語 regulare「まっすぐにする、規則に従わせる」から。regulaは「定規、規則」（regereの派生）。1670年代に「規則によって統制する」の意味で英語に入った。「定規で線を引く」ように対象をまっすぐに整える動きが語源的本質。",
         "source": "EtymOnline: regulate",
-        "cognates": ["regulation", "regulator", "regulatory", "irregular", "deregulate"]
+        "cognates": [
+          "regulation",
+          "regulator",
+          "regulatory",
+          "irregular",
+          "deregulate"
+        ]
       },
       "cognitive": {
         "oneliner": "まっすぐな基準を当てて逸脱を修正し続ける→規制・調整する",
@@ -40,7 +58,12 @@
           "difficulty": 1,
           "instruction": "regulateの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["まっすぐに整えて支配する→規制する", "前に押し出す→生み出す", "一緒に動かす→操作する", "後ろに引く→縮小する"],
+          "choices": [
+            "まっすぐに整えて支配する→規制する",
+            "前に押し出す→生み出す",
+            "一緒に動かす→操作する",
+            "後ろに引く→縮小する"
+          ],
           "correct": 0
         },
         {
@@ -48,7 +71,12 @@
           "difficulty": 2,
           "instruction": "reg + ul + ate の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["支配する + 小さく + 動詞 = 細かく整える", "前へ + 一緒に + 動詞 = 集める", "後ろへ + 繰り返し + 動詞 = 元に戻す", "外へ + 強く + 動詞 = 追い出す"],
+          "choices": [
+            "支配する + 小さく + 動詞 = 細かく整える",
+            "前へ + 一緒に + 動詞 = 集める",
+            "後ろへ + 繰り返し + 動詞 = 元に戻す",
+            "外へ + 強く + 動詞 = 追い出す"
+          ],
           "correct": 0
         },
         {
@@ -58,7 +86,12 @@
           "sentence": "The government needs to ______ the financial industry more strictly.",
           "hint": "「まっすぐに整える」→「規制する」",
           "explanationFocus": "gap",
-          "choices": ["regulate", "generate", "evaluate", "calculate"],
+          "choices": [
+            "regulate",
+            "generate",
+            "evaluate",
+            "calculate"
+          ],
           "correct": 0
         },
         {
@@ -66,7 +99,12 @@
           "difficulty": 3,
           "instruction": "regulateと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["body temperature（体温を調節する）", "a song（歌を規制する）", "a friend（友人を整える）", "the sky（空を調節する）"],
+          "choices": [
+            "body temperature（体温を調節する）",
+            "a song（歌を規制する）",
+            "a friend（友人を整える）",
+            "the sky（空を調節する）"
+          ],
           "correct": 0
         },
         {
@@ -74,25 +112,46 @@
           "difficulty": 4,
           "instruction": "\"The new law regulates how companies collect personal data.\" — regulatesの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["規制する", "促進する", "記録する", "無視する"],
+          "choices": [
+            "規制する",
+            "促進する",
+            "記録する",
+            "無視する"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The government regulates food safety standards."]
+      "examples": [
+        "The government regulates food safety standards."
+      ]
     },
     {
       "word": "correct",
       "phonetic": "/kəˈrekt/",
       "toeicRank": "TSL外・NGSL上位",
       "parts": [
-        {"part": "cor", "meaning": "完全に（con-の変化形）", "type": "prefix"},
-        {"part": "rect", "meaning": "まっすぐにする", "type": "root"}
+        {
+          "part": "cor",
+          "meaning": "完全に（con-の変化形）",
+          "type": "prefix"
+        },
+        {
+          "part": "rect",
+          "meaning": "まっすぐにする",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "com（完全に）+ regere（まっすぐにする）= 完全にまっすぐにする → 正す・正しい",
         "fact": "ラテン語 corrigere「まっすぐにする、正す」の過去分詞 correctus から。14世紀後半に「誤りを正す」の意味で英語に入り、形容詞「正しい、適切な」の用法は1670年代から。con- が cor- に変化するのはr音の前での同化現象（assimilation）。",
         "source": "EtymOnline: correct",
-        "cognates": ["correction", "correctly", "incorrect", "corrective", "incorrigible"]
+        "cognates": [
+          "correction",
+          "correctly",
+          "incorrect",
+          "corrective",
+          "incorrigible"
+        ]
       },
       "cognitive": {
         "oneliner": "曲がったものを完全にまっすぐに戻す→正す・正しい",
@@ -111,7 +170,12 @@
           "difficulty": 1,
           "instruction": "correctの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["完全にまっすぐにする→正す", "一緒に導く→案内する", "後ろに引く→元に戻す", "前に出す→提案する"],
+          "choices": [
+            "完全にまっすぐにする→正す",
+            "一緒に導く→案内する",
+            "後ろに引く→元に戻す",
+            "前に出す→提案する"
+          ],
           "correct": 0
         },
         {
@@ -119,7 +183,12 @@
           "difficulty": 2,
           "instruction": "cor + rect の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["完全に + まっすぐ = 正しい", "一緒に + 導く = 実施する", "前に + まっすぐ = 前進する", "外に + 曲げる = 逸脱する"],
+          "choices": [
+            "完全に + まっすぐ = 正しい",
+            "一緒に + 導く = 実施する",
+            "前に + まっすぐ = 前進する",
+            "外に + 曲げる = 逸脱する"
+          ],
           "correct": 0
         },
         {
@@ -129,7 +198,12 @@
           "sentence": "Please ______ any errors you find in the report.",
           "hint": "「完全にまっすぐにする」→「正す」",
           "explanationFocus": "gap",
-          "choices": ["correct", "collect", "connect", "protect"],
+          "choices": [
+            "correct",
+            "collect",
+            "connect",
+            "protect"
+          ],
           "correct": 0
         },
         {
@@ -137,7 +211,12 @@
           "difficulty": 3,
           "instruction": "correctと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["answer（正しい答え）", "weather（正しい天気）", "color（正しい色）", "distance（正しい距離）"],
+          "choices": [
+            "answer（正しい答え）",
+            "weather（正しい天気）",
+            "color（正しい色）",
+            "distance（正しい距離）"
+          ],
           "correct": 0
         },
         {
@@ -145,25 +224,47 @@
           "difficulty": 4,
           "instruction": "\"The editor corrected the manuscript before publication.\" — correctedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["修正した", "印刷した", "読んだ", "削除した"],
+          "choices": [
+            "修正した",
+            "印刷した",
+            "読んだ",
+            "削除した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The teacher corrected the students' homework carefully."]
+      "examples": [
+        "The teacher corrected the students' homework carefully."
+      ]
     },
     {
       "word": "direct",
       "phonetic": "/dɪˈrekt/",
       "toeicRank": "TSL 150位相当",
       "parts": [
-        {"part": "di", "meaning": "離れて・完全に（dis-の変化形）", "type": "prefix"},
-        {"part": "rect", "meaning": "まっすぐにする", "type": "root"}
+        {
+          "part": "di",
+          "meaning": "離れて・完全に（dis-の変化形）",
+          "type": "prefix"
+        },
+        {
+          "part": "rect",
+          "meaning": "まっすぐにする",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "dis（完全に）+ regere（まっすぐにする）= 完全にまっすぐに向ける → 向ける・直接の",
         "fact": "ラテン語 dirigere「まっすぐに向ける、整列させる」の過去分詞 directus から。14世紀後半に形容詞「まっすぐな、直接の」で英語に入り、動詞「向ける、指示する、監督する」は15世紀から。dis- が di- に短縮されるのは子音簡略化。",
         "source": "EtymOnline: direct",
-        "cognates": ["direction", "director", "directly", "indirect", "misdirect", "directory"]
+        "cognates": [
+          "direction",
+          "director",
+          "directly",
+          "indirect",
+          "misdirect",
+          "directory"
+        ]
       },
       "cognitive": {
         "oneliner": "目標に向かって完全にまっすぐ向ける→向ける・直接の",
@@ -182,7 +283,12 @@
           "difficulty": 1,
           "instruction": "directの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["完全にまっすぐ向ける→指示する・直接の", "一緒にまっすぐにする→整列させる", "後ろへまっすぐ引く→退く", "前へまっすぐ出す→突き出す"],
+          "choices": [
+            "完全にまっすぐ向ける→指示する・直接の",
+            "一緒にまっすぐにする→整列させる",
+            "後ろへまっすぐ引く→退く",
+            "前へまっすぐ出す→突き出す"
+          ],
           "correct": 0
         },
         {
@@ -190,7 +296,12 @@
           "difficulty": 2,
           "instruction": "di + rect の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["完全に + まっすぐ = 直接に向ける", "二つ + まっすぐ = 二方向に分ける", "外に + まっすぐ = 外に出す", "下に + まっすぐ = 下に向ける"],
+          "choices": [
+            "完全に + まっすぐ = 直接に向ける",
+            "二つ + まっすぐ = 二方向に分ける",
+            "外に + まっすぐ = 外に出す",
+            "下に + まっすぐ = 下に向ける"
+          ],
           "correct": 0
         },
         {
@@ -200,7 +311,12 @@
           "sentence": "Can you ______ me to the nearest exit?",
           "hint": "「まっすぐに向ける」→「道を教える」",
           "explanationFocus": "gap",
-          "choices": ["direct", "detect", "deflect", "collect"],
+          "choices": [
+            "direct",
+            "detect",
+            "deflect",
+            "collect"
+          ],
           "correct": 0
         },
         {
@@ -208,7 +324,12 @@
           "difficulty": 3,
           "instruction": "directと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["flight（直行便）", "rain（直接の雨）", "book（直接の本）", "tree（まっすぐな木）"],
+          "choices": [
+            "flight（直行便）",
+            "rain（直接の雨）",
+            "book（直接の本）",
+            "tree（まっすぐな木）"
+          ],
           "correct": 0
         },
         {
@@ -216,25 +337,46 @@
           "difficulty": 4,
           "instruction": "\"She directed her team to focus on the key issues.\" — directedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["指示した", "禁止した", "混乱させた", "無視した"],
+          "choices": [
+            "指示した",
+            "禁止した",
+            "混乱させた",
+            "無視した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The manager directed the team to finish the project by Friday."]
+      "examples": [
+        "The manager directed the team to finish the project by Friday."
+      ]
     },
     {
       "word": "region",
       "phonetic": "/ˈriːdʒən/",
       "toeicRank": "TSL 500位相当",
       "parts": [
-        {"part": "reg", "meaning": "支配する・王", "type": "root"},
-        {"part": "ion", "meaning": "名詞化（場所・状態）", "type": "suffix"}
+        {
+          "part": "reg",
+          "meaning": "支配する・王",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "名詞化（場所・状態）",
+          "type": "suffix"
+        }
       ],
       "etymology": {
         "oneliner": "regere（支配する）+ -io（名詞）= 支配が及ぶ場所 → 地域・地方",
         "fact": "ラテン語 regio「方向、路線、行政区、地域」から。regio はまさに regere「まっすぐに支配する」の名詞形。「王の杖がまっすぐに向く方向」→「その方向に広がる支配地域」という意味の変遷。14世紀後半に英語に入った。",
         "source": "EtymOnline: region",
-        "cognates": ["regional", "interregional", "regime", "reign", "rex（ラテン語・王）"]
+        "cognates": [
+          "regional",
+          "interregional",
+          "regime",
+          "reign",
+          "rex（ラテン語・王）"
+        ]
       },
       "cognitive": {
         "oneliner": "支配権が及ぶ範囲＝まっすぐ引いた境界線の内側→地域",
@@ -253,7 +395,12 @@
           "difficulty": 1,
           "instruction": "regionの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["支配が及ぶ場所→地域", "前に広がる場所→未来", "一緒にいる場所→コミュニティ", "後ろにある場所→過去"],
+          "choices": [
+            "支配が及ぶ場所→地域",
+            "前に広がる場所→未来",
+            "一緒にいる場所→コミュニティ",
+            "後ろにある場所→過去"
+          ],
           "correct": 0
         },
         {
@@ -261,7 +408,12 @@
           "difficulty": 2,
           "instruction": "reg + ion の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["支配する + 名詞 = 支配が及ぶ範囲", "まっすぐ + 名詞 = 直線", "生む + 名詞 = 産物", "導く + 名詞 = 案内"],
+          "choices": [
+            "支配する + 名詞 = 支配が及ぶ範囲",
+            "まっすぐ + 名詞 = 直線",
+            "生む + 名詞 = 産物",
+            "導く + 名詞 = 案内"
+          ],
           "correct": 0
         },
         {
@@ -271,7 +423,12 @@
           "sentence": "The Asia-Pacific ______ is one of the fastest-growing markets in the world.",
           "hint": "「支配が及ぶ範囲」→「地域」",
           "explanationFocus": "gap",
-          "choices": ["region", "reason", "season", "legion"],
+          "choices": [
+            "region",
+            "reason",
+            "season",
+            "legion"
+          ],
           "correct": 0
         },
         {
@@ -279,7 +436,12 @@
           "difficulty": 3,
           "instruction": "regionと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["coastal（沿岸地域）", "mental（精神的地域）", "digital（デジタル地域）", "verbal（言語地域）"],
+          "choices": [
+            "coastal（沿岸地域）",
+            "mental（精神的地域）",
+            "digital（デジタル地域）",
+            "verbal（言語地域）"
+          ],
           "correct": 0
         },
         {
@@ -287,26 +449,51 @@
           "difficulty": 4,
           "instruction": "\"The project will cost in the region of $2 million.\" — in the region ofの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["約〜の範囲で", "まさに〜の金額で", "〜より少なく", "〜の地方で"],
+          "choices": [
+            "約〜の範囲で",
+            "まさに〜の金額で",
+            "〜より少なく",
+            "〜の地方で"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["Sales in the Asia-Pacific region increased by 15% last year."]
+      "examples": [
+        "Sales in the Asia-Pacific region increased by 15% last year."
+      ]
     },
     {
       "word": "regular",
       "phonetic": "/ˈreɡjʊlər/",
       "toeicRank": "TSL外・NGSL上位",
       "parts": [
-        {"part": "reg", "meaning": "まっすぐ・規則", "type": "root"},
-        {"part": "ul", "meaning": "指小辞（小さく）", "type": "suffix"},
-        {"part": "ar", "meaning": "形容詞化（〜の性質を持つ）", "type": "suffix"}
+        {
+          "part": "reg",
+          "meaning": "まっすぐ・規則",
+          "type": "root"
+        },
+        {
+          "part": "ul",
+          "meaning": "指小辞（小さく）",
+          "type": "suffix"
+        },
+        {
+          "part": "ar",
+          "meaning": "形容詞化（〜の性質を持つ）",
+          "type": "suffix"
+        }
       ],
       "etymology": {
         "oneliner": "regula（定規・規則）+ -ar（〜の性質）= 定規のような性質を持つ → 規則的な",
         "fact": "ラテン語 regularis「規則に従った、定規のような」から。regulaは「まっすぐな棒・定規・規則」（regereの派生形）。14世紀後半に「宗教規則に従った修道士」の意味で英語に入り、15世紀以降に「規則正しい、普通の」の一般的用法に広がった。",
         "source": "EtymOnline: regular",
-        "cognates": ["regularly", "irregular", "regularity", "regularize", "regulate"]
+        "cognates": [
+          "regularly",
+          "irregular",
+          "regularity",
+          "regularize",
+          "regulate"
+        ]
       },
       "cognitive": {
         "oneliner": "定規で引いたようにまっすぐで均一な性質→規則的・普通の",
@@ -325,7 +512,12 @@
           "difficulty": 1,
           "instruction": "regularの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["定規のような性質→規則的な", "王のような性質→権威ある", "道のような性質→通り道の", "前方の性質→進んだ"],
+          "choices": [
+            "定規のような性質→規則的な",
+            "王のような性質→権威ある",
+            "道のような性質→通り道の",
+            "前方の性質→進んだ"
+          ],
           "correct": 0
         },
         {
@@ -333,7 +525,12 @@
           "difficulty": 2,
           "instruction": "reg + ul + ar の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["規則 + 小さく + 形容詞 = 定規通りの性質", "支配 + 強く + 形容詞 = 権力のある", "導く + 一緒に + 形容詞 = 協力的な", "生む + 繰り返し + 形容詞 = 生産的な"],
+          "choices": [
+            "規則 + 小さく + 形容詞 = 定規通りの性質",
+            "支配 + 強く + 形容詞 = 権力のある",
+            "導く + 一緒に + 形容詞 = 協力的な",
+            "生む + 繰り返し + 形容詞 = 生産的な"
+          ],
           "correct": 0
         },
         {
@@ -343,7 +540,12 @@
           "sentence": "He is a ______ customer at this coffee shop and comes in every morning.",
           "hint": "「定規通りに繰り返す」→「常連の・定期的な」",
           "explanationFocus": "gap",
-          "choices": ["regular", "popular", "familiar", "similar"],
+          "choices": [
+            "regular",
+            "popular",
+            "familiar",
+            "similar"
+          ],
           "correct": 0
         },
         {
@@ -351,7 +553,12 @@
           "difficulty": 3,
           "instruction": "regularと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["exercise（定期的な運動）", "dream（規則的な夢）", "luck（普通の幸運）", "idea（一般的なアイデア）"],
+          "choices": [
+            "exercise（定期的な運動）",
+            "dream（規則的な夢）",
+            "luck（普通の幸運）",
+            "idea（一般的なアイデア）"
+          ],
           "correct": 0
         },
         {
@@ -359,25 +566,44 @@
           "difficulty": 4,
           "instruction": "\"We hold regular team meetings every Monday morning.\" — regularの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["定期的な", "重要な", "短い", "任意の"],
+          "choices": [
+            "定期的な",
+            "重要な",
+            "短い",
+            "任意の"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["Regular exercise is important for maintaining good health."]
+      "examples": [
+        "Regular exercise is important for maintaining good health."
+      ]
     },
     {
       "word": "erect",
       "phonetic": "/ɪˈrekt/",
       "toeicRank": "TSL外・TOEIC L&R 頻出（建設文書）",
       "parts": [
-        {"part": "e", "meaning": "上へ・外へ（ex-の変化形）", "type": "prefix"},
-        {"part": "rect", "meaning": "まっすぐにする", "type": "root"}
+        {
+          "part": "e",
+          "meaning": "上へ・外へ（ex-の変化形）",
+          "type": "prefix"
+        },
+        {
+          "part": "rect",
+          "meaning": "まっすぐにする",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "ex（上へ）+ regere（まっすぐにする）= 上へまっすぐに立てる → 直立した・建てる",
         "fact": "ラテン語 erigere「まっすぐに立てる、起こす」の過去分詞 erectus から。14世紀後半に形容詞「直立した、まっすぐに立った」で英語に入り、動詞「建てる・組み立てる」の用法は1530年代から。建設現場の「足場を立てる」から「建物を建立する」へ拡張。",
         "source": "EtymOnline: erect",
-        "cognates": ["erection", "erector", "erectile"]
+        "cognates": [
+          "erection",
+          "erector",
+          "erectile"
+        ]
       },
       "cognitive": {
         "oneliner": "上方向にまっすぐ引き起こす→直立した・建てる",
@@ -396,7 +622,12 @@
           "difficulty": 1,
           "instruction": "erectの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["上へまっすぐに立てる→直立した・建てる", "外へまっすぐ向ける→指示する", "完全にまっすぐにする→正す", "一緒にまっすぐにする→整列する"],
+          "choices": [
+            "上へまっすぐに立てる→直立した・建てる",
+            "外へまっすぐ向ける→指示する",
+            "完全にまっすぐにする→正す",
+            "一緒にまっすぐにする→整列する"
+          ],
           "correct": 0
         },
         {
@@ -404,7 +635,12 @@
           "difficulty": 2,
           "instruction": "e + rect の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["上へ・外へ + まっすぐ = 直立させる", "完全に + まっすぐ = 修正する", "一緒に + まっすぐ = 整列させる", "後ろへ + まっすぐ = 後退する"],
+          "choices": [
+            "上へ・外へ + まっすぐ = 直立させる",
+            "完全に + まっすぐ = 修正する",
+            "一緒に + まっすぐ = 整列させる",
+            "後ろへ + まっすぐ = 後退する"
+          ],
           "correct": 0
         },
         {
@@ -414,7 +650,12 @@
           "sentence": "Workers began to ______ the scaffolding around the old building.",
           "hint": "「上へまっすぐ立てる」→「組み立てる・設置する」",
           "explanationFocus": "gap",
-          "choices": ["erect", "elect", "eject", "effect"],
+          "choices": [
+            "erect",
+            "elect",
+            "eject",
+            "effect"
+          ],
           "correct": 0
         },
         {
@@ -422,7 +663,12 @@
           "difficulty": 3,
           "instruction": "erectと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["statue（像を建立する）", "problem（問題を立てる）", "idea（アイデアを直立させる）", "question（質問をまっすぐにする）"],
+          "choices": [
+            "statue（像を建立する）",
+            "problem（問題を立てる）",
+            "idea（アイデアを直立させる）",
+            "question（質問をまっすぐにする）"
+          ],
           "correct": 0
         },
         {
@@ -430,11 +676,1025 @@
           "difficulty": 4,
           "instruction": "\"The soldiers stood erect during the ceremony.\" — erectの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["直立して", "緊張して", "整列して", "静かに"],
+          "choices": [
+            "直立して",
+            "緊張して",
+            "整列して",
+            "静かに"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The construction crew will erect the new building framework next week."]
+      "examples": [
+        "The construction crew will erect the new building framework next week."
+      ]
+    },
+    {
+      "word": "irregular",
+      "phonetic": "ɪˈreɡjələr",
+      "toeicRank": "1000-1500",
+      "parts": [
+        {
+          "part": "ir-",
+          "meaning": "～ではない（否定接頭辞）",
+          "type": "prefix"
+        },
+        {
+          "part": "reg",
+          "meaning": "まっすぐ、支配する（ラテン語regere）",
+          "type": "root"
+        },
+        {
+          "part": "-ular",
+          "meaning": "～の特性を持つ（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "regere（まっすぐにする）の反対形で、規則に従わない状態を意味する",
+        "fact": "15世紀にフランス語を経由してラテン語irrēgulārisから借用された。regulusは小さな王を意味し、支配や秩序の概念に由来する",
+        "source": "EtymOnline: irregular from Old French irrégulier, from Latin irrēgulāris",
+        "cognates": [
+          "regulate",
+          "regular",
+          "region",
+          "regime"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "ルール（regular）から外れたもの＝不規則、不正なもの",
+        "fact": "regulusという小さな王を支配者に見立てることで、秩序ある状態と混乱した状態の対比が生まれた",
+        "source": "認知言語学：対比によるカテゴリー化"
+      },
+      "gap": "日本語では『不規則』と『違法』の概念が混在しやすいが、英語では『ルールに合わない』という中立的な意味が強い",
+      "gapOneliner": "irreg-は単なる『ルール違反』ではなく『パターンの不一貫性』を表す",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『ir-rule-ar』と分解すると「ルールが無い状態」という直感的なイメージが湧く"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "irregularの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "不規則な、不正な",
+            "美しい",
+            "急速な",
+            "賢い"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "irregularの語根『reg』の意味は何か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "まっすぐ、支配する",
+            "赤い",
+            "走る",
+            "見える"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "His work schedule is ______, making it hard to plan ahead.",
+          "hint": "規則性がない",
+          "explanationFocus": "gap",
+          "choices": [
+            "irregular",
+            "regular",
+            "important",
+            "famous"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『irregular』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "heartbeat",
+            "beauty",
+            "strength",
+            "size"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The patient's irregular breathing was concerning to the doctor.\" — irregularの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "リズムが一定でない",
+            "速い",
+            "浅い",
+            "音が大きい"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "irregular verbs（不規則動詞）",
+        "irregular heartbeat（不規則な心拍）",
+        "irregular patterns（不規則なパターン）"
+      ]
+    },
+    {
+      "word": "regime",
+      "phonetic": "reɪˈʒiːm",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "regime",
+          "meaning": "統治、支配体制、制度（ラテン語regimen）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『支配する』というreg語根から、統治者による支配の仕組み全体を指すようになった",
+        "fact": "ラテン語regimen（統治、支配）から14世紀にフランス語を経由して借用。regereの分詞形から派生した",
+        "source": "EtymOnline: regime from French régime, from Latin regimen 'rule, governance'",
+        "cognates": [
+          "regulate",
+          "region",
+          "regiment",
+          "reign"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『支配する者による統治システム』＝政治体制、統治方法",
+        "fact": "regimenという医学用語（食事療法）も同じ語根から派生。『支配のもとに生活する』という概念",
+        "source": "認知言語学：支配から秩序化された制度へ"
+      },
+      "gap": "日本語では『体制』『制度』『政権』が混在。英語のregimeは単に『統治方法』という中立的な用語",
+      "gapOneliner": "regimeは『誰が支配するか』という権力構造を指し、『独裁政権』の負のニュアンスは文脈による",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『レジーム（regime）』＝『支配者による統治のルール』を意識する"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regimeの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "政治体制、統治方法",
+            "食べ物",
+            "衣服",
+            "言語"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "regimeの語源『regimen』が最初に意味していたのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "統治、支配",
+            "食べる",
+            "歩く",
+            "読む"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The authoritarian ______ controlled every aspect of citizens' lives.",
+          "hint": "独裁的な支配体制",
+          "explanationFocus": "gap",
+          "choices": [
+            "regime",
+            "region",
+            "register",
+            "regular"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『regime』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "authoritarian",
+            "beautiful",
+            "quiet",
+            "modern"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The military regime lasted for decades before democracy was restored.\" — regimeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "軍事独裁体制",
+            "軍の武器",
+            "軍の訓練",
+            "軍の歴史"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "authoritarian regime（独裁体制）",
+        "regime change（政権交代）",
+        "fitness regime（運動制度）"
+      ]
+    },
+    {
+      "word": "regional",
+      "phonetic": "ˈriːdʒənəl",
+      "toeicRank": "1000-1500",
+      "parts": [
+        {
+          "part": "region",
+          "meaning": "地域、領域（ラテン語regio）",
+          "type": "root"
+        },
+        {
+          "part": "-al",
+          "meaning": "～に関する（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『支配される領域』という意味のregioから、地理的な区切られた地域を指すようになった",
+        "fact": "ラテン語regio（支配されている地域、地方）はregere（支配する）から派生。13世紀にフランス語を経由して借用",
+        "source": "EtymOnline: region from Latin regio 'district, territory under rule'",
+        "cognates": [
+          "regulate",
+          "regime",
+          "regent",
+          "reign"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『支配者によって定義される区切られた地域』＝地方、領域",
+        "fact": "regioは本来『統治下にある地方』を意味し、地理的境界より行政的支配の概念が強かった",
+        "source": "認知言語学：行政区画から地理的地域へのシフト"
+      },
+      "gap": "日本語の『地域』は物理的な地理を指すが、英語のregionは歴史的に『統治される領土』という政治的な意味から始まった",
+      "gapOneliner": "regionalは単なる地理的位置ではなく『一定の統治下にある区域』というニュアンスを含む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『レジオン（region）』＝古代ローマの『支配下の地方領土』を思い浮かべる"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regionalの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "地域の、地方の",
+            "個人の",
+            "全国的な",
+            "国際的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "regionの語源『regio』の本来の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "支配される地方",
+            "川",
+            "山",
+            "城"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ differences in cuisine reflect the local culture and history.",
+          "hint": "地域ごとの違い",
+          "explanationFocus": "gap",
+          "choices": [
+            "regional",
+            "regular",
+            "recent",
+            "remarkable"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『regional』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "differences",
+            "beauty",
+            "speed",
+            "number"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company has regional offices in five different countries.\" — regionalの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "地域ごとの、各地方の",
+            "本社の",
+            "新しい",
+            "大きな"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "regional differences（地域差）",
+        "regional office（支店）",
+        "regional cuisine（地域料理）"
+      ]
+    },
+    {
+      "word": "registration",
+      "phonetic": "ˌredʒɪˈstreɪʃən",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "register",
+          "meaning": "登録する（ラテン語registrum）",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "行為、状態、結果（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『直線的に記録する』という意味から、『公式に記録に残す』という法的な登録行為を指すようになった",
+        "fact": "ラテン語registrum（記録）は『整然と並べる、直線的に配置する』というreg語根から派生。中世ラテン語で『公式な記録簿』を意味した",
+        "source": "EtymOnline: registration from Medieval Latin registratio, from registrare 'to record'",
+        "cognates": [
+          "register",
+          "regulate",
+          "regex",
+          "regiment"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『秩序立てて記録する』＝公式な登録手続き",
+        "fact": "regは『まっすぐ、整然と』という物理的配置から『秩序ある記録』という抽象化へ進んだ",
+        "source": "認知言語学：物理的配置から行為へのメタファー"
+      },
+      "gap": "日本語では『登録』『届け出』『申請』が混在。英語のregistrationは『公式な記録に名前を加える』という法的な行為",
+      "gapOneliner": "registrationは『権利や義務を持つ者として公式に認められる』という行政的な過程を意味する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『登録簿（register）に整然と名前を記す』というイメージから記憶する"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "registrationの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "登録、届け出",
+            "読書",
+            "運動",
+            "試験"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "registerの語源『registrum』が本来示していたのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "公式な記録簿",
+            "市場",
+            "劇場",
+            "橋"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Vehicle ______ is required by law in most countries.",
+          "hint": "車の登録",
+          "explanationFocus": "gap",
+          "choices": [
+            "registration",
+            "regulation",
+            "region",
+            "regime"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『registration』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "fee",
+            "food",
+            "music",
+            "color"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The registration deadline for the conference is next Friday.\" — registrationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "参加登録",
+            "会議の開始",
+            "講演者",
+            "参加費"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "car registration（車の登録）",
+        "registration fee（登録料）",
+        "voter registration（有権者登録）"
+      ]
+    },
+    {
+      "word": "regulation",
+      "phonetic": "ˌreɡjəˈleɪʃən",
+      "toeicRank": "1000-1500",
+      "parts": [
+        {
+          "part": "regulate",
+          "meaning": "規制する、調整する（ラテン語regulare）",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "行為、状態、結果（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『まっすぐにする、秩序を正す』というreg語根から、『ルールに従うよう統制する』という意味に発展",
+        "fact": "ラテン語regulare（『直線定規で直す』から『ルールに合わせる』へ）は14世紀にフランス語を経由して借用。regulaは『定規』と『ルール』を同時に意味した",
+        "source": "EtymOnline: regulation from Medieval Latin regulatio, from regulare 'to regulate'",
+        "cognates": [
+          "regulate",
+          "regular",
+          "rule",
+          "ruler"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『秩序を正す』という物理的行為から『ルールに従わせる』という権力的統制へ",
+        "fact": "regulaという『定規』から、『正しい方法を示すルール』という抽象化が生まれた",
+        "source": "認知言語学：道具の名称から規則へのメタファー"
+      },
+      "gap": "日本語の『規制』と『規則』が混在。英語のregulationは『権威による統制行為と、その結果生まれたルール両方』を指す",
+      "gapOneliner": "regulationは単なる『ルール』ではなく『統制権を持つ者による強制的な秩序付け』を含む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『定規（regular）で物を正す』→『ルール（regulation）で社会を正す』という類推"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regulationの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "規制、規則",
+            "市場",
+            "交通",
+            "問題"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "regulationの語根『regula』の本来の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "定規、ルール",
+            "王様",
+            "門",
+            "壁"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Environmental ______ aims to reduce pollution and protect nature.",
+          "hint": "環境保全のルール",
+          "explanationFocus": "gap",
+          "choices": [
+            "regulation",
+            "region",
+            "regime",
+            "registration"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『regulation』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "compliance",
+            "food",
+            "music",
+            "weather"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The government imposed strict regulations on industrial emissions.\" — regulationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "規制、統制",
+            "支援",
+            "奨励",
+            "許可"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "government regulation（政府規制）",
+        "safety regulation（安全規則）",
+        "comply with regulations（規則に従う）"
+      ]
+    },
+    {
+      "word": "regulatory",
+      "phonetic": "ˈreɡjələˌtɔːri",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "regulate",
+          "meaning": "規制する、調整する（ラテン語regulare）",
+          "type": "root"
+        },
+        {
+          "part": "-ory",
+          "meaning": "～に関する、～的な（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "regulationを形容詞化した語で、『規制に関する』『統制的な』という性質を表す",
+        "fact": "regulateから-ory接尾辞で形容詞化。16世紀後半に『統制権を行使する』という意味で確立された",
+        "source": "EtymOnline: regulatory from regulate + -ory suffix",
+        "cognates": [
+          "regulate",
+          "regulation",
+          "rule",
+          "ruler"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『秩序を正す力を持つ』＝統制的な、規制的な",
+        "fact": "regulateという動詞から-oryという性質を表す接尾辞が付加され、『統制の特性を持つもの』を指すようになった",
+        "source": "認知言語学：動詞から形容詞へのプロセス"
+      },
+      "gap": "日本語では『規制の』と『規制的』が混在。英語のregulatoryは『統制権を持つ機関や性質』を専門的に指す",
+      "gapOneliner": "regulatoryは法律や行政の専門用語で、『公式な統制権を行使する』というニュアンスが強い",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『ラギュレーター（regulator）』＝調整役、統制者という概念から『規制的な』を想起する"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regulatoryの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "規制的な、統制的な",
+            "新しい",
+            "古い",
+            "異なる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "regulatoryという形容詞の基になった動詞は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "regulate",
+            "register",
+            "region",
+            "reign"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ agency oversees food safety standards.",
+          "hint": "規制を行う政府機関",
+          "explanationFocus": "gap",
+          "choices": [
+            "regulatory",
+            "regional",
+            "regular",
+            "recent"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『regulatory』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "agency",
+            "food",
+            "music",
+            "weather"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company faced significant regulatory hurdles before launching the new product.\" — regulatoryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "規制当局による、統制的な",
+            "市場の",
+            "競争",
+            "消費者"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "regulatory agency（規制機関）",
+        "regulatory compliance（規制遵守）",
+        "regulatory framework（規制枠組み）"
+      ]
+    },
+    {
+      "word": "reign",
+      "phonetic": "reɪn",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "reign",
+          "meaning": "統治、支配（ラテン語regnum）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『支配する者』を意味するrex（王）から、『王の統治期間』という意味に発展",
+        "fact": "ラテン語regnum（王国、支配）はrex（王）の関連名詞。12世紀にフランス語を経由して借用された。rexはreg語根から派生した『支配する者』",
+        "source": "EtymOnline: reign from Old French reigne, from Latin regnum 'kingdom, rule'",
+        "cognates": [
+          "royal",
+          "rex",
+          "regime",
+          "region"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『王が支配する期間』＝統治、支配",
+        "fact": "regnum（王国）という抽象的な統治概念が、特定の君主の統治期間を指すようになった",
+        "source": "認知言語学：抽象的統治から具体的時間軸へ"
+      },
+      "gap": "日本語では『統治』『王の世』『時代』が混在。英語のreignは『特定の支配者による統治の期間』を厳密に指す",
+      "gapOneliner": "reignは単なる『時間』ではなく『一人の支配者による継続的な権力行使の期間』を意味する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『レイン（reign）』＝『レイ（ray）のような支配者の光が大地を照らす時代』というメタファー"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "reignの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "統治、王政",
+            "雨",
+            "支配者",
+            "王国"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "reignの語源『regnum』から派生した『王』を意味するラテン語は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "rex",
+            "regio",
+            "regula",
+            "registum"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Queen Victoria's ______ lasted 63 years and shaped the British Empire.",
+          "hint": "女王の統治期間",
+          "explanationFocus": "gap",
+          "choices": [
+            "reign",
+            "rain",
+            "region",
+            "regime"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『reign』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "monarch",
+            "weather",
+            "location",
+            "rule"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"During the king's reign, the kingdom experienced unprecedented prosperity.\" — reignの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "統治期間",
+            "雨の季節",
+            "領土",
+            "権力争い"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "reign of terror（恐怖の時代）",
+        "during her reign（彼女の統治中に）",
+        "the reign of King George（ジョージ王の統治）"
+      ]
+    },
+    {
+      "word": "sovereign",
+      "phonetic": "ˈsɑːvrən",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "sover-",
+          "meaning": "上に、超越して（ラテン語super）",
+          "type": "prefix"
+        },
+        {
+          "part": "-ain",
+          "meaning": "～する者、～である（古フランス語接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『最高の支配権を持つもの』という意味で、reg語根の『支配する』という概念を超越する立場を表す",
+        "fact": "ラテン語superranus（ラテン語super『上』+regnum『支配』）が語源。中世ラテン語では『最高君主』を意味した。13世紀にフランス語を経由して借用",
+        "source": "EtymOnline: sovereign from Old French soverain, from Vulgar Latin superranus 'supreme'",
+        "cognates": [
+          "supreme",
+          "reign",
+          "royal",
+          "regime"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『すべての支配者の上に立つ者』＝最高の統治権を持つもの",
+        "fact": "superとregnum（支配）を組み合わせることで、通常の支配者（reg-）より上位の権力概念が作られた",
+        "source": "認知言語学：上下関係の言語表現"
+      },
+      "gap": "日本語では『君主』『独立』『最高権力』が混在。英語のsovereignは『最高の統治権を持つ者、あるいはそうした権利』を指す",
+      "gapOneliner": "sovereignは『支配者のなかで最上位』という相対的な地位を示し、単なる『王』より権力的に上位である",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『スーパー（super）な支配者（reign）』＝最高君主、という分解で記憶する"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sovereignの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "最高君主、至高権",
+            "金銭",
+            "力",
+            "名誉"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sovereignの語源『superranus』が示していたのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "最高権力者",
+            "豊かな者",
+            "強い者",
+            "老いた者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Nations have the right to ______ governance without interference.",
+          "hint": "独立した統治権",
+          "explanationFocus": "gap",
+          "choices": [
+            "sovereign",
+            "regional",
+            "regular",
+            "recent"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『sovereign』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "power",
+            "money",
+            "time",
+            "number"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The island nation declared its sovereignty after gaining independence.\" — sovereignの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "最高統治権、独立した権力",
+            "領土",
+            "人口",
+            "言語"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "sovereign state（主権国家）",
+        "sovereign power（至高権）",
+        "sovereignty（主権）"
+      ]
+    },
+    {
+      "word": "regiment",
+      "phonetic": "ˈredʒɪmənt",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "regiment",
+          "meaning": "連隊、統制（ラテン語regimentum）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『統治、秩序正しい統制』を意味するregimentumから、『軍事的な秩序ある集団』という意味に特化",
+        "fact": "ラテン語regimentum（『統治』『支配』）はregere（支配する）から派生。14世紀にフランス語を経由して借用。当初は『統治方法』一般を意味し、後に軍事組織に特化",
+        "source": "EtymOnline: regiment from Old French regiment, from Latin regimentum 'rule, government'",
+        "cognates": [
+          "regulate",
+          "regime",
+          "region",
+          "reign"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『秩序正しく統制された集団』＝軍事的に組織された連隊",
+        "fact": "regimentumという『統治』という抽象概念が、『統制される具体的な兵士集団』へと意味を狭めた",
+        "source": "認知言語学：抽象的統治から具体的組織へ"
+      },
+      "gap": "日本語では『連隊』『統制』が混在。英語のregimentは『軍事的に厳格に統制される大規模な兵士集団』を指す軍事用語",
+      "gapOneliner": "regimentは単なる『組織』ではなく『厳格な軍事的統制下にある組織』という強調が含まれる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『レジメント（regiment）』＝『規律正しく統制された軍隊（regimented soldiers）』というイメージ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regimentの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "連隊、統制",
+            "支配",
+            "領土",
+            "統治"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "regimentの語源『regimentum』の本来の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "統治、支配",
+            "兵士",
+            "武器",
+            "城"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The military ______ consisted of over 500 soldiers.",
+          "hint": "軍事組織の単位",
+          "explanationFocus": "gap",
+          "choices": [
+            "regiment",
+            "region",
+            "regime",
+            "regulation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "『regiment』と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "soldiers",
+            "food",
+            "music",
+            "city"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The soldiers' regimented schedule allowed no time for leisure.\" — regimentedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "厳格に統制された",
+            "分散した",
+            "自由な",
+            "簡単な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "military regiment（軍連隊）",
+        "regimented lifestyle（規律正しい生活）",
+        "regiment of soldiers（兵士たちの連隊）"
+      ]
     }
   ]
 }

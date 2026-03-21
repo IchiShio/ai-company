@@ -13,14 +13,26 @@
       "phonetic": "/ˌɪntəˈrʌpt/",
       "toeicRank": "TOEIC頻出・NGSL上位",
       "parts": [
-        {"part": "inter", "meaning": "間に・途中で", "type": "prefix"},
-        {"part": "rupt", "meaning": "壊す", "type": "root"}
+        {
+          "part": "inter",
+          "meaning": "間に・途中で",
+          "type": "prefix"
+        },
+        {
+          "part": "rupt",
+          "meaning": "壊す",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "inter（間に）+ rumpere（壊す）= 途中に割り込んで壊す → 中断する",
         "fact": "ラテン語 interrumpere「途中で壊す、遮断する」から。inter-（間に）+ rumpere（壊す）の合成。14世紀後半に英語に入り「流れを断ち切る、遮る」の意味で定着。名詞 interruption も同時期から使われている。",
         "source": "EtymOnline: interrupt",
-        "cognates": ["interruption", "uninterrupted", "interrupter"]
+        "cognates": [
+          "interruption",
+          "uninterrupted",
+          "interrupter"
+        ]
       },
       "cognitive": {
         "oneliner": "進行中の流れに「間に入って壊す」→遮断する動き",
@@ -39,7 +51,12 @@
           "difficulty": 1,
           "instruction": "interruptの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["間に割り込んで壊す→中断する", "後ろに戻して壊す→やり直す", "外に出して壊す→放出する", "下に置いて壊す→押しつぶす"],
+          "choices": [
+            "間に割り込んで壊す→中断する",
+            "後ろに戻して壊す→やり直す",
+            "外に出して壊す→放出する",
+            "下に置いて壊す→押しつぶす"
+          ],
           "correct": 0
         },
         {
@@ -47,7 +64,12 @@
           "difficulty": 2,
           "instruction": "inter + rupt の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["間に + 壊す = 中断する", "内側に + 壊す = 破壊する", "超えて + 壊す = 突破する", "一緒に + 壊す = 衝突する"],
+          "choices": [
+            "間に + 壊す = 中断する",
+            "内側に + 壊す = 破壊する",
+            "超えて + 壊す = 突破する",
+            "一緒に + 壊す = 衝突する"
+          ],
           "correct": 0
         },
         {
@@ -57,7 +79,12 @@
           "sentence": "Please don't ______ me while I'm speaking.",
           "hint": "「間に割り込んで壊す」→「遮る」",
           "explanationFocus": "gap",
-          "choices": ["interrupt", "disrupt", "corrupt", "erupt"],
+          "choices": [
+            "interrupt",
+            "disrupt",
+            "corrupt",
+            "erupt"
+          ],
           "correct": 0
         },
         {
@@ -65,7 +92,12 @@
           "difficulty": 3,
           "instruction": "interruptと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["a meeting（会議を中断する）", "a building（建物を壊す）", "a price（価格を下げる）", "a distance（距離を縮める）"],
+          "choices": [
+            "a meeting（会議を中断する）",
+            "a building（建物を壊す）",
+            "a price（価格を下げる）",
+            "a distance（距離を縮める）"
+          ],
           "correct": 0
         },
         {
@@ -73,25 +105,44 @@
           "difficulty": 4,
           "instruction": "\"The power outage interrupted the broadcast mid-sentence.\" — interruptedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["途中で中断させた", "完全に終了させた", "別の番組に切り替えた", "音量を下げた"],
+          "choices": [
+            "途中で中断させた",
+            "完全に終了させた",
+            "別の番組に切り替えた",
+            "音量を下げた"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["Please don't interrupt me while I'm speaking."]
+      "examples": [
+        "Please don't interrupt me while I'm speaking."
+      ]
     },
     {
       "word": "disrupt",
       "phonetic": "/dɪsˈrʌpt/",
       "toeicRank": "TOEIC頻出・ビジネス語彙",
       "parts": [
-        {"part": "dis", "meaning": "離れて・バラバラに", "type": "prefix"},
-        {"part": "rupt", "meaning": "壊す", "type": "root"}
+        {
+          "part": "dis",
+          "meaning": "離れて・バラバラに",
+          "type": "prefix"
+        },
+        {
+          "part": "rupt",
+          "meaning": "壊す",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "dis（離れて）+ rumpere（壊す）= バラバラに壊す → 混乱させる",
         "fact": "ラテン語 disrumpere「バラバラに引き裂く、粉砕する」から。dis-（離れて）+ rumpere（壊す）の合成。17世紀初頭に英語に入り、当初は「物理的に粉砕する」意味だったが、18世紀以降「秩序・計画を乱す」へ拡張。ビジネスの disruptive innovation は20世紀後半から。",
         "source": "EtymOnline: disrupt",
-        "cognates": ["disruption", "disruptive", "disruptor"]
+        "cognates": [
+          "disruption",
+          "disruptive",
+          "disruptor"
+        ]
       },
       "cognitive": {
         "oneliner": "まとまっていたものを「離れてバラバラに壊す」→秩序を乱す",
@@ -110,7 +161,12 @@
           "difficulty": 1,
           "instruction": "disruptの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["バラバラに壊す→混乱させる", "再び壊す→やり直す", "間に入って壊す→中断する", "完全に壊す→消滅させる"],
+          "choices": [
+            "バラバラに壊す→混乱させる",
+            "再び壊す→やり直す",
+            "間に入って壊す→中断する",
+            "完全に壊す→消滅させる"
+          ],
           "correct": 0
         },
         {
@@ -118,7 +174,12 @@
           "difficulty": 2,
           "instruction": "dis + rupt の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["離れて + 壊す = 混乱させる", "下に + 壊す = 抑圧する", "超えて + 壊す = 突破する", "前に + 壊す = 予防する"],
+          "choices": [
+            "離れて + 壊す = 混乱させる",
+            "下に + 壊す = 抑圧する",
+            "超えて + 壊す = 突破する",
+            "前に + 壊す = 予防する"
+          ],
           "correct": 0
         },
         {
@@ -128,7 +189,12 @@
           "sentence": "The new technology will ______ the entire industry.",
           "hint": "「バラバラに壊す」→「混乱させる」",
           "explanationFocus": "gap",
-          "choices": ["disrupt", "interrupt", "corrupt", "abrupt"],
+          "choices": [
+            "disrupt",
+            "interrupt",
+            "corrupt",
+            "abrupt"
+          ],
           "correct": 0
         },
         {
@@ -136,7 +202,12 @@
           "difficulty": 3,
           "instruction": "disruptと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["supply chains（サプライチェーンを混乱させる）", "friendships（友情を壊す）", "weather（天気を変える）", "prices（価格を下げる）"],
+          "choices": [
+            "supply chains（サプライチェーンを混乱させる）",
+            "friendships（友情を壊す）",
+            "weather（天気を変える）",
+            "prices（価格を下げる）"
+          ],
           "correct": 0
         },
         {
@@ -144,25 +215,44 @@
           "difficulty": 4,
           "instruction": "\"The protest disrupted traffic for hours.\" — disruptedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["混乱させた", "完全に止めた", "迂回させた", "記録した"],
+          "choices": [
+            "混乱させた",
+            "完全に止めた",
+            "迂回させた",
+            "記録した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The new technology will disrupt the entire industry."]
+      "examples": [
+        "The new technology will disrupt the entire industry."
+      ]
     },
     {
       "word": "corrupt",
       "phonetic": "/kəˈrʌpt/",
       "toeicRank": "TOEIC頻出・NGSL上位",
       "parts": [
-        {"part": "cor", "meaning": "完全に・強意（com-の変形）", "type": "prefix"},
-        {"part": "rupt", "meaning": "壊す", "type": "root"}
+        {
+          "part": "cor",
+          "meaning": "完全に・強意（com-の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "rupt",
+          "meaning": "壊す",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "cor（完全に）+ rumpere（壊す）= 完全に壊す → 腐敗した・汚職の",
         "fact": "ラテン語 corrumpere「完全に壊す、台無しにする、買収する」から。com-（完全に）の鼻音脱落形 cor- + rumpere（壊す）の合成。14世紀前半に「道徳的に堕落した」で英語に入り、法律・政治分野での「汚職」用法は14世紀後半から。デジタル時代に「データが壊れた（corrupted file）」用法が加わった。",
         "source": "EtymOnline: corrupt",
-        "cognates": ["corruption", "incorruptible", "anticorruption"]
+        "cognates": [
+          "corruption",
+          "incorruptible",
+          "anticorruption"
+        ]
       },
       "cognitive": {
         "oneliner": "「完全に内側まで壊れた」→道徳・データ・食品が腐敗した状態",
@@ -181,7 +271,12 @@
           "difficulty": 1,
           "instruction": "corruptの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["完全に壊す→腐敗した", "間に壊す→中断した", "外に壊す→放出した", "一緒に壊す→衝突した"],
+          "choices": [
+            "完全に壊す→腐敗した",
+            "間に壊す→中断した",
+            "外に壊す→放出した",
+            "一緒に壊す→衝突した"
+          ],
           "correct": 0
         },
         {
@@ -189,7 +284,12 @@
           "difficulty": 2,
           "instruction": "cor + rupt の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["完全に + 壊す = 腐敗した", "再び + 壊す = 修正する", "外へ + 壊す = 排出する", "間に + 壊す = 遮断する"],
+          "choices": [
+            "完全に + 壊す = 腐敗した",
+            "再び + 壊す = 修正する",
+            "外へ + 壊す = 排出する",
+            "間に + 壊す = 遮断する"
+          ],
           "correct": 0
         },
         {
@@ -199,7 +299,12 @@
           "sentence": "The ______ politician was arrested for accepting bribes.",
           "hint": "「完全に壊れた」→「汚職の・腐敗した」",
           "explanationFocus": "gap",
-          "choices": ["corrupt", "abrupt", "disrupt", "erupt"],
+          "choices": [
+            "corrupt",
+            "abrupt",
+            "disrupt",
+            "erupt"
+          ],
           "correct": 0
         },
         {
@@ -207,7 +312,12 @@
           "difficulty": 3,
           "instruction": "corruptと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["government（腐敗した政府）", "weather（荒れた天気）", "distance（長い距離）", "schedule（詰まったスケジュール）"],
+          "choices": [
+            "government（腐敗した政府）",
+            "weather（荒れた天気）",
+            "distance（長い距離）",
+            "schedule（詰まったスケジュール）"
+          ],
           "correct": 0
         },
         {
@@ -215,25 +325,44 @@
           "difficulty": 4,
           "instruction": "\"The virus corrupted all the files on my hard drive.\" — corruptedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["完全に壊した（破損させた）", "盗み出した", "複製した", "暗号化した"],
+          "choices": [
+            "完全に壊した（破損させた）",
+            "盗み出した",
+            "複製した",
+            "暗号化した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The corrupt politician was arrested for accepting bribes."]
+      "examples": [
+        "The corrupt politician was arrested for accepting bribes."
+      ]
     },
     {
       "word": "bankrupt",
       "phonetic": "/ˈbæŋkrʌpt/",
       "toeicRank": "TOEIC頻出・ビジネス語彙",
       "parts": [
-        {"part": "bank", "meaning": "両替商の台・銀行", "type": "root"},
-        {"part": "rupt", "meaning": "壊す", "type": "root"}
+        {
+          "part": "bank",
+          "meaning": "両替商の台・銀行",
+          "type": "root"
+        },
+        {
+          "part": "rupt",
+          "meaning": "壊す",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "banca（両替商の台）+ rotta（壊れた）= 台が壊れた → 破産した",
         "fact": "イタリア語 banca rotta「壊れた台・壊れたベンチ」が語源。中世イタリアで両替商が支払い不能になると取引の台（banca）を物理的に壊す慣習から。16世紀前半にフランス語 banqueroute 経由で英語に入った。ruptはラテン語 rumpere（壊す）と同根。",
         "source": "EtymOnline: bankrupt",
-        "cognates": ["bankruptcy", "go bankrupt", "bankrupt estate"]
+        "cognates": [
+          "bankruptcy",
+          "go bankrupt",
+          "bankrupt estate"
+        ]
       },
       "cognitive": {
         "oneliner": "「商売の台が物理的に壊れた」→支払い能力がゼロになった状態",
@@ -252,7 +381,12 @@
           "difficulty": 1,
           "instruction": "bankruptの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["台が壊れた→破産した", "銀行に壊される→搾取される", "資金が腐った→不正蓄財した", "お金を壊す→浪費した"],
+          "choices": [
+            "台が壊れた→破産した",
+            "銀行に壊される→搾取される",
+            "資金が腐った→不正蓄財した",
+            "お金を壊す→浪費した"
+          ],
           "correct": 0
         },
         {
@@ -260,7 +394,12 @@
           "difficulty": 2,
           "instruction": "bank + rupt の語源的な組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["両替商の台 + 壊れた = 破産した", "銀行 + 壊す = 詐欺した", "お金 + 盗む = 横領した", "資産 + 失う = 倒産した"],
+          "choices": [
+            "両替商の台 + 壊れた = 破産した",
+            "銀行 + 壊す = 詐欺した",
+            "お金 + 盗む = 横領した",
+            "資産 + 失う = 倒産した"
+          ],
           "correct": 0
         },
         {
@@ -270,7 +409,12 @@
           "sentence": "The company went ______ after losing its biggest client.",
           "hint": "「台が壊れた」→「破産した」",
           "explanationFocus": "gap",
-          "choices": ["bankrupt", "corrupt", "abrupt", "disrupt"],
+          "choices": [
+            "bankrupt",
+            "corrupt",
+            "abrupt",
+            "disrupt"
+          ],
           "correct": 0
         },
         {
@@ -278,7 +422,12 @@
           "difficulty": 3,
           "instruction": "bankruptと最も自然に結びつく動詞は？",
           "explanationFocus": "hook",
-          "choices": ["go（倒産する）", "make（作る）", "take（取る）", "find（見つける）"],
+          "choices": [
+            "go（倒産する）",
+            "make（作る）",
+            "take（取る）",
+            "find（見つける）"
+          ],
           "correct": 0
         },
         {
@@ -286,25 +435,44 @@
           "difficulty": 4,
           "instruction": "\"Three major suppliers went bankrupt during the recession.\" — went bankruptの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["倒産した", "合併した", "業務を縮小した", "海外に移転した"],
+          "choices": [
+            "倒産した",
+            "合併した",
+            "業務を縮小した",
+            "海外に移転した"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The company went bankrupt after losing its biggest client."]
+      "examples": [
+        "The company went bankrupt after losing its biggest client."
+      ]
     },
     {
       "word": "erupt",
       "phonetic": "/ɪˈrʌpt/",
       "toeicRank": "TSL外・NGSL上位",
       "parts": [
-        {"part": "e", "meaning": "外へ（ex-の短縮形）", "type": "prefix"},
-        {"part": "rupt", "meaning": "壊す", "type": "root"}
+        {
+          "part": "e",
+          "meaning": "外へ（ex-の短縮形）",
+          "type": "prefix"
+        },
+        {
+          "part": "rupt",
+          "meaning": "壊す",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "e（外へ）+ rumpere（壊す）= 外に向かって壊し出る → 噴火する・爆発する",
         "fact": "ラテン語 erumpere「外に向かって壊れ出る、噴出する」から。e-（ex-の短縮形、外へ）+ rumpere（壊す）の合成。17世紀半ばに「火山が噴火する」で英語に入り、その後「感情が爆発する」「暴動が勃発する」等の比喩的拡張が起きた。",
         "source": "EtymOnline: erupt",
-        "cognates": ["eruption", "volcanic eruption", "irrupt（内側に壊れ込む）"]
+        "cognates": [
+          "eruption",
+          "volcanic eruption",
+          "irrupt（内側に壊れ込む）"
+        ]
       },
       "cognitive": {
         "oneliner": "「外に向かって壊し出る」→封じ込められていたものが一気に飛び出す動き",
@@ -323,7 +491,12 @@
           "difficulty": 1,
           "instruction": "eruptの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["外に向かって壊し出る→噴火する", "中に向かって壊し込む→内側から壊れる", "上に向かって壊す→爆破する", "完全に壊す→消滅させる"],
+          "choices": [
+            "外に向かって壊し出る→噴火する",
+            "中に向かって壊し込む→内側から壊れる",
+            "上に向かって壊す→爆破する",
+            "完全に壊す→消滅させる"
+          ],
           "correct": 0
         },
         {
@@ -331,7 +504,12 @@
           "difficulty": 2,
           "instruction": "e + rupt の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["外へ + 壊す = 噴火する", "離れて + 壊す = 混乱させる", "前に + 壊す = 予防する", "再び + 壊す = やり直す"],
+          "choices": [
+            "外へ + 壊す = 噴火する",
+            "離れて + 壊す = 混乱させる",
+            "前に + 壊す = 予防する",
+            "再び + 壊す = やり直す"
+          ],
           "correct": 0
         },
         {
@@ -341,7 +519,12 @@
           "sentence": "The volcano is expected to ______ within the next 24 hours.",
           "hint": "「外に向かって壊れ出る」→「噴火する」",
           "explanationFocus": "gap",
-          "choices": ["erupt", "disrupt", "interrupt", "corrupt"],
+          "choices": [
+            "erupt",
+            "disrupt",
+            "interrupt",
+            "corrupt"
+          ],
           "correct": 0
         },
         {
@@ -349,7 +532,12 @@
           "difficulty": 3,
           "instruction": "eruptと最も自然に結びつく主語は？",
           "explanationFocus": "hook",
-          "choices": ["a volcano（火山が噴火する）", "a budget（予算が増える）", "a contract（契約が結ばれる）", "a team（チームが集まる）"],
+          "choices": [
+            "a volcano（火山が噴火する）",
+            "a budget（予算が増える）",
+            "a contract（契約が結ばれる）",
+            "a team（チームが集まる）"
+          ],
           "correct": 0
         },
         {
@@ -357,25 +545,44 @@
           "difficulty": 4,
           "instruction": "\"Cheers erupted from the crowd when the goal was scored.\" — eruptedの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["爆発的に湧き上がった", "静かに広がった", "突然止まった", "繰り返し起きた"],
+          "choices": [
+            "爆発的に湧き上がった",
+            "静かに広がった",
+            "突然止まった",
+            "繰り返し起きた"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The volcano is expected to erupt within the next 24 hours."]
+      "examples": [
+        "The volcano is expected to erupt within the next 24 hours."
+      ]
     },
     {
       "word": "abrupt",
       "phonetic": "/əˈbrʌpt/",
       "toeicRank": "TOEIC頻出・ビジネス語彙",
       "parts": [
-        {"part": "ab", "meaning": "離れて・遠ざかって", "type": "prefix"},
-        {"part": "rupt", "meaning": "壊れた・切れた", "type": "root"}
+        {
+          "part": "ab",
+          "meaning": "離れて・遠ざかって",
+          "type": "prefix"
+        },
+        {
+          "part": "rupt",
+          "meaning": "壊れた・切れた",
+          "type": "root"
+        }
       ],
       "etymology": {
         "oneliner": "ab（離れて）+ ruptus（壊れた・切れた）= 切り離されて壊れた → 突然の・ぶっきらぼうな",
         "fact": "ラテン語 abruptus「引き離された、急な崖」の過去分詞から。ab-（離れて）+ rumpere（壊す）の過去分詞 ruptus の合成。16世紀後半に「急な崖・断絶した地形」で英語に入り、17世紀前半に「突然の、唐突な」の比喩的意味へ。話し方が「突然切れる（ぶっきらぼうな）」は18世紀から。",
         "source": "EtymOnline: abrupt",
-        "cognates": ["abruptly", "abruptness", "abrupt end"]
+        "cognates": [
+          "abruptly",
+          "abruptness",
+          "abrupt end"
+        ]
       },
       "cognitive": {
         "oneliner": "「切り離されて壊れた」→前後の流れが断ち切られた突然の状態",
@@ -394,7 +601,12 @@
           "difficulty": 1,
           "instruction": "abruptの語源的な本質は？",
           "explanationFocus": "etymology",
-          "choices": ["切り離されて壊れた→突然の", "外に壊れ出た→爆発的な", "完全に壊れた→腐敗した", "間に割り込んで壊れた→中断された"],
+          "choices": [
+            "切り離されて壊れた→突然の",
+            "外に壊れ出た→爆発的な",
+            "完全に壊れた→腐敗した",
+            "間に割り込んで壊れた→中断された"
+          ],
           "correct": 0
         },
         {
@@ -402,7 +614,12 @@
           "difficulty": 2,
           "instruction": "ab + rupt の組み合わせが表す意味は？",
           "explanationFocus": "cognitive",
-          "choices": ["離れて + 壊れた = 突然の", "内側に + 壊れた = 崩壊した", "上に + 壊れた = 爆発した", "一緒に + 壊れた = 衝突した"],
+          "choices": [
+            "離れて + 壊れた = 突然の",
+            "内側に + 壊れた = 崩壊した",
+            "上に + 壊れた = 爆発した",
+            "一緒に + 壊れた = 衝突した"
+          ],
           "correct": 0
         },
         {
@@ -412,7 +629,12 @@
           "sentence": "The meeting came to an ______ end when the fire alarm went off.",
           "hint": "「切り離されて壊れた」→「突然の」",
           "explanationFocus": "gap",
-          "choices": ["abrupt", "corrupt", "erupt", "disrupt"],
+          "choices": [
+            "abrupt",
+            "corrupt",
+            "erupt",
+            "disrupt"
+          ],
           "correct": 0
         },
         {
@@ -420,7 +642,12 @@
           "difficulty": 3,
           "instruction": "abruptと最も自然に結びつく語は？",
           "explanationFocus": "hook",
-          "choices": ["end（突然の終わり）", "growth（突然の成長）", "plan（突然の計画）", "team（突然のチーム）"],
+          "choices": [
+            "end（突然の終わり）",
+            "growth（突然の成長）",
+            "plan（突然の計画）",
+            "team（突然のチーム）"
+          ],
           "correct": 0
         },
         {
@@ -428,11 +655,839 @@
           "difficulty": 4,
           "instruction": "\"His abrupt manner made the clients feel uncomfortable.\" — abruptの意味は？",
           "explanationFocus": "etymology",
-          "choices": ["ぶっきらぼうな（会話の流れを突然切る）", "丁寧すぎる", "非常に物静かな", "非常に熱心な"],
+          "choices": [
+            "ぶっきらぼうな（会話の流れを突然切る）",
+            "丁寧すぎる",
+            "非常に物静かな",
+            "非常に熱心な"
+          ],
           "correct": 0
         }
       ],
-      "examples": ["The meeting came to an abrupt end when the fire alarm went off."]
+      "examples": [
+        "The meeting came to an abrupt end when the fire alarm went off."
+      ]
+    },
+    {
+      "word": "bankruptcy",
+      "phonetic": "/ˈbæŋkrəptsi/",
+      "toeicRank": "★★★★☆ 800-990",
+      "parts": [
+        {
+          "part": "bank-",
+          "meaning": "銀行、金銭",
+          "type": "root"
+        },
+        {
+          "part": "-rupt",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-cy",
+          "meaning": "状態、性質",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "銀行業者の机が壊れた状態から、経済的破綻を意味するようになった",
+        "fact": "中世イタリアの銀行家が破産したとき、債権者たちが取引机(banco)を壊す(rumpere)風習から生まれた。banco rotto → bankruptcy",
+        "source": "EtymOnline: banco(机) + ruptus(破られた)",
+        "cognates": [
+          "disrupt",
+          "corrupt",
+          "erupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "金銭的破壊→経済的な完全な崩壊という極限の状態",
+        "fact": "法的に認定される最終的な経済的失敗であり、個人や企業の財産が完全に失われた状態を表現している",
+        "source": "経営学的概念"
+      },
+      "gap": "英語では財産喪失の法的状態を正確に表現し、日本語では「破産」と単純化される傾向がある。実際には多段階の財政危機がある",
+      "gapOneliner": "法的破産と経済的困窮の区別が重要",
+      "hook": {
+        "label": "記憶フック",
+        "text": "BANK(銀行)の机がRUPT(壊れた)→お金がなくなった = 破産"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "bankrupctyの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "経済的破綻、破産",
+            "銀行の合併",
+            "借金の返済",
+            "金利の上昇"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "bankruptcyの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "中世イタリアで銀行家の机を壊す風習から由来",
+            "英国王室の財政管理規則から由来",
+            "ラテン語の『銀行』という言葉から直接由来",
+            "アメリカの独立戦争後に創造された造語"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company filed for ______ after years of poor management.",
+          "hint": "法的な経済的崩壊を意味する",
+          "explanationFocus": "gap",
+          "choices": [
+            "bankruptcy",
+            "depression",
+            "recession",
+            "inflation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "bankruptcyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "file for bankruptcy",
+            "declare bankruptcy",
+            "face bankruptcy",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The bank's bankruptcy shocked investors worldwide.\" — bankruptcyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "経営破綻、倒産",
+            "経営方針の変更",
+            "新支店の開設",
+            "利益の減少"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "declare bankruptcy(破産を宣告する)",
+        "file for bankruptcy(破産申告をする)",
+        "personal bankruptcy(個人破産)",
+        "corporate bankruptcy(企業破産)"
+      ]
+    },
+    {
+      "word": "corruption",
+      "phonetic": "/kəˈrʌpʃən/",
+      "toeicRank": "★★★★☆ 750-900",
+      "parts": [
+        {
+          "part": "cor-",
+          "meaning": "完全に、一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "-rupt",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、過程",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語のcorruptusから、完全に壊された道徳的状態を表現",
+        "fact": "corruptus(完全に壊された)→13世紀から英語で道徳的・倫理的な腐敗を意味するようになった",
+        "source": "EtymOnline: Latin corruptus",
+        "cognates": [
+          "corrupt",
+          "disrupt",
+          "erupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "権力者の道徳的・倫理的な破壊による社会的悪影響",
+        "fact": "単なる個人的な不正行為ではなく、システム全体の機能不全を引き起こす組織的な腐敗を表現している",
+        "source": "社会学的概念"
+      },
+      "gap": "日本語の『汚職』『腐敗』では対象を限定しやすいが、英語のcorruptionはデータ破損など技術的用途も持つ広い概念",
+      "gapOneliner": "倫理的腐敗から技術的破損まで多義的な概念",
+      "hook": {
+        "label": "記憶フック",
+        "text": "COR(完全に) + RUPT(壊す) = 完全な道徳的破壊 = 汚職"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "corruptionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "汚職、腐敗",
+            "競争、対立",
+            "協力、連携",
+            "改革、改善"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "corruptionの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ラテン語の『完全に壊された』という意味から由来",
+            "フランス語の『権力奪取』から由来",
+            "アラビア語の『金銭取引』から由来",
+            "ギリシャ語の『政治的対立』から由来"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Government ______ undermined public trust in institutions.",
+          "hint": "官僚や政治家の不正行為を表現する",
+          "explanationFocus": "gap",
+          "choices": [
+            "corruption",
+            "criticism",
+            "confusion",
+            "curiosity"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "corruptionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "fight corruption",
+            "combat corruption",
+            "tackle corruption",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The scandal exposed widespread corruption in the administration.\" — corruptionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "汚職、腐敗",
+            "スキャンダルの爆発",
+            "行政の混乱",
+            "記者会見の開催"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "political corruption(政治汚職)",
+        "combat corruption(汚職と戦う)",
+        "data corruption(データ破損)",
+        "widespread corruption(広がる腐敗)"
+      ]
+    },
+    {
+      "word": "disruption",
+      "phonetic": "/dɪsˈrʌpʃən/",
+      "toeicRank": "★★★★☆ 800-900",
+      "parts": [
+        {
+          "part": "dis-",
+          "meaning": "分離、反対",
+          "type": "prefix"
+        },
+        {
+          "part": "-rupt",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、過程",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "分離して壊すという意味から、正常な流れを妨害することへ",
+        "fact": "disruptus(分離して壊された)→秩序や連続性を断ち切る状態を表現するようになった",
+        "source": "EtymOnline: dis- + ruptus",
+        "cognates": [
+          "disrupt",
+          "disruptive",
+          "interrupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "期待された連続性や秩序が突然断ち切られた状態",
+        "fact": "現代ビジネスでは『破壊的イノベーション』の意味として肯定的に使われることもあるが、本来は負の意味が強い",
+        "source": "経営学、技術用語"
+      },
+      "gap": "日本語では『中断』『妨害』となるが、英語ではシステム全体の根本的な変化を含む広い概念としても機能",
+      "gapOneliner": "単なる一時的中断から根本的な変革までを含む概念",
+      "hook": {
+        "label": "記憶フック",
+        "text": "DIS(分離) + RUPT(壊す) = 流れを断ち切って壊す = 中断・混乱"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "disruptionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中断、混乱、妨害",
+            "議論、討論",
+            "分析、検討",
+            "決定、判断"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "disruptionの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "dis-(分離) + rupt(壊す)で『流れを断ち切る』という意味",
+            "dis-(二重) + rupt(回転)で『二重回転』という意味",
+            "dis-(不) + rupt(完成)で『不完全さ』という意味",
+            "dis-(下) + rupt(上昇)で『下降』という意味"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The storm caused major ______ to transportation services.",
+          "hint": "サービスの一時的な停止を表現する",
+          "explanationFocus": "gap",
+          "choices": [
+            "disruption",
+            "discussion",
+            "discount",
+            "discovery"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "disruptionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cause disruption",
+            "experience disruption",
+            "minimize disruption",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Digital transformation brings both opportunities and disruption.\" — disruptionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "既存秩序の破壊",
+            "デジタル技術の発展",
+            "ビジネスチャンスの創出",
+            "組織の拡大"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "cause disruption(混乱を引き起こす)",
+        "minimize disruption(混乱を最小限に抑える)",
+        "service disruption(サービス中断)",
+        "disruptive innovation(破壊的イノベーション)"
+      ]
+    },
+    {
+      "word": "eruption",
+      "phonetic": "/ɪˈrʌpʃən/",
+      "toeicRank": "★★★★☆ 800-900",
+      "parts": [
+        {
+          "part": "e-",
+          "meaning": "外へ、出る",
+          "type": "prefix"
+        },
+        {
+          "part": "-rupt",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、過程",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "内部から外へ壊れて出てくるという物理的な意味から出発",
+        "fact": "eruptus(外へ壊れて出た)→火山の爆発のような急激で激しい現象を表現するようになった",
+        "source": "EtymOnline: e- + ruptus",
+        "cognates": [
+          "erupt",
+          "disrupt",
+          "corrupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "内部の圧力が限界を超えて、急激かつ激しく外部に放出される現象",
+        "fact": "火山爆発だけでなく、感情の爆発や社会的暴動など、抑圧されたものが突然解放される状況全般を表現できる",
+        "source": "自然科学および社会学的概念"
+      },
+      "gap": "日本語の『噴火』は火山現象に限定しやすいが、英語のeruptionはより広く感情や病状の急激な発現も含む",
+      "gapOneliner": "火山学的用語から感情的・社会的現象への広がり",
+      "hook": {
+        "label": "記憶フック",
+        "text": "E(外へ) + RUPT(壊す) = 内から外へ激しく壊れ出る = 噴火・爆発"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "eruptionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "噴火、爆発",
+            "腐食、劣化",
+            "分離、解散",
+            "上昇、発展"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "eruptionの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "e-(外へ) + rupt(壊す)で『外へ激しく壊れ出る』という意味",
+            "e-(確実に) + rupt(回転)で『確実な回転』という意味",
+            "e-(多数) + rupt(破裂)で『多数の破裂』という意味",
+            "e-(電気) + rupt(完成)で『電気完成』という意味"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The volcanic ______ destroyed the nearby village.",
+          "hint": "火山の激しい爆発現象を表現する",
+          "explanationFocus": "gap",
+          "choices": [
+            "eruption",
+            "erosion",
+            "emission",
+            "explosion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "eruptionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "volcanic eruption",
+            "sudden eruption",
+            "massive eruption",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The peaceful demonstration turned into violent eruptions of anger.\" — eruptionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感情の急激な爆発",
+            "暴力的な行動",
+            "集団による決定",
+            "社会的混乱の発生"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "volcanic eruption(火山の噴火)",
+        "sudden eruption(突然の爆発)",
+        "eruption of violence(暴力の爆発)",
+        "skin eruption(皮膚疾患の発症)"
+      ]
+    },
+    {
+      "word": "interruption",
+      "phonetic": "/ˌɪntəˈrʌpʃən/",
+      "toeicRank": "★★★☆☆ 700-850",
+      "parts": [
+        {
+          "part": "inter-",
+          "meaning": "間に、相互に",
+          "type": "prefix"
+        },
+        {
+          "part": "-rupt",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、過程",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "間に入り込んで流れを壊すという意味から、話を遮るなどの日常的行為へ",
+        "fact": "interruptus(間に入り込んで壊された)→13世紀から『話の途中で口をはさむ』という意味で使われるようになった",
+        "source": "EtymOnline: inter- + ruptus",
+        "cognates": [
+          "interrupt",
+          "disrupt",
+          "corrupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "継続中の行動や言葉の流れが、外部からの介入で一時的に断ち切られること",
+        "fact": "物理的な行動だけでなく、思考や話題の流れまで含む広い概念であり、日常会話で最も頻繁に使われるruptus系統の言葉",
+        "source": "言語学的・社会的概念"
+      },
+      "gap": "日本語の『中断』『邪魔』では意図性の有無が曖昧だが、英語ではinterruptionは通常、意図的な介入を含む",
+      "gapOneliner": "不可抗力の停止と故意の遮断の区別",
+      "hook": {
+        "label": "記憶フック",
+        "text": "INTER(間に) + RUPT(壊す) = 間に入って壊す = 話を遮る・中断させる"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "interruptionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中断、妨害、遮断",
+            "相互作用",
+            "内部調査",
+            "国際関係"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "interruptionの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "inter-(間に) + rupt(壊す)で『間に入って壊す』という意味",
+            "inter-(内部) + rupt(増加)で『内部増加』という意味",
+            "inter-(超) + rupt(完成)で『超完成』という意味",
+            "inter-(下) + rupt(転がる)で『下転がり』という意味"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please answer my question without ______.",
+          "hint": "話の途中で遮られることを避ける意味",
+          "explanationFocus": "gap",
+          "choices": [
+            "interruption",
+            "interpretation",
+            "integration",
+            "interruption"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "interruptionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "constant interruption",
+            "frequent interruption",
+            "without interruption",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The speaker continued her presentation despite frequent interruptions from the audience.\" — interruptionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "聴者による話の遮断",
+            "聴者の積極的な参加",
+            "話題の急激な変更",
+            "観衆からの拍手"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "without interruption(途中で途切れずに)",
+        "constant interruption(絶え間ない中断)",
+        "frequent interruption(頻繁な遮断)",
+        "avoid interruption(中断を避ける)"
+      ]
+    },
+    {
+      "word": "rupture",
+      "phonetic": "/ˈrʌptʃər/",
+      "toeicRank": "★★★★☆ 800-950",
+      "parts": [
+        {
+          "part": "rupt-",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "状態、行為、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語のruptura(破裂)から、単純に『壊れた状態』を意味する最もシンプルなruptus系統の言葉",
+        "fact": "ruptura(破裂、裂け目)→15世紀から医学用語として『腹部ヘルニア』を意味し、その後広く『裂け目』や『決裂』を表現するようになった",
+        "source": "EtymOnline: Latin ruptura",
+        "cognates": [
+          "rupt",
+          "disrupt",
+          "corrupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "連続した一体のものが、急激に完全に分断される物理的・関係的状態",
+        "fact": "医学的には『ヘルニア』『筋肉の断裂』、政治的には『外交関係の断絶』まで、具体的な破損状態を表現する最も直接的な言葉",
+        "source": "医学、外交学、物理学"
+      },
+      "gap": "日本語では『破裂』『決裂』と用途ごとに訳し分けるが、英語ではrupture一語で物理的破損から関係的決裂まで統一的に表現",
+      "gapOneliner": "物理的破損と関係的決裂の統一表現",
+      "hook": {
+        "label": "記憶フック",
+        "text": "RUPT(壊す) + URE(状態) = 壊れた状態 = 破裂・決裂"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "ruptureの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "破裂、決裂、断絶",
+            "回転、循環",
+            "侵害、違反",
+            "追跡、捜査"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ruptureの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ラテン語のruptura(破裂)から『壊れた状態』を意味する",
+            "ギリシャ語の『回転』から由来する",
+            "アラビア語の『分離』から由来する",
+            "サンスクリット語の『削減』から由来する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the water pipe caused significant flooding.",
+          "hint": "パイプが破裂して水が漏れる状態を表現する",
+          "explanationFocus": "gap",
+          "choices": [
+            "rupture",
+            "routine",
+            "rupture",
+            "rupture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "ruptureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cause a rupture",
+            "suffer a rupture",
+            "political rupture",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The trade dispute led to a rupture in diplomatic relations between the two nations.\" — ruptureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "関係の完全な決裂",
+            "貿易紛争の複雑さ",
+            "外交交渉の開始",
+            "両国の経済成長"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "rupture of the eardrum(鼓膜破裂)",
+        "cause a rupture(決裂を引き起こす)",
+        "diplomatic rupture(外交関係の断絶)",
+        "muscle rupture(筋肉断裂)"
+      ]
+    },
+    {
+      "word": "disruptive",
+      "phonetic": "/dɪsˈrʌptɪv/",
+      "toeicRank": "★★★★☆ 800-900",
+      "parts": [
+        {
+          "part": "dis-",
+          "meaning": "分離、反対",
+          "type": "prefix"
+        },
+        {
+          "part": "-rupt",
+          "meaning": "壊す、破る",
+          "type": "root"
+        },
+        {
+          "part": "-ive",
+          "meaning": "傾向がある、性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "disruption(中断)に形容詞的な『傾向』を加えた言葉で、『秩序を乱しやすい性質』を表現",
+        "fact": "disruptive(中断させる傾向がある)→20世紀にビジネス用語『disruptive innovation(破壊的イノベーション)』として新しい価値を得た",
+        "source": "EtymOnline: dis- + ruptus + -ive",
+        "cognates": [
+          "disruption",
+          "disrupt",
+          "interrupt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "既存秩序や期待される流れを妨害・破壊する性質や特性を持つ",
+        "fact": "本来は悪い意味だが、現代ビジネス用語ではスタートアップやAIなど『既存産業を根本から変える革新』を肯定的に表現するために使われている",
+        "source": "経営学、技術用語、社会学"
+      },
+      "gap": "日本語では『破壊的』『邪魔な』と文脈によって訳し分けるが、英語ではdisruptive一語で中立的・肯定的用法も含む広い範囲をカバー",
+      "gapOneliner": "負の意味から肯定的価値評価への転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "DIS(分離) + RUPT(壊す) + IVE(傾向) = 秩序を乱す傾向がある = 破壊的な"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "disruptiveの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "秩序を乱す、破壊的な",
+            "詳細な、綿密な",
+            "広範な、包括的な",
+            "調和的な、統合的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "disruptiveの語源に関する説明として正しいのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "disruption(中断)に-ive(傾向)を加えて『秩序を乱す性質』を表現",
+            "disrupt(分離)に-ive(否定)を加えて『非分離的』を表現",
+            "discuss(議論)に-ive(方向)を加えて『議論的方向』を表現",
+            "display(表示)に-ive(多数)を加えて『多数表示』を表現"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ student was constantly interrupting the lesson.",
+          "hint": "授業を妨害しやすい学生の性質を表現する",
+          "explanationFocus": "gap",
+          "choices": [
+            "disruptive",
+            "descriptive",
+            "digestive",
+            "detective"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "disruptiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "disruptive technology",
+            "disruptive innovation",
+            "disruptive behavior",
+            "すべて正解"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Smartphone technology was a disruptive innovation that transformed the entire industry.\" — disruptiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "既存秩序を根本から変える革新的な",
+            "技術的に劣った",
+            "競争力のない",
+            "徐々に発展する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "disruptive technology(破壊的技術)",
+        "disruptive innovation(破壊的イノベーション)",
+        "disruptive behavior(問題行動)",
+        "disruptive student(授業を妨害する学生)"
+      ]
     }
   ]
 }
