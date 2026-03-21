@@ -236,8 +236,12 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 <!-- ═══════ HEADER ═══════ -->
 <div class="hd">
   <a href="/kioku-shinai/" class="hd-title">記憶しない<em>英単語</em></a>
-  <a class="hd-link" id="hdLink" href="#" style="display:none" onclick="showRootSelect();return false">語根一覧</a>
-  <button class="hd-back" id="hdBack" style="display:none" onclick="goBack()">&#8592; 戻る</button>
+  <div style="display:flex;align-items:center;gap:4px">
+    <a class="hd-link" id="hdLink" href="#" style="display:none" onclick="showRootSelect();return false">語根一覧</a>
+    <button class="hd-back" id="hdBack" style="display:none" onclick="goBack()">&#8592; 戻る</button>
+    <a class="hd-link" href="/">ListenUp</a>
+    <a class="hd-link" href="/about/">About</a>
+  </div>
 </div>
 
 <!-- ═══════ SCREEN: LP ═══════ -->
