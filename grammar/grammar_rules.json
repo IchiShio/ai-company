@@ -1,0 +1,767 @@
+[
+  {
+    "id": "R001",
+    "rule": "be動詞の人称一致",
+    "rule_en": "Subject-Verb Agreement with Be",
+    "diff": "lv1",
+    "axes": ["form"],
+    "tags": ["eiken4"],
+    "cefr": "A1",
+    "pattern": "I + am / You/We/They + are / He/She/It + is",
+    "correct_example": "She is a teacher.",
+    "common_errors": [
+      {"wrong": "She are a teacher.", "why": "三人称単数にareは不可"},
+      {"wrong": "She am a teacher.", "why": "amはIのみ"}
+    ],
+    "key_signal": "主語の人称と数でbe動詞を選ぶ",
+    "sources": ["Purdue OWL: Making Subjects and Verbs Agree", "Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R002",
+    "rule": "一般動詞の三単現",
+    "rule_en": "Third Person Singular -s",
+    "diff": "lv1",
+    "axes": ["form"],
+    "tags": ["eiken4"],
+    "cefr": "A1",
+    "pattern": "He/She/It + V-s / I/You/We/They + V(原形)",
+    "correct_example": "He plays tennis every day.",
+    "common_errors": [
+      {"wrong": "He play tennis every day.", "why": "三人称単数にはsが必要"},
+      {"wrong": "They plays tennis.", "why": "複数主語にsは不要"}
+    ],
+    "key_signal": "主語が三人称単数かどうか",
+    "sources": ["Purdue OWL: Active Verb Tenses", "British Council: A1 Grammar"]
+  },
+  {
+    "id": "R003",
+    "rule": "There is / There are",
+    "rule_en": "There is/are (Existential)",
+    "diff": "lv1",
+    "axes": ["form", "trap"],
+    "tags": ["eiken4"],
+    "cefr": "A1",
+    "pattern": "There is + 単数名詞 / There are + 複数名詞",
+    "correct_example": "There are many books on the shelf.",
+    "common_errors": [
+      {"wrong": "There is many books.", "why": "複数名詞にはareが必要"},
+      {"wrong": "There have many books.", "why": "存在を表すのはThere is/are"}
+    ],
+    "key_signal": "後続の名詞が単数か複数か",
+    "sources": ["Cambridge Grammar: Nouns, pronouns and determiners"]
+  },
+  {
+    "id": "R004",
+    "rule": "一般動詞の疑問文",
+    "rule_en": "Yes/No Questions with Do/Does",
+    "diff": "lv1",
+    "axes": ["logic"],
+    "tags": ["eiken4"],
+    "cefr": "A1",
+    "pattern": "Do/Does + S + V(原形) ...?",
+    "correct_example": "Does she like coffee?",
+    "common_errors": [
+      {"wrong": "Does she likes coffee?", "why": "Doesの後は原形。sは不要"},
+      {"wrong": "Is she like coffee?", "why": "一般動詞の疑問文にbe動詞は使わない"}
+    ],
+    "key_signal": "一般動詞 → Do/Does、be動詞 → Is/Are",
+    "sources": ["British Council: A1 Grammar", "Purdue OWL: Avoiding Common Errors"]
+  },
+  {
+    "id": "R005",
+    "rule": "過去形（規則・不規則）",
+    "rule_en": "Simple Past Tense",
+    "diff": "lv1",
+    "axes": ["tense"],
+    "tags": ["eiken4"],
+    "cefr": "A2",
+    "pattern": "S + V-ed(規則) / S + V(不規則変化) + 過去の時間表現",
+    "correct_example": "I had breakfast this morning.",
+    "common_errors": [
+      {"wrong": "I have breakfast this morning.", "why": "this morningは過去→過去形"},
+      {"wrong": "I haved breakfast.", "why": "haveの過去形はhad（不規則）"}
+    ],
+    "key_signal": "yesterday, last ~, ago, this morning → 過去形",
+    "sources": ["Purdue OWL: Active Verb Tenses", "Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R006",
+    "rule": "未来形 will",
+    "rule_en": "Future with Will",
+    "diff": "lv1",
+    "axes": ["tense"],
+    "tags": ["eiken4"],
+    "cefr": "A2",
+    "pattern": "S + will + V(原形)",
+    "correct_example": "I will call you tomorrow.",
+    "common_errors": [
+      {"wrong": "I will calls you tomorrow.", "why": "willの後は必ず原形"},
+      {"wrong": "I will to call you.", "why": "will + 原形。toは不要"}
+    ],
+    "key_signal": "tomorrow, next ~, soon → will",
+    "sources": ["Purdue OWL: Active Verb Tenses"]
+  },
+  {
+    "id": "R007",
+    "rule": "現在進行形",
+    "rule_en": "Present Continuous",
+    "diff": "lv1",
+    "axes": ["tense"],
+    "tags": ["eiken4"],
+    "cefr": "A1",
+    "pattern": "S + am/is/are + V-ing",
+    "correct_example": "The children are playing in the garden now.",
+    "common_errors": [
+      {"wrong": "The children playing now.", "why": "be動詞が必要"},
+      {"wrong": "The children is playing.", "why": "複数主語→are"}
+    ],
+    "key_signal": "now, right now, at the moment → 進行形",
+    "sources": ["Purdue OWL: Active Verb Tenses", "British Council: A1 Grammar"]
+  },
+  {
+    "id": "R008",
+    "rule": "不定詞の形容詞的用法",
+    "rule_en": "Infinitive as Adjective",
+    "diff": "lv1",
+    "axes": ["logic"],
+    "tags": ["eiken4"],
+    "cefr": "A2",
+    "pattern": "something/nothing/anything + to + V(原形)",
+    "correct_example": "I want something to drink.",
+    "common_errors": [
+      {"wrong": "I want something for drink.", "why": "forではなくto+動詞原形"},
+      {"wrong": "I want something drinking.", "why": "-ingではなくto+原形"}
+    ],
+    "key_signal": "-thing/-one/-where + to + 動詞原形",
+    "sources": ["Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R009",
+    "rule": "句動詞 look up / look for / look at",
+    "rule_en": "Phrasal Verbs with Look",
+    "diff": "lv1",
+    "axes": ["vocab"],
+    "tags": ["eiken4"],
+    "cefr": "A2",
+    "pattern": "look up = 調べる / look for = 探す / look at = 見る",
+    "correct_example": "Please look up this word in the dictionary.",
+    "common_errors": [
+      {"wrong": "Please look for this word in the dictionary.", "why": "look for=探す、look up=調べる"},
+      {"wrong": "Please look this word.", "why": "前置詞/副詞が必要"}
+    ],
+    "key_signal": "動詞+前置詞/副詞の組み合わせで意味が変わる",
+    "sources": ["Cambridge Grammar: Prepositions and particles"]
+  },
+  {
+    "id": "R010",
+    "rule": "be good at",
+    "rule_en": "Be Good At + Noun/Gerund",
+    "diff": "lv1",
+    "axes": ["vocab"],
+    "tags": ["eiken4"],
+    "cefr": "A2",
+    "pattern": "be good/bad/interested/surprised + at/in/by + N/-ing",
+    "correct_example": "He is good at math.",
+    "common_errors": [
+      {"wrong": "He is good in math.", "why": "good at（得意）。inではなくat"},
+      {"wrong": "He is good for math.", "why": "good for=～に良い。good at=得意"}
+    ],
+    "key_signal": "形容詞+前置詞の組み合わせは固定",
+    "sources": ["Cambridge Grammar: Adjectives and adverbs"]
+  },
+  {
+    "id": "R011",
+    "rule": "現在完了（継続）",
+    "rule_en": "Present Perfect (Duration)",
+    "diff": "lv2",
+    "axes": ["tense"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "A2/B1",
+    "pattern": "S + have/has + pp + since/for ...",
+    "correct_example": "She has lived in Tokyo since 2020.",
+    "common_errors": [
+      {"wrong": "She lived in Tokyo since 2020.", "why": "sinceは現在完了のシグナル。過去形は不可"},
+      {"wrong": "She is living in Tokyo since 2020.", "why": "sinceと進行形の組み合わせは不自然"}
+    ],
+    "key_signal": "since + 時点 / for + 期間 → 現在完了",
+    "sources": ["Purdue OWL: Verb Tenses", "Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R012",
+    "rule": "現在完了（経験）",
+    "rule_en": "Present Perfect (Experience)",
+    "diff": "lv2",
+    "axes": ["tense"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "A2/B1",
+    "pattern": "S + have/has + (ever/never) + pp",
+    "correct_example": "I have never been to Kyoto.",
+    "common_errors": [
+      {"wrong": "I never went to Kyoto.", "why": "経験の否定はhave never + pp"},
+      {"wrong": "I have never went to Kyoto.", "why": "have + 過去分詞。wentは不可"}
+    ],
+    "key_signal": "ever/never/before/once/twice → 現在完了（経験）",
+    "sources": ["Purdue OWL: Verb Tenses"]
+  },
+  {
+    "id": "R013",
+    "rule": "過去完了",
+    "rule_en": "Past Perfect",
+    "diff": "lv2",
+    "axes": ["tense"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "B1",
+    "pattern": "S + had + pp (過去のある時点より前の出来事)",
+    "correct_example": "When I arrived, the movie had already started.",
+    "common_errors": [
+      {"wrong": "When I arrived, the movie already started.", "why": "arrivedより前→過去完了had started"},
+      {"wrong": "When I arrived, the movie has started.", "why": "過去の文脈でhas（現在完了）は不可"}
+    ],
+    "key_signal": "過去の文中で「さらに前の出来事」→ had + pp",
+    "sources": ["Purdue OWL: Active Verb Tenses", "Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R014",
+    "rule": "受動態",
+    "rule_en": "Passive Voice",
+    "diff": "lv2",
+    "axes": ["form"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "A2/B1",
+    "pattern": "S + be動詞 + pp (+ by 動作主)",
+    "correct_example": "This cake was made by my mother.",
+    "common_errors": [
+      {"wrong": "This cake was make by my mother.", "why": "be + 過去分詞。makeではなくmade"},
+      {"wrong": "This cake made by my mother.", "why": "be動詞が必要"}
+    ],
+    "key_signal": "「～される」→ be + 過去分詞",
+    "sources": ["Purdue OWL: Passive Verbs"]
+  },
+  {
+    "id": "R015",
+    "rule": "不規則比較級",
+    "rule_en": "Irregular Comparatives",
+    "diff": "lv2",
+    "axes": ["form"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "A2",
+    "pattern": "good/well → better → best / bad/badly → worse → worst",
+    "correct_example": "He speaks English better than his brother.",
+    "common_errors": [
+      {"wrong": "He speaks English more good than his brother.", "why": "goodの比較級はbetter。more goodは不可"},
+      {"wrong": "He speaks English gooder.", "why": "不規則変化。-erは付かない"}
+    ],
+    "key_signal": "good/well/bad/far/many/much は不規則変化",
+    "sources": ["Purdue OWL: How to Use Adjectives and Adverbs"]
+  },
+  {
+    "id": "R016",
+    "rule": "関係代名詞 who（主格）",
+    "rule_en": "Relative Pronoun: Who (Subject)",
+    "diff": "lv2",
+    "axes": ["logic"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "A2/B1",
+    "pattern": "先行詞(人) + who + V ...",
+    "correct_example": "The man who is standing over there is my uncle.",
+    "common_errors": [
+      {"wrong": "The man which is standing...", "why": "人にはwho。whichは物"},
+      {"wrong": "The man what is standing...", "why": "whatは関係代名詞として先行詞を取れない"}
+    ],
+    "key_signal": "人→who/whom/whose、物→which/that",
+    "sources": ["Purdue OWL: Relative Pronouns", "Purdue OWL: Defining vs. Non-Defining"]
+  },
+  {
+    "id": "R017",
+    "rule": "時・条件の副詞節では現在形",
+    "rule_en": "Present Tense in Time/Condition Clauses",
+    "diff": "lv2",
+    "axes": ["tense", "trap"],
+    "tags": ["eiken3", "juken", "toeic"],
+    "cefr": "B1",
+    "pattern": "If/When/Before/After/Until + S + V(現在形), S + will + V",
+    "correct_example": "If it rains tomorrow, we will stay home.",
+    "common_errors": [
+      {"wrong": "If it will rain tomorrow, we will stay home.", "why": "if節でwillは使わない"},
+      {"wrong": "If it rained tomorrow, we will stay home.", "why": "単なる条件なら現在形。仮定法は別"}
+    ],
+    "key_signal": "if/when/before/after/until の中は現在形（未来でも）",
+    "sources": ["Cambridge Grammar: Verbs", "BBC Learning English"]
+  },
+  {
+    "id": "R018",
+    "rule": "使役動詞 make + O + 原形",
+    "rule_en": "Causative: Make + Object + Base Form",
+    "diff": "lv2",
+    "axes": ["trap"],
+    "tags": ["eiken3", "toeic", "juken"],
+    "cefr": "B1",
+    "pattern": "make + O + V(原形不定詞) ※toは不要",
+    "correct_example": "He made me write the report again.",
+    "common_errors": [
+      {"wrong": "He made me to write the report.", "why": "makeの後はto不要。原形"},
+      {"wrong": "He made me writing the report.", "why": "-ingではなく原形"}
+    ],
+    "key_signal": "make/let/have + O + 原形（toなし）",
+    "sources": ["Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R019",
+    "rule": "look forward to + -ing",
+    "rule_en": "Look Forward To + Gerund",
+    "diff": "lv2",
+    "axes": ["trap", "vocab"],
+    "tags": ["eiken3", "toeic"],
+    "cefr": "B1",
+    "pattern": "look forward to + V-ing (toは前置詞)",
+    "correct_example": "I'm looking forward to seeing you again.",
+    "common_errors": [
+      {"wrong": "I'm looking forward to see you.", "why": "toは前置詞→後ろは動名詞(-ing)"},
+      {"wrong": "I'm looking forward seeing you.", "why": "toが必要"}
+    ],
+    "key_signal": "to + -ing になる表現: look forward to, be used to, object to",
+    "sources": ["Cambridge Grammar: Easily confused words"]
+  },
+  {
+    "id": "R020",
+    "rule": "neither A nor B",
+    "rule_en": "Neither...Nor (Correlative Conjunctions)",
+    "diff": "lv2",
+    "axes": ["logic"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "B1",
+    "pattern": "Neither A nor B + V(Bに一致)",
+    "correct_example": "Neither Tom nor Jerry was at the party.",
+    "common_errors": [
+      {"wrong": "Neither Tom or Jerry was at the party.", "why": "neitherとペアになるのはnor"},
+      {"wrong": "Neither Tom nor Jerry were at the party.", "why": "動詞はBに一致。Jerryは単数→was"}
+    ],
+    "key_signal": "neither...nor / either...or / not only...but also",
+    "sources": ["Purdue OWL: Making Subjects and Verbs Agree"]
+  },
+  {
+    "id": "R021",
+    "rule": "不可算名詞は単数扱い",
+    "rule_en": "Uncountable Nouns: Singular Agreement",
+    "diff": "lv2",
+    "axes": ["form", "trap"],
+    "tags": ["eiken3", "toeic"],
+    "cefr": "B1",
+    "pattern": "news/information/advice/furniture + is (不可算→単数)",
+    "correct_example": "The news was very surprising.",
+    "common_errors": [
+      {"wrong": "The news were very surprising.", "why": "newsは不可算名詞→単数扱いwas"},
+      {"wrong": "The informations are useful.", "why": "informationに複数形はない"}
+    ],
+    "key_signal": "news, information, advice, furniture, luggage → 不可算",
+    "sources": ["Purdue OWL: Count and Noncount Nouns"]
+  },
+  {
+    "id": "R022",
+    "rule": "whether ... or not",
+    "rule_en": "Whether...Or Not",
+    "diff": "lv2",
+    "axes": ["logic"],
+    "tags": ["eiken3", "juken"],
+    "cefr": "B1",
+    "pattern": "whether + S + V + or not = ～かどうか",
+    "correct_example": "I don't know whether he will come or not.",
+    "common_errors": [
+      {"wrong": "I don't know what he will come or not.", "why": "「～かどうか」はwhether/if。whatは不可"},
+      {"wrong": "I don't know that he will come or not.", "why": "or notと共に使うのはwhether"}
+    ],
+    "key_signal": "～かどうか → whether (or not) / if",
+    "sources": ["Cambridge Grammar: Words, sentences and clauses"]
+  },
+  {
+    "id": "R023",
+    "rule": "do someone a favor",
+    "rule_en": "Do Someone a Favor (Fixed Expression)",
+    "diff": "lv2",
+    "axes": ["vocab"],
+    "tags": ["eiken3", "toeic"],
+    "cefr": "B1",
+    "pattern": "do + 人 + a favor = 頼みを聞く",
+    "correct_example": "Could you do me a favor?",
+    "common_errors": [
+      {"wrong": "Could you make me a favor?", "why": "makeではなくdo。定型表現"},
+      {"wrong": "Could you give me a favor?", "why": "giveではなくdo"}
+    ],
+    "key_signal": "定型: do a favor, make a decision, take a break",
+    "sources": ["Cambridge Grammar: Easily confused words"]
+  },
+  {
+    "id": "R024",
+    "rule": "未来完了",
+    "rule_en": "Future Perfect",
+    "diff": "lv3",
+    "axes": ["tense"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B1/B2",
+    "pattern": "S + will have + pp + by + 未来の時点",
+    "correct_example": "By the time you arrive, I will have finished the work.",
+    "common_errors": [
+      {"wrong": "By the time you arrive, I will finish the work.", "why": "by+未来の時点→未来完了"},
+      {"wrong": "By the time you will arrive, I will have finished.", "why": "by the time節は現在形"}
+    ],
+    "key_signal": "by + 未来の期限 → will have + pp",
+    "sources": ["Purdue OWL: Active Verb Tenses"]
+  },
+  {
+    "id": "R025",
+    "rule": "過去完了進行形",
+    "rule_en": "Past Perfect Continuous",
+    "diff": "lv3",
+    "axes": ["tense"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B2",
+    "pattern": "S + had been + V-ing + for/since ... (過去のある時点まで継続)",
+    "correct_example": "She had been studying for three hours when I got home.",
+    "common_errors": [
+      {"wrong": "She has been studying for three hours when I got home.", "why": "過去の文脈→hadが必要"},
+      {"wrong": "She was studying for three hours when I got home.", "why": "forで期間を示す→完了進行形"}
+    ],
+    "key_signal": "過去の時点まで動作が継続 → had been + -ing",
+    "sources": ["Purdue OWL: Active Verb Tenses"]
+  },
+  {
+    "id": "R026",
+    "rule": "品詞変換（動詞→名詞）",
+    "rule_en": "Word Formation: Verb to Noun",
+    "diff": "lv3",
+    "axes": ["form"],
+    "tags": ["eikenpre2", "toeic", "juken"],
+    "cefr": "B1/B2",
+    "pattern": "The ___ of ... → 名詞が必要（introduce→introduction, decide→decision）",
+    "correct_example": "The introduction of the new policy was announced yesterday.",
+    "common_errors": [
+      {"wrong": "The introduce of the new policy...", "why": "冠詞Theの後は名詞。動詞は不可"},
+      {"wrong": "The introducing of the new policy...", "why": "動名詞よりも派生名詞が自然"}
+    ],
+    "key_signal": "冠詞(The/A) + ___ + of → 名詞形が必要",
+    "sources": ["Purdue OWL: Adjective or Adverb", "Cambridge Grammar: Adjectives and adverbs"]
+  },
+  {
+    "id": "R027",
+    "rule": "受動態の不定詞",
+    "rule_en": "Passive Infinitive: to be + pp",
+    "diff": "lv3",
+    "axes": ["form"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B2",
+    "pattern": "need/want/expect + to be + pp",
+    "correct_example": "The report needs to be submitted by Friday.",
+    "common_errors": [
+      {"wrong": "The report needs to submit by Friday.", "why": "reportは提出される側→to be submitted"},
+      {"wrong": "The report needs submitted.", "why": "to beが必要"}
+    ],
+    "key_signal": "主語が動作を受ける側 → to be + pp",
+    "sources": ["Purdue OWL: Passive Verbs"]
+  },
+  {
+    "id": "R028",
+    "rule": "due to + 名詞",
+    "rule_en": "Due To vs Because",
+    "diff": "lv3",
+    "axes": ["vocab"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B1/B2",
+    "pattern": "due to + 名詞句 / because + S + V(節)",
+    "correct_example": "The meeting was postponed due to the heavy rain.",
+    "common_errors": [
+      {"wrong": "The meeting was postponed because the heavy rain.", "why": "becauseの後は節(S+V)が必要"},
+      {"wrong": "The meeting was postponed due to it rained.", "why": "due toの後は名詞句"}
+    ],
+    "key_signal": "due to / owing to + 名詞 vs because / since + 節",
+    "sources": ["Cambridge Grammar: Easily confused words"]
+  },
+  {
+    "id": "R029",
+    "rule": "refrain from -ing",
+    "rule_en": "Refrain From + Gerund",
+    "diff": "lv3",
+    "axes": ["vocab"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B2",
+    "pattern": "refrain from + V-ing = ～を控える",
+    "correct_example": "Please refrain from using your phone during the meeting.",
+    "common_errors": [
+      {"wrong": "Please refrain to use your phone.", "why": "refrain from + -ing。toは不可"},
+      {"wrong": "Please refrain using your phone.", "why": "fromが必要"}
+    ],
+    "key_signal": "refrain from / prevent from / prohibit from + -ing",
+    "sources": ["Cambridge Grammar: Prepositions and particles"]
+  },
+  {
+    "id": "R030",
+    "rule": "関係副詞 where",
+    "rule_en": "Relative Adverb: Where",
+    "diff": "lv3",
+    "axes": ["logic"],
+    "tags": ["eikenpre2", "juken"],
+    "cefr": "B1/B2",
+    "pattern": "先行詞(場所) + where + S + V (= in/at which)",
+    "correct_example": "The city where I was born is very small.",
+    "common_errors": [
+      {"wrong": "The city which I was born is very small.", "why": "whichならin whichが必要。whereで代替"},
+      {"wrong": "The city what I was born.", "why": "whatは先行詞を取れない"}
+    ],
+    "key_signal": "場所→where、時→when、理由→why",
+    "sources": ["Purdue OWL: Relative Pronouns"]
+  },
+  {
+    "id": "R031",
+    "rule": "複合関係副詞 however",
+    "rule_en": "However + Adj/Adv (Concessive)",
+    "diff": "lv3",
+    "axes": ["logic"],
+    "tags": ["eikenpre2", "juken"],
+    "cefr": "B2",
+    "pattern": "However + 形容詞/副詞 + S + V = どんなに～しても",
+    "correct_example": "However hard he tried, he couldn't solve the problem.",
+    "common_errors": [
+      {"wrong": "Whatever hard he tried...", "why": "形容詞/副詞を修飾→however。whateverは名詞"},
+      {"wrong": "However he tried hard...", "why": "howeverの直後に形容詞/副詞を置く"}
+    ],
+    "key_signal": "however + adj/adv / whatever + noun / whenever + time",
+    "sources": ["Cambridge Grammar: Words, sentences and clauses"]
+  },
+  {
+    "id": "R032",
+    "rule": "仮定法現在 suggest/recommend + 原形",
+    "rule_en": "Subjunctive after Suggest/Recommend",
+    "diff": "lv3",
+    "axes": ["trap"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B2",
+    "pattern": "suggest/recommend/insist/demand + that + S + V(原形)",
+    "correct_example": "I suggest that he attend the meeting.",
+    "common_errors": [
+      {"wrong": "I suggest that he attends the meeting.", "why": "仮定法現在→三単現のsは付かない"},
+      {"wrong": "I suggest that he should attends.", "why": "shouldの後も原形"}
+    ],
+    "key_signal": "suggest/recommend/insist/demand + that S + 原形",
+    "sources": ["Cambridge Grammar: Verbs", "Purdue OWL: Verb Tenses"]
+  },
+  {
+    "id": "R033",
+    "rule": "The number of（単数）vs A number of（複数）",
+    "rule_en": "The Number Of vs A Number Of",
+    "diff": "lv3",
+    "axes": ["trap"],
+    "tags": ["eikenpre2", "toeic", "juken"],
+    "cefr": "B2",
+    "pattern": "The number of + 複数名詞 + 単数動詞 / A number of + 複数名詞 + 複数動詞",
+    "correct_example": "The number of students is increasing every year.",
+    "common_errors": [
+      {"wrong": "The number of students are increasing.", "why": "The number of = ～の数（単数扱い）"},
+      {"wrong": "A number of students is studying.", "why": "A number of = 多くの（複数扱い）"}
+    ],
+    "key_signal": "The number of → is / A number of → are",
+    "sources": ["Purdue OWL: Making Subjects and Verbs Agree"]
+  },
+  {
+    "id": "R034",
+    "rule": "-ing形容詞 vs -ed形容詞",
+    "rule_en": "Participle Adjectives: -ing vs -ed",
+    "diff": "lv3",
+    "axes": ["form"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B1",
+    "pattern": "物・事 → -ing(boring/exciting) / 人の感情 → -ed(bored/excited)",
+    "correct_example": "The lecture was boring. / I was bored.",
+    "common_errors": [
+      {"wrong": "The lecture was bored.", "why": "物が主語→boring（退屈させる）"},
+      {"wrong": "I was boring.", "why": "人が退屈を感じる→bored"}
+    ],
+    "key_signal": "原因（物）→ -ing / 感じる側（人）→ -ed",
+    "sources": ["Purdue OWL: Adjective or Adverb", "Cambridge Grammar: Adjectives and adverbs"]
+  },
+  {
+    "id": "R035",
+    "rule": "succeed in -ing",
+    "rule_en": "Succeed In + Gerund",
+    "diff": "lv3",
+    "axes": ["vocab"],
+    "tags": ["eikenpre2", "toeic"],
+    "cefr": "B2",
+    "pattern": "succeed in + V-ing = ～に成功する",
+    "correct_example": "He succeeded in passing the exam.",
+    "common_errors": [
+      {"wrong": "He succeeded to pass the exam.", "why": "succeed in -ing。toは不可"},
+      {"wrong": "He succeeded passing the exam.", "why": "inが必要"}
+    ],
+    "key_signal": "succeed in / consist of / insist on / depend on + -ing",
+    "sources": ["Cambridge Grammar: Prepositions and particles"]
+  },
+  {
+    "id": "R036",
+    "rule": "仮定法過去完了",
+    "rule_en": "Third Conditional (Past Unreal)",
+    "diff": "lv4",
+    "axes": ["tense"],
+    "tags": ["eiken2", "toeic"],
+    "cefr": "B2",
+    "pattern": "If + S + had + pp, S + would have + pp",
+    "correct_example": "If I had known about the meeting, I would have attended.",
+    "common_errors": [
+      {"wrong": "If I knew about the meeting, I would have attended.", "why": "過去の事実に反する→had known"},
+      {"wrong": "If I had known, I would attend.", "why": "帰結節もwould have + pp"}
+    ],
+    "key_signal": "過去の事実に反する仮定 → If had pp, would have pp",
+    "sources": ["Cambridge Grammar: Verbs", "Purdue OWL: Verb Tenses"]
+  },
+  {
+    "id": "R037",
+    "rule": "分詞構文（受動）",
+    "rule_en": "Participial Phrase (Passive)",
+    "diff": "lv4",
+    "axes": ["form"],
+    "tags": ["eiken2", "toeic", "juken"],
+    "cefr": "B2/C1",
+    "pattern": "pp + 前置詞句, S + V (主語が動作を受ける側)",
+    "correct_example": "Seen from the top of the mountain, the city looked beautiful.",
+    "common_errors": [
+      {"wrong": "Seeing from the top, the city looked beautiful.", "why": "cityが見られる側→Seen（受動）"},
+      {"wrong": "See from the top, the city looked beautiful.", "why": "分詞構文は分詞で始まる"}
+    ],
+    "key_signal": "主語が受動→過去分詞で開始、能動→現在分詞で開始",
+    "sources": ["Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R038",
+    "rule": "Not only の倒置",
+    "rule_en": "Inversion after Not Only",
+    "diff": "lv4",
+    "axes": ["logic"],
+    "tags": ["eiken2", "toeic"],
+    "cefr": "B2/C1",
+    "pattern": "Not only + 倒置(助動詞+S) + but (also) + S + V",
+    "correct_example": "Not only does he speak English, but he also speaks French.",
+    "common_errors": [
+      {"wrong": "Not only he speaks English...", "why": "Not onlyが文頭→倒置が必要"},
+      {"wrong": "Not only does he speaks...", "why": "doesの後は原形speak"}
+    ],
+    "key_signal": "否定語句が文頭→倒置: Not only / Never / Hardly / Seldom",
+    "sources": ["Cambridge Grammar: Words, sentences and clauses"]
+  },
+  {
+    "id": "R039",
+    "rule": "insist on -ing",
+    "rule_en": "Insist On + Gerund",
+    "diff": "lv4",
+    "axes": ["vocab"],
+    "tags": ["eiken2", "toeic"],
+    "cefr": "B2",
+    "pattern": "insist on + V-ing = ～することを主張する",
+    "correct_example": "The manager insisted on seeing the documents himself.",
+    "common_errors": [
+      {"wrong": "The manager insisted to see the documents.", "why": "insist on -ing。toは不可"},
+      {"wrong": "The manager insisted seeing the documents.", "why": "onが必要"}
+    ],
+    "key_signal": "insist on / persist in / count on + -ing",
+    "sources": ["Cambridge Grammar: Prepositions and particles"]
+  },
+  {
+    "id": "R040",
+    "rule": "would rather + S + 過去形",
+    "rule_en": "Would Rather + Subject + Past Tense",
+    "diff": "lv4",
+    "axes": ["trap"],
+    "tags": ["eiken2", "toeic"],
+    "cefr": "B2/C1",
+    "pattern": "would rather + S + V(過去形) = Sに～してほしい（仮定法）",
+    "correct_example": "I would rather you didn't smoke in this room.",
+    "common_errors": [
+      {"wrong": "I would rather you don't smoke.", "why": "仮定法→過去形didn't"},
+      {"wrong": "I would rather you not smoke.", "why": "S + Vの構文ではdidn'tが必要"}
+    ],
+    "key_signal": "would rather + S + 過去形（仮定法的表現）",
+    "sources": ["Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R041",
+    "rule": "It is (high) time + S + 過去形",
+    "rule_en": "It Is Time + Past Tense (Subjunctive)",
+    "diff": "lv4",
+    "axes": ["trap"],
+    "tags": ["eiken2", "toeic", "juken"],
+    "cefr": "B2/C1",
+    "pattern": "It is (high/about) time + S + V(過去形)",
+    "correct_example": "It is high time we made a decision.",
+    "common_errors": [
+      {"wrong": "It is high time we make a decision.", "why": "仮定法的→過去形made"},
+      {"wrong": "It is high time we will make a decision.", "why": "willは使わない。過去形"}
+    ],
+    "key_signal": "It's time + 過去形 = そろそろ～すべき",
+    "sources": ["Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R042",
+    "rule": "仮定法過去完了の倒置",
+    "rule_en": "Inversion in Third Conditional (Had + S + pp)",
+    "diff": "lv4",
+    "axes": ["logic"],
+    "tags": ["eiken2", "juken"],
+    "cefr": "C1",
+    "pattern": "Had + S + pp, S + would have + pp (= If S had pp)",
+    "correct_example": "Had I known the truth, I would have acted differently.",
+    "common_errors": [
+      {"wrong": "Had I known the truth, I would act differently.", "why": "帰結節もwould have + pp"},
+      {"wrong": "Had I know the truth...", "why": "had + 過去分詞。原形は不可"}
+    ],
+    "key_signal": "If省略→倒置: Had S pp / Were S to / Should S",
+    "sources": ["Cambridge Grammar: Verbs"]
+  },
+  {
+    "id": "R043",
+    "rule": "come into effect",
+    "rule_en": "Come Into Effect (Fixed Expression)",
+    "diff": "lv5",
+    "axes": ["vocab"],
+    "tags": ["eikenpre1", "toeic"],
+    "cefr": "C1",
+    "pattern": "come into effect/force = 施行される、発効する",
+    "correct_example": "The new regulation will come into effect next month.",
+    "common_errors": [
+      {"wrong": "The new regulation will come in effect.", "why": "come into effect。inではなくinto"},
+      {"wrong": "The new regulation will come to effect.", "why": "toではなくinto"}
+    ],
+    "key_signal": "come into: effect/force/being/existence/contact",
+    "sources": ["Cambridge Grammar: Easily confused words"]
+  },
+  {
+    "id": "R044",
+    "rule": "Hardly had S pp when ...",
+    "rule_en": "Hardly...When (Inversion)",
+    "diff": "lv5",
+    "axes": ["trap", "logic"],
+    "tags": ["eikenpre1", "toeic"],
+    "cefr": "C1",
+    "pattern": "Hardly + had + S + pp + when + S + V(過去形)",
+    "correct_example": "Hardly had he begun the presentation when the fire alarm went off.",
+    "common_errors": [
+      {"wrong": "Hardly he had begun...", "why": "Hardlyが文頭→倒置(had he begun)"},
+      {"wrong": "Hardly had he begun... than the alarm.", "why": "hardlyとペアはwhen。thanではない"}
+    ],
+    "key_signal": "Hardly/Scarcely + had S pp + when / No sooner + had S pp + than",
+    "sources": ["Cambridge Grammar: Words, sentences and clauses"]
+  },
+  {
+    "id": "R045",
+    "rule": "Were it not for（仮定法倒置）",
+    "rule_en": "Were It Not For (Inverted Conditional)",
+    "diff": "lv5",
+    "axes": ["logic"],
+    "tags": ["eikenpre1", "toeic"],
+    "cefr": "C1",
+    "pattern": "Were it not for + N, S + would/could + V = もし～がなければ",
+    "correct_example": "Were it not for his help, we could not have succeeded.",
+    "common_errors": [
+      {"wrong": "Were it not his help...", "why": "forが必要。Were it not for + 名詞"},
+      {"wrong": "Was it not for his help...", "why": "仮定法ではwere（wasは不可）"}
+    ],
+    "key_signal": "Were it not for = If it were not for = But for",
+    "sources": ["Cambridge Grammar: Verbs"]
+  }
+]

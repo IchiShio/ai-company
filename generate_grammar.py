@@ -15,6 +15,7 @@ Batch モード:
 import argparse
 import json
 import os
+import random
 import re
 import sys
 from pathlib import Path
@@ -39,6 +40,7 @@ REPO_ROOT = Path(__file__).parent
 QUESTIONS_JS = REPO_ROOT / "grammar" / "questions.js"
 STAGING_JSON = REPO_ROOT / "grammar" / "staging.json"
 BATCH_STATE = REPO_ROOT / "grammar" / "batch_state.json"
+RULES_JSON = REPO_ROOT / "grammar" / "grammar_rules.json"
 
 DEFAULT_MODEL = "claude-sonnet-4-6"
 VERIFY_MODEL = "claude-sonnet-4-6"
@@ -46,30 +48,13 @@ MAX_TOKENS = 8192
 BATCH_SIZE = 30
 EXCLUDE_LIMIT = 3000
 
-GRAMMAR_BY_LEVEL = {
-    "lv1": "be動詞, 一般動詞の現在形, 人称代名詞, 冠詞a/the, 命令文, There is/are, 疑問文(What/Who/Where)",
-    "lv2": "過去形, 未来形(will/be going to), 助動詞(can/must/should), 比較級・最上級, 受動態, 現在進行形, 不規則変化, 前置詞の基本",
-    "lv3": "現在完了(継続/経験/完了), 関係代名詞(who/which/that), 不定詞・動名詞, 接続詞(although/unless/whether), 間接疑問文, 付加疑問文, 分詞の形容詞用法, due to / in spite of",
-    "lv4": "仮定法過去/過去完了, 分詞構文, 倒置(Not only/Hardly/Never), 関係副詞, 使役動詞(make/let/have), 知覚動詞, suggest/insist + 原形, would rather + 過去形",
-    "lv5": "仮定法の倒置(Had I/Were it not for), 複合関係詞(whatever/however), 否定の倒置, 同格that, 省略構文, 冠詞の微妙な使い分け, コロケーション(come into effect等), 名詞の可算/不可算",
-}
 
-AXIS_DESCRIPTIONS = {
-    "form":  "form : 語形変化・活用（三単現-s, 過去形-ed, 品詞変換 -tion/-ly, 不規則変化等）",
-    "vocab": "vocab: 語法・コロケーション・前置詞選択（depend on, consist of, refrain from等）",
-    "logic": "logic: 文構造の論理（関係詞の先行詞、分詞の修飾先、並列構造、倒置等）",
-    "tense": "tense: 時制・相の選択（過去/現在完了/未来/進行形の使い分け、時制マーカーに注目）",
-    "trap":  "trap : 紛らわしい選択肢（似た語形、典型的な誤用パターン、日本人が間違えやすい表現）",
-}
-
-# diff → tags のデフォルトマッピング
-DEFAULT_TAGS_BY_DIFF = {
-    "lv1": ["eiken4"],
-    "lv2": ["eiken3", "juken"],
-    "lv3": ["eikenpre2", "toeic"],
-    "lv4": ["eiken2", "toeic"],
-    "lv5": ["eikenpre1", "toeic"],
-}
+def load_rules():
+    """grammar_rules.json を読み込む"""
+    if not RULES_JSON.exists():
+        print(f"ERROR: {RULES_JSON} が見つかりません", file=sys.stderr)
+        sys.exit(1)
+    return json.loads(RULES_JSON.read_text(encoding="utf-8"))
 
 
 def load_existing_stems():
@@ -82,38 +67,65 @@ def load_existing_stems():
     return stems
 
 
-def build_prompt(count, lv1, lv2, lv3, lv4, lv5, existing_stems, axis_only=None):
-    existing_list = json.dumps(existing_stems, ensure_ascii=False, indent=2)
+def select_rules_for_batch(all_rules, count, lv_counts, axis_only=None):
+    """バッチに使うルールをランダムに選択"""
+    lv_names = ['lv1', 'lv2', 'lv3', 'lv4', 'lv5']
+    selected = []
 
-    if axis_only:
-        per = count // len(axis_only)
-        axis_lines = "\n".join(f"- {AXIS_DESCRIPTIONS[a]}" for a in axis_only)
-        axis_instruction = f"各問題に以下の axis のいずれかを割り当て、均等に分散（各約{per}問）：\n{axis_lines}"
-    else:
-        axis_lines = "\n".join(f"- {d}" for d in AXIS_DESCRIPTIONS.values())
-        axis_instruction = f"各問題に以下のいずれかを1つ割り当て、均等に分散（各約{count//5}問）：\n{axis_lines}"
+    for i, lv in enumerate(lv_names):
+        n = lv_counts[i]
+        if n == 0:
+            continue
+        candidates = [r for r in all_rules if r['diff'] == lv]
+        if axis_only:
+            candidates = [r for r in candidates if any(a in axis_only for a in r['axes'])]
+        if not candidates:
+            candidates = [r for r in all_rules if r['diff'] == lv]
+        # ルール数よりcount が多い場合は繰り返し選択
+        for _ in range(n):
+            selected.append(random.choice(candidates))
 
-    lv_details = "\n".join(
-        f"- lv{i+1}: {[lv1,lv2,lv3,lv4,lv5][i]}問 — 文法範囲: {GRAMMAR_BY_LEVEL[f'lv{i+1}']}"
-        for i in range(5)
-    )
+    return selected
 
-    return f"""以下のJSON形式で英文法クイズの問題を{count}問生成してください。
+
+def format_rules_for_prompt(rules):
+    """ルールをプロンプト用テキストに変換"""
+    lines = []
+    for r in rules:
+        errors_text = "; ".join(f'"{e["wrong"]}" ({e["why"]})' for e in r.get("common_errors", []))
+        lines.append(
+            f'- [{r["id"]}] {r["rule"]} ({r["rule_en"]})\n'
+            f'  diff: {r["diff"]}, axes: {r["axes"]}, tags: {r["tags"]}\n'
+            f'  pattern: {r["pattern"]}\n'
+            f'  example: {r["correct_example"]}\n'
+            f'  common errors: {errors_text}\n'
+            f'  key signal: {r["key_signal"]}'
+        )
+    return "\n".join(lines)
+
+
+def build_prompt(count, lv1, lv2, lv3, lv4, lv5, existing_stems, axis_only=None, rules=None):
+    existing_list = json.dumps(existing_stems[-500:] if len(existing_stems) > 500 else existing_stems,
+                               ensure_ascii=False, indent=2)
+
+    # ルールDBからバッチ用ルールを選択
+    all_rules = rules or load_rules()
+    selected = select_rules_for_batch(all_rules, count, [lv1, lv2, lv3, lv4, lv5], axis_only)
+    rules_text = format_rules_for_prompt(selected)
+
+    return f"""以下の文法ルールDBに基づいて、英文法クイズの問題を{count}問生成してください。
+
+## 文法ルールDB（これらのパターンに基づいて類似問題を作成すること）
+{rules_text}
+
+## 生成ルール
+- 各ルールの pattern に従った正解を作成
+- 各ルールの common_errors を参考に紛らわしい誤答を作成
+- correct_example とは異なる英文で出題すること（類似パターンの別の文を作る）
+- key_signal を活用して、正解が1つに絞れる文脈を作ること
 
 ## 難易度の内訳
-{lv_details}
-
-## 難しさの質（axis フィールド）
-{axis_instruction}
-
-## 試験タグ（tags フィールド）
-各問題の diff に応じてタグを付与：
-- lv1: ["eiken4"]
-- lv2: ["eiken3","juken"]
-- lv3: ["eikenpre2","toeic"]
-- lv4: ["eiken2","toeic"]
-- lv5: ["eikenpre1","toeic"]
-TOEICに特に頻出の問題は "toeic" を追加してください。
+- lv1: {lv1}問 / lv2: {lv2}問 / lv3: {lv3}問 / lv4: {lv4}問 / lv5: {lv5}問
 
 ## 出力形式（JSONのみ出力、他の文章は不要）
 [
@@ -121,28 +133,25 @@ TOEICに特に頻出の問題は "toeic" を追加してください。
     "diff": "lv1〜lv5",
     "axis": "form | vocab | logic | tense | trap",
     "tags": ["toeic", "eiken3"],
-    "stem": "空欄 ___ を含む英文（例: She ___ to the store yesterday.）",
-    "ja": "日本語訳（短く自然に）",
+    "stem": "空欄 ___ を含む英文",
+    "ja": "日本語訳",
     "answer": "choices[0] と完全に同じ文字列",
     "choices": ["正解", "誤答1", "誤答2", "誤答3", "誤答4"],
     "expl": "なぜ正解なのかの日本語解説（1〜2文）",
-    "rule": "文法項目名（例: 現在完了, 仮定法過去完了, look forward to -ing）",
+    "rule": "文法項目名（ルールDBのruleフィールドと同じ値を使うこと）",
     "kp": ["覚えるべきポイント1〜2個"]
   }}
 ]
 
 ## 制約（厳守）
-- stem は空欄 ___ を必ず1つ含む英文
-- **正解は必ず1つだけ**に絞れる文脈にすること。曖昧な問題は禁止
-  - 時制問題: yesterday/since/by the time 等の時制マーカーを必ず含める
-  - will vs be going to: 文脈で1つに絞れるシチュエーションにする
+- stem は空欄 ___ を必ず1つ含む
+- **正解は必ず1つだけ**に絞れる文脈にすること
 - choices は正解1つ + 紛らわしい誤答4つ（計5つ）
-- **answer は必ず choices[0] と完全に一致**（システムが文字列一致で判定）
-- choices[0] に正解を入れる（表示時にJSがシャッフル）
-- 各 diff の文法範囲を厳守（lv1 で仮定法を出さない等）
+- **answer は必ず choices[0] と完全に一致**
+- choices[0] に正解を入れる（JSがシャッフルして表示）
 - JSON のみ出力
 
-## 既存問題リスト（重複禁止）
+## 既存問題（重複禁止）
 {existing_list}
 """
 
@@ -216,6 +225,7 @@ def split_levels(total_lv, remaining, batch_count):
 
 
 def run_normal(client, model, count, lv, existing_stems, axis_only=None):
+    all_rules = load_rules()
     all_questions = []
     remaining_lv = list(lv)
     remaining = count
@@ -231,7 +241,8 @@ def run_normal(client, model, count, lv, existing_stems, axis_only=None):
               f"(lv1:{bl1} lv2:{bl2} lv3:{bl3} lv4:{bl4} lv5:{bl5}) 生成中...")
 
         exclude = existing_stems + [q["stem"] for q in all_questions]
-        prompt = build_prompt(batch_count, bl1, bl2, bl3, bl4, bl5, exclude, axis_only=axis_only)
+        prompt = build_prompt(batch_count, bl1, bl2, bl3, bl4, bl5, exclude,
+                             axis_only=axis_only, rules=all_rules)
 
         try:
             resp = client.messages.create(
