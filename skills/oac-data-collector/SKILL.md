@@ -150,10 +150,12 @@ date,article_title,pv,purchases,revenue,source,notes
 
 ### 4-2: noteダッシュボードからの取得（ブラウザ操作）
 
-ブラウザツール（Claude in Chrome）が使える場合:
+**事前条件**: `bu -s careermigaki` セッションが起動済みで careermigaki@gmail.com でログイン済みであること。
 
-1. `https://note.com/dashboard/sales` にアクセス
-2. 売上データを読み取り、CSVに記録
+browser-use CLI（`bu -s careermigaki`）が使える場合:
+
+1. `bu -s careermigaki open "https://note.com/dashboard/sales"` にアクセス
+2. `bu -s careermigaki state` で売上データを読み取り、CSVに記録
 3. ブラウザが使えない場合はスキップし、ログに記録
 
 ---
