@@ -2,7 +2,7 @@
 name: x-schedule-post
 description: >
   Xの予約投稿スキル。投稿テキストを受け取り、7:30と18:30の2枠から次の空き枠を
-  自動判定し、MCP経由でブラウザ（Brave / Claude in Chrome拡張）を操作して予約投稿する。
+  自動判定し、browser-use CLI経由でブラウザを操作して予約投稿する。
   @ichi_eigo と @careermigaki の両アカウントに対応。アカウント切り替えも行う。
   「X投稿して」「予約投稿して」「ポストして」「ツイートして」「予約して」
   「次の空き枠に入れて」などのフレーズ、または投稿テキストを渡されて投稿を
@@ -10,15 +10,17 @@ description: >
   投稿テキストの生成だけでなく、ブラウザ操作による実際の予約投稿まで行う。
 ---
 
-# X 予約投稿スキル（Claude Code + MCP版）
+# X 予約投稿スキル（Claude Code + browser-use CLI版）
 
-XのWeb UIをMCP経由のブラウザ操作（Brave + Claude in Chrome拡張）で直接操作し、
+XのWeb UIをbrowser-use CLI経由のブラウザ操作（Chromium）で直接操作し、
 指定アカウントの次の空き枠（7:00 or 18:00 JST（@ichi_eigo）/ 7:30 or 18:30 JST（@careermigaki））に予約投稿する。
 
 ## 前提条件
 
-- BraveブラウザにClaude in Chrome拡張をインストールし、MCPサーバーが接続されていること
-- BraveでXにログイン済みであること（少なくとも一方のアカウント）
+- `bu -s ichi-eigo` セッションが起動済みでXにログイン済みであること
+  - @ichi_eigo の操作: `bu -s ichi-eigo`
+  - @careermigaki の操作: `bu -s careermigaki`
+  - @one_ai_company の操作: `bu -s ichi-eigo`（OACはいち英語社の事業のため同セッションを使用）
 - タイムゾーンは JST（日本時間）
 
 ## 対象アカウント
@@ -42,9 +44,9 @@ TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %A'
 ```
 
 **B. ブラウザの準備**
-1. `tabs_context_mcp` でタブ一覧を取得
-2. `x.com` を含むタブがあればそのIDを使用、なければ新しいタブで `https://x.com/home` に移動
-3. スクリーンショットでアカウント名（左サイドバー最下部）を確認
+1. `bu -s ichi-eigo sessions` でセッション状態を確認
+2. `x.com` が開いていない場合は `bu -s ichi-eigo open "https://x.com/home"` で移動
+3. `bu -s ichi-eigo screenshot` でアカウント名（左サイドバー最下部）を確認
 
 → アカウントが対象と異なる場合はStep 1でアカウント切り替えを行う。
 
@@ -55,9 +57,9 @@ TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %A'
 スクリーンショットで左サイドバー最下部のアカウント名を確認。
 対象アカウントでない場合:
 
-1. アカウント名の右の「…」をクリック
+1. `bu -s ichi-eigo state` でインデックスを確認し、アカウント名の右の「…」を `bu -s ichi-eigo click INDEX` でクリック
 2. メニューから対象アカウントを選択
-3. `wait` 2秒 → スクリーンショットで確認
+3. `bu -s ichi-eigo screenshot` で確認
 
 ---
 
@@ -68,14 +70,14 @@ TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %A'
 
 #### 2-1: 予約済み一覧を開く
 
-1. サイドバーの「ポストする」ボタンをクリック → **空の**投稿作成モーダルが開く
+1. `bu -s ichi-eigo state` でインデックスを確認し、サイドバーの「ポストする」ボタンを `bu -s ichi-eigo click INDEX` でクリック → **空の**投稿作成モーダルが開く
 2. モーダル右上の「下書き」リンクをクリック（この時点でテキストエリアは空なのでダイアログは出ない）
 3. 「予約済み」タブをクリック → 予約済み一覧が表示される
 
 #### 2-2: 予約済みの日時を読み取る
 
-1. スクリーンショットで予約済み投稿の日時を確認
-2. 読み取れない場合は `get_page_text` で取得
+1. `bu -s ichi-eigo screenshot` で予約済み投稿の日時を確認
+2. 読み取れない場合は `bu -s ichi-eigo state` でページテキストを取得
 3. 日時の表示形式: 「2026年3月14日(土)の午前7:34に送信されます」
 
 #### 2-3: 空き枠の判定
@@ -112,7 +114,7 @@ Step 0で取得した現在時刻を使って計算:
 
 #### 2-5: 予約済み画面を閉じる
 
-「←」（戻るボタン）をクリックしてホーム画面に戻る。
+`bu -s ichi-eigo state` でインデックスを確認し、「←」（戻るボタン）を `bu -s ichi-eigo click INDEX` でクリックしてホーム画面に戻る。
 （× で閉じてもOKだが、戻るボタンのほうが確実）
 
 ---
@@ -125,23 +127,20 @@ Step 0で取得した現在時刻を使って計算:
 （ホームページのインライン入力欄は不安定なため使わない）
 
 ```
-navigate(url="https://x.com/compose/post")
+bu -s ichi-eigo open "https://x.com/compose/post"
 ```
 
-スクリーンショットで「いまどうしてる？」のモーダルが開いたことを確認。
+`bu -s ichi-eigo screenshot` で「いまどうしてる？」のモーダルが開いたことを確認。
 
 #### 3-2: テキストを入力する
 
-1. テキストエリア（「いまどうしてる？」）をクリックして確実にフォーカス
-2. `wait` 0.5秒
-3. `computer` の `type` アクションで投稿テキストを入力
+1. `bu -s ichi-eigo state` でテキストエリア（「いまどうしてる？」）のインデックスを確認し `bu -s ichi-eigo click INDEX` でフォーカス
+2. `bu -s ichi-eigo input INDEX "投稿テキスト"` でテキストを入力
 
 #### 3-3: テキスト入力を JavaScript で検証（必須）
 
-```javascript
-// テキストエリアの内容を確認
-const editor = document.querySelector('[data-testid="tweetTextarea_0"]');
-JSON.stringify(editor ? editor.innerText : 'not found');
+```
+bu -s ichi-eigo eval "const editor = document.querySelector('[data-testid=\"tweetTextarea_0\"]'); JSON.stringify(editor ? editor.innerText : 'not found');"
 ```
 
 **確認ポイント**:
@@ -149,8 +148,8 @@ JSON.stringify(editor ? editor.innerText : 'not found');
 - 改行が正しく入っているか
 
 もし最初の行が欠けていた場合:
-1. テキストエリアをクリック → `cmd+Home` でカーソルを先頭に移動
-2. 欠けている行を `type` で入力し `Enter` で改行
+1. テキストエリアをクリック → `bu -s ichi-eigo eval "..."` でカーソルを先頭に移動
+2. 欠けている行を `bu -s ichi-eigo type "テキスト"` で入力し改行
 
 ---
 
@@ -158,40 +157,40 @@ JSON.stringify(editor ? editor.innerText : 'not found');
 
 #### 4-1: スケジュールアイコンをクリック
 
-- ツールバーのスケジュールアイコン（カレンダー+時計、左から6番目）をクリック
-- または `find` ツールで「ポストを予約」ボタンを探してクリック
+- `bu -s ichi-eigo state` でツールバーのスケジュールアイコン（カレンダー+時計）のインデックスを確認し `bu -s ichi-eigo click INDEX` でクリック
+- または `bu -s ichi-eigo state` で「ポストを予約」ボタンを探してクリック
 - 「予約設定」ダイアログが開く
 
-#### 4-2: 日時を設定する（⚠️ refは設定直前に取得）
+#### 4-2: 日時を設定する（⚠️ インデックスは設定直前に取得）
 
-**重要**: ドロップダウンのref IDはページ状態が変わると変わる。
-必ず `find` ツールで設定直前に最新のrefを取得してから `form_input` で設定する。
+**重要**: ドロップダウンのインデックスはページ状態が変わると変わる。
+必ず `bu -s ichi-eigo state` で設定直前に最新のインデックスを取得してから設定する。
 
 ```
-find(query="予約設定 日付 時刻 ドロップダウン")
+bu -s ichi-eigo state
 ```
 
-取得したrefを使って設定:
-- 月のドロップダウン: value は月番号（`"3"` など。デフォルトが正しければスキップ可）
-- **日のドロップダウン**: value はテキスト（`"15"` など）
+取得したインデックスを使って設定:
+- 月のドロップダウン: `bu -s ichi-eigo input INDEX "3"`（デフォルトが正しければスキップ可）
+- **日のドロップダウン**: `bu -s ichi-eigo input INDEX "15"`
 - 年のドロップダウン: デフォルトが正しければスキップ可
-- **時のドロップダウン**: value は 0〜23 の文字列（`"18"` など）
-- **分のドロップダウン**: value は `"0"`〜`"59"`（`"30"` など）
+- **時のドロップダウン**: `bu -s ichi-eigo input INDEX "18"`（0〜23 の文字列）
+- **分のドロップダウン**: `bu -s ichi-eigo input INDEX "30"`（`"0"`〜`"59"`）
 
-タイムゾーンが「日本標準時」であることをスクリーンショットで確認。
+`bu -s ichi-eigo screenshot` でタイムゾーンが「日本標準時」であることを確認。
 
 #### 4-3: 予約を確定する（2段階）
 
-1. 「確認する」ボタンをクリック → 投稿作成画面に戻る
-2. 上部に「〇年〇月〇日(曜)の午前/午後〇:〇〇に送信されます」と青字で表示されることを確認
-3. 右下のボタンが「予約設定」に変わっているのでクリック
+1. `bu -s ichi-eigo state` で「確認する」ボタンのインデックスを確認し `bu -s ichi-eigo click INDEX` でクリック → 投稿作成画面に戻る
+2. `bu -s ichi-eigo screenshot` で上部に「〇年〇月〇日(曜)の午前/午後〇:〇〇に送信されます」と青字で表示されることを確認
+3. `bu -s ichi-eigo state` で「予約設定」ボタンのインデックスを確認し `bu -s ichi-eigo click INDEX` でクリック
 4. 予約済み一覧画面に遷移すれば予約完了
 
 ---
 
 ### Step 5: 完了報告
 
-スクリーンショットで予約済み一覧に新しい投稿が追加されたことを確認し、ユーザーに報告:
+`bu -s ichi-eigo screenshot` で予約済み一覧に新しい投稿が追加されたことを確認し、ユーザーに報告:
 
 ```
 ✅ 予約完了
@@ -207,30 +206,32 @@ find(query="予約設定 日付 時刻 ドロップダウン")
 - **テキスト入力は必ず `/compose/post` への直接ナビゲート後に行う**（ホームのインライン入力欄は不安定）
 - **予約済み確認は必ずテキスト入力前に行う**（下書き保存ループを防ぐ）
 - **テキスト入力後は JS で必ず内容を検証する**（最初の行が抜けるバグへの対策）
-- **dropdown の ref は設定直前に `find` で再取得する**（古いrefは無効になることがある）
-- 各操作の後は `wait` 1秒を入れる（UIの反応を待つ）
-- 想定外のUIの場合はスクリーンショットで確認して柔軟に対応
+- **ドロップダウンのインデックスは設定直前に `bu -s ichi-eigo state` で再取得する**（古いインデックスは無効になることがある）
+- 各操作の後はUIの反応を待つ（必要に応じて `bu -s ichi-eigo screenshot` で状態確認）
+- 想定外のUIの場合は `bu -s ichi-eigo screenshot` で確認して柔軟に対応
 - 複数投稿を一度に予約する場合は1件ずつ順番に処理する
+- @careermigaki の投稿は `bu -s careermigaki` セッションを使用する
 
 ---
 
-## MCP ツール名の対応表
+## browser-use CLI コマンド対応表
 
-| 操作 | MCP ツール名 |
-|------|-------------|
-| タブ一覧取得 | `mcp__claude_in_chrome__tabs_context_mcp` |
-| 新しいタブ作成 | `mcp__claude_in_chrome__tabs_create_mcp` |
-| URL移動 | `mcp__claude_in_chrome__navigate` |
-| スクリーンショット | `mcp__claude_in_chrome__computer` (action: screenshot) |
-| クリック | `mcp__claude_in_chrome__computer` (action: left_click) |
-| テキスト入力 | `mcp__claude_in_chrome__computer` (action: type) |
-| キー操作 | `mcp__claude_in_chrome__computer` (action: key) |
-| 待機 | `mcp__claude_in_chrome__computer` (action: wait) |
-| 要素検索 | `mcp__claude_in_chrome__find` |
-| ページ読み取り | `mcp__claude_in_chrome__read_page` |
-| フォーム入力 | `mcp__claude_in_chrome__form_input` |
-| テキスト取得 | `mcp__claude_in_chrome__get_page_text` |
-| JS実行 | `mcp__claude_in_chrome__javascript_tool` |
+| 操作 | browser-use CLI コマンド |
+|------|------------------------|
+| セッション状態確認 | `bu -s ichi-eigo sessions` |
+| URL移動・新しいタブ | `bu -s ichi-eigo open "URL"` |
+| スクリーンショット | `bu -s ichi-eigo screenshot` |
+| クリック | `bu -s ichi-eigo click INDEX` |
+| テキスト入力（type） | `bu -s ichi-eigo type "text"` |
+| フォーム入力 | `bu -s ichi-eigo input INDEX "text"` |
+| キー操作 / JS実行 | `bu -s ichi-eigo eval "JS"` |
+| インデックス探索・ページ状態 | `bu -s ichi-eigo state` |
+| JS実行 | `bu -s ichi-eigo eval "JS"` |
+
+**セッション使い分け**:
+- `@ichi_eigo`（英語コーチングラボ）: `bu -s ichi-eigo`
+- `@careermigaki`（キャリア磨き）: `bu -s careermigaki`
+- `@one_ai_company`（OAC、いち英語社の事業）: `bu -s ichi-eigo`
 
 ---
 

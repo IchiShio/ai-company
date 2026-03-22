@@ -41,6 +41,14 @@ description: |
 - [ ] 適応難易度ロジック（正解→難化、不正解→別角度）が正常動作するか
 
 ### 3. UI/UXチェック（ブラウザ確認）
+
+browser-use CLI でページを開いて確認する:
+```
+bu -s ichi-eigo open "https://native-real.com/kioku-shinai/"
+bu -s ichi-eigo state
+bu -s ichi-eigo screenshot
+```
+
 - [ ] ライトテーマであること（ダークNG）
 - [ ] モバイル表示（375px幅）で崩れないか
 - [ ] タブレット表示（768px幅）で崩れないか

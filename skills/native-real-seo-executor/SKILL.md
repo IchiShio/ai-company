@@ -274,9 +274,9 @@ https://example.com/specific-spam-page
 
 **作成後のGSCアップロード（自動＋手動）**:
 
-1. Claude in Chrome で否認ページを自動で開く:
+1. browser-use CLI で否認ページを自動で開く:
    ```
-   https://search.google.com/search-console/disavow-links?resource_id=https%3A%2F%2Fnative-real.com%2F
+   bu -s ichi-eigo open "https://search.google.com/search-console/disavow-links?resource_id=https%3A%2F%2Fnative-real.com%2F"
    ```
 2. ページが開いたらユーザーに以下を依頼する:
    ```

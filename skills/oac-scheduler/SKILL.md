@@ -46,31 +46,32 @@ description: |
 
 ### 事前条件
 
-`bu -s careermigaki` セッションが起動済みで @one_ai_company アカウントでログイン済みであること。
+`bu -s ichi-eigo` セッションが起動済みで @one_ai_company アカウントでログイン済みであること。
+（@one_ai_company はいち英語社の事業のため、`bu -s ichi-eigo` セッションを使用する）
 
 ### 予約方法
 
-browser-use CLI（`bu -s careermigaki`）を使用する。
+browser-use CLI（`bu -s ichi-eigo`）を使用する。
 
 ### ワークフロー
 
 **Step 1: 準備**
 
 1. 現在時刻を取得（`TZ=Asia/Tokyo date`）
-2. `bu -s careermigaki state` でセッション状態と現在のアカウントを確認
+2. `bu -s ichi-eigo state` でセッション状態と現在のアカウントを確認
 3. @one_ai_company アカウントでログインしていることを確認
 
 **Step 2: 予約済み枠の確認**
 
-1. `bu -s careermigaki open "https://x.com/compose/post"` で投稿作成画面を開く
+1. `bu -s ichi-eigo open "https://x.com/compose/post"` で投稿作成画面を開く
 2. 「下書き」-> 「予約済み」で既存の予約を確認
 3. 次の空き枠を判定（7:15 or 18:15）
 
 **Step 3: テキスト入力・予約設定**
 
-1. `bu -s careermigaki open "https://x.com/compose/post"` に直接ナビゲート
-2. `bu -s careermigaki type "投稿本文"` でテキストを入力
-3. `bu -s careermigaki eval "document.querySelector('[data-testid=\"tweetTextarea_0\"]').textContent"` で入力内容を検証
+1. `bu -s ichi-eigo open "https://x.com/compose/post"` に直接ナビゲート
+2. `bu -s ichi-eigo type "投稿本文"` でテキストを入力
+3. `bu -s ichi-eigo eval "document.querySelector('[data-testid=\"tweetTextarea_0\"]').textContent"` で入力内容を検証
 4. スケジュールアイコンから日時を設定
 5. 「確認する」-> 「予約設定」で確定
 
@@ -145,6 +146,6 @@ date,time_slot,type,text_preview,category,impressions,likes,retweets,replies,boo
 - テキスト入力は `/compose/post` への直接ナビゲート後に行う
 - 予約済み確認はテキスト入力前に行う（下書き保存ループ防止）
 - テキスト入力後は JS で必ず内容を検証する
-- `bu -s careermigaki` セッションを使用する（他セッションと混同しないこと）
+- `bu -s ichi-eigo` セッションを使用する（OACはいち英語社の事業のため。他セッションと混同しないこと）
 - アカウント切り替えを確実に行う（@one_ai_company であることを確認）
 - 他アカウントでの誤投稿は致命的。アカウント確認は2回行う
