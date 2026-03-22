@@ -29,7 +29,9 @@
     "key_signal": "後に名詞が続いて「〜を除いて」の意味ならexcept、「受け取る・同意する」の動詞ならaccept",
     "sources": [
       "Purdue OWL: Spelling: Common Words that Sound Alike"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R002",
@@ -61,6 +63,12 @@
     "key_signal": "RAVEN: Remember Affect is a Verb and Effect is a Noun",
     "sources": [
       "Purdue OWL: Spelling: Common Words that Sound Alike"
+    ],
+    "verified": true,
+    "media_examples": [
+      "\"So my gut feel is that you'll see more of an impact of this in the petrol pumps than you will in bills.\" (BBC News)",
+      "\"Nothing in and of itself will fix this but these activities will bring prices down. (BBC News)",
+      "They won't isolate the UK - we're part of a global system - but they will bring prices down.\" (BBC News)"
     ]
   },
   {
@@ -93,7 +101,9 @@
     "key_signal": "動詞ならadvise（末尾-ise）、名詞ならadvice（末尾-ice）",
     "sources": [
       "Purdue OWL: Spelling: Common Words that Sound Alike"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R004",
@@ -125,6 +135,12 @@
     "key_signal": "「良心」の意味ならconscience（名詞）、「意識がある」ならconscious（形容詞）",
     "sources": [
       "Purdue OWL: Spelling: Common Words that Sound Alike"
+    ],
+    "verified": true,
+    "media_examples": [
+      "ForCharlotte Ivers in the Times, despite the spoof skincare ad raising a smile, \"the spark is not there yet\". (BBC News)",
+      "Many viewers appear to treat the avatars as real, despite their unrealistic features. (BBC News)",
+      "Despite their perilous position, Passmoor believes Lehmann has made a positive impact and backs up how his striker perceives herself. (BBC News)"
     ]
   },
   {
@@ -156,7 +172,9 @@
     "key_signal": "その数字を英語で書いたとき何語になるか確認し、1〜2語ならスペルアウト",
     "sources": [
       "Purdue OWL: Writing Numbers"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R006",
@@ -183,7 +201,9 @@
     "key_signal": "文の最初の単語が数字になる場合は必ずスペルアウトする",
     "sources": [
       "Purdue OWL: Writing Numbers"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R007",
@@ -210,7 +230,9 @@
     "key_signal": "シリーズや統計の数字は表記スタイルを揃える",
     "sources": [
       "Purdue OWL: Writing Numbers"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R008",
@@ -243,7 +265,9 @@
     "sources": [
       "Purdue OWL: Adjective or Adverb",
       "Purdue OWL: Adjective or Adverb?"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R009",
@@ -275,6 +299,12 @@
     "key_signal": "動詞を修飾しているかどうかを確認し、副詞が必要かチェックする",
     "sources": [
       "Purdue OWL: Adjective or Adverb?"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
     ]
   },
   {
@@ -310,6 +340,12 @@
       "Purdue OWL: Adjective or Adverb",
       "Purdue OWL: Avoiding Common Errors",
       "Purdue OWL: Adjective or Adverb?"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
     ]
   },
   {
@@ -342,7 +378,9 @@
     "key_signal": "feelの後に体調・感情を述べるなら形容詞bad。動作の質を述べるなら副詞badly",
     "sources": [
       "Purdue OWL: Avoiding Common Errors"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R012",
@@ -374,7 +412,9 @@
     "key_signal": "動作動詞（do/play等）の後はwell、感覚動詞・be動詞の後はgood",
     "sources": [
       "Purdue OWL: Avoiding Common Errors"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R013",
@@ -406,7 +446,9 @@
     "key_signal": "主語の状態を説明するならsure（形容詞）、動詞や文全体を修飾するならsurely（副詞）",
     "sources": [
       "Purdue OWL: Avoiding Common Errors"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R014",
@@ -439,6 +481,12 @@
     "key_signal": "名詞に数字をつけられるか試す。つけられれば可算名詞でmany、つけられなければ不可算名詞でmuch",
     "sources": [
       "Purdue OWL: How to Use Adjectives and Adverbs"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
     ]
   },
   {
@@ -475,7 +523,9 @@
     "key_signal": "綴りではなく発音で判断する。サイレントhの語はan、u/oが子音音で始まる語はa",
     "sources": [
       "Purdue OWL: Articles: A versus An"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R016",
@@ -508,7 +558,9 @@
     "key_signal": "読者・話し手が同じものを指していると分かる（特定）ならthe、分からない（不特定）ならa/an",
     "sources": [
       "Purdue OWL: Using Articles"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R017",
@@ -540,7 +592,9 @@
     "key_signal": "同格語なしで文の意味が完結するならコンマあり（非制限）、なしでは不明確ならコンマなし（制限）",
     "sources": [
       "Purdue OWL: Appositives"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R018",
@@ -572,6 +626,12 @@
     "key_signal": "同格語を取り除いて文の意味が通るか・誰のことか分かるかを確認する",
     "sources": [
       "Purdue OWL: Appositives"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
     ]
   },
   {
@@ -609,6 +669,12 @@
     "key_signal": "曜日→on、時刻・noon/night→at、月・年・季節・時間帯→in",
     "sources": [
       "Purdue OWL: Prepositions"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
     ]
   },
   {
@@ -646,7 +712,9 @@
     "key_signal": "点的な場所→at、表面→on、内部・区域→in",
     "sources": [
       "Purdue OWL: Prepositions of Location: At, In, On"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R021",
@@ -678,6 +746,12 @@
     "key_signal": "起点（since）・数値期間（for）・名詞期間（during）・上限（within）で区別する",
     "sources": [
       "Purdue OWL: Prepositions"
+    ],
+    "verified": true,
+    "media_examples": [
+      "There is \"no assessment to substantiate\" Israel's claim that Iran has long-range missiles capable of reaching London, a UK cabinet minister has said. (BBC News)",
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The UK government has only allowed British airbases to be used for strikes on sites targeting UK interests and allies in the region. (BBC News)"
     ]
   },
   {
@@ -710,7 +784,9 @@
     "key_signal": "移動先が表面ならonto、内部ならinto、目標・目的地ならto",
     "sources": [
       "Purdue OWL: Prepositions of Direction: To, On (to), In (to)"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R023",
@@ -742,7 +818,9 @@
     "key_signal": "2者の間→between、3者以上の間→among",
     "sources": [
       "Purdue OWL: Prepositions of Spatial Relationship"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R024",
@@ -771,7 +849,9 @@
     "key_signal": "先行詞が複数ならtheir/them、単数ならhis/her/its/himを使う",
     "sources": [
       "Purdue OWL: Pronouns"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R025",
@@ -797,7 +877,9 @@
     "key_signal": "and",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R026",
@@ -824,7 +906,9 @@
     "key_signal": "or / nor",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R027",
@@ -852,7 +936,9 @@
     "key_signal": "or / nor (mixed number subjects)",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R028",
@@ -880,7 +966,9 @@
     "key_signal": "doesn't / don't",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R029",
@@ -907,7 +995,9 @@
     "key_signal": "one of, as well as, including",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R030",
@@ -933,7 +1023,9 @@
     "key_signal": "each, everyone, everybody, anyone, nobody, somebody, someone",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R031",
@@ -960,6 +1052,12 @@
     "key_signal": "unknown gender / non-binary person / gender-neutral context",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/gendered_pronouns_and_singular_they.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "and they're quite inaccurate at very long ranges… what would the Iranians be trying to achieve?\" (BBC News)",
+      "\"We're relying on other countries to protect British personnel, British nationals and British interests and that is not the position we should be.\" (BBC News)"
     ]
   },
   {
@@ -986,7 +1084,9 @@
     "key_signal": "who, whom, whose, that, which",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/index.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R033",
@@ -1012,7 +1112,9 @@
     "key_signal": "essential information / no comma",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/index.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R034",
@@ -1040,6 +1142,12 @@
     "key_signal": "additional / non-essential information, commas",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/relative_pronouns_in_non_defining_clauses.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "There is \"no assessment to substantiate\" Israel's claim that Iran has long-range missiles capable of reaching London, a UK cabinet minister has said. (BBC News)",
+      "The UK government has only allowed British airbases to be used for strikes on sites targeting UK interests and allies in the region. (BBC News)",
+      "Along with RAF Fairford in Gloucestershire, the UK has given the US permission to use Diego Garcia to conduct these bombing raids. (BBC News)"
     ]
   },
   {
@@ -1068,6 +1176,12 @@
     "key_signal": "person → who/whom; thing → which",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
     ]
   },
   {
@@ -1093,7 +1207,9 @@
     "key_signal": "referring to previous whole clause",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/relative_pronouns_in_non_defining_clauses.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R037",
@@ -1120,7 +1236,9 @@
     "key_signal": "most, many, some, both, none + of whom/of which",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/relative_pronouns_in_non_defining_clauses.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R038",
@@ -1147,6 +1265,12 @@
     "key_signal": "comma = non-defining / no comma = defining",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
     ]
   },
   {
@@ -1176,6 +1300,12 @@
     "key_signal": "formal writing context",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
     ]
   },
   {
@@ -1205,7 +1335,9 @@
     "key_signal": "can be counted vs. cannot be counted",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R041",
@@ -1235,6 +1367,12 @@
     "key_signal": "much / many",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
     ]
   },
   {
@@ -1265,6 +1403,12 @@
     "key_signal": "little / few",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)",
+      "Israeli Prime Minister Benjamin Netanyahu insisted on Sunday that Iran had the \"capacity to reach deep into Europe\". (BBC News)"
     ]
   },
   {
@@ -1292,6 +1436,12 @@
     "key_signal": "some / any",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
     ]
   },
   {
@@ -1318,6 +1468,12 @@
     "key_signal": "verb alone = only 2 tenses",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "\"So my gut feel is that you'll see more of an impact of this in the petrol pumps than you will in bills.\" (BBC News)",
+      "\"Nothing in and of itself will fix this but these activities will bring prices down. (BBC News)",
+      "They won't isolate the UK - we're part of a global system - but they will bring prices down.\" (BBC News)"
     ]
   },
   {
@@ -1345,6 +1501,12 @@
     "key_signal": "has/have + past participle; for, since, ever, never",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "There is \"no assessment to substantiate\" Israel's claim that Iran has long-range missiles capable of reaching London, a UK cabinet minister has said. (BBC News)",
+      "The UK government has only allowed British airbases to be used for strikes on sites targeting UK interests and allies in the region. (BBC News)",
+      "Along with RAF Fairford in Gloucestershire, the UK has given the US permission to use Diego Garcia to conduct these bombing raids. (BBC News)"
     ]
   },
   {
@@ -1370,6 +1532,12 @@
     "key_signal": "had + past participle; before, after, when (sequence of past events)",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)",
+      "Israeli Prime Minister Benjamin Netanyahu insisted on Sunday that Iran had the \"capacity to reach deep into Europe\". (BBC News)"
     ]
   },
   {
@@ -1395,7 +1563,9 @@
     "key_signal": "now, at the moment, this week",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R048",
@@ -1421,6 +1591,12 @@
     "key_signal": "when, while, at that time",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "PureGym, the UK's largest gym chain, notes 47% of its new joiners in January were aged 25 or under. (BBC News)",
+      "These classes make Megan Riley, a paralegal apprentice, feel \"empowered\" and connected after her friends moved away to university. (BBC News)"
     ]
   },
   {
@@ -1447,7 +1623,9 @@
     "key_signal": "can, will, shall, may, could, would, should, might, must",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R050",
@@ -1474,6 +1652,12 @@
     "key_signal": "could have / would have / must have",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Reed refused to say how close the missiles came to the British overseas territory, saying he could not share \"operational details\". (BBC News)",
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)"
     ]
   },
   {
@@ -1499,7 +1683,9 @@
     "key_signal": "same time frame = same tense",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verb_tense_consistency.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "id": "R052",
@@ -1525,6 +1711,12 @@
     "key_signal": "actor unknown / irrelevant; topic foregrounding",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/passive_verbs.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)"
     ]
   },
   {
@@ -1553,7 +1745,9 @@
     "key_signal": "memorization required; no -ed pattern",
     "sources": [
       "https://owl.purdue.edu/owl/general_writing/grammar/irregular_verbs/index.html"
-    ]
+    ],
+    "verified": false,
+    "media_examples": []
   },
   {
     "rule": "仮定法過去完了",
@@ -1583,7 +1777,13 @@
     "sources": [
       "Purdue OWL: Verb Tenses"
     ],
-    "id": "R054"
+    "id": "R054",
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "On Sunday, the Ministry of Defencesaida ground-based unit operating in a \"high threat area\" had downed a drone overnight. (BBC News)",
+      "Rival chainThe Gym Group says about 40%, or 360,000, of its members are Gen Z- adults under 29 - of which more than half, 51%, said they had formed a new friendship on the gym floor. (BBC News)"
+    ]
   },
   {
     "rule": "仮定法過去",
@@ -1614,7 +1814,13 @@
     "sources": [
       "Purdue OWL: Verb Tenses"
     ],
-    "id": "R055"
+    "id": "R055",
+    "verified": true,
+    "media_examples": [
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "and they're quite inaccurate at very long ranges… what would the Iranians be trying to achieve?\" (BBC News)",
+      "Asked about government support with energy bills, O'Shea said \"targeted\" would be \"far better than blanket help\". (BBC News)"
+    ]
   },
   {
     "rule": "仮定法の倒置 (Had S pp)",
@@ -1645,7 +1851,13 @@
     "sources": [
       "Purdue OWL: Verb Tenses"
     ],
-    "id": "R056"
+    "id": "R056",
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)"
+    ]
   },
   {
     "rule": "否定語句の倒置",
@@ -1675,7 +1887,11 @@
     "sources": [
       "Purdue OWL: Active Verb Tenses"
     ],
-    "id": "R057"
+    "id": "R057",
+    "verified": true,
+    "media_examples": [
+      "I rest so well, I sleep every afternoon and I would never do anything before training or a game that would affect how I play. (BBC News)"
+    ]
   },
   {
     "rule": "Hardly had S pp when ...",
@@ -1706,7 +1922,13 @@
     "sources": [
       "Purdue OWL: Active Verb Tenses"
     ],
-    "id": "R058"
+    "id": "R058",
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)",
+      "Israeli Prime Minister Benjamin Netanyahu insisted on Sunday that Iran had the \"capacity to reach deep into Europe\". (BBC News)"
+    ]
   },
   {
     "rule": "Were it not for（仮定法倒置）",
@@ -1737,7 +1959,13 @@
     "sources": [
       "Purdue OWL: Verb Tenses"
     ],
-    "id": "R059"
+    "id": "R059",
+    "verified": true,
+    "media_examples": [
+      "Reed refused to say how close the missiles came to the British overseas territory, saying he could not share \"operational details\". (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)"
+    ]
   },
   {
     "rule": "suggest/recommend + that S + 原形",
@@ -1767,7 +1995,12 @@
     "sources": [
       "Purdue OWL: Verb Tenses"
     ],
-    "id": "R060"
+    "id": "R060",
+    "verified": true,
+    "media_examples": [
+      "Such a request would suggest that, far from winding down, the White House is preparing for a long, expensive fight. (BBC News)",
+      "In 2022, Billie Eilishstopped a headline show at London's O2 Arenato demand that security guards passed water to fans. (BBC News)"
+    ]
   },
   {
     "rule": "come into effect",
@@ -1797,6 +2030,12 @@
     "sources": [
       "Purdue OWL: Commonly Confused Verbs"
     ],
-    "id": "R061"
+    "id": "R061",
+    "verified": true,
+    "media_examples": [
+      "\"So my gut feel is that you'll see more of an impact of this in the petrol pumps than you will in bills.\" (BBC News)",
+      "\"Nothing in and of itself will fix this but these activities will bring prices down. (BBC News)",
+      "They won't isolate the UK - we're part of a global system - but they will bring prices down.\" (BBC News)"
+    ]
   }
 ]
