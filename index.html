@@ -1066,6 +1066,13 @@
     .mission-service-arrow { font-size: 16px; color: var(--gold); font-weight: 700; flex-shrink: 0; }
     .mission-service-reason { font-size: 11px; color: var(--text-3); text-align: center; margin-top: 6px; }
 
+    /* ── CROSS PROMO CARDS ── */
+    .cross-promo-cards { margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .cross-card-mini { background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .cross-card-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+    .cross-card-desc { font-size: 12px; color: rgba(0,0,0,0.6); margin-bottom: 10px; line-height: 1.5; }
+    .cross-card-link { display: inline-block; padding: 8px 20px; font-size: 13px; font-weight: 700; color: #fff; border-radius: 8px; text-decoration: none; }
+
     /* ── INLINE CTA (10問ごと) ── */
     /* ── Wrong-answer CTA ── */
     .wrong-cta {
@@ -3611,6 +3618,16 @@ function showAxisFeedback(ax) {
     const weakRate = Math.round((stats[weakest].c || 0) / stats[weakest].a * 100);
     if (weakRate < 75) tipEl.textContent = AXIS_USER_MSGS[weakest] || '';
   }
+  // 5問ごとの中間クロスプロモ（axisFeedback の末尾に交互表示）
+  const promoTexts = [
+    '💡 文法も鍛えるなら → <a href="/grammar/" style="color:#10B981;font-weight:700;">GrammarUp</a>',
+    '💡 語彙を増やすなら → <a href="/kioku-shinai/" style="color:#007AFF;font-weight:700;">記憶しない英単語</a>'
+  ];
+  const promoIdx = total > 0 ? Math.floor(total / 5) % 2 : 0;
+  const promoEl = document.createElement('div');
+  promoEl.style.cssText = 'margin-top:8px;font-size:12px;color:rgba(0,0,0,0.5);';
+  promoEl.innerHTML = promoTexts[promoIdx];
+  panel.appendChild(promoEl);
   panel.classList.add('show');
 }
 
@@ -3865,6 +3882,26 @@ function showMissionComplete() {
       cardsEl.innerHTML = DEFAULT_SERVICES.map(s => renderCardCta(s, 'mission')).join('');
     }
     ctaTrack('cta_show', { service: 'default', placement: 'mission', accuracy: acc });
+  }
+
+  // クロスプロモカード（アフィリエイトCTAの後に追加）
+  const missionBody = document.getElementById('missionServiceCards');
+  if (missionBody) {
+    const crossPromo = document.createElement('div');
+    crossPromo.className = 'cross-promo-cards';
+    crossPromo.innerHTML = `
+      <div class="cross-card-mini" style="border-left: 3px solid #10B981;">
+        <div class="cross-card-title">📝 文法力もチェック</div>
+        <div class="cross-card-desc">リスニングで聞き取れても、文法がわからないと意味が取れない。GrammarUpで896問に挑戦。</div>
+        <a class="cross-card-link" href="/grammar/" style="background:#10B981;">GrammarUpを試す</a>
+      </div>
+      <div class="cross-card-mini" style="border-left: 3px solid #007AFF;">
+        <div class="cross-card-title">🧠 語彙を芋づる式に</div>
+        <div class="cross-card-desc">30の語根で600語が読める。語源から覚えるから、忘れない。</div>
+        <a class="cross-card-link" href="/kioku-shinai/" style="background:#007AFF;">記憶しない英単語を試す</a>
+      </div>
+    `;
+    missionBody.parentNode.insertBefore(crossPromo, missionBody.nextSibling);
   }
 
   // Render share card
