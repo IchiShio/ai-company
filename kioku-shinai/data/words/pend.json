@@ -1631,6 +1631,451 @@
         "Perpendicular roads intersect at right angles.",
         "Draw a perpendicular from the point to the line."
       ]
+    },
+    {
+      "word": "impending",
+      "phonetic": "/ɪmˈpendɪŋ/",
+      "toeicRank": "TSL上位・ビジネス/ニュース頻出",
+      "parts": [
+        {
+          "part": "im",
+          "meaning": "上に（in- の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "ing",
+          "meaning": "〜している（現在分詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "im（上に）+ pendere（ぶら下がる）= 頭上にぶら下がっている → 差し迫った",
+        "fact": "ラテン語 impendere「上にぶら下がる、迫る」から。in-（上に）+ pendere（ぶら下がる）。16世紀に「頭上に脅威がぶら下がっている」→「差し迫った」の意味で英語に入った。",
+        "source": "EtymOnline: impending",
+        "cognates": [
+          "pending",
+          "depend",
+          "suspend",
+          "appendix"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "頭上に（im）ぶら下がっている（pend）→ 差し迫った",
+        "fact": "THREAT（脅威）スキーマ。重いものが頭上に「ぶら下がって（pend）」いて、いつ落ちてくるかわからない緊迫感。impending doom = 迫り来る運命。",
+        "source": "Lakoff & Johnson (1980) UP IS THREATメタファー"
+      },
+      "gap": "impending はニュースで頻出。impending deadline（差し迫った締切）、impending crisis（迫り来る危機）。im（上に）+ pend（ぶら下がる）= 頭上にぶら下がっている。",
+      "gapOneliner": "impending = 上に(im)ぶら下がっている(pend) → 差し迫った",
+      "hook": {
+        "label": "記憶フック",
+        "text": "im(上に) + pend(ぶら下がる) + ing = 頭上にぶら下がっている = 差し迫った。impending deadline = 迫る締切。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "impendingの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "上にぶら下がっている→差し迫った",
+            "下にぶら下がっている→未解決の",
+            "横にぶら下がっている→保留の",
+            "離れてぶら下がっている→独立した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Everyone is preparing for the ______ merger.",
+          "hint": "「上にぶら下がっている」→「差し迫った」",
+          "explanationFocus": "gap",
+          "choices": [
+            "impending",
+            "pending",
+            "depending",
+            "suspending"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The company took measures to prepare for the impending recession."
+      ]
+    },
+    {
+      "word": "propensity",
+      "phonetic": "/prəˈpensɪti/",
+      "toeicRank": "TSL中位・学術/ビジネス頻出",
+      "parts": [
+        {
+          "part": "pro",
+          "meaning": "前へ",
+          "type": "prefix"
+        },
+        {
+          "part": "pens",
+          "meaning": "ぶら下がる・傾く（pend の異形）",
+          "type": "root"
+        },
+        {
+          "part": "ity",
+          "meaning": "〜性（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ pendere（傾く）= 前に傾く性質 → 傾向・性向",
+        "fact": "ラテン語 propensus「前に傾いた」から。pro-（前へ）+ pendere（ぶら下がる、重さで傾く）。16世紀に「ある方向に自然に傾く性質」として英語に入った。",
+        "source": "EtymOnline: propensity",
+        "cognates": [
+          "pensive",
+          "pension",
+          "pendant",
+          "compensate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "前に（pro）傾く（pens）性質（ity）→ 傾向・性向",
+        "fact": "INCLINATION（傾き）スキーマ。天秤が一方に「傾く（pend/pens）」ように、ある方向に自然に引かれる性質。propensity to spend = 消費への傾向。",
+        "source": "Lakoff & Johnson (1980) BALANCE IS JUSTICEメタファー"
+      },
+      "gap": "propensity は「傾向・性向」。a propensity for risk-taking（リスクを取る傾向）。pro（前へ）+ pens（傾く）= 前に傾く性質。",
+      "gapOneliner": "propensity = 前へ(pro)傾く(pens)性質(ity) → 傾向・性向",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pro(前へ) + pens(傾く) + ity(性質) = 前に傾く性質 = 傾向。a propensity for innovation = 革新への傾向。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "propensityの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "前に傾く性質→傾向",
+            "後ろにぶら下がる性質→保留",
+            "上にぶら下がる性質→緊迫",
+            "下にぶら下がる性質→依存"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He has a ______ to overreact in stressful situations.",
+          "hint": "「前に傾く性質」→「傾向」",
+          "explanationFocus": "gap",
+          "choices": [
+            "propensity",
+            "dependency",
+            "pendency",
+            "tendency"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The data shows a strong propensity for consumers to shop online."
+      ]
+    },
+    {
+      "word": "stipend",
+      "phonetic": "/ˈstaɪpend/",
+      "toeicRank": "TSL中位・学術/ビジネス用語",
+      "parts": [
+        {
+          "part": "stip",
+          "meaning": "支払い",
+          "type": "root"
+        },
+        {
+          "part": "pend",
+          "meaning": "量る・支払う",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "stips（支払い）+ pendere（量る）= 量って支払うもの → 給付金・奨学金",
+        "fact": "ラテン語 stipendium「税金、給与、貢物」から。stips（支払い、贈り物）+ pendere（量る、支払う）。15世紀に「定期的な少額の給付金」として英語に入った。internship stipend = インターンシップの給付金。",
+        "source": "EtymOnline: stipend",
+        "cognates": [
+          "spend",
+          "pension",
+          "compensate",
+          "expenditure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "量って（pend）支払う（stip）もの → 定期給付金",
+        "fact": "EXCHANGE（交換）スキーマ。サービスや学業に対して定期的に「量って支払う（pend）」金銭。salary より少額で、研究者やインターンへの支給が典型。",
+        "source": "Johnson (1987) EXCHANGEスキーマ"
+      },
+      "gap": "stipend は「定期給付金・奨学金」。salary（給与）より少額で、インターンや研究者への支給に使われる。pend（量る）が「お金を量って支払う」意味。",
+      "gapOneliner": "stipend = 量って(pend)支払う → 定期給付金。pend にはお金を量る意味もある",
+      "hook": {
+        "label": "記憶フック",
+        "text": "stip(支払い) + pend(量る) = 量って支払うもの = 給付金。monthly stipend = 月々の給付金。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "stipendの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "量って支払うもの→給付金",
+            "ぶら下がるもの→垂れ幕",
+            "吊り下げるもの→ペンダント",
+            "頼るもの→依存先"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The research assistant received a monthly ______.",
+          "hint": "「量って支払うもの」→「給付金」",
+          "explanationFocus": "gap",
+          "choices": [
+            "stipend",
+            "pension",
+            "expense",
+            "dividend"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Interns receive a small stipend to cover basic living expenses."
+      ]
+    },
+    {
+      "word": "appendage",
+      "phonetic": "/əˈpendɪdʒ/",
+      "toeicRank": "TSL中位・科学/一般用語",
+      "parts": [
+        {
+          "part": "ap",
+          "meaning": "〜に（ad- の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "age",
+          "meaning": "〜もの（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に）+ pendere（ぶら下がる）= 何かにぶら下がったもの → 付属物・付属肢",
+        "fact": "ラテン語 appendere「ぶら下げる、付け加える」から。ad-（〜に）+ pendere（ぶら下がる）。17世紀に「体の付属物（手足など）」や「組織の付属機関」として英語に入った。",
+        "source": "EtymOnline: appendage",
+        "cognates": [
+          "append",
+          "appendix",
+          "pendant",
+          "pending"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "何かに（ap）ぶら下がった（pend）もの → 付属物・付属肢",
+        "fact": "ATTACHMENT（付着）スキーマ。主体から「ぶら下がって（pend）付いている（ap）」従属的なもの。生物学では手足・触角・尻尾などの付属肢。",
+        "source": "Langacker (2008) ATTACHMENTスキーマ"
+      },
+      "gap": "appendage は「付属物」。appendix（付録）と同根。ap（〜に）+ pend（ぶら下がる）= 何かにぶら下がったもの。体の手足も文書の付録も「ぶら下がったもの」。",
+      "gapOneliner": "appendage = 何かに(ap)ぶら下がった(pend)もの → 付属物",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ap(〜に) + pend(ぶら下がる) + age(もの) = ぶら下がったもの = 付属物。appendix(付録)と同根。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "appendageの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "ぶら下がったもの→付属物",
+            "ぶら下がること→保留",
+            "量ること→計量",
+            "頼ること→依存"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The crab lost one of its ______s in a fight.",
+          "hint": "「ぶら下がったもの」→「付属肢」",
+          "explanationFocus": "gap",
+          "choices": [
+            "appendage",
+            "appendix",
+            "pendant",
+            "pendulum"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The department was treated as a mere appendage of the larger organization."
+      ]
+    },
+    {
+      "word": "pendulum",
+      "phonetic": "/ˈpendʒələm/",
+      "toeicRank": "TSL中位・科学/比喩表現",
+      "parts": [
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "ulum",
+          "meaning": "道具・装置（ラテン語接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pendere（ぶら下がる）+ -ulum = ぶら下がる装置 → 振り子",
+        "fact": "ラテン語 pendulum「ぶら下がるもの」から。pendere（ぶら下がる）の中性形容詞が名詞化。17世紀にガリレオの振り子研究と共に科学用語として英語に入り、比喩的に「世論や政策の揺れ」にも使われる。",
+        "source": "EtymOnline: pendulum",
+        "cognates": [
+          "pendant",
+          "pending",
+          "depend",
+          "suspend"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "ぶら下がる（pend）装置（ulum）→ 振り子",
+        "fact": "OSCILLATION（振動）スキーマ。固定点から「ぶら下がった（pend）」物体が左右に揺れる動き。the pendulum of public opinion = 世論の振り子。",
+        "source": "Johnson (1987) BALANCEスキーマ"
+      },
+      "gap": "pendulum は「振り子」だが、比喩表現が重要。The pendulum has swung back.（振り子が戻った = 風潮が逆転した）。pend（ぶら下がる）の典型的な具象化。",
+      "gapOneliner": "pendulum = ぶら下がる(pend)装置(ulum) → 振り子。比喩的にも頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pend(ぶら下がる) + ulum(装置) = ぶら下がる装置 = 振り子。The pendulum swings = 振り子が揺れる = 風潮が変わる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pendulumの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "ぶら下がる装置→振り子",
+            "頼る装置→支援器",
+            "量る装置→計量器",
+            "吊るす装置→クレーン"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The political ______ has swung to the right.",
+          "hint": "「ぶら下がって揺れるもの」→「振り子」",
+          "explanationFocus": "gap",
+          "choices": [
+            "pendulum",
+            "pendant",
+            "pension",
+            "penalty"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The pendulum of public opinion is swinging back toward fiscal conservatism."
+      ]
+    },
+    {
+      "word": "pendant",
+      "phonetic": "/ˈpendənt/",
+      "toeicRank": "TSL中位・日常/ファッション用語",
+      "parts": [
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "ant",
+          "meaning": "〜するもの（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pendere（ぶら下がる）+ -ant = ぶら下がるもの → ペンダント",
+        "fact": "フランス語 pendant「ぶら下がるもの」から。ラテン語 pendere（ぶら下がる）の現在分詞形。14世紀に「首飾りからぶら下がる装飾品」として英語に入った。",
+        "source": "EtymOnline: pendant",
+        "cognates": [
+          "pending",
+          "pendulum",
+          "depend",
+          "suspend"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "ぶら下がる（pend）もの（ant）→ ペンダント・垂れ飾り",
+        "fact": "HANGING（懸垂）スキーマの具象化。鎖や紐から「ぶら下がる（pend）」装飾品。pendant は pend 語根の最も直接的な具体例。",
+        "source": "Johnson (1987) HANGINGスキーマ"
+      },
+      "gap": "pendant はカタカナの「ペンダント」。pend（ぶら下がる）の最もわかりやすい例。depend（〜にぶら下がる＝依存する）、suspend（下にぶら下げる＝一時停止する）との関連が見える。",
+      "gapOneliner": "pendant = ぶら下がる(pend)もの(ant) → ペンダント。depend, suspend と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pend(ぶら下がる) + ant(もの) = ぶら下がるもの = ペンダント。depend = 〜にぶら下がる = 頼る。同じ pend。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pendantの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "ぶら下がるもの→ペンダント",
+            "量るもの→計量器",
+            "支払うもの→通貨",
+            "頼るもの→杖"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 2,
+          "instruction": "pendantと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "gold pendant（金のペンダント）",
+            "pendant sleep（ペンダント睡眠）",
+            "pendant food（ペンダント食品）",
+            "pendant work（ペンダント仕事）"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She wore a beautiful diamond pendant around her neck."
+      ]
     }
   ]
 }

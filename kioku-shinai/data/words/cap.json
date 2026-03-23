@@ -1838,6 +1838,309 @@
         "grant recipient",
         "award recipient"
       ]
+    },
+    {
+      "word": "incapacitate",
+      "phonetic": "/ˌɪnkəˈpæsɪteɪt/",
+      "toeicRank": "TSL中位・法律/医療用語",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "〜でない（否定）",
+          "type": "prefix"
+        },
+        {
+          "part": "cap",
+          "meaning": "取る・容量",
+          "type": "root"
+        },
+        {
+          "part": "acitate",
+          "meaning": "〜の状態にする（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（否定）+ capacity（能力）+ -ate = 能力をなくさせる → 無力化する",
+        "fact": "in-（否定）+ capacitate（能力を与える）から。capacity はラテン語 capax「取ることができる、容量のある」に由来。17世紀に「行動する能力を奪う」の意味で英語に入った。",
+        "source": "EtymOnline: incapacitate",
+        "cognates": [
+          "capacity",
+          "capable",
+          "capture",
+          "incapable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "能力（capacity）をなくさせる（in + ate）→ 無力化する",
+        "fact": "REMOVAL（除去）スキーマ。「取る力（cap）」を「否定（in）」する＝行動能力を奪う。incapacitated by injury = 怪我で動けなくなった。",
+        "source": "Johnson (1987) REMOVALスキーマ"
+      },
+      "gap": "incapacitate は「無力化する」。in（否定）+ capacity（能力）= 能力を奪う。be incapacitated = 行動不能になる。法律では「判断能力を失った」の意味も。",
+      "gapOneliner": "incapacitate = 能力(capacity)をなくす(in) → 無力化する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in(否定) + capacity(能力) + ate = 能力をなくす = 無力化する。incapacitated by illness = 病気で行動不能。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "incapacitateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "能力をなくす→無力化する",
+            "能力を与える→有能にする",
+            "取り込む→捕獲する",
+            "受け入れる→許容する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The injury ______d him for several months.",
+          "hint": "「能力をなくす」→「無力化する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "incapacitated",
+            "capacitated",
+            "captivated",
+            "participated"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The illness incapacitated her for several weeks."
+      ]
+    },
+    {
+      "word": "captivate",
+      "phonetic": "/ˈkæptɪveɪt/",
+      "toeicRank": "TSL中位・日常/ビジネス用語",
+      "parts": [
+        {
+          "part": "cap",
+          "meaning": "取る・捕まえる",
+          "type": "root"
+        },
+        {
+          "part": "tivate",
+          "meaning": "〜の状態にする（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "captivus（捕まえられた）+ -ate = 心を捕まえる → 魅了する",
+        "fact": "ラテン語 captivare「捕虜にする」から。captivus（捕まえられた）の動詞形。16世紀に「心を捕えて虜にする→魅了する」の比喩的意味に転じた。captivating smile = 魅惑的な笑顔。",
+        "source": "EtymOnline: captivate",
+        "cognates": [
+          "capture",
+          "captive",
+          "capable",
+          "capacity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "心を捕まえる（cap + tivate）→ 魅了する・虜にする",
+        "fact": "ATTRACTION（引きつけ）スキーマ。注意や心を「捕まえて（cap）」離さない状態にする。captivated audience = 魅了された聴衆。",
+        "source": "Langacker (2008) ATTRACTIONスキーマ"
+      },
+      "gap": "captivate は「魅了する」。cap（捕まえる）+ tivate = 心を捕まえる。capture（物理的に捕まえる）の比喩版。captivating = 魅力的な。",
+      "gapOneliner": "captivate = 心を捕まえる(cap) → 魅了する。capture の比喩版",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cap(捕まえる) + tivate = 心を捕まえる = 魅了する。captivating presentation = 聴衆を虜にするプレゼン。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "captivateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "心を捕まえる→魅了する",
+            "心を放す→解放する",
+            "心を壊す→傷つける",
+            "心を隠す→秘密にする"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The speaker ______d the audience with her powerful story.",
+          "hint": "「心を捕まえる」→「魅了する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "captivated",
+            "captured",
+            "capitalized",
+            "participated"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The documentary captivated viewers around the world."
+      ]
+    },
+    {
+      "word": "intercept",
+      "phonetic": "/ˌɪntərˈsept/",
+      "toeicRank": "TSL上位・軍事/スポーツ/IT頻出",
+      "parts": [
+        {
+          "part": "inter",
+          "meaning": "間に",
+          "type": "prefix"
+        },
+        {
+          "part": "cept",
+          "meaning": "取る（cap の異形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "inter（間に）+ capere（取る）= 途中で取る → 傍受する・横取りする",
+        "fact": "ラテン語 intercipere「途中で奪い取る」から。inter-（間に）+ capere（取る）。16世紀に「移動中のものを途中で捕まえる」の意味で英語に入った。intercept a message = メッセージを傍受する。",
+        "source": "EtymOnline: intercept",
+        "cognates": [
+          "accept",
+          "except",
+          "receive",
+          "perceive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "間で（inter）取る（cept）→ 途中で捕まえる → 傍受する",
+        "fact": "INTERRUPTION（中断）スキーマ。AからBへ向かうものを「途中（inter）」で「取る（cept）」動き。サッカーのインターセプト = パスを途中で奪う。",
+        "source": "Johnson (1987) INTERRUPTIONスキーマ"
+      },
+      "gap": "intercept は「傍受する・途中で捕まえる」。inter（間で）+ cept（取る）。accept = 向かって取る = 受け入れる。except = 外に取り出す = 除外する。",
+      "gapOneliner": "intercept = 間で(inter)取る(cept) → 途中で捕まえる・傍受する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "inter(間で) + cept(取る) = 途中で取る = 傍受する。intercept a pass = パスをカットする。accept/except と同じ cept。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "interceptの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "途中で取る→傍受する",
+            "向かって取る→受け入れる",
+            "外に取る→除外する",
+            "知覚して取る→認識する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Intelligence agencies ______ed the encrypted communication.",
+          "hint": "「途中で取る」→「傍受する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "intercepted",
+            "accepted",
+            "excepted",
+            "perceived"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The defender intercepted the pass and started a counterattack."
+      ]
+    },
+    {
+      "word": "preoccupied",
+      "phonetic": "/priːˈɒkjupaɪd/",
+      "toeicRank": "TSL上位・日常/ビジネス頻出",
+      "parts": [
+        {
+          "part": "pre",
+          "meaning": "前もって",
+          "type": "prefix"
+        },
+        {
+          "part": "oc",
+          "meaning": "〜に対して（ob の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "cup",
+          "meaning": "取る（cap の異形）",
+          "type": "root"
+        },
+        {
+          "part": "ied",
+          "meaning": "〜された（過去分詞形容詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pre（前もって）+ occupare（占める）= 前もって心を占められた → 気を取られた",
+        "fact": "pre-（前もって）+ occupied（占められた）から。occupy はラテン語 occupare「つかみ取る、占める」（ob- + capere）。17世紀に「心がすでに別のことで占められている」の意味で英語に入った。",
+        "source": "EtymOnline: preoccupied",
+        "cognates": [
+          "occupy",
+          "occupation",
+          "capture",
+          "capable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "前もって（pre）心を占められた（occupied）→ 気を取られた",
+        "fact": "CONTAINER（容器）スキーマ。心という容器が「前もって（pre）」別のことで「占められて（occupied）」いる状態。空きがない。",
+        "source": "Lakoff & Johnson (1980) MIND IS A CONTAINERメタファー"
+      },
+      "gap": "preoccupied は「気を取られた・没頭した」。pre（前もって）+ occupied（占められた）= 心がすでに別のことで満たされている。preoccupied with work = 仕事に気を取られている。",
+      "gapOneliner": "preoccupied = 前もって(pre)心を占められた(occupied) → 気を取られた",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pre(前もって) + occupied(占められた) = すでに心が占められている = 気を取られた。preoccupied with worries = 心配事に気を取られている。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "preoccupiedの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "前もって心を占められた→気を取られた",
+            "後から心を占めた→後悔した",
+            "心を解放した→安心した",
+            "心を共有した→共感した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She seemed ______ and didn't hear the question.",
+          "hint": "「前もって心を占められた」→「上の空の」",
+          "explanationFocus": "gap",
+          "choices": [
+            "preoccupied",
+            "occupied",
+            "anticipated",
+            "participated"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He was too preoccupied with his phone to notice the announcement."
+      ]
     }
   ]
 }

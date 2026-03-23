@@ -1594,6 +1594,451 @@
         "The painting is ascribed to Caravaggio, though its authenticity is debated.",
         "We ascribe the team's success to their dedication and hard work."
       ]
+    },
+    {
+      "word": "scribble",
+      "phonetic": "/ˈskrɪbl/",
+      "toeicRank": "TSL中位・日常用語",
+      "parts": [
+        {
+          "part": "scrib",
+          "meaning": "書く",
+          "type": "root"
+        },
+        {
+          "part": "ble",
+          "meaning": "反復・軽減（接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "scribere（書く）の頻繁・雑な形 → 走り書きする",
+        "fact": "ラテン語 scribere「書く」に頻繁・軽減の接尾辞 -le を付けた形。15世紀に「乱雑に素早く書く」の意味で英語に入った。scribble a note = メモを走り書きする。",
+        "source": "EtymOnline: scribble",
+        "cognates": [
+          "scribe",
+          "describe",
+          "prescribe",
+          "script"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "雑に繰り返し書く（scrib + ble）→ 走り書きする",
+        "fact": "ITERATION（反復）スキーマの軽減版。「書く（scrib）」動作を素早く雑に繰り返す。子供のいたずら書きも scribble。",
+        "source": "Langacker (2008) ITERATIONスキーマ"
+      },
+      "gap": "scribble は「走り書き・落書き」。scrib（書く）の反復軽減形。scribble down a phone number = 電話番号をさっとメモる。",
+      "gapOneliner": "scribble = 雑に繰り返し書く(scrib+ble) → 走り書き・落書き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "scrib(書く) + ble(繰り返し) = 何度も雑に書く = 走り書き。scribble a note = メモを走り書き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "scribbleの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "雑に書く→走り書き",
+            "丁寧に書く→清書",
+            "消して書く→訂正",
+            "読んで書く→転記"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She ______d a quick note on the napkin.",
+          "hint": "「雑に素早く書く」→「走り書きする」",
+          "explanationFocus": "gap",
+          "choices": [
+            "scribbled",
+            "described",
+            "prescribed",
+            "inscribed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He scribbled the address on the back of a receipt."
+      ]
+    },
+    {
+      "word": "postscript",
+      "phonetic": "/ˈpoʊstskrɪpt/",
+      "toeicRank": "TSL中位・ビジネス/日常用語",
+      "parts": [
+        {
+          "part": "post",
+          "meaning": "後に",
+          "type": "prefix"
+        },
+        {
+          "part": "script",
+          "meaning": "書かれたもの（scrib の過去分詞形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "post（後に）+ scriptum（書かれたもの）= 後に書かれたもの → 追伸",
+        "fact": "ラテン語 postscriptum「後に書かれたもの」から。post-（後に）+ scriptum（書かれたもの）。16世紀に手紙の「追伸（P.S.）」として英語に入った。",
+        "source": "EtymOnline: postscript",
+        "cognates": [
+          "script",
+          "manuscript",
+          "transcript",
+          "prescribe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "後に（post）書かれた（script）もの → 追伸・P.S.",
+        "fact": "ADDITION（追加）スキーマ。本文が完了した「後（post）」に「書き加えた（script）」もの。P.S. = post scriptum の略。",
+        "source": "Johnson (1987) ADDITIONスキーマ"
+      },
+      "gap": "postscript は「追伸」。P.S. = Post Scriptum（後に書かれたもの）。post（後に）+ script（書かれたもの）。手紙やメールの末尾に追記する内容。",
+      "gapOneliner": "postscript = 後に(post)書かれた(script)もの → 追伸(P.S.)",
+      "hook": {
+        "label": "記憶フック",
+        "text": "post(後に) + script(書かれたもの) = 後に書かれたもの = 追伸。P.S. = Post Scriptum。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "postscriptの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "後に書かれたもの→追伸",
+            "前に書かれたもの→序文",
+            "中に書かれたもの→本文",
+            "上に書かれたもの→表題"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "post（後に）+ script（書かれたもの）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後に + 書かれたもの = 追伸",
+            "前に + 書かれたもの = 序文",
+            "手で + 書かれたもの = 原稿",
+            "下に + 書かれたもの = 注釈"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She added a postscript to the letter with one final thought."
+      ]
+    },
+    {
+      "word": "nondescript",
+      "phonetic": "/ˌnɒndɪˈskrɪpt/",
+      "toeicRank": "TSL中位・文学/日常用語",
+      "parts": [
+        {
+          "part": "non",
+          "meaning": "〜でない（否定）",
+          "type": "prefix"
+        },
+        {
+          "part": "de",
+          "meaning": "完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "script",
+          "meaning": "書かれた（scrib の過去分詞形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "non（否定）+ descriptus（描写された）= 描写できない → 特徴のない",
+        "fact": "ラテン語 non descriptus「描写されていない」から。17世紀に博物学で「まだ分類・記述されていない」の意味で使われ始め、18世紀以降「特徴がなく描写しにくい」の日常的な意味に転じた。",
+        "source": "EtymOnline: nondescript",
+        "cognates": [
+          "describe",
+          "description",
+          "script",
+          "prescribe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "描写（descript）できない（non）→ 特徴のない・地味な",
+        "fact": "ABSENCE（不在）スキーマ。「書き記す（descript）」べき特徴が「ない（non）」状態。a nondescript building = 特徴のない建物。",
+        "source": "Langacker (2008) ABSENCEスキーマ"
+      },
+      "gap": "nondescript は「特徴のない・地味な」。non（否定）+ descript（描写された）= 描写できない＝特徴がない。describe の仲間だが意外な使われ方。",
+      "gapOneliner": "nondescript = 描写(descript)できない(non) → 特徴のない・地味な",
+      "hook": {
+        "label": "記憶フック",
+        "text": "non(否定) + descript(描写された) = 描写できない = 特徴のない。a nondescript office building = 特徴のないオフィスビル。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "nondescriptの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "描写できない→特徴のない",
+            "描写された→詳細な",
+            "再び描写する→改訂する",
+            "過度に描写する→誇張する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "They met at a ______ café on a quiet side street.",
+          "hint": "「描写できない」→「特徴のない・地味な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "nondescript",
+            "descriptive",
+            "prescriptive",
+            "inscribed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The suspect drove a nondescript gray sedan."
+      ]
+    },
+    {
+      "word": "transcription",
+      "phonetic": "/trænˈskrɪpʃn/",
+      "toeicRank": "TSL上位・ビジネス/学術頻出",
+      "parts": [
+        {
+          "part": "trans",
+          "meaning": "越えて・移して",
+          "type": "prefix"
+        },
+        {
+          "part": "script",
+          "meaning": "書く（scrib の変形）",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "trans（移して）+ scribere（書く）= 移し書きすること → 書き起こし・転写",
+        "fact": "ラテン語 transcriptio「移し書き」から。trans-（越えて、移して）+ scribere（書く）。音声を文字に「移し書きする」こと。生物学ではDNAからRNAへの「転写」を指す。",
+        "source": "EtymOnline: transcription",
+        "cognates": [
+          "transcript",
+          "transcribe",
+          "describe",
+          "subscribe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "移して（trans）書く（script）こと → 書き起こし・転写",
+        "fact": "TRANSFER（移転）スキーマ。ある形式（音声）から別の形式（文字）へ内容を「移して書く」動き。audio transcription = 音声の書き起こし。",
+        "source": "Johnson (1987) TRANSFERスキーマ"
+      },
+      "gap": "transcription はAI時代の重要語。speech-to-text transcription = 音声テキスト変換。trans（移して）+ script（書く）= 移し書き。",
+      "gapOneliner": "transcription = 移して(trans)書く(script)こと → 書き起こし・転写",
+      "hook": {
+        "label": "記憶フック",
+        "text": "trans(移して) + script(書く) + ion = 移し書きすること = 書き起こし。AI transcription = AI音声書き起こし。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "transcriptionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "移し書きすること→書き起こし",
+            "上に書くこと→表題",
+            "前に書くこと→処方",
+            "中に書くこと→記録"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the interview took several hours.",
+          "hint": "「移し書きすること」→「書き起こし」",
+          "explanationFocus": "gap",
+          "choices": [
+            "transcription",
+            "subscription",
+            "description",
+            "prescription"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "AI-powered transcription services can convert speech to text in real time."
+      ]
+    },
+    {
+      "word": "proscribe",
+      "phonetic": "/proʊˈskraɪb/",
+      "toeicRank": "TSL中位・法律/学術用語",
+      "parts": [
+        {
+          "part": "pro",
+          "meaning": "前に・公に",
+          "type": "prefix"
+        },
+        {
+          "part": "scribe",
+          "meaning": "書く",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pro（公に）+ scribere（書く）= 公に書き出す → 禁止する",
+        "fact": "ラテン語 proscribere「公に告示する、追放名簿に載せる」から。pro-（前に、公に）+ scribere（書く）。古代ローマで追放者の名前を公に「書き出した」ことから「禁止する」の意味に転じた。prescribe（処方する）との混同に注意。",
+        "source": "EtymOnline: proscribe",
+        "cognates": [
+          "prescribe",
+          "describe",
+          "inscribe",
+          "subscribe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "公に（pro）書き出す（scribe）→ 禁止する・追放する",
+        "fact": "PROHIBITION（禁止）スキーマ。追放者名簿を公に「書き出す（pro + scribe）」行為が「禁止する」に転じた。proscribe ≠ prescribe（処方する）。",
+        "source": "Langacker (2008) PROHIBITIONスキーマ"
+      },
+      "gap": "proscribe と prescribe は要注意の紛らわしいペア。proscribe = 禁止する（pro = 公に書き出す→追放）、prescribe = 処方する（pre = 前もって書く→指示）。",
+      "gapOneliner": "proscribe = 公に(pro)書き出す(scribe) → 禁止する。prescribe(処方する)と混同注意",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pro(公に) + scribe(書く) = 公に書き出す = 禁止する。prescribe(処方する)と逆の意味！混同注意。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 3,
+          "instruction": "proscribeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "公に書き出す→禁止する",
+            "前もって書く→処方する",
+            "中に書く→記録する",
+            "下に書く→注釈する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The organization was ______d by the government.",
+          "hint": "「公に書き出す」→「禁止する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "proscribed",
+            "prescribed",
+            "described",
+            "inscribed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The law proscribes the use of certain chemicals in food production."
+      ]
+    },
+    {
+      "word": "conscription",
+      "phonetic": "/kənˈskrɪpʃn/",
+      "toeicRank": "TSL中位・歴史/ニュース用語",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "共に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "script",
+          "meaning": "書く（scrib の変形）",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（完全に）+ scribere（書く＝名簿に登録する）= 名簿に登録すること → 徴兵",
+        "fact": "ラテン語 conscriptio「登録、徴募」から。con-（完全に）+ scribere（書く）。兵士を軍の名簿に「書き込む＝登録する」ことが原義。18世紀にフランス革命期の大規模徴兵制度として広く使われた。",
+        "source": "EtymOnline: conscription",
+        "cognates": [
+          "conscript",
+          "describe",
+          "prescribe",
+          "subscribe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "完全に（con）名簿に書く（script）こと → 徴兵・徴集",
+        "fact": "COMPULSION（強制）スキーマ。国家が国民を軍の名簿に「完全に書き込む（con + script）」ことで強制的に動員する。draft（徴兵）の公式な表現。",
+        "source": "Johnson (1987) COMPULSIONスキーマ"
+      },
+      "gap": "conscription は「徴兵」。con（完全に）+ script（書く）= 軍の名簿に完全に登録する。subscribe（購読する）= sub（下に）+ scribe（書く）= 下に署名する。",
+      "gapOneliner": "conscription = 完全に(con)名簿に書く(script) → 徴兵。scrib/script = 書く",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con(完全に) + script(書く) + ion = 完全に名簿に書くこと = 徴兵。conscript = 徴兵される人。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "conscriptionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "名簿に書くこと→徴兵",
+            "手紙を書くこと→通信",
+            "処方を書くこと→処方",
+            "記録を書くこと→記録"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The country introduced ______ to increase its military forces.",
+          "hint": "「名簿に完全に登録すること」→「徴兵」",
+          "explanationFocus": "gap",
+          "choices": [
+            "conscription",
+            "subscription",
+            "description",
+            "prescription"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Conscription was abolished in the country after the war ended."
+      ]
     }
   ]
 }

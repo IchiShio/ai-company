@@ -1719,6 +1719,374 @@
         "projectile motion（放物運動）",
         "projectile weapon（投射兵器）"
       ]
+    },
+    {
+      "word": "interject",
+      "phonetic": "/ˌɪntərˈdʒekt/",
+      "toeicRank": "TSL中位・ビジネス/日常用語",
+      "parts": [
+        {
+          "part": "inter",
+          "meaning": "間に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "inter（間に）+ jacere（投げる）= 間に投げ込む → 口を挟む",
+        "fact": "ラテン語 interjicere「間に投げ込む」から。inter-（間に）+ jacere（投げる）。16世紀に「会話の間に言葉を投げ込む」の意味で英語に入った。interjection = 感嘆詞（会話に投げ込まれる言葉）。",
+        "source": "EtymOnline: interject",
+        "cognates": [
+          "inject",
+          "eject",
+          "project",
+          "object"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "間に（inter）投げ込む（ject）→ 口を挟む",
+        "fact": "INTERRUPTION（中断）スキーマ。会話の流れの「間に（inter）」言葉を「投げ込む（ject）」動き。inject（注入する）と同じパターンだが方向が異なる。",
+        "source": "Johnson (1987) INTERRUPTIONスキーマ"
+      },
+      "gap": "interject は「口を挟む」。inter（間に）+ ject（投げる）= 間に投げ込む。May I interject? = 口を挟んでいいですか？ interjection = 感嘆詞。",
+      "gapOneliner": "interject = 間に(inter)投げ込む(ject) → 口を挟む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "inter(間に) + ject(投げる) = 間に投げ込む = 口を挟む。May I interject? = 一言よろしいですか？"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "interjectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "間に投げ込む→口を挟む",
+            "外に投げる→追い出す",
+            "前に投げる→予測する",
+            "中に投げる→注入する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "\"If I may ______,\" she said, \"I have a different view.\"",
+          "hint": "「間に投げ込む」→「口を挟む」",
+          "explanationFocus": "gap",
+          "choices": [
+            "interject",
+            "inject",
+            "eject",
+            "object"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He interjected a comment during the heated debate."
+      ]
+    },
+    {
+      "word": "dejected",
+      "phonetic": "/dɪˈdʒektɪd/",
+      "toeicRank": "TSL中位・文学/日常用語",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "下へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        },
+        {
+          "part": "ed",
+          "meaning": "〜された（過去分詞形容詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ jacere（投げる）= 下に投げ落とされた → 落胆した",
+        "fact": "ラテン語 dejectus「下に投げ落とされた」から。de-（下へ）+ jacere（投げる）。15世紀に「気分が落ち込んだ」の比喩的意味で英語に入った。dejection = 落胆・意気消沈。",
+        "source": "EtymOnline: dejected",
+        "cognates": [
+          "project",
+          "reject",
+          "inject",
+          "eject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "下に（de）投げ落とされた（ject）→ 落胆した・意気消沈した",
+        "fact": "DOWN IS SADメタファー。気持ちが「下に（de）投げ落とされた（ject）」状態。elated（高揚した）の対義概念。",
+        "source": "Lakoff & Johnson (1980) SAD IS DOWNメタファー"
+      },
+      "gap": "dejected は「落胆した」。de（下へ）+ ject（投げる）= 下に投げ落とされた＝気分が沈んだ。project（前に投げる）、reject（後ろに投げ返す）との対比。",
+      "gapOneliner": "dejected = 下へ(de)投げ落とされた(ject) → 落胆した",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(下へ) + ject(投げる) + ed = 下に投げ落とされた = 落胆した。He looked dejected after the loss = 負けた後、彼は落胆して見えた。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "dejectedの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下に投げ落とされた→落胆した",
+            "前に投げられた→推進された",
+            "中に投げ込まれた→注入された",
+            "外に投げ出された→追放された"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The players looked ______ after losing the final match.",
+          "hint": "「下に投げ落とされた」→「落胆した」",
+          "explanationFocus": "gap",
+          "choices": [
+            "dejected",
+            "projected",
+            "rejected",
+            "injected"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She felt dejected after failing the exam for the third time."
+      ]
+    },
+    {
+      "word": "adjective",
+      "phonetic": "/ˈædʒɪktɪv/",
+      "toeicRank": "TSL中位・言語学/教育用語",
+      "parts": [
+        {
+          "part": "ad",
+          "meaning": "〜に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる・置く",
+          "type": "root"
+        },
+        {
+          "part": "ive",
+          "meaning": "〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に）+ jacere（投げる・添える）= 名詞に添えられるもの → 形容詞",
+        "fact": "ラテン語 adjectivum（nomen）「付け加えられた（名前）」から。ad-（〜に）+ jacere（投げる、置く）。名詞に「添えられる（ad + ject）」語として、14世紀に文法用語として英語に入った。",
+        "source": "EtymOnline: adjective",
+        "cognates": [
+          "adjacent",
+          "project",
+          "subject",
+          "object"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "名詞に（ad）添えられた（ject）もの → 形容詞",
+        "fact": "ADDITION（追加）スキーマ。名詞という主要素に「投げ添えられた（ad + ject）」修飾語。adjacent（隣接した）も ad + jac（近くに置かれた）で同根。",
+        "source": "Langacker (2008) ADDITIONスキーマ"
+      },
+      "gap": "adjective は「形容詞」。ad（〜に）+ ject（投げる・添える）= 名詞に添えられるもの。adjacent（隣接した）も同じ ad + jac。文法用語の語源。",
+      "gapOneliner": "adjective = 名詞に(ad)添えられた(ject)もの → 形容詞",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ad(〜に) + ject(添える) + ive = 名詞に添えられるもの = 形容詞。adjacent(隣接した)も ad + jac。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "adjectiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "名詞に添えられた→形容詞",
+            "前に投げられた→予測",
+            "中に投げ込まれた→注入",
+            "下に投げ落とされた→落胆"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ad（〜に）+ ject（投げる・添える）+ ive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "〜に + 添える + 性質 = 形容詞",
+            "前に + 投げる + 性質 = 予測的な",
+            "中に + 投げる + 性質 = 注入的な",
+            "反対に + 投げる + 性質 = 拒否的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Use descriptive adjectives to make your writing more vivid."
+      ]
+    },
+    {
+      "word": "jettison",
+      "phonetic": "/ˈdʒetɪsn/",
+      "toeicRank": "TSL中位・ビジネス/航空用語",
+      "parts": [
+        {
+          "part": "jet",
+          "meaning": "投げる（ject の変形）",
+          "type": "root"
+        },
+        {
+          "part": "ison",
+          "meaning": "〜すること（名詞/動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "jactare（投げる）= 荷物を投げ捨てる → 投棄する・放棄する",
+        "fact": "古フランス語 getaison「投げ捨てること」から。ラテン語 jactare（投げる、jacere の反復形）に由来。元は嵐の中で船の荷物を海に投げ捨てることを指し、比喩的に「不要なものを捨てる」意味に拡張。",
+        "source": "EtymOnline: jettison",
+        "cognates": [
+          "jet",
+          "project",
+          "reject",
+          "eject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "投げ捨てる（jet）→ 投棄する・放棄する",
+        "fact": "REMOVAL（除去）スキーマ。危機的状況で不要なものを「投げ捨てる（jet）」動き。jettison a plan = 計画を捨てる。航空では燃料を空中投棄することも指す。",
+        "source": "Johnson (1987) REMOVALスキーマ"
+      },
+      "gap": "jettison は「投げ捨てる・放棄する」。jet（投げる）から。元は嵐で船の荷物を海に投げ捨てること。jettison an idea = アイデアを捨てる。ビジネスでも頻出。",
+      "gapOneliner": "jettison = 投げ捨てる(jet) → 投棄する・放棄する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "jet(投げる) + ison = 投げ捨てること。元は嵐で荷物を海に投げ捨てた。jettison the plan = 計画を放棄する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "jettisonの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投げ捨てる→投棄する",
+            "投げ入れる→注入する",
+            "投げ返す→拒否する",
+            "投げ前へ→推進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company decided to ______ its unprofitable divisions.",
+          "hint": "「投げ捨てる」→「放棄する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "jettison",
+            "project",
+            "inject",
+            "reject"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The airline had to jettison fuel before making an emergency landing."
+      ]
+    },
+    {
+      "word": "abject",
+      "phonetic": "/ˈæbdʒekt/",
+      "toeicRank": "TSL中位・文学/ニュース用語",
+      "parts": [
+        {
+          "part": "ab",
+          "meaning": "離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ab（離れて）+ jacere（投げる）= 投げ捨てられた → 惨めな・卑しい",
+        "fact": "ラテン語 abjectus「投げ捨てられた」から。ab-（離れて）+ jacere（投げる）。15世紀に「捨てられて最も低い状態にある」の意味で英語に入った。abject poverty = 極度の貧困。",
+        "source": "EtymOnline: abject",
+        "cognates": [
+          "reject",
+          "eject",
+          "project",
+          "inject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "離れて（ab）投げ捨てられた（ject）→ 惨めな・卑しい",
+        "fact": "DOWN IS BADメタファー。「離れて（ab）投げ捨てられた（ject）」最低の状態。dejected（落胆した）と似ているが、abject はより極端な卑しさ・惨めさを表す。",
+        "source": "Lakoff & Johnson (1980) DOWN IS BADメタファー"
+      },
+      "gap": "abject は「極度の・惨めな」。ab（離れて）+ ject（投げる）= 投げ捨てられた。abject poverty = 極度の貧困。abject failure = 惨めな失敗。dejected より強い表現。",
+      "gapOneliner": "abject = 離れて(ab)投げ捨てられた(ject) → 惨めな・卑しい",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ab(離れて) + ject(投げる) = 投げ捨てられた = 惨めな。abject poverty = 極度の貧困。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "abjectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投げ捨てられた→惨めな",
+            "投げ入れた→注入した",
+            "投げ返した→拒否した",
+            "投げ前に→計画した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Millions of people live in ______ poverty.",
+          "hint": "「投げ捨てられた」→「極度の・惨めな」",
+          "explanationFocus": "gap",
+          "choices": [
+            "abject",
+            "object",
+            "subject",
+            "reject"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The refugees were living in conditions of abject misery."
+      ]
     }
   ]
 }

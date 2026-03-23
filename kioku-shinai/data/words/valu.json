@@ -1603,6 +1603,463 @@
         "The system validates the user's credentials.",
         "We validated our approach through testing."
       ]
+    },
+    {
+      "word": "undervalue",
+      "phonetic": "/ˌʌndərˈvæljuː/",
+      "toeicRank": "TSL上位・ビジネス頻出",
+      "parts": [
+        {
+          "part": "under",
+          "meaning": "下に・不足して",
+          "type": "prefix"
+        },
+        {
+          "part": "valu",
+          "meaning": "価値",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "under（不足して）+ value（価値を認める）= 価値を低く見積もる → 過小評価する",
+        "fact": "under-（不足して、下に）+ value（価値を認める）から。16世紀に「本来の価値より低く評価する」の意味で英語に入った。undervalued stock = 過小評価された株。",
+        "source": "EtymOnline: undervalue",
+        "cognates": [
+          "value",
+          "evaluate",
+          "devalue",
+          "overvalue"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "価値（valu）を下に（under）見る → 過小評価する",
+        "fact": "DOWN IS LESSメタファー。本来の価値より「下に（under）」評価する動き。undervalued employees = 正当に評価されていない従業員。",
+        "source": "Lakoff & Johnson (1980) DOWN IS LESSメタファー"
+      },
+      "gap": "undervalue は「過小評価する」。under（下に）+ value（価値）= 価値を低く見る。overvalue（過大評価）の対義語。undervalued currency = 過小評価された通貨。",
+      "gapOneliner": "undervalue = 価値(valu)を下に(under)見る → 過小評価する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "under(下に) + value(価値) = 価値を低く見る = 過小評価する。Don't undervalue your skills = 自分のスキルを過小評価するな。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "undervalueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "価値を低く見る→過小評価する",
+            "価値を高く見る→過大評価する",
+            "価値を確かめる→評価する",
+            "価値を失くす→無価値にする"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Many analysts believe the stock is currently ______d.",
+          "hint": "「価値を低く見る」→「過小評価する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "undervalue",
+            "evaluate",
+            "devalue",
+            "overvalue"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The market tends to undervalue companies with long-term growth potential."
+      ]
+    },
+    {
+      "word": "revalue",
+      "phonetic": "/riːˈvæljuː/",
+      "toeicRank": "TSL中位・金融/ビジネス頻出",
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "再び",
+          "type": "prefix"
+        },
+        {
+          "part": "valu",
+          "meaning": "価値",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（再び）+ value（価値を認める）= 再び価値を見直す → 再評価する",
+        "fact": "re-（再び）+ value（価値を認める）から。19世紀に「通貨の公定価値を引き上げる」の金融用語として使われ始め、一般的に「再評価する」の意味でも使われる。revaluation = 再評価・切り上げ。",
+        "source": "EtymOnline: revalue",
+        "cognates": [
+          "value",
+          "evaluate",
+          "devalue",
+          "valuation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "再び（re）価値を見直す（valu）→ 再評価する",
+        "fact": "REASSESSMENT（再評価）スキーマ。一度決まった「価値（valu）」を「再び（re）」見直す動き。currency revaluation = 通貨の切り上げ。",
+        "source": "Johnson (1987) REPETITIONスキーマ"
+      },
+      "gap": "revalue は「再評価する」。金融では「通貨を切り上げる」意味。re（再び）+ value（価値）= 価値を見直す。devalue（切り下げ）の対義語。",
+      "gapOneliner": "revalue = 再び(re)価値を見直す(valu) → 再評価する。devalue の対義語",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re(再び) + value(価値) = 再び価値を見直す = 再評価する。revaluation of the currency = 通貨の切り上げ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "revalueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "再び価値を見直す→再評価する",
+            "価値を下げる→切り下げる",
+            "価値を確認する→鑑定する",
+            "価値をなくす→無効にする"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The central bank decided to ______ the national currency.",
+          "hint": "「再び価値を見直す」→「再評価する・切り上げる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "revalue",
+            "devalue",
+            "evaluate",
+            "undervalue"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The company decided to revalue its assets after the acquisition."
+      ]
+    },
+    {
+      "word": "valor",
+      "phonetic": "/ˈvælər/",
+      "toeicRank": "TSL中位・文学/軍事用語",
+      "parts": [
+        {
+          "part": "val",
+          "meaning": "価値・力（valu の異形）",
+          "type": "root"
+        },
+        {
+          "part": "or",
+          "meaning": "〜すること/性質（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "valere（強い・価値がある）+ -or = 強さ・価値 → 勇敢さ・武勇",
+        "fact": "ラテン語 valor「価値、勇気」から。valere（強い、健康な、価値がある）の名詞形。14世紀にフランス語 valour 経由で英語に入り、「戦場での勇敢さ」を指す。Medal of Valor = 武功勲章。",
+        "source": "EtymOnline: valor",
+        "cognates": [
+          "value",
+          "valid",
+          "valiant",
+          "equivalent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "力・価値（val）の発揮 → 勇敢さ・武勇",
+        "fact": "STRENGTH（力）スキーマ。内なる「価値・力（val）」を外に発揮する動き。valor は value（価値）の人格的・道徳的な表現。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "valor は「勇敢さ・武勇」。value（価値）と同根。val（強い・価値がある）が人格に表れると valor（勇気）になる。a soldier of great valor = 大いなる武勇の兵士。",
+      "gapOneliner": "valor = 価値・力(val)の発揮 → 勇敢さ。value と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "val(価値・力) + or = 価値の発揮 = 勇敢さ。Medal of Valor = 武功勲章。value, valid と同じ val 語根。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "valorの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "価値・力の発揮→勇敢さ",
+            "価値の計算→評価",
+            "価値の喪失→無価値",
+            "価値の交換→取引"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The firefighter was awarded a medal for ______.",
+          "hint": "「価値・力の発揮」→「勇敢さ」",
+          "explanationFocus": "gap",
+          "choices": [
+            "valor",
+            "value",
+            "validity",
+            "valuation"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The soldiers displayed extraordinary valor during the battle."
+      ]
+    },
+    {
+      "word": "ambivalent",
+      "phonetic": "/æmˈbɪvələnt/",
+      "toeicRank": "TSL中位・心理学/日常頻出",
+      "parts": [
+        {
+          "part": "ambi",
+          "meaning": "両方",
+          "type": "prefix"
+        },
+        {
+          "part": "val",
+          "meaning": "力・価値（valu の異形）",
+          "type": "root"
+        },
+        {
+          "part": "ent",
+          "meaning": "〜する（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ambi（両方）+ valere（力がある）= 両方に力が引かれる → 相反する感情を持つ",
+        "fact": "ラテン語 ambi-（両方）+ valere（力がある）から。1916年にスイスの精神科医ブロイラーがドイツ語 Ambivalenz として造語し、英語に入った。「同じ対象に対して矛盾する感情を同時に持つ」心理状態。",
+        "source": "EtymOnline: ambivalent; Bleuler (1911)",
+        "cognates": [
+          "value",
+          "equivalent",
+          "prevalent",
+          "valiant"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "両方（ambi）に引かれる力（val）がある → 相反する感情を持つ",
+        "fact": "TENSION（緊張）スキーマ。二つの方向に同時に「力（val）」が働く状態。好きでも嫌いでもある矛盾した感情。ambivalent about the offer = そのオファーに対して心が揺れている。",
+        "source": "Johnson (1987) FORCE BALANCEスキーマ"
+      },
+      "gap": "ambivalent は「相反する感情を持つ・心が揺れている」。ambi（両方）+ val（力）= 両方に力が引かれる。ambiguous（曖昧な）の ambi と同じ接頭辞。",
+      "gapOneliner": "ambivalent = 両方(ambi)に力(val)が引かれる → 相反する感情を持つ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ambi(両方) + val(力) + ent = 両方に引かれる = 心が揺れる。I'm ambivalent about it = それに対して心が揺れている。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "ambivalentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "両方に引かれる→心が揺れる",
+            "片方に引かれる→偏る",
+            "どちらにも引かれない→無関心",
+            "強く引かれる→熱中する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She felt ______ about accepting the new position.",
+          "hint": "「両方に引かれる」→「心が揺れる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "ambivalent",
+            "equivalent",
+            "prevalent",
+            "relevant"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Many voters remain ambivalent about the proposed policy changes."
+      ]
+    },
+    {
+      "word": "overvalue",
+      "phonetic": "/ˌoʊvərˈvæljuː/",
+      "toeicRank": "TSL中位・金融/ビジネス頻出",
+      "parts": [
+        {
+          "part": "over",
+          "meaning": "過度に",
+          "type": "prefix"
+        },
+        {
+          "part": "valu",
+          "meaning": "価値",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "over（過度に）+ value（価値を認める）= 価値を高く見積もりすぎる → 過大評価する",
+        "fact": "over-（過度に）+ value（価値を認める）から。17世紀に「実際の価値より高く評価する」の意味で使われ始めた。overvalued market = 過大評価された市場。undervalue の対義語。",
+        "source": "EtymOnline: overvalue",
+        "cognates": [
+          "value",
+          "undervalue",
+          "evaluate",
+          "devalue"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "価値（valu）を過度に（over）高く見る → 過大評価する",
+        "fact": "EXCESS（過剰）スキーマ。本来の「価値（valu）」を「超えて（over）」高く見積もる動き。stock market bubble = 過大評価の集積。",
+        "source": "Lakoff & Johnson (1980) MORE IS UPメタファー"
+      },
+      "gap": "overvalue は「過大評価する」。over（過度に）+ value（価値）= 価値を高く見すぎる。overvalued stocks = 過大評価された株。undervalue の対義語。",
+      "gapOneliner": "overvalue = 価値(valu)を過度に(over)高く見る → 過大評価する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "over(過度に) + value(価値) = 価値を高く見すぎる = 過大評価。overvalued assets = 過大評価された資産。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "overvalueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "価値を高く見すぎる→過大評価する",
+            "価値を低く見る→過小評価する",
+            "価値を確かめる→評価する",
+            "価値を失う→減価する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Analysts warned that the housing market was ______d.",
+          "hint": "「価値を高く見すぎる」→「過大評価する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "overvalue",
+            "undervalue",
+            "evaluate",
+            "devalue"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Some experts believe the tech sector is significantly overvalued."
+      ]
+    },
+    {
+      "word": "devaluation",
+      "phonetic": "/diːˌvæljuˈeɪʃn/",
+      "toeicRank": "TSL上位・金融/ニュース頻出",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "下へ",
+          "type": "prefix"
+        },
+        {
+          "part": "valu",
+          "meaning": "価値",
+          "type": "root"
+        },
+        {
+          "part": "ation",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ value（価値）+ -ation = 価値を下げること → 切り下げ・減価",
+        "fact": "de-（下へ）+ value（価値）+ -ation（名詞化）から。1914年に経済用語として使われ始めた。currency devaluation = 通貨切り下げ。意図的に通貨の公定価値を下げる政策。",
+        "source": "EtymOnline: devaluation",
+        "cognates": [
+          "devalue",
+          "value",
+          "evaluate",
+          "revaluation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "価値（valu）を下げる（de）こと → 切り下げ・減価",
+        "fact": "DOWN IS LESSメタファーの名詞化。意図的に「価値（valu）」を「下に（de）」移動させる政策的行為。revaluation（切り上げ）の対義語。",
+        "source": "Lakoff & Johnson (1980) DOWN IS LESSメタファー"
+      },
+      "gap": "devaluation は「通貨切り下げ・減価」。de（下へ）+ valu（価値）+ ation（こと）= 価値を下げること。revaluation（切り上げ）の対義語。",
+      "gapOneliner": "devaluation = 価値(valu)を下げる(de)こと → 通貨切り下げ・減価",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(下へ) + valu(価値) + ation(こと) = 価値を下げること = 切り下げ。currency devaluation = 通貨切り下げ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "devaluationの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "価値を下げること→切り下げ",
+            "価値を上げること→切り上げ",
+            "価値を確かめること→評価",
+            "価値を保つこと→保全"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the currency led to higher import prices.",
+          "hint": "「価値を下げること」→「切り下げ」",
+          "explanationFocus": "gap",
+          "choices": [
+            "devaluation",
+            "evaluation",
+            "validation",
+            "revaluation"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The sudden devaluation of the peso caused economic turmoil."
+      ]
     }
   ]
 }

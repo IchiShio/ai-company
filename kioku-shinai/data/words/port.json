@@ -1827,6 +1827,304 @@
         "This is an opportune time to invest in the market.",
         "The opportune moment came when she least expected it."
       ]
+    },
+    {
+      "word": "comport",
+      "phonetic": "/kəmˈpɔːrt/",
+      "toeicRank": "TSL中位・フォーマル用語",
+      "parts": [
+        {
+          "part": "com",
+          "meaning": "共に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "com（完全に）+ portare（運ぶ）= 自分自身を運ぶ → 振る舞う",
+        "fact": "ラテン語 comportare「まとめて運ぶ」から。com-（完全に）+ portare（運ぶ）。16世紀に「自分自身をどう運ぶか→振る舞う」の反射的意味で英語に入った。comport oneself = 振る舞う。",
+        "source": "EtymOnline: comport",
+        "cognates": [
+          "report",
+          "transport",
+          "import",
+          "deport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分を完全に（com）運ぶ（port）→ 振る舞う",
+        "fact": "SELF-MOTION（自己移動）スキーマ。自分自身を「運ぶ（port）」= 自分をどう見せるか＝振る舞い。comport oneself with dignity = 威厳を持って振る舞う。",
+        "source": "Lakoff & Johnson (1980) BODY IS A VEHICLEメタファー"
+      },
+      "gap": "comport は「振る舞う」。com（完全に）+ port（運ぶ）= 自分を運ぶ = 振る舞う。deport（追放する）= de + port = 離れた場所へ運ぶ。",
+      "gapOneliner": "comport = 自分を完全に(com)運ぶ(port) → 振る舞う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "com(完全に) + port(運ぶ) = 自分を運ぶ = 振る舞う。comport oneself professionally = プロらしく振る舞う。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "comportの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "自分を運ぶ→振る舞う",
+            "物を運ぶ→輸送する",
+            "報告する→通報する",
+            "追い出す→追放する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She ______ed herself with grace throughout the interview.",
+          "hint": "「自分を運ぶ」→「振る舞う」",
+          "explanationFocus": "gap",
+          "choices": [
+            "comported",
+            "reported",
+            "transported",
+            "deported"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He always comports himself professionally in meetings."
+      ]
+    },
+    {
+      "word": "purport",
+      "phonetic": "/pərˈpɔːrt/",
+      "toeicRank": "TSL中位・法律/ニュース頻出",
+      "parts": [
+        {
+          "part": "pur",
+          "meaning": "前に（pro の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pro（前に）+ portare（運ぶ）= 前に運び出す → 主張する・〜であると称する",
+        "fact": "古フランス語 purporter「含む、意味する」から。ラテン語 pro-（前に）+ portare（運ぶ）。15世紀に「ある意味や意図を前に運び出す→主張する」の意味で英語に入った。purported = 〜と称される（確証なし）。",
+        "source": "EtymOnline: purport",
+        "cognates": [
+          "report",
+          "transport",
+          "import",
+          "export"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "前に（pur）運び出す（port）→ 主張する・〜と称する",
+        "fact": "ASSERTION（主張）スキーマ。ある意味や意図を「前に（pur）運び出す（port）」動き。purported benefits = 称されている利点（事実とは限らない）。",
+        "source": "Langacker (2008) ASSERTIONスキーマ"
+      },
+      "gap": "purport は「〜と称する・〜であると主張する」。purported = 〜と称される（疑わしい場合に使う）。pur（前に）+ port（運ぶ）= 前に運び出して主張する。",
+      "gapOneliner": "purport = 前に(pur)運び出す(port) → 〜と称する・主張する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pur(前に) + port(運ぶ) = 前に運び出す = 主張する。purported cure = 効くと称される治療法（疑わしい）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "purportの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "前に運び出す→主張する",
+            "後ろに運ぶ→隠す",
+            "共に運ぶ→協力する",
+            "外に運ぶ→輸出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The document ______s to be an original manuscript.",
+          "hint": "「前に運び出して主張する」→「〜であると称する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "purports",
+            "reports",
+            "transports",
+            "imports"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The email purported to be from the company's CEO."
+      ]
+    },
+    {
+      "word": "disproportionate",
+      "phonetic": "/ˌdɪsprəˈpɔːrʃənət/",
+      "toeicRank": "TSL上位・ビジネス/ニュース頻出",
+      "parts": [
+        {
+          "part": "dis",
+          "meaning": "〜でない（否定）",
+          "type": "prefix"
+        },
+        {
+          "part": "pro",
+          "meaning": "前に",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ・割り当て",
+          "type": "root"
+        },
+        {
+          "part": "ionate",
+          "meaning": "〜の（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "dis（否定）+ proportionate（釣り合った）= 釣り合っていない → 不均衡な",
+        "fact": "dis-（否定）+ proportionate（釣り合った）から。proportion はラテン語 proportio「釣り合い」（pro-「前に」+ portio「割り当て」）。不均衡な配分を指す。",
+        "source": "EtymOnline: disproportionate",
+        "cognates": [
+          "proportion",
+          "proportionate",
+          "import",
+          "export"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "釣り合い（proportion）がない（dis）→ 不均衡な",
+        "fact": "IMBALANCE（不均衡）スキーマ。「割り当て（portion/port）」が「適切な（pro）」比率から「外れた（dis）」状態。disproportionate impact = 不均衡な影響。",
+        "source": "Lakoff & Johnson (1980) BALANCEスキーマ"
+      },
+      "gap": "disproportionate は「不均衡な」。dis（否定）+ proportionate（釣り合った）= 釣り合いがない。a disproportionate amount of = 不釣り合いな量の。",
+      "gapOneliner": "disproportionate = 釣り合い(proportionate)がない(dis) → 不均衡な",
+      "hook": {
+        "label": "記憶フック",
+        "text": "dis(否定) + proportionate(釣り合った) = 釣り合いがない = 不均衡。disproportionate response = 不均衡な対応。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "disproportionateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "釣り合いがない→不均衡な",
+            "釣り合っている→均衡な",
+            "運ぶことができない→不可能な",
+            "運び入れる→輸入の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The policy had a ______ effect on low-income families.",
+          "hint": "「釣り合いがない」→「不均衡な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "disproportionate",
+            "proportionate",
+            "important",
+            "supportive"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Women bear a disproportionate share of household responsibilities."
+      ]
+    },
+    {
+      "word": "portability",
+      "phonetic": "/ˌpɔːrtəˈbɪlɪti/",
+      "toeicRank": "TSL上位・IT/ビジネス頻出",
+      "parts": [
+        {
+          "part": "port",
+          "meaning": "運ぶ",
+          "type": "root"
+        },
+        {
+          "part": "ability",
+          "meaning": "〜できること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "portare（運ぶ）+ -ability = 運べること → 持ち運び可能性・移植性",
+        "fact": "portable（持ち運べる）+ -ity（名詞化）から。ラテン語 portabilis「運べる」に由来。IT分野では software portability（ソフトウェアの移植性）、保険では benefit portability（給付の移行可能性）として使われる。",
+        "source": "EtymOnline: portable",
+        "cognates": [
+          "portable",
+          "transport",
+          "import",
+          "export"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "運べる（port + able）こと（ity）→ 持ち運び可能性",
+        "fact": "MOBILITY（可動性）スキーマ。ある環境から別の環境へ「運べる（port）」性質。data portability = データの移行可能性（GDPR の重要概念）。",
+        "source": "Johnson (1987) MOBILITYスキーマ"
+      },
+      "gap": "portability はIT/ビジネスの重要語。data portability = データの移行可能性、number portability = 番号ポータビリティ。port（運ぶ）+ ability（できること）。",
+      "gapOneliner": "portability = 運べる(port+able)こと(ity) → 移行可能性。IT/ビジネス必須語",
+      "hook": {
+        "label": "記憶フック",
+        "text": "port(運ぶ) + ability(できること) = 運べること = 持ち運び可能性。number portability = 番号そのまま乗り換え。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "portabilityの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "運べること→持ち運び可能性",
+            "送れること→送信可能性",
+            "見えること→視認性",
+            "壊せること→破壊性"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new regulation ensures data ______ across platforms.",
+          "hint": "「運べること」→「移行可能性」",
+          "explanationFocus": "gap",
+          "choices": [
+            "portability",
+            "capability",
+            "durability",
+            "reliability"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Data portability is a key right under GDPR."
+      ]
     }
   ]
 }

@@ -1720,6 +1720,369 @@
         "precursor symptom（前駆症状）",
         "historical precursor（歴史的前兆）"
       ]
+    },
+    {
+      "word": "cursor",
+      "phonetic": "/ˈkɜːrsər/",
+      "toeicRank": "TSL中位・IT頻出",
+      "parts": [
+        {
+          "part": "cur",
+          "meaning": "走る",
+          "type": "root"
+        },
+        {
+          "part": "sor",
+          "meaning": "〜するもの（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "currere（走る）+ -sor = 走るもの → カーソル",
+        "fact": "ラテン語 cursor「走者」から。currere（走る）の行為者名詞。中世にはテキスト上を「走る」指示線を指し、コンピュータ時代に画面上の入力位置を示す記号として定着。",
+        "source": "EtymOnline: cursor",
+        "cognates": [
+          "current",
+          "course",
+          "precursor",
+          "excursion"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "走る（cur）もの（sor）→ 画面上を走る指示記号",
+        "fact": "MOVEMENT（移動）スキーマ。画面上を自由に「走り回る（cur）」入力位置の指示記号。precursor = 前を走るもの = 前駆者。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "cursor はIT用語だが、cur（走る）の名詞形。precursor（前駆者）= pre + cursor（前を走る者）。current（現在の）= 今走っている。",
+      "gapOneliner": "cursor = 走る(cur)もの(sor) → カーソル。precursor, current と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cur(走る) + sor(もの) = 走るもの = カーソル。precursor = 前を走る者 = 先駆者。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "cursorの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "走るもの→カーソル",
+            "書くもの→ペン",
+            "読むもの→スキャナー",
+            "消すもの→消しゴム"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 2,
+          "instruction": "cursorと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "mouse cursor（マウスカーソル）",
+            "cursor food（カーソル食品）",
+            "cursor sleep（カーソル睡眠）",
+            "cursor weather（カーソル天気）"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Move the cursor to the top of the page."
+      ]
+    },
+    {
+      "word": "cursory",
+      "phonetic": "/ˈkɜːrsəri/",
+      "toeicRank": "TSL中位・ビジネス/学術頻出",
+      "parts": [
+        {
+          "part": "cur",
+          "meaning": "走る",
+          "type": "root"
+        },
+        {
+          "part": "sory",
+          "meaning": "〜の性質を持つ（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "currere（走る）+ -sorius = 走り抜けるような → ざっとした・大雑把な",
+        "fact": "ラテン語 cursorius「走ることに関する」から。currere（走る）の形容詞形。17世紀に「走り抜けるように素早く表面的に行う」の意味で英語に入った。a cursory glance = ざっと一瞥する。",
+        "source": "EtymOnline: cursory",
+        "cognates": [
+          "cursor",
+          "current",
+          "course",
+          "excursion"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "走り抜ける（cur）ような → ざっとした・表面的な",
+        "fact": "SPEED（速度）スキーマ。「走り抜ける（cur）」ように素早く済ませるため、深さがない。cursory review = ざっとした確認。thorough（徹底的な）の対義概念。",
+        "source": "Johnson (1987) SPEEDスキーマ"
+      },
+      "gap": "cursory は「ざっとした・大雑把な」。cur（走る）から「走り抜けるように表面的」。a cursory examination = ざっとした検査。thorough の対義語。",
+      "gapOneliner": "cursory = 走り抜ける(cur)ような → ざっとした。cursor と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cur(走る) + sory(性質) = 走り抜けるような = ざっとした。a cursory glance = ちらっと見ること。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "cursoryの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "走り抜けるような→ざっとした",
+            "止まるような→慎重な",
+            "走り続けるような→持続的な",
+            "走り始めるような→初期的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "A ______ review of the report revealed several errors.",
+          "hint": "「走り抜けるような」→「ざっとした」",
+          "explanationFocus": "gap",
+          "choices": [
+            "cursory",
+            "thorough",
+            "current",
+            "curious"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Even a cursory examination showed the product was defective."
+      ]
+    },
+    {
+      "word": "incursion",
+      "phonetic": "/ɪnˈkɜːrʒn/",
+      "toeicRank": "TSL中位・ニュース/軍事頻出",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "中へ",
+          "type": "prefix"
+        },
+        {
+          "part": "cur",
+          "meaning": "走る",
+          "type": "root"
+        },
+        {
+          "part": "sion",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（中へ）+ currere（走る）= 中へ走り込むこと → 侵入・急襲",
+        "fact": "ラテン語 incursio「突進、攻撃」から。in-（中へ）+ currere（走る）。15世紀に「敵地への短期的な侵入・急襲」として英語に入った。military incursion = 軍事的侵入。",
+        "source": "EtymOnline: incursion",
+        "cognates": [
+          "excursion",
+          "current",
+          "recur",
+          "precursor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "中へ（in）走り込む（cur）こと → 侵入・急襲",
+        "fact": "FORCE-IN（押し入る）スキーマ。境界を越えて「中へ（in）走り込む（cur）」攻撃的な動き。excursion（遠出）= 外へ走り出る。方向が逆。",
+        "source": "Johnson (1987) FORCE-INスキーマ"
+      },
+      "gap": "incursion は「侵入・急襲」。in（中へ）+ cur（走る）= 中へ走り込む。excursion（遠出）= ex（外へ）+ cur（走る）= 外へ走り出る。方向が逆。",
+      "gapOneliner": "incursion = 中へ(in)走り込む(cur)こと → 侵入。excursion の逆方向",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in(中へ) + cur(走る) + sion = 中へ走り込むこと = 侵入。excursion(遠出) = 外へ走り出る。方向が逆。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "incursionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中へ走り込む→侵入",
+            "外へ走り出る→遠出",
+            "共に走る→並走",
+            "再び走る→再発"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The military ______ into the border region lasted three days.",
+          "hint": "「中へ走り込むこと」→「侵入」",
+          "explanationFocus": "gap",
+          "choices": [
+            "incursion",
+            "excursion",
+            "concurrence",
+            "recurrence"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The neighboring country condemned the military incursion."
+      ]
+    },
+    {
+      "word": "corridor",
+      "phonetic": "/ˈkɔːrɪdɔːr/",
+      "toeicRank": "TSL上位・ビジネス/日常頻出",
+      "parts": [
+        {
+          "part": "cor",
+          "meaning": "走る（cur の異形）",
+          "type": "root"
+        },
+        {
+          "part": "idor",
+          "meaning": "場所・通路（接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "correre（走る）+ -dor = 走る場所 → 廊下・通路",
+        "fact": "イタリア語 corridore「走る場所」から。ラテン語 currere（走る）に由来。16世紀に「城や大きな建物の走れる長い通路」として英語に入った。比喩的に trade corridor（貿易回廊）、power corridor（権力の中枢）としても使う。",
+        "source": "EtymOnline: corridor",
+        "cognates": [
+          "current",
+          "course",
+          "courier",
+          "curriculum"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "走る（cor）場所（idor）→ 廊下・通路",
+        "fact": "PATH（通路）スキーマ。「走れる（cor）」長い空間。power corridors = 権力が「走り回る」場所 = 権力の中枢。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "corridor はカタカナの「コリドー」。cor（走る）+ idor（場所）= 走る場所 = 廊下。corridors of power = 権力の回廊（権力中枢の比喩）。",
+      "gapOneliner": "corridor = 走る(cor)場所(idor) → 廊下・通路。比喩的にも頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cor(走る) + idor(場所) = 走る場所 = 廊下。corridors of power = 権力の回廊。current と同じ cur/cor。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "corridorの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "走る場所→廊下",
+            "書く場所→書斎",
+            "食べる場所→食堂",
+            "寝る場所→寝室"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The conference room is at the end of the ______.",
+          "hint": "「走る場所」→「廊下」",
+          "explanationFocus": "gap",
+          "choices": [
+            "corridor",
+            "cursor",
+            "current",
+            "curriculum"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The hotel has a long corridor leading to the conference rooms."
+      ]
+    },
+    {
+      "word": "courier",
+      "phonetic": "/ˈkʊriər/",
+      "toeicRank": "TSL上位・ビジネス/物流頻出",
+      "parts": [
+        {
+          "part": "cour",
+          "meaning": "走る（cur の異形）",
+          "type": "root"
+        },
+        {
+          "part": "ier",
+          "meaning": "〜する者（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "currere（走る）+ -ier = 走る者 → 急使・宅配便",
+        "fact": "フランス語 courrier「走る者、使者」から。ラテン語 currere（走る）に由来。14世紀に「急ぎの文書を運ぶ走者」として英語に入り、現代では「宅配便・配送業者」として広く使われる。",
+        "source": "EtymOnline: courier",
+        "cognates": [
+          "current",
+          "course",
+          "corridor",
+          "concur"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "走る（cour）者（ier）→ 急使・宅配便",
+        "fact": "AGENT（行為者）スキーマ。「走って（cour）」物を届ける人。courier service = 宅配サービス。元は馬で走る急使。",
+        "source": "Langacker (2008) AGENTスキーマ"
+      },
+      "gap": "courier はカタカナの「クーリエ」。cour（走る）+ ier（者）= 走る者 = 急使。courier service = 宅配サービス。current（流れ）と同じ cur 語根。",
+      "gapOneliner": "courier = 走る(cour)者(ier) → 急使・宅配便。current と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cour(走る) + ier(者) = 走る者 = 急使。courier service = 宅配サービス。current, course と同じ cur。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "courierの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "走る者→急使・宅配便",
+            "書く者→秘書",
+            "読む者→読者",
+            "売る者→販売員"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The documents were sent by ______ for same-day delivery.",
+          "hint": "「走る者」→「宅配便」",
+          "explanationFocus": "gap",
+          "choices": [
+            "courier",
+            "cursor",
+            "current",
+            "corridor"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "We sent the package by courier to ensure next-day delivery."
+      ]
     }
   ]
 }

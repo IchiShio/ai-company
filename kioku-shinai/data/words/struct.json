@@ -1737,6 +1737,389 @@
         "Let's have a constructive discussion about how to solve this problem.",
         "Constructive collaboration between departments improved productivity."
       ]
+    },
+    {
+      "word": "deconstruct",
+      "phonetic": "/ˌdiːkənˈstrʌkt/",
+      "toeicRank": "TSL中位・学術/批評用語",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "分解して",
+          "type": "prefix"
+        },
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（分解して）+ construct（組み立てる）= 組み立てたものを分解する → 脱構築する",
+        "fact": "de-（分解）+ construct（組み立てる）から。1970年代にフランスの哲学者ジャック・デリダの deconstructionism（脱構築主義）の英訳として広まった。「前提を解体して再検討する」の意味で一般にも使われる。",
+        "source": "EtymOnline: deconstruct; Derrida (1967)",
+        "cognates": [
+          "construct",
+          "destruct",
+          "instruct",
+          "reconstruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "組み立てた（construct）ものを分解する（de）→ 脱構築する・解体して分析する",
+        "fact": "DECOMPOSITION（分解）スキーマ。「組み立てた（construct）」構造を「分解して（de）」内部の前提や矛盾を明らかにする動き。deconstruct an argument = 議論を解体分析する。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "deconstruct は「脱構築する・解体分析する」。de（分解）+ construct（組み立てる）= 組み立てたものを分解する。デリダの哲学用語から一般語化。",
+      "gapOneliner": "deconstruct = 組み立て(construct)を分解(de)する → 脱構築・解体分析",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(分解) + construct(組み立てる) = 組み立てたものを分解する = 脱構築する。deconstruct the myth = 神話を解体分析する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "deconstructの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "組み立てを分解する→脱構築する",
+            "組み立て直す→再建する",
+            "組み立て方を教える→指導する",
+            "組み立てを壊す→破壊する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The critic ______ed the film's narrative structure.",
+          "hint": "「組み立てを分解する」→「解体分析する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "deconstructed",
+            "constructed",
+            "destructed",
+            "instructed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The essay deconstructs the traditional notion of success."
+      ]
+    },
+    {
+      "word": "superstructure",
+      "phonetic": "/ˈsuːpərstrʌktʃər/",
+      "toeicRank": "TSL中位・建築/学術用語",
+      "parts": [
+        {
+          "part": "super",
+          "meaning": "上に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる",
+          "type": "root"
+        },
+        {
+          "part": "ure",
+          "meaning": "〜されたもの（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "super（上に）+ structure（構造物）= 上部の構造物 → 上部構造",
+        "fact": "super-（上に）+ structure（構造物）から。17世紀に建築用語として「基礎の上に建てられた構造物」の意味で英語に入った。マルクス主義では「経済的土台（base）の上に築かれた政治・文化的制度」を指す。",
+        "source": "EtymOnline: superstructure",
+        "cognates": [
+          "structure",
+          "construct",
+          "infrastructure",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上に（super）組み立てた（struct）もの → 上部構造",
+        "fact": "ABOVE-BELOW（上下）スキーマ。基礎（infrastructure）の「上に（super）」「組み立てた（struct）」構造物。infrastructure（下部構造）との対概念。",
+        "source": "Lakoff & Johnson (1980) UP IS MOREメタファー"
+      },
+      "gap": "superstructure は「上部構造」。super（上に）+ structure（構造物）。infrastructure（下部構造）との対。建築でも政治思想でも使われる。",
+      "gapOneliner": "superstructure = 上に(super)組み立てた(struct)もの → 上部構造",
+      "hook": {
+        "label": "記憶フック",
+        "text": "super(上に) + structure(構造物) = 上部構造。infrastructure(下部構造)の対義語。船のデッキ上の構造もsuperstructure。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "superstructureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "上に組み立てたもの→上部構造",
+            "下に組み立てたもの→下部構造",
+            "再び組み立てたもの→再建物",
+            "壊して組み立てたもの→改築物"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 3,
+          "instruction": "super（上に）+ struct（組み立てる）+ ure（もの）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "上に + 組み立てる + もの = 上部構造",
+            "下に + 組み立てる + もの = 下部構造",
+            "再び + 組み立てる + もの = 再建物",
+            "間に + 組み立てる + もの = 仲介物"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The bridge's superstructure was damaged by the earthquake."
+      ]
+    },
+    {
+      "word": "unstructured",
+      "phonetic": "/ʌnˈstrʌktʃərd/",
+      "toeicRank": "TSL上位・ビジネス/IT頻出",
+      "parts": [
+        {
+          "part": "un",
+          "meaning": "〜でない（否定）",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる",
+          "type": "root"
+        },
+        {
+          "part": "ured",
+          "meaning": "〜された（過去分詞形容詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "un（否定）+ structured（構造化された）= 構造化されていない → 非構造の",
+        "fact": "un-（否定）+ structured（構造化された）から。IT分野では「定型フォーマットを持たないデータ」を指す。unstructured data = 非構造化データ（テキスト、画像、音声など）。ビジネスでは unstructured interview = 非定型面接。",
+        "source": "EtymOnline: structure",
+        "cognates": [
+          "structure",
+          "structured",
+          "construct",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "構造（struct）が付けられていない（un + ured）→ 非構造の",
+        "fact": "ABSENCE（不在）スキーマ。「組み立て（struct）」の枠組みが「ない（un）」状態。unstructured data はAI/ML分野の重要概念。structured ↔ unstructured。",
+        "source": "Langacker (2008) ABSENCEスキーマ"
+      },
+      "gap": "unstructured はIT/ビジネス頻出。unstructured data = 非構造化データ（テキスト・画像・音声）。un（否定）+ structured（構造化された）= 構造がない。",
+      "gapOneliner": "unstructured = 構造(struct)が付けられていない(un) → 非構造の",
+      "hook": {
+        "label": "記憶フック",
+        "text": "un(否定) + structured(構造化された) = 構造化されていない。unstructured data = 非構造化データ（テキスト、画像、音声）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "unstructuredの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "構造化されていない→非構造の",
+            "構造化された→定型の",
+            "再構造化された→改組の",
+            "破壊された→壊滅の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "AI excels at processing large volumes of ______ data.",
+          "hint": "「構造化されていない」→「非構造の」",
+          "explanationFocus": "gap",
+          "choices": [
+            "unstructured",
+            "structured",
+            "constructed",
+            "destructed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Most of the world's data is unstructured, including emails and social media posts."
+      ]
+    },
+    {
+      "word": "industrious",
+      "phonetic": "/ɪnˈdʌstriəs/",
+      "toeicRank": "TSL中位・ビジネス/日常用語",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "中に",
+          "type": "prefix"
+        },
+        {
+          "part": "stru",
+          "meaning": "組み立てる（struct の異形）",
+          "type": "root"
+        },
+        {
+          "part": "ious",
+          "meaning": "〜の性質を持つ（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "instruere（中に組み立てる→準備する）→ 勤勉に準備する性質 → 勤勉な",
+        "fact": "ラテン語 industrius「勤勉な」から。industria「勤勉、努力」に由来し、これは instruere（中に組み立てる、準備する）と関連があるとされる。16世紀に「熱心に働く」の意味で英語に入った。industry（産業）も同根。",
+        "source": "EtymOnline: industrious",
+        "cognates": [
+          "industry",
+          "industrial",
+          "instruct",
+          "construct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "中に（in）組み立てる（stru）性質 → 勤勉に準備する → 勤勉な",
+        "fact": "EFFORT（努力）スキーマ。内部で絶えず「組み立て・準備する（in + stru）」性質。industrious worker = 勤勉な労働者。industry = 勤勉さ → 産業。",
+        "source": "Langacker (2008) EFFORTスキーマ"
+      },
+      "gap": "industrious は「勤勉な」。industry（産業）と同根で、元は「勤勉さ」の意味。in + stru（中に組み立てる）→ 常に準備している → 勤勉。",
+      "gapOneliner": "industrious = 中に(in)組み立てる(stru)性質 → 勤勉な。industry と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in(中に) + stru(組み立てる) + ious(性質) = 中で絶えず準備する = 勤勉な。industry = 勤勉さ → 産業。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "industriousの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "勤勉に準備する→勤勉な",
+            "壊す性質→破壊的な",
+            "教える性質→教育的な",
+            "組み立てる性質→建設的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is known as one of the most ______ employees in the company.",
+          "hint": "「勤勉に準備する」→「勤勉な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "industrious",
+            "industrial",
+            "instructive",
+            "destructive"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The industrious team completed the project ahead of schedule."
+      ]
+    },
+    {
+      "word": "misconstrue",
+      "phonetic": "/ˌmɪskənˈstruː/",
+      "toeicRank": "TSL中位・法律/ビジネス頻出",
+      "parts": [
+        {
+          "part": "mis",
+          "meaning": "誤って",
+          "type": "prefix"
+        },
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "strue",
+          "meaning": "組み立てる（struct の異形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "mis（誤って）+ construe（意味を組み立てる）= 意味を誤って組み立てる → 誤解する",
+        "fact": "mis-（誤って）+ construe（解釈する）から。construe はラテン語 construere「共に組み立てる」に由来し、「言葉の意味を組み立てて解釈する」の意味に転じた。misconstrue = 意味を誤って組み立てる = 誤解する。",
+        "source": "EtymOnline: misconstrue",
+        "cognates": [
+          "construe",
+          "construct",
+          "structure",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "意味を誤って（mis）組み立てる（construe）→ 誤解する",
+        "fact": "ERROR（誤り）スキーマ。言葉や行為の意味を「組み立てる（construe）」過程で「誤り（mis）」が生じる。misconstrue someone's intentions = 意図を誤解する。",
+        "source": "Langacker (2008) ERRORスキーマ"
+      },
+      "gap": "misconstrue は「誤解する」。mis（誤って）+ construe（解釈する＝意味を組み立てる）。misunderstand よりフォーマル。法律やビジネスで頻出。",
+      "gapOneliner": "misconstrue = 意味を誤って(mis)組み立てる(construe) → 誤解する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mis(誤って) + construe(意味を組み立てる) = 誤解する。Don't misconstrue my words = 私の言葉を誤解しないで。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "misconstrueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "誤って意味を組み立てる→誤解する",
+            "正しく意味を組み立てる→正解する",
+            "壊して意味を失う→誤用する",
+            "共に意味を作る→共有する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "His silence was ______d as agreement.",
+          "hint": "「誤って意味を組み立てる」→「誤解する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "misconstrued",
+            "constructed",
+            "instructed",
+            "destructed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Please don't misconstrue my comments as criticism."
+      ]
     }
   ]
 }

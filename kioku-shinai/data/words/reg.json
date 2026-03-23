@@ -1582,6 +1582,446 @@
         "regimented lifestyle（規律正しい生活）",
         "regiment of soldiers（兵士たちの連隊）"
       ]
+    },
+    {
+      "word": "regal",
+      "phonetic": "/ˈriːɡl/",
+      "toeicRank": "TSL中位・文学/日常用語",
+      "parts": [
+        {
+          "part": "reg",
+          "meaning": "王・統治する",
+          "type": "root"
+        },
+        {
+          "part": "al",
+          "meaning": "〜の（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "rex/regis（王）+ -al = 王の → 王者の風格がある",
+        "fact": "ラテン語 regalis「王の」から。rex（王）の形容詞形。14世紀にフランス語 régal 経由で英語に入り、「王にふさわしい威厳や風格がある」の意味で使われる。",
+        "source": "EtymOnline: regal",
+        "cognates": [
+          "royal",
+          "reign",
+          "regulate",
+          "regent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "王（reg）の → 王者の風格がある・堂々とした",
+        "fact": "AUTHORITY（権威）スキーマ。「王（reg）」が持つ威厳・堂々さを形容詞化。regal bearing = 王者の風格のある振る舞い。",
+        "source": "Lakoff & Johnson (1980) AUTHORITY IS UPメタファー"
+      },
+      "gap": "regal は「王者の風格がある」。reg（王）の形容詞形。regulate（統治する→規制する）、reign（王として治める）と同じ語根。",
+      "gapOneliner": "regal = 王(reg)の → 王者の風格がある。regulate, reign と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "reg(王) + al(の) = 王の = 堂々とした。regal posture = 王者の風格ある姿勢。regulate = 王として治める → 規制する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regalの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "王の→王者の風格がある",
+            "法の→合法な",
+            "直の→正確な",
+            "地域の→地方の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She walked with a ______ grace that commanded respect.",
+          "hint": "「王の」→「王者の風格がある」",
+          "explanationFocus": "gap",
+          "choices": [
+            "regal",
+            "legal",
+            "regular",
+            "regional"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The actress carried herself with a regal elegance."
+      ]
+    },
+    {
+      "word": "sovereign",
+      "phonetic": "/ˈsɒvrɪn/",
+      "toeicRank": "TSL中位・政治/法律頻出",
+      "parts": [
+        {
+          "part": "sover",
+          "meaning": "上に（super の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "reign",
+          "meaning": "統治する（reg 系）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "super（上に）+ regnum（王国）= 上位に統治する者 → 君主・主権者",
+        "fact": "古フランス語 soverain から。ラテン語 superanus「上位の」（super「上に」）に影響を受けつつ、regnum（王国）との混交で形成。13世紀に「最高統治者」として英語に入った。sovereignty = 主権。",
+        "source": "EtymOnline: sovereign",
+        "cognates": [
+          "reign",
+          "regal",
+          "regulate",
+          "sovereignty"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上位に（sover）統治する（reign）→ 君主・主権の",
+        "fact": "HIERARCHY（階層）スキーマの頂点。すべての上に（super）立って統治する（reign）存在。sovereign state = 主権国家。",
+        "source": "Lakoff & Johnson (1980) CONTROL IS UPメタファー"
+      },
+      "gap": "sovereign は「君主・主権の」。sovereignty（主権）の形容詞/名詞。sovereign state = 主権国家。reg/reign（統治）系の最高位の語。",
+      "gapOneliner": "sovereign = 上位に(sover)統治する(reign) → 君主・主権の",
+      "hook": {
+        "label": "記憶フック",
+        "text": "sover(上に) + reign(統治する) = 上位に統治する = 君主。sovereign nation = 主権国家。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "sovereignの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "上位に統治する→君主",
+            "下位に従う→臣下",
+            "横に並ぶ→同盟者",
+            "外から見る→観察者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Every ______ nation has the right to self-determination.",
+          "hint": "「上位に統治する」→「主権の」",
+          "explanationFocus": "gap",
+          "choices": [
+            "sovereign",
+            "regional",
+            "regular",
+            "regulated"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The country defended its sovereign right to control its borders."
+      ]
+    },
+    {
+      "word": "deregulate",
+      "phonetic": "/diːˈreɡjuleɪt/",
+      "toeicRank": "TSL上位・ビジネス/政治頻出",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "取り去る",
+          "type": "prefix"
+        },
+        {
+          "part": "reg",
+          "meaning": "統治する・規制する",
+          "type": "root"
+        },
+        {
+          "part": "ulate",
+          "meaning": "〜する（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（取り去る）+ regulate（規制する）= 規制を取り去る → 規制緩和する",
+        "fact": "de-（除去）+ regulate（規制する）から。1960年代にアメリカで経済政策用語として使われ始め、1980年代のレーガン政権下で広く普及。deregulation = 規制緩和。",
+        "source": "EtymOnline: deregulate",
+        "cognates": [
+          "regulate",
+          "regulation",
+          "regulatory",
+          "irregular"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "規制（regulate）を取り去る（de）→ 規制緩和する",
+        "fact": "REMOVAL（除去）スキーマ。「統治（reg）のルール（ulate）」を「取り去る（de）」動き。deregulation of airlines = 航空業界の規制緩和。",
+        "source": "Johnson (1987) REMOVALスキーマ"
+      },
+      "gap": "deregulate はビジネスニュース頻出。de（取る）+ regulate（規制する）= 規制を取る = 規制緩和。deregulation = 規制緩和。",
+      "gapOneliner": "deregulate = 規制(regulate)を取り去る(de) → 規制緩和する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(取り去る) + regulate(規制する) = 規制を取り去る = 規制緩和。deregulation of the market = 市場の規制緩和。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "deregulateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "規制を取り去る→規制緩和する",
+            "規制を強化する→規制強化する",
+            "規制を作る→規制する",
+            "規制を確認する→監査する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government plans to ______ the telecommunications industry.",
+          "hint": "「規制を取り去る」→「規制緩和する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "deregulate",
+            "regulate",
+            "register",
+            "regimen"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The decision to deregulate the energy market led to lower prices."
+      ]
+    },
+    {
+      "word": "regimen",
+      "phonetic": "/ˈredʒɪmən/",
+      "toeicRank": "TSL中位・医療/健康頻出",
+      "parts": [
+        {
+          "part": "reg",
+          "meaning": "統治する・導く",
+          "type": "root"
+        },
+        {
+          "part": "imen",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "regere（統治する・導く）+ -imen = 統治する方法 → 養生法・規則的な計画",
+        "fact": "ラテン語 regimen「統治、指導、計画」から。regere（導く、統治する）の名詞形。14世紀に医学用語として「健康管理の計画」の意味で英語に入った。regime（政治体制）は同語源の別形。",
+        "source": "EtymOnline: regimen",
+        "cognates": [
+          "regime",
+          "regiment",
+          "regulate",
+          "region"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "統治する（reg）方法（imen）→ 規則的な計画・養生法",
+        "fact": "CONTROL（管理）スキーマ。体や生活を「統治する（reg）」計画的な方法。exercise regimen = 運動計画。regime は政治の統治方法、regimen は個人の管理方法。",
+        "source": "Langacker (2008) CONTROLスキーマ"
+      },
+      "gap": "regimen は「養生法・規則的な計画」。regime（政治体制）と同語源だが使い分けがある。daily regimen = 毎日の養生計画。reg（統治）の「個人管理」版。",
+      "gapOneliner": "regimen = 統治する(reg)方法 → 養生法・規則的な計画。regime の個人版",
+      "hook": {
+        "label": "記憶フック",
+        "text": "reg(統治する) + imen = 統治する方法 = 養生法。skincare regimen = スキンケアの計画。regime = 政治の統治方法。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "regimenの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "統治する方法→養生法",
+            "統治する人→指導者",
+            "統治する場所→地域",
+            "統治する法→規制"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The doctor recommended a strict exercise ______.",
+          "hint": "「統治する方法」→「養生法・計画」",
+          "explanationFocus": "gap",
+          "choices": [
+            "regimen",
+            "regime",
+            "regiment",
+            "region"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She follows a strict daily skincare regimen."
+      ]
+    },
+    {
+      "word": "regent",
+      "phonetic": "/ˈriːdʒənt/",
+      "toeicRank": "TSL中位・歴史/学術用語",
+      "parts": [
+        {
+          "part": "reg",
+          "meaning": "統治する",
+          "type": "root"
+        },
+        {
+          "part": "ent",
+          "meaning": "〜する者（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "regere（統治する）+ -ent = 統治する者 → 摂政",
+        "fact": "ラテン語 regens「統治する者」（regere の現在分詞）から。14世紀に「国王が不在時に代わりに統治する者＝摂政」として英語に入った。大学の board of regents = 理事会も同語源。",
+        "source": "EtymOnline: regent",
+        "cognates": [
+          "regal",
+          "regulate",
+          "regime",
+          "reign"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "統治する（reg）者（ent）→ 摂政・代理統治者",
+        "fact": "SUBSTITUTE（代理）スキーマ。本来の王が不在時に「統治する（reg）」代理人。regent = 王の代わりに「統治する者」。",
+        "source": "Langacker (2008) SUBSTITUTEスキーマ"
+      },
+      "gap": "regent は「摂政」。reg（統治する）+ ent（者）= 統治する者。大学の regent = 理事。regulate（規制する）、region（地域＝統治される範囲）と同根。",
+      "gapOneliner": "regent = 統治する(reg)者(ent) → 摂政・理事",
+      "hook": {
+        "label": "記憶フック",
+        "text": "reg(統治する) + ent(者) = 統治する者 = 摂政。board of regents = 理事会。regulate, region と同じ reg。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "regentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "統治する者→摂政",
+            "統治される地域→領土",
+            "統治するルール→規則",
+            "統治される民→臣民"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 3,
+          "instruction": "reg（統治する）+ ent（者）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "統治する + 者 = 摂政",
+            "統治する + 場所 = 地域",
+            "統治する + 法 = 規制",
+            "統治する + 時代 = 治世"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The prince served as regent while the king was abroad."
+      ]
+    },
+    {
+      "word": "insurgent",
+      "phonetic": "/ɪnˈsɜːrdʒənt/",
+      "toeicRank": "TSL中位・ニュース/政治頻出",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "〜に対して",
+          "type": "prefix"
+        },
+        {
+          "part": "surg",
+          "meaning": "立ち上がる（reg/rect と関連）",
+          "type": "root"
+        },
+        {
+          "part": "ent",
+          "meaning": "〜する者",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（〜に対して）+ surgere（立ち上がる）= 権威に対して立ち上がる者 → 反乱者",
+        "fact": "ラテン語 insurgens「立ち上がる者」から。in-（〜に対して）+ surgere（立ち上がる）。18世紀に「既存の権威に対して武力で立ち上がる者」として英語に入った。insurgency = 反乱。",
+        "source": "EtymOnline: insurgent",
+        "cognates": [
+          "surge",
+          "resurrection",
+          "erect",
+          "insurrection"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "権威に対して（in）立ち上がる（surg）者（ent）→ 反乱者",
+        "fact": "RESISTANCE（抵抗）スキーマ。支配者に「対して（in）」下から「立ち上がる（surg）」動き。insurgent forces = 反乱軍。",
+        "source": "Lakoff & Johnson (1980) RESISTANCE IS UPメタファー"
+      },
+      "gap": "insurgent は「反乱者」。in（対して）+ surg（立ち上がる）= 権威に対して立ち上がる者。surge（急上昇）、resurrection（復活＝再び立ち上がる）と同系統。",
+      "gapOneliner": "insurgent = 権威に対して(in)立ち上がる(surg)者(ent) → 反乱者",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in(対して) + surg(立ち上がる) + ent(者) = 権威に対して立ち上がる者 = 反乱者。insurgency = 反乱。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "insurgentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "対して立ち上がる者→反乱者",
+            "一緒に座る者→同僚",
+            "前に進む者→先駆者",
+            "後ろに退く者→敗走者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Government forces clashed with ______ groups in the region.",
+          "hint": "「権威に対して立ち上がる者」→「反乱者」",
+          "explanationFocus": "gap",
+          "choices": [
+            "insurgent",
+            "urgent",
+            "emergent",
+            "resurgent"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The military launched an operation against insurgent forces."
+      ]
     }
   ]
 }

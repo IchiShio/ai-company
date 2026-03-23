@@ -1740,6 +1740,389 @@
         "business venture（事業）",
         "adventure and venture（冒険）"
       ]
+    },
+    {
+      "word": "circumvent",
+      "phonetic": "/ˌsɜːrkəmˈvent/",
+      "toeicRank": "TSL中位・ビジネス/法律頻出",
+      "parts": [
+        {
+          "part": "circum",
+          "meaning": "周りを",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "t",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "circum（周りを）+ venire（来る）= 周りを回って来る → 回避する・迂回する",
+        "fact": "ラテン語 circumvenire「周りを囲んで来る、出し抜く」から。circum-（周りを）+ venire（来る）。16世紀に「困難を回り道で避ける」の意味で英語に入った。circumvent a regulation = 規制を回避する。",
+        "source": "EtymOnline: circumvent",
+        "cognates": [
+          "convention",
+          "prevent",
+          "adventure",
+          "intervene"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "周りを（circum）回って来る（ven）→ 回避する・迂回する",
+        "fact": "DETOUR（迂回）スキーマ。障害物の「周りを（circum）」回って「来る（ven）」動き。正面突破せず側面から攻略する。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "circumvent は「回避する・迂回する」。circum（周りを）+ ven（来る）= 周りを回って来る。circumvent the law = 法律を回避する。",
+      "gapOneliner": "circumvent = 周りを(circum)回って来る(ven) → 回避する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "circum(周りを) + ven(来る) + t = 周りを回って来る = 回避する。circumvent the rules = ルールを迂回する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "circumventの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "周りを回って来る→回避する",
+            "前もって来る→予防する",
+            "共に来る→集まる",
+            "間に来る→介入する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company tried to ______ the new regulations.",
+          "hint": "「周りを回って来る」→「回避する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "circumvent",
+            "prevent",
+            "invent",
+            "intervene"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Hackers found ways to circumvent the security system."
+      ]
+    },
+    {
+      "word": "intervene",
+      "phonetic": "/ˌɪntərˈviːn/",
+      "toeicRank": "TSL上位・ニュース/政治頻出",
+      "parts": [
+        {
+          "part": "inter",
+          "meaning": "間に",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "inter（間に）+ venire（来る）= 間に入って来る → 介入する",
+        "fact": "ラテン語 intervenire「間に入って来る」から。inter-（間に）+ venire（来る）。16世紀に「二者の間に入って仲裁する」の意味で英語に入った。government intervention = 政府の介入。",
+        "source": "EtymOnline: intervene",
+        "cognates": [
+          "intervention",
+          "convention",
+          "prevent",
+          "invent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "間に（inter）入って来る（ven）→ 介入する・仲裁する",
+        "fact": "MEDIATION（仲介）スキーマ。二者の「間に（inter）」第三者が「来る（ven）」動き。intervene in a dispute = 紛争に介入する。",
+        "source": "Johnson (1987) MEDIATIONスキーマ"
+      },
+      "gap": "intervene は「介入する」。inter（間に）+ ven（来る）= 間に入って来る。intervention = 介入。prevent = 前に来る = 妨げる。",
+      "gapOneliner": "intervene = 間に(inter)入って来る(ven) → 介入する・仲裁する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "inter(間に) + ven(来る) + e = 間に入って来る = 介入する。intervention = 介入。prevent = 前に来て止める。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "interveneの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "間に入って来る→介入する",
+            "前に来る→予防する",
+            "共に来る→集まる",
+            "戻って来る→帰還する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government decided to ______ in the banking crisis.",
+          "hint": "「間に入って来る」→「介入する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "intervene",
+            "prevent",
+            "invent",
+            "convene"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The UN decided to intervene to prevent further conflict."
+      ]
+    },
+    {
+      "word": "contravene",
+      "phonetic": "/ˌkɒntrəˈviːn/",
+      "toeicRank": "TSL中位・法律/ビジネス頻出",
+      "parts": [
+        {
+          "part": "contra",
+          "meaning": "反対に",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "contra（反対に）+ venire（来る）= 反対に向かって来る → 違反する",
+        "fact": "ラテン語 contravenire「反対に向かって来る」から。contra-（反対に）+ venire（来る）。16世紀に「法律・規則に反する行為をする」の意味で英語に入った。contravention = 違反。",
+        "source": "EtymOnline: contravene",
+        "cognates": [
+          "convention",
+          "prevent",
+          "intervene",
+          "adventure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "反対に（contra）向かって来る（ven）→ 違反する・反する",
+        "fact": "OPPOSITION（対立）スキーマ。規則の「反対方向に（contra）」「向かう（ven）」動き。contravene a law = 法律に違反する。",
+        "source": "Lakoff & Johnson (1980) ARGUMENT IS WARメタファー"
+      },
+      "gap": "contravene は「違反する」。contra（反対に）+ ven（来る）= 反対に向かう。contravene the terms = 条件に違反する。convention（慣例）= 共に来る = 集まりのルール。",
+      "gapOneliner": "contravene = 反対に(contra)向かって来る(ven) → 違反する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "contra(反対に) + ven(来る) + e = 反対に向かう = 違反する。contravene the regulations = 規則に違反する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "contraveneの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "反対に向かう→違反する",
+            "共に来る→合意する",
+            "間に来る→介入する",
+            "前に来る→先行する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "This action ______s international law.",
+          "hint": "「反対に向かう」→「違反する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "contravenes",
+            "prevents",
+            "invents",
+            "convenes"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The company's practices contravene environmental regulations."
+      ]
+    },
+    {
+      "word": "convene",
+      "phonetic": "/kənˈviːn/",
+      "toeicRank": "TSL上位・ビジネス/法律頻出",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "動詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（共に）+ venire（来る）= 共に来る → 召集する・開催する",
+        "fact": "ラテン語 convenire「共に来る、集まる」から。con-（共に）+ venire（来る）。15世紀に「会議のために人々を集める」の意味で英語に入った。convene a meeting = 会議を召集する。",
+        "source": "EtymOnline: convene",
+        "cognates": [
+          "convention",
+          "convenient",
+          "venue",
+          "adventure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "共に（con）来る（ven）→ 集まる・召集する",
+        "fact": "ASSEMBLY（集合）スキーマ。複数の人が一つの場所に「共に（con）来る（ven）」動き。convention = 共に来る場 = 会議・大会。",
+        "source": "Johnson (1987) COLLECTIONスキーマ"
+      },
+      "gap": "convene は「召集する・集まる」。con（共に）+ ven（来る）= 共に来る。convention = 共に来る場 = 大会。convenient = 共に来やすい = 便利な。",
+      "gapOneliner": "convene = 共に(con)来る(ven) → 召集する。convention, convenient と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con(共に) + ven(来る) + e = 共に来る = 集まる。convene a meeting = 会議を召集する。convention = 大会。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "conveneの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "共に来る→召集する",
+            "反対に来る→違反する",
+            "間に来る→介入する",
+            "前に来る→予防する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The committee will ______ next Monday to discuss the proposal.",
+          "hint": "「共に来る」→「召集する・集まる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "convene",
+            "prevent",
+            "intervene",
+            "contravene"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The board will convene an emergency session tomorrow."
+      ]
+    },
+    {
+      "word": "souvenir",
+      "phonetic": "/ˌsuːvəˈnɪr/",
+      "toeicRank": "TSL中位・日常/観光用語",
+      "parts": [
+        {
+          "part": "sou",
+          "meaning": "下から（sub の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "ven",
+          "meaning": "来る",
+          "type": "root"
+        },
+        {
+          "part": "ir",
+          "meaning": "動詞語尾（フランス語）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sub（下から）+ venire（来る）= 心の下から浮かび上がって来る → 記念品",
+        "fact": "フランス語 souvenir「思い出す」から。ラテン語 subvenire「下から来る、心に浮かぶ」に由来。sub-（下から）+ venire（来る）。「記憶が下から浮かび上がる」→「思い出」→「思い出の品＝記念品」へ転じた。",
+        "source": "EtymOnline: souvenir",
+        "cognates": [
+          "venture",
+          "adventure",
+          "event",
+          "revenue"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "下から（sou）心に浮かんで来る（ven）→ 思い出 → 記念品",
+        "fact": "MEMORY（記憶）スキーマ。過去の経験が心の「下から（sub）」「浮かんで来る（ven）」動き。souvenir = その記憶を呼び起こすトリガーとなる物品。",
+        "source": "Johnson (1987) UP IS CONSCIOUSメタファー"
+      },
+      "gap": "souvenir はフランス語由来の「記念品」。sub（下から）+ ven（来る）= 心の下から浮かんで来る = 思い出。思い出を呼び起こす品が souvenir。",
+      "gapOneliner": "souvenir = 下から(sou)心に浮かんで来る(ven) → 記念品",
+      "hook": {
+        "label": "記憶フック",
+        "text": "sou(下から) + ven(来る) + ir = 心の下から浮かんで来る = 思い出の品 = 記念品。souvenir shop = お土産屋。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "souvenirの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "心に浮かんで来る→記念品",
+            "前もって来る→予防薬",
+            "共に来る→集合",
+            "反対に来る→違反品"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 2,
+          "instruction": "souvenirと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "souvenir shop（お土産屋）",
+            "souvenir sleep（記念睡眠）",
+            "souvenir food（記念食品）",
+            "souvenir work（記念仕事）"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She bought a small souvenir to remember the trip."
+      ]
     }
   ]
 }

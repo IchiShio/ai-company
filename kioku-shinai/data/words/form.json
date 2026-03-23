@@ -1706,6 +1706,381 @@
         "congenital deformity（先天的奇形）",
         "moral deformity（道徳的堕落）"
       ]
+    },
+    {
+      "word": "formidable",
+      "phonetic": "/ˈfɔːrmɪdəbl/",
+      "toeicRank": "TSL上位・ビジネス/ニュース頻出",
+      "parts": [
+        {
+          "part": "form",
+          "meaning": "形・姿（恐ろしい姿）",
+          "type": "root"
+        },
+        {
+          "part": "idable",
+          "meaning": "〜すべき・〜できる",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "formidabilis（恐れるべき）= 恐ろしい形を持つ → 手強い・恐るべき",
+        "fact": "ラテン語 formidabilis「恐れるべき」から。formido（恐怖、恐ろしい姿）に由来。15世紀にフランス語経由で英語に入った。現代では「手強い・非常に優れた」のポジティブな意味でも使われる。",
+        "source": "EtymOnline: formidable",
+        "cognates": [
+          "form",
+          "formal",
+          "format",
+          "formulate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "恐ろしい姿（form）を持つ → 手強い・恐るべき",
+        "fact": "SCALE（大きさ）スキーマ。圧倒的な「形（form）」が恐怖を引き起こす。formidable opponent = 手強い相手。力量の大きさを恐れの感情で表現。",
+        "source": "Lakoff & Johnson (1980) BIG IS IMPORTANTメタファー"
+      },
+      "gap": "formidable は「手強い・恐るべき」。form（形）から派生したが、現代では能力の高さを称賛する意味でも使う。a formidable challenge = 手強い課題。",
+      "gapOneliner": "formidable = 恐ろしい形(form)を持つ → 手強い・恐るべき。称賛にも使える",
+      "hook": {
+        "label": "記憶フック",
+        "text": "form(形) + idable(すべき) = 恐るべき形の = 手強い。a formidable competitor = 手強い競争相手。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "formidableの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "恐るべき→手強い",
+            "形式的な→公式の",
+            "情報を与える→有益な",
+            "変形する→可変の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She proved to be a ______ negotiator.",
+          "hint": "「恐るべき」→「手強い・優秀な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "formidable",
+            "formal",
+            "former",
+            "formative"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The team faces a formidable challenge in the upcoming competition."
+      ]
+    },
+    {
+      "word": "formulate",
+      "phonetic": "/ˈfɔːrmjuleɪt/",
+      "toeicRank": "TSL上位・ビジネス/学術頻出",
+      "parts": [
+        {
+          "part": "form",
+          "meaning": "形",
+          "type": "root"
+        },
+        {
+          "part": "ula",
+          "meaning": "小さい形（指小辞）",
+          "type": "suffix"
+        },
+        {
+          "part": "ate",
+          "meaning": "〜する（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "formula（小さな形・定式）+ -ate = 定式にまとめる → 策定する",
+        "fact": "ラテン語 formulare「規則・公式にまとめる」から。formula（小さな形＝定型パターン）+ -ate（動詞化）。18世紀に「計画や理論を体系的にまとめる」の意味で英語に入った。",
+        "source": "EtymOnline: formulate",
+        "cognates": [
+          "formula",
+          "form",
+          "format",
+          "formation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "小さな形（formula）にまとめる → 策定する・公式化する",
+        "fact": "STRUCTURE（構造化）スキーマ。散漫なアイデアを「形（form）」ある「小さなパターン（ula）」にまとめる動き。formulate a plan = 計画を策定する。",
+        "source": "Langacker (2008) STRUCTUREスキーマ"
+      },
+      "gap": "formulate は「策定する・公式化する」。formula（公式）+ ate（する）= 公式にまとめる。formulate a strategy = 戦略を策定する。",
+      "gapOneliner": "formulate = 定式(formula)にまとめる → 策定する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "formula(公式) + ate(する) = 公式にまとめる = 策定する。formulate a plan = 計画を策定する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "formulateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "定式にまとめる→策定する",
+            "形を壊す→変形する",
+            "形を変える→改革する",
+            "形を見る→観察する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The committee needs to ______ a new policy.",
+          "hint": "「定式にまとめる」→「策定する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "formulate",
+            "format",
+            "formalize",
+            "forecast"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The team is working to formulate a comprehensive marketing strategy."
+      ]
+    },
+    {
+      "word": "deform",
+      "phonetic": "/dɪˈfɔːrm/",
+      "toeicRank": "TSL中位・科学/医療用語",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "離れて・悪く",
+          "type": "prefix"
+        },
+        {
+          "part": "form",
+          "meaning": "形",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（悪く）+ forma（形）= 形を悪くする → 変形させる",
+        "fact": "ラテン語 deformare「形を崩す」から。de-（離れて、悪く）+ forma（形）。14世紀に「本来の形から歪める」の意味で英語に入った。deformation = 変形。",
+        "source": "EtymOnline: deform",
+        "cognates": [
+          "form",
+          "reform",
+          "transform",
+          "deformity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "形（form）を悪く（de）する → 変形させる・歪める",
+        "fact": "DISTORTION（歪み）スキーマ。本来の「形（form）」から「離れて（de）」崩れた状態にする動き。deformed = 変形した。reform（再び形作る＝改革する）の対義的方向。",
+        "source": "Johnson (1987) DISTORTIONスキーマ"
+      },
+      "gap": "deform は「変形させる」。de（悪く）+ form（形）= 形を崩す。reform = 再び形作る = 改革する。transform = 形を変える。すべて form がコア。",
+      "gapOneliner": "deform = 形(form)を悪く(de)する → 変形させる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(悪く) + form(形) = 形を崩す = 変形させる。reform = 再び形作る。transform = 形を越えて変える。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "deformの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "形を悪くする→変形させる",
+            "形を良くする→改善する",
+            "形を再び作る→改革する",
+            "形を越えて変える→変革する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Extreme heat can ______ the metal structure.",
+          "hint": "「形を悪くする」→「変形させる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "deform",
+            "reform",
+            "transform",
+            "inform"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The pressure of the deep sea can deform submarine hulls."
+      ]
+    },
+    {
+      "word": "conformity",
+      "phonetic": "/kənˈfɔːrmɪti/",
+      "toeicRank": "TSL中位・心理学/ビジネス頻出",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "form",
+          "meaning": "形",
+          "type": "root"
+        },
+        {
+          "part": "ity",
+          "meaning": "〜性（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（共に）+ forma（形）+ -ity = 共に同じ形になること → 適合・同調",
+        "fact": "ラテン語 conformitas「同じ形であること」から。con-（共に）+ forma（形）+ -itas。15世紀に「規則や慣習に従うこと」として英語に入った。social conformity = 社会的同調。",
+        "source": "EtymOnline: conformity",
+        "cognates": [
+          "conform",
+          "form",
+          "uniform",
+          "nonconformist"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "共に（con）同じ形（form）になること → 適合・同調",
+        "fact": "MATCHING（一致）スキーマ。全員が「共に（con）」同じ「形（form）」に揃う状態。conformity ↔ nonconformity（不適合・反骨）。",
+        "source": "Lakoff & Johnson (1980) SIMILARITY IS ALIGNMENTメタファー"
+      },
+      "gap": "conformity は「適合・同調」。con（共に）+ form（形）= 同じ形になること。in conformity with = 〜に適合して。nonconformist = 同調しない人。",
+      "gapOneliner": "conformity = 共に(con)同じ形(form)になること → 適合・同調",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con(共に) + form(形) + ity(性質) = 共に同じ形になること = 同調。in conformity with regulations = 規則に適合して。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "conformityの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "共に同じ形になる→適合・同調",
+            "形を壊す→破壊",
+            "形を変える→変革",
+            "形を伝える→通知"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The product must be in ______ with safety standards.",
+          "hint": "「共に同じ形になること」→「適合」",
+          "explanationFocus": "gap",
+          "choices": [
+            "conformity",
+            "formality",
+            "uniformity",
+            "deformity"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Social conformity can sometimes stifle individual creativity."
+      ]
+    },
+    {
+      "word": "misinform",
+      "phonetic": "/ˌmɪsɪnˈfɔːrm/",
+      "toeicRank": "TSL上位・ニュース/日常頻出",
+      "parts": [
+        {
+          "part": "mis",
+          "meaning": "誤って",
+          "type": "prefix"
+        },
+        {
+          "part": "in",
+          "meaning": "中に",
+          "type": "prefix"
+        },
+        {
+          "part": "form",
+          "meaning": "形・知識",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "mis（誤って）+ inform（知識を形作る）= 誤った知識を形作る → 誤った情報を伝える",
+        "fact": "mis-（誤って）+ inform（情報を与える）から。inform はラテン語 informare「形を与える、知識を授ける」。16世紀に「故意または過失で誤った情報を伝える」の意味で英語に入った。misinformation = 誤情報。",
+        "source": "EtymOnline: misinform",
+        "cognates": [
+          "inform",
+          "information",
+          "disinform",
+          "misinformation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "誤って（mis）知識を与える（inform）→ 誤った情報を伝える",
+        "fact": "ERROR（誤り）スキーマ。情報（in + form）が「誤った（mis）」形で伝達される。misinformation ≠ disinformation（disinformation は意図的な偽情報）。",
+        "source": "Langacker (2008) ERRORスキーマ"
+      },
+      "gap": "misinform は「誤った情報を伝える」。misinformation = 誤情報（意図的でない場合も含む）。disinformation = 意図的な偽情報。mis（誤って）+ inform。",
+      "gapOneliner": "misinform = 誤って(mis)情報を与える(inform) → 誤情報を伝える",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mis(誤って) + inform(情報を与える) = 誤った情報を与える。misinformation vs disinformation: mis = 誤り、dis = 意図的な偽り。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "misinformの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "誤って情報を与える→誤情報を伝える",
+            "正しく情報を与える→正確に伝える",
+            "情報を隠す→秘匿する",
+            "情報を広める→周知する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The public was ______ed about the safety risks.",
+          "hint": "「誤って情報を与える」→「誤情報を伝える」",
+          "explanationFocus": "gap",
+          "choices": [
+            "misinform",
+            "inform",
+            "reform",
+            "transform"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Many consumers were misinformed about the product's ingredients."
+      ]
     }
   ]
 }
