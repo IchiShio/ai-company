@@ -1983,7 +1983,7 @@
       "cognitive": {
         "oneliner": "含めるべきものを意図的または不注意で送り出さない、除外する行為",
         "fact": "omissionは省略・脱落を指し、法的文脈では「不作為」（行うべき行為をしないこと）を意味する重要な概念",
-        "source": "Black's Law Dictionary (11th ed.) s.v. 'omission'"
+        "source": "Tyler & Evans (2003) SOURCE-PATH-GOALスキーマ"
       },
       "gap": "o（ob=前に）+ mit（送る）で「前に送り出さない＝省く」という否定的行為",
       "gapOneliner": "「前に送らない」→「省略する、含めない」",
@@ -2094,7 +2094,7 @@
       "cognitive": {
         "oneliner": "金銭・支払いを相手に送り届ける、または義務・罰を免除（送り返す）する行為",
         "fact": "remittanceは海外送金を指し、移民労働者が本国に送る送金を特に表す語として国際経済学で重要",
-        "source": "World Bank (2023). Migration and Development Brief: Remittances."
+        "source": "Tyler & Evans (2003) SOURCE-PATH-GOALスキーマ"
       },
       "gap": "re（後ろへ）+ mit（送る）が「送金」と「免除」という異なる文脈で使われる多義語",
       "gapOneliner": "「送り返す」→お金を送る（送金）or 罰・義務を戻す（免除）",
@@ -2205,7 +2205,7 @@
       "cognitive": {
         "oneliner": "内部から外部へエネルギーや物質を送り出す物理的・化学的プロセス",
         "fact": "CO2 emissions（二酸化炭素排出量）は気候変動文脈で頻出。emitはTOEIC・環境ビジネス文書で重要語",
-        "source": "IPCC (2021). Climate Change 2021: The Physical Science Basis."
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ"
       },
       "gap": "e（外へ）+ mit（送る）が光・熱・音・ガスなど様々な対象の「発する・放出する」を統一的に表す",
       "gapOneliner": "「外へ送り出す」→光・熱・音・ガスなどを「発する、放出する」",

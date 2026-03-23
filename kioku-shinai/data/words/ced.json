@@ -2006,7 +2006,7 @@
       "cognitive": {
         "oneliner": "「前に進まない（前例がない）」という否定が『初めての、未経験の』という新規性を表す",
         "fact": "歴史の中で前へ進んできた先例がないという概念が、『前代未聞』『史上初』という意味を生む",
-        "source": "歴史的比較による新規性"
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
       },
       "gap": "un（ない）+ pre（前に）+ ced（進む）＝「前に進んだ例がない」＝「前例がない」＝「前代未聞」",
       "gapOneliner": "二重の否定構造（ないない）で「かつてない」という強い新規性を強調",
@@ -2120,7 +2120,7 @@
       "cognitive": {
         "oneliner": "対立する当事者の間に自ら進み入り、一方のために他方に働きかける仲介行為",
         "fact": "intercede forは「〜のために嘆願する」、intercede withは「〜に働きかける」を表し、宗教・法律・外交の各文脈で使われる",
-        "source": "Hornby, A.S. (2015). Oxford Advanced Learner's Dictionary (9th ed.). Oxford University Press."
+        "source": "Tyler & Evans (2003) SOURCE-PATH-GOALスキーマ"
       },
       "gap": "inter（間に）+ ced（行く）で「二者の間に物理的・比喩的に踏み込む」空間的行為",
       "gapOneliner": "「間に行く」→対立する両者の間に入って仲裁・調停する",
@@ -2231,7 +2231,7 @@
       "cognitive": {
         "oneliner": "抵抗をやめて要求・提案の方向へ進む行為（同意）、または正式に地位や組織へ踏み入る行為（就任・加入）",
         "fact": "accession to the throne（王位継承）、accession to an agreement（協定への加入）のように、法律・政治・外交で使われる格式語",
-        "source": "Black's Law Dictionary (11th ed.) s.v. 'accession'"
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ"
       },
       "gap": "ac（〜へ）+ ced（行く）で「要求/地位の方向へ進む」→同意・就任・加入",
       "gapOneliner": "「〜の方向へ行く」→要求に同意する、または地位・組織に加わる",

@@ -926,7 +926,7 @@
       "cognitive": {
         "oneliner": "バラバラの要素を組み立てて一つの作品や物質を作る過程",
         "fact": "作曲、執筆、化学合成など、異なる分野で同じ論理構造（要素の組み合わせ）を表現",
-        "source": "認知言語学的メタファー分析"
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ"
       },
       "gap": "日本語では「構成」と「作曲」で異なる語を使うが、英語では同じcompositionで統一される",
       "gapOneliner": "要素の配置という概念の汎用性",
@@ -2207,7 +2207,7 @@
       "cognitive": {
         "oneliner": "複合構造を構成要素に戻す逆プロセス。生物学（腐敗）から数学（因数分解）まで適用",
         "fact": "数学では因数分解をdecomposition、生態学では有機物の腐敗・分解をdecompositionと表現。同一語根から統一的に理解できる",
-        "source": "Merriam-Webster Unabridged Dictionary s.v. 'decompose'"
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ"
       },
       "gap": "de（逆）+ com（共に）+ pose（置く）が「組み合わせの逆過程」という抽象概念を表す",
       "gapOneliner": "「共に置く（compose）」の逆＝「バラバラにする」→腐敗・分解",

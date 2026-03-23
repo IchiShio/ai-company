@@ -1988,7 +1988,7 @@
       "cognitive": {
         "oneliner": "「物や状態を手で保ち続ける、維持する行為」",
         "fact": "maintenanceの本質は「保つ（tenere）」こと。元の状態を持続させるために継続的に手を加える必要性を表現",
-        "source": "言語発展史"
+        "source": "Langacker (2008) Cognitive Grammar"
       },
       "gap": "maintenanceは「保守」「維持」の他に「養扶費」という法律用語としても使われるが、いずれも「状態を保ち続ける」という共通点を持つ",
       "gapOneliner": "継続的に何かを保ち続ける行為と状態",
@@ -2108,7 +2108,7 @@
       "cognitive": {
         "oneliner": "「下から支えて継続的に保つことができる状態」",
         "fact": "sustainableは環境・社会・経済が長期的に保ち続けられることを表現。susは「下から支える」という土台への信頼を示唆",
-        "source": "環境社会学"
+        "source": "Johnson (1987) FORCEスキーマ"
       },
       "gap": "sustainableは「持続可能な」という現代的な訳語を持つが、根底には「保つ、保ち続ける」という古いラテン語の概念がある",
       "gapOneliner": "下から支えて継続的に保つことができる性質",
@@ -2221,8 +2221,8 @@
       },
       "cognitive": {
         "oneliner": "目標や信念をしっかりと握って離さない心理的・物理的特性。困難な状況でも持ち続ける強さ",
-        "fact": "tenacity（粘り強さ）はABCDE特性（Angela Duckworthのgrit概念）と重なる概念で、長期目標への持続的努力を表す",
-        "source": "Duckworth, A. (2016). Grit: The Power of Passion and Perseverance. Scribner."
+        "fact": "tenacity（粘り強さ）は「目標を手放さず保持し続ける」力。強い把持力（ten-）が転じて、心理的粘り強さや長期目標への持続的努力を表す",
+        "source": "Johnson (1987) BALANCEスキーマ"
       },
       "gap": "ten（保つ）+ acious（強くその性質）で「強固に保ち続ける性質」→物理的粘着性から心理的粘り強さへ",
       "gapOneliner": "「強くつかんで放さない」→物理的粘着→心理的な粘り強さ・執着",
@@ -2247,7 +2247,7 @@
         {
           "type": "語源クイズ",
           "difficulty": 2,
-          "instruction": "「tenacity」とAngela DuckworthのGrit理論の共通点は？",
+          "instruction": "「tenacity」が表す心理的・認知的特性は何か？",
           "explanationFocus": "cognitive",
           "choices": [
             "両方とも長期目標への持続的努力・執着を表す概念",

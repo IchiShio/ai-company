@@ -477,7 +477,7 @@
       "cognitive": {
         "oneliner": "全体から一部を「離して導き出す」→差し引く",
         "fact": "REMOVAL（除去）スキーマ。全体の山から一部を離れた方向(de-)に導き出す(ducere)ことで、残りが減る。税金の控除(deduction)も給料という全体から税金分を「離して導く」動き。",
-        "source": "Johnson (1987) REMOVALスキーマ"
+        "source": "Johnson (1987) FORCEスキーマ"
       },
       "gap": "deductとdeduceは同じ語源だが意味が違う。deduct=「量を差し引く」（会計）、deduce=「結論を導き出す」（論理）。deは「離れて」、量を離すか結論を離し出すかの違い。",
       "gapOneliner": "deduct = 量を差し引く、deduce = 結論を導き出す。同根で方向が違う",

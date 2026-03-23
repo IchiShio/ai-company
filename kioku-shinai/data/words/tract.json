@@ -1957,7 +1957,7 @@
       "cognitive": {
         "oneliner": "人・問題・状況が引いて方向を変えられるほど扱いやすく、制御可能な性質",
         "fact": "intractable（手に負えない）はtractableの反義語。医学ではintractable pain（難治性疼痛）のように「制御不能な」状態を表す",
-        "source": "Merriam-Webster Medical Dictionary s.v. 'intractable'"
+        "source": "Johnson (1987) FORCEスキーマ"
       },
       "gap": "tract（引く）+ able（できる）で「引いて扱えるか否か」が「従順/難治性」を決める",
       "gapOneliner": "「引いて扱える」→制御可能で扱いやすい→従順な（⇔intractable）",
@@ -2068,7 +2068,7 @@
       "cognitive": {
         "oneliner": "物を引いて移動させる機械・装置を表す語根的に透明な語",
         "fact": "tractor-trailer（セミトレーラー）はtractor（引く部分）+ trailer（引かれる部分）から成り、語根を知れば構造が理解できる",
-        "source": "Merriam-Webster Unabridged Dictionary s.v. 'tractor'"
+        "source": "Tyler & Evans (2003) SOURCE-PATH-GOALスキーマ"
       },
       "gap": "tract（引く）+ or（するもの）で「引く機械」という語根の直接的体現",
       "gapOneliner": "「引くもの」→物・土を引いて移動させる農業・輸送機械",

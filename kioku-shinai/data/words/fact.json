@@ -1973,7 +1973,7 @@
         }
       ],
       "etymology": {
-        "oneliner": "「技術で作られた」→「人工的な・つくり物の」という意味で、ラテン語のartificialssに由来",
+        "oneliner": "「技術で作られた」→「人工的な・つくり物の」という意味で、ラテン語のartificialisに由来",
         "fact": "ars（技術・芸術）+ facere（作る・する）。中世ラテン語から発展",
         "source": "EtymOnline: artificialis (Latin)",
         "cognates": [
@@ -1986,7 +1986,7 @@
       "cognitive": {
         "oneliner": "「人間の技術で意図的に作られたもの」という概念から、「自然ではなく、作られた・偽の」という評価的な意味へ拡張",
         "fact": "自然対人工という二項対立の概念が、evaluative な「劣った・不自然な」という意味合いを帯びるようになった",
-        "source": "自然と人工の対比論"
+        "source": "Lakoff & Johnson (1980) NATURE IS GENUINEメタファー"
       },
       "gap": "artificialは形容詞（人工的な）だが、artifact（人工物）、artifice（技巧・人工的な手段）は異なる品詞と用法。また「偽りの」という道徳的な評価が伴うことがある",
       "gapOneliner": "artificial（形容詞）vs. artifact（名詞）vs. artificer（職人）の品詞と意味の関連性",

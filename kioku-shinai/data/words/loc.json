@@ -1791,7 +1791,7 @@
       "cognitive": {
         "oneliner": "場所（place）から離す（dis）こと → 立ち退き・変位",
         "fact": "REMOVAL（除去）スキーマ。元の場所（place）からの強制的な分離（dis）。displaced persons（難民）は文字通り「場所を離された人々」。",
-        "source": "Johnson (1987) REMOVALスキーマ"
+        "source": "Johnson (1987) FORCEスキーマ"
       },
       "gap": "displacement は「置き換え・強制移住」。job displacement（技術による職の置き換え）はビジネスニュースで頻出。dis（離す）+ place（場所）で理解。",
       "gapOneliner": "displacement = 場所(place)から離す(dis)こと → 置き換え・強制移住",

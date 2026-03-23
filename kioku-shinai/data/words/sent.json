@@ -1773,7 +1773,7 @@
       "cognitive": {
         "oneliner": "感受性（sens）を取り去る（de）→ 鈍感にする",
         "fact": "REMOVAL（除去）スキーマ。「感じる力」を対象から取り除く操作。暴力映像への desensitization は「繰り返し曝露で感受性が除去される」プロセス。",
-        "source": "Johnson (1987) REMOVALスキーマ"
+        "source": "Johnson (1987) FORCEスキーマ"
       },
       "gap": "desensitize は心理学の重要用語。systematic desensitization = 系統的脱感作（恐怖症の治療法）。de（取る）+ sens（感じる）= 感じる力を取り去る。",
       "gapOneliner": "desensitize = 感受性(sens)を取り去る(de) → 鈍感にする。心理学の重要概念",
@@ -1850,7 +1850,7 @@
       "cognitive": {
         "oneliner": "前もって（pre）感じる（sent）こと → 予感・虫の知らせ",
         "fact": "ANTICIPATION（予期）スキーマ。時間軸の「前方」で感覚が先行して動く（pre + sent）。論理的根拠がない直感的な感覚。premonition（前兆）と近い概念。",
-        "source": "Johnson (1987) ANTICIPATIONスキーマ"
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
       },
       "gap": "presentiment は present（現在の）とは別の意味系統。pre（前もって）+ sent（感じる）= 予感。She had a presentiment that something would go wrong.（何かうまくいかない予感がした）。",
       "gapOneliner": "presentiment = 前もって(pre)感じる(sent)こと → 予感・虫の知らせ",
@@ -1925,7 +1925,7 @@
       "cognitive": {
         "oneliner": "感じる力がない（in + sens）→ 鈍感な・無神経な",
         "fact": "NEGATION（否定）スキーマ。sensitive（敏感）の否定。他者の感情を「感じ取れない」状態。insensitive remark = 無神経な発言。",
-        "source": "Langacker (2008) NEGATIONスキーマ"
+        "source": "Lakoff & Johnson (1980) NEGATION IS ABSENCEメタファー"
       },
       "gap": "insensitive は「無神経な」。in（否定）+ sensitive（敏感な）で理解は簡単だが、insensitive to criticism（批判に鈍感な）のように to と結びつくコロケーションが重要。",
       "gapOneliner": "insensitive = 感じない(in + sens) → 無神経な。insensitive to 〜 が頻出パターン",
