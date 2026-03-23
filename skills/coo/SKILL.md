@@ -130,6 +130,21 @@ COOは毎日 native-real-bucho に上記3タスクの実行を指示する。
 - 内部リンク整備 2〜3件
 - テクニカルSEO修正 20件
 
+#### 品質検査（QAソルバー）
+
+**毎日実行**: 3サービスの問題をランダムサンプリングして品質チェック。
+バックグラウンドで `/qa-solver` を実行（Agent tool で `qa-solver-daily` として起動）。
+
+| サービス | サンプル数 | チェック内容 |
+|------|----------|------------|
+| GrammarUp | 30問 | 複数正解・正解誤り・問題文の曖昧さ |
+| ListenUp | 20問 | 意味の正確性・選択肢の妥当性 |
+| kioku-shinai | 10問 | 語源の正確性・クイズの正誤 |
+
+- **FAILが出た場合**: 即修正（git commit & push）
+- **FLAGが出た場合**: native-real-bucho に報告
+- レポート: `~/projects/claude/native-real/qa-solver-log/YYYY-MM-DD.md`
+
 #### 全部門共通
 
 | 状況 | COOの判断 |
