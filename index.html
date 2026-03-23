@@ -2966,7 +2966,8 @@ async function beginQuiz() {
   saveProgress(p);
 
   score = 0; total = 0; streak = 0;
-  currentLevel = 2; correctStreak = 0;
+  // 初回ユーザーはlv1から（やさしい問題で成功体験を積む）、リピーターはlv3から
+  currentLevel = (p.totalAnswered === 0) ? 0 : 2; correctStreak = 0;
   recoveryMode = false; postRecoveryLevel = -1; playCount = 0;
   sessionXP = 0; sessionLevel = 0; sessionPhrases = [];
   srsItems  = loadSrs();       // Firestore sync 済み or localStorage フォールバック
