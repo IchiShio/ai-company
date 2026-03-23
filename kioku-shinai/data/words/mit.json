@@ -1953,6 +1953,339 @@
         "live transmission（生中継）",
         "transmission fluid（トランスミッションフルード）"
       ]
+    },
+    {
+      "word": "omit",
+      "phonetic": "/oʊˈmɪt/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "o- (ob-)",
+          "meaning": "前に、対して",
+          "type": "prefix"
+        },
+        {
+          "part": "mit",
+          "meaning": "送る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "送らずに残す＝省略する、除外する",
+        "fact": "omitはラテン語omittereから。ob-（前に）+ mittere（送る）。ob-がo-に同化。前に送り出さないこと、つまり含めないこと・省くことを表す",
+        "source": "EtymOnline: omit < Latin omittere 'let go, lay aside'",
+        "cognates": [
+          "omission",
+          "omitted",
+          "omitting"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "含めるべきものを意図的または不注意で送り出さない、除外する行為",
+        "fact": "omissionは省略・脱落を指し、法的文脈では「不作為」（行うべき行為をしないこと）を意味する重要な概念",
+        "source": "Black's Law Dictionary (11th ed.) s.v. 'omission'"
+      },
+      "gap": "o（ob=前に）+ mit（送る）で「前に送り出さない＝省く」という否定的行為",
+      "gapOneliner": "「前に送らない」→「省略する、含めない」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "o（外へ）+ mit（送る）だが、実際は「送らない」＝省略。Please don't omit any details.（詳細を省略しないでください）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「omit」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "省略する、除外する",
+            "追加する",
+            "強調する",
+            "繰り返す"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「omission」の法的意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "すべき行為をしない不作為",
+            "誤った情報の送信",
+            "記録の改ざん",
+            "契約の終了"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Be careful not to ______ any required fields in the application form.",
+          "hint": "必須項目を省略しない",
+          "explanationFocus": "gap",
+          "choices": [
+            "omit",
+            "admit",
+            "commit",
+            "submit"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「omit」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "omit details",
+            "omit a compliment",
+            "omit a question answer",
+            "omit willingness"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Several key facts were omitted from the official report.\" — 「omit」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "省かれた",
+            "追加された",
+            "強調された",
+            "修正された"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He accidentally omitted his phone number from the form.",
+        "The editor omitted the controversial paragraph."
+      ]
+    },
+    {
+      "word": "remit",
+      "phonetic": "/rɪˈmɪt/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "後ろへ、再び",
+          "type": "prefix"
+        },
+        {
+          "part": "mit",
+          "meaning": "送る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "送り返す＝送金する、免除する",
+        "fact": "remitはラテン語remittereから。re-（後ろへ）+ mittere（送る）。送り戻すことから「送金」と「（罰や債務を）免除して戻す」の両義が生まれた",
+        "source": "EtymOnline: remit < Latin remittere 'send back, release'",
+        "cognates": [
+          "remittance",
+          "remission",
+          "remitted"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "金銭・支払いを相手に送り届ける、または義務・罰を免除（送り返す）する行為",
+        "fact": "remittanceは海外送金を指し、移民労働者が本国に送る送金を特に表す語として国際経済学で重要",
+        "source": "World Bank (2023). Migration and Development Brief: Remittances."
+      },
+      "gap": "re（後ろへ）+ mit（送る）が「送金」と「免除」という異なる文脈で使われる多義語",
+      "gapOneliner": "「送り返す」→お金を送る（送金）or 罰・義務を戻す（免除）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（戻す）+ mit（送る）= 送金。Please remit the balance by Friday.（金曜日までに残額を送金してください）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「remit」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "送金する、免除する",
+            "受領する",
+            "借金する",
+            "申請する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「remittance」が国際経済学で重要な理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "移民労働者が本国へ送る送金を表すため",
+            "国家間の貿易決済に使われるため",
+            "銀行間の決済システムを指すため",
+            "外国為替相場の指標となるため"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ payment within 30 days of receiving the invoice.",
+          "hint": "請求書受領後30日以内に支払いを送る",
+          "explanationFocus": "gap",
+          "choices": [
+            "remit",
+            "submit",
+            "permit",
+            "commit"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「remit」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "remit payment",
+            "remit a complaint",
+            "remit an opinion",
+            "remit a schedule"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The court remitted part of the fine given the defendant's circumstances.\" — 「remit」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "免除した、軽減した",
+            "増額した",
+            "確認した",
+            "延期した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Customers can remit payment by bank transfer.",
+        "The judge remitted the sentence due to good behavior."
+      ]
+    },
+    {
+      "word": "emit",
+      "phonetic": "/ɪˈmɪt/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "e- (ex-)",
+          "meaning": "外へ",
+          "type": "prefix"
+        },
+        {
+          "part": "mit",
+          "meaning": "送る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "外へ送り出す＝放出する、発する",
+        "fact": "emitはラテン語emittereから。ex-（外へ）+ mittere（送る）。光・熱・音・ガスなど何かを外部に放射・発散する行為",
+        "source": "EtymOnline: emit < Latin emittere 'send out'",
+        "cognates": [
+          "emission",
+          "emitter",
+          "emitted"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "内部から外部へエネルギーや物質を送り出す物理的・化学的プロセス",
+        "fact": "CO2 emissions（二酸化炭素排出量）は気候変動文脈で頻出。emitはTOEIC・環境ビジネス文書で重要語",
+        "source": "IPCC (2021). Climate Change 2021: The Physical Science Basis."
+      },
+      "gap": "e（外へ）+ mit（送る）が光・熱・音・ガスなど様々な対象の「発する・放出する」を統一的に表す",
+      "gapOneliner": "「外へ送り出す」→光・熱・音・ガスなどを「発する、放出する」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "e（外へ）+ mit（送る）= 外に向けて送り出す。The factory emits carbon dioxide.（工場は二酸化炭素を排出する）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「emit」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "放出する、発する",
+            "吸収する",
+            "蓄積する",
+            "変換する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「emission」が環境文脈で重要な理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "CO2などの温室効果ガスの排出量を表すため",
+            "太陽エネルギーの吸収量を表すため",
+            "水質汚染の基準を示すため",
+            "廃棄物の処理方法を示すため"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new engine ______ significantly less carbon dioxide than the previous model.",
+          "hint": "旧モデルよりCO2を大幅に少なく排出する",
+          "explanationFocus": "gap",
+          "choices": [
+            "emits",
+            "admits",
+            "submits",
+            "permits"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「emit」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "emit carbon dioxide",
+            "emit a decision",
+            "emit a request",
+            "emit a contract"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The device emits a warning signal when the battery is low.\" — 「emit」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "発する",
+            "受信する",
+            "停止させる",
+            "記録する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The sun emits light and heat.",
+        "Companies must reduce the greenhouse gases they emit."
+      ]
     }
   ]
 }

@@ -2068,6 +2068,229 @@
         "artificial sweetener（人工甘味料）",
         "artificial flowers（造花）"
       ]
+    },
+    {
+      "word": "artifact",
+      "phonetic": "/ˈɑːr.tɪ.fækt/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "arti- (ars/art-)",
+          "meaning": "技術、技芸",
+          "type": "prefix"
+        },
+        {
+          "part": "fact",
+          "meaning": "作られたもの",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "技術で作られたもの＝工芸品、人工物",
+        "fact": "artifactはラテン語arte factumから。ars（技術）+ factum（作られたもの）。人間の技術によって作られた物体。考古学では遺物、IT用語では成果物・副産物を意味する",
+        "source": "EtymOnline: artifact < Latin arte factum 'thing made with skill'",
+        "cognates": [
+          "artefact",
+          "artificial",
+          "artifice"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自然物と対比した人間の技術・意図によって作られた物体。文脈により遺物・成果物・副産物を意味",
+        "fact": "考古学でartifact=人工遺物（石器・土器等）、IT・アジャイル開発でartifact=プロセスの成果物（コード・ドキュメント等）、医学・画像処理でartifact=検査での人工的ノイズ",
+        "source": "Renfrew, C., & Bahn, P. (2016). Archaeology: Theories, Methods, and Practice (7th ed.). Thames & Hudson."
+      },
+      "gap": "art（技術）+ fact（作られたもの）で「意図的な技術で作られた」という人工性を強調",
+      "gapOneliner": "「技術で作られたもの」→考古学では遺物、ITでは成果物、医学では検査ノイズ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "art（技術）+ fact（作られたもの）= 技術で作った物。Stone Age artifacts（石器時代の遺物）/ development artifacts（開発成果物）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「artifact」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "人工物、工芸品、遺物",
+            "自然物",
+            "天然素材",
+            "地形地物"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "IT開発における「artifact」の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "開発プロセスの成果物（コード・ドキュメント等）",
+            "バグの別名",
+            "テスト環境のこと",
+            "バックアップファイル"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The museum displayed ancient ______ recovered from the excavation site.",
+          "hint": "発掘現場から回収された古代の遺物",
+          "explanationFocus": "gap",
+          "choices": [
+            "artifacts",
+            "effects",
+            "defects",
+            "benefits"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「artifact」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cultural artifact",
+            "natural artifact",
+            "visible artifact",
+            "modern artifact"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The scan showed some imaging artifacts that made diagnosis difficult.\" — 「artifact」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "人工的なノイズ（検査での偽像）",
+            "腫瘍の影",
+            "骨格の構造",
+            "血管パターン"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The artifact was dated to 3,000 BCE.",
+        "All build artifacts are stored in the repository."
+      ]
+    },
+    {
+      "word": "facet",
+      "phonetic": "/ˈfæs.ɪt/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "fac-",
+          "meaning": "作る、面",
+          "type": "root"
+        },
+        {
+          "part": "-et",
+          "meaning": "小さい（指小辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "小さな面・側面＝（多面的な問題の）一側面",
+        "fact": "facetはフランス語facetteから。face（顔、面）+ -ette（小さな）。ダイヤモンドなどの宝石の小さな切り面から転じて「問題・事象の一側面」を意味するようになった",
+        "source": "EtymOnline: facet < French facette, diminutive of face 'face'",
+        "cognates": [
+          "face",
+          "façade",
+          "surface",
+          "interface"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複雑な事象・問題・人格が持つ複数の側面の一つ。多面体の一面のように全体の一部を構成",
+        "fact": "every facet of（〜のあらゆる側面）はビジネス文書・学術文書で頻出表現。facetは多面体的複雑さを表現する際のキー語",
+        "source": "Nation, I.S.P. (2001). Learning Vocabulary in Another Language. Cambridge University Press."
+      },
+      "gap": "fac（面・作る）+ et（小さい）で「切り出された小さな面」→問題の一側面",
+      "gapOneliner": "「小さな面」→ダイヤの切り面→問題・人格の一側面",
+      "hook": {
+        "label": "記憶フック",
+        "text": "fac（面）+ et（小さい）= 小さな切り面。This is just one facet of the problem.（これは問題の一側面に過ぎない）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「facet」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "側面、一面",
+            "全体像",
+            "核心部分",
+            "解決策"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「facet」の語源的なイメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ダイヤモンドの小さな切り面から「事象の一側面」へ",
+            "顔の表情から「感情の側面」へ",
+            "工場の一部から「生産の一段階」へ",
+            "建物の正面から「評判」へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The report examines every ______ of the company's sustainability strategy.",
+          "hint": "会社の持続可能性戦略のあらゆる側面を検討する",
+          "explanationFocus": "gap",
+          "choices": [
+            "facet",
+            "defect",
+            "effect",
+            "benefit"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「facet」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "every facet of",
+            "main facet with",
+            "total facet by",
+            "primary facet from"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Leadership has many facets, including vision, empathy, and decisiveness.\" — 「facets」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "側面、要素",
+            "欠点",
+            "定義",
+            "条件"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "This is just one facet of a much larger issue.",
+        "She admired every facet of his personality."
+      ]
     }
   ]
 }

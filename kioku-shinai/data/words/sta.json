@@ -2202,6 +2202,118 @@
         "substantial evidence（実質的な証拠）",
         "substantial portion（相当な部分）"
       ]
+    },
+    {
+      "word": "static",
+      "phonetic": "/ˈstæt.ɪk/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "sta/stat",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "-ic",
+          "meaning": "〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "立ったままの性質＝静止した、変化しない",
+        "fact": "staticはギリシャ語statikosから。histanai（立てる）+ -ikos（〜の性質）。立ち止まったまま動かない状態を指し、物理学・電気・IT・経済学など多分野で使われる",
+        "source": "EtymOnline: static < Greek statikos 'causing to stand, skilled in weighing'",
+        "cognates": [
+          "status",
+          "station",
+          "stationary",
+          "statistics"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "変化・動きがなく固定された状態。物理的静止から、データの不変性、電気のノイズまで多分野で適用",
+        "fact": "static website（静的ウェブサイト）はサーバー側で動的生成しない固定コンテンツ、static electricity（静電気）は流れずに留まる電気",
+        "source": "Kernighan, B., & Ritchie, D. (1988). The C Programming Language (2nd ed.). Prentice Hall."
+      },
+      "gap": "stat（立つ）+ ic（性質）で「立ったまま動かない性質」→静的・不変を示す多分野語",
+      "gapOneliner": "「立ったままの性質」→変化しない・動かない→静的な（⇔dynamic）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "stat（立つ）+ ic（性質）= 立ったまま動かない。static website（静的サイト）⇔ dynamic content（動的コンテンツ）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「static」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "静的な、変化しない",
+            "動的な、変化する",
+            "効率的な",
+            "複雑な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「static electricity」の語根的説明は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "流れずに立ち止まっている電気だから",
+            "静かな場所で発生するから",
+            "静止状態で計測するから",
+            "安全な電気だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company's market share has remained ______ for the past three years.",
+          "hint": "過去3年間変化がない",
+          "explanationFocus": "gap",
+          "choices": [
+            "static",
+            "stable",
+            "substantial",
+            "outstanding"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「static」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "static website",
+            "static meeting",
+            "static decision",
+            "static revenue"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The industry has been static for years, with little innovation.\" — 「static」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "停滞している、変化がない",
+            "急成長している",
+            "競争が激しい",
+            "規制されている"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The website serves static HTML files to all users.",
+        "Demand has been static despite marketing efforts."
+      ]
     }
   ]
 }

@@ -1949,6 +1949,345 @@
         "supposedly the best",
         "supposedly working（～のはずだが）"
       ]
+    },
+    {
+      "word": "oppose",
+      "phonetic": "/əˈpoʊz/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "op- (ob-)",
+          "meaning": "反対に、対して",
+          "type": "prefix"
+        },
+        {
+          "part": "pos/pose",
+          "meaning": "置く",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "反対側に置く＝反対する",
+        "fact": "opposeはラテン語opponereとフランス語opposerから。ob-（対して）+ ponere/poser（置く）。相手の前に（対面に）置く行為が「反対する・対立する」を意味する",
+        "source": "EtymOnline: oppose < Old French opposer 'place against'",
+        "cognates": [
+          "opposition",
+          "opponent",
+          "opposed",
+          "opposing"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分の立場・意見を相手のものと向き合わせて置く対立行為",
+        "fact": "opposeは単なる不賛成を超え、積極的な対立行動を含意。be opposed toよりopposeの方が能動的な抵抗を示す",
+        "source": "Sinclair, J. (Ed.) (2006). Collins COBUILD Advanced Learner's Dictionary. HarperCollins."
+      },
+      "gap": "op（反対に）+ pose（置く）が「向かい合って置く」→「対立する・反対する」という空間メタファー",
+      "gapOneliner": "「反対側に置く」→「意見・立場を相手と向かい合わせる」＝反対する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "op（反対側）+ pose（置く）= 向かい合わせる。The union strongly opposes the new policy.（組合は新方針に強く反対する）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「oppose」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "反対する、対立する",
+            "支持する",
+            "説明する",
+            "延期する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「oppose」と「be opposed to」の違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "opposeは能動的な対立行動、be opposed toは状態的な反対",
+            "まったく同じ意味",
+            "opposeは過去形のみ、be opposed toは現在形のみ",
+            "opposeは口語、be opposed toは書き言葉"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Several board members ______ the proposed merger on financial grounds.",
+          "hint": "財務上の理由で提案された合併に反対する",
+          "explanationFocus": "gap",
+          "choices": [
+            "oppose",
+            "compose",
+            "dispose",
+            "propose"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「oppose」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "strongly oppose",
+            "quietly compose",
+            "carefully dispose",
+            "rapidly propose"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The environmental group opposes construction of the new highway.\" — 「oppose」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "反対している",
+            "支持している",
+            "計画している",
+            "報告している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "They strongly oppose any cuts to the education budget.",
+        "The two candidates oppose each other on tax policy."
+      ]
+    },
+    {
+      "word": "impose",
+      "phonetic": "/ɪmˈpoʊz/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "im- (in-)",
+          "meaning": "上に、中へ",
+          "type": "prefix"
+        },
+        {
+          "part": "pos/pose",
+          "meaning": "置く",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "上に置く＝課す、強制する",
+        "fact": "imposeはラテン語imponereから。in-（上に）+ ponere（置く）。税・罰則・規則などを人々の上に置き付ける行為が「課す・強制する」を意味する",
+        "source": "EtymOnline: impose < Middle French imposer, from Latin imponere 'put upon'",
+        "cognates": [
+          "imposition",
+          "imposing",
+          "imposed"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "権威が規則・負担・条件を対象者の上に置き付ける強制行為",
+        "fact": "imposing（堂々とした）はimpose（上に置く）から派生し、「上から圧倒する存在感を置く」イメージで「威圧的・壮大な」を意味する",
+        "source": "Leech, G. (1974). Semantics. Penguin Books."
+      },
+      "gap": "im（上に）+ pose（置く）が「権威による上からの押し付け」という権力関係を内包",
+      "gapOneliner": "「上に置く」→「権威が規則・税・罰を人々に課す」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "im（上に）+ pose（置く）= 上から置き付ける。The government imposed new taxes.（政府は新たな税を課した）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「impose」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "課す、強制する",
+            "提案する",
+            "撤廃する",
+            "相談する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「imposing building」とはどういう意味か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "威圧的で堂々とした建物",
+            "簡素な建物",
+            "古い建物",
+            "危険な建物"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The regulator decided to ______ a fine on the company for the data breach.",
+          "hint": "データ侵害に対して罰金を課す",
+          "explanationFocus": "gap",
+          "choices": [
+            "impose",
+            "compose",
+            "expose",
+            "dispose"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「impose」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "impose a fine",
+            "impose a compliment",
+            "impose a vacation",
+            "impose a hobby"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Strict import tariffs were imposed to protect domestic industries.\" — 「impose」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "課された",
+            "提案された",
+            "廃止された",
+            "調査された"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The court imposed a heavy sentence on the defendant.",
+        "New regulations were imposed on the financial sector."
+      ]
+    },
+    {
+      "word": "decompose",
+      "phonetic": "/ˌdiːkəmˈpoʊz/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "下へ、分解して",
+          "type": "prefix"
+        },
+        {
+          "part": "com- (con-)",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "pos/pose",
+          "meaning": "置く",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "共に置かれたものを分解する＝腐敗する、分解する",
+        "fact": "decomposeはde-（逆に）+ compose（組み合わせる）。composeが「共に置いて組み立てる」ならdecomposeはその逆で「組み立てを解体する」。生物の腐敗も数学的分解も同じ語",
+        "source": "EtymOnline: decompose < French décomposer, from de- + composer",
+        "cognates": [
+          "decomposition",
+          "decomposed",
+          "decomposer"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複合構造を構成要素に戻す逆プロセス。生物学（腐敗）から数学（因数分解）まで適用",
+        "fact": "数学では因数分解をdecomposition、生態学では有機物の腐敗・分解をdecompositionと表現。同一語根から統一的に理解できる",
+        "source": "Merriam-Webster Unabridged Dictionary s.v. 'decompose'"
+      },
+      "gap": "de（逆）+ com（共に）+ pose（置く）が「組み合わせの逆過程」という抽象概念を表す",
+      "gapOneliner": "「共に置く（compose）」の逆＝「バラバラにする」→腐敗・分解",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de（解体）+ compose（組み立て）= 組み立ての逆。Dead leaves decompose into soil.（枯れ葉は腐って土になる）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「decompose」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分解する、腐敗する",
+            "組み立てる",
+            "保存する",
+            "再生する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「decompose」と「compose」の語根的関係は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "composeが組み立てならdecomposeはその逆で解体",
+            "同じ意味で互換性がある",
+            "decomposeはcomposeの強調形",
+            "異なる語根から派生した無関係の語"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Organic materials ______ naturally and return nutrients to the soil.",
+          "hint": "有機物は自然に分解して土に栄養を返す",
+          "explanationFocus": "gap",
+          "choices": [
+            "decompose",
+            "compose",
+            "expose",
+            "propose"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「decompose」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "decompose naturally",
+            "decompose quickly a plan",
+            "decompose into a meeting",
+            "decompose a contract"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The body had begun to decompose when it was discovered.\" — 「decompose」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "腐敗し始めていた",
+            "発見されていた",
+            "保存されていた",
+            "識別されていた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Leaves decompose to form compost.",
+        "The problem can be decomposed into smaller parts."
+      ]
     }
   ]
 }

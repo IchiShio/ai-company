@@ -2191,6 +2191,118 @@
         "Sustainable agriculture",
         "Sustainability"
       ]
+    },
+    {
+      "word": "tenacious",
+      "phonetic": "/tɪˈneɪ.ʃəs/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "ten/tain",
+          "meaning": "保つ、つかむ",
+          "type": "root"
+        },
+        {
+          "part": "-acious",
+          "meaning": "〜の性質を強くもつ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "強くつかんで放さない性質＝粘り強い、執拗な",
+        "fact": "tenaciousはラテン語tenaxから。tenere（保つ、つかむ）+ -ax（強くその性質を持つ）+ -ous（形容詞）。しっかりつかんで離さない物理的特性から「粘り強さ・執着」の意味に転用",
+        "source": "EtymOnline: tenacious < Latin tenax (genitive tenacis) 'holding fast'",
+        "cognates": [
+          "tenacity",
+          "tenaciously",
+          "tenant",
+          "tenure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "目標や信念をしっかりと握って離さない心理的・物理的特性。困難な状況でも持ち続ける強さ",
+        "fact": "tenacity（粘り強さ）はABCDE特性（Angela Duckworthのgrit概念）と重なる概念で、長期目標への持続的努力を表す",
+        "source": "Duckworth, A. (2016). Grit: The Power of Passion and Perseverance. Scribner."
+      },
+      "gap": "ten（保つ）+ acious（強くその性質）で「強固に保ち続ける性質」→物理的粘着性から心理的粘り強さへ",
+      "gapOneliner": "「強くつかんで放さない」→物理的粘着→心理的な粘り強さ・執着",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ten（保つ）+ acious（強く）= 強くつかんで離さない。She is tenacious in pursuing her goals.（彼女は目標追求において粘り強い）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「tenacious」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "粘り強い、執拗な",
+            "優柔不断な",
+            "おとなしい",
+            "柔軟な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「tenacity」とAngela DuckworthのGrit理論の共通点は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "両方とも長期目標への持続的努力・執着を表す概念",
+            "どちらも短期集中を重視する概念",
+            "tenacityは否定的、gritは肯定的な概念",
+            "無関係な概念"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ athlete refused to give up despite multiple injuries.",
+          "hint": "複数の負傷にもかかわらず諦めない粘り強いアスリート",
+          "explanationFocus": "gap",
+          "choices": [
+            "tenacious",
+            "continuous",
+            "sustainable",
+            "substantial"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「tenacious」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "tenacious grip",
+            "tenacious schedule",
+            "tenacious budget",
+            "tenacious deadline"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Her tenacious negotiating style eventually secured the deal.\" — 「tenacious」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "粘り強い、諦めない",
+            "攻撃的な",
+            "慎重な",
+            "友好的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He is tenacious in his pursuit of excellence.",
+        "The ivy's tenacious grip on the wall made it hard to remove."
+      ]
     }
   ]
 }

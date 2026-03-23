@@ -2095,6 +2095,230 @@
         "Visual communication is important in marketing.",
         "Some people are more visual learners than auditory learners."
       ]
+    },
+    {
+      "word": "vista",
+      "phonetic": "/ˈvɪs.tə/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ta",
+          "meaning": "状態・名詞化（イタリア語）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "見える景色・展望、可能性の広がり",
+        "fact": "vistaはイタリア語vistaから。ラテン語videre（見る）の過去分詞visus（見られたもの）。開けた景色・眺望、転じて「広がる可能性・将来展望」を意味する",
+        "source": "EtymOnline: vista < Italian vista 'view, sight', from Latin visus",
+        "cognates": [
+          "vision",
+          "visual",
+          "visible",
+          "visor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "視線が前方に開けて広がる景色の物理的体験から転じた、可能性・将来の広がりという比喩的意味",
+        "fact": "open up new vistas（新たな地平を開く）はビジネス・教育文脈で頻出の比喩表現。物理的な眺望と抽象的な展望の両義を持つ",
+        "source": "Lakoff, G., & Johnson, M. (1980). Metaphors We Live By. University of Chicago Press."
+      },
+      "gap": "vis（見る）の名詞形が「見えるもの＝眺め」→「将来展望・可能性の広がり」という空間→時間メタファー",
+      "gapOneliner": "「見える景色」→物理的眺望から転じた「将来の可能性・広がり」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "vis（見る）= 見えるもの→眺望。The mountain vista was breathtaking.（山の眺めは息をのむほどだった）/ new vistas（新たな展望）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「vista」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "眺望、展望、広がり",
+            "障害物",
+            "限界",
+            "目標"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「open up new vistas」とはどういう意味か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "新たな可能性・展望を開く",
+            "新しい窓を開ける",
+            "新しい景色を探す",
+            "新しい視点で批判する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new technology opens up exciting ______ for medical research.",
+          "hint": "新技術は医学研究に新たな展望・可能性を開く",
+          "explanationFocus": "gap",
+          "choices": [
+            "vistas",
+            "visions",
+            "revisions",
+            "provisions"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「vista」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "breathtaking vista",
+            "difficult vista",
+            "expensive vista",
+            "legal vista"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The partnership opens new vistas for international collaboration.\" — 「vistas」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "広がる展望・可能性",
+            "具体的な計画",
+            "財政上の課題",
+            "法的障壁"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The hilltop offered a stunning vista of the valley.",
+        "This discovery opens new vistas in cancer research."
+      ]
+    },
+    {
+      "word": "visor",
+      "phonetic": "/ˈvaɪ.zər/",
+      "toeicRank": "TOEIC 500-600",
+      "parts": [
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-or",
+          "meaning": "〜するもの、道具",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "見るための道具＝バイザー、日除け",
+        "fact": "visorは中英語visere、古フランス語visiereから。visage（顔）に由来し、ラテン語visus（見ること）と関連。もとは兜のフェイスガード（顔を守りながら見る部分）",
+        "source": "EtymOnline: visor < Anglo-French viser, from Old French visiere 'face guard of a helmet'",
+        "cognates": [
+          "vision",
+          "visual",
+          "visible",
+          "visa"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "光・風・危険から目・顔を保護しながら視界を確保する道具。兜の面当てから車のサンバイザーまで",
+        "fact": "visa（ビザ）も同じ語源で「見られたもの・確認されたもの」の意。太陽光を「見ながら遮る」visorと認証を「見て確認する」visaは視覚の語根で繋がる",
+        "source": "Harper, D. (2023). Online Etymology Dictionary. etymonline.com."
+      },
+      "gap": "vis（見る）+ or（道具）で「見るための装置」→視界を確保しながら目を保護するもの",
+      "gapOneliner": "「見るための道具」→兜の面当て→サンバイザー・ヘルメットバイザー",
+      "hook": {
+        "label": "記憶フック",
+        "text": "vis（見る）+ or（道具）= 見るための道具。sun visor（サンバイザー）/ helmet visor（ヘルメットのバイザー）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「visor」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "バイザー、日除け（視界を保護する道具）",
+            "レンズ",
+            "鏡",
+            "ランプ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「visa（ビザ）」と「visor（バイザー）」が同じ語根を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "両方ともラテン語visus（見ること）に由来するため",
+            "どちらも保護目的の道具だから",
+            "どちらも政府が発行するものだから",
+            "発音が似ているだけで無関係"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He pulled down the car's sun ______ to block the glare of the afternoon sun.",
+          "hint": "午後の日差しのまぶしさを遮るために日除けを下ろした",
+          "explanationFocus": "gap",
+          "choices": [
+            "visor",
+            "vision",
+            "advisor",
+            "supervisor"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「visor」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "sun visor",
+            "speech visor",
+            "document visor",
+            "policy visor"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The motorcycle helmet has a tinted visor for bright conditions.\" — 「visor」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "視界を確保しながら目を保護する面",
+            "排気口",
+            "ライトカバー",
+            "通気口"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She flipped down the visor to shade her eyes from the sun.",
+        "The astronaut's helmet visor reflects sunlight."
+      ]
     }
   ]
 }

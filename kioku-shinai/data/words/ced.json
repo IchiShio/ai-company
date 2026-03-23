@@ -2090,6 +2090,228 @@
         "We face unprecedented challenges.",
         "Such cooperation is unprecedented in our industry."
       ]
+    },
+    {
+      "word": "intercede",
+      "phonetic": "/ˌɪntərˈsiːd/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "inter-",
+          "meaning": "間に",
+          "type": "prefix"
+        },
+        {
+          "part": "ced/cede",
+          "meaning": "行く、進む",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "間に入って進む＝仲裁する、嘆願する",
+        "fact": "intercede はラテン語intercedereから。inter-（間に）+ cedere（行く）。二者の間に進み入って仲裁・調停する行為",
+        "source": "EtymOnline: intercede < Latin intercedere 'intervene, go between'",
+        "cognates": [
+          "intercession",
+          "intercessor",
+          "interceding"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "対立する当事者の間に自ら進み入り、一方のために他方に働きかける仲介行為",
+        "fact": "intercede forは「〜のために嘆願する」、intercede withは「〜に働きかける」を表し、宗教・法律・外交の各文脈で使われる",
+        "source": "Hornby, A.S. (2015). Oxford Advanced Learner's Dictionary (9th ed.). Oxford University Press."
+      },
+      "gap": "inter（間に）+ ced（行く）で「二者の間に物理的・比喩的に踏み込む」空間的行為",
+      "gapOneliner": "「間に行く」→対立する両者の間に入って仲裁・調停する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "inter（間に）+ cede（行く）= 間に入っていく。She interceded on behalf of the employees.（彼女は従業員のために仲裁に入った）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「intercede」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "仲裁する、嘆願する",
+            "対立する",
+            "拒否する",
+            "撤退する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「intercede for」と「intercede with」の違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "intercede forは誰かのために、intercede withは誰かに対して働きかける",
+            "まったく同じ意味",
+            "intercede forは敵対、intercede withは協力",
+            "forは書き言葉、withは話し言葉"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ambassador offered to ______ between the two conflicting parties.",
+          "hint": "大使は対立する二者間に仲裁として入ることを申し出た",
+          "explanationFocus": "gap",
+          "choices": [
+            "intercede",
+            "precede",
+            "concede",
+            "exceed"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「intercede」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "intercede on behalf of",
+            "intercede a product",
+            "intercede a result",
+            "intercede a schedule"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The union leader interceded with management to prevent layoffs.\" — 「intercede」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "仲裁した（間に入って働きかけた）",
+            "要求した",
+            "反対した",
+            "報告した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The priest interceded for the prisoner.",
+        "She interceded with her boss to give him another chance."
+      ]
+    },
+    {
+      "word": "accede",
+      "phonetic": "/əkˈsiːd/",
+      "toeicRank": "TOEIC 860+",
+      "parts": [
+        {
+          "part": "ac- (ad-)",
+          "meaning": "〜へ、方向",
+          "type": "prefix"
+        },
+        {
+          "part": "ced/cede",
+          "meaning": "行く、進む",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "〜へ向かって進む＝同意する、就任する",
+        "fact": "accede はラテン語accedereから。ad-（〜へ）+ cedere（行く）。要求・提案の方向へ進む（同意）、または役職・地位へ進む（就任）の両義を持つ",
+        "source": "EtymOnline: accede < Latin accedere 'approach, go to, agree'",
+        "cognates": [
+          "accession",
+          "acceded",
+          "acceding"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "抵抗をやめて要求・提案の方向へ進む行為（同意）、または正式に地位や組織へ踏み入る行為（就任・加入）",
+        "fact": "accession to the throne（王位継承）、accession to an agreement（協定への加入）のように、法律・政治・外交で使われる格式語",
+        "source": "Black's Law Dictionary (11th ed.) s.v. 'accession'"
+      },
+      "gap": "ac（〜へ）+ ced（行く）で「要求/地位の方向へ進む」→同意・就任・加入",
+      "gapOneliner": "「〜の方向へ行く」→要求に同意する、または地位・組織に加わる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ac（〜へ）+ cede（行く）= その方向へ進む。The king acceded to the throne at age 25.（王は25歳で王位に就いた）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「accede」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "同意する、就任する・加入する",
+            "拒否する",
+            "退位する",
+            "離脱する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「accession to the throne」の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "王位継承（王位への就任）",
+            "王位の放棄",
+            "王位の要求",
+            "王位の世襲"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "After much negotiation, the company finally agreed to ______ to the union's demands.",
+          "hint": "長い交渉の末、会社はついに組合の要求に同意した",
+          "explanationFocus": "gap",
+          "choices": [
+            "accede",
+            "precede",
+            "concede",
+            "exceed"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「accede」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "accede to a request",
+            "accede a product",
+            "accede a deadline",
+            "accede a budget"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The nation acceded to the international treaty in 2020.\" — 「accede」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "加入した",
+            "脱退した",
+            "批准した（本文）",
+            "制定した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The government finally acceded to the protesters' demands.",
+        "She acceded to the position of CEO last March."
+      ]
     }
   ]
 }

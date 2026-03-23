@@ -1944,6 +1944,340 @@
         "The ticket is not transferable to another person.",
         "Transferable skills are valuable in any career."
       ]
+    },
+    {
+      "word": "confer",
+      "phonetic": "/kənˈfɜːr/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "共に、一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ、伝える",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "共に運び合う＝協議する、与える",
+        "fact": "conferはラテン語conferreから。con-（共に）+ ferre（運ぶ）。互いに意見を持ち寄ること（協議）と、地位・名誉などを授与することの両義を持つ",
+        "source": "EtymOnline: confer < Latin conferre 'to bring together, compare'",
+        "cognates": [
+          "conference",
+          "conferral",
+          "conferee"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "知識や権限を一方から他方へ運び渡す、または双方向に持ち寄る行為",
+        "fact": "confer with（〜と協議する）は双方向の意味運搬、confer on/upon（〜に授与する）は一方向の移転を表す",
+        "source": "Levin, B. (1993). English Verb Classes and Alternations. University of Chicago Press."
+      },
+      "gap": "con（共に）+ fer（運ぶ）が「与える」と「相談する」という二方向の意味を同時に保持する",
+      "gapOneliner": "「共に運ぶ」→「持ち寄って話し合う」and「運び渡す＝授与する」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con（共に）+ fer（運ぶ）= 意見を持ち寄る→conferenceの語源。The university will confer a degree upon her.（大学は彼女に学位を授与する）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「confer」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "協議する、授与する",
+            "拒否する",
+            "遅らせる",
+            "取り消す"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「confer」の「con-」が表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "共に、一緒に",
+            "反対して",
+            "内側へ",
+            "前へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The committee will ______ with legal experts before making a decision.",
+          "hint": "専門家と協議する",
+          "explanationFocus": "gap",
+          "choices": [
+            "confer",
+            "defer",
+            "refer",
+            "prefer"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「confer」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "confer a degree",
+            "confer a delay",
+            "confer an absence",
+            "confer a refusal"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The president conferred with his cabinet before announcing the policy.\" — 「confer」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "協議した",
+            "命令した",
+            "拒否した",
+            "記録した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She will confer with her team before deciding.",
+        "The university conferred an honorary degree upon him."
+      ]
+    },
+    {
+      "word": "infer",
+      "phonetic": "/ɪnˈfɜːr/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "中へ、内側へ",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ、伝える",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "証拠を内側に運び込んで結論を導く＝推論する",
+        "fact": "inferはラテン語inferreから。in-（中へ）+ ferre（運ぶ）。証拠や前提を論理の中に持ち込んで結論を引き出す行為",
+        "source": "EtymOnline: infer < Latin inferre 'bring in, bring forward'",
+        "cognates": [
+          "inference",
+          "inferential",
+          "inferable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "観察した事実を思考の中へ持ち込み、見えない結論を導く認知プロセス",
+        "fact": "inferとimplyの混同は英語学習者の代表的な誤用。inferは聞き手・読み手が推論する行為、implyは話し手・書き手が示唆する行為",
+        "source": "Quirk, R. et al. (1985). A Comprehensive Grammar of the English Language. Longman."
+      },
+      "gap": "in（中へ）+ fer（運ぶ）が「証拠を論理の中へ持ち込む」という認知的推論プロセスを表す",
+      "gapOneliner": "「中へ運び込む」→「証拠から結論を引き出す」＝推論する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（中へ）+ fer（運ぶ）= データを頭の中に運び込んで推論する。From the data, we can infer a trend.（データからトレンドを推論できる）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「infer」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "推論する、推察する",
+            "発表する",
+            "無視する",
+            "否定する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「infer」と「imply」の違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "inferは聞き手が推論、implyは話し手が示唆",
+            "どちらも同じ意味",
+            "inferは書く、implyは話す",
+            "inferは否定、implyは肯定"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "From his tone, I could ______ that he was not satisfied with the result.",
+          "hint": "口調から判断・推察する",
+          "explanationFocus": "gap",
+          "choices": [
+            "infer",
+            "offer",
+            "prefer",
+            "suffer"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「infer」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "infer from evidence",
+            "infer a product",
+            "infer a deadline",
+            "infer a cost"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We can infer from the survey results that customer satisfaction has declined.\" — 「infer」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "推論する",
+            "確認する",
+            "発表する",
+            "改善する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "From the data, researchers inferred a causal relationship.",
+        "What can we infer from this chart?"
+      ]
+    },
+    {
+      "word": "defer",
+      "phonetic": "/dɪˈfɜːr/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "下へ、離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ、伝える",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "後ろへ運ぶ＝先延ばしにする、また下へ運ぶ＝従う",
+        "fact": "deferは二つの意味を持つ。①ラテン語differre（先延ばしにする）に由来する「延期する」、②ラテン語deferre（下に運ぶ）に由来する「従う、敬意を示す」",
+        "source": "EtymOnline: defer < Latin differre (postpone) and deferre (carry down, submit)",
+        "cognates": [
+          "deferral",
+          "deferred",
+          "deference",
+          "deferential"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "時間軸上で後方へ動かす（延期）か、権威・判断を相手の側へ運�（服従・尊重）",
+        "fact": "deferred payment（後払い）は「支払いを後の時点に運ぶ」、defer to an expert（専門家に従う）は「判断を専門家の側へ運ぶ」",
+        "source": "Biber, D. et al. (1999). Longman Grammar of Spoken and Written English. Longman."
+      },
+      "gap": "de + fer が「延期する」と「服従する」という異なる意味を持ち、文脈で判断が必要",
+      "gapOneliner": "「後ろへ運ぶ」＝延期、「下へ運ぶ（権威に）」＝従う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de（後ろへ/下へ）+ fer（運ぶ）= 先送り or 従う。deferred tax（繰延税金）/ defer to the manager（上司の判断に従う）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「defer」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "延期する、従う",
+            "急ぐ、前進する",
+            "反論する",
+            "増加させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「deferred payment」とはどういう意味か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後払い、支払いを後の時点へ先送りすること",
+            "前払い",
+            "分割払い",
+            "免除"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The board decided to ______ the vote until the next meeting.",
+          "hint": "投票を次回に延期する",
+          "explanationFocus": "gap",
+          "choices": [
+            "defer",
+            "refer",
+            "prefer",
+            "confer"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「defer」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "defer to an expert",
+            "defer a product",
+            "defer a question quickly",
+            "defer a success"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She deferred to her senior colleague's judgment on the technical matter.\" — 「defer」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "判断を委ねた（従った）",
+            "批判した",
+            "修正した",
+            "承認した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "They deferred the project launch until next quarter.",
+        "He deferred to the committee's decision."
+      ]
     }
   ]
 }

@@ -1927,6 +1927,339 @@
         "He was forced to retract his earlier statement when new evidence emerged.",
         "The cat can retract its claws when not in use."
       ]
+    },
+    {
+      "word": "tractable",
+      "phonetic": "/ˈtræk.tə.bəl/",
+      "toeicRank": "TOEIC 860+",
+      "parts": [
+        {
+          "part": "tract",
+          "meaning": "引く",
+          "type": "root"
+        },
+        {
+          "part": "-able",
+          "meaning": "〜できる",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "引いて扱えること＝扱いやすい、従順な",
+        "fact": "tractableはラテン語tractabilisから。tractare（扱う、引く）+ -bilis（できる）。引いて方向を変えられること、つまり扱いやすいこと",
+        "source": "EtymOnline: tractable < Latin tractabilis 'that may be touched or handled'",
+        "cognates": [
+          "intractable",
+          "tractability",
+          "tractably"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "人・問題・状況が引いて方向を変えられるほど扱いやすく、制御可能な性質",
+        "fact": "intractable（手に負えない）はtractableの反義語。医学ではintractable pain（難治性疼痛）のように「制御不能な」状態を表す",
+        "source": "Merriam-Webster Medical Dictionary s.v. 'intractable'"
+      },
+      "gap": "tract（引く）+ able（できる）で「引いて扱えるか否か」が「従順/難治性」を決める",
+      "gapOneliner": "「引いて扱える」→制御可能で扱いやすい→従順な（⇔intractable）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "tract（引く）+ able（できる）= 引いて扱える。tractable employees（扱いやすい従業員）⇔ intractable problem（手に負えない問題）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「tractable」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "扱いやすい、従順な",
+            "扱いにくい、頑固な",
+            "複雑な",
+            "危険な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「intractable pain」の医学的意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "制御困難な難治性の痛み",
+            "一時的な痛み",
+            "心理的な痛み",
+            "軽度の痛み"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new software made previously ______ problems in data processing easy to solve.",
+          "hint": "以前は扱いにくかった問題が解決しやすくなった（反義語の文脈）",
+          "explanationFocus": "gap",
+          "choices": [
+            "intractable",
+            "tractable",
+            "attractive",
+            "abstract"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「tractable」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "tractable problem",
+            "tractable distance",
+            "tractable event",
+            "tractable schedule"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The researchers found the model tractable using modern computational methods.\" — 「tractable」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "扱いやすい（計算可能な）",
+            "複雑すぎる",
+            "時代遅れの",
+            "不正確な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The child was tractable and easy to teach.",
+        "This is a tractable problem with the right tools."
+      ]
+    },
+    {
+      "word": "tractor",
+      "phonetic": "/ˈtræk.tər/",
+      "toeicRank": "TOEIC 500-600",
+      "parts": [
+        {
+          "part": "tract",
+          "meaning": "引く",
+          "type": "root"
+        },
+        {
+          "part": "-or",
+          "meaning": "〜するもの",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "引くもの＝トラクター（牽引車）",
+        "fact": "tractorはラテン語tractorから。trahere（引く）+ -or（するもの）。農業機械のトラクターは本来「引く機械」であり、trailer（引かれるもの）とセットで記憶できる",
+        "source": "EtymOnline: tractor < Latin tractor 'one who pulls'",
+        "cognates": [
+          "traction",
+          "tractor-trailer",
+          "retractor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "物を引いて移動させる機械・装置を表す語根的に透明な語",
+        "fact": "tractor-trailer（セミトレーラー）はtractor（引く部分）+ trailer（引かれる部分）から成り、語根を知れば構造が理解できる",
+        "source": "Merriam-Webster Unabridged Dictionary s.v. 'tractor'"
+      },
+      "gap": "tract（引く）+ or（するもの）で「引く機械」という語根の直接的体現",
+      "gapOneliner": "「引くもの」→物・土を引いて移動させる農業・輸送機械",
+      "hook": {
+        "label": "記憶フック",
+        "text": "tract（引く）+ or（もの）= 引く機械。A tractor pulls a trailer.（トラクターはトレーラーを引く）— トレーラー(trail=後を引く)とセットで記憶"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「tractor」の語根的意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "引くもの（牽引車）",
+            "押すもの",
+            "回るもの",
+            "運ぶもの"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「tractor-trailer」の語根から見た構造は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "tractor=引く部分、trailer=引かれる部分",
+            "両方とも引く部分",
+            "tractor=荷台、trailer=エンジン",
+            "どちらも無関係な語"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The farmer used a ______ to plow the fields before planting season.",
+          "hint": "農夫は種まき前に畑を耕すために使った農業機械",
+          "explanationFocus": "gap",
+          "choices": [
+            "tractor",
+            "contractor",
+            "attractor",
+            "extractor"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「tractor」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "tractor-trailer",
+            "tractor-office",
+            "tractor-building",
+            "tractor-website"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Modern tractors are equipped with GPS guidance systems for precision farming.\" — 「tractor」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "牽引式農業機械",
+            "GPS機器",
+            "農業用ドローン",
+            "灌漑装置"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The tractor pulled the heavy load across the field.",
+        "Tractor-trailers transport goods across the country."
+      ]
+    },
+    {
+      "word": "protract",
+      "phonetic": "/proʊˈtrækt/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "pro-",
+          "meaning": "前へ、長く",
+          "type": "prefix"
+        },
+        {
+          "part": "tract",
+          "meaning": "引く",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "前へ引き伸ばす＝長引かせる",
+        "fact": "protractはラテン語protrahere（引き延ばす）から。pro-（前へ）+ trahere（引く）。時間・議論・交渉などを必要以上に引き延ばすこと。既存語protractedの動詞形として収録",
+        "source": "EtymOnline: protract < Latin protrahere 'drag forward, extend'",
+        "cognates": [
+          "protracted",
+          "protraction",
+          "protractor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "時間軸上で事象を前へ引き伸ばし、必要以上に長引かせる行為",
+        "fact": "protractor（分度器）も同じ語根で「引き延ばす道具」。角度を引き伸ばして測るイメージ。protractedとprotractを区別して理解することで語彙の幅が広がる",
+        "source": "Harper, D. (2023). Online Etymology Dictionary. etymonline.com."
+      },
+      "gap": "pro（前へ）+ tract（引く）で「時間を前方へ引き伸ばす」という時間的メタファー",
+      "gapOneliner": "「前へ引き伸ばす」→時間・交渉・議論を不必要に長引かせる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pro（前へ）+ tract（引く）= ずっと前へ引っ張る。Don't protract the discussion unnecessarily.（議論を不必要に長引かせないで）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「protract」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "長引かせる、引き延ばす",
+            "短縮する",
+            "解決する",
+            "開始する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「protractor」（分度器）が「protract」と同じ語根を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "角度を引き伸ばして測る道具だから",
+            "プラスチック製の道具だから",
+            "数学で使う道具だから",
+            "引き算に使う道具だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The lawyers tried to ______ the negotiations to gain more time.",
+          "hint": "弁護士たちは時間を稼ぐために交渉を長引かせようとした",
+          "explanationFocus": "gap",
+          "choices": [
+            "protract",
+            "attract",
+            "retract",
+            "distract"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「protract」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "protract negotiations",
+            "protract a contract",
+            "protract an offer",
+            "protract a discount"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"There is no reason to protract this meeting beyond its scheduled time.\" — 「protract」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "長引かせる",
+            "予定する",
+            "記録する",
+            "中止する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Both sides sought to protract the ceasefire negotiations.",
+        "The illness was protracted by complications."
+      ]
     }
   ]
 }

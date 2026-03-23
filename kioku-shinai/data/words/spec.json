@@ -1907,6 +1907,339 @@
         "She cast a suspicious glance at the stranger.",
         "I'm suspicious of his motives."
       ]
+    },
+    {
+      "word": "inspect",
+      "phonetic": "/ɪnˈspɛkt/",
+      "toeicRank": "TOEIC 500-600",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "中へ、内側を",
+          "type": "prefix"
+        },
+        {
+          "part": "spec/spect",
+          "meaning": "見る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "内側を見る＝検査する",
+        "fact": "inspectはラテン語inspicereから。in-（中に）+ specere（見る）。内部・詳細を調べるために見る行為",
+        "source": "EtymOnline: inspect < Latin inspectare, frequentative of inspicere 'look into'",
+        "cognates": [
+          "inspection",
+          "inspector",
+          "inspectorate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "表面ではなく内部・詳細を意図的に調べる目的的観察行為",
+        "fact": "inspectionは品質管理・税関・建物検査など公式な調査文脈で使われ、単なる観察（observation）より目的的で権威的なニュアンスを持つ",
+        "source": "Hornby, A.S. (2015). Oxford Advanced Learner's Dictionary (9th ed.). Oxford University Press."
+      },
+      "gap": "in（中へ）+ spect（見る）で「内側まで見通す詳細検査」という意味。既存語でもスキーマ確認のため収録",
+      "gapOneliner": "「中を見る」→表面でなく内部・詳細を調べる→検査する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（中へ）+ spect（見る）= 内側まで見る。The factory was inspected by safety officials.（工場は安全当局に検査された）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「inspect」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "検査する、点検する",
+            "無視する",
+            "承認する",
+            "記録する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「inspection」と「observation」の違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "inspectionは目的的で権威的な調査、observationは一般的な観察",
+            "全く同じ意味",
+            "observationの方が詳細",
+            "inspectionは視覚のみ、observationは全感覚"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The health inspector will ______ the restaurant kitchen tomorrow morning.",
+          "hint": "衛生検査官がキッチンを点検する",
+          "explanationFocus": "gap",
+          "choices": [
+            "inspect",
+            "expect",
+            "respect",
+            "suspect"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「inspect」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "inspect a facility",
+            "inspect a rumor",
+            "inspect a feeling",
+            "inspect a deadline"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Customs officers inspected every container before allowing it through.\" — 「inspect」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "検査した",
+            "通過させた",
+            "拒否した",
+            "記録した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The auditors inspected the company's financial records.",
+        "Please inspect the goods upon delivery."
+      ]
+    },
+    {
+      "word": "introspect",
+      "phonetic": "/ˈɪntrəˌspɛkt/",
+      "toeicRank": "TOEIC 860+",
+      "parts": [
+        {
+          "part": "intro-",
+          "meaning": "内部へ、内側へ",
+          "type": "prefix"
+        },
+        {
+          "part": "spec/spect",
+          "meaning": "見る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "内部を見る＝自己省察する",
+        "fact": "introspectはラテン語introspicereから。intro-（内部へ）+ specere（見る）。心理学・哲学で自分の思考・感情・動機を内側から観察すること",
+        "source": "EtymOnline: introspect < Latin introspicere 'look into, look within'",
+        "cognates": [
+          "introspection",
+          "introspective",
+          "introspectively"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分の内的状態（思考・感情・動機）を意識的に観察する自己参照的認知",
+        "fact": "introspectionは心理学の研究方法の一つ（内省法）として19世紀末にWundt、Titchenerらによって体系化された",
+        "source": "Boring, E.G. (1953). A history of introspection. Psychological Bulletin, 50(3), 169-189."
+      },
+      "gap": "intro（内部へ）+ spect（見る）が「外ではなく自己の内側を観察する」という哲学的・心理学的行為",
+      "gapOneliner": "「内部を見る」→自分の思考・感情を観察する＝自己省察",
+      "hook": {
+        "label": "記憶フック",
+        "text": "intro（内側）+ spect（見る）= 自分の内面を見る。She tends to introspect after difficult decisions.（彼女は難しい決断の後に自己省察する傾向がある）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「introspect」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "自己省察する、内省する",
+            "外部を観察する",
+            "他者を批判する",
+            "分析を発表する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "心理学における「introspection」とは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "自分の内的状態を意識的に観察する内省法",
+            "他者の行動を観察する手法",
+            "脳波を計測する手法",
+            "グループ討論による分析"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Leaders who ______ regularly tend to make more thoughtful decisions.",
+          "hint": "定期的に自己省察するリーダー",
+          "explanationFocus": "gap",
+          "choices": [
+            "introspect",
+            "inspect",
+            "expect",
+            "prospect"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「introspection」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "deep introspection",
+            "rapid inspection",
+            "broad perspective",
+            "strong suspicion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The therapy encouraged patients to introspect about their past experiences.\" — 「introspect」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "内省する（自分の経験を内側から観察する）",
+            "記録する",
+            "報告する",
+            "否定する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He introspected deeply before writing his memoir.",
+        "Introspection is a valuable tool for personal growth."
+      ]
+    },
+    {
+      "word": "retrospect",
+      "phonetic": "/ˈrɛtrəˌspɛkt/",
+      "toeicRank": "TOEIC 730-860",
+      "parts": [
+        {
+          "part": "retro-",
+          "meaning": "後ろへ、過去へ",
+          "type": "prefix"
+        },
+        {
+          "part": "spec/spect",
+          "meaning": "見る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "後ろを振り返って見る＝回顧、振り返り",
+        "fact": "retrospectはラテン語retrospicereから。retro-（後ろへ）+ specere（見る）。主に「in retrospect（振り返れば）」の形で、過去の出来事を現在から見直す行為",
+        "source": "EtymOnline: retrospect < Latin retrospicere 'look back'",
+        "cognates": [
+          "retrospective",
+          "retrospectively",
+          "retrospection"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "現在の視点から過去の出来事・決断を評価・再解釈する認知的時間移動",
+        "fact": "「In retrospect, the decision was wise」のように、当時は分からなかったことが後から見ると明確になる認知的特性を表す",
+        "source": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux."
+      },
+      "gap": "retro（後ろ・過去）+ spect（見る）が「時間軸を逆向きに見る」という時間的メタファー",
+      "gapOneliner": "「過去へ向けて見る」→過去を振り返って評価する＝回顧",
+      "hook": {
+        "label": "記憶フック",
+        "text": "retro（過去へ）+ spect（見る）= タイムマシンで過去を見る。In retrospect, I should have accepted the offer.（振り返れば、そのオファーを受けるべきだった）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「in retrospect」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "振り返ってみると、今となっては",
+            "今後を見据えると",
+            "当時は",
+            "現時点では"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「retrospect」の「retro-」が表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後ろへ、過去へ",
+            "前へ、将来へ",
+            "内側へ",
+            "外側へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "In ______, the merger was a mistake from the very beginning.",
+          "hint": "今振り返ると、その合併は最初から間違いだった",
+          "explanationFocus": "gap",
+          "choices": [
+            "retrospect",
+            "prospect",
+            "respect",
+            "aspect"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「retrospect」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "in retrospect",
+            "at retrospect",
+            "by retrospect",
+            "on retrospect"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"In retrospect, the warning signs were obvious.\" — 「in retrospect」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "今振り返ってみると",
+            "当時から明らかに",
+            "将来的には",
+            "専門家の意見では"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "In retrospect, we should have acted sooner.",
+        "The retrospective analysis revealed important patterns."
+      ]
     }
   ]
 }
