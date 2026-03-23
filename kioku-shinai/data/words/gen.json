@@ -1362,6 +1362,594 @@
         "Tissue regeneration is crucial in surgery.",
         "Spiritual regeneration was important to her recovery."
       ]
+    },
+    {
+      "word": "gender",
+      "phonetic": "/ˈdʒendər/",
+      "toeicRank": "TSL上位・NGSL収録",
+      "parts": [
+        {
+          "part": "gen",
+          "meaning": "種類",
+          "type": "root"
+        },
+        {
+          "part": "der",
+          "meaning": "〜に属するもの",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "genus（種類・類）→ 人間の種類分け → 性別",
+        "fact": "ラテン語 genus「種類・血統」の古フランス語形 gendre から。14世紀に文法上の「性」として英語に入り、20世紀後半に生物学的な sex と区別して社会的・文化的な性の意味で広く使われるようになった。",
+        "source": "EtymOnline: gender",
+        "cognates": [
+          "genre",
+          "genus",
+          "generic",
+          "generate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "人間を種類（gen）で分ける → 性別・ジェンダー",
+        "fact": "CATEGORYスキーマに基づく分類操作。genus（種類）で人間を分けた結果が gender。文法的な「男性名詞・女性名詞」も同じ分類の原理。",
+        "source": "Lakoff (1987) カテゴリー理論"
+      },
+      "gap": "gender と genre が同じ語源だと気づきにくい。どちらも「種類分け」がコア。gender = 人の種類、genre = 作品の種類。",
+      "gapOneliner": "gender = 人の種類分け、genre = 作品の種類分け。同じ gen（種類）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "gender も genre も gen（種類）から。人の種類分け = gender、映画の種類分け = genre。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "genderの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "種類で分ける→性別",
+            "生む→出産",
+            "導く→指導",
+            "集める→集合"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "gen（種類）+ der の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "種類 + 属するもの = 性別",
+            "生む + 属するもの = 子孫",
+            "導く + 属するもの = 指導者",
+            "集める + 属するもの = 集団"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Gender equality is an important topic in the workplace."
+      ]
+    },
+    {
+      "word": "generic",
+      "phonetic": "/dʒəˈnerɪk/",
+      "toeicRank": "TSL中位・ビジネス頻出",
+      "parts": [
+        {
+          "part": "gen",
+          "meaning": "種類",
+          "type": "root"
+        },
+        {
+          "part": "eric",
+          "meaning": "〜に関する（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "genus（種類全体）に関する → 一般的な・ノーブランドの",
+        "fact": "ラテン語 genus「種類」からフランス語 générique を経て1670年代に英語に入った。「特定のブランドでなく種類全体を指す」意味から、医薬品の「ジェネリック（後発医薬品）」は1950年代に定着。",
+        "source": "EtymOnline: generic",
+        "cognates": [
+          "general",
+          "genre",
+          "generate",
+          "genus"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "種類全体（gen）に属する → 特定でない・総称的な",
+        "fact": "CATEGORY全体を指すラベル。specific（個別）の対義概念。generic drug は「特定ブランドでなく薬効カテゴリー全体に属する薬」。",
+        "source": "Lakoff (1987) カテゴリー理論"
+      },
+      "gap": "「ジェネリック薬」は日本語でも使われるが、ビジネス英語では generic term（総称）、generic product（ノーブランド品）のように「特定でない・一般的な」意味でよく使う。",
+      "gapOneliner": "generic = 「種類全体」→ 特定ブランドでない・一般的な",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ジェネリック薬は「種類(gen)全体」の薬。ブランドでなく成分の種類で定義される。generic term = 総称。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "genericの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "種類全体に関する→一般的な",
+            "新たに生む→革新的な",
+            "特定の種に→専門的な",
+            "種類を壊す→破壊的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We decided to use a ______ brand to cut costs.",
+          "hint": "「種類全体」→「ノーブランドの・一般的な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "generic",
+            "genetic",
+            "genuine",
+            "generous"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The doctor recommended a generic version of the medication."
+      ]
+    },
+    {
+      "word": "generation",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "toeicRank": "TSL上位・NGSL収録",
+      "parts": [
+        {
+          "part": "gen",
+          "meaning": "生む",
+          "type": "root"
+        },
+        {
+          "part": "eration",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "generare（生む）+ -tion = 生み出すこと → 世代",
+        "fact": "ラテン語 generatio「生むこと、子孫」から。14世紀に「一つの時代に生まれた人々の集合」として英語に入った。「次の世代を生む」という生殖の意味から「同時代人」の意味へ転じた。",
+        "source": "EtymOnline: generation",
+        "cognates": [
+          "generate",
+          "generator",
+          "generational",
+          "regeneration"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "生む（gen）行為の結果 → 同時代に生まれた集団 → 世代",
+        "fact": "CYCLEスキーマ。「生む→生まれた人々→彼らがまた生む」という循環的な時間の捉え方。next generation は「次の生産サイクル」の比喩。",
+        "source": "Johnson (1987) CYCLEスキーマ"
+      },
+      "gap": "generation は「世代」だけでなく「生成・発電」の意味もある。power generation（発電）、lead generation（見込み客の獲得）。すべて「生み出すこと」のコアで統一。",
+      "gapOneliner": "generation = 世代も発電も見込み客獲得も、すべて「生み出すこと」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Z世代(Generation Z)は「Z時代に生まれた(gen)人々」。power generation = 電力を生むこと。gen = 生むがコア。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "generationの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "生み出すこと→世代",
+            "種類分け→分類",
+            "導くこと→案内",
+            "集めること→集合"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 2,
+          "instruction": "generationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "power generation（発電）",
+            "generation mistake（世代間違い）",
+            "generation sleep（世代睡眠）",
+            "generation color（世代色）"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The younger generation tends to prefer digital communication."
+      ]
+    },
+    {
+      "word": "genocide",
+      "phonetic": "/ˈdʒenəsaɪd/",
+      "toeicRank": "TSL中位・ニュース頻出",
+      "parts": [
+        {
+          "part": "gen",
+          "meaning": "種族",
+          "type": "root"
+        },
+        {
+          "part": "o",
+          "meaning": "連結母音",
+          "type": "connector"
+        },
+        {
+          "part": "cide",
+          "meaning": "殺す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "genos（種族）+ -cide（殺す）= 種族を殺す → 大量虐殺",
+        "fact": "ギリシャ語 genos「種族」+ ラテン語 -cidium「殺すこと」から、ポーランド系ユダヤ人法学者ラファエル・レムキンが1944年に造語。著書 'Axis Rule in Occupied Europe' で初めて使用された。",
+        "source": "EtymOnline: genocide; Lemkin (1944)",
+        "cognates": [
+          "gene",
+          "genus",
+          "homicide",
+          "suicide"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "種族（gen）を殺す（cide）→ 民族大量虐殺",
+        "fact": "DESTRUCTION（破壊）スキーマ。「種族」という集団カテゴリーそのものを消滅させる行為。cide（殺す）はhomicide、suicideと共通。",
+        "source": "Johnson (1987) DESTRUCTIONスキーマ"
+      },
+      "gap": "genocide は1944年の造語。gen（種族）+ cide（殺す）の組み合わせを知ると、homicide（人を殺す）、suicide（自分を殺す）との並行関係が見える。",
+      "gapOneliner": "genocide = 種族(gen)を殺す(cide)。homicide, suicide と同じ cide パターン",
+      "hook": {
+        "label": "記憶フック",
+        "text": "geno(種族) + cide(殺す) = 種族殺し。suicide = 自分を殺す、homicide = 人を殺す。-cide の仲間。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "genocideの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "種族を殺す→大量虐殺",
+            "種族を生む→繁殖",
+            "種族を導く→統治",
+            "種族を分ける→分離"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 3,
+          "instruction": "geno（種族）+ cide（殺す）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "種族 + 殺す = 大量虐殺",
+            "種族 + 生む = 繁殖",
+            "種族 + 導く = 統治",
+            "種族 + 守る = 保護"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The international court is investigating the alleged genocide."
+      ]
+    },
+    {
+      "word": "congenital",
+      "phonetic": "/kənˈdʒenɪtl/",
+      "toeicRank": "TSL中位・医療/専門用語",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "gen",
+          "meaning": "生まれる",
+          "type": "root"
+        },
+        {
+          "part": "ital",
+          "meaning": "〜に関する（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（共に）+ genitus（生まれた）= 生まれた時から一緒の → 先天的な",
+        "fact": "ラテン語 congenitus「一緒に生まれた」から。con-（共に）+ genitus（生まれた、gignereの過去分詞）。18世紀に医学用語として「出生時から備わっている」の意味で英語に定着。",
+        "source": "EtymOnline: congenital",
+        "cognates": [
+          "innate",
+          "genetic",
+          "generate",
+          "progenitor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "生まれた時から一緒（con + gen）→ 先天的な",
+        "fact": "SOURCE-PATH-GOALスキーマの起点。生まれた瞬間（source）からすでに存在している状態。acquired（後天的）の対義。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "congenital は「先天的な」。con（共に）+ gen（生まれる）で「生まれと共にある」。congenital defect（先天性欠陥）が典型的用法。",
+      "gapOneliner": "congenital = 生まれた時から共にある → 先天的な",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con(共に) + gen(生まれる) = 生まれた時から一緒 = 先天的。congenital heart disease = 先天性心疾患。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "congenitalの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "共に生まれた→先天的な",
+            "新たに生む→後天的な",
+            "種類を変える→変異の",
+            "生まれ変わる→再生の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The baby was born with a ______ heart condition.",
+          "hint": "「共に生まれた」→「先天的な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "congenital",
+            "genetic",
+            "generic",
+            "generous"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Early screening can detect congenital abnormalities."
+      ]
+    },
+    {
+      "word": "progenitor",
+      "phonetic": "/proʊˈdʒenɪtər/",
+      "toeicRank": "TSL中位・学術用語",
+      "parts": [
+        {
+          "part": "pro",
+          "meaning": "前に",
+          "type": "prefix"
+        },
+        {
+          "part": "gen",
+          "meaning": "生む",
+          "type": "root"
+        },
+        {
+          "part": "itor",
+          "meaning": "〜する者（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pro（前に）+ genitor（生む者）= 先に生んだ者 → 祖先・先駆者",
+        "fact": "ラテン語 progenitor「祖先、始祖」から。pro-（前に）+ genitor（生む者、gignereの行為者名詞）。14世紀に「直系の祖先」として英語に入り、比喩的に「ある分野の先駆者」としても使われる。",
+        "source": "EtymOnline: progenitor",
+        "cognates": [
+          "progeny",
+          "generate",
+          "genesis",
+          "congenital"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "前に（pro）生んだ者（gen + itor）→ 祖先・先駆者",
+        "fact": "SOURCE（起源）スキーマ。時間軸の「前方（pro）」で「生んだ（gen）」存在。子孫（progeny）から見て起源に位置する。",
+        "source": "Johnson (1987) SOURCEスキーマ"
+      },
+      "gap": "progenitor は「祖先」だけでなく「先駆者」も意味する。pro（前に）+ gen（生む）で、「先に生み出した人」→ 祖先にもイノベーターにもなる。",
+      "gapOneliner": "progenitor = 先に生み出した者 → 祖先・先駆者",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pro(前に) + gen(生む) + itor(者) = 先に生んだ者 = 祖先。Steve Jobs is a progenitor of the smartphone era."
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "progenitorの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "前に生んだ者→祖先",
+            "後に生まれた者→子孫",
+            "共に生まれた者→同胞",
+            "再び生む者→再生者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 3,
+          "instruction": "pro（前に）+ gen（生む）+ itor（者）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "前に + 生む + 者 = 祖先",
+            "前に + 導く + 者 = 先導者",
+            "前に + 集める + 者 = 先行者",
+            "前に + 壊す + 者 = 破壊者"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He is considered the progenitor of modern jazz."
+      ]
+    },
+    {
+      "word": "degenerate",
+      "phonetic": "/dɪˈdʒenəreɪt/",
+      "toeicRank": "TSL中位・学術/ニュース頻出",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "離れて・下へ",
+          "type": "prefix"
+        },
+        {
+          "part": "gen",
+          "meaning": "種類・質",
+          "type": "root"
+        },
+        {
+          "part": "erate",
+          "meaning": "〜する（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ genus（種類・質）= 質が下がる → 退化する・堕落する",
+        "fact": "ラテン語 degenerare「祖先の質から外れる、退化する」から。de-（離れて、下へ）+ genus（種類・血統）。15世紀に「元の良い質から低下する」の意味で英語に入った。",
+        "source": "EtymOnline: degenerate",
+        "cognates": [
+          "generate",
+          "regenerate",
+          "generation",
+          "generic"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "質（gen）が下へ（de）向かう → 退化する・堕落する",
+        "fact": "DOWN IS BADの方向メタファー。元の種類・質（gen）から離れて下方（de）へ移動する動き。regenerate（再生する）とは逆方向。",
+        "source": "Lakoff & Johnson (1980) DOWN IS BADメタファー"
+      },
+      "gap": "degenerate は generate の「逆」。generate = 生み出す、degenerate = 質が下がる。de（下へ）の接頭辞がコア意味を反転させる。",
+      "gapOneliner": "degenerate = 質(gen)が下へ(de)落ちる → 退化する。generateの逆方向",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(下へ) + gen(質) = 質が下がる = 退化する。generate(生む)の反対方向。degenerate into chaos = 混乱に退化する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "degenerateの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "質が下がる→退化する",
+            "質が上がる→進化する",
+            "新たに生む→創造する",
+            "再び生む→再生する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Without proper maintenance, the building will ______ over time.",
+          "hint": "「質が下へ落ちる」→「退化する・劣化する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "degenerate",
+            "generate",
+            "regenerate",
+            "generalize"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The discussion quickly degenerated into an argument."
+      ]
+    },
+    {
+      "word": "genesis",
+      "phonetic": "/ˈdʒenəsɪs/",
+      "toeicRank": "TSL中位・学術/文化用語",
+      "parts": [
+        {
+          "part": "gen",
+          "meaning": "生まれる・起源",
+          "type": "root"
+        },
+        {
+          "part": "esis",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "genesis（生成・起源）= 物事が生まれること",
+        "fact": "ギリシャ語 genesis「起源、創造、誕生」から。gignesthai「生まれる」に由来。旧約聖書の最初の書（創世記）の名前として広く知られる。一般名詞としては「何かの始まり・起源」を意味する。",
+        "source": "EtymOnline: genesis",
+        "cognates": [
+          "gene",
+          "genetic",
+          "generate",
+          "pathogenesis"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "生まれること（gen）そのもの → 起源・始まり",
+        "fact": "SOURCEスキーマの最も純粋な表現。すべてが「生まれ出る」起点。創世記（Genesis）は世界の起源を語る書として、このスキーマの文化的実例。",
+        "source": "Johnson (1987) SOURCEスキーマ"
+      },
+      "gap": "genesis は「起源」。日本では車のブランド名やバンド名で知られるが、語源的には gen（生まれる）の名詞形。the genesis of an idea = アイデアの起源。",
+      "gapOneliner": "genesis = 生まれること → 起源・始まり。聖書の「創世記」もここから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Genesis(創世記)は世界の「生まれ(gen)」の物語。the genesis of the project = プロジェクトの起源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "genesisの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "生まれること→起源",
+            "壊すこと→破壊",
+            "集めること→集合",
+            "導くこと→案内"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The book explores the ______ of the industrial revolution.",
+          "hint": "「生まれること」→「起源・始まり」",
+          "explanationFocus": "gap",
+          "choices": [
+            "genesis",
+            "genius",
+            "genre",
+            "generic"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The genesis of the company can be traced back to a college dorm room."
+      ]
     }
   ]
 }

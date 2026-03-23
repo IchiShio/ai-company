@@ -92,7 +92,13 @@ def format_rules_for_prompt(rules):
     """ルールをプロンプト用テキストに変換"""
     lines = []
     for r in rules:
-        errors_text = "; ".join(f'"{e["wrong"]}" ({e["why"]})' for e in r.get("common_errors", []))
+        errors_parts = []
+        for e in r.get("common_errors", []):
+            if isinstance(e, dict):
+                errors_parts.append(f'"{e["wrong"]}" ({e["why"]})')
+            else:
+                errors_parts.append(f'"{e}"')
+        errors_text = "; ".join(errors_parts)
         lines.append(
             f'- [{r["id"]}] {r["rule"]} ({r["rule_en"]})\n'
             f'  diff: {r["diff"]}, axes: {r["axes"]}, tags: {r["tags"]}\n'
