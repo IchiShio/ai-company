@@ -379,6 +379,11 @@
         <p>構造が見えると、英語は聞き取れる。ListenUpで1,300問以上のリスニング問題に挑戦。</p>
         <a href="/">ListenUpを試す</a>
       </div>
+      <div class="cross-card">
+        <h3>語彙を「芋づる式」に増やす</h3>
+        <p>30の語根を覚えれば、600のTOEIC単語が読める。語源から覚えるから忘れない。</p>
+        <a href="/kioku-shinai/">記憶しない英単語を試す</a>
+      </div>
     </div>
 
     <footer class="site-footer">
@@ -1022,6 +1027,21 @@ function showAxisFeedback() {
       '<span class="axis-pct">' + (pct >= 0 ? pct + '%' : '--') + '</span>';
     barsEl.appendChild(row);
   });
+  // Inline cross promo (alternating)
+  const promoTexts = [
+    '💡 リスニングも鍛えるなら → <a href="/" style="color:var(--gold);font-weight:700;">ListenUp</a>',
+    '💡 語彙を増やすなら → <a href="/kioku-shinai/" style="color:#007AFF;font-weight:700;">記憶しない英単語</a>'
+  ];
+  const promoIdx = Math.floor((total / 5 - 1)) % promoTexts.length;
+  let inlinePromo = document.getElementById('axisInlinePromo');
+  if (!inlinePromo) {
+    inlinePromo = document.createElement('div');
+    inlinePromo.id = 'axisInlinePromo';
+    inlinePromo.style.cssText = 'margin-top:10px;font-size:0.82rem;text-align:center;opacity:0.85;';
+    document.getElementById('axisFeedback').appendChild(inlinePromo);
+  }
+  inlinePromo.innerHTML = promoTexts[promoIdx];
+
   document.getElementById('axisFeedback').classList.add('show');
 }
 
@@ -1136,6 +1156,9 @@ function showMissionComplete() {
 
   // ListenUp cross promo
   ctaWrap.innerHTML += '<div class="mission-cta-card"><div class="mission-cta-title">👂 リスニング力も鍛えよう</div><div class="mission-cta-desc">ListenUpでネイティブ英語の聞き取りに挑戦。1,300問+の無料クイズ。</div><a class="mission-cta-link" href="/" style="background:var(--gold)">ListenUpを始める</a></div>';
+
+  // kioku-shinai cross promo
+  ctaWrap.innerHTML += '<div class="mission-cta-card"><div class="mission-cta-title">🧠 語彙を芋づる式に増やそう</div><div class="mission-cta-desc">文法がわかっても語彙が足りないと読めない。30の語根で600語をマスター。</div><a class="mission-cta-link" href="/kioku-shinai/" style="background:#007AFF;">記憶しない英単語を試す</a></div>';
 
   document.getElementById('missionOverlay').classList.add('show');
 
