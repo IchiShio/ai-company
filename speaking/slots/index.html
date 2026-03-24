@@ -181,12 +181,7 @@
         <div class="slot-col">
           <div class="slot-header s3">SLOT 3: 何を</div>
           <div class="slot-body" id="slot3">
-            <div class="slot-item" data-slot="3" data-val="that.">that.</div>
-            <div class="slot-item" data-slot="3" data-val="it.">it.</div>
-            <div class="slot-item" data-slot="3" data-val="so.">so.</div>
-            <div class="slot-item" data-slot="3" data-val="to go.">to go.</div>
-            <div class="slot-item" data-slot="3" data-val="yet.">yet.</div>
-            <div class="slot-item" data-slot="3" data-val="why.">why.</div>
+            <div class="slot-placeholder" style="font-size:14px;color:var(--text-muted);text-align:center;padding:16px 0;">SLOT 2 を選ぶと<br>選択肢が出ます</div>
           </div>
         </div>
       </div>
@@ -344,24 +339,69 @@
 
     // Slot machine
     const selected = { 1: null, 2: null, 3: null };
+
+    // SLOT 3 options per verb
+    const slot3Options = {
+      'know':        ['that.', 'it.', 'why.'],
+      'think':       ['so.', 'that.'],
+      'want':        ['that.', 'it.', 'to go.'],
+      "don't know":  ['that.', 'it.', 'why.', 'yet.'],
+      "don't think": ['so.', 'that.'],
+      "don't want":  ['that.', 'it.', 'to go.'],
+    };
+
     const translations = {
-      'I know that.': '知ってる。', 'I know it.': '知ってる。', 'I know so.': 'そう思う。',
-      'I think that.': 'そう思う。', 'I think it.': 'そうだと思う。', 'I think so.': 'そう思う。',
+      'I know that.': '知ってる。', 'I know it.': '知ってるよ。', 'I know why.': 'なぜか分かる。',
+      'I think so.': 'そう思う。', 'I think that.': 'そう思う。',
       'I want that.': 'それが欲しい。', 'I want it.': 'それが欲しい。', 'I want to go.': '行きたい。',
-      "I don't know that.": 'それは知らない。', "I don't know it.": '知らない。', "I don't know yet.": 'まだ分からない。', "I don't know why.": 'なぜか分からない。',
+      "I don't know that.": 'それは知らない。', "I don't know it.": '知らない。', "I don't know why.": 'なぜか分からない。', "I don't know yet.": 'まだ分からない。',
       "I don't think so.": 'そう思わない。', "I don't think that.": 'そうは思わない。',
       "I don't want that.": 'それは要らない。', "I don't want it.": '要らない。', "I don't want to go.": '行きたくない。',
-      'You know that.': '知ってるでしょ。', 'You think so.': 'そう思う？', 'You want to go.': '行きたいの？',
-      "You don't know that.": 'それ知らないでしょ。', "You don't think so.": 'そう思わないの？',
+      'You know that.': '知ってるでしょ。', 'You know it.': '知ってるよね。', 'You know why.': 'なぜか分かるでしょ。',
+      'You think so.': 'そう思う？', 'You think that.': 'そう思うの？',
+      'You want that.': 'それ欲しいの？', 'You want it.': 'それ欲しい？', 'You want to go.': '行きたいの？',
+      "You don't know that.": 'それ知らないでしょ。', "You don't know it.": '知らないでしょ。', "You don't know why.": 'なぜか分からないでしょ。', "You don't know yet.": 'まだ知らないでしょ。',
+      "You don't think so.": 'そう思わないの？', "You don't think that.": 'そうは思わない？',
+      "You don't want that.": 'それ要らないの？', "You don't want it.": '要らないの？', "You don't want to go.": '行きたくないの？',
       'It know': '', 'It think': '',
     };
 
-    document.querySelectorAll('.slot-item').forEach(item => {
+    function buildSlot3(verb) {
+      const slot3El = document.getElementById('slot3');
+      slot3El.innerHTML = '';
+      selected[3] = null;
+      const options = slot3Options[verb] || [];
+      options.forEach(val => {
+        const div = document.createElement('div');
+        div.className = 'slot-item';
+        div.dataset.slot = '3';
+        div.dataset.val = val;
+        div.textContent = val;
+        div.addEventListener('click', () => {
+          document.querySelectorAll('[data-slot="3"]').forEach(i => i.classList.remove('active'));
+          div.classList.add('active');
+          selected[3] = val;
+          updateResult();
+        });
+        slot3El.appendChild(div);
+      });
+    }
+
+    document.querySelectorAll('.slot-item[data-slot="1"]').forEach(item => {
       item.addEventListener('click', () => {
-        const slot = item.dataset.slot;
-        document.querySelectorAll(`[data-slot="${slot}"]`).forEach(i => i.classList.remove('active'));
+        document.querySelectorAll('[data-slot="1"]').forEach(i => i.classList.remove('active'));
         item.classList.add('active');
-        selected[slot] = item.dataset.val;
+        selected[1] = item.dataset.val;
+        updateResult();
+      });
+    });
+
+    document.querySelectorAll('.slot-item[data-slot="2"]').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('[data-slot="2"]').forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+        selected[2] = item.dataset.val;
+        buildSlot3(item.dataset.val);
         updateResult();
       });
     });
@@ -380,7 +420,6 @@
         const parts = [];
         if (s1) parts.push(s1);
         if (s2) parts.push(s2);
-        if (s3) parts.push(s3);
         text.textContent = parts.length ? parts.join(' ') + ' ...' : 'スロットをクリックしてください';
         ja.textContent = '';
         box.classList.remove('filled');
