@@ -47,13 +47,11 @@ def get_recent_tweets(auth, user_id, max_results=10):
 def main():
     auth = get_auth()
     user_id = get_user_id(auth)
-    data = get_recent_tweets(auth, user_id, max_results=10)
+    data = get_recent_tweets(auth, user_id, max_results=20)
 
     if "data" not in data:
-        print("No tweets found")
+        print("No tweets found", file=sys.stderr)
         return
-
-    print("date,text_preview,impressions,likes,retweets,replies,quotes,bookmarks")
     for tweet in data["data"]:
         m = tweet.get("public_metrics", {})
         text_preview = tweet["text"][:40].replace(",", " ").replace("\n", " ")
