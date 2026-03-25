@@ -2,7 +2,7 @@
 name: x-schedule-post
 description: >
   Xの予約投稿スキル。投稿テキストを受け取り、7:30と18:30の2枠から次の空き枠を
-  自動判定し、browser-use CLI経由でブラウザを操作して予約投稿する。
+  自動判定し、Playwright CLI（pw）経由でブラウザを操作して予約投稿する。
   @ichi_eigo と @careermigaki の両アカウントに対応。アカウント切り替えも行う。
   「X投稿して」「予約投稿して」「ポストして」「ツイートして」「予約して」
   「次の空き枠に入れて」などのフレーズ、または投稿テキストを渡されて投稿を
@@ -10,17 +10,17 @@ description: >
   投稿テキストの生成だけでなく、ブラウザ操作による実際の予約投稿まで行う。
 ---
 
-# X 予約投稿スキル（Claude Code + browser-use CLI版）
+# X 予約投稿スキル（Claude Code + Playwright CLI版）
 
-XのWeb UIをbrowser-use CLI経由のブラウザ操作（Chromium）で直接操作し、
+XのWeb UIをPlaywright CLI（pw）経由のブラウザ操作（Chromium）で直接操作し、
 指定アカウントの次の空き枠（7:00 or 18:00 JST（@ichi_eigo）/ 7:30 or 18:30 JST（@careermigaki））に予約投稿する。
 
 ## 前提条件
 
-- `bu -s ichi-eigo` セッションが起動済みでXにログイン済みであること
-  - @ichi_eigo の操作: `bu -s ichi-eigo`
-  - @careermigaki の操作: `bu -s careermigaki`
-  - @one_ai_company の操作: `bu -s ichi-eigo`（OACはいち英語社の事業のため同セッションを使用）
+- `pw -s ichi-eigo` セッションが起動済みでXにログイン済みであること
+  - @ichi_eigo の操作: `pw -s ichi-eigo`
+  - @careermigaki の操作: `pw -s careermigaki`
+  - @one_ai_company の操作: `pw -s ichi-eigo`（OACはいち英語社の事業のため同セッションを使用）
 - タイムゾーンは JST（日本時間）
 
 ## 対象アカウント
@@ -44,9 +44,9 @@ TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %A'
 ```
 
 **B. ブラウザの準備**
-1. `bu -s ichi-eigo sessions` でセッション状態を確認
-2. `x.com` が開いていない場合は `bu -s ichi-eigo open "https://x.com/home"` で移動
-3. `bu -s ichi-eigo screenshot` でアカウント名（左サイドバー最下部）を確認
+1. `pw -s ichi-eigo sessions` でセッション状態を確認
+2. `x.com` が開いていない場合は `pw -s ichi-eigo open "https://x.com/home"` で移動
+3. `pw -s ichi-eigo screenshot` でアカウント名（左サイドバー最下部）を確認
 
 → アカウントが対象と異なる場合はStep 1でアカウント切り替えを行う。
 
@@ -57,9 +57,9 @@ TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %A'
 スクリーンショットで左サイドバー最下部のアカウント名を確認。
 対象アカウントでない場合:
 
-1. `bu -s ichi-eigo state` でインデックスを確認し、アカウント名の右の「…」を `bu -s ichi-eigo click INDEX` でクリック
+1. `pw -s ichi-eigo state` でインデックスを確認し、アカウント名の右の「…」を `pw -s ichi-eigo click INDEX` でクリック
 2. メニューから対象アカウントを選択
-3. `bu -s ichi-eigo screenshot` で確認
+3. `pw -s ichi-eigo screenshot` で確認
 
 ---
 
@@ -70,14 +70,14 @@ TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M %A'
 
 #### 2-1: 予約済み一覧を開く
 
-1. `bu -s ichi-eigo state` でインデックスを確認し、サイドバーの「ポストする」ボタンを `bu -s ichi-eigo click INDEX` でクリック → **空の**投稿作成モーダルが開く
+1. `pw -s ichi-eigo state` でインデックスを確認し、サイドバーの「ポストする」ボタンを `pw -s ichi-eigo click INDEX` でクリック → **空の**投稿作成モーダルが開く
 2. モーダル右上の「下書き」リンクをクリック（この時点でテキストエリアは空なのでダイアログは出ない）
 3. 「予約済み」タブをクリック → 予約済み一覧が表示される
 
 #### 2-2: 予約済みの日時を読み取る
 
-1. `bu -s ichi-eigo screenshot` で予約済み投稿の日時を確認
-2. 読み取れない場合は `bu -s ichi-eigo state` でページテキストを取得
+1. `pw -s ichi-eigo screenshot` で予約済み投稿の日時を確認
+2. 読み取れない場合は `pw -s ichi-eigo state` でページテキストを取得
 3. 日時の表示形式: 「2026年3月14日(土)の午前7:34に送信されます」
 
 #### 2-3: 空き枠の判定
@@ -114,7 +114,7 @@ Step 0で取得した現在時刻を使って計算:
 
 #### 2-5: 予約済み画面を閉じる
 
-`bu -s ichi-eigo state` でインデックスを確認し、「←」（戻るボタン）を `bu -s ichi-eigo click INDEX` でクリックしてホーム画面に戻る。
+`pw -s ichi-eigo state` でインデックスを確認し、「←」（戻るボタン）を `pw -s ichi-eigo click INDEX` でクリックしてホーム画面に戻る。
 （× で閉じてもOKだが、戻るボタンのほうが確実）
 
 ---
@@ -127,20 +127,20 @@ Step 0で取得した現在時刻を使って計算:
 （ホームページのインライン入力欄は不安定なため使わない）
 
 ```
-bu -s ichi-eigo open "https://x.com/compose/post"
+pw -s ichi-eigo open "https://x.com/compose/post"
 ```
 
-`bu -s ichi-eigo screenshot` で「いまどうしてる？」のモーダルが開いたことを確認。
+`pw -s ichi-eigo screenshot` で「いまどうしてる？」のモーダルが開いたことを確認。
 
 #### 3-2: テキストを入力する
 
-1. `bu -s ichi-eigo state` でテキストエリア（「いまどうしてる？」）のインデックスを確認し `bu -s ichi-eigo click INDEX` でフォーカス
-2. `bu -s ichi-eigo input INDEX "投稿テキスト"` でテキストを入力
+1. `pw -s ichi-eigo state` でテキストエリア（「いまどうしてる？」）のインデックスを確認し `pw -s ichi-eigo click INDEX` でフォーカス
+2. `pw -s ichi-eigo input INDEX "投稿テキスト"` でテキストを入力
 
 #### 3-3: テキスト入力を JavaScript で検証（必須）
 
 ```
-bu -s ichi-eigo eval "const editor = document.querySelector('[data-testid=\"tweetTextarea_0\"]'); JSON.stringify(editor ? editor.innerText : 'not found');"
+pw -s ichi-eigo eval "const editor = document.querySelector('[data-testid=\"tweetTextarea_0\"]'); JSON.stringify(editor ? editor.innerText : 'not found');"
 ```
 
 **確認ポイント**:
@@ -148,8 +148,8 @@ bu -s ichi-eigo eval "const editor = document.querySelector('[data-testid=\"twee
 - 改行が正しく入っているか
 
 もし最初の行が欠けていた場合:
-1. テキストエリアをクリック → `bu -s ichi-eigo eval "..."` でカーソルを先頭に移動
-2. 欠けている行を `bu -s ichi-eigo type "テキスト"` で入力し改行
+1. テキストエリアをクリック → `pw -s ichi-eigo eval "..."` でカーソルを先頭に移動
+2. 欠けている行を `pw -s ichi-eigo type "テキスト"` で入力し改行
 
 ---
 
@@ -157,40 +157,40 @@ bu -s ichi-eigo eval "const editor = document.querySelector('[data-testid=\"twee
 
 #### 4-1: スケジュールアイコンをクリック
 
-- `bu -s ichi-eigo state` でツールバーのスケジュールアイコン（カレンダー+時計）のインデックスを確認し `bu -s ichi-eigo click INDEX` でクリック
-- または `bu -s ichi-eigo state` で「ポストを予約」ボタンを探してクリック
+- `pw -s ichi-eigo state` でツールバーのスケジュールアイコン（カレンダー+時計）のインデックスを確認し `pw -s ichi-eigo click INDEX` でクリック
+- または `pw -s ichi-eigo state` で「ポストを予約」ボタンを探してクリック
 - 「予約設定」ダイアログが開く
 
 #### 4-2: 日時を設定する（⚠️ インデックスは設定直前に取得）
 
 **重要**: ドロップダウンのインデックスはページ状態が変わると変わる。
-必ず `bu -s ichi-eigo state` で設定直前に最新のインデックスを取得してから設定する。
+必ず `pw -s ichi-eigo state` で設定直前に最新のインデックスを取得してから設定する。
 
 ```
-bu -s ichi-eigo state
+pw -s ichi-eigo state
 ```
 
 取得したインデックスを使って設定:
-- 月のドロップダウン: `bu -s ichi-eigo input INDEX "3"`（デフォルトが正しければスキップ可）
-- **日のドロップダウン**: `bu -s ichi-eigo input INDEX "15"`
+- 月のドロップダウン: `pw -s ichi-eigo input INDEX "3"`（デフォルトが正しければスキップ可）
+- **日のドロップダウン**: `pw -s ichi-eigo input INDEX "15"`
 - 年のドロップダウン: デフォルトが正しければスキップ可
-- **時のドロップダウン**: `bu -s ichi-eigo input INDEX "18"`（0〜23 の文字列）
-- **分のドロップダウン**: `bu -s ichi-eigo input INDEX "30"`（`"0"`〜`"59"`）
+- **時のドロップダウン**: `pw -s ichi-eigo input INDEX "18"`（0〜23 の文字列）
+- **分のドロップダウン**: `pw -s ichi-eigo input INDEX "30"`（`"0"`〜`"59"`）
 
-`bu -s ichi-eigo screenshot` でタイムゾーンが「日本標準時」であることを確認。
+`pw -s ichi-eigo screenshot` でタイムゾーンが「日本標準時」であることを確認。
 
 #### 4-3: 予約を確定する（2段階）
 
-1. `bu -s ichi-eigo state` で「確認する」ボタンのインデックスを確認し `bu -s ichi-eigo click INDEX` でクリック → 投稿作成画面に戻る
-2. `bu -s ichi-eigo screenshot` で上部に「〇年〇月〇日(曜)の午前/午後〇:〇〇に送信されます」と青字で表示されることを確認
-3. `bu -s ichi-eigo state` で「予約設定」ボタンのインデックスを確認し `bu -s ichi-eigo click INDEX` でクリック
+1. `pw -s ichi-eigo state` で「確認する」ボタンのインデックスを確認し `pw -s ichi-eigo click INDEX` でクリック → 投稿作成画面に戻る
+2. `pw -s ichi-eigo screenshot` で上部に「〇年〇月〇日(曜)の午前/午後〇:〇〇に送信されます」と青字で表示されることを確認
+3. `pw -s ichi-eigo state` で「予約設定」ボタンのインデックスを確認し `pw -s ichi-eigo click INDEX` でクリック
 4. 予約済み一覧画面に遷移すれば予約完了
 
 ---
 
 ### Step 5: 完了報告
 
-`bu -s ichi-eigo screenshot` で予約済み一覧に新しい投稿が追加されたことを確認し、ユーザーに報告:
+`pw -s ichi-eigo screenshot` で予約済み一覧に新しい投稿が追加されたことを確認し、ユーザーに報告:
 
 ```
 ✅ 予約完了
@@ -206,32 +206,32 @@ bu -s ichi-eigo state
 - **テキスト入力は必ず `/compose/post` への直接ナビゲート後に行う**（ホームのインライン入力欄は不安定）
 - **予約済み確認は必ずテキスト入力前に行う**（下書き保存ループを防ぐ）
 - **テキスト入力後は JS で必ず内容を検証する**（最初の行が抜けるバグへの対策）
-- **ドロップダウンのインデックスは設定直前に `bu -s ichi-eigo state` で再取得する**（古いインデックスは無効になることがある）
-- 各操作の後はUIの反応を待つ（必要に応じて `bu -s ichi-eigo screenshot` で状態確認）
-- 想定外のUIの場合は `bu -s ichi-eigo screenshot` で確認して柔軟に対応
+- **ドロップダウンのインデックスは設定直前に `pw -s ichi-eigo state` で再取得する**（古いインデックスは無効になることがある）
+- 各操作の後はUIの反応を待つ（必要に応じて `pw -s ichi-eigo screenshot` で状態確認）
+- 想定外のUIの場合は `pw -s ichi-eigo screenshot` で確認して柔軟に対応
 - 複数投稿を一度に予約する場合は1件ずつ順番に処理する
-- @careermigaki の投稿は `bu -s careermigaki` セッションを使用する
+- @careermigaki の投稿は `pw -s careermigaki` セッションを使用する
 
 ---
 
-## browser-use CLI コマンド対応表
+## Playwright CLI（pw）コマンド対応表
 
-| 操作 | browser-use CLI コマンド |
+| 操作 | pw コマンド |
 |------|------------------------|
-| セッション状態確認 | `bu -s ichi-eigo sessions` |
-| URL移動・新しいタブ | `bu -s ichi-eigo open "URL"` |
-| スクリーンショット | `bu -s ichi-eigo screenshot` |
-| クリック | `bu -s ichi-eigo click INDEX` |
-| テキスト入力（type） | `bu -s ichi-eigo type "text"` |
-| フォーム入力 | `bu -s ichi-eigo input INDEX "text"` |
-| キー操作 / JS実行 | `bu -s ichi-eigo eval "JS"` |
-| インデックス探索・ページ状態 | `bu -s ichi-eigo state` |
-| JS実行 | `bu -s ichi-eigo eval "JS"` |
+| セッション状態確認 | `pw -s ichi-eigo sessions` |
+| URL移動・新しいタブ | `pw -s ichi-eigo open "URL"` |
+| スクリーンショット | `pw -s ichi-eigo screenshot` |
+| クリック | `pw -s ichi-eigo click INDEX` |
+| テキスト入力（type） | `pw -s ichi-eigo type "text"` |
+| フォーム入力 | `pw -s ichi-eigo input INDEX "text"` |
+| キー操作 / JS実行 | `pw -s ichi-eigo eval "JS"` |
+| インデックス探索・ページ状態 | `pw -s ichi-eigo state` |
+| JS実行 | `pw -s ichi-eigo eval "JS"` |
 
 **セッション使い分け**:
-- `@ichi_eigo`（英語コーチングラボ）: `bu -s ichi-eigo`
-- `@careermigaki`（キャリア磨き）: `bu -s careermigaki`
-- `@one_ai_company`（OAC、いち英語社の事業）: `bu -s ichi-eigo`
+- `@ichi_eigo`（英語コーチングラボ）: `pw -s ichi-eigo`
+- `@careermigaki`（キャリア磨き）: `pw -s careermigaki`
+- `@one_ai_company`（OAC、いち英語社の事業）: `pw -s ichi-eigo`
 
 ---
 
