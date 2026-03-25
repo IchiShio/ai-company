@@ -20,6 +20,7 @@
 
   var TOOLS = {
     listenup: { label: 'ListenUp', path: '/', icon: '\uD83C\uDFA7' },
+    wordsup:  { label: 'WordsUp', path: '/words/', icon: '\uD83D\uDCD6' },
     grammar:  { label: 'GrammarUp', path: '/grammar/', icon: '\uD83D\uDCDD' },
     kioku:    { label: '記憶しない英単語', path: '/kioku-shinai/', icon: '\uD83E\uDDE0' },
   };
@@ -197,6 +198,7 @@
 
   function detectCurrentTool() {
     var path = location.pathname;
+    if (path.indexOf('/words') === 0) return 'wordsup';
     if (path.indexOf('/grammar') === 0) return 'grammar';
     if (path.indexOf('/kioku-shinai') === 0) return 'kioku';
     return 'listenup';
