@@ -31,10 +31,8 @@ description: |
 
 @one_ai_company のX API認証情報を .env から読み込む:
 
-```bash
-source ~/projects/claude/ai-company/.env
-echo $OAC_X_BEARER_TOKEN
-```
+Readツールで `~/projects/claude/ai-company/.env` を読み、`OAC_X_BEARER_TOKEN=...` の行から値を取得する。
+`source` コマンドは使用しない（セキュリティ制限）。
 
 **必要なキー:**
 ```

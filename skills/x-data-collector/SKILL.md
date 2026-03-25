@@ -46,11 +46,9 @@ X_ACCESS_TOKEN_SECRET  # optional
 ```
 
 **取得方法（.env から読み込み）**:
-```bash
-# ai-company/.env に保存済み（1Password不要）
-source ~/projects/claude/ai-company/.env
-echo $X_BEARER_TOKEN
-```
+
+Readツールで `~/projects/claude/ai-company/.env` を読み、`X_BEARER_TOKEN=...` の行から値を取得する。
+`source` コマンドは使用しない（セキュリティ制限）。
 
 **Bearer Token が取得できない場合** → `~/projects/claude/ai-company/.env` の存在と内容を確認。
 

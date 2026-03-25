@@ -63,11 +63,11 @@ description: |
 
 ### 検査方法
 
-全テキストに対して以下の grep ベース検査を実行:
+全テキストに対して以下のキーワード検査を実行する。
+検査にはGrepツールを使うか、Claude自身がテキストを走査してチェックする（`echo | grep` パイプは使用しない）。
 
-```bash
-echo "{検査対象テキスト}" | grep -i -E "(ichi_eigo|native.real|native_real|careermigaki|IchiShio|ichishio|yusuke|Yusuke|/Users/yusuke|cm-bucho|cm-writer|cm-checker|cm-analyzer|cm-scheduler|x-bucho|x-writer|x-checker)"
-```
+**検査パターン（大文字小文字不問）:**
+`ichi_eigo`, `native.real`, `native_real`, `careermigaki`, `IchiShio`, `ichishio`, `yusuke`, `Yusuke`, `/Users/yusuke`, `cm-bucho`, `cm-writer`, `cm-checker`, `cm-analyzer`, `cm-scheduler`, `x-bucho`, `x-writer`, `x-checker`
 
 **1件でもヒットしたら即FAIL。例外なし。**
 

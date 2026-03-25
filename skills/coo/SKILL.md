@@ -76,14 +76,12 @@ curl -s http://127.0.0.1:3100/api/activity?companyId=92ed295c-352f-471e-b71b-833
 
 **Step 1: 状況確認（30秒）**
 
+投稿残数を確認（Readツールで各schedule.jsonを読み、`"posted"` が未設定の件数をカウント）:
+- `~/projects/claude/ai-company/x-knowledge/posts/schedule.json` → @ichi_eigo 残数
+- `~/projects/claude/careermigaki-ops/cm-knowledge/posts/schedule.json` → @careermigaki 残数
+- `~/projects/claude/ai-company/oac-knowledge/posts/schedule.json` → @one_ai_company 残数
+
 ```bash
-# 投稿残数を確認
-cat ~/projects/claude/ai-company/x-knowledge/posts/schedule.json | python3 -c "import sys,json;d=json.load(sys.stdin);print(f'@ichi_eigo 残: {sum(1 for x in d if not x.get(\"posted\"))}件')"
-cat ~/projects/claude/careermigaki-ops/cm-knowledge/posts/schedule.json | python3 -c "import sys,json;d=json.load(sys.stdin);print(f'@careermigaki 残: {sum(1 for x in d if not x.get(\"posted\"))}件')"
-
-# @one_ai_company 投稿残数を確認
-cat ~/projects/claude/ai-company/oac-knowledge/posts/schedule.json | python3 -c "import sys,json;d=json.load(sys.stdin);print(f'@one_ai_company 残: {sum(1 for x in d if not x.get(\"posted\"))}件')"
-
 # GitHub Actions 直近の実行結果
 gh run list --repo IchiShio/ai-company --workflow ichi-eigo-post.yml --limit 3
 gh run list --repo IchiShio/careermigaki-ops --workflow careermigaki-post.yml --limit 3
