@@ -12,6 +12,10 @@ GRAMMAR_VALID_FIELDS = {"diff", "axis", "tags", "stem", "ja", "answer", "choices
 VALID_AXES_GRAMMAR = {"form", "vocab", "logic", "tense", "trap"}
 VALID_TAGS = {"toeic", "eiken4", "eiken3", "eikenpre2", "eiken2", "eikenpre1", "juken"}
 
+# WordsUp quiz fields
+WORDS_VALID_FIELDS = {"diff", "axis", "word", "text", "ja", "answer", "choices", "expl"}
+VALID_AXES_WORDS = {"meaning", "phrase", "idiom", "nuance", "context"}
+
 
 def parse_response(raw, *, raise_on_error=True):
     """APIレスポンスの文字列を問題リストにパース・バリデーション
@@ -86,6 +90,43 @@ def parse_grammar_response(raw, *, raise_on_error=True):
         if not isinstance(q.get("choices"), list) or len(q["choices"]) != 5:
             continue
         if not isinstance(q.get("tags"), list):
+            continue
+        valid.append(q)
+    return valid
+
+
+def parse_words_response(raw, *, raise_on_error=True):
+    """WordsUp問題用パース・バリデーション"""
+    raw = raw.strip()
+    raw = re.sub(r'^```[a-z]*\n?', '', raw)
+    raw = re.sub(r'\n?```$', '', raw.strip())
+
+    try:
+        questions = json.loads(raw)
+    except json.JSONDecodeError:
+        last_obj_end = raw.rfind("},")
+        if last_obj_end > 0:
+            try:
+                questions = json.loads(raw[:last_obj_end + 1] + "\n]")
+                print(f"  WARNING: レスポンスが途中で切れたため {len(questions)} 問のみ取得")
+                return questions
+            except json.JSONDecodeError:
+                pass
+        if raise_on_error:
+            raise
+        return []
+
+    valid = []
+    for q in questions:
+        if not isinstance(q, dict):
+            continue
+        if WORDS_VALID_FIELDS - set(q.keys()):
+            continue
+        if q.get("diff") not in VALID_DIFFS:
+            continue
+        if q.get("axis") not in VALID_AXES_WORDS:
+            continue
+        if not isinstance(q.get("choices"), list) or len(q["choices"]) != 4:
             continue
         valid.append(q)
     return valid
