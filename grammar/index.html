@@ -1131,6 +1131,7 @@ function showLevelUpToast() {
 function next() { loadQ(); }
 
 function beginQuiz() {
+  try {
   document.getElementById('startScreen').classList.remove('active');
   document.getElementById('quizScreen').classList.add('active');
   document.getElementById('endSessionBtn').style.display = 'block';
@@ -1154,6 +1155,11 @@ function beginQuiz() {
   loadQ();
 
   try { gtag('event', 'quiz_start', { quiz_type: 'grammar', quiz_mode: quizMode }); } catch (_) {}
+  } catch (e) {
+    console.error('beginQuiz error:', e);
+    document.getElementById('qCounter').textContent = 'Error: ' + e.message;
+    document.getElementById('questionView').classList.add('show');
+  }
 }
 
 function endSession() {
