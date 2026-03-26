@@ -872,11 +872,18 @@ function loadQ() {
   document.getElementById('nextBtn').classList.remove('show');
 
   setTimeout(() => {
+    try {
     current = pickQuestion();
     if (!current) { current = DATA[Math.floor(Math.random() * DATA.length)]; }
     render();
     document.getElementById('loadingView').classList.remove('show');
     document.getElementById('questionView').classList.add('show');
+    } catch (e) {
+      console.error('loadQ error:', e);
+      document.getElementById('loadingView').classList.remove('show');
+      document.getElementById('questionView').classList.add('show');
+      document.getElementById('stemText').textContent = 'Error: ' + e.message;
+    }
   }, 300);
 }
 
