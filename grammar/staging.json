@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "diff": "lv1",
+    "axis": "tense",
+    "tags": [
+      "grammar",
+      "present progressive",
+      "ing",
+      "ongoing action"
+    ],
+    "stem": "Don't call her right now. She ___ a meeting with her clients at the moment.",
+    "ja": "今は彼女に電話しないで。彼女は今、クライアントとの会議中です。",
+    "answer": "is having",
+    "choices": [
+      "is having",
+      "has",
+      "was having",
+      "has had",
+      "will have"
+    ],
+    "expl": "「at the moment（今この瞬間）」は現在進行形のキーシグナルです。is + having で「今まさに行われている動作」を表します。",
+    "rule": "現在進行形",
+    "kp": [
+      "at the moment → 現在進行形 (is/am/are + -ing)",
+      "haveは「持つ」意味では進行形にしないが「会議を持つ」などのイベント的な意味では進行形にできる"
+    ]
+  },
+  {
+    "diff": "lv2",
+    "axis": "trap",
+    "tags": [
+      "grammar",
+      "little",
+      "few",
+      "quantifier",
+      "count",
+      "noncount"
+    ],
+    "stem": "There is ___ furniture in the new office, so it feels very empty.",
+    "ja": "新しいオフィスには家具がほとんどなく、とても殺風景に感じます。",
+    "answer": "little",
+    "choices": [
+      "little",
+      "few",
+      "a little",
+      "a few",
+      "some"
+    ],
+    "expl": "「furniture（家具）」は不可算名詞なので、「ほとんど〜ない」を表すには little を使います。few は可算名詞にしか使えません。",
+    "rule": "little/few の使い分け",
+    "kp": [
+      "little + 不可算名詞（furniture, water, time など）",
+      "few + 可算名詞の複数形（students, books など）"
+    ]
+  },
+  {
+    "diff": "lv4",
+    "axis": "logic",
+    "tags": [
+      "grammar",
+      "of whom",
+      "of which",
+      "relative pronoun",
+      "quantifier"
+    ],
+    "stem": "The director invited ten overseas researchers to the symposium, most ___ had published papers on artificial intelligence.",
+    "ja": "その部長はシンポジウムに海外の研究者を10名招待したが、そのほとんどが人工知能に関する論文を発表していた。",
+    "answer": "of whom",
+    "choices": [
+      "of whom",
+      "of which",
+      "of that",
+      "of who",
+      "of them"
+    ],
+    "expl": "先行詞が「ten overseas researchers（人）」であるため、most の後には「of whom」を使います。「of which」は物・概念を指す場合に使います。",
+    "rule": "most/many/some/both/none の後で人には of whom、物には of which",
+    "kp": [
+      "先行詞が人 → most/some/none of whom",
+      "先行詞が物・概念 → most/some/none of which"
+    ]
+  }
+]

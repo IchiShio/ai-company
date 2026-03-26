@@ -118,7 +118,7 @@ def run_add():
     result = subprocess.run(
         ["python3", "add_words.py"],
         cwd=REPO_ROOT,
-        capture_output=True, text=True, timeout=1800,  # 音声生成に時間がかかる
+        capture_output=True, text=True, timeout=7200,  # 音声生成に時間がかかる
     )
     if result.returncode != 0:
         log(f"add_words.py エラー: {result.stderr[:500]}")
