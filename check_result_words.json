@@ -1,71 +1,321 @@
 [
   {
     "index": 0,
-    "word": "grateful",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "不正解の選択肢「怒っている」「退屈している」「疲れている」はすべて感情語だが、感謝とは明らかに意味が異なり、かつ3択とも「ネガティブ/中立な感情」で揃っている。問題文に「really grateful for your help」とあり文脈も明確すぎる。lv1であることを考慮しても、選択肢のトーンが一方向（ネガティブ）に偏っており、消去法で容易に正解を特定できる。",
-        "fix": "ダミー選択肢に「満足している（satisfied）」「安心している（relieved）」など正の感情語を混ぜることで難度とバランスを改善する。"
-      }
-    ]
+    "word": "eager",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 1,
-    "word": "obvious",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "「難しい」と「曖昧な」はほぼ反意語的な位置付けで類似カテゴリ（否定的・難解）に偏っており、「面白い」だけが別のトーン。4択中3択が「明らかではない」系で揃っているため、残る「明らかな」が際立ちやすい。",
-        "fix": "「はっきりした」に近い語（evident, clear の訳語など）や「重要な」など中立的な選択肢を加えると消去法耐性が上がる。"
-      }
-    ]
+    "word": "keep up with",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 2,
-    "word": "hesitate",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "「拒否する（refuse）」は厳格には正解ではないが、「Don't hesitate to ask」の文脈で hesitate を「拒否する」と誤読した場合だけでなく、意味的に「ためらう」と「拒否する」は行動抑制という点で近接しており、lv1学習者が混同しやすい。より深刻なのは、選択肢として並べることで「refuse≒hesitate」という誤った印象を与えるリスクがある点。",
-        "fix": "「拒否する」を「心配する」や「準備する」など意味的に遠い語に差し替える。"
-      },
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "「急ぐ」「忘れる」「拒否する」は互いに意味のカテゴリが分散しており統一感がない。「ためらう」だけが行動の迷い・躊躇を表す語として際立つ。",
-        "fix": "「迷う」「考える」など躊躇に近いカテゴリの語をダミーに加えることで問題の質を高める。"
-      }
-    ]
+    "word": "let the cat out of the bag",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 3,
-    "word": "curious",
+    "word": "big / large",
     "status": "FAIL",
     "issues": [
       {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "「慎重な（careful/cautious）」は curious とは異なるが、「物事の仕組みに慎重に向き合う」という文脈解釈を無理やりすれば一部の学習者が迷う可能性がある。厳密には正解にはならないが、lv1では紛らわしい。",
-        "fix": "「慎重な」を「嬉しい」や「悲しい」など感情語に差し替えると誤読の余地が減る。"
+        "check": "accuracy",
+        "severity": "FAIL",
+        "detail": "explの「bigは比喩的ニュアンス、largeは純粋に物理的・数量的」という説明は過度に単純化されており不正確。bigも物理的な大きさに頻繁に使われる（例: a big box, a big building）。正確には「bigは重要性・感情的強調・インパクトを伴うカジュアルな語、largeは客観的・数量的な大きさを表すフォーマルな語」という区別が適切。",
+        "fix": "big は日常的・感情的な強調（重要性・インパクト）に使われることが多く、large は客観的・数量的・フォーマルな文脈で物理的な大きさを表す傾向がある。a big heart のような比喩表現には big のみ使えるが、物理的文脈では両者が使われうる点を補足すること。"
       },
       {
-        "check": "elimination",
+        "check": "multi_answer",
         "severity": "WARN",
-        "detail": "「怠惰な」「無関心な」が反意語的、「慎重な」が中立語、「好奇心のある」が正解と、構造が透けやすい。特に「無関心な」は curious の直接的な反意語であり、セットとして正解を浮かび上がらせる。",
-        "fix": "「無関心な」を別の語（「明るい」「疲れた」など）に変え、反意語ペアの露出を避ける。"
+        "detail": "正解選択肢「bigは比喩的な重要性、largeは物理的な大きさ」はこの文の用法を適切に説明しているが、bigが物理的文脈でも使われることを踏まえると、説明の範囲が狭すぎてニュアンス問題として不完全。選択肢の誤答は明確に誤っており問題ないが、正解記述自体の精度が低い。",
+        "fix": "正解の選択肢を「bigは感情的・比喩的な強調、largeは客観的・数量的な大きさ」などより正確な表現に修正することを推奨。"
       }
     ]
   },
   {
     "index": 4,
-    "word": "afford",
+    "word": "fair",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢が「公平な」「晴れの」「かなりの」「色白の」と fair の辞書的多義語リストをそのまま並べており、文脈（trial/裁判）を確認しなくても語義問題ではなく文脈問題（axis: context）の構造上、消去法が問題となるかは低いが、4選択肢すべてが fair の実際の語義であるため、問題文を読まずとも「この問題は fair の多義語選択問題だ」と分かってしまい、文脈から絞る学習効果が薄れる恐れがある。ただしこれはaxis:contextの意図的設計の可能性もあり、WARNとして記録。",
+        "fix": "context問題として機能させるため、不正解選択肢に fair の語義ではない紛らわしい概念（例:「合法的な」「妥当な」など）を含めるか、問題文から明確に排除できる文脈的手がかりを強調する設計を推奨。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「晴れ渡った天気の」「肌の色が白い」はtrialという法廷文脈で明らかに場違いであり、2択まで絞られやすい。「かなり多くの量の」も主語なしで形容詞単体では文に当てはまりにくく、実質的に「公平な」が残りやすい構造になっている。",
+        "fix": "不正解選択肢を「厳格な・厳しい」「合理的な・妥当な」などtrialと共起しうる形容詞に入れ替え、消去法を困難にする。"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "word": "tidy",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "不正解選択肢「清潔で衛生的な」は、部屋をtidyに保つという文脈においてcleanと意味が近く、実際の場面では「部屋を清潔に保つ」も「お客さんが快適に過ごせる」理由として成立しうる。explでもcleanとの違いを明示しているが、選択肢として紛れ込ませることで「清潔で衛生的な」が正解と判断される可能性がある。厳格基準では「場合によっては正解」に該当する。",
+        "fix": "「清潔で衛生的な」を「豪華で立派な」や「明るくカラフルな」など tidy と意味的に重なりにくい選択肢に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "word": "comply",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 7,
+    "word": "account for",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "不正解選択肢「〜の原因を追究する」は account for の別義「〜の原因を説明する・〜の原因となる」と意味が近く、厳格基準では正解に近い選択肢として問題となる。account for は「〜の原因となる」(e.g. Stress accounts for many health problems)の用法が確立しており、「原因を追究する」は若干ニュアンスがずれているが、学習者が混同しやすい。",
+        "fix": "「〜の原因を追究する」を「〜について謝罪する」や「〜を帳簿に記録する」など account for の実際の語義から遠い選択肢に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「〜の原因となる」と「〜を説明する」を account for の別義として正しく列挙しているが、不正解選択肢「〜の原因を追究する」がこれらと混同されうる点についての注釈がなく、学習者に誤解を与える可能性がある。",
+        "fix": "explに「『原因を追究する』ではなく『原因となる・説明する』が正しい語義」と補足する。"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "word": "pull someone's leg",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 9,
+    "word": "speak / talk",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "FAIL",
+        "detail": "「speakは一方的な発話、talkは双方向の会話」という説明は傾向として正しいが、絶対的な規則として提示するのは不正確。speak も双方向の会話で使われる（例: We spoke about the issue, speak with someone）。また talk も一方向的な文脈で使われることがある（例: talk to the audience）。explおよび正解選択肢の表現が過度に二項対立的で誤解を招く。",
+        "fix": "「speakは講演・公式発言など一方向性が強い文脈でよく使われ、talkは日常的な双方向のやりとりを含意することが多い」という傾向の説明に修正し、絶対的な規則として提示しない。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "不正解選択肢「speakは非公式、talkは公式な場面で使う」はspeakとtalkの実際の使われ方と逆であり、これ自体は問題ないが、正解の説明が不正確なため正解・不正解の境界線が曖昧になっている。",
+        "fix": "正解説明の精度を上げた上で、不正解選択肢の「非公式/公式」の逆転が明確に誤りと判断できるようにする。"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "word": "check",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 11,
+    "word": "vague",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "不正解選択肢「遠回しで丁寧な表現の」は、vague な話し方が間接的・遠回しに見える場合があり、学習者によっては文脈から「遠回しで丁寧」と解釈する可能性がある。ただし vague の辞書的定義とは明確に異なるため FAILではなくWARNとする。",
+        "fix": "「遠回しで丁寧な」を「論理的で一貫した」などvagueと混同されにくい選択肢に変更することを推奨。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「ambiguous（多義的に解釈できる）とは異なり」と対比しているが、実際には vague と ambiguous はしばしば混用されており、両者の境界は文脈依存。「単純に不明瞭」と断定するのはやや過単純化。",
+        "fix": "「ambiguousは複数の解釈が成立する多義性を指すのに対し、vagueは情報が不十分で意味が掴みにくい状態を指すことが多い」と補足し、断定を避ける表現にする。"
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "word": "bring up",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 13,
+    "word": "hit a wall",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "不正解選択肢「大きな困難に正面から立ち向かう」は、「壁にぶつかる」というイメージから連想されやすく、学習者が正解と混同する可能性がある。意味は異なるが、文脈（80時間週労働後に何かに直面する）から「困難に立ち向かう」も一応成立しうると感じる学習者がいうる。厳格基準でのWARN。",
+        "fix": "「大きな困難に正面から立ち向かう」を「急に仕事への意欲を失う」など hit a wall の「限界・停滞」ではなく積極的行動を示す別の選択肢に差し替えることで混同を防ぐ。"
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "word": "concise",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "不正解選択肢「専門用語を避けた平易な」は plain / simple に対応する概念だが、レポートを「簡潔にする」という指示が「平易にする」と近い目的として捉えられうる。厳格基準では文脈から「平易な」も編集指示として一定の説得力を持つ。",
+        "fix": "「専門用語を避けた平易な」を「感情に訴えかける印象的な」や「網羅的で抜け漏れのない」などconciseの意図と明確に対立する選択肢に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「brief（短い）より『情報量は保ちつつ無駄がない』というポジティブなニュアンスがある」と説明しているが、brief 自体も必ずしも否定的ではなく、concise との違いは「情報の密度」より「焦点の絞り方」にある。brief は単に短さを強調し、concise は簡潔さの中に必要情報が凝縮されている点が核心。",
+        "fix": "「brief は単純に短いことを指し、concise は必要な情報を漏らさず無駄を省いた状態を指す。brief はやや中立的でconciseはポジティブなニュアンスを持つことが多い」と整理して記述する。"
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "word": "draw on",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 16,
+    "word": "convince / persuade",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "convince / persuade の区別は実際にはより複雑。現代英語では convince someone to do something も広く使われており（特に米語）、「convinceは信念、persuadeは行動」という区別は伝統的な規範文法上の説明であり、絶対的な区別ではない。説明が断定的すぎる。",
+        "fix": "explに「伝統的・規範的な区別としては〜」と補足するか、「convince to doも現代英語では一般的に使われるが、この問題ではclassicな使い分けを問う」と注記する。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "選択肢「convinceもpersuadeも完全に同じ意味で使える」は明らかに誤りだが、「convinceは感情的、persuadeは論理的」という選択肢は一部の文脈・用法解説で見られる説明に近く、混乱を招く可能性がある。ただし辞書的には正解とは言えないため、FAILには至らない。",
+        "fix": "「convinceは感情的、persuadeは論理的」という選択肢のニュアンスをより明確に誤りと分かるよう調整する（例：「convinceは感情的訴え、persuadeは脅しによる説得」など）。"
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "word": "yield",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢「農作物を収穫する」「車が歩行者に道を譲る」は、問題文の文脈（negotiations / agreement）と明らかにカテゴリが異なる具体的・物理的場面の選択肢であり、問題文を読まなくても消去できる。「圧力に屈して諦める」もyieldの別義として知られているが、残り2つが場違いすぎるため3択→1択に絞られやすい。",
+        "fix": "不正解の選択肢をすべて抽象的・ビジネス的文脈に統一する。例：「交渉を中断・停止する」「相手の要求に全面的に譲歩する」「問題を先送りにする」など。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が 'context' となっており、文脈からyieldの多義的意味を判断させる問題として設計されている点は妥当。ただし選択肢の設計不備（eliminationの問題）により、contextの判断よりも消去法が機能してしまっている。",
+        "fix": "選択肢を修正し、context判断が実際に機能するよう調整する。"
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "word": "sit on the fence",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「議論の中心から外れて傍観する」は、sit on the fenceの意味（どちらの側にも属さず傍観する）と意味的に非常に近く、正解として成立し得る。「傍観する」はsit on the fenceの本質的要素の一つであり、誤答として機能しない可能性が高い。",
+        "fix": "「議論の中心から外れて傍観する」を別の選択肢に差し替える。例：「相手の意見を聞き入れて妥協する」や「多数派の意見に同調する」など。"
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "word": "forthcoming",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「まもなく公開される予定の」はforthcomingの辞書的第一義（近く起こる・公開予定の）であり、正解として完全に成立する。explでも「近く起こる・公開される」という意味があると明記されており、不正解選択肢に正解が含まれている。",
+        "fix": "この問題はforthcomingの「人を主語にした場合の意味」を問う問題として設計されているため、選択肢「まもなく公開される予定の」を別の誤答に差し替える。例：「高圧的で威圧的な態度をとる」など。あるいは問題文・設問を『この文脈でのforthcomingの意味として最も適切なものを選べ』と明示し、axis を 'context' に変更することも検討する。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が 'meaning' だが、forthcomingは多義語であり文脈によって意味が変わる。この問題は文脈判断（context）の要素が強く、axis='context' の方が適切かもしれない。",
+        "fix": "axis を 'context' に変更するか、選択肢から辞書的な別義を除外してpure meaningの問題として再設計する。"
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "word": "fall through",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 21,
+    "word": "perfunctory",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 22,
+    "word": "infer / imply",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 23,
+    "word": "throw down the gauntlet",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "選択肢「業界全体に警告を発する」はthrow down the gauntletの意味（挑戦・宣戦布告）と方向性が近く、「挑発的な宣言をする」という点で混同しやすいが、正解との差異は十分ある。一方「競争相手との和解を求める」「計画を突然撤回して退く」は文脈（スタートアップが新製品を発表して既存大手に挑む）と明らかに逆方向であり、消去しやすい。3択→1択に絞られるリスクがやや高い。",
+        "fix": "「競争相手との和解を求める」を「業界標準への適合を表明する」などに変更し、消去しにくくする。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "語源説明は概ね正確だが、gauntletは「鉄手袋」ではなく「（主に金属製の）篭手・手甲」を指す。中世の決闘申込の文脈では革または金属製の手袋全般を指すため、「鉄手袋」と断定するのはやや不正確。",
+        "fix": "「鉄手袋（gauntlet）」を「篭手・手袋（gauntlet）」または単に「手袋（gauntlet）」に修正する。"
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "word": "hedge",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢「庭の生け垣を手入れする」は、ビジネス・対話の文脈（CEO / lay off workers）と明らかにカテゴリが異なる物理的行為であり、問題文を読まなくても即座に消去できる。これにより実質3択となり問題の難度・公正性が損なわれる。",
+        "fix": "「庭の生け垣を手入れする」を文脈に即した誤答に差し替える。例：「相手の発言を遮って強く否定する」や「回答を完全に拒否する」など。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「詳細な情報を意図的に隠す」はhedgeの意味（言葉を濁す）と部分的に重なる可能性がある。hedgeは情報を隠すというより「曖昧にする・断言を避ける」であり、「隠す」とは厳密には異なるが、学習者には区別しにくい可能性がある。",
+        "fix": "「詳細な情報を意図的に隠す」を「相手の質問に対して強く反論する」など、より明確に異なる選択肢に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "word": "tendentious",
     "status": "PASS",
     "issues": []
   }
