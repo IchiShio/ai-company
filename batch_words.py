@@ -53,7 +53,7 @@ def run_generate(count, model="claude-sonnet-4-6"):
     result = subprocess.run(
         ["python3", "generate_words.py", "--count", str(count), "--model", model],
         cwd=REPO_ROOT,
-        capture_output=True, text=True, timeout=600,
+        capture_output=True, text=True, timeout=3600,
     )
     if result.returncode != 0:
         log(f"生成エラー: {result.stderr[:500]}")
@@ -69,7 +69,7 @@ def run_check():
     result = subprocess.run(
         ["python3", "check_questions.py", "--type", "words"],
         cwd=REPO_ROOT,
-        capture_output=True, text=True, timeout=600,
+        capture_output=True, text=True, timeout=3600,
     )
     print(result.stdout[-1000:] if len(result.stdout) > 1000 else result.stdout)
 
