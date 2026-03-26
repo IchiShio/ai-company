@@ -126,14 +126,24 @@ def generate_audio(questions, start_num):
             print(f"  [{i+1}/{len(questions)}] SKIP {filename} (exists)")
             continue
 
-        result = subprocess.run(
-            ["edge-tts", "--voice", voice, "--text", q["text"], "--write-media", str(filepath)],
-            capture_output=True, text=True, timeout=30,
-        )
-        if result.returncode != 0:
-            print(f"  [{i+1}/{len(questions)}] ERROR {filename}: {result.stderr[:100]}")
-        else:
-            print(f"  [{i+1}/{len(questions)}] OK {filename} ({voice})")
+        for attempt in range(3):
+            try:
+                result = subprocess.run(
+                    ["edge-tts", "--voice", voice, "--text", q["text"], "--write-media", str(filepath)],
+                    capture_output=True, text=True, timeout=60,
+                )
+                if result.returncode == 0:
+                    print(f"  [{i+1}/{len(questions)}] OK {filename} ({voice})")
+                    break
+                else:
+                    print(f"  [{i+1}/{len(questions)}] ERROR {filename}: {result.stderr[:100]}")
+                    break
+            except subprocess.TimeoutExpired:
+                if attempt < 2:
+                    print(f"  [{i+1}/{len(questions)}] TIMEOUT {filename}, retry {attempt+2}/3...")
+                    import time; time.sleep(2)
+                else:
+                    print(f"  [{i+1}/{len(questions)}] TIMEOUT {filename} (skipped after 3 attempts)")
 
     return questions
 
