@@ -1,120 +1,120 @@
 [
   {
     "index": 0,
-    "word": "nervous",
+    "word": "generous",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 1,
-    "word": "give up",
+    "word": "find out",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 2,
-    "word": "once in a blue moon",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "「blue moon は非常に珍しい満月を指す」という説明はやや不正確。blue moon の一般的な定義は「1ヶ月に2回目の満月」または「1つの季節に4回満月がある場合の3番目の満月」であり、「珍しい満月」という曖昧な説明は辞書的精度に欠ける。",
-        "fix": "「blue moon とは同一暦月内に2回目の満月が起きる稀な現象を指し、そこから稀少性を表すイディオムになった」と修正する。"
-      }
-    ]
+    "word": "hit the books",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 3,
-    "word": "big / large",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "「bigは感情的な大きさ、largeは物理的・数量的な大きさ」という区別は単純化しすぎており不正確。big も物理的サイズに用いられる（例: a big house, a big dog）。またlargeも感情的・比喩的文脈で使われる場合がある（例: larger than life）。正確には「big は口語的・主観的・感情的含意を持ちやすい」「large はより客観的・フォーマル・数量的文脈に多い」という傾向の違いである。",
-        "fix": "「bigは口語的で感情的・主観的なニュアンスを伴いやすく、largeはより客観的・フォーマルな文脈や数量・規模の表現に使われやすい」と修正し、どちらも物理的サイズに使えることを明記する。"
-      },
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「bigは人に、largeは物にのみ使う表現」は明確に誤りなので問題ないが、正解選択肢の表現「bigは感情的な大きさ、largeは物理的・数量的な大きさ」自体が不正確なため、学習者に誤った知識を与えるリスクがある。",
-        "fix": "正解選択肢の表現を正確な記述に改める（accuracyの修正提案に準拠）。"
-      }
-    ]
-  },
-  {
-    "index": 4,
-    "word": "cool",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「相手に対して冷淡で無関心な態度」は、文脈によっては cool の意味として成立しうる（例: She was cool toward him. = 彼女は彼に冷たかった）。本問の文脈（crisis + guided the team）では「冷静」が正解だが、「冷淡・よそよそしい」も cool の辞書的意味であり不正解選択肢として置くには紛らわしい。",
-        "fix": "「冷淡で無関心な態度」の選択肢を、cool とは全く関係のない意味（例: 「興奮して行動的な状態」）に差し替える。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「涼しいという温度の意味が基本」とあるが、cool の基本義は「涼しい（温度）」で正しい一方、「冷静な」以外にも「かっこいい（スラング）」「冷淡な」など主要な意味への言及がない。選択肢に「流行に乗っておしゃれな様子」があるにも関わらずexplで触れておらず、学習者の混乱を招く可能性がある。",
-        "fix": "explに「口語では『かっこいい・いかした』の意味もあるが、本文では stay cool の形で『冷静を保つ』の意味で使われている」と補足する。"
-      }
-    ]
-  },
-  {
-    "index": 5,
-    "word": "admire",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 6,
-    "word": "adequate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 7,
-    "word": "take on",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 8,
-    "word": "spill the beans",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 9,
-    "word": "see / meet",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "「seeは既知の人に会う、meetは初対面や正式な場に使う」という説明は過度な単純化であり不正確。meet は初対面だけでなく「約束して会う・集まる」（例: Let's meet for lunch.）にも広く使われる。また see も「診察を受ける（see a doctor）」では初対面の医師にも使える。正解の選択肢と解説が実際の用法を正確に反映していない。",
-        "fix": "explを「meet は初対面の紹介や正式な面会、または約束して会う場面で使う。see は顔見知りや定期的に会う人との面会に使われることが多いが、see a doctor のように職業的・機能的な訪問にも用いる」と修正し、正解選択肢の表現も「seeは継続的・日常的な面会、meetは初対面・正式・約束の場面に使いやすい」と調整する。"
-      },
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「どちらも全く同じ意味で文脈を問わず置き換え可能」は明確に誤りだが、nuance問題で「完全に同一」という選択肢は消去法で容易に除外できる定番の罠選択肢であり、問題の弁別力を下げる可能性がある。",
-        "fix": "「どちらも同じ意味で置き換え可能」の選択肢を、より紛らわしい誤った区別（例: 「seeは視覚的に見る場合、meetは物理的な接触がある場合に使う」）に差し替えることを検討する。"
-      }
-    ]
-  },
-  {
-    "index": 10,
-    "word": "firm",
+    "word": "say / tell",
     "status": "FAIL",
     "issues": [
       {
         "check": "elimination",
         "severity": "WARN",
-        "detail": "選択肢「会社や組織を指す名詞」は品詞が名詞であり、他の3択（形容詞的な意味の説明）と品詞カテゴリが異なる。問題文の remained firm は明らかに形容詞用法のため、名詞選択肢は品詞だけで消去できてしまう可能性がある。ただし日本語の選択肢表現では品詞情報が明示的でないため影響は限定的。",
-        "fix": "「会社や組織を指す名詞」を、形容詞としての別の意味（例: 「物体が硬くて変形しない状態」は既にあるので「決断を急かすように強引な様子」など）に差し替えることを検討する。"
+        "detail": "選択肢3「両者はまったく同じ意味で互換的に使える」と選択肢4「say は『書く』、tell は『読む』」は明らかに誤りであることが常識的に判断でき、問題文を見ずに消去できる。選択肢の質に差がありすぎる。",
+        "fix": "「say は過去形が said、tell は told になる」「say は感情表現に使い、tell は事実伝達に使う」など、もっともらしい誤答に差し替えることで消去法を防ぐ。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「say to someone とはなるが」と記述しているが、'say to someone' は正しい用法である一方、この表現だけでは say の用法の全体像が不十分。また tell の用法説明で 'tell someone something' を基本形と述べているが、tell someone to do（命令・指示）も基本用法であり、nuance問題として重要な観点が欠けている。",
+        "fix": "tell someone to do（指示・命令）の用法にも触れ、say と tell の対比をより網羅的に説明する。"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "word": "flat",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「音程が低すぎる」は、音楽用語として flat の正当な意味（半音低い・音程が低すぎる）であり、文脈外では正解として成立する。axis が 'context' であるため文脈依存の正解を問う問題だが、他の選択肢（「平らで凹凸がない」「値段が一律・均一の」）も flat の正当な意味であり、問題文を見れば文脈上の正解は絞れるものの、複数の選択肢が辞書的には正解になりうる。",
+        "fix": "axis が 'context' であることを活かし、問題文で beer の文脈を問うていることを明確にするか、他の選択肢を flat の意味ではないものに変更する。例：「怒りっぽく興奮した」「柔らかくふわふわした」など。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "4択のうち「炭酸が抜けた」「平らで凹凸がない」「値段が一律」「音程が低すぎる」はすべて flat の実際の意味であり、消去法は機能しない。これ自体は context 問題として適切だが、文脈を正確に読まないと誤答選択肢も正解に見えるリスクがある。",
+        "fix": "特に問題なし（multi_answer の修正と合わせて対処）。"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "word": "confident",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 6,
+    "word": "persistent",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「問題が『persistent problem（なかなか解決しない問題）』のように否定的な文脈にも使われることがある」と述べているが、これはやや不正確。persistent は中立的な語であり、肯定・否定どちらの文脈にも使われる。「否定的な文脈にも使われることがある」という表現は、あたかも否定的用法が例外的であるかのように誤解させる可能性がある。",
+        "fix": "「persistent は文脈によって肯定的（粘り強い）にも否定的（しつこい、なかなか消えない）にもなり得る中立的な語である」と説明を改める。"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "word": "catch up on",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 8,
+    "word": "on the tip of my tongue",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 9,
+    "word": "quick / fast",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "正解「quick は『反応・理解が速い』、fast は『動きのスピードが速い』」は概ね正確だが、実際には quick も物理的速さに使われる場合がある（a quick movement, quick steps など）。また fast も「quick learner」ほど自然ではないが文脈によっては使われることがあり、「常に入れ替え不可能」と断言するのは過剰。ただし選択肢3「完全に同義で常に入れ替え可能」は明確に誤りなので不正解として機能する。",
+        "fix": "explで「quick は知的・反応的な速さに多用されるが、物理動作にも用いられる場合がある」と補足し、ニュアンス差を過剰に単純化しないよう調整する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「a quick decision は『素早い決断』だが a fast decision とはあまり言わない」と述べているが、これは概ね正しいものの、quick と fast の違いを「知的・動作的な敏速さ vs 移動スピード」と二分するのはやや単純化しすぎ。fast worker（仕事が速い人）のように fast が知的・作業的速さにも使われる例があり、説明の精度が不十分。",
+        "fix": "「fast は主に物理的移動速度に使われるが、fast worker のように作業速度にも用いられる。quick は特に知的反応・判断の速さに多く使われる」と説明を補強する。"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "word": "present",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「贈り物として渡す」は present の動詞用法として辞書的に正しい意味（present someone with something / present a gift）。文脈では「CEOが取締役会に戦略を発表する」なので文脈上の正解は「発表する・提示する」だが、axis が 'context' であるため文脈から判断すべき問題であり、選択肢「贈り物として渡す」も present の正当な動詞義として成立してしまう。present A to B の構造は「発表」にも「贈呈」にも使えるため、選択肢として紛らわしい。",
+        "fix": "「贈り物として渡す」を present の名詞的意味「贈り物（名詞）」を示す選択肢に変更するか（例：「子供向けのプレゼント」）、または文脈をより明確にして動詞「発表」と「贈呈」の区別が文脈から自明になるよう調整する。"
       }
     ]
   },
@@ -126,822 +126,316 @@
   },
   {
     "index": 12,
-    "word": "come up with",
+    "word": "follow up on",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 13,
-    "word": "clarify",
+    "word": "burn the midnight oil",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 14,
-    "word": "deter",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 15,
-    "word": "account for",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 16,
-    "word": "go back to the drawing board",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 17,
-    "word": "persuade / convince",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "explの説明「行動まで至るかどうかがポイント」はconvinceとpersuadeの区別として不正確。convinceも行動につながる用法（convince A to do）があり、実際に両語は口語では混用される。正確な区別は「convince = 認知・信念の変化（that節が典型）」「persuade = 行動への働きかけ（to不定詞が典型）」であるが、説明の「行動まで至るかどうか」というフレーミングが誤解を招く。現代英語ではconvince A to doも広く使われており、「行動に至るかどうか」を決定的な差と断言するのは不正確。",
-        "fix": "「convince は信念・判断を変えること（convince A that ... が典型形）、persuade は行動させること（persuade A to do が典型形）に焦点がある。ただし現代英語ではconvince A to doも広く用いられるため、厳密な区別は形式面（that節 vs. to不定詞）で示すとよい。」と修正する。"
-      }
-    ]
-  },
-  {
-    "index": 18,
-    "word": "bear",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 19,
-    "word": "consolidate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 20,
-    "word": "preclude",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 21,
-    "word": "hedge one's bets",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "axis_match",
-        "severity": "FAIL",
-        "detail": "axis が 'phrase' となっているが、'hedge one's bets' は慣用的意味が文字通りの意味から大きく転じたイディオムであり、'idiom' に分類するのが適切。phraseは比較的文字通りの意味に近い句表現に用いるべきで、このような比喩的慣用句はidiomが正しい。",
-        "fix": "axis を 'phrase' から 'idiom' に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 22,
-    "word": "infamous / notorious",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "問題文でinfamousを「extreme weather（極端な気象）」に使っているが、explでは「infamousは道徳的に悪い・恥ずべき」と説明している。自然現象である極端な気象は道徳的評価の対象ではなく、infamousをextreme weatherに用いるのはやや不自然で説明と矛盾する。また正解選択肢「infamousは道徳的に悪い、notoriousは広く知れ渡った悪評」はinfamousの特徴を強調しすぎており、notoriousも道徳的な悪評を含む点でニュアンス差の説明が単純化されすぎている。実際にはnotoriousも否定的な道徳評価を伴う場合が多く、両者の差は程度・焦点の違いに過ぎない。",
-        "fix": "問題文のinfamousの用例をextreme weatherではなく人・組織・行為（例：a dictator, a corrupt organization）に変更する。またexplとanswerのニュアンス説明を「notoriousは（悪い事実が）広く知れ渡っていることに焦点、infamousは道徳的非難・恥ずべき評判の強調に焦点」と整理し、両者とも否定的文脈で使われる点を補足する。"
-      },
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "正解「infamousは道徳的に悪い、notoriousは広く知れ渡った悪評」と不正解「どちらも同じ意味で文体の違いにすぎない」について、実際には両語は非常に近い意味を持ち学術的には用法の重複が指摘されているため、「文体の違いにすぎない」が「ほぼ正解に近い」と判断される学習者がいる可能性がある。完全な誤りとは言い切れない面がある。",
-        "fix": "不正解選択肢「どちらも同じ意味で文体の違いにすぎない」を「infamousは過去の出来事に、notoriousは現在進行中の評判に使う」など明確に誤った内容に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 23,
-    "word": "read between the lines",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 24,
-    "word": "liminal",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 25,
-    "word": "anxious",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explがanxiousの「anxious to do（〜したくてたまらない）」という重要な用法（eagerness/desire の意味）に触れていない。anxiousには「不安な」以外に「切望している」という肯定的ニュアンスの用法があり、lv1レベルの説明としても基本的な多義性の補足があると望ましい。",
-        "fix": "explに「なお anxious to do の形では『〜したくてたまらない・熱望している』という意味になる場合もある」と補足を加える。"
-      }
-    ]
-  },
-  {
-    "index": 26,
-    "word": "give in",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 27,
-    "word": "cost an arm and a leg",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 28,
-    "word": "lend / borrow ではなく rent / hire",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "axis_match",
-        "severity": "FAIL",
-        "detail": "axis が 'nuance' となっているが、問題文・正解・expl はすべて rent という単語の文脈適切な意味を問うており、'context'（多義語の文脈による意味判別）が正確な分類である。nuanceはrent/hireの微妙な使い分けを問う場合に適切だが、本問はrентの「料金を払って借りる」という意味そのものを文脈から選ばせる問題であり、context軸が適切。",
-        "fix": "axis を 'nuance' から 'context' に変更する。あわせてwordフィールドも 'lend / borrow ではなく rent / hire' から 'rent' に整理することを推奨。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「rent は金銭を支払って物を一時的に借りる（または貸す）」と説明しているが、hire（英国英語で人や乗り物を短期で借りる）との使い分けに触れていない。wordフィールドに'hire'が含まれているにもかかわらず説明がrentのみに終始しており、問題タイトルと説明の整合性が欠ける。",
-        "fix": "wordとexplをrentに統一するか、explにhireとの違い（hire＝主に英国英語で乗り物・人を短期で借りる）を補足する。"
-      }
-    ]
-  },
-  {
-    "index": 29,
-    "word": "fine",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "選択肢「良好な状態や品質」「細かくて精巧な作り」「天気が晴れている状態」の3択はいずれもfineの形容詞的意味であり、正解「法的に科される罰金」だけが名詞用法で明らかにカテゴリが異なる。問題文を読まずとも「3つが同じ方向（形容詞の意味）で1つだけ異なる（名詞の意味）」という構造から正解を消去法で特定できてしまう。文脈理解を測る問題として機能していない。",
-        "fix": "不正解選択肢をfineの名詞・動詞的な文脈と紛らわしいものに変更する。例：「警告として口頭で注意を与えること」「ルール違反者を一時的に活動停止にすること」「損害賠償として民事的に支払う金銭」など、同じ「制裁・法的措置」カテゴリの選択肢に差し替えて識別を難しくする。"
-      }
-    ]
-  },
-  {
-    "index": 30,
-    "word": "demand",
+    "word": "stringent",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "WARN",
-        "detail": "選択肢「仕事の厳しい条件や要件」は demand の複数形 demands が「要求・負担」を意味する用法（例: the demands of the job）に近く、単数形でも文脈次第で「要件」と解釈できる余地がある。ただし本文の文脈（high demand for skilled engineers）では「需要」が明確なため、FAILほどではない。",
-        "fix": "「仕事の厳しい条件や要件」を「新製品の欠陥を公に発表する」など demand と無関係な選択肢に差し替えることで混乱を回避できる。"
+        "detail": "選択肢「精巧で細部まで凝った」は stringent の意味ではないが、「厳格な・厳しく制約する」と「精巧で細部まで凝った」は、学習者によっては混同しやすく、正解との差別化は明確。ただし選択肢「複雑で理解しにくい」も stringent regulations の印象から正解と誤認される可能性があり、誤答としての機能は弱い。",
+        "fix": "「複雑で理解しにくい」を「寛大で例外を多く認める」など、stringent の反義語的な選択肢に変更すると識別力が上がる。"
       },
       {
-        "check": "elimination",
+        "check": "accuracy",
         "severity": "WARN",
-        "detail": "「不満から生じる抗議行動」は demand の語義から明らかに逸脱しており、英語学習者でなくても日本語だけで消去できる可能性がある。3択が demand の派生・関連概念（需要・命令・要件）で構成されているのに対し、1択だけ毛色が異なる。",
-        "fix": "「不満から生じる抗議行動」を demand のより近い語義（例：「法的な請求や賠償の要求」）に変更する。"
+        "detail": "explで「strict よりも硬い語調で」と述べているが、stringent と strict の語調・使用頻度・文脈の違いについてより正確な説明が必要。stringent は主に規制・財政・安全基準などのフォーマルな文脈に限定されやすいのに対し、strict はより広い文脈（人の性格、規則、親など）で使われる。この違いが「硬い語調」という表現だけでは伝わりにくい。",
+        "fix": "「strict は人の性格や日常的な規則にも使われるが、stringent は主に法律・規制・財政・品質管理などのフォーマルな文脈に限定される傾向がある」と補足する。"
       }
     ]
   },
   {
-    "index": 31,
-    "word": "foster",
+    "index": 45,
+    "word": "perfunctory",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 32,
-    "word": "take for granted",
+    "index": 46,
+    "word": "pull strings",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "正解は「当然のものとして軽視する」だが、take for granted には必ずしも「軽視」の含意は含まれない。「当然のものと思い込む」が核義であり、「軽視」は派生的ニュアンスにすぎない。一方、正解選択肢自体の語義記述の問題であり他の選択肢が正解になるわけではないが、expl との整合で精度問題がある。",
-        "fix": "正解選択肢を「当然のものとして価値を認識しない」に修正し、「軽視する」という過剰な意味付けを除去する。"
+        "detail": "「規則を無視して行動する」は pull strings の実態（コネを使うことは必ずしも規則違反ではない）とは異なるが、「交渉を強引に進める」は文脈によってはpull stringsの側面と重複し得る。より深刻なのは「裏から手を回す」と「規則を無視して行動する」が一部重なって見える点で、問題文の状況（満席のレストランに席を確保）に対して「相手をうまく言いくるめる」も一定の正解性を持つ可能性がある。ただし pull strings の核心はコネ・人脈の行使であり、「言いくるめる」は説得行為を指すため厳密には異なる。WARNレベルで指摘。",
+        "fix": "「相手をうまく言いくるめる」を「権限外の特別扱いを要求する」など、pull stringsとより明確に区別できる選択肢に変更することを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 47,
+    "word": "add fuel to the fire",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 48,
+    "word": "exhausted / drained",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「exhausted=激しい運動後／drained=長時間の作業後」は、問題文（マラソン後にexhausted、職場の感情的葛藤後にdrained）の状況と外形的にほぼ一致しており、正解の選択肢と混同される可能性が高い。文脈情報だけで選べば正解と判別しにくく、実質的に準正解となり得る。"
       },
       {
         "check": "accuracy",
         "severity": "WARN",
-        "detail": "expl で「価値を認識しない」と説明しているが、正解選択肢では「軽視する」と記載しており、expl と選択肢テキストの間でニュアンスが微妙にずれている。",
-        "fix": "選択肢テキストを expl の説明に合わせて「当然のものとして価値を認識しない」に統一する。"
+        "detail": "explanationで「exhaustedは肉体的・精神的に力を使い果たした状態全般に使えるが」と記載しているが、これは正確である一方、問題のanswerでは「exhausted=肉体的消耗が強い」と限定的に表現しており、説明と回答の間にニュアンスのずれが生じている。",
+        "fix": "answerの表現を「exhausted=肉体的・精神的消耗全般だが特に肉体的消耗に典型的／drained=精神・感情的エネルギーの消耗に特有」のように、explanationと整合させることを推奨。"
       }
     ]
   },
   {
-    "index": 33,
-    "word": "get cold feet",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 34,
-    "word": "watch / observe",
+    "index": 49,
+    "word": "tendentious",
     "status": "FAIL",
     "issues": [
       {
-        "check": "axis_match",
+        "check": "accuracy",
         "severity": "FAIL",
-        "detail": "axis が 'nuance' とされているが、問題文・選択肢・解説はすべて observe 単独の意味・用法を問うており、watch との nuance 比較が問題のどこにも出てこない。設問テキストに watch は登場せず、observe の意味を選ぶ meaning 問題になっている。",
-        "fix": "axis を 'meaning' に変更するか、問題文に watch と observe を両方含めて両者のニュアンス差を問う設計に変更する。"
-      },
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "「偶然目に入って気づく」は observe の文脈（carefully observed, scientists）から明らかに消去できる。また「危険を察知して監視する」も scientists の文脈では不自然で消去しやすく、2択まで絞られやすい。",
-        "fix": "選択肢をより紛らわしいものに調整する。例：「規則や慣習を遵守する」（observe a rule の用法）を加えることで多義語問題として機能させる。"
+        "detail": "「tendencyの形容詞形」という語源説明が不正確。tendentiousはラテン語tendere（伸びる・向かう）に由来し、中世ラテン語tendentiaを経由しているが、現代英語のtendencyとは並列の関係であり、tendentiousがtendencyから派生した形容詞というわけではない。正確にはtendencyとtendentiousはいずれもtendereを語根とする別個の派生語である。",
+        "fix": "「tendencyの形容詞形」→「tendencyと同じラテン語語根tendere（向かう）に由来する形容詞」と修正する。"
       }
     ]
   },
   {
-    "index": 35,
-    "word": "raise",
+    "index": 50,
+    "word": "nervous",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「恥ずかしがっている・内気な（shy）」は、面接前の状況において nervousと同時に感じ得る感情であり、文脈によっては準正解と受け取られる可能性がある。ただし問題文が「calm herself down」と明示しており nervousが正解である点は明確なため、WARNとする。",
+        "fix": "「恥ずかしがっている・内気な」を「安心している・落ち着いている」など、より明確に不正解となる選択肢に変更することを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 51,
+    "word": "show up",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "「目立つ・際立って見える」はshow upの正規の意味のひとつ（例：The stain shows up clearly on white fabric）であり、不正解の選択肢として機能しない。複数の正解が存在する状態になっている。",
+        "fix": "「目立つ・際立って見える」を「早めに到着して準備する」や「顔を出して挨拶する」など、show upの別義と重複しない選択肢に置き換える。"
+      }
+    ]
+  },
+  {
+    "index": 52,
+    "word": "see / meet",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "FAIL",
+        "detail": "answerおよびexplanationにおける「meet は初対面または改まった対面を指す」という説明が不正確。meetは初対面だけでなく「約束して会う（Let's meet for lunch）」にも広く使われる。また「see a doctor」のような用件的ニュアンスは正確だが、「meet in person」は初対面に限らず「実際に顔を合わせる」全般に使われており、問題文自体がその用法を示している。answerの「meet は初対面または改まった対面を指す」は限定的すぎる。",
+        "fix": "answerを「see は用件・目的のある面会（see a doctor等）、meet は実際に顔を合わせること全般（初対面・再会・約束いずれも可）を指す」に修正し、explanationも整合させる。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "正解選択肢の説明が不正確なため（上記accuracy参照）、他の選択肢との区別が曖昧になっている。特に「see は偶然の出会い、meet は計画的な再会」という選択肢は部分的に正しい側面を含み得る（meetが計画的な会合に使われることは正しい）。",
+        "fix": "正解選択肢の記述を正確にした上で、紛らわしい選択肢の表現も見直す。"
+      }
+    ]
+  },
+  {
+    "index": 53,
+    "word": "sleep on it",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 36,
-    "word": "persistent",
+    "index": 54,
+    "word": "right",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「右（方向）に」以外の選択肢（正しく・すぐに・まさに）はすべてrightの実際の意味であり、問題文を見れば明確に区別できる。ただし、消去法の観点では「turn right」という道案内の定型表現を知っていれば問題文なしでも正解を絞れる可能性がある。",
+        "fix": "lv1の多義語問題として設計意図は明確だが、問題文の「Turn right at the traffic light」が非常に直接的なため、もう少し文脈から判断が必要な文例（例：right after / right place）を使うことを検討する。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axisが'context'となっているが、これは多義語の文脈判断問題であり、'meaning'の方が適切な分類である。'context'は有効なaxis値として定義されているが、問題の内容は文脈から語義を選ぶ意味問題であり、meaningとの区別が曖昧。",
+        "fix": "axis を 'meaning' に変更するか、'context'の定義を明確化する。"
+      }
+    ]
+  },
+  {
+    "index": 55,
+    "word": "genuine",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 37,
+    "index": 56,
+    "word": "concise",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 57,
     "word": "set aside",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "選択肢「計画を白紙に戻して再検討する」は set aside の重要な用法である「（計画・判決・感情などを）脇に置く・棄却する・無効にする」に近い。法律文脈では set aside a judgment（判決を覆す）のように使い、「白紙に戻す」という解釈は完全に誤りとは言えない。別文脈では正解になり得る。",
-        "fix": "「計画を白紙に戻して再検討する」を「問題を先送りにして結論を避ける」や「損失を受け入れて損切りする」など set aside と重ならない選択肢に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 38,
-    "word": "concede",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「意見を撤回して謝罪する」は concede の「認める・譲歩する」という語義と部分的に重なる。concede には「以前の立場から退く」含意があり、謝罪は含まないものの「意見を撤回する」部分は concede の一側面と解釈できる学習者が存在しうる。",
-        "fix": "「意見を撤回して謝罪する」を「反論を加えて相手の主張を退ける」など concede と明確に対立する選択肢に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "expl で「admit より『渋々・仕方なく』というニュアンスが強い」と説明しているが、実際には admit も渋々認める文脈で頻用され、両者のニュアンス差は文脈依存で絶対的ではない。concede の特徴は「議論上の譲歩・敗北承認」であり、admit との差異の説明が若干不正確。",
-        "fix": "「admit は事実の承認に広く使われるのに対し、concede は議論・交渉・競争において相手の主張や優位を認める・譲歩するニュアンスが強い」と説明を修正する。"
-      }
-    ]
-  },
-  {
-    "index": 39,
-    "word": "contentious",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「法的に問題となりうる性質の」は contentious の法律用語的用法（contentious proceedings: 訴訟手続き）と重なる可能性がある。法律文脈では contentious が「争訟性のある」を意味するため、上級学習者には別解として見える可能性がある。",
-        "fix": "「法的に問題となりうる性質の」を「専門家でなければ理解が難しい」などに変更し、法律的含意を排除する。"
-      }
-    ]
-  },
-  {
-    "index": 40,
-    "word": "back down",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「後退しながら戦略を立て直す」は back down の字義的解釈（back=後退、down=下がる）と視覚的に重なり、イディオムの意味を知らない学習者が正解として選ぶ設計上の問題というよりも、back down の「引き下がる」という核義と「後退する」が部分的に重なり、戦略的後退の文脈では near-synonym になりうる。",
-        "fix": "「後退しながら戦略を立て直す」を「相手の意見を冷静に聞いて判断する」など back down と意味的に重ならない選択肢に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "expl で back off との違いを「back off はその場から退く」と説明しているが、back off も「要求・主張を緩める・退く」という意味で使われる（Back off your demands など）。back off との差異の説明が単純化されすぎている。",
-        "fix": "「back off は物理的または比喩的に距離を置くことに焦点があるのに対し、back down は立場・主張・要求を撤回することに特化している」と補足説明を修正する。"
-      }
-    ]
-  },
-  {
-    "index": 41,
-    "word": "steal someone's thunder",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 42,
-    "word": "skeptical / cynical",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 43,
-    "word": "engaged",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "この問題は context 問題（多義語の文脈適切な意味を選ぶ）として設計されているが、選択肢「結婚の約束を交わしている」「通話中で電話がつながらない」「雇用契約を結んで働いている」はいずれも students / professor / debate session という教育文脈から容易に消去できる。問題文を見なくても「活動に積極的に没頭している」だけが教育文脈に合致すると判断できてしまう。",
-        "fix": "文脈をより曖昧にするか、選択肢を教育文脈でも一見あり得そうな表現（例：「課題に対して義務を果たしている」「規律を守って授業に参加している」）に変更して消去法を機能させない設計にする。"
-      }
-    ]
-  },
-  {
-    "index": 44,
-    "word": "mitigate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 45,
-    "word": "equivocate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 46,
-    "word": "paper over",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 47,
-    "word": "reticent / reserved",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「自分の意見を人前で述べない性格」は reticent の実際の用法と重なりうる。近年 reticent は「行動・意思表明を控える」意味でも使われており（例: reticent to express opinions）、正解候補として機能する可能性がある。また「初対面の人に対して距離を置く傾向」も reticent の文脈的ニュアンスに近く、完全に排除しにくい。",
-        "fix": "不正解選択肢を reticent とは明確に異なる概念（例：「大声で自己主張する傾向」「感情を誇張して表現する性格」）に差し替えることを推奨。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "説明文で「reserved が全般的に感情や意見を抑える内向きな性格を指す」と述べているが、reserved は主に「感情・態度を外に出さない・控えめな」性格を指し、意見を抑えるという側面のみに限定する説明はやや不正確。また reticent の「語ることへの消極性」という説明は正確だが、近年の用法拡張（行動への消極性）に触れていないため、上級問題としてはやや不十分。",
-        "fix": "「reserved は感情・態度全般を抑えた内向的な性格を指すのに対し」と修正し、reticent の用法拡張についても一言添えると正確性が増す。"
-      }
-    ]
-  },
-  {
-    "index": 48,
-    "word": "throw in the towel",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「これ以上関わらないと宣言する」は throw in the towel の意味（諦めて手を引く）と実質的に重なる場面が多く、文脈（俳優業を諦めて別キャリアへ）に照らすと、正解に近い解釈として成立しうる。「諦めて降参する」と「これ以上関わらないと宣言する」は日本語として区別が曖昧になる。",
-        "fix": "「これ以上関わらないと宣言する」を「周囲の意見を無視して強行する」や「失敗を他者のせいにして辞める」など、明確に異なる概念に差し替える。"
-      }
-    ]
-  },
-  {
-    "index": 49,
-    "word": "recondite",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 50,
-    "word": "frightened",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「驚いている・あっけにとられた」は、雷の音に対する反応として文脈上も自然であり、frightened と surprised は実際の場面で共存・混同されやすい。特に子供が雷に驚く場面では「驚いている」も正解に近い解釈が成立しうる。",
-        "fix": "「驚いている・あっけにとられた」を「興奮している・はしゃいでいる」や「眠くてぼんやりしている」など、恐怖と混同されない選択肢に変更する。"
-      },
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "「悲しんでいる」「怒っている」「驚いている」という感情語の並びの中で、雷という刺激に対して「怒っている」「悲しんでいる」は明らかに不自然であり、消去法で選択肢が絞られやすい。",
-        "fix": "感情語の選択肢を、雷という状況でも一定の妥当性がある感情（例：興奮・不安・混乱）に変更し、消去法による絞り込みを防ぐ。"
-      }
-    ]
-  },
-  {
-    "index": 51,
-    "word": "wake up",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "「外出する」「急いで用意する」「夜更かしをする」はいずれも wake up（目が覚める）とカテゴリ的に隔たりがあり、特に「夜更かしをする」は wake up の対義的行動であるため、選択肢を見るだけで正解が自明に絞れてしまう。問題文を読まずとも消去法で答えが出る。",
-        "fix": "wake up と意味的に近い句動詞・表現（例：get up「起き上がる」、come to「意識を取り戻す」、rise「起床する」）を選択肢に加え、識別を問う設計にする。"
-      }
-    ]
-  },
-  {
-    "index": 52,
-    "word": "piece of cake",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "「おいしいご褒美のこと」「大切な仕事のこと」「とても難しい課題のこと」はイディオムの選択肢として明らかに場違いまたは自明に誤りであり、特に「おいしいご褒美」はイディオムを知らなくても字義通りの解釈に見え、正解を引き立ててしまう。問題文を読まなくても正解候補が絞られる。",
-        "fix": "他の選択肢を同系統の難易度・カテゴリのイディオム的意味（例：「ありきたりな報酬」「重要な転換点」「思いがけない幸運」）に変更して識別力を高める。"
-      }
-    ]
-  },
-  {
-    "index": 53,
-    "word": "speak / talk",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "正解「speak は一方的に発話する、talk は双方向の会話をする」は、一般的な説明として広く流通しているが、この区別は絶対的ではない。実際には speak も双方向会話（例：speak with someone）に使われ、talk も一方向的な発話（例：talk to a crowd）に使われる。正解自体が過度に単純化されており、不正確な選択肢との差が明確でない側面がある。また不正解「speak は外国語に使い、talk は母語にのみ使う」は誤りだが、speak a language という用法の存在がこの選択肢に一定の紛らわしさを与える可能性がある。",
-        "fix": "正解の表現を「speak は発話行為そのものに焦点、talk はやり取りや会話のプロセスに焦点」と修正し、過度な一方向・双方向の区別に依存しない説明にする。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "説明文で「speak は一方向的なニュアンスが強い」と断言しているが、speak with / speak to は双方向会話でも頻用される。この単純化は上級学習者に誤解を与えるリスクがある。",
-        "fix": "「speak は発話行為・言語運用能力に焦点を当てることが多く（speak English, speak at a conference）、talk は相互的な会話・話し合いのプロセスを強調する傾向がある」と修正する。"
-      }
-    ]
-  },
-  {
-    "index": 54,
-    "word": "cover",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 55,
-    "word": "exhausted",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "「空腹でたまらない」「退屈してうんざりした」「寒くて震えている」は長いハイキング後の状態として明らかに不自然であり、問題文を読まなくても消去法で正解が絞られる。選択肢が同カテゴリ（身体・精神状態）でありながら文脈適合性に大きな差がある。",
-        "fix": "tired「疲れた」、worn out「くたびれた」、drained「力が抜けた」など exhausted と意味的に近い語を選択肢に加え、強度・ニュアンスの識別を問う設計にする。"
-      }
-    ]
-  },
-  {
-    "index": 56,
-    "word": "negotiate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 57,
-    "word": "carry out",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「（結果を）詳しく調べる・検証する」は、実験を「実施する」という文脈で一部重なりうる行為であり、特に lv2 学習者が carry out experiments を「実験結果を詳しく調べる」と混同するリスクがある。厳格基準では誤りだが、紛らわしさが残る。",
-        "fix": "「（結果を）詳しく調べる・検証する」を「（実験を）延期する・保留にする」など、carry out と対比がより明確な表現に変更することを推奨。"
-      },
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "「（物を）外に運び出す」は carry out の字義通りの意味であり、イディオム・句動詞問題において字義通り解釈の選択肢を含めることは一定の教育的意図があるが、他の選択肢（問題を先送り、結果を検証）と比べてカテゴリが異なりやや場違いに見える可能性がある。",
-        "fix": "「（物を）外に運び出す」を残す場合、他の不正解選択肢も carry out の字義・転義の混同を問うものに統一すると選択肢のバランスが改善される。"
+        "detail": "「（問題を）一時的に棚上げして先送りする」はset asideの正規の意味のひとつ（例：Let's set aside this issue for now）であり、不正解の選択肢として機能しない。explanationも「棚上げの意味でも使われる」と認めており、正解が複数存在する問題になっている。",
+        "fix": "「（問題を）一時的に棚上げして先送りする」を「（金額を）一括で前払いする」や「（計画を）即座に実行に移す」など、set asideの意味と重複しない選択肢に変更する。"
       }
     ]
   },
   {
     "index": 58,
-    "word": "get the ball rolling",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「成功に向けて勢いをつける」は get the ball rolling の意味（物事を始める・動かし始める）と実質的に近く、「始動することで勢いが生まれる」という解釈では正解として成立しうる。特に keep the ball rolling との混同を避けるための問題設計であるなら、この選択肢はむしろ混乱を招く。",
-        "fix": "「成功に向けて勢いをつける」を「行き詰まった議論を打開する」や「計画の最終段階に入る」など、開始・始動とは明確に異なる意味の選択肢に差し替える。"
-      }
-    ]
+    "word": "get a taste of your own medicine",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 59,
-    "word": "mistake / error",
+    "word": "answer / reply / respond",
     "status": "FAIL",
     "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "不正解選択肢「error は意図的な誤り、mistake は偶発的な誤りを指す」は、正解「error は客観的な誤り、mistake は不注意・判断による間違い」と方向性が逆転しているものの、「mistake は偶発的」という部分は正解の説明（不注意による間違い）と部分的に一致しており、学習者が混乱する可能性がある。また严密には error も意図せず生じるものであるため、「意図的な誤り」という説明は明確な誤りだが、選択肢内に部分的正解が含まれる構造は問題設計として不適切。",
-        "fix": "「error は意図的な誤り、mistake は偶発的な誤りを指す」を「error も mistake もともに書き言葉にのみ使い、会話では blunder を使う」など、完全に誤った内容の選択肢に差し替える。"
-      },
       {
         "check": "accuracy",
         "severity": "WARN",
-        "detail": "説明文で「error は計算・手順・プログラム上の客観的・技術的な誤りに使われることが多い」は概ね正確だが、error には「human error」のように個人の行為に起因する用法もあり、「客観的」という表現が誤解を招く可能性がある。また mistake の「個人の責任に焦点が当たる」という説明はやや過剰であり、単純な不注意ミスに責任論は不要な場合も多い。",
-        "fix": "「error は基準・規則・期待値からの逸脱（客観的・測定可能な誤り）に使われやすく、mistake は判断・理解・注意の欠如から生じる個人的な間違いに使われやすい」と修正する。"
+        "detail": "answerの説明「電話・呼びかけ等への即時的な応答」は概ね正確だが、answerはemailやquestionへの返答にも広く使われる（例：answer an email / answer a question）。「即時的」という限定は若干狭すぎる。また、respondについて「フォーマルな場面でも使われる」とあるが、respondはカジュアルな場面でも普通に使われるため、フォーマル専用の印象を与える表現は不正確。",
+        "fix": "answerの説明を「電話・質問・呼びかけなど幅広い応答に使われる最も汎用的な語」、respondを「状況・刺激・要求に対する対応全般を表し、answer/replyより文脈の幅が広い」と修正する。"
       }
     ]
   },
   {
-    "index": 60,
-    "word": "engage",
+    "index": 90,
+    "word": "build on",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 61,
-    "word": "substantial",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "「substantial は特に量や大きさの大きさを強調する」という説明に「大きさの大きさ」という重複表現がある。また substantial と significant の差異説明が不正確。substantial は「実質的な・本質的な・かなりの量・大きさ」を意味し、significant は「意味のある・注目に値する・重要な」という意味合いが強く、量の大きさを特に強調するのは substantial の特徴の一部に過ぎず、説明が単純化されすぎている。",
-        "fix": "「substantial は量・規模・程度がかなり大きいことを示す形容詞で、significant が『重要性・意義』を強調するのに対し、substantial は『量や大きさの実質的な大きさ』を強調する傾向がある」とし、重複表現を除去する。"
-      }
-    ]
-  },
-  {
-    "index": 62,
-    "word": "look into",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「（物を）中をのぞき込む」は look into の文字通りの・一次的な意味（例: look into a box）として辞書に載っており、look into の正式な語義の一つである。問題文は句動詞の慣用的意味を問う設問であるが、選択肢として literal な意味も正解として成立しうる語義が含まれている。ただしこの設問は文脈問題ではなく phrase 軸であるため、文脈なしで「look into の意味として正しいものを選べ」と読めてしまう場合に問題となる。",
-        "fix": "選択肢「（物を）中をのぞき込む」を、look into の慣用的意味と混同しにくい別の誤答（例：「（問題から）目を背ける・回避する」）に差し替えるか、問題文の指示を「この文における look into の意味として最も適切なものを選べ」と明示する。"
-      }
-    ]
-  },
-  {
-    "index": 63,
-    "word": "beat around the bush",
+    "index": 91,
+    "word": "throw a wrench in the works",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 64,
-    "word": "concede",
+    "index": 92,
+    "word": "famous / notorious",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 65,
-    "word": "back up",
+    "index": 93,
+    "word": "field",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 66,
-    "word": "doubt / suspect",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「doubt は事実への疑い、suspect は人への疑惑を表す」は完全な誤りとは言えない部分がある。suspect は確かに「人を疑う」という用法（suspect a person of a crime）を持ち、doubt は「事実・発言への疑念」に使われる用法がある。文脈によっては部分的に正解と解釈される余地があり、混乱を招く可能性がある。",
-        "fix": "「doubt は確信を持った否定的判断、suspect は人物への嫌疑を表す」のような、正解と明確に区別できる誤答に変更する。例：「doubt も suspect も両方とも否定的な推量を表す」など。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explanationで「suspect that〜は肯定的推量」と説明しているが、より正確には「that節の内容が真である可能性が高いと話者が考える推量（肯定方向の推量）」である。「肯定的推量」という表現は学習者に誤解（ポジティブな内容への推量）を与える可能性がある。",
-        "fix": "「suspect that〜は『〜である（好ましくないことが多い）』と推量する表現で、that節の内容を真と見なす方向の推量を表す」と補足説明を加える。"
-      }
-    ]
-  },
-  {
-    "index": 67,
-    "word": "the tip of the iceberg",
+    "index": 94,
+    "word": "erode",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 68,
-    "word": "challenge",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「（困難に）立ち向かう・挑む」は challenge の一般的な動詞用法として辞書的に正しく（例: challenge oneself to do something）、文脈によっては正解として成立しうる。また「（相手に）勝負を挑む・挑戦する」も challenge の標準的な意味の一つであり、これも辞書義として有効である。正解との区別が文脈依存であり、axis が context であることを考慮しても、選択肢の粒度が細かすぎて複数正解問題になっている。",
-        "fix": "この文の文脈（法的・正式な異議申し立て）に明確に対応する正解を維持しつつ、誤答を challenge の意味から外れた選択肢に変更する。例：「（証人を）法廷に呼び出す」「（予算を）承認する・認可する」など文脈に合わない選択肢に差し替える。"
-      }
-    ]
-  },
-  {
-    "index": 69,
-    "word": "leverage",
+    "index": 95,
+    "word": "ameliorate",
     "status": "FAIL",
     "issues": [
       {
         "check": "elimination",
         "severity": "WARN",
-        "detail": "選択肢「（技術の）革新性・独自性」「（企業の）資金調達能力」「（市場における）競争優位性」はいずれも leverage の意味とは明らかに異なるカテゴリ（技術特性・財務・市場分析）の概念であり、問題文に「patented technology as leverage to negotiate」とある文脈と照らし合わせると、消去法で容易に正解が絞れる。特に「交渉の切り札」という日本語訳がヒントになっている。",
-        "fix": "誤答をより leverage に意味が近い選択肢（例：「（交渉における）妥協点・譲歩の余地」「（相手への）拘束力・強制力」）に変更し、消去法による絞り込みを困難にする。"
+        "detail": "選択肢2「状況の悪化をただ防いで現状を維持する」・選択肢3「原因を詳しく分析する」・選択肢4「効果を客観的に評価する」はいずれも「改善する」とは明確に異なる方向性を持ち、正解との差別化は十分。ただし、選択肢2は「改善」の否定形として非常に近接した概念であり、ameliorateとの対比として機能している点でバランスは良い。消去法上の問題は軽微。",
+        "fix": "特に修正は必須ではないが、選択肢2を「（悪化した状況を）さらに深刻化させる」などより離れた選択肢に変えると消去法リスクがさらに低減する。"
       }
     ]
   },
   {
-    "index": 70,
-    "word": "exonerate",
+    "index": 96,
+    "word": "prevail upon",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 71,
-    "word": "gloss over",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 72,
-    "word": "disinterested / uninterested",
+    "index": 97,
+    "word": "have feet of clay",
     "status": "FAIL",
     "issues": [
       {
         "check": "accuracy",
         "severity": "WARN",
-        "detail": "disinterested を「個人的な利害・偏見がなく公平な」のみで説明しているが、現代英語では disinterested が uninterested と同義（無関心な）で使われるケースが増えており、特に口語・非公式文脈では混用が一般化している。この現代的用法変化に触れないと、実際の英語使用における混乱を学習者に十分に伝えられない可能性がある。",
-        "fix": "「なお、現代英語では disinterested を uninterested の意味で使う話者も増えており、文脈による判断が必要な場合もある」という注記を explanationに追加することを推奨。"
-      }
-    ]
-  },
-  {
-    "index": 73,
-    "word": "bite the bullet",
-    "status": "FAIL",
-    "issues": [
+        "detail": "explの聖書由来説明は概ね正確だが、「旧約聖書ダニエル書」の像は金・銀・銅・鉄と泥の混合物でできており、「泥の足を持つ像」という単純化は厳密には不正確。正確には「鉄と泥が混ざった足を持つ像（ネブカドネザルの夢に登場）」であり、足だけが純粋な泥ではない。",
+        "fix": "「旧約聖書ダニエル書に登場する、足の部分が鉄と泥で作られた像の故事に由来する」と修正すると正確性が増す。"
+      },
       {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "「麻酔のない手術で患者が痛みに耐えるため弾丸を噛んだという故事に由来」という語源説明は広く流布しているが、語源研究上は確証がなく俗語源（folk etymology）とされている。OED や語源研究者（Barry Popik等）によれば、この表現の初出は戦場の外科手術よりも先に文献に登場しており、手術起源説は証明されていない。確定的な語源として提示するのは不正確。",
-        "fix": "「bite the bullet は『つらい状況を歯を食いしばって乗り越える、苦渋の決断を下す』を意味するイディオム。戦場での手術中に痛みに耐えるため弾丸を噛んだことに由来するとも言われるが、語源は諸説あり確定していない」と修正する。"
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "選択肢2「組織が基盤の弱さから崩壊する」は、「feet of clay（粘土の足＝脆弱な基盤）」という文字通りの意味に近く、イディオムの語形から類推できてしまう可能性がある。英語学習者が字義的解釈で選択肢2を排除できない恐れがある。",
+        "fix": "選択肢2を「（リーダーが）過去の決断を後悔して引退する」など、字義的連想から外れた内容に変更することを推奨。"
       }
     ]
   },
   {
-    "index": 74,
+    "index": 98,
+    "word": "continual / continuous",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 99,
     "word": "tendentious",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "WARN",
-        "detail": "選択肢「事実を意図的に歪めて伝える」は tendentious の意味と部分的に重なる。tendentious な描写は意図的に特定の見方を推進するため、結果として事実の歪曲を伴う場合が多く、「意図的に事実を歪める」と tendentious の差異は微妙である。厳格基準では「場合によっては正解」に相当する。",
-        "fix": "「事実を意図的に歪めて伝える」を「感情に訴えて論理を欠く・扇情的な」や「あいまいで解釈が定まらない」など tendentious と明確に区別できる選択肢に差し替える。"
+        "detail": "選択肢1「特定の見解を推進しようとする偏向した」が正解だが、選択肢2「感情に訴えて視聴者を扇動する」も、問題文の状況（predetermined conclusionを支持するために証拠を選別）と部分的に重なるニュアンスを持ちうる。ただしtendentiousの定義そのものには「感情に訴える」要素は含まれないため、厳密には誤答として成立する。FAILには至らないが注意が必要。",
+        "fix": "選択肢2を「主観的な感想を客観的事実として述べる」など、tendentiousとより明確に区別できる内容に変更するとよい。"
       },
       {
         "check": "elimination",
         "severity": "WARN",
-        "detail": "問題文に「clearly favored one political side（明らかに一方の政治的立場を支持する）」という強いヒントがあり、「偏向した」という正解と直接対応している。消去法に頼らずとも問題文から正解が自明になりやすい。",
-        "fix": "問題文のヒントを弱める形に修正するか（例：「favored one political side」の表現を抽象化する）、あるいは選択肢をより近い意味のものに絞って難度を上げる。"
+        "detail": "問題文に「presenting only evidence that supported its predetermined conclusion」と明示されており、「偏向」という概念が文脈から非常に読み取りやすい。選択肢1だけが「偏向」に直接対応しており、語彙知識がなくても文脈から正解を絞り込める可能性がある。",
+        "fix": "問題文の言い換えとして「偏向」を直接示す表現を若干和らげるか、他の選択肢にも「偏り」に関連する語を加えて文脈依存の消去法を防ぐ。"
       }
     ]
-  },
-  {
-    "index": 90,
-    "word": "weigh in on",
-    "status": "WARN",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「物理的に『体重を計る』の weigh in とは異なる用法」と説明しているが、weigh in 自体にも「議論に参加する・口を挟む」という意味があり、weigh in on はその発展形。「体重を計る」との対比説明は誤解を招く可能性がある。また weigh in on には「（影響力のある立場から）意見を述べる」というニュアンスが含まれる点も未言及。",
-        "fix": "「weigh in on は『ある話題や議論に自分の意見・判断を加える』という句動詞。weigh in（議論に加わる）に on（対象）を加えた形で、特に影響力のある人物が発言する場面でよく使われる。」などに修正を検討。"
-      }
-    ]
-  },
-  {
-    "index": 91,
-    "word": "sit on the fence",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 92,
-    "word": "inspect / examine",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "問題文では health inspectors が厨房を examined しており、inspect の使い手として inspectors が登場しているが動詞は examined を使用している。つまり問題文自体が「inspect と examine の使い分け」を示しているように見えて、実際は両方の文脈で examined を使っており、「専門家が行う／一般人が行う」という選択肢3が部分的に成立してしまう可能性がある（health inspectors は専門家であり examine を使っている）。選択肢3「examine=専門家が行う、inspect=一般人が行う」は誤りだが、問題文の構造が混乱を招く。",
-        "fix": "問題文を「The doctor examined the patient carefully, while health inspectors inspected the kitchen for hygiene violations.」と修正し、examineとinspectを対比して使う文にすべき。現状の文では両文脈でexaminedを使っており、ニュアンス問題として機能不全。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "examinの説明は概ね正確だが、inspect は「公式な検査」だけでなく「目視で確認する」（例: inspect the damage）という一般的な用法も広くある。「基準・規則への適合確認」に限定しすぎている。",
-        "fix": "「inspect は基準への適合確認だけでなく、問題がないか目視・確認する場面でも広く使われる。examine との違いは、inspect が外部から概観・点検するニュアンスを持つ点。」と補足するとより正確。"
-      }
-    ]
-  },
-  {
-    "index": 93,
-    "word": "flat",
-    "status": "WARN",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢2「（感情・反応が）平坦な、無気力な」は a flat refusal に対して「感情のない、そっけない断り」と解釈すれば意味的に重なる可能性がある。a flat refusal の core 意味は「完全・絶対的な断り」だが、「感情のない断り」との境界が曖昧な学習者には紛らわしい。",
-        "fix": "選択肢2を「（雰囲気・パフォーマンスが）盛り上がりのない、精彩を欠く」などに変更し、a flat refusal との混同を防ぐ。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「fall flat（全く受けない）も同系統の用法」と述べているが、fall flat の flat は「平坦な＝反響がない」という比喩であり、a flat refusal の「完全・絶対的な」という意味とは語義の系統が異なる。同一系統として説明するのは不正確。",
-        "fix": "fall flatへの言及を削除するか、「別の意味系統の用法として fall flat（全く受けない）もある」と明確に区別して説明する。"
-      }
-    ]
-  },
-  {
-    "index": 94,
-    "word": "tangible",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 95,
-    "word": "untenable",
-    "status": "WARN",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢4「（行動が）容認できない、不道徳な」は untenable と混同しやすい。証拠が出てきて立場が「維持できない」状況は「容認できない行為があった」と解釈されうるため、文脈から選択肢4を完全に排除しきれない学習者が出る可能性がある。ただし untenable の語義自体は「論理的に守れない」であり「不道徳」とは異なるため、FAILレベルではない。",
-        "fix": "選択肢4を「（立場・評判が）回復不可能な、取り返しのつかない」などに変更し、意味的な混同を防ぐ。"
-      }
-    ]
-  },
-  {
-    "index": 96,
-    "word": "stave off",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢2「（問題を）先送りにする、一時的に回避する」は stave off の実際の用法と非常に近い。stave off は「完全に防ぐ」場合もあるが、多くの文脈で「（差し迫った問題を）一時的に食い止める・遅らせる」という意味で使われる（例: stave off the inevitable）。explでも「一時的または完全に防ぐ」と記載しており、選択肢2が正解として成立する可能性が高い。",
-        "fix": "選択肢2を「（問題から）完全に目をそらす、無視する」などに変更する。または answer の説明を「（危機・危険を）完全に防ぐ、回避する」と絞り、expl から「一時的に」の記述を削除して選択肢2との差別化を図る。"
-      }
-    ]
-  },
-  {
-    "index": 97,
-    "word": "move the goalposts",
-    "status": "WARN",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢3「（議論の）焦点をずらす、話題を変える」は move the goalposts と意味的に重なる面がある。条件・基準を変えることは議論の焦点をずらすことと実質的に同じ効果をもたらすため、学習者が選択肢3を正解と判断しうる。",
-        "fix": "選択肢3を「（交渉を）意図的に長引かせる、引き延ばし戦術をとる」などに変更し、move the goalposts の「基準変更」という特定性を際立たせる。"
-      }
-    ]
-  },
-  {
-    "index": 98,
-    "word": "skeptical / doubtful",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢2「doubtful=証拠なく疑う、skeptical=根拠をもって疑う」は部分的に正しい側面がある。skeptical は批判的思考・根拠に基づく懐疑を含意することが多く、doubtful は漠然とした不安・確信のなさを指すため、選択肢2の説明は誤りとは言い切れない。正解選択肢1との差が不明瞭で、両方正解と判断される恐れがある。",
-        "fix": "選択肢2を「doubtful=ほぼ不可能と思っている、skeptical=可能性を全否定している」など、より誤った方向の説明に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "doubtful の「自己不確信」という説明は正確だが、doubtful は人や物事に対して使う場合（例: a doubtful claim）もあり、必ずしも「自己」に限定されない。説明がやや過度に単純化されている。",
-        "fix": "「doubtful は『実現・成功の見込みに確信が持てない』という不確かさを表し、主語が自分自身の能力や状況に向けられることが多い。skeptical は外部の主張・計画に対して批判的・懐疑的な態度をとることを指す。」と補足する。"
-      }
-    ]
-  },
-  {
-    "index": 99,
-    "word": "tenuous",
-    "status": "PASS",
-    "issues": []
   },
   {
     "index": 100,
-    "word": "generous",
-    "status": "PASS",
-    "issues": []
+    "word": "polite",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢「活発で明るい」「真剣で誠実な」「物静かで内向的な」はいずれも性格・気質を表す語であり、問題文の「always greeting them with a smile（笑顔で挨拶する）」という文脈から礼儀正しさを表す選択肢1が唯一自然。また「polite」という単語はlv1（最初級）であり、英語学習者が語彙知識なしに文脈だけで正解できる可能性が極めて高い。",
+        "fix": "不正解の選択肢を「礼儀に関連するが意味が異なる語」（例：formal「改まった」、courteous「丁寧な・恭しい」、obedient「従順な」）の日本語訳に変更し、語彙力が問われる問題にする。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「真剣で誠実な」はpoliteの行動（笑顔で挨拶する）と共存しうる特性であり、文脈によっては人物描写として違和感が少ないが、politeの意味としては成立しないため厳密にはFAILではない。ただし選択肢の質として改善余地がある。",
+        "fix": "「誠実な」をより意味的に遠い選択肢（例：「怒りっぽい・短気な」）に変更する。"
+      }
+    ]
   },
   {
     "index": 101,
@@ -949,926 +443,793 @@
     "status": "FAIL",
     "issues": [
       {
-        "check": "elimination",
+        "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "選択肢2「断って返却する」、選択肢3「以前の状態に戻す」、選択肢4「反論して言い返す」はいずれも give back の物理的・字義的な意味に寄せた選択肢であり、問題文（volunteering at a local shelter）を読まずとも「地域社会に恩返し」という文脈で選択肢1が唯一自然に見える。選択肢1だけが抽象・比喩的な表現で、他3つは具体的・物理的な動作を表しており、消去法で容易に正解に辿り着ける。",
-        "fix": "不正解選択肢を「（社会的責任として）寄付する・支援する」「（過去の失敗を）取り戻す・埋め合わせる」「（恩恵を）独占する・囲い込む」などより近い意味の選択肢に変更し、消去法を困難にする。"
+        "detail": "選択肢2「差し出す・提出する」は、文脈によってはgive backと混同しやすいだけでなく、「差し出す」はgiveの基本義に近く、give backと厳密には異なるが意味的距離が近すぎる。より深刻なのは選択肢3「持ち帰る・引き取る」で、「引き取る」はtake backに近く、本を返す文脈で「持ち帰る」は誤答として成立するが、「引き取る」は「返してもらう」側の視点として解釈できる可能性がある。",
+        "fix": "選択肢2を「贈る・プレゼントする」、選択肢3を「捨てる・処分する」など、give backと明確に区別できる選択肢に変更する。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "問題文に「lent you last week（先週貸した）」とあり、「返す」という行為が文脈から自明に読み取れる。選択肢4「贈り物をする」は文脈と明らかに不一致であり、3択に絞り込まれやすい。",
+        "fix": "問題文を「Can you give back what you borrowed?」のように、lentという貸借を示す語を除いた形にするか、選択肢をより紛らわしく調整する。"
       }
     ]
   },
   {
     "index": 102,
-    "word": "every other day",
+    "word": "sleep like a log",
     "status": "FAIL",
     "issues": [
       {
         "check": "elimination",
         "severity": "FAIL",
-        "detail": "選択肢4「数日に一度気まぐれに」は明らかに不自然で冗談めいた表現であり、医療指示という文脈（問題文）を見なくても排除できる。また選択肢2「毎日欠かさず」と選択肢3「丸一日かけて」は every other day の字義解釈の誤りとして設定されているが、選択肢4の質が著しく低く、4択の選択肢バランスが崩れている。",
-        "fix": "選択肢4を「週に一度・週1回」や「2日連続で」など、every other day と混同しうる表現に変更し、選択肢の質を均一にする。"
+        "detail": "問題文に「didn't wake up until noon（正午まで目が覚めなかった）」と明示されており、「ぐっすり眠る」が文脈から自明。選択肢2「途中で目が覚める」は問題文と直接矛盾し、選択肢3「昼寝をする」・選択肢4「寝つきが悪い」も文脈から容易に排除できる。idiomの意味知識を問わずに正解できる問題になっている。",
+        "fix": "問題文からイディオムの意味を直接示すヒント（「didn't wake up until noon」など）を除き、例えば「I slept like a log after the long hike.」のみにとどめる。または選択肢を「深く眠る」「軽く眠る」「夢を見ながら眠る」「眠れないでいる」など、文脈ヒントなしに区別が必要な形に再構成する。"
       }
     ]
   },
   {
     "index": 103,
-    "word": "hear / listen",
+    "word": "big / large",
     "status": "FAIL",
     "issues": [
       {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "選択肢2「hear=大きな音、listen=小さな音」、選択肢3「hear=音楽専用、listen=会話専用」、選択肢4「hear=過去の出来事、listen=現在の出来事」はいずれも明らかに誤りであることが常識レベルで分かる（特に選択肢3・4）。問題文を読まずとも選択肢1が唯一まともな説明であることが一目瞭然であり、消去法で正解できる。",
-        "fix": "不正解選択肢を「hear=繰り返し経験する、listen=初めて経験する」「hear=感情的に受け取る、listen=論理的に処理する」「hear=受動的に情報収集する、listen=能動的に情報収集する（両者の差がほぼない説明）」などより紛らわしいものに変更する。"
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "選択肢4「どちらも全く同じ意味で置き換え可能である」は明確な誤りだが、現実の英語使用においてbigとlargeが文脈によって互換的に使われるケースも多く、「全く同じ」という強い断言があるため誤答として成立する。問題はない。ただし正解の選択肢1の説明中「感情的なニュアンス」という表現が、explと合わせて正確かどうか確認が必要。",
+        "fix": "特に修正不要。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「large は客観的な規模・サイズを表し改まった文脈で好まれる」と説明しているが、largeが常にフォーマルとは言い切れない（例：a large pizza）。また「bigはより口語的で感情的ニュアンスを含む」は概ね正確だが、「a large problem」のようにlargeも抽象的な大きさに使われる用例があり、選択肢2の「bigは物理的な大きさのみ」という誤答説明と合わせた場合に誤解を招く可能性がある。",
+        "fix": "explに「ただし両語ともに物理的・抽象的な大きさに使用可能であり、主な違いはフォーマリティとニュアンスにある」と補足する。"
       }
     ]
   },
   {
     "index": 104,
-    "word": "free",
-    "status": "WARN",
+    "word": "wave",
+    "status": "FAIL",
     "issues": [
       {
-        "check": "multi_answer",
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "問題文が「He waved to his friend（手を振った）」と「huge wave approaching the shore（岸に迫る大きな波）」を明示しており、選択肢1「前半では手を振る、後半では波」が問題文を読めば語彙知識なしに自明に選べる。waveの多義性を知らなくても、問題文の日本語訳を見れば正解できてしまう。",
+        "fix": "問題文を1つの用法のみに絞り、その文脈でwaveが「手を振る」か「波」かのどちらの意味で使われているかを問う形式に変更する。例：「The crowd waved as the parade passed by.」でwaveの意味を問う。または問題文は現状維持のまま、選択肢の他の選択肢をより紛らわしい内容（例：「前半では断る、後半では手を振る」）に変更し、誤答の魅力度を上げる。"
+      },
+      {
+        "check": "axis_match",
         "severity": "WARN",
-        "detail": "選択肢4「解放されて・束縛なく」は feel free to do の free の語義（制約がない・自由な）と意味的に非常に近く、正解との差別化が不明瞭。「遠慮なく・自由に」と「解放されて・束縛なく」はほぼ同義に見える学習者がいる可能性がある。",
-        "fix": "選択肢4を「（スケジュールが）空いていて・予定がなく」（= available の意味）などに変更し、正解との意味的距離を広げる。"
+        "detail": "axis が 'context' となっているが、この問題はwaveの多義語としての意味の違い（動詞「手を振る」vs 名詞「波」）を問うものであり、文脈依存の使い分けというよりも 'meaning' または語の多義性に近い。contextは「同じ語が異なる文脈でどのような意味を持つか」を問うため、完全に不適切ではないが、'meaning'の方がより適切。",
+        "fix": "axisを 'meaning' に変更することを検討する。またはcontextの定義を「多義語の文脈依存的意味の識別」と明確にした上で維持する。"
       }
     ]
   },
   {
     "index": 105,
-    "word": "convince",
-    "status": "FAIL",
+    "word": "exhausting",
+    "status": "WARN",
     "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「頼んで許してもらう」は文脈（let her study abroad）に対して部分的に成立し得るが、convinceの意味としては不正解なので許容範囲内。ただし「だまして信じ込ませる」はpersuade/convinceの一部用法と混同されるリスクは低い。この問題は許容範囲。実際には問題なし。",
-        "fix": "問題なし（以下のissuesを参照）"
-      },
       {
         "check": "elimination",
         "severity": "WARN",
-        "detail": "「強制して従わせる」「だまして信じ込ませる」「頼んで許してもらう」はいずれも明確にネガティブ・限定的なニュアンスを持ち、convinceの中立的な意味と対比されやすい。正解が消去法でやや絞りやすいが、lv1問題として許容範囲。",
-        "fix": "例えば「納得するよう働きかける」など、より近い類義表現を1つ混ぜることで消去法耐性を高められる。"
+        "detail": "文脈（barely stand by the end of the day）が正解を強く示唆しており、選択肢の他3つ（退屈・危険・複雑）は文脈から明確に排除できる。ただし完全な消去法成立とまでは言えず、問題文なしでは絞りきれないため軽微。",
+        "fix": "選択肢をより類似したニュアンスのものに寄せる。例：「体力的に非常に大変な」「精神的に消耗する」「非常に疲れを感じている」など、exhaustingに近い表現を混在させる。"
       }
     ]
   },
   {
     "index": 106,
-    "word": "dedicate",
+    "word": "candid",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "選択肢「指定して割り当てる」はdedicateの用法の一つ（dedicated server / dedicated laneなど「専用に割り当てる」）と意味が重なる。特にdedicate A to Bの「AをBに充てる・割り当てる」という用法において「指定して割り当てる」も正解として成立し得る。",
-        "fix": "「指定して割り当てる」を「調査・研究のために派遣する」や「公式に任命する」など、dedicateの意味と重ならない選択肢に変更する。"
+        "detail": "選択肢「批判的で厳しい」は、文脈（フィードバック）において candid なフィードバックが批判的・厳しい内容を含む場合と混同しやすい。また文中の feedback という語との組み合わせで「批判的で厳しい」も一定程度正解に見える可能性がある。ただし candid の中核義は「率直」であり「批判的」は含意しないため FAIL。",
+        "fix": "「批判的で厳しい」を「丁寧で気遣いのある」など、方向性が明確に異なる選択肢に変更する。"
       }
     ]
   },
   {
     "index": 107,
-    "word": "break down",
-    "status": "PASS",
-    "issues": []
+    "word": "call for",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "「〜を予測する・見込む」は call for の一用法（The forecast calls for rain. など）として辞書に掲載される意味であり、正解として成立しうる。不正解選択肢に正解候補が含まれている。",
+        "fix": "「〜を予測する・見込む」を別の選択肢（例：「〜を延期する・保留する」）に差し替えるか、問題の answer を文脈に限定した表現にしたうえで explain で他義に言及する。"
+      }
+    ]
   },
   {
     "index": 108,
-    "word": "get out of hand",
+    "word": "get the ball rolling",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 109,
-    "word": "see / look at",
+    "word": "see / watch",
     "status": "FAIL",
     "issues": [
       {
-        "check": "accuracy",
+        "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "explの説明「look atは意図的に視線を向ける動作、seeはその結果として対象を認識・理解することを表す」は基本的には正しいが、この問題文のseeは「トレンドを理解・把握する」という認知的意味で使われており、単なる視覚的認識にとどまらない。説明がこの点を「認識・理解」と記載しているのは正確だが、「視線を向けた結果の知覚」という一般的なseeの説明に留まっており、この文脈での「概念的理解」の側面への言及が不十分。軽微だが誤解を生む可能性がある。",
-        "fix": "explに「この文ではseeが『トレンドを認識・理解する』という認知的意味で使われており、look atの動作的な視線向けと対比されている」と補足する。"
+        "detail": "選択肢「watch は映像メディアにのみ使い、see は生の場面に使う」は部分的に正しい記述を含む（watch TV / watch a film など映像メディアへの使用は典型例）。「のみ」という限定が誤りだが、学習者が「ほぼ正しい」と判断する可能性が高く、紛らわしい。",
+        "fix": "「watch は映像メディアにのみ使い」→「watch は主に映像や動きのあるものに使い、see は広く視覚全般に使う」のような形にするか、別の誤り選択肢に差し替える。"
       },
       {
-        "check": "elimination",
+        "check": "accuracy",
         "severity": "WARN",
-        "detail": "選択肢「look at=視覚のみ、see=視覚＋聴覚を使う」は英語学習上ありえない説明であり、明らかな誤りとして消去しやすい。また「look at=遠くを見る、see=近くを確認する」も距離による区別はlook at/seeの本来の対比ではなく、知識がなくても排除しやすい。正解の絞り込みが容易になっている。",
-        "fix": "より近い誤概念（例：「look at=継続的な観察、see=瞬間的な知覚」）を選択肢に入れることで消去法耐性を高める。"
+        "detail": "expl に「watch a game / watch TV のように動きのあるものを観察する場合に使う」とあるが、watch には必ずしも「動き」が条件ではなく「注意を向けて継続的に観察する」ことが本質。例えば watch the door（ドアを見張る）など静止物にも使う。",
+        "fix": "「動きのあるものを観察する場合」→「注意を向けて継続的に観察する場合」と修正する。"
       }
     ]
   },
   {
     "index": 110,
+    "word": "engage",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 111,
+    "word": "reluctant",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「恥ずかしくて言えない」は、文脈（チーム全員の前でミスを認めたくない）において正解と重複しうる。reluctant の理由として「恥ずかしさ」が含まれる場合があり、文脈上この選択肢も正解として機能しうる。",
+        "fix": "「恥ずかしくて言えない」を「驚いて言葉が出ない」や「疲れて反応できない」など、文脈から明確に外れる選択肢に変更する。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「自信がなくて迷っている」も hesitant に近く、reluctant との境界が曖昧。expl 自体が hesitant との違いを説明しているが、選択肢としては学習者が混同する可能性がある。",
+        "fix": "「自信がなくて迷っている」を「興奮して待ちきれない」など方向性が逆の選択肢に変更することを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 112,
+    "word": "set in",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 113,
+    "word": "bite the bullet",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「不満を黙って我慢し続ける」は bite the bullet の「嫌なことを耐える」側面と意味が重なり、正解として成立しうるニュアンスを持つ。辞書でも「苦痛・困難をじっと耐える」という訳が付くことがあり、学習者が正解と判断する可能性が高い。",
+        "fix": "「不満を黙って我慢し続ける」を「問題を見て見ぬふりをする」や「責任を他者に押しつける」など、bite the bullet の「積極的に立ち向かう」要素と明確に対立する選択肢に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "語源説明「麻酔なしの手術で痛みを耐えるため」は広く流布しているが、語源として確実に証明されているわけではなく、諸説ある（戦場での手術説など）。断定的な記述はやや不正確。",
+        "fix": "「麻酔なしの手術で痛みを耐えるため弾丸を噛んだという説から」のように「〜という説から」と留保を加える。"
+      }
+    ]
+  },
+  {
+    "index": 114,
+    "word": "cynical",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「物事を深刻に捉えすぎる・悲観的な」は cynical と混同されやすい。cynical な人物は否定的・悲観的に見えることが多く、文脈（何度も約束を破られた後）において「悲観的になった」も自然に読める。pessimistic との違いはexplで説明されているが、選択肢レベルでは区別が難しい。",
+        "fix": "「物事を深刻に捉えすぎる・悲観的な」を「過度に楽観的で現実を見ない」など反対方向の選択肢に変更するか、cynical と pessimistic の違いをより明確に示す問題文に調整する。"
+      }
+    ]
+  },
+  {
+    "index": 115,
+    "word": "gloss over",
+    "status": "WARN",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "選択肢「（内容を）簡潔にまとめて提示する」は gloss over の表面的な字義（表面をなぞる）と混同しやすい一方、他の選択肢（詳しく補足・公式に謝罪）は明らかに文脈から外れる。正解と「簡潔にまとめる」の2択に絞られやすく、消去法が働きやすい。",
+        "fix": "「（内容を）簡潔にまとめて提示する」を残しつつ、もう1つの明らかに外れる選択肢をより紛らわしいものに差し替えることを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 116,
+    "word": "convince / persuade",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "FAIL",
+        "detail": "explに「convince him to do の形は文法上使えるが、『行動への働きかけ』は persuade の方がより自然とされる」とあるが、現代英語では convince someone to do は非常に広く使われており「不自然」とは言えない。この記述は現代の実際の英語使用と乖離しており、誤解を招く。",
+        "fix": "「convince him to do の形は文法上使えるが」の部分を削除または修正し、「convince は信念・判断の変化に焦点、persuade は行動・決断への働きかけに焦点があるが、現代英語では両者とも to do 構文で使われる」と正確に記述する。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "正解「convince は頭で納得させること、persuade は行動を起こすよう促すことを含む」と選択肢「convince は感情に訴えて動かすこと、persuade は論理で納得させること」は完全に逆の記述であり混同は起きにくい。ただし「どちらも同義だが convince はより強制的」は convince に強制ニュアンスがあるという誤情報を含み、誤った学習を誘導する可能性がある。",
+        "fix": "「convince はより強制的なニュアンスを持つ」は事実に反するため、別の誤り選択肢（例：「convince は口頭のみ、persuade は文書でも使う」）に差し替えることを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 117,
     "word": "table",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "選択肢「議題として提出する」は英国英語におけるtableの正式な意味（to table a proposal = 議題に上程する）として完全に正解となる。explでも英国英語での逆の意味に言及しており、問題文の文脈（米国英語）を示す手がかりが「The committee decided to table the proposal until more data was available」の「until more data was available」という延期のニュアンスのみである。英国英語話者または上級学習者には「議題として提出する」も正解と判断され得る。",
-        "fix": "問題文に明示的な米国英語の文脈を示すか（例：米国の組織名・固有名詞を入れる）、または選択肢「議題として提出する」を「委員会に正式に諮問する」など別の表現に差し替えて英国英語のtableと直接重ならないようにする。あるいはaxisをnuanceに変更し、米英の用法差を問う問題として再設計する。"
-      }
-    ]
-  },
-  {
-    "index": 111,
-    "word": "reliable",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 112,
-    "word": "take into account",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 113,
-    "word": "in the same boat",
-    "status": "FAIL",
-    "issues": [
+        "detail": "選択肢「（議題を）正式に提出する・審議にかける」は英国英語における table の正式な意味であり、正解として完全に成立する。問題の answer が「米英語で」と限定しているが、英語学習問題として英国英語の正しい意味を不正解とするのは不適切。",
+        "fix": "問題文または状況設定に「アメリカ英語の会議シーン」であることを明示したうえで、選択肢の「正式に提出する」を別の選択肢（例：「（議題を）全員に事前配布する」）に変更する。または問題のaxisをnuanceに変更し、米英語と英国英語の違いを問う形式に再構成する。"
+      },
       {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「同じ目標に向かって協力する」は文脈（全員がリモートチーム管理経験がない）からは正解にならないが、in the same boatのイディオム自体の意味としては「同じ困難な状況にある＝同じ問題を抱えて共に取り組む」という解釈で「協力する」ニュアンスと混同されやすい。strictには不正解だが、「場合によっては正解」という基準に照らすとFAILとする。",
-        "fix": "「同じ目標に向かって協力する」を「同じ失敗の経験を持つ」や「同じ訓練を受けている」など、境遇の共有ではなく別の属性共有を示す選択肢に変更する。"
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "この問題は table の多義性・米英語と英国英語の違いを問うており、axis: context よりも axis: nuance の方が適切と考えられる。",
+        "fix": "axis を context から nuance に変更することを検討する。"
       }
     ]
-  },
-  {
-    "index": 114,
-    "word": "scrutinize",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 115,
-    "word": "iron out",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 116,
-    "word": "the ball is in your court",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢「あなたが主導権を握っている」はthe ball is in your courtの意味と非常に近く、「次に行動する番」＝「主導権を持っている」と解釈できる。特にビジネス文脈では「相手が決定権・イニシアティブを持っている」という意味でこのイディオムが使われることがあり、「主導権を握っている」も正解として成立し得る。",
-        "fix": "「あなたが主導権を握っている」を「あなたが最終的な責任を負う」や「あなたの参加が必須だ」など、イディオムの意味と重ならない選択肢に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 117,
-    "word": "require / demand",
-    "status": "PASS",
-    "issues": []
   },
   {
     "index": 118,
-    "word": "launch",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "選択肢「（アプリを）テスト段階で試す」はlaunchと明確に逆の概念（公開前のテスト）であり、文脈（finally launched its platform to the public）からも即座に排除できる。「（資金を）調達して始める」もlaunchの意味として混乱しやすいが、「公開した」という文脈から絞りやすい。全体として消去法で正解に辿り着きやすい選択肢構成になっている。",
-        "fix": "「（アプリを）テスト段階で試す」を「（サービスを）特定ユーザーに限定公開する」など、launchに近いが異なる概念（ソフトローンチ等）に変更することで消去法耐性を高める。"
-      }
-    ]
+    "word": "jump on the bandwagon",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 119,
-    "word": "endorsement",
+    "word": "dispel",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 120,
-    "word": "perfidious",
+    "word": "truculent",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 121,
-    "word": "take umbrage at",
-    "status": "FAIL",
+    "word": "hedge against",
+    "status": "WARN",
     "issues": [
       {
-        "check": "multi_answer",
+        "check": "accuracy",
         "severity": "WARN",
-        "detail": "選択肢「〜に異議を申し立てて正式に反論する」は、文脈（査読者の指摘への反応）によっては近い行動を表すが、take umbrage at の意味は感情的な不快感であり、「正式に反論する」という行動的・手続き的ニュアンスとは異なる。誤答として機能はするが、文脈上やや近く見えるリスクがある。",
-        "fix": "選択肢の誤答として問題はないが、「〜に異議を申し立てて正式に反論する」を「〜を無視して気にしない」などに差し替えることでより明確になる。"
+        "detail": "「hedge one's bets（どちらにも賭ける）とは異なる」という記述は不正確。hedge against と hedge one's bets は構造・用法が異なる別表現であることは正しいが、hedge one's bets の訳「どちらにも賭ける」はやや不正確で、正しくは「損失を最小化するために複数の選択肢に分散させる・保険をかける」というニュアンス。誤解を招く可能性がある。",
+        "fix": "「hedge one's bets（リスクを分散するために複数の選択肢を取る）とは構文が異なる」などに修正するか、比較記述を削除する。"
       }
     ]
   },
   {
     "index": 122,
-    "word": "paint oneself into a corner",
+    "word": "abundant / plentiful",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 123,
-    "word": "momentary / momentous",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "選択肢2「momentary=記念すべき、momentous=一時的な」は意味を入れ替えた形で、3・4も明らかに文脈と無関係な形容詞ペアとなっている。正解選択肢だけが文の日本語訳（一瞬の沈黙・重大な決定）と直接対応しており、日本語訳（ja）を読めば消去法で容易に正解を特定できる。",
-        "fix": "誤答選択肢のうち少なくとも1つをより紛らわしいものに変更する。例：「momentary=瞬間的な、momentous=一時的な」（momentaryの訳が正しくmomentousが誤り）のような選択肢で部分的に正しいものを混在させると鑑別力が上がる。"
-      }
-    ]
-  },
-  {
-    "index": 124,
-    "word": "nugatory",
+    "word": "take the wind out of someone's sails",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 125,
-    "word": "patient",
-    "status": "FAIL",
+    "index": 124,
+    "word": "pellucid",
+    "status": "WARN",
     "issues": [
       {
-        "check": "multi_answer",
+        "check": "accuracy",
         "severity": "WARN",
-        "detail": "選択肢「冷静な・落ち着いた（calm）」は、新しい言語を学ぶ文脈で be patient に近いニュアンスを持ち、文脈によっては「冷静でいる必要がある」と解釈できる余地がある。厳格基準では「場合によっては正解」に該当する可能性がある。",
-        "fix": "「冷静な・落ち着いた」を「完璧な・欠点のない」や「論理的な・合理的な」など、より無関係な選択肢に変更する。"
+        "detail": "「ラテン語 pellucidus」という語源説明はおおむね正しいが、より正確にはラテン語 pellucēre（per- 「通して」+ lucēre「光る」）に由来する。pellucidus はその形容詞形であり、語根の説明として per+lucidus の構造に言及するとより正確になる。",
+        "fix": "「ラテン語 per-（通して）+ lucēre（光る）に由来する pellucidus から」と語源の構造を補足する。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "文中に「making complex theories accessible even to undergraduates（学部生にも理解しやすくした）」という強いヒントがあるため、選択肢「体系的で論理的に整理された」「学術的で権威のある」はある程度消去しやすい。ただし致命的な消去法問題とまでは言えない。",
+        "fix": "文脈ヒントを弱めるか、選択肢「体系的で論理的に整理された」を「難解で専門的な」など別方向のダミーに変更することを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 125,
+    "word": "efficient",
+    "status": "WARN",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「創造力にあふれた」「積極的に取り組む」は efficient の文脈（ファイル整理・仕事を早く終える）とトーンが大きく外れており、やや場違いなダミーとなっている。「几帳面で正確な」は残るが、3択がやや弱く消去法で正解を絞りやすい。",
+        "fix": "「迅速で素早い」「機能的で使いやすい」など、efficient と混同しやすい選択肢に差し替えることを検討する。"
       }
     ]
   },
   {
     "index": 126,
-    "word": "find out",
+    "word": "look after",
     "status": "FAIL",
     "issues": [
       {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「注意深く観察する」は、look after の文脈（猫の世話）では成立しないが、look after の字義的分解（look=見る、after=後ろ）から「見守る」と解釈すると境界が曖昧になる。より問題なのは、「世話をする」には「様子を見る・観察する」要素も含まれるため、「注意深く観察する」が部分的に正解と感じられる可能性がある点。ただし厳格基準では「意味が近い」だけでFAILとする。",
+        "fix": "「注意深く観察する」を「素早く調べる」「一時的に預かる」など、look after との意味的重複が生じにくい選択肢に変更する。"
+      },
+      {
         "check": "elimination",
         "severity": "WARN",
-        "detail": "選択肢「取り出す・引き出す」「作り出す・発明する」は find out とは全く意味が異なり、「out」を含む句動詞として形だけ似せているが内容は明らかに場違い。「思い出す・想起する」も recall/remember の訳であり、情報を能動的に「調べる」という正解とは区別できる。ただし全体として誤答の質がやや低く、消去しやすい。",
-        "fix": "「取り出す・引き出す」を「気づく・発見する（come across）」のような類義的な選択肢に変更し、鑑別難度を上げる。"
+        "detail": "「後を追いかける」「改めて確認する」は look after の句動詞的ニュアンスから大きく外れており、日本語として不自然なダミーとなっている。選択肢の質にばらつきがある。",
+        "fix": "「しばらく預かる」「責任を持って管理する」など、正解とより近い意味域のダミーを追加する。"
       }
     ]
   },
   {
     "index": 127,
-    "word": "hit the sack",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "選択肢「袋を叩く・荷物をまとめる」は sack の直訳であり、イディオムの意味を知らない学習者が誤答として引っかかるように設計されているが、「休憩を取る・一息つく」と「寝る・就寝する」が同時に存在する場合、消去法で正解を絞れる問題がある。より深刻な問題として、「休憩を取る・一息つく」は「寝る」と意味的に近く（疲れた後の行動として）、正解と混同される可能性がある。厳格基準では「場合によっては正解」に近い選択肢が含まれている。",
-        "fix": "「休憩を取る・一息つく」を「外出する・出かける」や「シャワーを浴びる・体を洗う」など、より無関係な行動に変更する。"
-      }
-    ]
+    "word": "piece of cake",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 128,
-    "word": "say / tell",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "選択肢2「say と tell はどちらも完全に同じ意味で使える」・選択肢3「tell は公式な場面のみ、say は日常会話専用」・選択肢4「say には必ず引用符が必要で、tell には不要」はいずれも明らかに誤りであることが英語学習経験のある者には自明であり、消去法で正解を容易に特定できる。特に選択肢4は非常に不自然で、消去が容易すぎる。",
-        "fix": "「say は直接話法のみ、tell は間接話法のみで使う」「say は一方的な発話、tell は双方向の会話を意味する」のような、より紛らわしい誤答に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explain文は正確だが、「say には必ず引用符が必要」という選択肢4の記述が誤りであることの説明がexplに含まれていない。選択肢4のような誤解を持つ学習者へのフォローが不足している。",
-        "fix": "explに「say は直接話法・間接話法どちらでも使える」旨を追記すると誤解解消に役立つ。"
-      }
-    ]
-  },
-  {
-    "index": 129,
-    "word": "fair",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 130,
-    "word": "approve",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 131,
-    "word": "concur",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 132,
-    "word": "take over",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「一時的に代理を務める」は take over の意味とは異なるが、文脈（CEOが退任し副社長が職務を担う）においては「一時的な代理」と解釈する学習者がいる可能性がある。厳格基準では「場合によっては近い」に該当しうる。",
-        "fix": "「一時的に代理を務める」を「現状維持を続ける・変化を起こさない」など、より文脈から離れた選択肢に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「乗っ取る」という意味も挙げているが、この文脈（正当な引き継ぎ）では「乗っ取る」は不適切なニュアンスを持つ可能性があり、learnerに混乱を与えるおそれがある。",
-        "fix": "「take over は文脈によって『正当な引き継ぎ』と『敵対的な乗っ取り』の両方を表すことがある」と明記し、使い分けを補足する。"
-      }
-    ]
-  },
-  {
-    "index": 133,
-    "word": "get on someone's nerves",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 134,
-    "word": "famous / well-known",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "選択肢2「well-known は否定的な文脈のみ」・選択肢3「famous は事実を述べ、well-known は主観的」・選択肢4「完全な同義語」はいずれも明らかに不自然な記述であり、消去が容易すぎる。特に選択肢4は nuance 問題において「完全な同義語」とするのは自己矛盾的で、問題の軸を知っているだけで即座に消去できる。",
-        "fix": "「well-known は書き言葉、famous は話し言葉で使う」「famous は良い評判のみを指し、well-known は中立的に使う」のような、より学術的に紛らわしい誤答に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 135,
-    "word": "press",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 136,
-    "word": "hinder",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 137,
-    "word": "deal with",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "「交渉する・取引をまとめる」は不正解とされているが、deal with は「deal」の意味的背景から「取引・交渉」と混同されやすいだけでなく、「deal with complaints」の文脈で「苦情に対応するために交渉する」という解釈が完全に排除できない。より問題なのは、deal with の中核義「対処する」と「交渉する」はかなり意味が近く、ビジネス文脈では「complaints を deal with する＝交渉で解決する」と読む学習者が正当にいる点。厳格基準ではWARNレベルだが、選択肢として近すぎる。",
-        "fix": "「交渉する・取引をまとめる」を「避ける・先送りにする」や「報告する・上申する」などに変更し、deal with との混同を防ぐ。"
-      }
-    ]
-  },
-  {
-    "index": 138,
-    "word": "liable",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 139,
-    "word": "add fuel to the fire",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 140,
-    "word": "cordial",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "選択肢2「形式的な・儀礼的なだけの」、3「緊張した・互いに警戒し合う」、4「冷淡な・よそよそしい」の3つがすべて否定的・消極的なトーンであり、正解1だけが肯定的・温かいトーン。消去法で「positive = 正解」と判断できてしまう。",
-        "fix": "否定的選択肢を1〜2つ減らし、「礼儀正しい・丁寧な（polite）」や「控えめな・遠慮がちな」など正解に近いが異なるニュアンスの選択肢を加えることで消去法を防ぐ。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「単なる礼儀正しさではなく、誠実な親しみやすさを含む」と説明しているが、cordialは必ずしも「親しみやすさ（friendliness）」を強調するわけではなく、「heartfelt warmth・sincere warmth（心からの温かさ）」が核心。特に外交・ビジネス文脈では礼儀正しさとの境界が曖昧なケースもある。",
-        "fix": "「誠実な親しみやすさ」を「心からの温かみ・誠実な好意」と修正し、politeとの差異をより明確に説明する。"
-      }
-    ]
-  },
-  {
-    "index": 141,
-    "word": "phase out",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 142,
-    "word": "inquire / ask",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "explで「inquire は書き言葉でよく使われる」と示唆しているが、選択肢2「inquire は書き言葉専用で、ask は話し言葉専用」を不正解としている。しかしexpl自体が「ビジネス・法律・公式文書では inquire が好まれる」と書いており、書き言葉での使用頻度の高さを認めている。不正解選択肢2の「専用」という語が誇張であることは正しいが、explの説明が選択肢2を部分的に支持しているように読め、混乱を招く。また、inquireとenquireの違い（米英差）について言及しているが説明が不十分。",
-        "fix": "explから「cordially（副詞）も書き言葉でよく使われる」相当の記述を修正し、「inquireは話し言葉でも使用可能だが改まった場面を好む」と明示する。選択肢2の不正解理由を問題文かexplで補足説明するとよい。"
-      },
-      {
-        "check": "axis_match",
-        "severity": "WARN",
-        "detail": "axis が 'nuance' であり、inquire/ask のニュアンス差を問う問題としては適切。ただし問題文（text）が inquire のみを使用しており、ask との対比が文中に現れないため、nuance比較問題としてテキストが機能しにくい。",
-        "fix": "textにask を含む対比表現を入れるか、または問題形式を「なぜここでinquireが使われているか」という形に調整する。"
-      }
-    ]
-  },
-  {
-    "index": 143,
-    "word": "yield",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "選択肢3「道を譲る・優先権を与える」は yield の正真正銘の別義（交通・スポーツ等での「道を譲る」）であり、文脈なしには正解として十分成立する。contextクイズとして「この文脈での意味」を問うているが、選択肢3は辞書的に yield の正しい意味であるため、多義語問題で正解が複数存在する状態になっている。",
-        "fix": "選択肢3を「反論する・立場を主張する」や「撤退する・引き上げる」など、yieldの辞書義でない選択肢に変更する。または問題文の指示を「交渉の文脈での意味として最も適切なものを選べ」と明示する。"
-      }
-    ]
-  },
-  {
-    "index": 144,
-    "word": "pull strings",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 145,
-    "word": "deplete",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 146,
-    "word": "insidious",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢4「意図的な・計画的に引き起こす」は insidious の語源的含意（ラテン語 insidiae「待ち伏せ・罠」）と重なる部分があり、「意図的に害を仕掛ける」という解釈で正解に近く読める学習者がいる。insidious は必ずしも意図性を含まない（例：insidious disease）が、人の行為に使う場合は意図性を伴うことが多く、混乱を招く。",
-        "fix": "選択肢4を「突発的な・予測不可能な」や「誇張された・実際より深刻に見せる」に変更し、意図性との混同を防ぐ。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「gradual かつ harmful なニュアンスが核心」と説明しているが、insidious の核心は「gradualness（段階性）」よりも「subtlety（気づかれにくさ）＋harm（害）」の組み合わせ。必ずしも緩慢である必要はなく、気づかれないまま害が進行する点が本質。",
-        "fix": "「gradual かつ harmful」を「気づかれにくい形で進行し害をもたらす（subtly harmful）」と修正する。"
-      }
-    ]
-  },
-  {
-    "index": 147,
-    "word": "ride out",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "explで「もともと『嵐の中を船が乗り切る』という航海用語に由来する」と説明しているが、ride out の語源が「航海用語」であるという明確な辞書的根拠はなく、単に「嵐に乗る・耐える」という比喩的表現が自然に発展したと考えられる。特定の専門用語起源と断定する説明は不正確になりうる。",
-        "fix": "「航海用語に由来する」という語源説明を削除し、「ride out a storm（嵐を乗り切る）というフレーズから転じて、困難な状況全般に耐えることを意味するようになった」と説明を修正する。"
-      }
-    ]
-  },
-  {
-    "index": 148,
-    "word": "infer / deduce",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 149,
-    "word": "throw caution to the wind",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "選択肢2「困難な状況から逃げ出して安全を確保する」、3「周囲の意見に従って判断を変える」、4「リスクを慎重に計算して行動する」の3つが、正解と明らかに対照的な意味（逃避・従順・慎重）を持っており、問題文のコンテキスト（仕事を辞めて夢を追う）から消去法で正解が容易に特定できる。特に選択肢4は正解の「対義語」に近く、問題文を読めば即座に排除できる。",
-        "fix": "「大胆に・衝動的に行動する」「思い切って新しい方向に転換する」など、正解と意味が近いが微妙に異なる選択肢を加え、消去法を困難にする。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「否定的含意はなく」と断言しているが、throw caution to the wind は文脈によっては「無謀・軽率」という否定的ニュアンスで使われることもある。完全に中立・肯定的とは言い切れない。",
-        "fix": "「否定的含意はなく」を「肯定的・否定的どちらの文脈でも使われるが、大胆な決断を描写する際に用いられることが多い」と修正する。"
-      }
-    ]
-  },
-  {
-    "index": 165,
-    "word": "conciliate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 166,
-    "word": "play into the hands of",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 167,
-    "word": "throw someone under the bus",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "選択肢「（突然）チームから追い出す、解雇する」は完全な誤りだが、「（チームの）足を引っ張る、邪魔をする」と「（議論で）相手を圧倒する、言い負かす」は明確に異なる意味なので問題なし。ただし、文脈「role boardの前で責任をなすりつけた」から、「チームから追い出す」と混同しやすい学習者がいる可能性があり、誤解を招くほどではない。",
-        "fix": "現状維持で問題ないが、「解雇する」の選択肢は文脈上やや近く見える可能性があるため、より明確に異なる選択肢（例：「相手の弱点を巧みに突く」）への差し替えを検討してもよい。"
-      }
-    ]
-  },
-  {
-    "index": 168,
-    "word": "discover / invent",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "不正解選択肢「discover=偶然見つける／invent=意図的に開発する」は部分的に正しい側面を含む。discoverは必ずしも偶然である必要はないが、偶然の発見（例：ペニシリン）に使われることが多く、この説明を「誤り」と断言しにくい。学習者がこれを正解と判断する余地がある。",
-        "fix": "「discover=偶然見つける／invent=意図的に開発する」を「discover=すでに存在するものを見つける／invent=まったく新しいものをゼロから生み出す」と明確に書き換えて正解と差別化する。または「discover=研究によって証明する／invent=特許を取得できるものを作る」など実用的な方向に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「ワクチン製法など」をinventの例として挙げているが、ワクチン（vaccine）自体はジェンナーが「developed/created」したものであり、inventよりもdevelopの方が一般的に使われる。inventとdevelopの区別も補足すると学習効果が高まる。",
-        "fix": "inventの例として「電話（telephone）、蒸気機関（steam engine）」など特許性の高い機械的発明を使う方が適切。"
-      }
-    ]
-  },
-  {
-    "index": 169,
-    "word": "bear out",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "axis_match",
-        "severity": "WARN",
-        "detail": "axis が 'context' となっているが、問題の内容は句動詞 'bear out' の意味を問うものであり、'phrase' または 'meaning' の方が適切。'context' 軸は語の文脈依存的な使い分けを問う場合に使うべきで、本問はその性質を持たない。",
-        "fix": "axis を 'phrase' に変更する（bear out は句動詞のため）。"
-      }
-    ]
-  },
-  {
-    "index": 170,
-    "word": "coerce",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "FAIL",
-        "detail": "不正解選択肢「巧みに誘導する、丸め込む」（manipulateやwheedleに相当）は、coerceとは明確に異なるが、「正式に命令する、指示する」（mandate/instructに相当）との区別は問題ない。しかし「巧みに誘導する、丸め込む」という選択肢はcoerceの文脈（脅迫による署名強制）で一見近いと感じる学習者がいる。より大きな問題として、文脈（解雇の脅し）から「正式に命令する、指示する」が消去できてしまい、「巧みに誘導する」も消去できるため消去法に引っかかる可能性がある。",
-        "fix": "「巧みに誘導する、丸め込む」を「（自発的な）申し出として提示する、勧める」などcoercionの強制性と対照的な選択肢に変更する。"
-      },
-      {
-        "check": "elimination",
-        "severity": "WARN",
-        "detail": "文脈に「under threat of termination（解雇の脅し）」という強いヒントがあり、「脅して～させる」という正解の方向性が文章から直接読み取れる。選択肢の「説得して同意させる」「正式に命令する」は脅しのニュアンスがなく消去しやすい。問題文が正解を過度にヒントしている。",
-        "fix": "文脈のヒントを弱める修正（例：「under pressure」程度にする）か、選択肢をよりcoerceの核心的意味に絞った識別問題に再設計する。"
-      }
-    ]
-  },
-  {
-    "index": 171,
-    "word": "obfuscate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 172,
-    "word": "give short shrift to",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "explの語源説明「元々は処刑前に与えられるわずかな告白時間を指した」は不正確。'shrift'は「懺悔を聞いて与える赦免（absolution）」を指す語で、'short shrift'は処刑前に与えられる短い懺悔・赦免の時間を意味する。つまり「告白時間」だけでなく「赦免を受けるためのわずかな時間」が正確。また、shriftがgive short shrift toの句として「ほとんど考慮しない」という現代的意味に転じた経緯（処刑前の最小限の時間的猶予→転じて最小限の注意しか払わない）の説明も欲しい。",
-        "fix": "'shrift'は「懺悔を聞いた後の赦免（absolution）」を意味する中英語由来の語。'short shrift'は元々、処刑直前に罪人に与えられるごく短い懺悔と赦免の時間を指し、転じて「ごくわずかな配慮しか与えない」という意味になった、と修正する。"
-      }
-    ]
-  },
-  {
-    "index": 173,
-    "word": "reticent / taciturn",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "不正解選択肢「reticent=一時的に黙っている／taciturn=会話が苦手な」は正解と近い側面を持つ。reticentの「特定の話題で口を閉ざす」は確かに一時的・選択的な沈黙であり、「一時的に黙っている」と混同されうる。また taciturn を「会話が苦手な」と表現するのも「生来無口」と近い解釈として受け取られる可能性がある。",
-        "fix": "「reticent=一時的に黙っている／taciturn=会話が苦手な」を「reticent=丁寧に沈黙を守る礼儀的な態度／taciturn=単語数が少なく感情表現をしない」など、より明確に誤った方向性の選択肢に変更する。"
-      },
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "reticent の現代的用法として「～することをためらう・気が進まない（reluctant to do）」という意味（reticent to speak / reticent about sharing）が辞書に広く記載されており、explにこの用法への言及がない。特に文中では 'reticent about sharing his opinions' という形で使われており、「特定の話題で口を閉ざす」という説明だけでは不十分。",
-        "fix": "explに「reticent about doing / reticent to do の形で『～することをためらう』の意味でも広く使われる」と補足する。"
-      }
-    ]
-  },
-  {
-    "index": 174,
-    "word": "fly in the face of",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "不正解選択肢「（既存の研究を）無視して独自路線を進む」は、'fly in the face of established research'という文脈において正解と意味的にかなり近い。「真っ向から反する」と「無視して独自路線を進む」は結果的に同じ状況を指す可能性があり、学習者が正解と混同しやすい。",
-        "fix": "「無視して独自路線を進む」を「（既存の研究の上に）さらに改善を加える」や「（研究を）選択的に引用して都合よく解釈する」など、より明確に異なる意味の選択肢に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 175,
-    "word": "vitiate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 176,
-    "word": "gentle",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 177,
-    "word": "give away",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "WARN",
-        "detail": "explで「秘密を漏らす」という第二の意味に言及しているが、この問題はlv1（初級）であり、複数の意味への言及が学習者の混乱を招く可能性がある。また「秘密を漏らす」の言及が中途半端で、どちらの意味かを文脈で判断する練習問題としての設計が不明確になっている。",
-        "fix": "lv1問題のexplでは「無料で配る」の意味に集中し、「秘密を漏らす」の意味は別問題（lv2程度）として独立させるか、または axis を 'context' に変更してgive awayの多義性を問う問題として再設計する。"
-      }
-    ]
-  },
-  {
-    "index": 178,
-    "word": "hit the books",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 179,
     "word": "speak / talk",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "正解「話す内容より話す行為・様子に焦点」と不正解「正式な場で意見を述べる発表」は明確に異なるが、問題の核心はspeakとtalkの使い分けのニュアンスを問うものであるにも関わらず、正解の選択肢文言が「speakとtalkのどちらの説明か」を特定していない。正解選択肢はspeakの説明として提示されているが、選択肢だけを見ると何の単語の説明かが不明確。",
-        "fix": "nuance軸の問題として、選択肢を「speakは～、talkは～」という対比形式に統一すべき。正解以外の選択肢も同形式（例：「speak=一方的に情報を伝える／talk=雑談や日常会話をする」）にして、ニュアンスの区別を問う形に再設計する。"
+        "detail": "正解「speak は一方向の発話、talk は双方向の会話」と選択肢「speak は丁寧、talk はくだけた表現」は、どちらも speak / talk の実際の使い分けとして辞書・語法書で言及される有効な観点である。特に「speak はフォーマル・丁寧、talk はインフォーマル」という区別は多くの英語教材で正しい使い分けとして説明されており、正解として成立しうる。",
+        "fix": "「speak は丁寧、talk はくだけた表現」を別の誤った記述（例：「speak は過去形がない、talk は規則変化する」など明確に誤りのある選択肢）に差し替える。あるいは問題文を speak/talk の一方向性・双方向性が明確に現れる文脈に絞り込む。"
       },
       {
-        "check": "elimination",
+        "check": "accuracy",
         "severity": "WARN",
-        "detail": "選択肢「相手を説得する目的の発言」と「正式な場で意見を述べる発表」は明らかに文脈（'speak more slowly' という発話の速度に関するお願い）と合わないため消去しやすい。「互いにやり取りする双方向の会話」はtalkの説明として有名であり、speakとtalkのニュアンスを知っている学習者には消去法で正解が導けてしまう。",
-        "fix": "speakとtalkの区別を知っていても迷うような選択肢設計にする。例えば「speak=フォーマルな状況で使われる／talk=インフォーマルな状況で使われる」のような、部分的に正しいが不完全な選択肢を含める。"
+        "detail": "解説「speak はスピーチや言語能力など一方向・公的な発話に使い、talk は双方向の会話やインフォーマルなやりとりに使う傾向がある」は概ね正しいが、「一方向」と「双方向」の対比のみを強調すると過度な単純化になる。例えば talk to someone（一方的に話す）、speak with someone（双方向）など逆の用例も存在する。",
+        "fix": "「speak は発話行為・言語能力・公的/フォーマルな文脈で使われることが多く、talk は会話・インフォーマルなやりとりを指す傾向がある。ただし両者は重複する用法も多い」と補足する。"
       }
     ]
   },
   {
+    "index": 129,
+    "word": "matter",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢「物質・素材のこと」「問題・事案を指す名詞」「話題を変えること」の3択は、問題文の文脈（It doesn't matter if you arrive a little late）を見ると動詞用法であることが明白であり、選択肢を見ただけでも名詞的解釈の2択（「物質」「問題・事案」）と無関係な1択（「話題を変える」）を容易に排除できる。文脈なしでも正解を絞りやすい構造になっている。",
+        "fix": "ダミーに動詞用法の近似選択肢（例：「影響を与える・作用する」「気にする・心配する」「決定する・判断する」）を加えることで消去法を防ぐ。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「問題・事案を指す名詞」は matter の名詞用法として正しいが、この文では動詞用法が問われているため直接の正解にはならない。ただし問題のaxis が context（文脈での意味）であることを踏まえると、名詞用法の選択肢を混在させること自体は適切な設計とも言える。WARNレベルで記録。",
+        "fix": "問題文や解説に「この文での用法は？」と動詞であることを明示するか、選択肢を動詞用法に統一する。"
+      }
+    ]
+  },
+  {
+    "index": 130,
+    "word": "negotiate",
+    "status": "WARN",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「問題を仲裁・解決する」は negotiate とは異なるが、交渉の延長として「解決に向けて話し合う」という文脈では意味が近くなりうる。厳格基準では境界線上の選択肢。",
+        "fix": "「問題を仲裁・解決する」を「契約内容を一方的に決定する」や「正式に署名・締結する」など negotiate と明確に区別できる選択肢に変更することを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 131,
+    "word": "plausible",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 132,
+    "word": "set up",
+    "status": "WARN",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「問題を引き起こす」は set up の別義（罠にはめる等）として存在するが、会議の文脈では明らかに不適切であり消去しやすい。また「段階的に積み上げる」も文脈から外れており、実質2択に近い構造になっている。",
+        "fix": "「日程を調整・変更する」「参加者に通知する」など、会議準備の文脈でより紛らわしいダミーを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 133,
+    "word": "get the picture",
+    "status": "WARN",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「問題の核心を見抜く」は get the picture の意味（全体像を理解する）と部分的に重複する可能性がある。「全体像を理解する」と「核心を見抜く」は異なる概念だが、日本語として「わかった・理解した」という点で混同されやすい。厳格基準ではWARNレベル。",
+        "fix": "「問題の核心を見抜く」を「詳細なデータを記録する」「視覚資料を作成する」など、より意味的に離れた選択肢に変更することを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 134,
+    "word": "house / home",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 135,
+    "word": "drive",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「目標に向かって着実に進める」は、drive someone toward a goal という用法と意味的に重なり、文脈によっては正解に近い解釈が成立しうる。また「競合相手を市場から追い出す」も drive competitors out of the market という実際のdriveの用法であり、driveの意味として正解に成立しうる。",
+        "fix": "「目標に向かって着実に進める」を driveと無関係な動詞の意味（例：「情報を整理・分類する」）に差し替えるか、drive の別義と混同しない選択肢に変更する。「競合相手を市場から追い出す」も別の動詞（push out など）に由来する説明に置き換えることを検討。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が context になっているが、問題の構造は多義語の中から文脈に合う意味を選ぶ形式であり、context は妥当。ただし meaning との境界が曖昧なため、問題セット全体での分類基準を統一することを推奨。",
+        "fix": "axis は context のままで許容範囲だが、多義語の文脈選択問題として明示的に運用基準を設けることを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 136,
+    "word": "tedious",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "「時間がかかり非効率な」は tedious の含意と重なる。tedious な作業はしばしば時間がかかるという属性を持ち、文中の「毎日複数のスプレッドシートに同じデータを入力する」という描写は時間的非効率さも示唆するため、この選択肢が正解に近いと判断される受験者が出る可能性がある。厳格基準では FAIL。",
+        "fix": "「時間がかかり非効率な」を「危険で注意を要する」や「費用対効果が低い」など、tedious と意味的に重ならない選択肢に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 137,
+    "word": "hand over",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 138,
+    "word": "transparent",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "「説明責任を果たす」(accountable) および「明確で誤解のない」(clear/unambiguous) は、transparent の意味と実質的に重なる場合がある。ビジネス文脈で transparent であることは説明責任を果たすことと同義的に用いられることが多く、また transparent な情報開示は「明確で誤解のない」伝達を含意することが多い。厳格基準ではこれらはFAIL。",
+        "fix": "「説明責任を果たす」を「競争力のある価格を設定する」などに、「明確で誤解のない」を「顧客の要望に柔軟に対応する」などに差し替え、transparent と意味的に切り離す。"
+      }
+    ]
+  },
+  {
+    "index": 139,
+    "word": "reconcile",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 140,
+    "word": "pin down",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 141,
+    "word": "throw in the towel",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 142,
+    "word": "salary / wage",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「wage は肉体労働、salary は知的労働に使う」は、正解選択肢（時間・出来高払い vs 定期固定給）と部分的に重複する正しい説明を含んでいる。実際に wage は肉体労働・現業労働者に多く、salary はホワイトカラーに多いという用法は辞書的にも認められており、この選択肢も正解として成立しうる。厳格基準ではFAIL。",
+        "fix": "「wage は肉体労働、salary は知的労働に使う」を「wage は臨時収入、salary は投資収益を指す」など、明確に誤りとなる選択肢に変更する。なお正解選択肢が支払い単位（時間・定期）に焦点を当てているのに対し、職種の違いは副次的特徴であるため、選択肢として紛らわしい。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explの「wage は時間・日・週単位で支払われる賃金（主に肉体・現業労働）」という説明は概ね正確だが、現代では wage が必ずしも肉体労働に限定されないケースも増えており（例：minimum wage は職種を問わず使われる）、「主に」という留保があるとはいえ、誤解を招く可能性がある。",
+        "fix": "「主に肉体・現業労働」という記述に加え、「ただし minimum wage のように職種を問わず使われる場合もある」という補足を加えることを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 143,
+    "word": "capital",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 144,
+    "word": "allude",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「意図的に話題を避ける」は、allude to の反意的描写として提示されているが、文脈上「彼女は問題を直接口にはしなかった」という部分だけを見ると、この選択肢も一見正解に見える。ただし allude to は「回避する」ではなく「間接的に言及する」であるため辞書的には別義だが、問題文の前半（直接言及しなかった）と組み合わせると受験者が混乱する可能性が高い。厳格基準ではFAIL。",
+        "fix": "「意図的に話題を避ける」を「大げさに強調して訴える」や「公式な記録として残す」など、allude とも文脈とも交差しない選択肢に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「直接述べる refer to とは異なり」と説明しているが、refer to 自体も間接的な言及に使われる場合があり、「refer to = 直接述べる」という対比は単純化しすぎている。mention や state と対比する方が正確。",
+        "fix": "「直接述べる refer to」を「直接明言する mention / state」に変更することを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 145,
+    "word": "perfunctory",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 146,
+    "word": "come to terms with",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「交渉で合意条件に達する」は come to terms with の字義的解釈（terms = 条件、come to = 達する）として成立しうる。実際に come to terms（with を伴わない形）は「合意に達する」という意味で使われ、受験者がこちらを正解と判断するリスクがある。explでも「交渉の『合意に達する』とは文脈が異なる」と注記しているが、選択肢として存在すること自体が紛らわしい。",
+        "fix": "「交渉で合意条件に達する」を「問題の全責任を引き受ける」や「他者に詳細を説明する」など、come to terms with と字義的にも意味的にも重ならない選択肢に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 147,
+    "word": "put all your eggs in one basket",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 148,
+    "word": "famous / notorious",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「famous は人に使い、notorious は場所・組織に使う」は誤りではあるが、文中で famous は都市（場所）に、notorious も地区（場所）に使われており、問題文自体がこの選択肢を「場所にも使う」と反証している。問題文を読めば消去できるが、問題文なしで選択肢だけを見ると一定の説得力を持つ記述であり、消去法チェックの観点でも言及が必要。ただしより深刻なのは、正解の核心（良い評判 vs 悪い評判）が他の選択肢との対比で自明になりやすい点。",
+        "fix": "問題自体の構造は適切だが、選択肢「famous は人に使い、notorious は場所・組織に使う」は問題文と矛盾するため、問題文を見れば消去できる。消去法リスクを下げるため、この選択肢を「famous は現在の評判、notorious は過去の出来事に基づく評判」など、より紛らわしい誤答に変更することを推奨。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「famous は良いことで『有名な』を意味する」と説明しているが、famous は必ずしも良い評判に限定されず、中立的な「広く知られた」という意味でも使われる（例：famous for being controversial）。notorious と対比する文脈では概ね正しいが、絶対的な記述としては不正確。",
+        "fix": "「famous は良いことで『有名な』」を「famous は主に良いことまたは中立的な意味で『広く知られた』」と修正する。"
+      }
+    ]
+  },
+  {
+    "index": 149,
+    "word": "loquacious",
+    "status": "PASS",
+    "issues": []
+  },
+  {
     "index": 180,
-    "word": "present",
+    "word": "cautious",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 181,
-    "word": "vivid",
+    "word": "delegate",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "WARN",
-        "detail": "選択肢「繰り返し思い出される」は vivid の定義には含まれないが、文脈（「今も持っている」）と組み合わせると一定の説得力を持つ可能性がある。ただし vivid の意味としては不正解であり、厳格基準ではWARN相当。",
-        "fix": "「繰り返し思い出される」を「遠くてぼんやりした」や「最近作られた新しい」などに変更し、正解との混同リスクをさらに排除する。"
+        "detail": "選択肢「会議の代表として発言する」は、delegateの名詞義「代表者・代理人」と関連しており、動詞用法の問題として出題する場合は紛らわしい。ただし文脈（動詞として使われている）から動詞義を問うていることは明確なため軽度。",
+        "fix": "「会議の代表として発言する」を「プロジェクトの優先順位を設定する」など動詞義と無関係な選択肢に差し替える。"
       },
       {
         "check": "elimination",
         "severity": "FAIL",
-        "detail": "「薄れていてぼんやりした」は正解の明確な反意語であり、消去法で即座に除外できる。また「悲しくて辛い」と「繰り返し思い出される」も memories という文脈から場違いとは言えないが、「薄れていてぼんやりした」が対義語として目立ちすぎるため、3択→1択に絞られやすい。",
-        "fix": "反意語選択肢を避け、例えば「記録として正確に残された」「感情を伴わない客観的な」など、意味的に近いが不正解の選択肢に差し替える。"
+        "detail": "選択肢「業務の進捗を細かく管理する」「複数の業務を同時に処理する」はマイクロマネジメント・マルチタスクを表し、問題文のコンテキスト（優れたマネージャーの行動）と意味的に対比的。「権限を委任する」だけが優れたマネージャーの特質として正当性があり、他3択が消去法で排除されやすい。選択肢の方向性が偏りすぎている。",
+        "fix": "不正解選択肢を「権限・仕事を委任する」の意味に近い誤りやすい概念（例：「部下の進捗を代わりに報告する」「業務を外部に発注する」）に変更し、消去法で解けないようにする。"
       }
     ]
   },
   {
     "index": 182,
-    "word": "comply",
-    "status": "PASS",
-    "issues": []
+    "word": "take up",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「以前の習慣を再開する」は、take up が必ずしも「新規」限定ではなく「再び取り組む」文脈でも使われることがある（例：take up where one left off）。ただし本文では「retiring after」という文脈で新規開始が強いため軽度だが、「以前の習慣を再開する」はresume的ニュアンスであり誤答として許容範囲内。厳格基準では際どい。",
+        "fix": "「以前の習慣を再開する」を「他者から引き継いで続ける」などtake upとより明確に区別できる選択肢に変更する。"
+      }
+    ]
   },
   {
     "index": 183,
-    "word": "follow up on",
+    "word": "get the ball rolling",
     "status": "PASS",
     "issues": []
   },
   {
     "index": 184,
-    "word": "get the picture",
+    "word": "see / meet",
     "status": "FAIL",
     "issues": [
       {
-        "check": "elimination",
+        "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "「写真を受け取って確認する」と「会議の資料を入手する」は idiom の文字通りの解釈（literal reading）として配置されているが、これらは問題文の文脈（予算削減の説明後に全員が理解した）と明らかに整合しない。「批判的な評価を下す」も唐突で、実質的に正解の「状況・意図を理解する」だけが文脈に合う選択肢となっており、消去法で容易に正解できる。",
-        "fix": "「全員が状況の深刻さを認識する」「問題の全体像を把握する」など、意味的に近いが微妙にニュアンスが異なる選択肢を加え、識別力を高める。"
+        "detail": "正解「see は会うこと全般、meet は初対面または約束して合流」と選択肢「see は偶然の出会い、meet は目的を持った面会」は、どちらも部分的に正しい記述を含んでいる。特にmeetに関して「目的を持った面会」は「約束して合流」と実質同義に近く、seeに関して「偶然の出会い」もrun into等と混同されやすいが辞書的に誤りとは言い切れない。正解と不正解の境界が曖昧。",
+        "fix": "不正解の「see は偶然の出会い、meet は目的を持った面会」を「see は視覚的に確認すること、meet は感情的なつながりを意味する」など明確に誤りな記述に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explおよびanswerでmeetを「初対面または約束して合流」と説明しているが、meetは必ずしも初対面に限らず、友人同士が待ち合わせる場合にも広く使われる。「初対面」という限定は過度に狭く、誤解を招く可能性がある。",
+        "fix": "「meet は（初対面で）会う、または特定の場所で待ち合わせる・合流する」という表現に修正し、「初対面限定」という誤解を避ける。"
       }
     ]
   },
   {
     "index": 185,
-    "word": "worth / worthy",
+    "word": "pick up",
     "status": "FAIL",
     "issues": [
       {
         "check": "elimination",
         "severity": "FAIL",
-        "detail": "誤答選択肢の3つ（「完全に同じ意味で互換的に使える」「worthは形容詞のみ、worthyは名詞のみ」「worthは否定文専用、worthyは肯定文専用」）はいずれも明らかに誤った記述であり、基本的な英語知識があれば消去法で即座に全て除外できる。特に「worthは否定文専用」「worthyは名詞のみ」は非常識的な説明で、問題としての識別力が低い。",
-        "fix": "「worth は動名詞を目的語に取り、worthy は不定詞を目的語に取る」「worth は主に金銭的価値、worthy は道徳的価値に限定される」など、実際の用法に関連した、より紛らわしい誤答を作成する。"
+        "detail": "不正解3択（「本やテキストを選んで購入する」「車で人を迎えに行く」「散らかったものを拾い集める」）はいずれもpick upの他の辞書義ではあるが、問題文（言語習得）のコンテキストと全く合わない具体的・物理的な行為ばかりが並んでいる。問題文を読まなくても「自然に習得する」だけが抽象的・比喩的な選択肢であり、文脈なしで正解が浮き上がる。",
+        "fix": "不正解選択肢を「知識やスキルを正式な教育で学ぶ」「仕事の要領を先輩から引き継ぐ」など習得・学習に関連する表現に差し替え、物理的な意味ばかりにならないようにする。"
       },
       {
-        "check": "accuracy",
+        "check": "axis_match",
         "severity": "WARN",
-        "detail": "explで「admit より客観的・公式なニュアンス」という記述は acknowledge の説明欄（index 7）に属する内容であり、このindex 5のexplには混入していない。ただし worth の説明として「行為の見返りを示す」という表現はやや独特で、一般的な辞書記述（「～する価値がある」）と比べてニュアンスが若干ずれる可能性がある。",
-        "fix": "worth の説明を「worth doing の形で『～する価値がある』を意味し、動名詞を目的語に取る」と明示することで正確性を高める。"
+        "detail": "axisが'context'（文脈による意味判断）とされているが、pick upの多義性を問う問題であり、多義語の文脈判断問題として'context'は妥当。ただし選択肢が物理的意味ばかりで文脈判断の難度が低すぎる点はelimination問題と連動している。",
+        "fix": "選択肢を改善すれば'context'軸として機能する。選択肢の改善を優先。"
       }
     ]
   },
   {
     "index": 186,
-    "word": "sensitive",
+    "word": "transparent",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 187,
+    "word": "set aside",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "「感情的になりやすくてもろい」と「他者の気持ちに気遣いができる」はいずれも sensitive の一般的な意味（感受性が強い、敏感な）として辞書に掲載されている正当な語義である。文脈（機密情報）に照らせば不正解だが、問題のaxisが context であることを踏まえると、これらが「sensitive の別義」として成立することを問題文内で明示しておかないと、語義の広さを知っている学習者が迷う可能性がある。",
-        "fix": "問題文または解説で「sensitive には複数の意味があるが、この文脈では…」と明記するか、選択肢を「感情的になりやすくてもろい」→「曖昧で解釈が難しい」など、sensitive の別義でない選択肢に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 187,
-    "word": "acknowledge",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
         "severity": "FAIL",
-        "detail": "explに「admit より客観的・公式なニュアンスがある」と記述されているが、これは不正確。acknowledge と admit はニュアンスが異なるが、acknowledge が常に admit より「客観的・公式」とは言えない。acknowledge は「認識・承認」に重点があり、admit は「渋々認める・白状する」のニュアンスが強い。両者の差は客観性・公式性ではなく、「受け入れる際の意志・感情的抵抗の有無」にある。",
-        "fix": "「admit は渋々認める・白状するニュアンスが強いのに対し、acknowledge は事実として受け入れる・承認するという中立的な意味合いが強い」と修正する。"
+        "detail": "選択肢「後で詳しく検討するよう保留にする」は、set asideの別義（「（議論・感情・問題などを）脇に置く・棚上げにする」）と近接しており、文脈によっては正解となりうる。特に法律・交渉文脈では「set aside a decision（決定を保留・破棄する）」という用法が存在する。問題文（時間の確保）とは異なるが、set asideの実際の用法の一つであるため、誤答として出すには語義が近すぎる。",
+        "fix": "「後で詳しく検討するよう保留にする」を「参加者全員のスケジュールを調整する」など、set asideの語義と無関係な選択肢に変更する。"
       }
     ]
   },
   {
     "index": 188,
-    "word": "wrap up",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "multi_answer",
-        "severity": "WARN",
-        "detail": "「内容をまとめて全員に配布する」は wrap up の「まとめる」という意味と部分的に重なる。wrap up には「要点をまとめる」という用法もあり（e.g., wrap up the main points）、「まとめる」部分だけを取り出すと正解に近い印象を与えうる。",
-        "fix": "「内容をまとめて全員に配布する」を「開始時間を改めて参加者に通知する」など、wrap up の意味と重ならない選択肢に変更する。"
-      }
-    ]
-  },
-  {
-    "index": 189,
-    "word": "stringent",
+    "word": "throw in the towel",
     "status": "PASS",
     "issues": []
   },
   {
-    "index": 190,
-    "word": "take a toll on",
+    "index": 189,
+    "word": "scrutinize",
     "status": "FAIL",
     "issues": [
       {
         "check": "multi_answer",
         "severity": "WARN",
-        "detail": "「多大な努力と時間を費やす」は take a toll on の正確な意味ではないが、「残業を毎日続ける」という文脈と組み合わせると、「消耗する」というニュアンスの一部と重なり、一部の学習者が混乱する可能性がある。",
-        "fix": "「多大な努力と時間を費やす」を「長期間にわたって慣れさせる・適応させる」など、文脈との連想が生じにくい選択肢に変更する。"
+        "detail": "選択肢「複数の資料を参照して確認する」はscrutinizeの行為に含まれうる行動であり、厳密には正解とは言えないが、scrutinizeの意味を「複数資料を参照して確認する」と誤認した学習者が正解に近いと感じる可能性がある。厳格基準では問題あり。",
+        "fix": "「複数の資料を参照して確認する」を「大まかな要点を抽出して報告する」など、精査とは対極の行為に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「examination より検査の強度が高く」と記述しているが、正確には 'examination' 自体は名詞であり、比較対象として動詞scrutinizeと並べるのは品詞が揃っていない。'examine'との比較が適切。",
+        "fix": "「examinationより」を「examineよりも」に修正する。"
+      }
+    ]
+  },
+  {
+    "index": 190,
+    "word": "iron out",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "explで「work out との違いは『細かい障害を一つずつ取り除く』ニュアンス」と説明しているが、iron outとwork outの違いについての説明が不十分・やや不正確。work outも「問題を解決する」意味を持つが、iron outは特に「不一致・摩擦・小さな問題を滑らかに取り除く」ニュアンスが強い。違いの説明自体は方向性として正しいが、「一つずつ」という部分は根拠が弱く誤解を招く可能性がある。",
+        "fix": "「work outとの違いは『細かい障害を一つずつ取り除く』ニュアンス」を「work outが問題解決全般を指すのに対し、iron outは対立や不一致を円滑に取り除くニュアンスが強い」に修正する。"
       }
     ]
   },
   {
     "index": 191,
-    "word": "throw a wrench in the works",
+    "word": "move the goalposts",
     "status": "FAIL",
     "issues": [
       {
-        "check": "accuracy",
+        "check": "multi_answer",
         "severity": "FAIL",
-        "detail": "explに「英国では spanner」と括弧書きされているが、正確には英国英語では「throw a spanner in the works」が一般的であり、「wrench」は米国英語での表現。この説明自体は正しい方向だが、括弧の中に spanner とだけ記載されており、「throw a spanner in the works が英国での表現」という説明が不完全で誤解を招く可能性がある。",
-        "fix": "「英国英語では throw a spanner in the works と言う」と明示し、wrench が米国英語であることを対比的に説明する。"
+        "detail": "正解「合意後に条件や基準を変更する」と選択肢「決定した事項を白紙に戻す」は意味的に近接している。条件変更（move the goalposts）と白紙撤回（go back to square one的な行為）は異なるが、学習者には区別が難しく、「条件を変える＝決定を白紙にする」と解釈される恐れがある。厳格基準ではFAIL。",
+        "fix": "「決定した事項を白紙に戻す」を「相手の提案の欠点を詳細に指摘する」など、条件変更とは明確に異なる概念に変更する。"
       },
       {
-        "check": "elimination",
+        "check": "accuracy",
         "severity": "WARN",
-        "detail": "「新しいアイデアで状況を打開する」「問題の本質に直接取り組む」「チームの士気を一気に高める」はいずれもポジティブな意味合いを持ち、文脈（計画が狂わされた）からネガティブな意味の選択肢が正解と分かりやすい。消去法でポジティブ3択を除外しやすい。",
-        "fix": "「予期せぬ事態に迅速に対応する」など、ネガティブとも取れる中立的な選択肢を加え、識別を難しくする。"
+        "detail": "explで「合意・交渉の途中でルールや条件を一方的に変える」と説明しているが、move the goalpostsは必ずしも合意後だけでなく交渉途中でも使われる。一方でanswerに「合意後に」と明記されており、explの「途中で」と矛盾している。",
+        "fix": "answerを「（交渉・合意の過程で）条件や基準を一方的に変更する」に修正し、explも「交渉や合意の進行中に」と統一する。"
       }
     ]
   },
   {
     "index": 192,
-    "word": "historic / historical",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "誤答3択（「互換的に使える」「historicは現在・historicalは未来」「historicは口語・historicalは書き言葉専用」）はいずれも明白に誤っており、特に「historicalは未来の予測に使う」「historicは口語専用」は非常識的な説明で、消去法で即座に除外できる。実質的に正解1択に絞られる。",
-        "fix": "「historicは形容詞のみ、historicalは副詞としても使える」「historicは肯定的な出来事のみに使い、historicalは中立的」など、実際の用法に関連したより紛らわしい誤答を作成する。"
-      }
-    ]
+    "word": "continual / continuous",
+    "status": "PASS",
+    "issues": []
   },
   {
     "index": 193,
-    "word": "strike",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 194,
-    "word": "tangential",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 195,
-    "word": "acquiesce",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 196,
-    "word": "hedge against",
+    "word": "land",
     "status": "FAIL",
     "issues": [
       {
-        "check": "elimination",
-        "severity": "FAIL",
-        "detail": "選択肢4「資産をいくつかの種類に均等分配する」は分散投資（diversification）の説明であり、hedge against の文脈（リスク管理・防衛）と方向性が近く、金融知識のある学習者には「場合によっては正解に近い」と感じられる可能性がある。また選択肢2・3は明らかに逆・無関係であり、選択肢1と4の2択に絞られやすく、消去法が機能しすぎる構造になっている。",
-        "fix": "選択肢4を「過去の損失分を取り戻すために積極的な取引を行う」など、正解と方向性が明確に異なるものに差し替えることを推奨。"
-      }
-    ]
-  },
-  {
-    "index": 197,
-    "word": "consent / assent",
-    "status": "FAIL",
-    "issues": [
-      {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "正解の説明「assentは意見への積極的な賛同」について、assent は必ずしも「積極的（active/enthusiastic）」な賛同とは言えない。Oxford・Merriam-Webster では assent は「提案・意見への同意・承認」であり、acquiescence（消極的黙認）と対比されることもあるが、「積極的」というニュアンスは辞書的に強調されていない。consent との主要な差異は「許可を与える権限関係の有無」や「使用される文脈（法的・身体的同意 vs. 知的・命題的同意）」であり、「積極性」は副次的ニュアンスに過ぎない。",
-        "fix": "正解・expl ともに「assent は提案・意見・命題に対する同意で、知的・審議的な文脈（委員会の承認など）で使われる」と修正し、「積極的」という表現は削除または「知的・審議的な」に変更する。"
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "選択肢「特定の場所・状況に落ち着く」は、landの用法（例：land in a difficult situation / land in a new city）と意味的に近く、文脈によっては正解になりうる。厳格基準では不正解として出すには語義が近い。",
+        "fix": "「特定の場所・状況に落ち着く」を「長年の努力が認められて表彰される」などlandの語義と無関係な選択肢に変更する。"
       },
       {
         "check": "elimination",
         "severity": "WARN",
-        "detail": "選択肢3「どちらも完全に同義で文脈を問わず交換可能」と選択肢4「consentは拒否の意、assentは曖昧な態度を示す語」は明らかに誤りとわかるため、実質2択（選択肢1 vs. 2）になりやすく、消去法が効きすぎる。",
-        "fix": "選択肢3・4をより尤もらしい誤答（例:「consentは個人の自律的判断、assentは集団の多数決による承認」など）に差し替えることを推奨。"
+        "detail": "「着地する・上陸する」はlandの最も基本的な物理的意味であり、「大作映画の役」という文脈では明らかに場違いで消去が容易。不正解として機能するが、文脈を読まずとも排除できる。",
+        "fix": "「着地する・上陸する」をより紛らわしい選択肢（例：「周囲の評価を高める」）に変更することを検討する。"
       }
     ]
   },
   {
-    "index": 198,
-    "word": "play devil's advocate",
-    "status": "PASS",
-    "issues": []
-  },
-  {
-    "index": 199,
-    "word": "tendentious",
+    "index": 194,
+    "word": "tangible",
     "status": "FAIL",
     "issues": [
       {
-        "check": "accuracy",
-        "severity": "FAIL",
-        "detail": "expl の「tend（傾く）を語根とする」という語源説明が不正確。tendentious はラテン語 tendentia（傾向）を経由しており、直接の語根はラテン語 tendere（伸ばす・向かう）であるが、英語の動詞 tend と同語源であることは正しい。ただし「tend（傾く）を語根とし」という表現は英語の tend から派生したかのような誤解を招く。tendentious は tendency（傾向）の形容詞形として形成された語であり、tendency → tendentious の派生関係を説明するのが正確。",
-        "fix": "「ラテン語 tendere（向かう・伸びる）を語源とし、tendency（傾向）の形容詞形として形成された語。」と修正する。"
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "選択肢「関係者全員が認識できる」はtangibleの「明確に感じ取れる・誰もが認識できるほど明白な」というニュアンスと重なる部分があり、場合によっては正解と判断されうる。厳格基準ではFAIL寄りのWARN。",
+        "fix": "「関係者全員が認識できる」を「段階的に積み重なって現れる」など、tangibleの語義と明確に区別できる表現に変更する。"
       }
     ]
   }
