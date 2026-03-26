@@ -185,8 +185,31 @@ def run_generation(count, model, axis_only=None):
     return all_questions
 
 
+def _make_letter_ranges(num_requests):
+    """各リクエストにアルファベット範囲を割り当て（重複防止）"""
+    import string
+    letters = list(string.ascii_lowercase)  # a-z = 26
+    ranges = []
+    per = max(1, len(letters) // num_requests)
+
+    for i in range(num_requests):
+        start = i * per % len(letters)
+        end = min(start + per, len(letters))
+        if i == num_requests - 1:
+            # 最後のバッチは残り全部
+            chars = letters[start:] + letters[:max(0, (i+1)*per - len(letters))]
+        else:
+            chars = letters[start:end]
+        if not chars:
+            chars = letters  # fallback
+        ranges.append(chars)
+
+    return ranges
+
+
 def run_batch(count, model, axis_only=None):
-    """Batch モード: ジョブ投入のみ（結果は check_batch_words.py で取得）"""
+    """Batch モード: ジョブ投入のみ（結果は check_batch_words.py で取得）
+    各リクエストにアルファベット範囲を指定して重複を最小化"""
     if BATCH_STATE.exists():
         state = json.loads(BATCH_STATE.read_text())
         print(f"ERROR: 未処理のバッチが存在します (ID: {state['batch_id']})")
@@ -208,6 +231,10 @@ def run_batch(count, model, axis_only=None):
     diff = count - sum(lv_total)
     lv_total[2] += diff
 
+    # リクエスト数を計算
+    num_requests = -(-count // BATCH_SIZE)
+    letter_ranges = _make_letter_ranges(num_requests)
+
     # 全リクエストのプロンプトを一括作成
     requests = []
     remaining_lv = list(lv_total)
@@ -221,7 +248,13 @@ def run_batch(count, model, axis_only=None):
         d = batch_count - sum(lv_batch)
         lv_batch[2] = max(0, lv_batch[2] + d)
 
+        # アルファベット範囲指定を追加
+        chars = letter_ranges[req_idx % len(letter_ranges)]
+        letter_hint = f"\n\n### 単語の頭文字制約\nこのバッチでは、word の頭文字が {', '.join(chars)} で始まる単語のみ生成してください。"
+
         prompt = build_prompt(batch_count, lv_batch, existing, axis_only)
+        prompt += letter_hint
+
         requests.append({
             "custom_id": f"words-{req_idx:04d}",
             "params": {
