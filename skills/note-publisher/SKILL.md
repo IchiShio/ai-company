@@ -185,40 +185,51 @@ pw -s SESSION screenshot
 2. 画像追加ボタンをクリック
 3. ファイルアップロードの処理（3段階フォールバック）:
 
-**方法A: pw eval + DataTransfer API（推奨）**
-```bash
-# Step 1: Base64データを読み込み
-B64=$(cat /tmp/note-header-b64.txt)
+**方法A: Base64分割チャンク送信（実証済み・推奨）**
 
-# Step 2: pw eval でファイルインプットに設定
+Base64エンコードした画像を80KBずつブラウザに送り、結合してファイルインプットに設定する。
+
+```bash
+# Step 1: 「画像を追加」→「画像をアップロード」をクリックしてファイルインプットを生成
+pw -s SESSION click INDEX  # 「画像を追加」ボタン
+pw -s SESSION click INDEX  # 「画像をアップロード」ボタン
+
+# Step 2: ファイルインプットの存在を確認（id="note-editor-eyecatch-input"）
+pw -s SESSION eval "document.getElementById('note-editor-eyecatch-input') ? 'found' : 'not found'"
+
+# Step 3: ブラウザ側にチャンク配列を初期化
+pw -s SESSION eval "window._imgChunks = []; 'ready'"
+
+# Step 4: Base64を80KBチャンクに分割して順次送信
+base64 -i /path/to/image.png | tr -d '\n' | fold -w 80000 | while IFS= read -r chunk; do
+  pw -s SESSION eval "window._imgChunks.push('$chunk'); window._imgChunks.length"
+done
+
+# Step 5: チャンクを結合してファイルインプットに設定
 pw -s SESSION eval "
-  const input = document.querySelector('input[type=\"file\"][accept*=\"image\"]');
-  if (input) {
-    const dt = new DataTransfer();
-    const b64 = '$B64';
-    const bin = atob(b64);
-    const arr = new Uint8Array(bin.length);
-    for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
-    const file = new File([arr], 'header.png', {type: 'image/png'});
-    dt.items.add(file);
-    input.files = dt.files;
-    input.dispatchEvent(new Event('change', {bubbles: true}));
-    console.log('Image uploaded');
-  } else {
-    console.log('File input not found');
-  }
+  const b64 = window._imgChunks.join('');
+  const bin = atob(b64);
+  const arr = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+  const file = new File([arr], 'eyecatch.png', {type: 'image/png'});
+  const dt = new DataTransfer();
+  dt.items.add(file);
+  const input = document.getElementById('note-editor-eyecatch-input');
+  input.files = dt.files;
+  input.dispatchEvent(new Event('change', {bubbles: true}));
+  delete window._imgChunks;
+  'SUCCESS: size=' + file.size;
 "
+
+# Step 6: クロップダイアログで「保存」をクリック
+pw -s SESSION screenshot  # クロップダイアログが表示されることを確認
+pw -s SESSION state       # 「保存」ボタンのインデックスを取得
+pw -s SESSION click INDEX # 「保存」をクリック
 ```
 
-**方法B: macOS クリップボードペースト**
-```bash
-osascript -e 'set the clipboard to (read (POSIX file "/path/to/image.png") as TIFF picture)'
-pw -s SESSION eval "document.execCommand('paste')"
-```
+**方法B: ユーザーに画像アップロードだけ依頼（フォールバック）**
 
-**方法C: ユーザーに画像アップロードだけ依頼（最終フォールバック）**
-
-方法A/Bが動作しない場合:
+方法Aが動作しない場合:
 ```
 画像のアップロードだけお願いします:
   ヘッダー画像: /path/to/header.png
@@ -352,19 +363,48 @@ pw -s SESSION screenshot
 
 ---
 
-## UIのヒント（初回実行時に要検証）
+## UIのヒント（2026-03-28 実証済み）
 
-以下はnote.comのUIに関する想定。**初回実行時に `state` と `screenshot` で実際のUIを確認し、このセクションを更新すること。**
+以下はnote.comエディタのUI情報。実際のブラウザ操作で検証済み。
 
-- **新規記事URL**: `https://note.com/notes/new`
-- **ダッシュボード**: `https://note.com/dashboard`
-- **タイトル入力欄**: エディタ上部の大きなテキストエリア
-- **本文入力欄**: タイトルの下、ブロック型エディタ
-- **みだし画像**: エディタ最上部の画像追加エリア
-- **「+」ボタン**: 本文中の各行の左側に表示、画像・埋め込み等の追加
-- **公開ボタン**: エディタ右上
-- **ハッシュタグ入力**: 公開設定画面内
-- **有料ライン**: エディタのメニューから挿入
+### エディタ画面（`https://editor.note.com/notes/{id}/edit/`）
+
+| 要素 | インデックス(参考) | 備考 |
+|---|---|---|
+| AIアシスタント | `[2]` | 左サイドバー。邪魔になるので先に `[18]` で閉じる |
+| 閉じる（エディタ終了） | `[6]` | 左上 |
+| 一時保存 | `[8]` | 右上 |
+| 公開に進む | `[9]` | 右上。公開設定画面に遷移 |
+| 画像を追加 | `[10]` | タイトル上。クリックでメニュー表示 |
+| → 画像をアップロード | `[11]` | メニュー内。クリックで `input[type=file]` を動的生成 |
+| → 記事にあう画像を選ぶ | `[12]` | フォトギャラリーから選択 |
+| タイトル | `[11]`/`textarea` | エディタ上部 |
+| 本文 | `[12]`/`div[role=textbox]` | タイトルの下、ブロック型リッチテキスト |
+| AIと相談ダイアログ | `[16]-[18]` | 左サイドバーに常時表示。操作の邪魔になる |
+
+### 重要な発見事項
+
+- **ファイルインプットID**: `note-editor-eyecatch-input`（`accept="image/jpeg,image/png,image/webp"`）
+  - 「画像をアップロード」クリック時に動的生成される
+- **AIダイアログ**: エディタ左に「AIと相談」が常時表示。クリック操作をインターセプトするので、**画像アップロード前に必ず閉じる**
+- **クロップダイアログ**: 画像設定後に自動表示。「保存」をクリックで確定
+- **公開済み記事の更新**: エディタで画像変更→保存するだけで即反映。**再公開フロー不要**
+- **未保存変更の確認ダイアログ**: エディタから離脱時にブラウザダイアログが出る場合がある
+
+### 公開設定画面（`/publish/`）
+
+- **ハッシュタグ入力**: `input[role=combobox]`
+- **記事タイプ**: 無料/有料のラジオボタン
+- **価格入力**: 有料選択時に表示
+- **注意**: 公開済み記事の場合、「投稿する」ボタンは表示されない（変更は即反映）
+
+### URL構成
+
+- **新規記事**: `https://note.com/notes/new` → エディタにリダイレクト
+- **記事編集**: `https://editor.note.com/notes/{id}/edit/`
+- **公開設定**: `https://editor.note.com/notes/{id}/publish/`
+- **プロフィール**: `https://note.com/{username}`
+- **記事公開ページ**: `https://note.com/{username}/n/{note_id}`
 
 ---
 
@@ -380,8 +420,19 @@ note.comにログインされていません。
 ```
 
 ### 画像アップロードが失敗する場合
-方法A → 方法B → 方法C の順で試行。
-方法Cでもダメな場合はユーザーに報告して手動アップロードを依頼。
+方法A（Base64チャンク送信）→ 方法B（ユーザーに依頼）の順で試行。
+
+方法Aの典型的な失敗パターン:
+- ファイルインプットが見つからない → 「画像をアップロード」ボタンを再クリック
+- `change` イベントが反応しない → `input` イベントも追加で dispatch
+- Base64が壊れている → チャンク数を確認（`window._imgChunks.length`）
+
+### AIダイアログが操作を妨害する場合
+エディタ左の「AIと相談」ダイアログがクリック操作をインターセプトすることがある。
+```bash
+pw -s SESSION click 18  # AIダイアログの「閉じる」ボタン
+```
+閉じてから目的の操作を行う。
 
 ### エディタが応答しない場合
 ```bash
