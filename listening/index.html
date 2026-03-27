@@ -3079,7 +3079,8 @@ function defaultProgress() {
   return {
     totalAnswered: 0, totalCorrect: 0, dailyStreak: 0, lastVisitDate: '',
     todayAnswered: 0, todayDate: '', todayCorrect: 0, visitDates: [],
-    axisStats: { speed:{a:0,c:0}, reduction:{a:0,c:0}, vocab:{a:0,c:0}, context:{a:0,c:0}, distractor:{a:0,c:0} }
+    axisStats: { speed:{a:0,c:0}, reduction:{a:0,c:0}, vocab:{a:0,c:0}, context:{a:0,c:0}, distractor:{a:0,c:0} },
+    lastLevel: 2
   };
 }
 
@@ -3348,8 +3349,8 @@ async function beginQuiz() {
   saveProgress(p);
 
   score = 0; total = 0; streak = 0;
-  // 初回ユーザーはlv1から（やさしい問題で成功体験を積む）、リピーターはlv3から
-  currentLevel = (p.totalAnswered === 0) ? 0 : 2; correctStreak = 0;
+  // 初回ユーザーはlv1から、リピーターは前回の最終難易度から再開
+  currentLevel = (p.totalAnswered === 0) ? 0 : (p.lastLevel ?? 2); correctStreak = 0;
   recoveryMode = false; postRecoveryLevel = -1; playCount = 0;
   sessionXP = 0; sessionLevel = 0; sessionPhrases = [];
   srsItems  = loadSrs();       // Firestore sync 済み or localStorage フォールバック
@@ -3398,7 +3399,7 @@ function goToStart() {
 // ─────────────────────────────────────────
 // POOLS (Adaptive)
 // ─────────────────────────────────────────
-const MAX_REVIEWS_PER_SESSION = 5;
+const MAX_REVIEWS_PER_SESSION = 10;
 
 function initPools() {
   // 全問消化チェック — seenSetがDATA総数以上ならリセット（2周目へ）
@@ -3490,12 +3491,12 @@ function pickQuestion() {
   const retryIdx = pool.slice(0, 4).findIndex(q => q.isRetry);
   if (retryIdx !== -1) return pool.splice(retryIdx, 1)[0];
 
-  // ② axis優先選択（累積20問以上でアクティベート、70%の確率で適用）
+  // ② axis優先選択（累積10問以上でアクティベート、70%の確率で適用）
   const p = loadProgress();
   const axisStats = p.axisStats || {};
   const totalAttempts = Object.values(axisStats).reduce((sum, s) => sum + (s.a || 0), 0);
 
-  if (totalAttempts >= 20 && Math.random() < 0.7) {
+  if (totalAttempts >= 10 && Math.random() < 0.7) {
     const AXES = ['speed', 'reduction', 'vocab', 'context', 'distractor'];
     // 3回以上試みたaxisのみ対象（データ不足のaxisを除外）
     const withData = AXES.filter(ax => (axisStats[ax]?.a || 0) >= 3);
@@ -3628,7 +3629,7 @@ function choose(selected) {
       // 通常問題を不正解 → リカバリーモード開始
       correctStreak = 0;
       const returnLevel = Math.max(0, currentLevel - 1);
-      const recoveryLevel = Math.max(0, currentLevel - 2);
+      const recoveryLevel = Math.max(0, currentLevel - 1);
       // 不正解問題を returnLevel のプールに再挿入（ヒントレベルを上げる）
       const requeuedQ = { ...current, hintLevel: (current.hintLevel || 0) + 1, isRetry: true };
       if (!pools[returnLevel]) pools[returnLevel] = [];
@@ -3674,26 +3675,21 @@ function choose(selected) {
     p.axisStats[ax].a++;
     if (ok) p.axisStats[ax].c++;
   }
+  p.lastLevel = currentLevel;
   saveProgress(p);
   markSeen(current);
 
   // SRS 更新（セッション内即再出題の isRetry は除外）
-  // 案B: 登録閾値 — 2回間違えた問題だけ SRS に登録する
+  // 1回間違えで即SRS登録（苦手問題の定着を強化）
   const srsId = getSrsId(current);
   if (srsId && !current.isRetry) {
     if (!ok) {
       if (srsItems[srsId]) {
         // 既にSRS登録済み → 進捗をリセット（翌日 due）
         srsItems[srsId] = updateSrsItem(srsItems[srsId], false);
-      } else if (wrongOnce.has(srsId)) {
-        // 2回目の間違い → SRS登録、wrongOnce から卒業
-        srsItems[srsId] = updateSrsItem(undefined, false);
-        wrongOnce.delete(srsId);
-        saveWrongOnce();
       } else {
-        // 1回目の間違い → wrongOnce に記録（SRS未登録）
-        wrongOnce.add(srsId);
-        saveWrongOnce();
+        // 初回不正解 → 即SRS登録（翌日 due）
+        srsItems[srsId] = updateSrsItem(undefined, false);
       }
     } else if (srsItems[srsId]) {
       // 正解 & SRS登録済み → 進捗を進める
