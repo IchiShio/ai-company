@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1280px; height: 670px; }
+.card {
+  width: 1280px; height: 670px;
+  background: linear-gradient(135deg, #0d3b2e 0%, #1a5c3a 50%, #0d3b2e 100%);
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 80px 90px; position: relative; overflow: hidden;
+}
+.card::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+  height: 4px; background: linear-gradient(90deg, #4ecdc4, #6ee7de, #4ecdc4);
+}
+.main-title {
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-size: 52px; font-weight: 900; color: #fff;
+  line-height: 1.5; letter-spacing: 0.02em; margin-bottom: 36px;
+}
+.sub-title {
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-size: 20px; font-weight: 400; color: rgba(255,255,255,0.65);
+  line-height: 1.6; margin-bottom: 40px;
+}
+.author {
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-size: 18px; font-weight: 500; color: rgba(255,255,255,0.5);
+}
+.accent { color: #4ecdc4; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="main-title">公務員→外資IT転職<br><span class="accent">テンプレート集</span></div>
+  <div class="sub-title">職務経歴書5業界分・面接Q&A 50選・LinkedIn最適化・年収交渉メール</div>
+  <div class="author">ひつじ｜元国家公務員 → IT外資</div>
+</div>
+</body>
+</html>
