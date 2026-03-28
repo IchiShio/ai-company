@@ -881,14 +881,16 @@ function switchTab(tab) {
 /* ════════════════════════════════════════
    SPEECH
 ════════════════════════════════════════ */
-function speak(text, rate = 0.85) {
-  if (!window.speechSynthesis) return;
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = 'en-US';
-  utt.rate = rate;
-  utt.pitch = 1.0;
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utt);
+function speak(text) {
+  const filename = text.toLowerCase().replace(/\s+/g, '_');
+  const audio = new Audio(`/phonics/audio/${filename}.mp3`);
+  audio.play().catch(() => {
+    if (!window.speechSynthesis) return;
+    const utt = new SpeechSynthesisUtterance(text);
+    utt.lang = 'en-US'; utt.rate = 0.85;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utt);
+  });
 }
 
 /* ════════════════════════════════════════
