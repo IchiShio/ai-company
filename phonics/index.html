@@ -699,8 +699,8 @@ const CODES = [
     mystery: '「knife」「know」「knock」——なぜ /k/ の音が聞こえない？綴りに k があるのに、発音では完全に消えている。',
     clues: ['knife', 'know', 'knock', 'knee', 'kneel'],
     rule: 'kn- で始まる単語の k は黙字（サイレントレター）。発音は /n/ のみ。',
-    etym: '古英語では kn- の k はちゃんと発音されていた（knife ← 古英語 cnīf）。17世紀頃に /k/ が自然脱落したが、綴りだけがそのまま残った。',
-    source: 'Etymonline: "knife" — from Old English cnīf; "know" — from Old English cnāwan',
+    etym: '古英語では kn- の k はちゃんと発音されていた（knife ← 古英語 cnif（← 古ノルド語 knifr））。中英語後期から近代英語期にかけて /k/ が脱落したが、綴りだけがそのまま残った。',
+    source: 'Etymonline: "knife" — from Old English cnif; "know" — from Old English cnawan',
     qs: [
       { q: '"knife" の最初の音は？', opts: ['/k/', '/n/', '/kn/', '/ɪ/'], correct: 1, expl: 'k は黙字。knife = /naɪf/（最初の音は /n/）' },
       { q: 'kn- で始まる単語はどれ？', opts: ['king', 'kite', 'knew', 'keep'], correct: 2, expl: '"knew" = /njuː/。king/kite/keep の k は発音する' },
@@ -714,8 +714,8 @@ const CODES = [
     mystery: '「write」「wrong」「wrap」——wr- で始まる単語の w はなぜ発音しない？',
     clues: ['write', 'wrong', 'wrap', 'wrist', 'wreck'],
     rule: 'wr- で始まる単語の w は黙字。発音は /r/ のみ。',
-    etym: '古英語・古ノルド語では /wr/ の w を発音していた（write ← 古英語 wrītan、「刻む・書く」の意）。中英語期に /w/ が脱落した。',
-    source: 'Etymonline: "write" — from Old English wrītan; "wrong" — from Old Norse rangr',
+    etym: '古英語・古ノルド語では /wr/ の w を発音していた（write ← 古英語 writan（引っ掻く・刻む、のちに書くの意））。中英語期に /w/ が脱落した。',
+    source: 'Etymonline: "write" — from Old English writan; "wrong" — from Old Norse rangr',
     qs: [
       { q: '"write" の最初の音は？', opts: ['/w/', '/r/', '/wr/', '/aɪ/'], correct: 1, expl: 'w は黙字。write = /raɪt/（最初の音は /r/）' },
       { q: '"right" と "write" の発音は？', opts: ['同じ /raɪt/', '違う'], correct: 0, expl: 'right = /raɪt/、write = /raɪt/。w は黙字なので同音異義語（ホモフォン）' },
@@ -759,7 +759,7 @@ const CODES = [
     mystery: '「light」の gh は読まない。「tough」の gh は /f/。「ghost」の gh は /g/。同じ gh なのになぜ3通り？',
     clues: ['light', 'tough', 'ghost', 'night', 'laugh'],
     rule: 'gh は文脈によって①黙字（light, night）②/f/（tough, laugh, cough）③/g/（ghost, ghetto）の3つの発音を持つ。',
-    etym: '古英語の /x/（ドイツ語の "Bach" の ch に似た音）が gh で書かれていた。印刷術の普及（15c）で綴りが固定された後、/x/ の音が方言によって異なる方向に変化した。',
+    etym: '古英語では /x/（ドイツ語の "Bach" の ch に似た音）は主に h で表記されていた。中英語期に Anglo-French の書記者が gh 表記を導入し、ghost については15世紀のキャクストン（印刷者）がフランドル語の影響で gh 綴りを定着させた。その後 /x/ の音が方言によって黙字・/f/・/g/ に分岐した。',
     source: 'Etymonline: "light" — from Old English lēoht; "tough" — from Old English tōh; "ghost" — from Old English gāst',
     qs: [
       { q: '"though" の gh は？', opts: ['黙字', '/f/', '/g/', '/x/'], correct: 0, expl: 'though = /ðoʊ/。gh は黙字。though/through/dough/night など多数' },
@@ -834,7 +834,7 @@ const CODES = [
     mystery: '「island」の s、「debt」の b、「receipt」の p——これらの文字はなぜ綴りにあるのに発音しない？',
     clues: ['island', 'debt', 'receipt', 'scissors', 'Wednesday'],
     rule: '歴史的・語源的黙字。ラテン語や語源を示すために後から挿入された文字や、かつて発音されていたが音が消えた文字が残っている。',
-    etym: 'island: 古英語 īgland（ig=水、land=陸）に語源無関係の isle（ラテン語 insula）との混同で s が挿入。debt: 古フランス語 dette をラテン語 debitum に近づけるため b を挿入（ルネサンス期）。',
+    etym: 'island: 古英語 igland/iegland（ig=水、land=陸）に語源無関係の isle（ラテン語 insula）との関連付け（association）で16世紀に s が挿入。debt: 古フランス語 dette をラテン語 debitum に近づけるため b を挿入（c. 1400以降のスペリング復古）。',
     source: 'Etymonline: "island" — from Old English iegland; "debt" — respelled after Latin debitum; "receipt" — after Latin recepta',
     qs: [
       { q: '"debt" の b は？', opts: ['発音する /b/', '黙字', '/v/ と発音', '/p/ と発音'], correct: 1, expl: 'debt = /dɛt/。b は黙字。ラテン語 debitum を示すために後から挿入された' },
