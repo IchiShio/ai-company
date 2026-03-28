@@ -1,5 +1,6 @@
 ---
 name: native-real-data-collector
+model: claude-haiku-4-5-20251001
 description: |
   native-real.com（英語学習サービス比較サイト）のSEOデータを自動収集するスキル。
   Google Search Console・Google Analytics・Ahrefsから日次データを取得し、

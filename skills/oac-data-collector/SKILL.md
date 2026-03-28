@@ -1,5 +1,6 @@
 ---
 name: oac-data-collector
+model: claude-haiku-4-5-20251001
 description: |
   one-ai-company部門のデータ収集担当。X API v2 で @one_ai_company の
   投稿パフォーマンスデータを取得し、oac-knowledge/posts/oac-log.csv に記録する。

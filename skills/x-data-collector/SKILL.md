@@ -1,5 +1,6 @@
 ---
 name: x-data-collector
+model: claude-haiku-4-5-20251001
 description: |
   X部門のデータ収集担当。X API v2 で投稿パフォーマンスデータを取得し、
   x-knowledge/posts/ のCSVログに記録する。分析は行わない。
