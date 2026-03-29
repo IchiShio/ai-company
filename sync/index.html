@@ -240,6 +240,112 @@
     }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--text); }
+
+    /* ── scroll ── */
+    html { scroll-behavior: smooth; }
+
+    /* ── LP HERO ── */
+    #lp-hero {
+      background: linear-gradient(180deg, #0f1117 0%, #131624 100%);
+      padding: 56px 20px 52px;
+      border-bottom: 1px solid var(--border);
+    }
+    .lp-inner {
+      max-width: 820px; margin: 0 auto;
+      display: flex; align-items: center; gap: 48px; flex-wrap: wrap;
+    }
+    .lp-hero-text { flex: 1; min-width: 260px; }
+    .lp-label {
+      font-size: 11px; font-weight: 700; letter-spacing: 1.2px;
+      text-transform: uppercase; color: var(--accent); margin-bottom: 14px;
+    }
+    .lp-headline {
+      font-size: clamp(36px, 8vw, 54px); font-weight: 900;
+      line-height: 1.15; letter-spacing: -1.5px; color: #fff; margin-bottom: 16px;
+    }
+    .lp-sub {
+      font-size: clamp(13px, 3vw, 15px); color: var(--text-muted);
+      line-height: 1.8; margin-bottom: 28px;
+    }
+    .lp-cta-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--accent), #7c3aed);
+      color: #fff; font-weight: 800; font-size: 15px;
+      padding: 14px 32px; border-radius: 12px;
+      text-decoration: none; letter-spacing: .2px;
+      transition: opacity .15s, transform .1s;
+      box-shadow: 0 4px 20px rgba(79,142,247,.35);
+    }
+    .lp-cta-btn:hover { opacity: .9; transform: translateY(-1px); }
+    .lp-cta-btn:active { transform: translateY(0); }
+
+    /* Mockup card */
+    .lp-mockup { flex: 1; min-width: 260px; max-width: 380px; }
+    .lp-mock-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 24px 22px 20px;
+      box-shadow: 0 8px 40px rgba(0,0,0,.5);
+    }
+    .lp-mock-header {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 18px;
+    }
+    .lp-mock-badge {
+      font-size: 10px; font-weight: 700;
+      padding: 3px 9px; border-radius: 20px; letter-spacing: .5px;
+    }
+    .lp-mock-title { font-size: 12px; color: var(--text-muted); font-weight: 500; }
+    .lp-mock-playing { margin-left: auto; display: flex; align-items: flex-end; gap: 3px; height: 16px; }
+    .lp-bar { display: inline-block; width: 3px; background: var(--accent); border-radius: 2px; animation: lp-wave .7s ease-in-out infinite; }
+    .lp-bar:nth-child(1) { height: 8px; animation-delay: 0s; }
+    .lp-bar:nth-child(2) { height: 14px; animation-delay: .15s; }
+    .lp-bar:nth-child(3) { height: 10px; animation-delay: .3s; }
+    @keyframes lp-wave {
+      0%, 100% { transform: scaleY(.5); opacity: .6; }
+      50% { transform: scaleY(1.2); opacity: 1; }
+    }
+    .lp-mock-text { font-size: 19px; line-height: 2; letter-spacing: .01em; }
+    .mock-word { color: rgba(232,234,240,.35); transition: color .1s, background .1s; border-radius: 3px; }
+    .mock-word.mock-active { color: #f5c842; background: rgba(245,200,66,.15); padding: 0 2px; margin: 0 -1px; }
+    .lp-mock-progress-track { margin-top: 16px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
+    .lp-mock-fill { height: 100%; background: var(--accent); border-radius: 2px; animation: lp-fill 4.5s linear infinite; }
+    @keyframes lp-fill { 0% { width: 0%; } 100% { width: 100%; } }
+
+    /* Features */
+    .lp-features {
+      max-width: 820px; margin: 44px auto 0;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;
+    }
+    @media (max-width: 600px) { .lp-features { grid-template-columns: 1fr; gap: 12px; } }
+    .lp-feature {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 22px 20px;
+    }
+    .lp-feature-icon { font-size: 24px; margin-bottom: 10px; }
+    .lp-feature-title { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .lp-feature-desc { font-size: 12px; color: var(--text-muted); line-height: 1.65; }
+
+    /* Research note */
+    .lp-research {
+      max-width: 820px; margin: 22px auto 0;
+      font-size: 12px; color: var(--text-muted); text-align: center; line-height: 1.6;
+    }
+    .lp-research-badge {
+      display: inline-block;
+      background: rgba(79,142,247,.12); border: 1px solid rgba(79,142,247,.25);
+      color: var(--accent); font-size: 10px; font-weight: 700;
+      letter-spacing: .6px; text-transform: uppercase;
+      padding: 2px 8px; border-radius: 10px; margin-right: 6px; vertical-align: middle;
+    }
+
+    /* Tool section divider */
+    .tool-divider {
+      max-width: 820px; margin: 0 auto;
+      padding: 18px 20px 0;
+      font-size: 11px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--text-muted);
+      display: flex; align-items: center; gap: 12px;
+    }
+    .tool-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
   </style>
 </head>
 <body>
@@ -257,12 +363,78 @@
   <a href="/" class="nav-link">← ホーム</a>
 </header>
 
-<main>
-  <div class="page-title">
-    <h1>SyncReader</h1>
-    <p>耳が先。目が追う。</p>
+<!-- ── LP HERO ── -->
+<section id="lp-hero">
+  <div class="lp-inner">
+    <div class="lp-hero-text">
+      <div class="lp-label">英語リーディング練習ツール</div>
+      <h2 class="lp-headline">耳が先。<br>目が追う。</h2>
+      <p class="lp-sub">音声が流れると、読んでいる単語が自動でハイライト。<br>読む場所を探さなくていい。ただ聴いて、追うだけ。</p>
+      <a href="#tool" class="lp-cta-btn">今すぐ練習を始める →</a>
+    </div>
+    <div class="lp-mockup">
+      <div class="lp-mock-card">
+        <div class="lp-mock-header">
+          <span class="lp-mock-badge lv1">Level 1</span>
+          <span class="lp-mock-title">Daily Habits</span>
+          <div class="lp-mock-playing">
+            <span class="lp-bar"></span>
+            <span class="lp-bar"></span>
+            <span class="lp-bar"></span>
+          </div>
+        </div>
+        <div class="lp-mock-text">
+          <span class="mock-word">She</span> <span class="mock-word">told</span>
+          <span class="mock-word">him</span> <span class="mock-word">to</span>
+          <span class="mock-word">call</span> <span class="mock-word">back</span>
+          <span class="mock-word">later,</span> <span class="mock-word">but</span>
+          <span class="mock-word">he</span> <span class="mock-word">forgot.</span>
+        </div>
+        <div class="lp-mock-progress-track"><div class="lp-mock-fill"></div></div>
+      </div>
+    </div>
   </div>
 
+  <div class="lp-features">
+    <div class="lp-feature">
+      <div class="lp-feature-icon">🔊</div>
+      <div class="lp-feature-title">音声同期ハイライト</div>
+      <div class="lp-feature-desc">再生中の単語が自動でマーカー表示。読む場所を探さなくていい。目と耳が同時に動く。</div>
+    </div>
+    <div class="lp-feature">
+      <div class="lp-feature-icon">📚</div>
+      <div class="lp-feature-title">5段階・200本収録</div>
+      <div class="lp-feature-desc">中学基礎（Lv1）〜上級（Lv5）まで。今の自分に合った英文でスタートできる。</div>
+    </div>
+    <div class="lp-feature">
+      <div class="lp-feature-icon">⚡</div>
+      <div class="lp-feature-title">速度 0.5×〜1.4×</div>
+      <div class="lp-feature-desc">ゆっくりから始めてネイティブスピードへ。シャドーイング前の準備にも最適。</div>
+    </div>
+  </div>
+
+  <div class="lp-research">
+    <span class="lp-research-badge">研究根拠あり</span>
+    「聴きながら読む（RWL）」は語彙定着・リスニング向上に有効（Chang 2011 / Wei &amp; Hu 2025）
+  </div>
+</section>
+<!-- ── mock animation ── -->
+<script>
+(function(){
+  var ws = document.querySelectorAll('.mock-word');
+  if (!ws.length) return;
+  var i = 0;
+  setInterval(function(){
+    ws.forEach(function(w){ w.classList.remove('mock-active'); });
+    ws[i].classList.add('mock-active');
+    i = (i + 1) % ws.length;
+  }, 450);
+})();
+</script>
+
+<div class="tool-divider">ツール — 練習を始める</div>
+
+<main id="tool">
   <div class="level-tabs">
     <button class="level-tab active" data-lv="lv1">Level 1</button>
     <button class="level-tab" data-lv="lv2">Level 2</button>
