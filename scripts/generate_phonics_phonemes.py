@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-Generate phoneme MP3 files using Google Cloud TTS REST API + SSML <phoneme> tags.
+Generate phoneme MP3 files using Google Cloud TTS REST API.
+
+母音: SSML <phoneme alphabet="ipa"> タグ（精度高）
+子音: 直接テキスト（"buh", "yuh" など）でTTSが正確に発音
+
 Output: phonics/audio/phoneme_{a-z}.mp3
 
 Usage:
-    python3 scripts/generate_phonics_phonemes.py
-
-Requires:
-    GOOGLE_CLOUD_API_KEY in .env (Google Cloud TTS API enabled)
+    python3 scripts/generate_phonics_phonemes.py           # skip existing
+    python3 scripts/generate_phonics_phonemes.py --force   # regenerate all
 """
-import asyncio
 import base64
 import os
 import sys
@@ -26,50 +27,60 @@ if not API_KEY:
 URL = f"https://texttospeech.googleapis.com/v1/text:synthesize?key={API_KEY}"
 OUT_DIR = os.path.join(os.path.dirname(__file__), "../phonics/audio")
 
-# Letter → IPA phoneme mapping (short/consonant sounds for phonics)
+# letter → (input_type, value)
+# input_type: "ssml" = IPA phoneme tag, "text" = plain text
 PHONEME_MAP = {
-    'a': 'æ',    # cat
-    'b': 'b',    # bat
-    'c': 'k',    # cat
-    'd': 'd',    # dog
-    'e': 'ɛ',    # bed
-    'f': 'f',    # fox
-    'g': 'ɡ',    # go
-    'h': 'h',    # hat
-    'i': 'ɪ',    # it
-    'j': 'dʒ',   # jam
-    'k': 'k',    # kit
-    'l': 'l',    # lip
-    'm': 'm',    # man
-    'n': 'n',    # net
-    'o': 'ɒ',    # on
-    'p': 'p',    # pan
-    'q': 'kw',   # quit
-    'r': 'r',    # run
-    's': 's',    # sun
-    't': 't',    # tap
-    'u': 'ʌ',    # up
-    'v': 'v',    # van
-    'w': 'w',    # wet
-    'x': 'ks',   # fox
-    'y': 'j',    # yes
-    'z': 'z',    # zip
+    # 母音: IPA SSML で正確に
+    'a': ('ssml', 'æ'),    # /æ/ cat
+    'e': ('ssml', 'ɛ'),    # /ɛ/ bed
+    'i': ('ssml', 'ɪ'),    # /ɪ/ it
+    'o': ('ssml', 'ɒ'),    # /ɒ/ on
+    'u': ('ssml', 'ʌ'),    # /ʌ/ up
+    # 子音: 直接テキスト（シュワ付き）でTTSが自然に発音
+    'b': ('text', 'buh'),
+    'c': ('text', 'kuh'),
+    'd': ('text', 'duh'),
+    'f': ('text', 'fff'),
+    'g': ('text', 'guh'),
+    'h': ('text', 'huh'),
+    'j': ('text', 'juh'),
+    'k': ('text', 'kuh'),
+    'l': ('text', 'lll'),
+    'm': ('text', 'mmm'),
+    'n': ('text', 'nnn'),
+    'p': ('text', 'puh'),
+    'q': ('text', 'kwuh'),
+    'r': ('text', 'rrr'),
+    's': ('text', 'sss'),
+    't': ('text', 'tuh'),
+    'v': ('text', 'vvv'),
+    'w': ('text', 'wuh'),
+    'x': ('text', 'ks'),
+    'y': ('text', 'yuh'),   # /j/ — NOT letter name "wai"
+    'z': ('text', 'zzz'),
 }
 
 
-def generate_phoneme(letter: str, ipa: str, force: bool = False) -> bool:
+def build_payload(input_type: str, value: str) -> dict:
+    if input_type == 'ssml':
+        # IPA phoneme tag: display text is a neutral word so TTS doesn't fall back to letter name
+        ssml = f'<speak><phoneme alphabet="ipa" ph="{value}">sound</phoneme></speak>'
+        return {"input": {"ssml": ssml}}
+    else:
+        return {"input": {"text": value}}
+
+
+def generate_phoneme(letter: str, input_type: str, value: str, force: bool = False) -> bool:
     filename = f"phoneme_{letter}.mp3"
     path = os.path.join(OUT_DIR, filename)
     if not force and os.path.exists(path):
         print(f"  skip  {filename}")
         return True
 
-    ssml = f'<speak><phoneme alphabet="ipa" ph="{ipa}">{letter}</phoneme></speak>'
-    payload = {
-        "input": {"ssml": ssml},
-        "voice": {"languageCode": "en-US", "name": "en-US-Neural2-F"},
-        "audioConfig": {"audioEncoding": "MP3", "speakingRate": 0.85},
-    }
+    payload = build_payload(input_type, value)
+    payload["voice"] = {"languageCode": "en-US", "name": "en-US-Neural2-F"}
+    payload["audioConfig"] = {"audioEncoding": "MP3", "speakingRate": 0.85}
+
     resp = requests.post(URL, json=payload)
     if resp.status_code != 200:
         print(f"  ERROR {filename}: {resp.status_code} {resp.text[:200]}")
@@ -78,7 +89,8 @@ def generate_phoneme(letter: str, ipa: str, force: bool = False) -> bool:
     audio_content = base64.b64decode(resp.json()["audioContent"])
     with open(path, "wb") as f:
         f.write(audio_content)
-    print(f"  gen   {filename}  /{ ipa }/")
+    label = f'IPA /{value}/' if input_type == 'ssml' else f'text "{value}"'
+    print(f"  gen   {filename}  {label}")
     return True
 
 
@@ -88,8 +100,8 @@ def main():
     print(f"Generating {len(PHONEME_MAP)} phoneme files → {OUT_DIR}\n")
 
     ok = err = 0
-    for letter, ipa in PHONEME_MAP.items():
-        if generate_phoneme(letter, ipa, force):
+    for letter, (input_type, value) in PHONEME_MAP.items():
+        if generate_phoneme(letter, input_type, value, force):
             ok += 1
         else:
             err += 1
