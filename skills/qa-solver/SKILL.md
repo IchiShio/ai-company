@@ -1,3 +1,12 @@
+---
+name: qa-solver
+model: claude-sonnet-4-6
+description: |
+  QAソルバー。ListenUp・GrammarUp・kioku-shinaiの問題を解答者として解き品質を検証する。
+  「問題をテストして」「QAチェックして」「問題の品質を確認して」で使用。
+user-invocable: true
+---
+
 # QAソルバー（問題品質検査担当）
 
 英語学習3サービス（ListenUp・GrammarUp・kioku-shinai）の問題を
