@@ -1,0 +1,217 @@
+[
+  {
+    "word": "Snow",
+    "start": 0.15,
+    "end": 0.464
+  },
+  {
+    "word": "fell",
+    "start": 0.464,
+    "end": 0.778
+  },
+  {
+    "word": "overnight",
+    "start": 0.778,
+    "end": 1.484
+  },
+  {
+    "word": "and",
+    "start": 1.484,
+    "end": 1.719
+  },
+  {
+    "word": "covered",
+    "start": 1.719,
+    "end": 2.268
+  },
+  {
+    "word": "everything",
+    "start": 2.268,
+    "end": 3.052
+  },
+  {
+    "word": "in",
+    "start": 3.052,
+    "end": 3.209
+  },
+  {
+    "word": "white.",
+    "start": 3.209,
+    "end": 3.6
+  },
+  {
+    "word": "The",
+    "start": 3.6,
+    "end": 3.856
+  },
+  {
+    "word": "streets",
+    "start": 3.856,
+    "end": 4.454
+  },
+  {
+    "word": "were",
+    "start": 4.454,
+    "end": 4.795
+  },
+  {
+    "word": "quiet",
+    "start": 4.795,
+    "end": 5.222
+  },
+  {
+    "word": "and",
+    "start": 5.222,
+    "end": 5.478
+  },
+  {
+    "word": "the",
+    "start": 5.478,
+    "end": 5.734
+  },
+  {
+    "word": "air",
+    "start": 5.734,
+    "end": 5.99
+  },
+  {
+    "word": "was",
+    "start": 5.99,
+    "end": 6.246
+  },
+  {
+    "word": "cold.",
+    "start": 6.246,
+    "end": 6.587999999999999
+  },
+  {
+    "word": "Children",
+    "start": 6.638,
+    "end": 7.268
+  },
+  {
+    "word": "came",
+    "start": 7.268,
+    "end": 7.583
+  },
+  {
+    "word": "out",
+    "start": 7.583,
+    "end": 7.819
+  },
+  {
+    "word": "early",
+    "start": 7.819,
+    "end": 8.213
+  },
+  {
+    "word": "to",
+    "start": 8.213,
+    "end": 8.371
+  },
+  {
+    "word": "build",
+    "start": 8.371,
+    "end": 8.765
+  },
+  {
+    "word": "snowmen",
+    "start": 8.765,
+    "end": 9.317
+  },
+  {
+    "word": "in",
+    "start": 9.317,
+    "end": 9.475
+  },
+  {
+    "word": "the",
+    "start": 9.475,
+    "end": 9.711
+  },
+  {
+    "word": "park.",
+    "start": 9.711,
+    "end": 10.026
+  },
+  {
+    "word": "Schools",
+    "start": 10.075,
+    "end": 10.724
+  },
+  {
+    "word": "were",
+    "start": 10.724,
+    "end": 11.095
+  },
+  {
+    "word": "closed",
+    "start": 11.095,
+    "end": 11.652
+  },
+  {
+    "word": "for",
+    "start": 11.652,
+    "end": 11.93
+  },
+  {
+    "word": "the",
+    "start": 11.93,
+    "end": 12.208
+  },
+  {
+    "word": "day.",
+    "start": 12.208,
+    "end": 12.487
+  },
+  {
+    "word": "It",
+    "start": 12.538,
+    "end": 12.708
+  },
+  {
+    "word": "was",
+    "start": 12.708,
+    "end": 12.964
+  },
+  {
+    "word": "the",
+    "start": 12.964,
+    "end": 13.22
+  },
+  {
+    "word": "first",
+    "start": 13.22,
+    "end": 13.646
+  },
+  {
+    "word": "real",
+    "start": 13.646,
+    "end": 13.987
+  },
+  {
+    "word": "snow",
+    "start": 13.987,
+    "end": 14.328
+  },
+  {
+    "word": "of",
+    "start": 14.328,
+    "end": 14.498
+  },
+  {
+    "word": "the",
+    "start": 14.498,
+    "end": 14.754
+  },
+  {
+    "word": "winter",
+    "start": 14.754,
+    "end": 15.265
+  },
+  {
+    "word": "season.",
+    "start": 15.265,
+    "end": 15.776
+  }
+]

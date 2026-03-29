@@ -1,0 +1,812 @@
+{
+  "lv1": [
+    {
+      "pid": "arts_01",
+      "wordCount": 39
+    },
+    {
+      "pid": "arts_02",
+      "wordCount": 36
+    },
+    {
+      "pid": "biz_01",
+      "wordCount": 34
+    },
+    {
+      "pid": "biz_02",
+      "wordCount": 41
+    },
+    {
+      "pid": "comm_01",
+      "wordCount": 33
+    },
+    {
+      "pid": "comm_02",
+      "wordCount": 28
+    },
+    {
+      "pid": "daily_01",
+      "wordCount": 35
+    },
+    {
+      "pid": "daily_02",
+      "wordCount": 29
+    },
+    {
+      "pid": "edu_01",
+      "wordCount": 35
+    },
+    {
+      "pid": "edu_02",
+      "wordCount": 39
+    },
+    {
+      "pid": "env_01",
+      "wordCount": 25
+    },
+    {
+      "pid": "env_02",
+      "wordCount": 30
+    },
+    {
+      "pid": "food_01",
+      "wordCount": 26
+    },
+    {
+      "pid": "food_02",
+      "wordCount": 23
+    },
+    {
+      "pid": "global_01",
+      "wordCount": 36
+    },
+    {
+      "pid": "global_02",
+      "wordCount": 39
+    },
+    {
+      "pid": "health_01",
+      "wordCount": 23
+    },
+    {
+      "pid": "health_02",
+      "wordCount": 26
+    },
+    {
+      "pid": "hist_01",
+      "wordCount": 36
+    },
+    {
+      "pid": "hist_02",
+      "wordCount": 34
+    },
+    {
+      "pid": "life_01",
+      "wordCount": 30
+    },
+    {
+      "pid": "life_02",
+      "wordCount": 34
+    },
+    {
+      "pid": "nature_01",
+      "wordCount": 37
+    },
+    {
+      "pid": "nature_02",
+      "wordCount": 30
+    },
+    {
+      "pid": "psych_01",
+      "wordCount": 32
+    },
+    {
+      "pid": "psych_02",
+      "wordCount": 29
+    },
+    {
+      "pid": "sci_01",
+      "wordCount": 30
+    },
+    {
+      "pid": "sci_02",
+      "wordCount": 29
+    },
+    {
+      "pid": "society_01",
+      "wordCount": 38
+    },
+    {
+      "pid": "society_02",
+      "wordCount": 32
+    },
+    {
+      "pid": "sports_01",
+      "wordCount": 29
+    },
+    {
+      "pid": "sports_02",
+      "wordCount": 29
+    },
+    {
+      "pid": "tech_01",
+      "wordCount": 26
+    },
+    {
+      "pid": "tech_02",
+      "wordCount": 31
+    },
+    {
+      "pid": "travel_01",
+      "wordCount": 25
+    },
+    {
+      "pid": "travel_02",
+      "wordCount": 29
+    },
+    {
+      "pid": "urban_01",
+      "wordCount": 30
+    },
+    {
+      "pid": "urban_02",
+      "wordCount": 30
+    },
+    {
+      "pid": "work_01",
+      "wordCount": 31
+    },
+    {
+      "pid": "work_02",
+      "wordCount": 34
+    }
+  ],
+  "lv2": [
+    {
+      "pid": "arts_03",
+      "wordCount": 46
+    },
+    {
+      "pid": "arts_04",
+      "wordCount": 47
+    },
+    {
+      "pid": "arts_05",
+      "wordCount": 57
+    },
+    {
+      "pid": "biz_03",
+      "wordCount": 46
+    },
+    {
+      "pid": "biz_04",
+      "wordCount": 49
+    },
+    {
+      "pid": "biz_05",
+      "wordCount": 40
+    },
+    {
+      "pid": "comm_03",
+      "wordCount": 38
+    },
+    {
+      "pid": "comm_04",
+      "wordCount": 37
+    },
+    {
+      "pid": "comm_05",
+      "wordCount": 37
+    },
+    {
+      "pid": "daily_03",
+      "wordCount": 49
+    },
+    {
+      "pid": "daily_04",
+      "wordCount": 59
+    },
+    {
+      "pid": "daily_05",
+      "wordCount": 57
+    },
+    {
+      "pid": "edu_03",
+      "wordCount": 50
+    },
+    {
+      "pid": "edu_04",
+      "wordCount": 48
+    },
+    {
+      "pid": "edu_05",
+      "wordCount": 50
+    },
+    {
+      "pid": "env_03",
+      "wordCount": 40
+    },
+    {
+      "pid": "env_04",
+      "wordCount": 44
+    },
+    {
+      "pid": "env_05",
+      "wordCount": 41
+    },
+    {
+      "pid": "food_03",
+      "wordCount": 32
+    },
+    {
+      "pid": "food_04",
+      "wordCount": 38
+    },
+    {
+      "pid": "food_05",
+      "wordCount": 36
+    },
+    {
+      "pid": "global_03",
+      "wordCount": 37
+    },
+    {
+      "pid": "global_04",
+      "wordCount": 48
+    },
+    {
+      "pid": "global_05",
+      "wordCount": 42
+    },
+    {
+      "pid": "health_03",
+      "wordCount": 33
+    },
+    {
+      "pid": "health_04",
+      "wordCount": 35
+    },
+    {
+      "pid": "health_05",
+      "wordCount": 39
+    },
+    {
+      "pid": "hist_03",
+      "wordCount": 49
+    },
+    {
+      "pid": "hist_04",
+      "wordCount": 51
+    },
+    {
+      "pid": "hist_05",
+      "wordCount": 55
+    },
+    {
+      "pid": "life_03",
+      "wordCount": 38
+    },
+    {
+      "pid": "life_04",
+      "wordCount": 34
+    },
+    {
+      "pid": "life_05",
+      "wordCount": 48
+    },
+    {
+      "pid": "nature_03",
+      "wordCount": 47
+    },
+    {
+      "pid": "nature_04",
+      "wordCount": 47
+    },
+    {
+      "pid": "nature_05",
+      "wordCount": 50
+    },
+    {
+      "pid": "psych_03",
+      "wordCount": 51
+    },
+    {
+      "pid": "psych_04",
+      "wordCount": 35
+    },
+    {
+      "pid": "psych_05",
+      "wordCount": 46
+    },
+    {
+      "pid": "sci_03",
+      "wordCount": 48
+    },
+    {
+      "pid": "sci_04",
+      "wordCount": 51
+    },
+    {
+      "pid": "sci_05",
+      "wordCount": 54
+    },
+    {
+      "pid": "society_03",
+      "wordCount": 40
+    },
+    {
+      "pid": "society_04",
+      "wordCount": 43
+    },
+    {
+      "pid": "society_05",
+      "wordCount": 41
+    },
+    {
+      "pid": "sports_03",
+      "wordCount": 34
+    },
+    {
+      "pid": "sports_04",
+      "wordCount": 40
+    },
+    {
+      "pid": "sports_05",
+      "wordCount": 40
+    },
+    {
+      "pid": "tech_03",
+      "wordCount": 43
+    },
+    {
+      "pid": "tech_04",
+      "wordCount": 36
+    },
+    {
+      "pid": "tech_05",
+      "wordCount": 34
+    },
+    {
+      "pid": "travel_03",
+      "wordCount": 38
+    },
+    {
+      "pid": "travel_04",
+      "wordCount": 43
+    },
+    {
+      "pid": "travel_05",
+      "wordCount": 41
+    },
+    {
+      "pid": "urban_03",
+      "wordCount": 39
+    },
+    {
+      "pid": "urban_04",
+      "wordCount": 40
+    },
+    {
+      "pid": "urban_05",
+      "wordCount": 42
+    },
+    {
+      "pid": "work_03",
+      "wordCount": 38
+    },
+    {
+      "pid": "work_04",
+      "wordCount": 40
+    },
+    {
+      "pid": "work_05",
+      "wordCount": 38
+    }
+  ],
+  "lv3": [
+    {
+      "pid": "arts_06",
+      "wordCount": 76
+    },
+    {
+      "pid": "arts_07",
+      "wordCount": 61
+    },
+    {
+      "pid": "arts_08",
+      "wordCount": 71
+    },
+    {
+      "pid": "biz_06",
+      "wordCount": 57
+    },
+    {
+      "pid": "biz_07",
+      "wordCount": 57
+    },
+    {
+      "pid": "biz_08",
+      "wordCount": 59
+    },
+    {
+      "pid": "comm_06",
+      "wordCount": 46
+    },
+    {
+      "pid": "comm_07",
+      "wordCount": 50
+    },
+    {
+      "pid": "comm_08",
+      "wordCount": 56
+    },
+    {
+      "pid": "daily_06",
+      "wordCount": 68
+    },
+    {
+      "pid": "daily_07",
+      "wordCount": 67
+    },
+    {
+      "pid": "daily_08",
+      "wordCount": 75
+    },
+    {
+      "pid": "edu_06",
+      "wordCount": 53
+    },
+    {
+      "pid": "edu_07",
+      "wordCount": 55
+    },
+    {
+      "pid": "edu_08",
+      "wordCount": 53
+    },
+    {
+      "pid": "env_06",
+      "wordCount": 53
+    },
+    {
+      "pid": "env_07",
+      "wordCount": 63
+    },
+    {
+      "pid": "env_08",
+      "wordCount": 52
+    },
+    {
+      "pid": "food_06",
+      "wordCount": 48
+    },
+    {
+      "pid": "food_07",
+      "wordCount": 48
+    },
+    {
+      "pid": "food_08",
+      "wordCount": 50
+    },
+    {
+      "pid": "global_06",
+      "wordCount": 51
+    },
+    {
+      "pid": "global_07",
+      "wordCount": 53
+    },
+    {
+      "pid": "global_08",
+      "wordCount": 49
+    },
+    {
+      "pid": "health_06",
+      "wordCount": 43
+    },
+    {
+      "pid": "health_07",
+      "wordCount": 44
+    },
+    {
+      "pid": "health_08",
+      "wordCount": 48
+    },
+    {
+      "pid": "hist_06",
+      "wordCount": 62
+    },
+    {
+      "pid": "hist_07",
+      "wordCount": 65
+    },
+    {
+      "pid": "hist_08",
+      "wordCount": 58
+    },
+    {
+      "pid": "life_06",
+      "wordCount": 54
+    },
+    {
+      "pid": "life_07",
+      "wordCount": 65
+    },
+    {
+      "pid": "life_08",
+      "wordCount": 53
+    },
+    {
+      "pid": "nature_06",
+      "wordCount": 68
+    },
+    {
+      "pid": "nature_07",
+      "wordCount": 60
+    },
+    {
+      "pid": "nature_08",
+      "wordCount": 66
+    },
+    {
+      "pid": "psych_06",
+      "wordCount": 54
+    },
+    {
+      "pid": "psych_07",
+      "wordCount": 49
+    },
+    {
+      "pid": "psych_08",
+      "wordCount": 58
+    },
+    {
+      "pid": "sci_06",
+      "wordCount": 73
+    },
+    {
+      "pid": "sci_07",
+      "wordCount": 62
+    },
+    {
+      "pid": "sci_08",
+      "wordCount": 78
+    },
+    {
+      "pid": "society_06",
+      "wordCount": 48
+    },
+    {
+      "pid": "society_07",
+      "wordCount": 55
+    },
+    {
+      "pid": "society_08",
+      "wordCount": 53
+    },
+    {
+      "pid": "sports_06",
+      "wordCount": 45
+    },
+    {
+      "pid": "sports_07",
+      "wordCount": 47
+    },
+    {
+      "pid": "sports_08",
+      "wordCount": 52
+    },
+    {
+      "pid": "tech_06",
+      "wordCount": 45
+    },
+    {
+      "pid": "tech_07",
+      "wordCount": 47
+    },
+    {
+      "pid": "tech_08",
+      "wordCount": 49
+    },
+    {
+      "pid": "travel_06",
+      "wordCount": 62
+    },
+    {
+      "pid": "travel_07",
+      "wordCount": 59
+    },
+    {
+      "pid": "travel_08",
+      "wordCount": 55
+    },
+    {
+      "pid": "urban_06",
+      "wordCount": 60
+    },
+    {
+      "pid": "urban_07",
+      "wordCount": 52
+    },
+    {
+      "pid": "urban_08",
+      "wordCount": 60
+    },
+    {
+      "pid": "work_06",
+      "wordCount": 50
+    },
+    {
+      "pid": "work_07",
+      "wordCount": 48
+    },
+    {
+      "pid": "work_08",
+      "wordCount": 53
+    }
+  ],
+  "lv4": [
+    {
+      "pid": "arts_09",
+      "wordCount": 91
+    },
+    {
+      "pid": "biz_09",
+      "wordCount": 84
+    },
+    {
+      "pid": "comm_09",
+      "wordCount": 67
+    },
+    {
+      "pid": "daily_09",
+      "wordCount": 95
+    },
+    {
+      "pid": "edu_09",
+      "wordCount": 66
+    },
+    {
+      "pid": "env_09",
+      "wordCount": 78
+    },
+    {
+      "pid": "food_09",
+      "wordCount": 72
+    },
+    {
+      "pid": "global_09",
+      "wordCount": 66
+    },
+    {
+      "pid": "health_09",
+      "wordCount": 63
+    },
+    {
+      "pid": "hist_09",
+      "wordCount": 88
+    },
+    {
+      "pid": "life_09",
+      "wordCount": 83
+    },
+    {
+      "pid": "nature_09",
+      "wordCount": 94
+    },
+    {
+      "pid": "psych_09",
+      "wordCount": 86
+    },
+    {
+      "pid": "sci_09",
+      "wordCount": 97
+    },
+    {
+      "pid": "society_09",
+      "wordCount": 61
+    },
+    {
+      "pid": "sports_09",
+      "wordCount": 69
+    },
+    {
+      "pid": "tech_09",
+      "wordCount": 39
+    },
+    {
+      "pid": "travel_09",
+      "wordCount": 77
+    },
+    {
+      "pid": "urban_09",
+      "wordCount": 80
+    },
+    {
+      "pid": "work_09",
+      "wordCount": 70
+    }
+  ],
+  "lv5": [
+    {
+      "pid": "arts_10",
+      "wordCount": 111
+    },
+    {
+      "pid": "biz_10",
+      "wordCount": 114
+    },
+    {
+      "pid": "comm_10",
+      "wordCount": 87
+    },
+    {
+      "pid": "daily_10",
+      "wordCount": 122
+    },
+    {
+      "pid": "edu_10",
+      "wordCount": 92
+    },
+    {
+      "pid": "env_10",
+      "wordCount": 118
+    },
+    {
+      "pid": "food_10",
+      "wordCount": 93
+    },
+    {
+      "pid": "global_10",
+      "wordCount": 96
+    },
+    {
+      "pid": "health_10",
+      "wordCount": 73
+    },
+    {
+      "pid": "hist_10",
+      "wordCount": 117
+    },
+    {
+      "pid": "life_10",
+      "wordCount": 111
+    },
+    {
+      "pid": "nature_10",
+      "wordCount": 111
+    },
+    {
+      "pid": "psych_10",
+      "wordCount": 124
+    },
+    {
+      "pid": "sci_10",
+      "wordCount": 109
+    },
+    {
+      "pid": "society_10",
+      "wordCount": 103
+    },
+    {
+      "pid": "sports_10",
+      "wordCount": 85
+    },
+    {
+      "pid": "tech_10",
+      "wordCount": 104
+    },
+    {
+      "pid": "travel_10",
+      "wordCount": 113
+    },
+    {
+      "pid": "urban_10",
+      "wordCount": 126
+    },
+    {
+      "pid": "work_10",
+      "wordCount": 104
+    }
+  ]
+}

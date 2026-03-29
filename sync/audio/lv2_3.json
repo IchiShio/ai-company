@@ -1,0 +1,297 @@
+[
+  {
+    "word": "Most",
+    "start": 0.15,
+    "end": 0.473
+  },
+  {
+    "word": "adults",
+    "start": 0.473,
+    "end": 0.958
+  },
+  {
+    "word": "need",
+    "start": 0.958,
+    "end": 1.281
+  },
+  {
+    "word": "between",
+    "start": 1.281,
+    "end": 1.846
+  },
+  {
+    "word": "seven",
+    "start": 1.846,
+    "end": 2.25
+  },
+  {
+    "word": "and",
+    "start": 2.25,
+    "end": 2.492
+  },
+  {
+    "word": "nine",
+    "start": 2.492,
+    "end": 2.815
+  },
+  {
+    "word": "hours",
+    "start": 2.815,
+    "end": 3.219
+  },
+  {
+    "word": "of",
+    "start": 3.219,
+    "end": 3.381
+  },
+  {
+    "word": "sleep",
+    "start": 3.381,
+    "end": 3.785
+  },
+  {
+    "word": "each",
+    "start": 3.785,
+    "end": 4.108
+  },
+  {
+    "word": "night.",
+    "start": 4.108,
+    "end": 4.512
+  },
+  {
+    "word": "Yet",
+    "start": 4.513,
+    "end": 4.779
+  },
+  {
+    "word": "many",
+    "start": 4.779,
+    "end": 5.134
+  },
+  {
+    "word": "people",
+    "start": 5.134,
+    "end": 5.667
+  },
+  {
+    "word": "regularly",
+    "start": 5.667,
+    "end": 6.466
+  },
+  {
+    "word": "get",
+    "start": 6.466,
+    "end": 6.732
+  },
+  {
+    "word": "far",
+    "start": 6.732,
+    "end": 6.998
+  },
+  {
+    "word": "less",
+    "start": 6.998,
+    "end": 7.353
+  },
+  {
+    "word": "than",
+    "start": 7.353,
+    "end": 7.708
+  },
+  {
+    "word": "that.",
+    "start": 7.708,
+    "end": 8.063
+  },
+  {
+    "word": "Lack",
+    "start": 8.112,
+    "end": 8.461
+  },
+  {
+    "word": "of",
+    "start": 8.461,
+    "end": 8.636
+  },
+  {
+    "word": "sleep",
+    "start": 8.636,
+    "end": 9.073
+  },
+  {
+    "word": "affects",
+    "start": 9.073,
+    "end": 9.684
+  },
+  {
+    "word": "concentration,",
+    "start": 9.684,
+    "end": 10.819
+  },
+  {
+    "word": "mood,",
+    "start": 10.819,
+    "end": 11.168
+  },
+  {
+    "word": "and",
+    "start": 11.168,
+    "end": 11.43
+  },
+  {
+    "word": "long-term",
+    "start": 11.43,
+    "end": 12.128
+  },
+  {
+    "word": "health",
+    "start": 12.128,
+    "end": 12.652
+  },
+  {
+    "word": "in",
+    "start": 12.652,
+    "end": 12.827
+  },
+  {
+    "word": "serious",
+    "start": 12.827,
+    "end": 13.438
+  },
+  {
+    "word": "ways.",
+    "start": 13.438,
+    "end": 13.786999999999999
+  },
+  {
+    "word": "Simple",
+    "start": 13.837,
+    "end": 14.277
+  },
+  {
+    "word": "habits",
+    "start": 14.277,
+    "end": 14.717
+  },
+  {
+    "word": "like",
+    "start": 14.717,
+    "end": 15.01
+  },
+  {
+    "word": "going",
+    "start": 15.01,
+    "end": 15.377
+  },
+  {
+    "word": "to",
+    "start": 15.377,
+    "end": 15.524
+  },
+  {
+    "word": "bed",
+    "start": 15.524,
+    "end": 15.744
+  },
+  {
+    "word": "at",
+    "start": 15.744,
+    "end": 15.891
+  },
+  {
+    "word": "the",
+    "start": 15.891,
+    "end": 16.111
+  },
+  {
+    "word": "same",
+    "start": 16.111,
+    "end": 16.404
+  },
+  {
+    "word": "time",
+    "start": 16.404,
+    "end": 16.697
+  },
+  {
+    "word": "each",
+    "start": 16.697,
+    "end": 16.99
+  },
+  {
+    "word": "night",
+    "start": 16.99,
+    "end": 17.357
+  },
+  {
+    "word": "can",
+    "start": 17.357,
+    "end": 17.577
+  },
+  {
+    "word": "make",
+    "start": 17.577,
+    "end": 17.87
+  },
+  {
+    "word": "a",
+    "start": 17.87,
+    "end": 17.943
+  },
+  {
+    "word": "big",
+    "start": 17.943,
+    "end": 18.163
+  },
+  {
+    "word": "difference.",
+    "start": 18.163,
+    "end": 18.899
+  },
+  {
+    "word": "Small",
+    "start": 18.95,
+    "end": 19.38
+  },
+  {
+    "word": "changes",
+    "start": 19.38,
+    "end": 19.982
+  },
+  {
+    "word": "in",
+    "start": 19.982,
+    "end": 20.154
+  },
+  {
+    "word": "routine",
+    "start": 20.154,
+    "end": 20.756
+  },
+  {
+    "word": "often",
+    "start": 20.756,
+    "end": 21.186
+  },
+  {
+    "word": "lead",
+    "start": 21.186,
+    "end": 21.53
+  },
+  {
+    "word": "to",
+    "start": 21.53,
+    "end": 21.702
+  },
+  {
+    "word": "better",
+    "start": 21.702,
+    "end": 22.218
+  },
+  {
+    "word": "rest.",
+    "start": 22.218,
+    "end": 22.563
+  }
+]

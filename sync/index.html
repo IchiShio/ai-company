@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>SyncReader — 音声と一緒に英文を読む練習 | native-real</title>
+  <meta name="description" content="音声が先行し、単語がリアルタイムで光る英語リーディングツール。耳が先。目が追う。速度調整可・3段階レベル・完全無料。">
+  <link rel="canonical" href="https://native-real.com/sync/">
+  <meta property="og:title" content="SyncReader — 音声と一緒に英文を読む練習">
+  <meta property="og:description" content="音声が先行し、単語がリアルタイムで光る。耳が先。目が追う。英語リーディング練習ツール。">
+  <meta property="og:url" content="https://native-real.com/sync/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta property="og:site_name" content="native-real">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="native-real編集部">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface2: #23273a;
+      --border: #2e3347;
+      --text: #e8eaf0;
+      --text-muted: #7b82a0;
+      --accent: #4f8ef7;
+      --highlight: #f5c842;
+      --highlight-bg: rgba(245, 200, 66, 0.15);
+      --done: rgba(245, 200, 66, 0.35);
+      --done-text: #8892b0;
+      --lv1: #4ade80;
+      --lv2: #facc15;
+      --lv3: #f87171;
+      --radius: 12px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .logo-mark {
+      width: 32px; height: 32px;
+      background: linear-gradient(135deg, var(--accent), #7c3aed);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; font-weight: 700; color: #fff;
+    }
+    .logo-text { font-size: 15px; font-weight: 700; color: var(--text); }
+    .logo-sub  { font-size: 11px; color: var(--text-muted); }
+    .nav-link {
+      font-size: 13px; color: var(--text-muted); text-decoration: none;
+      padding: 6px 12px; border-radius: 8px; transition: background .15s;
+    }
+    .nav-link:hover { background: var(--surface2); color: var(--text); }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      max-width: 760px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 20px 40px;
+      gap: 24px;
+    }
+
+    .page-title { text-align: center; }
+    .page-title h1 {
+      font-size: clamp(22px, 5vw, 30px);
+      font-weight: 800; letter-spacing: -0.5px;
+    }
+    .page-title p { font-size: 14px; color: var(--text-muted); margin-top: 6px; }
+
+    /* Level tabs */
+    .level-tabs { display: flex; gap: 8px; justify-content: center; }
+    .level-tab {
+      padding: 6px 18px; border-radius: 20px;
+      font-size: 13px; font-weight: 600;
+      cursor: pointer; border: 2px solid transparent;
+      background: var(--surface2); color: var(--text-muted);
+      transition: all .15s;
+    }
+        .level-tab.active[data-lv="lv1"] { background: rgba(74,222,128,.12); border-color: var(--lv1); color: var(--lv1); }
+    .level-tab.active[data-lv="lv2"] { background: rgba(250,204,21,.12); border-color: var(--lv2); color: var(--lv2); }
+    .level-tab.active[data-lv="lv3"] { background: rgba(248,113,113,.12); border-color: var(--lv3); color: var(--lv3); }
+    .level-tab.active[data-lv="lv4"] { background: rgba(167,139,250,.12); border-color: #a78bfa; color: #a78bfa; }
+    .level-tab.active[data-lv="lv5"] { background: rgba(251,146,60,.12); border-color: #fb923c; color: #fb923c; }
+
+    /* Passage card */
+    .passage-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 28px 24px;
+    }
+    .passage-meta {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 18px;
+    }
+    .level-badge {
+      font-size: 11px; font-weight: 700;
+      padding: 3px 10px; border-radius: 20px; letter-spacing: .5px;
+    }
+    .lv1 { background: rgba(74,222,128,.15); color: var(--lv1); }
+    .lv2 { background: rgba(250,204,21,.15); color: var(--lv2); }
+    .lv3 { background: rgba(248,113,113,.15); color: var(--lv3); }
+    .passage-title-label { font-size: 13px; color: var(--text-muted); font-weight: 500; }
+    .passage-nav { margin-left: auto; display: flex; gap: 6px; }
+    .passage-nav button {
+      width: 28px; height: 28px; border-radius: 6px;
+      border: 1px solid var(--border); background: var(--surface2);
+      color: var(--text-muted); cursor: pointer; font-size: 14px; transition: all .15s;
+    }
+    .passage-nav button:hover { background: var(--border); color: var(--text); }
+
+    /* Text */
+    #passage-text {
+      font-size: clamp(17px, 4vw, 22px);
+      line-height: 1.9; letter-spacing: 0.01em;
+      user-select: none;
+    }
+    #passage-text .word {
+      display: inline; cursor: default; transition: color .06s;
+    }
+    #passage-text .word.done {
+      color: var(--done-text);
+    }
+    #passage-text .word.active {
+      color: var(--highlight);
+      background: var(--highlight-bg);
+      border-radius: 4px;
+      padding: 0 2px; margin: 0 -1px;
+    }
+
+    /* Progress */
+    .progress-wrap { margin-top: 18px; }
+    .progress-track { height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
+    .progress-fill {
+      height: 100%; background: var(--accent);
+      border-radius: 2px; width: 0%;
+      transition: width .08s linear;
+    }
+    .progress-time {
+      display: flex; justify-content: space-between;
+      font-size: 11px; color: var(--text-muted);
+      margin-top: 5px;
+    }
+
+    /* Controls */
+    .controls {
+      display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+    }
+    #play-btn {
+      display: flex; align-items: center; gap: 8px;
+      padding: 12px 28px; background: var(--accent); color: #fff;
+      border: none; border-radius: 10px;
+      font-size: 15px; font-weight: 700; cursor: pointer;
+      transition: opacity .15s, transform .1s;
+      min-width: 110px; justify-content: center;
+    }
+    #play-btn:hover { opacity: .88; }
+    #play-btn:active { transform: scale(.97); }
+    #play-btn.playing { background: #e53e3e; }
+    #play-btn:disabled { opacity: .35; cursor: not-allowed; }
+
+    .speed-group {
+      display: flex; align-items: center; gap: 10px; flex: 1; min-width: 180px;
+    }
+    .speed-label { font-size: 13px; color: var(--text-muted); white-space: nowrap; }
+    #speed-slider {
+      flex: 1; -webkit-appearance: none;
+      height: 4px; border-radius: 2px;
+      background: var(--border); outline: none; cursor: pointer;
+    }
+    #speed-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px; height: 18px; border-radius: 50%;
+      background: var(--accent); cursor: pointer;
+    }
+    #speed-value { font-size: 13px; font-weight: 700; color: var(--accent); min-width: 34px; }
+
+    #reset-btn {
+      padding: 10px 16px; background: var(--surface2);
+      border: 1px solid var(--border); border-radius: 10px;
+      color: var(--text-muted); font-size: 13px; cursor: pointer; transition: all .15s;
+    }
+    #reset-btn:hover { color: var(--text); border-color: var(--accent); }
+
+    /* Loading overlay */
+    #loading {
+      display: none; text-align: center;
+      font-size: 13px; color: var(--text-muted); padding: 8px 0;
+    }
+
+    /* Passage list */
+    .passage-list-title {
+      font-size: 12px; font-weight: 700; color: var(--text-muted);
+      letter-spacing: .8px; text-transform: uppercase; margin-bottom: 10px;
+    }
+    .passage-list {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+    }
+    @media (max-width: 480px) { .passage-list { grid-template-columns: 1fr; } }
+    .passage-item {
+      padding: 12px 14px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 10px;
+      cursor: pointer; transition: all .15s;
+    }
+    .passage-item:hover { border-color: var(--accent); background: var(--surface2); }
+    .passage-item.active { border-color: var(--accent); background: rgba(79,142,247,.08); }
+    .passage-item-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 3px; }
+    .passage-item-meta  { font-size: 11px; color: var(--text-muted); }
+
+    .tip {
+      font-size: 12px; color: var(--text-muted);
+      text-align: center; line-height: 1.6;
+    }
+
+    footer {
+      text-align: center; padding: 20px;
+      font-size: 12px; color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--text-muted); text-decoration: none; }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header>
+  <a href="/" class="logo">
+    <div class="logo-mark">N</div>
+    <div>
+      <div class="logo-text">native-real</div>
+      <div class="logo-sub">英語学習ツール</div>
+    </div>
+  </a>
+  <a href="/" class="nav-link">← ホーム</a>
+</header>
+
+<main>
+  <div class="page-title">
+    <h1>SyncReader</h1>
+    <p>耳が先。目が追う。</p>
+  </div>
+
+  <div class="level-tabs">
+    <button class="level-tab active" data-lv="lv1">Level 1</button>
+    <button class="level-tab" data-lv="lv2">Level 2</button>
+    <button class="level-tab" data-lv="lv3">Level 3</button>
+    <button class="level-tab" data-lv="lv4">Level 4</button>
+    <button class="level-tab" data-lv="lv5">Level 5</button>
+  </div>
+
+  <div class="passage-card">
+    <div class="passage-meta">
+      <span class="level-badge lv1" id="level-badge">Level 1</span>
+      <span class="passage-title-label" id="passage-title-label"></span>
+      <div class="passage-nav">
+        <button id="prev-btn" title="前のパッセージ">‹</button>
+        <button id="next-btn" title="次のパッセージ">›</button>
+      </div>
+    </div>
+    <div id="passage-text"></div>
+    <div class="progress-wrap">
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+      <div class="progress-time">
+        <span id="time-current">0:00</span>
+        <span id="time-total">0:00</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading">音声を読み込み中...</div>
+
+  <div class="controls">
+    <button id="play-btn" disabled>▶ 再生</button>
+    <div class="speed-group">
+      <span class="speed-label">速度</span>
+      <input type="range" id="speed-slider" min="0.5" max="1.4" step="0.1" value="0.9">
+      <span id="speed-value">0.9×</span>
+    </div>
+    <button id="reset-btn">↺</button>
+  </div>
+
+  <p class="tip">音声が先行し、テキストがそれを追う。読む場所を探さなくていい。</p>
+
+  <div>
+    <div class="passage-list-title" id="list-title">Level 1 パッセージ一覧</div>
+    <div class="passage-list" id="passage-list"></div>
+  </div>
+</main>
+
+<footer>
+  <p>
+    <a href="/">native-real</a> &nbsp;·&nbsp;
+    <a href="/listening/">ListenUp</a> &nbsp;·&nbsp;
+    <a href="/reading/">ReadUp</a> &nbsp;·&nbsp;
+    <a href="/grammar/">GrammarUp</a>
+  </p>
+  <p style="margin-top:8px">© 2026 native-real</p>
+</footer>
+
+<script>
+// ──────────────────────────────────────────────
+// PASSAGES DATA (ReadUp 200本)
+// lv1:40本 / lv2:60本 / lv3:60本 / lv4:20本 / lv5:20本
+// ──────────────────────────────────────────────
+const READUP_PASSAGES = {
+  "lv1": [
+    {pid:"arts_01",wc:39,text:"The Mona Lisa is a famous painting by Leonardo da Vinci. It was painted in the early 1500s. The painting shows a woman with a mysterious smile. Many people visit the Louvre Museum in Paris to see this masterpiece."},
+    {pid:"arts_02",wc:36,text:"Jazz music began in New Orleans in the early 20th century. It combines African rhythms with European melodies. Jazz musicians often improvise and create music spontaneously. This style of music became very popular around the world."},
+    {pid:"biz_01",wc:34,text:"Starting a business requires planning and money. Most new companies fail in the first year because owners do not have a clear business plan. A good plan helps you understand your market and customers."},
+    {pid:"biz_02",wc:41,text:"A salary is the money that a company pays to an employee every month. It is usually fixed, which means it stays the same each month. Employees often prefer salary jobs because they know exactly how much money they will earn."},
+    {pid:"comm_01",wc:33,text:"Social media helps people stay connected with friends and family around the world. It allows users to share photos, messages, and updates instantly. Many people use platforms like Facebook and Instagram every day."},
+    {pid:"comm_02",wc:28,text:"Text messages are quick and easy to send. People often use them to communicate with others in their daily lives. A text message can reach someone in seconds."},
+    {pid:"daily_01",wc:35,text:"My morning routine is very simple. I wake up at 7 o'clock and drink a glass of water. Then I brush my teeth and take a shower. After that, I eat breakfast with my family."},
+    {pid:"daily_02",wc:29,text:"Every evening, Sarah reads a book for one hour before bed. This habit helps her fall asleep easily. Reading is her favorite way to relax after a busy day."},
+    {pid:"edu_01",wc:35,text:"Learning a new language takes time and practice. Many students study English in school, but some people learn it by watching movies or listening to music. Both methods can help you improve your English skills."},
+    {pid:"edu_02",wc:39,text:"Reading books is an excellent way to improve your vocabulary and comprehension skills. When you read regularly, you learn new words and understand how they are used in context. Teachers recommend reading for at least 30 minutes every day."},
+    {pid:"env_01",wc:25,text:"Solar energy is energy from the sun. It is clean and renewable. Many countries now use solar panels to create electricity for homes and businesses."},
+    {pid:"env_02",wc:30,text:"Wind turbines generate electricity from wind power. They are tall structures with large blades that spin when the wind blows. Wind energy is an important renewable resource around the world."},
+    {pid:"food_01",wc:26,text:"Breakfast is the most important meal of the day. It gives you energy to start your morning. Many people eat eggs, bread, and milk for breakfast."},
+    {pid:"food_02",wc:23,text:"Many people love sushi, which is a traditional Japanese food. Sushi is made with rice, fish, and vegetables. It is healthy and delicious."},
+    {pid:"global_01",wc:36,text:"Climate change is one of the biggest challenges facing our world today. Rising temperatures are melting glaciers and causing sea levels to rise. Many countries are working together to reduce carbon emissions and protect the environment."},
+    {pid:"global_02",wc:39,text:"Migration is the movement of people from one country or region to another. People migrate for various reasons, including seeking better job opportunities, escaping conflict, or reuniting with family members. Migration has become increasingly common in our globalized world."},
+    {pid:"health_01",wc:23,text:"Drinking water is important for your health. Water helps your body function properly. You should drink about eight glasses of water every day."},
+    {pid:"health_02",wc:26,text:"Exercise is good for your heart and muscles. Running, walking, and swimming are popular exercises. Regular exercise helps you feel better and sleep well at night."},
+    {pid:"hist_01",wc:36,text:"The Great Wall of China is one of the most famous structures in the world. It was built over many centuries to protect China from invasions. Today, millions of tourists visit the Great Wall every year."},
+    {pid:"hist_02",wc:34,text:"Kimono is the traditional clothing of Japan. It is a long robe that is tied with a belt called an obi. Japanese people still wear kimonos at special occasions such as weddings and festivals."},
+    {pid:"life_01",wc:30,text:"Drawing is a simple hobby that anyone can enjoy. You only need paper and a pencil to start. Many people find that drawing helps them relax after a busy day."},
+    {pid:"life_02",wc:34,text:"Cooking is an enjoyable activity that brings joy to your kitchen. You can create delicious meals for your family and friends. Many people cook not just for nutrition, but also for fun and creativity."},
+    {pid:"nature_01",wc:37,text:"Pandas are large black and white bears that live in the mountain forests of China. They eat bamboo almost every day. Baby pandas are very small when they are born, weighing only about 100 to 200 grams."},
+    {pid:"nature_02",wc:30,text:"Bees are important insects that help plants grow. They collect nectar from flowers and make honey. Without bees, many fruits and vegetables would not exist because bees help pollinate plants."},
+    {pid:"psych_01",wc:32,text:"When you feel stressed, your body releases hormones like cortisol and adrenaline. These chemicals help you respond to danger quickly. However, if stress lasts too long, these hormones can make you sick."},
+    {pid:"psych_02",wc:29,text:"Emotions affect how we think and behave. When you are happy, you tend to see things in a positive way. When you are sad, negative thoughts become more common."},
+    {pid:"sci_01",wc:30,text:"The Moon orbits around the Earth. It takes about 29 days to complete one orbit. The Moon does not produce its own light, but reflects the light from the Sun."},
+    {pid:"sci_02",wc:29,text:"Water freezes at 0 degrees Celsius. This process is called freezing. When water freezes, it turns into solid ice. Ice is less dense than liquid water, so it floats."},
+    {pid:"society_01",wc:38,text:"Many cities around the world are facing a serious problem: homelessness. Thousands of people sleep on the streets every night without a home. Local governments and charities are working together to help these people find shelter and jobs."},
+    {pid:"society_02",wc:32,text:"Climate change is affecting communities worldwide. Extreme weather events like floods and droughts are becoming more frequent. People must take action to reduce carbon emissions and protect the environment for future generations."},
+    {pid:"sports_01",wc:29,text:"Swimming is one of the best exercises for your body. It works almost every muscle and doesn't hurt your joints. Many people enjoy swimming because it's fun and healthy."},
+    {pid:"sports_02",wc:29,text:"Baseball is a popular sport in many countries. Players hit a ball with a bat and run around four bases. The team with the most runs wins the game."},
+    {pid:"tech_01",wc:26,text:"Artificial Intelligence (AI) is changing how we work and live. Many companies use AI to help with customer service. AI can answer questions faster than humans."},
+    {pid:"tech_02",wc:31,text:"Smartphones have become essential tools in modern life. People use them to communicate, work, and access information. A smartphone can do the work of many older devices in one small device."},
+    {pid:"travel_01",wc:25,text:"Japan is a beautiful country with many tourists every year. Tokyo, Kyoto, and Osaka are popular cities. Visitors can enjoy temples, gardens, and delicious food."},
+    {pid:"travel_02",wc:29,text:"Many people love traveling because it helps them learn about new cultures and traditions. When you visit a foreign country, you can taste local food and meet new friends."},
+    {pid:"urban_01",wc:30,text:"Tokyo is one of the largest cities in the world. Many people live in small apartments in the city center. The train system is very efficient and convenient for commuters."},
+    {pid:"urban_02",wc:30,text:"Public transportation is essential in modern cities. Buses and subways help reduce traffic congestion and pollution. They also make it easier for people to travel around without owning a car."},
+    {pid:"work_01",wc:31,text:"Working from home has become more common in recent years. Many companies now offer flexible work arrangements to their employees. This allows workers to balance their personal life and career better."},
+    {pid:"work_02",wc:34,text:"Time management is a key skill for success in any job. People who can organize their tasks effectively tend to complete projects on time. Good time management also reduces stress and improves job satisfaction."},
+  ],
+  "lv2": [
+    {pid:"arts_03",wc:46,text:"The film industry has changed dramatically over the past two decades. Streaming services like Netflix and Amazon Prime have challenged traditional movie theaters. Many people now prefer watching films at home on their devices. However, some film lovers still believe that the cinema experience is irreplaceable."},
+    {pid:"arts_04",wc:47,text:"The Grammy Awards are the most prestigious music awards in the United States. Every year, the Recording Academy recognizes outstanding achievements in the music industry. Artists from diverse genres compete for awards in various categories. Winning a Grammy is considered one of the highest honors for musicians."},
+    {pid:"arts_05",wc:57,text:"Animation has become one of the most influential art forms in modern entertainment. Studios like Pixar and Studio Ghibli have created beloved characters that resonate with audiences of all ages. The technology behind animation continues to evolve, allowing filmmakers to bring increasingly imaginative stories to life. Both traditional hand-drawn and computer-generated animation have their own unique appeal."},
+    {pid:"biz_03",wc:46,text:"Freelancing is a type of work where people work independently instead of for a single company. Freelancers choose their own hours and clients. However, they must also manage their own finances and taxes. Many young professionals are turning to freelancing because it offers flexibility and independence."},
+    {pid:"biz_04",wc:49,text:"The gig economy refers to a labor market where short-term contracts and freelance work are common instead of permanent employment. Companies like Uber and Airbnb are examples of platforms that created the modern gig economy. While it provides workers with flexibility, critics argue it lacks job security and benefits."},
+    {pid:"biz_05",wc:40,text:"Cryptocurrency is a digital form of money that operates without banks or governments. Bitcoin, created in 2009, was the first and most well-known cryptocurrency. Although cryptocurrencies offer advantages like fast transactions and lower fees, they are volatile and risky investments."},
+    {pid:"comm_03",wc:38,text:"Email is a formal way of communication used in business and professional settings. Unlike casual text messages, emails require a proper greeting and formal structure. Many companies rely on email to send important documents and maintain professional relationships."},
+    {pid:"comm_04",wc:37,text:"Video calls have become increasingly popular for remote communication. People use platforms like Zoom and Google Meet to connect face-to-face without being in the same location. This technology has changed how families and colleagues interact across distances."},
+    {pid:"comm_05",wc:37,text:"Language barriers can make international communication difficult. Even when people speak English, misunderstandings may occur due to different accents, cultural backgrounds, and communication styles. Learning multiple languages helps bridge these gaps and promotes better understanding between cultures."},
+    {pid:"daily_03",wc:49,text:"Tom's weekly habit includes going to the gym three times a week. He exercises for about an hour each session. Since he started this routine two years ago, he has noticed significant improvements in his physical health and mental well-being. The consistency has been the key to his success."},
+    {pid:"daily_04",wc:59,text:"Maria has maintained a daily meditation practice for the past five years. She starts each day by sitting quietly for twenty minutes in a peaceful corner of her home. Although she struggled with consistency at first, she found that establishing a specific time and place made the habit stick. Now it has become an essential part of her lifestyle."},
+    {pid:"daily_05",wc:57,text:"David's evening ritual involves preparing his clothes for the next day before going to bed. He believes this small habit saves him time and reduces morning stress. By taking just ten minutes each night, he has transformed his mornings from chaotic to organized. This simple practice demonstrates how minor adjustments in daily routines can have substantial impacts."},
+    {pid:"edu_03",wc:50,text:"Online learning has become increasingly popular in recent years. Students can access educational materials anytime and anywhere, which makes learning more flexible. However, some people argue that face-to-face interaction is crucial for effective learning. Despite this debate, many universities now offer hybrid programs that combine both online and in-person classes."},
+    {pid:"edu_04",wc:48,text:"Spaced repetition is a learning technique that involves reviewing information at gradually increasing intervals. Research has shown that this method is more effective than cramming, which is studying intensively just before an exam. Students who use spaced repetition tend to retain information longer and perform better on tests."},
+    {pid:"edu_05",wc:50,text:"Soft skills such as communication, teamwork, and problem-solving are increasingly valued by employers. While technical skills remain important, companies recognize that employees who can collaborate effectively and adapt to change are more valuable. This shift reflects the changing nature of modern workplaces, where complex projects require diverse perspectives and cooperation."},
+    {pid:"env_03",wc:40,text:"Climate change is causing ice caps and glaciers to melt at an unprecedented rate. This melting contributes to rising sea levels, which threatens coastal communities. Scientists agree that human activities, especially the burning of fossil fuels, are the primary cause."},
+    {pid:"env_04",wc:44,text:"Renewable energy sources like solar and wind power are becoming increasingly affordable. Battery storage technology has also improved, making it possible to store energy for use during cloudy or windless periods. These advances are making the transition to clean energy more practical than ever."},
+    {pid:"env_05",wc:41,text:"Deforestation is one of the leading causes of biodiversity loss and climate change. When forests are cleared for agriculture or development, thousands of species lose their habitats. Moreover, trees absorb carbon dioxide from the atmosphere, so removing them accelerates global warming."},
+    {pid:"food_03",wc:32,text:"Vegetarians do not eat meat because of health, environmental, or ethical reasons. Some people become vegetarians to reduce their environmental impact. Others choose this diet for religious beliefs or personal health concerns."},
+    {pid:"food_04",wc:38,text:"Mediterranean diet is popular in countries near the Mediterranean Sea, such as Greece and Italy. This diet includes olive oil, fresh vegetables, fish, and whole grains. Studies show that people who follow this diet have better heart health."},
+    {pid:"food_05",wc:36,text:"Fast food restaurants offer convenient meals that are quick and inexpensive. However, eating fast food regularly can lead to weight gain and health problems. Many nutritionists recommend limiting fast food consumption and choosing healthier options instead."},
+    {pid:"global_03",wc:37,text:"Cultural diversity enriches communities by bringing different perspectives and traditions. When people from various backgrounds work together, they often develop innovative solutions to problems. However, diversity also requires effort to build understanding and respect across cultural differences."},
+    {pid:"global_04",wc:48,text:"The United Nations was founded in 1945 to promote peace and international cooperation among nations. Today, the UN has 193 member states and works on issues ranging from human rights to sustainable development. Despite its important role, the organization faces criticism for its effectiveness in resolving global conflicts."},
+    {pid:"global_05",wc:42,text:"Poverty remains a significant issue globally, affecting over 700 million people. International organizations and governments have launched various programs to reduce poverty through education, job training, and access to resources. Success in these efforts depends on sustained commitment and cooperation across borders."},
+    {pid:"health_03",wc:33,text:"Sleep plays a crucial role in maintaining good health. During sleep, your body repairs itself and consolidates memories. Adults should aim for seven to nine hours of sleep each night to function optimally."},
+    {pid:"health_04",wc:35,text:"A balanced diet includes fruits, vegetables, whole grains, and lean proteins. These foods provide essential nutrients your body needs. Eating a variety of colorful foods ensures you get different vitamins and minerals for optimal health."},
+    {pid:"health_05",wc:39,text:"Stress management is essential for overall wellness. Chronic stress can lead to serious health problems including high blood pressure and heart disease. Meditation, yoga, and spending time in nature are effective ways to reduce stress and improve mental health."},
+    {pid:"hist_03",wc:49,text:"The Statue of Liberty was a gift from France to the United States in 1886. It was designed by French sculptor Frédéric Auguste Bartholdi and stands on Liberty Island in New York Harbor. The statue has become a powerful symbol of freedom and democracy for people around the world."},
+    {pid:"hist_04",wc:51,text:"The Colosseum in Rome is an ancient Roman amphitheater that was completed in 80 AD. It could hold up to 50,000 spectators and was used for gladiator fights and other public entertainments. Despite being nearly 2,000 years old, much of the structure still stands today as a testament to Roman engineering."},
+    {pid:"hist_05",wc:55,text:"The Viking Age was a period of history when Scandinavian seafarers called Vikings explored and settled in new lands. Between the 8th and 11th centuries, Vikings traveled to places like North America, Russia, and the Mediterranean. Their shipbuilding and navigation skills were remarkable for the time, allowing them to undertake long voyages across unknown seas."},
+    {pid:"life_03",wc:38,text:"Photography has become increasingly popular as a hobby thanks to smartphone cameras. People can capture beautiful moments without expensive equipment. This accessibility has encouraged more individuals to explore their artistic potential and share their work on social media."},
+    {pid:"life_04",wc:34,text:"Gardening is not only a rewarding hobby but also beneficial for physical health. Digging, planting, and weeding provide good exercise and improve strength. Additionally, spending time in nature reduces stress and promotes mental well-being."},
+    {pid:"life_05",wc:48,text:"Writing a daily journal can transform your life in unexpected ways. It helps clarify your thoughts and emotions, making it easier to understand yourself better. Many writers find that journaling also sparks creativity and provides a safe space to express feelings that are difficult to share with others."},
+    {pid:"nature_03",wc:47,text:"Coral reefs are underwater structures built by tiny animals called coral polyps. These reefs support about 25% of all marine species, though they cover less than 1% of the ocean floor. Coral reefs are sensitive to temperature changes and are threatened by global warming and ocean pollution."},
+    {pid:"nature_04",wc:47,text:"Migratory birds travel thousands of kilometers each year between their breeding grounds and wintering grounds. These journeys are triggered by changes in day length and temperature. Many species navigate using the Earth's magnetic field, while others rely on landmarks and the position of the sun and stars."},
+    {pid:"nature_05",wc:50,text:"Forests play a crucial role in regulating the global climate by absorbing carbon dioxide and releasing oxygen. Deforestation, however, reduces this capacity and contributes to rising atmospheric CO2 levels. When forests are cleared for agriculture or development, the soil's ability to store carbon is also diminished, further accelerating climate change."},
+    {pid:"psych_03",wc:51,text:"The tendency to remember information better when it is connected to your personal life is called the self-reference effect. For example, you are more likely to remember a word if it describes you personally than if it is just a random word. This effect shows how our minds prioritize personal relevance."},
+    {pid:"psych_04",wc:35,text:"Procrastination, the habit of delaying tasks, is often blamed on laziness. However, psychologists suggest that it is more related to emotional regulation. People postpone unpleasant tasks to avoid negative feelings, not because they lack motivation."},
+    {pid:"psych_05",wc:46,text:"Cognitive biases are systematic errors in how we think and judge information. Confirmation bias is one of the most common biases, in which people tend to seek out information that confirms their existing beliefs while ignoring contradictory evidence. This can prevent us from making rational decisions."},
+    {pid:"sci_03",wc:48,text:"Photosynthesis is the process by which plants convert sunlight into chemical energy. During this process, plants take in carbon dioxide from the air and water from the soil. They then produce glucose and oxygen. This is essential for life on Earth because oxygen is released into the atmosphere."},
+    {pid:"sci_04",wc:51,text:"The discovery of penicillin by Alexander Fleming in 1928 revolutionized medicine. Fleming noticed that a mold called Penicillium had killed the bacteria in his laboratory cultures. This accidental observation led to the development of antibiotics, which saved millions of lives. Without this discovery, many common infections would still be deadly today."},
+    {pid:"sci_05",wc:54,text:"The human brain contains approximately 86 billion neurons. These neurons communicate with each other through both electrical signals and chemical messengers called neurotransmitters. Understanding how neurons work is crucial for treating neurological diseases such as Alzheimer's and Parkinson's. Recent advances in brain imaging technology have enabled scientists to observe brain activity in unprecedented detail."},
+    {pid:"society_03",wc:40,text:"The COVID-19 pandemic has highlighted the importance of public health infrastructure. Many developing countries lack adequate medical supplies and trained healthcare workers. International organizations are now prioritizing investment in these regions to strengthen their health systems and prevent future outbreaks."},
+    {pid:"society_04",wc:43,text:"Urban pollution has become a critical issue in major cities. Air quality deteriorates during rush hours when traffic congestion is at its peak. Cities are implementing policies such as public transportation expansion and emission standards to reduce pollution levels and improve residents' health."},
+    {pid:"society_05",wc:41,text:"Social media has transformed how communities communicate and organize. Activists use platforms like Twitter and Facebook to raise awareness about social issues and mobilize support for causes. However, misinformation can spread rapidly on these platforms, creating challenges for accurate information dissemination."},
+    {pid:"sports_03",wc:34,text:"Professional athletes spend hours training every day to improve their skills. They follow strict diets and practice routines to maintain peak performance. Success in sports requires not just talent, but also discipline and dedication."},
+    {pid:"sports_04",wc:40,text:"Tennis is a sport that requires both physical fitness and mental strategy. Players must have quick reflexes and strong endurance to compete at high levels. The psychological aspect of staying focused during long matches is equally important as physical preparation."},
+    {pid:"sports_05",wc:40,text:"Many fitness experts recommend walking as an accessible form of exercise for people of all ages. Unlike running, walking puts less stress on the knees and ankles. Incorporating a daily 30-minute walk into your routine can significantly improve cardiovascular health."},
+    {pid:"tech_03",wc:43,text:"Cloud computing allows users to store and access data over the internet instead of on their personal computers. This technology has made it easier for teams to collaborate and work from anywhere. Businesses are adopting cloud services to reduce costs and improve efficiency."},
+    {pid:"tech_04",wc:36,text:"Social media has transformed how people communicate and share information. It connects millions of users worldwide and enables them to express themselves instantly. However, experts warn that excessive social media use can negatively affect mental health."},
+    {pid:"tech_05",wc:34,text:"Cybersecurity has become critical as more businesses move their operations online. Hackers constantly develop new methods to steal sensitive information. Companies must invest in strong security systems and train employees to recognize potential threats."},
+    {pid:"travel_03",wc:38,text:"Thailand is famous for its tropical climate and Buddhist temples. Each year, thousands of tourists visit Chiang Mai to experience authentic Thai culture and cuisine. The local markets offer unique handicrafts and souvenirs that cannot be found elsewhere."},
+    {pid:"travel_04",wc:43,text:"The Eiffel Tower in Paris attracts millions of visitors every year from around the world. This iconic monument was built in 1889 and has become a symbol of French culture. Tourists often climb to the top to enjoy panoramic views of the city."},
+    {pid:"travel_05",wc:41,text:"Safari tours in Africa offer visitors an unforgettable experience of observing wildlife in their natural habitat. Travelers can spot lions, elephants, giraffes, and zebras while enjoying the vast savanna landscape. Local guides provide expert knowledge about animal behavior and conservation efforts."},
+    {pid:"urban_03",wc:39,text:"Skyscrapers have become symbols of modern cities around the world. These tall buildings allow more people to live and work in a limited space. However, they require careful urban planning to maintain livability and prevent overcrowding in residential areas."},
+    {pid:"urban_04",wc:40,text:"Bike-sharing programs have gained popularity in major cities over the past decade. These systems allow residents to rent bicycles for short trips without committing to ownership. Cities that have adopted bike-sharing report improved air quality and reduced congestion on roads."},
+    {pid:"urban_05",wc:42,text:"Green roofs are becoming increasingly common in urban areas. These roofs covered with vegetation help regulate building temperatures, reduce stormwater runoff, and provide habitats for birds and insects. Many cities now offer tax incentives to encourage building owners to install green roofs."},
+    {pid:"work_03",wc:38,text:"Networking is essential for career development. Building relationships with professionals in your field creates opportunities for collaboration and knowledge sharing. Companies increasingly recognize the value of networking, and many now support employee participation in industry conferences and seminars."},
+    {pid:"work_04",wc:40,text:"Remote work has changed how teams collaborate. Without in-person interactions, employees must be more intentional about communication. Many remote teams use video calls, instant messaging, and shared digital tools to maintain strong working relationships and ensure projects stay on track."},
+    {pid:"work_05",wc:38,text:"Mentorship programs play a vital role in employee development. Experienced professionals share their knowledge with junior staff, helping them gain skills and confidence. Organizations with active mentorship programs often see higher employee retention rates and improved workplace culture."},
+  ],
+  "lv3": [
+    {pid:"arts_06",wc:76,text:"The Renaissance marked a profound shift in artistic philosophy as artists began to move away from purely religious subjects. Figures like Michelangelo and Leonardo da Vinci explored human anatomy and perspective with scientific precision, bridging the gap between art and science. This period of cultural renewal not only revolutionized visual arts but also influenced literature, philosophy, and human thought more broadly. The legacy of this era continues to shape how we perceive creativity and innovation today."},
+    {pid:"arts_07",wc:61,text:"Documentary filmmaking serves a crucial role in contemporary media by presenting factual narratives that challenge prevailing assumptions. Unlike fictional narratives, documentaries bear the responsibility of accuracy and ethical representation. Filmmakers such as Ken Burns have elevated the documentary form through meticulous research and compelling storytelling. These works not only educate audiences but also provoke critical reflection on social and historical issues."},
+    {pid:"arts_08",wc:71,text:"The emergence of digital art has fundamentally transformed the creative landscape, enabling artists to transcend traditional medium limitations. Digital tools allow for unprecedented experimentation and iteration, democratizing art creation by reducing barriers to entry. However, this accessibility has sparked debate about the definition of art itself and the value of technical skill versus conceptual innovation. Established artists and emerging digital creators continue to negotiate their place within the broader art world."},
+    {pid:"biz_06",wc:57,text:"Venture capital is a type of financing that investors provide to startup companies with high growth potential. These investors, known as venture capitalists, typically take an equity stake in the company in exchange for their investment. The relationship between venture capitalists and entrepreneurs is often collaborative but can be challenging due to conflicting interests regarding company direction."},
+    {pid:"biz_07",wc:57,text:"Market segmentation is a strategy where businesses divide their target audience into distinct groups based on characteristics like age, income, and lifestyle. By understanding these segments, companies can tailor their marketing messages and products to meet specific customer needs. This approach increases brand loyalty and customer satisfaction, as customers feel that the company understands their particular requirements."},
+    {pid:"biz_08",wc:59,text:"Corporate social responsibility (CSR) refers to a company's commitment to operating ethically and contributing positively to society. Companies implementing CSR initiatives might reduce environmental impact, support local communities, or ensure fair labor practices. While critics sometimes dismiss CSR as mere public relations, genuine commitment to CSR can enhance company reputation, attract socially conscious consumers, and create long-term business value."},
+    {pid:"comm_06",wc:46,text:"The rise of social media has fundamentally altered how information spreads in society. While it enables rapid dissemination of news and personal stories, it also facilitates the spread of misinformation. Users must develop critical thinking skills to distinguish between reliable sources and unverified claims circulating online."},
+    {pid:"comm_07",wc:50,text:"Non-verbal communication, including body language, facial expressions, and tone of voice, often conveys more meaning than the actual words spoken. In cross-cultural interactions, these signals can be easily misinterpreted, as different cultures have different conventions for gestures and personal space. Awareness of these differences is essential for effective intercultural dialogue."},
+    {pid:"comm_08",wc:56,text:"The phenomenon of 'digital natives'—individuals who grew up with internet and digital technology—has created a generational divide in communication preferences. While younger people tend to favor asynchronous communication through texts and emails, older generations often prefer synchronous interactions like phone calls or face-to-face meetings. These different approaches can lead to workplace conflicts if not properly understood."},
+    {pid:"daily_06",wc:68,text:"Jessica's commitment to a consistent sleep schedule has profoundly influenced her overall productivity and emotional resilience. Rather than allowing her bedtime to fluctuate based on social commitments or work demands, she adheres strictly to a fixed sleep pattern. Research supports her approach, indicating that maintaining regular sleep habits reinforces circadian rhythms and enhances cognitive function. Her disciplined approach serves as a testament to the power of biological consistency."},
+    {pid:"daily_07",wc:67,text:"The practice of journaling has become increasingly popular as a tool for self-reflection and mental clarity. Practitioners often document their thoughts, emotions, and experiences in a structured or free-form manner. When done consistently, journaling cultivates a deeper understanding of one's behavioral patterns and emotional triggers. Furthermore, the act of writing itself engages different cognitive processes than mere thinking, thereby enhancing memory retention and fostering creative problem-solving abilities."},
+    {pid:"daily_08",wc:75,text:"Morning routines have become increasingly recognized as foundational to establishing productive and balanced lives. The phenomenon of high-performing individuals consistently implementing structured morning rituals—ranging from exercise and meditation to strategic planning—underscores the intrinsic value of intentional habit formation. Neuroscience research suggests that the initial hours of the day represent a critical window during which cognitive performance is optimal. Consequently, optimizing this period through deliberate habit curation can compound benefits throughout the remainder of one's day."},
+    {pid:"edu_06",wc:53,text:"Metacognition, the ability to think about one's own thinking, is a crucial component of effective learning. Students who engage in metacognitive practices—such as self-assessment, planning, and reflection—demonstrate better academic performance. By becoming aware of their learning strategies and recognizing their strengths and weaknesses, students can adjust their approach and optimize their learning outcomes."},
+    {pid:"edu_07",wc:55,text:"The concept of lifelong learning has gained prominence in the knowledge economy, where skills become obsolete rapidly. Rather than acquiring a single set of credentials and retiring from education, professionals must continuously update their knowledge and competencies. Organizations increasingly invest in employee development programs, recognizing that adaptability and continuous improvement are essential for competitive advantage."},
+    {pid:"edu_08",wc:53,text:"Experiential learning, which emphasizes learning through direct experience and reflection, has demonstrated efficacy in various educational contexts. Unlike traditional lecture-based instruction that prioritizes passive knowledge transmission, experiential approaches engage students actively in problem-solving and real-world applications. Proponents argue that this pedagogical method fosters deeper understanding and more durable memory retention than conventional approaches."},
+    {pid:"env_06",wc:53,text:"Hydroelectric power, generated from flowing water, accounts for approximately 15% of global electricity production. While it is a renewable source with minimal greenhouse gas emissions, large dams can have significant environmental impacts, including disrupting fish migration and altering river ecosystems. Balancing the benefits of clean energy with environmental preservation remains a critical challenge."},
+    {pid:"env_07",wc:63,text:"The carbon footprint of livestock farming is substantial, accounting for roughly 14.5% of global greenhouse gas emissions according to the FAO. This is primarily due to methane produced by cattle during digestion, a process known as enteric fermentation. Reducing meat consumption, particularly beef, is considered one of the most effective ways for individuals to lower their environmental impact without requiring major technological changes."},
+    {pid:"env_08",wc:52,text:"Geothermal energy harnesses heat from within the Earth to produce electricity and heating. Unlike solar and wind, it provides consistent, baseload power regardless of weather conditions or time of day. However, geothermal plants require specific geological conditions and are economically viable only in regions with high geothermal potential, limiting their global deployment."},
+    {pid:"food_06",wc:48,text:"The concept of 'farm to table' emphasizes consuming food that is locally sourced and freshly harvested. Proponents of this movement argue that it reduces carbon emissions from transportation and supports local farmers. Additionally, locally grown produce tends to be more nutritious due to shorter storage times before consumption."},
+    {pid:"food_07",wc:48,text:"Fermented foods such as kimchi, yogurt, and sauerkraut contain beneficial bacteria called probiotics. These microorganisms aid in digestion and strengthen the immune system. Recent scientific research has increasingly validated the health benefits of fermented foods, though consumers should be aware that not all fermented products are equally nutritious."},
+    {pid:"food_08",wc:50,text:"The concept of mindful eating encourages individuals to pay close attention to hunger cues, food flavors, and eating speed. Practitioners believe that this approach prevents overeating and promotes better digestion. By slowing down and savoring meals, people can develop a more conscious relationship with food and make healthier dietary choices."},
+    {pid:"global_06",wc:51,text:"The refugee crisis has become increasingly complex due to prolonged conflicts in multiple regions and the effects of climate change. While many nations pledge humanitarian support, the reality of integrating large populations challenges existing social services and housing infrastructure. This tension between humanitarian responsibility and practical capacity requires nuanced policy solutions."},
+    {pid:"global_07",wc:53,text:"Gender equality has become a focal point in international development agendas, yet progress remains uneven across regions. While access to education for girls has improved significantly in some countries, disparities in workplace representation and wage equality persist globally. Addressing these interconnected issues requires comprehensive strategies that tackle both legislative reform and cultural attitudes."},
+    {pid:"global_08",wc:49,text:"Economic inequality within and between nations has widened substantially over recent decades. While globalization has created opportunities for some, it has simultaneously displaced workers in traditional industries and exacerbated regional disparities. The challenge lies in designing policies that harness globalization's benefits while mitigating its adverse effects on vulnerable populations."},
+    {pid:"health_06",wc:43,text:"Cardiovascular exercise strengthens your heart and improves circulation throughout your body. Activities such as jogging, cycling, and aerobic dancing elevate your heart rate and build endurance. These workouts not only enhance physical fitness but also reduce the risk of developing cardiovascular diseases significantly."},
+    {pid:"health_07",wc:44,text:"Preventive healthcare focuses on maintaining health and avoiding disease rather than treating illness after it occurs. Regular screenings, vaccinations, and lifestyle modifications are cornerstone strategies. By adopting preventive measures early, individuals can significantly reduce their medical expenses and improve their quality of life substantially."},
+    {pid:"health_08",wc:48,text:"Mental health is equally important as physical health, yet it often receives less attention in healthcare discussions. Depression, anxiety, and other psychological disorders significantly impact daily functioning and overall well-being. Seeking professional help, maintaining social connections, and engaging in enjoyable activities are vital components of mental health care."},
+    {pid:"hist_06",wc:62,text:"The Renaissance, which began in Italy during the 14th century, was a cultural and intellectual movement that emphasized humanism and the revival of classical knowledge. Artists and scholars of this period sought to break away from medieval traditions by studying ancient Greek and Roman texts and artworks. This era witnessed unprecedented developments in art, science, and literature that would reshape European civilization."},
+    {pid:"hist_07",wc:65,text:"The Silk Road was not a single road but rather a vast network of trade routes that connected East Asia with the Mediterranean region. For over 1,500 years, merchants, pilgrims, and adventurers traveled these routes, exchanging not only goods but also ideas, religions, and technologies. The Silk Road facilitated cultural interactions that profoundly influenced the development of civilizations across Asia, Europe, and the Middle East."},
+    {pid:"hist_08",wc:58,text:"Japanese tea ceremony, known as chanoyu, is a ritualized practice of preparing and serving green tea. Developed in the 15th and 16th centuries, this ceremony embodies principles of harmony, respect, purity, and tranquility. Beyond the simple act of drinking tea, the chanoyu represents a philosophical approach to life that emphasizes aesthetic appreciation and mindfulness, influenced by Zen Buddhism."},
+    {pid:"life_06",wc:54,text:"The resurgence of vinyl records among younger generations has intrigued music industry observers. Nostalgia alone cannot account for this phenomenon; the tactile experience of playing records and the deliberate pace of listening foster a deeper connection to music. Unlike digital streaming, which prioritizes convenience and instant gratification, vinyl ownership demands intentionality and rewards attentiveness."},
+    {pid:"life_07",wc:65,text:"Sustainable fashion has evolved from a niche concern into a mainstream movement, yet the journey toward truly ethical consumption remains fraught with complexities. While consumers increasingly demand transparency from brands regarding their supply chains, the gap between intention and action persists. Many individuals find themselves trapped between their values and the convenience of fast fashion, revealing the tension between aspirational identity and practical lifestyle constraints."},
+    {pid:"life_08",wc:53,text:"The minimalist movement has gained considerable traction in contemporary culture, offering a counternarrative to consumerism. Proponents argue that reducing material possessions cultivates mindfulness and intentional living. However, critics contend that minimalism, while aesthetically appealing, can privilege the affluent who have already accumulated sufficient resources, thus inadvertently perpetuating socioeconomic disparities rather than addressing them."},
+    {pid:"nature_06",wc:68,text:"The concept of keystone species refers to organisms whose ecological impact is disproportionate to their abundance. The sea otter exemplifies this principle; although they comprise a small fraction of marine ecosystems, their predation on sea urchins prevents overgrazing of kelp forests, which serve as critical habitats for numerous species. The disappearance of sea otters would trigger a cascade of ecological consequences, fundamentally altering the structure of coastal ecosystems."},
+    {pid:"nature_07",wc:60,text:"Mycorrhizal fungi establish symbiotic relationships with plant roots, facilitating nutrient exchange that benefits both organisms. Through hyphal networks, fungi extract minerals from the soil that would otherwise be inaccessible to the plant, while receiving carbohydrates produced by photosynthesis. This mutualistic partnership is so fundamental that approximately 80% of terrestrial plant species rely on mycorrhizal associations for optimal growth and survival."},
+    {pid:"nature_08",wc:66,text:"Phenological shifts, changes in the timing of seasonal biological events, have become increasingly pronounced as global temperatures rise. Species such as birds and insects are migrating earlier and plants are blooming sooner than historically observed. These mismatches between predators and prey, or pollinators and flowering plants, can disrupt food webs and reduce breeding success rates, demonstrating how climate change propagates through ecological networks in complex ways."},
+    {pid:"psych_06",wc:54,text:"Resilience, the capacity to recover from adversity, is often viewed as an inherent trait. Recent psychological research, however, challenges this notion by demonstrating that resilience can be cultivated through deliberate practice and supportive environments. Individuals who develop coping strategies and maintain strong social connections tend to exhibit greater resilience in the face of challenges."},
+    {pid:"psych_07",wc:49,text:"The phenomenon of cognitive dissonance occurs when individuals hold two conflicting beliefs or values simultaneously. This psychological discomfort motivates people to resolve the conflict by either changing their beliefs, seeking rationalizations, or avoiding information that strengthens the contradiction. Understanding this mechanism is crucial for comprehending human behavior and persuasion."},
+    {pid:"psych_08",wc:58,text:"Mindfulness, defined as the practice of maintaining non-judgmental awareness of the present moment, has gained considerable attention in psychological research. Studies indicate that regular mindfulness meditation can reduce symptoms of anxiety and depression, improve emotional regulation, and enhance cognitive flexibility. These benefits suggest that cultivating present-moment awareness may serve as a preventive measure against various mental health challenges."},
+    {pid:"sci_06",wc:73,text:"The concept of dark matter emerged when astronomers observed that galaxies rotate too quickly to be held together by visible matter alone. The gravitational force required to maintain such velocities suggested the existence of unseen mass. Despite decades of research, dark matter remains one of the universe's greatest mysteries. Scientists estimate that dark matter comprises approximately 27% of the total mass-energy content of the universe, while ordinary matter makes up only about 5%."},
+    {pid:"sci_07",wc:62,text:"CRISPR technology represents a breakthrough in genetic engineering that allows scientists to edit DNA sequences with remarkable precision. Unlike earlier gene-editing tools, CRISPR is relatively inexpensive and accessible to many laboratories. This democratization of genetic research has accelerated discoveries in fields ranging from agriculture to medicine. However, ethical concerns about genetic modification remain contentious, particularly regarding heritable changes to the human germline."},
+    {pid:"sci_08",wc:78,text:"The extinction of the dinosaurs 66 million years ago is widely attributed to a massive asteroid impact in what is now Mexico's Yucatan Peninsula. However, emerging evidence suggests that volcanic activity in India, which occurred simultaneously, may have exacerbated the environmental catastrophe. The combination of these two catastrophic events likely triggered a global climate shift, blocking sunlight and causing the collapse of food chains. This multifactorial explanation challenges the previous consensus that attributed extinction solely to the asteroid."},
+    {pid:"society_06",wc:48,text:"Educational inequality remains a persistent challenge in developing nations. Rural students frequently encounter obstacles such as limited access to quality teachers, inadequate learning materials, and insufficient infrastructure. Bridging this divide requires substantial investment in rural schools and innovative teaching methods that can be implemented even in resource-constrained environments."},
+    {pid:"society_07",wc:55,text:"The opioid crisis has devastated communities across North America, claiming hundreds of thousands of lives. Addiction specialists attribute this epidemic to both pharmaceutical companies' aggressive marketing of prescription painkillers and inadequate regulation of their distribution. Comprehensive strategies involving harm reduction, treatment accessibility, and pharmaceutical accountability are now recognized as essential to addressing this multifaceted problem."},
+    {pid:"society_08",wc:53,text:"Gentrification in urban neighborhoods presents a paradoxical challenge. While revitalization projects improve infrastructure and attract investment, they often displace long-term residents who can no longer afford rising rents. Community leaders debate whether development benefits outweigh the social costs of displacement, highlighting the tension between economic growth and social equity in rapidly evolving cities."},
+    {pid:"sports_06",wc:45,text:"Elite athletes often experience overtraining syndrome when they push their bodies beyond safe limits without adequate recovery time. This condition can paradoxically decrease performance and lead to chronic fatigue. Coaches and athletes must balance intensive training with sufficient rest periods to optimize long-term athletic development."},
+    {pid:"sports_07",wc:47,text:"The evolution of sports technology has fundamentally transformed athletic competition. From advanced materials in equipment to biometric monitoring systems, modern athletes leverage innovations that were unimaginable decades ago. However, some argue that excessive reliance on technology may diminish the traditional values of skill and perseverance in sports."},
+    {pid:"sports_08",wc:52,text:"The concept of mental resilience has gained considerable prominence in sports psychology. Athletes who possess strong mental fortitude are better equipped to overcome setbacks and maintain performance under pressure. Contemporary training programs increasingly incorporate psychological conditioning alongside physical preparation, recognizing that victory often hinges on mental strength as much as physical capability."},
+    {pid:"tech_06",wc:45,text:"The Internet of Things (IoT) refers to the growing network of physical devices embedded with sensors and software. These devices collect and exchange data seamlessly, enabling smarter homes and cities. While IoT promises unprecedented convenience, security and privacy concerns remain significant obstacles to widespread adoption."},
+    {pid:"tech_07",wc:47,text:"Machine learning algorithms enable computers to learn from data without being explicitly programmed. This technology has revolutionized fields such as medical diagnosis, where algorithms can identify diseases from medical images with remarkable accuracy. However, the reliance on large datasets raises concerns about data quality and algorithmic bias."},
+    {pid:"tech_08",wc:49,text:"Blockchain technology has emerged as a decentralized solution for recording and verifying transactions. Its immutable ledger system ensures transparency and security in digital exchanges. While cryptocurrency is its most well-known application, blockchain is increasingly being adopted in supply chain management and digital identity verification to enhance trust and accountability."},
+    {pid:"travel_06",wc:62,text:"Venice, a historic city built on a lagoon in Italy, presents a unique challenge for visitors accustomed to conventional transportation. The absence of automobiles necessitates reliance on water-based vehicles such as gondolas and water buses. This distinctive characteristic has paradoxically enhanced the city's charm and cultural preservation, making it one of the world's most compelling destinations for those seeking authentic medieval experiences."},
+    {pid:"travel_07",wc:59,text:"The concept of 'voluntourism' has gained considerable traction in recent years, blending conventional tourism with volunteer work in developing communities. Participants engage in activities ranging from teaching English to environmental conservation projects, ostensibly contributing to local development. However, critics argue that such programs occasionally perpetuate dependency and overlook the agency of local populations in determining their own developmental needs."},
+    {pid:"travel_08",wc:55,text:"Cultural assimilation among travelers presents a fascinating paradox: while immersion in local customs facilitates genuine understanding and respect, excessive adaptation to unfamiliar norms can engender superficial engagement rather than authentic cultural exchange. The most enriching travel experiences often occur when visitors maintain their distinctive perspectives while simultaneously demonstrating humility toward host communities' values and traditions."},
+    {pid:"urban_06",wc:60,text:"Mixed-use development has emerged as a promising urban planning approach that combines residential, commercial, and recreational spaces within a single district. Proponents argue that such developments foster community interaction and reduce the need for long commutes. Critics contend, however, that poorly designed mixed-use areas can become chaotic and may not adequately address affordable housing concerns that plague many metropolitan regions."},
+    {pid:"urban_07",wc:52,text:"The concept of transit-oriented development emphasizes creating dense, mixed-use neighborhoods around public transportation hubs. This approach aims to reduce automobile dependency and promote sustainable urban growth. However, implementing such developments often encounters resistance from existing residents who fear increased congestion and parking shortages, as well as from developers concerned about profitability margins."},
+    {pid:"urban_08",wc:60,text:"Gentrification in urban neighborhoods presents a complex paradox: while revitalization efforts improve infrastructure and attract new investment, they often displace long-standing residents through rising property values and rental costs. Some urban theorists argue that gentrification is an inevitable consequence of capitalism, whereas others advocate for community-based strategies such as rent control and community land trusts to mitigate its adverse effects."},
+    {pid:"work_06",wc:50,text:"The gig economy has disrupted traditional employment models, offering both opportunities and challenges. Workers in the gig economy enjoy flexibility and autonomy but often lack job security and benefits typically provided by conventional employers. This shift has sparked debates about labor rights and the responsibility of companies toward their workforce."},
+    {pid:"work_07",wc:48,text:"Diversity and inclusion initiatives have become central to modern workplace strategies. Research demonstrates that teams with diverse backgrounds and perspectives generate more innovative solutions and make better decisions. However, implementing genuine inclusion requires sustained commitment beyond mere policy changes, involving cultural shifts and ongoing education throughout the organization."},
+    {pid:"work_08",wc:53,text:"The concept of psychological safety in the workplace has gained significant attention in organizational psychology. When employees feel safe to take interpersonal risks—such as admitting mistakes or proposing unconventional ideas—they contribute more openly to team discussions and innovation. Conversely, environments where fear of judgment predominates tend to suppress creativity and hinder organizational learning."},
+  ],
+  "lv4": [
+    {pid:"arts_09",wc:91,text:"The phenomenon of auteur cinema, wherein a director's distinctive artistic vision supersedes conventional narrative structures, emerged as a radical challenge to the studio system's formulaic approach to filmmaking. Theorists such as François Truffaut argued that cinema possessed inherent artistic legitimacy comparable to painting or literature. This paradigm shift catalyzed a reassessment of directorial authorship and elevated marginal creative figures whose unconventional methodologies might otherwise have been suppressed by commercial constraints. The enduring influence of auteur theory underscores the tension between artistic integrity and commercial viability that continues to preoccupy contemporary cinema."},
+    {pid:"biz_09",wc:84,text:"The concept of behavioral economics challenges the traditional assumption that individuals always make rational financial decisions. Research demonstrates that cognitive biases, such as loss aversion and confirmation bias, significantly influence investment choices and consumer spending patterns. Anchoring bias, wherein individuals rely disproportionately on an initial piece of information, explains why retail discounts often prove more effective than straightforward price reductions. Understanding these psychological mechanisms enables marketers to craft more persuasive strategies that capitalize on inherent human tendencies rather than appealing solely to rational deliberation."},
+    {pid:"comm_09",wc:67,text:"Linguistic relativity, the hypothesis that language shapes thought and perception, remains a contested subject in cognitive science and linguistics. Proponents argue that speakers of languages with distinct grammatical structures or vocabulary may conceptualize reality differently, citing examples such as color perception or temporal cognition. Conversely, skeptics contend that cognitive universals constrain the degree to which linguistic variation can influence conceptualization, challenging the stronger interpretations of this theory."},
+    {pid:"daily_09",wc:95,text:"The proliferation of digital technologies has fundamentally altered our quotidian patterns, yet paradoxically, individuals increasingly seek to recuperate analog practices through deliberate habit reconstruction. This counterintuitive trend manifests notably in the resurgence of handwritten journaling, digital detox protocols, and ritualistic morning routines eschewing screens. Neuroscientific discourse substantiates the efficacy of such intentional disengagement, demonstrating that cyclical periods of minimal technological stimulation facilitate enhanced neural plasticity and attenuate the deleterious effects of chronic digital saturation. Consequently, the deliberate cultivation of pre-digital habits represents not merely nostalgic regression, but rather a psychologically and physiologically informed adaptive strategy."},
+    {pid:"edu_09",wc:66,text:"The proliferation of digital learning platforms has precipitated a paradigm shift in pedagogical methodologies, enabling unprecedented customization of educational experiences. Algorithmic personalization mechanisms facilitate adaptive learning pathways that dynamically calibrate content difficulty and pacing to individual learner profiles. Nonetheless, scholars remain circumspect regarding the pedagogical implications of algorithmic bias and the potential attenuation of human pedagogical relationships, which constitute a fundamental dimension of holistic educational development."},
+    {pid:"env_09",wc:78,text:"The phenomenon of ocean acidification, precipitated by increased atmospheric CO₂ absorption, fundamentally alters the chemical equilibrium of marine ecosystems. This process undermines the calcification mechanisms of mollusks and corals, rendering them more susceptible to skeletal degradation. Consequently, the cascading ecological ramifications pose an existential threat not merely to individual species but to the intricate food webs that sustain marine biodiversity. Policymakers have begun acknowledging this threat, yet the lag between scientific consensus and regulatory implementation remains problematically protracted."},
+    {pid:"food_09",wc:72,text:"The advent of molecular gastronomy has fundamentally transformed culinary practices by incorporating scientific principles and precision techniques into food preparation. Chefs employing this avant-garde methodology utilize sophisticated equipment and unconventional ingredients to deconstruct traditional dishes and reconstruct them in innovative ways. While proponents extol the artistic and sensory dimensions of this approach, critics contend that such experimentation often prioritizes aesthetic presentation over nutritional substance, thereby potentially undermining the fundamental purpose of cuisine."},
+    {pid:"global_09",wc:66,text:"The proliferation of transnational challenges such as pandemic disease, cybersecurity threats, and environmental degradation underscores the inadequacy of conventional nation-state frameworks for contemporary governance. Multilateral institutions, while theoretically positioned to address these issues, frequently suffer from institutional inertia and competing national interests that impede coordinated responses. Establishing mechanisms for genuine supranational cooperation, despite the sovereignty concerns such arrangements invariably raise, emerges as an increasingly pressing imperative."},
+    {pid:"health_09",wc:63,text:"The gut microbiome, comprising trillions of microorganisms, exerts profound influence on immune function, metabolic processes, and even neurological health through the gut-brain axis. Contemporary research has elucidated that dysbiosis—an imbalance in microbial communities—predisposes individuals to autoimmune disorders, obesity, and mood disturbances. Consequently, dietary interventions promoting microbial diversity, such as consuming fermented foods and prebiotic-rich vegetables, have garnered substantial scientific validation as therapeutic modalities."},
+    {pid:"hist_09",wc:88,text:"The Byzantine Empire, which persisted for over a millennium after the fall of Rome, maintained continuity with classical civilization while synthesizing Greek, Roman, and Christian elements into a distinctive cultural identity. Byzantine artistic traditions, particularly in ecclesiastical architecture and iconography, demonstrated a sophisticated understanding of spatial proportion and symbolic representation that would profoundly influence medieval and Renaissance European aesthetics. The preservation and transmission of classical texts through Byzantine scriptoria not only safeguarded intellectual heritage but also facilitated their eventual reintegration into Western European intellectual discourse during the Renaissance."},
+    {pid:"life_09",wc:83,text:"The phenomenon of 'slow living' represents a deliberate repudiation of the frenetic pace endemic to contemporary urban existence. Advocates posit that by decelerating daily rhythms and cultivating granular attention to quotidian experiences, individuals can reclaim agency over their temporal allocation and foster authentic connections that are systematically undermined by the perpetual acceleration of late capitalism. Conversely, skeptics argue that this paradigm remains inextricably bound to privilege, as the luxury of temporal sovereignty is disproportionately accessible to those with economic cushion and diminished precarity."},
+    {pid:"nature_09",wc:94,text:"Trophic cascades exemplify the non-linear dynamics inherent in ecological systems, wherein the removal or restoration of apex predators engenders ramifications that propagate through multiple trophic levels. The seminal Yellowstone wolf reintroduction demonstrates this principle profoundly: the reintroduction of gray wolves, absent for nearly 70 years, precipitated not merely a reduction in elk populations but a comprehensive restructuring of the ecosystem. Wolves' predation patterns reshaped herbivory pressures on vegetation, which subsequently altered riparian ecosystems, riverbank stability, and aquatic habitat structure. This phenomenon exemplifies how top-down control mechanisms regulate energy flow and biodiversity distribution throughout ecosystems."},
+    {pid:"psych_09",wc:86,text:"The concept of emotional intelligence, encompassing the ability to perceive, interpret, manage, and utilize emotions effectively, has emerged as a salient predictor of interpersonal success and psychological well-being. Contemporary research elucidates that individuals possessing elevated levels of emotional intelligence demonstrate superior conflict resolution capabilities, exhibit heightened empathetic responses, and sustain more fulfilling relational dynamics. Furthermore, the cultivation of emotional intelligence through structured interventions has been demonstrated to yield significant ameliorations in both professional and personal life trajectories, suggesting its instrumental value extends beyond mere personality taxonomy."},
+    {pid:"sci_09",wc:97,text:"The heliocentric model, proposed by Nicolaus Copernicus in the 16th century, fundamentally challenged the prevailing geocentric paradigm and catalyzed a paradigm shift in astronomical understanding. This revolutionary theory posited that the Sun, rather than the Earth, occupied the center of the celestial system. Although Copernicus's model was not without flaws—notably, his adherence to circular orbits—it provided a more parsimonious explanation of planetary motion than the Ptolemaic system with its cumbersome epicycles. The subsequent validation of this model through telescopic observations by Galileo and later gravitational theories by Newton consolidated the heliocentric view as the dominant scientific consensus."},
+    {pid:"society_09",wc:61,text:"The intersectionality of poverty and healthcare access creates compounded disadvantages for marginalized populations. Research demonstrates that individuals from low-income backgrounds not only encounter financial barriers to medical services but also experience systemic discrimination within healthcare institutions. Addressing health disparities necessitates acknowledging these intersecting factors and implementing policies that target structural inequities rather than merely distributing resources equally without considering contextual vulnerabilities."},
+    {pid:"sports_09",wc:69,text:"The phenomenon of athlete burnout has emerged as a significant concern in contemporary sports medicine, particularly among young competitors subjected to intensive regimens from adolescence. Burnout is characterized by emotional exhaustion, reduced athletic commitment, and diminished accomplishment despite rigorous training. Longitudinal studies suggest that overemphasis on winning at developmental stages may precipitate psychological disengagement, necessitating a paradigm shift toward holistic athlete development that prioritizes intrinsic motivation and long-term wellbeing."},
+    {pid:"tech_09",wc:39,text:"The proliferation of artificial intelligence in contemporary society presents a paradox: while AI systems demonstrate extraordinary capability in pattern recognition and optimization, their decision-making processes remain largely opaque to human scrutiny. This phenomenon, commonly referred to as the \\"},
+    {pid:"travel_09",wc:77,text:"The proliferation of digital travel platforms has fundamentally reconfigured the tourism landscape, democratizing access to experiential commodities previously controlled by traditional gatekeepers. Conversely, this unprecedented accessibility has engendered homogenization of travel experiences, wherein Instagram-curated itineraries supersede authentic exploration, transforming tourists into consumers of pre-fabricated narratives rather than genuine participants in cultural encounters. The tension between accessibility and authenticity necessitates critical interrogation of tourism's socioeconomic implications, particularly regarding how commercialization affects host communities' sovereignty over their cultural representations."},
+    {pid:"urban_09",wc:80,text:"The proliferation of remote work has catalyzed unprecedented shifts in urban spatial dynamics and labor market geographies. As knowledge workers increasingly decouple from traditional office-centric agglomerations, metropolitan regions face mounting pressures to reimagine their economic foundations. Contemporary urban theorists posit that this transition necessitates a paradigmatic reconceptualization of downtown districts, potentially fostering polycentrism wherein secondary nodes acquire augmented economic vitality. Nevertheless, such transformations engender substantial socioeconomic stratification risks, as peripheral areas may experience accentuated disinvestment while privileged enclaves remain resilient."},
+    {pid:"work_09",wc:70,text:"The phenomenon of 'quiet quitting'—wherein employees fulfill their contractual obligations with minimal engagement—has become increasingly prevalent in post-pandemic workforces. While some view this as a rational response to burnout and unreasonable expectations, others contend that it reflects a broader erosion of organizational loyalty. This dichotomy underscores fundamental tensions between employer expectations and employee well-being, prompting questions about the sustainability of conventional employment relationships and the necessity for reimagining workplace dynamics."},
+  ],
+  "lv5": [
+    {pid:"arts_10",wc:111,text:"The metaphorical language of modernist music composition, particularly through the serialist and twelve-tone techniques pioneered by Arnold Schoenberg, represented an epistemological rupture with Romantic tonality that reverberated far beyond musical spheres. Schoenberg's systematic decimation of hierarchical pitch organization, predicated upon the axiom of absolute equivalence among chromatic pitches, instantiated a philosophical paradigm wherein traditional harmonic functionality became aesthetically obsolete. This paradigmatic reconfiguration not merely restructured the grammatical apparatus of musical discourse but simultaneously precipitated broader ontological interrogations regarding representation, authenticity, and the autonomy of artistic form. The reverberations of this serialist revolution continue to inflect contemporary compositional praxis, wherein the contested boundaries between systematic constraint and expressive potentiality remain fundamentally unresolved."},
+    {pid:"biz_10",wc:114,text:"Disruptive innovation, as conceptualized by Clayton Christensen, describes a process whereby a new entrant introduces a product or service that initially seems inferior to existing offerings but eventually displaces incumbent competitors by offering superior value propositions through novel business models. This paradigm elucidates how companies like Uber and Airbnb fundamentally restructured their respective markets, not through technological superiority alone, but by dismantling traditional value chains and creating friction-free ecosystems. Paradoxically, incumbent firms often struggle to respond effectively to disruptive threats due to the innovator's dilemma—wherein commitment to existing profitable business models inhibits strategic agility. Moreover, the cyclical nature of disruption suggests that today's disruptors inevitably become tomorrow's incumbents, vulnerable to subsequent waves of innovation."},
+    {pid:"comm_10",wc:87,text:"The proliferation of algorithmic curation in digital communication platforms has engendered profound ramifications for epistemic practices and social cohesion. These systems, ostensibly designed to optimize user engagement through content personalization, invariably create filter bubbles that circumscribe individuals' exposure to diverse perspectives. Consequently, the mechanisms that purportedly democratize information dissemination inadvertently stratify society into insular ideological communities, exacerbating polarization. Moreover, the opacity of algorithmic decision-making processes obscures accountability, rendering it increasingly difficult for users to comprehend the ontological and axiological foundations upon which their curated experiences are constructed."},
+    {pid:"daily_10",wc:122,text:"The contemporary preoccupation with habit optimization reflects a deeper epistemological shift wherein quotidian practices are reconceptualized as malleable vectors of self-actualization rather than mere temporal scaffolding. This reframing, mediated through populist self-help discourse and legitimized by selective appropriation of behavioral psychology, engenders a complex dialectic: while empirical evidence substantiates the transformative potential of systematic habit modification, the proliferation of quantified self-monitoring and algorithmically-mediated behavioral prescription paradoxically risks engendering a new form of rigidity—one wherein the pursuit of optimization supplants authentic agency. Contemporary habit culture thus embodies an inherent tension between liberation through intentionality and subjugation through instrumentalization, compelling critical examination of whether perpetual self-optimization constitutes genuine autonomy or merely a reconfigured manifestation of societal compulsion normalized through the rhetoric of personal empowerment."},
+    {pid:"edu_10",wc:92,text:"The epistemological foundations of constructivist pedagogies posit that knowledge is actively constructed through cognitive engagement rather than passively received, thereby privileging learner agency and autonomous sense-making. Contemporary neuroscientific research substantiates this theoretical framework by elucidating the neuroplasticity of learning, demonstrating that synaptic reorganization and neurotransmitter modulation facilitate differential encoding of experiential stimuli. Concomitantly, critical pedagogues interrogate the ideological underpinnings of constructivism, contending that its emphasis on individual cognitive development may inadvertently perpetuate systemic inequities by obscuring the socio-political dimensions of knowledge production and the structural constraints that circumscribe educational access and outcomes."},
+    {pid:"env_10",wc:118,text:"The nexus between anthropogenic climate perturbations and biodiversity attrition manifests through multifarious mechanisms that operate across temporal and spatial scales of unprecedented complexity. Whilst incremental mitigation strategies have garnered political expediency, their palliative efficacy proves demonstrably inadequate in arresting the trajectory of ecological tipping points. The requisite paradigmatic shift toward regenerative resource stewardship necessitates not merely technological innovation or policy reformulation, but a fundamental reconceptualization of humanity's ontological relationship with non-human biological systems. Furthermore, the exacerbating influence of economic systems predicated upon perpetual growth imperatives engenders a structural incompatibility with the biophysical constraints of planetary boundaries. Consequently, the resolution of this civilizational predicament demands a multidisciplinary integration of ecological science, socioeconomic restructuring, and philosophical inquiry into anthropogenic instrumentalism."},
+    {pid:"food_10",wc:93,text:"The nutritional paradigm surrounding macronutrient consumption has undergone substantial revision in recent decades, with contemporary epidemiological evidence increasingly suggesting that the conventional dichotomy between saturated and unsaturated fats constitutes an oversimplification of lipid metabolism's intricate biochemistry. Furthermore, the reductionist approach to nutritional analysis—wherein single nutrients are isolated for scrutiny—has engendered significant methodological limitations in establishing causative relationships between dietary constituents and chronic disease outcomes. Recent large-scale prospective cohort studies have demonstrated complex associations wherein dietary patterns, rather than individual nutrient profiles, appear to exert more pronounced effects on metabolic homeostasis and longevity trajectories."},
+    {pid:"global_10",wc:96,text:"The conceptualization of 'development' within international policy discourse has undergone considerable paradigmatic shifts, particularly from unidirectional modernization models toward more pluralistic frameworks acknowledging diverse pathways and indigenous knowledge systems. Yet this epistemological reorientation, while theoretically progressive, encounters significant headwinds in implementation, as institutionalized power structures and hegemonic narratives continue to privilege certain developmental trajectories over others. The paradox inherent in deploying ostensibly inclusive frameworks that remain substantively constrained by structural inequalities reflects the deeper tensions between aspirational internationalism and entrenched geopolitical asymmetries that necessitate more radical reconceptualizations of what constitutes meaningful global equity and mutual accountability."},
+    {pid:"health_10",wc:73,text:"Telomeres, the protective caps on chromosomal ends, naturally shorten with advancing age, serving as a biological clock for cellular senescence. Emerging evidence suggests that chronic psychological stress, systemic inflammation, and oxidative stress precipitate accelerated telomeric attrition, thereby prematurely triggering age-related pathophysiology. Conversely, lifestyle modifications encompassing sustained aerobic exercise, Mediterranean dietary patterns, mindfulness-based interventions, and adequate sleep architecture have demonstrated efficacy in decelerating telomeric erosion, potentially conferring longevity benefits and ameliorating age-associated morbidity trajectories."},
+    {pid:"hist_10",wc:117,text:"The concept of cultural patrimony in the contemporary world encompasses not merely the tangible artifacts and monumental structures that characterize conventional archaeological or art historical inquiry, but increasingly encompasses intangible dimensions of heritage including oral traditions, performative practices, ritual knowledge systems, and epistemological frameworks that encode communal memory and identity. This expanded conception reflects a fundamental epistemic shift in how societies conceptualize value, legitimacy, and stewardship, transcending the Eurocentric paradigms that historically privileged material culture and linear historical narratives. The UNESCO recognition of intangible cultural heritage, while ostensibly democratizing heritage discourse, simultaneously engenders complex questions regarding the commodification of tradition, the negotiation of authenticity claims, and the potential homogenization of culturally-specific knowledge practices within hegemonic institutional frameworks."},
+    {pid:"life_10",wc:111,text:"The aesthetic valorization of 'authenticity' within contemporary creative practices paradoxically emerges from structures of mediation and commodification that ostensibly threaten such authenticity. Creators navigating the digital landscape confront an ontological paradox: the imperative to present an unmediated self—through curated self-disclosure on social platforms, carefully calibrated artistic statements, and algorithmic optimization—inherently undermines the very autochthonous expression these strategies purport to facilitate. Moreover, the market apparatus' absorption of authenticity as an aesthetic commodity has rendered the distinction between genuine creative impulse and strategic self-presentation increasingly untenable. This duality reflects deeper tensions within late modernity, wherein the valorization of individual authenticity coexists with systematic pressures toward conformity, homogenization, and the spectacularization of the quotidian."},
+    {pid:"nature_10",wc:111,text:"Endosymbiotic theory, substantiated by compelling molecular and morphological evidence, posits that eukaryotic cells originated through the engulfment of prokaryotic organisms by ancestral host cells, with the internalized organisms eventually differentiating into mitochondria and chloroplasts. This paradigm-shifting hypothesis has been corroborated by extensive phylogenetic analyses demonstrating that mitochondrial and chloroplast DNA exhibit greater sequence homology with bacterial genomes than with nuclear DNA. Contemporary investigations into archaeal-bacterial interactions and their potential role in eukaryotic emergence suggest that the evolutionary pathway may have involved more nuanced mechanisms than initially conceptualized. The prevalence of this organellar complexity across diverse eukaryotic taxa underscores the fundamental significance of endosymbiosis in the evolutionary architecture of complex life forms."},
+    {pid:"psych_10",wc:124,text:"The intricate relationship between metacognition—the reflective process of thinking about one's own cognitive processes—and academic achievement has been extensively documented in educational psychology literature. Empirical evidence demonstrates that learners exhibiting pronounced metacognitive proficiency, characterized by the capacity to monitor, evaluate, and adjust their learning strategies dynamically, consistently outperform their metacognitively less proficient counterparts in standardized assessments. Paradoxically, despite this well-established pedagogical principle, the systematic integration of metacognitive instruction into curricula remains circumscribed, partially attributable to the epistemological challenges inherent in rendering tacit cognitive processes explicit and measurable. This lacuna in instructional practice underscores the necessity for more rigorous methodologies that facilitate the operationalization of metacognitive frameworks within educational contexts, thereby bridging the theoretical-practical divide that continues to impede the realization of this pedagogical potential."},
+    {pid:"sci_10",wc:109,text:"The anthropogenic climate change hypothesis, substantiated through multidecadal atmospheric measurements and paleoclimatic reconstructions, posits that escalating concentrations of greenhouse gases—primarily carbon dioxide, methane, and nitrous oxide—are catalyzing an unprecedented acceleration in global mean temperatures. The radiative forcing mechanisms elucidated by contemporary climate science demonstrate that anthropogenic emissions, coupled with positive feedback loops involving albedo reduction and water vapor amplification, constitute the dominant causal factors distinguishing recent climatic perturbations from natural variability patterns. The policy implications of these findings remain contentious within political and economic spheres, yet the scientific consensus—crystallized through successive IPCC assessments—increasingly emphasizes the urgency of mitigation strategies and the inevitability of adaptation measures irrespective of emissions trajectories."},
+    {pid:"society_10",wc:103,text:"The contemporary discourse surrounding digital equity reveals inherent tensions between technological determinism and socio-structural analysis. While proponents of technological solutions posit that infrastructure expansion and digital literacy initiatives will ameliorate socioeconomic disparities, critical scholars contend that such interventions inadequately address the underlying structural inequalities perpetuated through institutional practices and epistemological frameworks. The dichotomy between access and meaningful participation remains largely unresolved, suggesting that technological provision alone constitutes a necessary but insufficient condition for genuine democratization of digital spaces. Consequently, comprehensive remediation demands simultaneous engagement with technological, institutional, and pedagogical dimensions while maintaining reflexivity regarding the power dynamics embedded within seemingly neutral technological systems."},
+    {pid:"sports_10",wc:85,text:"Contemporary discourse surrounding competitive athletics increasingly interrogates the multifaceted dimensions of performance optimization, particularly concerning the ethical ramifications of biotechnological interventions and pharmacological augmentation. While performance-enhancing substances have historically been stigmatized, their neurobiological and physiological mechanisms have elicited increasingly nuanced scholarly examination. The dichotomy between pharmaceutical innovation ostensibly benefiting clinical rehabilitation and the clandestine enhancement of athletic capacity presents a fundamental philosophical quandary: whether regulatory frameworks should accommodate therapeutic use exemptions and, if so, what epistemological foundations legitimize distinguishing therapeutic necessity from competitive advantage seeking."},
+    {pid:"tech_10",wc:104,text:"The convergence of quantum computing and cryptographic paradigms has engendered substantial uncertainty regarding the future viability of contemporary encryption methodologies. While quantum computers theoretically possess the computational prowess to factorize large integers through Shor's algorithm, thereby rendering RSA encryption fundamentally vulnerable, the timeline for achieving cryptographically relevant quantum computers remains ambiguous. This conundrum has catalyzed the development of post-quantum cryptography standards, whereby cryptographic systems must demonstrate resistance to both classical and hypothetical quantum adversaries. Nevertheless, the transition from extant infrastructure necessitates meticulous coordination across heterogeneous systems and stakeholders, a challenge that technological determinism and market incentives have thus far proved inadequate to address comprehensively."},
+    {pid:"travel_10",wc:113,text:"The epistemological frameworks governing contemporary tourism scholarship increasingly interrogate how postcolonial power dynamics, embedded within historical processes of commodification and representation, continue to structure the encounter between visitors and host communities. Rather than conceptualizing tourism as a benign exchange mechanism, critical analyses reveal how travel operates as a discursive apparatus through which Western hegemonic perspectives are perpetually re-inscribed onto non-Western locales, simultaneously engendering what some theorists designate as 'voluntary complicity'—wherein colonized populations internalize exogenous narratives regarding their own cultural authenticity. This dialectic necessitates reconceptualizing tourism through frameworks emphasizing mutual agency, dialogical exchange, and the acknowledgment that authentic cultural encounter remains fundamentally elusive within systems structurally predicated on asymmetrical power relations and capital accumulation."},
+    {pid:"urban_10",wc:126,text:"The architecture of contemporary urban megacities reflects not merely functional imperatives or aesthetic preferences, but rather the crystallization of capital accumulation patterns, neoliberal governance structures, and transnational real estate commodification dynamics. Architectural theorists increasingly interrogate the epistemological presuppositions embedded within signature towers and speculative developments, arguing that these built environments encode and perpetuate systemic inequalities through mechanisms of spatial segregation, privatization of public domains, and the systematic erasure of vernacular built heritage. Furthermore, the accelerating phenomenon of 'architectural monoculture'—wherein globally standardized design vocabularies supersede locally-rooted spatial practices—constitutes a form of cultural homogenization that forecloses alternative imaginaries of urban futurity. Critical scholars contend that decolonizing architecture requires not merely surface-level interventions, but rather a fundamental reconstitution of the epistemological frameworks governing architectural knowledge production and urban imaginaries."},
+    {pid:"work_10",wc:104,text:"The advent of artificial intelligence and automation has precipitated a paradigm shift in labor market dynamics, engendering both unprecedented opportunities for productivity enhancement and existential anxieties regarding human capital displacement. Contemporary scholarship increasingly interrogates the multifaceted implications of technological integration: while proponents emphasize the augmentation of human capabilities and the emergence of novel professional categories, skeptics underscore the asymmetrical distribution of technological benefits and the resultant exacerbation of socioeconomic disparities. This bifurcated discourse necessitates nuanced policy interventions that navigate between unrestricted technological adoption and prudent safeguarding mechanisms, whilst simultaneously addressing the pedagogical imperatives of workforce reskilling and the institutional reforms requisite for equitable transition."},
+  ],
+};
+
+const LEVEL_LABELS = {
+  "lv1": "Level 1", "lv2": "Level 2", "lv3": "Level 3",
+  "lv4": "Level 4", "lv5": "Level 5"
+};
+const LEVEL_COLORS = {
+  "lv1": "lv1", "lv2": "lv2", "lv3": "lv3", "lv4": "lv4", "lv5": "lv5"
+};
+
+// ──────────────────────────────────────────────
+// STATE
+// ──────────────────────────────────────────────
+let currentLevel = "lv1";
+let currentIndex = 0;
+let wordSpans = [];
+let timings = [];
+let audio = new Audio();
+let raf = null;
+let lastHighlightedIndex = -1;
+
+// ──────────────────────────────────────────────
+// ELEMENTS
+// ──────────────────────────────────────────────
+const passageText    = document.getElementById('passage-text');
+const playBtn        = document.getElementById('play-btn');
+const resetBtn       = document.getElementById('reset-btn');
+const speedSlider    = document.getElementById('speed-slider');
+const speedValue     = document.getElementById('speed-value');
+const progressFill   = document.getElementById('progress-fill');
+const timeCurrent    = document.getElementById('time-current');
+const timeTotal      = document.getElementById('time-total');
+const levelBadge     = document.getElementById('level-badge');
+const passageTitleLbl= document.getElementById('passage-title-label');
+const passageList    = document.getElementById('passage-list');
+const listTitle      = document.getElementById('list-title');
+const prevBtn        = document.getElementById('prev-btn');
+const nextBtn        = document.getElementById('next-btn');
+const levelTabs      = document.querySelectorAll('.level-tab');
+const loadingEl      = document.getElementById('loading');
+
+function formatTime(sec) {
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return `${m}:${s.toString().padStart(2,'0')}`;
+}
+
+// ──────────────────────────────────────────────
+// RENDER TEXT
+// ──────────────────────────────────────────────
+function renderPassageText() {
+  const item = READUP_PASSAGES[currentLevel][currentIndex];
+  const words = item.text.match(/\S+/g) || [];
+  wordSpans = [];
+  passageText.innerHTML = '';
+  words.forEach((word, i) => {
+    const span = document.createElement('span');
+    span.className = 'word';
+    span.textContent = word;
+    wordSpans.push(span);
+    passageText.appendChild(span);
+    if (i < words.length - 1) passageText.appendChild(document.createTextNode(' '));
+  });
+}
+
+// ──────────────────────────────────────────────
+// LOAD PASSAGE
+// ──────────────────────────────────────────────
+async function loadPassage() {
+  stopPlayback();
+  resetHighlight();
+
+  const item = READUP_PASSAGES[currentLevel][currentIndex];
+  const lvClass = LEVEL_COLORS[currentLevel];
+  levelBadge.className = `level-badge ${lvClass}`;
+  levelBadge.textContent = LEVEL_LABELS[currentLevel];
+  passageTitleLbl.textContent = `${item.pid} (${item.wc}語)`;
+
+  renderPassageText();
+
+  loadingEl.style.display = 'block';
+  playBtn.disabled = true;
+  timings = [];
+
+  try {
+    const [timingRes] = await Promise.all([
+      fetch(`audio/${item.pid}.json`)
+    ]);
+    timings = await timingRes.json();
+
+    audio = new Audio(`audio/${item.pid}.mp3`);
+    audio.playbackRate = parseFloat(speedSlider.value);
+
+    await new Promise((resolve, reject) => {
+      audio.oncanplaythrough = resolve;
+      audio.onerror = reject;
+      audio.load();
+    });
+
+    timeTotal.textContent = formatTime(audio.duration / audio.playbackRate);
+    loadingEl.style.display = 'none';
+    playBtn.disabled = false;
+
+    audio.onended = () => {
+      stopRaf();
+      wordSpans.forEach(s => { s.classList.remove('active'); s.classList.add('done'); });
+      progressFill.style.width = '100%';
+      timeCurrent.textContent = timeTotal.textContent;
+      playBtn.textContent = '▶ 再生';
+      playBtn.classList.remove('playing');
+    };
+  } catch(e) {
+    loadingEl.textContent = '音声の読み込みに失敗しました。';
+    console.error(e);
+  }
+}
+
+// ──────────────────────────────────────────────
+// HIGHLIGHT LOOP
+// ──────────────────────────────────────────────
+function highlightLoop() {
+  if (!audio || audio.paused) return;
+  const ct = audio.currentTime * audio.playbackRate;
+  let idx = -1;
+  for (let i = 0; i < timings.length; i++) {
+    if (ct >= timings[i].start && ct < timings[i].end) { idx = i; break; }
+  }
+  if (idx === -1) {
+    for (let i = timings.length - 1; i >= 0; i--) {
+      if (ct >= timings[i].start) { idx = i; break; }
+    }
+  }
+  if (idx !== lastHighlightedIndex && idx >= 0) {
+    if (lastHighlightedIndex >= 0) {
+      wordSpans[lastHighlightedIndex].classList.remove('active');
+      wordSpans[lastHighlightedIndex].classList.add('done');
+    }
+    wordSpans[idx].classList.remove('done');
+    wordSpans[idx].classList.add('active');
+    wordSpans[idx].scrollIntoView({block:'nearest',behavior:'smooth'});
+    lastHighlightedIndex = idx;
+  }
+  if (audio.duration) {
+    progressFill.style.width = (audio.currentTime / audio.duration * 100) + '%';
+    timeCurrent.textContent = formatTime(audio.currentTime);
+  }
+  raf = requestAnimationFrame(highlightLoop);
+}
+
+function stopRaf() { if (raf) cancelAnimationFrame(raf); raf = null; }
+
+function stopPlayback() {
+  stopRaf();
+  if (audio) audio.pause();
+  playBtn.textContent = '▶ 再生';
+  playBtn.classList.remove('playing');
+}
+
+function resetHighlight() {
+  stopRaf();
+  wordSpans.forEach(s => s.classList.remove('active','done'));
+  lastHighlightedIndex = -1;
+  progressFill.style.width = '0%';
+  timeCurrent.textContent = '0:00';
+  if (audio) { audio.pause(); audio.currentTime = 0; }
+}
+
+// ──────────────────────────────────────────────
+// PASSAGE LIST
+// ──────────────────────────────────────────────
+function renderPassageList() {
+  const items = READUP_PASSAGES[currentLevel];
+  listTitle.textContent = `${LEVEL_LABELS[currentLevel]} — ${items.length}本`;
+  passageList.innerHTML = '';
+  items.forEach((p, i) => {
+    const div = document.createElement('div');
+    div.className = 'passage-item' + (i === currentIndex ? ' active' : '');
+    div.innerHTML = `<div class="passage-item-title">${p.pid}</div><div class="passage-item-meta">${p.wc} words</div>`;
+    div.addEventListener('click', () => { currentIndex = i; renderPassageList(); loadPassage(); });
+    passageList.appendChild(div);
+  });
+}
+
+// ──────────────────────────────────────────────
+// EVENTS
+// ──────────────────────────────────────────────
+playBtn.addEventListener('click', () => {
+  if (!audio || audio.readyState < 2) return;
+  if (!audio.paused) {
+    stopPlayback();
+  } else {
+    audio.playbackRate = parseFloat(speedSlider.value);
+    lastHighlightedIndex = -1;
+    audio.play();
+    playBtn.textContent = '⏸ 停止';
+    playBtn.classList.add('playing');
+    raf = requestAnimationFrame(highlightLoop);
+  }
+});
+
+resetBtn.addEventListener('click', () => {
+  resetHighlight();
+  playBtn.textContent = '▶ 再生';
+  playBtn.classList.remove('playing');
+});
+
+speedSlider.addEventListener('input', () => {
+  const rate = parseFloat(speedSlider.value);
+  speedValue.textContent = rate.toFixed(1) + '×';
+  if (audio) {
+    audio.playbackRate = rate;
+    if (audio.duration) timeTotal.textContent = formatTime(audio.duration / rate);
+  }
+});
+
+prevBtn.addEventListener('click', () => {
+  const count = READUP_PASSAGES[currentLevel].length;
+  currentIndex = (currentIndex - 1 + count) % count;
+  renderPassageList(); loadPassage();
+});
+
+nextBtn.addEventListener('click', () => {
+  const count = READUP_PASSAGES[currentLevel].length;
+  currentIndex = (currentIndex + 1) % count;
+  renderPassageList(); loadPassage();
+});
+
+levelTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    levelTabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentLevel = tab.dataset.lv;
+    currentIndex = 0;
+    renderPassageList(); loadPassage();
+  });
+});
+
+// ──────────────────────────────────────────────
+// INIT
+// ──────────────────────────────────────────────
+renderPassageList();
+loadPassage();
+</script>
+</body>
+</html>

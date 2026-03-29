@@ -1,0 +1,68 @@
+{
+  "1": [
+    {
+      "title": "Morning Routine",
+      "wordCount": 53
+    },
+    {
+      "title": "A Dog's Day",
+      "wordCount": 46
+    },
+    {
+      "title": "The Corner Café",
+      "wordCount": 46
+    },
+    {
+      "title": "First Snow",
+      "wordCount": 43
+    },
+    {
+      "title": "Weekend Market",
+      "wordCount": 39
+    }
+  ],
+  "2": [
+    {
+      "title": "Working From Home",
+      "wordCount": 54
+    },
+    {
+      "title": "Learning a Language",
+      "wordCount": 51
+    },
+    {
+      "title": "Online Shopping",
+      "wordCount": 57
+    },
+    {
+      "title": "The Value of Sleep",
+      "wordCount": 59
+    },
+    {
+      "title": "City Cycling",
+      "wordCount": 59
+    }
+  ],
+  "3": [
+    {
+      "title": "AI and the Workforce",
+      "wordCount": 76
+    },
+    {
+      "title": "Remote Work Migration",
+      "wordCount": 66
+    },
+    {
+      "title": "The Science of Habit",
+      "wordCount": 79
+    },
+    {
+      "title": "Climate and Food Supply",
+      "wordCount": 75
+    },
+    {
+      "title": "The Value of Deep Work",
+      "wordCount": 74
+    }
+  ]
+}
