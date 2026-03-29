@@ -893,6 +893,11 @@ function speak(text) {
   });
 }
 
+function speakPhoneme(letter) {
+  const audio = new Audio(`/phonics/audio/phoneme_${letter.toLowerCase()}.mp3`);
+  audio.play().catch(() => speak(letter));
+}
+
 /* ════════════════════════════════════════
    ALPHABET
 ════════════════════════════════════════ */
@@ -918,7 +923,7 @@ function openLetterPanel(letter) {
 
   const speakBtn = document.getElementById('panelSpeakBtn');
   speakBtn.style.background = a.color;
-  speakBtn.onclick = () => speak(a.letter);
+  speakBtn.onclick = () => speakPhoneme(a.letter);
 
   document.getElementById('panelWords').innerHTML = a.words.map(w => `
     <div class="panel-word-chip" onclick="speak('${w}')">
