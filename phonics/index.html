@@ -916,6 +916,8 @@ function openLetterPanel(letter) {
   const a = ALPHABET.find(x => x.letter === letter);
   if (!a) return;
 
+  speakPhoneme(a.letter);
+
   document.getElementById('letterPanel').style.setProperty('--panel-color', a.color);
   document.getElementById('panelLetter').textContent = a.letter;
   document.getElementById('panelIpa').textContent = a.ipa;
