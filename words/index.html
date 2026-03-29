@@ -1029,20 +1029,27 @@
     </div>
 
     <div id="missionEmailCta" style="display:none;background:linear-gradient(135deg,#1e3a5f,#2d5a8e);border-radius:14px;padding:20px;margin:16px 0;text-align:center;">
-      <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:6px;">📩 学習記録を保存しませんか？</div>
-      <div style="font-size:12px;color:rgba(255,255,255,0.85);margin-bottom:14px;line-height:1.6;">メール登録で学習データをバックアップ。<br>週1回、あなたの弱点に合った学習ヒントもお届けします。</div>
+      <div style="font-size:14px;font-weight:700;color:#f87171;margin-bottom:4px;">⚠️ この記録、消えるかもしれません</div>
+      <div id="emailCtaStats" style="margin:6px 0;"></div>
+      <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:6px;">メールアドレスで<br>学習記録を永久保存</div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.85);margin-bottom:12px;line-height:1.7;">✓ キャッシュを消しても残る&nbsp;&nbsp;✓ 弱点グラフをいつでも確認<br>✓ 復習すべき問題を自動でお知らせ</div>
       <form id="missionEmailForm" onsubmit="return submitEmailForm(event)" style="display:flex;gap:8px;max-width:320px;margin:0 auto;">
         <input type="email" id="missionEmailInput" placeholder="メールアドレス" required style="flex:1;padding:10px 14px;border:none;border-radius:8px;font-size:14px;outline:none;">
-        <button type="submit" style="padding:10px 18px;border:none;border-radius:8px;cursor:pointer;font-size:13px;font-weight:700;color:#1e3a5f;background:#fbbf24;white-space:nowrap;">登録</button>
+        <button type="submit" style="padding:10px 18px;border:none;border-radius:8px;cursor:pointer;font-size:13px;font-weight:700;color:#1e3a5f;background:#fbbf24;white-space:nowrap;">記録を保存する</button>
       </form>
-      <div id="missionEmailSuccess" style="display:none;font-size:14px;color:#fbbf24;font-weight:700;padding:12px 0;">✅ 登録完了！</div>
-      <div style="font-size:10px;color:rgba(255,255,255,0.6);margin-top:8px;">登録は無料です。いつでも解除できます。<a href="/privacy/" style="color:rgba(255,255,255,0.8);">プライバシーポリシー</a></div>
+      <div id="missionEmailSuccess" style="display:none;font-size:14px;color:#fbbf24;font-weight:700;padding:12px 0;">✅ 保存しました。学習ダッシュボードのURLをメールでお送りします。</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.6);margin-top:8px;">無料・いつでも解除できます。<a href="/privacy/" style="color:rgba(255,255,255,0.8);">プライバシーポリシー</a></div>
     </div>
 
     <button class="mission-close-btn" onclick="closeMissionComplete()">トップに戻る</button>
   </div>
 </div>
 
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="/listening/firebase-config.js"></script>
 <script src="questions.js"></script>
 <script>
 'use strict';
@@ -1082,6 +1089,40 @@ document.getElementById('statQ').textContent = DATA.length;
 // ─────────────────────────────────────────
 var STORAGE_KEY = 'wordsup_v1';
 var NUMS = ['A', 'B', 'C', 'D'];
+
+// ─────────────────────────────────────────
+// FIREBASE
+// ─────────────────────────────────────────
+firebase.initializeApp(firebaseConfig);
+var db   = firebase.firestore();
+var auth = firebase.auth();
+var firebaseUid = null;
+auth.onAuthStateChanged(function(user) {
+  if (user) {
+    firebaseUid = user.uid;
+  } else {
+    auth.signInAnonymously().catch(function(err) { console.warn('[Firebase] anon auth error:', err); });
+  }
+});
+
+async function saveToolToFirestore(email) {
+  if (!firebaseUid) return;
+  var raw = localStorage.getItem(STORAGE_KEY);
+  var p = raw ? JSON.parse(raw) : {};
+  var data = {
+    wordsup: {
+      totalAnswered: p.totalAnswered || 0,
+      totalCorrect:  p.totalCorrect  || 0,
+      axisStats:     p.axisStats     || {},
+      updatedAt:     firebase.firestore.FieldValue.serverTimestamp()
+    },
+    lastSeenAt: firebase.firestore.FieldValue.serverTimestamp()
+  };
+  if (email) data.email = email;
+  try {
+    await db.collection('users').doc(firebaseUid).set(data, { merge: true });
+  } catch (err) { console.warn('[Firebase] write error:', err); }
+}
 
 // ─────────────────────────────────────────
 // AUDIO
@@ -1841,6 +1882,32 @@ function showMissionComplete() {
   }
 
   document.getElementById('missionOverlay').classList.add('show');
+
+  // Firestoreに学習データを保存
+  saveToolToFirestore();
+
+  // メール登録CTAに実績を動的挿入（損失回避を高める）
+  (function() {
+    var raw2 = localStorage.getItem(STORAGE_KEY);
+    var p2 = raw2 ? JSON.parse(raw2) : {};
+    var tot2 = p2.totalAnswered || 0;
+    var acc2 = tot2 > 0 ? Math.round((p2.totalCorrect || 0) / tot2 * 100) : 0;
+    var ax2 = p2.axisStats || {};
+    var ranked2 = Object.keys(ax2).filter(function(k) { return ax2[k].a >= 3; }).sort(function(a, b) { return (ax2[a].c / ax2[a].a) - (ax2[b].c / ax2[b].a); });
+    var axL2 = { meaning: '単語の意味', phrase: '句動詞・フレーズ', idiom: 'イディオム', nuance: 'ニュアンス', context: '文脈推測' };
+    var weak2 = ranked2.length > 0 ? (axL2[ranked2[0]] || ranked2[0]) : null;
+    var ctaEl = document.getElementById('emailCtaStats');
+    if (ctaEl && tot2 > 0) {
+      ctaEl.innerHTML =
+        '<div style="display:inline-flex;gap:12px;justify-content:center;margin:6px 0;">' +
+        '<div><span style="font-size:22px;font-weight:800;color:#fbbf24">' + tot2 + '</span><br><span style="font-size:10px;color:rgba(255,255,255,0.7)">問 解いた</span></div>' +
+        '<div><span style="font-size:22px;font-weight:800;color:#fbbf24">' + acc2 + '%</span><br><span style="font-size:10px;color:rgba(255,255,255,0.7)">正解率</span></div>' +
+        (weak2 ? '<div><span style="font-size:16px;font-weight:800;color:#fbbf24">' + weak2 + '</span><br><span style="font-size:10px;color:rgba(255,255,255,0.7)">が弱点</span></div>' : '') +
+        '</div>';
+    }
+    var ctaDiv = document.getElementById('missionEmailCta');
+    if (ctaDiv) ctaDiv.style.display = 'block';
+  })();
 }
 
 function closeMissionComplete() {
@@ -1852,14 +1919,15 @@ function submitEmailForm(e) {
   e.preventDefault();
   var email = document.getElementById('missionEmailInput').value.trim();
   if (!email) return false;
+  saveToolToFirestore(email);
   var ML_GROUP_ID = '183233023152489636';
   var ML_API_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiZmRiMTAzODJiZDVmYzEzZDgxZTVmODUxMDMxY2U1N2I1OTdiMmQ1NmMyNGQxYjZkMzk5N2FhODI4YWQxNzQyYjc3YTI3N2M3NTI1YjI4MGUiLCJpYXQiOjE3NzQ3NDQ3MTAuMTM1MDEzLCJuYmYiOjE3NzQ3NDQ3MTAuMTM1MDE1LCJleHAiOjQ5MzA0MTgzMTAuMTI4Njc5LCJzdWIiOiIyMjQ1MTU5Iiwic2NvcGVzIjpbXX0.d2Zmb-eUHkWvkBHdRFHP7tlfyt9-eJLUhxkrAcmobPT6kiYS6ErwfkDdPA1HUE1OvCZMDRbctuhn1nD5Hkc2-20AVYI85HYeGs2KeCzzzmlzUWXjoLq92yv6XL37BgeDlj9ZYKEMWG7YszNr1V9o4_QIr-tT_5NTVbCFP_HwV0H-dzUCBCUcsdoENt7N97pLA74Y4LLpJsQXS0SrjlQ_QY6tF1MT92jVr4_i-oPZN2_kwvfFJue5Z-_-qfTAGhC83M33FmZs4DJkTOkFkK7jYx1Qfh1mvwy2zgYihm7SulnDUVkLT_N-ZCJEc_vFqcXMGEpafk4xtNBfwnscB0wbM0fI7FoaL6qd_Dkf7UKphHI_HNuzRn8yxSOQWD9ISIGVfhoqmYuKRd1F3zCgAsP6NfYPGUgHPmhqmeiL12megwFgST7VnyAzw36Z4nLPhn_indqQ0PnKmY1fdpml91ez_tQmL-KHBTQbDiKHzQ8ND_FEBTp_ugqX69m-1B1wLrhgoe-xkTVi8ZJaxXPtEao84EW8gaHuep-d5DqBbyeV9mh5ovoJaK_9ZboXzO-OAAekCW1LX06BQPfb25hr7y27t7zDNr3HCkr7m0qBUequMBKsQ7Gwr1pVb2i50Mlk6DPv9QHeyx27EXaoY62yD4ttKLvg41L1gW4vkh_4IWvsA';
   fetch('https://connect.mailerlite.com/api/subscribers', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + ML_API_KEY }, body: JSON.stringify({ email: email, groups: [ML_GROUP_ID] }) })
-    .then(function() { document.getElementById('missionEmailForm').style.display = 'none'; document.getElementById('missionEmailSuccess').style.display = 'block'; localStorage.setItem('listenup_email', email); })
-    .catch(function() { document.getElementById('missionEmailForm').style.display = 'none'; document.getElementById('missionEmailSuccess').style.display = 'block'; localStorage.setItem('listenup_email', email); });
+    .then(function() { document.getElementById('missionEmailForm').style.display = 'none'; document.getElementById('missionEmailSuccess').style.display = 'block'; localStorage.setItem('nr_email', email); try { gtag('event', 'email_signup', { method: 'mission_complete_words' }); } catch(_) {} })
+    .catch(function() { document.getElementById('missionEmailForm').style.display = 'none'; document.getElementById('missionEmailSuccess').style.display = 'block'; localStorage.setItem('nr_email', email); });
   return false;
 }
-if (localStorage.getItem('listenup_email')) { var _ec = document.getElementById('missionEmailCta'); if (_ec) _ec.style.display = 'none'; }
+if (localStorage.getItem('nr_email') || localStorage.getItem('listenup_email')) { var _ec = document.getElementById('missionEmailCta'); if (_ec) _ec.style.display = 'none'; }
 
 // ─────────────────────────────────────────
 // SHARE

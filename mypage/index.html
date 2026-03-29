@@ -120,6 +120,25 @@ body {
 
 /* SECTION SEPARATOR */
 .section-sep { height: 1px; background: var(--border); margin: 20px 0; }
+
+/* TOOL SECTIONS */
+.tool-section {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 18px; margin-bottom: 14px;
+}
+.tool-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.tool-icon { font-size: 20px; }
+.tool-name { font-size: 14px; font-weight: 700; }
+.tool-link { margin-left: auto; font-size: 12px; color: var(--primary); text-decoration: none; }
+.tool-stats { display: flex; gap: 8px; margin-bottom: 12px; }
+.tool-stat { flex: 1; background: var(--surface2); border-radius: 8px; padding: 8px; text-align: center; }
+.tool-stat-num { font-size: 18px; font-weight: 800; color: var(--gold); }
+.tool-stat-label { font-size: 10px; color: var(--text2); margin-top: 2px; }
+.tool-no-data { font-size: 12px; color: var(--text2); text-align: center; padding: 12px 0; }
+.section-heading {
+  font-size: 12px; font-weight: 700; color: var(--text2); text-transform: uppercase;
+  letter-spacing: 0.08em; margin: 24px 0 12px;
+}
 </style>
 </head>
 <body>
@@ -149,10 +168,15 @@ body {
 
 <!-- データなし（未登録ユーザー） -->
 <div id="noDataState" style="display:none">
-  <div class="state-icon">🎧</div>
+  <div class="state-icon">📊</div>
   <div class="state-title">まだ学習記録がありません</div>
-  <div class="state-desc">ListenUpでリスニング練習をして、学習を積み上げていきましょう。</div>
-  <a href="/listening/" style="margin-top:8px;background:var(--gold);color:#0f172a;font-weight:800;font-size:14px;padding:13px 28px;border-radius:10px;text-decoration:none;">ListenUpを始める →</a>
+  <div class="state-desc">いずれかのツールで学習を始めると、ここに記録が表示されます。</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:16px;">
+    <a href="/" style="background:var(--gold);color:#0f172a;font-weight:800;font-size:13px;padding:10px 18px;border-radius:10px;text-decoration:none;">🎧 ListenUp</a>
+    <a href="/grammar/" style="background:var(--primary);color:#fff;font-weight:800;font-size:13px;padding:10px 18px;border-radius:10px;text-decoration:none;">📐 GrammarUp</a>
+    <a href="/words/" style="background:#10b981;color:#fff;font-weight:800;font-size:13px;padding:10px 18px;border-radius:10px;text-decoration:none;">📖 WordsUp</a>
+    <a href="/reading/" style="background:#8b5cf6;color:#fff;font-weight:800;font-size:13px;padding:10px 18px;border-radius:10px;text-decoration:none;">🧠 ReadUp</a>
+  </div>
 </div>
 
 <!-- ダッシュボード本体 -->
@@ -198,8 +222,37 @@ body {
       <div class="srs-count-num" id="srsCount">0</div>
       <div class="srs-count-text">問が<br>今日の復習待ちです</div>
     </div>
-    <a class="srs-cta" href="/listening/?mode=revenge">復習モードで練習する →</a>
+    <a class="srs-cta" href="/?mode=revenge">復習モードで練習する →</a>
     <div class="srs-cta-note">間違えた問題を間隔反復で完全攻略</div>
+  </div>
+
+  <div class="section-heading">その他のツール</div>
+
+  <div class="tool-section" id="grammarSection">
+    <div class="tool-header">
+      <span class="tool-icon">📐</span>
+      <span class="tool-name">GrammarUp</span>
+      <a class="tool-link" href="/grammar/">練習する →</a>
+    </div>
+    <div id="grammarContent"><div class="tool-no-data">まだデータがありません</div></div>
+  </div>
+
+  <div class="tool-section" id="wordsSection">
+    <div class="tool-header">
+      <span class="tool-icon">📖</span>
+      <span class="tool-name">WordsUp</span>
+      <a class="tool-link" href="/words/">練習する →</a>
+    </div>
+    <div id="wordsContent"><div class="tool-no-data">まだデータがありません</div></div>
+  </div>
+
+  <div class="tool-section" id="readingSection">
+    <div class="tool-header">
+      <span class="tool-icon">🧠</span>
+      <span class="tool-name">ReadUp</span>
+      <a class="tool-link" href="/reading/">練習する →</a>
+    </div>
+    <div id="readingContent"><div class="tool-no-data">まだデータがありません</div></div>
   </div>
 
 </div>
@@ -251,22 +304,69 @@ function showLogin() {
 function loadDashboard(uid) {
   db.collection('users').doc(uid).get().then(function(doc) {
     document.getElementById('loadingState').style.display = 'none';
-    if (!doc.exists || (doc.data().totalAnswered || 0) === 0) {
+    if (!doc.exists) {
       document.getElementById('noDataState').style.display = 'flex';
       return;
     }
-    renderDashboard(doc.data());
+    const d = doc.data();
+    const hasAny = (d.totalAnswered || 0) > 0 ||
+      (d.grammarup && (d.grammarup.totalAnswered || 0) > 0) ||
+      (d.wordsup && (d.wordsup.totalAnswered || 0) > 0) ||
+      (d.readup && (d.readup.totalAnswered || 0) > 0);
+    if (!hasAny) {
+      document.getElementById('noDataState').style.display = 'flex';
+      return;
+    }
+    renderDashboard(d);
   }).catch(function() {
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('noDataState').style.display  = 'flex';
   });
 }
 
+function renderToolSection(containerId, toolData, axisLabels) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  if (!toolData || (toolData.totalAnswered || 0) === 0) return; // keep default "no data"
+  const tot = toolData.totalAnswered || 0;
+  const cor = toolData.totalCorrect  || 0;
+  const acc = tot > 0 ? Math.round(cor / tot * 100) : 0;
+  const axisStats = toolData.axisStats || {};
+  let html = '<div class="tool-stats">';
+  html += '<div class="tool-stat"><div class="tool-stat-num">' + tot + '</div><div class="tool-stat-label">累計回答</div></div>';
+  html += '<div class="tool-stat"><div class="tool-stat-num">' + acc + '%</div><div class="tool-stat-label">正解率</div></div>';
+  html += '</div>';
+  const axes = Object.keys(axisLabels);
+  const hasAxisData = axes.some(function(ax) { return axisStats[ax] && axisStats[ax].a >= 3; });
+  if (hasAxisData) {
+    html += '<div class="axis-list">';
+    axes.forEach(function(ax) {
+      const s = axisStats[ax];
+      const pct = s && s.a >= 3 ? Math.round(s.c / s.a * 100) : null;
+      const color = pct === null ? '#475569' : pct >= 70 ? '#10b981' : pct >= 50 ? '#f59e0b' : '#ef4444';
+      html += '<div class="axis-row">' +
+        '<span class="axis-name" style="font-size:11px;width:70px">' + axisLabels[ax] + '</span>' +
+        '<div class="axis-bar-wrap"><div class="axis-bar" style="width:' + (pct || 0) + '%;background:' + color + '"></div></div>' +
+        '<span class="axis-pct" style="color:' + color + '">' + (pct !== null ? pct + '%' : '—') + '</span>' +
+        '</div>';
+    });
+    html += '</div>';
+  }
+  el.innerHTML = html;
+}
+
 function renderDashboard(data) {
-  const total     = data.totalAnswered || 0;
-  const correct   = data.totalCorrect  || 0;
-  const axisStats = data.axisStats     || {};
-  const srsItems  = data.srsItems      || {};
+  // Combine totals across all 4 tools
+  const listenTotal   = data.totalAnswered || 0;
+  const listenCorrect = data.totalCorrect  || 0;
+  const grammarD  = data.grammarup || {};
+  const wordsD    = data.wordsup   || {};
+  const readingD  = data.readup    || {};
+
+  const total   = listenTotal + (grammarD.totalAnswered || 0) + (wordsD.totalAnswered || 0) + (readingD.totalAnswered || 0);
+  const correct = listenCorrect + (grammarD.totalCorrect || 0) + (wordsD.totalCorrect || 0) + (readingD.totalCorrect || 0);
+  const axisStats = data.axisStats || {};
+  const srsItems  = data.srsItems  || {};
   const acc       = total > 0 ? Math.round(correct / total * 100) : 0;
 
   // SRS: 今日以前の復習待ち件数
@@ -288,7 +388,7 @@ function renderDashboard(data) {
 
   // Hero
   document.getElementById('heroTitle').textContent = titleObj.label;
-  document.getElementById('heroSub').textContent   = total + '問クリア · 正解率 ' + acc + '%';
+  document.getElementById('heroSub').textContent   = '全ツール合計 ' + total + '問クリア · 正解率 ' + acc + '%';
   const badgesHtml =
     '<span class="hero-badge">🎯 正解 ' + correct + '問</span>' +
     (srsDue > 0 ? '<span class="hero-badge" style="border-color:rgba(251,191,36,0.5);color:#fbbf24;">📌 復習 ' + srsDue + '問</span>' : '') +
@@ -355,6 +455,11 @@ function renderDashboard(data) {
       '</div>';
   }).join('');
   document.getElementById('axisList').innerHTML = axisRows;
+
+  // Render other tool sections
+  renderToolSection('grammarContent', grammarD, { form: '語形変化', vocab: '語彙・語法', logic: '論理・構文', tense: '時制・相', trap: '引っかけ' });
+  renderToolSection('wordsContent',   wordsD,   { meaning: '単語の意味', phrase: '句動詞', idiom: 'イディオム', nuance: 'ニュアンス', context: '文脈推測' });
+  renderToolSection('readingContent', readingD, { main_idea: '主旨', vocab_context: '語彙', inference: '推論', detail: '詳細', tone: 'トーン' });
 
   document.getElementById('dashContent').style.display = 'block';
 }
