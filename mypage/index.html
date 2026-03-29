@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学習ダッシュボード | native-real</title>
+<meta name="robots" content="noindex">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --surface2: #273548;
+  --border: rgba(255,255,255,0.08);
+  --text: #f1f5f9;
+  --text2: rgba(241,245,249,0.6);
+  --gold: #fbbf24;
+  --primary: #3b82f6;
+  --green: #10b981;
+  --red: #ef4444;
+  --radius: 14px;
+}
+body {
+  background: var(--bg); color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  min-height: 100vh; padding-bottom: 40px;
+}
+
+/* HEADER */
+.dash-header {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 16px 20px; display: flex; align-items: center; justify-content: space-between;
+}
+.dash-logo { font-size: 15px; font-weight: 800; color: var(--text); text-decoration: none; }
+.dash-logo span { color: var(--gold); }
+.dash-back { font-size: 13px; color: var(--text2); text-decoration: none; padding: 6px 12px;
+  border: 1px solid var(--border); border-radius: 8px; transition: all 0.15s; }
+.dash-back:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+
+/* LOADING / ERROR */
+#loadingState, #noDataState, #loginState {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 60vh; text-align: center; padding: 40px 20px; gap: 12px;
+}
+.state-icon { font-size: 48px; }
+.state-title { font-size: 20px; font-weight: 800; }
+.state-desc { font-size: 14px; color: var(--text2); line-height: 1.6; max-width: 300px; }
+
+/* LOGIN FORM */
+.login-form { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 300px; margin-top: 8px; }
+.login-input {
+  padding: 12px 16px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; color: var(--text); font-size: 15px; outline: none;
+  transition: border-color 0.15s;
+}
+.login-input:focus { border-color: var(--primary); }
+.login-btn {
+  padding: 13px; background: var(--primary); color: #fff; font-weight: 700;
+  font-size: 14px; border: none; border-radius: 10px; cursor: pointer; transition: opacity 0.15s;
+}
+.login-btn:hover { opacity: 0.88; }
+.login-sent { font-size: 13px; color: var(--green); font-weight: 700; text-align: center; }
+
+/* MAIN DASHBOARD */
+#dashContent { display: none; max-width: 600px; margin: 0 auto; padding: 24px 16px; }
+
+/* USER HEADER */
+.user-hero {
+  background: linear-gradient(135deg, #1e3a5f, #2d5a8e);
+  border-radius: var(--radius); padding: 24px; margin-bottom: 20px; text-align: center;
+}
+.user-hero-label { font-size: 11px; color: rgba(255,255,255,0.6); letter-spacing: 0.08em; margin-bottom: 6px; }
+.user-hero-title { font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 4px; }
+.user-hero-sub { font-size: 13px; color: rgba(255,255,255,0.7); }
+.user-hero-badges { display: flex; justify-content: center; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+.hero-badge {
+  background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+  padding: 4px 12px; border-radius: 20px; font-size: 12px; color: rgba(255,255,255,0.9);
+}
+
+/* STAT CARDS */
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px; }
+.stat-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 12px; text-align: center;
+}
+.stat-num { font-size: 28px; font-weight: 800; color: var(--gold); line-height: 1; }
+.stat-label { font-size: 11px; color: var(--text2); margin-top: 4px; }
+
+/* RADAR CHART */
+.chart-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px; margin-bottom: 20px;
+}
+.card-title {
+  font-size: 13px; font-weight: 700; color: var(--text2);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;
+}
+.chart-wrap { position: relative; max-width: 280px; margin: 0 auto; }
+
+/* WEAK AXIS SPOTLIGHT */
+.axis-list { display: flex; flex-direction: column; gap: 10px; }
+.axis-row { display: flex; align-items: center; gap: 12px; }
+.axis-name { font-size: 13px; font-weight: 600; width: 56px; flex-shrink: 0; }
+.axis-bar-wrap { flex: 1; background: var(--surface2); border-radius: 4px; height: 8px; overflow: hidden; }
+.axis-bar { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+.axis-pct { font-size: 12px; font-weight: 700; width: 36px; text-align: right; flex-shrink: 0; }
+
+/* SRS SECTION */
+.srs-count-wrap { display: flex; align-items: center; gap: 12px; }
+.srs-count-num { font-size: 32px; font-weight: 800; color: var(--gold); }
+.srs-count-text { font-size: 13px; color: var(--text2); line-height: 1.5; }
+.srs-cta {
+  display: block; margin-top: 16px; background: var(--gold); color: #0f172a;
+  font-weight: 800; font-size: 14px; text-align: center; text-decoration: none;
+  padding: 13px; border-radius: 10px; transition: opacity 0.15s;
+}
+.srs-cta:hover { opacity: 0.88; }
+.srs-cta-note { font-size: 11px; color: var(--text2); text-align: center; margin-top: 8px; }
+
+/* SECTION SEPARATOR */
+.section-sep { height: 1px; background: var(--border); margin: 20px 0; }
+</style>
+</head>
+<body>
+
+<header class="dash-header">
+  <a class="dash-logo" href="/"><span>native</span>-real</a>
+  <a class="dash-back" href="/listening/">← 練習に戻る</a>
+</header>
+
+<!-- ローディング中 -->
+<div id="loadingState">
+  <div class="state-icon">⏳</div>
+  <div class="state-title">データを読み込んでいます</div>
+</div>
+
+<!-- このデバイスに学習データなし → メールでログイン -->
+<div id="loginState" style="display:none">
+  <div class="state-icon">📊</div>
+  <div class="state-title">学習ダッシュボード</div>
+  <div class="state-desc">別のデバイスで学習した記録を引き継ぐには、登録済みのメールアドレスを入力してください。</div>
+  <form class="login-form" id="loginForm" onsubmit="return handleLogin(event)">
+    <input class="login-input" type="email" id="loginEmailInput" placeholder="登録したメールアドレス" required>
+    <button class="login-btn" type="submit">記録を引き継ぐ</button>
+  </form>
+  <div id="loginSentMsg" style="display:none" class="login-sent">✅ 確認メールを送りました。メールのリンクをタップしてください。</div>
+</div>
+
+<!-- データなし（未登録ユーザー） -->
+<div id="noDataState" style="display:none">
+  <div class="state-icon">🎧</div>
+  <div class="state-title">まだ学習記録がありません</div>
+  <div class="state-desc">ListenUpでリスニング練習をして、学習を積み上げていきましょう。</div>
+  <a href="/listening/" style="margin-top:8px;background:var(--gold);color:#0f172a;font-weight:800;font-size:14px;padding:13px 28px;border-radius:10px;text-decoration:none;">ListenUpを始める →</a>
+</div>
+
+<!-- ダッシュボード本体 -->
+<div id="dashContent">
+
+  <div class="user-hero">
+    <div class="user-hero-label">YOUR PROGRESS</div>
+    <div class="user-hero-title" id="heroTitle">学習ダッシュボード</div>
+    <div class="user-hero-sub" id="heroSub"></div>
+    <div class="user-hero-badges" id="heroBadges"></div>
+  </div>
+
+  <div class="stat-grid">
+    <div class="stat-card">
+      <div class="stat-num" id="statTotal">—</div>
+      <div class="stat-label">累計回答数</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="statAcc">—</div>
+      <div class="stat-label">正解率</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="statSrs">—</div>
+      <div class="stat-label">復習待ち</div>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <div class="card-title">Axis 別 正解率</div>
+    <div class="chart-wrap">
+      <canvas id="radarChart" width="280" height="280"></canvas>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <div class="card-title">弱点 ランキング</div>
+    <div class="axis-list" id="axisList"></div>
+  </div>
+
+  <div class="chart-card">
+    <div class="card-title">SRS 復習</div>
+    <div class="srs-count-wrap">
+      <div class="srs-count-num" id="srsCount">0</div>
+      <div class="srs-count-text">問が<br>今日の復習待ちです</div>
+    </div>
+    <a class="srs-cta" href="/listening/?mode=revenge">復習モードで練習する →</a>
+    <div class="srs-cta-note">間違えた問題を間隔反復で完全攻略</div>
+  </div>
+
+</div>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<!-- Firebase config (公開クライアントキー、セキュリティはFirestoreルールとHTTPリファラー制限で担保) -->
+<script src="/listening/firebase-config.js"></script>
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<script>
+firebase.initializeApp(firebaseConfig);
+const db   = firebase.firestore();
+const auth = firebase.auth();
+
+const AXIS_LABELS = { speed: '速度', reduction: '音変化', vocab: '語彙', context: '文脈', distractor: '識別' };
+const AXIS_ORDER  = ['speed', 'reduction', 'vocab', 'context', 'distractor'];
+const AXIS_COLORS = ['#f59e0b', '#3b82f6', '#10b981', '#8b5cf6', '#ef4444'];
+
+// メールリンクでのサインイン完了チェック
+if (firebase.auth().isSignInWithEmailLink(window.location.href)) {
+  var email = window.localStorage.getItem('emailForSignIn');
+  if (!email) email = window.prompt('確認のため、登録したメールアドレスを入力してください');
+  firebase.auth().signInWithEmailLink(email, window.location.href)
+    .then(function(result) {
+      window.localStorage.removeItem('emailForSignIn');
+      history.replaceState(null, '', '/mypage/');
+    }).catch(function(err) { console.warn('sign-in error', err); });
+}
+
+auth.onAuthStateChanged(function(user) {
+  if (user) {
+    loadDashboard(user.uid);
+  } else {
+    auth.signInAnonymously().catch(function() {
+      showLogin();
+    });
+  }
+});
+
+function showLogin() {
+  document.getElementById('loadingState').style.display = 'none';
+  document.getElementById('loginState').style.display   = 'flex';
+}
+
+function loadDashboard(uid) {
+  db.collection('users').doc(uid).get().then(function(doc) {
+    document.getElementById('loadingState').style.display = 'none';
+    if (!doc.exists || (doc.data().totalAnswered || 0) === 0) {
+      document.getElementById('noDataState').style.display = 'flex';
+      return;
+    }
+    renderDashboard(doc.data());
+  }).catch(function() {
+    document.getElementById('loadingState').style.display = 'none';
+    document.getElementById('noDataState').style.display  = 'flex';
+  });
+}
+
+function renderDashboard(data) {
+  const total     = data.totalAnswered || 0;
+  const correct   = data.totalCorrect  || 0;
+  const axisStats = data.axisStats     || {};
+  const srsItems  = data.srsItems      || {};
+  const acc       = total > 0 ? Math.round(correct / total * 100) : 0;
+
+  // SRS: 今日以前の復習待ち件数
+  const now = Date.now();
+  const srsDue = Object.values(srsItems).filter(function(item) {
+    return item.nextReview && item.nextReview <= now;
+  }).length;
+
+  // 称号
+  const TITLES = [
+    { min: 0,    label: '🌱 Starter',     color: '#94a3b8' },
+    { min: 50,   label: '🎧 Listener',    color: '#3b82f6' },
+    { min: 200,  label: '⚡ Sharp Ear',   color: '#8b5cf6' },
+    { min: 500,  label: '🎯 Tuned In',    color: '#f59e0b' },
+    { min: 1000, label: '🔥 Sound Hunter',color: '#ef4444' },
+    { min: 3000, label: '👑 Echo Master', color: '#fbbf24' },
+  ];
+  const titleObj = [...TITLES].reverse().find(function(t) { return total >= t.min; }) || TITLES[0];
+
+  // Hero
+  document.getElementById('heroTitle').textContent = titleObj.label;
+  document.getElementById('heroSub').textContent   = total + '問クリア · 正解率 ' + acc + '%';
+  const badgesHtml =
+    '<span class="hero-badge">🎯 正解 ' + correct + '問</span>' +
+    (srsDue > 0 ? '<span class="hero-badge" style="border-color:rgba(251,191,36,0.5);color:#fbbf24;">📌 復習 ' + srsDue + '問</span>' : '') +
+    (data.weakestAxis ? '<span class="hero-badge">⚠️ 弱点: ' + (AXIS_LABELS[data.weakestAxis] || data.weakestAxis) + '</span>' : '');
+  document.getElementById('heroBadges').innerHTML = badgesHtml;
+
+  // Stats
+  document.getElementById('statTotal').textContent = total.toLocaleString();
+  document.getElementById('statAcc').textContent   = acc + '%';
+  document.getElementById('statSrs').textContent   = srsDue;
+
+  // SRS count
+  document.getElementById('srsCount').textContent = srsDue;
+
+  // Radar chart
+  const axisData = AXIS_ORDER.map(function(ax) {
+    const s = axisStats[ax];
+    if (!s || s.a < 1) return null;
+    return Math.round(s.c / s.a * 100);
+  });
+  const hasAxisData = axisData.some(function(v) { return v !== null; });
+  if (hasAxisData) {
+    const filled = axisData.map(function(v) { return v === null ? 0 : v; });
+    new Chart(document.getElementById('radarChart'), {
+      type: 'radar',
+      data: {
+        labels: AXIS_ORDER.map(function(ax) { return AXIS_LABELS[ax]; }),
+        datasets: [{
+          data: filled,
+          backgroundColor: 'rgba(251,191,36,0.15)',
+          borderColor: '#fbbf24',
+          borderWidth: 2,
+          pointBackgroundColor: AXIS_COLORS,
+          pointRadius: 5,
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: { legend: { display: false } },
+        scales: {
+          r: {
+            min: 0, max: 100,
+            ticks: { display: false, stepSize: 25 },
+            grid:       { color: 'rgba(255,255,255,0.08)' },
+            angleLines:  { color: 'rgba(255,255,255,0.08)' },
+            pointLabels: { color: 'rgba(241,245,249,0.8)', font: { size: 13, weight: '700' } }
+          }
+        }
+      }
+    });
+  } else {
+    document.querySelector('.chart-card').style.display = 'none';
+  }
+
+  // Axis bars
+  const axisRows = AXIS_ORDER.map(function(ax, i) {
+    const s = axisStats[ax];
+    const pct = s && s.a >= 1 ? Math.round(s.c / s.a * 100) : null;
+    const color = pct === null ? '#475569' : pct >= 70 ? '#10b981' : pct >= 50 ? '#f59e0b' : '#ef4444';
+    return '<div class="axis-row">' +
+      '<span class="axis-name">' + AXIS_LABELS[ax] + '</span>' +
+      '<div class="axis-bar-wrap"><div class="axis-bar" style="width:' + (pct || 0) + '%;background:' + color + '"></div></div>' +
+      '<span class="axis-pct" style="color:' + color + '">' + (pct !== null ? pct + '%' : '—') + '</span>' +
+      '</div>';
+  }).join('');
+  document.getElementById('axisList').innerHTML = axisRows;
+
+  document.getElementById('dashContent').style.display = 'block';
+}
+
+// 別デバイスからメールでログイン
+function handleLogin(e) {
+  e.preventDefault();
+  const email = document.getElementById('loginEmailInput').value.trim();
+  if (!email) return false;
+
+  // まずFirestoreでemailを持つユーザーを探す（同デバイス外からの引き継ぎ）
+  db.collection('users').where('email', '==', email).limit(1).get()
+    .then(function(snap) {
+      if (!snap.empty) {
+        renderDashboard(snap.docs[0].data());
+        document.getElementById('loginState').style.display = 'none';
+      } else {
+        // メールリンク送信にフォールバック
+        var actionSettings = {
+          url: 'https://native-real.com/mypage/',
+          handleCodeInApp: true
+        };
+        return firebase.auth().sendSignInLinkToEmail(email, actionSettings).then(function() {
+          window.localStorage.setItem('emailForSignIn', email);
+          document.getElementById('loginForm').style.display     = 'none';
+          document.getElementById('loginSentMsg').style.display  = 'block';
+        });
+      }
+    })
+    .catch(function(err) { console.warn('login error', err); });
+  return false;
+}
+</script>
+</body>
+</html>

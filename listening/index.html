@@ -1040,26 +1040,44 @@
 
     /* ── MISSION: ARTICLE LINKS ── */
     .mission-email-cta {
-      background: linear-gradient(135deg, #1e3a5f, #2d5a8e);
-      border-radius: 14px; padding: 20px; margin: 16px 0; text-align: center;
+      background: linear-gradient(135deg, #0f172a, #1e3a5f);
+      border: 1px solid rgba(251,191,36,0.25);
+      border-radius: 16px; padding: 22px 20px; margin: 16px 0; text-align: center;
     }
-    .mission-email-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
-    .mission-email-desc { font-size: 12px; color: rgba(255,255,255,0.85); margin-bottom: 14px; line-height: 1.6; }
+    .email-cta-threat {
+      display: inline-block; background: rgba(251,191,36,0.15); border: 1px solid rgba(251,191,36,0.4);
+      color: #fbbf24; font-size: 11px; font-weight: 700; letter-spacing: 0.05em;
+      padding: 4px 10px; border-radius: 20px; margin-bottom: 14px;
+    }
+    .email-cta-headline {
+      font-size: 17px; font-weight: 800; color: #fff; line-height: 1.4; margin-bottom: 10px;
+    }
+    .email-cta-stats {
+      display: flex; justify-content: center; gap: 20px; margin-bottom: 14px;
+    }
+    .email-cta-stat { text-align: center; }
+    .email-cta-stat-num { display: block; font-size: 26px; font-weight: 800; color: #fbbf24; line-height: 1; }
+    .email-cta-stat-label { font-size: 10px; color: rgba(255,255,255,0.6); margin-top: 2px; }
+    .email-cta-reasons {
+      display: flex; flex-direction: column; gap: 4px; margin-bottom: 16px; text-align: left;
+      max-width: 260px; margin-left: auto; margin-right: auto;
+    }
+    .email-cta-reasons span { font-size: 11px; color: rgba(255,255,255,0.8); }
     .mission-email-form { display: flex; gap: 8px; max-width: 320px; margin: 0 auto; }
     .mission-email-input {
-      flex: 1; padding: 10px 14px; border: none; border-radius: 8px;
+      flex: 1; padding: 11px 14px; border: none; border-radius: 10px;
       font-size: 14px; outline: none; background: #fff; color: #333;
     }
-    .mission-email-input::placeholder { color: #999; }
+    .mission-email-input::placeholder { color: #aaa; }
     .mission-email-btn {
-      padding: 10px 18px; border: none; border-radius: 8px; cursor: pointer;
-      font-size: 13px; font-weight: 700; color: #1e3a5f; background: #fbbf24;
-      white-space: nowrap; transition: filter 0.15s;
+      padding: 11px 16px; border: none; border-radius: 10px; cursor: pointer;
+      font-size: 12px; font-weight: 800; color: #0f172a; background: #fbbf24;
+      white-space: nowrap; transition: filter 0.15s; letter-spacing: -0.02em;
     }
     .mission-email-btn:hover { filter: brightness(1.1); }
-    .mission-email-note { font-size: 10px; color: rgba(255,255,255,0.6); margin-top: 8px; }
-    .mission-email-note a { color: rgba(255,255,255,0.8); }
-    .mission-email-success { display: none; font-size: 14px; color: #fbbf24; font-weight: 700; padding: 12px 0; }
+    .mission-email-note { font-size: 10px; color: rgba(255,255,255,0.45); margin-top: 10px; }
+    .mission-email-note a { color: rgba(255,255,255,0.65); }
+    .mission-email-success { display: none; font-size: 13px; color: #fbbf24; font-weight: 700; padding: 10px 0; line-height: 1.6; }
     .mission-articles {
       border-top: 1px solid var(--border);
       padding-top: 14px; margin: 4px 0 18px; text-align: left;
@@ -2938,14 +2956,20 @@
       </div>
     </div>
     <div class="mission-email-cta" id="missionEmailCta" style="display:none">
-      <div class="mission-email-title">📩 学習記録を保存しませんか？</div>
-      <div class="mission-email-desc">メール登録で学習データをバックアップ。<br>週1回、あなたの弱点に合った学習ヒントもお届けします。</div>
+      <div class="email-cta-threat">⚠️ この記録、消えるかもしれません</div>
+      <div class="email-cta-stats" id="emailCtaStats"></div>
+      <div class="email-cta-headline">メールアドレスで<br>学習記録を永久保存</div>
+      <div class="email-cta-reasons">
+        <span>✓ キャッシュを消しても、機種変しても残る</span>
+        <span>✓ 弱点グラフをいつでも確認できる</span>
+        <span>✓ 復習すべき問題を自動でお知らせ</span>
+      </div>
       <form class="mission-email-form" id="missionEmailForm" onsubmit="return submitEmailForm(event)">
         <input class="mission-email-input" type="email" id="missionEmailInput" placeholder="メールアドレス" required>
-        <button class="mission-email-btn" type="submit">登録</button>
+        <button class="mission-email-btn" type="submit">記録を保存する</button>
       </form>
-      <div class="mission-email-success" id="missionEmailSuccess">✅ 登録完了！学習ヒントをお届けします。</div>
-      <div class="mission-email-note">登録は無料です。いつでも解除できます。<a href="/privacy/">プライバシーポリシー</a></div>
+      <div class="mission-email-success" id="missionEmailSuccess">✅ 保存しました。<br>学習ダッシュボードのURLをメールでお送りします。</div>
+      <div class="mission-email-note">無料・いつでも解除できます。<a href="/privacy/">プライバシーポリシー</a></div>
     </div>
     <div class="mission-articles">
       <div class="mission-articles-label">📖 次に読む</div>
@@ -4328,6 +4352,26 @@ function showMissionComplete() {
 
   // Firestore へ学習データを保存（セッション終了時に1回）
   saveUserToFirestore();
+
+  // メール登録CTAに実績を動的挿入（損失回避を高める）
+  (function() {
+    const p = loadProgress();
+    const total = p.totalAnswered || 0;
+    const acc = total > 0 ? Math.round((p.totalCorrect || 0) / total * 100) : 0;
+    const axisStats = p.axisStats || {};
+    const ranked = Object.entries(axisStats)
+      .filter(([, s]) => s.a >= 3)
+      .sort((a, b) => (a[1].c / a[1].a) - (b[1].c / b[1].a));
+    const axisLabel = { speed: '速度', reduction: '音変化', vocab: '語彙', context: '文脈', distractor: '識別' };
+    const weakLabel = ranked.length > 0 ? (axisLabel[ranked[0][0]] || ranked[0][0]) : null;
+    const el = document.getElementById('emailCtaStats');
+    if (el && total > 0) {
+      el.innerHTML =
+        '<div class="email-cta-stat"><span class="email-cta-stat-num">' + total + '</span><span class="email-cta-stat-label">問 解いた</span></div>' +
+        '<div class="email-cta-stat"><span class="email-cta-stat-num">' + acc + '%</span><span class="email-cta-stat-label">正解率</span></div>' +
+        (weakLabel ? '<div class="email-cta-stat"><span class="email-cta-stat-num" style="font-size:18px">' + weakLabel + '</span><span class="email-cta-stat-label">が弱点</span></div>' : '');
+    }
+  })();
 }
 
 function closeMissionComplete() {
@@ -4345,6 +4389,9 @@ function submitEmailForm(e) {
 
   const ML_GROUP_ID = '183233023152489636';
   const ML_API_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiZmRiMTAzODJiZDVmYzEzZDgxZTVmODUxMDMxY2U1N2I1OTdiMmQ1NmMyNGQxYjZkMzk5N2FhODI4YWQxNzQyYjc3YTI3N2M3NTI1YjI4MGUiLCJpYXQiOjE3NzQ3NDQ3MTAuMTM1MDEzLCJuYmYiOjE3NzQ3NDQ3MTAuMTM1MDE1LCJleHAiOjQ5MzA0MTgzMTAuMTI4Njc5LCJzdWIiOiIyMjQ1MTU5Iiwic2NvcGVzIjpbXX0.d2Zmb-eUHkWvkBHdRFHP7tlfyt9-eJLUhxkrAcmobPT6kiYS6ErwfkDdPA1HUE1OvCZMDRbctuhn1nD5Hkc2-20AVYI85HYeGs2KeCzzzmlzUWXjoLq92yv6XL37BgeDlj9ZYKEMWG7YszNr1V9o4_QIr-tT_5NTVbCFP_HwV0H-dzUCBCUcsdoENt7N97pLA74Y4LLpJsQXS0SrjlQ_QY6tF1MT92jVr4_i-oPZN2_kwvfFJue5Z-_-qfTAGhC83M33FmZs4DJkTOkFkK7jYx1Qfh1mvwy2zgYihm7SulnDUVkLT_N-ZCJEc_vFqcXMGEpafk4xtNBfwnscB0wbM0fI7FoaL6qd_Dkf7UKphHI_HNuzRn8yxSOQWD9ISIGVfhoqmYuKRd1F3zCgAsP6NfYPGUgHPmhqmeiL12megwFgST7VnyAzw36Z4nLPhn_indqQ0PnKmY1fdpml91ez_tQmL-KHBTQbDiKHzQ8ND_FEBTp_ugqX69m-1B1wLrhgoe-xkTVi8ZJaxXPtEao84EW8gaHuep-d5DqBbyeV9mh5ovoJaK_9ZboXzO-OAAekCW1LX06BQPfb25hr7y27t7zDNr3HCkr7m0qBUequMBKsQ7Gwr1pVb2i50Mlk6DPv9QHeyx27EXaoY62yD4ttKLvg41L1gW4vkh_4IWvsA';
+
+  // Firestoreにメールを紐付け（学習履歴の永続化）
+  saveUserToFirestore(email);
 
   fetch('https://connect.mailerlite.com/api/subscribers', {
     method: 'POST',
