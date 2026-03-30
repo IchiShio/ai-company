@@ -1,0 +1,31 @@
+{
+  "tweet_id": "2029489846922981384",
+  "like_count": 135,
+  "created_at": "2026-03-30",
+  "topic": "phonics",
+  "theme": "フォニックスを知らずに英語を学ぶのは楽譜なしで演奏するようなもの",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "type": "comparison_table",
+      "description": "アルファベット26文字の名前読み vs フォニックス音の完全比較表"
+    },
+    {
+      "file": "figure_2.svg",
+      "type": "roadmap",
+      "description": "フォニックス習得3段階ロードマップ（単音→ブレンド→二重母音）"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS_CONDITIONAL",
+    "checked_at": "2026-03-30",
+    "notes": "84%の数字にHanna et al.由来の曖昧性があるが「とされており」で対応済み"
+  },
+  "article": {
+    "file": "article.md",
+    "word_count": 396,
+    "max_word_count": 800
+  },
+  "tags": ["フォニックス", "アルファベット", "発音", "英語学習", "リスニング", "音素"]
+}

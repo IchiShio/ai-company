@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <linearGradient id="redG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+    <linearGradient id="blueG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2"/>
+      <stop offset="100%" style="stop-color:#0d8fd8"/>
+    </linearGradient>
+    <filter id="sh">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG)"/>
+
+  <!-- Title -->
+  <text x="600" y="54" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">
+    「毎日必須」vs「週5設計」— 半年後の継続率
+  </text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">
+    N=100人想定モデル（継続習慣研究の知見をもとにした概念図）
+  </text>
+
+  <!-- Y-axis label -->
+  <text x="42" y="370" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" transform="rotate(-90, 42, 370)">継続中の人数（人）</text>
+
+  <!-- Chart area -->
+  <rect x="100" y="100" width="1050" height="460" rx="12" fill="white" filter="url(#sh)"/>
+
+  <!-- Grid lines -->
+  <line x1="160" y1="130" x2="1110" y2="130" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="160" y1="215" x2="1110" y2="215" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="160" y1="300" x2="1110" y2="300" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="160" y1="385" x2="1110" y2="385" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="160" y1="470" x2="1110" y2="470" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <!-- Y-axis labels -->
+  <text x="148" y="134" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">100</text>
+  <text x="148" y="219" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">75</text>
+  <text x="148" y="304" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">50</text>
+  <text x="148" y="389" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">25</text>
+  <text x="148" y="474" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">0</text>
+
+  <!-- X-axis: months -->
+  <!-- x positions: start=160, 1month=320, 2m=480, 3m=640, 4m=800, 5m=960, 6m=1110 -->
+  <text x="160" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">開始</text>
+  <text x="320" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">1ヶ月</text>
+  <text x="480" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">2ヶ月</text>
+  <text x="640" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">3ヶ月</text>
+  <text x="800" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">4ヶ月</text>
+  <text x="960" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">5ヶ月</text>
+  <text x="1110" y="492" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">6ヶ月</text>
+
+  <!--
+    Y mapping: 100人=y130, 0人=y470. range=340px for 100人
+    1人=3.4px
+    毎日必須: 100→70→45→28→18→12→8  (脱落急速)
+    週5設計: 100→90→82→75→70→66→62 (緩やかに減少)
+  -->
+
+  <!-- Red area (毎日必須) under curve -->
+  <polygon points="160,130 320,232 480,317 640,374 800,409 960,429 1110,443 1110,470 160,470" fill="#e74c3c" opacity="0.08"/>
+
+  <!-- Blue area (週5) under curve -->
+  <polygon points="160,130 320,164 480,191 640,215 800,232 960,245 1110,259 1110,470 160,470" fill="#1DA1F2" opacity="0.08"/>
+
+  <!-- Red line (毎日必須): 100→70→45→28→18→12→8 -->
+  <polyline points="160,130 320,232 480,317 640,374 800,409 960,429 1110,443"
+    fill="none" stroke="#e74c3c" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Blue line (週5設計): 100→90→82→75→70→66→62 -->
+  <polyline points="160,130 320,164 480,191 640,215 800,232 960,245 1110,259"
+    fill="none" stroke="#1DA1F2" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Dots red -->
+  <circle cx="160" cy="130" r="6" fill="#e74c3c"/>
+  <circle cx="320" cy="232" r="6" fill="#e74c3c"/>
+  <circle cx="480" cy="317" r="6" fill="#e74c3c"/>
+  <circle cx="640" cy="374" r="6" fill="#e74c3c"/>
+  <circle cx="800" cy="409" r="6" fill="#e74c3c"/>
+  <circle cx="960" cy="429" r="6" fill="#e74c3c"/>
+  <circle cx="1110" cy="443" r="6" fill="#e74c3c"/>
+
+  <!-- Dots blue -->
+  <circle cx="160" cy="130" r="6" fill="#1DA1F2"/>
+  <circle cx="320" cy="164" r="6" fill="#1DA1F2"/>
+  <circle cx="480" cy="191" r="6" fill="#1DA1F2"/>
+  <circle cx="640" cy="215" r="6" fill="#1DA1F2"/>
+  <circle cx="800" cy="232" r="6" fill="#1DA1F2"/>
+  <circle cx="960" cy="245" r="6" fill="#1DA1F2"/>
+  <circle cx="1110" cy="259" r="6" fill="#1DA1F2"/>
+
+  <!-- Value labels blue -->
+  <text x="1110" y="250" text-anchor="start" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700"> 62人</text>
+  <!-- Value labels red -->
+  <text x="1110" y="460" text-anchor="start" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e74c3c" font-weight="700"> 8人</text>
+
+  <!-- Legend -->
+  <line x1="180" y1="148" x2="220" y2="148" stroke="#e74c3c" stroke-width="3.5"/>
+  <circle cx="200" cy="148" r="5" fill="#e74c3c"/>
+  <text x="228" y="153" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#e74c3c" font-weight="700">毎日必須（サボったらやめてしまう）</text>
+
+  <line x1="540" y1="148" x2="580" y2="148" stroke="#1DA1F2" stroke-width="3.5"/>
+  <circle cx="560" cy="148" r="5" fill="#1DA1F2"/>
+  <text x="588" y="153" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="700">週5設計（休み2日を最初から組み込む）</text>
+
+  <!-- Annotation: cliff drop for red -->
+  <line x1="320" y1="232" x2="380" y2="200" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="382" y="196" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">3日休むと「もういいや」→急落</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="625" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">
+    ※概念図。実際の継続率は個人差があります。
+  </text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">@ichi_eigo</text>
+</svg>

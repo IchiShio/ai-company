@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg2)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    会話シーン別・共感フレーズ使い分けチェックリスト
+  </text>
+  <text x="600" y="80" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" fill="#AAB8C2" text-anchor="middle">
+    どのシーンで何を使う？ ✓ チェックして覚える
+  </text>
+
+  <!-- Header row -->
+  <rect x="40" y="105" width="1120" height="40" rx="8" fill="#1C2938"/>
+  <text x="160" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">シーン</text>
+  <text x="420" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">おすすめフレーズ</text>
+  <text x="680" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">日本語の意味</text>
+  <text x="940" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">温度感</text>
+
+  <!-- Row 1: 仕事で疲れた友人 -->
+  <rect x="40" y="152" width="1120" height="62" rx="6" fill="#0d2540" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="55" y="178" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#1DA1F2">☑</text>
+  <text x="160" y="175" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#C8D8E8" text-anchor="middle">仕事で疲れた</text>
+  <text x="160" y="195" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">友人・同僚</text>
+  <text x="420" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#1DA1F2" text-anchor="middle">I feel you.</text>
+  <text x="680" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">わかる、共感するよ</text>
+  <!-- Thermometer: medium-warm -->
+  <rect x="860" y="166" width="160" height="20" rx="10" fill="#1C2938"/>
+  <rect x="860" y="166" width="112" height="20" rx="10" fill="#1DA1F2" opacity="0.8"/>
+  <text x="1040" y="181" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#1DA1F2">💙 中温</text>
+
+  <!-- Row 2: 失恋・悲しい出来事 -->
+  <rect x="40" y="222" width="1120" height="62" rx="6" fill="#1C2938" stroke="#2D3748" stroke-width="1"/>
+  <text x="55" y="248" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#657786">☐</text>
+  <text x="160" y="245" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#C8D8E8" text-anchor="middle">失恋・辛い出来事</text>
+  <text x="160" y="265" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">親しい友人</text>
+  <text x="420" y="255" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#e08080" text-anchor="middle">That's rough. / I hear you.</text>
+  <text x="680" y="255" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">つらいね / 聞いてるよ</text>
+  <rect x="860" y="236" width="160" height="20" rx="10" fill="#1C2938"/>
+  <rect x="860" y="236" width="148" height="20" rx="10" fill="#e0245e" opacity="0.7"/>
+  <text x="1040" y="251" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#e08080">🔥 高温</text>
+
+  <!-- Row 3: ビジネスメール -->
+  <rect x="40" y="292" width="1120" height="62" rx="6" fill="#1C2938" stroke="#2D3748" stroke-width="1"/>
+  <text x="55" y="318" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#657786">☐</text>
+  <text x="160" y="315" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#C8D8E8" text-anchor="middle">ビジネスメール</text>
+  <text x="160" y="335" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">上司・クライアント</text>
+  <text x="420" y="325" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#AAB8C2" text-anchor="middle">I understand your concern.</text>
+  <text x="680" y="325" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">ご懸念はわかります</text>
+  <rect x="860" y="306" width="160" height="20" rx="10" fill="#1C2938"/>
+  <rect x="860" y="306" width="60" height="20" rx="10" fill="#657786" opacity="0.8"/>
+  <text x="1040" y="321" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786">🧊 低温</text>
+
+  <!-- Row 4: 愚痴を聞く -->
+  <rect x="40" y="362" width="1120" height="62" rx="6" fill="#0d2540" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="55" y="388" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#1DA1F2">☑</text>
+  <text x="160" y="385" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#C8D8E8" text-anchor="middle">愚痴を聞く場面</text>
+  <text x="160" y="405" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">友人・パートナー</text>
+  <text x="420" y="394" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#1DA1F2" text-anchor="middle">I feel you. / I get it.</text>
+  <text x="680" y="394" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">わかる、それな</text>
+  <rect x="860" y="376" width="160" height="20" rx="10" fill="#1C2938"/>
+  <rect x="860" y="376" width="112" height="20" rx="10" fill="#1DA1F2" opacity="0.8"/>
+  <text x="1040" y="391" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#1DA1F2">💙 中温</text>
+
+  <!-- Row 5: 悩みを打ち明けられた -->
+  <rect x="40" y="432" width="1120" height="62" rx="6" fill="#1C2938" stroke="#2D3748" stroke-width="1"/>
+  <text x="55" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#657786">☐</text>
+  <text x="160" y="455" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#C8D8E8" text-anchor="middle">深刻な悩みを相談</text>
+  <text x="160" y="475" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">される場面</text>
+  <text x="420" y="465" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#e08080" text-anchor="middle">I'm so sorry to hear that.</text>
+  <text x="680" y="465" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">それは大変でしたね</text>
+  <rect x="860" y="446" width="160" height="20" rx="10" fill="#1C2938"/>
+  <rect x="860" y="446" width="148" height="20" rx="10" fill="#e0245e" opacity="0.7"/>
+  <text x="1040" y="461" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#e08080">🔥 高温</text>
+
+  <!-- Summary box -->
+  <rect x="40" y="520" width="1120" height="80" rx="12" fill="#0a1628" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="548" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="17" font-weight="700" fill="#1DA1F2" text-anchor="middle">
+    ☑ "I feel you" が最も使いやすい理由
+  </text>
+  <text x="600" y="573" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">
+    スラングではなく、フォーマルでもない「ちょうどいい中間」。日常会話の8割のシーンで自然に使える万能フレーズ。
+  </text>
+  <text x="600" y="592" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">
+    "I understand" より感情が乗り、"That's rough" より使いやすい。
+  </text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

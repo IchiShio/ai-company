@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2a3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="barA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e55a5a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c03030;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="barB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d7ec0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)" />
+
+  <!-- Title -->
+  <text x="600" y="58" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle">1日集中学習 vs 7日間分散学習 ─ 記憶定着率の違い</text>
+  <text x="600" y="88" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786" text-anchor="middle">同じ100単語・同じ総学習時間で比較</text>
+
+  <!-- Chart area -->
+  <!-- Y-axis label -->
+  <text x="60" y="370" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786" text-anchor="middle" transform="rotate(-90, 60, 370)">記憶定着率（%）</text>
+
+  <!-- Y-axis grid lines and labels -->
+  <line x1="120" y1="160" x2="1100" y2="160" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="108" y="164" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">100%</text>
+
+  <line x1="120" y1="240" x2="1100" y2="240" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="108" y="244" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">80%</text>
+
+  <line x1="120" y1="320" x2="1100" y2="320" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="108" y="324" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">60%</text>
+
+  <line x1="120" y1="400" x2="1100" y2="400" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="108" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">40%</text>
+
+  <line x1="120" y1="480" x2="1100" y2="480" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="108" y="484" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">20%</text>
+
+  <line x1="120" y1="560" x2="1100" y2="560" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="108" y="564" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">0%</text>
+
+  <!-- X-axis -->
+  <line x1="120" y1="560" x2="1100" y2="560" stroke="#657786" stroke-width="2"/>
+
+  <!-- X-axis labels: 学習直後, 1日後, 3日後, 7日後, 30日後 -->
+  <text x="220" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#aab4be" text-anchor="middle">学習直後</text>
+  <text x="420" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#aab4be" text-anchor="middle">1日後</text>
+  <text x="620" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#aab4be" text-anchor="middle">3日後</text>
+  <text x="820" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#aab4be" text-anchor="middle">7日後</text>
+  <text x="1020" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#aab4be" text-anchor="middle">30日後</text>
+
+  <!-- 1日集中学習バー（赤） width=80 -->
+  <!-- 直後85% → y=160+15*4=220, h=340-220=..  0%=560, 100%=160, 1%=4px -->
+  <!-- 85%→ 160+15*4... = 560 - 85*4=560-340=220 h=340 -->
+  <rect x="175" y="220" width="80" height="340" fill="url(#barA)" rx="4"/>
+  <!-- 1日後40% → 560-160=400 h=160 y=400 -->
+  <rect x="375" y="400" width="80" height="160" fill="url(#barA)" rx="4"/>
+  <!-- 3日後20% → y=480 h=80 -->
+  <rect x="575" y="480" width="80" height="80" fill="url(#barA)" rx="4"/>
+  <!-- 7日後12% → y=512 h=48 -->
+  <rect x="775" y="512" width="80" height="48" fill="url(#barA)" rx="4"/>
+  <!-- 30日後8% → y=528 h=32 -->
+  <rect x="975" y="528" width="80" height="32" fill="url(#barA)" rx="4"/>
+
+  <!-- 7日間分散学習バー（青） -->
+  <!-- 直後80% → y=240 h=320 -->
+  <rect x="265" y="240" width="80" height="320" fill="url(#barB)" rx="4"/>
+  <!-- 1日後75% → y=260 h=300 -->
+  <rect x="465" y="260" width="80" height="300" fill="url(#barB)" rx="4"/>
+  <!-- 3日後68% → y=288 h=272 -->
+  <rect x="665" y="288" width="80" height="272" fill="url(#barB)" rx="4"/>
+  <!-- 7日後65% → y=300 h=260 -->
+  <rect x="865" y="300" width="80" height="260" fill="url(#barB)" rx="4"/>
+  <!-- 30日後60% → y=320 h=240 -->
+  <rect x="1065" y="320" width="80" height="240" fill="url(#barB)" rx="4" opacity="0.9"/>
+
+  <!-- Value labels on bars -->
+  <text x="215" y="214" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ff8080" text-anchor="middle">85%</text>
+  <text x="415" y="394" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ff8080" text-anchor="middle">40%</text>
+  <text x="615" y="474" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ff8080" text-anchor="middle">20%</text>
+  <text x="815" y="506" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ff8080" text-anchor="middle">12%</text>
+  <text x="1015" y="522" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ff8080" text-anchor="middle">8%</text>
+
+  <text x="305" y="234" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#5bd4ff" text-anchor="middle">80%</text>
+  <text x="505" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#5bd4ff" text-anchor="middle">75%</text>
+  <text x="705" y="282" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#5bd4ff" text-anchor="middle">68%</text>
+  <text x="905" y="294" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#5bd4ff" text-anchor="middle">65%</text>
+  <text x="1105" y="314" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#5bd4ff" text-anchor="middle">60%</text>
+
+  <!-- Legend -->
+  <rect x="340" y="620" width="22" height="22" fill="url(#barA)" rx="3"/>
+  <text x="370" y="637" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#ff8080">1日集中学習（100個/日）</text>
+  <rect x="640" y="620" width="22" height="22" fill="url(#barB)" rx="3"/>
+  <text x="670" y="637" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#5bd4ff">7日間分散学習（10分×7日）</text>
+
+  <!-- Annotation arrow -->
+  <text x="920" y="470" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#f5c518">30日後に7.5倍の差</text>
+  <line x1="960" y1="455" x2="960" y2="330" stroke="#f5c518" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+
+  <!-- Credit -->
+  <text x="1175" y="662" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#14171A">シーン別 謝罪フレーズ 使い分けチェックリスト</text>
+  <text x="600" y="78" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">この場面ならどれを使う？</text>
+
+  <!-- Column headers -->
+  <rect x="60" y="100" width="340" height="40" rx="8" fill="#E1E8ED"/>
+  <text x="230" y="126" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">シーン</text>
+  <rect x="420" y="100" width="340" height="40" rx="8" fill="#1DA1F2" opacity="0.15"/>
+  <text x="590" y="126" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">推奨フレーズ</text>
+  <rect x="780" y="100" width="360" height="40" rx="8" fill="#14171A" opacity="0.08"/>
+  <text x="960" y="126" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">ポイント</text>
+
+  <!-- Row 1 -->
+  <rect x="60" y="152" width="1080" height="72" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="60" y="152" width="8" height="72" rx="4" fill="#AAB8C2"/>
+  <text x="90" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">友人・知人との約束をキャンセル</text>
+  <text x="90" y="200" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">カジュアル・親しい関係</text>
+  <text x="420" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">"I'm so sorry, something came up."</text>
+  <text x="420" y="202" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">Lv.2 で十分。"so" を付けて気持ちを強調</text>
+  <text x="780" y="192" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">気持ちの重さを "so" で表現</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="236" width="1080" height="72" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="60" y="236" width="8" height="72" rx="4" fill="#1DA1F2"/>
+  <text x="90" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">職場での報告・共有が遅れた</text>
+  <text x="90" y="284" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">ビジネス・チームへ</text>
+  <text x="420" y="266" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">"I should have informed you earlier."</text>
+  <text x="420" y="286" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">Lv.3。後悔と責任を同時に伝える最強構文</text>
+  <rect x="780" y="248" width="320" height="48" rx="6" fill="#1DA1F2" opacity="0.1"/>
+  <text x="940" y="270" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#1DA1F2">◎ 最もよく使う場面</text>
+  <text x="940" y="288" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「もっと早く伝えるべきでした」</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="320" width="1080" height="72" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="60" y="320" width="8" height="72" rx="4" fill="#1DA1F2"/>
+  <text x="90" y="348" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">ミーティングに遅刻した</text>
+  <text x="90" y="368" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">職場・クライアント</text>
+  <text x="420" y="348" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">"I apologize for being late."</text>
+  <text x="420" y="368" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">Lv.4。公式場面では "I'm sorry" より明確</text>
+  <text x="780" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">for の後は名詞/動名詞</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="404" width="1080" height="72" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="60" y="404" width="8" height="72" rx="4" fill="#0B7EC8"/>
+  <text x="90" y="432" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">客先・取引先へのミスの謝罪</text>
+  <text x="90" y="452" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">メール・正式な場面</text>
+  <text x="420" y="432" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">"I sincerely apologize for this error."</text>
+  <text x="420" y="452" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">Lv.4。"sincerely" で誠意を強調</text>
+  <text x="780" y="444" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">書面・メールで特に有効</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="488" width="1080" height="72" rx="8" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="60" y="488" width="8" height="72" rx="4" fill="#14171A"/>
+  <text x="90" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">損害・重大ミス・プロジェクト失敗</text>
+  <text x="90" y="536" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">最も深刻な場面</text>
+  <text x="420" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">"I take full responsibility for this."</text>
+  <text x="420" y="536" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">Lv.5。言い訳なしで責任を引き受ける最強の一言</text>
+  <text x="780" y="528" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">謝罪後の行動提示と組み合わせる</text>
+
+  <!-- Bottom tip -->
+  <rect x="60" y="580" width="1080" height="52" rx="10" fill="#1DA1F2"/>
+  <text x="600" y="604" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">今すぐ覚えるなら → "I should have ___." を職場シーンで1回使ってみよう</text>
+  <text x="600" y="624" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#E8F5FD">例：I should have double-checked the document. / I should have reached out sooner.</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

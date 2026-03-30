@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bg6" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg6)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">速度別リスニング練習プログラム</text>
+  <text x="600" y="85" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">0.9倍速 → 1.0倍速 → 1.1倍速 の段階的ステップアップ</text>
+
+  <!-- Step 1: 0.9x -->
+  <rect x="60" y="120" width="330" height="390" rx="14" fill="#132030" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="60" y="120" width="330" height="56" rx="14" fill="#1DA1F2" opacity="0.8"/>
+  <rect x="60" y="158" width="330" height="18" rx="0" fill="#1DA1F2" opacity="0.8"/>
+
+  <!-- Speed badge -->
+  <circle cx="90" cy="148" r="0" fill="none"/>
+  <text x="225" y="153" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">0.9倍速</text>
+  <text x="225" y="172" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c8e8f8">Step 1：慣らし期</text>
+
+  <text x="225" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" font-weight="700" fill="#1DA1F2">STEP 1</text>
+
+  <text x="90" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">期間</text>
+  <text x="185" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">2〜3週間</text>
+  <line x1="80" y1="280" x2="370" y2="280" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="90" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">素材例</text>
+  <text x="185" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">海外ドラマ</text>
+  <text x="185" y="323" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">短めPodcast</text>
+  <line x1="80" y1="335" x2="370" y2="335" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="90" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">時間</text>
+  <text x="185" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">1日15〜20分</text>
+  <line x1="80" y1="370" x2="370" y2="370" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="90" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">目標</text>
+  <text x="185" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">8割以上理解</text>
+
+  <rect x="80" y="420" width="290" height="65" rx="8" fill="#0a1828" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="225" y="443" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">進級の目安</text>
+  <text x="225" y="463" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#CCCCCC">同じ素材を3回聞いて</text>
+  <text x="225" y="479" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#CCCCCC">ほぼ全部わかった ✓</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="410,285 448,270 448,300" fill="#1DA1F2"/>
+  <line x1="390" y1="285" x2="446" y2="285" stroke="#1DA1F2" stroke-width="3"/>
+
+  <!-- Step 2: 1.0x -->
+  <rect x="450" y="120" width="300" height="390" rx="14" fill="#132030" stroke="#1DA1F2" stroke-width="3"/>
+  <rect x="450" y="120" width="300" height="56" rx="14" fill="#1DA1F2"/>
+  <rect x="450" y="158" width="300" height="18" rx="0" fill="#1DA1F2"/>
+  <!-- Highlight ring -->
+  <rect x="446" y="116" width="308" height="398" rx="16" fill="none" stroke="#1DA1F2" stroke-width="2" opacity="0.4"/>
+
+  <text x="600" y="153" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">1.0倍速</text>
+  <text x="600" y="172" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c8e8f8">Step 2：標準速度</text>
+
+  <text x="600" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" font-weight="700" fill="#1DA1F2">STEP 2</text>
+  <!-- Target badge -->
+  <circle cx="720" cy="200" r="22" fill="#f39c12"/>
+  <text x="720" y="196" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">目標</text>
+  <text x="720" y="211" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">ゾーン</text>
+
+  <text x="470" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">期間</text>
+  <text x="555" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">3〜4週間</text>
+  <line x1="462" y1="280" x2="738" y2="280" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="470" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">素材例</text>
+  <text x="555" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">ListenUp</text>
+  <text x="555" y="323" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">NPR shorts</text>
+  <line x1="462" y1="335" x2="738" y2="335" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="470" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">時間</text>
+  <text x="555" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">1日20〜25分</text>
+  <line x1="462" y1="370" x2="738" y2="370" stroke="#1a3050" stroke-width="1"/>
+
+  <text x="470" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">目標</text>
+  <text x="555" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">リアルタイム理解</text>
+
+  <rect x="464" y="420" width="272" height="65" rx="8" fill="#0a1828" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="600" y="443" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">進級の目安</text>
+  <text x="600" y="463" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#CCCCCC">初見の素材でも</text>
+  <text x="600" y="479" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#CCCCCC">7割以上理解できる ✓</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="772,285 810,270 810,300" fill="#1DA1F2"/>
+  <line x1="752" y1="285" x2="808" y2="285" stroke="#1DA1F2" stroke-width="3"/>
+
+  <!-- Step 3: 1.1x+ -->
+  <rect x="820" y="120" width="320" height="390" rx="14" fill="#132030" stroke="#657786" stroke-width="2"/>
+  <rect x="820" y="120" width="320" height="56" rx="14" fill="#657786" opacity="0.7"/>
+  <rect x="820" y="158" width="320" height="18" rx="0" fill="#657786" opacity="0.7"/>
+
+  <text x="980" y="153" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">1.1倍速〜</text>
+  <text x="980" y="172" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#BBBBBB">Step 3：強化期</text>
+
+  <text x="980" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" font-weight="700" fill="#657786">STEP 3</text>
+
+  <text x="840" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">期間</text>
+  <text x="925" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">継続（上限なし）</text>
+  <line x1="832" y1="280" x2="1128" y2="280" stroke="#2a2a3a" stroke-width="1"/>
+
+  <text x="840" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">素材例</text>
+  <text x="925" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">TED / BBC</text>
+  <text x="925" y="323" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">ビジネス英語</text>
+  <line x1="832" y1="335" x2="1128" y2="335" stroke="#2a2a3a" stroke-width="1"/>
+
+  <text x="840" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">時間</text>
+  <text x="925" y="360" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">1日25〜30分</text>
+  <line x1="832" y1="370" x2="1128" y2="370" stroke="#2a2a3a" stroke-width="1"/>
+
+  <text x="840" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">目標</text>
+  <text x="925" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">楽に聞こえる感覚</text>
+
+  <rect x="840" y="420" width="272" height="65" rx="8" fill="#0f0f1a" stroke="#657786" stroke-width="1"/>
+  <text x="976" y="443" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#888888">達成の目安</text>
+  <text x="976" y="463" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">1.1倍速が「普通」に</text>
+  <text x="976" y="479" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">感じられたら完成 ✓</text>
+
+  <!-- Bottom note -->
+  <rect x="100" y="540" width="1000" height="65" rx="12" fill="#0a1020" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">ListenUp なら速度変更しながらネイティブ音声を大量インプット</text>
+  <text x="600" y="587" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">native-real.com — 無料・登録不要で今すぐ始められます</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

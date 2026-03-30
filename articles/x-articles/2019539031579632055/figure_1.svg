@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bg3" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg3)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">英語が「通じる」ための要素：影響度比較</text>
+  <text x="600" y="85" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">発音・語順・強弱 — どれが最も大切か？</text>
+
+  <!-- Bar chart -->
+  <!-- Y axis -->
+  <line x1="140" y1="120" x2="140" y2="480" stroke="#657786" stroke-width="2"/>
+  <!-- X axis -->
+  <line x1="140" y1="480" x2="1060" y2="480" stroke="#657786" stroke-width="2"/>
+
+  <!-- Y axis labels -->
+  <text x="125" y="484" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">0%</text>
+  <text x="125" y="408" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">20%</text>
+  <text x="125" y="336" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">40%</text>
+  <text x="125" y="264" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">60%</text>
+  <text x="125" y="192" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">80%</text>
+  <text x="125" y="125" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">100%</text>
+
+  <!-- Grid lines -->
+  <line x1="140" y1="408" x2="1060" y2="408" stroke="#2a3444" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="336" x2="1060" y2="336" stroke="#2a3444" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="264" x2="1060" y2="264" stroke="#2a3444" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="192" x2="1060" y2="192" stroke="#2a3444" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="120" x2="1060" y2="120" stroke="#2a3444" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Bar 1: 発音 (pronunciation) 35% -->
+  <!-- height = 360 * 0.35 = 126, top = 480 - 126 = 354 -->
+  <rect x="200" y="354" width="160" height="126" rx="8" fill="#657786" opacity="0.85"/>
+  <text x="280" y="344" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#657786">35%</text>
+  <text x="280" y="508" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#CCCCCC">発音</text>
+  <text x="280" y="528" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Pronunciation</text>
+
+  <!-- Bar 2: 語順 (word order) 30% -->
+  <!-- height = 360 * 0.30 = 108, top = 480 - 108 = 372 -->
+  <rect x="440" y="372" width="160" height="108" rx="8" fill="#1DA1F2" opacity="0.55"/>
+  <text x="520" y="362" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#7ec8f0">30%</text>
+  <text x="520" y="508" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#CCCCCC">語順</text>
+  <text x="520" y="528" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Word Order</text>
+
+  <!-- Bar 3: 強弱 (stress) 65% — HIGHLIGHTED -->
+  <!-- height = 360 * 0.65 = 234, top = 480 - 234 = 246 -->
+  <rect x="680" y="246" width="160" height="234" rx="8" fill="#1DA1F2"/>
+  <!-- Glow effect -->
+  <rect x="676" y="242" width="168" height="242" rx="10" fill="none" stroke="#1DA1F2" stroke-width="3" opacity="0.4"/>
+  <text x="760" y="232" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" font-weight="700" fill="#1DA1F2">65%</text>
+  <!-- Star badge -->
+  <circle cx="840" cy="246" r="28" fill="#f39c12"/>
+  <text x="840" y="240" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">最重要</text>
+  <text x="840" y="255" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">ファクター</text>
+  <text x="760" y="508" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#1DA1F2">強弱 / 強調</text>
+  <text x="760" y="528" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#7ec8f0">Stress &amp; Emphasis</text>
+
+  <!-- Note about bar values -->
+  <text x="600" y="610" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">※ 各要素が「伝わりやすさ」に与える相対的影響度の概念値（文献調査ベース）</text>
+
+  <!-- Key insight box -->
+  <rect x="100" y="555" width="500" height="45" rx="10" fill="#132030" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="350" y="578" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">強弱を変えるだけで「通じやすさ」が劇的に変わる</text>
+  <text x="350" y="594" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">発音が多少不完全でも、強調が正しければ伝わる</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

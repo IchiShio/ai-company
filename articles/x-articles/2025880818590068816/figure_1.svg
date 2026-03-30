@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1200" height="100" fill="#1DA1F2"/>
+  <text x="600" y="38" font-size="34" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">忘却曲線と「休んだ日の記憶」</text>
+  <text x="600" y="75" font-size="20" fill="white" text-anchor="middle" dominant-baseline="middle">2日休んでも記憶は急激には失われない</text>
+
+  <!-- Graph area -->
+  <rect x="80" y="120" width="760" height="440" fill="#192734" rx="10"/>
+
+  <!-- Axes -->
+  <line x1="130" y1="510" x2="810" y2="510" stroke="#657786" stroke-width="2"/>
+  <line x1="130" y1="150" x2="130" y2="510" stroke="#657786" stroke-width="2"/>
+
+  <!-- Y axis labels -->
+  <text x="115" y="155" font-size="14" fill="#657786" text-anchor="end">100%</text>
+  <text x="115" y="248" font-size="14" fill="#657786" text-anchor="end">75%</text>
+  <text x="115" y="341" font-size="14" fill="#657786" text-anchor="end">50%</text>
+  <text x="115" y="434" font-size="14" fill="#657786" text-anchor="end">25%</text>
+  <text x="115" y="514" font-size="14" fill="#657786" text-anchor="end">0%</text>
+
+  <!-- X axis labels -->
+  <text x="130" y="535" font-size="14" fill="#657786" text-anchor="middle">0日</text>
+  <text x="250" y="535" font-size="14" fill="#657786" text-anchor="middle">1日</text>
+  <text x="370" y="535" font-size="14" fill="#657786" text-anchor="middle">2日</text>
+  <text x="490" y="535" font-size="14" fill="#657786" text-anchor="middle">3日</text>
+  <text x="610" y="535" font-size="14" fill="#657786" text-anchor="middle">5日</text>
+  <text x="730" y="535" font-size="14" fill="#657786" text-anchor="middle">7日</text>
+  <text x="800" y="535" font-size="14" fill="#657786" text-anchor="middle">→日数</text>
+
+  <!-- Forgetting curve (single study, no review) -->
+  <polyline points="130,155 250,290 370,358 490,400 610,430 730,450" fill="none" stroke="#657786" stroke-width="3" stroke-dasharray="10,5"/>
+
+  <!-- Memory with review curve -->
+  <polyline points="130,155 250,200 370,250 490,220 610,200 730,195" fill="none" stroke="#1DA1F2" stroke-width="4"/>
+
+  <!-- Legend -->
+  <line x1="150" y1="580" x2="200" y2="580" stroke="#657786" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="215" y="585" font-size="15" fill="#657786">復習なし（エビングハウス忘却曲線）</text>
+  <line x1="550" y1="580" x2="600" y2="580" stroke="#1DA1F2" stroke-width="4"/>
+  <text x="615" y="585" font-size="15" fill="#1DA1F2">反復学習あり</text>
+
+  <!-- 2-day marker line -->
+  <line x1="370" y1="150" x2="370" y2="510" stroke="#FFD700" stroke-width="2" stroke-dasharray="6,4"/>
+  <rect x="375" y="320" width="150" height="50" fill="#14171A" rx="6" stroke="#FFD700" stroke-width="1"/>
+  <text x="450" y="340" font-size="13" fill="#FFD700" text-anchor="middle">2日後</text>
+  <text x="450" y="360" font-size="13" fill="#FFD700" text-anchor="middle">急激な消失はない</text>
+
+  <!-- Annotation for sleep consolidation -->
+  <rect x="880" y="140" width="280" height="200" fill="#192734" rx="12" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="1020" y="170" font-size="18" font-weight="bold" fill="#1DA1F2" text-anchor="middle">睡眠の効果</text>
+  <text x="1020" y="205" font-size="15" fill="#E1E8ED" text-anchor="middle">睡眠中に脳が記憶を</text>
+  <text x="1020" y="228" font-size="15" fill="#E1E8ED" text-anchor="middle">再活性化・統合する</text>
+  <text x="1020" y="260" font-size="14" fill="#657786" text-anchor="middle">（記憶固定）</text>
+  <text x="1020" y="290" font-size="13" fill="#657786" text-anchor="middle">Walker, M. (2017)</text>
+  <text x="1020" y="310" font-size="13" fill="#657786" text-anchor="middle">Why We Sleep</text>
+
+  <!-- Credit -->
+  <text x="1165" y="658" font-size="18" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

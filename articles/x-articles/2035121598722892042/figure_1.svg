@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2340;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d7bc9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad1)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="337" x2="1200" y2="337" stroke="#1DA1F2" stroke-opacity="0.08" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="675" stroke="#1DA1F2" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#ffffff">知覚 → 産出の連鎖：聞き分けが発音を変えるメカニズム</text>
+
+  <!-- Step 1: Input -->
+  <rect x="60" y="130" width="200" height="130" rx="16" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="160" y="175" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">STEP 1</text>
+  <text x="160" y="205" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff">音声インプット</text>
+  <text x="160" y="235" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">ネイティブ音声を聞く</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="265" y1="195" x2="325" y2="195" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: Perception -->
+  <rect x="330" y="130" width="200" height="130" rx="16" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="430" y="175" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">STEP 2</text>
+  <text x="430" y="205" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff">知覚トレーニング</text>
+  <text x="430" y="235" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音の違いを聞き分ける</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="535" y1="195" x2="595" y2="195" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 3: Brain Processing -->
+  <rect x="600" y="130" width="200" height="130" rx="16" fill="#1DA1F2" fill-opacity="0.25" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="700" y="175" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">STEP 3</text>
+  <text x="700" y="205" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff">脳内マッピング</text>
+  <text x="700" y="235" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音韻カテゴリを形成</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="805" y1="195" x2="865" y2="195" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 4: Production -->
+  <rect x="870" y="130" width="200" height="130" rx="16" fill="#1DA1F2" fill-opacity="0.35" stroke="#1DA1F2" stroke-width="3"/>
+  <text x="970" y="175" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">STEP 4</text>
+  <text x="970" y="205" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff">発音改善</text>
+  <text x="970" y="235" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">正確な産出が可能に</text>
+
+  <!-- Feedback loop arrow -->
+  <path d="M970 265 Q970 340 700 340 Q430 340 160 340 Q100 340 100 290" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="6,4" fill="none" stroke-opacity="0.5" marker-end="url(#arrow)"/>
+  <text x="600" y="360" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">自己モニタリングフィードバックループ</text>
+
+  <!-- Key mechanism box -->
+  <rect x="60" y="400" width="510" height="190" rx="14" fill="#0d1a2e" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="315" y="432" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2">なぜ「聞き分け」が発音を変えるのか</text>
+  <text x="90" y="462" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#e0e8f0">• 正確な音韻目標（target）が頭の中に形成される</text>
+  <text x="90" y="492" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#e0e8f0">• 自分の発音との差（誤差信号）を脳が検出できる</text>
+  <text x="90" y="522" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#e0e8f0">• 誤差を縮めるよう発音が自動的に調整される</text>
+  <text x="90" y="552" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#e0e8f0">• 目標音が曖昧なままでは発音練習の効率が下がる</text>
+
+  <!-- Minimal pairs example -->
+  <rect x="620" y="400" width="510" height="190" rx="14" fill="#0d1a2e" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="875" y="432" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2">聞き分けトレーニングの実践例</text>
+  <rect x="650" y="450" width="210" height="50" rx="8" fill="#1DA1F2" fill-opacity="0.15"/>
+  <text x="755" y="481" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff">ship  /  sheep</text>
+  <rect x="880" y="450" width="210" height="50" rx="8" fill="#1DA1F2" fill-opacity="0.15"/>
+  <text x="985" y="481" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff">light  /  right</text>
+  <text x="875" y="530" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">最小対（minimal pairs）の聞き比べ</text>
+  <text x="875" y="558" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 違いを認識できるまで繰り返す</text>
+  <text x="875" y="580" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">native-real.com でリスニング練習</text>
+
+  <!-- Credit -->
+  <text x="1180" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

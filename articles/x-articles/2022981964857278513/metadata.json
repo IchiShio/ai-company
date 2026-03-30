@@ -1,0 +1,23 @@
+{
+  "tweet_id": "2022981964857278513",
+  "like_count": 218,
+  "created_at": "2026-03-30",
+  "theme": "シャドーイング3倍効果の手順。「いきなり音声追い」が失敗する理由と正しい速度ビルドアップ。",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "速度ビルドアップのフロー",
+      "description": "スクリプト確認→遅い音読→速度UP→シャドーイングの矢印フロー"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "タイムテーブル",
+      "description": "15分の理想的なシャドーイングセッション配分"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS（3倍の数値表現は記事本文で未使用）",
+  "native_real_link": "/",
+  "word_count": 455,
+  "tags": ["シャドーイング", "スピーキング", "速度ビルドアップ", "英語学習", "発音"]
+}

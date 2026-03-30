@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2340;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="brainGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0" />
+    </radialGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowW" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad3)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="25" font-weight="700" fill="#ffffff">「話す」瞬間に起きる脳内マルチタスク処理</text>
+
+  <!-- Central brain/circle -->
+  <circle cx="600" cy="340" r="130" fill="url(#brainGlow)"/>
+  <circle cx="600" cy="340" r="100" fill="#0d1a2e" stroke="#1DA1F2" stroke-width="2.5" filter="url(#softGlow)"/>
+  <text x="600" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#1DA1F2">口を</text>
+  <text x="600" y="358" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#1DA1F2">動かす</text>
+  <text x="600" y="385" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffffff">フル稼働</text>
+
+  <!-- Module 1: Lexical Search (top left) -->
+  <rect x="70" y="100" width="240" height="130" rx="14" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="190" y="132" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">語彙検索</text>
+  <text x="190" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff">単語を探す</text>
+  <text x="190" y="182" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「この状況に合う動詞は？」</text>
+  <text x="190" y="200" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">語彙力が実戦で鍛えられる</text>
+  <line x1="310" y1="165" x2="490" y2="265" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowW)" stroke-opacity="0.7"/>
+
+  <!-- Module 2: Syntax (top right) -->
+  <rect x="890" y="100" width="240" height="130" rx="14" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="1010" y="132" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">統語処理</text>
+  <text x="1010" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff">語順を組み立てる</text>
+  <text x="1010" y="182" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「動詞はどこに置く？」</text>
+  <text x="1010" y="200" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">文法が自動化される</text>
+  <line x1="890" y1="165" x2="710" y2="265" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowW)" stroke-opacity="0.7"/>
+
+  <!-- Module 3: Phonological encoding (bottom left) -->
+  <rect x="70" y="450" width="240" height="130" rx="14" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="190" y="482" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">音韻エンコード</text>
+  <text x="190" y="508" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff">音を選ぶ</text>
+  <text x="190" y="532" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「発音はどうだったっけ？」</text>
+  <text x="190" y="550" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">発音が実践で定着する</text>
+  <line x1="310" y1="515" x2="490" y2="420" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowW)" stroke-opacity="0.7"/>
+
+  <!-- Module 4: Working memory (bottom right) -->
+  <rect x="890" y="450" width="240" height="130" rx="14" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="1010" y="482" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">ワーキングメモリ</text>
+  <text x="1010" y="508" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff">意図を保持</text>
+  <text x="1010" y="532" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「何を言おうとしてた？」</text>
+  <text x="1010" y="550" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">表現の自動化が進む</text>
+  <line x1="890" y1="515" x2="710" y2="420" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrowW)" stroke-opacity="0.7"/>
+
+  <!-- Desirable difficulties label -->
+  <rect x="390" y="90" width="420" height="52" rx="10" fill="#1DA1F2" fill-opacity="0.12" stroke="#1DA1F2" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="600" y="112" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">「望ましい困難」 desirable difficulties</text>
+  <text x="600" y="132" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">適度な認知負荷が長期記憶の形成を強化する</text>
+
+  <!-- Result arrow -->
+  <rect x="420" y="555" width="360" height="52" rx="10" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="578" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ffffff">4つの処理が同時に活性化 = 定着率UP</text>
+  <text x="600" y="598" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">聞いているだけでは使われない回路が鍛えられる</text>
+
+  <!-- Credit -->
+  <text x="1180" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

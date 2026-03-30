@@ -1,0 +1,24 @@
+{
+  "tweet_id": "2018814252560372171",
+  "like_count": 294,
+  "created_at": "2026-03-30",
+  "topic": "「言いたいことが出てこない」原因は語彙数ではなく「検索速度」。瞬時引き出しトレーニング法",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "反応速度グラフ",
+      "description": "単語カテゴリ別・接触回数別の反応時間概念グラフ"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "タイムライン",
+      "description": "1日10回×7日で自動引き出し回路を作る接触回数アップ手順"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "article_char_count": 381,
+  "generated_by": "Claude Sonnet 4.6",
+  "generated_at": "2026-03-30"
+}

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgG2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14171A" />
+      <stop offset="100%" style="stop-color:#1a2030" />
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#17BF63"/>
+    </marker>
+    <marker id="arrowYellow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFAD1F"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG2)" />
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">趣味の話を広げる会話フロー</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">"I'm so into it lately." からの会話の展開パターン</text>
+
+  <!-- CENTER: Trigger phrase -->
+  <rect x="380" y="110" width="440" height="80" rx="20" fill="#1DA1F2" opacity="0.95"/>
+  <text x="600" y="143" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#FFFFFF">"I'm so into [topic] lately."</text>
+  <text x="600" y="168" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff">最近〇〇にハマってる（会話スタート）</text>
+
+  <!-- Arrows from trigger -->
+  <!-- Left branch -->
+  <line x1="440" y1="190" x2="220" y2="270" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <!-- Center branch -->
+  <line x1="600" y1="190" x2="600" y2="270" stroke="#17BF63" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <!-- Right branch -->
+  <line x1="760" y1="190" x2="980" y2="270" stroke="#FFAD1F" stroke-width="2" marker-end="url(#arrowYellow)"/>
+
+  <!-- Reaction 1: 共感 -->
+  <rect x="60" y="275" width="320" height="75" rx="14" fill="#1e2736" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="80" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="bold">相手の反応①：共感</text>
+  <text x="80" y="321" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">"Oh really? Me too!"</text>
+  <text x="80" y="339" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 共通点が生まれ盛り上がる</text>
+
+  <!-- Reaction 2: 質問 -->
+  <rect x="440" y="275" width="320" height="75" rx="14" fill="#1e2736" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="460" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#17BF63" font-weight="bold">相手の反応②：質問</text>
+  <text x="460" y="321" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">"What's it about?"</text>
+  <text x="460" y="339" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 自分が話し手になれる</text>
+
+  <!-- Reaction 3: 掘り下げ -->
+  <rect x="820" y="275" width="320" height="75" rx="14" fill="#1e2736" stroke="#FFAD1F" stroke-width="1.5"/>
+  <text x="840" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFAD1F" font-weight="bold">相手の反応③：掘り下げ</text>
+  <text x="840" y="321" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">"How did you get into it?"</text>
+  <text x="840" y="339" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ ストーリーが話せる</text>
+
+  <!-- Arrows to next layer -->
+  <line x1="220" y1="350" x2="220" y2="420" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <line x1="600" y1="350" x2="600" y2="420" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowGreen)"/>
+  <line x1="980" y1="350" x2="980" y2="420" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowYellow)"/>
+
+  <!-- Follow-up 1 -->
+  <rect x="60" y="425" width="320" height="90" rx="14" fill="#141c26"/>
+  <text x="80" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">あなたの返し</text>
+  <text x="80" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">"Yeah! I just can't stop</text>
+  <text x="80" y="487" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF"> watching it."</text>
+  <text x="80" y="507" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">やめられない・止まらない感</text>
+
+  <!-- Follow-up 2 -->
+  <rect x="440" y="425" width="320" height="90" rx="14" fill="#141c26"/>
+  <text x="460" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">あなたの返し</text>
+  <text x="460" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">"It's a cooking show</text>
+  <text x="460" y="487" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF"> from Japan."</text>
+  <text x="460" y="507" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">シンプルな1文で説明する</text>
+
+  <!-- Follow-up 3 -->
+  <rect x="820" y="425" width="320" height="90" rx="14" fill="#141c26"/>
+  <text x="840" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">あなたの返し</text>
+  <text x="840" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">"My friend recommended it</text>
+  <text x="840" y="487" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF"> and I got hooked."</text>
+  <text x="840" y="507" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">きっかけストーリーで深める</text>
+
+  <!-- Bottom: 合流 → 話が続くゾーン -->
+  <line x1="220" y1="515" x2="600" y2="570" stroke="#657786" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="600" y1="515" x2="600" y2="570" stroke="#657786" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+  <line x1="980" y1="515" x2="600" y2="570" stroke="#657786" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+
+  <rect x="380" y="572" width="440" height="68" rx="16" fill="#1DA1F2" opacity="0.15"/>
+  <rect x="380" y="572" width="440" height="3" rx="2" fill="#1DA1F2"/>
+  <text x="600" y="602" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#1DA1F2">会話が自然に続くゾーン</text>
+  <text x="600" y="626" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">「ハマってる」の一言が会話全体を動かす</text>
+
+  <!-- Credit -->
+  <text x="1170" y="662" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

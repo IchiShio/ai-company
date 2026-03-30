@@ -1,0 +1,29 @@
+{
+  "post_id": "2032388558145949823",
+  "likes": 43,
+  "theme": "チャンク読みで英語の読書速度を2倍にする",
+  "article_topic": "語のかたまりで処理する脳の使い方",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "1語ずつ読み vs チャンク読みの視線移動比較図",
+      "dimensions": "1200x675"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "主要チャンクパターン一覧（前置詞句/動詞句/接続詞句）",
+      "dimensions": "1200x675"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_result": "PASS",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo"
+}

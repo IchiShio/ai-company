@@ -1,0 +1,29 @@
+{
+  "post_id": "2032026311078883805",
+  "likes": 42,
+  "theme": "録音なしのシャドーイングは伸びない",
+  "article_topic": "自己フィードバックで発音を客観視する方法",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "録音なし vs 録音あり シャドーイングの発音改善曲線",
+      "dimensions": "1200x675"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "録音→比較→修正のフィードバックサイクル",
+      "dimensions": "1200x675"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_result": "PASS",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo"
+}

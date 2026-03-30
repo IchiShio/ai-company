@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">翻訳グセを抜く音読プログラム（10分/日）</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">毎日10分を4つのフェーズに分けて実践する実践メソッド</text>
+
+  <!-- ===== PHASE BOXES ===== -->
+  <!-- Phase 1 -->
+  <rect x="60" y="108" width="250" height="430" rx="14" fill="white" filter="url(#shadow)"/>
+  <rect x="60" y="108" width="250" height="62" rx="14" fill="#1DA1F2"/>
+  <rect x="60" y="148" width="250" height="22" fill="#1DA1F2"/>
+  <text x="185" y="135" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aadcf8" font-weight="600">PHASE 1  / 2分</text>
+  <text x="185" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="800" fill="white">センテンス認識</text>
+
+  <text x="185" y="204" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="38" fill="#1DA1F2">👁</text>
+  <text x="185" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#14171A">語順のまま読む</text>
+  <line x1="90" y1="260" x2="290" y2="260" stroke="#e8e8e8" stroke-width="1"/>
+  <text x="185" y="282" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">英文を左から右へ</text>
+  <text x="185" y="300" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">日本語に変換しない</text>
+  <text x="185" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">単語のイメージで理解</text>
+  <line x1="90" y1="332" x2="290" y2="332" stroke="#e8e8e8" stroke-width="1"/>
+  <rect x="90" y="346" width="170" height="30" rx="6" fill="#e8f4fd"/>
+  <text x="175" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2" font-weight="700">例: 教科書1段落</text>
+
+  <text x="185" y="418" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">翻訳したくなる衝動を</text>
+  <text x="185" y="436" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">グッと我慢するのが訓練</text>
+
+  <!-- Phase 2 -->
+  <rect x="336" y="108" width="250" height="430" rx="14" fill="white" filter="url(#shadow)"/>
+  <rect x="336" y="108" width="250" height="62" rx="14" fill="#0d7fc0"/>
+  <rect x="336" y="148" width="250" height="22" fill="#0d7fc0"/>
+  <text x="461" y="135" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aadcf8" font-weight="600">PHASE 2  / 3分</text>
+  <text x="461" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="800" fill="white">シャドーイング</text>
+
+  <text x="461" y="204" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="38" fill="#0d7fc0">🔊</text>
+  <text x="461" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#14171A">音声に声を重ねる</text>
+  <line x1="366" y1="260" x2="566" y2="260" stroke="#e8e8e8" stroke-width="1"/>
+  <text x="461" y="282" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">ネイティブ音声を聞きながら</text>
+  <text x="461" y="300" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">0.5秒遅れて追いかけて発声</text>
+  <text x="461" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">意味を考える余裕をなくす</text>
+  <line x1="366" y1="332" x2="566" y2="332" stroke="#e8e8e8" stroke-width="1"/>
+  <rect x="366" y="346" width="170" height="30" rx="6" fill="#e8f4fd"/>
+  <text x="451" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#0d7fc0" font-weight="700">例: 同じ段落を音声付き</text>
+
+  <text x="461" y="418" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">翻訳する「時間的余裕」を</text>
+  <text x="461" y="436" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">意図的に奪う訓練</text>
+
+  <!-- Phase 3 -->
+  <rect x="612" y="108" width="250" height="430" rx="14" fill="white" filter="url(#shadow)"/>
+  <rect x="612" y="108" width="250" height="62" rx="14" fill="#14171A"/>
+  <rect x="612" y="148" width="250" height="22" fill="#14171A"/>
+  <text x="737" y="135" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" font-weight="600">PHASE 3  / 3分</text>
+  <text x="737" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="800" fill="white">リプロダクション</text>
+
+  <text x="737" y="204" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="38" fill="#14171A">🗣</text>
+  <text x="737" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#14171A">テキストを見ずに再現</text>
+  <line x1="642" y1="260" x2="842" y2="260" stroke="#e8e8e8" stroke-width="1"/>
+  <text x="737" y="282" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音読したフレーズを</text>
+  <text x="737" y="300" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">テキスト不要で声に出す</text>
+  <text x="737" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">記憶ではなく感覚で出す</text>
+  <line x1="642" y1="332" x2="842" y2="332" stroke="#e8e8e8" stroke-width="1"/>
+  <rect x="642" y="346" width="185" height="30" rx="6" fill="#f0f0f0"/>
+  <text x="734" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#14171A" font-weight="700">例: 本を閉じて言ってみる</text>
+
+  <text x="737" y="418" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「英語として保存する」</text>
+  <text x="737" y="436" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">感覚を育てる</text>
+
+  <!-- Phase 4 -->
+  <rect x="888" y="108" width="250" height="430" rx="14" fill="white" filter="url(#shadow)"/>
+  <rect x="888" y="108" width="250" height="62" rx="14" fill="#ff6b6b"/>
+  <rect x="888" y="148" width="250" height="22" fill="#ff6b6b"/>
+  <text x="1013" y="135" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffcccc" font-weight="600">PHASE 4  / 2分</text>
+  <text x="1013" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="800" fill="white">アウトプット確認</text>
+
+  <text x="1013" y="204" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="38" fill="#ff6b6b">✍</text>
+  <text x="1013" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#14171A">自分の言葉で書き出す</text>
+  <line x1="918" y1="260" x2="1118" y2="260" stroke="#e8e8e8" stroke-width="1"/>
+  <text x="1013" y="282" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">その日の内容を</text>
+  <text x="1013" y="300" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">3文以内で英語でまとめる</text>
+  <text x="1013" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">辞書なし・翻訳なし</text>
+  <line x1="918" y1="332" x2="1118" y2="332" stroke="#e8e8e8" stroke-width="1"/>
+  <rect x="918" y="346" width="175" height="30" rx="6" fill="#fff0f0"/>
+  <text x="1005" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#c0392b" font-weight="700">例: ノートに3センテンス</text>
+
+  <text x="1013" y="418" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「英語脳で動いた証拠」を</text>
+  <text x="1013" y="436" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">毎日積み上げる</text>
+
+  <!-- Flow arrows between phases -->
+  <polygon points="306,322 322,322 322,316 338,324 322,332 322,326 306,326" fill="#657786"/>
+  <polygon points="582,322 598,322 598,316 614,324 598,332 598,326 582,326" fill="#657786"/>
+  <polygon points="858,322 874,322 874,316 890,324 874,332 874,326 858,326" fill="#657786"/>
+
+  <!-- Bottom progress bar -->
+  <rect x="60" y="556" width="1080" height="70" rx="12" fill="#14171A" filter="url(#shadow)"/>
+  <text x="600" y="582" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="white">30日継続で翻訳グセが抜け始め、90日で英語回路が定着する</text>
+
+  <!-- Week markers -->
+  <rect x="90" y="592" width="200" height="22" rx="4" fill="#1DA1F2" fill-opacity="0.6"/>
+  <text x="190" y="608" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="white">1〜30日：まず「続ける」</text>
+
+  <rect x="310" y="592" width="200" height="22" rx="4" fill="#1DA1F2" fill-opacity="0.8"/>
+  <text x="410" y="608" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="white">31〜60日：感覚が変わる</text>
+
+  <rect x="530" y="592" width="200" height="22" rx="4" fill="#1DA1F2"/>
+  <text x="630" y="608" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="white">61〜90日：回路が太くなる</text>
+
+  <rect x="750" y="592" width="300" height="22" rx="4" fill="#ff6b6b"/>
+  <text x="900" y="608" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="white">90日〜：英語で考えることが自然になる</text>
+
+  <!-- Credit -->
+  <text x="1180" y="668" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">@ichi_eigo</text>
+</svg>

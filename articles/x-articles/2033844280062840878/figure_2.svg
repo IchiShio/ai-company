@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <!-- Arrow marker -->
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-size="25" font-weight="bold" fill="#FFFFFF">処理速度向上プログラム</text>
+  <text x="600" y="78" text-anchor="middle" font-size="16" fill="#657786">音読 → 速音読 → シャドーイング　3段階ステップ</text>
+
+  <!-- Timeline arrow (horizontal) -->
+  <line x1="100" y1="340" x2="1100" y2="340" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="100" y="365" font-size="13" fill="#657786">初日</text>
+  <text x="560" y="365" text-anchor="middle" font-size="13" fill="#657786">2〜4週間後</text>
+  <text x="1060" y="365" text-anchor="end" font-size="13" fill="#657786">1〜3ヶ月後</text>
+
+  <!-- STEP 1: 音読 -->
+  <rect x="80" y="130" width="310" height="195" rx="12" fill="#1DA1F2" fill-opacity="0.18" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="235" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#1DA1F2">STEP 1 音読</text>
+  <text x="235" y="184" text-anchor="middle" font-size="13" fill="#657786">（Oral Reading）</text>
+  <!-- Bullet points -->
+  <text x="105" y="210" font-size="14" fill="#FFFFFF">・テキストを見ながら声に出す</text>
+  <text x="105" y="232" font-size="14" fill="#FFFFFF">・正確な発音で1文ずつ確認</text>
+  <text x="105" y="254" font-size="14" fill="#FFFFFF">・意味を確認しながら読む</text>
+  <!-- Goal -->
+  <rect x="105" y="270" width="255" height="40" rx="6" fill="#1DA1F2" fill-opacity="0.3"/>
+  <text x="232" y="285" text-anchor="middle" font-size="12" fill="#1DA1F2" font-weight="bold">目標: 正確な音とリズムを</text>
+  <text x="232" y="302" text-anchor="middle" font-size="12" fill="#1DA1F2" font-weight="bold">インプット</text>
+  <!-- Time -->
+  <text x="235" y="342" text-anchor="middle" font-size="13" fill="#657786">1日 10〜15分 × 2週間</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="400" y1="230" x2="455" y2="230" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="428" y="220" text-anchor="middle" font-size="11" fill="#657786">慣れたら</text>
+
+  <!-- STEP 2: 速音読 -->
+  <rect x="460" y="130" width="310" height="195" rx="12" fill="#F59E0B" fill-opacity="0.18" stroke="#F59E0B" stroke-width="2.5"/>
+  <text x="615" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#F59E0B">STEP 2 速音読</text>
+  <text x="615" y="184" text-anchor="middle" font-size="13" fill="#657786">（Speed Reading Aloud）</text>
+  <text x="485" y="210" font-size="14" fill="#FFFFFF">・同じ文を限界速度で読む</text>
+  <text x="485" y="232" font-size="14" fill="#FFFFFF">・脳の処理速度そのものを鍛える</text>
+  <text x="485" y="254" font-size="14" fill="#FFFFFF">・1文をタイム測定して改善</text>
+  <rect x="485" y="270" width="255" height="40" rx="6" fill="#F59E0B" fill-opacity="0.3"/>
+  <text x="612" y="285" text-anchor="middle" font-size="12" fill="#F59E0B" font-weight="bold">目標: 自然な英語速度（約</text>
+  <text x="612" y="302" text-anchor="middle" font-size="12" fill="#F59E0B" font-weight="bold">150語/分）に近づける</text>
+  <text x="615" y="342" text-anchor="middle" font-size="13" fill="#657786">1日 10〜15分 × 2〜4週間</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="780" y1="230" x2="835" y2="230" stroke="#F59E0B" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="808" y="220" text-anchor="middle" font-size="11" fill="#657786">定着後</text>
+
+  <!-- STEP 3: シャドーイング -->
+  <rect x="840" y="130" width="310" height="195" rx="12" fill="#10B981" fill-opacity="0.18" stroke="#10B981" stroke-width="2.5"/>
+  <text x="995" y="162" text-anchor="middle" font-size="20" font-weight="bold" fill="#10B981">STEP 3 シャドーイング</text>
+  <text x="995" y="184" text-anchor="middle" font-size="13" fill="#657786">（Shadowing）</text>
+  <text x="865" y="210" font-size="14" fill="#FFFFFF">・音声を聞きながら直後に復唱</text>
+  <text x="865" y="232" font-size="14" fill="#FFFFFF">・テキストなしでも追いかける</text>
+  <text x="865" y="254" font-size="14" fill="#FFFFFF">・リアルタイム処理を完成させる</text>
+  <rect x="865" y="270" width="255" height="40" rx="6" fill="#10B981" fill-opacity="0.3"/>
+  <text x="992" y="285" text-anchor="middle" font-size="12" fill="#10B981" font-weight="bold">目標: 0.5秒遅れで</text>
+  <text x="992" y="302" text-anchor="middle" font-size="12" fill="#10B981" font-weight="bold">ネイティブ音声を追随</text>
+  <text x="995" y="342" text-anchor="middle" font-size="13" fill="#657786">1日 10〜15分 × 継続</text>
+
+  <!-- Result boxes -->
+  <rect x="80" y="390" width="310" height="60" rx="8" fill="#1DA1F2" fill-opacity="0.1" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="235" y="415" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">効果: 発音の安定</text>
+  <text x="235" y="436" text-anchor="middle" font-size="13" fill="#FFFFFF">文字と音の接続が強化される</text>
+
+  <rect x="460" y="390" width="310" height="60" rx="8" fill="#F59E0B" fill-opacity="0.1" stroke="#F59E0B" stroke-width="1"/>
+  <text x="615" y="415" text-anchor="middle" font-size="14" fill="#F59E0B" font-weight="bold">効果: 読解スピードUP</text>
+  <text x="615" y="436" text-anchor="middle" font-size="13" fill="#FFFFFF">TOEICで時間切れが激減する</text>
+
+  <rect x="840" y="390" width="310" height="60" rx="8" fill="#10B981" fill-opacity="0.1" stroke="#10B981" stroke-width="1"/>
+  <text x="995" y="415" text-anchor="middle" font-size="14" fill="#10B981" font-weight="bold">効果: 聴解力が飛躍</text>
+  <text x="995" y="436" text-anchor="middle" font-size="13" fill="#FFFFFF">Part 3/4で余裕が生まれる</text>
+
+  <!-- TOEIC Score progress -->
+  <rect x="200" y="475" width="800" height="90" rx="10" fill="#FFFFFF" fill-opacity="0.05" stroke="#657786" stroke-width="1"/>
+  <text x="600" y="500" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">期待されるTOEICスコア変化</text>
+  <!-- Progress bar -->
+  <rect x="230" y="514" width="740" height="20" rx="10" fill="#1D2D3A"/>
+  <rect x="230" y="514" width="148" height="20" rx="10" fill="#1DA1F2"/>
+  <rect x="378" y="514" width="185" height="20" rx="10" fill="#F59E0B"/>
+  <rect x="563" y="514" width="222" height="20" rx="10" fill="#10B981"/>
+  <text x="304" y="526" text-anchor="middle" font-size="11" fill="#FFFFFF" font-weight="bold">〜600</text>
+  <text x="470" y="526" text-anchor="middle" font-size="11" fill="#14171A" font-weight="bold">600〜730</text>
+  <text x="674" y="526" text-anchor="middle" font-size="11" fill="#14171A" font-weight="bold">730〜900+</text>
+  <text x="230" y="550" font-size="11" fill="#657786">語彙・文法期</text>
+  <text x="378" y="550" font-size="11" fill="#657786">速音読が突破口</text>
+  <text x="563" y="550" font-size="11" fill="#657786">シャドーイングで完成</text>
+
+  <!-- CTA -->
+  <text x="600" y="610" text-anchor="middle" font-size="14" fill="#1DA1F2">▶ native-real.com でリスニング処理速度を毎日トレーニング</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" font-size="13" fill="#657786">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="pianoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0c040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#c8980a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="engGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d5fa0;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="lineglow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg6)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">ピアノ習得曲線 → 英語習得への転用</text>
+  <line x1="180" y1="62" x2="1020" y2="62" stroke="#1DA1F2" stroke-width="1.5" opacity="0.4"/>
+  <text x="600" y="88" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">「才能がなくても毎日弾けば弾ける曲は増える」——ピアノと英語の習得曲線は同じ形をしている</text>
+
+  <!-- Graph area -->
+  <!-- Axes -->
+  <line x1="120" y1="560" x2="1100" y2="560" stroke="#657786" stroke-width="1.5"/>
+  <polygon points="1100,560 1088,554 1088,566" fill="#657786"/>
+  <line x1="120" y1="560" x2="120" y2="100" stroke="#657786" stroke-width="1.5"/>
+  <polygon points="120,100 114,112 126,112" fill="#657786"/>
+
+  <!-- Axis labels -->
+  <text x="610" y="598" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle">練習量（累積時間）</text>
+  <text x="600" y="618" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#444" text-anchor="middle">0h → 100h → 300h → 1,000h → 3,000h+</text>
+  <text x="50" y="340" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle" transform="rotate(-90,50,340)">習得レベル</text>
+
+  <!-- Y axis ticks -->
+  <line x1="115" y1="460" x2="125" y2="460" stroke="#657786" stroke-width="1"/>
+  <text x="108" y="464" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="end">初級</text>
+  <line x1="115" y1="340" x2="125" y2="340" stroke="#657786" stroke-width="1"/>
+  <text x="108" y="344" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="end">中級</text>
+  <line x1="115" y1="200" x2="125" y2="200" stroke="#657786" stroke-width="1"/>
+  <text x="108" y="204" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="end">上級</text>
+
+  <!-- X axis ticks -->
+  <line x1="280" y1="555" x2="280" y2="565" stroke="#657786" stroke-width="1"/>
+  <text x="280" y="580" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">100h</text>
+  <line x1="500" y1="555" x2="500" y2="565" stroke="#657786" stroke-width="1"/>
+  <text x="500" y="580" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">300h</text>
+  <line x1="740" y1="555" x2="740" y2="565" stroke="#657786" stroke-width="1"/>
+  <text x="740" y="580" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">1,000h</text>
+  <line x1="960" y1="555" x2="960" y2="565" stroke="#657786" stroke-width="1"/>
+  <text x="960" y="580" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">3,000h+</text>
+
+  <!-- Grid lines -->
+  <line x1="120" y1="460" x2="1090" y2="460" stroke="#657786" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.25"/>
+  <line x1="120" y1="340" x2="1090" y2="340" stroke="#657786" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.25"/>
+  <line x1="120" y1="200" x2="1090" y2="200" stroke="#657786" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.25"/>
+  <line x1="280" y1="100" x2="280" y2="560" stroke="#657786" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.2"/>
+  <line x1="500" y1="100" x2="500" y2="560" stroke="#657786" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.2"/>
+  <line x1="740" y1="100" x2="740" y2="560" stroke="#657786" stroke-width="0.5" stroke-dasharray="4,6" opacity="0.2"/>
+
+  <!-- Piano curve (gold) - log curve -->
+  <path d="M 120,556 C 200,540 260,500 340,460 C 420,420 470,380 540,340 C 620,295 680,250 760,210 C 840,170 900,148 980,132 C 1020,124 1060,118 1090,114"
+        stroke="#f0c040" stroke-width="3.5" fill="none" filter="url(#lineglow)" opacity="0.9"/>
+
+  <!-- English curve (blue, slightly behind but same shape) -->
+  <path d="M 120,558 C 190,546 250,510 330,472 C 410,432 462,392 532,354 C 610,312 672,268 752,228 C 832,188 892,165 972,148 C 1012,140 1052,133 1090,128"
+        stroke="#1DA1F2" stroke-width="3.5" fill="none" filter="url(#lineglow)" opacity="0.9" stroke-dasharray="12,5"/>
+
+  <!-- Legend -->
+  <line x1="700" y1="135" x2="750" y2="135" stroke="#f0c040" stroke-width="3.5"/>
+  <text x="758" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f0c040">ピアノ習得曲線</text>
+  <line x1="700" y1="162" x2="750" y2="162" stroke="#1DA1F2" stroke-width="3.5" stroke-dasharray="10,4"/>
+  <text x="758" y="167" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">英語習得曲線（推定）</text>
+
+  <!-- Key annotations -->
+  <!-- 100h milestone -->
+  <circle cx="280" cy="460" r="7" fill="#f0c040" opacity="0.9"/>
+  <line x1="280" y1="453" x2="310" y2="420" stroke="#f0c040" stroke-width="1" opacity="0.6"/>
+  <rect x="312" y="402" width="180" height="36" rx="6" fill="#1a1600" stroke="#f0c040" stroke-width="1" opacity="0.8"/>
+  <text x="402" y="417" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f0c040" text-anchor="middle">簡単な曲が弾ける</text>
+  <text x="402" y="432" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">= 日常会話の入口</text>
+
+  <!-- 1000h milestone -->
+  <circle cx="740" cy="210" r="7" fill="#f0c040" opacity="0.9"/>
+  <line x1="740" y1="203" x2="710" y2="165" stroke="#f0c040" stroke-width="1" opacity="0.6"/>
+  <rect x="540" y="146" width="165" height="36" rx="6" fill="#1a1600" stroke="#f0c040" stroke-width="1" opacity="0.8"/>
+  <text x="622" y="161" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f0c040" text-anchor="middle">中級曲が弾ける</text>
+  <text x="622" y="176" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">= 実用会話レベル</text>
+
+  <!-- Stagnation zone annotation -->
+  <rect x="135" y="500" width="200" height="42" rx="8" fill="#1a0d0d" stroke="#e74c3c" stroke-width="1" opacity="0.8"/>
+  <text x="235" y="518" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c" text-anchor="middle">ここで「才能がない」と</text>
+  <text x="235" y="534" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c" text-anchor="middle">諦める人が多い</text>
+  <line x1="240" y1="499" x2="220" y2="478" stroke="#e74c3c" stroke-width="1.5" opacity="0.7"/>
+  <polygon points="215,474 212,485 224,482" fill="#e74c3c" opacity="0.7"/>
+
+  <!-- Key insight box -->
+  <rect x="200" y="630" width="800" height="34" rx="10" fill="#0d2233" stroke="#1DA1F2" stroke-width="1.5" opacity="0.9"/>
+  <text x="600" y="651" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="700" text-anchor="middle">「伸びない」のは才能がないからではなく、まだ100時間に達していないだけ。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="665" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

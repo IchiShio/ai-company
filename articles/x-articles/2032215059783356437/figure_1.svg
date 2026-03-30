@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgG3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14171A" />
+      <stop offset="100%" style="stop-color:#1a2030" />
+    </linearGradient>
+    <marker id="arrowR" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E0245E"/>
+    </marker>
+    <marker id="arrowB2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG3)" />
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">聴力モデル vs 予測モデル：処理の違い</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">リスニング力の正体は「耳」ではなく「脳の予測精度」</text>
+
+  <!-- Divider -->
+  <line x1="600" y1="100" x2="600" y2="640" stroke="#2a3a4a" stroke-width="2"/>
+
+  <!-- LEFT: 聴力モデル -->
+  <text x="300" y="118" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#E0245E">聴力モデル（従来のイメージ）</text>
+  <text x="300" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">ボトムアップ処理</text>
+
+  <!-- Step boxes left -->
+  <!-- Step 1L -->
+  <rect x="80" y="160" width="440" height="60" rx="10" fill="#2a1520" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="300" y="188" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" font-weight="bold">音声入力</text>
+  <text x="300" y="208" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">"She was really..."</text>
+
+  <line x1="300" y1="220" x2="300" y2="255" stroke="#E0245E" stroke-width="2" marker-end="url(#arrowR)"/>
+
+  <!-- Step 2L -->
+  <rect x="80" y="258" width="440" height="60" rx="10" fill="#2a1520" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="300" y="286" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" font-weight="bold">全音素を1つずつ解析</text>
+  <text x="300" y="306" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">sh-e-w-a-z-r-i-a-l-i...</text>
+
+  <line x1="300" y1="318" x2="300" y2="353" stroke="#E0245E" stroke-width="2" marker-end="url(#arrowR)"/>
+
+  <!-- Step 3L -->
+  <rect x="80" y="356" width="440" height="60" rx="10" fill="#2a1520" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="300" y="384" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" font-weight="bold">単語を特定</text>
+  <text x="300" y="404" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">She / was / really / ???</text>
+
+  <line x1="300" y1="416" x2="300" y2="451" stroke="#E0245E" stroke-width="2" marker-end="url(#arrowR)"/>
+
+  <!-- Step 4L -->
+  <rect x="80" y="454" width="440" height="60" rx="10" fill="#2a1520" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="300" y="482" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" font-weight="bold">意味を組み立てる</text>
+  <text x="300" y="502" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">→ 処理が追いつかず脱落</text>
+
+  <!-- Result Left -->
+  <rect x="100" y="535" width="400" height="65" rx="12" fill="#E0245E" opacity="0.18"/>
+  <rect x="100" y="535" width="400" height="4" rx="2" fill="#E0245E"/>
+  <text x="300" y="560" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#E0245E">処理コスト：高</text>
+  <text x="300" y="582" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">自然速度に対応できない</text>
+
+  <!-- RIGHT: 予測モデル -->
+  <text x="900" y="118" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#1DA1F2">予測モデル（実際の処理）</text>
+  <text x="900" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">トップダウン処理</text>
+
+  <!-- Step 1R -->
+  <rect x="680" y="160" width="440" height="60" rx="10" fill="#102030" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="900" y="188" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2" font-weight="bold">文脈・話題の把握（事前知識）</text>
+  <text x="900" y="208" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">話題：映画の感想、語彙：感情系と予測</text>
+
+  <line x1="900" y1="220" x2="900" y2="255" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowB2)"/>
+
+  <!-- Step 2R -->
+  <rect x="680" y="258" width="440" height="60" rx="10" fill="#102030" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="900" y="286" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2" font-weight="bold">次の単語を予測しながら聴く</text>
+  <text x="900" y="306" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">"She was really..." → 形容詞が来るはず</text>
+
+  <line x1="900" y1="318" x2="900" y2="353" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowB2)"/>
+
+  <!-- Step 3R -->
+  <rect x="680" y="356" width="440" height="60" rx="10" fill="#102030" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="900" y="384" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2" font-weight="bold">音声と予測を照合</text>
+  <text x="900" y="404" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">"amazing" ← 予測通り！確認完了</text>
+
+  <line x1="900" y1="416" x2="900" y2="451" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowB2)"/>
+
+  <!-- Step 4R -->
+  <rect x="680" y="454" width="440" height="60" rx="10" fill="#102030" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="900" y="482" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2" font-weight="bold">省エネで意味を把握</text>
+  <text x="900" y="502" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">→ 自然速度でも追いつける</text>
+
+  <!-- Result Right -->
+  <rect x="700" y="535" width="400" height="65" rx="12" fill="#1DA1F2" opacity="0.18"/>
+  <rect x="700" y="535" width="400" height="4" rx="2" fill="#1DA1F2"/>
+  <text x="900" y="560" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">処理コスト：低</text>
+  <text x="900" y="582" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">自然速度にも対応できる</text>
+
+  <!-- Center label -->
+  <text x="600" y="635" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">予測力の源泉 = 語彙・文法・文脈スキーマ</text>
+
+  <!-- Credit -->
+  <text x="1170" y="662" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

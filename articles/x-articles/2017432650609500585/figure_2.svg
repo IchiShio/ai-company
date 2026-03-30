@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#0d1825;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0d7bbf;stop-opacity:0.7"/>
+    </radialGradient>
+    <radialGradient id="mid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a3d5c;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#0d2236;stop-opacity:0.4"/>
+    </radialGradient>
+    <radialGradient id="outer" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a2535;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#0d1520;stop-opacity:0.2"/>
+    </radialGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="675" fill="url(#bg2)"/>
+
+  <!-- タイトル -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">英語表現の許容範囲マップ</text>
+
+  <!-- 中心座標 -->
+  <!-- 外側の円（地域差） -->
+  <circle cx="600" cy="365" r="250" fill="url(#outer)" stroke="#2d4a5c" stroke-width="1.5"/>
+  <!-- 中間の円（バリエーション） -->
+  <circle cx="600" cy="365" r="165" fill="url(#mid)" stroke="#1a5070" stroke-width="2"/>
+  <!-- コアの円 -->
+  <circle cx="600" cy="365" r="85" fill="url(#core)" stroke="#1DA1F2" stroke-width="3" filter="url(#softglow)"/>
+
+  <!-- コアラベル -->
+  <text x="600" y="355" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">コア表現</text>
+  <text x="600" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d0eeff" text-anchor="middle">誰でも通じる基本形</text>
+
+  <!-- コア例 -->
+  <rect x="520" y="392" width="160" height="24" fill="#1DA1F2" fill-opacity="0.25" rx="12"/>
+  <text x="600" y="408" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#4fc3f7" text-anchor="middle">"I want to..." "Can you...?"</text>
+
+  <!-- バリエーション層ラベル -->
+  <text x="600" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#7cc8f5" text-anchor="middle">バリエーション層</text>
+  <text x="600" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">世代・職業・教育レベルによる違い</text>
+
+  <!-- バリエーション例 -->
+  <rect x="480" y="240" width="240" height="24" fill="#1a3d5c" fill-opacity="0.7" rx="12"/>
+  <text x="600" y="256" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">"I'd like to..." / "Would it be possible..."</text>
+
+  <!-- 地域差層ラベル -->
+  <text x="600" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#657786" text-anchor="middle">地域差・文化差の層</text>
+  <text x="600" y="150" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4a5568" text-anchor="middle">英米・豪・印・シンガポール英語など</text>
+
+  <!-- 地域差例 -->
+  <rect x="430" y="160" width="340" height="24" fill="#1a2535" fill-opacity="0.7" rx="12"/>
+  <text x="600" y="176" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#4a7a99" text-anchor="middle">"Cheers!" / "Innit" / "Reckon" / "G'day"</text>
+
+  <!-- 四方向の注釈 -->
+  <!-- 左: ネイティブ同士でも違う -->
+  <line x1="350" y1="365" x2="200" y2="320" stroke="#657786" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <rect x="50" y="290" width="160" height="56" fill="#1a2535" rx="8" opacity="0.9"/>
+  <text x="130" y="312" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8a9bb0" text-anchor="middle">ネイティブ同士でも</text>
+  <text x="130" y="330" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8a9bb0" text-anchor="middle">表現は千差万別</text>
+
+  <!-- 右: 正解は1つじゃない -->
+  <line x1="850" y1="365" x2="980" y2="310" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <rect x="980" y="278" width="180" height="56" fill="#0d2844" rx="8" opacity="0.9" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="1070" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4fc3f7" text-anchor="middle">「正解の英語」は</text>
+  <text x="1070" y="318" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">1つじゃない</text>
+  <text x="1070" y="336" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">コアを押さえれば十分</text>
+
+  <!-- 下: まず目指す場所 -->
+  <line x1="600" y1="615" x2="600" y2="530" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="600,520 594,536 606,536" fill="#1DA1F2"/>
+  <rect x="460" y="620" width="280" height="44" fill="#0d2844" rx="8" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="638" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2" text-anchor="middle">まずコアを使い倒す</text>
+  <text x="600" y="656" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">細かい差は後から自然に身につく</text>
+
+  <!-- クレジット -->
+  <text x="1180" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

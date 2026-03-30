@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="intensityGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E1E8ED"/>
+      <stop offset="50%" stop-color="#4DB8F0"/>
+      <stop offset="100%" stop-color="#1DA1F2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="88" fill="#14171A"/>
+  <text x="60" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">感情表現の強度別チャート</text>
+  <text x="60" y="74" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">Weak（弱い）→ Strong（強い）の軸で感情語を整理する</text>
+
+  <!-- Intensity scale bar -->
+  <rect x="80" y="112" width="1040" height="18" rx="9" fill="url(#intensityGrad)"/>
+  <text x="80" y="146" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">← WEAK</text>
+  <text x="1070" y="146" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">STRONG →</text>
+
+  <!-- HAPPY row -->
+  <text x="60" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">😊 嬉しい</text>
+  <rect x="80" y="193" width="1040" height="40" rx="6" fill="#F0FAFF"/>
+
+  <!-- Segments for HAPPY -->
+  <rect x="80" y="193" width="200" height="40" rx="6" fill="#E1E8ED"/>
+  <text x="180" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">pleased</text>
+
+  <rect x="292" y="193" width="220" height="40" fill="#C8E6F8"/>
+  <text x="402" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">very happy</text>
+
+  <rect x="524" y="193" width="260" height="40" fill="#90CEEE"/>
+  <text x="654" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">thrilled / delighted</text>
+
+  <rect x="796" y="193" width="324" height="40" rx="6" fill="#1DA1F2"/>
+  <text x="958" y="218" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">I was over the moon! 🌙</text>
+
+  <!-- SAD row -->
+  <text x="60" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">😢 悲しい</text>
+  <rect x="80" y="266" width="1040" height="40" rx="6" fill="#FAFAFA"/>
+
+  <rect x="80" y="266" width="200" height="40" rx="6" fill="#E1E8ED"/>
+  <text x="180" y="291" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">a bit sad</text>
+
+  <rect x="292" y="266" width="220" height="40" fill="#C8E6F8"/>
+  <text x="402" y="291" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">very sad</text>
+
+  <rect x="524" y="266" width="260" height="40" fill="#90CEEE"/>
+  <text x="654" y="291" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">devastated / heartbroken</text>
+
+  <rect x="796" y="266" width="324" height="40" rx="6" fill="#1DA1F2"/>
+  <text x="958" y="291" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">My heart sank. 💙</text>
+
+  <!-- ANGRY row -->
+  <text x="60" y="331" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">😤 怒り</text>
+  <rect x="80" y="339" width="1040" height="40" rx="6" fill="#FAFAFA"/>
+
+  <rect x="80" y="339" width="200" height="40" rx="6" fill="#E1E8ED"/>
+  <text x="180" y="364" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">annoyed</text>
+
+  <rect x="292" y="339" width="220" height="40" fill="#C8E6F8"/>
+  <text x="402" y="364" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">very angry</text>
+
+  <rect x="524" y="339" width="260" height="40" fill="#90CEEE"/>
+  <text x="654" y="364" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">furious / livid</text>
+
+  <rect x="796" y="339" width="324" height="40" rx="6" fill="#1DA1F2"/>
+  <text x="958" y="364" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">I was fuming. 🔥</text>
+
+  <!-- SURPRISED row -->
+  <text x="60" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">😲 驚き</text>
+  <rect x="80" y="412" width="1040" height="40" rx="6" fill="#FAFAFA"/>
+
+  <rect x="80" y="412" width="200" height="40" rx="6" fill="#E1E8ED"/>
+  <text x="180" y="437" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">a bit surprised</text>
+
+  <rect x="292" y="412" width="220" height="40" fill="#C8E6F8"/>
+  <text x="402" y="437" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">very surprised</text>
+
+  <rect x="524" y="412" width="260" height="40" fill="#90CEEE"/>
+  <text x="654" y="437" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">shocked / stunned</text>
+
+  <rect x="796" y="412" width="324" height="40" rx="6" fill="#1DA1F2"/>
+  <text x="958" y="437" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">My jaw dropped. 😱</text>
+
+  <!-- NERVOUS row -->
+  <text x="60" y="477" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#14171A">😰 緊張</text>
+  <rect x="80" y="485" width="1040" height="40" rx="6" fill="#FAFAFA"/>
+
+  <rect x="80" y="485" width="200" height="40" rx="6" fill="#E1E8ED"/>
+  <text x="180" y="510" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">a bit nervous</text>
+
+  <rect x="292" y="485" width="220" height="40" fill="#C8E6F8"/>
+  <text x="402" y="510" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">very nervous</text>
+
+  <rect x="524" y="485" width="260" height="40" fill="#90CEEE"/>
+  <text x="654" y="510" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">anxious / on edge</text>
+
+  <rect x="796" y="485" width="324" height="40" rx="6" fill="#1DA1F2"/>
+  <text x="958" y="510" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">My palms were sweating. 💧</text>
+
+  <!-- Tip box -->
+  <rect x="40" y="548" width="1120" height="60" rx="8" fill="#14171A"/>
+  <text x="65" y="574" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">使い方のヒント</text>
+  <text x="65" y="596" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">一番右（青背景）の表現は「感情が最高潮に達した瞬間」に使う。普段は "very" で十分。ここぞという場面に1つ使えれば十分。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg_grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg_grad2)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">音の認識回路を作る4ステップ</text>
+  <text x="600" y="82" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786">フォニックスから自動認識まで</text>
+  <line x1="80" y1="100" x2="1120" y2="100" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- Step boxes data: x, step#, label, sub, color -->
+
+  <!-- Step 1 -->
+  <rect x="80" y="140" width="220" height="380" rx="16" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="2"/>
+  <circle cx="190" cy="175" r="24" fill="#1DA1F2" opacity="0.2" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="190" y="182" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#1DA1F2">1</text>
+  <text x="190" y="225" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">音素の</text>
+  <text x="190" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">認識学習</text>
+  <text x="190" y="295" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">/θ/ /æ/ /r/ など</text>
+  <text x="190" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">日本語にない音を</text>
+  <text x="190" y="338" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">耳で確認する</text>
+  <rect x="110" y="380" width="160" height="36" rx="8" fill="#1DA1F2" opacity="0.15" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="190" y="402" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">フォニックス学習</text>
+  <text x="190" y="460" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="34">🔊</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="318,320 336,310 336,330" fill="#657786"/>
+  <line x1="300" y1="320" x2="336" y2="320" stroke="#657786" stroke-width="2"/>
+
+  <!-- Step 2 -->
+  <rect x="340" y="140" width="220" height="380" rx="16" fill="#9B59B6" opacity="0.08" stroke="#9B59B6" stroke-width="2"/>
+  <circle cx="450" cy="175" r="24" fill="#9B59B6" opacity="0.2" stroke="#9B59B6" stroke-width="2"/>
+  <text x="450" y="182" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#9B59B6">2</text>
+  <text x="450" y="225" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">音とラベルの</text>
+  <text x="450" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">対応付け</text>
+  <text x="450" y="295" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">「この音 = この単語」</text>
+  <text x="450" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">テンプレートを</text>
+  <text x="450" y="338" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">脳に登録する</text>
+  <rect x="370" y="380" width="160" height="36" rx="8" fill="#9B59B6" opacity="0.15" stroke="#9B59B6" stroke-width="1"/>
+  <text x="450" y="402" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#9B59B6">シャドーイング</text>
+  <text x="450" y="460" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="34">🧠</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="578,320 596,310 596,330" fill="#657786"/>
+  <line x1="560" y1="320" x2="596" y2="320" stroke="#657786" stroke-width="2"/>
+
+  <!-- Step 3 -->
+  <rect x="600" y="140" width="220" height="380" rx="16" fill="#F39C12" opacity="0.08" stroke="#F39C12" stroke-width="2"/>
+  <circle cx="710" cy="175" r="24" fill="#F39C12" opacity="0.2" stroke="#F39C12" stroke-width="2"/>
+  <text x="710" y="182" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#F39C12">3</text>
+  <text x="710" y="225" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">照合精度の</text>
+  <text x="710" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">反復強化</text>
+  <text x="710" y="295" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">文脈内で繰り返し</text>
+  <text x="710" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">聞いて精度を</text>
+  <text x="710" y="338" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">高める</text>
+  <rect x="630" y="380" width="160" height="36" rx="8" fill="#F39C12" opacity="0.15" stroke="#F39C12" stroke-width="1"/>
+  <text x="710" y="402" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#F39C12">ディクテーション</text>
+  <text x="710" y="460" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="34">🔁</text>
+
+  <!-- Arrow 3→4 -->
+  <polygon points="838,320 856,310 856,330" fill="#657786"/>
+  <line x1="820" y1="320" x2="856" y2="320" stroke="#657786" stroke-width="2"/>
+
+  <!-- Step 4 -->
+  <rect x="860" y="140" width="260" height="380" rx="16" fill="#00C896" opacity="0.10" stroke="#00C896" stroke-width="2.5"/>
+  <circle cx="990" cy="175" r="24" fill="#00C896" opacity="0.2" stroke="#00C896" stroke-width="2"/>
+  <text x="990" y="182" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#00C896">4</text>
+  <text x="990" y="225" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">自動認識</text>
+  <text x="990" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">（ゴール）</text>
+  <text x="990" y="295" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">意識しなくても</text>
+  <text x="990" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">音と意味が瞬時に</text>
+  <text x="990" y="338" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8b949e">結びつく</text>
+  <rect x="900" y="380" width="180" height="36" rx="8" fill="#00C896" opacity="0.20" stroke="#00C896" stroke-width="1.5"/>
+  <text x="990" y="402" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#00C896">ListenUp で実践</text>
+  <text x="990" y="460" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="34">✨</text>
+
+  <!-- Bottom message -->
+  <rect x="200" y="580" width="800" height="52" rx="12" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="611" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2">「聞き流し」より「音素の意識的認識」が先 → 突然クリアに聞こえる日が来る</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "id": "2030943808071123455",
+  "likes": 35,
+  "topic": "TOEIC900点でも話せない落とし穴",
+  "theme": "TOEIC900点でも話せない人の落とし穴。4技能をバランス良く鍛える設計。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "description": "TOEICが測る範囲 vs 実際の英語能力の4象限比較（Listening/Reading/Speaking/Writing）"
+    },
+    {
+      "file": "figure_2.svg",
+      "description": "TOEIC後のスキルギャップ診断チェックリストと3ステップ解消プラン"
+    }
+  ],
+  "article": "article.md",
+  "fact_check": "fact_check.md",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "canvas_size": "1200x675"
+}

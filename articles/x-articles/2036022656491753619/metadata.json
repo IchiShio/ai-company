@@ -1,0 +1,21 @@
+{
+  "tweet_id": "2036022656491753619",
+  "likes": 74,
+  "theme": "15分で66日 習慣化設計",
+  "native_real_link": "/",
+  "date_created": "2026-03-30",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "caption": "学習量と継続日数のトレードオフ曲線"
+    },
+    {
+      "file": "figure_2.svg",
+      "caption": "66日で習慣化する15分ルーティン設計図"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "word_count": 432,
+  "word_limit": 800
+}

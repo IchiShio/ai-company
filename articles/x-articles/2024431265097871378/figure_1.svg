@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2340;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="traditionalLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#657786;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8899aa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="newLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0adffa;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#657786"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="25" font-weight="700" fill="#ffffff">従来アプローチ vs 口優先アプローチ：スキル成長比較</text>
+
+  <!-- ===== LEFT PANEL: Traditional ===== -->
+  <rect x="40" y="75" width="530" height="560" rx="16" fill="#0d1a2e" stroke="#657786" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="305" y="110" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#657786">従来の順番アプローチ</text>
+  <text x="305" y="133" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">聞く → 読む → 書く → 話す</text>
+
+  <!-- Sequence arrows -->
+  <rect x="60" y="150" width="100" height="42" rx="8" fill="#657786" fill-opacity="0.25" stroke="#657786" stroke-width="1.5"/>
+  <text x="110" y="176" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#aab5bf">聞く</text>
+  <line x1="162" y1="171" x2="180" y2="171" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <rect x="183" y="150" width="100" height="42" rx="8" fill="#657786" fill-opacity="0.25" stroke="#657786" stroke-width="1.5"/>
+  <text x="233" y="176" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#aab5bf">読む</text>
+  <line x1="285" y1="171" x2="303" y2="171" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <rect x="306" y="150" width="100" height="42" rx="8" fill="#657786" fill-opacity="0.25" stroke="#657786" stroke-width="1.5"/>
+  <text x="356" y="176" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#aab5bf">書く</text>
+  <line x1="408" y1="171" x2="426" y2="171" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+  <rect x="429" y="150" width="100" height="42" rx="8" fill="#657786" fill-opacity="0.3" stroke="#657786" stroke-width="1.5"/>
+  <text x="479" y="176" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#aab5bf">話す</text>
+
+  <!-- Chart area traditional -->
+  <!-- Axes -->
+  <line x1="80" y1="540" x2="540" y2="540" stroke="#657786" stroke-width="1.5" stroke-opacity="0.6"/>
+  <line x1="80" y1="210" x2="80" y2="540" stroke="#657786" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="72" y="545" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">0</text>
+  <text x="72" y="450" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">25</text>
+  <text x="72" y="375" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">50</text>
+  <text x="72" y="300" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">75</text>
+  <text x="72" y="225" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">100</text>
+  <text x="310" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">学習時間 →</text>
+  <text x="55" y="380" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" transform="rotate(-90, 55, 380)">スキルレベル</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="450" x2="540" y2="450" stroke="#657786" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="80" y1="375" x2="540" y2="375" stroke="#657786" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="80" y1="300" x2="540" y2="300" stroke="#657786" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Traditional: Listening curve (good) -->
+  <polyline points="80,530 175,420 270,330 365,280 460,265 540,260" stroke="#8899aa" stroke-width="2.5" fill="none"/>
+  <text x="545" y="263" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#8899aa">聴解</text>
+
+  <!-- Traditional: Speaking curve (delayed/flat) -->
+  <polyline points="80,530 175,525 270,510 365,475 460,430 540,390" stroke="#657786" stroke-width="2.5" fill="none" stroke-dasharray="5,4"/>
+  <text x="545" y="393" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">発話</text>
+
+  <!-- Gap annotation -->
+  <line x1="510" y1="265" x2="510" y2="395" stroke="#ff6b6b" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="480" y="335" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#ff6b6b">GAP</text>
+
+  <!-- Plateau annotation -->
+  <text x="190" y="590" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">各スキルが独立して成長</text>
+  <text x="190" y="610" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 統合段階でつまずく</text>
+
+  <!-- ===== RIGHT PANEL: Speaking-first ===== -->
+  <rect x="630" y="75" width="530" height="560" rx="16" fill="#0d1a2e" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="895" y="110" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#1DA1F2">口優先アプローチ</text>
+  <text x="895" y="133" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">最初から口を動かしながら全スキルを同時練習</text>
+
+  <!-- Simultaneous badges -->
+  <rect x="650" y="148" width="100" height="42" rx="8" fill="#1DA1F2" fill-opacity="0.3" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="700" y="174" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff">聞く</text>
+  <rect x="770" y="148" width="100" height="42" rx="8" fill="#1DA1F2" fill-opacity="0.3" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="820" y="174" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff">読む</text>
+  <rect x="890" y="148" width="100" height="42" rx="8" fill="#1DA1F2" fill-opacity="0.3" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="940" y="174" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff">書く</text>
+  <rect x="1010" y="148" width="100" height="42" rx="8" fill="#1DA1F2" fill-opacity="0.5" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="1060" y="174" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff">話す</text>
+  <!-- All arrows pointing to Speaking -->
+  <line x1="700" y1="192" x2="1010" y2="192" stroke="#1DA1F2" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+  <line x1="820" y1="192" x2="1010" y2="192" stroke="#1DA1F2" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+  <line x1="940" y1="192" x2="1010" y2="192" stroke="#1DA1F2" stroke-width="1" stroke-dasharray="3,3" stroke-opacity="0.5"/>
+
+  <!-- Chart area new -->
+  <line x1="670" y1="540" x2="1130" y2="540" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.6"/>
+  <line x1="670" y1="210" x2="670" y2="540" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.6"/>
+  <text x="662" y="545" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">0</text>
+  <text x="662" y="450" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">25</text>
+  <text x="662" y="375" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">50</text>
+  <text x="662" y="300" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">75</text>
+  <text x="662" y="225" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">100</text>
+  <text x="900" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">学習時間 →</text>
+
+  <!-- Grid lines -->
+  <line x1="670" y1="450" x2="1130" y2="450" stroke="#1DA1F2" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="670" y1="375" x2="1130" y2="375" stroke="#1DA1F2" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="670" y1="300" x2="1130" y2="300" stroke="#1DA1F2" stroke-opacity="0.1" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- New approach: all skills growing together (steep) -->
+  <polyline points="670,530 765,430 860,330 955,265 1050,230 1130,218" stroke="#1DA1F2" stroke-width="3" fill="none" filter="url(#glow)"/>
+  <text x="1135" y="221" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">全スキル</text>
+  <text x="1135" y="235" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">連動成長</text>
+
+  <!-- Annotation at peak -->
+  <circle cx="1050" cy="230" r="6" fill="#1DA1F2"/>
+
+  <text x="880" y="590" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">産出が全スキルの学習効率を引き上げる</text>
+  <text x="880" y="610" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">→ 短期間で統合的に上達</text>
+
+  <!-- Credit -->
+  <text x="1180" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

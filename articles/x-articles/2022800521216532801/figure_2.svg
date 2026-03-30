@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold">発音重視 vs リズム重視：ビフォーアフター比較</text>
+
+  <!-- Column headers -->
+  <rect x="60" y="100" width="510" height="55" rx="8" fill="#FF6B6B"/>
+  <text x="315" y="136" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold">BEFORE：発音の正確さを追いかける</text>
+
+  <rect x="630" y="100" width="510" height="55" rx="8" fill="#1DA1F2"/>
+  <text x="885" y="136" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold">AFTER：リズムとイントネーションを優先</text>
+
+  <!-- BEFORE column -->
+  <rect x="60" y="170" width="510" height="420" rx="10" fill="#FFFFFF" stroke="#FF6B6B" stroke-width="2"/>
+
+  <!-- BEFORE items -->
+  <rect x="80" y="190" width="470" height="60" rx="6" fill="#FFF5F5"/>
+  <text x="100" y="216" fill="#FF6B6B" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">練習の中心</text>
+  <text x="100" y="238" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">/r/ vs /l/、/th/、母音の微妙な差に執着</text>
+
+  <rect x="80" y="262" width="470" height="60" rx="6" fill="#FFF5F5"/>
+  <text x="100" y="288" fill="#FF6B6B" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">発話のスタイル</text>
+  <text x="100" y="310" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">全音節を均等に・丁寧に読む（日本語リズム）</text>
+
+  <rect x="80" y="334" width="470" height="60" rx="6" fill="#FFF5F5"/>
+  <text x="100" y="360" fill="#FF6B6B" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ネイティブの反応</text>
+  <text x="100" y="382" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">「何を言ってるか分からない」「不自然に聞こえる」</text>
+
+  <rect x="80" y="406" width="470" height="60" rx="6" fill="#FFF5F5"/>
+  <text x="100" y="432" fill="#FF6B6B" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">到達までの時間</text>
+  <text x="100" y="454" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">数年単位の練習が必要（音素は難易度が高い）</text>
+
+  <rect x="80" y="478" width="470" height="60" rx="6" fill="#FFF5F5"/>
+  <text x="100" y="504" fill="#FF6B6B" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">モチベーション</text>
+  <text x="100" y="526" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">完璧を目指すほど「できない」感が増す</text>
+
+  <!-- VS badge -->
+  <circle cx="600" cy="380" r="32" fill="#14171A"/>
+  <text x="600" y="388" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold">VS</text>
+
+  <!-- AFTER column -->
+  <rect x="630" y="170" width="510" height="420" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+
+  <!-- AFTER items -->
+  <rect x="650" y="190" width="470" height="60" rx="6" fill="#EBF8FF"/>
+  <text x="670" y="216" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">練習の中心</text>
+  <text x="670" y="238" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">内容語の強調・機能語の弱化・イントネーション曲線</text>
+
+  <rect x="650" y="262" width="470" height="60" rx="6" fill="#EBF8FF"/>
+  <text x="670" y="288" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">発話のスタイル</text>
+  <text x="670" y="310" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">強音節は大きく・弱音節は流す（英語的リズム）</text>
+
+  <rect x="650" y="334" width="470" height="60" rx="6" fill="#EBF8FF"/>
+  <text x="670" y="360" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ネイティブの反応</text>
+  <text x="670" y="382" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">「アクセントはあるけど伝わる」「聞きやすい」</text>
+
+  <rect x="650" y="406" width="470" height="60" rx="6" fill="#EBF8FF"/>
+  <text x="670" y="432" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">到達までの時間</text>
+  <text x="670" y="454" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">数週間〜数ヶ月で目に見える変化を実感できる</text>
+
+  <rect x="650" y="478" width="470" height="60" rx="6" fill="#EBF8FF"/>
+  <text x="670" y="504" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">モチベーション</text>
+  <text x="670" y="526" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">「通じた！」体験が早く来てやる気が続く</text>
+
+  <!-- Bottom message -->
+  <rect x="60" y="605" width="1080" height="40" rx="6" fill="#14171A"/>
+  <text x="600" y="631" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold">リズムを先に習得 → 通じる体験 → 発音の細部を磨く、この順番が最強</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18">@ichi_eigo</text>
+</svg>

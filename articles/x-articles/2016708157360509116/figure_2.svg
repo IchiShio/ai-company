@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <linearGradient id="stepGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2"/>
+      <stop offset="100%" style="stop-color:#0d7fc0"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">英語モード思考への切り替え：4段階ロードマップ</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">「翻訳しなくなる」ゴールに向けた段階的アプローチ</text>
+
+  <!-- Staircase visual -->
+  <!-- Step 4 (top right, highest) -->
+  <rect x="760" y="110" width="380" height="120" rx="14" fill="url(#stepGrad1)" filter="url(#shadow)"/>
+  <text x="950" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aadcf8" font-weight="600">STEP 4  /  3〜6ヶ月目〜</text>
+  <text x="950" y="174" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">英語モード定着</text>
+  <text x="950" y="196" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ddedfa">英語でそのまま考え、英語で話せる</text>
+  <text x="950" y="216" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aadcf8">日本語を介さない会話が自然に</text>
+  <!-- Star badge -->
+  <circle cx="760" cy="160" r="28" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="760" y="167" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="white">★</text>
+
+  <!-- Step 3 -->
+  <rect x="490" y="240" width="380" height="120" rx="14" fill="#0d7fc0" filter="url(#shadow)"/>
+  <text x="680" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aadcf8" font-weight="600">STEP 3  /  2〜3ヶ月目</text>
+  <text x="680" y="304" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">英語回路の構築</text>
+  <text x="680" y="326" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ddedfa">フレーズが先に浮かぶ瞬間が増える</text>
+  <text x="680" y="346" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aadcf8">英語でつぶやく・独り言が習慣化</text>
+  <!-- Number badge -->
+  <circle cx="490" cy="290" r="28" fill="#1DA1F2" filter="url(#shadow)"/>
+  <text x="490" y="297" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">3</text>
+
+  <!-- Step 2 -->
+  <rect x="220" y="370" width="380" height="120" rx="14" fill="#2980b9" filter="url(#shadow)"/>
+  <text x="410" y="408" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aadcf8" font-weight="600">STEP 2  /  1〜2ヶ月目</text>
+  <text x="410" y="434" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">翻訳意識の弱体化</text>
+  <text x="410" y="456" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ddedfa">翻訳速度を意図的に落とす練習</text>
+  <text x="410" y="476" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aadcf8">「英語でどう言う？」と問い直す習慣</text>
+  <circle cx="220" cy="420" r="28" fill="#0d7fc0" filter="url(#shadow)"/>
+  <text x="220" y="427" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">2</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="500" width="380" height="120" rx="14" fill="#3498db" filter="url(#shadow)"/>
+  <text x="250" y="538" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aadcf8" font-weight="600">STEP 1  /  今すぐ〜1ヶ月目</text>
+  <text x="250" y="564" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">翻訳グセに気づく</text>
+  <text x="250" y="586" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ddedfa">「今、日本語で考えた」と観察する</text>
+  <text x="250" y="606" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aadcf8">翻訳している自分に意識を向ける</text>
+  <circle cx="60" cy="550" r="28" fill="#2980b9" filter="url(#shadow)"/>
+  <text x="60" y="557" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="white">1</text>
+
+  <!-- Connecting arrows between steps -->
+  <!-- Step 1 → Step 2 -->
+  <path d="M 440,490 Q 480,440 480,420" stroke="#657786" stroke-width="2.5" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="6,3"/>
+
+  <!-- Step 2 → Step 3 -->
+  <path d="M 600,360 Q 640,310 640,290" stroke="#657786" stroke-width="2.5" fill="none" stroke-dasharray="6,3"/>
+  <polygon points="636,300 640,286 644,300" fill="#657786"/>
+
+  <!-- Step 3 → Step 4 -->
+  <path d="M 870,230 Q 910,185 910,165" stroke="#657786" stroke-width="2.5" fill="none" stroke-dasharray="6,3"/>
+  <polygon points="906,175 910,161 914,175" fill="#657786"/>
+
+  <!-- Right side: Key actions panel -->
+  <rect x="920" y="360" width="220" height="280" rx="12" fill="white" filter="url(#shadow)"/>
+  <rect x="920" y="360" width="220" height="40" rx="12" fill="#14171A"/>
+  <rect x="920" y="380" width="220" height="20" fill="#14171A"/>
+  <text x="1030" y="385" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="white">今日からできること</text>
+
+  <text x="936" y="422" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700">Step1 実践</text>
+  <text x="936" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">英文を読んで「今訳した」</text>
+  <text x="936" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">と気づいたら✓をつける</text>
+
+  <line x1="936" y1="468" x2="1124" y2="468" stroke="#e8e8e8" stroke-width="1"/>
+
+  <text x="936" y="488" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700">おすすめ教材</text>
+  <text x="936" y="506" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">・BBC Learning English</text>
+  <text x="936" y="522" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">・VOAニュース（ゆっくり版）</text>
+  <text x="936" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">・TED-Ed（字幕なし推奨）</text>
+
+  <line x1="936" y1="550" x2="1124" y2="550" stroke="#e8e8e8" stroke-width="1"/>
+
+  <text x="936" y="570" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700">計測方法</text>
+  <text x="936" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">日記に「今日何回英語で</text>
+  <text x="936" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">考えられたか？」を記録</text>
+  <text x="936" y="622" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">0→5回が最初のゴール</text>
+
+  <!-- Credit -->
+  <text x="1180" y="668" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">@ichi_eigo</text>
+</svg>

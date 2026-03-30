@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <filter id="shadow" x="-8%" y="-8%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#00000022"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+    <marker id="arrow-dark" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#14171A"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-size="30" font-weight="bold" fill="#14171A">描写 → 発話 → 習慣化の強化フロー</text>
+  <text x="600" y="80" text-anchor="middle" font-size="17" fill="#657786">「英語で考える回路」が育つまでの7段階</text>
+
+  <!-- Flow steps (horizontal flow with 7 nodes) -->
+  <!-- Node 1 -->
+  <circle cx="110" cy="260" r="54" fill="#E8F5FE" filter="url(#shadow)"/>
+  <text x="110" y="248" text-anchor="middle" font-size="22">👁️</text>
+  <text x="110" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#14171A">見る</text>
+  <text x="110" y="292" text-anchor="middle" font-size="11" fill="#657786">対象物に</text>
+  <text x="110" y="307" text-anchor="middle" font-size="11" fill="#657786">気づく</text>
+  <text x="110" y="334" text-anchor="middle" font-size="12" fill="#1DA1F2">①トリガー</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="167" y1="260" x2="217" y2="260" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Node 2 -->
+  <circle cx="273" cy="260" r="54" fill="#E8F5FE" filter="url(#shadow)"/>
+  <text x="273" y="248" text-anchor="middle" font-size="22">🧠</text>
+  <text x="273" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#14171A">検索</text>
+  <text x="273" y="292" text-anchor="middle" font-size="11" fill="#657786">英語の語彙を</text>
+  <text x="273" y="307" text-anchor="middle" font-size="11" fill="#657786">引き出そうとする</text>
+  <text x="273" y="334" text-anchor="middle" font-size="12" fill="#1DA1F2">②意識的処理</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="330" y1="260" x2="380" y2="260" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Node 3 -->
+  <circle cx="436" cy="260" r="54" fill="#E8F5FE" filter="url(#shadow)"/>
+  <text x="436" y="248" text-anchor="middle" font-size="22">💬</text>
+  <text x="436" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#14171A">発話</text>
+  <text x="436" y="292" text-anchor="middle" font-size="11" fill="#657786">声に出す or</text>
+  <text x="436" y="307" text-anchor="middle" font-size="11" fill="#657786">心の中で言う</text>
+  <text x="436" y="334" text-anchor="middle" font-size="12" fill="#1DA1F2">③産出</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="493" y1="260" x2="543" y2="260" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Node 4 (center highlight) -->
+  <circle cx="600" cy="260" r="62" fill="#1DA1F2" filter="url(#shadow)"/>
+  <text x="600" y="244" text-anchor="middle" font-size="26" fill="#FFFFFF">🔁</text>
+  <text x="600" y="272" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">繰り返し</text>
+  <text x="600" y="290" text-anchor="middle" font-size="12" fill="#D6EBFB">毎日10〜20回</text>
+  <text x="600" y="344" text-anchor="middle" font-size="12" fill="#1DA1F2">④強化</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="665" y1="260" x2="715" y2="260" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Node 5 -->
+  <circle cx="770" cy="260" r="54" fill="#E8F5FE" filter="url(#shadow)"/>
+  <text x="770" y="248" text-anchor="middle" font-size="22">⚡</text>
+  <text x="770" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#14171A">自動化</text>
+  <text x="770" y="292" text-anchor="middle" font-size="11" fill="#657786">考えなくても</text>
+  <text x="770" y="307" text-anchor="middle" font-size="11" fill="#657786">英語が出てくる</text>
+  <text x="770" y="334" text-anchor="middle" font-size="12" fill="#1DA1F2">⑤手続き化</text>
+
+  <!-- Arrow 5→6 -->
+  <line x1="827" y1="260" x2="877" y2="260" stroke="#14171A" stroke-width="3" marker-end="url(#arrow-dark)"/>
+
+  <!-- Node 6 -->
+  <circle cx="932" cy="260" r="54" fill="#14171A" filter="url(#shadow)"/>
+  <text x="932" y="248" text-anchor="middle" font-size="22" fill="#FFFFFF">💡</text>
+  <text x="932" y="274" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">英語思考</text>
+  <text x="932" y="292" text-anchor="middle" font-size="11" fill="#AAB8C2">日本語を介さず</text>
+  <text x="932" y="307" text-anchor="middle" font-size="11" fill="#AAB8C2">直接思考できる</text>
+  <text x="932" y="334" text-anchor="middle" font-size="12" fill="#1DA1F2">⑥回路完成</text>
+
+  <!-- Arrow 6→7 -->
+  <line x1="989" y1="260" x2="1039" y2="260" stroke="#14171A" stroke-width="3" marker-end="url(#arrow-dark)"/>
+
+  <!-- Node 7 -->
+  <circle cx="1095" cy="260" r="54" fill="#14171A" filter="url(#shadow)"/>
+  <text x="1095" y="244" text-anchor="middle" font-size="24" fill="#FFD700">🏆</text>
+  <text x="1095" y="272" text-anchor="middle" font-size="13" font-weight="bold" fill="#FFFFFF">流暢さ</text>
+  <text x="1095" y="290" text-anchor="middle" font-size="11" fill="#AAB8C2">スピーキング・</text>
+  <text x="1095" y="305" text-anchor="middle" font-size="11" fill="#AAB8C2">ライティングへ</text>
+  <text x="1095" y="334" text-anchor="middle" font-size="12" fill="#1DA1F2">⑦発展</text>
+
+  <!-- Time estimate strip -->
+  <rect x="50" y="380" width="1100" height="52" rx="14" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="110" y="410" text-anchor="middle" font-size="13" fill="#AAB8C2">〜1週間</text>
+  <text x="273" y="410" text-anchor="middle" font-size="13" fill="#AAB8C2">〜2週間</text>
+  <text x="436" y="410" text-anchor="middle" font-size="13" fill="#657786">2週目〜</text>
+  <text x="600" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">毎日継続</text>
+  <text x="770" y="410" text-anchor="middle" font-size="13" fill="#657786">1〜2ヶ月</text>
+  <text x="932" y="410" text-anchor="middle" font-size="13" fill="#14171A" font-weight="bold">3ヶ月〜</text>
+  <text x="1095" y="410" text-anchor="middle" font-size="13" fill="#14171A" font-weight="bold">半年〜</text>
+  <line x1="140" y1="380" x2="140" y2="432" stroke="#E1E8ED" stroke-width="1"/>
+  <line x1="310" y1="380" x2="310" y2="432" stroke="#E1E8ED" stroke-width="1"/>
+  <line x1="480" y1="380" x2="480" y2="432" stroke="#E1E8ED" stroke-width="1"/>
+  <line x1="660" y1="380" x2="660" y2="432" stroke="#E1E8ED" stroke-width="1"/>
+  <line x1="840" y1="380" x2="840" y2="432" stroke="#E1E8ED" stroke-width="1"/>
+  <line x1="1000" y1="380" x2="1000" y2="432" stroke="#E1E8ED" stroke-width="1"/>
+
+  <!-- Habit loop diagram -->
+  <rect x="50" y="456" width="520" height="164" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="310" y="486" text-anchor="middle" font-size="17" font-weight="bold" fill="#14171A">習慣ループ（ハビット・ループ）</text>
+  <rect x="80" y="500" width="120" height="44" rx="10" fill="#E8F5FE"/>
+  <text x="140" y="527" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">合図（Cue）</text>
+  <text x="197" y="527" text-anchor="middle" font-size="20" fill="#1DA1F2">→</text>
+  <rect x="220" y="500" width="120" height="44" rx="10" fill="#1DA1F2"/>
+  <text x="280" y="527" text-anchor="middle" font-size="14" fill="#FFFFFF" font-weight="bold">行動（Routine）</text>
+  <text x="357" y="527" text-anchor="middle" font-size="20" fill="#1DA1F2">→</text>
+  <rect x="380" y="500" width="120" height="44" rx="10" fill="#E8F5FE"/>
+  <text x="440" y="527" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">報酬（Reward）</text>
+  <text x="80" y="570" font-size="13" fill="#657786">「何かを見た瞬間」→「英語で描写する」→「言えた達成感」</text>
+  <text x="80" y="592" font-size="13" fill="#AAB8C2">繰り返すたびにループが強化され、やがて意識しなくなる</text>
+  <text x="80" y="612" font-size="12" fill="#AAB8C2">（出典: Duhigg "The Power of Habit", 2012）</text>
+
+  <!-- Key practice box -->
+  <rect x="610" y="456" width="540" height="164" rx="16" fill="#14171A" filter="url(#shadow)"/>
+  <text x="880" y="490" text-anchor="middle" font-size="17" font-weight="bold" fill="#FFFFFF">今すぐ始める3つの約束</text>
+  <rect x="636" y="504" width="488" height="34" rx="8" fill="#1DA1F2" opacity="0.2"/>
+  <text x="880" y="526" text-anchor="middle" font-size="14" fill="#FFFFFF">1. 1日10回だけ、目に入るものを英語で言う</text>
+  <rect x="636" y="546" width="488" height="34" rx="8" fill="#1DA1F2" opacity="0.2"/>
+  <text x="880" y="568" text-anchor="middle" font-size="14" fill="#FFFFFF">2. 完璧な文章は不要。単語1語でもOK</text>
+  <rect x="636" y="588" width="488" height="28" rx="8" fill="#1DA1F2" opacity="0.3"/>
+  <text x="880" y="607" text-anchor="middle" font-size="13" fill="#1DA1F2" font-weight="bold">3. 3週間続けると「自然に出てくる」が始まる</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

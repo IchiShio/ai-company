@@ -1,0 +1,29 @@
+{
+  "tweet_id": "2036935347045884359",
+  "likes": 52,
+  "article_theme": "多読で語彙が増えるのは「ちょうどいい難しさ」のテキストだけ。i+1理論と95%の法則。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "description": "テキスト難易度と語彙学習効果の曲線グラフ（最適ゾーン可視化）"
+    },
+    {
+      "file": "figure_2.svg",
+      "description": "自分のレベルに合ったテキスト選びチェックリスト"
+    }
+  ],
+  "fact_check": "PASS",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo",
+  "key_references": [
+    "Hu & Nation (2000) - 95% vocabulary threshold",
+    "Krashen (1985) - Input Hypothesis / i+1 theory",
+    "Nation (2001) - Learning Vocabulary in Another Language"
+  ]
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <clipPath id="overlap-clip">
+      <ellipse cx="560" cy="337" rx="120" ry="160"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-size="26" font-weight="bold" fill="#FFFFFF">TOEIC対策 vs 会話力トレーニング　スキルマップ</text>
+  <text x="600" y="82" text-anchor="middle" font-size="16" fill="#657786">重なりと違いを可視化</text>
+
+  <!-- Left circle: TOEIC -->
+  <ellipse cx="440" cy="337" rx="200" ry="200" fill="#1DA1F2" fill-opacity="0.25" stroke="#1DA1F2" stroke-width="2.5"/>
+  <!-- Right circle: 会話力 -->
+  <ellipse cx="680" cy="337" rx="200" ry="200" fill="#F59E0B" fill-opacity="0.25" stroke="#F59E0B" stroke-width="2.5"/>
+
+  <!-- Overlap fill -->
+  <ellipse cx="680" cy="337" rx="200" ry="200" fill="#A855F7" fill-opacity="0.25" clip-path="url(#overlap-clip)"/>
+
+  <!-- Left label -->
+  <text x="320" y="230" text-anchor="middle" font-size="20" font-weight="bold" fill="#1DA1F2">TOEIC対策</text>
+
+  <!-- Left items -->
+  <text x="320" y="270" text-anchor="middle" font-size="15" fill="#FFFFFF">📖 語彙・文法暗記</text>
+  <text x="320" y="298" text-anchor="middle" font-size="15" fill="#FFFFFF">🔍 長文読解スキル</text>
+  <text x="320" y="326" text-anchor="middle" font-size="15" fill="#FFFFFF">📋 問題形式の習熟</text>
+  <text x="320" y="354" text-anchor="middle" font-size="15" fill="#FFFFFF">⏱ タイムマネジメント</text>
+  <text x="320" y="382" text-anchor="middle" font-size="15" fill="#FFFFFF">🎧 Part 3/4 パターン</text>
+  <text x="320" y="410" text-anchor="middle" font-size="15" fill="#FFFFFF">✏️ マークシート戦略</text>
+
+  <!-- Overlap label -->
+  <text x="560" y="310" text-anchor="middle" font-size="14" font-weight="bold" fill="#E9D5FF">共通</text>
+  <text x="560" y="332" text-anchor="middle" font-size="12" fill="#E9D5FF">基礎語彙</text>
+  <text x="560" y="352" text-anchor="middle" font-size="12" fill="#E9D5FF">リスニング</text>
+  <text x="560" y="372" text-anchor="middle" font-size="12" fill="#E9D5FF">基礎文法</text>
+
+  <!-- Right label -->
+  <text x="800" y="230" text-anchor="middle" font-size="20" font-weight="bold" fill="#F59E0B">会話力トレーニング</text>
+
+  <!-- Right items -->
+  <text x="800" y="270" text-anchor="middle" font-size="15" fill="#FFFFFF">⚡ 瞬間英作文</text>
+  <text x="800" y="298" text-anchor="middle" font-size="15" fill="#FFFFFF">🗣 シャドーイング</text>
+  <text x="800" y="326" text-anchor="middle" font-size="15" fill="#FFFFFF">💬 0.5秒反応訓練</text>
+  <text x="800" y="354" text-anchor="middle" font-size="15" fill="#FFFFFF">🔄 音読・速音読</text>
+  <text x="800" y="382" text-anchor="middle" font-size="15" fill="#FFFFFF">🤝 スピーキング練習</text>
+  <text x="800" y="410" text-anchor="middle" font-size="15" fill="#FFFFFF">🧠 処理速度の強化</text>
+
+  <!-- Key insight box -->
+  <rect x="200" y="490" width="800" height="70" rx="10" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="520" text-anchor="middle" font-size="17" font-weight="bold" fill="#1DA1F2">読解は時間をかけられる  ≠  会話は0.5秒で反応が必要</text>
+  <text x="600" y="546" text-anchor="middle" font-size="14" fill="#FFFFFF">スコアアップと会話力アップは「別の筋肉」を使う。目的に合わせて選ぼう。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" font-size="13" fill="#657786">@ichi_eigo</text>
+</svg>

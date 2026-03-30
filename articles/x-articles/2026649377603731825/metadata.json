@@ -1,0 +1,32 @@
+{
+  "id": "2026649377603731825",
+  "likes": 124,
+  "created_at": "2026-03-30",
+  "article": {
+    "title": "very+形容詞から卒業する。感情を動詞で伝えるネイティブ表現10選",
+    "file": "article.md",
+    "word_count_approx": 510,
+    "native_real_link": "/grammar/",
+    "tags": ["英会話", "感情表現", "語彙", "ネイティブ表現"]
+  },
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "type": "言い換え対応表",
+      "description": "very+形容詞 → 動詞表現への言い換え10例を2列で対比表示"
+    },
+    {
+      "file": "figure_2.svg",
+      "type": "感情表現の強度別チャート",
+      "description": "5感情カテゴリ × 強度4段階（weak→strong）のグラデーションチャート"
+    }
+  ],
+  "fact_check": {
+    "file": "fact_check.md",
+    "result": "PASS",
+    "checked_at": "2026-03-30"
+  },
+  "source_tweet": {
+    "text": "英語で「すごく笑った」を言おうとして止まった経験がある。\"very funny\"は正しいが伝わりにくい。そのとき使えるのが\"I couldn't stop laughing.\"だ。直訳すると「笑うのを止められなかった」。"
+  }
+}

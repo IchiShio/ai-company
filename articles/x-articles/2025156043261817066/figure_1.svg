@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="studyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0d8bd9;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38c9a0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#28b890;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="600" y="58" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle" filter="url(#glow)">1日の英語接触時間：留学 vs スマホ活用</text>
+  <text x="600" y="90" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">スキマ時間を設計すれば留学に近い接触量が実現できる</text>
+
+  <!-- Column headers -->
+  <text x="310" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#1DA1F2" text-anchor="middle" filter="url(#glow)">🌏 語学留学</text>
+  <text x="890" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#38c9a0" text-anchor="middle" filter="url(#glow)">📱 スマホ活用（日本）</text>
+
+  <!-- Divider -->
+  <line x1="600" y1="110" x2="600" y2="560" stroke="#657786" stroke-width="1" stroke-dasharray="6,4" opacity="0.5"/>
+
+  <!-- === LEFT: 留学 === -->
+  <!-- Time slots -->
+  <!-- 朝食 -->
+  <rect x="120" y="148" width="380" height="48" rx="8" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="140" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">07:00-08:00</text>
+  <text x="310" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700">朝食・ルームメイトとの会話</text>
+  <text x="310" y="186" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8ec8f0" text-anchor="middle">60分（英語強制）</text>
+
+  <!-- 授業 -->
+  <rect x="120" y="204" width="380" height="48" rx="8" fill="#1DA1F2" fill-opacity="0.25" stroke="#1DA1F2" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="140" y="225" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">09:00-12:00</text>
+  <text x="310" y="225" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700">語学学校の授業</text>
+  <text x="310" y="242" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8ec8f0" text-anchor="middle">180分（集中インプット）</text>
+
+  <!-- 昼 -->
+  <rect x="120" y="260" width="380" height="48" rx="8" fill="#1DA1F2" fill-opacity="0.12" stroke="#1DA1F2" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="140" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">12:00-13:00</text>
+  <text x="310" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700">昼食・フリートーク</text>
+  <text x="310" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8ec8f0" text-anchor="middle">60分</text>
+
+  <!-- 午後活動 -->
+  <rect x="120" y="316" width="380" height="48" rx="8" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="140" y="337" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">14:00-18:00</text>
+  <text x="310" y="337" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700">観光・課外活動・宿題</text>
+  <text x="310" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8ec8f0" text-anchor="middle">120〜180分</text>
+
+  <!-- 夕食 -->
+  <rect x="120" y="372" width="380" height="48" rx="8" fill="#1DA1F2" fill-opacity="0.12" stroke="#1DA1F2" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="140" y="393" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">18:00-21:00</text>
+  <text x="310" y="393" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700">夕食・ホームステイ会話・TV</text>
+  <text x="310" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8ec8f0" text-anchor="middle">60〜90分</text>
+
+  <!-- 留学 合計 -->
+  <rect x="120" y="432" width="380" height="56" rx="10" fill="#1DA1F2" fill-opacity="0.3" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="310" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">1日の英語接触時間</text>
+  <text x="310" y="478" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="900" fill="#1DA1F2" text-anchor="middle" filter="url(#glow)">8〜10時間</text>
+
+  <!-- === RIGHT: スマホ === -->
+  <!-- 通勤 -->
+  <rect x="700" y="148" width="380" height="48" rx="8" fill="#38c9a0" fill-opacity="0.15" stroke="#38c9a0" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="720" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">07:30-08:20</text>
+  <text x="890" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#38c9a0" text-anchor="middle" font-weight="700">通勤中 Podcast / YouTube</text>
+  <text x="890" y="186" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#a0e8c8" text-anchor="middle">50分（英語Podcast）</text>
+
+  <!-- 昼休み -->
+  <rect x="700" y="204" width="380" height="48" rx="8" fill="#38c9a0" fill-opacity="0.2" stroke="#38c9a0" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="720" y="225" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">12:00-13:00</text>
+  <text x="890" y="225" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#38c9a0" text-anchor="middle" font-weight="700">昼休み リスニングクイズ</text>
+  <text x="890" y="242" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#a0e8c8" text-anchor="middle">20分（能動的練習）</text>
+
+  <!-- 帰宅 -->
+  <rect x="700" y="260" width="380" height="48" rx="8" fill="#38c9a0" fill-opacity="0.15" stroke="#38c9a0" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="720" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">18:00-18:50</text>
+  <text x="890" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#38c9a0" text-anchor="middle" font-weight="700">帰宅中 英語Podcast</text>
+  <text x="890" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#a0e8c8" text-anchor="middle">50分</text>
+
+  <!-- 家事 -->
+  <rect x="700" y="316" width="380" height="48" rx="8" fill="#38c9a0" fill-opacity="0.12" stroke="#38c9a0" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="720" y="337" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">19:00-20:00</text>
+  <text x="890" y="337" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#38c9a0" text-anchor="middle" font-weight="700">家事中 YouTube英語チャンネル</text>
+  <text x="890" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#a0e8c8" text-anchor="middle">40分（BGM的インプット）</text>
+
+  <!-- 寝る前 -->
+  <rect x="700" y="372" width="380" height="48" rx="8" fill="#38c9a0" fill-opacity="0.2" stroke="#38c9a0" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="720" y="393" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">22:00-22:30</text>
+  <text x="890" y="393" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#38c9a0" text-anchor="middle" font-weight="700">就寝前 AI英会話 / Netflix</text>
+  <text x="890" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#a0e8c8" text-anchor="middle">30分（アウトプット）</text>
+
+  <!-- スマホ 合計 -->
+  <rect x="700" y="432" width="380" height="56" rx="10" fill="#38c9a0" fill-opacity="0.25" stroke="#38c9a0" stroke-width="2"/>
+  <text x="890" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">1日の英語接触時間</text>
+  <text x="890" y="478" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="900" fill="#38c9a0" text-anchor="middle" filter="url(#glow)">約3時間10分</text>
+
+  <!-- Bottom note -->
+  <rect x="100" y="520" width="1000" height="52" rx="8" fill="#1DA1F2" fill-opacity="0.06" stroke="#657786" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="600" y="542" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0" text-anchor="middle">留学は「環境の強制力」があるが、スマホ活用は「設計次第」で近い量を確保できる。</text>
+  <text x="600" y="562" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0" text-anchor="middle">コストは留学の1/100以下。今日から始められる。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

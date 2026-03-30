@@ -1,0 +1,37 @@
+{
+  "tweet_id": "2017530796127772882",
+  "like_count": 114,
+  "original_text": "英語学習で一番もったいないのは「なんとなく理解した気になる」こと。聞き流し、読み流しで満足してしまう。本当に身についたかは「自分で再現できるか」でしか測れない。インプットの後に必ず小さなアウトプットを入れる習慣を。",
+  "article_theme": "「わかった気」は学習の最大の敵。アウトプット検証で本物の定着を確認する方法。",
+  "figures": [
+    {
+      "id": "fig1",
+      "filename": "input-output-cycle.svg",
+      "type": "cycle_diagram",
+      "description": "インプット→検証→アウトプットのサイクル図"
+    },
+    {
+      "id": "fig2",
+      "filename": "output-10-methods.svg",
+      "type": "checklist",
+      "description": "小さなアウトプット10の方法（チェックリスト形式）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_sources": [
+    {
+      "claim": "テスト想起は再読より長期記憶を促す（最大50%以上）",
+      "source": "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249-255.",
+      "verified": true
+    },
+    {
+      "claim": "インプット中は理解度を過大評価する（illusion of knowing）",
+      "source": "Glenberg, A. M., Wilkinson, A. C., & Epstein, W. (1982). The illusion of knowing: Failure in the self-assessment of comprehension. Memory & Cognition, 10(6), 597-602.",
+      "verified": true
+    }
+  ],
+  "native_real_link": "/",
+  "cta_text": "リスニング力を実践で試す →",
+  "article_word_count": 477,
+  "created_at": "2026-03-30"
+}

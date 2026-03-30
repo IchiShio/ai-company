@@ -1,0 +1,37 @@
+{
+  "tweet_id": "2035845660377850132",
+  "likes": 44,
+  "theme": "リスニング速度・自然速度トレーニング",
+  "article_title": "ゆっくり再生が耳を壊す——0.9倍速から始める自然速度リスニング",
+  "article_word_count": 488,
+  "native_real_link": "https://native-real.com/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "ゆっくり再生 vs 自然速度での脳処理適応の違い",
+      "description": "6週間後の処理能力成長比較（概念モデル）"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "速度別リスニング練習プログラム",
+      "description": "0.9倍速→1.0倍速→1.1倍速の3ステップ詳細"
+    }
+  ],
+  "fact_check_result": "PASS",
+  "key_concepts": [
+    "ネイティブ発話速度（約160wpm）",
+    "神経可塑性と音声処理適応",
+    "自然速度トレーニング（Natural Speed Input）",
+    "0.9倍速からのステップアップ"
+  ],
+  "fact_source": {
+    "speaking_rate": "Tauroza & Allison (1990), Applied Linguistics; Griffiths (1992)"
+  },
+  "cta": "ListenUpで自然速度ネイティブ音声を大量インプット",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "medium": "#657786"
+  },
+  "created_at": "2026-03-30"
+}

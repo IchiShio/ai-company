@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000020"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-size="30" font-weight="bold" fill="#14171A">毎日10分 vs 週3回30分 — 記憶定着率の比較</text>
+  <text x="600" y="80" text-anchor="middle" font-size="17" fill="#657786">同じ総学習時間（週70分）でも定着率に大きな差が生まれる</text>
+
+  <!-- Legend -->
+  <rect x="700" y="104" width="26" height="14" rx="4" fill="#1DA1F2"/>
+  <text x="734" y="117" font-size="15" fill="#14171A">週3回×30分（集中・高負荷）</text>
+  <rect x="700" y="128" width="26" height="14" rx="4" fill="#657786" opacity="0.6"/>
+  <text x="734" y="141" font-size="15" fill="#14171A">毎日×10分（ダラダラ・低負荷）</text>
+
+  <!-- Chart area -->
+  <!-- Y axis -->
+  <line x1="140" y1="160" x2="140" y2="530" stroke="#E1E8ED" stroke-width="2"/>
+  <!-- X axis -->
+  <line x1="140" y1="530" x2="1080" y2="530" stroke="#E1E8ED" stroke-width="2"/>
+
+  <!-- Y axis labels -->
+  <text x="128" y="164" text-anchor="end" font-size="13" fill="#657786">100%</text>
+  <text x="128" y="240" text-anchor="end" font-size="13" fill="#657786">80%</text>
+  <text x="128" y="316" text-anchor="end" font-size="13" fill="#657786">60%</text>
+  <text x="128" y="392" text-anchor="end" font-size="13" fill="#657786">40%</text>
+  <text x="128" y="468" text-anchor="end" font-size="13" fill="#657786">20%</text>
+  <text x="128" y="534" text-anchor="end" font-size="13" fill="#657786">0%</text>
+
+  <!-- Grid lines -->
+  <line x1="140" y1="240" x2="1080" y2="240" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="316" x2="1080" y2="316" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="392" x2="1080" y2="392" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="468" x2="1080" y2="468" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- X axis labels -->
+  <text x="300" y="554" text-anchor="middle" font-size="15" fill="#657786">学習直後</text>
+  <text x="550" y="554" text-anchor="middle" font-size="15" fill="#657786">1ヶ月後</text>
+  <text x="800" y="554" text-anchor="middle" font-size="15" fill="#657786">3ヶ月後</text>
+  <text x="1040" y="554" text-anchor="middle" font-size="15" fill="#657786">半年後</text>
+
+  <!-- Weekly 3x line (高い方: #1DA1F2) -->
+  <!-- 直後: 90% → y= 530-(0.9*370)=197 -->
+  <!-- 1ヶ月: 78% → y= 530-(0.78*370)=241 -->
+  <!-- 3ヶ月: 65% → y= 530-(0.65*370)=290 -->
+  <!-- 半年: 55% → y= 530-(0.55*370)=327 -->
+  <polyline points="300,197 550,241 800,290 1040,327"
+    stroke="#1DA1F2" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Data points -->
+  <circle cx="300" cy="197" r="8" fill="#1DA1F2"/>
+  <circle cx="550" cy="241" r="8" fill="#1DA1F2"/>
+  <circle cx="800" cy="290" r="8" fill="#1DA1F2"/>
+  <circle cx="1040" cy="327" r="8" fill="#1DA1F2"/>
+  <!-- Value labels -->
+  <text x="300" y="186" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">90%</text>
+  <text x="550" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">78%</text>
+  <text x="800" y="279" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">65%</text>
+  <text x="1040" y="316" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">55%</text>
+
+  <!-- Daily 10min line (低い方: #657786) -->
+  <!-- 直後: 88% → y= 530-(0.88*370)=205 -->
+  <!-- 1ヶ月: 52% → y= 530-(0.52*370)=338 -->
+  <!-- 3ヶ月: 32% → y= 530-(0.32*370)=412 -->
+  <!-- 半年: 18% → y= 530-(0.18*370)=463 -->
+  <polyline points="300,205 550,338 800,412 1040,463"
+    stroke="#657786" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10,5" opacity="0.8"/>
+  <circle cx="300" cy="205" r="8" fill="#657786" opacity="0.8"/>
+  <circle cx="550" cy="338" r="8" fill="#657786" opacity="0.8"/>
+  <circle cx="800" cy="412" r="8" fill="#657786" opacity="0.8"/>
+  <circle cx="1040" cy="463" r="8" fill="#657786" opacity="0.8"/>
+  <text x="300" y="222" text-anchor="middle" font-size="14" fill="#657786">88%</text>
+  <text x="550" y="355" text-anchor="middle" font-size="14" fill="#657786">52%</text>
+  <text x="800" y="430" text-anchor="middle" font-size="14" fill="#657786">32%</text>
+  <text x="1040" y="480" text-anchor="middle" font-size="14" fill="#657786">18%</text>
+
+  <!-- Gap annotation at 半年後 -->
+  <line x1="1060" y1="327" x2="1060" y2="463" stroke="#E8F5FE" stroke-width="1.5"/>
+  <rect x="1066" y="376" width="86" height="38" rx="8" fill="#1DA1F2"/>
+  <text x="1109" y="399" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">+37pt差</text>
+
+  <!-- Key insight box -->
+  <rect x="140" y="578" width="920" height="48" rx="12" fill="#14171A"/>
+  <text x="600" y="607" text-anchor="middle" font-size="16" fill="#FFFFFF">
+    <tspan font-weight="bold" fill="#1DA1F2">「望ましい困難（desirable difficulties）」</tspan>
+    <tspan fill="#FFFFFF"> — 適度な困難が長期記憶を強化する（Bjork, 1994）</tspan>
+  </text>
+
+  <!-- Note about values -->
+  <text x="600" y="650" text-anchor="middle" font-size="12" fill="#AAB8C2">※グラフ数値は間隔学習研究の知見に基づく概念的モデル。個人差あり。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

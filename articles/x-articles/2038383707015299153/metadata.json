@@ -1,0 +1,30 @@
+{
+  "tweet_id": "2038383707015299153",
+  "likes": 45,
+  "article_theme": "2時間一気より30分×4回が記憶に残る。分散学習効果の科学と実践法。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "description": "集中型 vs 分散型学習の記憶定着率比較グラフ（Ebbinghaus忘却曲線ベース）"
+    },
+    {
+      "file": "figure_2.svg",
+      "description": "1日の最適学習スケジュール例（ポモドーロ式4セッション）"
+    }
+  ],
+  "fact_check": "PASS",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo",
+  "key_references": [
+    "Ebbinghaus (1885) - 忘却曲線",
+    "Cepeda et al. (2006) - Psychological Bulletin, 分散学習メタ分析",
+    "Walker & Stickgold (2006) - 睡眠と記憶固定化",
+    "Ariga & Lleras (2011) - Cognition, 休憩と集中力"
+  ]
+}

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2535;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg3)" />
+
+  <!-- Title -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">生活シーン別 英語実況フレーズ集</text>
+  <text x="600" y="76" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786" text-anchor="middle">目の前の行動を英語で描写するだけ。場所も相手も要らない最強スピーキング練習</text>
+
+  <!-- Scene cards: 5 columns -->
+
+  <!-- Morning 朝 -->
+  <rect x="30" y="100" width="210" height="490" fill="#1a2535" stroke="#f5c518" stroke-width="2" rx="14"/>
+  <rect x="30" y="100" width="210" height="50" fill="#f5c518" rx="14"/>
+  <rect x="30" y="132" width="210" height="18" fill="#f5c518"/>
+  <text x="135" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" text-anchor="middle">🌅</text>
+  <text x="135" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#14171A" text-anchor="middle">朝</text>
+  <text x="135" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5c518" text-anchor="middle" font-style="italic">"I'm waking up."</text>
+  <text x="135" y="203" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">目が覚めた</text>
+  <line x1="50" y1="215" x2="220" y2="215" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="135" y="236" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5c518" text-anchor="middle" font-style="italic">"I'm making coffee."</text>
+  <text x="135" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">コーヒーを淹れてる</text>
+  <line x1="50" y1="266" x2="220" y2="266" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="135" y="287" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5c518" text-anchor="middle" font-style="italic">"It's a bit chilly."</text>
+  <text x="135" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">少し肌寒い</text>
+  <line x1="50" y1="317" x2="220" y2="317" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="135" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5c518" text-anchor="middle" font-style="italic">"I'm getting dressed."</text>
+  <text x="135" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">着替えてる</text>
+  <line x1="50" y1="368" x2="220" y2="368" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="135" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5c518" text-anchor="middle" font-style="italic">"I'm eating breakfast."</text>
+  <text x="135" y="407" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">朝食を食べてる</text>
+  <line x1="50" y1="419" x2="220" y2="419" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="135" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5c518" text-anchor="middle" font-style="italic">"I'm running late."</text>
+  <text x="135" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">遅れそう</text>
+  <text x="135" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">▶ 約6フレーズ/朝</text>
+
+  <!-- Commute 通勤 -->
+  <rect x="254" y="100" width="210" height="490" fill="#1a2535" stroke="#1DA1F2" stroke-width="2" rx="14"/>
+  <rect x="254" y="100" width="210" height="50" fill="#1DA1F2" rx="14"/>
+  <rect x="254" y="132" width="210" height="18" fill="#1DA1F2"/>
+  <text x="359" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" text-anchor="middle">🚃</text>
+  <text x="359" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">通勤</text>
+  <text x="359" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff" text-anchor="middle" font-style="italic">"The train is crowded."</text>
+  <text x="359" y="203" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">電車が混んでる</text>
+  <line x1="274" y1="215" x2="444" y2="215" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="359" y="236" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff" text-anchor="middle" font-style="italic">"It's raining outside."</text>
+  <text x="359" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">外は雨が降ってる</text>
+  <line x1="274" y1="266" x2="444" y2="266" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="359" y="287" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff" text-anchor="middle" font-style="italic">"I'm listening to music."</text>
+  <text x="359" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">音楽を聴いてる</text>
+  <line x1="274" y1="317" x2="444" y2="317" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="359" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff" text-anchor="middle" font-style="italic">"I got a seat!"</text>
+  <text x="359" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">座れた！</text>
+  <line x1="274" y1="368" x2="444" y2="368" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="359" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff" text-anchor="middle" font-style="italic">"My stop is next."</text>
+  <text x="359" y="407" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">次が降りる駅だ</text>
+  <line x1="274" y1="419" x2="444" y2="419" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="359" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff" text-anchor="middle" font-style="italic">"I'm almost there."</text>
+  <text x="359" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">もうすぐ着く</text>
+  <text x="359" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5bd4ff" text-anchor="middle">▶ 約8フレーズ/日</text>
+
+  <!-- Work 仕事 -->
+  <rect x="478" y="100" width="210" height="490" fill="#1a2535" stroke="#5a9a5a" stroke-width="2" rx="14"/>
+  <rect x="478" y="100" width="210" height="50" fill="#5a9a5a" rx="14"/>
+  <rect x="478" y="132" width="210" height="18" fill="#5a9a5a"/>
+  <text x="583" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" text-anchor="middle">💻</text>
+  <text x="583" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">仕事中</text>
+  <text x="583" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8adf8a" text-anchor="middle" font-style="italic">"I'm checking emails."</text>
+  <text x="583" y="203" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">メールを確認してる</text>
+  <line x1="498" y1="215" x2="668" y2="215" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="583" y="236" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8adf8a" text-anchor="middle" font-style="italic">"I'm in a meeting."</text>
+  <text x="583" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">会議中だ</text>
+  <line x1="498" y1="266" x2="668" y2="266" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="583" y="287" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8adf8a" text-anchor="middle" font-style="italic">"I'm stuck on this."</text>
+  <text x="583" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">これで詰まってる</text>
+  <line x1="498" y1="317" x2="668" y2="317" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="583" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8adf8a" text-anchor="middle" font-style="italic">"I solved it!"</text>
+  <text x="583" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">解決した！</text>
+  <line x1="498" y1="368" x2="668" y2="368" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="583" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8adf8a" text-anchor="middle" font-style="italic">"I need a break."</text>
+  <text x="583" y="407" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">休憩が必要だ</text>
+  <line x1="498" y1="419" x2="668" y2="419" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="583" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8adf8a" text-anchor="middle" font-style="italic">"I'm almost done."</text>
+  <text x="583" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">もうすぐ終わる</text>
+  <text x="583" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8adf8a" text-anchor="middle">▶ 約10フレーズ/日</text>
+
+  <!-- Dinner 夕食 -->
+  <rect x="702" y="100" width="210" height="490" fill="#1a2535" stroke="#e07050" stroke-width="2" rx="14"/>
+  <rect x="702" y="100" width="210" height="50" fill="#e07050" rx="14"/>
+  <rect x="702" y="132" width="210" height="18" fill="#e07050"/>
+  <text x="807" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" text-anchor="middle">🍽️</text>
+  <text x="807" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">夕食</text>
+  <text x="807" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffb090" text-anchor="middle" font-style="italic">"I'm cooking dinner."</text>
+  <text x="807" y="203" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">夕飯を作ってる</text>
+  <line x1="722" y1="215" x2="892" y2="215" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="807" y="236" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffb090" text-anchor="middle" font-style="italic">"This smells great."</text>
+  <text x="807" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">いい匂いだ</text>
+  <line x1="722" y1="266" x2="892" y2="266" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="807" y="287" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffb090" text-anchor="middle" font-style="italic">"I'm a bit hungry."</text>
+  <text x="807" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">少しお腹が空いた</text>
+  <line x1="722" y1="317" x2="892" y2="317" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="807" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffb090" text-anchor="middle" font-style="italic">"This is delicious!"</text>
+  <text x="807" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">これ美味しい！</text>
+  <line x1="722" y1="368" x2="892" y2="368" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="807" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffb090" text-anchor="middle" font-style="italic">"I'm full now."</text>
+  <text x="807" y="407" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">もうお腹いっぱい</text>
+  <line x1="722" y1="419" x2="892" y2="419" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="807" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#ffb090" text-anchor="middle" font-style="italic">"Let me clean up."</text>
+  <text x="807" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">片付けよう</text>
+  <text x="807" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#ffb090" text-anchor="middle">▶ 約7フレーズ/夜</text>
+
+  <!-- Bedtime 就寝 -->
+  <rect x="926" y="100" width="248" height="490" fill="#1a2535" stroke="#8080c0" stroke-width="2" rx="14"/>
+  <rect x="926" y="100" width="248" height="50" fill="#8080c0" rx="14"/>
+  <rect x="926" y="132" width="248" height="18" fill="#8080c0"/>
+  <text x="1050" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" text-anchor="middle">🌙</text>
+  <text x="1050" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">就寝前</text>
+  <text x="1050" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0c0ff" text-anchor="middle" font-style="italic">"I'm taking a shower."</text>
+  <text x="1050" y="203" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">シャワーを浴びてる</text>
+  <line x1="946" y1="215" x2="1154" y2="215" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="1050" y="236" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0c0ff" text-anchor="middle" font-style="italic">"I'm tired today."</text>
+  <text x="1050" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">今日は疲れた</text>
+  <line x1="946" y1="266" x2="1154" y2="266" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="1050" y="287" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0c0ff" text-anchor="middle" font-style="italic">"I'm watching a show."</text>
+  <text x="1050" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">ドラマを観てる</text>
+  <line x1="946" y1="317" x2="1154" y2="317" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="1050" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0c0ff" text-anchor="middle" font-style="italic">"I should go to sleep."</text>
+  <text x="1050" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">寝なきゃ</text>
+  <line x1="946" y1="368" x2="1154" y2="368" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="1050" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0c0ff" text-anchor="middle" font-style="italic">"I'm setting my alarm."</text>
+  <text x="1050" y="407" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">アラームをセットしてる</text>
+  <line x1="946" y1="419" x2="1154" y2="419" stroke="#2a3a4a" stroke-width="1"/>
+  <text x="1050" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0c0ff" text-anchor="middle" font-style="italic">"Good night, me."</text>
+  <text x="1050" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">おやすみ自分</text>
+  <text x="1050" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#c0c0ff" text-anchor="middle">▶ 約6フレーズ/夜</text>
+
+  <!-- Total -->
+  <rect x="30" y="602" width="1144" height="48" fill="#1a3040" stroke="#1DA1F2" stroke-width="1.5" rx="10"/>
+  <text x="600" y="621" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2" text-anchor="middle">合計 1日30〜40フレーズ以上 ／ 相手も場所も予算も不要</text>
+  <text x="600" y="641" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">現在進行形（I'm〜ing）を基本に。天気・感情・状況の描写を加えると表現が豊かになる</text>
+
+  <!-- Credit -->
+  <text x="1175" y="668" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

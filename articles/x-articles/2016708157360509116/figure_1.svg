@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">翻訳モード思考 vs 英語モード思考：分岐フロー図</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">「何か伝えたいことがある」という状況からの思考の分岐</text>
+
+  <!-- START node -->
+  <ellipse cx="600" cy="132" rx="140" ry="36" fill="#14171A" filter="url(#shadow)"/>
+  <text x="600" y="137" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="white">「何か伝えたい」</text>
+
+  <!-- Arrow down to split -->
+  <line x1="600" y1="168" x2="600" y2="210" stroke="#657786" stroke-width="2"/>
+  <polygon points="594,205 600,218 606,205" fill="#657786"/>
+
+  <!-- Diamond decision -->
+  <polygon points="600,218 720,270 600,322 480,270" fill="#657786" filter="url(#shadow)"/>
+  <text x="600" y="265" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="white">思考の</text>
+  <text x="600" y="282" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="white">出発点は？</text>
+
+  <!-- LEFT branch: 翻訳モード -->
+  <line x1="480" y1="270" x2="240" y2="270" stroke="#ff6b6b" stroke-width="2.5"/>
+  <polygon points="245,264 232,270 245,276" fill="#ff6b6b"/>
+  <text x="356" y="258" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0392b">日本語で考える</text>
+
+  <!-- RIGHT branch: 英語モード -->
+  <line x1="720" y1="270" x2="960" y2="270" stroke="#1DA1F2" stroke-width="2.5"/>
+  <polygon points="955,264 968,270 955,276" fill="#1DA1F2"/>
+  <text x="844" y="258" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#0d7fc0">英語で直接考える</text>
+
+  <!-- ===== LEFT: Translation Mode Flow ===== -->
+  <!-- Header box -->
+  <rect x="60" y="300" width="320" height="44" rx="10" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="220" y="327" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="white">翻訳モード思考</text>
+
+  <!-- Step boxes left -->
+  <rect x="80" y="362" width="280" height="42" rx="6" fill="white" filter="url(#shadow)"/>
+  <text x="220" y="378" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0392b" font-weight="600">①「また連絡します」と日本語で思う</text>
+  <text x="220" y="395" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">日本語の文章が先に完成する</text>
+
+  <line x1="220" y1="404" x2="220" y2="424" stroke="#ff6b6b" stroke-width="2"/>
+  <polygon points="214,419 220,432 226,419" fill="#ff6b6b"/>
+
+  <rect x="80" y="432" width="280" height="42" rx="6" fill="white" filter="url(#shadow)"/>
+  <text x="220" y="448" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0392b" font-weight="600">②「英語でなんて言う？」と検索</text>
+  <text x="220" y="465" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">脳内辞書を漁り始める</text>
+
+  <line x1="220" y1="474" x2="220" y2="494" stroke="#ff6b6b" stroke-width="2"/>
+  <polygon points="214,489 220,502 226,489" fill="#ff6b6b"/>
+
+  <rect x="80" y="502" width="280" height="42" rx="6" fill="white" filter="url(#shadow)"/>
+  <text x="220" y="518" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0392b" font-weight="600">③「I will contact…？」と試行錯誤</text>
+  <text x="220" y="535" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">文法・単語を組み合わせる作業</text>
+
+  <line x1="220" y1="544" x2="220" y2="564" stroke="#ff6b6b" stroke-width="2"/>
+  <polygon points="214,559 220,572 226,559" fill="#ff6b6b"/>
+
+  <!-- Outcome Left -->
+  <rect x="60" y="572" width="320" height="54" rx="10" fill="#c0392b" filter="url(#shadow)"/>
+  <text x="220" y="594" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="white">会話のテンポに乗れない</text>
+  <text x="220" y="614" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#ffaaaa">翻訳が上手くなるだけ→ゴールに近づかない</text>
+
+  <!-- ===== RIGHT: English Mode Flow ===== -->
+  <!-- Header box -->
+  <rect x="820" y="300" width="320" height="44" rx="10" fill="#1DA1F2" filter="url(#shadow)"/>
+  <text x="980" y="327" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="white">英語モード思考</text>
+
+  <!-- Step boxes right -->
+  <rect x="840" y="362" width="280" height="42" rx="6" fill="white" filter="url(#shadow)"/>
+  <text x="980" y="378" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#0d7fc0" font-weight="600">①「I'll get back to you」が浮かぶ</text>
+  <text x="980" y="395" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">英語フレーズが直接連想される</text>
+
+  <line x1="980" y1="404" x2="980" y2="424" stroke="#1DA1F2" stroke-width="2"/>
+  <polygon points="974,419 980,432 986,419" fill="#1DA1F2"/>
+
+  <rect x="840" y="432" width="280" height="42" rx="6" fill="white" filter="url(#shadow)"/>
+  <text x="980" y="448" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#0d7fc0" font-weight="600">② 感覚・状況とフレーズが直結</text>
+  <text x="980" y="465" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">翻訳作業が発生しない</text>
+
+  <line x1="980" y1="474" x2="980" y2="494" stroke="#1DA1F2" stroke-width="2"/>
+  <polygon points="974,489 980,502 986,489" fill="#1DA1F2"/>
+
+  <rect x="840" y="502" width="280" height="42" rx="6" fill="white" filter="url(#shadow)"/>
+  <text x="980" y="518" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#0d7fc0" font-weight="600">③ 迷いなく即座に発話</text>
+  <text x="980" y="535" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">思考と発話が同時に起きる</text>
+
+  <line x1="980" y1="544" x2="980" y2="564" stroke="#1DA1F2" stroke-width="2"/>
+  <polygon points="974,559 980,572 986,559" fill="#1DA1F2"/>
+
+  <!-- Outcome Right -->
+  <rect x="820" y="572" width="320" height="54" rx="10" fill="#0d7fc0" filter="url(#shadow)"/>
+  <text x="980" y="594" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="white">会話が自然に流れる</text>
+  <text x="980" y="614" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aadcf8">「翻訳しなくなる」がゴール</text>
+
+  <!-- Center vs label -->
+  <ellipse cx="600" cy="490" rx="52" ry="26" fill="#14171A" filter="url(#shadow)"/>
+  <text x="600" y="495" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="white">VS</text>
+
+  <!-- Credit -->
+  <text x="1180" y="668" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">@ichi_eigo</text>
+</svg>
