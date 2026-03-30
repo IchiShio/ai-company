@@ -25,3 +25,29 @@ Reposted: 2036022656491753619 (likes=72)
 Reposted: 2035845660377850132 (likes=40)
   リスニング教材をゆっくり再生してる人、今すぐやめてください。遅い音声に耳が慣れると、実際の会話スピードで脳が処理できなくなる。ネイティブの平均発話速度は1分あた
   Result: {'data': {'retweeted': True, 'rest_id': '2038062842059149603'}}
+Reposted: 2032585998241243526 (likes=26)
+  「英語学習は毎日コツコツ努力するもの」 これ、半分ウソ。努力＝意志力に頼ってる時点で いつか必ず途切れる。続いてる人は「努力してる感覚」がない。 歯磨きの後に3
+  Result: {'data': {'retweeted': True, 'rest_id': '2038114687624380913'}}
+Reposted: 2034917876667162928 (likes=71)
+  スピーキング練習に使える「4/3/2」という方法があります。同じ話題を4分、3分、2分と縮めて3回話すだけ。回数を重ねるごとに発話速度が上がりポーズが減ることが
+  Result: {'data': {'retweeted': True, 'rest_id': '2038226421227954322'}}
+Traceback (most recent call last):
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 121, in <module>
+    main()
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 102, in main
+    result = oauth_request(env, 'POST',
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 63, in oauth_request
+    with urllib.request.urlopen(req) as resp:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request

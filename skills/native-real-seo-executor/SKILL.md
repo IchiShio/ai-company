@@ -79,8 +79,8 @@ URLパス `/articles/foo/` → `~/projects/claude/native-real/articles/foo/index
 ```
 
 **改善指針**:
-- `<title>`: 28〜32文字。数字・メリット・年度・【】などで訴求力を上げる
-- `<meta name="description">`: 100〜120文字。検索意図に直接応える内容にする
+- `<title>`: 目安28〜35文字（Googleに公式規定なし。モバイル表示幅からの実用目安）。数字・メリット・年度・【】などで訴求力を上げる
+- `<meta name="description">`: Googleに文字数制限なし。検索意図に直接応える質の高い内容を優先。目安80〜130文字（表示幅を考慮）
 - `og:title` / `og:description` も必ず同時に更新する
 - ブランド名「| 英語学習サービス比較ナビ」はtitleの末尾に維持する
 
@@ -118,8 +118,8 @@ URLパス `/articles/foo/` → `~/projects/claude/native-real/articles/foo/index
   - 実際の使用例（例文 10〜15個）
   - 似た表現との違い（類語比較）
   - NG例・注意点
-  - よくある質問（FAQ、JSON-LD schema も追加）
-- JSON-LD の FAQPage schema に新しい質問を追加する
+  - よくある質問（FAQ セクション）
+- ※ FAQPage JSON-LD schema はGoogle公式方針上「政府・医療機関サイト限定」のため追加しない（リッチリザルト非対象）。Article schema の充実を優先する
 - `<meta name="description">` も検索意図に合わせて更新する
 
 **実行前の確認フォーマット**:
@@ -158,7 +158,7 @@ mkdir -p ~/projects/claude/native-real/{type}/{slug}/
 - GTM スニペット（既存ページからコピー）
 - canonical URL
 - OGP タグ（og:title, og:description, og:url, og:site_name）
-- JSON-LD schema（FAQPage または Article）
+- JSON-LD schema（Article型。FAQPageはGoogle公式方針上native-realでは非対象）
 - パンくずリスト
 - 内部リンク（関連ページへの導線を最低3件）
 - sitemap.xml への追加（`~/projects/claude/native-real/sitemap.xml` を更新）
@@ -348,6 +348,11 @@ GitHub Pages への反映: 1〜2分後
 - 英語フレーズページは「ネイティブが実際に使う文脈」を重視した例文を作る
 - SEOを意識しつつも、読者が読んで価値を感じる内容を最優先にする
 - HTMLの構造（GTMスニペット・canonical・JSON-LD等）は既存ページのパターンを厳守する
+
+### E-E-A-T 対応（Google公式強化項目）
+- **著者byline**: 新規ページ・リライト時に `<meta name="author">` と JSON-LD の `author` に著者情報を明示する
+- **AI生成開示**: Claude が生成したコンテンツには JSON-LD に `"description": "AI支援により作成"` またはフッターに「本記事はAIを活用して作成しています」の一文を追加する（Googleのスパムポリシー遵守）
+- **信頼性（Trustworthiness）**: E-E-A-Tの中で最重要。外部データの引用元・更新日・監修者の明示を優先する
 
 ---
 
