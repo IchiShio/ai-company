@@ -51,3 +51,6 @@ Traceback (most recent call last):
   File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 400: Bad Request
+Reposted: 2028402180244361676 (likes=61)
+  英語は「完璧な文を組み立ててから話す」ものだと思ってる人が多い。でもネイティブの頭の中は違う。見たものをそのまま英語で実況してる感じ。完成度より速度。だからこそ
+  Result: {'data': {'retweeted': True, 'rest_id': '2038588814550278628'}}
