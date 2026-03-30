@@ -1,0 +1,57 @@
+name: oac scheduled posts
+
+on:
+  schedule:
+    # JST 7:15 = UTC 22:15 (前日)
+    - cron: '15 22 * * *'
+    # JST 18:15 = UTC 9:15
+    - cron: '15 9 * * *'
+  workflow_dispatch:
+    inputs:
+      text:
+        description: '投稿テキスト（空欄ならスケジュール通り）'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests requests-oauthlib
+
+      - name: Determine post text
+        id: text
+        run: |
+          python3 scripts/pick_scheduled_post_oac.py >> "$GITHUB_OUTPUT"
+        env:
+          MANUAL_TEXT: ${{ github.event.inputs.text || '' }}
+
+      - name: Post to X
+        if: steps.text.outputs.post_text != ''
+        run: |
+          python3 scripts/post_tweet_oac.py
+        env:
+          POST_TEXT: ${{ steps.text.outputs.post_text }}
+          OAC_X_API_KEY: ${{ secrets.OAC_X_API_KEY }}
+          OAC_X_API_SECRET: ${{ secrets.OAC_X_API_SECRET }}
+          OAC_X_ACCESS_TOKEN: ${{ secrets.OAC_X_ACCESS_TOKEN }}
+          OAC_X_ACCESS_TOKEN_SECRET: ${{ secrets.OAC_X_ACCESS_TOKEN_SECRET }}
+
+      - name: Mark as posted and push
+        if: steps.text.outputs.post_text != ''
+        run: |
+          python3 scripts/mark_posted_oac.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add oac-knowledge/posts/schedule.json
+          git diff --cached --quiet || git commit -m "mark posted: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
