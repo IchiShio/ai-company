@@ -10,5 +10,22 @@
         ]
       }
     ]
+  },
+  "permissions": {
+    "allow": [
+      "Edit(services/**)",
+      "Edit(articles/**)",
+      "Edit(real-phrases/**)",
+      "Edit(ranking/**)",
+      "Edit(index.html)",
+      "Edit(listening/**)",
+      "Edit(listening/index.html)",
+      "Write(services/**)",
+      "Write(articles/**)",
+      "Write(real-phrases/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
   }
 }
