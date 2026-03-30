@@ -61,4 +61,88 @@ export const SCENARIOS: ThoughtScenario[] = [
       'Turns': '"Turns out" = dramatic reveal of the explanation',
     },
   },
+
+  // ── Scenarios from listening quiz expressions ─────────────
+  {
+    id: 'body-idioms',
+    title: 'Body Idioms in Daily Life',
+    titleJa: '体にまつわる日常イディオム',
+    text: "My back is killing me — I think I slept in a weird position. And on top of that, I completely blanked during this morning's presentation. My mind just went empty. I've been on hold with tech support for forty minutes now because the Wi-Fi keeps cutting out. This is ridiculous. I can't get anything done working from home today.",
+    particles: [
+      { type: 'nuance', label: 'killing me', explanation: '"is killing me" doesn\'t mean literal death — it\'s a dramatic exaggeration (hyperbole) to express intense pain or annoyance. Extremely common in casual English.', relX: 0.2, relY: 0.05 },
+      { type: 'idea', label: 'blanked', explanation: '"completely blanked" = mind went empty, forgot everything. Related to "drawing a blank." The adverb "completely" intensifies the embarrassment.', relX: 0.75, relY: 0.15 },
+      { type: 'connector', label: 'on top of', explanation: '"on top of that" stacks complaints — it says "and if that wasn\'t bad enough..." It builds narrative momentum in a sequence of problems.', relX: 0.15, relY: 0.35 },
+      { type: 'cultural', label: 'on hold', explanation: '"on hold" is a phone-specific idiom. Combined with "for forty minutes" and "This is ridiculous," it paints a universally relatable frustration picture.', relX: 0.8, relY: 0.5 },
+      { type: 'nuance', label: 'keeps -ing', explanation: '"keeps cutting out" uses "keep + -ing" to express annoying repetition. It conveys that the problem isn\'t one-time but ongoing frustration.', relX: 0.4, relY: 0.7 },
+    ],
+    wordNotes: {
+      'killing': '"is killing me" = extreme informal exaggeration for pain/annoyance',
+      'blanked': '"blanked" = mind went empty (from listening quiz: "completely blanked during the presentation")',
+      'hold': '"on hold" = waiting on a phone line',
+      'cutting': '"cutting out" = intermittent disconnection (Wi-Fi, phone signal)',
+      'ridiculous': 'Expression of frustration — stronger than "annoying," weaker than "outrageous"',
+    },
+  },
+  {
+    id: 'polite-requests',
+    title: 'The Art of Polite Requests',
+    titleJa: '丁寧なお願いの技術',
+    text: "Could I get an extra blanket? It's a bit cold in here. Oh, and do you have this in a size medium? I can't find it on the rack. Also, table for two, please — do you have anything near the window? Sorry, one more thing: could you turn that down a little? I'm trying to get some sleep.",
+    particles: [
+      { type: 'nuance', label: 'could I', explanation: '"Could I" is softer than "Can I" — it adds a layer of politeness by using the conditional. "Can I get" is acceptable but more casual. Natives switch between them based on formality.', relX: 0.2, relY: 0.08 },
+      { type: 'idea', label: 'a bit', explanation: '"a bit cold" uses "a bit" as a classic British-influenced understatement. Saying "It\'s very cold" would sound like a complaint; "a bit" makes it a gentle observation.', relX: 0.8, relY: 0.2 },
+      { type: 'connector', label: 'Oh, and', explanation: '"Oh, and" is a casual connector that makes an additional request feel like an afterthought rather than a demand. It softens the accumulation of requests.', relX: 0.15, relY: 0.4 },
+      { type: 'cultural', label: 'sorry', explanation: '"Sorry, one more thing" — English speakers apologize before imposing. This isn\'t a real apology; it\'s a social lubricant that acknowledges you\'re asking a lot.', relX: 0.7, relY: 0.6 },
+      { type: 'nuance', label: 'a little', explanation: '"turn that down a little" — "a little" minimizes the request. Without it, "turn that down" sounds like a command. This tiny phrase transforms an order into a favor.', relX: 0.4, relY: 0.8 },
+    ],
+    wordNotes: {
+      'Could': '"Could I" = polite request form (conditional mood)',
+      'extra': '"extra blanket" — "extra" implies one more, not a replacement',
+      'rack': '"on the rack" = display shelf in a clothing store',
+      'turn': '"turn down" = reduce volume (phrasal verb)',
+      'trying': '"trying to get some sleep" = attempting but being prevented',
+    },
+  },
+
+  // ── Scenario from words/vocab nuance data ─────────────────
+  {
+    id: 'nuance-look-see-watch',
+    title: 'Nuance: Look, See, Watch',
+    titleJa: 'ニュアンス: look / see / watch の違い',
+    text: "I looked out the window and saw a bird building a nest. I watched it for about ten minutes — it was fascinating. Then I noticed something else: a cat was watching the bird from below. The bird didn't seem to see the cat at all. I kept looking, hoping the cat would lose interest. Eventually it wandered off, and I could see the bird was safe.",
+    particles: [
+      { type: 'idea', label: 'look', explanation: '"look" = intentional, active — you direct your eyes somewhere on purpose. "Looked out the window" = chose to direct attention there.', relX: 0.15, relY: 0.08 },
+      { type: 'idea', label: 'see', explanation: '"see" = passive perception — something enters your vision without effort. "Saw a bird" = it appeared in my field of vision naturally.', relX: 0.8, relY: 0.15 },
+      { type: 'idea', label: 'watch', explanation: '"watch" = sustained, intentional observation over time. "Watched it for ten minutes" = continuously gave it attention.', relX: 0.5, relY: 0.35 },
+      { type: 'nuance', label: 'notice', explanation: '"noticed something else" — "notice" bridges look and see. It means becoming aware of something, often unexpectedly. More active than "see" but less deliberate than "look."', relX: 0.2, relY: 0.55 },
+      { type: 'connector', label: 'kept -ing', explanation: '"kept looking" = continued the action over time. "Keep + -ing" emphasizes persistence and adds emotional investment to the scene.', relX: 0.65, relY: 0.75 },
+    ],
+    wordNotes: {
+      'looked': 'Active, intentional direction of eyes (from words quiz: look/see/watch distinction)',
+      'saw': 'Passive perception — "it came into view"',
+      'watched': 'Prolonged, focused observation — implies interest or concern',
+      'noticed': 'Became aware of — between active "look" and passive "see"',
+      'seem': '"didn\'t seem to see" = appeared not to notice (perception + judgment)',
+    },
+  },
+  {
+    id: 'emotion-at-work',
+    title: 'Emotional Reactions at Work',
+    titleJa: '仕事での感情表現',
+    text: "I passed! I can't believe it. Three attempts and I finally got my certification! Honestly, I was hesitant about even trying again after failing twice. But my manager was really supportive — she kept saying, 'Don't hesitate to ask if you need help.' I'm so grateful for that. The whole team seems genuinely curious about how I pulled it off.",
+    particles: [
+      { type: 'nuance', label: 'can\'t believe', explanation: '"I can\'t believe it" is a joy/surprise expression. It doesn\'t mean literal disbelief — it\'s an emotional amplifier that says "this feels too good to be real."', relX: 0.75, relY: 0.05 },
+      { type: 'idea', label: 'hesitant', explanation: '"hesitant about trying" — hesitant (adjective) vs. hesitate (verb). The adjective form conveys a state of mind, the verb conveys an action. Both from the same root but used differently.', relX: 0.2, relY: 0.25 },
+      { type: 'cultural', label: 'supportive', explanation: 'English workplace culture values explicit verbal support. "Really supportive" + specific example ("kept saying...") is more convincing than just "she was nice."', relX: 0.8, relY: 0.4 },
+      { type: 'connector', label: 'Honestly', explanation: '"Honestly" as a sentence opener signals vulnerability — the speaker is about to admit something they might not usually say. It builds trust and authenticity.', relX: 0.15, relY: 0.55 },
+      { type: 'nuance', label: 'pulled it off', explanation: '"pulled it off" = succeeded at something difficult. This phrasal verb implies the success was impressive or unlikely. More vivid than just "did it."', relX: 0.55, relY: 0.75 },
+    ],
+    wordNotes: {
+      'passed': '"I passed" = succeeded on an exam/test (from listening quiz)',
+      'hesitant': 'Adjective form of "hesitate" — reluctant, unsure (from words quiz)',
+      'grateful': '"grateful for" = feeling thankful — stronger than "happy about" (from words quiz)',
+      'curious': '"curious about" = wanting to know more (from words quiz)',
+      'pulled': '"pulled it off" = accomplished something difficult (idiom)',
+    },
+  },
 ]
