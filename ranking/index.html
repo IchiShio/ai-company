@@ -538,6 +538,80 @@ img { max-width: 100%; height: auto; }
 }
 .btn-cta-white:hover { opacity: 0.92; color: var(--primary); transform: translateY(-1px); }
 
+/* フローティングCTAバー */
+#float-cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 2px solid #10b981;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
+  z-index: 200;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease;
+}
+#float-cta-bar.hidden { transform: translateY(100%); }
+.float-cta-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.float-cta-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.float-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #10b981;
+  color: white;
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px rgba(16,185,129,0.3);
+}
+.float-cta-link:hover { background: #059669; color: white; transform: translateY(-1px); }
+.float-cta-rank {
+  background: rgba(255,255,255,0.25);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+#float-cta-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  line-height: 1;
+  transition: background 0.15s;
+}
+#float-cta-close:hover { background: var(--bg-gray); }
+@media (max-width: 480px) {
+  .float-cta-title { display: none; }
+  .float-cta-link { padding: 8px 12px; font-size: 0.76rem; }
+}
+
 /* Footer */
 .site-footer {
   background: #0f172a;
@@ -1246,7 +1320,8 @@ img { max-width: 100%; height: auto; }
       <button class="filter-tab"        data-filter="native"  onclick="applyFilter(this)">ネイティブ講師</button>
     </div>
     <div class="ranking-list" id="onlineRankingList">
-  <div class="ranking-card rank-1" data-tags="cospa sukima">
+  <div class="ranking-card rank-1" data-tags="cospa sukima" style="position:relative;">
+    <div style="position:absolute;top:-1px;right:12px;background:linear-gradient(135deg,#f59e0b,#ef4444);color:white;font-size:0.68rem;font-weight:800;padding:3px 10px;border-radius:0 0 8px 8px;letter-spacing:0.03em;box-shadow:0 2px 8px rgba(239,68,68,0.3);">✦ 編集部イチ押し</div>
     <div class="rank-badge">1</div>
     <div class="card-body">
       <h3><a href="/services/dmm-eikaiwa/" style="text-decoration:none;color:inherit;">DMM英会話</a></h3>
@@ -1256,7 +1331,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">講師数15,000人以上</span><span class="feature-tag">24時間365日対応</span><span class="feature-tag">1レッスン25分</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+LFNBU+5Q2M+5YJRM" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+LFNBU+5Q2M+5YJRM" class="btn-primary" target="_blank" rel="nofollow noopener">今すぐ無料体験する →</a>
       <a href="/services/dmm-eikaiwa/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1270,7 +1345,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">講師7,000人以上</span><span class="feature-tag">独自開発テキスト</span><span class="feature-tag">ビジネス英語特化コース</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM" class="btn-primary" target="_blank" rel="nofollow noopener">2レッスン無料で試す →</a>
       <a href="/services/rarejob/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1284,7 +1359,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">レッスン回数無制限</span><span class="feature-tag">予約不要でスキマ時間に</span><span class="feature-tag">講師7,000人以上</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE" class="btn-primary" target="_blank" rel="nofollow noopener">7日間無料で始める →</a>
       <a href="/services/nativecamp/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1298,7 +1373,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">動画講義1,000本以上</span><span class="feature-tag">AIスピーキング練習</span><span class="feature-tag">TOEICコース充実</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+1X2BQ2+3AQG+ZS5GI" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+1X2BQ2+3AQG+ZS5GI" class="btn-primary" target="_blank" rel="nofollow noopener">14日間無料トライアル →</a>
       <a href="/services/studysapuri-english/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1312,7 +1387,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">ネイティブ講師のみ</span><span class="feature-tag">会話録画機能あり</span><span class="feature-tag">即時接続（スタンバイ機能）</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=44WTZ2+TRP0Y+428Q+HVFKY" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=44WTZ2+TRP0Y+428Q+HVFKY" class="btn-primary" target="_blank" rel="nofollow noopener">15分レッスン無料体験 →</a>
       <a href="/services/cambly/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1326,7 +1401,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">ビジネス経験のある講師のみ</span><span class="feature-tag">独自のBiZmatesメソッド</span><span class="feature-tag">プレゼン・交渉特化コース</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AXJKA+3I7XSQ+2QEI+691UQ" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=4AXJKA+3I7XSQ+2QEI+691UQ" class="btn-primary" target="_blank" rel="nofollow noopener">1レッスン無料体験する →</a>
       <a href="/services/bizmates/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1340,7 +1415,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">ゲームしながら英会話</span><span class="feature-tag">ネイティブ講師在籍</span><span class="feature-tag">ゲーム・アニメ・映画題材</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BUADWY+5LPE+5YJRM" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BUADWY+5LPE+5YJRM" class="btn-primary" target="_blank" rel="nofollow noopener">体験レッスン無料で試す →</a>
       <a href="/services/esports-eikaiwa/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1354,7 +1429,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">150以上の言語に対応</span><span class="feature-tag">世界中のプロ・コミュニティ講師</span><span class="feature-tag">完全マンツーマン</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BWO4C2+5NSE+5YJRM" class="btn-primary" target="_blank" rel="nofollow noopener">無料体験する</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BWO4C2+5NSE+5YJRM" class="btn-primary" target="_blank" rel="nofollow noopener">無料でレッスンを探す →</a>
       <a href="/services/italki/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1404,7 +1479,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">専属コンサルタントによる毎日サポート</span><span class="feature-tag">AI×人間の最適学習設計</span><span class="feature-tag">受講生の95%が目標達成</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://www.progrit.co.jp/" class="btn-primary" target="_blank" rel="nofollow noopener">無料カウンセリングを見る</a>
+      <a href="https://www.progrit.co.jp/" class="btn-primary" target="_blank" rel="nofollow noopener">無料カウンセリングを予約する →</a>
       <a href="/services/progrit/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1418,7 +1493,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">1,000時間のトレーニング</span><span class="feature-tag">専属コーチ制</span><span class="feature-tag">完全オンライン対応</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+786GWQ+3N0O+5YRHE" class="btn-primary" target="_blank" rel="nofollow noopener">無料カウンセリングを見る</a>
+      <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+786GWQ+3N0O+5YRHE" class="btn-primary" target="_blank" rel="nofollow noopener">無料カウンセリングを予約する →</a>
       <img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=4AXFOG+786GWQ+3N0O+5YRHE" alt="">
       <a href="/services/toraiz/" class="btn-secondary">詳細を見る</a>
     </div>
@@ -1433,7 +1508,7 @@ img { max-width: 100%; height: auto; }
       <div class="features"><span class="feature-tag">科学的根拠に基づくカリキュラム</span><span class="feature-tag">専属トレーナー制</span><span class="feature-tag">脳科学・認知科学を活用</span></div>
     </div>
     <div class="card-actions">
-      <a href="https://theenglishcompany.jp/" class="btn-primary" target="_blank" rel="nofollow noopener">無料カウンセリングを見る</a>
+      <a href="https://theenglishcompany.jp/" class="btn-primary" target="_blank" rel="nofollow noopener">無料カウンセリングを予約する →</a>
       <a href="/services/english-company/" class="btn-secondary">詳細を見る</a>
     </div>
   </div>
@@ -1639,34 +1714,38 @@ if(sH){var t=false;window.addEventListener('scroll',function(){if(!t){requestAni
 })();
 </script>
 
-<!-- スティッキーCTAバー -->
-<div class="sticky-cta-bar" id="stickyCta">
-  <div class="sticky-cta-bar-left">
-    <span class="sticky-cta-rank">No.1</span>
-    <span class="sticky-cta-name">DMM英会話</span>
-    <span class="sticky-cta-price">月額1,980円〜</span>
+<!-- フローティングCTAバー（TOP3対応） -->
+<div id="float-cta-bar">
+  <span class="float-cta-title">人気TOP3 無料体験</span>
+  <div class="float-cta-links">
+    <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+LFNBU+5Q2M+5YJRM" class="float-cta-link" target="_blank" rel="nofollow noopener">
+      <span class="float-cta-rank">1位</span>DMM英会話
+    </a>
+    <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM" class="float-cta-link" target="_blank" rel="nofollow noopener">
+      <span class="float-cta-rank">2位</span>レアジョブ
+    </a>
+    <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE" class="float-cta-link" target="_blank" rel="nofollow noopener">
+      <span class="float-cta-rank">3位</span>ネイティブキャンプ
+    </a>
   </div>
-  <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+LFNBU+5Q2M+5YJRM" class="sticky-cta-btn" target="_blank" rel="nofollow noopener">無料体験する →</a>
-  <button class="sticky-cta-close" id="stickyCtaClose" aria-label="閉じる">✕</button>
+  <button id="float-cta-close" onclick="document.getElementById('float-cta-bar').classList.add('hidden')" aria-label="閉じる">✕</button>
 </div>
 <script>
 (function(){
-  var bar = document.getElementById('stickyCta');
-  var closeBtn = document.getElementById('stickyCtaClose');
-  if (!bar || !closeBtn) return;
-  var dismissed = sessionStorage.getItem('stickyCta_dismissed');
-  if (dismissed) return;
-  var shown = false;
-  window.addEventListener('scroll', function() {
-    if (!shown && window.scrollY > 500) {
-      bar.classList.add('visible');
-      shown = true;
+  var bar = document.getElementById('float-cta-bar');
+  if (!bar) return;
+  var hero = document.querySelector('.hero');
+  if (!hero) return;
+  function onScroll() {
+    var heroBottom = hero.getBoundingClientRect().bottom;
+    if (heroBottom < 0) {
+      bar.classList.remove('hidden');
+    } else {
+      bar.classList.add('hidden');
     }
-  }, { passive: true });
-  closeBtn.addEventListener('click', function() {
-    bar.classList.remove('visible');
-    sessionStorage.setItem('stickyCta_dismissed', '1');
-  });
+  }
+  bar.classList.add('hidden');
+  window.addEventListener('scroll', onScroll, { passive: true });
 })();
 </script>
 </body>
