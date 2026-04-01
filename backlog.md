@@ -28,11 +28,12 @@
 
 ## Tier 2：新収益柱
 
-### [ ] ニッチ比較サイト（native-realモデル複製）
+### [x] ニッチ比較サイト（native-realモデル複製）
 - **収益**: アフィリエイト
 - **ジャンル候補**: プログラミングスクール比較 / 副業ツール比較 / AI活用ツール比較
 - **技術**: 静的HTML、GitHub Pages（native-realと同構成）
 - **実行方法**: ジャンル選定→サイト構造設計→コンテンツ生成→デプロイ
+- **完了**: 2026-04-01 プログラミングスクール比較サイト設計・コンテンツ生成（`projects/programming-school-comparison/`）。index.html・ranking/index.html・README.md・spec.md作成。デプロイはprog-school.net新規リポジトリ作成後に実施。
 
 ### [ ] メールリスト×ステップメール
 - **収益**: 自社商品・アフィリへの誘導

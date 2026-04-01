@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プログラミングスクールおすすめランキング2026｜転職・副業向け15社を徹底比較</title>
+  <meta name="description" content="【2026年最新】プログラミングスクールおすすめ15社を転職成功率・料金・サポートで徹底比較。未経験からエンジニア転職を目指す方、副業・フリーランスを考える方に最適なスクールが30秒でわかる。全社無料体験・無料相談あり。">
+  <link rel="canonical" href="https://prog-school.net/ranking/">
+  <meta property="og:title" content="プログラミングスクールおすすめランキング2026｜転職・副業向け15社を徹底比較">
+  <meta property="og:description" content="【2026年最新】プログラミングスクール15社を徹底比較。転職成功率・料金・サポート体制で選ぶおすすめランキング。無料体験あり。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --blue: #2563EB;
+      --blue-dark: #1D4ED8;
+      --blue-light: #EFF6FF;
+      --gold: #F59E0B;
+      --silver: #94A3B8;
+      --bronze: #C47B2B;
+      --text: #111827;
+      --muted: #6B7280;
+      --border: #E5E7EB;
+      --bg: #F9FAFB;
+    }
+    body { font-family: 'Noto Sans JP', sans-serif; color: var(--text); line-height: 1.7; background: #fff; }
+
+    /* ── HEADER ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(255,255,255,0.95); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border); padding: 12px 0;
+    }
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+    .site-logo { font-size: 16px; font-weight: 800; color: var(--text); text-decoration: none; }
+    .site-logo span { color: var(--blue); }
+    .header-cta { background: var(--blue); color: #fff; border-radius: 8px; padding: 8px 16px; font-size: 13px; font-weight: 700; text-decoration: none; white-space: nowrap; transition: background 0.2s; }
+    .header-cta:hover { background: var(--blue-dark); }
+
+    /* ── HERO ── */
+    .hero { background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 60%, #3B82F6 100%); padding: 100px 20px 60px; text-align: center; color: #fff; }
+    .hero-badge { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4); border-radius: 20px; padding: 4px 14px; font-size: 13px; font-weight: 600; margin-bottom: 16px; }
+    .hero h1 { font-size: clamp(22px, 4vw, 36px); font-weight: 900; line-height: 1.3; margin-bottom: 16px; }
+    .hero-sub { font-size: 15px; opacity: 0.9; max-width: 540px; margin: 0 auto 32px; }
+    .hero-cta-btn { display: inline-block; background: var(--gold); color: #fff; font-size: 16px; font-weight: 800; padding: 16px 40px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 20px rgba(245,158,11,0.4); transition: transform 0.2s; }
+    .hero-cta-btn:hover { transform: translateY(-2px); }
+    .hero-stats { display: flex; justify-content: center; gap: 32px; margin-top: 36px; flex-wrap: wrap; }
+    .hero-stat { text-align: center; }
+    .hero-stat-num { font-size: 28px; font-weight: 900; display: block; }
+    .hero-stat-label { font-size: 12px; opacity: 0.8; }
+
+    /* ── SECTION ── */
+    .section { max-width: 900px; margin: 0 auto; padding: 64px 20px; }
+    .section-title { font-size: clamp(20px, 3vw, 28px); font-weight: 800; margin-bottom: 8px; }
+    .section-sub { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+
+    /* ── TOP 3 CARDS ── */
+    .top3-grid { display: grid; gap: 20px; }
+    @media (min-width: 640px) { .top3-grid { grid-template-columns: repeat(3, 1fr); } }
+    .rank-card { border-radius: 16px; padding: 24px; position: relative; border: 2px solid transparent; }
+    .rank-card.rank-1 { background: linear-gradient(135deg, #FFFBEB, #FEF3C7); border-color: #F59E0B; }
+    .rank-card.rank-2 { background: linear-gradient(135deg, #F8FAFC, #F1F5F9); border-color: #94A3B8; }
+    .rank-card.rank-3 { background: linear-gradient(135deg, #FFF7ED, #FFEDD5); border-color: #C47B2B; }
+    .rank-badge { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; display: block; }
+    .rank-1 .rank-badge { color: #D97706; }
+    .rank-2 .rank-badge { color: #64748B; }
+    .rank-3 .rank-badge { color: #92400E; }
+    .rank-name { font-size: 20px; font-weight: 900; margin-bottom: 6px; }
+    .rank-tag { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+    .rank-price { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .rank-desc { font-size: 13px; color: #374151; line-height: 1.6; margin-bottom: 16px; }
+    .rank-pros { list-style: none; margin-bottom: 16px; }
+    .rank-pros li { font-size: 13px; padding: 3px 0; }
+    .rank-pros li::before { content: "✓ "; color: #10B981; font-weight: 700; }
+    .rank-cta { display: block; text-align: center; background: var(--blue); color: #fff; border-radius: 10px; padding: 12px; font-size: 14px; font-weight: 700; text-decoration: none; transition: background 0.2s; }
+    .rank-cta:hover { background: var(--blue-dark); }
+    .rank-1 .rank-cta { background: #D97706; }
+    .rank-1 .rank-cta:hover { background: #B45309; }
+    .affiliate-note { font-size: 11px; color: var(--muted); margin-top: 8px; text-align: center; }
+
+    /* ── COMPARISON TABLE ── */
+    .compare-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+    .compare-table { width: 100%; border-collapse: collapse; min-width: 700px; font-size: 13px; }
+    .compare-table th { background: var(--blue); color: #fff; padding: 12px 14px; text-align: left; font-weight: 700; }
+    .compare-table td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .compare-table tr:last-child td { border-bottom: none; }
+    .compare-table tr:nth-child(even) td { background: var(--bg); }
+    .badge-yes { display: inline-block; background: #D1FAE5; color: #065F46; border-radius: 6px; padding: 2px 8px; font-size: 11px; font-weight: 700; }
+    .badge-no { display: inline-block; background: #FEE2E2; color: #991B1B; border-radius: 6px; padding: 2px 8px; font-size: 11px; font-weight: 700; }
+    .school-name-link { font-weight: 700; color: var(--blue); text-decoration: none; }
+    .school-name-link:hover { text-decoration: underline; }
+
+    /* ── PURPOSE RANKINGS ── */
+    .purpose-tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+    .purpose-tab { padding: 8px 20px; border-radius: 20px; font-size: 13px; font-weight: 700; border: 2px solid var(--border); background: #fff; cursor: pointer; transition: all 0.2s; }
+    .purpose-tab.active, .purpose-tab:hover { background: var(--blue); color: #fff; border-color: var(--blue); }
+    .purpose-list { display: none; }
+    .purpose-list.active { display: block; }
+    .purpose-item { display: flex; align-items: flex-start; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--border); }
+    .purpose-num { font-size: 24px; font-weight: 900; color: var(--blue); min-width: 32px; }
+    .purpose-item-name { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
+    .purpose-item-desc { font-size: 13px; color: var(--muted); }
+    .purpose-item-cta { margin-left: auto; display: inline-block; background: var(--blue); color: #fff; border-radius: 8px; padding: 8px 16px; font-size: 12px; font-weight: 700; text-decoration: none; white-space: nowrap; flex-shrink: 0; }
+
+    /* ── FAQ ── */
+    .faq-list { }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-q { padding: 18px 0; font-weight: 700; font-size: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .faq-q::after { content: "+"; font-size: 20px; color: var(--blue); flex-shrink: 0; transition: transform 0.2s; }
+    .faq-item.open .faq-q::after { transform: rotate(45deg); }
+    .faq-a { font-size: 14px; color: #374151; line-height: 1.8; padding-bottom: 18px; display: none; }
+    .faq-item.open .faq-a { display: block; }
+
+    /* ── CTA BANNER ── */
+    .cta-banner { background: linear-gradient(135deg, #1E3A8A, #2563EB); color: #fff; padding: 48px 20px; text-align: center; }
+    .cta-banner h2 { font-size: clamp(20px, 3vw, 28px); font-weight: 900; margin-bottom: 12px; }
+    .cta-banner p { font-size: 15px; opacity: 0.9; margin-bottom: 28px; }
+    .cta-banner-btn { display: inline-block; background: var(--gold); color: #fff; font-size: 16px; font-weight: 800; padding: 16px 48px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 20px rgba(245,158,11,0.4); }
+    .disclosure { font-size: 11px; opacity: 0.7; margin-top: 12px; }
+
+    /* ── FOOTER ── */
+    footer { background: #111827; color: #9CA3AF; padding: 40px 20px; text-align: center; font-size: 13px; }
+    footer a { color: #9CA3AF; text-decoration: none; }
+    footer a:hover { color: #fff; }
+    .footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 16px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-logo" href="/">prog<span>school</span>.net</a>
+    <a class="header-cta" href="#top3">無料相談を探す</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">2026年4月最新版</div>
+  <h1>プログラミングスクール<br>おすすめランキング2026</h1>
+  <p class="hero-sub">転職成功率・料金・サポート体制で厳選した15社を徹底比較。<br>あなたの目的に合った最適スクールが30秒でわかる。</p>
+  <a class="hero-cta-btn" href="#top3">ランキングを見る ↓</a>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="hero-stat-num">15社</span>
+      <span class="hero-stat-label">比較スクール数</span>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-num">150+</span>
+      <span class="hero-stat-label">比較ポイント</span>
+    </div>
+    <div class="hero-stat">
+      <span class="hero-stat-num">全社</span>
+      <span class="hero-stat-label">無料体験あり</span>
+    </div>
+  </div>
+</section>
+
+<!-- TOP 3 -->
+<section class="section" id="top3">
+  <h2 class="section-title">総合おすすめランキング TOP3</h2>
+  <p class="section-sub">転職成功率・コスパ・サポート充実度を総合評価</p>
+  <div class="top3-grid">
+
+    <!-- 1位 -->
+    <div class="rank-card rank-1">
+      <span class="rank-badge">🥇 1位 転職特化No.1</span>
+      <div class="rank-name">RUNTEQ</div>
+      <div class="rank-tag">Ruby on Rails特化 | 転職保証あり</div>
+      <div class="rank-price">受講料: 437,800円（税込）</div>
+      <p class="rank-desc">現役エンジニアが設計した実践的カリキュラム。受講者の転職成功率は98.8%。ポートフォリオ制作から面接対策まで一貫サポート。</p>
+      <ul class="rank-pros">
+        <li>転職成功率98.8%（業界最高水準）</li>
+        <li>現役エンジニアによるコードレビュー</li>
+        <li>Rails案件に特化した実践教育</li>
+        <li>転職活動中の収入補償制度あり</li>
+      </ul>
+      <a class="rank-cta" href="#" rel="nofollow noopener" target="_blank">無料カウンセリングを申し込む</a>
+      <p class="affiliate-note">※本記事はアフィリエイト広告を含みます</p>
+    </div>
+
+    <!-- 2位 -->
+    <div class="rank-card rank-2">
+      <span class="rank-badge">🥈 2位 コスパ最強</span>
+      <div class="rank-name">テックアカデミー</div>
+      <div class="rank-tag">副業・フリーランス向け | オンライン完結</div>
+      <div class="rank-price">受講料: 174,900円〜（税込）</div>
+      <p class="rank-desc">業界最大規模のオンラインスクール。週2回のメンタリングと24時間チャットサポートで挫折しにくい環境。副業案件紹介サービスも充実。</p>
+      <ul class="rank-pros">
+        <li>業界最安値水準のコスパ</li>
+        <li>24時間チャットサポート</li>
+        <li>副業案件紹介サービス完備</li>
+        <li>20種類以上のコースから選択可</li>
+      </ul>
+      <a class="rank-cta" href="#" rel="nofollow noopener" target="_blank">無料体験レッスンを申し込む</a>
+      <p class="affiliate-note">※本記事はアフィリエイト広告を含みます</p>
+    </div>
+
+    <!-- 3位 -->
+    <div class="rank-card rank-3">
+      <span class="rank-badge">🥉 3位 挫折しにくい</span>
+      <div class="rank-name">侍エンジニア</div>
+      <div class="rank-tag">マンツーマン指導 | 幅広いコース</div>
+      <div class="rank-price">受講料: 198,000円〜（税込）</div>
+      <p class="rank-desc">完全マンツーマン指導で挫折率を最小化。専属メンターが進捗を管理し、自分のペースで学べる。転職・副業・スキルアップと目的を問わず対応。</p>
+      <ul class="rank-pros">
+        <li>完全マンツーマンで挫折しにくい</li>
+        <li>40種類以上のコース（最多水準）</li>
+        <li>現役エンジニアが専属メンター</li>
+        <li>転職活動サポート付きプランあり</li>
+      </ul>
+      <a class="rank-cta" href="#" rel="nofollow noopener" target="_blank">無料相談を申し込む</a>
+      <p class="affiliate-note">※本記事はアフィリエイト広告を含みます</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="section">
+  <h2 class="section-title">全スクール比較表</h2>
+  <p class="section-sub">料金・期間・転職保証・無料体験の有無を一覧で比較</p>
+  <div class="compare-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>スクール名</th>
+          <th>受講料（税込）</th>
+          <th>期間</th>
+          <th>主な習得スキル</th>
+          <th>転職保証</th>
+          <th>無料体験</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a class="school-name-link" href="/services/runteq/">RUNTEQ</a></td>
+          <td>437,800円</td>
+          <td>5〜9ヶ月</td>
+          <td>Ruby on Rails</td>
+          <td><span class="badge-yes">あり</span></td>
+          <td><span class="badge-yes">無料相談</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/techacademy/">テックアカデミー</a></td>
+          <td>174,900円〜</td>
+          <td>4〜16週</td>
+          <td>HTML/CSS, PHP, Python他</td>
+          <td><span class="badge-no">なし</span></td>
+          <td><span class="badge-yes">無料体験</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/samurai/">侍エンジニア</a></td>
+          <td>198,000円〜</td>
+          <td>1〜12ヶ月</td>
+          <td>Web全般, AI, データサイエンス</td>
+          <td><span class="badge-yes">一部コース</span></td>
+          <td><span class="badge-yes">無料相談</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/techcamp/">TechCamp</a></td>
+          <td>218,900円〜</td>
+          <td>10週間〜</td>
+          <td>Web開発, Python, AI</td>
+          <td><span class="badge-yes">あり</span></td>
+          <td><span class="badge-yes">無料相談</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/potepan/">ポテパンキャンプ</a></td>
+          <td>448,000円〜</td>
+          <td>5〜6ヶ月</td>
+          <td>Ruby on Rails</td>
+          <td><span class="badge-yes">あり</span></td>
+          <td><span class="badge-yes">無料相談</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/geekjob/">GEEK JOB</a></td>
+          <td>198,000円〜</td>
+          <td>最短3ヶ月</td>
+          <td>Java, PHP, Python</td>
+          <td><span class="badge-yes">あり</span></td>
+          <td><span class="badge-yes">無料体験</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/kikagaku/">キカガク</a></td>
+          <td>638,000円〜</td>
+          <td>3〜8ヶ月</td>
+          <td>AI, 機械学習, データサイエンス</td>
+          <td><span class="badge-yes">転職支援</span></td>
+          <td><span class="badge-yes">無料相談</span></td>
+        </tr>
+        <tr>
+          <td><a class="school-name-link" href="/services/zero-one/">ゼロイチ（0→1）</a></td>
+          <td>198,000円〜</td>
+          <td>3〜6ヶ月</td>
+          <td>Web制作, WordPress</td>
+          <td><span class="badge-no">なし</span></td>
+          <td><span class="badge-yes">無料相談</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- PURPOSE RANKINGS -->
+<section class="section">
+  <h2 class="section-title">目的別ランキング</h2>
+  <p class="section-sub">あなたのゴールに合ったスクールを選ぼう</p>
+  <div class="purpose-tabs">
+    <button class="purpose-tab active" onclick="switchTab('career')">転職・就職</button>
+    <button class="purpose-tab" onclick="switchTab('side')">副業・フリーランス</button>
+    <button class="purpose-tab" onclick="switchTab('ai')">AI・データサイエンス</button>
+  </div>
+
+  <div class="purpose-list active" id="tab-career">
+    <div class="purpose-item">
+      <div class="purpose-num">1</div>
+      <div>
+        <div class="purpose-item-name">RUNTEQ</div>
+        <div class="purpose-item-desc">転職成功率98.8%。Rails特化で即戦力エンジニアを目指せる。転職活動中の収入補償あり。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">2</div>
+      <div>
+        <div class="purpose-item-name">ポテパンキャンプ</div>
+        <div class="purpose-item-desc">卒業後の転職活動サポートが手厚い。未経験者の内定率は公表値で95%以上。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">3</div>
+      <div>
+        <div class="purpose-item-name">TechCamp</div>
+        <div class="purpose-item-desc">転職保証付きコースあり。学習と転職活動を並行して進められる体制が整っている。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">4</div>
+      <div>
+        <div class="purpose-item-name">GEEK JOB</div>
+        <div class="purpose-item-desc">最短22日での転職実績あり。未経験者歓迎で転職成功まで無期限サポート。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">5</div>
+      <div>
+        <div class="purpose-item-name">侍エンジニア（転職コース）</div>
+        <div class="purpose-item-desc">マンツーマン指導で着実にスキルを積み上げ、転職活動まで専属サポート。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+  </div>
+
+  <div class="purpose-list" id="tab-side">
+    <div class="purpose-item">
+      <div class="purpose-num">1</div>
+      <div>
+        <div class="purpose-item-name">テックアカデミー</div>
+        <div class="purpose-item-desc">副業案件紹介サービスが充実。受講中から案件獲得を目指せる実践的なカリキュラム。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料体験</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">2</div>
+      <div>
+        <div class="purpose-item-name">ゼロイチ（0→1）</div>
+        <div class="purpose-item-desc">Web制作特化。月5〜20万円の副業収入を目指す方向けの実践的なカリキュラム。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">3</div>
+      <div>
+        <div class="purpose-item-name">侍エンジニア（副業コース）</div>
+        <div class="purpose-item-desc">副業・フリーランスに特化したコースあり。案件獲得のための営業方法も学べる。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+  </div>
+
+  <div class="purpose-list" id="tab-ai">
+    <div class="purpose-item">
+      <div class="purpose-num">1</div>
+      <div>
+        <div class="purpose-item-name">キカガク</div>
+        <div class="purpose-item-desc">AI・機械学習に完全特化。データサイエンティスト・MLエンジニアを目指す方に最適。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">2</div>
+      <div>
+        <div class="purpose-item-name">侍エンジニア（AIコース）</div>
+        <div class="purpose-item-desc">ChatGPT・Claude API活用からAIエンジニアリングまで幅広く対応。マンツーマンで挫折しにくい。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料相談</a>
+    </div>
+    <div class="purpose-item">
+      <div class="purpose-num">3</div>
+      <div>
+        <div class="purpose-item-name">テックアカデミー（データサイエンスコース）</div>
+        <div class="purpose-item-desc">PythonとAI/機械学習を実践的に学べるコース。業界最安水準の料金でAIスキルを習得。</div>
+      </div>
+      <a class="purpose-item-cta" href="#" rel="nofollow noopener">無料体験</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <h2 class="section-title">よくある質問</h2>
+  <p class="section-sub">プログラミングスクール選びで迷ったら</p>
+  <div class="faq-list">
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">プログラミング未経験でも転職できますか？</div>
+      <div class="faq-a">はい、転職できます。RUNTEQ・TechCamp・ポテパンキャンプなど転職特化スクールでは、未経験から6ヶ月程度の学習で転職成功した事例が多数あります。ただし、学習時間の確保（1日3〜4時間程度）と継続的な努力が重要です。転職保証付きスクールを選べば、万一転職できなかった場合に受講料が返金されるコースもあります。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">社会人でも通えますか？仕事と両立できますか？</div>
+      <div class="faq-a">オンライン完結型のスクール（テックアカデミー・侍エンジニアなど）であれば、自分のペースで学習できるため、フルタイム勤務との両立が可能です。ただし、週20〜25時間程度の学習時間を確保できるかが成功のカギとなります。通勤時間や休日を活用して計画的に進めることをおすすめします。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">プログラミングスクールはどう選べばよいですか？</div>
+      <div class="faq-a">目的（転職・副業・スキルアップ）によって最適なスクールは異なります。転職目的なら転職成功率と転職保証の有無、副業目的なら案件獲得サポートの充実度、スキルアップ目的ならコース内容とコスパを重視してください。まずは複数スクールの無料体験・無料相談を受けて、雰囲気や教え方を比較するのがおすすめです。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">プログラミングスクールの費用はどのくらいかかりますか？</div>
+      <div class="faq-a">スクールや受講期間によって大きく異なりますが、オンラインスクールは15万〜45万円程度、転職保証付きのコースは45万〜70万円程度が相場です。テックアカデミーのような短期コースなら15万円台から受講可能です。また、一般教育訓練給付金や専門実践教育訓練給付金（最大80%補助）を活用できるスクールも多いため、実質的な負担を大幅に減らせる場合があります。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">受講後にエンジニアとして就職できる年収はいくら？</div>
+      <div class="faq-a">未経験からエンジニア転職した場合の初年度年収は、300万〜450万円程度が一般的です。スキルを積んで3〜5年後には600万〜1,000万円以上も珍しくありません。特にRuby on RailsやPythonなどWeb系・AI系エンジニアはフリーランス案件も豊富で、独立後に月収100万円以上を稼ぐケースも増えています。</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <h2>あなたに合ったスクールを<br>無料で相談しよう</h2>
+  <p>各スクールの無料カウンセリングで、受講内容・料金・転職実績を直接確認できます。<br>複数スクールを比較することをおすすめします。</p>
+  <a class="cta-banner-btn" href="#top3" rel="nofollow noopener">ランキングに戻って選ぶ</a>
+  <p class="disclosure">※本記事はアフィリエイト広告を含みます。掲載情報は2026年4月時点のものです。</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="/">トップ</a>
+    <a href="/ranking/">ランキング</a>
+    <a href="/compare/">比較</a>
+    <a href="/about/">運営者情報</a>
+    <a href="/privacy/">プライバシーポリシー</a>
+  </div>
+  <p>&copy; 2026 prog-school.net | プログラミングスクール比較</p>
+</footer>
+
+<script>
+function switchTab(name) {
+  document.querySelectorAll('.purpose-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.purpose-list').forEach(l => l.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+function toggleFaq(el) {
+  const item = el.closest('.faq-item');
+  item.classList.toggle('open');
+}
+</script>
+</body>
+</html>
