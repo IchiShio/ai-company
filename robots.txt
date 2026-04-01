@@ -1,7 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /articles/how-to/
-Disallow: /articles/how-to-choose/
 Disallow: /manifest.json
 
 Sitemap: https://native-real.com/sitemap.xml
