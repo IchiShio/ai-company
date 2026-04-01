@@ -187,6 +187,74 @@
       .vars-grid{grid-template-columns:1fr 1fr}
     }
     @media(max-width:480px){.vars-grid{grid-template-columns:1fr}}
+
+    /* ── AI TAB ── */
+    .mode-tabs{display:flex;gap:0;background:var(--card);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden;margin-bottom:20px}
+    .mode-tab{flex:1;padding:14px 8px;border:none;background:none;cursor:pointer;font-size:.88em;font-weight:700;color:var(--muted);transition:all .15s;display:flex;align-items:center;justify-content:center;gap:7px;border-bottom:3px solid transparent}
+    .mode-tab:hover{color:var(--text);background:#f8fafc}
+    .mode-tab.active{color:var(--p);border-bottom-color:var(--p);background:var(--pl)}
+    .mode-tab .tab-badge{background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff;font-size:.65em;padding:1px 6px;border-radius:4px;font-weight:800;letter-spacing:.03em}
+
+    /* AI PANEL */
+    .ai-panel{background:var(--card);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+    .ai-panel-hd{padding:16px 20px;background:linear-gradient(135deg,#1e1b4b,#312e81);color:#fff}
+    .ai-panel-hd h2{font-size:.95em;font-weight:800;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+    .ai-panel-hd p{font-size:.8em;opacity:.75}
+    .ai-panel-bd{padding:20px}
+
+    .ai-instr-label{font-size:.8em;font-weight:700;color:var(--sub);margin-bottom:6px;display:flex;justify-content:space-between}
+    .ai-instr{width:100%;padding:12px 14px;border:1.5px solid var(--bd);border-radius:10px;font-size:.9em;resize:vertical;min-height:90px;outline:none;font-family:inherit;color:var(--text);transition:border-color .15s;line-height:1.65}
+    .ai-instr:focus{border-color:var(--p)}
+    .ai-char-count{font-size:.72em;color:var(--muted);text-align:right;margin-top:3px}
+
+    .ai-options{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+    .ai-select-wrap{position:relative}
+    .ai-select-label{font-size:.75em;font-weight:700;color:var(--sub);margin-bottom:4px}
+    .ai-select{width:100%;padding:9px 12px;border:1.5px solid var(--bd);border-radius:8px;font-size:.86em;background:#fff;outline:none;cursor:pointer;color:var(--text);-webkit-appearance:none;transition:border-color .15s}
+    .ai-select:focus{border-color:var(--p)}
+
+    .ai-examples{margin-top:14px;background:#f8fafc;border-radius:8px;padding:10px 12px}
+    .ai-examples-label{font-size:.73em;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+    .ai-example-chips{display:flex;flex-wrap:wrap;gap:5px}
+    .ai-chip{background:#fff;border:1px solid var(--bd);border-radius:16px;padding:4px 11px;font-size:.78em;color:var(--sub);cursor:pointer;transition:all .12s}
+    .ai-chip:hover{border-color:var(--p);color:var(--p);background:var(--pl)}
+
+    .ai-gen-btn{width:100%;margin-top:14px;padding:13px;background:linear-gradient(135deg,#7c3aed,#2563eb);color:#fff;border:none;border-radius:10px;font-size:.95em;font-weight:800;cursor:pointer;transition:opacity .15s;display:flex;align-items:center;justify-content:center;gap:8px;letter-spacing:.01em}
+    .ai-gen-btn:hover{opacity:.9}
+    .ai-gen-btn:disabled{opacity:.6;cursor:not-allowed}
+
+    /* AI OUTPUT */
+    .ai-output{margin-top:16px;display:none}
+    .ai-output.show{display:block;animation:fadeUp .3s ease}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+    .ai-result-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+    .ai-result-label{font-size:.78em;font-weight:700;color:var(--g);display:flex;align-items:center;gap:5px}
+    .ai-result-label::before{content:'✨'}
+
+    .ai-subject-row{background:linear-gradient(135deg,#fefce8,#fef9c3);border:1px solid #fef08a;border-radius:10px;padding:12px 16px;margin-bottom:10px;display:flex;align-items:flex-start;gap:10px}
+    .ai-subject-badge{background:#eab308;color:#fff;font-size:.68em;font-weight:800;padding:2px 8px;border-radius:4px;text-transform:uppercase;letter-spacing:.04em;flex-shrink:0;margin-top:2px}
+    .ai-subject-text{font-size:.93em;font-weight:700;color:#1e293b;line-height:1.4;flex:1}
+
+    .ai-body-box{font-size:.88em;color:var(--text);white-space:pre-wrap;word-break:break-word;line-height:1.9;font-family:'Courier New',Courier,monospace;background:#f8fafc;border:1px solid var(--bd);border-radius:10px;padding:16px 18px;min-height:120px}
+
+    .ai-copy-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;align-items:center}
+    .ai-regen-btn{margin-left:auto;background:none;border:1px solid var(--bd);border-radius:7px;padding:6px 12px;font-size:.78em;color:var(--sub);cursor:pointer}
+    .ai-regen-btn:hover{border-color:var(--p);color:var(--p)}
+
+    /* LOADING */
+    .ai-loading{text-align:center;padding:32px 20px;display:none}
+    .ai-loading.show{display:block}
+    .spinner{display:inline-block;width:32px;height:32px;border:3px solid var(--bd);border-top-color:var(--p);border-radius:50%;animation:spin .7s linear infinite;margin-bottom:10px}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .ai-loading p{font-size:.86em;color:var(--muted)}
+
+    .ai-error{background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px 14px;font-size:.84em;color:#b91c1c;margin-top:12px;display:none}
+    .ai-error.show{display:block}
+
+    /* TYPEWRITER */
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+    .cursor{display:inline-block;width:2px;height:1em;background:var(--p);margin-left:2px;vertical-align:text-bottom;animation:blink 1s infinite}
   </style>
 </head>
 <body>
@@ -215,7 +283,114 @@
   </div>
 </div>
 
-<div class="app">
+<!-- MODE TABS -->
+<div style="max-width:1080px;margin:0 auto;padding:20px 16px 0">
+  <div class="mode-tabs">
+    <button class="mode-tab active" id="tabAI" onclick="switchMode('ai')">
+      🤖 AI生成 <span class="tab-badge">NEW</span>
+    </button>
+    <button class="mode-tab" id="tabTpl" onclick="switchMode('tpl')">
+      📋 テンプレート (200+)
+    </button>
+  </div>
+</div>
+
+<!-- AI MAIN PANEL -->
+<div id="aiMain" style="max-width:1080px;margin:0 auto;padding:20px 16px 40px">
+  <div class="ai-panel">
+    <div class="ai-panel-hd">
+      <h2>🤖 AIメール生成</h2>
+      <p>日本語で伝えたいことを入力するだけ。プロ品質の英語メールを即生成します。</p>
+    </div>
+    <div class="ai-panel-bd">
+      <div class="ai-instr-label">
+        <span>📝 どんなメールを送りたいか、日本語で入力してください</span>
+        <span id="aiCharCount" style="color:var(--muted);font-size:.78em">0/500</span>
+      </div>
+      <textarea class="ai-instr" id="aiInstr" placeholder="例：来週の月曜日に30分ミーティングをお願いしたいです。Q2の予算について話し合いたいです。" maxlength="500" oninput="updateAiCharCount()"></textarea>
+
+      <div class="ai-options">
+        <div class="ai-select-wrap">
+          <div class="ai-select-label">🎭 シーン</div>
+          <select class="ai-select" id="aiScene">
+            <option value="general">汎用</option>
+            <option value="request">依頼・お願い</option>
+            <option value="apology">謝罪・お詫び</option>
+            <option value="inquiry">問い合わせ</option>
+            <option value="thanks">お礼・感謝</option>
+            <option value="decline">断り・辞退</option>
+            <option value="report">報告・共有</option>
+            <option value="proposal">提案・企画</option>
+            <option value="followup">フォローアップ</option>
+            <option value="intro">挨拶・自己紹介</option>
+            <option value="confirm">確認・リマインド</option>
+          </select>
+        </div>
+        <div class="ai-select-wrap">
+          <div class="ai-select-label">🎚️ トーン</div>
+          <select class="ai-select" id="aiTone">
+            <option value="semi">セミフォーマル</option>
+            <option value="formal">フォーマル</option>
+            <option value="casual">カジュアル</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="ai-examples">
+        <div class="ai-examples-label">💡 例文を試す</div>
+        <div class="ai-example-chips">
+          <span class="ai-chip" onclick="setAiExample('来週火曜か水曜に30分ミーティングをお願いしたいです。Q2の予算について話し合いたいです。')">ミーティング依頼</span>
+          <span class="ai-chip" onclick="setAiExample('先日の商品発送で遅延が生じ、大変ご迷惑をおかけしました。原因は倉庫の在庫確認ミスで、再発防止策を講じます。')">謝罪メール</span>
+          <span class="ai-chip" onclick="setAiExample('先日ご提案いただいたパートナーシップについて興味があります。詳細資料と条件をお送りいただけますか。')">問い合わせ</span>
+          <span class="ai-chip" onclick="setAiExample('先週の採用面接では貴重なお時間をいただき、ありがとうございました。引き続きよろしくお願いします。')">お礼メール</span>
+          <span class="ai-chip" onclick="setAiExample('SNS戦略の新提案をさせてください。来月から始めると今期の売上目標達成につながると考えています。')">提案メール</span>
+        </div>
+      </div>
+
+      <button class="ai-gen-btn" id="aiGenBtn" onclick="generateAI()">
+        ✨ AIメールを生成する
+      </button>
+
+      <div class="ai-loading" id="aiLoading">
+        <div class="spinner"></div>
+        <p>英語メールを生成中…（通常2〜3秒）</p>
+      </div>
+
+      <div class="ai-error" id="aiError"></div>
+
+      <div class="ai-output" id="aiOutput">
+        <div class="ai-result-hd">
+          <span class="ai-result-label">生成完了</span>
+        </div>
+        <div class="ai-subject-row">
+          <span class="ai-subject-badge">Subject</span>
+          <span class="ai-subject-text" id="aiSubjectText"></span>
+        </div>
+        <div class="ai-body-box" id="aiBodyText"></div>
+        <div class="ai-copy-row">
+          <button class="tbtn tbtn-primary" onclick="copyAiAll()">📋 全体コピー</button>
+          <button class="tbtn tbtn-ghost" onclick="copyAiSubject()">件名をコピー</button>
+          <button class="tbtn tbtn-ghost" onclick="copyAiBody()">本文をコピー</button>
+          <button class="ai-regen-btn" onclick="generateAI()">🔄 再生成</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="cta-card" style="margin-top:20px">
+    <h2>ビジネス英語をもっと本格的に鍛えたい方へ</h2>
+    <p>AIで作ったメールを実際に使うだけでなく、ネイティブと話して表現力を磨きましょう。</p>
+    <div class="cta-btns">
+      <a class="cta-btn" href="https://px.a8.net/svt/ejp?a8mat=3ZHHPZ+3F4BXM+1WP2+BW8O2" rel="nofollow noopener" target="_blank">Bizmates（ビジネス特化）</a>
+      <a class="cta-btn ghost" href="/ranking/">英会話ランキングを見る →</a>
+    </div>
+    <div class="cta-note">本コンテンツはアフィリエイト広告を含みます。</div>
+    <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=3ZHHPZ+3F4BXM+1WP2+BW8O2" alt="">
+  </div>
+</div>
+
+<div class="app" id="tplApp" style="display:none">
   <!-- ── SIDEBAR ── -->
   <aside class="sidebar">
 
@@ -1577,6 +1752,116 @@ function loadRecent(i){
   document.querySelectorAll('.tone-btn').forEach(b=>b.classList.toggle('active',b.dataset.id===h.tone));
   updateFormalityBar(h.tone);
   refreshTplList();
+}
+
+// ============================================================
+// AI MODE
+// ============================================================
+const AI_ENDPOINT = 'https://word-orbit-theta.vercel.app/api/mail';
+
+function switchMode(mode){
+  const aiMain = document.getElementById('aiMain');
+  const tplApp = document.getElementById('tplApp');
+  const tabAI  = document.getElementById('tabAI');
+  const tabTpl = document.getElementById('tabTpl');
+  if(mode === 'ai'){
+    aiMain.style.display = 'block';
+    tplApp.style.display = 'none';
+    tabAI.classList.add('active');
+    tabTpl.classList.remove('active');
+  } else {
+    aiMain.style.display = 'none';
+    tplApp.style.display = 'grid';
+    tabAI.classList.remove('active');
+    tabTpl.classList.add('active');
+  }
+}
+
+function updateAiCharCount(){
+  const ta = document.getElementById('aiInstr');
+  document.getElementById('aiCharCount').textContent = ta.value.length + '/500';
+}
+
+function setAiExample(text){
+  document.getElementById('aiInstr').value = text;
+  updateAiCharCount();
+  document.getElementById('aiInstr').focus();
+}
+
+async function generateAI(){
+  const instr = document.getElementById('aiInstr').value.trim();
+  if(!instr || instr.length < 5){
+    showAiError('5文字以上で入力してください。');
+    return;
+  }
+  const tone  = document.getElementById('aiTone').value;
+  const scene = document.getElementById('aiScene').value;
+
+  document.getElementById('aiGenBtn').disabled = true;
+  document.getElementById('aiLoading').classList.add('show');
+  document.getElementById('aiOutput').classList.remove('show');
+  document.getElementById('aiError').classList.remove('show');
+
+  try {
+    const res = await fetch(AI_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ instruction: instr, tone, scene }),
+    });
+    const data = await res.json();
+    if(!res.ok || data.error){
+      showAiError(data.error || '生成に失敗しました。もう一度お試しください。');
+      return;
+    }
+    displayAiResult(data.subject, data.body);
+  } catch(_) {
+    showAiError('ネットワークエラーが発生しました。しばらくしてからお試しください。');
+  } finally {
+    document.getElementById('aiGenBtn').disabled = false;
+    document.getElementById('aiLoading').classList.remove('show');
+  }
+}
+
+function displayAiResult(subject, body){
+  document.getElementById('aiSubjectText').textContent = subject;
+  const el = document.getElementById('aiBodyText');
+  el.textContent = '';
+  document.getElementById('aiOutput').classList.add('show');
+  let i = 0;
+  const cursor = document.createElement('span');
+  cursor.className = 'cursor';
+  el.appendChild(cursor);
+  const iv = setInterval(() => {
+    if(i < body.length){
+      el.insertBefore(document.createTextNode(body[i]), cursor);
+      i++;
+    } else {
+      clearInterval(iv);
+      cursor.remove();
+    }
+  }, 8);
+  window._aiResult = { subject, body };
+}
+
+function showAiError(msg){
+  const el = document.getElementById('aiError');
+  el.textContent = '⚠️ ' + msg;
+  el.classList.add('show');
+  document.getElementById('aiLoading').classList.remove('show');
+}
+
+function copyAiAll(){
+  if(!window._aiResult) return;
+  const text = 'Subject: ' + window._aiResult.subject + '\n\n' + window._aiResult.body;
+  navigator.clipboard.writeText(text).then(()=>showToast('全体をコピーしました'));
+}
+function copyAiSubject(){
+  if(!window._aiResult) return;
+  navigator.clipboard.writeText(window._aiResult.subject).then(()=>showToast('件名をコピーしました'));
+}
+function copyAiBody(){
+  if(!window._aiResult) return;
+  navigator.clipboard.writeText(window._aiResult.body).then(()=>showToast('本文をコピーしました'));
 }
 
 init();
