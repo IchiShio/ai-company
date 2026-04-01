@@ -1,5 +1,5 @@
 # Disavow file for native-real.com
-# Generated: 2026-03-26 / Updated: 2026-03-29
+# Generated: 2026-03-26 / Updated: 2026-04-01
 # All backlinks are spam/PBN links - disavow entire domains
 
 domain:buybacklinks.agency
