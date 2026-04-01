@@ -1132,29 +1132,29 @@
       "parts": [
         {
           "part": "pro",
-          "meaning": "～に対して",
+          "meaning": "～に対して、前に",
           "type": "prefix"
         },
         {
-          "part": "port",
-          "meaning": "運ぶ、持つ",
+          "part": "portio",
+          "meaning": "部分、配分（portio：pars/partisに由来）",
           "type": "root"
         },
         {
-          "part": "ion",
-          "meaning": "～という状態",
+          "part": "n",
+          "meaning": "名詞化",
           "type": "suffix"
         }
       ],
       "etymology": {
-        "oneliner": "『相互に運ぶ、調和した関係』から『均衡、比例』という数学的・美学的概念へ発展",
+        "oneliner": "『各部分の配分に対して』という意味のラテン語 proportio（pro + portio）から → 均衡・比例",
         "fact": "ラテン語 'proportio'（pro=～に対して + portio=部分、配分）から。古代建築では『柱と梁の調和した関係』を指していた。現代では『全体に対する部分の比率』という数学的用語として使用される",
         "source": "EtymOnline: Latin proportio 'symmetry, proper relation'",
         "cognates": [
           "proportional",
           "disproportionate",
-          "report",
-          "transport"
+          "portion",
+          "proportionate"
         ]
       },
       "cognitive": {
@@ -1162,8 +1162,8 @@
         "fact": "古代ギリシャの建築家たちが『美しい建物＝部分と全体の調和した配分』という概念から発展。現代の統計学や数学で『比率、比例』を意味するまでに抽象化された",
         "source": "古代建築学から現代数学への概念発展"
       },
-      "gap": "『運ぶ』という根の意味から『比率、均衡』という完全に異なる領域への意味の跳躍が理解しにくい",
-      "gapOneliner": "物理的『配分を運ぶ』から抽象的『数学的関係』への転換",
+      "gap": "「portio（部分・配分）」はport（運ぶ）と異なる語源。portioは「割り当てられた部分」という意味でproportion=「各部分の割合・関係」へ。portareから来たtransport/reportとは別系統。",
+      "gapOneliner": "portio（部分・配分） ≠ portare（運ぶ）。proportionはportioからの派生",
       "hook": {
         "label": "記憶フック",
         "text": "建築家が『柱と梁の大きさの関係』を表すのに使った言葉→数学で『AがBに対して持つ比率』を意味するまで拡張"
