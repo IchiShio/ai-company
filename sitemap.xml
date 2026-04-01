@@ -91,6 +91,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://native-real.com/services/shane-eikaiwa/</loc>
+    <lastmod>2026-04-01</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://native-real.com/articles/online-eikaiwa-not-continue-reasons/</loc>
     <lastmod>2026-03-13</lastmod>
     <priority>0.7</priority>
