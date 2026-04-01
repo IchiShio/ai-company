@@ -55,12 +55,13 @@
 - **実行方法**: MVP設計→実装→Vercelデプロイ→Gumroadで先行販売
 - **完了**: 2026-03-30 MVP設計書作成（`projects/saas-d-content-generator/`）
 
-### [ ] B: Claude Code活用SaaS（ひとりAI会社モデル販売）
+### [x] B: Claude Code活用SaaS（ひとりAI会社モデル販売）
 - **収益**: 月額サブスク or 初期費用
 - **コア機能**:
   - AIエージェント組織のテンプレートセット販売
   - セットアップ支援ツール
 - **実行方法**: oac-buchoと連携してコンテンツ設計
+- **完了**: 2026-04-01 MVP設計書作成（`projects/saas-b-claude-code-saas/`）。README.md・spec.md作成。Gumroad販売・GitHub Pages LP・月額サポートプランを設計。
 
 ### [ ] A: X自動化SaaS
 - **収益**: 月額サブスク
