@@ -2,17 +2,17 @@ import { FONT, LINE_HEIGHT } from './text-engine'
 import type { WordRect, VocabCard } from './types'
 
 const C = {
-  upcoming : '#7b85b0',
-  active   : '#ffffff',
-  done     : '#2e3655',
-  hlFill   : 'rgba(99, 102, 241, 0.22)',
-  hlStroke : 'rgba(165, 180, 252, 0.70)',
-  cardBg   : '#0e1120',
-  cardBorder: '#222840',
+  upcoming : '#9097be',
+  active   : '#1c1e2e',
+  done     : '#c9cde8',
+  hlFill   : 'rgba(99, 102, 241, 0.12)',
+  hlStroke : 'rgba(99, 102, 241, 0.50)',
+  cardBg   : '#ffffff',
+  cardBorder: '#dde0f5',
   cardAccent: '#6366f1',
-  cardTitle : '#a5b4fc',
-  cardPhon  : '#6b7394',
-  cardDef   : '#c8cce0',
+  cardTitle : '#6366f1',
+  cardPhon  : '#9097be',
+  cardDef   : '#374151',
 }
 
 export class Renderer {
@@ -133,8 +133,8 @@ function drawVocabCard(ctx: CanvasRenderingContext2D, card: VocabCard): void {
   const { x, y, width: w, height: h } = card
   const r = 10
 
-  // Shadow + glow
-  ctx.shadowColor   = 'rgba(99,102,241,0.3)'
+  // Shadow
+  ctx.shadowColor   = 'rgba(99,102,241,0.18)'
   ctx.shadowBlur    = 20
   ctx.shadowOffsetX = 0
   ctx.shadowOffsetY = 4
