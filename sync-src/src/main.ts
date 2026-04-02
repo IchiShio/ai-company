@@ -26,6 +26,7 @@ const hintEl      = document.getElementById('tap-hint')!
 const jaToggleBtn = document.getElementById('ja-toggle')!
 const jaPanel     = document.getElementById('ja-panel')!
 const jaText      = document.getElementById('ja-text')!
+const replayBtn   = document.getElementById('replay-btn')! as HTMLButtonElement
 
 // ─── State ────────────────────────────────────────────────────────────────────
 const audio    = new AudioEngine()
@@ -58,8 +59,35 @@ function init() {
   setupTransport()
   setupCanvasEvents()
   setupJaToggle()
+  setupReplay()
   window.addEventListener('resize', onResize)
   loadPassage(currentLevel, 0)
+}
+
+/** 現在再生中の文の先頭時刻を返す */
+function findSentenceStart(): number {
+  if (!timings.length || activeIndex <= 0) return 0
+  for (let i = activeIndex - 1; i >= 0; i--) {
+    if (/[.!?]$/.test(timings[i].word)) {
+      return timings[i + 1]?.start ?? 0
+    }
+  }
+  return timings[0].start
+}
+
+function setupReplay() {
+  replayBtn.addEventListener('click', () => {
+    if (!passageLoaded) return
+    const t = findSentenceStart()
+    audio.seek(t)
+    renderer?.resetHighlight()
+    if (!audio.isPlaying) {
+      audio.play(onEnded)
+      playBtn.textContent = '⏸ Pause'
+      playBtn.classList.add('playing')
+      startRaf()
+    }
+  })
 }
 
 function setupJaToggle() {
@@ -223,6 +251,7 @@ function dismissCard() {
 
 async function loadPassage(level: Level, index: number) {
   passageLoaded = false
+  replayBtn.disabled = true
   cancelAnimationFrame(raf)
   audio.stop()
   playBtn.textContent = '▶ Play'
@@ -254,6 +283,7 @@ async function loadPassage(level: Level, index: number) {
     loadingEl.style.display = 'none'
     playerPanel.classList.add('ready')
     passageLoaded = true
+    replayBtn.disabled = false
     applySpeed()
     updateJaPanel()
   } catch (err) {

@@ -196,6 +196,16 @@ main {
 }
 @media (max-width: 480px) { .key-hints { display: none; } }
 
+/* ─── Replay button ──────────────────────────────── */
+.replay-btn {
+  padding: 8px 14px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface2);
+  color: var(--muted); font-size: 13px; cursor: pointer;
+  white-space: nowrap; transition: all .15s;
+}
+.replay-btn:hover:not(:disabled) { color: var(--text); border-color: var(--accent); }
+.replay-btn:disabled { opacity: .3; cursor: default; }
+
 /* ─── Japanese translation toggle ───────────────── */
 .ja-toggle-btn {
   padding: 8px 14px; border-radius: 10px;
