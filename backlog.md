@@ -64,10 +64,11 @@
 - **実行方法**: oac-buchoと連携してコンテンツ設計
 - **完了**: 2026-04-01 MVP設計書作成（`projects/saas-b-claude-code-saas/`）。README.md・spec.md作成。Gumroad販売・GitHub Pages LP・月額サポートプランを設計。
 
-### [ ] A: X自動化SaaS
+### [x] A: X自動化SaaS
 - **収益**: 月額サブスク
 - **コア機能**: 複数アカウント管理・スケジュール投稿・パフォーマンス分析
 - **注意**: 競合多い。差別化（AI生成+自動PDCA）が必須
+- **完了**: 2026-04-02 MVP設計書作成（`projects/saas-a-x-automation/`）。README.md・spec.md作成。Claude API投稿生成・PDCA自動化・Stripe課金・X API v2連携を設計。
 
 ### [x] C: SEO自動化SaaS
 - **収益**: 月額サブスク
