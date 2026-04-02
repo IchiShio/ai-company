@@ -440,6 +440,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   const luStreak = lu.dailyStreak || 0;
   const luAxis = lu.axisStats || {};
   const luVisits = lu.visitDates || [];
+  const luChallengeDone = (() => { try { return localStorage.getItem('listenup_challenge_' + today) === '1'; } catch(_) { return false; } })();
 
   // WordsUp
   const wu = safeJson('wordsup_v1') || {};
@@ -508,6 +509,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="section-title">今日やること</div>`;
 
   const todos = [
+    {
+      href: '/listening/',
+      icon: '⚡',
+      name: 'デイリーチャレンジ',
+      goal: '5問',
+      done: luChallengeDone,
+      sub: luChallengeDone ? '完了！今日の5問クリア' : 'チャレンジモードで5問に挑戦',
+    },
     {
       href: '/',
       icon: '🎧',
