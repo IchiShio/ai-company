@@ -1969,6 +1969,15 @@
       max-width: 540px;
       margin: 0 auto;
     }
+    .hub-streak-badge {
+      display: none;
+      align-items: center; justify-content: center; gap: 6px;
+      margin: 18px auto 0;
+      padding: 7px 18px; border-radius: 20px;
+      font-size: 13px; font-weight: 700;
+      background: rgba(245,158,11,0.1); color: #d97706;
+      width: fit-content;
+    }
     /* Product Cards */
     .hub-cards {
       display: grid;
@@ -2341,6 +2350,7 @@
   <div class="hub-hero">
     <h2 class="hub-hero-h2">英語力を、毎日ちょっとずつ。</h2>
     <p class="hub-hero-sub">native-real.comは無料で使える英語学習ツール集。<br>リスニング・文法・単語・フレーズ、あなたのペースで。</p>
+    <div class="hub-streak-badge" id="hubStreakBadge"></div>
   </div>
 
   <!-- Product Cards -->
@@ -2432,6 +2442,31 @@
     });
   });
   document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+
+  // ストリーク＆チャレンジバッジ（ListenUp localStorage から読み込み）
+  try {
+    var lp = JSON.parse(localStorage.getItem('listenup_v1') || 'null');
+    var badge = document.getElementById('hubStreakBadge');
+    if (lp && badge) {
+      var streak = lp.dailyStreak || 0;
+      var today = new Date().toISOString().slice(0, 10);
+      var practicedToday = lp.todayDate === today && (lp.todayAnswered || 0) > 0;
+      var challengeDone = localStorage.getItem('listenup_challenge_' + today) === '1';
+      if (streak >= 1) {
+        badge.style.display = 'flex';
+        if (practicedToday && challengeDone) {
+          badge.textContent = '🔥 ' + streak + '日連続 · ⚡ チャレンジ完了';
+        } else if (practicedToday) {
+          badge.textContent = '🔥 ' + streak + '日連続中 · 今日の練習済み ✅';
+        } else {
+          badge.textContent = '🔥 ' + streak + '日連続中 — 今日も続けよう！';
+        }
+      } else if (challengeDone) {
+        badge.style.display = 'flex';
+        badge.textContent = '⚡ 今日のチャレンジ完了！';
+      }
+    }
+  } catch(_) {}
 })();
 </script>
 </body>

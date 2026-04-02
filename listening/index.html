@@ -929,6 +929,18 @@
     .qm-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
     .qm-btn.qm-active { background: var(--gold); color: #fff; border-color: var(--gold); }
     .qm-btn-sub { display: block; font-size: 10px; font-weight: 400; opacity: 0.8; }
+    .qm-btn[data-mode="challenge"] { border-color: var(--gold-dim); }
+    .qm-btn[data-mode="challenge"].qm-active { background: linear-gradient(135deg,#f59e0b,#d97706); border-color:#d97706; color:#fff; }
+    .challenge-status-wrap {
+      display: none;
+      align-items: center; justify-content: center;
+      margin: 0 auto 10px; max-width: 400px;
+      padding: 7px 16px; border-radius: 20px;
+      font-size: 12px; font-weight: 600;
+      animation: fadeUp 0.5s 0.1s ease-out both;
+    }
+    .challenge-status-wrap.done { background: rgba(245,158,11,0.13); color: #d97706; }
+    .challenge-status-wrap.todo { background: rgba(245,158,11,0.05); color: var(--text-2); border: 1px dashed var(--gold-dim); }
 
     /* ── MILESTONE & SEEN PROGRESS ── */
     .milestone-wrap {
@@ -2467,6 +2479,7 @@
       <div class="streak-status-wrap" id="streakStatusWrap">
         <span id="streakStatusText" class="streak-status-text"></span>
       </div>
+      <div class="challenge-status-wrap" id="challengeStatusWrap"></div>
       <div class="weekly-cal-wrap" id="weeklyCalWrap">
         <div class="wk-item"><div class="wk-label">月</div><div class="wk-dot" id="wkd0"></div></div>
         <div class="wk-item"><div class="wk-label">火</div><div class="wk-dot" id="wkd1"></div></div>
@@ -2513,6 +2526,7 @@
         <button class="qm-btn" data-mode="daily" onclick="selectMode('daily')"><span class="qm-btn-sub" id="dailyModeLabel">今日のテーマ</span></button>
         <button class="qm-btn" data-mode="weak" onclick="selectMode('weak')">弱点集中</button>
         <button class="qm-btn" data-mode="revenge" onclick="selectMode('revenge')">リベンジ</button>
+        <button class="qm-btn" data-mode="challenge" onclick="selectMode('challenge')"><span class="qm-btn-sub">今日5問</span>チャレンジ</button>
         <p style="font-size:11px;color:var(--text-3);margin-top:6px;">※ 弱点集中・リベンジは学習データ蓄積後に有効になります（キャッシュクリアでリセット）</p>
       </div>
       <div class="hero-ctas">
@@ -3224,7 +3238,7 @@ function showReturningStats() {
   else { revBtn.style.opacity = '1'; revBtn.style.pointerEvents = 'auto'; }
 
   // ストリーク状態バナー
-  if (p.dailyStreak >= 2) {
+  if (p.dailyStreak >= 1) {
     const wrap = document.getElementById('streakStatusWrap');
     const text = document.getElementById('streakStatusText');
     wrap.style.display = 'flex';
@@ -3234,6 +3248,20 @@ function showReturningStats() {
     } else {
       wrap.className = 'streak-status-wrap not-done';
       text.textContent = `🔥 ${p.dailyStreak}日連続中 — 今日も練習して記録を守ろう！`;
+    }
+  }
+
+  // チャレンジ完了バッジ
+  const challengeDone = localStorage.getItem('listenup_challenge_' + today) === '1';
+  const cWrap = document.getElementById('challengeStatusWrap');
+  if (cWrap) {
+    cWrap.style.display = 'flex';
+    if (challengeDone) {
+      cWrap.className = 'challenge-status-wrap done';
+      cWrap.textContent = '⚡ 今日のチャレンジ完了！';
+    } else {
+      cWrap.className = 'challenge-status-wrap todo';
+      cWrap.textContent = '⚡ 今日の5問チャレンジに挑戦しよう';
     }
   }
 
@@ -3275,8 +3303,11 @@ const AXIS_USER_MSGS = {
 // ─────────────────────────────────────────
 // QUIZ MODES
 // ─────────────────────────────────────────
-let quizMode = 'normal'; // 'normal' | 'daily' | 'weak' | 'revenge'
+let quizMode = 'normal'; // 'normal' | 'daily' | 'weak' | 'revenge' | 'challenge'
 const DAILY_AXES = ['speed', 'reduction', 'vocab', 'context', 'distractor', null, null]; // 月〜金=axis, 土日=総合
+const CHALLENGE_SIZE = 5;
+let challengeQuestions = [];
+
 
 function selectMode(mode) {
   quizMode = mode;
@@ -3285,12 +3316,23 @@ function selectMode(mode) {
   });
   // ボタンラベルをモードに合わせて変更
   const btn = document.getElementById('freeTrialBtn');
-  const labels = { normal: '今日の練習を始める', daily: '今日のテーマに挑戦', weak: '弱点を集中トレーニング', revenge: 'リベンジ開始' };
+  const labels = { normal: '今日の練習を始める', daily: '今日のテーマに挑戦', weak: '弱点を集中トレーニング', revenge: 'リベンジ開始', challenge: '今日の5問に挑戦' };
   btn.textContent = labels[mode] || labels.normal;
 }
 
 function getDailyAxis() {
   return DAILY_AXES[new Date().getDay() === 0 ? 6 : new Date().getDay() - 1];
+}
+
+function seededShuffle(arr, seed) {
+  const a = [...arr];
+  let s = seed >>> 0;
+  for (let i = a.length - 1; i > 0; i--) {
+    s = (Math.imul(s, 1664525) + 1013904223) >>> 0;
+    const j = s % (i + 1);
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
 // ─────────────────────────────────────────
@@ -3448,6 +3490,16 @@ function initPools() {
     saveSeen();
   }
 
+  // チャレンジモード: 日付シードで5問固定選出
+  if (quizMode === 'challenge') {
+    const seed = parseInt(getToday().replace(/-/g, ''), 10);
+    challengeQuestions = seededShuffle(DATA, seed).slice(0, CHALLENGE_SIZE);
+    pools = {};
+    for (let i = 0; i <= 4; i++) pools[i] = [];
+    reviewQueue = [];
+    return;
+  }
+
   // モード別のベースフィルタ
   let baseFilter = () => true;
   if (quizMode === 'daily') {
@@ -3514,6 +3566,11 @@ function initPools() {
 // PICK QUESTION (axis-weighted selection)
 // ─────────────────────────────────────────
 function pickQuestion() {
+  // チャレンジモード: 固定5問キューから順番に返す
+  if (quizMode === 'challenge') {
+    return challengeQuestions.length > 0 ? challengeQuestions.shift() : null;
+  }
+
   // ⓪ SRS 復習問題を最優先（Anki 方式：復習を先に消化してから新問題へ）
   if (reviewQueue.length > 0) return reviewQueue.shift();
 
@@ -4079,6 +4136,11 @@ function toggleTranscript() {
 // NEXT
 // ─────────────────────────────────────────
 function next() {
+  if (quizMode === 'challenge' && total >= CHALLENGE_SIZE) {
+    try { localStorage.setItem('listenup_challenge_' + getToday(), '1'); } catch(_) {}
+    endSession();
+    return;
+  }
   loadQ();
 }
 
