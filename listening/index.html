@@ -1016,6 +1016,13 @@
     .mw-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(0,0,0,0.1); }
     .mw-dot.done  { background: var(--success); }
     .mw-dot.today { background: var(--gold); }
+    .mission-btn-continue {
+      width: 100%; background: #3b82f6; color: #fff;
+      font-weight: 700; font-size: 15px; border: none;
+      border-radius: 12px; padding: 14px; cursor: pointer; transition: all var(--t);
+      margin-bottom: 8px; min-height: 44px;
+    }
+    .mission-btn-continue:hover { background: #2563eb; }
     .mission-btn-back {
       width: 100%; background: rgba(0,0,0,0.05); color: var(--text-2);
       font-weight: 600; font-size: 14px; border: 1px solid var(--border);
@@ -2991,6 +2998,7 @@
       <a class="mission-article-link" href="/real-phrases/no-worries/">"No worries" — 大丈夫だよ</a>
       <a class="mission-article-link" href="/real-phrases/">→ フレーズ集をもっと見る（101表現）</a>
     </div>
+    <button class="mission-btn-continue" onclick="continueSession()">あと10問やる →</button>
     <button class="mission-btn-back" onclick="closeMissionComplete()">← TOPに戻る</button>
   </div>
 </div>
@@ -4385,6 +4393,11 @@ function showMissionComplete() {
 function closeMissionComplete() {
   document.getElementById('missionOverlay').classList.remove('show');
   goToStart();
+}
+
+function continueSession() {
+  document.getElementById('missionOverlay').classList.remove('show');
+  loadQ();
 }
 
 // ─────────────────────────────────────────
