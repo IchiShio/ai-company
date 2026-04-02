@@ -16,17 +16,169 @@
   <link rel="icon" type="image/svg+xml" href="/sync/favicon.svg">
   <script type="module" crossorigin src="/sync/assets/index-kRCB5GMU.js"></script>
   <link rel="stylesheet" crossorigin href="/sync/assets/index-C3aMdfln.css">
+  <style>
+    /* ── UNIFIED SITE HEADER ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(255,255,255,0.92); backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid rgba(0,0,0,0.06); padding: 10px 0;
+      transition: padding 0.3s ease, box-shadow 0.3s ease;
+    }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(0,0,0,0.08); }
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+    .site-header-logo { font-size: 15px; font-weight: 800; color: #111; text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
+    .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
+    .site-header-nav { display: flex; align-items: center; gap: 2px; }
+    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.6); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
+    .site-header-nav > a:hover { color: #111; background: rgba(0,0,0,0.04); }
+    .site-header-nav > a.active { color: #F5A623; font-weight: 700; }
+    .nav-dd { position: relative; }
+    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.6); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
+    .nav-dd-trigger:hover { color: #111; background: rgba(0,0,0,0.04); }
+    .nav-dd-trigger.active { color: #F5A623; font-weight: 700; }
+    .dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+    .nav-dd.open .dd-chevron { transform: rotate(180deg); }
+    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #fff; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06); padding: 6px; margin-top: 4px; z-index: 310; }
+    .nav-dd.open .nav-dd-menu { display: block; }
+    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.7); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+    .nav-dd-menu a:hover { color: #111; background: rgba(0,0,0,0.04); }
+    .nav-dd-menu a.active { color: #F5A623; font-weight: 700; }
+    .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: #111; margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .site-hamburger.active span:nth-child(2) { opacity: 0; }
+    .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    .site-mobile-nav { display: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s; }
+    .site-mobile-nav.active { display: flex; opacity: 1; }
+    .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
+    .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .site-mobile-nav a.active { color: #F5A623; }
+    .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
+    @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+    /* ── END UNIFIED HEADER ── */
+
+    /* ── TOOL HUB FOOTER ── */
+    .tools-footer {
+      margin-top: 48px;
+      padding: 40px 20px 32px;
+      border-top: 1px solid rgba(0,0,0,0.07);
+      background: #fafafa;
+    }
+    .tools-footer-inner { max-width: 900px; margin: 0 auto; }
+    .tools-footer-heading {
+      font-size: 13px; font-weight: 700; color: rgba(0,0,0,0.4);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 20px; text-align: center;
+    }
+    .tools-footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    @media (max-width: 600px) { .tools-footer-grid { grid-template-columns: repeat(2, 1fr); } }
+    .tools-footer-card {
+      display: flex; align-items: center; gap: 10px;
+      padding: 14px 16px;
+      background: #fff; border-radius: 12px;
+      border: 1px solid rgba(0,0,0,0.07);
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+    .tools-footer-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .tools-footer-card.current { border-color: rgba(245,166,35,0.4); background: rgba(245,166,35,0.03); }
+    .tools-footer-icon { font-size: 20px; flex-shrink: 0; }
+    .tools-footer-name { font-size: 13px; font-weight: 700; color: #111; }
+    .tools-footer-desc { font-size: 11px; color: rgba(0,0,0,0.5); margin-top: 2px; line-height: 1.4; }
+    .tools-footer-ranking-cta {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 20px 24px;
+      background: linear-gradient(135deg, #fff8ed, #fff);
+      border: 1px solid rgba(245,166,35,0.25);
+      border-radius: 14px;
+    }
+    @media (max-width: 560px) { .tools-footer-ranking-cta { flex-direction: column; text-align: center; } }
+    .tools-footer-ranking-text h3 { font-size: 15px; font-weight: 800; color: #111; margin-bottom: 4px; }
+    .tools-footer-ranking-text p { font-size: 12px; color: rgba(0,0,0,0.55); }
+    .tools-footer-ranking-btn {
+      flex-shrink: 0;
+      display: inline-block; padding: 11px 22px;
+      background: #F5A623; color: #fff;
+      font-size: 13px; font-weight: 700;
+      border-radius: 10px; text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      white-space: nowrap;
+    }
+    .tools-footer-ranking-btn:hover { background: #e09500; transform: translateY(-1px); }
+    .tools-footer-bottom {
+      margin-top: 28px; padding-top: 20px;
+      border-top: 1px solid rgba(0,0,0,0.06);
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .tools-footer-copy { font-size: 11px; color: rgba(0,0,0,0.4); }
+    .tools-footer-owner a { font-size: 11px; color: rgba(0,0,0,0.4); text-decoration: none; display: flex; align-items: center; gap: 5px; }
+    .tools-footer-owner a:hover { color: #111; }
+    .tools-footer-owner svg { width: 12px; height: 12px; fill: currentColor; }
+    /* ── END TOOL HUB FOOTER ── */
+  </style>
 </head>
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <header>
-    <a class="logo" href="/">
-      <div class="logo-mark">N</div>
-      <div><div class="logo-text">native-real</div><div class="logo-sub">英語学習比較</div></div>
-    </a>
-    <a class="nav-link" href="/ranking/">比較ランキング</a>
+  <!-- ── SITE-WIDE HEADER ── -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+      <a href="/" class="site-header-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>native-real</a>
+      <nav class="site-header-nav">
+        <div class="nav-dd">
+          <button class="nav-dd-trigger" type="button">学ぶ<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+          <div class="nav-dd-menu">
+            <a href="/listening/">ListenUp</a>
+            <a href="/reading/">ReadUp</a>
+            <a href="/sync/" class="active">SyncReader</a>
+            <a href="/grammar/">GrammarUp</a>
+            <a href="/words/">WordsUp</a>
+            <a href="/kioku-shinai/">記憶しない英単語</a>
+            <a href="/phonics/">Phonics Decoder</a>
+          </div>
+        </div>
+        <div class="nav-dd">
+          <button class="nav-dd-trigger" type="button">読む<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+          <div class="nav-dd-menu">
+            <a href="/articles/">学習コラム</a>
+            <a href="/real-phrases/">フレーズ集</a>
+            <a href="/prompts/">AIプロンプト</a>
+          </div>
+        </div>
+        <a href="/ranking/">ランキング</a>
+        <a href="/my/">My Progress</a>
+      </nav>
+      <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </header>
+  <div class="site-mobile-nav" id="siteMobileNav">
+    <div class="mobile-nav-label">学ぶ</div>
+    <a href="/listening/">ListenUp</a>
+    <a href="/reading/">ReadUp</a>
+    <a href="/sync/" class="active">SyncReader</a>
+    <a href="/grammar/">GrammarUp</a>
+    <a href="/words/">WordsUp</a>
+    <a href="/kioku-shinai/">記憶しない英単語</a>
+    <a href="/phonics/">Phonics Decoder</a>
+    <div class="mobile-nav-label">読む</div>
+    <a href="/articles/">学習コラム</a>
+    <a href="/real-phrases/">フレーズ集</a>
+    <a href="/prompts/">AIプロンプト</a>
+    <div class="mobile-nav-label"></div>
+    <a href="/ranking/">ランキング</a>
+    <a href="/my/">My Progress</a>
+  </div>
+  <!-- ── END SITE-WIDE HEADER ── -->
+  <div style="height:54px"></div>
 
   <main>
     <div class="page-title">
@@ -95,5 +247,97 @@
       </section>
     </div>
   </main>
+
+  <!-- ── TOOL HUB FOOTER ── -->
+  <footer class="tools-footer">
+    <div class="tools-footer-inner">
+      <div class="tools-footer-heading">他のツールも試してみよう</div>
+      <div class="tools-footer-grid">
+        <a href="/listening/" class="tools-footer-card">
+          <div class="tools-footer-icon">🎧</div>
+          <div>
+            <div class="tools-footer-name">ListenUp</div>
+            <div class="tools-footer-desc">リスニング力を鍛える。1,500問+</div>
+          </div>
+        </a>
+        <a href="/reading/" class="tools-footer-card">
+          <div class="tools-footer-icon">📖</div>
+          <div>
+            <div class="tools-footer-name">ReadUp</div>
+            <div class="tools-footer-desc">読解力を鍛える。語彙・文法・文脈</div>
+          </div>
+        </a>
+        <a href="/sync/" class="tools-footer-card current">
+          <div class="tools-footer-icon">🔊</div>
+          <div>
+            <div class="tools-footer-name">SyncReader</div>
+            <div class="tools-footer-desc">耳が先。目が追う（今ここ）</div>
+          </div>
+        </a>
+        <a href="/grammar/" class="tools-footer-card">
+          <div class="tools-footer-icon">✓</div>
+          <div>
+            <div class="tools-footer-name">GrammarUp</div>
+            <div class="tools-footer-desc">英文法の弱点を発見。295問</div>
+          </div>
+        </a>
+        <a href="/kioku-shinai/" class="tools-footer-card">
+          <div class="tools-footer-icon">🧠</div>
+          <div>
+            <div class="tools-footer-name">記憶しない英単語</div>
+            <div class="tools-footer-desc">語根で覚える新しい単語学習</div>
+          </div>
+        </a>
+        <a href="/words/" class="tools-footer-card">
+          <div class="tools-footer-icon">📝</div>
+          <div>
+            <div class="tools-footer-name">WordsUp</div>
+            <div class="tools-footer-desc">単語力をクイズで伸ばす</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Ranking CTA -->
+      <div class="tools-footer-ranking-cta">
+        <div class="tools-footer-ranking-text">
+          <h3>あなたに合った英会話サービスは?</h3>
+          <p>12社を料金・特徴で徹底比較。目的別ランキングですぐわかる。</p>
+        </div>
+        <a href="/ranking/" class="tools-footer-ranking-btn">ランキングを見る →</a>
+      </div>
+
+      <div class="tools-footer-bottom">
+        <div class="tools-footer-copy">© 2026 native-real. All rights reserved.</div>
+        <div class="tools-footer-owner">
+          <a href="https://x.com/ichi_eigo" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            @ichi_eigo
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ── END TOOL HUB FOOTER ── -->
+
+  <script>
+  (function(){
+    var b=document.getElementById('siteHamburger'),n=document.getElementById('siteMobileNav');
+    if(b&&n){
+      b.addEventListener('click',function(){b.classList.toggle('active');n.classList.toggle('active');document.body.style.overflow=n.classList.contains('active')?'hidden':'';});
+      n.addEventListener('click',function(e){if(e.target===n||e.target.tagName==='A'){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';}});
+    }
+    var h=document.getElementById('siteHeader');
+    if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>40);t=false;});t=true;}});}
+    document.querySelectorAll('.nav-dd-trigger').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        e.stopPropagation();
+        var dd=btn.parentElement;
+        document.querySelectorAll('.nav-dd.open').forEach(function(d){if(d!==dd)d.classList.remove('open');});
+        dd.classList.toggle('open');
+      });
+    });
+    document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+  })();
+  </script>
 </body>
 </html>
