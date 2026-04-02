@@ -1132,6 +1132,8 @@
     .cross-card-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
     .cross-card-desc { font-size: 12px; color: rgba(0,0,0,0.6); margin-bottom: 10px; line-height: 1.5; }
     .cross-card-link { display: inline-block; padding: 8px 20px; font-size: 13px; font-weight: 700; color: #fff; border-radius: 8px; text-decoration: none; }
+    .cross-app-label { font-size: 11px; font-weight: 700; color: var(--text-3); letter-spacing: 0.5px; margin-bottom: 10px; text-transform: uppercase; }
+    .mission-cross-app-wrap { margin: 0 0 16px; padding: 14px; background: var(--surface); border-radius: 12px; }
 
     /* ── INLINE CTA (10問ごと) ── */
     /* ── Wrong-answer CTA ── */
@@ -2948,6 +2950,7 @@
       <div class="mission-axis-rows" id="missionAxisRows"></div>
       <p class="mission-axis-msg" id="missionAxisMsg"></p>
     </div>
+    <div class="mission-cross-app-wrap" id="missionCrossApp" style="display:none"></div>
     <div class="mission-service-cta" id="missionServiceCta">
       <div class="mission-service-label" id="missionServiceLabel">🎯 リスニング力を実践で活かす</div>
       <div id="missionServiceCards"></div>
@@ -4336,29 +4339,66 @@ function showMissionComplete() {
     cardsEl.appendChild(lvCard);
   }
 
-  // クロスプロモカード（アフィリエイトCTAの後に追加）
-  const missionBody = document.getElementById('missionServiceCards');
-  if (missionBody) {
-    const crossPromo = document.createElement('div');
-    crossPromo.className = 'cross-promo-cards';
-    crossPromo.innerHTML = `
-      <div class="cross-card-mini" style="border-left: 3px solid #10B981;">
-        <div class="cross-card-title">📝 文法力もチェック</div>
-        <div class="cross-card-desc">リスニングで聞き取れても、文法がわからないと意味が取れない。GrammarUpで896問に挑戦。</div>
-        <a class="cross-card-link" href="/grammar/" style="background:#10B981;">GrammarUpを試す</a>
-      </div>
-      <div class="cross-card-mini" style="border-left: 3px solid #6366F1;">
-        <div class="cross-card-title">📖 語彙を増やす</div>
-        <div class="cross-card-desc">聞き取れる単語を増やすとリスニングが格段に楽になる。WordsUpで頻出1000語に挑戦。</div>
-        <a class="cross-card-link" href="/words/" style="background:#6366F1;">WordsUpを試す</a>
-      </div>
-      <div class="cross-card-mini" style="border-left: 3px solid #007AFF;">
-        <div class="cross-card-title">🧠 語彙を芋づる式に</div>
-        <div class="cross-card-desc">30の語根で600語が読める。語源から覚えるから、忘れない。</div>
-        <a class="cross-card-link" href="/kioku-shinai/" style="background:#007AFF;">記憶しない英単語を試す</a>
-      </div>
-    `;
-    missionBody.parentNode.insertBefore(crossPromo, missionBody.nextSibling);
+  // クロスアプリ推薦（弱点axisに連動・アフィリエイトより前に表示）
+  const CROSS_APPS = {
+    grammar:        { icon: '📝', name: 'GrammarUp',         url: '/grammar/',      bg: '#10B981' },
+    words:          { icon: '📖', name: 'WordsUp',           url: '/words/',        bg: '#6366F1' },
+    'kioku-shinai': { icon: '🧠', name: '記憶しない英単語', url: '/kioku-shinai/', bg: '#007AFF' },
+  };
+  const CROSS_PRIORITY = {
+    vocab:      ['words', 'kioku-shinai', 'grammar'],
+    reduction:  ['words', 'grammar', 'kioku-shinai'],
+    speed:      ['words', 'grammar', 'kioku-shinai'],
+    context:    ['grammar', 'words', 'kioku-shinai'],
+    distractor: ['grammar', 'words', 'kioku-shinai'],
+  };
+  const CROSS_DESC = {
+    grammar: {
+      vocab: '語彙と文法を同時に鍛えると意味把握力が上がります。896問。',
+      reduction: '音が崩れた文の意味を取るには文法の骨格が必要です。896問。',
+      speed: '文法の自動化が進むと速い英語でも意味がとれます。896問。',
+      context: '文脈推測の精度は文法力に直結します。896問。',
+      distractor: '選択肢を見分ける力は文法の精度から来ます。896問。',
+    },
+    words: {
+      vocab: '知っている語が増えると聞き取れる範囲が広がります。頻出1000語。',
+      reduction: '"gonna" "wanna" を語彙として知っていると音変化も聞けます。頻出1000語。',
+      speed: '頻出語の瞬時認識力が速い英語への対応力を上げます。頻出1000語。',
+      context: '語彙の幅が広がると文脈推測の材料が増えます。頻出1000語。',
+      distractor: '類似語のニュアンスの差が語彙力で解消します。頻出1000語。',
+    },
+    'kioku-shinai': {
+      vocab: '語根を知ると初見の単語も意味が推測できます。30語根で600語。',
+      reduction: '語根知識が崩れた発音でも意味をつなぐ助けになります。30語根で600語。',
+      speed: '語根ベースの語彙は瞬時認識に有利です。30語根で600語。',
+      context: '語根から意味を推測できると文脈理解が深まります。30語根で600語。',
+      distractor: '語根の知識で似た語の意味の差がわかります。30語根で600語。',
+    },
+  };
+  const weakAxisKey = rows.length >= 1 ? rows[0].key : null;
+  const priority = (weakAxisKey && CROSS_PRIORITY[weakAxisKey]) ? CROSS_PRIORITY[weakAxisKey] : ['grammar', 'words', 'kioku-shinai'];
+  const [primaryKey, ...subKeys] = priority;
+  const primaryApp = CROSS_APPS[primaryKey];
+  const primaryDesc = weakAxisKey ? CROSS_DESC[primaryKey][weakAxisKey] : '';
+  const crossAppEl = document.getElementById('missionCrossApp');
+  if (crossAppEl && primaryApp) {
+    const sectionLabel = weakAxisKey
+      ? `<strong>${AXIS_USER_LABELS[weakAxisKey]}</strong>が課題 → 合わせて練習しよう`
+      : '他のツールも試してみよう';
+    crossAppEl.innerHTML =
+      '<div class="cross-app-label">' + sectionLabel + '</div>' +
+      '<div class="cross-card-mini" style="border-left:3px solid ' + primaryApp.bg + ';margin-bottom:8px;">' +
+        '<div class="cross-card-title">' + primaryApp.icon + ' ' + primaryApp.name + '</div>' +
+        '<div class="cross-card-desc">' + primaryDesc + '</div>' +
+        '<a class="cross-card-link" href="' + primaryApp.url + '" style="background:' + primaryApp.bg + ';">' + primaryApp.name + 'を試す</a>' +
+      '</div>' +
+      '<div style="display:flex;gap:8px;">' +
+        subKeys.map(function(k) {
+          var a = CROSS_APPS[k];
+          return '<a href="' + a.url + '" style="flex:1;text-align:center;padding:9px 4px;background:' + a.bg + '20;border-radius:8px;text-decoration:none;font-size:12px;font-weight:600;color:' + a.bg + ';">' + a.icon + ' ' + a.name + '</a>';
+        }).join('') +
+      '</div>';
+    crossAppEl.style.display = 'block';
   }
 
   // Render share card
