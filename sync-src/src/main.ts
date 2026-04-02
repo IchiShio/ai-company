@@ -37,8 +37,8 @@ let activeIndex   = -1
 let card          : VocabCard | null = null
 let passageLoaded = false
 
-const SPEEDS = [0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.4]
-let speedIdx = 3
+const SPEEDS = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.4, 1.6, 2.0]
+let speedIdx = 4  // default 0.9x
 
 function currentSpeed() { return SPEEDS[speedIdx] }
 
