@@ -3858,6 +3858,12 @@ function choose(selected) {
 
   const nextBtn = document.getElementById('nextBtn');
   nextBtn.classList.add('show');
+  // チャレンジ最終問はラベルを変更
+  if (quizMode === 'challenge' && total >= CHALLENGE_SIZE) {
+    nextBtn.textContent = '結果を見る →';
+  } else {
+    nextBtn.textContent = '次の問題 →';
+  }
 
   // 不正解時CTA（axis連動）
   document.getElementById('wrongAnswerCta').innerHTML = '';
