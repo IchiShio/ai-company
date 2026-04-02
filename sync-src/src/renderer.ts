@@ -2,15 +2,16 @@ import { FONT, LINE_HEIGHT } from './text-engine'
 import type { WordRect, VocabCard } from './types'
 
 const C = {
-  upcoming : '#8892b8',
+  upcoming : '#7b85b0',
   active   : '#ffffff',
-  done     : '#363c57',
-  hlFill   : 'rgba(245, 200, 66, 0.20)',
-  hlStroke : 'rgba(245, 200, 66, 0.60)',
-  cardBg   : '#1a1d27',
-  cardBorder: '#2e3347',
-  cardTitle : '#f5c842',
-  cardPhon  : '#7b82a0',
+  done     : '#2e3655',
+  hlFill   : 'rgba(99, 102, 241, 0.22)',
+  hlStroke : 'rgba(165, 180, 252, 0.70)',
+  cardBg   : '#0e1120',
+  cardBorder: '#222840',
+  cardAccent: '#6366f1',
+  cardTitle : '#a5b4fc',
+  cardPhon  : '#6b7394',
   cardDef   : '#c8cce0',
 }
 
@@ -71,7 +72,11 @@ export class Renderer {
         this.hlW += (tw - this.hlW) * 0.35
       }
 
-      ctx.fillStyle = C.hlFill
+      // Gradient highlight pill
+      const grad = ctx.createLinearGradient(this.hlX, 0, this.hlX + this.hlW, 0)
+      grad.addColorStop(0, 'rgba(99,102,241,0.28)')
+      grad.addColorStop(1, 'rgba(139,92,246,0.28)')
+      ctx.fillStyle = grad
       roundRect(ctx, this.hlX, this.hlY, this.hlW, th, 6)
       ctx.fill()
 
@@ -128,9 +133,9 @@ function drawVocabCard(ctx: CanvasRenderingContext2D, card: VocabCard): void {
   const { x, y, width: w, height: h } = card
   const r = 10
 
-  // Shadow
-  ctx.shadowColor   = 'rgba(0,0,0,0.4)'
-  ctx.shadowBlur    = 12
+  // Shadow + glow
+  ctx.shadowColor   = 'rgba(99,102,241,0.3)'
+  ctx.shadowBlur    = 20
   ctx.shadowOffsetX = 0
   ctx.shadowOffsetY = 4
 
@@ -148,9 +153,23 @@ function drawVocabCard(ctx: CanvasRenderingContext2D, card: VocabCard): void {
   roundRect(ctx, x, y, w, h, r)
   ctx.stroke()
 
+  // Accent top strip
+  const stripH = 3
+  ctx.fillStyle = C.cardAccent
+  ctx.beginPath()
+  ctx.moveTo(x + r, y)
+  ctx.lineTo(x + w - r, y)
+  ctx.arcTo(x + w, y, x + w, y + r, r)
+  ctx.lineTo(x + w, y + stripH)
+  ctx.lineTo(x, y + stripH)
+  ctx.lineTo(x, y + r)
+  ctx.arcTo(x, y, x + r, y, r)
+  ctx.closePath()
+  ctx.fill()
+
   // Content
   const pad = 12
-  let ty = y + pad + 14
+  let ty = y + pad + 16
 
   ctx.fillStyle = C.cardTitle
   ctx.font      = `600 14px ${FONT.split('px')[1] ?? 'sans-serif'}`
