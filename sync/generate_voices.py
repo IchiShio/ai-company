@@ -113,10 +113,13 @@ async def generate_passage(pid: str, text: str, voice: str) -> None:
 async def main() -> None:
     target = None
     dry_run = False
+    skip_existing = False
 
     for arg in sys.argv[1:]:
         if arg == "--dry-run":
             dry_run = True
+        elif arg == "--skip-existing":
+            skip_existing = True
         else:
             target = arg
 
@@ -140,12 +143,22 @@ async def main() -> None:
 
     os.makedirs(AUDIO_DIR, exist_ok=True)
     count = 0
+    skipped = 0
     for p, voice in assigned:
         pid = p["pid"]
         if target and pid != target:
             continue
+        if skip_existing:
+            mp3 = os.path.join(AUDIO_DIR, f"{pid}.mp3")
+            jsn = os.path.join(AUDIO_DIR, f"{pid}.json")
+            if os.path.exists(mp3) and os.path.exists(jsn):
+                skipped += 1
+                continue
         await generate_passage(pid, p["text"], voice)
         count += 1
+
+    if skipped:
+        print(f"  ⏭  {skipped}本スキップ（既存ファイルあり）")
 
     print(f"\n✅ {count}本 生成完了")
 
