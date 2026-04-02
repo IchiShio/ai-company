@@ -14,6 +14,31 @@
   <meta property="og:image" content="https://native-real.com/assets/ogp.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/sync/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "SyncReader",
+    "url": "https://native-real.com/sync/",
+    "description": "音声が先行し、単語がリアルタイムでハイライトされる英語リーディング練習ツール。耳が先。目が追う。",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    "inLanguage": "ja",
+    "publisher": {
+      "@type": "Organization",
+      "name": "native-real",
+      "url": "https://native-real.com/"
+    },
+    "featureList": [
+      "200パッセージ収録（5レベル）",
+      "リアルタイム単語ハイライト",
+      "速度調整（0.5x〜2.0x）",
+      "日本語訳表示",
+      "語彙ポップアップ"
+    ]
+  }
+  </script>
   <script type="module" crossorigin src="/sync/assets/index-kRCB5GMU.js"></script>
   <link rel="stylesheet" crossorigin href="/sync/assets/index-C3aMdfln.css">
   <style>
@@ -290,7 +315,7 @@
 
         <!-- Passage complete CTA -->
         <div id="passage-complete-cta">
-          <div class="cta-label">✅ パッセージ完了！次はどうする？</div>
+          <div class="cta-label">✅ パッセージ完了！<span id="cta-countdown"></span></div>
           <button class="cta-next-btn" id="cta-next-btn">次のパッセージ →</button>
           <a href="/listening/" class="cta-listenup-btn">🎧 ListenUpで練習</a>
         </div>
@@ -395,14 +420,51 @@
   (function(){
     var cta = document.getElementById('passage-complete-cta');
     var nextBtn = document.getElementById('cta-next-btn');
+    var countdown = document.getElementById('cta-countdown');
     var fill = document.getElementById('progress-fill');
     var playBtn = document.getElementById('play-btn');
     if(!cta || !fill || !playBtn) return;
 
+    var autoTimer = null;
+    var countTimer = null;
+
+    function clickNext(){
+      hideCta();
+      var items = document.querySelectorAll('.passage-item');
+      var active = document.querySelector('.passage-item.active');
+      if(!active){ if(items[0]) items[0].click(); return; }
+      for(var i=0;i<items.length-1;i++){
+        if(items[i]===active){ items[i+1].click(); return; }
+      }
+      // Last passage — no auto-next, just hide CTA
+    }
+
     function showCta(){
       cta.classList.add('visible');
+      // Auto-next countdown: 8 seconds
+      var sec = 8;
+      if(countdown) countdown.textContent = '（'+sec+'秒後に自動で次へ）';
+      clearInterval(countTimer);
+      clearTimeout(autoTimer);
+      countTimer = setInterval(function(){
+        sec--;
+        if(sec <= 0){
+          clearInterval(countTimer);
+          if(countdown) countdown.textContent = '';
+        } else {
+          if(countdown) countdown.textContent = '（'+sec+'秒後に自動で次へ）';
+        }
+      }, 1000);
+      autoTimer = setTimeout(function(){
+        clearInterval(countTimer);
+        if(countdown) countdown.textContent = '';
+        if(cta.classList.contains('visible')) clickNext();
+      }, 8000);
     }
     function hideCta(){
+      clearTimeout(autoTimer);
+      clearInterval(countTimer);
+      if(countdown) countdown.textContent = '';
       cta.classList.remove('visible');
     }
 
@@ -419,17 +481,7 @@
 
     // Next passage button: click next .passage-item in the list
     if(nextBtn){
-      nextBtn.addEventListener('click', function(){
-        hideCta();
-        var items = document.querySelectorAll('.passage-item');
-        var active = document.querySelector('.passage-item.active');
-        if(!active){ if(items[0]) items[0].click(); return; }
-        for(var i=0;i<items.length-1;i++){
-          if(items[i]===active){ items[i+1].click(); return; }
-        }
-        // Last passage — wrap to first
-        if(items[0]) items[0].click();
-      });
+      nextBtn.addEventListener('click', clickNext);
     }
 
     // MutationObserver: watch progress-fill width → 100%
