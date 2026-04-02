@@ -131,6 +131,40 @@
       -webkit-user-select: none;
     }
     /* ── END CANVAS MOBILE TOUCH FIX ── */
+  /* ── PASSAGE COMPLETE CTA ── */
+  #passage-complete-cta {
+    display: none;
+    margin-top: 16px;
+    padding: 14px 16px;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e8f4fd 100%);
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    animation: slideInCta 0.3s ease;
+  }
+  #passage-complete-cta.visible { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  @keyframes slideInCta {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .cta-label {
+    font-size: 13px; color: #374151; flex: 1 1 100%;
+    font-weight: 600; margin-bottom: 6px;
+  }
+  .cta-next-btn {
+    flex: 1; padding: 9px 16px; border-radius: 8px;
+    background: #2563eb; color: #fff; border: none; cursor: pointer;
+    font-size: 14px; font-weight: 600; white-space: nowrap;
+    transition: background 0.15s;
+  }
+  .cta-next-btn:hover { background: #1d4ed8; }
+  .cta-listenup-btn {
+    flex: 1; padding: 9px 16px; border-radius: 8px;
+    background: #fff; color: #2563eb; border: 1.5px solid #93c5fd;
+    cursor: pointer; font-size: 14px; font-weight: 600; white-space: nowrap;
+    text-decoration: none; display: inline-block; text-align: center;
+    transition: background 0.15s;
+  }
+  .cta-listenup-btn:hover { background: #eff6ff; }
   </style>
 </head>
 <body>
@@ -253,6 +287,13 @@
             </div>
           </div>
         </div>
+
+        <!-- Passage complete CTA -->
+        <div id="passage-complete-cta">
+          <div class="cta-label">✅ パッセージ完了！次はどうする？</div>
+          <button class="cta-next-btn" id="cta-next-btn">次のパッセージ →</button>
+          <a href="/listening/" class="cta-listenup-btn">🎧 ListenUpで練習</a>
+        </div>
       </section>
     </div>
   </main>
@@ -346,6 +387,61 @@
       });
     });
     document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+  })();
+  </script>
+
+  <script>
+  /* Passage-complete CTA: detect when playback finishes */
+  (function(){
+    var cta = document.getElementById('passage-complete-cta');
+    var nextBtn = document.getElementById('cta-next-btn');
+    var fill = document.getElementById('progress-fill');
+    var playBtn = document.getElementById('play-btn');
+    if(!cta || !fill || !playBtn) return;
+
+    function showCta(){
+      cta.classList.add('visible');
+    }
+    function hideCta(){
+      cta.classList.remove('visible');
+    }
+
+    // Hide CTA whenever a new passage is selected or play starts
+    document.addEventListener('click', function(e){
+      if(e.target && (
+        e.target.classList.contains('passage-item') ||
+        e.target.id === 'play-btn' ||
+        e.target.closest && e.target.closest('.passage-item')
+      )){
+        hideCta();
+      }
+    }, true);
+
+    // Next passage button: click next .passage-item in the list
+    if(nextBtn){
+      nextBtn.addEventListener('click', function(){
+        hideCta();
+        var items = document.querySelectorAll('.passage-item');
+        var active = document.querySelector('.passage-item.active');
+        if(!active){ if(items[0]) items[0].click(); return; }
+        for(var i=0;i<items.length-1;i++){
+          if(items[i]===active){ items[i+1].click(); return; }
+        }
+        // Last passage — wrap to first
+        if(items[0]) items[0].click();
+      });
+    }
+
+    // MutationObserver: watch progress-fill width → 100%
+    var observer = new MutationObserver(function(){
+      var w = parseFloat(fill.style.width) || 0;
+      var txt = playBtn.textContent || '';
+      if(w >= 99.9 && txt.indexOf('▶') !== -1){
+        // Small delay to let the bundle finish its own DOM updates
+        setTimeout(showCta, 400);
+      }
+    });
+    observer.observe(fill, { attributes: true, attributeFilter: ['style'] });
   })();
   </script>
 </body>
