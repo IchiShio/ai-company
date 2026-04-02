@@ -4,6 +4,7 @@ export interface Passage {
   pid: string
   wc: number
   text: string
+  ja?: string
 }
 
 export interface WordTiming {

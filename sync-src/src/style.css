@@ -195,3 +195,24 @@ main {
   flex-wrap: wrap;
 }
 @media (max-width: 480px) { .key-hints { display: none; } }
+
+/* ─── Japanese translation toggle ───────────────── */
+.ja-toggle-btn {
+  padding: 8px 14px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface2);
+  color: var(--muted); font-size: 13px; cursor: pointer;
+  white-space: nowrap; transition: all .15s;
+}
+.ja-toggle-btn:hover  { color: var(--text); border-color: var(--accent); }
+.ja-toggle-btn.active { background: rgba(79,142,247,.12); border-color: var(--accent); color: var(--accent); }
+
+.ja-panel {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.ja-text {
+  font-size: 14px; line-height: 1.8;
+  color: var(--muted);
+}

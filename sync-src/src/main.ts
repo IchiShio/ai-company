@@ -23,6 +23,9 @@ const timeTotal   = document.getElementById('time-total')!
 const loadingEl   = document.getElementById('loading')!
 const passTitle   = document.getElementById('pass-title')!
 const hintEl      = document.getElementById('tap-hint')!
+const jaToggleBtn = document.getElementById('ja-toggle')!
+const jaPanel     = document.getElementById('ja-panel')!
+const jaText      = document.getElementById('ja-text')!
 
 // ─── State ────────────────────────────────────────────────────────────────────
 const audio    = new AudioEngine()
@@ -36,6 +39,7 @@ let timings       : WordTiming[] = []
 let activeIndex   = -1
 let card          : VocabCard | null = null
 let passageLoaded = false
+let jaVisible     = false
 
 const SPEEDS = [0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 1.2, 1.4, 1.6, 2.0]
 let speedIdx = 4  // default 0.9x
@@ -53,8 +57,22 @@ function init() {
   renderPassageList()
   setupTransport()
   setupCanvasEvents()
+  setupJaToggle()
   window.addEventListener('resize', onResize)
   loadPassage(currentLevel, 0)
+}
+
+function setupJaToggle() {
+  jaToggleBtn.addEventListener('click', () => {
+    jaVisible = !jaVisible
+    jaPanel.hidden = !jaVisible
+    jaToggleBtn.classList.toggle('active', jaVisible)
+  })
+}
+
+function updateJaPanel() {
+  const passage = PASSAGES[currentLevel][currentIndex]
+  jaText.textContent = passage.ja ?? ''
 }
 
 function setupLevelTabs() {
@@ -237,6 +255,7 @@ async function loadPassage(level: Level, index: number) {
     playerPanel.classList.add('ready')
     passageLoaded = true
     applySpeed()
+    updateJaPanel()
   } catch (err) {
     loadingEl.textContent = '読み込みエラー'
     console.error(err)
