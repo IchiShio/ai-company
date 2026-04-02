@@ -35,10 +35,11 @@
 - **実行方法**: ジャンル選定→サイト構造設計→コンテンツ生成→デプロイ
 - **完了**: 2026-04-01 プログラミングスクール比較サイト設計・コンテンツ生成（`projects/programming-school-comparison/`）。index.html・ranking/index.html・README.md・spec.md作成。デプロイはprog-school.net新規リポジトリ作成後に実施。
 
-### [ ] メールリスト×ステップメール
+### [x] メールリスト×ステップメール
 - **収益**: 自社商品・アフィリへの誘導
 - **対象**: native-real読者（英語学習者）
 - **実行方法**: Beehiiv設定→ステップメール設計→CTAページ作成
+- **完了**: 2026-04-02 CTAページ作成（`/newsletter/`）・7日間ステップメール設計書作成（`docs/newsletter-stepmail.md`）。Beehiiv埋め込みフォーム・Day0〜Day7全8通設計・A8アフィリCTA組み込み済み。
 
 ---
 
