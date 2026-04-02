@@ -190,6 +190,97 @@
     transition: background 0.15s;
   }
   .cta-listenup-btn:hover { background: #eff6ff; }
+
+  /* ── HERO LP ── */
+  .sr-hero {
+    padding: 48px 20px 36px;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  .sr-hero-inner { max-width: 540px; margin: 0 auto; }
+  .sr-eyebrow {
+    display: inline-block;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+    color: #2563eb; text-transform: uppercase; margin-bottom: 18px;
+  }
+  .sr-hero h1 {
+    font-size: clamp(22px, 5.5vw, 30px);
+    font-weight: 900; color: #0f172a;
+    line-height: 1.4; letter-spacing: -0.02em;
+    margin: 0 0 20px;
+  }
+  .sr-hero h1 em {
+    font-style: normal; color: #2563eb;
+  }
+  .sr-demo {
+    background: #f8fafc; border: 1px solid #e2e8f0;
+    border-radius: 8px; padding: 13px 16px;
+    font-family: Georgia, serif; font-size: 15px;
+    color: #334155; line-height: 1.7;
+    text-align: left; margin: 0 0 20px;
+  }
+  .sr-demo .w { display: inline; }
+  .sr-demo .w.on {
+    background: #fef08a; border-radius: 3px;
+    padding: 1px 3px; font-weight: 700;
+  }
+  .sr-demo-cap {
+    font-size: 11px; color: #94a3b8;
+    margin-top: 6px; font-family: sans-serif;
+    text-align: right;
+  }
+  .sr-hero-sub {
+    font-size: 14px; line-height: 1.85; color: #475569;
+    text-align: left; margin: 0 0 24px;
+  }
+  .sr-hero-sub p { margin: 0 0 10px; }
+  .sr-hero-sub p:last-child { margin-bottom: 0; }
+  .sr-hero-cta {
+    display: block; background: #2563eb; color: #fff;
+    padding: 15px 28px; border-radius: 10px;
+    font-size: 16px; font-weight: 700; text-decoration: none;
+    margin-bottom: 18px;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .sr-hero-cta:active { transform: scale(0.98); }
+  .sr-stats {
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+  }
+  .sr-stats span {
+    font-size: 12px; color: #64748b;
+    background: #f1f5f9; padding: 4px 11px; border-radius: 100px;
+  }
+  @media (min-width: 560px) {
+    .sr-hero { padding: 64px 20px 52px; }
+    .sr-hero h1 { font-size: 30px; }
+    .sr-hero-sub { font-size: 15px; }
+    .sr-hero-cta { display: inline-block; }
+  }
+
+  /* ── HOW IT WORKS ── */
+  .sr-how {
+    padding: 40px 20px 32px;
+    border-top: 1px solid #f1f5f9;
+  }
+  .sr-how-inner { max-width: 540px; margin: 0 auto; }
+  .sr-how h2 {
+    font-size: 17px; font-weight: 800; color: #0f172a;
+    margin: 0 0 24px; text-align: center;
+  }
+  .sr-steps { display: flex; flex-direction: column; gap: 18px; }
+  .sr-step { display: flex; gap: 14px; align-items: flex-start; }
+  .sr-step-num {
+    width: 30px; height: 30px; border-radius: 50%;
+    background: #2563eb; color: #fff;
+    font-size: 13px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; margin-top: 1px;
+  }
+  .sr-step-title {
+    font-size: 14px; font-weight: 700; color: #0f172a; margin-bottom: 3px;
+  }
+  .sr-step-desc { font-size: 13px; color: #64748b; line-height: 1.6; }
   </style>
 </head>
 <body>
@@ -249,10 +340,34 @@
   <div style="height:54px"></div>
 
   <main>
-    <div class="page-title">
-      <h1>SyncReader</h1>
-      <p>単語をタップして語義確認。テキストが動的に回り込む。</p>
-    </div>
+
+    <!-- ── HERO LP ── -->
+    <section class="sr-hero">
+      <div class="sr-hero-inner">
+        <div class="sr-eyebrow">SyncReader — 無料リーディングツール</div>
+        <h1>あなたは今、英語を<em>目で聴いて</em>います。</h1>
+
+        <!-- Demo strip: what the tool looks like -->
+        <div class="sr-demo">
+          <span class="w">She</span> <span class="w">had</span> <span class="w">already</span> <span class="w on">left</span> <span class="w">by</span> <span class="w">the</span> <span class="w">time</span> <span class="w">I</span> <span class="w">arrived.</span>
+          <div class="sr-demo-cap">↑ 音声の直後に単語が光る</div>
+        </div>
+
+        <div class="sr-hero-sub">
+          <p>英語を聴くとき、多くの日本人は頭の中で文字に変換しています。それがリスニングを難しくしている。</p>
+          <p>SyncReaderは音声が先に進み、テキストが後から光る。耳が先、目が追う——その順番で練習する。</p>
+        </div>
+        <a href="#tool" class="sr-hero-cta">今すぐ無料で試す →</a>
+        <div class="sr-stats">
+          <span>200パッセージ</span>
+          <span>5段階レベル</span>
+          <span>完全無料</span>
+        </div>
+      </div>
+    </section>
+    <!-- ── END HERO LP ── -->
+
+    <div id="tool" style="scroll-margin-top:60px"></div>
 
     <!-- Level tabs -->
     <div class="level-tabs">
@@ -321,6 +436,38 @@
         </div>
       </section>
     </div>
+
+    <!-- ── HOW IT WORKS ── -->
+    <section class="sr-how">
+      <div class="sr-how-inner">
+        <h2>使い方は3ステップ</h2>
+        <div class="sr-steps">
+          <div class="sr-step">
+            <div class="sr-step-num">1</div>
+            <div>
+              <div class="sr-step-title">レベルを選んでパッセージをタップ</div>
+              <div class="sr-step-desc">Lv.1〜Lv.5の5段階。今日の気分と目的に合わせて選べる。</div>
+            </div>
+          </div>
+          <div class="sr-step">
+            <div class="sr-step-num">2</div>
+            <div>
+              <div class="sr-step-title">Playを押す — 音が先に進む</div>
+              <div class="sr-step-desc">テキストではなく音声がリードする。単語が光るのは、音の少し後。読み先行のクセが、自然と抜けていく。</div>
+            </div>
+          </div>
+          <div class="sr-step">
+            <div class="sr-step-num">3</div>
+            <div>
+              <div class="sr-step-title">分からない単語はタップ</div>
+              <div class="sr-step-desc">意味がポップアップ表示。日本語訳も確認できる。聴きながら語彙も増やせる。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ── END HOW IT WORKS ── -->
+
   </main>
 
   <!-- ── TOOL HUB FOOTER ── -->
