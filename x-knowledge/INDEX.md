@@ -14,6 +14,7 @@
 | 新しいパターンを発見した | `learnings/patterns.md` に追記 |
 | 「効かなかった」を記録する | `learnings/false-beliefs.md` に追記 |
 | テーマを決める | `themes/rotation.md` → `posts/{account}-log.csv`（テーマ別実績） |
+| エンゲージメント運用を確認する | `operations/engagement.md` |
 
 ## ファイル一覧
 
@@ -41,6 +42,8 @@ x-knowledge/
 │   ├── INDEX.md             ← Factストック一覧（17テーマ対応）
 │   ├── README.md            ← Factのフォーマット・ルール
 │   └── {テーマ}.md          ← テーマ別Factファイル（随時追加）
+├── operations/
+│   └── engagement.md        ← エンゲージメント運用ルール（70/30ルール・投稿後30分対応）
 └── themes/
     └── rotation.md          ← テーマローテーション＋実績追跡
 ```
