@@ -41,6 +41,7 @@ jobs:
 
       - name: Post to X
         if: steps.text.outputs.post_text != ''
+        id: post
         run: |
           python3 scripts/post_tweet_ga.py
         env:
@@ -59,3 +60,5 @@ jobs:
           git add x-knowledge/posts/schedule.json
           git diff --cached --quiet || git commit -m "mark posted: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
+        env:
+          TWEET_ID: ${{ steps.post.outputs.tweet_id }}

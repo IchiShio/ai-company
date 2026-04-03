@@ -30,10 +30,21 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
 
+      - name: Update metrics in schedule.json and pdca_log / active.md
+        run: python3 scripts/update_metrics.py
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+
       - name: Commit and push metrics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add x-knowledge/posts/ichi-eigo-log.csv
-          git diff --cached --quiet || git commit -m "weekly metrics: $(date -u +%Y-%m-%d)"
+          git add x-knowledge/posts/ichi-eigo-log.csv \
+                  x-knowledge/posts/schedule.json \
+                  x-knowledge/posts/pdca_log.md \
+                  x-knowledge/hypotheses/active.md
+          git diff --cached --quiet || git commit -m "auto metrics: $(date -u +%Y-%m-%d)"
           git push

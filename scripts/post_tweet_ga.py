@@ -23,6 +23,11 @@ def post_tweet(text):
         data = resp.json()
         tweet_id = data["data"]["id"]
         print(f"OK: https://x.com/ichi_eigo/status/{tweet_id}")
+        # GitHub Actions の後続ステップに tweet_id を渡す
+        github_output = os.environ.get("GITHUB_OUTPUT", "")
+        if github_output:
+            with open(github_output, "a") as fh:
+                fh.write(f"tweet_id={tweet_id}\n")
         return True
     else:
         print(f"ERROR {resp.status_code}: {resp.text}", file=sys.stderr)
