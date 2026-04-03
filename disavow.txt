@@ -1,14 +1,14 @@
 # Disavow file for native-real.com
-# Generated: 2026-03-26 / Updated: 2026-04-03
+# Generated: 2026-03-26 / Updated: 2026-04-04
 # All backlinks are spam/PBN links - disavow entire domains
 
-domain:buybacklinks.agency
+domain:seoexpress.org
 domain:itxoft-seo-for-modern-business.site
 domain:fiverr-cost-effective-seo.site
+domain:buybacklinks.agency
 domain:zoldexlinks.shop
 domain:backlinks-seorank.com
 domain:grow-your.website
 domain:primeseo.xyz
 domain:seo-backlink.agency
 domain:seodaro.com
-domain:seonexi.com
