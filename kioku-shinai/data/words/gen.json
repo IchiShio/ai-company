@@ -788,42 +788,38 @@
       "toeicRank": "1000-1200",
       "parts": [
         {
-          "part": "ad-",
-          "meaning": "～へ、～に向かって",
-          "type": "prefix"
-        },
-        {
-          "part": "gen",
-          "meaning": "生む、産生する",
+          "part": "ag-",
+          "meaning": "行う・動かす（agere）",
           "type": "root"
         },
         {
-          "part": "-da",
-          "meaning": "すべきこと（ラテン語中性複数形）",
+          "part": "-enda",
+          "meaning": "なされるべきこと（ラテン語動形容詞複数形）",
           "type": "suffix"
         }
       ],
       "etymology": {
-        "oneliner": "ラテン語の『なすべき事柄』から、会議で取り扱う議題リストを意味するように発展した",
-        "fact": "もともとラテン語の『agendum』は『agere（行う）』と『-ndum（すべき）』の組み合わせで、『なすべきこと』という意味。複数形『agenda』が現代英語では単数形として使われている",
-        "source": "EtymOnline: Latin agenda from gerund of agere 'to do, drive'",
+        "oneliner": "agere（行う）+ -enda（なされるべきこと・複数）= なすべきことリスト → 議題",
+        "fact": "ラテン語 agere「行う・動かす」の動形容詞複数形 agenda（なされるべきことがら）から。もともとは「今日やるべき業務リスト」の意で、17世紀に英語に入った。agenda は agendum（単数）の複数形だったが、現代英語では単数扱いが定着している。TOEICでは会議の議題・行動計画の文脈で頻出。",
+        "source": "EtymOnline: agenda, from Latin agere (to do, drive)",
         "cognates": [
           "act",
           "agent",
           "agile",
+          "proactive",
           "navigate"
         ]
       },
       "cognitive": {
-        "oneliner": "『生む→やるべきことを生み出す→議題リスト』という思考の流れで記憶できる",
-        "fact": "会議で『agenda』を見ると、『これからやるべきこと』が『生み出される』イメージが湧きやすい",
+        "oneliner": "「行う（ag）べきことがら（enda）」→ やるべきことのリスト → 議題",
+        "fact": "ACTION（行為）スキーマ。agere（行う）の動形容詞複数形 agenda は「行われるべきものごとの集合体」。実行義務を内包したリストという概念。会議で「agenda」を出すことは「これからやること」を宣言するアクション。",
         "source": "Lakoff & Johnson (1980) CREATION IS BIRTHメタファー"
       },
-      "gap": "日本語では『議題』『議程』『行動計画』など複数の訳語があり、文脈による使い分けが必要",
-      "gapOneliner": "『生み出す』という語根の意味が、最終的な『リスト化された計画』という具体的な形に変化している",
+      "gap": "agenda は agere（行う）の動形容詞複数形。「gen（生む）」の仲間ではなく act / agent / agile と同根。The agenda = 今日やるべきこと一覧。hidden agenda = 隠れた本当の目的。政治用語としても頻出。",
+      "gapOneliner": "agenda = ag-（行う）+ -enda（べき複数）= やるべきこと一覧",
       "hook": {
         "label": "記憶フック",
-        "text": "『A big AGENDA』を覚えるなら『All Big Events Generate New Discussions And Actions』と展開する"
+        "text": "ag（行う）+ enda（べきことがら複数）= agenda（議題）。agent（行為者）と同根。「エージェント（agent）がやること（agenda）」とセットで覚えると完璧。"
       },
       "formats": [
         {
@@ -842,10 +838,10 @@
         {
           "type": "語源クイズ",
           "difficulty": 2,
-          "instruction": "『agenda』のラテン語の原意は『なすべきこと』です。『gen』という語根はどの単語でも同じ意味？",
+          "instruction": "「agenda」のラテン語の原意は「なすべきこと（複数）」です。この「ag-/act-」という語根の本来の意味は？",
           "explanationFocus": "cognitive",
           "choices": [
-            "『生む・産生する』意味で一貫している",
+            "行う・動かす（agere）意味で一貫している",
             "単語ごとに異なる意味を持つ",
             "ラテン語とギリシャ語で別の意味",
             "現代では意味が変わった"
