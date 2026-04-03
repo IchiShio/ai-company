@@ -14,7 +14,7 @@ description: >
 
 | アカウント | 投稿方式 | 投稿枠 |
 |---|---|---|
-| @ichi_eigo | **GitHub Actions + schedule.json**（自動）| 7:00 / 18:00 JST |
+| @ichi_eigo | **GitHub Actions + schedule.json**（自動）| 7:00 / 12:00 / 18:00 / 21:00 JST |
 | @careermigaki | **Playwright CLI**（ブラウザ操作）| 7:30 / 18:30 JST |
 
 ---
@@ -53,8 +53,10 @@ for p in sorted(pending, key=lambda x: (x['date'], x['slot'])):
 
 現在時刻から次の空き枠を判定:
 - 現在が 7:00 より前 → 今日の morning
-- 現在が 7:00〜18:00 の間 → 今日の evening
-- 現在が 18:00 以降 → 明日の morning
+- 現在が 7:00〜12:00 の間 → 今日の noon
+- 現在が 12:00〜18:00 の間 → 今日の evening
+- 現在が 18:00〜21:00 の間 → 今日の night
+- 現在が 21:00 以降 → 明日の morning
 
 すでにその日・枠のエントリがある場合は次の枠へ。
 
@@ -84,7 +86,9 @@ for p in sorted(pending, key=lambda x: (x['date'], x['slot'])):
 
 **slot の値**:
 - `"morning"` → 7:00 JST
+- `"noon"` → 12:00 JST
 - `"evening"` → 18:00 JST
+- `"night"` → 21:00 JST
 
 ### Step 4: コミット＆プッシュ
 
