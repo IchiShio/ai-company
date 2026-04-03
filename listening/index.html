@@ -4810,6 +4810,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  // URLパラメータでモードを事前選択（メールリンク用: ?mode=weak など）
+  {
+    const _params = new URLSearchParams(location.search);
+    const _modeParam = _params.get('mode');
+    if (_modeParam && ['weak','daily','revenge','challenge','normal'].includes(_modeParam)) {
+      selectMode(_modeParam);
+      const startEl = document.getElementById('startScreen');
+      if (startEl) requestAnimationFrame(function() {
+        startEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
+  }
+
 });
 
 // ── SITE HEADER HAMBURGER ──
