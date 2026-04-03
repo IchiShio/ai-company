@@ -39,7 +39,14 @@ with open(schedule_path) as f:
     schedule = json.load(f)
 
 # 現在の日付+時間帯に合う投稿を探す
-slot = "morning" if current_hour < 12 else "evening"
+if current_hour < 12:
+    slot = "morning"
+elif current_hour < 18:
+    slot = "noon"
+elif current_hour < 20:
+    slot = "evening"
+else:
+    slot = "night"
 
 for entry in schedule:
     if entry["date"] == current_date and entry["slot"] == slot and not entry.get("posted"):

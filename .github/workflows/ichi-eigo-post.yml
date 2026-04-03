@@ -4,8 +4,12 @@ on:
   schedule:
     # JST 7:00 = UTC 22:00 (前日)
     - cron: '0 22 * * *'
+    # JST 12:00 = UTC 3:00
+    - cron: '0 3 * * *'
     # JST 18:00 = UTC 9:00
     - cron: '0 9 * * *'
+    # JST 21:00 = UTC 12:00
+    - cron: '0 12 * * *'
   workflow_dispatch:
     inputs:
       text:
