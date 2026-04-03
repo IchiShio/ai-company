@@ -4496,6 +4496,15 @@ function showMissionComplete() {
         (weakLabel ? '<div class="email-cta-stat"><span class="email-cta-stat-num" style="font-size:18px">' + weakLabel + '</span><span class="email-cta-stat-label">が弱点</span></div>' : '');
     }
   })();
+
+  // メールCTA表示（未登録 × 5問以上解いた場合のみ）
+  if (!localStorage.getItem('listenup_email')) {
+    const p2 = loadProgress();
+    if ((p2.totalAnswered || 0) >= 5) {
+      const ctaEl = document.getElementById('missionEmailCta');
+      if (ctaEl) ctaEl.style.display = 'block';
+    }
+  }
 }
 
 function closeMissionComplete() {
@@ -4522,10 +4531,21 @@ function submitEmailForm(e) {
   // Firestoreにメールを紐付け（学習履歴の永続化）
   saveUserToFirestore(email);
 
+  const _p = loadProgress();
+  const _axStats = _p.axisStats || {};
+  const _ranked = Object.entries(_axStats)
+    .filter(function(e) { return e[1].a >= 3; })
+    .sort(function(a, b) { return (a[1].c / a[1].a) - (b[1].c / b[1].a); });
+  const _weakAxis = _ranked.length > 0 ? _ranked[0][0] : '';
+
   fetch('https://connect.mailerlite.com/api/subscribers', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + ML_API_KEY },
-    body: JSON.stringify({ email: email, groups: [ML_GROUP_ID] })
+    body: JSON.stringify({
+      email: email,
+      groups: [ML_GROUP_ID],
+      fields: { weak_axis: _weakAxis, total_answered: _p.totalAnswered || 0 }
+    })
   }).then(function() {
     document.getElementById('missionEmailForm').style.display = 'none';
     document.getElementById('missionEmailSuccess').style.display = 'block';
