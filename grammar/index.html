@@ -242,24 +242,6 @@
     }
 
     /* =====================
-       Login / save area
-       ===================== */
-    #auth-area {
-      text-align: right;
-      margin-bottom: 10px;
-    }
-    #auth-area button {
-      padding: 6px 14px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 0.9em;
-    }
-    #login-btn  { background: #1976D2; color: white; }
-    #logout-btn { background: #e53935; color: white; display: none; }
-    #user-info  { font-size: 0.85em; color: #555; margin-right: 8px; }
-
-    /* =====================
        History panel
        ===================== */
     #history-panel {
@@ -287,13 +269,6 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <h1>Native Grammar Training</h1>
-
-  <!-- Auth area -->
-  <div id="auth-area">
-    <span id="user-info"></span>
-    <button id="login-btn">Googleでログイン</button>
-    <button id="logout-btn">ログアウト</button>
-  </div>
 
   <div id="quiz-container">
     <div class="progress">
@@ -347,79 +322,38 @@
     </div>
   </div>
 
-  <!-- Firebase SDKs (compat) -->
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-  <script src="/listening/firebase-config.js"></script>
   <script src="questions.js"></script>
   <script src="questions_extra.js"></script>
   <script>
 'use strict';
 
 /* =========================================================
-   Firebase / Auth
+   History (localStorage)
    ========================================================= */
-let currentUser = null;
+const HISTORY_KEY = 'grammar_history';
 
-firebase.auth().onAuthStateChanged(user => {
-  currentUser = user;
-  if (user) {
-    document.getElementById('user-info').textContent = user.displayName || user.email;
-    document.getElementById('login-btn').style.display  = 'none';
-    document.getElementById('logout-btn').style.display = 'inline-block';
-  } else {
-    document.getElementById('user-info').textContent    = '';
-    document.getElementById('login-btn').style.display  = 'inline-block';
-    document.getElementById('logout-btn').style.display = 'none';
-  }
-});
-
-document.getElementById('login-btn').addEventListener('click', () => {
-  const provider = new firebase.auth.GoogleAuthProvider();
-  firebase.auth().signInWithPopup(provider);
-});
-document.getElementById('logout-btn').addEventListener('click', () => {
-  firebase.auth().signOut();
-});
-
-async function saveResult(score, total) {
-  if (!currentUser) return;
+function saveResult(score, total) {
   try {
-    const db = firebase.firestore();
-    await db.collection('grammar_results').add({
-      uid:       currentUser.uid,
-      score:     score,
-      total:     total,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    });
-  } catch (e) {
-    console.error('Firestore save error:', e);
-  }
+    const history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+    history.unshift({ ts: new Date().toLocaleString('ja-JP'), score, total });
+    if (history.length > 10) history.length = 10;
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch (e) { /* ignore */ }
 }
 
-async function loadHistory() {
-  if (!currentUser) return;
+function loadHistory() {
   try {
-    const db = firebase.firestore();
-    const snap = await db.collection('grammar_results')
-      .where('uid', '==', currentUser.uid)
-      .orderBy('timestamp', 'desc')
-      .limit(10)
-      .get();
+    const history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+    if (history.length === 0) return;
     const tbody = document.getElementById('history-body');
     tbody.innerHTML = '';
-    snap.forEach(doc => {
-      const d = doc.data();
-      const ts = d.timestamp ? d.timestamp.toDate().toLocaleString('ja-JP') : '—';
+    history.forEach(d => {
       const tr = document.createElement('tr');
-      tr.innerHTML = `<td>${ts}</td><td>${d.score}</td><td>${d.total}</td>`;
+      tr.innerHTML = `<td>${d.ts}</td><td>${d.score}</td><td>${d.total}</td>`;
       tbody.appendChild(tr);
     });
     document.getElementById('history-panel').classList.add('show');
-  } catch (e) {
-    console.error('Firestore load error:', e);
-  }
+  } catch (e) { /* ignore */ }
 }
 
 /* =========================================================
