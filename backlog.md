@@ -88,6 +88,7 @@
 - 2026-04-03: 20問追加（g1148-g1167）、計1125問（since/for・so that・wish仮定法過去完了・交通手段by・強調構文・as-as同等比較・過去完了・however譲歩・使役have+O+過去分詞・形容詞enough-to・動名詞主語・worried about・未来完了will have・関係代名詞whom・not only but also・too-to・不定詞受動態・at時刻・否定副詞倒置・although逆接）
 - 2026-04-03: 20問追加（g1168-g1187）、計1145問（関係副詞when・現在分詞形容詞的用法・such that結果・until継続・時制の一致・would rather・the比較級比例・分詞構文・非制限用法which・whoever・stop+動名詞・現在完了進行形・be known to・感嘆文what・suggest仮定法現在・if only仮定法・during vs for・look forward to・a few vs few・in case予防）
 - 2026-04-03: 20問追加（g1188-g1207）、計1165問（ask+O+to-V・already肯定・both-and・as soon as・get受動態・形式主語it・過去進行形・must義務・although逆接・what関係代名詞・as if仮定法・mind+動名詞・強調do・used to過去習慣・最上級ever・目的不定詞・it takes時間・by the time過去完了・have+O+過去分詞・neither倒置）
+- 2026-04-04: 20問追加（g1208-g1227）、計1185問（whose所有格・have been to経験・仮定法過去・形式目的語it・every vs each・although逆接・much+比較級・something形容詞的用法・時制の一致・分詞構文・not only but also・過去進行受動態・the+形容詞複数・on+動名詞・仮定法現在necessity・過去完了進行形・hardly否定副詞・関係副詞why・the first time現在完了・look forward to動名詞）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
