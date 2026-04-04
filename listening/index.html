@@ -4497,14 +4497,14 @@ function showMissionComplete() {
     }
   })();
 
-  // メールCTA表示（未登録 × 5問以上解いた場合のみ）
-  if (!localStorage.getItem('listenup_email')) {
-    const p2 = loadProgress();
-    if ((p2.totalAnswered || 0) >= 5) {
-      const ctaEl = document.getElementById('missionEmailCta');
-      if (ctaEl) ctaEl.style.display = 'block';
-    }
-  }
+  // メールCTA: 停止中（再開時はコメントを外す）
+  // if (!localStorage.getItem('listenup_email')) {
+  //   const p2 = loadProgress();
+  //   if ((p2.totalAnswered || 0) >= 5) {
+  //     const ctaEl = document.getElementById('missionEmailCta');
+  //     if (ctaEl) ctaEl.style.display = 'block';
+  //   }
+  // }
 }
 
 function closeMissionComplete() {
