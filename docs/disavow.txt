@@ -1,6 +1,6 @@
 # native-real.com Disavow File
 # Generated: 2026-03-23
-# Updated: 2026-04-01
+# Updated: 2026-04-05
 # Reason: All backlinks are from spam/PBN SEO service sites
 # Source: Ahrefs backlink audit (10 domains, 100% spam)
 
@@ -14,3 +14,4 @@ domain:primeseo.xyz
 domain:seo-backlink.agency
 domain:seodaro.com
 domain:seonexi.com
+domain:seoexpress.org
