@@ -724,9 +724,13 @@ function renderQuestion(){
     <div class="q-instr">${f.instruction}</div>`;
   }
 
+  // Shuffle choices so the correct answer isn't always first
+  const shuffledOrder=f.choices.map((c,i)=>i).sort(()=>Math.random()-0.5);
+  window._shuffledCorrect=shuffledOrder.indexOf(f.correct);
+  window._shuffledOrder=shuffledOrder;
   html+='<div class="choices">';
-  f.choices.forEach((c,i)=>{
-    html+=`<button class="ch" onclick="choose(${i})">${c}</button>`;
+  shuffledOrder.forEach((origIdx,newIdx)=>{
+    html+=`<button class="ch" onclick="choose(${newIdx})">${f.choices[origIdx]}</button>`;
   });
   html+='</div></div>';
   area.innerHTML=html;
@@ -741,7 +745,8 @@ function choose(i){
   const cur=queue[qi];
   const w=ROOT_DATA.words[cur.wordIdx];
   const f=w.formats[cur.fmtIdx];
-  const isOk=i===f.correct;
+  const shuffledCorrect=window._shuffledCorrect!=null?window._shuffledCorrect:f.correct;
+  const isOk=i===shuffledCorrect;
   if(isOk) correctCount++;
   // NativeReal shared XP
   if(isOk && window.NR) NR.addXP('kioku', 3);
@@ -751,14 +756,16 @@ function choose(i){
   const btns=document.querySelectorAll('.ch');
   btns.forEach((btn,j)=>{
     btn.disabled=true;
-    if(j===f.correct) btn.classList.add('correct');
+    if(j===shuffledCorrect) btn.classList.add('correct');
     else if(j===i) btn.classList.add('wrong');
     else btn.classList.add('dim');
   });
 
   const blank=document.getElementById('qBlank');
   if(blank){
-    blank.textContent=f.choices[i];
+    // Convert shuffled index back to original choice text
+    const origIdx=window._shuffledOrder?window._shuffledOrder[i]:i;
+    blank.textContent=f.choices[origIdx];
     blank.classList.add(isOk?'correct':'wrong');
   }
 

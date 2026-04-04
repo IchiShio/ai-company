@@ -1,0 +1,1192 @@
+{
+  "root": "mot/mov",
+  "rootMeaning": "動く・動かす",
+  "rootLang": "ラテン語 movere（動く）/ motus（動き・過去分詞）",
+  "imageSchema": "静止したものに力が加わって動き始めるイメージ。モーター(motor)が回り、物も人も感情も「動かされる」。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "motor（モーター）は「動かす」ものの語源。motion（動き）、emotion（感情）、promote（昇進させる）、remove（除去する）、すべてmot/movが「動かす」を意味する。mot/movが見えたら「動く」と読み替えるだけで20語がつながる。"
+  },
+  "words": [
+    {
+      "word": "motion",
+      "phonetic": "/ˈmoʊʃən/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "mot", "meaning": "動く", "type": "root"},
+        {"part": "ion", "meaning": "行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "motus（動き）+ ion（状態）= 動いている状態 → 動き・提案・動議",
+        "fact": "ラテン語 motio「動かすこと」から14世紀英語へ。「動き」の物理的意味から、会議での「動議（motion）」や映画の「motion picture（動画）」まで広がった。put in motion（動かし始める）はビジネスで頻出。",
+        "source": "EtymOnline: motion",
+        "cognates": ["promote", "remote", "emotion", "motivation"]
+      },
+      "cognitive": {
+        "oneliner": "「動く」という行為・状態そのもの",
+        "fact": "MOVEMENT スキーマの中核語。slow motion（スローモーション）は「動きの速度を落とす」、motion picture（映画）は「動く絵」。会議の motion（動議）は「議論を動かす提案」というメタファー。",
+        "source": "Lakoff & Johnson (1980) Metaphors We Live By"
+      },
+      "gap": "motionは名詞・動詞どちらでも使う。名詞：go through the motions（形だけやる）、put in motion（始動させる）。動詞：He motioned to her（身振りで示した）。TOEICでは会議用語「make a motion（動議を提出する）」が頻出。",
+      "gapOneliner": "motion = 動き（物理）/ 動議（会議）/ 身振りで示す（動詞）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mot（動く）+ ion（状態）= 「動いている状態」= 動き。motion pictureは「動く絵」= 映画。slow motionは「ゆっくり動く」状態。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "motionの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動く状態→動き・動議", "押す力→圧力・強制", "止まる行為→停止・終了", "持つ行為→所有・保持"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "\"motion picture\" という表現にmotionが使われる理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["「動く(mot)絵」= 映像が連続して動くから", "「感情(emotion)の絵」= 感動するから", "「促進(promote)する絵」= 広告だから", "「除去(remove)する絵」= 古い芸術を置き換えるから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The chairperson asked if anyone would like to make a ___.\"",
+          "explanationFocus": "gap",
+          "choices": ["motion", "emotion", "promotion", "commotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "motionと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["set in motion（動き出させる）", "motion forward（前に動議する）", "take motion（動きを取る）", "motion beyond（動きを超える）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The project was set in motion by the CEO's announcement.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["CEOの発表がプロジェクトを始動させた", "CEOが動議を提出してプロジェクトが止まった", "CEOの感情がプロジェクトを動かした", "プロジェクトの動きがCEOの発表を促した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She made a motion to adjourn the meeting.", "The new policy was set in motion by the board's decision."]
+    },
+    {
+      "word": "promote",
+      "phonetic": "/prəˈmoʊt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "pro", "meaning": "前へ", "type": "prefix"},
+        {"part": "mot", "meaning": "動かす", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ movere（動かす）= 前に動かす → 昇進させる・宣伝する",
+        "fact": "ラテン語 promotus「前に動かされた」から14世紀英語へ。「(位を)前に進める」が原義。現代では「昇進(job promotion)」と「マーケティング宣伝(product promotion)」の両方に使われる。",
+        "source": "EtymOnline: promote",
+        "cognates": ["promotion", "promotional", "promoter"]
+      },
+      "cognitive": {
+        "oneliner": "前方に動かす力 = 位を上げる / 前面に出して見せる",
+        "fact": "FORWARD MOVEMENT metaphor：promoteは「後ろ(一般職)から前(上位職)に動かす」昇進と、「倉庫から前面に動かして」見せるマーケティングの両方を語源的に説明できる。",
+        "source": "Lakoff & Johnson (1980) Metaphors We Live By"
+      },
+      "gap": "promoteには2大意味：①昇進させる（be promoted to manager）②宣伝する（promote a product）。動詞の他にpromotional（宣伝の）、promotion（昇進/宣伝）も重要。TOEICでは両方頻出。",
+      "gapOneliner": "promote = ①昇進させる ②宣伝する（どちらも「前に動かす」が語源）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pro（前へ）+ mot（動かす）= 「前に動かす」。位を前に動かせば昇進(promotion)、商品を前面に出せば宣伝(promotion)。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "promoteの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["前に動かす→昇進させる・宣伝する", "後ろに動かす→降格させる・撤退する", "横に動かす→移動させる・転勤させる", "止める→停止させる・阻止する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "promoteが「昇進」と「宣伝」両方の意味を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「前に動かす」＝前面に出すから", "どちらも「感情を動かす」から", "どちらも「後ろに押す」行為だから", "偶然で語源的関係はない"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"She was ___ to senior manager after just two years.\"",
+          "explanationFocus": "gap",
+          "choices": ["promoted", "demoted", "removed", "commotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "promoteと最も自然に結びつく目的語（ビジネス）は？",
+          "explanationFocus": "etymology",
+          "choices": ["promote a product（商品を宣伝する）", "promote a motion（動議を前進させる）", "promote a feeling（感情を昇進させる）", "promote a removal（除去を促進する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company launched a campaign to promote its new service.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["会社は新サービスを宣伝するキャンペーンを開始した", "会社は新サービスに昇進した従業員を表彰した", "会社は感情に訴えて新サービスを動かした", "会社は新サービスを前面から撤退させた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He was promoted to director after the merger.", "The campaign was designed to promote healthy eating habits."]
+    },
+    {
+      "word": "remove",
+      "phonetic": "/rɪˈmuːv/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "re", "meaning": "再び・離れて", "type": "prefix"},
+        {"part": "mov", "meaning": "動かす", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "re（離れて）+ movere（動かす）= 元の場所から動かす → 除去する・取り除く",
+        "fact": "ラテン語 removere「離れた所に動かす」から14世紀英語へ。物理的な「取り除く」から、「職から解任する(remove from office)」「障害を取り除く」まで広く使われる。remote（遠くに動かされた）も同根。",
+        "source": "EtymOnline: remove",
+        "cognates": ["removal", "remote", "removable"]
+      },
+      "cognitive": {
+        "oneliner": "元の場所から離れた方向に動かす = 取り除く",
+        "fact": "SOURCE-GOAL スキーマ：removeは「ある場所(SOURCE)から別の場所(GOAL=遠く)へ動かす」行為。物理的除去（remove a stain）も、比喩的除去（remove a barrier）も「場所から動かす」同じスキーマを使う。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "removeとdeleteの違い：removeは「別の場所に動かす」（物理的・比喩的な除去）、deleteは「完全に消す」（データ削除）。remove from（〜から取り除く）という前置詞句で使うのが典型。",
+      "gapOneliner": "remove = 別の場所に動かして取り除く / delete = 完全に消す",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（離れて）+ mov（動かす）= 「離れた所に動かす」= 取り除く。シミをremove（除去）するのも、障害をremove（取り除く）のも「動かして遠ざける」イメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "removeの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["離れた所に動かす→除去する", "再び動かす→再配置する", "前に動かす→促進する", "後ろに動かす→後退させる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "removeとremoteが同じ語源(movere)を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「離れた所に動かす」から", "どちらも「感情を動かす」から", "どちらも「前に動かす」から", "偶然で語源的関係はない"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Please ___ all personal items from your desk before leaving.\"",
+          "explanationFocus": "gap",
+          "choices": ["remove", "promote", "emote", "motor"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "removeと最も自然に結びつく目的語は？",
+          "explanationFocus": "etymology",
+          "choices": ["remove a barrier（障害を取り除く）", "remove a promotion（昇進を除去する）", "remove an emotion（感情を除去する）", "remove a motion（動議を除去する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The CEO was removed from office following the scandal.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["スキャンダルの後、CEOは職から解任された", "CEOはスキャンダルを解決してオフィスに戻った", "スキャンダルでCEOのオフィスが移転した", "CEOはスキャンダルを取り除いて昇進した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The surgeon removed the tumor successfully.", "You can remove yourself from the mailing list at any time."]
+    },
+    {
+      "word": "motivation",
+      "phonetic": "/ˌmoʊtɪˈveɪʃən/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質", "type": "suffix"},
+        {"part": "ation", "meaning": "行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "motive（動かす力）+ ation（状態）= 人を動かす力の状態 → やる気・動機",
+        "fact": "ラテン語 motivus「動かすもの」から19世紀英語へ。心理学ではマズローの欲求階層に代表される「行動を起こさせる内的力」を指す。TOEICでは「employee motivation（社員のモチベーション）」として頻出。",
+        "source": "EtymOnline: motivation",
+        "cognates": ["motive", "motivate", "demotivate"]
+      },
+      "cognitive": {
+        "oneliner": "「動かす力」が内面に宿った状態 = やる気",
+        "fact": "FORCE スキーマ：motivationは「行動を引き起こす内的な力」。FUELメタファーでも語られ：motivation fuels action（モチベーションが行動を燃料で動かす）。Maslow (1943) の欲求階層理論はmotivationの代表的研究。",
+        "source": "Maslow (1943) A Theory of Human Motivation"
+      },
+      "gap": "motivation（不可算名詞）= モチベーションという状態、motive（可算名詞）= 動機（具体的理由）。What was his motivation?（やる気の源は？）vs What was his motive for the crime?（犯罪の動機は？）と使い分ける。",
+      "gapOneliner": "motivation = モチベーション（全般的な状態）/ motive = 動機（具体的な理由）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mot（動かす）+ ive（力）+ ation（状態）= 「動かす力の状態」= モチベーション。やる気は「動かす力」が体の中に満ちた状態。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "motivationの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動かす力の状態→やる気・動機づけ", "動きを止める状態→停滞・無気力", "感情を動かす行為→感動させる", "前に動かす行為→昇進・促進"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "motivationを\"fuel\"（燃料）に例えるのはなぜ？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「行動を動かすエネルギー」だから", "どちらも「感情を温める」から", "どちらも「前進する動き」から", "どちらも「取り除く力」から"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Lack of ___ was cited as the main reason for poor performance.\"",
+          "explanationFocus": "gap",
+          "choices": ["motivation", "motion", "promotion", "commotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "motivationと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["boost motivation（モチベーションを高める）", "remove motivation（モチベーションを除去する）", "motion motivation（動議でやる気を出す）", "promote motivation（やる気を昇進させる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Understanding employees' motivations is key to effective management.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["従業員の動機を理解することが効果的なマネジメントの鍵だ", "従業員の動きを監視することがマネジメントの基本だ", "効果的なマネジメントが従業員を前進させる", "従業員のモーターが管理の効率を決める"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Employee motivation dropped significantly after the policy change.", "She had strong motivation to succeed in her new role."]
+    },
+    {
+      "word": "emotion",
+      "phonetic": "/ɪˈmoʊʃən/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "e", "meaning": "外へ", "type": "prefix"},
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ion", "meaning": "状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "e（外へ）+ movere（動かす）= 外に動き出る → 感情・情動",
+        "fact": "ラテン語 emovere「外に動かす」から16世紀フランス語 émouvoir を経て英語へ。感情が「内から外へ動き出す」現象という語源的直感。心理学者Ekmantが1972年に「基本感情6種（喜び・悲しみ・怒り・嫌悪・恐怖・驚き）」を定義。",
+        "source": "EtymOnline: emotion; Ekman (1972)",
+        "cognates": ["emotional", "emotive", "motion"]
+      },
+      "cognitive": {
+        "oneliner": "「外に動き出す」力 = 心の内から溢れ出る感情",
+        "fact": "FLUID OUTメタファー：感情は「容器(心)の中の液体」として概念化され、emotionはその液体が外に溢れ出す(e+mot)現象。be moved（感動した）= 感情が動かされた状態。emotional（感情的な）は日本語でも定着。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "emotionとfeeling の違い：feeling は「感じている状態」（I have a feeling）、emotion は「生理的・行動的反応を伴う感情」（心が動いて外に出る）。心理学では emotion が専門用語。emotive（感情に訴える）も重要語。",
+      "gapOneliner": "emotion = 外に動き出す強い感情（生理反応を伴う）/ feeling = 感じている状態（より広義）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "e（外へ）+ mot（動かす）+ ion（状態）= 「外に動き出す状態」= 感情。感情は心の中から「外に飛び出す(e+mot)」から顔に表れ、行動につながる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "emotionの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["外に動き出す→感情・情動", "内に閉じ込める→抑制・理性", "前に動かす→動機・やる気", "後ろに戻る→記憶・後悔"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "\"I was deeply moved by the performance\" のmovedとemotionはどうつながる？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「動かされる」という語源的動作から", "どちらも「除去する」から", "どちらも「促進する」から", "移動とemotionは無関係"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The speech was filled with ___ and brought many to tears.\"",
+          "explanationFocus": "gap",
+          "choices": ["emotion", "motion", "promotion", "motor"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "emotionと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["express emotion（感情を表現する）", "remove emotion（感情を取り除く）", "promote emotion（感情を昇進させる）", "motion emotion（感情を動議する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She spoke with great emotion about her experience.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["彼女は自分の体験について強い感情をこめて話した", "彼女は感情を動かして話した", "彼女の話は感情を促進した", "彼女は感情を取り除いて話した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He tried to hide his emotions but couldn't.", "The film stirred deep emotions in the audience."]
+    },
+    {
+      "word": "commotion",
+      "phonetic": "/kəˈmoʊʃən/",
+      "toeicRank": "TSL-2 800-1100位",
+      "parts": [
+        {"part": "com", "meaning": "共に・強調", "type": "prefix"},
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ion", "meaning": "状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "com（共に）+ movere（動かす）= 皆が一緒に動き出す → 騒動・混乱",
+        "fact": "ラテン語 commotio「大きな動揺」から14世紀英語へ。「多くのものが一斉に乱れて動く」が原義。物理的騒動（there was a commotion in the street）から比喩的な「感情的動揺」にも使われる。",
+        "source": "EtymOnline: commotion",
+        "cognates": ["motion", "emotion", "promote"]
+      },
+      "cognitive": {
+        "oneliner": "みんながバラバラに動き出す混沌 = 騒動",
+        "fact": "DISORDER スキーマ：commotionは「秩序ある静止状態」が複数の力によって乱れ、「多方向に動き出した」状態。cause a commotion（騒動を起こす）は「静かな空間を複数方向に動かす力を加える」イメージ。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "commotionはchaoticな「騒動・混乱」を表す一語。日常会話で \"What's all the commotion?\"（何がそんなに騒がしいの？）という表現が頻出。他にdisturbance, uproarに近い意味だがより口語的。",
+      "gapOneliner": "commotion = 騒動・騒ぎ（「何がそんなに騒がしいの?」という日常表現）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "com（共に）+ mot（動かす）+ ion（状態）= 「みんなが一緒に動き出した状態」= 騒動。\"What's all the commotion?\"（なんで騒いでるの?）という表現で覚えると実用的。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "commotionの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["みんなが動き出す→騒動・混乱", "共に動く→協調・協力", "感情が動く→感動", "前に動く→促進・昇進"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "com + mot + ion の組み合わせが騒動を意味する理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["複数のものが一斉に乱れて動き出すから", "共に前進する協力動作だから", "感情を共有して動くから", "一つの方向に動くから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"There was a loud ___ outside the office building.\"",
+          "explanationFocus": "gap",
+          "choices": ["commotion", "promotion", "motion", "emotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "commotionと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["cause a commotion（騒動を起こす）", "promote commotion（騒動を促進する）", "remove commotion（騒動を除去する）", "motion commotion（騒動を動議する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The sudden announcement caused quite a commotion among employees.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["突然の発表が社員の間でかなりの騒ぎを引き起こした", "発表が社員全員を前に動かした", "社員が共に感情的になった", "発表が社員のモチベーションを下げた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The celebrity's arrival caused a commotion in the lobby.", "What's all the commotion about?"]
+    },
+    {
+      "word": "motor",
+      "phonetic": "/ˈmoʊtər/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "or", "meaning": "〜するもの", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "motus（動き）+ or（〜するもの）= 動かすもの → モーター・エンジン",
+        "fact": "ラテン語 motor「動かすもの」から16世紀英語へ。最初は「動かす力・原動力」という抽象的な意味で使われ、19世紀の産業革命後に「蒸気機関・電気モーター」という機械を指すようになった。",
+        "source": "EtymOnline: motor",
+        "cognates": ["motorcycle", "motorist", "automotive"]
+      },
+      "cognitive": {
+        "oneliner": "「動かすもの」そのもの = エネルギーを動きに変える装置",
+        "fact": "AGENT スキーマ：motorはmovere（動かす）行為の「主体(-or)」。エンジンが「動かす主体」として命名された。motor skills（運動能力）は「動かす技術」、motorist（ドライバー）は「動かす人」という語源的一貫性がある。",
+        "source": "Langacker (1987) Foundations of Cognitive Grammar"
+      },
+      "gap": "motorとengineの違い：motorは主に電気で動く装置（electric motor）、engineは主に燃料で動く装置（gasoline engine）。ただし現代では混用されることも多い。motor vehicle（自動車）はTOEICで頻出。",
+      "gapOneliner": "motor = 主に電気モーター / engine = 主に燃料エンジン（現代では混用あり）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mot（動かす）+ or（するもの）= 「動かすもの」= モーター。すべての機械の中心はmotor（動かすもの）。motorを中心に motorcycle, motorist, automotive がつながる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "motorの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動かすもの→エンジン・モーター", "動かされるもの→乗り物・車両", "感情を動かすもの→感動的なもの", "前に動かすもの→宣伝・促進"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "motor skillsとmotorが関連する理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「動かす主体・動かす技術」から", "どちらも「感情を動かす」から", "どちらも「除去する」から", "motor skillsとmotorは無関係"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The ___ vehicle regulations apply to all drivers in this area.\"",
+          "explanationFocus": "gap",
+          "choices": ["motor", "motion", "emotion", "promotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "motorと最も自然に結びつく名詞（ビジネス・技術）は？",
+          "explanationFocus": "etymology",
+          "choices": ["motor industry（自動車産業）", "motor promotion（モーター昇進）", "motor emotion（モーター感情）", "motor removal（モーター除去）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Fine motor skills are essential for activities like writing and drawing.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["微細な運動能力は文字を書いたり絵を描いたりする活動に不可欠だ", "精密なモーターは機械操作に不可欠だ", "感情を動かすスキルは描画の基本だ", "モーターの精度が書くことを決める"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The electric motor converts electricity into mechanical energy.", "He has excellent fine motor skills for his age."]
+    },
+    {
+      "word": "mobile",
+      "phonetic": "/ˈmoʊbəl/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "mob", "meaning": "動く（movere変形）", "type": "root"},
+        {"part": "ile", "meaning": "できる性質", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "movere（動く）+ ile（できる）= 動くことができる → 移動可能な",
+        "fact": "ラテン語 mobilis「動くことができる」から15世紀英語へ。movereの語幹がmob-に変形。mobile phone（携帯電話）は「動きながら使える電話」が語源的意味。mob（群衆）も同語源（動き回る群れ）。",
+        "source": "EtymOnline: mobile",
+        "cognates": ["mobility", "immobile", "automobile"]
+      },
+      "cognitive": {
+        "oneliner": "「動くことができる」性質 = 移動性・可動性",
+        "fact": "CAPABILITY スキーマ：mobileは「動く能力(-ile)を持つ」形容詞。mobile workforce（移動できる労働力）、social mobility（社会的流動性）。-ileが「できる可能性」を付与するパターン（fragile, fertile, agile も同形）。",
+        "source": "Langacker (1987) Foundations of Cognitive Grammar"
+      },
+      "gap": "mobileのアクセントに注意：アメリカ英語は /ˈmoʊbəl/（第1音節）、イギリス英語は /ˈmoʊbaɪl/（末尾 -aɪl）。mobile device（モバイルデバイス）、mobile workforce（移動可能な労働力）はTOEICで頻出。",
+      "gapOneliner": "mobile = 移動可能な（米: /ˈmoʊbəl/ 英: /ˈmoʊbaɪl/）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mov（動く）→ mob（変形）+ ile（できる）= 「動けるもの」= mobile。携帯電話はmobile phone = 動きながら使える電話。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "mobileの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動くことができる→移動可能な", "動かすことができる→可動的な", "止まることができる→安定した", "感情を動かせる→感動的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "mob（群衆）とmobile（移動可能な）が同語源である理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「動く(movere)」から（群衆は動き回る、携帯は持ち歩ける）", "どちらも「感情を動かす」から", "どちらも「前進する」から", "mobとmobileは語源的に無関係"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The company launched a ___ app to improve customer service.\"",
+          "explanationFocus": "gap",
+          "choices": ["mobile", "motion", "emotion", "promotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "mobileと最も自然に結びつく名詞（ビジネス）は？",
+          "explanationFocus": "etymology",
+          "choices": ["mobile workforce（移動可能な労働力）", "mobile emotion（移動する感情）", "mobile promotion（移動する昇進）", "mobile removal（移動除去）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Social mobility has declined in many developed countries.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["多くの先進国で社会的流動性（階層間の移動可能性）が低下している", "多くの先進国でスマートフォンの普及が減少している", "先進国では社会的感情が低下している", "社会的昇進の機会が先進国で増加している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company offers flexible mobile working arrangements.", "Mobile technology has transformed how we communicate."]
+    },
+    {
+      "word": "motive",
+      "phonetic": "/ˈmoʊtɪv/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質・力", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "movere（動かす）+ ive（力・性質）= 動かす力 → 動機・理由",
+        "fact": "中世ラテン語 motivus「動かす力を持つ」から14世紀英語へ。法律・犯罪捜査で「なぜその行為に及んだか」を示す「動機(motive)」として重要。What's your motive?（動機は何か？）は推理小説の定番質問。",
+        "source": "EtymOnline: motive",
+        "cognates": ["motivate", "motivation", "motif"]
+      },
+      "cognitive": {
+        "oneliner": "人を行動に「動かす」力 = 動機・理由",
+        "fact": "CAUSATION スキーマ：motiveは「行動という結果」の「原因となる力」。法律では motive（動機）と intent（意図）を区別：intent は「行為を意図したか」、motive は「なぜその行為に駆り立てられたか」という内的原因。",
+        "source": "Criminal law terminology; Lakoff & Johnson (1999)"
+      },
+      "gap": "motivationとmotiveの違い：motivation は「やる気・動機づけ全般」、motive は「特定の行為の具体的理由・動機」。犯罪捜査ではmotive（動機）、人材管理ではmotivation（やる気）を使う。",
+      "gapOneliner": "motive = 具体的な行動の動機（法律・捜査で使う）/ motivation = 全般的なやる気",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mot（動かす）+ ive（力）= 「動かす力」= 動機。犯人の motive（動機）を探る推理小説の定番。What's your motive?（動機は何ですか？）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "motiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["行動を起こさせる力→動機・理由", "動きを止める力→制止・阻止", "感情を引き出す力→感動・感化", "前に動かす力→促進・昇進"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "motifとmotiveはどちらもmot（動かす）から来ているが違いは？",
+          "explanationFocus": "cognitive",
+          "choices": ["motive=行動の動機、motif=芸術の繰り返しパターン（動き）", "motive=感情、motif=論理的理由", "motive=昇進、motif=除去", "どちらも全く同じ意味"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Police are trying to establish a ___ for the crime.\"",
+          "explanationFocus": "gap",
+          "choices": ["motive", "motion", "motor", "emotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "motiveと最も自然に結びつく動詞（捜査文脈）は？",
+          "explanationFocus": "etymology",
+          "choices": ["establish a motive（動機を確立する）", "promote a motive（動機を促進する）", "remove a motive（動機を取り除く）", "motion a motive（動議を動機にする）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His motive for leaving the company was unclear.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["会社を辞めた動機が不明確だった", "会社を動かした感情が分からなかった", "会社の前進の理由が不透明だった", "会社を除去した動きが不明だった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The police have yet to determine the suspect's motive.", "What was your motive for starting this business?"]
+    },
+    {
+      "word": "remote",
+      "phonetic": "/rɪˈmoʊt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "re", "meaning": "離れて", "type": "prefix"},
+        {"part": "mot", "meaning": "動かされた", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "re（離れて）+ motus（動かされた）= 遠くに動かされた状態 → 遠い・リモート",
+        "fact": "ラテン語 remotus「遠ざけられた」から15世紀英語へ。「遠くに動かされた」が原義。remote control（リモコン）= 「遠くから操作する」装置。コロナ禍後はremote work（テレワーク）がTOEICで急増。",
+        "source": "EtymOnline: remote",
+        "cognates": ["remove", "remotely", "remote-controlled"]
+      },
+      "cognitive": {
+        "oneliner": "「遠くに動かされた」状態 = 物理的・概念的に遠い",
+        "fact": "DISTANCE スキーマ：remoteは「中心から遠く(re-)動かされた(mot)」状態。地理的「辺地（remote area）」、概念的「関係が薄い（remote possibility）」、IT的「遠隔操作（remote access）」に同じ語源的構造が使われる。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "remoteには3つの主要意味：①地理的に遠い（remote island）②関係が希薄な（remote possibility = かすかな可能性）③遠隔での（remote work）。TOEICではremote work/access が特に重要。",
+      "gapOneliner": "remote = ①物理的に遠い ②関係が希薄 ③遠隔（IT・テレワーク）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（離れて）+ mot（動かされた）= 「遠くに動かされた」= 遠隔。リモコン(remote control)は遠くから操作する装置。テレワーク(remote work)は遠くで働く形態。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "remoteの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["遠くに動かされた状態→遠い・遠隔の", "前に動かされた状態→先進的な", "後ろに動かされた状態→後進的な", "共に動かされた状態→協調的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "removeとremoteが同じ語源を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「離れた場所に動かす/動かされた」から", "どちらも「感情を動かす」から", "どちらも「前に動かす」から", "removeとremoteは語源的に無関係"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The company adopted ___ work policies during the pandemic.\"",
+          "explanationFocus": "gap",
+          "choices": ["remote", "motion", "promotion", "emotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "remoteと最も自然に結びつく名詞（IT・ビジネス）は？",
+          "explanationFocus": "etymology",
+          "choices": ["remote access（遠隔アクセス）", "remote emotion（遠隔感情）", "remote motion（遠隔動き）", "remote removal（遠隔除去）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"There is a remote possibility that the project could be revived.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["プロジェクトが復活する可能性はわずかにある", "プロジェクトを遠隔で管理する可能性がある", "遠く離れた場所でプロジェクトが動いている", "プロジェクトは完全に除去された"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He works remotely from a cabin in the mountains.", "There's only a remote chance of winning this bid."]
+    },
+    {
+      "word": "locomotive",
+      "phonetic": "/ˌloʊkəˈmoʊtɪv/",
+      "toeicRank": "TSL外・教養語",
+      "parts": [
+        {"part": "loco", "meaning": "場所（から）", "type": "prefix"},
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "loco（場所から）+ motivus（動かす）= 場所から動かすもの → 機関車",
+        "fact": "17世紀のラテン語 loco（場所から）+ motivus（動かす性質）の合成。「ある場所から別の場所へ動かす力」が原義。19世紀蒸気機関の登場で「蒸気機関車」の意味が定着。locomotion（移動・運動）という派生語も重要。",
+        "source": "EtymOnline: locomotive",
+        "cognates": ["locomotion", "motor", "motion"]
+      },
+      "cognitive": {
+        "oneliner": "「場所から別の場所へ動かすもの」= 場所間移動の原動力",
+        "fact": "TRANSPORTATION スキーマ：locomotiveは「空間上の場所移動(loco=場所, mot=動く)」を可能にする機械。locomotion（移動能力）はすべての生物の基本能力で、「場所を変えて動く」という普遍的行為を指す。",
+        "source": "Johnson (1987) The Body in the Mind; Physics of locomotion"
+      },
+      "gap": "locomotiveは「機関車」（名詞）または「移動の力を持つ」（形容詞）。locomotion（移動・運動）は生物学・物理学の重要概念。the locomotive of the economy（経済の牽引力）という比喩的用法も。",
+      "gapOneliner": "locomotive = 機関車 / locomotion = 移動する能力（「経済の牽引力」という比喩も）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "loco（場所）+ mot（動かす）+ ive（もの）= 「場所を動かすもの」= 機関車。経済の locomotive（牽引役）という比喩でも使われる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "locomotiveの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["場所から動かすもの→機関車", "場所を感じるもの→センサー", "場所を作るもの→建設機械", "場所を除去するもの→撤去機"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "loco + mot + ive の語源的な仕組みは？",
+          "explanationFocus": "cognitive",
+          "choices": ["場所(loco)から動かす(mot)性質(ive)を持つ機械", "場所(loco)を感情(mot=emotion)的に処理するもの", "低速(loco)で動く(mot)性質(ive)", "場所(loco)を除去(mot=remove)するもの"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The steam ___ revolutionized transportation in the 19th century.\"",
+          "explanationFocus": "gap",
+          "choices": ["locomotive", "promoter", "motivator", "commotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "locomotiveと最も自然に結びつく形容詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["steam locomotive（蒸気機関車）", "emotional locomotive（感情的機関車）", "remote locomotive（遠隔機関車）", "promotional locomotive（宣伝機関車）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Technology has become the locomotive of economic growth.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["技術が経済成長の牽引力になっている", "機関車技術が経済を動かしている", "経済の動きが技術を感動させている", "技術は経済から遠ざかっている"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The old steam locomotive is preserved in the railway museum.", "Manufacturing acts as the locomotive of the nation's economy."]
+    },
+    {
+      "word": "immobile",
+      "phonetic": "/ɪˈmoʊbəl/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "im", "meaning": "否定", "type": "prefix"},
+        {"part": "mobile", "meaning": "動けるもの", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "im（否定）+ mobile（動ける）= 動けない状態 → 動かない・固定した",
+        "fact": "ラテン語 immobilis「動かない」から14世紀英語へ。物理的に動けない状態（immobile patient = 動けない患者）から、比喩的に「経済・社会が動かない」状態にも使われる。",
+        "source": "EtymOnline: immobile",
+        "cognates": ["mobile", "immobility", "immobilize"]
+      },
+      "cognitive": {
+        "oneliner": "「動ける(mobile)」の否定 = 完全に動きが止まった状態",
+        "fact": "STASIS スキーマ：immobileはmobileの反対。「動く可能性(mobile)」が完全に封じられた(im-)状態。immobilize（固定する）は「動けなくする」行為。骨折後のcast（ギプス）はimmobilization（固定処置）。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "immobileとstationary の違い：stationary は「動いていない状態」（動く能力はある）、immobile は「動けない・固定した状態」（より強い不動性）。immobilize（動けなくする）という動詞形もTOEICで登場する。",
+      "gapOneliner": "immobile = 動けない（固定・動作不能）/ stationary = 動いていないだけ（能力はある）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "im（否定）+ mobile（動ける）= 「動けない」状態 = immobile。怪我で immobile（動けない）になった選手はimmobilized（固定処置された）と表現する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "immobileの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動けない・固定した", "動ける・移動可能な", "感情的に動かされた", "前進できる・積極的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "im + mobile の組み合わせが示す状態は？",
+          "explanationFocus": "cognitive",
+          "choices": ["「動ける能力」が完全に否定された状態", "「動ける能力」がより高まった状態", "「感情の動き」が否定された状態", "「前進する能力」が強化された状態"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"After the accident, she was ___ for three weeks.\"",
+          "explanationFocus": "gap",
+          "choices": ["immobile", "mobile", "promotional", "emotional"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "immobileと最も自然に結びつく文脈は？",
+          "explanationFocus": "etymology",
+          "choices": ["immobile with fear（恐怖で動けない）", "immobile with promotion（昇進で動けない）", "immobile with emotion（感情で昇進する）", "immobile with removal（除去で動く）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The patient remained immobile for hours following surgery.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["手術後、患者は数時間動けない状態が続いた", "患者は手術後に感情が動かなかった", "手術後の患者は前進できなかった", "患者は手術後に除去された"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The injured hiker was immobile until help arrived.", "Fear left him immobile, unable to react."]
+    },
+    {
+      "word": "momentum",
+      "phonetic": "/moʊˈmentəm/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "mot", "meaning": "動く", "type": "root"},
+        {"part": "mentum", "meaning": "〜の力・手段", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "movere（動く）+ mentum（力）= 動く力 → 勢い・はずみ",
+        "fact": "ラテン語 momentum「動かす力・瞬間」から17世紀英語へ。物理学では「運動量（質量×速度）」の専門用語。ビジネス・政治では「流れに乗った勢い（build momentum）」として使われる。",
+        "source": "EtymOnline: momentum",
+        "cognates": ["moment", "momentous", "motor"]
+      },
+      "cognitive": {
+        "oneliner": "動きに蓄積された力 = 勢い・はずみ",
+        "fact": "FORCE スキーマ：momentumは「動き(mot)に蓄積された力(mentum)」。物理的な「質量×速度」から、比喩的「ビジネスの勢い」まで一貫して「動きに内在するエネルギー」として理解される。gain momentum（勢いを増す）は最もよく使われる表現。",
+        "source": "Newton (1687) Principia Mathematica; Business metaphor"
+      },
+      "gap": "momentumはmomentと同語源（movere）。moment（瞬間）= 「動きの一点」、momentum（勢い）= 「動きに蓄積された力」。build momentum（勢いをつける）、lose momentum（勢いを失う）はビジネスで頻出。",
+      "gapOneliner": "momentum = 勢い・はずみ（gain/build/lose momentum でよく使う）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mot（動く）+ mentum（力）= 「動く力」= 勢い。サッカーの試合でmomentum（流れ）がチームを勝利に導く。build momentum（勢いをつける）がビジネスでの典型表現。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "momentumの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動く力→勢い・はずみ", "感情の力→感動・興奮", "除去する力→撤退の力", "前進する力→昇進のエネルギー"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "momentとmomentumの語源的な違いは？",
+          "explanationFocus": "cognitive",
+          "choices": ["moment=動きの一点、momentum=動きに蓄積された力", "moment=感情の瞬間、momentum=感情の流れ", "moment=前進の一歩、momentum=後退の一歩", "どちらも全く同じ意味"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The campaign gained ___ after a series of successful events.\"",
+          "explanationFocus": "gap",
+          "choices": ["momentum", "motion", "emotion", "promotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "momentumと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["build momentum（勢いをつける）", "remove momentum（勢いを除去する）", "motion momentum（動議の勢い）", "emote momentum（感情の勢い）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The peace talks lost momentum after the ceasefire broke down.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["停戦が崩壊した後、和平交渉は勢いを失った", "和平交渉で停戦への動きが加速した", "停戦崩壊後に和平の感情が高まった", "和平交渉が停戦を前進させた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The startup gained significant momentum in its second quarter.", "Once a habit has momentum, it's easier to maintain."]
+    },
+    {
+      "word": "demote",
+      "phonetic": "/dɪˈmoʊt/",
+      "toeicRank": "TSL-2 ビジネス語",
+      "parts": [
+        {"part": "de", "meaning": "下へ・降格", "type": "prefix"},
+        {"part": "mot", "meaning": "動かす", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ movere（動かす）= 下に動かす → 降格させる",
+        "fact": "19世紀アメリカ英語。promoteの反対語として作られた語。be demoted to（〜に降格される）という形で使われる。企業・組織での「降格処分」として使われるが、スポーツリーグの「降格（relegation）」でも使う。",
+        "source": "EtymOnline: demote",
+        "cognates": ["promote", "demotion", "promotion"]
+      },
+      "cognitive": {
+        "oneliner": "等級の縦軸を下方向に動かす = 降格",
+        "fact": "VERTICAL SCALE逆方向：demoteはpromoteの反対。「前(pro-)に動かす(mot)」昇進に対し、「下(de-)に動かす(mot)」降格。demotion（降格）の脅威は組織内のnegative motivation（負の動機づけ）として機能する。",
+        "source": "Organizational behavior theory"
+      },
+      "gap": "demoteとdismissの違い：demote = 下位の職位に移す（クビにはならない）、dismiss = 解雇する（雇用終了）。be demoted from manager to assistant（マネージャーから補佐に降格）が典型。",
+      "gapOneliner": "demote = 降格（職位を下げる）/ dismiss = 解雇（雇用終了）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de（下へ）+ mot（動かす）= 「下に動かす」= 降格。promote（前/上に動かす）の反対がdemote（下に動かす）。プロ野球のような降格制度のある組織では頻出語。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "demoteの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["下に動かす→降格させる", "前に動かす→昇進させる・宣伝する", "感情を動かす→感動させる", "除去して動かす→解雇する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "promoteとdemoteの語源的な違いは？",
+          "explanationFocus": "cognitive",
+          "choices": ["promote=前/上に動かす（昇進）、demote=下に動かす（降格）", "promote=感情を動かす、demote=感情を下げる", "promote=除去する、demote=追加する", "どちらも同じで違いはない"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The manager was ___ following the failed product launch.\"",
+          "explanationFocus": "gap",
+          "choices": ["demoted", "promoted", "removed", "locomoted"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "demoteと最も自然に結びつく前置詞句は？",
+          "explanationFocus": "etymology",
+          "choices": ["demote from manager to assistant（マネージャーから補佐に降格）", "demote to the front（前に降格）", "demote away from（〜から離れるように降格）", "demote beyond（〜を超えて降格）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He was demoted after repeatedly missing his sales targets.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["営業目標を繰り返し達成できなかったため、彼は降格された", "目標を達成できず、彼は昇進のチャンスを失った", "目標未達成で彼はチームから除去された", "彼は目標を下に設定し直した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She was demoted to a lower position due to performance issues.", "Being demoted was a wake-up call for his career."]
+    },
+    {
+      "word": "motivate",
+      "phonetic": "/ˈmoʊtɪveɪt/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質", "type": "suffix"},
+        {"part": "ate", "meaning": "〜させる", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "motive（動かす力）+ ate（〜させる）= 動かす力を与える → 動機づける・やる気を起こさせる",
+        "fact": "19世紀英語。motive（動機）から派生した動詞。motivate to do（〜する動機を与える）、motivate someone（誰かをやる気にさせる）という他動詞用法が基本。highly motivated（非常にやる気がある）はTOEICでも頻出形容詞。",
+        "source": "Based on motive (EtymOnline)",
+        "cognates": ["motive", "motivation", "demotivate"]
+      },
+      "cognitive": {
+        "oneliner": "「動かす力」を他者に与える行為 = やる気を起こさせる",
+        "fact": "CAUSATION スキーマ：motivate は「motivationという燃料」を他者の「エンジン」に注入する行為。highly motivated employees（高いやる気を持つ従業員）は「十分な燃料が入った状態」として概念化される。",
+        "source": "Deci & Ryan (1985) Self-Determination Theory"
+      },
+      "gap": "motivate（他動詞）とinspire（他動詞）の違い：motivate は「具体的行動に向けてやる気を与える」、inspire は「高い理想・可能性に向けて感化する」。motivate to take action vs inspire to dream big。",
+      "gapOneliner": "motivate = 具体的行動に向けてやる気を与える / inspire = 理想に向けて感化する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mot（動かす）+ ive（力）+ ate（させる）= 「動かす力を与える」= やる気にさせる。マネージャーの重要な役割はチームをmotivate（動機づける）こと。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "motivateの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["動かす力を与える→やる気にさせる", "感情を動かす→感動させる", "前に動かす→昇進させる", "取り除いて動かす→解雇する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "motivate（動詞）とmotivation（名詞）の語源的関係は？",
+          "explanationFocus": "cognitive",
+          "choices": ["motivate=力を与える行為、motivation=その結果生まれた状態", "motivation=行動の動き、motivate=その動きを止める", "motivate=感情的動き、motivation=除去の状態", "どちらも語源的に全く別の語"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The manager tried to ___ her team with incentive bonuses.\"",
+          "explanationFocus": "gap",
+          "choices": ["motivate", "demote", "remove", "commotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "motivateと最も自然に結びつく目的語は？",
+          "explanationFocus": "etymology",
+          "choices": ["motivate employees（従業員をやる気にさせる）", "motivate a motion（動議をやる気にさせる）", "motivate a removal（除去をやる気にさせる）", "motivate a locomotive（機関車をやる気にさせる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"What motivates you to give your best performance every day?\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["何が毎日最高のパフォーマンスを発揮するモチベーションになっていますか？", "最高のパフォーマンスのために毎日何を動かしますか？", "なぜ毎日前進するような感情があるのですか？", "パフォーマンス除去の動機は何ですか？"],
+          "correct": 0
+        }
+      ],
+      "examples": ["A good manager knows how to motivate a diverse team.", "She is motivated by a desire to make a real difference."]
+    },
+    {
+      "word": "automotive",
+      "phonetic": "/ˌɔːtəˈmoʊtɪv/",
+      "toeicRank": "TSL-2 ビジネス語",
+      "parts": [
+        {"part": "auto", "meaning": "自己・自動", "type": "prefix"},
+        {"part": "mot", "meaning": "動かす", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "auto（自己・自動）+ movere（動かす）= 自分で動く性質 → 自動車の",
+        "fact": "19世紀末、フランス語 automobile（自動車）から。auto（自己）+ mobile（動く）= 「自分で動く乗り物」。automotive industry（自動車産業）はTOEICで超頻出。automobile の形容詞形として automotive が標準。",
+        "source": "EtymOnline: automobile, automotive",
+        "cognates": ["automobile", "automatic", "autonomy"]
+      },
+      "cognitive": {
+        "oneliner": "「自分で動く(auto+mot)」性質を持つ = 自動車に関する",
+        "fact": "AUTOMATION スキーマ：automotiveは「外力なしに自分で動く」という自律性の概念。auto（自己）+ mot（動く）= 「自律的運動」。馬や人力に依存せず「自動で動く」という19世紀の革命的概念が語源に込められている。",
+        "source": "History of automobile technology"
+      },
+      "gap": "automotiveは主に形容詞（automotive industry, automotive sector）として使う。automobileは名詞（= car）。automotive engineering（自動車工学）はTOEICの理工系問題で頻出。",
+      "gapOneliner": "automotive = 自動車の（形容詞）/ automobile = 自動車（名詞）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "auto（自動）+ mot（動く）+ ive（性質）= 「自動で動く性質」= 自動車の。automotive industry（自動車産業）はTOEICに頻出。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "automotiveの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["自分で動く性質→自動車の・自動車産業の", "自動で感情を動かす→自動感情", "自分で前進する→自動昇進", "自動で除去する→自動削除"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "auto + mot + ive の組み合わせが示す概念は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外力なしに自分で動く性質", "感情的に自己を動かす力", "前進する自律性", "自動的に場所を除去する性質"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The ___ industry employs millions of workers worldwide.\"",
+          "explanationFocus": "gap",
+          "choices": ["automotive", "emotional", "promotional", "locomotive"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "automotiveと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["automotive sector（自動車セクター）", "automotive emotion（自動車感情）", "automotive momentum（自動車の勢い）", "automotive removal（自動除去）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The shift to electric vehicles is transforming the automotive landscape.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["電気自動車への移行が自動車産業の様相を変えている", "感情的な移行が自動的な風景を変えている", "自動昇進システムが自動車分野を改革している", "自動車の除去が産業の前進を促している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The automotive industry is undergoing rapid transformation.", "She has a degree in automotive engineering."]
+    },
+    {
+      "word": "removal",
+      "phonetic": "/rɪˈmuːvəl/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "re", "meaning": "離れて", "type": "prefix"},
+        {"part": "mov", "meaning": "動かす", "type": "root"},
+        {"part": "al", "meaning": "〜の行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "remove（取り除く）+ al（行為）= 取り除く行為 → 除去・撤去・解任",
+        "fact": "16世紀英語。removeの名詞形。removal of obstacles（障害の除去）、removal from office（職からの解任）、furniture removal（家具の搬出）など、多くの文脈で使われる。TOEICでは waste removal（廃棄物除去）が頻出。",
+        "source": "Based on remove (EtymOnline)",
+        "cognates": ["remove", "removable", "irremovable"]
+      },
+      "cognitive": {
+        "oneliner": "「離れた場所に動かす」行為の名詞化 = 除去・撤去",
+        "fact": "SEPARATION スキーマ：removalはremove（元の場所から離れた所に動かす）行為の名詞。the removal of barriers（障壁の除去）は「障壁という物体を現在の位置から動かして離す」という具体的物理動作のメタファー的拡張。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "removalとelimination の違い：removal = 「ある場所から別の場所に移す」（除去、解任）、elimination = 「完全に存在をなくす」（排除、撤廃）。removalの方が柔軟で、必ずしも「完全消去」でない。",
+      "gapOneliner": "removal = 場所から取り除く（完全消去でない場合も）/ elimination = 完全に排除",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（離れて）+ mov（動かす）+ al（行為）= 「離れた所に動かす行為」= 除去。waste removal（廃棄物除去）、stain removal（染み取り）など「〇〇 removal」という複合語が多い。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "removalの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["取り除く行為→除去・撤去・解任", "動かす感情→感動・興奮", "前に動かす行為→昇進・宣伝", "共に動く行為→協力・協調"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "removalとremoveの語源的な関係は？",
+          "explanationFocus": "cognitive",
+          "choices": ["remove（動詞：動かす行為）+ al（名詞化）= removal（その行為）", "remove（除去済み）+ al（人）= removal（除去する人）", "removal（先行）からremove（後発）が作られた", "どちらも同じで区別はない"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The ___ of hazardous waste must comply with strict regulations.\"",
+          "explanationFocus": "gap",
+          "choices": ["removal", "promotion", "emotion", "commotion"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "removalと最も自然に結びつく名詞（複合語）は？",
+          "explanationFocus": "etymology",
+          "choices": ["waste removal（廃棄物除去）", "emotional removal（感情的除去）", "promotional removal（宣伝撤去）", "motional removal（動議除去）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The removal of trade barriers boosted exports significantly.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["貿易障壁の除去が輸出を大幅に増やした", "感情的な貿易促進が輸出を動かした", "貿易の前進が輸出の障壁を作った", "輸出が貿易から除去された"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The removal of the old bridge took three days.", "His removal from the board was a surprise to everyone."]
+    }
+  ]
+}
