@@ -90,6 +90,7 @@
 - 2026-04-03: 20問追加（g1188-g1207）、計1165問（ask+O+to-V・already肯定・both-and・as soon as・get受動態・形式主語it・過去進行形・must義務・although逆接・what関係代名詞・as if仮定法・mind+動名詞・強調do・used to過去習慣・最上級ever・目的不定詞・it takes時間・by the time過去完了・have+O+過去分詞・neither倒置）
 - 2026-04-04: 20問追加（g1208-g1227）、計1185問（whose所有格・have been to経験・仮定法過去・形式目的語it・every vs each・although逆接・much+比較級・something形容詞的用法・時制の一致・分詞構文・not only but also・過去進行受動態・the+形容詞複数・on+動名詞・仮定法現在necessity・過去完了進行形・hardly否定副詞・関係副詞why・the first time現在完了・look forward to動名詞）
 - 2026-04-04: 20問追加（g1228-g1247）、計1205問（since/for・受動不定詞・either-or・what名詞節・should助言・no sooner than・be worried about・suggest仮定法現在・too-to・過去完了進行形・as long as・let使役・enough-to・in spite of・最上級the・never倒置・by期限・wish過去完了・remind-to・未来完了）
+- 2026-04-05: 20問追加（g1248-g1267）、計1225問（現在完了経験・in order to目的・現在完了受動態・感情前置詞at・仮定法現在suggest・動名詞avoid・while接続詞・使役make受動態・worth動名詞・強調構文it・時制の一致・混合仮定法・on特定の日・否定付加疑問・so-that結果・too-to否定・非制限用法who・句動詞give up・否定副詞倒置hardly・unless）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
