@@ -1,5 +1,5 @@
 # Disavow file for native-real.com
-# Generated: 2026-03-26 / Updated: 2026-04-04
+# Generated: 2026-03-26 / Updated: 2026-04-06
 # All backlinks are spam/PBN links - disavow entire domains
 
 domain:seoexpress.org
@@ -12,3 +12,4 @@ domain:grow-your.website
 domain:primeseo.xyz
 domain:seo-backlink.agency
 domain:seodaro.com
+domain:seonexi.com
