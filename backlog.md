@@ -91,6 +91,7 @@
 - 2026-04-04: 20問追加（g1208-g1227）、計1185問（whose所有格・have been to経験・仮定法過去・形式目的語it・every vs each・although逆接・much+比較級・something形容詞的用法・時制の一致・分詞構文・not only but also・過去進行受動態・the+形容詞複数・on+動名詞・仮定法現在necessity・過去完了進行形・hardly否定副詞・関係副詞why・the first time現在完了・look forward to動名詞）
 - 2026-04-04: 20問追加（g1228-g1247）、計1205問（since/for・受動不定詞・either-or・what名詞節・should助言・no sooner than・be worried about・suggest仮定法現在・too-to・過去完了進行形・as long as・let使役・enough-to・in spite of・最上級the・never倒置・by期限・wish過去完了・remind-to・未来完了）
 - 2026-04-05: 20問追加（g1248-g1267）、計1225問（現在完了経験・in order to目的・現在完了受動態・感情前置詞at・仮定法現在suggest・動名詞avoid・while接続詞・使役make受動態・worth動名詞・強調構文it・時制の一致・混合仮定法・on特定の日・否定付加疑問・so-that結果・too-to否定・非制限用法who・句動詞give up・否定副詞倒置hardly・unless）
+- 2026-04-05: 20問追加（g1268-g1287）、計1245問（関係代名詞that制限用法・depend on前置詞・比例比較the比較級・仮定法過去were・not A but B・完了分詞構文having pp・should have過去後悔・間接疑問how・as soon as possible・動名詞の意味上主語所有格・seem to have pp・so do I倒置同意・were to仮定法・目的格関係代名詞省略・provided that条件・what is more追加・stop動名詞・不定詞受動態to be pp・whenever複合関係副詞・句動詞look up）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
