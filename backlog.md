@@ -92,6 +92,7 @@
 - 2026-04-04: 20問追加（g1228-g1247）、計1205問（since/for・受動不定詞・either-or・what名詞節・should助言・no sooner than・be worried about・suggest仮定法現在・too-to・過去完了進行形・as long as・let使役・enough-to・in spite of・最上級the・never倒置・by期限・wish過去完了・remind-to・未来完了）
 - 2026-04-05: 20問追加（g1248-g1267）、計1225問（現在完了経験・in order to目的・現在完了受動態・感情前置詞at・仮定法現在suggest・動名詞avoid・while接続詞・使役make受動態・worth動名詞・強調構文it・時制の一致・混合仮定法・on特定の日・否定付加疑問・so-that結果・too-to否定・非制限用法who・句動詞give up・否定副詞倒置hardly・unless）
 - 2026-04-05: 20問追加（g1268-g1287）、計1245問（関係代名詞that制限用法・depend on前置詞・比例比較the比較級・仮定法過去were・not A but B・完了分詞構文having pp・should have過去後悔・間接疑問how・as soon as possible・動名詞の意味上主語所有格・seem to have pp・so do I倒置同意・were to仮定法・目的格関係代名詞省略・provided that条件・what is more追加・stop動名詞・不定詞受動態to be pp・whenever複合関係副詞・句動詞look up）
+- 2026-04-05: 20問追加（g1288-g1307）、計1265問（現在完了継続for・so that目的・使役受動have pp・仮定法現在recommend・at時刻・完了分詞構文having pp・even though逆接・whose所有格関係詞・should助言・強調構文it was that・much比較級強調・No sooner倒置・unless条件・動名詞所有格主語・so that結果・wish仮定法過去完了・the最上級・as if仮定法・受動態be pp・混合仮定法）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
