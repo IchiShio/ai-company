@@ -38,6 +38,11 @@ for each root in data/words/*.json:
 - 数字・統計を含む主張に出典があるか
 - 誇大表現がないか
 
+### デザインシステム準拠（SEO記事・ListenUp共通）
+- `assets/global-design.css` の参照があること
+- 純白背景 `#FFFFFF` がページ背景に使われていないこと
+- 違反がある場合は ❌ BLOCKED（デザインシステム非準拠）
+
 ## 判定
 
 - ✅ **APPROVED** → デプロイ/公開を許可。ログに記録。

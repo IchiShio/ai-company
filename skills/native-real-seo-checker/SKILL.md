@@ -249,7 +249,14 @@ title / meta改善が行われたページに対して確認する:
 - 基準範囲外 → ⚠️ WARNING（アクセス改善効果が落ちる）
 - og/JSON-LD の更新漏れ → ❌ FAIL
 
-**3-E. git push 確認**
+**3-F. デザイン整合性チェック（Check 3 追加項目）**
+
+- 新規・編集ページに `global-design.css` の `<link>` が存在するか
+- ハードコード `#FFFFFF`（ページ背景）や `rgba(0,0,0,...)` が混入していないか
+- ヘッダー背景が `rgba(248,246,241,0.92)` であるか
+- 上記違反は ⚠️ WARNING として executor に修正指示
+
+**3-G. git push 確認**
 
 ```bash
 cd ~/projects/claude/native-real && git status
@@ -258,7 +265,7 @@ cd ~/projects/claude/native-real && git status
 - `nothing to commit, working tree clean` かつリモートと同期済み → ✅
 - push されていない → ❌ FAIL
 
-**3-F. 判定ルール**
+**3-H. 判定ルール**
 
 - コミットなし → ❌ FAIL
 - 未実行アクションあり → ❌ FAIL
