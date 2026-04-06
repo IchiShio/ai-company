@@ -1,0 +1,54 @@
+/*
+ * global-design.css — native-real.com Design System Override
+ * Lovable theme: warm cream #F8F6F1, gold #F5A623
+ * Injected before </head> in all HTML files; wins over inline <style> by source order.
+ */
+
+/* ── CSS Variable Overrides ───────────────────────── */
+:root {
+  --bg:            #F8F6F1;
+  --bg-elevated:   #FDFCF9;
+  --bg-subtle:     #F2EFE9;
+  --bg-gray:       #F2EFE9;   /* article-style alias */
+  --border:        #E8E4DC;
+  --border-strong: rgba(26,26,26,0.35);
+  --text-1:        rgba(26,26,26,0.88);
+  --text-2:        rgba(26,26,26,0.62);
+  --text-3:        rgba(26,26,26,0.42);
+  --text:          rgba(26,26,26,0.88);      /* article-style alias */
+  --text-muted:    rgba(26,26,26,0.55);      /* article-style alias */
+  --radius:        14px;
+  --radius-sm:     8px;
+  --radius-pill:   9999px;
+}
+
+/* ── Body Background ──────────────────────────────── */
+body {
+  background: var(--bg, #F8F6F1);
+}
+
+/* ── Site Header: cream backdrop ─────────────────── */
+.site-header {
+  background: rgba(248,246,241,0.92) !important;
+  border-bottom-color: #E8E4DC !important;
+}
+
+/* ── Nav Dropdown: cream card ────────────────────── */
+.nav-dd-menu {
+  background: #FDFCF9 !important;
+  border: 1px solid #E8E4DC !important;
+  box-shadow: 0 4px 16px rgba(26,26,26,0.08), 0 1px 4px rgba(26,26,26,0.04) !important;
+}
+
+/* ── Section Alt: subtle cream ───────────────────── */
+.section-alt,
+.lp-section-alt {
+  background: var(--bg-subtle, #F2EFE9) !important;
+}
+
+/* ── White card surfaces → elevated cream ────────── */
+.cross-card-mini,
+.philosophy-conclusion,
+.mission-modal {
+  background: var(--bg-elevated, #FDFCF9) !important;
+}
