@@ -95,6 +95,7 @@
 - 2026-04-05: 20問追加（g1288-g1307）、計1265問（現在完了継続for・so that目的・使役受動have pp・仮定法現在recommend・at時刻・完了分詞構文having pp・even though逆接・whose所有格関係詞・should助言・強調構文it was that・much比較級強調・No sooner倒置・unless条件・動名詞所有格主語・so that結果・wish仮定法過去完了・the最上級・as if仮定法・受動態be pp・混合仮定法）
 - 2026-04-05: 20問追加（g1308-g1327）、計1285問（現在完了経験been・目的to不定詞・非制限用法which・as-as同等比較・間接疑問・too-to・during前置詞・現在完了受動態・仮定法過去were・worth動名詞・付加疑問・let使役・while対比・関係副詞where・-ing/-ed感情形容詞・except除外・not only but also・分詞構文現在分詞・might弱い推量・should have過去後悔）
 - 2026-04-05: 20問追加（g1328-g1347）、計1305問（現在完了just・進行受動態・whose・whether・no matter what・avoid動名詞・as if仮定法・in addition to動名詞・demand仮定法現在・過去完了・it is time仮定法・less than・so as not to・how long・prefer A to B・having完了分詞構文・be supposed to・once条件・過去分詞後置修飾・only when倒置）
+- 2026-04-06: 20問追加（g1348-g1367）、計1325問（現在完了進行形・倍数twice as・独立不定詞・make受動態・知覚動詞see O -ing・部分否定not all・時制の一致・as long as条件・whatever複合関係詞・非制限用法which・have O do使役・be going to予測・wish過去完了後悔・not A but B対比・仮定法倒置should・未来完了・付帯状況分詞構文・too-to構文・混合仮定法・by the time期限）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
