@@ -343,6 +343,21 @@ python3 add_questions.py
 - 作業前に本ファイルと README.md を確認すること
 - HTML変更後は `sitemap.xml` の更新要否を確認すること
 
+### UI・CSS 編集時のデザインシステム準拠ルール
+
+HTML/CSS を編集する際は、**必ず `DESIGN.md` を読んでからスタイルを書くこと**。
+
+- **カラー**: ページ背景 `#F8F6F1`（クリーム）、カード `#FDFCF9`、ボーダー `#E8E4DC`、テキスト `rgba(26,26,26,0.88/0.62/0.42)`。純白 `#FFFFFF` をページ背景に使わない。`rgba(0,0,0,...)` ではなく `rgba(26,26,26,...)` を使う
+- **アクセント**: ゴールド `#F5A623` のみ。CTA・アクティブ状態に限定。装飾目的の多用禁止
+- **CSS変数**: `assets/global-design.css` で定義済みの `--bg`, `--border`, `--text-1` 等を使う。ハードコードの色値は避ける
+- **ボタン**: Primary CTA はゴールドグラデーション（`#E09520→#F5A623→#F8C347`）、`border-radius: 9999px`。Ghost は透明背景＋`border-strong`
+- **カード**: デフォルトはボーダーのみ（`1px solid var(--border)`）。シャドウは hover 時のみ
+- **タブ**: `box-shadow: var(--gold) 0px -3px 0px 0px inset` パターン。`border-bottom` は使わない
+- **タッチターゲット**: 選択肢 `min-height: 56px`、ボタン `min-height: 52px`（iOS HIG準拠）
+- **見出し**: 負の `letter-spacing`（-0.4px〜-1.2px）。日本語見出しは `letter-spacing: 0`
+- **フォント**: `font-weight` は最大 `800`。`900` は使わない
+- **アニメーション**: duration は最大 `0.5s`。ループアニメーション禁止
+
 ## コンテンツ記法ルール
 
 ### `**太字**` 使用禁止
