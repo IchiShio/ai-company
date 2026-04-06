@@ -360,6 +360,8 @@ git diff --stat HEAD
 
 HTML/CSSを編集・新規作成する際は、以下を厳守すること。
 
+- 参考資料: `ai-company/docs/reference/lovable-DESIGN.md`（Lovable公式デザインシステムの9セクション構成。コンポーネント設計・レイアウト・Do's/Don'tsの詳細はこちらを参照）
+
 1. 作業開始前に `DESIGN.md` を読むこと
 2. CSS変数は `assets/global-design.css` で定義済み。ハードコード色値禁止
 3. カラーパレット:
