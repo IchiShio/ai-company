@@ -80,35 +80,35 @@
     /* ── UNIFIED HEADER ── */
     .site-header {
       position: fixed; top: 0; left: 0; right: 0; z-index: 300;
-      background: rgba(255,255,255,0.92); backdrop-filter: blur(16px) saturate(180%);
+      background: rgba(248,246,241,0.92); backdrop-filter: blur(16px) saturate(180%);
       -webkit-backdrop-filter: blur(16px) saturate(180%);
-      border-bottom: 1px solid rgba(0,0,0,0.06); padding: 10px 0;
+      border-bottom: 1px solid #E8E4DC; padding: 10px 0;
       transition: padding 0.3s ease, box-shadow 0.3s ease;
     }
     .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(0,0,0,0.08); }
     .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
-    .site-header-logo { font-size: 15px; font-weight: 800; color: #111; text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
+    .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
     .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
     .site-header-nav { display: flex; align-items: center; gap: 2px; }
-    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.6); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
-    .site-header-nav > a:hover { color: #111; background: rgba(0,0,0,0.04); }
+    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
+    .site-header-nav > a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
     .site-header-nav > a.active { color: #F5A623; font-weight: 700; }
     .site-header-nav > a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 16px; height: 2px; border-radius: 1px; background: #F5A623; }
     /* Dropdown */
     .nav-dd { position: relative; }
-    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.6); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
-    .nav-dd-trigger:hover { color: #111; background: rgba(0,0,0,0.04); }
+    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
+    .nav-dd-trigger:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
     .nav-dd-trigger.active { color: #F5A623; font-weight: 700; }
     .dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
     .nav-dd:hover .dd-chevron, .nav-dd.open .dd-chevron { transform: rotate(180deg); }
-    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #fff; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06); padding: 6px; margin-top: 4px; z-index: 310; }
+    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #FDFCF9; border-radius: 12px; border: 1px solid #E8E4DC; box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04); padding: 6px; margin-top: 4px; z-index: 310; }
     .nav-dd:hover .nav-dd-menu, .nav-dd.open .nav-dd-menu { display: block; }
-    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(0,0,0,0.7); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
-    .nav-dd-menu a:hover { color: #111; background: rgba(0,0,0,0.04); }
+    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.62); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+    .nav-dd-menu a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
     .nav-dd-menu a.active { color: #F5A623; font-weight: 700; }
     /* Hamburger */
     .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
-    .site-hamburger span { display: block; width: 18px; height: 2px; background: #111; margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: rgba(26,26,26,0.88); margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
     .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
     .site-hamburger.active span:nth-child(2) { opacity: 0; }
     .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
@@ -125,10 +125,10 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:         #FFFFFF;
-      --surface:    rgba(0,0,0,0.04);
-      --surface-2:  rgba(0,0,0,0.06);
-      --border:     rgba(0,0,0,0.09);
+      --bg:         #F8F6F1;
+      --surface:    rgba(26,26,26,0.04);
+      --surface-2:  rgba(26,26,26,0.07);
+      --border:     #E8E4DC;
       --primary:    #6366F1;
       --primary-bg: rgba(99,102,241,0.08);
       --primary-dim:rgba(99,102,241,0.65);
@@ -140,9 +140,9 @@
       --success-bg: rgba(22,163,74,0.1);
       --error:      #DC2626;
       --error-bg:   rgba(220,38,38,0.1);
-      --text-1:     rgba(0,0,0,0.88);
-      --text-2:     rgba(0,0,0,0.62);
-      --text-3:     rgba(0,0,0,0.46);
+      --text-1:     rgba(26,26,26,0.88);
+      --text-2:     rgba(26,26,26,0.62);
+      --text-3:     rgba(26,26,26,0.42);
       --radius:     16px;
       --radius-lg:  20px;
       --t:          0.18s ease;
@@ -217,7 +217,7 @@
 
     /* ── QUIZ HEADER ── */
     .app-header {
-      background: rgba(255,255,255,0.92); backdrop-filter: blur(20px);
+      background: rgba(248,246,241,0.92); backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid var(--border);
       height: 56px; padding: 0 20px;
       display: none; align-items: center; justify-content: space-between;
@@ -309,7 +309,7 @@
     }
     .qm-btn {
       font-size: 13px; font-weight: 600; padding: 8px 16px; border-radius: 20px;
-      border: 1px solid var(--border); background: #fff; color: var(--text-2);
+      border: 1px solid var(--border); background: var(--bg-elevated, #FDFCF9); color: var(--text-2);
       cursor: pointer; transition: all var(--t); min-height: 44px;
     }
     .qm-btn:hover { border-color: rgba(99,102,241,0.3); color: var(--primary); }
@@ -436,7 +436,7 @@
     }
     .philosophy-quote p { font-size: clamp(18px, 2.5vw, 23px); font-weight: 700; color: rgba(0,0,0,.80); line-height: 1.75; }
     .philosophy-conclusion {
-      margin-top: 48px; padding: 32px; background: #fff;
+      margin-top: 48px; padding: 32px; background: var(--bg-elevated, #FDFCF9);
       border: 1px solid rgba(99,102,241,.22); border-radius: 16px;
       text-align: center; box-shadow: 0 4px 24px rgba(0,0,0,.05);
     }
@@ -468,7 +468,7 @@
 
     /* ── WORD CARD ── */
     .word-card {
-      background: #fff; border: 1px solid var(--border); border-radius: var(--radius-lg);
+      background: var(--bg-elevated, #FDFCF9); border: 1px solid var(--border); border-radius: var(--radius-lg);
       padding: 28px 24px; margin-bottom: 20px;
       box-shadow: 0 2px 12px rgba(0,0,0,0.04);
     }
@@ -552,7 +552,7 @@
     .opt-btn {
       display: flex; align-items: center; gap: 12px;
       width: 100%; padding: 14px 16px; border-radius: 14px;
-      border: 1.5px solid var(--border); background: #fff;
+      border: 1.5px solid var(--border); background: var(--bg-elevated, #FDFCF9);
       cursor: pointer; transition: all var(--t); min-height: 44px;
       text-align: left; font-size: 15px;
     }
@@ -686,7 +686,7 @@
     /* ── SERVICE CTA ── */
     .mission-service-cta { margin-top: 20px; text-align: left; }
     .mission-service-label { font-size: 14px; font-weight: 700; margin-bottom: 10px; text-align: center; }
-    .mission-cta-card { background: #fff; border-radius: 12px; padding: 16px; text-align: left; margin-bottom: 12px; border: 1px solid var(--border); }
+    .mission-cta-card { background: var(--bg-elevated, #FDFCF9); border-radius: 12px; padding: 16px; text-align: left; margin-bottom: 12px; border: 1px solid var(--border); }
     .mission-cta-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
     .mission-cta-desc { font-size: 12px; color: var(--text-2); margin-bottom: 8px; }
     .mission-cta-link { display: inline-block; padding: 8px 20px; font-size: 13px; font-weight: 700; color: #fff; background: var(--accent); border-radius: 8px; text-decoration: none; }
@@ -695,7 +695,7 @@
     /* ── CROSS PROMO ── */
     .cross-promo-cards { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
     .cross-card-mini {
-      padding: 14px 16px; border-radius: 12px; background: #fff;
+      padding: 14px 16px; border-radius: 12px; background: var(--bg-elevated, #FDFCF9);
       border: 1px solid var(--border); text-align: left;
     }
     .cross-card-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
