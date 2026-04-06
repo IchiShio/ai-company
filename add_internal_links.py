@@ -3,8 +3,10 @@
 内部リンク追加スクリプト v2
 既存の関連記事セクション（pattern1/pattern2）に内部リンクを追記する
 """
+import json
 import os
 import re
+from pathlib import Path
 
 BASE_DIR = '/Users/yusuke/projects/claude/native-real'
 ARTICLES_DIR = os.path.join(BASE_DIR, 'articles')
