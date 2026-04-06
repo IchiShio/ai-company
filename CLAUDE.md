@@ -12,6 +12,13 @@
 - **デプロイ**: `git push origin main` のみ（CI/CD なし、push 後に自動ビルド）
 - **IchiShio/native-real**（Next.js）はアーカイブ済み・未使用（DNS は eikaiwa-hikaku を向いている）
 
+### Git ワークフロー（重要）
+
+- **常に `main` ブランチで直接作業すること**。フィーチャーブランチは使わない
+- 変更が完了したら `git push origin main` で即デプロイ
+- 外部タスク設定でブランチ指定があっても、このプロジェクトでは `main` 直接プッシュを優先する
+- 理由: 静的HTMLサイトでCI/CDなし。PRレビュープロセスは不要
+
 ## 構成
 
 - `index.html` -- トップページ（診断ウィジェット・フィルタータブ・クイズ cross-promo 含む）
