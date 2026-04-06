@@ -96,6 +96,7 @@
 - 2026-04-05: 20問追加（g1308-g1327）、計1285問（現在完了経験been・目的to不定詞・非制限用法which・as-as同等比較・間接疑問・too-to・during前置詞・現在完了受動態・仮定法過去were・worth動名詞・付加疑問・let使役・while対比・関係副詞where・-ing/-ed感情形容詞・except除外・not only but also・分詞構文現在分詞・might弱い推量・should have過去後悔）
 - 2026-04-05: 20問追加（g1328-g1347）、計1305問（現在完了just・進行受動態・whose・whether・no matter what・avoid動名詞・as if仮定法・in addition to動名詞・demand仮定法現在・過去完了・it is time仮定法・less than・so as not to・how long・prefer A to B・having完了分詞構文・be supposed to・once条件・過去分詞後置修飾・only when倒置）
 - 2026-04-06: 20問追加（g1348-g1367）、計1325問（現在完了進行形・倍数twice as・独立不定詞・make受動態・知覚動詞see O -ing・部分否定not all・時制の一致・as long as条件・whatever複合関係詞・非制限用法which・have O do使役・be going to予測・wish過去完了後悔・not A but B対比・仮定法倒置should・未来完了・付帯状況分詞構文・too-to構文・混合仮定法・by the time期限）
+- 2026-04-06: 20問追加（g1368-g1387）、計1345問（現在完了経験・in order to目的・過去受動態・感情前置詞at・仮定法現在suggest・時制の一致間接話法・avoid動名詞・whose所有格関係詞・while対比・make受動態・worth動名詞・強調構文it was・since継続・prefer A to B・Hardly否定副詞倒置・unless・whether間接疑問・so that目的・It takes時間・Never倒置）・クイズ変数バグ修正（allQuestions→DATA）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
