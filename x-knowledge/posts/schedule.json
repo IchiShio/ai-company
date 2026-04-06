@@ -332,10 +332,12 @@
     "date": "2026-04-07",
     "slot": "morning",
     "text": "TOEIC対策で問題集を何度も読み返してる人、時間を無駄にしてます。Roediger & Karpickeの研究：再読を繰り返したグループの1週間後の記憶保持率は36%。想起練習をしたグループは80%。答えを見ながら読むのではなく、答えを隠して思い出す練習に切り替えてください。",
-    "posted": false,
+    "posted": true,
     "fact_ref": "toeic/F-TOEIC-001",
     "hook_pattern": "P9",
-    "theme": "TOEIC対策"
+    "theme": "TOEIC対策",
+    "posted_at": "2026-04-07T07:37:09.350717+09:00",
+    "tweet_id": "2041284099436904680"
   },
   {
     "date": "2026-04-07",
