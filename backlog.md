@@ -98,6 +98,7 @@
 - 2026-04-06: 20問追加（g1348-g1367）、計1325問（現在完了進行形・倍数twice as・独立不定詞・make受動態・知覚動詞see O -ing・部分否定not all・時制の一致・as long as条件・whatever複合関係詞・非制限用法which・have O do使役・be going to予測・wish過去完了後悔・not A but B対比・仮定法倒置should・未来完了・付帯状況分詞構文・too-to構文・混合仮定法・by the time期限）
 - 2026-04-06: 20問追加（g1368-g1387）、計1345問（現在完了経験・in order to目的・過去受動態・感情前置詞at・仮定法現在suggest・時制の一致間接話法・avoid動名詞・whose所有格関係詞・while対比・make受動態・worth動名詞・強調構文it was・since継続・prefer A to B・Hardly否定副詞倒置・unless・whether間接疑問・so that目的・It takes時間・Never倒置）・クイズ変数バグ修正（allQuestions→DATA）
 - 2026-04-06: 20問追加（g1388-g1407）、計1365問（関係副詞when・付帯状況with・混合仮定法・完了不定詞seem to have pp・比例比較the比較級・形式目的語it・regret動名詞vs不定詞・whatever複合関係詞・no matter how・fond of・間接疑問where・過去進行受動態・Were it not for倒置・強調do・There is付加疑問・enough to・as though仮定法・should have pp・neither nor・whichever複合関係形容詞）
+- 2026-04-06: 20問追加（g1408-g1427）、計1385問（have_been_to経験・not_until倒置・without動名詞・be_used_to・whose・insist仮定法現在・in_spite_of・much比較級強調・by_the_time過去完了・keep_from・exhausted分詞形容詞・a_number_of・動名詞主語・as_well_as・whom目的格・were_to仮定法・現在完了受動態・let_alone・受動分詞構文・for_vs_since）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
