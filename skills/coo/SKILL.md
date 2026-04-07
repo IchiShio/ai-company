@@ -105,6 +105,9 @@ gh run list --repo IchiShio/ai-company --workflow ichi-eigo-post.yml --limit 3
 | title/meta改善 | 順位15位以内でCTR 0%のページを10件改善 |
 | コンテンツリライト | Tier 1サービスページを1件/日（3,000字+FAQ schema） |
 
+**日次タスクに含まないもの（自動実行禁止）:**
+- ListenUp問題追加（listenup-producer）→ 社長から明示的に指示があった場合のみ実行
+
 COOは毎日 native-real-bucho に上記3タスクの実行を指示する。
 リライト対象はロードマップ順（memory `project_native_real_daily_tasks.md` 参照）。
 
@@ -145,25 +148,34 @@ COOは毎日 native-real-bucho に上記3タスクの実行を指示する。
 - タスク間で中断せず、全ての日次タスクを最後まで実行してから報告する
 - エラーが起きても次のタスクを継続し、エラーは最後にまとめて報告する
 
-**Step 4: 報告**
+**Step 4: 実行**
 
-実行結果を社長に簡潔に報告する：
+Step 2の判断に基づき、全タスクを確認なしで即実行する。
+質問・確認・承認待ちは一切しない。全タスク完了後にStep 5へ進む。
+
+**Step 5: 報告**
+
+全タスク完了後、実行結果を社長に簡潔に報告する。
+**報告文の末尾に質問を書かない。次のアクションを聞かない。**
 
 ```
-おはようございます。本日の状況です。
+おはようございます。本日の日次オペレーション完了報告です。
 
 ■ X部門
-  @ichi_eigo: 残8件（3/24まで）→ 問題なし
+  @ichi_eigo: 残8件（4/14まで）
   GitHub Actions: 全件成功
-  昨日のパフォーマンス:
-    @ichi_eigo 3/20朝: imp 3,500 / eng 2.1%
+  昨日: imp 3,500 / eng 2.1%
+  本日実行: [実行内容]
 
 ■ native-real部門
-  本日のリライト対象: /services/cambly/
-  title/meta改善: 10件実行 → 完了
+  title/meta改善: 10件完了
+  リライト: /services/cambly/ 完了
   前日比: クリック +12、インプレ +340
 
-本日のアクション: native-real日次タスク実行中
+■ QA
+  PASS 78/80、FLAG 2件（native-real-bucho報告済み）
+
+以上。
 ```
 
 ### バッチ補充ルール
