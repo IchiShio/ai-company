@@ -4,13 +4,11 @@ description: |
   note.com への記事投稿を全自動化するスキル。
   Playwright CLI（pw）経由でブラウザを操作し、
   記事の作成・本文入力・画像アップロード・公開設定・公開を一貫実行する。
-  いち英語社（@one_ai_company）・ひつじ社（@careermigaki）の両社に対応。
   checker PASS 済みなら承認不要で自動公開まで完了する。
 
   次のような依頼で使用すること：
   - 「noteに記事を投稿して」「noteに公開して」
   - 「note記事をアップして」「noteにデプロイして」
-  - oac-bucho / cm-bucho からのnote公開指示
   - パイプラインの公開ステップとして自動呼び出し
 ---
 
@@ -30,17 +28,10 @@ note.com のWeb UIを Playwright CLI（pw）経由のブラウザ操作で直接
 
 | 会社 | noteアカウント | pw セッション | checker | 備考 |
 |---|---|---|---|---|
-| いち英語社 | @one_ai_company | `pw -s ichi-eigo` | oac-checker | ひとりAI会社ブランド |
-| ひつじ社 | @careermigaki | `pw -s careermigaki` | cm-checker | キャリア磨きブランド |
+| いち英語社 | @one_ai_company | `pw -s ichi-eigo` | cso-native-real | native-real ブランド |
 
 **セッション変数**: 以降のワークフローでは `SESSION` と表記する。
 - いち英語社の場合: `SESSION=ichi-eigo`
-- ひつじ社の場合: `SESSION=careermigaki`
-
-**重要: 身元分離ルール**
-- いち英語社の記事にひつじ社の情報を含めない（逆も同様）
-- セッションを間違えない（別会社のnoteに投稿したら致命的）
-- 投稿内容から対象アカウントを自動判定。判断がつかない場合のみユーザーに確認
 
 ---
 
@@ -66,7 +57,7 @@ note.com のWeb UIを Playwright CLI（pw）経由のブラウザ操作で直接
 |---|---|---|
 | タイトル | YES | 記事のタイトル |
 | 本文 | YES | 記事本文（プレーンテキスト or マークダウン） |
-| 対象会社 | YES | `ichi-eigo`（いち英語社）or `careermigaki`（ひつじ社） |
+| 対象会社 | YES | `ichi-eigo`（いち英語社） |
 | ヘッダー画像パス | NO | ヘッダーに設定する画像ファイルのパス |
 | 本文中画像パス | NO | 本文に挿入する画像ファイルのパス（複数可） |
 | 価格 | NO | 有料記事の場合の価格（例: 3980）。未指定なら無料記事 |
@@ -74,10 +65,7 @@ note.com のWeb UIを Playwright CLI（pw）経由のブラウザ操作で直接
 | ハッシュタグ | NO | 記事に付けるタグ（複数可） |
 | checker結果 | YES | PASS/FAIL。PASSでなければ公開しない |
 
-**アカウント自動判定**:
-- 呼び出し元が `oac-*` → `SESSION=ichi-eigo`
-- 呼び出し元が `cm-*` → `SESSION=careermigaki`
-- 明示指定がある場合はそちらを優先
+**アカウント**: `SESSION=ichi-eigo`（固定）
 
 ---
 
