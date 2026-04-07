@@ -39,16 +39,9 @@ description: |
 
 ## アカウント
 
-| アカウント | ジャンル | 投稿形式 | 枠 | チーム |
-|---|---|---|---|---|
-| @ichi_eigo | 英語学習 | 単発130〜140字 | 7:00 / 18:00 | x-buchoチーム |
-| @careermigaki | キャリア・転職 | IODスレッド | 7:30 / 18:30 | cm-buchoチーム |
-
-### スケジュール整合性（厳守）
-
-2アカウントの投稿が10分以内に被らないこと:
-- **@ichi_eigo**: 朝 7:00 / 夕 18:00
-- **@careermigaki**: 朝 7:30 / 夕 18:30
+| アカウント | ジャンル | 投稿形式 | 枠 |
+|---|---|---|---|
+| @ichi_eigo | 英語学習 | 単発130〜140字 | 7:00 / 18:00 |
 
 ---
 
@@ -172,9 +165,23 @@ python3 scripts/fetch_metrics.py
 
 **Step 1: データ収集**
 
-1. `x-data-collector` を呼び出して両アカウントの直近投稿データを取得
-2. `x-checker`（Check 2）でデータ品質を検査
-3. データが取得できない場合（APIキー未設定等）は、ユーザーに状況を報告して手動データを依頼
+**Agent tool** で以下のサブエージェントを生成する:
+
+```
+description: "X data collection"
+prompt: |
+  以下のSKILL.mdを読み、その指示に従ってデータ収集を実行せよ。
+  SKILL.mdパス: /Users/yusuke/.claude/skills/x-data-collector/SKILL.md
+
+  対象アカウント: @ichi_eigo
+  データ保存先: ~/projects/claude/ai-company/x-knowledge/posts/
+  収集完了後、取得件数・エラー有無を1〜3行で報告すること。
+mode: bypassPermissions
+```
+
+サブエージェント完了後、**Check 2 を自分で実行**:
+1. `x-knowledge/posts/ichi-eigo-log.csv` が更新されているか確認（最終行の日付）
+2. データが取得できない場合（APIキー未設定等）は、ユーザーに状況を報告して手動データを依頼
 
 **Step 2: 投稿ログの更新**
 
@@ -192,7 +199,22 @@ date,time_slot,text_preview,template,hook_type,theme,impressions,likes,retweets,
 
 **Step 3: 分析・仮説検証**
 
-`x-analyzer` を呼び出して分析を実行させ、`x-checker`（Check 3）で品質検査する。
+**Agent tool** で以下のサブエージェントを生成する:
+
+```
+description: "X analysis"
+prompt: |
+  以下のSKILL.mdを読み、その指示に従ってデータ分析・仮説検証・knowledge更新を実行せよ。
+  SKILL.mdパス: /Users/yusuke/.claude/skills/x-analyzer/SKILL.md
+
+  対象: ~/projects/claude/ai-company/x-knowledge/posts/ichi-eigo-log.csv
+  分析完了後、パターン発見・仮説検証結果・knowledge更新内容を簡潔に報告すること。
+mode: bypassPermissions
+```
+
+サブエージェント完了後、**Check 3 を自分で実行**:
+- 分析レポートの論理的整合性を確認（サンプル数は十分か、因果関係は正しいか）
+- knowledge更新内容が適切か確認
 
 analyzer が行う仮説検証の流れ:
 
@@ -219,7 +241,6 @@ analyzer のレポートを確認し、部長として判断を加える:
 | アカウント | 投稿数 | 平均インプレ | 平均エンゲ率 | 前週比 |
 |---|---|---|---|---|
 | @ichi_eigo | X | X,XXX | X.X% | +X.X% |
-| @careermigaki | X | X,XXX | X.X% | +X.X% |
 
 ### ベスト投稿
 - [@xxx] 「{冒頭}...」 → エンゲ率 X.X%（{ランク}）
@@ -258,7 +279,6 @@ cd ~/projects/claude/ai-company && git add -A && git commit -m "X週次レビュ
 ```
 【主KPI】
   KPI-1: 月間フォロワー純増数（@ichi_eigo）
-  KPI-2: 月間フォロワー純増数（@careermigaki）
 
 【先行指標KPI】
   KPI-3: 平均インプレッション/投稿
@@ -284,7 +304,7 @@ cd ~/projects/claude/ai-company && git add -A && git commit -m "X週次レビュ
 
 ### `/x-bucho post` — 7日分バッチ一括作成（14投稿）
 
-cm-buchoと同等の5段階パイプラインで、7日分（朝夕×7日＝14投稿）を一括作成する。
+5段階パイプラインで、7日分（朝夕×7日＝14投稿）を一括作成する。
 
 #### 5段階パイプライン
 
@@ -318,7 +338,7 @@ x-checker が全14投稿の品質基準を一括検査。NG があれば x-write
 **Step 4: ユーザーに提示 → 承認後 x-schedule-post で予約投稿**
 
 全投稿をユーザーに提示して承認を得る。承認後、x-schedule-post で順次予約投稿する。
-投稿枠: **7:00 / 18:00 JST**（careermigakiの7:30/18:30と被らない）。
+投稿枠: **7:00 / 18:00 JST**。
 
 **Step 5: ログ記録・バッチ保存**
 
