@@ -670,6 +670,23 @@
         <div class="modal-source" id="modalSource"></div>
       </div>
 
+      <!-- Cross-promo (shown after quiz solved) -->
+      <div class="modal-rule-box" id="modalCrossPromo" style="display:none;margin-top:16px;">
+        <div class="modal-rule-title" style="margin-bottom:10px;">次はこれを試そう</div>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <div style="background:#FDFCF9;border-radius:10px;padding:12px 14px;border:1px solid #E8E4DC;border-left:3px solid #F59E0B;">
+            <div style="font-size:13px;font-weight:700;margin-bottom:3px;">🎧 発音をリスニングで試そう</div>
+            <div style="font-size:11px;color:rgba(26,26,26,0.6);margin-bottom:8px;line-height:1.5;">フォニックスで学んだ音を、実際の英語で聴き取れるか試してみよう。</div>
+            <a href="/" style="display:inline-block;padding:6px 14px;font-size:11px;font-weight:700;color:#fff;background:#F59E0B;border-radius:7px;text-decoration:none;">ListenUpを試す</a>
+          </div>
+          <div style="display:flex;gap:6px;">
+            <a href="/words/" style="flex:1;text-align:center;padding:9px 4px;background:rgba(99,102,241,0.06);border-radius:8px;text-decoration:none;font-size:11px;font-weight:600;color:#6366F1;border:1px solid rgba(99,102,241,0.12);">📖 WordsUp</a>
+            <a href="/grammar/" style="flex:1;text-align:center;padding:9px 4px;background:rgba(16,185,129,0.06);border-radius:8px;text-decoration:none;font-size:11px;font-weight:600;color:#10B981;border:1px solid rgba(16,185,129,0.12);">📝 文法クイズ</a>
+            <a href="/sync/" style="flex:1;text-align:center;padding:9px 4px;background:rgba(59,130,246,0.06);border-radius:8px;text-decoration:none;font-size:11px;font-weight:600;color:#3B82F6;border:1px solid rgba(59,130,246,0.12);">🔗 SyncReader</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
@@ -1021,6 +1038,8 @@ function openCodeModal(id) {
   // Show/hide rule + etym
   document.getElementById('modalRule').classList.toggle('show', isSolved);
   document.getElementById('modalEtym').classList.toggle('show', isSolved);
+  var cpEl = document.getElementById('modalCrossPromo');
+  if (cpEl) cpEl.style.display = isSolved ? 'block' : 'none';
   if (isSolved) {
     document.getElementById('modalRuleText').textContent = code.rule;
     document.getElementById('modalEtymText').textContent = code.etym;
@@ -1091,6 +1110,10 @@ function finishCode() {
 
   // Hide quiz
   document.getElementById('modalQuizSection').style.display = 'none';
+
+  // Show cross-promo
+  var cp = document.getElementById('modalCrossPromo');
+  if (cp) cp.style.display = 'block';
 
   renderCodes();
   try { gtag('event', 'phonics_code_solved', { code_id: currentCode.id }); } catch(_) {}
