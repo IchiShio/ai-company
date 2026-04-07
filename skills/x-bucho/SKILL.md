@@ -335,10 +335,10 @@ x-writer が knowledge を活用して全14投稿の Draft を作成する。
 
 x-checker が全14投稿の品質基準を一括検査。NG があれば x-writer に差し戻し。
 
-**Step 4: ユーザーに提示 → 承認後 x-schedule-post で予約投稿**
+**Step 4: x-schedule-post で予約投稿**
 
-全投稿をユーザーに提示して承認を得る。承認後、x-schedule-post で順次予約投稿する。
-投稿枠: **7:00 / 18:00 JST**。
+x-checker をパスした投稿を x-schedule-post で順次 schedule.json に書き込む。
+投稿枠: **7:00 / 18:00 JST**。確認なしで自動実行する。
 
 **Step 5: ログ記録・バッチ保存**
 
@@ -397,8 +397,7 @@ x-knowledge/posts/batch-XXX.md
 **Step 1**: テーマ・Fact・仮説テストの方針を決定
 **Step 2**: x-writer に投稿作成を指示
 **Step 3**: x-checker で品質検査
-**Step 4**: ユーザーに提示して承認を得る
-**Step 5**: 承認後 → x-schedule-post で予約投稿、ログ記録
+**Step 4**: x-checker パス後 → x-schedule-post で予約投稿、ログ記録
 
 ---
 

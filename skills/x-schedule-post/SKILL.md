@@ -58,15 +58,7 @@ for p in sorted(pending, key=lambda x: (x['date'], x['slot'])):
 
 すでにその日・枠のエントリがある場合は次の枠へ。
 
-### Step 2: ユーザーに確認
-
-```
-「**〇月〇日(曜) 〇:〇〇 JST** に @ichi_eigo で投稿します。よろしいですか？」
-```
-
-ユーザーが承認するまで待つ。
-
-### Step 3: schedule.json に追記
+### Step 2: schedule.json に追記
 
 `~/projects/claude/ai-company/x-knowledge/posts/schedule.json` を読み込み、末尾に追記:
 
@@ -88,13 +80,13 @@ for p in sorted(pending, key=lambda x: (x['date'], x['slot'])):
 - `"evening"` → 18:00 JST
 - `"night"` → 21:00 JST
 
-### Step 4: コミット＆プッシュ
+### Step 3: コミット＆プッシュ
 
 ```bash
 cd ~/projects/claude/ai-company && git add x-knowledge/posts/schedule.json && git commit -m "投稿予約: YYYY-MM-DD {morning/evening} - テーマ名" && git push origin main
 ```
 
-### Step 5: 完了報告
+### Step 4: 完了報告
 
 ```
 ✅ 予約完了（GitHub Actions自動投稿）
