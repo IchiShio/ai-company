@@ -47,7 +47,7 @@
       border-bottom: 1px solid #E8E4DC; padding: 10px 0;
       transition: padding 0.3s ease, box-shadow 0.3s ease;
     }
-    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(0,0,0,0.08); }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(26,26,26,0.08); }
     .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
     .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
     .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
@@ -81,7 +81,7 @@
     @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
     /* ── END UNIFIED HEADER ── */
 
-    :root{--primary:#2563eb;--primary-light:#3b82f6;--primary-dark:#1d4ed8;--primary-pale:#eff6ff;--accent:#10b981;--accent-dark:#059669;--accent-pale:#ecfdf5;--text:#111827;--text-muted:#6b7280;--bg:#ffffff;--bg-gray:#f9fafb;--border:#e5e7eb;--shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);--shadow-md:0 4px 16px rgba(0,0,0,0.08),0 8px 24px rgba(0,0,0,0.05);--radius:10px;--radius-lg:14px;}
+    :root{--primary:#2563eb;--primary-light:#3b82f6;--primary-dark:#1d4ed8;--primary-pale:#eff6ff;--accent:#10b981;--accent-dark:#059669;--accent-pale:#ecfdf5;--text:#111827;--text-muted:#6b7280;--bg:#F8F6F1;--bg-gray:#F2EFE9;--border:#e5e7eb;--shadow:0 1px 3px rgba(26,26,26,0.06),0 2px 8px rgba(26,26,26,0.04);--shadow-md:0 4px 16px rgba(26,26,26,0.08),0 8px 24px rgba(26,26,26,0.05);--radius:10px;--radius-lg:14px;}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
     html{scroll-behavior:smooth;}
     body{font-family:"Inter","Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;letter-spacing:.01em;font-size:16px;line-height:1.9;color:var(--text);background:var(--bg);padding-top:60px;}
@@ -118,12 +118,12 @@
     .btn-primary{display:inline-block;background:var(--primary);color:#fff;padding:11px 20px;border-radius:var(--radius);font-weight:700;font-size:.88rem;text-decoration:none;text-align:center;white-space:nowrap;transition:background .2s,transform .15s;box-shadow:0 3px 10px rgba(37,99,235,.3);}
     .btn-primary:hover{background:var(--primary-light);color:#fff;transform:translateY(-1px);}
     .disclaimer{background:var(--bg-gray);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;font-size:.78rem;color:var(--text-muted);margin-top:40px;line-height:1.7;}
-    .sidebar-widget{background:#fff;border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px;box-shadow:var(--shadow);}
+    .sidebar-widget{background:#FDFCF9;border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px;box-shadow:var(--shadow);}
     .sidebar-widget h4{font-size:.95rem;font-weight:700;margin-bottom:14px;color:var(--text);padding-bottom:10px;border-bottom:2px solid var(--bg-gray);}
     .sidebar-service-item a{font-size:.88rem;text-decoration:none;color:var(--text);}
     .sidebar-service-item a:hover{color:var(--primary);}
     .sidebar-service-list{display:flex;flex-direction:column;gap:10px;}
-    .quiz-promo{position:relative;overflow:hidden;background:linear-gradient(135deg,#060C1B,#0f1a35);border:1px solid rgba(251,191,36,.25);border-radius:16px;padding:20px 24px;margin:32px 0;box-shadow:0 0 40px rgba(251,191,36,.07),0 4px 24px rgba(0,0,0,.25);}
+    .quiz-promo{position:relative;overflow:hidden;background:linear-gradient(135deg,#060C1B,#0f1a35);border:1px solid rgba(251,191,36,.25);border-radius:16px;padding:20px 24px;margin:32px 0;box-shadow:0 0 40px rgba(251,191,36,.07),0 4px 24px rgba(26,26,26,.25);}
     .quiz-promo-orb{position:absolute;width:220px;height:220px;background:radial-gradient(circle,rgba(251,191,36,.13),transparent 70%);top:-60px;right:-40px;border-radius:50%;pointer-events:none;}
     .quiz-promo-inner{position:relative;z-index:1;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
     .quiz-promo-icon{font-size:2rem;flex-shrink:0;line-height:1;}
