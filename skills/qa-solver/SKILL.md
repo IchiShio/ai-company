@@ -28,9 +28,10 @@ user-invocable: true
 |---|---|---|
 | GrammarUp | `~/projects/claude/native-real/grammar/questions.js` | 30問 |
 | ListenUp | `~/projects/claude/native-real/listening/questions.js` | 20問 |
+| 英単語クイズ | `~/projects/claude/native-real/words/questions.js` | 20問 |
 | kioku-shinai | `~/projects/claude/native-real/kioku-shinai/data/words/*.json` | 10語根（各1問） |
 
-合計: 毎日約60問をランダムサンプリングして解く。
+合計: 毎日約80問をランダムサンプリングして解く。
 
 ## 検査手順
 
@@ -44,6 +45,7 @@ user-invocable: true
 {
   "grammar_checked": ["g001", "g002", ...],
   "listening_checked": [1, 2, ...],
+  "words_checked": [1, 2, ...],
   "kioku_checked": ["duct:produce", "port:export", ...],
   "last_run": "2026-03-24"
 }
@@ -63,6 +65,12 @@ user-invocable: true
 1. text（英文スクリプト）と choices（5択の日本語意味）を読む
 2. 英文の意味に最も合う選択肢を選ぶ
 3. 自分の回答を記録する
+
+#### 英単語クイズ の解き方
+1. text（英文）と choices（4択の日本語訳）を読む
+2. 英文の文脈から単語/フレーズの意味を推定し、最も適切な選択肢を選ぶ
+3. 「他の選択肢も文脈的に正解になりうるか」を検討する
+4. 自分の回答を記録する
 
 #### kioku-shinai の解き方
 1. formats 内のクイズを読む
@@ -98,6 +106,7 @@ user-invocable: true
 ## サマリー
 - GrammarUp: 30問中 XX問PASS / XX問FLAG / XX問FAIL
 - ListenUp: 20問中 XX問PASS / XX問FLAG / XX問FAIL
+- 英単語クイズ: 20問中 XX問PASS / XX問FLAG / XX問FAIL
 - kioku-shinai: 10問中 XX問PASS / XX問FLAG / XX問FAIL
 
 ## FAIL（即修正が必要）
