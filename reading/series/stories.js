@@ -565,5 +565,3372 @@ const STORIES = [
         "expl": "「chasm」は深い溝を意味し、実験の成果と商用化の間の大きなギャップを比喩的に表しています。"
       }
     ]
+  },
+  {
+    "id": "2026W07_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W07",
+    "pub_date": "2026-02-16",
+    "source_url": "https://learningenglish.voanews.com/a/pearl-s-buck-the-first-american-woman-to-win-a-nobel-prize-in-literatu/6951427.html",
+    "source_title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
+    "title": "Pearl Buck: A Famous American Writer",
+    "title_ja": "パール・バック：有名なアメリカ人作家",
+    "body": "Pearl Buck was a famous American writer. She was born in 1892. Her parents took her to China when she was a baby. She lived in China for almost 40 years. She learned to speak Chinese very well. She loved the Chinese people and their way of life. She wrote many books about China. Her most famous book is The Good Earth. It tells the story of a poor Chinese family. The book was very popular in America. In 1938, she won a very big prize for her writing. She was the first American woman to win this prize. She wrote more than 100 books in her life.",
+    "body_ja": "パール・バックは有名なアメリカ人作家でした。1892年に生まれました。赤ちゃんの時に両親が中国に連れて行きました。約40年間中国に住んでいました。中国語をとても上手に話せるようになりました。中国の人々とその生活を愛していました。中国について多くの本を書きました。最も有名な本は『大地』です。貧しい中国の家族の物語を語っています。この本はアメリカでとても人気がありました。1938年、執筆で非常に大きな賞を受賞しました。この賞を受賞した最初のアメリカ人女性でした。生涯で100冊以上の本を書きました。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "パール・バックが最も有名な本は何ですか？",
+        "choices": [
+          "The Old Man",
+          "The Good Earth",
+          "The China Story",
+          "The Family"
+        ],
+        "answer": 1,
+        "expl": "本文に「Her most famous book is The Good Earth」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "中国の歴史",
+          "パール・バックの人生と作品",
+          "アメリカの文学",
+          "中国での生活"
+        ],
+        "answer": 1,
+        "expl": "記事全体がパール・バックの人生と執筆活動について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W07",
+    "pub_date": "2026-02-16",
+    "source_url": "https://learningenglish.voanews.com/a/pearl-s-buck-the-first-american-woman-to-win-a-nobel-prize-in-literatu/6951427.html",
+    "source_title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
+    "title": "Pearl Buck Won the Nobel Prize for Her China Novels",
+    "title_ja": "パール・バック、中国小説でノーベル賞を受賞",
+    "body": "Pearl Buck became the first American woman to receive the Nobel Prize in Literature in 1938. Born in 1892, she moved to China with her parents as a baby and spent nearly 40 years there. Growing up among Chinese people, she learned to understand their culture deeply. Her most celebrated novel, The Good Earth, told the story of a poor Chinese farmer and his wife. Published in 1931, it became the best-selling book in America that year and won the Pulitzer Prize. Throughout her career, Buck wrote more than 100 books, many of them about life in China.",
+    "body_ja": "パール・バックは1938年にノーベル文学賞を受賞した最初のアメリカ人女性となりました。1892年に生まれ、赤ちゃんの時に両親と中国に移り住み、約40年間をそこで過ごしました。中国の人々の中で育ち、彼らの文化を深く理解するようになりました。最も有名な小説『大地』は、貧しい中国の農民と妻の物語です。1931年に出版され、その年のアメリカのベストセラーとなり、ピューリッツァー賞を受賞しました。キャリアを通じて100冊以上の本を書き、その多くが中国での生活について描いています。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "The Good Earthはいつ出版されましたか？",
+        "choices": [
+          "1892年",
+          "1931年",
+          "1938年",
+          "1940年"
+        ],
+        "answer": 1,
+        "expl": "本文に「Published in 1931」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "パール・バックが中国について多くの本を書いた理由として最も考えられるのは？",
+        "choices": [
+          "中国語の教科書を作りたかった",
+          "中国で長年暮らし文化を深く理解していた",
+          "出版社から依頼された",
+          "中国政府に雇われていた"
+        ],
+        "answer": 1,
+        "expl": "本文に「spent nearly 40 years there」「learned to understand their culture deeply」とあり、長年の経験が執筆の動機だったと推測できます。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W07",
+    "pub_date": "2026-02-16",
+    "source_url": "https://learningenglish.voanews.com/a/pearl-s-buck-the-first-american-woman-to-win-a-nobel-prize-in-literatu/6951427.html",
+    "source_title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
+    "title": "Pearl Buck: The Writer Who Brought China to American Readers",
+    "title_ja": "パール・バック：中国をアメリカの読者に届けた作家",
+    "body": "In 1938, Pearl Buck became the first American woman to be awarded the Nobel Prize in Literature, largely for her novels depicting life in China. Born in 1892, Buck was taken to China by her missionary parents as an infant and spent nearly four decades there. Her deep connection with Chinese society became the foundation of her literary career. Her masterpiece, The Good Earth, published in 1931, portrays the struggles of a poor Chinese farming couple. The novel became the most popular book in America that year and earned the Pulitzer Prize. Over her lifetime, Buck wrote more than 100 works, including novels, short stories, and essays, and helped readers in the West understand Chinese culture.",
+    "body_ja": "1938年、パール・バックは中国での生活を描いた小説により、ノーベル文学賞を受賞した最初のアメリカ人女性となりました。1892年に生まれたバックは、宣教師の両親に連れられて乳児の時に中国に渡り、約40年間をそこで過ごしました。中国社会への深い精通が彼女の文学キャリアの基盤となりました。1931年に出版された代表作『大地』は、貧しい中国の農家夫婦の苦闘を描いています。この小説はアメリカのベストセラーリストの首位に立ち、ピューリッツァー賞を受賞しました。生涯を通じて小説、短編、エッセイなど100作品以上を執筆し、東洋と西洋の文化の架け橋としての地位を確立しました。",
+    "vocab_notes": [
+      {
+        "word": "missionary",
+        "vl": 7000,
+        "definition": "a person sent to another country to teach religion"
+      },
+      {
+        "word": "masterpiece",
+        "vl": 7000,
+        "definition": "the best work made by a writer or artist"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "パール・バックの両親はなぜ中国にいたのですか？",
+        "choices": [
+          "商売のため",
+          "宣教師として",
+          "外交官として",
+          "教師として"
+        ],
+        "answer": 1,
+        "expl": "本文に「her missionary parents」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主なテーマは何ですか？",
+        "choices": [
+          "中国の農村生活",
+          "ノーベル賞の歴史",
+          "東西文化の違い",
+          "パール・バックの文学的業績"
+        ],
+        "answer": 3,
+        "expl": "記事全体がパール・バックの中国での経験と文学的業績について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W07",
+    "pub_date": "2026-02-16",
+    "source_url": "https://learningenglish.voanews.com/a/pearl-s-buck-the-first-american-woman-to-win-a-nobel-prize-in-literatu/6951427.html",
+    "source_title": "Pearl S. Buck: The First American Woman to Win a Nobel Prize in Literature",
+    "title": "Pearl Buck's Literary Legacy: Bridging East and West",
+    "title_ja": "パール・バックの文学的遺産：東西の架け橋",
+    "body": "When Pearl Buck received the Nobel Prize in Literature in 1938, she became the first American woman to claim the prestigious honor. Born in 1892, Buck was raised in China by her parents, who worked as religious teachers, and spent nearly four decades immersed in Chinese culture and society. This profound connection shaped her literary output in ways no other American writer could match. Her landmark novel The Good Earth, published in 1931, depicted the struggles and resilience of a poor Chinese farming couple named Wang Lung and O-Lan. The book became the top-selling novel in the United States and won the Pulitzer Prize the following year. Throughout her prolific career, Buck wrote over 100 works spanning novels, essays, and short stories. She remains celebrated as a cultural voice who introduced Western readers to the complex realities of life in China.",
+    "body_ja": "1938年にパール・バックがノーベル文学賞を受賞した時、彼女はこの名誉ある賞を手にした最初のアメリカ人女性となりました。1892年に生まれたバックは、宣教師の両親のもと中国で育ち、約40年間中国の文化と社会に深く浸りました。この深い絆が彼女の文学作品を形作りました。1931年に出版された画期的な小説『大地』は、貧しい中国の農家夫婦の苦難と回復力を鮮やかに描きました。この本はアメリカでベストセラーとなり、ピューリッツァー賞を受賞しました。多作なキャリアを通じて、小説、エッセイ、短編を含む100以上の作品を執筆しました。中国での生活の複雑さを西洋の読者に紹介した文化的解釈者として、今なお称えられています。",
+    "vocab_notes": [
+      {
+        "word": "prestigious",
+        "vl": null,
+        "definition": "having high respect and importance"
+      },
+      {
+        "word": "immersed",
+        "vl": null,
+        "definition": "deeply involved in something"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "パール・バックは中国にどのくらいの期間住んでいましたか？",
+        "choices": [
+          "約10年",
+          "約20年",
+          "約40年",
+          "約50年"
+        ],
+        "answer": 2,
+        "expl": "本文に「spent nearly four decades immersed in Chinese culture」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "記事がパール・バックを「cultural interpreter」と呼ぶ理由は？",
+        "choices": [
+          "中国語の翻訳者だったから",
+          "通訳として働いていたから",
+          "作品を通じて西洋に中国文化を紹介したから",
+          "東西の政治交渉に参加したから"
+        ],
+        "answer": 2,
+        "expl": "本文最後に「introduced Western audiences to the complexities of Chinese life」とあり、作品による文化紹介が理由です。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_02_vl2000",
+    "vl": "vl2000",
+    "week": "2026W07",
+    "pub_date": "2026-02-18",
+    "source_url": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschool-/7951395.html",
+    "source_title": "Senegal Starts Introducing English in Preschool",
+    "title": "Senegal Teaches English to Young Children",
+    "title_ja": "セネガル、幼い子どもに英語を教え始める",
+    "body": "Senegal is a country in Africa. The people there speak French as their main language. Now the government wants young children to learn English too. Children as young as three years old are starting to learn English in school. The teachers say the children like the English classes. They learn to say hello and sing songs in English. The government thinks English will help the children in the future. Many countries around the world use English for business. Senegal wants its young people to have more chances to find good work. More than 600 schools are now part of this new program.",
+    "body_ja": "セネガルはアフリカの国です。人々はフランス語を主な言語として話しています。今、政府は幼い子どもたちにも英語を学ばせたいと考えています。3歳の子どもたちが学校で英語を学び始めています。先生たちは子どもたちが英語の授業を気に入っていると言います。英語で挨拶したり歌ったりすることを学んでいます。政府は英語が子どもたちの将来に役立つと考えています。世界中の多くの国がビジネスに英語を使っています。セネガルは若者がより良い仕事を見つけるチャンスを増やしたいと考えています。600以上の学校がこの新しいプログラムに参加しています。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "セネガルの主な言語は何ですか？",
+        "choices": [
+          "英語",
+          "フランス語",
+          "アラビア語",
+          "スペイン語"
+        ],
+        "answer": 1,
+        "expl": "本文に「The people there speak French as their main language」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "セネガルが英語教育を始めた主な理由は？",
+        "choices": [
+          "フランスとの関係を断つため",
+          "子どもたちの将来の仕事の機会を広げるため",
+          "観光客を増やすため",
+          "英語の先生が多いため"
+        ],
+        "answer": 1,
+        "expl": "「Senegal wants its young people to have more chances to find good work」と述べられています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_02_vl3000",
+    "vl": "vl3000",
+    "week": "2026W07",
+    "pub_date": "2026-02-18",
+    "source_url": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschool-/7951395.html",
+    "source_title": "Senegal Starts Introducing English in Preschool",
+    "title": "Senegal Begins Teaching English in Preschools",
+    "title_ja": "セネガル、幼稚園で英語教育を開始",
+    "body": "Senegal, a West African country where French is the official language, has started teaching English to very young children. The government program now operates in more than 600 schools for young children across the country. Children as young as three are learning basic English through songs and simple conversations. Teachers report that the young students are very interested in learning. Senegal recently became an oil and gas producer, and the government believes English skills will help connect the country with global markets. Previously, English was only taught in high schools and universities. Many young people have been leaving Senegal to search for better work in other countries, and officials hope that English education will create more chances at home.",
+    "body_ja": "フランス語を公用語とする西アフリカの国セネガルが、幼稚園の子どもたちに英語を教え始めました。政府のプログラムは現在、全国600以上の幼稚園と小学校で実施されています。3歳の子どもたちが歌や簡単な会話を通じて基本的な英語を学んでいます。教師たちは幼い生徒たちが学ぶことに熱心だと報告しています。セネガルは最近、石油・ガスの生産国となり、政府は英語力が国を世界市場とつなげるのに役立つと考えています。以前は英語は高校と大学でしか教えられていませんでした。多くの若者がより良い機会を求めて国外に出ており、当局は英語教育が国内でより多くのチャンスを生み出すことを期待しています。",
+    "vocab_notes": [
+      {
+        "word": "nursery",
+        "vl": 5000,
+        "definition": "a school for very young children"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "セネガルで以前、英語が教えられていたのはどこですか？",
+        "choices": [
+          "幼稚園のみ",
+          "小学校のみ",
+          "高校と大学",
+          "全ての学校"
+        ],
+        "answer": 2,
+        "expl": "本文に「Previously, English was only taught in high schools and universities」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "セネガルが英語教育を急ぐ背景として考えられるのは？",
+        "choices": [
+          "フランスとの外交問題",
+          "石油・ガス産業の発展で国際的なつながりが必要になった",
+          "英語の先生が余っている",
+          "子どもの数が減っている"
+        ],
+        "answer": 1,
+        "expl": "「recently became an oil and gas producer」「help connect the country with global markets」から、経済発展が背景と推測できます。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_02_vl5000",
+    "vl": "vl5000",
+    "week": "2026W07",
+    "pub_date": "2026-02-18",
+    "source_url": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschool-/7951395.html",
+    "source_title": "Senegal Starts Introducing English in Preschool",
+    "title": "Senegal Introduces Early English Education to Boost Global Ties",
+    "title_ja": "セネガル、国際関係強化のため早期英語教育を導入",
+    "body": "Senegal has launched a program to introduce English in preschool education, marking a significant shift for a country where French has long been the main language. More than 600 schools for young children are now participating in the initiative, which targets students as young as three. Teachers use songs and basic conversation to engage the children, who reportedly respond with great interest. The move comes as Senegal positions itself as an emerging oil and gas producer, seeking stronger connections with English-speaking markets. Until recently, English instruction was limited to secondary and higher education. With growing numbers of young people leaving the country in search of economic opportunities, the government views early English education as a strategy to create better paths for success at home.",
+    "body_ja": "セネガルは幼児教育に英語を導入するプログラムを開始しました。これは長年フランス語が主要言語であった国にとって大きな転換を意味します。600以上の幼稚園と小学校がこの取り組みに参加しており、3歳の子どもたちを対象としています。教師は歌や基本的な会話を使って幼い学習者を引きつけ、子どもたちは熱心に反応していると報告されています。この動きは、セネガルが新興の石油・ガス生産国として英語圏の市場とのつながりを強化しようとする中で行われています。最近まで英語教育は中等・高等教育に限られていました。経済的な機会を求めて出国する若いセネガル人が増える中、政府は早期英語教育を国内での成功への道を作る戦略と位置づけています。",
+    "vocab_notes": [
+      {
+        "word": "preschool",
+        "vl": 7000,
+        "definition": "education for children before they start regular school"
+      },
+      {
+        "word": "initiative",
+        "vl": 7000,
+        "definition": "a new plan or program to solve a problem"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "このプログラムに参加している学校の数は？",
+        "choices": [
+          "約100校",
+          "約300校",
+          "600校以上",
+          "1000校以上"
+        ],
+        "answer": 2,
+        "expl": "本文に「More than 600 nursery and primary schools」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主なメッセージは何ですか？",
+        "choices": [
+          "セネガルのフランス語教育の問題点",
+          "セネガルが経済発展のため早期英語教育を導入した",
+          "アフリカの英語教育の歴史",
+          "幼児教育の方法論"
+        ],
+        "answer": 1,
+        "expl": "記事全体がセネガルの早期英語教育導入とその経済的背景を述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_02_vl7000",
+    "vl": "vl7000",
+    "week": "2026W07",
+    "pub_date": "2026-02-18",
+    "source_url": "https://learningenglish.voanews.com/a/senegal-starts-introducing-english-in-preschool-/7951395.html",
+    "source_title": "Senegal Starts Introducing English in Preschool",
+    "title": "Senegal Embraces English in Preschools Amid Economic Ambitions",
+    "title_ja": "セネガル、経済的野心の中で幼稚園での英語教育を推進",
+    "body": "In a departure from its traditionally French-centered curriculum, Senegal has begun introducing English to children across more than 600 schools. The pilot program, overseen by the education ministry, uses songs and conversational exercises to engage children as young as three. Teachers report that students have responded with notable enthusiasm, quickly picking up greetings and simple phrases. The policy shift coincides with Senegal's emergence as an oil and gas producer, prompting the government to focus on English skills as a tool for deeper integration into global commerce. Historically, English instruction was confined to secondary schools and universities, leaving most citizens without exposure to the language. As youth emigration continues to rise, officials are betting that equipping children with English skills from an early age will broaden their prospects and reduce the desire to seek opportunities overseas.",
+    "body_ja": "伝統的にフランス語中心のカリキュラムからの転換として、セネガルは600以上の学校で就学前の子どもたちへの英語導入を開始しました。教育省が監督するこのパイロットプログラムは、歌や会話練習を用いて3歳からの学習者を引きつけています。教師たちは生徒が顕著な熱意で反応していると報告しています。この政策転換はセネガルの石油・ガス生産国としての台頭と時を同じくしており、政府はグローバルな商取引へのより深い統合のツールとして英語力を優先するよう促しています。歴史的に英語教育は中等学校と大学に限られていました。若者の海外移住が増加し続ける中、当局は幼い頃から英語スキルを身につけることで将来の見通しを広げ、海外で機会を求める動機を減らせると期待しています。",
+    "vocab_notes": [
+      {
+        "word": "curriculum",
+        "vl": null,
+        "definition": "the subjects and content taught in a school"
+      },
+      {
+        "word": "emigration",
+        "vl": null,
+        "definition": "the act of leaving one's country to live in another"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "このプログラムは誰が監督していますか？",
+        "choices": [
+          "国連",
+          "教育省",
+          "地方自治体",
+          "民間企業"
+        ],
+        "answer": 1,
+        "expl": "本文に「overseen by the education ministry」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "セネガル政府が早期英語教育に期待する効果として最も適切なのは？",
+        "choices": [
+          "フランスとの関係改善",
+          "若者の海外流出を抑制し国内での機会を増やす",
+          "観光産業の発展",
+          "教師の雇用創出"
+        ],
+        "answer": 1,
+        "expl": "「equipping children with English skills from an early age will broaden their prospects and reduce the incentive to seek opportunities overseas」から推測できます。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_03_vl2000",
+    "vl": "vl2000",
+    "week": "2026W07",
+    "pub_date": "2026-02-20",
+    "source_url": "https://learningenglish.voanews.com/a/who-launches-new-cancer-drug-plan-for-child/7985637.html",
+    "source_title": "WHO Launches New Cancer Drug Plan for Children",
+    "title": "Free Medicine for Children with Cancer",
+    "title_ja": "がんの子どもたちに無料の薬",
+    "body": "A world health group is giving free medicine to children who have cancer. The group is called the WHO. Cancer is a very serious disease. Many children in poor countries cannot get the medicine they need. In rich countries, about 80 out of 100 children with cancer can get better. But in poor countries, only about 30 out of 100 children get better. The WHO wants to change this. The group will send medicine to hospitals in six countries first. They want to help about 5,000 children this year. The WHO hopes to help children in 50 countries in the next five to seven years.",
+    "body_ja": "世界保健機関がんの子どもたちに無料の薬を提供しています。この団体はWHOと呼ばれています。がんはとても深刻な病気です。貧しい国の多くの子どもたちは必要な薬を手に入れることができません。豊かな国では、がんの子ども100人中約80人が回復できます。しかし貧しい国では100人中約30人しか回復できません。WHOはこれを変えたいと考えています。まず6か国の病院に薬を送ります。今年約5,000人の子どもを助けたいと考えています。WHOは今後5〜7年で50か国の子どもたちを助けることを目指しています。",
+    "vocab_notes": [
+      {
+        "word": "cancer",
+        "vl": 3000,
+        "definition": "a serious disease in which cells in the body grow in a way that is not normal"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "WHOは今年何人の子どもを助ける予定ですか？",
+        "choices": [
+          "約1,000人",
+          "約5,000人",
+          "約10,000人",
+          "約50,000人"
+        ],
+        "answer": 1,
+        "expl": "本文に「They want to help about 5,000 children this year」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が伝えたいことは何ですか？",
+        "choices": [
+          "がんの原因について",
+          "WHOが貧しい国の子どもにがんの薬を無料提供する計画",
+          "世界の病院の問題",
+          "薬の作り方"
+        ],
+        "answer": 1,
+        "expl": "記事全体がWHOの子ども向けがん治療薬の無料提供計画について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_03_vl3000",
+    "vl": "vl3000",
+    "week": "2026W07",
+    "pub_date": "2026-02-20",
+    "source_url": "https://learningenglish.voanews.com/a/who-launches-new-cancer-drug-plan-for-child/7985637.html",
+    "source_title": "WHO Launches New Cancer Drug Plan for Children",
+    "title": "WHO Provides Free Cancer Drugs to Children in Poor Nations",
+    "title_ja": "WHO、貧困国の子どもにがん治療薬を無償提供",
+    "body": "The World Health Organization has launched a program to provide free cancer medicines to children in low-income countries. In wealthy nations, about 80 percent of children with cancer survive. However, in poorer countries, survival rates often fall below 30 percent, mainly because families cannot afford treatment. The program will first deliver medicines to hospitals in six countries, including Mongolia and Nepal. The WHO aims to help around 5,000 children this year. Within five to seven years, the organization hopes to expand the program to 50 countries and provide treatment for up to 120,000 children. About 400,000 children worldwide are found to have cancer each year.",
+    "body_ja": "世界保健機関（WHO）は、低所得国の子どもたちにがん治療薬を無料で提供するプログラムを開始しました。裕福な国ではがんの子どもの約80%が生存します。しかし貧しい国では、主に治療費を払えないため、生存率は30%を下回ることが多いです。プログラムはまずモンゴルやネパールを含む6か国の病院に薬を届けます。WHOは今年約5,000人の子どもを支援することを目指しています。5〜7年以内に50か国にプログラムを拡大し、最大12万人の子どもに治療を提供することを目標としています。世界中で毎年約40万人の子どもががんと診断されています。",
+    "vocab_notes": [
+      {
+        "word": "cancer",
+        "vl": 5000,
+        "definition": "a serious disease in which cells grow in a way that is not normal"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "裕福な国でのがんの子どもの生存率はどのくらいですか？",
+        "choices": [
+          "約30%",
+          "約50%",
+          "約80%",
+          "約95%"
+        ],
+        "answer": 2,
+        "expl": "本文に「about 80 percent of children with cancer survive」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "貧しい国で子どものがん生存率が低い主な原因は？",
+        "choices": [
+          "病院が少ないから",
+          "がんの種類が異なるから",
+          "家族が治療費を払えないから",
+          "医師が不足しているから"
+        ],
+        "answer": 2,
+        "expl": "本文に「mainly because families cannot afford treatment」と書かれています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_03_vl5000",
+    "vl": "vl5000",
+    "week": "2026W07",
+    "pub_date": "2026-02-20",
+    "source_url": "https://learningenglish.voanews.com/a/who-launches-new-cancer-drug-plan-for-child/7985637.html",
+    "source_title": "WHO Launches New Cancer Drug Plan for Children",
+    "title": "WHO Launches Platform to Deliver Free Cancer Treatment to Children",
+    "title_ja": "WHO、子どものがん治療を無料で届けるプラットフォームを立ち上げ",
+    "body": "The World Health Organization has launched a platform to supply free cancer medicines to children in low- and middle-income countries, where survival rates remain drastically lower than in wealthier nations. While approximately 80 percent of children with cancer survive in high-income countries, that figure drops below 30 percent in poorer regions, largely due to a lack of access to treatment. The initial phase targets six countries, including Mongolia, Nepal, and Zambia. The WHO expects to reach about 5,000 children this year through at least 30 hospitals. The organization aims to expand to 50 countries within five to seven years, potentially treating up to 120,000 children. An estimated 400,000 children are diagnosed with cancer globally each year.",
+    "body_ja": "世界保健機関（WHO）は、低・中所得国の子どもたちにがん治療薬を無料で供給するプラットフォームを立ち上げました。これらの国では生存率が裕福な国よりも著しく低いままです。高所得国ではがんの子どもの約80%が生存する一方、貧しい地域ではその数字は30%を下回り、主に治療へのアクセス不足が原因です。初期段階ではモンゴル、ネパール、ザンビアを含む6か国を対象としています。WHOは今年、少なくとも30の病院を通じて約5,000人の子どもに届けることを期待しています。5〜7年以内に50か国に拡大し、最大12万人の子どもを治療することを目指しています。世界中で毎年推定40万人の子どもががんと診断されています。",
+    "vocab_notes": [
+      {
+        "word": "drastically",
+        "vl": 7000,
+        "definition": "in a very large and sudden way"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "初期段階で対象となる国に含まれるのはどれですか？",
+        "choices": [
+          "日本とアメリカ",
+          "モンゴルとネパール",
+          "ブラジルとインド",
+          "中国と韓国"
+        ],
+        "answer": 1,
+        "expl": "本文に「including Mongolia, Nepal, and Zambia」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "WHOのプラットフォームの最終目標は？",
+        "choices": [
+          "6か国でがん研究を行う",
+          "世界中の病院を建設する",
+          "5〜7年で50か国に拡大し12万人の子どもを治療する",
+          "がんの原因を解明する"
+        ],
+        "answer": 2,
+        "expl": "「aims to expand to 50 countries within five to seven years, potentially treating up to 120,000 children」と述べられています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W07_03_vl7000",
+    "vl": "vl7000",
+    "week": "2026W07",
+    "pub_date": "2026-02-20",
+    "source_url": "https://learningenglish.voanews.com/a/who-launches-new-cancer-drug-plan-for-child/7985637.html",
+    "source_title": "WHO Launches New Cancer Drug Plan for Children",
+    "title": "WHO Unveils Global Plan to Tackle Childhood Cancer Drug Shortages",
+    "title_ja": "WHO、小児がん治療薬不足に対処する世界計画を発表",
+    "body": "The World Health Organization has unveiled a platform designed to provide a steady supply of free cancer medicines to children in low- and middle-income nations. The stark gap in childhood cancer outcomes between wealthy and developing countries prompted the action: survival rates reach approximately 80 percent in high-income nations but fall below 30 percent where access to treatment remains scarce. The pilot phase targets six countries, including Mongolia, Nepal, and Zambia, with medicines distributed through at least 30 hospitals. The WHO expects to reach roughly 5,000 children in the first year. The head of the WHO, Tedros Adhanom, said children with cancer have lacked access to life-saving medicines for too long. Longer-term plans call for expanding to 50 countries within five to seven years, potentially extending treatment to 120,000 children. Globally, an estimated 400,000 children receive a cancer diagnosis each year.",
+    "body_ja": "世界保健機関（WHO）は、低・中所得国の子どもたちにがん治療薬を途切れなく無料で供給するためのプラットフォームを発表しました。裕福な国と発展途上国の間の小児がん治療結果の著しい格差がこの取り組みを促しました：高所得国では生存率が約80%に達する一方、治療へのアクセスが乏しい地域では30%を下回っています。パイロット段階はモンゴル、ネパール、ザンビアを含む6か国を対象とし、少なくとも30の病院を通じて薬が配布されます。WHOは初年度に約5,000人の子どもに届くと見込んでいます。長期的には5〜7年以内に50か国に拡大し、12万人の子どもに治療を届けることを構想しています。世界中で毎年推定40万人の子どもががんと診断されています。",
+    "vocab_notes": [
+      {
+        "word": "stark",
+        "vl": null,
+        "definition": "very clear and obvious, often in an unpleasant way"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "世界で毎年がんと診断される子どもの推定数は？",
+        "choices": [
+          "約5,000人",
+          "約12万人",
+          "約40万人",
+          "約100万人"
+        ],
+        "answer": 2,
+        "expl": "本文に「an estimated 400,000 children receive a cancer diagnosis annually」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "「stark disparity」が指しているのは何ですか？",
+        "choices": [
+          "薬の種類の違い",
+          "病院の数の違い",
+          "裕福な国と発展途上国のがん生存率の大きな差",
+          "診断方法の違い"
+        ],
+        "answer": 2,
+        "expl": "直後に「survival rates reach approximately 80 percent in high-income nations but fall below 30 percent」と具体的な差が説明されています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W08",
+    "pub_date": "2026-02-23",
+    "source_url": "https://learningenglish.voanews.com/a/yellowstone-the-world-s-first-national-park/6951448.html",
+    "source_title": "Yellowstone: The World's First National Park",
+    "title": "Yellowstone: America's Famous Park",
+    "title_ja": "イエローストーン：アメリカの有名な公園",
+    "body": "Yellowstone is a very large park in the west of the United States. It was the first national park in the world. It opened in 1872. The park has mountains, rivers, and lakes. Many wild animals live there, like bears and big cats. Under the ground, there is a very old volcano. It is still active today. Because of this, hot water comes out of the ground in many places. The most famous one sends hot water high into the air about every 90 minutes. People call it Old Faithful. Every year, a large number of people visit the park to see its beautiful nature.",
+    "body_ja": "イエローストーンはアメリカ西部にある非常に大きな公園です。世界初の国立公園でした。1872年に開園しました。公園には山、川、湖、そして多くの野生動物がいます。クマ、オオカミ、バッファローが住んでいます。公園は非常に古い火山の上に位置しています。火山はまだ活動中です。多くの場所で地面から熱い水が出ます。最も有名なものはオールド・フェイスフルと呼ばれています。約90分ごとに熱い水を空高く噴き上げます。毎年何百万人もの人がイエローストーンの美しい自然を見に訪れます。",
+    "vocab_notes": [
+      {
+        "word": "volcano",
+        "vl": 7000,
+        "definition": "a mountain that can send out fire and hot rock"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "イエローストーンはいつ開園しましたか？",
+        "choices": [
+          "1772年",
+          "1872年",
+          "1972年",
+          "1900年"
+        ],
+        "answer": 1,
+        "expl": "本文に「It opened in 1872」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主な内容は？",
+        "choices": [
+          "アメリカの歴史",
+          "イエローストーン国立公園の特徴",
+          "火山の仕組み",
+          "野生動物の保護"
+        ],
+        "answer": 1,
+        "expl": "記事全体がイエローストーン国立公園の特徴を紹介しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W08",
+    "pub_date": "2026-02-23",
+    "source_url": "https://learningenglish.voanews.com/a/yellowstone-the-world-s-first-national-park/6951448.html",
+    "source_title": "Yellowstone: The World's First National Park",
+    "title": "Yellowstone: The World's First National Park",
+    "title_ja": "イエローストーン：世界初の国立公園",
+    "body": "Yellowstone became the world's first national park when it was established in 1872. Located mainly in the state of Wyoming, the park covers nearly 9,000 square kilometers. It is famous for its mountains, deep valleys, lakes, and rivers. Many wild animals live there, including bears and deer. What makes Yellowstone special is what lies under the ground. The park sits on top of an ancient volcano that is still active. Hot liquid rock sits about six kilometers below the surface. The heat from below creates hot springs and sends water shooting into the air. The most well-known of these is called Old Faithful, which goes off about every 90 minutes. Many people visit the park every year.",
+    "body_ja": "イエローストーンは1872年に設立され、世界初の国立公園となりました。主にワイオミング州に位置し、約9,000平方キロメートルの面積があります。山、深い谷、湖、川で有名です。クマ、オオカミ、バッファローなど多くの野生動物が生息しています。イエローストーンを本当に特別にしているのは地下にあるものです。公園は古代の活火山の上に位置しています。地下からの熱が温泉を作り、熱い水を空中に噴き上げます。最も有名なのはオールド・フェイスフルで、約90分ごとに噴出します。毎年何百万人もの観光客がイエローストーンを訪れます。",
+    "vocab_notes": [
+      {
+        "word": "volcano",
+        "vl": 7000,
+        "definition": "a mountain that can send out fire and hot rock"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "イエローストーンの面積はどのくらいですか？",
+        "choices": [
+          "約900平方km",
+          "約9,000平方km",
+          "約90,000平方km",
+          "約900,000平方km"
+        ],
+        "answer": 1,
+        "expl": "本文に「covers nearly 9,000 square kilometers」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "オールド・フェイスフルがその名前で呼ばれる理由として最も考えられるのは？",
+        "choices": [
+          "最も古い火山だから",
+          "約90分ごとに規則的に噴出するから",
+          "最も大きな温泉だから",
+          "最初に発見されたから"
+        ],
+        "answer": 1,
+        "expl": "「faithful」は「信頼できる」という意味で、約90分ごとの規則的な噴出が名前の由来と推測できます。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W08",
+    "pub_date": "2026-02-23",
+    "source_url": "https://learningenglish.voanews.com/a/yellowstone-the-world-s-first-national-park/6951448.html",
+    "source_title": "Yellowstone: The World's First National Park",
+    "title": "Yellowstone: A Natural Wonder Built on Fire",
+    "title_ja": "イエローストーン：火の上に築かれた自然の驚異",
+    "body": "When Yellowstone was established as the world's first national park in 1872, few understood the forces at work beneath its surface. Spanning nearly 9,000 square kilometers, mostly in Wyoming, the park features mountains, deep valleys, lakes, and rivers full of wildlife including bears and other animals. Beneath the landscape lies an ancient volcano known as the Yellowstone Caldera. Though it last sent out fire a very long time ago, the volcano remains active. A large pool of hot liquid rock sits roughly six kilometers underground. The pressure and heat from below produce the park's famous hot springs. Some of these are called a geyser, which shoots water high into the air. The most well-known one, Old Faithful, sends hot water into the sky approximately every 90 minutes, drawing a large number of visitors each year.",
+    "body_ja": "1872年にイエローストーンが世界初の国立公園に指定された時、その地表の下で働いている力を理解している人はほとんどいませんでした。主にワイオミング州にまたがる約9,000平方キロメートルの公園には、山、深い峡谷、湖、川があり、クマ、オオカミ、バッファローなどの野生動物が豊富に生息しています。景観の下にはイエローストーン・カルデラとして知られる古代の火山があります。数十万年前に最後に噴火しましたが、火山はまだ活動中です。巨大な高温の液体岩石のプールが地下約6キロメートルに存在します。地下からの圧力と熱が公園の有名な温泉と間欠泉を生み出しています。最も有名な間欠泉オールド・フェイスフルは約90分ごとに沸騰した水を空中に噴き上げ、毎年何百万人もの観光客を引きつけています。",
+    "vocab_notes": [
+      {
+        "word": "volcano",
+        "vl": 7000,
+        "definition": "a mountain that can send out fire and hot rock"
+      },
+      {
+        "word": "geyser",
+        "vl": null,
+        "definition": "a natural spring that sends hot water into the air"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "イエローストーン・カルデラが最後に噴火したのはいつ頃ですか？",
+        "choices": [
+          "約1,000年前",
+          "約10,000年前",
+          "数十万年前",
+          "数百万年前"
+        ],
+        "answer": 2,
+        "expl": "本文に「last erupted hundreds of thousands of years ago」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の中心テーマは？",
+        "choices": [
+          "公園の野生動物",
+          "イエローストーンの地下火山活動と自然の特徴",
+          "アメリカの国立公園制度",
+          "温泉の科学的仕組み"
+        ],
+        "answer": 1,
+        "expl": "記事は地下の火山活動がイエローストーンの自然の特徴を形作っていることを中心に述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W08",
+    "pub_date": "2026-02-23",
+    "source_url": "https://learningenglish.voanews.com/a/yellowstone-the-world-s-first-national-park/6951448.html",
+    "source_title": "Yellowstone: The World's First National Park",
+    "title": "Yellowstone: Where an Ancient Volcano Shapes the Landscape",
+    "title_ja": "イエローストーン：古代の火山が景観を形作る場所",
+    "body": "Yellowstone, designated as the world's first national park in 1872, owes much of its dramatic scenery to the active geology beneath its surface. Spanning nearly 9,000 square kilometers, primarily in Wyoming, the park contains towering mountains, deep valleys, and waterways rich with wildlife such as bears and many other species. At its core lies the Yellowstone Caldera, an ancient super volcano that last sent out fire hundreds of thousands of years ago yet remains active. A reservoir of molten rock sits approximately six kilometers underground, generating immense pressure and heat. These forces drive the park's famous hot springs and natural features that shoot water high into the air. The best-known of this type of geyser, Old Faithful, reliably sends hot water into the sky roughly every 90 minutes, making it a highlight for the many visitors who come to the park each year.",
+    "body_ja": "1872年に世界初の国立公園に指定されたイエローストーンは、その劇的な景観の多くを地表下の不安定な地質に負っています。主にワイオミング州にまたがる約9,000平方キロメートルの公園は、そびえ立つ山々、深い峡谷、そしてクマ、オオカミ、バッファローなどの野生動物が豊富に生息する水路を含んでいます。その中心にはイエローストーン・カルデラがあり、数十万年前に最後に噴火したものの今なお活動を続ける古代の超火山です。溶融岩石の貯留層が地下約6キロメートルに位置し、巨大な圧力と熱を生み出しています。これらの力が公園の有名な地熱現象を駆動しており、温泉や間欠泉がその代表です。最も象徴的な間欠泉オールド・フェイスフルは約90分ごとに確実に沸騰した水を空に噴き上げ、毎年公園に押し寄せる何百万人もの観光客の目玉となっています。",
+    "vocab_notes": [
+      {
+        "word": "molten",
+        "vl": null,
+        "definition": "melted by very high heat, usually referring to rock or metal"
+      },
+      {
+        "word": "geyser",
+        "vl": null,
+        "definition": "a natural spring that sends hot water into the air"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "溶融岩石の貯留層は地下何キロメートルにありますか？",
+        "choices": [
+          "約1km",
+          "約3km",
+          "約6km",
+          "約12km"
+        ],
+        "answer": 2,
+        "expl": "本文に「approximately six kilometers underground」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "記事がイエローストーンを「volatile」と表現する理由は？",
+        "choices": [
+          "天候が変わりやすいから",
+          "地下の火山活動が依然として活発だから",
+          "観光客の数が変動するから",
+          "野生動物が危険だから"
+        ],
+        "answer": 1,
+        "expl": "「volatile geology」の後に活火山や溶融岩石について詳しく説明されており、地質的な不安定さを指しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_02_vl2000",
+    "vl": "vl2000",
+    "week": "2026W08",
+    "pub_date": "2026-02-25",
+    "source_url": "https://learningenglish.voanews.com/a/monarch-butterfly-count-nears-30-year-low/7997223.html",
+    "source_title": "Monarch Butterfly Count Nears 30-Year Low",
+    "title": "Orange Butterflies in Trouble",
+    "title_ja": "オレンジ色のチョウが危機に",
+    "body": "In North America, there is a type of butterfly that is very beautiful. It has bright colors on its body. Every year, many of these butterflies fly to warm places in the United States for the cold time of year. But a group that watches them says their number has dropped a lot. It is almost the lowest number in 30 years. Scientists say there are several reasons. People use chemicals on their farms that can kill small animals. Also, the places where these butterflies live are getting smaller. Changes in the weather are making things harder too. Many people are worried about the future of these beautiful butterflies.",
+    "body_ja": "北アメリカにはモナーク（オオカバマダラ）というチョウがいます。鮮やかなオレンジと黒の羽で知られています。毎年冬になると、これらのチョウの多くがアメリカ西部の暖かい場所に飛んでいきます。しかし、このチョウを観察している団体は、その数が大幅に減少したと言っています。30年間でほぼ最低の数です。科学者たちはこの問題にはいくつかの原因があると言います。農場で虫を殺す化学物質を使っています。また、チョウが住む場所が小さくなっています。気候の変化も状況を悪化させています。多くの人がこの美しいチョウの将来を心配しています。",
+    "vocab_notes": [
+      {
+        "word": "butterfly",
+        "vl": 7000,
+        "definition": "an insect with large colorful wings that flies during the day"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "モナーク蝶の数は何年間でほぼ最低になりましたか？",
+        "choices": [
+          "10年",
+          "20年",
+          "30年",
+          "50年"
+        ],
+        "answer": 2,
+        "expl": "本文に「almost the lowest number in 30 years」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何を伝えていますか？",
+        "choices": [
+          "蝶の飛び方について",
+          "モナーク蝶の数が減少している問題",
+          "農業の化学物質について",
+          "アメリカ西部の気候"
+        ],
+        "answer": 1,
+        "expl": "記事全体がモナーク蝶の数の減少とその原因について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_02_vl3000",
+    "vl": "vl3000",
+    "week": "2026W08",
+    "pub_date": "2026-02-25",
+    "source_url": "https://learningenglish.voanews.com/a/monarch-butterfly-count-nears-30-year-low/7997223.html",
+    "source_title": "Monarch Butterfly Count Nears 30-Year Low",
+    "title": "Monarch Butterfly Numbers Drop to Near 30-Year Low",
+    "title_ja": "モナーク蝶の個体数が30年ぶりの低水準に",
+    "body": "The number of monarch butterflies spending winter in the western United States has fallen to its second-lowest level in nearly 30 years. These butterflies are known for their bright orange and black wings. A conservation group in Oregon reported the drop, saying that chemical use on farms, loss of natural living areas, and changes in climate are the main causes. Eastern butterflies usually spend winter in Mexico, while those in the west travel to the coast of California. The count is important because it helps scientists understand how healthy the population is. Many groups are now working to plant more of the flowers that these insects need for food and to reduce the use of chemicals that can hurt them.",
+    "body_ja": "アメリカ西部で越冬するモナーク蝶の数が30年間でほぼ最低の水準にまで減少しました。モナークは鮮やかなオレンジと黒の羽で広く知られています。オレゴン州の保護団体が減少を報告し、農場での化学物質の使用、自然の生息地の喪失、気候変動が主な原因だとしています。東部のモナークは通常メキシコで越冬し、西部のモナークはカリフォルニアの沿岸に移動します。この個体数調査は、蝶の個体群がどれほど健全かを科学者が理解するのに役立つため重要です。多くの団体が、モナークの食料に必要な花をより多く植え、有害な化学物質の使用を減らす活動をしています。",
+    "vocab_notes": [
+      {
+        "word": "butterfly",
+        "vl": 7000,
+        "definition": "an insect with large colorful wings"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "西部のモナーク蝶はどこで越冬しますか？",
+        "choices": [
+          "メキシコ",
+          "オレゴン州",
+          "カリフォルニアの沿岸",
+          "テキサス州"
+        ],
+        "answer": 2,
+        "expl": "本文に「those in the west travel to the coast of California」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "団体がモナークに必要な花を植える活動をしている理由は？",
+        "choices": [
+          "公園を美しくするため",
+          "蝶の食料源を増やし個体数回復を助けるため",
+          "花を売るため",
+          "研究のため"
+        ],
+        "answer": 1,
+        "expl": "文脈から、生息環境の改善が個体数回復につながることが推測できます。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_02_vl5000",
+    "vl": "vl5000",
+    "week": "2026W08",
+    "pub_date": "2026-02-25",
+    "source_url": "https://learningenglish.voanews.com/a/monarch-butterfly-count-nears-30-year-low/7997223.html",
+    "source_title": "Monarch Butterfly Count Nears 30-Year Low",
+    "title": "Monarch Butterfly Population Nears Record Low in Western US",
+    "title_ja": "アメリカ西部のモナーク蝶個体数が記録的低水準に",
+    "body": "The population of monarch butterfly wintering in the western United States has declined to its second-lowest point in nearly three decades, according to a conservation group based in Oregon. These insects, easily recognized by their striking orange-and-black wings, face multiple threats including widespread use of chemicals on farm areas, reduction of natural habitat, and shifting climate patterns. Eastern populations typically move to Mexico for winter, while western ones head to the California coast. Scientists regard the annual count as a key sign of the overall health of the species. Conservation groups across the country are responding by planting flowers that provide food for these insects and pushing for limits on harmful chemicals. Without such efforts, experts warn the decline could continue.",
+    "body_ja": "アメリカ西部で越冬するモナーク蝶の個体数が、オレゴン州に拠点を置く保護団体によると、約30年間で2番目に低い水準にまで減少しました。印象的なオレンジと黒の羽で容易に識別できるモナークは、農地での化学物質の広範な使用、自然の生息地の減少、気候パターンの変化など複数の脅威に直面しています。東部のモナークは通常冬にメキシコへ移動し、西部のモナークはカリフォルニアの沿岸に向かいます。科学者たちは年次調査を種全体の健康状態の重要な指標と見なしています。全国の保護団体がモナークに食料を提供する花を植え、有害な農薬の制限を求める活動で対応しています。このような取り組みがなければ、減少は続く可能性があると専門家は警告しています。",
+    "vocab_notes": [
+      {
+        "word": "butterfly",
+        "vl": 7000,
+        "definition": "an insect with large colorful wings"
+      },
+      {
+        "word": "monarch",
+        "vl": 7000,
+        "definition": "a type of large orange-and-black butterfly found in North America"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "モナーク蝶の個体数が低い主な原因として挙げられていないのは？",
+        "choices": [
+          "農薬の使用",
+          "自然の生息地の減少",
+          "気候パターンの変化",
+          "病気の流行"
+        ],
+        "answer": 3,
+        "expl": "記事は農薬、生息地の減少、気候変動を原因として挙げていますが、病気については言及していません。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主要なメッセージは？",
+        "choices": [
+          "モナーク蝶は美しい昆虫である",
+          "モナーク蝶の個体数が減少し保護活動が必要",
+          "メキシコの自然環境が変化している",
+          "農業と環境の関係"
+        ],
+        "answer": 1,
+        "expl": "記事全体がモナーク蝶の個体数減少と保護活動の必要性を述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_02_vl7000",
+    "vl": "vl7000",
+    "week": "2026W08",
+    "pub_date": "2026-02-25",
+    "source_url": "https://learningenglish.voanews.com/a/monarch-butterfly-count-nears-30-year-low/7997223.html",
+    "source_title": "Monarch Butterfly Count Nears 30-Year Low",
+    "title": "Western Monarch Butterflies Face Alarming Decline",
+    "title_ja": "西部のモナーク蝶が深刻な減少に直面",
+    "body": "The western monarch butterfly population has plunged to its second-lowest level in nearly three decades, raising fresh concerns about the iconic species. The Xerces Society, a conservation group based in Oregon, attributes the decline to a combination of agricultural chemical use, habitat loss, and shifting climate conditions. Monarchs are distinguished by their vivid orange-and-black markings and remarkable seasonal migrations. While eastern populations winter in Mexico, western monarchs seek shelter along the California coastline. Researchers view the annual population count as a barometer for the species' long-term survival. In response, conservation organizations nationwide have intensified efforts to restore the native plants that monarchs rely on for food and to advocate for tighter restrictions on harmful chemicals used in farming. Without sustained intervention, scientists caution, the trajectory of decline may prove difficult to reverse.",
+    "body_ja": "西部のモナーク蝶の個体数が約30年間で2番目に低い水準にまで急落し、この象徴的な種に対する新たな懸念が高まっています。オレゴン州に拠点を置く保護団体Xerces Societyは、農業用化学物質の使用、生息地の喪失、気候条件の変化の組み合わせが原因だとしています。モナークは鮮やかなオレンジと黒の模様と驚くべき季節移動で区別されます。東部の個体群がメキシコで越冬する一方、西部のモナークはカリフォルニアの海岸線に沿って避難します。研究者は年次個体数調査を種の長期的存続のバロメーターと見なしています。これに対し、全国の保護団体がモナークの食料源となる在来植物の回復と、農業で使用される有害化学物質のより厳しい規制を求める取り組みを強化しています。持続的な介入がなければ、減少の軌道を逆転させるのは困難かもしれないと科学者は警告しています。",
+    "vocab_notes": [
+      {
+        "word": "plunged",
+        "vl": null,
+        "definition": "dropped suddenly and quickly"
+      },
+      {
+        "word": "barometer",
+        "vl": null,
+        "definition": "something that shows the state or condition of something"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "モナーク蝶の減少を報告した団体の名前は？",
+        "choices": [
+          "World Wildlife Fund",
+          "Xerces Society",
+          "Sierra Club",
+          "Nature Foundation"
+        ],
+        "answer": 1,
+        "expl": "本文に「The Xerces Society, a conservation group based in Oregon」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "研究者が年次個体数調査を「barometer」と呼ぶのはなぜですか？",
+        "choices": [
+          "気象データと関連があるから",
+          "個体数が種全体の健康状態を示す指標だから",
+          "毎年同じ方法で測定するから",
+          "温度変化を測定するから"
+        ],
+        "answer": 1,
+        "expl": "「barometer for the species' long-term survival」と述べられており、種の存続を測る指標としての意味です。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_03_vl2000",
+    "vl": "vl2000",
+    "week": "2026W08",
+    "pub_date": "2026-02-27",
+    "source_url": "https://learningenglish.voanews.com/a/nepal-increases-cost-of-permits-to-climb-everest/7977561.html",
+    "source_title": "Nepal Increases Cost of Permits to Climb Everest",
+    "title": "It Costs More to Climb the Highest Mountain",
+    "title_ja": "最も高い山に登るのがより高くなった",
+    "body": "Mount Everest is the highest mountain in the world. It is in Nepal. Every year, many people try to climb it. But now Nepal says it will cost more money. Before, a person had to pay $11,000 to get permission to climb. Now it will cost $15,000. The government says this change is needed. Too many people are climbing the mountain. They leave a lot of waste behind. It is also dangerous when too many people are on the mountain at the same time. The government wants to use the extra money to keep the mountain clean and safe. The last time the price changed was about 10 years ago.",
+    "body_ja": "エベレストは世界で最も高い山です。ネパールにあります。毎年多くの人が登ろうとします。しかし今、ネパールはより多くのお金がかかるようになると発表しました。以前は登山許可を得るのに11,000ドルを払う必要がありました。今は15,000ドルかかります。政府はこの変更が必要だと言います。あまりにも多くの人が山を登っています。多くのごみを残していきます。同時に多くの人が山にいると危険でもあります。政府は追加のお金を山をきれいで安全に保つために使いたいと考えています。前回価格が変わったのは約10年前でした。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "エベレストの登山許可証の新しい価格はいくらですか？",
+        "choices": [
+          "$5,000",
+          "$11,000",
+          "$15,000",
+          "$20,000"
+        ],
+        "answer": 2,
+        "expl": "本文に「Now it will cost $15,000」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "ネパールが登山料を値上げした主な理由は？",
+        "choices": [
+          "観光客を減らすため",
+          "山の清掃と安全のため",
+          "道路を作るため",
+          "地元の人を助けるため"
+        ],
+        "answer": 1,
+        "expl": "「The government wants to use the extra money to keep the mountain clean and safe」と述べられています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_03_vl3000",
+    "vl": "vl3000",
+    "week": "2026W08",
+    "pub_date": "2026-02-27",
+    "source_url": "https://learningenglish.voanews.com/a/nepal-increases-cost-of-permits-to-climb-everest/7977561.html",
+    "source_title": "Nepal Increases Cost of Permits to Climb Everest",
+    "title": "Nepal Raises Cost of Climbing Mount Everest",
+    "title_ja": "ネパール、エベレスト登山費用を値上げ",
+    "body": "Nepal has increased the cost of a permit to climb Mount Everest by about one-third. The price has risen from $11,000 to $15,000 for the popular spring climbing season. Officials say the price had stayed the same for about 10 years before this change. The government says the increase is needed to reduce pollution and improve safety on the world's highest mountain. In recent years, large crowds of climbers have created long lines near the top of Everest, increasing the risk of accidents. Climbers also leave behind waste, including empty oxygen bottles and other equipment. The higher fees during less popular seasons, such as autumn and winter, have also gone up. Nepal hopes the additional money will help protect the mountain environment.",
+    "body_ja": "ネパールはエベレスト登山許可証の費用を約3分の1値上げしました。人気の春季登山シーズンの価格は11,000ドルから15,000ドルに上がりました。当局によると、この変更前は約10年間価格が据え置かれていました。政府は世界最高峰での汚染削減と安全性向上のために値上げが必要だとしています。近年、大勢の登山者がエベレストの頂上付近で長い行列を作り、事故のリスクを高めています。登山者は空の酸素ボンベやその他の装備などのごみも残していきます。秋や冬などの人気の低いシーズンの料金も上がりました。ネパールは追加の収入が山の環境保護に役立つことを期待しています。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "以前の許可証の価格から何ドル上がりましたか？",
+        "choices": [
+          "$2,000",
+          "$4,000",
+          "$6,000",
+          "$10,000"
+        ],
+        "answer": 1,
+        "expl": "$11,000から$15,000に上がったので$4,000の値上げです。"
+      },
+      {
+        "axis": "inference",
+        "q": "長い行列がエベレストの頂上付近で問題になる理由は？",
+        "choices": [
+          "景色が見えなくなるから",
+          "高い場所で長時間待つことが危険だから",
+          "写真が撮れないから",
+          "天気が変わるから"
+        ],
+        "answer": 1,
+        "expl": "「increasing the risk of accidents」と述べられており、高所での長時間滞在が事故リスクを高めることが示されています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_03_vl5000",
+    "vl": "vl5000",
+    "week": "2026W08",
+    "pub_date": "2026-02-27",
+    "source_url": "https://learningenglish.voanews.com/a/nepal-increases-cost-of-permits-to-climb-everest/7977561.html",
+    "source_title": "Nepal Increases Cost of Permits to Climb Everest",
+    "title": "Nepal Raises Everest Permit Fees to Address Overcrowding",
+    "title_ja": "ネパール、混雑対策でエベレスト許可証料金を値上げ",
+    "body": "Nepal has raised the cost of climbing permits for Mount Everest by roughly one-third, with the spring season fee increasing from $11,000 to $15,000. The price had remained unchanged for approximately a decade before the government decided to act. Officials cite growing concerns about pollution and safety on the world's tallest peak. In recent seasons, record numbers of climbers have caused dangerous delays near the summit, where oxygen levels are extremely low. Abandoned equipment and waste have also accumulated on the mountain. Fees for climbing during the autumn and winter seasons have been adjusted as well, rising from $5,500 to $7,500 in autumn. The government plans to use the additional revenue to fund cleanup operations and enforce stricter climbing regulations aimed at protecting both climbers and the mountain environment.",
+    "body_ja": "ネパールはエベレストの登山許可証費用を約3分の1値上げし、春季シーズンの料金を11,000ドルから15,000ドルに引き上げました。政府が行動を決断するまで約10年間、価格は据え置かれていました。当局は世界最高峰での汚染と安全に対する懸念の高まりを理由に挙げています。近年のシーズンでは、記録的な数の登山者が頂上付近で危険な遅延を引き起こしており、そこでは酸素レベルが極めて低いです。放棄された装備やごみも山に蓄積しています。秋季と冬季の登山料金も調整され、秋季は5,500ドルから7,500ドルに上昇しました。政府は追加収入を清掃活動の資金と、登山者と山の環境の両方を保護することを目的としたより厳格な登山規則の施行に充てる予定です。",
+    "vocab_notes": [
+      {
+        "word": "summit",
+        "vl": 7000,
+        "definition": "the highest point of a mountain"
+      },
+      {
+        "word": "accumulated",
+        "vl": 7000,
+        "definition": "gathered or collected over time"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "秋季の登山許可証の新しい価格はいくらですか？",
+        "choices": [
+          "$5,500",
+          "$7,500",
+          "$11,000",
+          "$15,000"
+        ],
+        "answer": 1,
+        "expl": "本文に「rising from $5,500 to $7,500 in autumn」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "政府が追加収入を使う目的は？",
+        "choices": [
+          "新しい登山道を作る",
+          "観光宣伝をする",
+          "清掃と規則の施行で環境と安全を守る",
+          "登山者に返金する"
+        ],
+        "answer": 2,
+        "expl": "「fund cleanup operations and enforce stricter climbing regulations」と述べられています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W08_03_vl7000",
+    "vl": "vl7000",
+    "week": "2026W08",
+    "pub_date": "2026-02-27",
+    "source_url": "https://learningenglish.voanews.com/a/nepal-increases-cost-of-permits-to-climb-everest/7977561.html",
+    "source_title": "Nepal Increases Cost of Permits to Climb Everest",
+    "title": "Nepal Hikes Everest Fees Amid Safety and Environmental Concerns",
+    "title_ja": "ネパール、安全と環境への懸念からエベレスト料金を引き上げ",
+    "body": "Faced with mounting concerns over pollution and safety, Nepal has increased the cost of permits to climb Mount Everest by approximately one-third. The spring season fee has risen from $11,000 to $15,000, ending a decade of stable pricing. Narayan Prasad Regmi, the director of Nepal's tourism department, told the news agency AFP that the increase was overdue. In recent years, record numbers of climbers have created bottlenecks near the summit, where thin air and extreme conditions make even brief delays potentially fatal. Discarded oxygen bottles and equipment have also become an environmental burden on the mountain. Autumn fees have likewise increased, from $5,500 to $7,500. Authorities plan to channel the additional revenue toward cleanup efforts and the enforcement of tighter safety regulations. Critics, however, question whether higher fees alone will be sufficient to address the deep-rooted challenges facing the world's highest peak.",
+    "body_ja": "汚染と安全に対する高まる懸念に直面し、ネパールはエベレスト登山許可証の費用を約3分の1引き上げました。春季シーズンの料金は11,000ドルから15,000ドルに上昇し、10年間の安定価格に終止符を打ちました。ネパール観光局のナラヤン・プラサド・レグミ局長はAFP通信に対し、値上げは遅すぎたくらいだと語りました。近年、記録的な数の登山者が頂上付近で渋滞を引き起こしており、薄い空気と極限の条件下では短い遅延でも致命的になりえます。廃棄された酸素ボンベや装備も山にとって環境的な負担となっています。秋季の料金も同様に5,500ドルから7,500ドルに引き上げられました。当局は追加収入を清掃活動とより厳格な安全規則の施行に充てる予定です。しかし批判者は、高い料金だけで世界最高峰が直面する根深い課題に十分対処できるか疑問を呈しています。",
+    "vocab_notes": [
+      {
+        "word": "bottlenecks",
+        "vl": null,
+        "definition": "points where movement is slowed or blocked"
+      },
+      {
+        "word": "overdue",
+        "vl": null,
+        "definition": "should have happened earlier than it did"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ネパール観光局の局長の名前は？",
+        "choices": [
+          "Narayan Prasad Regmi",
+          "Tedros Adhanom",
+          "Aissatou Sarr",
+          "Wang Lung"
+        ],
+        "answer": 0,
+        "expl": "本文に「Narayan Prasad Regmi, the director of Nepal's tourism department」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "批判者が料金値上げに疑問を持つ理由として最も適切なのは？",
+        "choices": [
+          "料金が安すぎるから",
+          "料金だけでは根本的な問題を解決できないかもしれないから",
+          "登山者が減りすぎるから",
+          "政府の使い方が不透明だから"
+        ],
+        "answer": 1,
+        "expl": "「whether higher fees alone will be sufficient to address the deep-rooted challenges」と述べられており、料金以外の対策も必要という見方です。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W09",
+    "pub_date": "2026-03-02",
+    "source_url": "https://learningenglish.voanews.com/a/george-washington-the-first-president/6951429.html",
+    "source_title": "George Washington – the First President",
+    "title": "George Washington: America's First Leader",
+    "title_ja": "ジョージ・ワシントン：アメリカ初の指導者",
+    "body": "George Washington was the first president of the United States. He was born in Virginia in 1732. His family was rich. He was very tall and strong. When he was young, America was not free. It was ruled by Britain. The American people wanted to be free. Washington became a leader in the war against Britain. He led the people to freedom. After the war, he became president in 1789. He served for eight years. Many people wanted him to stay, but he said no. He died in 1799. Americans still remember him as the father of their country.",
+    "body_ja": "ジョージ・ワシントンはアメリカ合衆国の初代大統領でした。1732年にバージニアで生まれました。彼の家族は裕福でした。彼はとても背が高く、体が強かったです。若い頃、アメリカは自由ではありませんでした。イギリスに支配されていました。アメリカの人々は自由になりたがっていました。ワシントンはイギリスとの戦争で指導者になりました。人々を自由へと導きました。戦争の後、1789年に大統領になりました。8年間務めました。多くの人々が彼に残ってほしいと思いましたが、彼は断りました。1799年に亡くなりました。アメリカ人は今でも彼を国の父として記憶しています。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ワシントンはどの国からの自由のために戦いましたか？",
+        "choices": [
+          "フランス",
+          "イギリス",
+          "スペイン",
+          "ドイツ"
+        ],
+        "answer": 1,
+        "expl": "本文に「war against Britain」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "アメリカの戦争の歴史",
+          "ジョージ・ワシントンの人生と功績",
+          "バージニア州について",
+          "アメリカの大統領制度"
+        ],
+        "answer": 1,
+        "expl": "記事全体がジョージ・ワシントンの人生と彼がアメリカにとってどれほど重要だったかについて述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W09",
+    "pub_date": "2026-03-02",
+    "source_url": "https://learningenglish.voanews.com/a/george-washington-the-first-president/6951429.html",
+    "source_title": "George Washington – the First President",
+    "title": "George Washington: Father of a Nation",
+    "title_ja": "ジョージ・ワシントン：国の父",
+    "body": "George Washington became the first president of the United States in 1789. Born in Virginia in 1732, he came from a wealthy family of farmers. He grew up to be a tall, strong man. In the 1770s, Americans wanted independence from Britain. Washington served as the top general of the American army during the revolution. He led his forces through many difficult years and finally won freedom for the new nation. After the war, he was elected president. He served two terms, or eight years. When people asked him to serve a third term, he refused. He believed no one person should hold power for too long. He returned to his home in Virginia, where he died in 1799.",
+    "body_ja": "ジョージ・ワシントンは1789年にアメリカ合衆国初の大統領になりました。1732年にバージニアで生まれ、裕福な農家の出身でした。背が高く、体格の良い男性に成長しました。1770年代、アメリカ人はイギリスからの独立を望んでいました。ワシントンは革命中にアメリカ軍の最高将軍を務めました。何年もの困難な時期を経て、新しい国のために自由を勝ち取りました。戦争後、大統領に選出されました。2期8年間務めました。人々が3期目を務めるよう求めましたが、彼は断りました。一人の人間が長く権力を持つべきではないと信じていたのです。バージニアの自宅に戻り、1799年にそこで亡くなりました。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ワシントンが3期目を断った理由は何ですか？",
+        "choices": [
+          "健康状態が悪かったから",
+          "一人の人間が長く権力を持つべきではないと考えたから",
+          "選挙に負けたから",
+          "別の仕事がしたかったから"
+        ],
+        "answer": 1,
+        "expl": "本文に「He believed no one person should hold power for too long」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいことは何ですか？",
+        "choices": [
+          "アメリカ独立戦争の経緯",
+          "バージニア州の歴史",
+          "ワシントンの軍事的才能と大統領としての功績",
+          "アメリカの選挙制度の始まり"
+        ],
+        "answer": 2,
+        "expl": "記事はワシントンが軍の指導者として独立を勝ち取り、大統領として国を導いた功績を中心に述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W09",
+    "pub_date": "2026-03-02",
+    "source_url": "https://learningenglish.voanews.com/a/george-washington-the-first-president/6951429.html",
+    "source_title": "George Washington – the First President",
+    "title": "George Washington: The General Who Became President",
+    "title_ja": "ジョージ・ワシントン：将軍から大統領へ",
+    "body": "George Washington, born in Virginia in 1732, belonged to a wealthy class of tobacco farmers. Tall and physically strong, he became the commander of the American army during the revolution. For years, he led poorly supplied troops against the powerful British forces. Despite great difficulty, Washington held his army together and won the war. In 1789, he was elected as the first president of the United States. He served two four-year terms and set up many traditions still followed today. When people asked him to seek a third term, he firmly refused, setting an example for the peaceful change of power. Washington returned to his estate in Virginia, where he died in 1799 at the age of 67. He is often called the father of the nation.",
+    "body_ja": "ジョージ・ワシントンは1732年にバージニアで生まれ、裕福なたばこ農家の階級に属していました。背が高く体格が良く、独立戦争中にアメリカ軍の司令官となりました。何年もの間、物資の乏しい部隊を率いて強力なイギリス軍と戦いました。大きな困難にもかかわらず、ワシントンは軍をまとめ上げ、戦争に勝利しました。1789年にアメリカ合衆国初の大統領に選出されました。4年任期を2期務め、今日まで続く多くの伝統を確立しました。3期目を求められた際、きっぱりと辞退し、平和的な権力移行の手本を示しました。バージニアの自宅に戻り、1799年に67歳で亡くなりました。国の父と呼ばれることが多いです。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ワシントンが戦争中に直面した困難は何ですか？",
+        "choices": [
+          "部隊の物資が不足していた",
+          "フランスとの二正面作戦だった",
+          "国内の反対勢力が強かった",
+          "病気で指揮が取れなかった"
+        ],
+        "answer": 0,
+        "expl": "本文に「he led poorly supplied troops」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主題は何ですか？",
+        "choices": [
+          "アメリカ独立戦争の詳細な戦略",
+          "ワシントンの軍人・政治家としての生涯と遺産",
+          "18世紀バージニアの農業経済",
+          "アメリカ大統領制度の発展"
+        ],
+        "answer": 1,
+        "expl": "記事はワシントンの軍事的功績と大統領としての重要な決定を通じて、彼の生涯と国への貢献を伝えています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W09",
+    "pub_date": "2026-03-02",
+    "source_url": "https://learningenglish.voanews.com/a/george-washington-the-first-president/6951429.html",
+    "source_title": "George Washington – the First President",
+    "title": "George Washington: From Virginia Farmer to Founding Father",
+    "title_ja": "ジョージ・ワシントン：バージニアの農園主から建国の父へ",
+    "body": "George Washington, born into a wealthy Virginia farming family in 1732, rose to become the most celebrated figure in American history. As commander of the American army, he endured bitter winters, shrinking supplies, and wavering morale to secure independence from Britain. His leadership during the Revolution earned him universal respect across the young republic. Elected with full support as the first president in 1789, Washington served two terms and carefully shaped the role of the executive branch. He established norms of governance that endured for centuries, including the tradition of stepping down after two terms. When allies pressured him to accept a third, he firmly refused, ensuring the peaceful rotation of power. Washington retired to his beloved Mount Vernon estate, where he passed away in December 1799 at the age of 67, mourned by a grateful nation.",
+    "body_ja": "ジョージ・ワシントンは1732年にバージニアの裕福な農家に生まれ、アメリカ史上最も称えられる人物へと成長しました。アメリカ軍の司令官として、厳しい冬、減少する物資、揺らぐ士気に耐え、イギリスからの独立を勝ち取りました。独立戦争での指導力により、若い共和国全体で普遍的な尊敬を得ました。1789年に満場一致で初代大統領に選出され、2期務め、行政府の役割を慎重に形作りました。2期で退任する伝統を含め、何世紀も続く統治の規範を確立しました。同盟者たちが3期目を受け入れるよう圧力をかけましたが、きっぱりと拒否し、権力の平和的な交代を保証しました。愛するマウント・バーノンの邸宅に引退し、1799年12月に67歳で逝去し、感謝する国民に悼まれました。",
+    "vocab_notes": [
+      {
+        "word": "wavering",
+        "vl": null,
+        "definition": "becoming weaker or less certain"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ワシントンが大統領に選出された際の特徴は何でしたか？",
+        "choices": [
+          "僅差で勝利した",
+          "全員の支持を得て選出された",
+          "2回目の投票で選ばれた",
+          "軍の支持だけで選ばれた"
+        ],
+        "answer": 1,
+        "expl": "本文に「Elected with full support as the first president」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も強調していることは何ですか？",
+        "choices": [
+          "バージニア農園主階級の衰退",
+          "アメリカ独立戦争の軍事戦略",
+          "ワシントンの指導力と民主的な先例の確立",
+          "18世紀の大統領選挙制度"
+        ],
+        "answer": 2,
+        "expl": "記事はワシントンの軍事的・政治的指導力と、権力の平和的移行という民主的先例を確立した功績を最も強調しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_02_vl2000",
+    "vl": "vl2000",
+    "week": "2026W09",
+    "pub_date": "2026-03-04",
+    "source_url": "https://learningenglish.voanews.com/a/cambodia-warns-of-aggressive-monkeys-around-angkor-wat/7997143.html",
+    "source_title": "Cambodia Warns of Aggressive Monkeys around Angkor Wat",
+    "title": "Wild Animals Cause Problems at Angkor Wat",
+    "title_ja": "アンコールワットで野生動物が問題に",
+    "body": "Angkor Wat is a very old and famous place in Cambodia. Millions of people visit it every year. But now there is a problem. Wild animals that live near Angkor Wat are becoming dangerous. They are used to getting food from visitors. They come close to people and sometimes try to take things. Officials are warning visitors to be careful. They say people should not give food to the animals. They should not leave food where the animals can see it. The animals have become less afraid of people because visitors have fed them for many years. Officials want everyone to stay safe.",
+    "body_ja": "アンコールワットはカンボジアにあるとても古くて有名な場所です。毎年何百万人もの人々が訪れます。しかし今、問題があります。アンコールワットの近くに住む野生動物が危険になってきています。訪問者から食べ物をもらうことに慣れています。人に近づいてきて、時には物を奪おうとします。当局は訪問者に注意するよう警告しています。動物に食べ物を与えないよう言っています。動物が見えるところに食べ物を置かないようにとも言っています。訪問者が何年も餌を与えてきたため、動物は人間を怖がらなくなりました。当局はみんなが安全でいられることを望んでいます。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "なぜ動物は人間を怖がらなくなりましたか？",
+        "choices": [
+          "動物園で育てられたから",
+          "長年にわたって訪問者が餌を与えてきたから",
+          "カンボジアの気候が変わったから",
+          "動物の数が増えたから"
+        ],
+        "answer": 1,
+        "expl": "本文に「visitors have fed them for many years」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "カンボジアの歴史",
+          "アンコールワットの建物",
+          "訪問者に対する野生動物の問題と警告",
+          "カンボジアの観光産業"
+        ],
+        "answer": 2,
+        "expl": "記事はアンコールワットで野生動物が訪問者に問題を起こしていることと、当局の警告について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_02_vl3000",
+    "vl": "vl3000",
+    "week": "2026W09",
+    "pub_date": "2026-03-04",
+    "source_url": "https://learningenglish.voanews.com/a/cambodia-warns-of-aggressive-monkeys-around-angkor-wat/7997143.html",
+    "source_title": "Cambodia Warns of Aggressive Monkeys around Angkor Wat",
+    "title": "Aggressive Monkeys Worry Visitors at Angkor Wat",
+    "title_ja": "攻撃的なサルがアンコールワットの訪問者を悩ませる",
+    "body": "Officials in Cambodia are warning visitors about aggressive wild monkeys around Angkor Wat, the famous ancient building. The site attracts millions of tourists each year and is known as a World Heritage location. However, the monkeys living near the old structures have become a growing concern. Over the years, tourists have fed the animals, making them less afraid of people. Now the monkeys walk up to visitors and sometimes grab bags or food. Authorities say visitors should never feed the monkeys or leave food where it can be seen. They are also asking tour guides to help spread the message. The goal is to protect both the visitors and the animals.",
+    "body_ja": "カンボジア当局は、有名な古代建築アンコールワット周辺の攻撃的な野生のサルについて訪問者に警告しています。この場所は毎年何百万人もの観光客を引きつけ、世界遺産として知られています。しかし、古い建造物の近くに住むサルが増大する懸念となっています。長年にわたり、観光客が動物に餌を与えてきたため、人間を怖がらなくなりました。今ではサルは訪問者のそばまで歩いてきて、時にはバッグや食べ物をつかみ取ります。当局は訪問者にサルに餌を与えたり、食べ物を見える場所に置いたりしないよう言っています。ツアーガイドにもこのメッセージを広めるよう協力を求めています。目標は訪問者と動物の両方を守ることです。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "当局はツアーガイドに何を求めていますか？",
+        "choices": [
+          "サルを捕まえること",
+          "サルに餌を与えること",
+          "警告のメッセージを広めること",
+          "新しいルートを作ること"
+        ],
+        "answer": 2,
+        "expl": "本文に「They are also asking tour guides to help spread the message」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいことは何ですか？",
+        "choices": [
+          "アンコールワットの歴史的価値",
+          "カンボジアの観光客数の増加",
+          "野生のサルによる問題と訪問者への安全対策",
+          "世界遺産の保護活動"
+        ],
+        "answer": 2,
+        "expl": "記事は野生のサルが訪問者に問題を起こしている状況と、当局が取っている安全対策について伝えています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_02_vl5000",
+    "vl": "vl5000",
+    "week": "2026W09",
+    "pub_date": "2026-03-04",
+    "source_url": "https://learningenglish.voanews.com/a/cambodia-warns-of-aggressive-monkeys-around-angkor-wat/7997143.html",
+    "source_title": "Cambodia Warns of Aggressive Monkeys around Angkor Wat",
+    "title": "Cambodia Tackles Monkey Problem at Angkor Wat",
+    "title_ja": "カンボジア、アンコールワットのサル問題に対処",
+    "body": "Cambodian authorities have issued warnings to visitors at Angkor Wat about increasingly aggressive wild monkeys wandering the grounds. The UNESCO World Heritage site, which draws millions of tourists annually, has long been home to groups of wild monkeys. Over the decades, visitors have regularly fed the animals, training them to link humans with food. As a result, the monkeys have grown bold, grabbing bags and food from surprised tourists. Officials now urge visitors to avoid feeding the monkeys and to keep all food hidden. Tour operators have been told to explain proper behavior around wildlife to their groups. Authorities say the measures aim to reduce dangerous meetings while keeping the natural balance of the historic site.",
+    "body_ja": "カンボジア当局は、敷地内を歩き回る攻撃的な野生のサルについて、アンコールワットの訪問者に警告を発しました。毎年何百万人もの観光客を引きつけるこのユネスコ世界遺産は、長年野生のサルの群れの住処でもありました。何十年にもわたり、訪問者が定期的に動物に餌を与え、人間と食べ物を結びつけるよう訓練してきました。その結果、サルはより大胆になり、驚いた観光客からバッグや食べ物を奪い取るようになりました。当局は現在、訪問者にサルに餌を与えず、すべての食べ物を隠すよう求めています。ツアー業者にはグループに野生動物の周辺での適切な行動を説明するよう指示されています。当局はこれらの措置が歴史的な場所の自然のバランスを保ちながら危険な遭遇を減らすことを目的としていると述べています。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "サルが大胆になった原因は何ですか？",
+        "choices": [
+          "建物の修復工事で住処が減ったから",
+          "長年にわたり訪問者が餌を与え続けたから",
+          "気候変動でサルの行動が変わったから",
+          "新しいサルの群れが移動してきたから"
+        ],
+        "answer": 1,
+        "expl": "本文に「visitors have regularly fed the animals, training them to link humans with food」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主題は何ですか？",
+        "choices": [
+          "ユネスコ世界遺産の保護活動",
+          "カンボジアの観光産業の発展",
+          "アンコールワットでのサルによる問題と当局の対策",
+          "野生動物の生態系の変化"
+        ],
+        "answer": 2,
+        "expl": "記事はアンコールワットで野生のサルが観光客に問題を起こしている状況と、当局が取っている具体的な対策について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_02_vl7000",
+    "vl": "vl7000",
+    "week": "2026W09",
+    "pub_date": "2026-03-04",
+    "source_url": "https://learningenglish.voanews.com/a/cambodia-warns-of-aggressive-monkeys-around-angkor-wat/7997143.html",
+    "source_title": "Cambodia Warns of Aggressive Monkeys around Angkor Wat",
+    "title": "Bold Monkeys Threaten Tourists at Angkor Wat",
+    "title_ja": "大胆なサルがアンコールワットの観光客を脅かす",
+    "body": "Cambodian officials have raised alarms over increasingly hostile wild monkeys at the Angkor Wat complex, a UNESCO World Heritage site that welcomes millions of visitors annually. Decades of uncontrolled feeding by tourists have made the animals bold, and they now openly snatch belongings and food from shocked visitors. Authorities have launched a campaign urging tourists to stop offering food and to store all snacks out of sight. Tour operators face a penalty if they fail to explain responsible behavior around the wildlife to their groups. Experts warn that changing the learned behavior will take years of steady enforcement. The monkeys, while a beloved part of the landscape, create a real safety risk when they link humans only with food. Officials stress that the effort protects both visitors and the long-term welfare of the animals themselves.",
+    "body_ja": "カンボジア当局は、毎年何百万人もの訪問者を迎えるユネスコ世界遺産のアンコールワット群で、ますます攻撃的になる野生のサルについて警鐘を鳴らしています。何十年にもわたる観光客による無秩序な餌やりが動物を大胆にさせ、今では驚いた訪問者から堂々と持ち物や食べ物を奪い取るようになっています。当局は観光客に食べ物を与えないよう呼びかけ、すべての軽食を見えない場所にしまうよう求めるキャンペーンを開始しました。ツアー業者は野生動物の周辺での責任ある行動についてグループに説明しなければ罰則を受けます。専門家は学習された行動を変えるには何年もの一貫した取り締まりが必要だと警告しています。サルは景観の一部として愛されていますが、人間を食べ物としか結びつけなくなると本当の安全リスクとなります。当局はこの取り組みが訪問者と動物自身の長期的な福祉の両方を守ると強調しています。",
+    "vocab_notes": [
+      {
+        "word": "hostile",
+        "vl": 5000,
+        "definition": "unfriendly and ready to attack"
+      },
+      {
+        "word": "snatch",
+        "vl": 7000,
+        "definition": "to grab something quickly and forcefully"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ツアー業者が説明を怠るとどうなりますか？",
+        "choices": [
+          "営業停止になる",
+          "罰則を受ける",
+          "警告を受ける",
+          "特に何も起きない"
+        ],
+        "answer": 1,
+        "expl": "本文に「Tour operators face a penalty if they fail to explain responsible behavior」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も強調していることは何ですか？",
+        "choices": [
+          "アンコールワットの建築的価値の保全",
+          "カンボジアの野生動物保護政策の変遷",
+          "観光客の餌やりが引き起こした問題と解決に向けた取り組み",
+          "東南アジアの動物の生態研究"
+        ],
+        "answer": 2,
+        "expl": "記事は長年の観光客による餌やりがサルの行動を変えた問題を中心に、当局の対策と長期的な解決の難しさを伝えています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_03_vl2000",
+    "vl": "vl2000",
+    "week": "2026W09",
+    "pub_date": "2026-03-06",
+    "source_url": "https://learningenglish.voanews.com/a/american-places-gettysburg-pennsylv/6951474.html",
+    "source_title": "American Places – Gettysburg, Pennsylvania",
+    "title": "Gettysburg: A Famous Place in America",
+    "title_ja": "ゲティスバーグ：アメリカの有名な場所",
+    "body": "Gettysburg is a small town in Pennsylvania. It is one of the most famous places in the United States. In July 1863, a great fight happened there during the Civil War. The north and the south fought for three days. About 50,000 men were hurt or killed. The north won, and this changed the war. Later that year, President Lincoln came to Gettysburg. He gave a famous speech there. He talked about freedom and why the country must stay together. Today, Gettysburg is a national park. People come from all over the world to see it.",
+    "body_ja": "ゲティスバーグはペンシルベニア州の小さな町です。アメリカで最も有名な場所の一つです。1863年7月、南北戦争中にそこで大きな戦いが起きました。北部と南部が3日間戦いました。約5万人の男性が負傷または死亡しました。北部が勝利し、これが戦争を変えました。その年の後半、リンカーン大統領がゲティスバーグを訪れました。そこで有名な演説をしました。自由と、なぜ国が一つにまとまっていなければならないかについて語りました。今日、ゲティスバーグは国立公園です。世界中から人々が訪れます。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ゲティスバーグの戦いは何日間続きましたか？",
+        "choices": [
+          "1日",
+          "3日",
+          "5日",
+          "7日"
+        ],
+        "answer": 1,
+        "expl": "本文に「fought for three days」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "リンカーン大統領の生涯",
+          "アメリカ南北戦争の原因",
+          "ゲティスバーグの戦いとその重要性",
+          "ペンシルベニア州の観光名所"
+        ],
+        "answer": 2,
+        "expl": "記事はゲティスバーグでの戦い、その結果の重要性、そしてリンカーンの演説について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_03_vl3000",
+    "vl": "vl3000",
+    "week": "2026W09",
+    "pub_date": "2026-03-06",
+    "source_url": "https://learningenglish.voanews.com/a/american-places-gettysburg-pennsylv/6951474.html",
+    "source_title": "American Places – Gettysburg, Pennsylvania",
+    "title": "The Battle of Gettysburg: A Turning Point",
+    "title_ja": "ゲティスバーグの戦い：転換点",
+    "body": "Gettysburg National Military Park in Pennsylvania marks the site of one of the most important battles in American history. In July 1863, during the Civil War, Union forces from the North fought against Southern forces in a battle that lasted three days. Around 50,000 soldiers were killed or wounded. The Union victory at Gettysburg became a major turning point in the war. The South never fully recovered from the defeat. Several months later, President Abraham Lincoln traveled to Gettysburg and gave his famous speech known as the Gettysburg Address. In the speech, he honored the fallen soldiers and spoke about the ideals of equality and freedom. Today the area is preserved as a national park that attracts visitors from around the world.",
+    "body_ja": "ペンシルベニア州のゲティスバーグ国立軍事公園は、アメリカ史上最も重要な戦いの一つが行われた場所です。1863年7月、南北戦争中に、北部の連邦軍と南部の軍が3日間続く戦いで戦いました。約5万人の兵士が死亡または負傷しました。ゲティスバーグでの連邦軍の勝利は戦争の大きな転換点となりました。南部はこの敗北から完全に回復することはありませんでした。数ヶ月後、エイブラハム・リンカーン大統領がゲティスバーグを訪れ、ゲティスバーグ演説として知られる有名な演説を行いました。演説で彼は倒れた兵士を称え、平等と自由の理念について語りました。今日、この地域は世界中から訪問者を引きつける国立公園として保存されています。",
+    "vocab_notes": [],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "リンカーンの演説で語られた主題は何でしたか？",
+        "choices": [
+          "経済政策と貿易",
+          "平等と自由の理念",
+          "軍事戦略の詳細",
+          "外交関係の改善"
+        ],
+        "answer": 1,
+        "expl": "本文に「he honored the fallen soldiers and spoke about the ideals of equality and freedom」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいことは何ですか？",
+        "choices": [
+          "南北戦争の全体的な経緯",
+          "リンカーンの政治的キャリア",
+          "ゲティスバーグの戦いの歴史的重要性",
+          "アメリカの国立公園制度"
+        ],
+        "answer": 2,
+        "expl": "記事はゲティスバーグの戦いが南北戦争の転換点となったこと、リンカーンの演説、そして現在の保存状態について伝えています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_03_vl5000",
+    "vl": "vl5000",
+    "week": "2026W09",
+    "pub_date": "2026-03-06",
+    "source_url": "https://learningenglish.voanews.com/a/american-places-gettysburg-pennsylv/6951474.html",
+    "source_title": "American Places – Gettysburg, Pennsylvania",
+    "title": "Gettysburg: Where the Civil War Turned",
+    "title_ja": "ゲティスバーグ：南北戦争の潮目が変わった場所",
+    "body": "In early July 1863, the small town of Gettysburg in Pennsylvania became the stage for the bloodiest battle of the American Civil War. Over three days, Union and Southern armies fought in fierce combat that left roughly 50,000 soldiers dead or wounded. The Union victory proved to be a key turning point, as Southern forces never again launched a major invasion of the North. Months later, President Abraham Lincoln visited the area to dedicate a national cemetery. His brief but powerful speech, known as the Gettysburg Address, stated again the ideas of human equality and self-rule by the people. Lincoln argued that the nation must last so that those who gave their lives would not have died for nothing. Today, Gettysburg National Military Park preserves the landscape where this important chapter of American history took place.",
+    "body_ja": "1863年7月初旬、ペンシルベニア州の小さな町ゲティスバーグが、南北戦争で最も血なまぐさい戦いの舞台となりました。3日間にわたり、連邦軍と南部軍が激しい戦闘を繰り広げ、約5万人の兵士が死亡または負傷しました。連邦軍の勝利は重要な転換点となり、南部軍は二度と北部への大規模な侵攻を行うことはありませんでした。数ヶ月後、エイブラハム・リンカーン大統領が国立墓地の奉献のためにこの地域を訪れました。ゲティスバーグ演説として知られる短いながらも力強い演説で、人間の平等と人民による自治の理念を改めて述べました。リンカーンは、命を捧げた人々が無駄に死んだことにならないよう、国は存続しなければならないと主張しました。今日、ゲティスバーグ国立軍事公園はアメリカ史のこの重要な一章が起きた風景を保存しています。",
+    "vocab_notes": [
+      {
+        "word": "cemetery",
+        "vl": 7000,
+        "definition": "a place where dead people are buried"
+      },
+      {
+        "word": "dedicate",
+        "vl": 3000,
+        "definition": "to officially open or name something for a special purpose"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ゲティスバーグの戦いの後、南部軍はどうなりましたか？",
+        "choices": [
+          "すぐに降伏した",
+          "二度と北部への大規模侵攻を行わなかった",
+          "ヨーロッパに援軍を求めた",
+          "首都を移転した"
+        ],
+        "answer": 1,
+        "expl": "本文に「Southern forces never again launched a major invasion of the North」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主題は何ですか？",
+        "choices": [
+          "リンカーン大統領の政治哲学",
+          "ゲティスバーグの戦いの軍事戦略の分析",
+          "ゲティスバーグの戦いの歴史的意義とリンカーンの演説",
+          "アメリカの国立公園の歴史"
+        ],
+        "answer": 2,
+        "expl": "記事はゲティスバーグの戦いが南北戦争の転換点となった意義と、リンカーンの演説が伝えた理念を中心に述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W09_03_vl7000",
+    "vl": "vl7000",
+    "week": "2026W09",
+    "pub_date": "2026-03-06",
+    "source_url": "https://learningenglish.voanews.com/a/american-places-gettysburg-pennsylv/6951474.html",
+    "source_title": "American Places – Gettysburg, Pennsylvania",
+    "title": "Gettysburg: Sacred Ground of a Divided Nation",
+    "title_ja": "ゲティスバーグ：分断された国の神聖な地",
+    "body": "From July 1 to 3, 1863, the rolling farmland around Gettysburg, Pennsylvania, witnessed the deadliest clash of the American Civil War. Union forces under General George Meade fought back a Southern invasion led by General Robert Lee across three hard days of combat. The toll was shocking: roughly 50,000 soldiers fell dead or lay wounded on the fields. The Union triumph crushed Southern momentum and marked a lasting turning point in the conflict. That November, President Abraham Lincoln traveled to the area to bless a national cemetery. His two-minute Gettysburg Address, now seen as one of the finest speeches in American history, defined the war as a struggle for equality and democratic renewal. Today, Gettysburg National Military Park preserves the sacred landscape, drawing scholars and visitors who seek to understand the sacrifices that shaped a nation.",
+    "body_ja": "1863年7月1日から3日にかけて、ペンシルベニア州ゲティスバーグ周辺のなだらかな農地が、南北戦争で最も多くの死者を出した衝突の舞台となりました。ジョージ・ミード将軍率いる連邦軍が、ロバート・リー将軍率いる南部軍の侵攻を3日間の厳しい戦闘で撃退しました。被害は衝撃的で、約5万人の兵士が死亡するか戦場で負傷しました。連邦軍の勝利は南部軍の勢いを砕き、紛争の持続的な転換点となりました。その年の11月、エイブラハム・リンカーン大統領が国立墓地を祝福するためにこの地域を訪れました。アメリカの歴史上最も優れた演説の一つとされる2分間のゲティスバーグ演説で、戦争を平等と民主的刷新のための闘いと定義しました。今日、ゲティスバーグ国立軍事公園はこの神聖な風景を保存し、国を形作った犠牲を理解しようとする学者や訪問者を引きつけています。",
+    "vocab_notes": [
+      {
+        "word": "sacred",
+        "vl": 7000,
+        "definition": "regarded as holy or greatly respected"
+      },
+      {
+        "word": "bless",
+        "vl": 3000,
+        "definition": "to make something holy through a religious ceremony"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "リンカーンのゲティスバーグ演説はどのくらいの長さでしたか？",
+        "choices": [
+          "約30秒",
+          "約2分",
+          "約10分",
+          "約30分"
+        ],
+        "answer": 1,
+        "expl": "本文に「His two-minute Gettysburg Address」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も強調していることは何ですか？",
+        "choices": [
+          "南北戦争の軍事戦略の詳細な分析",
+          "リンカーンの政治キャリアの変遷",
+          "ゲティスバーグの戦いの歴史的意義と演説が定義した戦争の意味",
+          "国立公園としてのゲティスバーグの観光価値"
+        ],
+        "answer": 2,
+        "expl": "記事はゲティスバーグの戦いが南北戦争の転換点であったことと、リンカーンの演説が戦争を平等と民主的刷新の闘いと定義したことを最も強調しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W10",
+    "pub_date": "2026-03-09",
+    "source_url": "https://learningenglish.voanews.com/a/wilbur-and-orville-wright-the-first-airp/6951432.html",
+    "source_title": "Wilbur and Orville Wright: The First Airplane",
+    "title": "Two Brothers Who Built a Flying Machine",
+    "title_ja": "飛ぶ機械を作った二人の兄弟",
+    "body": "Wilbur and Orville Wright were two American brothers. They wanted to build a machine that could fly. They grew up in Ohio and had a small shop. They studied how birds fly and tested many different designs. They tried over two hundred shapes. On December 17, 1903, they flew their machine at Kitty Hawk in North Carolina. The first flight lasted only twelve seconds. It did not go far. But it was enough. They flew three more times that same day. Each flight was longer than the one before. The Wright brothers changed the world.",
+    "body_ja": "ウィルバーとオーヴィル・ライトはアメリカ人の兄弟でした。彼らは空を飛べる機械を作りたいと思いました。オハイオ州で育ち、小さな店を持っていました。鳥がどう飛ぶかを研究し、多くの異なる設計をテストしました。200以上の形を試しました。1903年12月17日、ノースカロライナ州キティホークで機械を飛ばしました。最初の飛行はわずか12秒でした。遠くには行きませんでした。しかしそれで十分でした。同じ日にさらに3回飛びました。飛行のたびに前回より長くなりました。ライト兄弟は世界を変えました。",
+    "vocab_notes": [
+      {
+        "word": "design",
+        "vl": 2000,
+        "definition": "a plan or drawing of how something will be made"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ライト兄弟の最初の飛行はどのくらい続きましたか？",
+        "choices": [
+          "10秒",
+          "12秒",
+          "17秒",
+          "37秒"
+        ],
+        "answer": 1,
+        "expl": "本文に「The first flight lasted only twelve seconds」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この話の一番大切なことは何ですか？",
+        "choices": [
+          "オハイオ州の店について",
+          "二人の兄弟が初めて飛ぶ機械を作ったこと",
+          "鳥の飛び方について",
+          "ノースカロライナ州について"
+        ],
+        "answer": 1,
+        "expl": "ライト兄弟が初めての飛行機械を作り、飛行に成功したことが中心です。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W10",
+    "pub_date": "2026-03-09",
+    "source_url": "https://learningenglish.voanews.com/a/wilbur-and-orville-wright-the-first-airp/6951432.html",
+    "source_title": "Wilbur and Orville Wright: The First Airplane",
+    "title": "The Wright Brothers and Their Flying Machine",
+    "title_ja": "ライト兄弟と彼らの飛行機械",
+    "body": "Wilbur Wright was born in 1867 and his brother Orville in 1871. They grew up in Ohio, where they ran a small shop together. From a young age, they were interested in flight. They carefully studied how birds used their wings to fly and tested over two hundred wing designs. After years of hard work, they built a powered flying machine. On December 17, 1903, at Kitty Hawk, North Carolina, they made history. Their first flight lasted just twelve seconds. However, they did not stop there. They flew three more times that day, with each flight going farther. The Wright brothers proved that powered flight was possible.",
+    "body_ja": "ウィルバー・ライトは1867年に、弟のオーヴィルは1871年に生まれました。オハイオ州で育ち、一緒に小さな店を営んでいました。若い頃から飛行に興味がありました。鳥がどのように翼を使って飛ぶかを注意深く研究し、200以上の翼の設計をテストしました。何年もの努力の末、動力付き飛行機械を作りました。1903年12月17日、ノースカロライナ州キティホークで歴史を作りました。最初の飛行はわずか12秒でした。しかし彼らはそこで止まりませんでした。その日さらに3回飛行し、回を重ねるごとに遠くまで飛びました。ライト兄弟は動力飛行が可能であることを証明しました。",
+    "vocab_notes": [
+      {
+        "word": "wing",
+        "vl": 3000,
+        "definition": "the part of a bird or plane that helps it fly"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ライト兄弟は初飛行の前に何をテストしましたか？",
+        "choices": [
+          "200以上の翼の設計",
+          "200以上のエンジン",
+          "200以上の自転車",
+          "200以上の鳥"
+        ],
+        "answer": 0,
+        "expl": "本文に「tested over two hundred wing designs」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主なテーマは何ですか？",
+        "choices": [
+          "店の経営方法",
+          "オハイオ州の歴史",
+          "ライト兄弟による動力飛行の実現",
+          "鳥の翼の仕組み"
+        ],
+        "answer": 2,
+        "expl": "記事全体がライト兄弟の動力飛行成功について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W10",
+    "pub_date": "2026-03-09",
+    "source_url": "https://learningenglish.voanews.com/a/wilbur-and-orville-wright-the-first-airp/6951432.html",
+    "source_title": "Wilbur and Orville Wright: The First Airplane",
+    "title": "The Wright Brothers: Pioneers of Aviation",
+    "title_ja": "ライト兄弟：航空の先駆者たち",
+    "body": "Wilbur Wright, born in 1867, and his brother Orville, born in 1871, are renowned as the pioneers of powered flight. Growing up in Ohio, the brothers ran a bicycle shop, but their true passion lay in the dream of flying. They spent years studying birds in flight and testing over two hundred wing designs to find the ideal shape. Their hard work paid off on December 17, 1903, at Kitty Hawk, North Carolina, when they achieved the first powered airplane flight in history. That breakthrough flight lasted a mere twelve seconds and covered just thirty-seven meters. They completed three more flights that same day. The final flight stretched to about two hundred sixty meters, lasting fifty-nine seconds. Their achievement marked the beginning of aviation, an industry that would connect every corner of the world.",
+    "body_ja": "1867年生まれのウィルバー・ライトと1871年生まれの弟オーヴィルは、動力飛行の先駆者として名高い存在です。オハイオ州で育った兄弟は自転車店を営んでいましたが、本当の情熱は空を飛ぶという夢にありました。何年もかけて飛行中の鳥を研究し、理想の形状を見つけるために200以上の翼の設計をテストしました。その努力は1903年12月17日、ノースカロライナ州キティホークで実を結びました。歴史上初の動力飛行機の飛行を達成したのです。その画期的な飛行はわずか12秒、37メートルに過ぎませんでした。同日さらに3回の飛行を完了しました。最後の飛行は約260メートル、59秒に及びました。彼らの功績は航空産業の始まりを告げ、やがて世界の隅々をつなぐ産業へと発展しました。",
+    "vocab_notes": [
+      {
+        "word": "renowned",
+        "vl": 5000,
+        "definition": "famous and respected"
+      },
+      {
+        "word": "pioneer",
+        "vl": 5000,
+        "definition": "a person who is among the first to explore or develop something"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "その日の最後の飛行はどのくらい続きましたか？",
+        "choices": [
+          "12秒",
+          "37秒",
+          "59秒",
+          "120秒"
+        ],
+        "answer": 2,
+        "expl": "本文に「The final flight stretched to about two hundred sixty meters, lasting fifty-nine seconds」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいことは何ですか？",
+        "choices": [
+          "自転車産業の発展",
+          "ライト兄弟の努力と航空の始まり",
+          "ノースカロライナ州の観光地",
+          "鳥の飛行原理の解明"
+        ],
+        "answer": 1,
+        "expl": "記事はライト兄弟の長年の努力が航空の始まりをもたらしたことを中心に述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W10",
+    "pub_date": "2026-03-09",
+    "source_url": "https://learningenglish.voanews.com/a/wilbur-and-orville-wright-the-first-airp/6951432.html",
+    "source_title": "Wilbur and Orville Wright: The First Airplane",
+    "title": "The Wright Brothers: From a Bicycle Shop to Aviation History",
+    "title_ja": "ライト兄弟：自転車店から航空史へ",
+    "body": "Wilbur Wright, born in 1867, and his brother Orville, born in 1871, transformed human history through their relentless pursuit of powered flight. From their modest bicycle shop in Ohio, the brothers embarked on a systematic study of how air moves around objects, observing how birds manipulated their wings and testing over two hundred wing designs in a wind tunnel they built themselves. Their experimentation culminated on December 17, 1903, at Kitty Hawk, North Carolina, where they achieved the first sustained, controlled, powered airplane flight. That first flight lasted a mere twelve seconds, covering thirty-seven meters. They completed three additional flights that day, the longest spanning approximately two hundred sixty meters in fifty-nine seconds. Their breakthrough validated decades of theoretical speculation about flight and laid the foundation for the modern aviation industry that now carries billions of passengers annually.",
+    "body_ja": "1867年生まれのウィルバー・ライトと1871年生まれの弟オーヴィルは、動力飛行への絶え間ない追求を通じて人類の歴史を変えました。オハイオ州の質素な自転車店から、兄弟は空気が物体の周りをどう動くかの体系的な研究に乗り出しました。鳥がどのように翼を操るかを観察し、自作の風洞で200以上の翼の設計をテストしました。その実験は1903年12月17日、ノースカロライナ州キティホークで頂点に達しました。史上初の持続的で制御された動力飛行機の飛行を達成したのです。その初飛行はわずか12秒、37メートルでした。同日さらに3回の飛行を完了し、最長は約260メートル・59秒に及びました。彼らの画期的な成果は飛行に関する数十年の理論的推測を実証し、現在年間数十億人の乗客を運ぶ現代航空産業の基盤を築きました。",
+    "vocab_notes": [
+      {
+        "word": "culminated",
+        "vl": 7000,
+        "definition": "reached the highest point or final result"
+      },
+      {
+        "word": "speculation",
+        "vl": 7000,
+        "definition": "ideas or guesses about something without firm evidence"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ライト兄弟は翼の設計をどのようにテストしましたか？",
+        "choices": [
+          "実際の鳥を使った",
+          "自作の風洞で実験した",
+          "大学の研究室を借りた",
+          "コンピュータでシミュレーションした"
+        ],
+        "answer": 1,
+        "expl": "本文に「in a wind tunnel they built themselves」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主旨として最も適切なものはどれですか？",
+        "choices": [
+          "風洞実験の技術的詳細",
+          "自転車店経営の成功物語",
+          "体系的研究から航空産業の基盤を築いたライト兄弟の功績",
+          "ノースカロライナ州の航空史"
+        ],
+        "answer": 2,
+        "expl": "記事全体がライト兄弟の体系的な研究アプローチと、それが現代航空産業の基盤になったことを述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_02_vl2000",
+    "vl": "vl2000",
+    "week": "2026W10",
+    "pub_date": "2026-03-11",
+    "source_url": "https://learningenglish.voanews.com/a/methods-for-protecting-earth-against-an-asteroid-strik/7997183.html",
+    "source_title": "Methods for Protecting Earth against an Asteroid Strike",
+    "title": "How to Keep Earth Safe from Space Rocks",
+    "title_ja": "宇宙の岩石から地球を守る方法",
+    "body": "Scientists say there is a small chance a big rock from space could hit Earth in 2032. This could be very dangerous. So, how can we protect ourselves? One way is to hit the rock and change where it goes. In 2022, NASA sent a machine to hit a rock in space. It worked. The rock moved to a different path. Another way is to fly a heavy machine near the rock for a long time. Slowly, it would pull the rock away. If the rock is very big, a strong weapon could break it into smaller pieces. The most important thing is to find these rocks early.",
+    "body_ja": "科学者たちは、2032年に宇宙からの大きな岩が地球に当たる可能性がわずかにあると言っています。これは非常に危険です。では、どうやって自分たちを守ることができるでしょうか？一つの方法は岩に当てて進路を変えることです。2022年、NASAは宇宙の岩に当てる機械を送りました。成功しました。岩は違う進路に移動しました。もう一つの方法は、長い時間岩の近くを重い機械で飛ぶことです。ゆっくりと岩を引き離します。もし岩がとても大きければ、強力な武器で小さな破片に砕くことができます。最も重要なのはこれらの岩を早く見つけることです。",
+    "vocab_notes": [
+      {
+        "word": "protect",
+        "vl": 2000,
+        "definition": "to keep safe from danger or harm"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "NASAが宇宙の岩に物を当てたのはいつですか？",
+        "choices": [
+          "2020年",
+          "2022年",
+          "2030年",
+          "2032年"
+        ],
+        "answer": 1,
+        "expl": "本文に「In 2022, NASA sent a machine to hit a rock in space」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この話は主に何について書いていますか？",
+        "choices": [
+          "NASAの歴史",
+          "宇宙の岩から地球を守る方法",
+          "2032年に何が起こるか",
+          "宇宙で機械を作る方法"
+        ],
+        "answer": 1,
+        "expl": "記事全体が宇宙の岩から地球を守るいくつかの方法について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_02_vl3000",
+    "vl": "vl3000",
+    "week": "2026W10",
+    "pub_date": "2026-03-11",
+    "source_url": "https://learningenglish.voanews.com/a/methods-for-protecting-earth-against-an-asteroid-strik/7997183.html",
+    "source_title": "Methods for Protecting Earth against an Asteroid Strike",
+    "title": "Protecting Earth from Dangerous Space Rocks",
+    "title_ja": "危険な宇宙の岩石から地球を守る",
+    "body": "Scientists estimate there is a small chance that a large space rock could strike Earth in 2032. To prepare, researchers have found several methods. The first is the crash method. In 2022, NASA tested this by sending a machine to hit a space rock. It successfully changed its path. The second method uses gravity. A heavy machine would fly near the rock for many years. Its gravity would slowly pull the rock in a new direction. The third option is to use a nuclear weapon to break apart a very large rock. Scientists say the most important step is to detect these rocks early. With enough warning, we have time to act.",
+    "body_ja": "科学者たちは、2032年に大きな宇宙の岩が地球に衝突する可能性がわずかにあると推定しています。備えるために、研究者たちはいくつかの方法を見つけました。一つ目は衝突法です。2022年、NASAは機械を送って宇宙の岩に衝突させるテストをしました。進路を変えることに成功しました。二つ目の方法は重力を利用します。重い機械が何年もの間、岩の近くを飛びます。その重力が岩をゆっくりと新しい方向に引っ張ります。三つ目の選択肢は、非常に大きな岩を核兵器で砕くことです。科学者たちは最も重要なステップはこれらの岩を早期に発見することだと言います。十分な警告があれば、行動する時間があります。",
+    "vocab_notes": [
+      {
+        "word": "gravity",
+        "vl": 3000,
+        "definition": "the natural force that pulls objects toward each other"
+      },
+      {
+        "word": "detect",
+        "vl": 3000,
+        "definition": "to find or discover something"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "重力を使った方法では、機械は何をしますか？",
+        "choices": [
+          "岩を爆破する",
+          "岩に衝突する",
+          "何年も岩の近くを飛んで方向を変える",
+          "岩の写真を撮る"
+        ],
+        "answer": 2,
+        "expl": "本文に「A heavy machine would fly near the rock for many years. Its gravity would slowly pull the rock in a new direction」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "科学者が最も重要だと考えていることは何ですか？",
+        "choices": [
+          "核兵器の開発",
+          "NASAへの資金提供",
+          "危険な岩の早期発見",
+          "宇宙船の速度向上"
+        ],
+        "answer": 2,
+        "expl": "本文に「the most important step is to detect these rocks early」とあります。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_02_vl5000",
+    "vl": "vl5000",
+    "week": "2026W10",
+    "pub_date": "2026-03-11",
+    "source_url": "https://learningenglish.voanews.com/a/methods-for-protecting-earth-against-an-asteroid-strik/7997183.html",
+    "source_title": "Methods for Protecting Earth against an Asteroid Strike",
+    "title": "Defending Earth from a Space Rock Strike",
+    "title_ja": "宇宙の岩石衝突から地球を防衛する",
+    "body": "Scientists estimate there is a small but real chance that a large space rock could strike Earth around 2032. To address this threat, space agencies have explored several methods of defense. The most tested approach is the crash method, demonstrated by NASA's DART mission in 2022, which deliberately crashed a machine into a space rock to divert its path. A second strategy involves flying a heavy machine alongside a space rock for years, using its pull to gradually shift the rock's direction. For extremely large rocks, a nuclear explosion could break or push them away, though this remains a last option. Experts agree that the foundation of any defense is early detection. Identifying threats decades in advance gives scientists enough time to choose and carry out the best approach.",
+    "body_ja": "科学者たちは、2032年頃に大きな宇宙の岩が地球に衝突する可能性がわずかながら現実的にあると推定しています。この脅威に対処するため、宇宙機関はいくつかの防衛方法を検討してきました。最もテストされたアプローチは衝突法で、2022年のNASAのDARTミッションで実証されました。意図的に機械を宇宙の岩に衝突させ、進路を逸らしました。二つ目の戦略は重い機械が何年も宇宙の岩と並んで飛行し、その引力で岩の方向を徐々にずらすことです。非常に大きな岩に対しては核爆発で砕いたり押し出したりできますが、これは最後の選択肢です。専門家は、あらゆる防衛の基盤は早期発見であると同意しています。脅威を数十年前に特定することで、科学者は最善のアプローチを選択し実行する十分な時間を得られます。",
+    "vocab_notes": [
+      {
+        "word": "divert",
+        "vl": 5000,
+        "definition": "to change the direction or course of something"
+      },
+      {
+        "word": "deliberately",
+        "vl": 5000,
+        "definition": "done on purpose, not by accident"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "NASAのDARTミッションは何年に行われましたか？",
+        "choices": [
+          "2020年",
+          "2022年",
+          "2030年",
+          "2032年"
+        ],
+        "answer": 1,
+        "expl": "本文に「NASA's DART mission in 2022」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の中心的な主張は何ですか？",
+        "choices": [
+          "核兵器が最も効果的な防衛手段である",
+          "宇宙の岩の衝突は避けられない",
+          "早期発見がすべての防衛方法の基盤である",
+          "DARTミッションは失敗だった"
+        ],
+        "answer": 2,
+        "expl": "記事は複数の方法を紹介しつつ、早期発見がすべての基盤であると述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_02_vl7000",
+    "vl": "vl7000",
+    "week": "2026W10",
+    "pub_date": "2026-03-11",
+    "source_url": "https://learningenglish.voanews.com/a/methods-for-protecting-earth-against-an-asteroid-strik/7997183.html",
+    "source_title": "Methods for Protecting Earth against an Asteroid Strike",
+    "title": "Planetary Defense: Strategies against Asteroid Impact",
+    "title_ja": "惑星防衛：小惑星衝突への対策",
+    "body": "Astronomers estimate there is a slim probability that an asteroid could collide with Earth around 2032. This scenario has driven space agencies to develop multiple strategies for planetary defense. The most validated approach is the kinetic deflection method, successfully demonstrated by NASA's DART mission in 2022, which deliberately crashed a spacecraft into an asteroid to alter its trajectory. An alternative strategy is the gravity tractor, wherein a massive spacecraft orbits alongside an asteroid for years, using its gravitational influence to incrementally deflect the object's course. For exceptionally large asteroids, a nuclear detonation could fragment or push them away, though this remains a last resort. Experts unanimously stress that all these methods depend on early detection. Identifying a threatening asteroid decades before a potential impact provides the critical lead time needed to mount an effective response.",
+    "body_ja": "天文学者たちは、2032年頃に小惑星が地球に衝突する確率がわずかにあると推定しています。このシナリオが宇宙機関に惑星防衛のための複数の戦略開発を促しました。最も実証されたアプローチは運動エネルギー偏向法で、2022年のNASAのDARTミッションで成功裏に実証されました。宇宙船を意図的に小惑星に衝突させ、軌道を変えました。代替戦略は重力トラクターで、巨大な宇宙船が何年もの間小惑星と並んで周回し、重力の影響で少しずつ天体の進路を逸らします。特に大きな小惑星には核爆発で破砕または押し出すことができますが、これは最後の手段です。専門家は一様に、これらすべての方法が早期発見に依存していると強調します。潜在的な衝突の数十年前に脅威となる小惑星を特定することで、効果的な対応を展開するのに必要な重要なリードタイムが得られます。",
+    "vocab_notes": [
+      {
+        "word": "asteroid",
+        "vl": 7000,
+        "definition": "a small rocky body orbiting the sun, mostly between Mars and Jupiter"
+      },
+      {
+        "word": "trajectory",
+        "vl": 3000,
+        "definition": "the curved path of an object moving through space"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "重力トラクター法はどのように機能しますか？",
+        "choices": [
+          "小惑星にロケットを取り付ける",
+          "小惑星を核爆発で破壊する",
+          "巨大な宇宙船が長年かけて重力で軌道を逸らす",
+          "小惑星に直接衝突する"
+        ],
+        "answer": 2,
+        "expl": "本文に「a massive spacecraft orbits alongside an asteroid for years, using its gravitational influence to incrementally deflect the object's course」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の最も重要なメッセージは何ですか？",
+        "choices": [
+          "核兵器は惑星防衛に不可欠である",
+          "DARTミッションが唯一の解決策である",
+          "早期発見なしにはどの防衛戦略も機能しない",
+          "2032年に小惑星が確実に衝突する"
+        ],
+        "answer": 2,
+        "expl": "記事は全ての防衛方法が早期発見に依存しており、それなしには対応が劇的に制限されると結論づけています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_03_vl2000",
+    "vl": "vl2000",
+    "week": "2026W10",
+    "pub_date": "2026-03-13",
+    "source_url": "https://learningenglish.voanews.com/a/total-lunar-eclipse-to-turn-moon-red/6951476.html",
+    "source_title": "Total Lunar Eclipse to Turn Moon Red",
+    "title": "Why the Night Sky Sometimes Turns Red",
+    "title_ja": "夜空が時々赤くなる理由",
+    "body": "Sometimes a big round light in the night sky turns red. This happens when Earth moves between the sun and that light. Earth stops the sun's light from reaching it. But it does not disappear completely. It turns red instead. This is because Earth's air changes the direction of some light. The red part of the light can still reach it and makes it look red. Some people call this a blood event because of the red color. Many people across a large part of the world can see it. The red color lasts for about an hour. People have watched this beautiful event for thousands of years.",
+    "body_ja": "時々、夜空の大きな丸い光が赤く変わります。これは地球が太陽とその光の間に移動するときに起こります。地球が太陽の光がそこに届くのを止めます。しかし完全に消えるわけではありません。代わりに赤くなります。これは地球の空気が光の方向を変えるためです。光の赤い部分はまだ届くことができ、赤く見えます。赤い色のため、これをブラッドイベントと呼ぶ人もいます。世界の広い範囲の多くの人々がそれを見ることができます。赤い色は約1時間続きます。人々は何千年もの間この美しいイベントを見てきました。",
+    "vocab_notes": [
+      {
+        "word": "disappear",
+        "vl": 2000,
+        "definition": "to stop being seen; to go away"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "赤い色はどのくらい続きますか？",
+        "choices": [
+          "約10分",
+          "約30分",
+          "約1時間",
+          "約3時間"
+        ],
+        "answer": 2,
+        "expl": "本文に「The red color lasts for about an hour」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この話は主に何を説明していますか？",
+        "choices": [
+          "地球が太陽の周りを回る理由",
+          "夜空の光が赤く見える仕組み",
+          "太陽の光の色の種類",
+          "空気が存在する理由"
+        ],
+        "answer": 1,
+        "expl": "記事全体が夜空の光が赤く見える現象の仕組みを説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_03_vl3000",
+    "vl": "vl3000",
+    "week": "2026W10",
+    "pub_date": "2026-03-13",
+    "source_url": "https://learningenglish.voanews.com/a/total-lunar-eclipse-to-turn-moon-red/6951476.html",
+    "source_title": "Total Lunar Eclipse to Turn Moon Red",
+    "title": "The Blood Moon: When Earth's Shadow Turns the Moon Red",
+    "title_ja": "ブラッドムーン：地球の影が月を赤く染めるとき",
+    "body": "A total moon shadow event occurs when Earth passes directly between the sun and the moon. Earth's shadow completely covers the moon, but the moon does not disappear. Instead, it turns a deep red color. This is sometimes called a blood moon. The red color happens because Earth's atmosphere changes the direction of some of the sun's light. While most colors in the light are scattered away, red light can pass through and reach the moon's surface. People across the western half of the world can often watch it without any special tools. The deepest red phase lasts about an hour. These events have amazed humans for centuries.",
+    "body_ja": "月の完全な影のイベントは、地球が太陽と月の直接間を通過するときに起こります。地球の影が月を完全に覆いますが、月は消えません。代わりに深い赤色に変わります。これはブラッドムーンと呼ばれることがあります。赤い色は、地球の大気が太陽の光の一部の方向を変えるために起こります。光の中のほとんどの色は散乱しますが、赤い光は通過して月の表面に届きます。世界の西半分の人々は特別な道具なしでよく観察できます。最も深い赤の段階は約1時間続きます。これらのイベントは何世紀も人々を驚かせてきました。",
+    "vocab_notes": [
+      {
+        "word": "shadow",
+        "vl": 3000,
+        "definition": "a dark area made when something blocks light"
+      },
+      {
+        "word": "scatter",
+        "vl": 3000,
+        "definition": "to spread in many different directions"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "月が赤く見えるのはなぜですか？",
+        "choices": [
+          "月自体が熱を持つから",
+          "地球の大気が赤い光を通すから",
+          "太陽が赤くなるから",
+          "宇宙に赤い物質があるから"
+        ],
+        "answer": 1,
+        "expl": "本文に「Earth's atmosphere changes the direction of some of the sun's light...red light can pass through and reach the moon's surface」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主なテーマは何ですか？",
+        "choices": [
+          "古代人の迷信について",
+          "ブラッドムーンの仕組みと観察方法",
+          "地球の大気の構造",
+          "月の表面の特徴"
+        ],
+        "answer": 1,
+        "expl": "記事はブラッドムーンが起こる仕組みと、どのように観察できるかを中心に説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_03_vl5000",
+    "vl": "vl5000",
+    "week": "2026W10",
+    "pub_date": "2026-03-13",
+    "source_url": "https://learningenglish.voanews.com/a/total-lunar-eclipse-to-turn-moon-red/6951476.html",
+    "source_title": "Total Lunar Eclipse to Turn Moon Red",
+    "title": "Total Moon Shadow: The Science behind the Blood Moon",
+    "title_ja": "皆既月影：ブラッドムーンの背後にある科学",
+    "body": "A total moon shadow event transforms the moon into a striking red color, a phenomenon known as a blood moon. This occurs when Earth moves precisely between the sun and the moon, casting its shadow entirely over the moon's surface. Despite being in shadow, the moon does not disappear. Instead, Earth's atmosphere acts like curved glass, bending light from the sun around the planet. Shorter types of light, such as blue and green, are scattered away by the atmosphere, while longer red light passes through and reaches the moon. The result is a deep red color that lasts approximately one hour during the peak phase. The entire event spans several hours. Blood moons are visible across the western part of the world and need no special equipment to observe. Throughout history, these events have inspired both wonder and fear among different cultures.",
+    "body_ja": "皆既月影イベントは月を印象的な赤色に変え、ブラッドムーンとして知られる現象です。これは地球が太陽と月の正確に間に移動し、月の表面全体に影を落とすときに起こります。影の中にあるにもかかわらず、月は消えません。代わりに、地球の大気が曲面ガラスのように作用し、太陽からの光を惑星の周りに曲げます。青や緑などの短い種類の光は大気によって散乱されますが、長い赤い光は通過して月に届きます。その結果、ピーク時に約1時間続く深い赤い色となります。全体のイベントは数時間に及びます。ブラッドムーンは世界の西側で観察でき、特別な機器は不要です。歴史を通じて、これらのイベントはさまざまな文化で驚嘆と恐怖の両方を引き起こしてきました。",
+    "vocab_notes": [
+      {
+        "word": "phenomenon",
+        "vl": 3000,
+        "definition": "something that happens or exists in nature or society"
+      },
+      {
+        "word": "approximately",
+        "vl": 5000,
+        "definition": "close to an exact amount but not completely exact"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "なぜ青や緑の光は月に届かないのですか？",
+        "choices": [
+          "月に吸収されるから",
+          "地球の大気で散乱されるから",
+          "太陽が赤い光しか出さないから",
+          "宇宙空間で消えるから"
+        ],
+        "answer": 1,
+        "expl": "本文に「Shorter types of light, such as blue and green, are scattered away by the atmosphere」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいことは何ですか？",
+        "choices": [
+          "ブラッドムーンは危険な現象である",
+          "大気の科学的な仕組みがブラッドムーンを生む",
+          "特別な望遠鏡がないと見えない",
+          "古代文化の月への信仰"
+        ],
+        "answer": 1,
+        "expl": "記事は大気が光を曲げたり散乱させたりする仕組みによってブラッドムーンが起こることを科学的に説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W10_03_vl7000",
+    "vl": "vl7000",
+    "week": "2026W10",
+    "pub_date": "2026-03-13",
+    "source_url": "https://learningenglish.voanews.com/a/total-lunar-eclipse-to-turn-moon-red/6951476.html",
+    "source_title": "Total Lunar Eclipse to Turn Moon Red",
+    "title": "Total Lunar Eclipse: The Science of a Blood Moon",
+    "title_ja": "皆既月食：ブラッドムーンの科学",
+    "body": "A total lunar eclipse transforms the moon into a dramatic blood-red spectacle, a celestial event that has fascinated humanity for thousands of years. The phenomenon occurs when Earth's position places it precisely between the sun and the moon, causing Earth's shadow to cover the lunar surface entirely. Remarkably, the moon does not disappear into darkness. Earth's atmosphere bends sunlight around the planet's edge. During this process, shorter wavelengths such as blue and violet are scattered by atmospheric particles, while longer red wavelengths penetrate through and illuminate the moon's surface. The resulting crimson glow persists for approximately one hour during the deepest phase, though the entire eclipse spans several hours. This spectacle is visible across the Western Hemisphere without special equipment. Ancient civilizations often interpreted the blood moon as a warning sign, whereas modern astronomy celebrates it as an elegant demonstration of how our atmosphere interacts with light.",
+    "body_ja": "皆既月食は月を劇的な血のように赤いスペクタクルに変え、何千年もの間人類を魅了してきた天体イベントです。この現象は地球の位置が太陽と月の正確に間に来るときに起こり、地球の影が月面全体を覆います。驚くべきことに、月は暗闇に消えません。地球の大気が惑星の縁の周りに太陽光を曲げます。この過程で、青や紫などの短い波長は大気中の粒子によって散乱されますが、長い赤い波長は通過して月面を照らします。その結果生じる深紅の輝きは最も深い段階で約1時間持続しますが、月食全体は数時間に及びます。この壮観な現象は西半球で特別な機器なしで観察できます。古代文明はブラッドムーンを警告の兆候と解釈することが多かったのに対し、現代天文学はそれを大気が光とどう作用するかの優美な実証として称えています。",
+    "vocab_notes": [
+      {
+        "word": "lunar",
+        "vl": 7000,
+        "definition": "relating to the moon"
+      },
+      {
+        "word": "celestial",
+        "vl": 7000,
+        "definition": "relating to the sky or outer space"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "皆既月食中、月面を照らすのはどの種類の光ですか？",
+        "choices": [
+          "青い短波長の光",
+          "紫外線",
+          "長い赤い波長の光",
+          "月自身が放つ光"
+        ],
+        "answer": 2,
+        "expl": "本文に「longer red wavelengths penetrate through and illuminate the moon's surface」とあります。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主旨として最も適切なものはどれですか？",
+        "choices": [
+          "古代文明の天文学的知識",
+          "月食の観察に必要な機材",
+          "大気が光を曲げ散乱させることでブラッドムーンが生じる仕組み",
+          "西半球の地理的特徴"
+        ],
+        "answer": 2,
+        "expl": "記事は大気が太陽光を曲げたり散乱させたりすることでブラッドムーンが生じるメカニズムを詳細に説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W11",
+    "pub_date": "2026-03-16",
+    "source_url": "https://learningenglish.voanews.com/a/study-shows-how-earth-s-orbit-affects-ic/6951478.html",
+    "source_title": "Study Shows How Earth's Orbit Affects Ice Ages",
+    "title": "Earth's Path and Ice Ages",
+    "title_ja": "地球の軌道と氷河期",
+    "body": "A new study shows that Earth's path around the sun changes over thousands of years. These changes affect how much light reaches Earth. When less light reaches us, the world gets very cold. Large areas become covered in ice for a long time. This is called an ice age. When more light comes, it gets warm again. This pattern has continued for a very long time. The study says the next ice age may come in about eleven thousand years. But human activity is putting gases into the air that make it warm. Scientists think this may delay the next ice age.",
+    "body_ja": "新しい研究によると、地球の太陽の周りの軌道は数千年かけて変化します。これらの変化は光がどれだけ地球に届くかに影響します。光が少なく届くと、世界は非常に寒くなります。広い地域が長い間氷に覆われます。これを氷河期と呼びます。光がより多く届くと、再び暖かくなります。このパターンは非常に長い間続いています。この研究は次の氷河期が約1万1千年後に来る可能性があると述べています。しかし人間の活動が空気を暖かくするガスを放出しています。科学者たちはこれが次の氷河期を遅らせるかもしれないと考えています。",
+    "vocab_notes": [
+      {
+        "word": "ice age",
+        "vl": null,
+        "definition": "a very long period when large areas of earth are covered in ice"
+      },
+      {
+        "word": "delay",
+        "vl": 2000,
+        "definition": "to make something happen later than planned"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "研究によると、次の氷河期はいつ頃来る可能性がありますか？",
+        "choices": [
+          "約1千年後",
+          "約1万1千年後",
+          "約10万年後",
+          "約100万年後"
+        ],
+        "answer": 1,
+        "expl": "本文に「the next ice age may come in about eleven thousand years」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主な内容は何ですか？",
+        "choices": [
+          "人間の活動が地球を寒くしている",
+          "地球の軌道の変化が氷河期に関係し、人間の活動がそのサイクルに影響する可能性がある",
+          "太陽の光は年々弱くなっている",
+          "氷河期は二度と来ない"
+        ],
+        "answer": 1,
+        "expl": "記事は地球の軌道変化が氷河期を引き起こすこと、そして人間の活動がそのサイクルを遅らせる可能性があることを説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W11",
+    "pub_date": "2026-03-16",
+    "source_url": "https://learningenglish.voanews.com/a/study-shows-how-earth-s-orbit-affects-ic/6951478.html",
+    "source_title": "Study Shows How Earth's Orbit Affects Ice Ages",
+    "title": "How Earth's Path Around the Sun Creates Ice Ages",
+    "title_ja": "地球の太陽周回がいかに氷河期を作り出すか",
+    "body": "A recent study explains how Earth's path around the sun changes slowly over thousands of years. These changes affect how much sunlight reaches our planet. When Earth receives less sunlight, temperatures fall and large areas become covered in thick ice for long periods. Scientists call these cold periods ice ages. When Earth receives more sunlight, temperatures rise and the ice slowly disappears. This natural cycle of warming and cooling has continued for millions of years. According to the study, the next ice age could arrive in approximately eleven thousand years. However, carbon dioxide and other emissions from human activity are warming the atmosphere. Scientists believe these emissions could delay or even prevent the next natural cooling period from happening as expected.",
+    "body_ja": "最近の研究は、地球の太陽の周りの軌道が数千年かけてゆっくり変化する仕組みを説明しています。これらの変化は太陽光がどれだけ地球に届くかに影響します。地球が受ける太陽光が少なくなると、気温が下がり広い地域が長期間厚い氷に覆われます。科学者たちはこれらの寒冷期を氷河期と呼びます。地球がより多くの太陽光を受けると、気温が上がり氷はゆっくり消えていきます。この温暖化と寒冷化の自然なサイクルは何百万年も続いています。研究によると、次の氷河期は約1万1千年後に到来する可能性があります。しかし、人間の活動による二酸化炭素やその他の排出物が大気を温めています。科学者たちはこれらの排出物が次の自然な寒冷期を遅らせたり、あるいは防いだりする可能性があると考えています。",
+    "vocab_notes": [
+      {
+        "word": "carbon dioxide",
+        "vl": 3000,
+        "definition": "a gas produced when people breathe out or burn fuel"
+      },
+      {
+        "word": "emissions",
+        "vl": 3000,
+        "definition": "gases sent into the air, especially from factories and cars"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "氷河期が起こる原因として本文で述べられていることは何ですか？",
+        "choices": [
+          "火山の噴火",
+          "地球に届く太陽光の量が減ること",
+          "海面の上昇",
+          "月の引力の変化"
+        ],
+        "answer": 1,
+        "expl": "本文に「When Earth receives less sunlight, temperatures fall and large areas become covered in thick ice」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいことは何ですか？",
+        "choices": [
+          "地球はすぐに氷河期に入る",
+          "太陽光は年々強くなっている",
+          "地球の軌道変化が氷河期を生み出すが、人間の排出物がそのサイクルを変える可能性がある",
+          "二酸化炭素は自然の一部で問題ない"
+        ],
+        "answer": 2,
+        "expl": "記事は自然な軌道サイクルが氷河期を引き起こすこと、そして人間の排出物がそのサイクルを遅らせたり防いだりする可能性があると述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W11",
+    "pub_date": "2026-03-16",
+    "source_url": "https://learningenglish.voanews.com/a/study-shows-how-earth-s-orbit-affects-ic/6951478.html",
+    "source_title": "Study Shows How Earth's Orbit Affects Ice Ages",
+    "title": "Earth's Orbital Shifts and the Timing of Ice Ages",
+    "title_ja": "地球の軌道変動と氷河期のタイミング",
+    "body": "A new study reveals how gradual changes in Earth's path around the sun have driven the cycle of ice ages throughout history. Over thousands of years, Earth's path shifts slightly, altering the amount of sunlight that reaches the planet's surface. During periods when less sunlight arrives, temperatures drop and vast areas become buried under thick sheets of ice. These ice ages can last tens of thousands of years before warming returns. The researchers estimate that the next natural ice age would begin in approximately eleven thousand years. However, greenhouse gas emissions from human activity are significantly warming the atmosphere. The study warns that elevated carbon dioxide levels could disrupt this ancient cycle, potentially delaying or even preventing the next ice age. This finding highlights how human influence now rivals the natural forces that have shaped Earth's climate for millions of years.",
+    "body_ja": "新しい研究は、地球の太陽の周りの軌道の緩やかな変化が歴史を通じて氷河期のサイクルをどのように駆動してきたかを明らかにしています。数千年かけて地球の軌道はわずかに変化し、地表に届く太陽光の量を変えます。太陽光が少なく届く期間には、気温が下がり広大な地域が厚い氷の層の下に埋もれます。これらの氷河期は温暖化が戻るまで数万年続くことがあります。研究者たちは次の自然な氷河期が約1万1千年後に始まると推定しています。しかし、人間の活動による温室効果ガスの排出が大気を大幅に温めています。この研究は、二酸化炭素濃度の上昇がこの太古のサイクルを乱し、次の氷河期を遅らせたり防いだりする可能性があると警告しています。この発見は、人間の影響が今や何百万年も地球の気候を形成してきた自然の力に匹敵するようになったことを浮き彫りにしています。",
+    "vocab_notes": [
+      {
+        "word": "greenhouse gas",
+        "vl": 5000,
+        "definition": "a gas like carbon dioxide that traps heat in the atmosphere"
+      },
+      {
+        "word": "elevated",
+        "vl": 5000,
+        "definition": "higher than normal or expected"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "研究者たちは、人間の排出物が氷河期のサイクルにどのような影響を与えると警告していますか？",
+        "choices": [
+          "氷河期を早める",
+          "氷河期を遅らせたり防いだりする可能性がある",
+          "氷河期をより寒くする",
+          "氷河期のサイクルには影響しない"
+        ],
+        "answer": 1,
+        "expl": "本文に「elevated carbon dioxide levels could disrupt this ancient cycle, potentially delaying or even preventing the next ice age」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の中心的なメッセージは何ですか？",
+        "choices": [
+          "氷河期は過去のもので今後は起こらない",
+          "人間の活動は地球の気候サイクルに影響を与えるほどの力を持つようになった",
+          "地球の軌道は変化しない",
+          "温室効果ガスは自然現象である"
+        ],
+        "answer": 1,
+        "expl": "記事は、人間の影響が自然の力に匹敵し、氷河期のサイクルを変える可能性があるという点を強調しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W11",
+    "pub_date": "2026-03-16",
+    "source_url": "https://learningenglish.voanews.com/a/study-shows-how-earth-s-orbit-affects-ic/6951478.html",
+    "source_title": "Study Shows How Earth's Orbit Affects Ice Ages",
+    "title": "How Earth's Orbital Wobble Governs Ice Ages",
+    "title_ja": "地球の軌道の揺れが氷河期を支配する仕組み",
+    "body": "A landmark study has shed light on how subtle changes in Earth's orbit around the sun have governed the onset and retreat of ice ages for millions of years. The planet's path is not fixed. It wobbles and shifts over cycles spanning tens of thousands of years, altering how sunlight is distributed across the surface. When this geometry reduces solar energy reaching the Northern Hemisphere, temperatures plunge and massive glaciers advance across continents. The researchers calculate that the next naturally occurring ice age would commence in roughly eleven thousand years. Yet human greenhouse gas emissions are fundamentally altering this ancient rhythm. The authors caution that current carbon dioxide levels, already far above historical norms, could override this forcing entirely, postponing or permanently disrupting the ice age cycle. This represents an unprecedented shift in which mankind's industrial impact now surpasses the forces that have shaped our planet's climate since long before civilization emerged.",
+    "body_ja": "画期的な研究が、地球の太陽周回軌道の微妙な変化が何百万年もの間、氷河期の始まりと後退をどのように支配してきたかに光を当てました。地球の軌道は固定されていません。数万年にわたるサイクルで揺れ動き、太陽光が地表にどう分配されるかを変化させます。この形状が北半球に届く太陽エネルギーを減少させると、気温は急落し巨大な氷河が大陸を覆って前進します。研究者たちは次の自然に発生する氷河期がおよそ1万1千年後に始まると計算しています。しかし人間の温室効果ガスの排出がこの太古のリズムを根本的に変えつつあります。著者たちは、すでに歴史的基準をはるかに超えている現在の二酸化炭素レベルがこの強制力を完全に無効化し、氷河期サイクルを延期または恒久的に乱す可能性があると警告しています。これは人類の産業活動の影響が、文明の出現よりはるか以前から地球の気候を形成してきた力を凌駕するという前例のない転換を意味しています。",
+    "vocab_notes": [
+      {
+        "word": "wobble",
+        "vl": 7000,
+        "definition": "to move unsteadily from side to side"
+      },
+      {
+        "word": "footprint",
+        "vl": 7000,
+        "definition": "the impact or effect of an activity on the environment"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "研究者たちが現在の二酸化炭素濃度について述べていることは何ですか？",
+        "choices": [
+          "歴史的基準と同じレベルである",
+          "歴史的基準をはるかに超えている",
+          "過去より低い",
+          "測定不可能である"
+        ],
+        "answer": 1,
+        "expl": "本文に「current carbon dioxide concentrations, already far above historical norms」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の最も重要な論点は何ですか？",
+        "choices": [
+          "軌道の変化は地球の気候に影響しない",
+          "人間の産業活動が天文学的な力を凌駕し、氷河期サイクルを根本的に変える可能性がある",
+          "次の氷河期は予定通り来る",
+          "温室効果ガスは地球を冷やす効果がある"
+        ],
+        "answer": 1,
+        "expl": "記事は、人類の産業活動の影響が天文学的な力を凌駕するという前例のない転換について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_02_vl2000",
+    "vl": "vl2000",
+    "week": "2026W11",
+    "pub_date": "2026-03-18",
+    "source_url": "https://learningenglish.voanews.com/a/a-short-history-of-spacecraft-landings-on-the-moo/7571629.html",
+    "source_title": "A Short History of Spacecraft Landings on the Moon",
+    "title": "Machines Sent to Space",
+    "title_ja": "宇宙に送られた機械たち",
+    "body": "People have sent machines to land on Earth's nearest space body for many years. In 1966 the Soviet Union sent the first machine there. Three years later in 1969 the United States sent people there. Neil Armstrong was the first person to walk on its surface. Since then several countries have sent machines. China landed one on the far side in 2019. No one had done this before. India landed a machine there in 2023. Some private companies have tried too but some of these tries have failed. It is still very hard to do.",
+    "body_ja": "人々は長年にわたり、地球に最も近い天体に着陸する機械を送ってきました。1966年にソビエト連邦が初めてそこに機械を送りました。3年後の1969年にアメリカが人間をそこに送りました。ニール・アームストロングはその表面を歩いた最初の人間でした。それ以来、いくつかの国が機械を送っています。中国は2019年にその裏側に機械を着陸させました。それ以前に誰もこれを成し遂げていませんでした。インドは2023年にそこに機械を着陸させました。いくつかの民間企業も試みましたが、そのうちいくつかは失敗しました。これは今でも非常に難しいのです。",
+    "vocab_notes": [
+      {
+        "word": "the Soviet Union",
+        "vl": null,
+        "definition": "a large country that existed from 1922 to 1991, including Russia and other nations"
+      },
+      {
+        "word": "the far side",
+        "vl": null,
+        "definition": "the part of the moon that always faces away from Earth"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "最初に月面に着陸した機械を送った国はどこですか？",
+        "choices": [
+          "アメリカ",
+          "中国",
+          "ソビエト連邦",
+          "インド"
+        ],
+        "answer": 2,
+        "expl": "本文に「In 1966 the Soviet Union sent the first machine to land on the moon」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "ニール・アームストロングの人生",
+          "月への着陸の歴史",
+          "宇宙旅行の危険性",
+          "中国の宇宙開発計画"
+        ],
+        "answer": 1,
+        "expl": "記事は1966年から現在までの月面着陸の歴史を時系列で紹介しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_02_vl3000",
+    "vl": "vl3000",
+    "week": "2026W11",
+    "pub_date": "2026-03-18",
+    "source_url": "https://learningenglish.voanews.com/a/a-short-history-of-spacecraft-landings-on-the-moo/7571629.html",
+    "source_title": "A Short History of Spacecraft Landings on the Moon",
+    "title": "A History of Moon Landings",
+    "title_ja": "月面着陸の歴史",
+    "body": "Humans have been sending machines to the moon since the 1960s. The Soviet Union achieved the first successful moon landing in 1966 with its Luna 9 probe. Three years later the United States made history when Apollo 11 carried the first humans to the moon in July 1969. Neil Armstrong became the first person to walk on its surface. Since those early missions several countries have sent machines to the moon. China made a major achievement in 2019 by landing on the far side of the moon. This was something no country had ever done before. India joined the group in 2023 with a successful landing. Some private companies have also attempted moon landings but several of these missions have failed. Reaching the moon remains a great challenge.",
+    "body_ja": "人類は1960年代から月に機械を送り続けています。ソビエト連邦は1966年にルナ9号で最初の月面着陸に成功しました。3年後の1969年7月、アメリカはアポロ11号で初めて人間を月に運び歴史を作りました。ニール・アームストロングは月面を歩いた最初の人物となりました。これらの初期のミッション以来、いくつかの国が月に機械を送っています。中国は2019年に月の裏側への着陸という大きな偉業を成し遂げました。これはどの国もそれまで行ったことがないことでした。インドは2023年に着陸に成功しこのグループに加わりました。いくつかの民間企業も月面着陸を試みましたが、これらのミッションのいくつかは失敗しました。月に到達することは今なお大きな挑戦です。",
+    "vocab_notes": [
+      {
+        "word": "probe",
+        "vl": 3000,
+        "definition": "a machine sent into space to collect information"
+      },
+      {
+        "word": "achievement",
+        "vl": 3000,
+        "definition": "something important that is done successfully"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "中国が2019年に達成したことは何ですか？",
+        "choices": [
+          "初めて人間を月に送った",
+          "月の裏側に着陸した",
+          "月から岩石を持ち帰った",
+          "月に基地を建設した"
+        ],
+        "answer": 1,
+        "expl": "本文に「China made a major achievement in 2019 by landing on the far side of the moon」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事から最もよく分かることは何ですか？",
+        "choices": [
+          "月面着陸は簡単になった",
+          "多くの国や企業が月面着陸に挑戦してきたが、それは今でも難しい課題である",
+          "民間企業だけが月に行っている",
+          "月面着陸はもう行われていない"
+        ],
+        "answer": 1,
+        "expl": "記事は複数の国や企業による月面着陸の歴史を紹介しつつ、それが今でも大きな挑戦であることを述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_02_vl5000",
+    "vl": "vl5000",
+    "week": "2026W11",
+    "pub_date": "2026-03-18",
+    "source_url": "https://learningenglish.voanews.com/a/a-short-history-of-spacecraft-landings-on-the-moo/7571629.html",
+    "source_title": "A Short History of Spacecraft Landings on the Moon",
+    "title": "From Luna 9 to Modern Moon Missions",
+    "title_ja": "ルナ9号から現代の月面ミッションまで",
+    "body": "The history of moon landings stretches back to the Cold War era. In 1966 the Soviet Union's Luna 9 became the first spacecraft to achieve a soft landing on the moon. The United States followed with the historic Apollo 11 mission in July 1969 when Neil Armstrong became the first human to set foot on the surface. After a long pause in moon exploration several nations renewed their efforts. China achieved a milestone in 2019 by landing a spacecraft on the far side of the moon, a feat no other nation had accomplished. India successfully reached the moon in 2023. More recently private companies have entered the race to land on the moon but some of these ventures have ended in failure. Despite advances in technology landing on the moon remains an extremely demanding task that challenges even the most experienced space programs.",
+    "body_ja": "月面着陸の歴史は冷戦時代にまで遡ります。1966年、ソビエト連邦のルナ9号が月面への軟着陸に成功した最初の宇宙船となりました。アメリカは1969年7月の歴史的なアポロ11号ミッションで続き、ニール・アームストロングが月面に足を踏み入れた最初の人間となりました。月の探査に長い中断期間があった後、いくつかの国が努力を再開しました。中国は2019年に月の裏側に宇宙船を着陸させるという画期的な偉業を達成しました。インドは2023年に月への到達に成功しました。最近では民間企業も月面着陸競争に参入していますが、これらの事業のいくつかは失敗に終わっています。技術の進歩にもかかわらず、月面着陸は最も経験豊富な宇宙計画でさえも試される極めて困難な課題であり続けています。",
+    "vocab_notes": [
+      {
+        "word": "milestone",
+        "vl": 5000,
+        "definition": "an important event or achievement in the development of something"
+      },
+      {
+        "word": "exploration",
+        "vl": 5000,
+        "definition": "the act of searching and learning about an unknown place"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "ルナ9号の着陸が特別だった理由は何ですか？",
+        "choices": [
+          "人間が乗っていた",
+          "月面への軟着陸に成功した最初の宇宙船だった",
+          "月の裏側に着陸した",
+          "月から岩石を回収した"
+        ],
+        "answer": 1,
+        "expl": "本文に「Luna 9 became the first spacecraft to achieve a soft landing on the moon」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主要なテーマは何ですか？",
+        "choices": [
+          "宇宙船の技術的な仕組み",
+          "月面着陸は1960年代から続く挑戦であり、国や企業が成功と失敗を重ねてきた",
+          "民間企業は月面着陸をすべきではない",
+          "アメリカだけが月面着陸に成功した"
+        ],
+        "answer": 1,
+        "expl": "記事は1960年代から現在までの月面着陸の歴史を、成功と失敗の両面から描いています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_02_vl7000",
+    "vl": "vl7000",
+    "week": "2026W11",
+    "pub_date": "2026-03-18",
+    "source_url": "https://learningenglish.voanews.com/a/a-short-history-of-spacecraft-landings-on-the-moo/7571629.html",
+    "source_title": "A Short History of Spacecraft Landings on the Moon",
+    "title": "Six Decades of Lunar Landings",
+    "title_ja": "月面着陸の60年",
+    "body": "The quest to land on the moon began during the fierce space race of the Cold War. In 1966 the Soviet Union's Luna 9 achieved the first successful soft touchdown on the lunar surface, transmitting photographs back to Earth. Just three years later the United States stunned the world when Apollo 11 astronauts Neil Armstrong and Buzz Aldrin walked on the moon in July 1969. After decades of relative quiet a new wave of lunar missions emerged. China broke new ground in 2019 by landing a spacecraft on the far side of the moon, capturing geological data that had never been collected before. India followed with a triumphant landing in 2023. Meanwhile several private ventures have attempted lunar landings with mixed results, some ending in spectacular crashes. These setbacks underscore that despite six decades of progress, the moon's unforgiving terrain and vacuum continue to humble even the most sophisticated engineering efforts.",
+    "body_ja": "月面着陸への探求は冷戦の激しい宇宙開発競争の中で始まりました。1966年、ソビエト連邦のルナ9号が月面への最初の軟着陸に成功し、写真を地球に送信しました。わずか3年後の1969年7月、アポロ11号の宇宙飛行士ニール・アームストロングとバズ・オルドリンが月面を歩き世界を驚かせました。比較的静かな数十年の後、新たな月面ミッションの波が現れました。中国は2019年に月の裏側に宇宙船を着陸させるという新境地を開き、それまで収集されたことのない地質データを取得しました。インドは2023年に見事な着陸を果たしました。一方、いくつかの民間事業が月面着陸を試みましたが結果はまちまちで、劇的な衝突に終わったものもあります。これらの挫折は、60年の進歩にもかかわらず、月の容赦のない地形と真空が最も洗練された工学的努力でさえも困難に直面させ続けていることを浮き彫りにしています。",
+    "vocab_notes": [
+      {
+        "word": "lunar",
+        "vl": 7000,
+        "definition": "relating to the moon"
+      },
+      {
+        "word": "touchdown",
+        "vl": 7000,
+        "definition": "the moment when a spacecraft lands on a surface"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "民間企業の月面着陸の結果についてどのように述べられていますか？",
+        "choices": [
+          "すべて成功した",
+          "すべて失敗した",
+          "結果はまちまちで、衝突に終わったものもあった",
+          "まだ試みていない"
+        ],
+        "answer": 2,
+        "expl": "本文に「several private ventures have attempted lunar landings with mixed results, some ending in spectacular crashes」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が伝えようとしている最も重要な点は何ですか？",
+        "choices": [
+          "月面着陸は簡単な技術になった",
+          "60年の技術進歩にもかかわらず月面着陸は依然として非常に困難な挑戦である",
+          "民間企業は宇宙に行くべきではない",
+          "ソビエト連邦がすべての宇宙開発で一番だった"
+        ],
+        "answer": 1,
+        "expl": "記事は歴史を振り返りつつ、最後に月面着陸が今でも非常に困難であることを強調しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_03_vl2000",
+    "vl": "vl2000",
+    "week": "2026W11",
+    "pub_date": "2026-03-20",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-link-gene-to-human-speec/6951464.html",
+    "source_title": "Scientists Link Gene to Human Speech",
+    "title": "Why Only Humans Can Talk",
+    "title_ja": "なぜ人間だけが話せるのか",
+    "body": "A new study says that human speech may be connected to a special part of our body. Scientists found a small part inside our cells that helps us speak. It is called FOXP2. Only humans have this special form. Other animals have something like it but the human form is different. People who have damage to this part have trouble speaking. Scientists think this change happened about two hundred thousand years ago. Before this change early humans could not speak the way we do today. This finding helps us understand why humans are the only animals that can use language to talk to each other.",
+    "body_ja": "新しい研究は、人間の話す能力が体の中の特別な部分に関係している可能性があると述べています。科学者たちは私たちの細胞の中にある、話すのを助ける小さな部分を見つけました。それはFOXP2と呼ばれます。この特別な形を持っているのは人間だけです。他の動物にも似たものがありますが、人間の形は異なります。この部分に損傷がある人は話すことに困難を抱えます。科学者たちはこの変化が約20万年前に起きたと考えています。この変化以前、初期の人間は今日の私たちのようには話すことができませんでした。この発見は、なぜ人間だけが言語を使って互いに話すことができる動物なのかを理解する助けになります。",
+    "vocab_notes": [
+      {
+        "word": "cell",
+        "vl": 2000,
+        "definition": "the smallest living part of the body"
+      },
+      {
+        "word": "damage",
+        "vl": 2000,
+        "definition": "harm or injury that makes something work less well"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "FOXP2に損傷がある人はどうなりますか？",
+        "choices": [
+          "目が見えなくなる",
+          "話すことに困難を抱える",
+          "歩けなくなる",
+          "記憶を失う"
+        ],
+        "answer": 1,
+        "expl": "本文に「People who have damage to this part have trouble speaking」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何を説明していますか？",
+        "choices": [
+          "動物も人間のように話せる",
+          "人間が話す能力は体の中の特別な部分に関係している",
+          "人間の脳は動物より大きい",
+          "言語は最近発明された"
+        ],
+        "answer": 1,
+        "expl": "記事はFOXP2という人間特有の部分が話す能力に関係していることを説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_03_vl3000",
+    "vl": "vl3000",
+    "week": "2026W11",
+    "pub_date": "2026-03-20",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-link-gene-to-human-speec/6951464.html",
+    "source_title": "Scientists Link Gene to Human Speech",
+    "title": "The Gene Behind Human Speech",
+    "title_ja": "人間の発話を支える遺伝子",
+    "body": "Scientists have identified a gene that may explain why humans can speak. The gene called FOXP2 produces a protein found only in humans. Other animals have a similar gene but the human version is different. Researchers discovered that people with damage to FOXP2 have serious difficulty producing speech. This suggests the gene plays a key role in our ability to speak. Scientists believe the mutation that made the human version of FOXP2 special happened approximately two hundred thousand years ago. Before this change our ancestors likely communicated using simpler sounds and gestures. The discovery of FOXP2 is helping scientists understand the biological basis of human language and what separates us from other animals.",
+    "body_ja": "科学者たちは、なぜ人間が話せるのかを説明する可能性のある遺伝子を特定しました。FOXP2と呼ばれるこの遺伝子は、人間にのみ見られるタンパク質を作り出します。他の動物にも似た遺伝子がありますが、人間のバージョンは異なります。研究者たちは、FOXP2に損傷がある人は発話の産出に深刻な困難を抱えることを発見しました。これはこの遺伝子が話す能力において重要な役割を果たしていることを示唆しています。科学者たちは、人間版のFOXP2を特別にした突然変異が約20万年前に起きたと考えています。この変化以前、私たちの祖先はより単純な音やジェスチャーを使ってコミュニケーションしていたと考えられています。FOXP2の発見は、人間の言語の生物学的基盤と、私たちを他の動物から分けるものを理解する助けとなっています。",
+    "vocab_notes": [
+      {
+        "word": "mutation",
+        "vl": 3000,
+        "definition": "a change in a gene that creates a new quality"
+      },
+      {
+        "word": "ancestor",
+        "vl": 3000,
+        "definition": "a person or animal from whom others are descended"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "FOXP2の突然変異はいつ頃起きたと考えられていますか？",
+        "choices": [
+          "約2千年前",
+          "約2万年前",
+          "約20万年前",
+          "約200万年前"
+        ],
+        "answer": 2,
+        "expl": "本文に「the mutation that made the human version of FOXP2 special happened approximately two hundred thousand years ago」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の要点は何ですか？",
+        "choices": [
+          "すべての動物は同じ遺伝子を持っている",
+          "FOXP2遺伝子が人間の発話能力に重要な役割を果たしている",
+          "人間は20万年前から言語を書いていた",
+          "遺伝子の損傷は修復できる"
+        ],
+        "answer": 1,
+        "expl": "記事全体を通じて、FOXP2遺伝子が人間特有の発話能力の鍵であることを説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_03_vl5000",
+    "vl": "vl5000",
+    "week": "2026W11",
+    "pub_date": "2026-03-20",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-link-gene-to-human-speec/6951464.html",
+    "source_title": "Scientists Link Gene to Human Speech",
+    "title": "FOXP2: The Gene That Gave Humans Speech",
+    "title_ja": "FOXP2：人間に発話を与えた遺伝子",
+    "body": "A compelling study has strengthened the connection between genetics and human speech by identifying a protein produced by the FOXP2 gene that exists only in humans. While other species carry a version of FOXP2, the human form underwent a critical change that researchers believe enabled the development of complex spoken language. Evidence for this comes from studying individuals with FOXP2 damage, who experience severe speech difficulties despite having normal intelligence. Scientists estimate this pivotal mutation occurred roughly two hundred thousand years ago, around the time modern humans first appeared in Africa. Before this genetic shift, early humans probably relied on basic sounds and physical gestures to communicate. The discovery has opened new avenues of research into how a single gene could have transformed human society by making detailed verbal communication possible for the first time.",
+    "body_ja": "説得力のある研究が、FOXP2遺伝子が作り出す人間にのみ存在するタンパク質を特定することで、遺伝学と人間の発話の関連を強化しました。他の種もFOXP2のバージョンを持っていますが、人間の形は研究者たちが複雑な話し言葉の発達を可能にしたと考える重大な変化を経ています。この証拠はFOXP2に損傷を持つ個人の研究から得られており、彼らは正常な知能を持ちながらも深刻な発話困難を経験します。科学者たちはこの決定的な突然変異が約20万年前、現生人類がアフリカに最初に現れた頃に起きたと推定しています。この遺伝的変化以前、初期の人間はおそらく基本的な音と身体的ジェスチャーに頼ってコミュニケーションしていました。この発見は、一つの遺伝子がいかにして初めて詳細な言語コミュニケーションを可能にすることで人間社会を変革し得たかについて、新たな研究の道を開きました。",
+    "vocab_notes": [
+      {
+        "word": "pivotal",
+        "vl": 5000,
+        "definition": "extremely important and affecting how something develops"
+      },
+      {
+        "word": "avenue",
+        "vl": 5000,
+        "definition": "a way of approaching or making progress toward something"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "FOXP2に損傷がある人について、本文は知能についてどう述べていますか？",
+        "choices": [
+          "知能も低い",
+          "知能は正常だが発話に困難がある",
+          "知能が非常に高い",
+          "知能についての言及はない"
+        ],
+        "answer": 1,
+        "expl": "本文に「individuals with FOXP2 damage, who experience severe speech difficulties despite having normal intelligence」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も強調している点は何ですか？",
+        "choices": [
+          "人間の知能は他の動物より高い",
+          "FOXP2遺伝子の変異が人間の複雑な言語能力の発達を可能にした",
+          "アフリカは人類の発祥地ではない",
+          "遺伝子研究は役に立たない"
+        ],
+        "answer": 1,
+        "expl": "記事はFOXP2の変異が人間特有の複雑な言語コミュニケーションを可能にしたという点を中心に展開しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W11_03_vl7000",
+    "vl": "vl7000",
+    "week": "2026W11",
+    "pub_date": "2026-03-20",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-link-gene-to-human-speec/6951464.html",
+    "source_title": "Scientists Link Gene to Human Speech",
+    "title": "FOXP2 and the Genetic Origins of Human Language",
+    "title_ja": "FOXP2と人間の言語の遺伝的起源",
+    "body": "Researchers have traced the roots of human speech to a remarkable genetic adaptation involving the FOXP2 gene. This gene produces a protein unique to our species that appears to have been central in enabling the sophisticated vocal communication that distinguishes humans from all other primates. The evidence is particularly striking because individuals who inherit a damaged copy of FOXP2 develop profound speech difficulties while retaining cognitive abilities in other areas. Scientists pinpoint the critical mutation to approximately two hundred thousand years ago, coinciding with the emergence of anatomically modern humans in Africa. Prior to this genetic breakthrough our ancestors were presumably limited to simple sounds and gestures. What makes this discovery so significant is the implication that a single genetic change may have driven the development of language, arguably the most powerful capability in human evolutionary history.",
+    "body_ja": "研究者たちは人間の発話のルーツをFOXP2遺伝子に関わる注目すべき遺伝的適応にまで辿りました。この遺伝子は我々の種に固有のタンパク質を作り出し、人間を他のすべての霊長類から区別する洗練された音声コミュニケーションを可能にする上で中心的な役割を果たしたと考えられています。FOXP2の損傷コピーを受け継いだ個人は、他の領域の認知能力を保持しながらも深刻な発話困難を発症するため、その証拠は特に顕著です。科学者たちはこの重大な突然変異を約20万年前、アフリカにおける解剖学的に現代的な人類の出現と一致する時期に特定しています。この遺伝的突破口以前、私たちの祖先はおそらく単純な音とジェスチャーに限定されていました。この発見をこれほど重要にしているのは、単一の遺伝的変化が言語の発達を推進した可能性があるという示唆です。言語はおそらく人間の進化の歴史において最も強力な能力です。",
+    "vocab_notes": [
+      {
+        "word": "primate",
+        "vl": 7000,
+        "definition": "a member of the group of animals that includes humans, apes, and monkeys"
+      },
+      {
+        "word": "vocal",
+        "vl": 7000,
+        "definition": "relating to the voice or the production of speech sounds"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "FOXP2の変異が起きた時期と何が一致していますか？",
+        "choices": [
+          "農業の発明",
+          "アフリカにおける解剖学的に現代的な人類の出現",
+          "最初の文字の発明",
+          "大規模な気候変動"
+        ],
+        "answer": 1,
+        "expl": "本文に「coinciding with the emergence of anatomically modern humans in Africa」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が提示する最も重要な含意は何ですか？",
+        "choices": [
+          "すべての霊長類は将来話せるようになる",
+          "単一の遺伝的変化が人間の言語発達を触媒し、人類の進化史上最も変革的な能力となった可能性がある",
+          "遺伝子損傷は常に全身に影響する",
+          "人間の言語は10万年前に発明された"
+        ],
+        "answer": 1,
+        "expl": "記事の結論部分で、単一の遺伝的変化が言語という人類史上最も変革的な能力の発達を触媒した可能性があると述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W12",
+    "pub_date": "2026-03-23",
+    "source_url": "https://learningenglish.voanews.com/a/private-lander-carrying-nasa-experiments-lands-on-the-moo/7951387.html",
+    "source_title": "Private Lander Carrying NASA Experiments Lands on the Moon",
+    "title": "A Private Machine Lands on the Moon",
+    "title_ja": "民間の機械が月に着陸",
+    "body": "An American company called Firefly sent a machine to the moon. The machine is called Blue Ghost. It carried science experiments for NASA. NASA is the American space group. The machine landed safely in an area of the moon. This area has a lot of flat land. Scientists want to learn about the ground on the moon. This was the first time Firefly landed a machine on the moon. NASA paid private companies to send machines to the moon. This helps NASA learn more about space without building everything itself. The mission was a big success for both Firefly and NASA.",
+    "body_ja": "Fireflyというアメリカの会社が月に機械を送りました。その機械はBlue Ghostと呼ばれています。NASAの科学実験を運びました。NASAはアメリカの宇宙機関です。機械は月のある地域に安全に着陸しました。この地域には平らな土地がたくさんあります。科学者たちは月の地面について学びたいと考えています。Fireflyが月に機械を着陸させたのは今回が初めてでした。NASAは民間企業にお金を払って月に機械を送らせています。これによりNASAは自分で全てを作らなくても宇宙についてもっと学べます。このミッションはFireflyとNASAの両方にとって大きな成功でした。",
+    "vocab_notes": [
+      {
+        "word": "Firefly",
+        "vl": null,
+        "definition": "an American space company that built the Blue Ghost machine"
+      },
+      {
+        "word": "NASA",
+        "vl": null,
+        "definition": "the United States space group (National Aeronautics and Space Administration)"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "Blue Ghostを作った会社はどこですか？",
+        "choices": [
+          "NASA",
+          "Firefly",
+          "SpaceX",
+          "Blue Origin"
+        ],
+        "answer": 1,
+        "expl": "本文に「An American company called Firefly sent a machine to the moon. The machine is called Blue Ghost.」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "NASAが新しい宇宙船を作った話",
+          "民間企業が月に機械を着陸させた話",
+          "月で新しい生物が見つかった話",
+          "アメリカが月に人を送った話"
+        ],
+        "answer": 1,
+        "expl": "記事全体が、民間企業Fireflyが月に機械Blue Ghostを着陸させたことについて述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W12",
+    "pub_date": "2026-03-23",
+    "source_url": "https://learningenglish.voanews.com/a/private-lander-carrying-nasa-experiments-lands-on-the-moo/7951387.html",
+    "source_title": "Private Lander Carrying NASA Experiments Lands on the Moon",
+    "title": "Firefly's Blue Ghost Successfully Lands on the Moon",
+    "title_ja": "FireflyのBlue Ghostが月面着陸に成功",
+    "body": "A private American company called Firefly Aerospace successfully landed a machine on the moon. The machine, named Blue Ghost, carried several science experiments for NASA. It landed in an area called Mare Crisium, a wide flat area on the moon's surface. Scientists plan to study the moon's soil and conditions there. This was the first successful moon landing for Firefly. NASA has been paying private companies to send machines to the moon through a program called CLPS. The program helps NASA explore the moon at lower cost. Several other private companies are also working on similar missions. The success of Blue Ghost is an important step for private space exploration.",
+    "body_ja": "Firefly Aerospaceというアメリカの民間企業が月に機械を着陸させることに成功しました。Blue Ghostと名付けられたこの機械は、NASAのためにいくつかの科学実験を運びました。月面のMare Crisiumと呼ばれる広く平らな地域に着陸しました。科学者たちはそこで月の土壌や環境を研究する予定です。Fireflyにとって初めての月面着陸成功でした。NASAはCLPSというプログラムを通じて民間企業にお金を払い月に機械を送らせています。このプログラムにより、NASAはより低いコストで月を探査できます。他の民間企業もいくつか同様のミッションに取り組んでいます。Blue Ghostの成功は民間宇宙探査にとって重要な一歩です。",
+    "vocab_notes": [
+      {
+        "word": "Mare Crisium",
+        "vl": null,
+        "definition": "a large flat area on the moon where Blue Ghost landed"
+      },
+      {
+        "word": "CLPS",
+        "vl": null,
+        "definition": "a NASA program that pays private companies to send machines to the moon"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "Blue Ghostはどこに着陸しましたか？",
+        "choices": [
+          "月の南極",
+          "Mare Crisium",
+          "月の裏側",
+          "Mare Tranquillitatis"
+        ],
+        "answer": 1,
+        "expl": "本文に「It landed in an area called Mare Crisium」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "NASAがCLPSプログラムを作った理由として最も考えられるのは？",
+        "choices": [
+          "月に人を住まわせるため",
+          "民間企業を使ってコストを下げるため",
+          "他の国と競争するため",
+          "新しいロケットを開発するため"
+        ],
+        "answer": 1,
+        "expl": "本文に「The program helps NASA explore the moon at lower cost」とあり、コスト削減が目的だと分かります。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W12",
+    "pub_date": "2026-03-23",
+    "source_url": "https://learningenglish.voanews.com/a/private-lander-carrying-nasa-experiments-lands-on-the-moo/7951387.html",
+    "source_title": "Private Lander Carrying NASA Experiments Lands on the Moon",
+    "title": "Firefly Aerospace Achieves First Successful Moon Landing",
+    "title_ja": "Firefly Aerospaceが初の月面着陸に成功",
+    "body": "Firefly Aerospace, a private American company, achieved its first successful moon landing with a machine called Blue Ghost. The machine touched down in Mare Crisium, a broad basin on the near side of the moon. Blue Ghost carried multiple NASA science instruments designed to study the composition of the moon's surface and measure conditions there. The mission is part of NASA's CLPS program, which contracts private companies to deliver equipment and experiments to the moon. By relying on private companies, NASA aims to reduce costs while increasing the number of exploration missions. Firefly joins a small group of companies that have successfully landed on the moon. The achievement marks an important milestone in the growing role of private industry in space exploration.",
+    "body_ja": "アメリカの民間企業Firefly Aerospaceが、Blue Ghostという機械で初の月面着陸に成功しました。機械は月の表側にある広い盆地、Mare Crisiumに着陸しました。Blue GhostはNASAの複数の科学機器を搭載しており、月面の成分を調べたり環境を測定したりするために設計されました。このミッションはNASAのCLPSプログラムの一環で、民間企業に月への装備や実験の輸送を委託するものです。民間企業に頼ることで、NASAはコストを削減しながら探査ミッションの数を増やすことを目指しています。Fireflyは月への着陸に成功した少数の企業グループに加わりました。この成果は、宇宙探査における民間産業の役割拡大の重要な節目です。",
+    "vocab_notes": [
+      {
+        "word": "basin",
+        "vl": 3000,
+        "definition": "a large low area on a surface, like a wide bowl shape"
+      },
+      {
+        "word": "composition",
+        "vl": 3000,
+        "definition": "the materials or substances that something is made of"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "CLPSプログラムは何をするものですか？",
+        "choices": [
+          "宇宙飛行士を月に送る",
+          "民間企業に月への機器輸送を委託する",
+          "新しいロケットを設計する",
+          "月の資源を採掘する"
+        ],
+        "answer": 1,
+        "expl": "本文に「which contracts private companies to deliver equipment and experiments to the moon」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主旨は何ですか？",
+        "choices": [
+          "NASAが月面基地を建設する計画",
+          "民間企業による月面着陸の成功と宇宙探査における民間の役割拡大",
+          "月の資源が豊富であること",
+          "アメリカと他国の宇宙開発競争"
+        ],
+        "answer": 1,
+        "expl": "記事はFireflyの月面着陸成功と、NASAのCLPSプログラムによる民間企業の宇宙探査参入について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W12",
+    "pub_date": "2026-03-23",
+    "source_url": "https://learningenglish.voanews.com/a/private-lander-carrying-nasa-experiments-lands-on-the-moo/7951387.html",
+    "source_title": "Private Lander Carrying NASA Experiments Lands on the Moon",
+    "title": "Blue Ghost Spacecraft Touches Down on Lunar Surface",
+    "title_ja": "Blue Ghost宇宙船が月面に着陸",
+    "body": "Firefly Aerospace's Blue Ghost spacecraft has achieved a historic milestone by touching down on the lunar surface in Mare Crisium, a vast volcanic basin on the moon's near side. The craft carried an array of NASA scientific instruments designed to probe the composition and properties of lunar soil. This accomplishment represents the inaugural successful landing for Firefly, a Texas-based aerospace firm. The mission was conducted under NASA's Commercial Lunar Payload Services program, which outsources delivery of experiments and hardware to private contractors. By leveraging the private sector, NASA seeks to accelerate lunar exploration while curbing costs. Firefly now joins an elite group of entities that have pulled off soft landings on the moon, underscoring the expanding role of commercial ventures in pushing the boundaries of space exploration.",
+    "body_ja": "Firefly AerospaceのBlue Ghost宇宙船が、月の表側にある広大な火山性盆地Mare Crisiumへの着陸という歴史的偉業を達成しました。宇宙船は月面土壌の成分と特性を調査するために設計されたNASAの科学機器一式を搭載していました。この成果は、テキサスに拠点を置く航空宇宙企業Fireflyにとって初の着陸成功です。このミッションはNASAの商業月面輸送サービスプログラムの下で行われ、実験機器やハードウェアの輸送を民間企業に委託するものです。民間セクターを活用することで、NASAはコストを抑えながら月探査を加速させることを目指しています。Fireflyは月面への軟着陸に成功した少数精鋭のグループに加わり、宇宙探査の限界を押し広げる商業ベンチャーの役割拡大を裏付けています。",
+    "vocab_notes": [
+      {
+        "word": "inaugural",
+        "vl": null,
+        "definition": "happening for the first time; marking the beginning"
+      },
+      {
+        "word": "curbing",
+        "vl": null,
+        "definition": "controlling or reducing something"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "Firefly Aerospaceはどこに拠点を置く企業ですか？",
+        "choices": [
+          "カリフォルニア",
+          "フロリダ",
+          "テキサス",
+          "ワシントン"
+        ],
+        "answer": 2,
+        "expl": "本文に「a Texas-based aerospace firm」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "「elite group of entities」という表現から何が分かりますか？",
+        "choices": [
+          "月面着陸は多くの企業が達成している",
+          "月面着陸に成功した組織は少数に限られている",
+          "NASAだけが月面着陸に成功している",
+          "月面着陸は技術的に簡単である"
+        ],
+        "answer": 1,
+        "expl": "「elite group」は少数精鋭を意味し、月面軟着陸に成功した組織がまだ限られていることを示唆しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_02_vl2000",
+    "vl": "vl2000",
+    "week": "2026W12",
+    "pub_date": "2026-03-25",
+    "source_url": "https://learningenglish.voanews.com/a/new-discovery-could-explain-what-gives-mars-its-red-colo/7951403.html",
+    "source_title": "New Discovery Could Explain What Gives Mars its Red Color",
+    "title": "Why Is the Red World Red?",
+    "title_ja": "あの赤い世界はなぜ赤いのか？",
+    "body": "Scientists may have found out why a world near Earth looks red. This world is often called the Red World because of its color. There are materials on its surface that contain a kind of metal. When this metal meets the air and water around it, it changes color and becomes red. Scientists used several ways to study the surface. They found a special material that they think makes the red color. This discovery could help scientists understand how the surface has changed over a long time. The red color has been a big question for scientists for many years. Now they believe they are closer to finding the answer.",
+    "body_ja": "科学者たちは、地球の近くにある世界がなぜ赤く見えるのかを解明したかもしれません。この世界はその色から「赤い世界」と呼ばれることが多いです。その表面にはある種の金属を含む物質があります。この金属が周りの空気や水に触れると、色が変わって赤くなります。科学者たちはいくつかの方法で表面を調べました。赤い色の原因と考えられる特別な物質を発見しました。この発見は、表面が長い時間をかけてどのように変化したかを理解する助けになるかもしれません。赤い色は科学者にとって長年の大きな疑問でした。今、彼らは答えに近づいていると信じています。",
+    "vocab_notes": [
+      {
+        "word": "metal",
+        "vl": null,
+        "definition": "a hard, shiny material like gold or silver found in the ground"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "赤い色の原因は何ですか？",
+        "choices": [
+          "特別な光",
+          "表面にある金属を含む物質",
+          "空の色",
+          "地下の水"
+        ],
+        "answer": 1,
+        "expl": "本文に「There are materials on its surface that contain a kind of metal. When this metal meets the air and water around it, it changes color and becomes red.」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "地球の近くに新しい世界が見つかった話",
+          "赤い世界の色の原因が分かったかもしれない話",
+          "科学者が宇宙を旅した話",
+          "赤い世界に水が見つかった話"
+        ],
+        "answer": 1,
+        "expl": "記事全体が、赤い世界の色の原因となる物質が見つかったことについて述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_02_vl3000",
+    "vl": "vl3000",
+    "week": "2026W12",
+    "pub_date": "2026-03-25",
+    "source_url": "https://learningenglish.voanews.com/a/new-discovery-could-explain-what-gives-mars-its-red-colo/7951403.html",
+    "source_title": "New Discovery Could Explain What Gives Mars its Red Color",
+    "title": "Scientists May Have Found Why Mars Is Red",
+    "title_ja": "科学者たちが火星の赤さの理由を発見か",
+    "body": "Scientists believe they may have identified the mineral responsible for giving Mars its famous red color. Mars is often called the Red Planet because of its distinct appearance. New data collected through several methods has pointed to a mineral called ferrihydrite. This iron-containing mineral reacts with conditions on the surface, producing the red shade that can be seen from Earth. The discovery could help researchers understand the history of how the surface of Mars has changed. For many years, scientists have known that iron plays a role in the color, but they did not know exactly which mineral was the main cause. This finding brings them much closer to solving a mystery that has interested scientists for a long time.",
+    "body_ja": "科学者たちは、火星の有名な赤い色の原因となる鉱物を特定したと考えています。火星はその独特な外見からしばしば「赤い惑星」と呼ばれます。いくつかの方法で収集された新しいデータが、フェリハイドライトと呼ばれる鉱物を示しています。この鉄を含む鉱物は表面の環境と反応し、地球からも見える赤い色合いを生み出します。この発見は、火星の表面がどのように変化してきたかの歴史を理解する助けになるでしょう。長年にわたり、科学者たちは鉄が色に関与していることを知っていましたが、主な原因となる鉱物が正確には分かっていませんでした。この発見により、長い間科学者たちの関心を集めてきた謎の解明にかなり近づきました。",
+    "vocab_notes": [
+      {
+        "word": "ferrihydrite",
+        "vl": null,
+        "definition": "a type of mineral containing iron found on the surface of Mars"
+      },
+      {
+        "word": "shade",
+        "vl": 3000,
+        "definition": "a particular type or degree of a color"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "火星の赤い色の原因と考えられる鉱物の名前は？",
+        "choices": [
+          "ヘマタイト",
+          "フェリハイドライト",
+          "石英",
+          "黒曜石"
+        ],
+        "answer": 1,
+        "expl": "本文に「a mineral called ferrihydrite」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "科学者たちが以前から知っていたことは何ですか？",
+        "choices": [
+          "フェリハイドライトの存在",
+          "鉄が赤い色に関わっていること",
+          "火星の正確な年齢",
+          "火星に水があること"
+        ],
+        "answer": 1,
+        "expl": "本文に「scientists have known that iron plays a role in the color, but they did not know exactly which mineral was the main cause」とあります。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_02_vl5000",
+    "vl": "vl5000",
+    "week": "2026W12",
+    "pub_date": "2026-03-25",
+    "source_url": "https://learningenglish.voanews.com/a/new-discovery-could-explain-what-gives-mars-its-red-colo/7951403.html",
+    "source_title": "New Discovery Could Explain What Gives Mars its Red Color",
+    "title": "Mineral Discovery Sheds Light on Mars' Red Color",
+    "title_ja": "鉱物の発見が火星の赤い色に光を当てる",
+    "body": "A team of scientists may have identified the specific mineral that gives Mars its characteristic red appearance. Using data gathered through multiple methods of analysis, the researchers identified a mineral called ferrihydrite as the likely source of the color. Mars, long known as the Red Planet, owes its appearance to iron minerals on the surface that react with the surrounding environment. Over time, these reactions produce a red coating of dust that covers much of the landscape. The identification of ferrihydrite is significant because it could reveal details about the conditions that existed on Mars in the past. Understanding the mineral composition of the surface helps scientists reconstruct the history of Mars, including whether liquid water was once present.",
+    "body_ja": "科学者チームが、火星に特徴的な赤い外見を与えている特定の鉱物を同定した可能性があります。複数の分析手法で収集したデータを使い、研究者たちはフェリハイドライトという鉱物が赤い色の原因である可能性が高いと特定しました。長年「赤い惑星」として知られる火星の外見は、表面にある鉄を含む鉱物が周囲の環境と反応することに起因しています。時間の経過とともに、これらの反応が赤みがかった塵のコーティングを生み出し、地表の大部分を覆います。フェリハイドライトの特定は重要です。なぜなら、過去の火星に存在した環境の詳細を明らかにできる可能性があるからです。表面の鉱物組成を理解することで、科学者たちはかつて液体の水が存在したかどうかを含む惑星の歴史を再構築できます。",
+    "vocab_notes": [
+      {
+        "word": "ferrihydrite",
+        "vl": null,
+        "definition": "a type of iron-containing mineral believed to cause the red color of Mars"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "火星の表面が赤い塵で覆われる過程はどのように説明されていますか？",
+        "choices": [
+          "火山の噴火で赤い溶岩が広がった",
+          "鉄を含む鉱物が環境と反応して赤い塵を作る",
+          "太陽の光が赤く反射している",
+          "宇宙からの隕石が赤い物質を運んだ"
+        ],
+        "answer": 1,
+        "expl": "本文に「iron-containing minerals on the surface that react with the surrounding environment」「these reactions produce a reddish coating of dust」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "フェリハイドライトの発見が重要な理由は何ですか？",
+        "choices": [
+          "火星に生命がいることを証明するから",
+          "火星の過去の環境条件を解明できる可能性があるから",
+          "火星への移住が可能になるから",
+          "地球上でも同じ鉱物が見つかったから"
+        ],
+        "answer": 1,
+        "expl": "本文に「it could reveal details about the conditions that existed on Mars in the past」とあり、過去の環境条件の解明につながる可能性が述べられています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_02_vl7000",
+    "vl": "vl7000",
+    "week": "2026W12",
+    "pub_date": "2026-03-25",
+    "source_url": "https://learningenglish.voanews.com/a/new-discovery-could-explain-what-gives-mars-its-red-colo/7951403.html",
+    "source_title": "New Discovery Could Explain What Gives Mars its Red Color",
+    "title": "Ferrihydrite Identified as Key to Mars' Iconic Red Hue",
+    "title_ja": "フェリハイドライトが火星の象徴的な赤い色の鍵と判明",
+    "body": "Researchers have identified ferrihydrite, an iron-bearing mineral, as the substance most likely responsible for the famous red hue of Mars. By combining data from spectrum analysis, laboratory work, and observations from space, the team was able to distinguish ferrihydrite from other iron compounds previously considered as candidates. On the surface of Mars, iron minerals rust when exposed to trace amounts of moisture and radiation from the sun, gradually producing a fine dust coating that blankets much of the terrain. The identification of ferrihydrite carries broader implications for the study of planets. It suggests that liquid water may have interacted with volcanic rock in the distant past, contributing to the mineral's formation. This finding enriches our understanding of the geological evolution of Mars and could guide future missions seeking signs of past life.",
+    "body_ja": "研究者たちは、鉄を含む鉱物であるフェリハイドライトが、火星の象徴的な赤みがかった色の最も有力な原因物質であると特定しました。分光分析、実験室でのシミュレーション、軌道からの観測データを組み合わせることで、チームはフェリハイドライトを以前候補とされていた他の鉄化合物と区別することができました。火星の表面では、鉄鉱物が微量の水分や紫外線に晒されると酸化を起こし、徐々に錆びたような微細な塵のコーティングを生み出して地表の大部分を覆います。フェリハイドライトの特定は惑星科学にとってより広い含意を持っています。火星の遠い過去に液体の水が火山岩と相互作用し、この鉱物の形成に寄与したことを示唆しています。この発見は火星の地質学的進化の理解を深め、居住可能性の兆候を探る将来のミッションに情報を提供する可能性があります。",
+    "vocab_notes": [
+      {
+        "word": "ferrihydrite",
+        "vl": null,
+        "definition": "an iron-bearing mineral identified as the cause of Mars' red color"
+      },
+      {
+        "word": "spectrum",
+        "vl": 3000,
+        "definition": "the range of colors or light waves used in scientific analysis"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "研究者たちはどのような方法を組み合わせてフェリハイドライトを特定しましたか？",
+        "choices": [
+          "現地採取とDNA分析",
+          "分光分析・実験室シミュレーション・軌道観測",
+          "望遠鏡観測と文献調査",
+          "ロボット探査と地震測定"
+        ],
+        "answer": 1,
+        "expl": "本文に「combining data from spectroscopic analysis, laboratory simulations, and orbital observations」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "この発見が将来のミッションにとって重要な理由は何ですか？",
+        "choices": [
+          "火星の鉱物を地球に持ち帰れるから",
+          "過去に水が存在した可能性を示し居住可能性の調査に役立つから",
+          "火星への旅行コストが下がるから",
+          "新しい燃料源が見つかるから"
+        ],
+        "answer": 1,
+        "expl": "本文に「liquid water may have interacted with volcanic rock」「could inform future missions seeking signs of habitability」とあり、水の存在と居住可能性の調査への貢献が示されています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_03_vl2000",
+    "vl": "vl2000",
+    "week": "2026W12",
+    "pub_date": "2026-03-27",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-discover-stonehenge-like-circle-in-denmark/7951413.html",
+    "source_title": "Scientists Discover Stonehenge-like Circle in Denmark",
+    "title": "Old Circle of Wood Found in Northern Country",
+    "title_ja": "北の国で古い木の円が見つかる",
+    "body": "Scientists in a northern country in Europe found pieces of wood placed in a circle. The pieces may be about five thousand years old. The scientists found them near a small town on an island. The wood is still in good condition because the ground had a lot of water in it for a long time. Ground with much water can keep wood from breaking down. The circle is similar to a famous stone circle in England. But this one was made of wood, not stone. Scientists believe people built it a very long time ago. They are still studying why it was built.",
+    "body_ja": "ヨーロッパの北の国の科学者たちが、円形に並べられた木の断片を発見しました。その木片はおよそ5千年前のものかもしれません。円の直径は約30メートルです。科学者たちはある島の小さな町の近くでそれを見つけました。地面が長い間とても湿っていたため、木はまだ良い状態です。湿った地面は木が崩れるのを防ぐことができます。この円はイングランドにある有名な石の円に似ています。しかしこの円は石ではなく木で作られていました。科学者たちは、はるか昔に人々がこれを建てたと考えています。なぜ建てられたのかはまだ研究中です。重要な行事や集まりに使われていた可能性があります。",
+    "vocab_notes": [
+      {
+        "word": "condition",
+        "vl": 2000,
+        "definition": "the state that something is in, whether good or bad"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "木がまだ良い状態で残っている理由は何ですか？",
+        "choices": [
+          "特別な薬で保護されていたから",
+          "地面がとても湿っていたから",
+          "とても寒い場所だったから",
+          "砂に埋まっていたから"
+        ],
+        "answer": 1,
+        "expl": "本文に「The wood is still in good condition because the ground was very wet for a long time」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事は主に何について書かれていますか？",
+        "choices": [
+          "イングランドのストーンヘンジの歴史",
+          "ヨーロッパで見つかった古い木の円形構造物",
+          "北ヨーロッパの気候について",
+          "古代の木材の保存方法"
+        ],
+        "answer": 1,
+        "expl": "記事全体が、北ヨーロッパで発見された約5千年前の木の円形構造物について述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_03_vl3000",
+    "vl": "vl3000",
+    "week": "2026W12",
+    "pub_date": "2026-03-27",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-discover-stonehenge-like-circle-in-denmark/7951413.html",
+    "source_title": "Scientists Discover Stonehenge-like Circle in Denmark",
+    "title": "Ancient Wooden Circle Discovered in Denmark",
+    "title_ja": "デンマークで古代の木の円が発見される",
+    "body": "Researchers in Denmark have discovered wooden pieces arranged in a circle that could date back about five thousand years. The discovery was made near the town of Lejre on the island of Zealand. The circle measures about 30 meters across, making it a large structure from ancient times. The wooden pieces are well kept because the soil in the area has stayed wet for thousands of years. Wet soil prevents wood from breaking apart over time. Scientists say the structure is similar to Stonehenge, the famous stone circle in England, but was built using wood instead of stone. Researchers believe the circle may have been used for ceremonies or important meetings. The team plans further study to learn more about the people who built it and the purpose it served.",
+    "body_ja": "デンマークの研究者たちが、約5千年前のものと思われる円形に配置された木片を発見しました。この発見はゼーランド島のレイレという町の近くで行われました。円の直径は約30メートルで、古代としては大きな構造物です。木片がよく保存されているのは、その地域の土壌が何千年も湿った状態を保っていたからです。湿った土壌は木が時間とともに崩壊するのを防ぎます。科学者たちによれば、この構造物はイングランドの有名な石の円であるストーンヘンジに似ていますが、石ではなく木で建てられました。研究者たちは、この円が儀式や重要な集会に使われていた可能性があると考えています。チームは、これを建てた人々やその目的についてさらに研究する予定です。",
+    "vocab_notes": [
+      {
+        "word": "Lejre",
+        "vl": null,
+        "definition": "a town in Denmark near the discovery site"
+      },
+      {
+        "word": "ceremony",
+        "vl": 3000,
+        "definition": "a formal event held to mark a special occasion"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "この木の円はどこで発見されましたか？",
+        "choices": [
+          "イングランドの南部",
+          "デンマークのゼーランド島",
+          "スウェーデンの森",
+          "ノルウェーの海岸"
+        ],
+        "answer": 1,
+        "expl": "本文に「near the town of Lejre on the island of Zealand」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "ストーンヘンジと比較されている理由として最も考えられるのは？",
+        "choices": [
+          "同じ国にあるから",
+          "同じ大きさだから",
+          "同時期の円形構造物という共通点があるから",
+          "同じ素材で作られているから"
+        ],
+        "answer": 2,
+        "expl": "どちらも古代の円形構造物であるという共通点から比較されています。ストーンヘンジは石、デンマークの発見は木という違いがあります。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_03_vl5000",
+    "vl": "vl5000",
+    "week": "2026W12",
+    "pub_date": "2026-03-27",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-discover-stonehenge-like-circle-in-denmark/7951413.html",
+    "source_title": "Scientists Discover Stonehenge-like Circle in Denmark",
+    "title": "Denmark's Wooden Monument Draws Comparisons to Stonehenge",
+    "title_ja": "デンマークの木造遺構がストーンヘンジとの比較を呼ぶ",
+    "body": "Researchers in Denmark have uncovered an arrangement of timber posts placed in a circle near the town of Lejre on the island of Zealand. The structure spans roughly 30 meters in diameter and is believed to date back approximately five thousand years. What makes this discovery remarkable is the condition of the wood. Because the surrounding soil has remained full of water for thousands of years, the timber has been preserved far better than one would expect. The find has drawn immediate comparisons to Stonehenge, the celebrated stone circle in southern England. However, while Stonehenge was constructed from massive stone blocks, the site in Denmark was built entirely from wood. Researchers believe the circle may have served a ritual or community purpose. Further digging and analysis will aim to determine who built the structure and why.",
+    "body_ja": "デンマークの研究者たちが、デンマークのゼーランド島にあるレイレの町の近くで、木柱が円形に配置された構造物を発見しました。直径約30メートルに及ぶこの構造物は、およそ5千年前のものと考えられています。この発見を注目に値するものにしているのは木の状態です。周囲の土壌が何千年もの間水分で飽和した状態を保っていたため、木材は通常予想されるよりはるかに良好に保存されていました。この発見はすぐにイングランド南部の有名な石の円、ストーンヘンジとの比較を呼びました。しかし、ストーンヘンジが巨大な石のブロックで建設されたのに対し、デンマークの遺跡は完全に木で建てられました。研究者たちは、この円が儀式的または共同体的な目的で使われていた可能性があると考えています。さらなる発掘と分析で、誰がなぜこの構造物を建てたのかを解明する予定です。",
+    "vocab_notes": [
+      {
+        "word": "timber",
+        "vl": 5000,
+        "definition": "wood that has been cut and prepared for building"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "木が良好な状態で保存されていた理由は何ですか？",
+        "choices": [
+          "特殊な処理が施されていたから",
+          "土壌が何千年も水分で飽和していたから",
+          "地下深くに埋められていたから",
+          "寒冷な気候で凍結保存されていたから"
+        ],
+        "answer": 1,
+        "expl": "本文に「the surrounding soil has remained saturated with water for thousands of years」と書かれています。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事の主な焦点は何ですか？",
+        "choices": [
+          "ストーンヘンジの建設方法の新発見",
+          "デンマークで発見された古代の木造円形構造物",
+          "北欧の土壌の科学的研究",
+          "古代ヨーロッパの宗教的慣習"
+        ],
+        "answer": 1,
+        "expl": "記事はデンマークで発見された約5千年前の木造円形構造物について、その保存状態やストーンヘンジとの比較を中心に述べています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W12_03_vl7000",
+    "vl": "vl7000",
+    "week": "2026W12",
+    "pub_date": "2026-03-27",
+    "source_url": "https://learningenglish.voanews.com/a/scientists-discover-stonehenge-like-circle-in-denmark/7951413.html",
+    "source_title": "Scientists Discover Stonehenge-like Circle in Denmark",
+    "title": "Prehistoric Timber Circle Unearthed on Zealand Island",
+    "title_ja": "ゼーランド島で先史時代の木造円形遺構が出土",
+    "body": "Archaeologists in Denmark have unearthed a prehistoric timber circle near the town of Lejre on the island of Zealand, believed to date back roughly five thousand years. The structure, spanning approximately 30 meters in diameter, consists of upright wooden posts arranged in a deliberate circular pattern. Remarkably, the timber remains in exceptional condition owing to the water-soaked peat soil that has enveloped the site for thousands of years, effectively halting decomposition. The discovery has inevitably drawn parallels to Stonehenge, though the monument in Denmark was fashioned entirely from wood rather than massive stone. Researchers speculate that the circle may have functioned as a ritual gathering place or an astronomical observatory for tracking seasonal changes. Ongoing excavation aims to recover artifacts and organic material that could shed light on the community responsible for this ambitious construction project.",
+    "body_ja": "デンマークの考古学者たちが、ゼーランド島のレイレの町の近くで、およそ5千年前のものとされる先史時代の木造円形遺構を発掘しました。直径約30メートルのこの構造物は、意図的な円形パターンに配置された直立した木柱で構成されています。注目すべきことに、何千年にもわたって遺跡を包み込んできた水浸しの泥炭土壌が分解を事実上停止させたため、木材は例外的に良好な状態で残っています。この発見は必然的にストーンヘンジとの類似が指摘されていますが、デンマークの遺構は巨石ではなく完全に木で作られていました。研究者たちは、この円が儀式の集会場所や季節の変化を追跡するための天文観測所として機能していた可能性があると推測しています。進行中の発掘では、この野心的な建設を行った集団について解明するための遺物や有機物の回収を目指しています。",
+    "vocab_notes": [
+      {
+        "word": "peat",
+        "vl": 7000,
+        "definition": "a type of dark soil formed from decayed plants, often found in wet areas"
+      },
+      {
+        "word": "decomposition",
+        "vl": 7000,
+        "definition": "the process of breaking down or rotting of organic material"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "木材の保存状態が良好だった具体的な理由は何ですか？",
+        "choices": [
+          "乾燥した砂漠の気候",
+          "水浸しの泥炭土壌が分解を防いだ",
+          "火山灰に覆われていた",
+          "人工的な防腐処理が施されていた"
+        ],
+        "answer": 1,
+        "expl": "本文に「the waterlogged peat soil that has enveloped the site for millennia, effectively halting decomposition」と書かれています。"
+      },
+      {
+        "axis": "inference",
+        "q": "研究者たちが天文観測所の可能性に言及している根拠として推測されるのは？",
+        "choices": [
+          "望遠鏡の残骸が見つかったから",
+          "古代の円形構造物には天体観測機能を持つものがある歴史的知見から",
+          "文字記録が発見されたから",
+          "近くに星の絵が刻まれていたから"
+        ],
+        "answer": 1,
+        "expl": "ストーンヘンジなど古代の円形構造物に天体観測機能があったとされる歴史的知見があり、同様の可能性が推測されています。"
+      }
+    ]
   }
 ];
