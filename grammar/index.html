@@ -444,7 +444,7 @@ function showQuestion() {
 
   document.getElementById('current-q').textContent = currentQuestion + 1;
   document.getElementById('score').textContent      = score;
-  document.getElementById('question-text').textContent = q.question;
+  document.getElementById('question-text').textContent = q.stem;
   document.getElementById('feedback').classList.remove('show', 'correct', 'incorrect');
   document.getElementById('feedback').textContent   = '';
   document.getElementById('explanation').textContent = '';
@@ -452,8 +452,8 @@ function showQuestion() {
 
   // Category badge
   const badge = document.getElementById('category-badge');
-  if (q.category) {
-    badge.textContent = q.category;
+  if (q.axis) {
+    badge.textContent = q.axis;
     badge.style.display = 'inline-block';
   } else {
     badge.style.display = 'none';
@@ -461,7 +461,7 @@ function showQuestion() {
 
   const container = document.getElementById('options-container');
   container.innerHTML = '';
-  const shuffledOptions = shuffle(q.options);
+  const shuffledOptions = shuffle(q.choices);
   shuffledOptions.forEach(option => {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
@@ -502,8 +502,8 @@ function checkAnswer(selected, q) {
   feedback.textContent = isCorrect ? '✓ 正解！' : `✗ 不正解。正解は「${q.answer}」です。`;
   feedback.classList.add('show', isCorrect ? 'correct' : 'incorrect');
 
-  if (q.explanation) {
-    document.getElementById('explanation').textContent = q.explanation;
+  if (q.expl) {
+    document.getElementById('explanation').textContent = q.expl;
   }
 
   document.getElementById('next-btn').classList.add('show');
