@@ -2,6 +2,7 @@
 """@ichi_eigo リポストスクリプト
 - いいね20超の投稿からランダムに1件リポスト
 - 4日以内にリポスト済みの投稿は除外
+- リポスト前に24時間経過した過去リポストを自動取り消し
 """
 import urllib.request, urllib.parse, hmac, hashlib, base64
 import time, random, json, os, datetime, sys
@@ -11,6 +12,7 @@ LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'repost_log.
 USER_ID = '1182187111182749696'
 LIKE_THRESHOLD = 20
 COOLDOWN_DAYS = 4
+EXPIRE_HOURS = 24
 
 def load_env(path):
     env = {}
@@ -63,8 +65,55 @@ def oauth_request(env, method, url, params=None, body=None):
     with urllib.request.urlopen(req) as resp:
         return json.loads(resp.read())
 
+def unrepost_expired(env, repost_log):
+    """24時間経過したリポストを取り消し、残りのログを返す"""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    expire_delta = datetime.timedelta(hours=EXPIRE_HOURS)
+
+    expired = []
+    remaining = []
+    for entry in repost_log:
+        reposted_at = datetime.datetime.fromisoformat(entry['reposted_at'])
+        if now - reposted_at >= expire_delta:
+            expired.append(entry)
+        else:
+            remaining.append(entry)
+
+    if not expired:
+        return repost_log
+
+    seen = set()
+    remaining_ids = {e['tweet_id'] for e in remaining}
+    for entry in expired:
+        if entry['tweet_id'] in seen or entry['tweet_id'] in remaining_ids:
+            continue
+        seen.add(entry['tweet_id'])
+        try:
+            oauth_request(env, 'DELETE',
+                f'https://api.twitter.com/2/users/{USER_ID}/retweets/{entry["tweet_id"]}'
+            )
+            print(f"  Unreposted expired: {entry['tweet_id']}")
+        except urllib.error.HTTPError as e:
+            print(f"  Failed to unrepost: {entry['tweet_id']} -> HTTP {e.code}")
+        time.sleep(1)
+
+    # Save cleaned log
+    with open(LOG_PATH, 'w') as f:
+        json.dump(remaining, f, ensure_ascii=False, indent=2)
+    print(f"Cleaned {len(expired)} expired entries from log.")
+    return remaining
+
+
 def main():
     env = load_env(ENV_PATH)
+
+    # Unrepost expired (24h+) reposts first
+    try:
+        with open(LOG_PATH) as f:
+            existing_log = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_log = []
+    existing_log = unrepost_expired(env, existing_log)
 
     # Fetch tweets
     data = oauth_request(env, 'GET',
@@ -78,12 +127,8 @@ def main():
     candidates = [t for t in data.get('data', [])
                   if t['public_metrics']['like_count'] > LIKE_THRESHOLD]
 
-    # Load log, filter cooldown
-    try:
-        with open(LOG_PATH) as f:
-            repost_log = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        repost_log = []
+    # Use already-cleaned log for cooldown filter
+    repost_log = existing_log
 
     now = datetime.datetime.now(datetime.timezone.utc)
     cooldown = datetime.timedelta(days=COOLDOWN_DAYS)
