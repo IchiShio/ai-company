@@ -739,17 +739,30 @@ function openReader(storyId) {
 }
 
 function buildBodyHtml(story) {
-  // Build vocab lookup from vocab_notes
   const vocabMap = {};
   (story.vocab_notes || []).forEach(n => { vocabMap[n.word.toLowerCase()] = n; });
 
-  // Tokenize body into words + spaces/punctuation
+  // Use body_annotated if available (pre-computed VL-out marking)
+  if (story.body_annotated && story.body_annotated.length) {
+    return story.body_annotated.map(tok => {
+      if (!tok.w || !/[a-zA-Z]/.test(tok.w)) return escHtml(tok.w || '');
+      const isOutside = tok.outside === true;
+      const key = tok.w.toLowerCase().replace(/^'+|'+$/g, '');
+      const hasNote = !!vocabMap[key];
+      if (isOutside || hasNote) {
+        return `<span class="vocab-word" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok.w)}')">${escHtml(tok.w)}</span>`;
+      }
+      return escHtml(tok.w);
+    }).join('');
+  }
+
+  // Fallback: vocab_notes only
   const tokens = story.body.match(/[a-zA-Z'-]+|[^a-zA-Z'-]+/g) || [];
   return tokens.map(tok => {
     if (!/[a-zA-Z]/.test(tok)) return escHtml(tok);
     const key = tok.toLowerCase().replace(/^'+|'+$/g, '');
     if (vocabMap[key]) {
-      return `<span class="vocab-word" data-word="${escAttr(tok)}" onclick="showVocabPopup(event,'${escAttr(tok)}')">${escHtml(tok)}</span>`;
+      return `<span class="vocab-word" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok)}')">${escHtml(tok)}</span>`;
     }
     return escHtml(tok);
   }).join('');
