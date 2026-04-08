@@ -1,1385 +1,1948 @@
 {
   "topics": [
     {
-      "id": "claude-prompt-english-learning",
-      "title": "Claude AIで英語学習を加速する厳選プロンプト10選【2026年版】",
-      "slug": "claude-prompt-english-learning",
-      "target_keyword": "Claude プロンプト 英語学習",
-      "target_reader": "AIを使って英語学習を効率化したい社会人",
-      "h2_topics": [
-        "なぜClaudeは英語学習に向いているのか",
-        "スピーキング練習プロンプト3選",
-        "ライティング添削プロンプト3選",
-        "単語・表現習得プロンプト2選",
-        "ビジネス英語特化プロンプト2選",
-        "プロンプト活用時の注意点"
-      ],
-      "category": "AIプロンプト活用"
+      "slug": "40s-online-eikaiwa-guide",
+      "title": "40代からのオンライン英会話、本当に効果はある？3ヶ月で変わった体験談",
+      "category": "オンライン英会話"
     },
     {
-      "id": "ai-english-conversation-practice",
-      "title": "AIと英会話練習する方法【Claude・ChatGPT徹底比較】",
-      "slug": "ai-english-conversation-practice",
-      "target_keyword": "AI 英会話練習 Claude ChatGPT",
-      "target_reader": "オンライン英会話に通う前にAIで練習したい初心者",
-      "h2_topics": [
-        "AIで英会話練習するメリット・デメリット",
-        "ClaudeとChatGPTの英会話練習比較",
-        "効果的なAI英会話練習の進め方",
-        "AIと人間講師の組み合わせ方",
-        "初心者でも使えるAI英会話プロンプト集"
-      ],
-      "category": "AIプロンプト活用"
+      "slug": "adult-online-eikaiwa-guide",
+      "title": "社会人のオンライン英会話おすすめ【2026年版】継続率を上げる選び方",
+      "category": "オンライン英会話"
     },
     {
-      "id": "english-resume-prompt",
-      "title": "英文履歴書・職務経歴書をClaudeで作る方法【転職者向けプロンプト】",
-      "slug": "english-resume-prompt",
-      "target_keyword": "英文履歴書 Claude プロンプト 転職",
-      "target_reader": "外資系・グローバル企業に転職したい30代",
-      "h2_topics": [
-        "英文履歴書の基本構成と日本語との違い",
-        "職務経歴を英語に変換するプロンプト",
-        "アピールポイントを引き出すプロンプト",
-        "英文カバーレターのプロンプト",
-        "Claudeの出力をブラッシュアップするコツ"
-      ],
-      "category": "転職・キャリア×英語"
-    },
-    {
-      "id": "english-job-interview-prep",
-      "title": "外資系面接の英語対策【よく聞かれる質問と模範回答例】",
-      "slug": "english-job-interview-prep",
-      "target_keyword": "外資系 英語 面接 対策",
-      "target_reader": "外資系企業への転職を考えている30〜40代社会人",
-      "h2_topics": [
-        "外資系面接で英語が求められるレベル",
-        "必ず聞かれる10の質問と回答フレーム",
-        "Tell me about yourselfの組み立て方",
-        "弱みの答え方・強みの伝え方",
-        "英語面接の前日・当日にやること"
-      ],
-      "category": "転職・キャリア×英語"
-    },
-    {
-      "id": "salary-up-english",
-      "title": "英語ができると年収はいくら上がる？データで見るリターン",
-      "slug": "salary-up-english",
-      "target_keyword": "英語 年収 上がる データ",
-      "target_reader": "英語学習に投資する価値があるか迷っている20〜30代",
-      "h2_topics": [
-        "英語スキルと年収の関係（政府統計・企業調査）",
-        "TOEICスコア別の年収差",
-        "英語を活かせる職種・業界ランキング",
-        "英語学習コストと回収期間の試算",
-        "年収アップに直結する英語の身につけ方"
-      ],
-      "category": "転職・キャリア×英語"
-    },
-    {
-      "id": "english-habit-morning-routine",
-      "title": "朝10分の英語習慣で3ヶ月後に変わること【継続率80%のルーティン】",
-      "slug": "english-habit-morning-routine",
-      "target_keyword": "英語 朝 習慣 継続",
-      "target_reader": "忙しくて英語学習が続かない社会人",
-      "h2_topics": [
-        "朝10分が最強の英語時間である理由",
-        "レベル別・朝の英語ルーティン設計",
-        "3ヶ月後に実感できる変化のリアル",
-        "続けられない人がやりがちな3つの失敗",
-        "習慣化を助けるアプリ・ツール"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "english-speaking-fear",
-      "title": "英語を話すのが怖い人へ【心理的ブロックの外し方】",
-      "slug": "english-speaking-fear",
-      "target_keyword": "英語 話すのが怖い 克服",
-      "target_reader": "読める・書けるのに話せない、スピーキングに苦手意識がある人",
-      "h2_topics": [
-        "なぜ日本人は英語を話すのが怖いのか",
-        "心理的ブロックの正体と解消法",
-        "ひとりで練習できるスピーキング習慣",
-        "失敗しても大丈夫と思えるマインドセット",
-        "話せるようになった人に共通するたった一つの行動"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "toeic-900-study-plan",
-      "title": "TOEIC900点を取るための6ヶ月学習プラン【700点台から逆算】",
-      "slug": "toeic-900-study-plan",
-      "target_keyword": "TOEIC 900点 勉強法 6ヶ月",
-      "target_reader": "現在TOEIC700〜800点で900点を目指している社会人",
-      "h2_topics": [
-        "TOEIC900点に必要な本当のスキル",
-        "700点台・800点台別の弱点分析と対策",
-        "6ヶ月間の週次スケジュール",
-        "Part別の高得点戦略（L・R各パート）",
-        "900点取得者が口をそろえて言うこと"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "global-remote-work-english",
-      "title": "リモートワークで英語を使う場面と実践的な乗り越え方",
-      "slug": "global-remote-work-english",
-      "target_keyword": "リモートワーク 英語 グローバル",
-      "target_reader": "英語でのオンライン会議・Slackコミュニケーションに不安がある人",
-      "h2_topics": [
-        "グローバルリモートワークで求められる英語力",
-        "英語会議で発言できるようになるコツ",
-        "SlackやメールでのビジネスEnglish定型文集",
-        "聞き取れなかったときの切り抜け方",
-        "3ヶ月でグローバル環境に慣れるためのロードマップ"
-      ],
-      "category": "転職・キャリア×英語"
-    },
-    {
-      "id": "english-learning-cost-comparison",
-      "title": "英語学習にかかる年間コスト比較【オンライン英会話・アプリ・コーチング】",
-      "slug": "english-learning-cost-comparison",
-      "target_keyword": "英語学習 費用 コスト 比較",
-      "target_reader": "英語学習に毎月いくら使うべきか迷っている社会人",
-      "h2_topics": [
-        "英語学習サービス別の年間コスト一覧",
-        "オンライン英会話の本当のコスパ",
-        "英語コーチングは高い？費用対効果の検証",
-        "アプリだけで上達できるのか",
-        "予算別・最適な英語学習の組み合わせ方"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "eikaiwa-beginner-guide",
-      "title": "英会話を始めたい初心者ガイド【目的別サービス選び方2026】",
-      "slug": "eikaiwa-beginner-guide",
-      "target_keyword": "英会話 初心者",
-      "target_reader": "英会話を始めたいが何から手をつければいいかわからない初心者",
-      "h2_topics": [
-        "初心者が英会話サービスを選ぶ前に知っておくべきこと",
-        "目的別おすすめオンライン英会話（旅行・ビジネス・趣味）",
-        "初心者が最初の1ヶ月でやること",
-        "つまずきやすいポイントと解決策",
-        "予算別・初心者向けサービス比較"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "eikaiwa-textbooks-comparison",
-      "title": "英会話教材おすすめ比較【市販テキスト vs オンライン英会話2026】",
-      "slug": "eikaiwa-textbooks-comparison",
-      "target_keyword": "英会話 教材 おすすめ",
-      "target_reader": "英会話教材を探している、独学か教材かで迷っている初中級者",
-      "h2_topics": [
-        "市販テキスト vs オンライン英会話：どちらが効果的か",
-        "レベル別おすすめ英会話教材",
-        "アプリと書籍の効果的な組み合わせ方",
-        "英会話サービス付属の独自教材の評価",
-        "コスパ最強の教材・サービスの選び方"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "chatgpt-eikaiwa-guide",
-      "title": "ChatGPTで英会話練習する方法【無料でここまでできる2026】",
-      "slug": "chatgpt-eikaiwa-guide",
-      "target_keyword": "チャットgpt 英会話",
-      "target_reader": "AIで英会話練習できるか試したい、コストを抑えたい人",
-      "h2_topics": [
-        "ChatGPTで英会話練習できるのか？基本の使い方",
-        "ロールプレイで使える会話練習の始め方",
-        "発音・文法のフィードバックをもらう方法",
-        "ChatGPTとオンライン英会話の使い分け",
-        "無料でここまでできる！AI英会話練習の実例"
-      ],
-      "category": "AIプロンプト活用"
-    },
-    {
-      "id": "travel-english-service-guide",
-      "title": "海外旅行の英会話対策【出発前1〜3ヶ月で使うべきサービス比較】",
-      "slug": "travel-english-service-guide",
-      "target_keyword": "海外旅行 英会話",
-      "target_reader": "来月・来年に海外旅行を控えていて英語対策をしたい人",
-      "h2_topics": [
-        "旅行英語は何ヶ月前から始めるべきか",
-        "旅行目的別おすすめオンライン英会話",
-        "1〜3ヶ月で旅行英語を仕上げるプラン",
-        "ホテル・レストラン・観光地別の実践フレーズ",
-        "旅行後も続けたい人のためのステップアップ"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "chatgpt-eikaiwa-prompts",
-      "title": "ChatGPT英会話プロンプト集【コピペで使える20選2026】",
-      "slug": "chatgpt-eikaiwa-prompts",
-      "target_keyword": "chatgpt 英会話 プロンプト",
-      "target_reader": "ChatGPTを英会話練習に使いたいが何を入力すればいいかわからない人",
-      "h2_topics": [
-        "コピペで使える英会話練習プロンプト10選",
-        "シチュエーション別ロールプレイプロンプト",
-        "文法・語彙の解説を引き出すプロンプト",
-        "ビジネス英語特訓プロンプト",
-        "プロンプトを自分でカスタマイズするコツ"
-      ],
-      "category": "AIプロンプト活用"
-    },
-    {
-      "id": "eikaiwa-practice-methods",
-      "title": "英会話練習方法まとめ【独学・アプリ・オンライン英会話を比較】",
-      "slug": "eikaiwa-practice-methods",
-      "target_keyword": "英会話 練習 方法",
-      "target_reader": "英会話の練習方法を探している、続け方がわからない人",
-      "h2_topics": [
-        "独学でできる英会話練習法5選",
-        "オンライン英会話を最大限活用する練習法",
-        "AI・アプリを組み合わせた練習メニュー",
-        "スピーキング力が上がる毎日の習慣",
-        "練習が続かない人向けの仕組みづくり"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "eikaiwa-for-workers",
-      "title": "社会人におすすめの英会話サービス比較【忙しい人向け2026】",
-      "slug": "eikaiwa-for-workers",
-      "target_keyword": "英会話 おすすめ 社会人",
-      "target_reader": "仕事が忙しくて英語学習の時間が取れない20〜40代社会人",
-      "h2_topics": [
-        "忙しい社会人が英会話を続けるための条件",
-        "時間・予算・目的別おすすめサービス",
-        "スキマ時間で使えるサービス比較",
-        "社会人に人気の英会話サービスランキング",
-        "仕事の成果につながる英会話サービスの選び方"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "eikaiwa-how-to-start",
-      "title": "英会話は何から始める？英語ゼロからのロードマップ",
-      "slug": "eikaiwa-how-to-start",
-      "target_keyword": "英会話 何から始める",
-      "target_reader": "英語が全くできないが英会話を始めたい人",
-      "h2_topics": [
-        "英語ゼロからのロードマップ（3ステップ）",
-        "最初の1週間でやること",
-        "レベル診断と自分に合った学習法の選び方",
-        "よくある「最初の失敗」と回避法",
-        "始めやすいサービス・コスト別選び方"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "eikaiwa-coaching-guide",
-      "title": "英会話コーチング比較おすすめ6選【選び方・費用・効果を解説2026】",
-      "slug": "eikaiwa-coaching-guide",
-      "target_keyword": "英会話 コーチング",
-      "target_reader": "英会話コーチングが自分に合っているか判断したい人",
-      "h2_topics": [
-        "コーチングとオンライン英会話の決定的な違い",
-        "主要英会話コーチング6社を徹底比較",
-        "「コーチングが向いている人」チェックリスト",
-        "費用対効果：コーチングは本当に高い？",
-        "選んで失敗しないコーチングの選び方"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "eikaiwa-fee-comparison",
-      "title": "オンライン英会話の料金・費用を徹底比較【月額・コスパランキング2026】",
-      "slug": "eikaiwa-fee-comparison",
-      "target_keyword": "英会話 料金 費用 比較",
-      "target_reader": "オンライン英会話を始めたいが費用感がわからない人",
-      "h2_topics": [
-        "主要オンライン英会話の月額料金一覧（2026年版）",
-        "格安〜高額サービスの違いは何か",
-        "「安い＝悪い」は本当か？コスパを検証",
-        "継続コストを下げる賢い使い方",
-        "予算別・最適な英会話サービスの選び方"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "eikaiwa-app-comparison",
-      "title": "英会話アプリおすすめ比較10選【2026年版・目的別ランキング】",
-      "slug": "eikaiwa-app-comparison",
-      "target_keyword": "英会話アプリ おすすめ",
-      "target_reader": "英会話アプリを探しているが種類が多すぎて選べない人",
-      "h2_topics": [
-        "英会話アプリとオンライン英会話の違い・使い分け",
-        "目的別おすすめ英会話アプリランキング（スピーキング・リスニング・単語）",
-        "無料で使える英会話アプリの実力はどこまでか",
-        "有料英会話アプリのコスパ比較",
-        "英会話アプリを続けるための活用術"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "eikaiwa-app-free",
-      "title": "無料英会話アプリおすすめ比較【2026年・本当に使えるアプリだけ厳選】",
-      "slug": "eikaiwa-app-free",
-      "target_keyword": "英会話アプリ 無料",
-      "target_reader": "お金をかけずに英会話を練習したい、まず無料で試したい人",
-      "h2_topics": [
-        "無料英会話アプリで本当に上達できるのか",
-        "完全無料で使えるおすすめアプリ5選",
-        "無料と有料の差はどこにあるか",
-        "無料アプリの弱点を補う学習の組み合わせ方",
-        "無料から有料にステップアップするタイミング"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "toeic-eikaiwa-combination",
-      "title": "TOEIC対策にオンライン英会話を組み合わせる方法【スコア別活用ガイド】",
-      "slug": "toeic-eikaiwa-combination",
-      "target_keyword": "TOEIC 英会話",
-      "target_reader": "TOEICスコアを上げながらスピーキングも伸ばしたい社会人",
-      "h2_topics": [
-        "TOEICとオンライン英会話は相性がいいのか",
-        "スコア別（600・700・800点台）の組み合わせ戦略",
-        "TOEIC対策向けのオンライン英会話サービス比較",
-        "TOEICリスニング強化に使えるレッスン活用法",
-        "スコアアップと会話力を同時に伸ばす週次スケジュール"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "ai-eikaiwa-comparison",
-      "title": "生成AI英会話サービス比較【Claude・ChatGPT・Gemini 2026年最新版】",
       "slug": "ai-eikaiwa-comparison",
-      "target_keyword": "生成AI 英会話",
-      "target_reader": "AI英会話に興味があり、どのサービスが最適か知りたい人",
-      "h2_topics": [
-        "生成AIを英会話練習に使うメリット・デメリット",
-        "Claude・ChatGPT・Gemini 英会話機能徹底比較",
-        "AI英会話とオンライン英会話（人間講師）の使い分け",
-        "生成AIで英会話を上達させた具体的な使い方",
-        "2026年に注目のAI英会話サービス・アプリまとめ"
-      ],
-      "category": "AIプロンプト活用"
+      "title": "生成AI英会話サービス比較【Claude・ChatGPT・Gemini 2026年最新版】",
+      "category": "AI英語学習"
     },
     {
-      "id": "eikaiwa-for-students",
-      "title": "大学生におすすめのオンライン英会話比較【安くて続けやすい2026年版】",
-      "slug": "eikaiwa-for-students",
-      "target_keyword": "オンライン英会話 大学生",
-      "target_reader": "就活・留学・TOEICを見据えて英語力を上げたい大学生",
-      "h2_topics": [
-        "大学生がオンライン英会話を始めるベストタイミング",
-        "大学生向けコスパ重視のサービス比較",
-        "就活英語・留学英語・TOEIC対策別おすすめサービス",
-        "奨学金・バイト代で無理なく続けられる料金プランの選び方",
-        "大学生が英会話で差をつけるための3ヶ月プラン"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "ai-english-conversation-practice",
+      "title": "AIと英会話練習する方法【Claude・ChatGPT徹底比較】",
+      "category": "AI英語学習"
     },
     {
-      "id": "eikaiwa-for-high-school",
-      "title": "高校生向けオンライン英会話おすすめ比較【大学受験・英検対策2026】",
-      "slug": "eikaiwa-for-high-school",
-      "target_keyword": "オンライン英会話 高校生",
-      "target_reader": "大学受験・英検・スピーキングテスト対策をしたい高校生・保護者",
-      "h2_topics": [
-        "高校生がオンライン英会話で得られる効果",
-        "大学受験・英検・共通テスト英語対策に向くサービス比較",
-        "月額3,000〜5,000円で使える高校生向けサービス",
-        "部活・勉強と両立できるスキマ時間の使い方",
-        "保護者が知っておくべき選び方のポイント"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "bizmates-review-article",
+      "title": "Bizmates（ビズメイツ）の評判・口コミまとめ【2026年版】ビジネス英語特化の実力は？",
+      "category": "サービスレビュー"
     },
     {
-      "id": "english-speaking-daily-practice",
-      "title": "英語スピーキング 毎日の独り言練習法【1人でできる習慣づくり】",
-      "slug": "english-speaking-daily-practice",
-      "target_keyword": "英語 独り言 練習",
-      "target_reader": "スピーキングを上げたいが毎日レッスンには通えない忙しい社会人",
-      "h2_topics": [
-        "独り言英語練習がスピーキング向上に効く理由",
-        "今日からできる独り言英語の始め方（レベル別）",
-        "通勤・家事・就寝前に使えるシチュエーション別フレーズ",
-        "独り言練習をオンライン英会話と組み合わせる方法",
-        "3ヶ月続けると何が変わるか"
-      ],
-      "category": "英語学習コラム"
+      "slug": "business-english-complete-guide",
+      "title": "ビジネス英語完全ガイド｜メール・会議・交渉・プレゼン全記事まとめ【2026年版】",
+      "category": "ビジネス英語"
     },
     {
-      "id": "online-eikaiwa-cancellation-guide",
-      "title": "オンライン英会話の解約・退会方法まとめ【サービス別手順と注意点】",
-      "slug": "online-eikaiwa-cancellation-guide",
-      "target_keyword": "オンライン英会話 解約",
-      "target_reader": "オンライン英会話をやめたい、または乗り換えを検討している人",
-      "h2_topics": [
-        "オンライン英会話を解約する前に確認すべきこと",
-        "主要サービス別・解約手順まとめ（レアジョブ・ネイティブキャンプ等）",
-        "解約時に損しないためのポイント（残レッスン・返金）",
-        "解約せずに休会・プラン変更で乗り切る方法",
-        "より自分に合ったサービスへの乗り換えガイド"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "business-english-email-guide",
+      "title": "ビジネス英語メールの書き方【件名・書き出し・締め・頻出フレーズ完全版2026】",
+      "category": "ビジネス英語"
     },
     {
-      "id": "eikaiwa-study-methods",
-      "title": "英会話の勉強法完全ガイド【初心者から上級者まで目的別メソッド2026】",
-      "slug": "eikaiwa-study-methods",
-      "target_keyword": "英会話 勉強法",
-      "target_reader": "英会話をどう勉強すればいいかわからない、効果が出ていない人",
-      "h2_topics": [
-        "英会話が上達しない人に共通する勉強法の落とし穴",
-        "レベル別・最速で話せるようになる勉強法",
-        "インプットとアウトプットの最適バランスとは",
-        "独学・アプリ・オンライン英会話の組み合わせ方",
-        "3ヶ月で実感できる効果的な勉強スケジュール",
-        "上達を加速させる5つの習慣"
-      ],
-      "category": "英語学習コラム"
+      "slug": "business-english-email-reply",
+      "title": "ビジネス英語メールの返信フレーズ集【感謝・確認・お断り・遅延連絡など場面別】",
+      "category": "ビジネス英語"
     },
     {
-      "id": "eikaiwa-freetalk-topics",
-      "title": "英会話フリートークの話題・ネタ100選【盛り上がるトピック別フレーズ付き】",
-      "slug": "eikaiwa-freetalk-topics",
-      "target_keyword": "英会話 フリートーク 話題",
-      "target_reader": "英会話レッスンのフリートークで何を話せばいいかわからない初中級者",
-      "h2_topics": [
-        "フリートークで話せるようになると英会話が飛躍的に上達する理由",
-        "鉄板トピック30選（趣味・旅行・仕事・食べ物・文化）",
-        "盛り上がる話題の選び方と会話を続けるコツ",
-        "レベル別・初心者でも使いやすいトピックとフレーズ集",
-        "NGトピックと避けるべき話題",
-        "フリートークを練習するためのおすすめサービス"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "english-pronunciation-guide",
-      "title": "英語の発音を徹底改善【日本人が苦手な音から練習法まで完全ガイド2026】",
-      "slug": "english-pronunciation-guide",
-      "target_keyword": "英語 発音",
-      "target_reader": "英語の発音に自信がなく、ネイティブに聞き返されることが多い日本人学習者",
-      "h2_topics": [
-        "日本人が特に苦手な英語の音とその理由",
-        "母音・子音・リズム：英語発音の3つの柱",
-        "LとR、BとV、FとHなど混同しやすい音の練習法",
-        "シャドーイングで発音を劇的に改善する方法",
-        "オンライン英会話を使った発音矯正の進め方",
-        "発音改善におすすめのアプリ・ツール"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "english-study-methods-guide",
-      "title": "英語の勉強方法を総まとめ【目的・レベル別の最短ルートガイド2026】",
-      "slug": "english-study-methods-guide",
-      "target_keyword": "英語 勉強方法",
-      "target_reader": "英語をゼロから、または伸び悩みを打開したい20〜40代",
-      "h2_topics": [
-        "英語学習で失敗する人・成功する人の決定的な違い",
-        "レベル別（初心者・中級・上級）最適な勉強方法",
-        "4技能（読む・聞く・話す・書く）の効率的な伸ばし方",
-        "独学・アプリ・スクールをどう組み合わせるか",
-        "忙しい社会人でも続く1日30分の勉強プラン",
-        "3ヶ月で実感できる変化と6ヶ月後のゴール設定"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "eiken-2kyuu-interview",
-      "title": "英検2級 二次試験（面接）対策【使える表現・頻出問題・合格攻略法2026】",
-      "slug": "eiken-2kyuu-interview",
-      "target_keyword": "英検2級 面接 使える表現",
-      "target_reader": "英検2級の二次試験（面接）を控えている高校生・社会人",
-      "h2_topics": [
-        "英検2級二次試験の形式と採点基準を理解する",
-        "面接で使える定番表現・フレーズ30選",
-        "パッセージ音読で高評価を取るコツ",
-        "ナレーション・質疑応答の攻略法",
-        "よく出るトピック別・模範回答例",
-        "オンライン英会話で二次試験対策をする方法"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "toeic-600-study-plan",
-      "title": "TOEIC600点突破の勉強法【500点台から3ヶ月で達成するプラン】",
-      "slug": "toeic-600-study-plan",
-      "target_keyword": "toeic 600",
-      "target_reader": "TOEIC500点台で600点を目指している社会人・大学生",
-      "h2_topics": [
-        "TOEIC600点が持つ意味と取得後に広がるチャンス",
-        "500点台が600点に届かない3つの原因",
-        "Part別スコアアップ戦略（L・R各パート）",
-        "3ヶ月間の週次学習スケジュール",
-        "オンライン英会話でリスニング力を底上げする方法",
-        "600点達成後のステップアップ先"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "eiken-3kyuu-grammar",
-      "title": "英検3級の文法を完全マスター【出題パターンと攻略ポイント2026】",
-      "slug": "eiken-3kyuu-grammar",
-      "target_keyword": "英検3級 文法",
-      "target_reader": "英検3級を受験する中学生・英語を基礎から学び直す社会人",
-      "h2_topics": [
-        "英検3級で問われる文法の全体像",
-        "頻出文法項目トップ10と解き方のコツ",
-        "語彙・熟語の効率的な覚え方",
-        "リスニング問題で文法知識を活かす方法",
-        "ライティング・スピーキングでの文法活用",
-        "過去問演習のスケジュールと進め方"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "studysapuri-english-review",
-      "title": "スタディサプリENGLISH 評判・口コミ【リアルな効果と向いている人を解説】",
-      "slug": "studysapuri-english-review",
-      "target_keyword": "スタディサプリenglish 評判",
-      "target_reader": "スタディサプリENGLISHの効果が気になる、他サービスと比較したい人",
-      "h2_topics": [
-        "スタディサプリENGLISHの特徴と他サービスとの違い",
-        "実際の口コミ・評判（良い点・悪い点）",
-        "ビジネス英語コース・TOEIC対策コースの実力",
-        "料金・コスパは他のオンライン英会話と比べてどうか",
-        "向いている人・向いていない人のチェックリスト",
-        "スタディサプリを最大限活用する使い方"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "online-eikaiwa-not-recommended",
-      "title": "オンライン英会話をすすめない人の特徴【向かないケースと代替手段】",
-      "slug": "online-eikaiwa-not-recommended",
-      "target_keyword": "オンライン英会話 おすすめ しない",
-      "target_reader": "オンライン英会話が本当に自分に合っているか迷っている人",
-      "h2_topics": [
-        "「オンライン英会話が意味ない・効果なし」と感じる本当の理由",
-        "オンライン英会話をすすめない6つのケース",
-        "1年続けても話せない人に共通するパターン",
-        "オンライン英会話に向かない人への代替学習プラン",
-        "それでも始めるなら：失敗しない選び方と進め方",
-        "向いている人なら確実に効果が出る条件"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "english-drama-learning",
-      "title": "海外ドラマで英語学習を加速する方法【効果的な見方と上達のコツ2026】",
-      "slug": "english-drama-learning",
-      "target_keyword": "海外ドラマ 英語学習",
-      "target_reader": "海外ドラマを使って楽しく英語を身につけたい初中級者",
-      "h2_topics": [
-        "海外ドラマは本当に英語学習に効くのか？科学的根拠",
-        "レベル別おすすめ海外ドラマ（入門〜上級）",
-        "字幕の使い方：日本語字幕→英語字幕→字幕なしの段階的移行法",
-        "「シャドーイング×ドラマ」で爆速リスニング向上",
-        "ドラマで覚えたフレーズをオンライン英会話で実践する方法",
-        "続けやすい視聴習慣の作り方"
-      ],
-      "category": "英語学習コラム"
-    },
-    {
-      "id": "online-eikaiwa-philippines",
-      "title": "フィリピン人講師のオンライン英会話おすすめ比較【安くて効果的な理由2026】",
-      "slug": "online-eikaiwa-philippines",
-      "target_keyword": "オンライン英会話 フィリピン",
-      "target_reader": "フィリピン人講師のオンライン英会話が気になる、コスパ重視の人",
-      "h2_topics": [
-        "フィリピン人講師のオンライン英会話が人気な理由",
-        "フィリピン英語とネイティブ英語の違いを正直に解説",
-        "フィリピン講師特化のおすすめサービス比較",
-        "ネイティブ講師サービスとのコスパ比較",
-        "フィリピン人講師で効果を出すための活用法",
-        "こんな人にフィリピン講師がおすすめ・向かない人"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "kyuufu-eikaiwa",
-      "title": "教育訓練給付制度で英会話・英語コーチングを受ける方法【給付対象サービス一覧2026】",
-      "slug": "kyuufu-eikaiwa",
-      "target_keyword": "教育訓練給付制度 英会話 オンライン",
-      "target_reader": "雇用保険の給付制度を使って英会話・英語スクール費用を抑えたい社会人",
-      "h2_topics": [
-        "教育訓練給付制度とは？英語学習に使える条件を解説",
-        "給付対象になっているオンライン英会話・英語コーチング一覧",
-        "一般教育訓練と専門実践教育訓練の違い",
-        "申請手順と注意点（ハローワーク手続き）",
-        "給付を受けながら効率よく英語を身につける方法",
-        "給付制度以外でコストを下げる英語学習の選択肢"
-      ],
-      "category": "英語学習サービス比較・レビュー"
-    },
-    {
-      "id": "travel-english-phrases",
-      "slug": "travel-english-phrases",
-      "title": "旅行で使える英会話フレーズ完全集【空港・ホテル・レストラン別2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "旅行 英会話",
-      "target_reader": "海外旅行を控えた初心者・英語が不安な旅行者",
-      "h2_topics": [
-        "空港・機内で使える英会話フレーズ20選",
-        "ホテルチェックイン・部屋トラブルのフレーズ",
-        "レストラン・カフェで使える注文フレーズ",
-        "観光・道案内・ショッピングで使う英語",
-        "困ったとき・緊急時に使える英会話",
-        "旅行英会話をオンライン英会話で練習する方法"
-      ]
-    },
-    {
-      "id": "eikaiwa-self-study",
-      "slug": "eikaiwa-self-study",
-      "title": "英会話を独学で上達させる方法【教材・アプリ・練習法の完全ガイド2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英会話 独学",
-      "target_reader": "英会話スクールに通わず自力で上達したい社会人・大学生",
-      "h2_topics": [
-        "独学で英会話が上達する人・しない人の違い",
-        "独学のステップ①：インプット強化（シャドーイング・多聴）",
-        "独学のステップ②：アウトプット練習の場を作る",
-        "独学に使えるおすすめ教材・アプリ",
-        "独学の限界とオンライン英会話の使い分け",
-        "独学とオンライン英会話を組み合わせた学習プラン"
-      ]
-    },
-    {
-      "id": "eikaiwa-example-phrases",
-      "slug": "eikaiwa-example-phrases",
-      "title": "英会話の例文・フレーズ集【レベル別・場面別に使えるフレーズ2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英会話 例文",
-      "target_reader": "英会話で実際に使えるフレーズを探している学習者",
-      "h2_topics": [
-        "英会話初心者向け：自己紹介・挨拶の例文",
-        "日常会話で使えるフレーズ（趣味・近況・感情表現）",
-        "ビジネス英会話で使える例文・表現",
-        "聞き返し・確認・言い換えの便利フレーズ",
-        "オンライン英会話レッスンで使える表現",
-        "例文・フレーズを定着させる練習方法"
-      ]
-    },
-    {
-      "id": "english-study-apps",
-      "slug": "english-study-apps",
-      "title": "英語勉強アプリおすすめ11選【目的・レベル別に徹底比較2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英語 勉強 アプリ",
-      "target_reader": "スマホで英語学習を始めたい・継続したい人",
-      "h2_topics": [
-        "英語勉強アプリを選ぶ3つのポイント",
-        "単語・語彙強化アプリおすすめ3選",
-        "リスニング・発音練習アプリおすすめ3選",
-        "文法・総合学習アプリおすすめ3選",
-        "スピーキング練習に特化したアプリ2選",
-        "アプリだけでは伸びにくいスキルとその補い方"
-      ]
-    },
-    {
-      "id": "english-listening-guide",
-      "slug": "english-listening-guide",
-      "title": "英語リスニング勉強法【初心者〜中級者が聞き取れるようになる完全ガイド2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英語 リスニング 勉強法",
-      "target_reader": "英語リスニングが伸び悩んでいる中級者・これから始める初心者",
-      "h2_topics": [
-        "英語リスニングが聞き取れない3つの原因",
-        "初心者向け：精聴（ディクテーション）で基礎力を上げる",
-        "中級者向け：シャドーイングで処理速度を上げる",
-        "多聴で英語耳を作る：素材選びと継続のコツ",
-        "オンライン英会話でリスニングを実践練習する方法",
-        "3ヶ月で聞き取れるようになるリスニング勉強プラン"
-      ]
-    },
-    {
-      "id": "english-study-adult-worker",
-      "slug": "english-study-adult-worker",
-      "title": "社会人の英語勉強法【ゼロから始める忙しい大人のための最短ルート2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英語 勉強 社会人",
-      "target_reader": "仕事が忙しい社会人・ゼロから英語を学び直したい大人",
-      "h2_topics": [
-        "社会人が英語を学ぶ目的を明確にする（TOEICか会話か）",
-        "忙しい社会人のための隙間時間学習術",
-        "ゼロから始める社会人向け学習ロードマップ",
-        "社会人向けおすすめ英語勉強法（通勤・昼休み・就寝前）",
-        "社会人向けオンライン英会話の活用法",
-        "英語学習が続かない原因と継続するコツ"
-      ]
-    },
-    {
-      "id": "eikaiwa-textbooks",
-      "slug": "eikaiwa-textbooks",
-      "title": "英会話の教材・テキストおすすめ【独学・オンライン英会話別の選び方2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英会話 教材",
-      "target_reader": "英会話の独学・オンライン英会話学習で使う教材を探している人",
-      "h2_topics": [
-        "英会話教材を選ぶ際の3つの基準",
-        "初心者向けおすすめ英会話テキスト・参考書",
-        "中級者向けおすすめ英会話教材",
-        "リスニング・シャドーイング用CD付き教材",
-        "オンライン英会話と組み合わせたい教材の使い方",
-        "教材だけでは伸びにくい理由とアウトプットの重要性"
-      ]
-    },
-    {
-      "id": "english-learning-apps",
-      "slug": "english-learning-apps",
-      "title": "英語学習アプリおすすめ10選【2026年・目的別に徹底比較】",
-      "category": "英語学習コラム",
-      "target_keyword": "英語学習アプリ おすすめ",
-      "target_reader": "英語学習アプリを探している初心者・学習継続中の人",
-      "h2_topics": [
-        "英語学習アプリの選び方：目的別に見るべきポイント",
-        "総合英語学習アプリおすすめ3選",
-        "単語・語彙特化アプリおすすめ3選",
-        "リスニング・スピーキング強化アプリ2選",
-        "TOEIC・英検対策アプリおすすめ2選",
-        "アプリだけでは補えないスキルの伸ばし方"
-      ]
-    },
-    {
-      "id": "eiken-4kyuu-guide",
-      "slug": "eiken-4kyuu-guide",
-      "title": "英検4級のレベル・勉強法・合格対策【2026年度版完全ガイド】",
-      "category": "英語学習コラム",
-      "target_keyword": "英検4級レベル",
-      "target_reader": "英検4級の受験を検討している中学生・その保護者",
-      "h2_topics": [
-        "英検4級のレベル・難易度（中学2年生レベルの基準）",
-        "英検4級の試験形式・合格基準スコア",
-        "英検4級に合格するための勉強法",
-        "英検4級のおすすめ参考書・問題集",
-        "英検4級合格後のステップアップ（3級への道）",
-        "英検対策にオンライン英会話を活用する方法"
-      ]
-    },
-    {
-      "id": "english-phrases-collection",
-      "slug": "english-phrases-collection",
-      "title": "よく使う英語フレーズ150選【場面別・レベル別の完全まとめ2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英語 フレーズ",
-      "target_reader": "日常・旅行・ビジネスで使える英語フレーズをまとめて覚えたい人",
-      "h2_topics": [
-        "挨拶・自己紹介で使える基本フレーズ20選",
-        "日常会話・感情表現フレーズ30選（ありがとう・おめでとう等）",
-        "旅行・観光シーンで使えるフレーズ30選",
-        "ビジネス・仕事で使える英語フレーズ30選",
-        "SNS・メッセージで使えるカジュアルフレーズ20選",
-        "フレーズを実際に使う練習の場としてのオンライン英会話"
-      ]
-    },
-    {
-      "id": "english-vocabulary-guide",
-      "slug": "english-vocabulary-guide",
-      "title": "英単語の覚え方・英単語帳おすすめ完全ガイド【2026年版・効率的な暗記法】",
-      "category": "英語学習コラム",
-      "target_keyword": "英単語 覚え方",
-      "target_reader": "英単語を効率よく覚えたい・英単語帳を選びたい中学生〜社会人",
-      "h2_topics": [
-        "英単語が覚えられない本当の理由と解決策",
-        "科学的に証明された英単語の効率的な覚え方5選",
-        "英単語帳おすすめ比較（レベル別・目的別）",
-        "アプリを使った英単語暗記の効果と活用法",
-        "英単語を長期記憶に定着させるスケジュールの作り方",
-        "覚えた英単語を実際に使えるようにするアウトプット練習"
-      ]
-    },
-    {
-      "id": "business-english-guide",
       "slug": "business-english-guide",
       "title": "ビジネス英語の習得ガイド【フレーズ・メール・会議で使える実践表現2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "ビジネス英語 フレーズ",
-      "target_reader": "仕事で英語を使う機会が増えた・ビジネス英語を学びたい社会人",
-      "h2_topics": [
-        "ビジネス英語と日常英語の決定的な違い",
-        "ビジネスメールで使える定番フレーズ30選",
-        "英語会議・プレゼンで使える表現と進め方",
-        "ビジネス英語の習得に効果的な学習法",
-        "おすすめビジネス英語サービス・教材比較",
-        "ビジネス英語を最短で身につける学習プラン"
-      ]
+      "category": "ビジネス英語"
     },
     {
-      "id": "eiken-junni-interview",
-      "slug": "eiken-junni-interview",
-      "title": "英検準2級 二次試験（面接）対策【使える表現・頻出問題・合格攻略法2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英検準2級 面接 使える表現",
-      "target_reader": "英検準2級の二次試験を控えている高校生・英語学習者",
-      "h2_topics": [
-        "英検準2級二次試験の形式と採点基準を理解する",
-        "面接で使える定番表現・フレーズ20選",
-        "パッセージ音読と内容質問の攻略法",
-        "イラスト描写・状況説明の答え方",
-        "よく出るトピック別・模範回答例",
-        "オンライン英会話で二次試験対策をする方法"
-      ]
+      "slug": "business-english-meeting-phrases",
+      "title": "ビジネス英語【会議フレーズ60選】意見・賛成・反対・まとめの全場面対応",
+      "category": "ビジネス英語"
     },
     {
-      "id": "eiken-2kyuu-writing",
-      "slug": "eiken-2kyuu-writing",
-      "title": "英検2級ライティング対策【使えるフレーズ・構成・合格答案の書き方2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英検2級 ライティング 使えるフレーズ",
-      "target_reader": "英検2級のライティング問題に苦手意識がある高校生・大学生",
-      "h2_topics": [
-        "英検2級ライティングの形式と採点基準（内容・構成・語彙・文法）",
-        "合格答案の型（序論・本論・結論の構成法）",
-        "英検2級ライティングで使える定番フレーズ・表現30選",
-        "頻出トピック別・模範解答例と解説",
-        "80語以上を書くためのボリュームアップテクニック",
-        "書いた後のセルフチェックと練習法"
-      ]
+      "slug": "business-english-negotiation",
+      "title": "ビジネス英語交渉のフレーズ集【提案・譲歩・合意・断り方の場面別例文2026】",
+      "category": "ビジネス英語"
     },
     {
-      "id": "eiken-2kyuu-vocabulary",
+      "slug": "business-english-online",
+      "title": "ビジネス英語向けオンライン英会話おすすめ比較【社会人・転職活用2026】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "business-english-online-eikaiwa",
+      "title": "ビジネス英語に強いオンライン英会話おすすめ比較【2026年版】目的別の選び方と効果を解説",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "business-english-presentation",
+      "title": "ビジネス英語プレゼンのフレーズ集【導入・本題・質疑応答・まとめの流れと例文2026】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "business-english-report-writing",
+      "title": "ビジネス英語レポートの書き方【構成・フォーマット・よく使うフレーズ集2026】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "busy-worker-online-eikaiwa-guide",
+      "title": "忙しい社会人がオンライン英会話を続ける方法【1日15分でOKな現実プラン】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "cambly-review-article",
+      "title": "Cambly（キャンブリー）の評判・口コミ【2026年版】料金・デメリット・向いている人を正直解説",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "chatgpt-eikaiwa-guide",
+      "title": "ChatGPTで英会話練習する方法【無料でここまでできる2026】",
+      "category": "AI英語学習"
+    },
+    {
+      "slug": "chatgpt-eikaiwa-prompts",
+      "title": "ChatGPT英会話プロンプト集【コピペで使える20選2026】",
+      "category": "AI英語学習"
+    },
+    {
+      "slug": "claude-prompt-english-learning",
+      "title": "Claude AIで英語学習を加速する厳選プロンプト10選【2026年版】",
+      "category": "AI英語学習"
+    },
+    {
+      "slug": "dmm-vs-nativecamp",
+      "title": "DMM英会話 vs ネイティブキャンプ どっちがいい？【2026年版 徹底比較】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "dmm-vs-rarejob",
+      "title": "DMM英会話 vs レアジョブ徹底比較【料金・講師・効果の違い2026】",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "eikaiwa-app-comparison",
+      "title": "英語学習アプリ おすすめ10選【2026年最新版】スピーキング・リスニング・単語別に目的別比較",
+      "category": "アプリ・ツール"
+    },
+    {
+      "slug": "eikaiwa-app-free",
+      "title": "無料英会話アプリおすすめ比較【2026年・本当に使えるアプリだけ厳選】",
+      "category": "アプリ・ツール"
+    },
+    {
+      "slug": "eikaiwa-beginner-guide",
+      "title": "英会話を始めたい初心者ガイド【目的別サービス選び方2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-coaching-guide",
+      "title": "英会話コーチング比較おすすめ6選【選び方・費用・効果を解説2026】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "eikaiwa-example-phrases",
+      "title": "英会話の例文・フレーズ集【レベル別・場面別に使えるフレーズ2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-fee-comparison",
+      "title": "オンライン英会話の料金・費用を徹底比較【月額・コスパランキング2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-for-high-school",
+      "title": "高校生向けオンライン英会話おすすめ比較【大学受験・英検対策2026】",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "eikaiwa-for-students",
+      "title": "大学生におすすめのオンライン英会話比較【安くて続けやすい2026年版】",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "eikaiwa-for-workers",
+      "title": "社会人におすすめの英会話サービス比較【忙しい人向け2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-freetalk-topics",
+      "title": "英会話フリートークの話題・ネタ100選【盛り上がるトピック別フレーズ付き】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-how-to-start",
+      "title": "英会話は何から始める？英語ゼロからのロードマップ",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-motivation",
+      "title": "英会話が続かない原因TOP5と挫折しない習慣の作り方【継続率を上げる方法】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-practice-methods",
+      "title": "英会話練習方法まとめ【独学・アプリ・オンライン英会話を比較】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-self-study",
+      "title": "英会話を独学で上達させる方法【教材・アプリ・練習法の完全ガイド2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-study-methods",
+      "title": "英会話の勉強法完全ガイド【初心者から上級者まで目的別メソッド2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-textbooks",
+      "title": "英会話の教材・テキストおすすめ【独学・オンライン英会話別の選び方2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eikaiwa-textbooks-comparison",
+      "title": "英会話教材おすすめ比較【市販テキスト vs オンライン英会話2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "eiken-1st-grade",
+      "title": "英検1級の勉強法・おすすめ教材【合格までのロードマップ2026年版】",
+      "category": "英検"
+    },
+    {
+      "slug": "eiken-2kyuu-interview",
+      "title": "英検2級 二次試験（面接）対策【使える表現・頻出問題・合格攻略法2026】",
+      "category": "英検"
+    },
+    {
       "slug": "eiken-2kyuu-vocabulary",
       "title": "英検2級の単語・語彙対策【出る単語一覧と効率的な覚え方2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英検2級 単語 一覧",
-      "target_reader": "英検2級の単語が足りない・語彙力を強化したい高校生・大学生",
-      "h2_topics": [
-        "英検2級に必要な語彙数と単語のレベル感",
-        "英検2級でよく出る単語・熟語ジャンル別リスト",
-        "英検2級単語の効率的な覚え方（間隔反復・文脈暗記）",
-        "おすすめ英検2級単語帳・アプリ比較",
-        "語彙問題の解き方と選択肢の見極め方",
-        "単語を定着させる1日15分の学習ルーティン"
-      ]
+      "category": "英検"
     },
     {
-      "id": "eiken-junni-writing",
+      "slug": "eiken-2kyuu-writing",
+      "title": "英検2級ライティング対策【使えるフレーズ・構成・合格答案の書き方2026】",
+      "category": "英検"
+    },
+    {
+      "slug": "eiken-3kyuu-grammar",
+      "title": "英検3級の文法を完全マスター【出題パターンと攻略ポイント2026】",
+      "category": "英検"
+    },
+    {
+      "slug": "eiken-4kyuu-guide",
+      "title": "英検4級のレベル・勉強法・合格対策【2026年度版完全ガイド】",
+      "category": "英検"
+    },
+    {
+      "slug": "eiken-junni-interview",
+      "title": "英検準2級 二次試験（面接）対策【使える表現・頻出問題・合格攻略法2026】",
+      "category": "英検"
+    },
+    {
       "slug": "eiken-junni-writing",
       "title": "英検準2級ライティング対策【型・フレーズ・合格答案の書き方完全ガイド2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "英検準2級 ライティング",
-      "target_reader": "英検準2級のライティングに不安がある高校生・英語学習者",
-      "h2_topics": [
-        "英検準2級ライティングの形式・字数・採点基準",
-        "合格答案の基本構成（賛成・反対の2パターン）",
-        "準2級ライティングで使える定番フレーズ・つなぎ言葉20選",
-        "頻出テーマ別・模範解答例と解説",
-        "字数を稼ぐ・論点を膨らませるテクニック",
-        "添削・練習に役立つオンライン英会話の活用法"
-      ]
+      "category": "英検"
     },
     {
-      "id": "toeic-800-guide",
-      "slug": "toeic-800-guide",
-      "title": "TOEIC800点を取るための勉強法【700点台から突破するための完全プラン2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "toeic 800点 勉強法",
-      "target_reader": "TOEIC700〜750点で800点突破を目指している社会人・大学生",
-      "h2_topics": [
-        "TOEIC800点が持つ意味と評価されるシーン",
-        "700点台が800点に届かない典型的な原因",
-        "Part別スコアアップ戦略（L・R各パート）",
-        "800点突破のための3ヶ月学習スケジュール",
-        "オンライン英会話でリスニング力を底上げする方法",
-        "800点取得後のステップアップ（900点への道）"
-      ]
+      "slug": "english-academic-writing",
+      "title": "英語アカデミックライティング入門｜論文・レポートの書き方【2026年版】",
+      "category": "ライティング"
     },
     {
-      "id": "toeic-700-guide",
+      "slug": "english-accent-reduction",
+      "title": "日本人英語のアクセント改善法｜ネイティブに伝わる発音を作るステップ",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-anki-guide",
+      "title": "Ankiで英語学習する方法【デッキの作り方・設定・効果的な使い方2026】",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-at-airport",
+      "title": "空港・機内での英語フレーズ集【チェックイン・税関・搭乗・機内アナウンス対応2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-business-apology",
+      "title": "ビジネス英語の謝罪・お詫び表現｜ミス・遅延・クレーム対応フレーズ集",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-business-casual-conversation",
+      "title": "ビジネス英語の雑談（スモールトーク）｜外国人同僚と打ち解けるフレーズ集【2026】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-business-feedback",
+      "title": "英語でフィードバックを伝える方法｜ポジティブ・ネガティブ両方の表現集",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-business-request-phrases",
+      "title": "ビジネス英語の依頼・お願い表現｜丁寧に頼むフレーズと断り方",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-business-writing-tips",
+      "title": "ビジネス英語ライティングのコツ｜明確で簡潔な文章を書く技術",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-career-salary-impact",
+      "title": "英語ができると年収はどれくらい上がる？データで見るキャリアへの影響",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "english-coaching-3months",
+      "title": "英語コーチング3ヶ月の効果・費用比較【2026年版】プログリット・トライズなど主要5社を徹底解説",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-cheap",
+      "title": "安い英語コーチングおすすめ比較【月3万円以下・2026年最新版】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-free-trial",
+      "title": "英語コーチング無料体験おすすめ比較【2026年・後悔しない選び方】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-individual",
+      "title": "個人の英語コーチング・パーソナルトレーニングおすすめ比較【2026年版】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-price-comparison",
+      "title": "英語コーチング費用比較【安い順ランキング・コスパで選ぶ2026年版】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-ranking",
+      "title": "英語コーチングおすすめランキング【2026年版】社会人向け厳選7社を比較",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-vs-online-eikaiwa",
+      "title": "英語コーチングとオンライン英会話、どっちを選ぶべきか【費用対効果で判断】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-coaching-worth-it",
+      "title": "英語コーチングは意味ない？効果が出る人・出ない人を正直に解説【2026年版】",
+      "category": "コーチング"
+    },
+    {
+      "slug": "english-complaint-apology-phrases",
+      "title": "ビジネス英語のクレーム対応・お詫びフレーズ集【誠意が伝わる英語表現2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-connected-speech",
+      "title": "英語の「音のつながり（リンキング）」がわかると英語が聞き取れる【リダクション・フラッピング・エリジョン解説】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-conversation-partner",
+      "title": "英会話パートナーの探し方｜無料〜有料サービス完全ガイド",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-data-analysis-phrases",
+      "title": "データ分析・レポートの英語｜グラフ・数字・トレンドを説明するフレーズ【2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-diary-writing",
+      "title": "英語日記の書き方【初心者向けテンプレートと続けるコツ2026】",
+      "category": "ライティング"
+    },
+    {
+      "slug": "english-drama-learning",
+      "title": "海外ドラマで英語学習を加速する方法【効果的な見方と上達のコツ2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-extensive-reading",
+      "title": "英語多読のやり方｜初心者が続けるための本選びと読み方のコツ",
+      "category": "リーディング"
+    },
+    {
+      "slug": "english-flashcard-method",
+      "title": "英語フラッシュカード学習法｜Ankiを使った間隔反復で語彙を定着【2026年版】",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-for-accountants",
+      "title": "経理・会計の英語｜財務諸表・決算報告で使う頻出フレーズ集",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-customer-service",
+      "title": "接客・カスタマーサービスで使える英語フレーズ集【ホテル・店舗・電話対応2026】",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-engineers",
+      "title": "エンジニア向けビジネス英語【技術会議・仕様確認・バグ報告の英語表現2026】",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-finance-professionals",
+      "title": "金融・ファイナンスの英語｜投資・M&amp;A・資金調達で使うフレーズ集",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-hr-professionals",
+      "title": "人事・HRの英語｜採用・面接・評価で使うフレーズ集",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-it-engineers",
+      "title": "ITエンジニアの英語｜仕様書・コードレビュー・障害報告で使う表現集【2026】",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-lawyers",
+      "title": "法律・コンプライアンスの英語｜契約書・法的文書で使うフレーズ集",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-medical-research",
+      "title": "医療・研究者のための英語｜論文・学会発表に必要なスキル",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-nurses",
+      "title": "看護師・医療従事者のための英語【患者対応・病棟コミュニケーションフレーズ集2026】",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-project-managers",
+      "title": "プロジェクトマネジャーの英語｜進捗報告・リスク管理・ステークホルダー対応【2026】",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-sales",
+      "title": "営業・セールスの英語｜商談・提案・クロージングフレーズ集",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-teachers",
+      "title": "教師・講師のための英語学習｜授業で使える英語フレーズ集",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-for-travel-preparation",
+      "title": "海外旅行前に英語力ゼロから準備する方法【出発まで1〜3ヶ月のプラン】",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-global-team-communication",
+      "title": "グローバルチームでの英語コミュニケーション｜多国籍メンバーとの仕事術",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-grammar-adverb-clauses",
+      "title": "英語の副詞節の使い方【時・条件・理由・譲歩の接続詞の使い分けと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-apposition",
+      "title": "英語の同格表現（Apposition）を使いこなす｜名詞補足の技術",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-articles",
+      "title": "英語の冠詞 a・an・the の使い方【不定冠詞と定冠詞の違いをルールで整理】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-basics",
+      "title": "英文法の基礎｜5文型から始める社会人のやり直し英語",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-causative",
+      "title": "英語の使役動詞の使い方【make・have・let・get の違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-cleft-sentence",
+      "title": "英語の分裂文（Cleft Sentence）｜It isとWhat構文で強調する方法",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-cleft-sentences",
+      "title": "英語の分裂文（It is...that構文）｜強調構文の作り方と使い方",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-comparatives",
+      "title": "英語の比較級・最上級の作り方【-er/-est・more/most・不規則変化と例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-complete-guide",
+      "title": "英文法完全ガイド｜基礎から応用まで全記事まとめ【2026年版】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-complex-sentences",
+      "title": "英語の複文・重文をマスター｜接続詞で文をつなぐ方法",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-conditional",
+      "title": "英語の条件文（if節）の使い方【仮定法現在・過去・過去完了の違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-conjunctions",
+      "title": "英語の接続詞の使い方【and/but/because/althoughの違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-countable-nouns",
+      "title": "英語の可算名詞・不可算名詞の使い方【数えられる名詞・数えられない名詞の見分け方】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-discourse-markers",
+      "title": "英語のディスコースマーカー｜接続表現で文章をスムーズにする",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-ellipsis",
+      "title": "英語の省略（Ellipsis）を理解する｜ネイティブが言葉を省く仕組み",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-emphasis",
+      "title": "英語の強調構文の使い方【It is ... that構文・倒置・do強調の例文と練習法】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-fronting",
+      "title": "英語の前置強調（Fronting）とは？文頭に置くことで変わるニュアンス",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-future-expressions",
+      "title": "英語の未来表現まとめ｜will・be going to・現在進行形の使い分け",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-gerund-infinitive",
+      "title": "英語の動名詞（-ing）と不定詞（to+動詞）の違い【使い分けルールと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-have-get",
+      "title": "英語のhave・getの使い方完全ガイド｜使役・完了・受動の多用動詞",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-in-on-at",
+      "title": "英語の前置詞 in・on・at の違いと使い分け【場所・時間・例文付き完全解説】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-indirect-speech",
+      "title": "英語の間接話法（Indirect Speech）｜直接話法からの変換ルール",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-infinitive-clauses",
+      "title": "英語の不定詞節を完全マスター｜to不定詞の用法・使い方",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-inversion",
+      "title": "英語の倒置構文（Inversion）｜強調・文学・フォーマル表現に使われる法則",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-it-there",
+      "title": "英語のit・thereの使い方｜形式主語と存在構文を完全理解",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-modal-verbs",
+      "title": "英語の助動詞の使い方【can/will/should/must/mayの違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-negation",
+      "title": "英語の否定表現まとめ｜not・never・neither・no の使い分け",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-noun-clauses",
+      "title": "英語の名詞節の使い方【that節・whether節・疑問詞節の作り方と例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-parallel-structure",
+      "title": "英語の並列構造（Parallel Structure）｜読みやすい文の法則",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-participle",
+      "title": "英語の分詞（現在分詞・過去分詞）の使い方【形容詞用法・分詞構文と例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-passive-voice",
+      "title": "英語の受動態（受け身）の使い方【be動詞+過去分詞の作り方と例文解説】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-perfect-progressive",
+      "title": "英語の完了進行形（has been doing）｜継続・結果の表し方",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-preposition-phrases",
+      "title": "英語の前置詞フレーズ【in spite of/due to/according to】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-prepositions",
+      "title": "英語の前置詞の使い方【in/on/at/for/with/byの違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-present-perfect",
+      "title": "英語の現在完了形と過去形の違い【have+過去分詞の使い方を例文で徹底解説】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-quantifiers",
+      "title": "英語の数量詞【many/much/few/little・some/anyの使い分け完全解説】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-relative-clauses",
+      "title": "英語の関係代名詞の使い方【who/which/that/where/whenの違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-relearn-adults",
+      "title": "社会人の英文法やり直し｜ゼロから学び直す効率的な方法",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-reported-speech",
+      "title": "英語の間接話法（報告話法）の使い方【直接話法から間接話法への変換ルールと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-sentence-patterns",
+      "title": "英語の5文型を完全マスター｜SV・SVC・SVO・SVOO・SVOCの解説",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-subjunctive",
+      "title": "英語の仮定法（if文）の使い方【仮定法過去・過去完了・would/could の例文解説】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-tag-questions",
+      "title": "英語の付加疑問文（Tag Questions）｜日本語にない疑問形の作り方",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-tenses",
+      "title": "英語の時制の使い方完全ガイド【現在・過去・未来・完了形・進行形の違いと例文】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-wish-if-only",
+      "title": "英語のwish・if onlyの使い方｜仮定法で後悔・願望を表現する",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-word-order",
+      "title": "英語の語順の基本ルール【SVO・副詞の位置・疑問文・否定文の作り方】",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-grammar-would-used-to",
+      "title": "wouldとused toの違い｜過去の習慣・状態を表す英語表現",
+      "category": "英文法"
+    },
+    {
+      "slug": "english-habit-guide",
+      "title": "社会人が英語を習慣化する方法【2026年版】挫折しない7つのコツと続けるための仕組み",
+      "category": "学習習慣・継続"
+    },
+    {
+      "slug": "english-habit-morning-routine",
+      "title": "朝10分の英語習慣で3ヶ月後に変わること【継続率80%のルーティン】",
+      "category": "学習習慣・継続"
+    },
+    {
+      "slug": "english-hotel-restaurant-phrases",
+      "title": "ホテル・レストランで使える英語フレーズ集【チェックイン・注文・クレームの言い方2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-immersion-tips",
+      "title": "英語イマージョン学習法とは【日本にいながら英語環境を作る7つの方法2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-input-output-balance",
+      "title": "英語のインプット・アウトプットのバランス｜4技能を伸ばす学習比率",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-input-vs-output",
+      "title": "英語のインプットとアウトプット｜バランスの取り方と効果的な順序",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-international-business-etiquette",
+      "title": "国際ビジネスマナーと英語表現｜文化差に配慮した英語コミュニケーション【2026】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-intonation-guide",
+      "title": "英語のイントネーション（抑揚）の基本【上昇調・下降調の使い分けと練習法】",
+      "category": "発音"
+    },
+    {
+      "slug": "english-job-change-resume",
+      "title": "転職・就活の英文履歴書（レジュメ）の書き方｜英語CVテンプレート付き",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "english-job-interview-japanese",
+      "title": "英語面接の自己紹介・定番質問フレーズ集【転職・就活対策2026】",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "english-job-interview-prep",
+      "title": "外資系面接の英語対策【よく聞かれる質問と模範回答例】",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "english-learning-apps",
+      "title": "英語学習アプリおすすめ10選【2026年・目的別に徹底比較】",
+      "category": "アプリ・ツール"
+    },
+    {
+      "slug": "english-learning-consistency",
+      "title": "英語学習を継続する方法｜三日坊主を防ぐ習慣化の科学",
+      "category": "学習習慣・継続"
+    },
+    {
+      "slug": "english-learning-cost-comparison",
+      "title": "英語学習にかかる年間コスト比較【オンライン英会話・アプリ・コーチング】",
+      "category": "料金・お得情報"
+    },
+    {
+      "slug": "english-learning-for-beginners",
+      "title": "英語学習の始め方【超初心者向け】｜ゼロから始める最短ルート",
+      "category": "業種別英語"
+    },
+    {
+      "slug": "english-learning-goals-setting",
+      "title": "英語学習の目標設定法｜SMART目標で英語力を確実に伸ばす",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-learning-notebook",
+      "title": "英語学習ノートの作り方｜効果的にまとめて定着させる方法",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-learning-one-year",
+      "title": "英語学習1年間の現実【ゼロから始めた社会人がどこまで到達できるか】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-learning-plateau",
+      "title": "英語学習の停滞期を乗り越える方法｜伸び悩み時期の対処法",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-listening-apps",
+      "title": "英語リスニング上達アプリおすすめ比較【2026年・レベル別ランキング】",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-comprehension",
+      "title": "英語リスニング理解度を上げる方法【ディクテーション・精聴・シャドーイングの使い分け2026】",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-daily",
+      "title": "毎日英語リスニングを続ける方法【習慣化のコツと効果的な教材選び2026】",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-guide",
+      "title": "英語リスニング勉強法【初心者〜中級者が聞き取れるようになる完全ガイド2026】",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-news",
+      "title": "英語ニュースのリスニング練習法｜BBC・VOAから始める中上級者向けガイド",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-shadowing-difference",
+      "title": "シャドーイングとリピーティングの違い｜リスニング力を上げる使い分け",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-study-guide",
+      "title": "英語リスニングの勉強法【2026年版】レベル別トレーニングと聞き取れない原因を解説",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-listening-why-cant-hear",
+      "title": "英語のリスニングが聞き取れない原因と根本解決法【レベル別対策2026】",
+      "category": "リスニング"
+    },
+    {
+      "slug": "english-media-learning",
+      "title": "英語メディア学習法｜映画・ドラマ・音楽で楽しく上達する【2026年版】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-medical-phrases",
+      "title": "医療・病院で使える英語フレーズ集【症状説明・診察・薬局での会話2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-morning-routine",
+      "title": "英語学習の朝ルーティン｜忙しい社会人でも続く15分習慣",
+      "category": "学習習慣・継続"
+    },
+    {
+      "slug": "english-motivation-keep",
+      "title": "英語学習のモチベーションを維持する方法【挫折しないための10の仕組み化2026】",
+      "category": "学習習慣・継続"
+    },
+    {
+      "slug": "english-networking-phrases",
+      "title": "英語でのネットワーキング（名刺交換・自己紹介・雑談）フレーズ集【国際学会・交流会2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-note-taking",
+      "title": "英語学習のノート術【コーネルメソッド・単語帳・フレーズ管理の効果的なまとめ方2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-online-meeting-tips",
+      "title": "英語オンラインミーティングのコツ｜Zoom・Teamsで使えるフレーズ集",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-output-practice",
+      "title": "英語アウトプット練習法【スピーキング・ライティングを独学で鍛える方法2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-phrasal-verbs-business",
+      "title": "ビジネスでよく使う英語の句動詞50選【職場・会議・メールで頻出フレーズ】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-phrases-collection",
+      "title": "よく使う英語フレーズ150選【場面別・レベル別の完全まとめ2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-podcast-guide",
+      "title": "英語ポッドキャストで学ぶ方法【初心者向けの聴き方・おすすめ番組・活用法2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-podcast-learning",
+      "title": "英語ポッドキャストを使った学習法｜初心者から上級者まで効果的な聴き方",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-pronunciation-correction",
+      "title": "英語の発音矯正におすすめの方法・サービス比較【2026年版】",
+      "category": "発音"
+    },
+    {
+      "slug": "english-pronunciation-guide",
+      "title": "英語の発音を徹底改善【日本人が苦手な音から練習法まで完全ガイド2026】",
+      "category": "発音"
+    },
+    {
+      "slug": "english-pronunciation-vowels",
+      "title": "英語母音の発音矯正｜日本人が苦手なæ・ʌ・ɜːの正しい出し方",
+      "category": "発音"
+    },
+    {
+      "slug": "english-r-l-pronunciation",
+      "title": "英語のRとLの発音の違い【舌の位置・練習法・混乱しやすい単語一覧】",
+      "category": "発音"
+    },
+    {
+      "slug": "english-reading-tips",
+      "title": "英語の長文読解が速くなる方法【スキャニング・スキミング・精読の使い分け2026】",
+      "category": "リーディング"
+    },
+    {
+      "slug": "english-resume-prompt",
+      "title": "英文履歴書・職務経歴書をClaudeで作る方法【転職者向けプロンプト】",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "english-review-methods",
+      "title": "英語の復習法【エビングハウス忘却曲線を活かした効率的な記憶定着法2026】",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "english-self-study-limit",
+      "title": "英語独学の限界はどこ？スクール・コーチングが必要になるサインと判断基準",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-self-study-vs-eikaiwa",
+      "title": "英語独学 vs オンライン英会話 どっちがいい？【2026年版】目的別に徹底比較",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "english-shadowing-guide",
+      "title": "シャドーイングのやり方【初心者向け完全ガイド・効果・コツ・教材選び2026】",
+      "category": "シャドーイング"
+    },
+    {
+      "slug": "english-small-talk-phrases",
+      "title": "英語スモールトークのフレーズ集【外国人との雑談・天気・週末の話し方2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-spaced-repetition",
+      "title": "英語学習に間隔反復（SRS）を使う方法｜Ankiと記憶科学の実践ガイド",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-speaking-alone",
+      "title": "独り言英語練習の効果と具体的なやり方【一人でも話せるようになる方法2026】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-complete-guide",
+      "title": "英語スピーキング完全ガイド｜流暢さ・自信・練習法の全記事まとめ【2026年版】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-confidence",
+      "title": "英語を自信を持って話す方法｜スピーキング自信をつける5つのステップ",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-daily-habit",
+      "title": "英語スピーキング上達のための毎日練習法【1日15分でも確実に伸びる方法】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-daily-practice",
+      "title": "英語スピーキング 毎日の独り言練習法【1人でできる習慣づくり】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-fear",
+      "title": "英語を話すのが怖い人へ【心理的ブロックの外し方】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-filler-words",
+      "title": "英語フィラーワード完全ガイド【well/you know/I mean】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-fluency",
+      "title": "英語のスピーキング流暢さを上げる方法【フレーズ暗記・音読・独り言練習の組み合わせ2026】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-improvement",
+      "title": "英語スピーキングが伸びない人の3つの共通点と、今日からできる改善法",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speaking-improvement-method",
+      "title": "英語スピーキングを最速で伸ばす方法【独学でも話せるようになる練習法2026】",
+      "category": "スピーキング"
+    },
+    {
+      "slug": "english-speed-reading",
+      "title": "英語速読トレーニング｜読むスピードを上げる5つの方法【2026年版】",
+      "category": "リーディング"
+    },
+    {
+      "slug": "english-startup-vocabulary",
+      "title": "スタートアップで使う英語｜VC・ピッチ・グローバルチームの必須語彙",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-stress-rhythm",
+      "title": "英語のストレスとリズム｜単語・文のアクセントで通じやすくなる",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-study-30min-daily",
+      "title": "毎日30分の英語学習で変わること【独学継続のコツとスケジュール例】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-study-adult-worker",
+      "title": "社会人の英語勉強法【ゼロから始める忙しい大人のための最短ルート2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-study-apps",
+      "title": "英語勉強アプリおすすめ11選【目的・レベル別に徹底比較2026】",
+      "category": "アプリ・ツール"
+    },
+    {
+      "slug": "english-study-busy-schedule",
+      "title": "忙しい社会人が英語学習を続けるコツ【スキマ時間活用・週5時間でできる勉強法2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-study-methods-guide",
+      "title": "英語の勉強方法を総まとめ【目的・レベル別の最短ルートガイド2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "english-teleconference-phrases",
+      "title": "英語オンライン会議のフレーズ集【入室・議題・発言・確認・クロージングの表現2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-th-pronunciation",
+      "title": "英語の「th」発音のコツ【有声音・無声音の違いと練習方法を解説】",
+      "category": "発音"
+    },
+    {
+      "slug": "english-vocabulary-adult",
+      "title": "大人の英単語の覚え方【社会人が忘れにくい暗記法と効率的な学習法2026】",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-vocabulary-collocations",
+      "title": "英語コロケーション学習法｜自然な語の組み合わせをマスターする【2026年版】",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-vocabulary-context-learning",
+      "title": "英単語は文脈で覚える｜丸暗記より効果的な学習法",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-vocabulary-guide",
+      "title": "英単語の覚え方・英単語帳おすすめ完全ガイド【2026年版・効率的な暗記法】",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-vocabulary-roots",
+      "title": "英語の語根・接頭辞・接尾辞で語彙を10倍に増やす方法【2026年版】",
+      "category": "語彙"
+    },
+    {
+      "slug": "english-vocabulary-toeic",
+      "title": "TOEIC英単語の覚え方｜スコア別おすすめ学習法",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "english-vowel-sounds",
+      "title": "英語の母音一覧｜日本語にない音を正確に発音するコツ",
+      "category": "発音"
+    },
+    {
+      "slug": "english-work-from-home-phrases",
+      "title": "リモートワーク・在宅勤務の英語｜テレワーク環境で使うフレーズ集【2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "english-writing-business-basics",
+      "title": "ビジネス英語ライティングの基本【明確・簡潔・丁寧な文章の書き方2026】",
+      "category": "ビジネス英語"
+    },
+    {
+      "slug": "english-writing-email-subject",
+      "title": "英語メールの件名（Subject）の書き方【開封率が上がる件名フレーズ集2026】",
+      "category": "ライティング"
+    },
+    {
+      "slug": "english-writing-improvement",
+      "title": "英語ライティング上達法【メール・レポート・SNSで使える実践トレーニング2026】",
+      "category": "ライティング"
+    },
+    {
+      "slug": "english-writing-journal",
+      "title": "英語日記を続けるコツ｜毎日書けるネタ探しとライティング上達法",
+      "category": "ライティング"
+    },
+    {
+      "slug": "english-youtube-learning",
+      "title": "YouTubeで英語を学ぶ方法【字幕活用・おすすめチャンネル・レベル別活用法2026】",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "esports-eikaiwa-review",
+      "title": "eスポーツ英会話（eスピ！）の評判・口コミまとめ【2026年版】料金・対象年齢・特徴を解説",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "free-online-eikaiwa-guide",
+      "title": "無料・格安で使えるオンライン英会話おすすめ比較【2026年最新版】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "free-trial-comparison",
+      "title": "オンライン英会話の無料体験おすすめ比較【2026年・全サービスを徹底解説】",
+      "category": "料金・お得情報"
+    },
+    {
+      "slug": "free-trial-online-eikaiwa",
+      "title": "オンライン英会話の無料体験をはしごする方法【全社比較・2026年版】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "global-remote-work-english",
+      "title": "リモートワークで英語を使う場面と実践的な乗り越え方",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "how-to",
+      "title": "選び方",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "how-to-choose",
+      "title": "オンライン英会話の選び方【2026年版】失敗しない5つのポイント",
+      "category": "英語学習法（総合）"
+    },
+    {
+      "slug": "italki-review",
+      "title": "italki（アイトーキー）の評判・口コミまとめ【2026年版】料金・特徴・デメリットを解説",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "japanese-english-pronunciation-guide",
+      "title": "日本人が絶対に苦手な英語発音5つと、正しい矯正方法【動画解説付き】",
+      "category": "発音"
+    },
+    {
+      "slug": "junior-high-online-eikaiwa",
+      "title": "中学生のオンライン英会話おすすめ比較【2026年版】英検・高校受験対策にも効く選び方",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "kids-eikaiwa-no-effect",
+      "title": "子供のオンライン英会話が効果なし・続かない理由と解決策【親御さん向け】",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "kids-english-when-to-start",
+      "title": "子どもの英語はいつから始める？早期英語教育の効果と年齢別おすすめ方法",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "kids-online-eikaiwa-effects",
+      "title": "オンライン英会話は子供に効果ない？正直な答えと効果が出る使い方【2026年版】",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "kids-online-eikaiwa-guide",
+      "title": "子供の英語教育いつから始める？年齢別オンライン英会話の選び方【小学生対応】",
+      "category": "学生・子供"
+    },
+    {
+      "slug": "kimini-eikaiwa-review",
+      "title": "Kimini英会話の評判・口コミまとめ【2026年版】ベネッセ運営の実力を徹底検証",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "kimini-review",
+      "title": "Kiminiオンライン英会話の評判・口コミ【料金・特徴・向いている人を解説2026】",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "kyuufu-eikaiwa",
+      "title": "教育訓練給付制度で英会話・英語コーチングを受ける方法【給付対象サービス一覧2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "nativecamp-review",
+      "title": "ネイティブキャンプの評判・口コミ【料金・無制限の実態・向いている人2026】",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "nativecamp-review-article",
+      "title": "ネイティブキャンプの評判・口コミまとめ【2026年版】受け放題の実力を徹底検証",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "nova-review",
+      "title": "駅前留学NOVAの評判・口コミまとめ【2026年版】料金・特徴・デメリットを解説",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "online-eikaiwa-beginner-fear",
+      "title": "オンライン英会話が怖い初心者へ【不安を解消する7つの対策と心構え】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-cancellation-guide",
+      "title": "オンライン英会話の解約・退会方法まとめ【サービス別手順と注意点】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-complete-guide",
+      "title": "オンライン英会話完全ガイド｜選び方・比較・続け方の全記事まとめ【2026年版】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-cost-comparison",
+      "title": "オンライン英会話の月額料金を安い順に徹底比較【2026年最新・コスパ最強はここ】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-frequency",
+      "title": "オンライン英会話は週何回受ければ上達する？頻度別の効果と最適な回数",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-frequency-guide",
+      "title": "オンライン英会話の受講頻度は週何回が最適？毎日と週2〜3回の効果を徹底比較",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-how-long",
+      "title": "オンライン英会話の効果が出るまでの期間【3ヶ月・6ヶ月・1年の到達レベル】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-meaningless",
+      "title": "英語コーチングは意味ない？効果なしの声の真相と成果が出る人の特徴",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-not-continue",
+      "title": "オンライン英会話が続かない本当の理由と解決策【挫折しない続け方2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-not-continue-reasons",
+      "title": "オンライン英会話が続かない12の理由と、3ヶ月以上続けるための対策",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-not-recommended",
+      "title": "オンライン英会話をすすめない人の特徴【向かないケースと代替手段】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-once-a-week",
+      "title": "オンライン英会話を週1回だけ続けると効果はある？頻度と成果の正直な答え",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "online-eikaiwa-philippines",
+      "title": "フィリピン人講師のオンライン英会話おすすめ比較【安くて効果的な理由2026】",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "progrit-review",
+      "title": "プログリット（PROGRIT）の評判は？実際の効果・料金・3ヶ月で変わること",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "progrit-review-detail",
+      "title": "プログリット（PROGRIT）の評判・口コミ【料金・効果・向いている人を徹底解説2026】",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "qq-english-review",
+      "title": "QQ Englishの評判・口コミまとめ【2026年版】フィリピン直営校の実力を徹底検証",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "rarejob-review",
+      "title": "レアジョブ英会話の評判・口コミまとめ【2026年版】料金・特徴・デメリットを解説",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "rarejob-vs-dmm",
+      "title": "レアジョブ英会話 vs DMM英会話 どっちを選ぶ？【2026年版 徹底比較】",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "salary-up-english",
+      "title": "英語ができると年収はいくら上がる？データで見るリターン",
+      "category": "キャリア・転職"
+    },
+    {
+      "slug": "senior-online-eikaiwa",
+      "title": "シニア・60代向けオンライン英会話おすすめ【2026年版】継続しやすい厳選5社",
+      "category": "オンライン英会話"
+    },
+    {
+      "slug": "shadowing-complete-guide",
+      "title": "シャドーイングのやり方完全ガイド【効果・手順・おすすめ教材2026年版】",
+      "category": "シャドーイング"
+    },
+    {
+      "slug": "shadowing-free-practice",
+      "title": "英語シャドーイングを無料で練習する方法【研究が示す効果と「聴きながら読む」の組み合わせ】",
+      "category": "シャドーイング"
+    },
+    {
+      "slug": "studysapuri-english-review",
+      "title": "スタディサプリENGLISHの評判・口コミまとめ【2026年版】料金・効果・デメリットを解説",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "toeic-1month-intensive",
+      "title": "TOEIC1ヶ月集中対策【短期でスコアを上げる週別スケジュール2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-2months-intensive",
+      "title": "TOEIC2ヶ月集中学習プラン｜スコア別目標設定と週次スケジュール",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-400-500-strategy",
+      "title": "TOEIC400点台から500点台へ｜伸び悩みを打破する勉強法",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-400-study-plan",
+      "title": "TOEIC400点台からの勉強法【500点突破への3ヶ月プラン2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-500-escape-plan",
+      "title": "TOEIC500点台から脱出する勉強法【600点突破への最短ルート2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-550-study-plan",
+      "title": "TOEIC550点から600点・700点へ上げる勉強法【中間スコア突破の壁の越え方2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-600-study-plan",
+      "title": "TOEIC600点突破の勉強法【500点台から3ヶ月で達成するプラン】",
+      "category": "TOEIC"
+    },
+    {
       "slug": "toeic-700-guide",
       "title": "TOEIC700点を取るための勉強法【600点台から3ヶ月で達成するプラン2026】",
-      "category": "英語学習コラム",
-      "target_keyword": "toeic 700点 勉強法",
-      "target_reader": "TOEIC600〜650点で700点突破を目指している社会人・大学生",
-      "h2_topics": [
-        "TOEIC700点が持つ意味（転職・昇進での評価）",
-        "600点台が700点に届かない3つの壁",
-        "Part別スコアアップ戦略（L・R各パート）",
-        "3ヶ月間の週次学習スケジュール",
-        "オンライン英会話でリスニング力を底上げする方法",
-        "700点達成後のステップアップ先"
-      ]
+      "category": "TOEIC"
     },
     {
-      "id": "kimini-review",
-      "title": "Kiminiオンライン英会話の評判・口コミ【料金・特徴・向いている人を解説2026】",
-      "slug": "kimini-review",
-      "target_keyword": "Kimini オンライン英会話 評判",
-      "target_reader": "Kiminiを検討している社会人・学生",
-      "h2_topics": [
-        "Kiminiオンライン英会話の特徴と料金プラン",
-        "良い評判・口コミ（メリット）",
-        "悪い評判・口コミ（デメリット・注意点）",
-        "他社（DMM・レアジョブ）との比較",
-        "Kiminiが向いている人・向いていない人",
-        "無料体験の内容と申込み方法"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-730-study-plan",
+      "title": "TOEIC730点を目指す勉強法【ビジネスレベル認定スコアへの具体的ロードマップ2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "online-eikaiwa-meaningless",
-      "title": "英語コーチングは意味ない？効果なしの声の真相と成果が出る人の特徴",
-      "slug": "online-eikaiwa-meaningless",
-      "target_keyword": "英語コーチング 意味ない",
-      "target_reader": "英語コーチングに不信感があり費用対効果を気にしている人",
-      "h2_topics": [
-        "「英語コーチングは意味ない」と言われる3つの理由",
-        "成果が出なかった人の共通点",
-        "逆に効果が出た人の特徴・学習パターン",
-        "コーチングと独学・オンライン英会話の使い分け",
-        "費用対効果を最大化する選び方",
-        "失敗しないコーチング選びのチェックリスト"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-800-guide",
+      "title": "TOEIC800点を取るための勉強法【700点台から突破するための完全プラン2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "kids-eikaiwa-no-effect",
-      "title": "子供のオンライン英会話が効果なし・続かない理由と解決策【親御さん向け】",
-      "slug": "kids-eikaiwa-no-effect",
-      "target_keyword": "オンライン英会話 子供 効果なし",
-      "target_reader": "子供のオンライン英会話を始めたが効果を感じられない親",
-      "h2_topics": [
-        "子供のオンライン英会話が効果なしと感じる本当の原因",
-        "続かない子供に多い3つのパターン",
-        "年齢別の効果的な活用法（幼児・小学生・中学生）",
-        "保護者のサポートで変わる継続率",
-        "効果を実感できるサービスの選び方",
-        "続けやすいおすすめサービス比較"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-900-study-plan",
+      "title": "TOEIC900点を取るための6ヶ月学習プラン【700点台から逆算】",
+      "category": "TOEIC"
     },
     {
-      "id": "business-english-online",
-      "title": "ビジネス英語向けオンライン英会話おすすめ比較【社会人・転職活用2026】",
-      "slug": "business-english-online",
-      "target_keyword": "オンライン英会話 ビジネス おすすめ",
-      "target_reader": "仕事で英語を使う必要がある社会人",
-      "h2_topics": [
-        "ビジネス英語に特化したオンライン英会話の選び方",
-        "Bizmatesの特徴とおすすめポイント",
-        "DMM英会話ビジネスコースの評判",
-        "レアジョブビジネス英会話の評判",
-        "英語コーチングとの比較・使い分け",
-        "職種別・レベル別おすすめサービス一覧"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-abbreviations-vocabulary",
+      "title": "TOEICに出る略語・ビジネス略称一覧｜ASAP・FYI・ROIなど頻出表現集",
+      "category": "TOEIC"
     },
     {
-      "id": "senior-online-eikaiwa",
-      "title": "シニア向けオンライン英会話おすすめ比較【50代・60代から始める英語2026】",
-      "slug": "senior-online-eikaiwa",
-      "target_keyword": "オンライン英会話 シニア おすすめ",
-      "target_reader": "50代・60代でオンライン英会話を始めたいシニア",
-      "h2_topics": [
-        "シニアがオンライン英会話を始めるメリット",
-        "50代・60代に向いているサービスの選び方",
-        "おすすめシニア向けサービス比較（ネイティブキャンプ・レアジョブ等）",
-        "初心者シニアでも続けやすい学習ペース",
-        "英語を活かす目標の作り方（旅行・趣味・交流）",
-        "よくある不安と解決法"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-business-vocabulary",
+      "title": "TOEICビジネス語彙完全攻略｜頻出単語カテゴリ別学習法",
+      "category": "TOEIC"
     },
     {
-      "id": "free-trial-comparison",
-      "title": "オンライン英会話の無料体験おすすめ比較【2026年・全サービスを徹底解説】",
-      "slug": "free-trial-comparison",
-      "target_keyword": "オンライン英会話 無料体験 おすすめ",
-      "target_reader": "オンライン英会話を始めたいが選べずまず試したい人",
-      "h2_topics": [
-        "無料体験で確認すべき5つのポイント",
-        "サービス別無料体験内容まとめ（回数・期間・制限）",
-        "DMM英会話の無料体験",
-        "レアジョブの無料体験",
-        "ネイティブキャンプの無料体験",
-        "複数社を比較する正しい体験活用法"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-complete-guide",
+      "title": "TOEIC完全ガイド｜スコア別勉強法・パート攻略・教材まとめ【2026年版】",
+      "category": "TOEIC"
     },
     {
-      "id": "english-coaching-cheap",
-      "title": "安い英語コーチングおすすめ比較【月額・費用を抑えて効果を出す方法2026】",
-      "slug": "english-coaching-cheap",
-      "target_keyword": "英語コーチング 安い おすすめ",
-      "target_reader": "英語コーチングに興味はあるがコストを抑えたい人",
-      "h2_topics": [
-        "英語コーチングの平均費用と相場感",
-        "安いコーチングサービス比較TOP5",
-        "コストを抑えるための選び方のコツ",
-        "教育訓練給付制度を使った実質負担額の減らし方",
-        "安くても効果が出るコーチングの見極め方",
-        "コーチング vs 独学のコスパ比較"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-double-triple-passage",
+      "title": "TOEIC Part7ダブル・トリプルパッセージ攻略｜複数文書の読み方",
+      "category": "TOEIC"
     },
     {
-      "id": "dmm-vs-rarejob",
-      "title": "DMM英会話 vs レアジョブ徹底比較【料金・講師・効果の違い2026】",
-      "slug": "dmm-vs-rarejob",
-      "target_keyword": "DMM英会話 レアジョブ 比較",
-      "target_reader": "DMM英会話かレアジョブで迷っている人",
-      "h2_topics": [
-        "DMM英会話とレアジョブの基本情報まとめ",
-        "料金プラン比較",
-        "講師の質・バリエーション比較",
-        "教材・カリキュラム比較",
-        "DMM英会話が向いている人",
-        "レアジョブが向いている人"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-eikaiwa-combination",
+      "title": "TOEIC対策にオンライン英会話を組み合わせる方法【スコア別活用ガイド】",
+      "category": "TOEIC"
     },
     {
-      "id": "eikaiwa-motivation",
-      "title": "英会話が続かない原因TOP5と挫折しない習慣の作り方【継続率を上げる方法】",
-      "slug": "eikaiwa-motivation",
-      "target_keyword": "英会話 続かない 原因",
-      "target_reader": "英会話を始めたが続かなくて悩んでいる人",
-      "h2_topics": [
-        "英会話が続かない本当の原因TOP5",
-        "挫折しやすいタイミングとその乗り越え方",
-        "毎日続けるための習慣設計（時間・場所・量）",
-        "モチベーションを維持する目標設定法",
-        "続きやすいサービス・スタイルの選び方",
-        "3ヶ月継続した人に共通する行動パターン"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-failure-analysis",
+      "title": "TOEICのスコアが伸びない原因10選【停滞期の打破法と学習の見直し方2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "junior-high-online-eikaiwa",
-      "title": "中学生向けオンライン英会話おすすめ比較【英検・定期テスト・高校受験対策2026】",
-      "slug": "junior-high-online-eikaiwa",
-      "target_keyword": "オンライン英会話 中学生 おすすめ",
-      "target_reader": "中学生の英語力を伸ばしたい親・本人",
-      "h2_topics": [
-        "中学生がオンライン英会話で得られる効果",
-        "中学生向けサービスの選び方（英検対応・料金・講師）",
-        "おすすめサービス比較（レアジョブ・ネイティブキャンプ・Kimini）",
-        "英検対策に使えるサービスの活用法",
-        "高校受験英語との連携方法",
-        "月謝の目安と保護者が知っておくべきこと"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-grammar-focus",
+      "title": "TOEICで狙われる英文法10パターン【Part5・Part6頻出問題の解き方2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "english-learning-one-year",
-      "title": "英語学習1年間の現実【ゼロから始めた社会人がどこまで到達できるか】",
-      "slug": "english-learning-one-year",
-      "target_keyword": "英語学習 1年 効果 社会人",
-      "target_reader": "英語学習を本気で始めようとしている社会人",
-      "h2_topics": [
-        "1年間で英語力はどこまで伸びるか（現実的な期待値）",
-        "3ヶ月・6ヶ月・1年のマイルストーン設計",
-        "TOEIC・英検スコアの推移目安",
-        "週5時間 vs 週10時間の差",
-        "オンライン英会話・コーチング・アプリの組み合わせ方",
-        "1年後に英語を使えるようになった人の共通パターン"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-grammar-part5-types",
+      "title": "TOEIC Part5の問題タイプ別攻略法｜品詞・動詞・語彙問題の解き方",
+      "category": "TOEIC"
     },
     {
-      "id": "nativecamp-review",
-      "title": "ネイティブキャンプの評判・口コミ【料金・無制限の実態・向いている人2026】",
-      "slug": "nativecamp-review",
-      "target_keyword": "ネイティブキャンプ 評判 口コミ",
-      "target_reader": "ネイティブキャンプを検討している人",
-      "h2_topics": [
-        "ネイティブキャンプの特徴と料金プラン",
-        "無制限受け放題の実態（実際に何回受けられる？）",
-        "良い評判・口コミ（メリット）",
-        "悪い評判・口コミ（講師の質・待ち時間）",
-        "DMM英会話・レアジョブとの比較",
-        "ネイティブキャンプが向いている人・向いていない人"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-ip-vs-public",
+      "title": "TOEIC IPテストと公開テストの違い｜使い分けと受験戦略",
+      "category": "TOEIC"
     },
     {
-      "id": "english-speaking-daily-habit",
-      "title": "英語スピーキング上達のための毎日練習法【1日15分でも確実に伸びる方法】",
-      "slug": "english-speaking-daily-habit",
-      "target_keyword": "英語 スピーキング 練習 毎日",
-      "target_reader": "英語を話せるようになりたい初心者〜中級者",
-      "h2_topics": [
-        "スピーキングが伸びない本当の理由",
-        "1日15分でできる独り言英語トレーニング",
-        "シャドーイング・音読の正しいやり方",
-        "オンライン英会話を最大限活用するコツ",
-        "AIを使ったスピーキング練習法",
-        "3ヶ月で変化を実感するための練習プラン"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-l-r-vs-sw",
+      "title": "TOEIC L&RとSpeaking/Writingの違い｜目的別に選ぶ試験ガイド",
+      "category": "TOEIC"
     },
     {
-      "id": "eiken-1st-grade",
-      "title": "英検1級の勉強法・おすすめ教材【合格までのロードマップ2026年版】",
-      "slug": "eiken-1st-grade",
-      "target_keyword": "英検1級 勉強法 おすすめ",
-      "target_reader": "英検準1級取得後に1級を目指している人",
-      "h2_topics": [
-        "英検1級の難易度と合格率の現実",
-        "1級合格に必要な語彙数と学習時間の目安",
-        "一次試験（筆記・リスニング）の攻略法",
-        "二次試験（スピーチ・Q&A）の対策",
-        "おすすめ参考書・教材一覧",
-        "オンライン英会話を使った二次試験対策"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-listening-dictation-practice",
+      "title": "TOEIC対策ディクテーション練習法｜リスニング力を底上げするトレーニング",
+      "category": "TOEIC"
     },
     {
-      "id": "online-eikaiwa-frequency",
-      "title": "オンライン英会話は週何回受ければ上達する？頻度別の効果と最適な回数",
-      "slug": "online-eikaiwa-frequency",
-      "target_keyword": "オンライン英会話 週何回 効果",
-      "target_reader": "オンライン英会話の受講頻度を決めたい人",
-      "h2_topics": [
-        "週1回・週3回・毎日の上達速度の違い",
-        "目標別の最適受講頻度（旅行英語・ビジネス・TOEIC）",
-        "初心者・中級者・上級者別のおすすめ頻度",
-        "継続しやすい現実的な頻度の決め方",
-        "頻度を上げやすい定額制サービス比較",
-        "授業以外の学習との組み合わせ方"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-listening-part3-part4-tips",
+      "title": "TOEIC Part3・Part4攻略の極意｜先読みと予測で正解率を上げる",
+      "category": "TOEIC"
     },
     {
-      "id": "progrit-review-detail",
-      "title": "プログリット（PROGRIT）の評判・口コミ【料金・効果・向いている人を徹底解説2026】",
-      "slug": "progrit-review-detail",
-      "target_keyword": "プログリット 評判 口コミ 効果",
-      "target_reader": "プログリットを検討している社会人",
-      "h2_topics": [
-        "プログリットの特徴とコーチング内容",
-        "料金プランと費用の詳細",
-        "良い評判・口コミ（実際の成果）",
-        "悪い評判・口コミ（価格・向き不向き）",
-        "TOEIC・ビジネス英語への効果",
-        "プログリットが向いている人・向いていない人"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-listening-score-by-part",
+      "title": "TOEICリスニングパート別スコアアップ戦略｜Part1〜4攻略法",
+      "category": "TOEIC"
     },
     {
-      "id": "english-for-travel-preparation",
-      "title": "海外旅行前に英語力ゼロから準備する方法【出発まで1〜3ヶ月のプラン】",
-      "slug": "english-for-travel-preparation",
-      "target_keyword": "海外旅行 英語 準備 ゼロから",
-      "target_reader": "初めての海外旅行に向けて英語を準備したい人",
-      "h2_topics": [
-        "海外旅行で最低限必要な英語フレーズ20選",
-        "1ヶ月・2ヶ月・3ヶ月別の準備プラン",
-        "空港・ホテル・レストランで使える超基本表現",
-        "アプリだけで準備するミニマム学習法",
-        "オンライン英会話で旅行英語を練習する方法",
-        "緊急時に役立つひとこと英語集"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-listening-score-up",
+      "title": "TOEICリスニングスコアを上げる勉強法【パート1〜4の対策と練習法2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "english-listening-apps",
-      "title": "英語リスニング上達アプリおすすめ比較【2026年・レベル別ランキング】",
-      "slug": "english-listening-apps",
-      "target_keyword": "英語 リスニング アプリ おすすめ",
-      "target_reader": "リスニングを伸ばしたい初心者〜中級者",
-      "h2_topics": [
-        "リスニング上達に本当に効くアプリの条件",
-        "初心者向けおすすめアプリ3選",
-        "中級者向けおすすめアプリ3選",
-        "TOEIC・英検対策に特化したアプリ",
-        "アプリとオンライン英会話の組み合わせ方",
-        "1日の効果的な使い方・学習ルーティン"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-listening-tips",
+      "title": "TOEICリスニングのコツ【集中力維持・先読み・消去法・間違いやすいパターン2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "rarejob-review",
-      "title": "レアジョブ英会話の評判・口コミ【料金・講師・効果を徹底解説2026】",
-      "slug": "rarejob-review",
-      "target_keyword": "レアジョブ 評判 口コミ",
-      "target_reader": "レアジョブ英会話を検討している人",
-      "h2_topics": [
-        "レアジョブ英会話の特徴と料金プラン",
-        "良い評判・口コミ（メリット）",
-        "悪い評判・口コミ（デメリット）",
-        "DMM英会話・ネイティブキャンプとの比較",
-        "デイリーニュースの活用法",
-        "レアジョブが向いている人・向いていない人"
-      ],
-      "category": "英語学習サービス比較・レビュー"
+      "slug": "toeic-new-format-guide",
+      "title": "TOEICテスト形式・出題構成の完全ガイド【各パートの問題数・時間・難易度2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "english-writing-improvement",
-      "title": "英語ライティング上達法【メール・レポート・SNSで使える実践トレーニング2026】",
-      "slug": "english-writing-improvement",
-      "target_keyword": "英語 ライティング 上達 方法",
-      "target_reader": "英語ライティングを実践で使えるレベルに上げたい社会人",
-      "h2_topics": [
-        "英語ライティングが上達しない本当の原因",
-        "毎日10分でできるライティングトレーニング法",
-        "ビジネスメールの型と頻出フレーズ",
-        "AIを使ったライティング練習・フィードバック法",
-        "英検・TOEICライティングへの応用",
-        "おすすめ教材・ツール・サービス比較"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-official-materials-guide",
+      "title": "TOEIC公式問題集の使い方｜効果的な学習法と復習サイクル",
+      "category": "TOEIC"
     },
     {
-      "id": "shadowing-complete-guide",
-      "title": "シャドーイングのやり方完全ガイド【効果・手順・おすすめ教材2026年版】",
-      "slug": "shadowing-complete-guide",
-      "target_keyword": "シャドーイング やり方 効果",
-      "target_reader": "リスニング・スピーキングを伸ばしたい英語学習者",
-      "h2_topics": [
-        "シャドーイングとは何か・なぜ効果があるのか",
-        "レベル別シャドーイングの正しい手順",
-        "初心者が陥りやすい失敗と対処法",
-        "おすすめ教材・アプリ・音源の選び方",
-        "毎日続けるための習慣化メソッド",
-        "オンライン英会話との組み合わせ効果"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-online-eikaiwa-strategy",
+      "title": "TOEIC800点を取るためのオンライン英会話活用術【点数別スコアアップ戦略】",
+      "category": "TOEIC"
     },
     {
-      "id": "english-coaching-free-trial",
-      "title": "英語コーチング無料体験おすすめ比較【2026年・後悔しない選び方】",
-      "slug": "english-coaching-free-trial",
-      "target_keyword": "英語コーチング 無料体験 おすすめ",
-      "target_reader": "英語コーチングに興味があり無料体験で比較したい社会人",
-      "h2_topics": [
-        "英語コーチングの無料体験で確認すべき5つのポイント",
-        "PROGRIT・トライズ・ビズメイツの無料体験比較",
-        "無料体験でよくある落とし穴と回避策",
-        "受講前に準備しておくこと",
-        "無料体験後の判断基準",
-        "向いている人・向いていない人の見極め方"
-      ],
-      "category": "英語コーチング"
+      "slug": "toeic-part1-part2-strategy",
+      "title": "TOEIC Part1・Part2完全攻略｜写真描写と応答問題の解き方",
+      "category": "TOEIC"
     },
     {
-      "id": "english-self-study-limit",
-      "title": "英語独学の限界はどこ？スクール・コーチングが必要になるサインと判断基準",
-      "slug": "english-self-study-limit",
-      "target_keyword": "英語 独学 限界",
-      "target_reader": "独学で伸び悩んでいる英語学習者",
-      "h2_topics": [
-        "独学でここまでは到達できる・できない",
-        "独学の限界を感じる典型的なサイン5つ",
-        "独学とスクール・コーチングの費用対効果比較",
-        "目的別の最適な選択肢（TOEIC・ビジネス・移住等）",
-        "独学を続けるか切り替えるかの判断フロー",
-        "予算別おすすめサービス"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-part1-photos",
+      "title": "TOEIC Part1写真描写問題の攻略法【出題パターン・消去法・よく出る表現2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "toeic-500-escape-plan",
-      "title": "TOEIC500点台から脱出する勉強法【600点突破への最短ルート2026】",
-      "slug": "toeic-500-escape-plan",
-      "target_keyword": "TOEIC 500点台 脱出 勉強法",
-      "target_reader": "TOEIC500点台で伸び悩んでいる社会人・学生",
-      "h2_topics": [
-        "500点台が壁になる本当の原因",
-        "Part別弱点の見つけ方と優先順位",
-        "リスニング強化の具体的ステップ",
-        "リーディング時間配分の改善法",
-        "2か月で600点突破の学習スケジュール例",
-        "スタディサプリENGLISHの活用法"
-      ],
-      "category": "TOEIC・英語資格"
+      "slug": "toeic-part2-strategy",
+      "title": "TOEIC Part2応答問題の攻略法【間接応答・引っかけパターンと対策2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "online-eikaiwa-not-continue",
-      "title": "オンライン英会話が続かない本当の理由と解決策【挫折しない続け方2026】",
-      "slug": "online-eikaiwa-not-continue",
-      "target_keyword": "オンライン英会話 続かない 理由",
-      "target_reader": "オンライン英会話を始めたが続けられないでいる社会人",
-      "h2_topics": [
-        "続かない人に共通する5つのパターン",
-        "モチベーションではなく仕組みで続ける方法",
-        "レッスン頻度と時間帯の最適設定",
-        "マンネリを防ぐトピック・形式の変え方",
-        "続けやすいサービスの選び方（予約・キャンセルのしやすさ）",
-        "継続率が上がる具体的な目標設定法"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-part3-4-strategy",
+      "title": "TOEIC Part3・Part4の攻略法【先読み・消去法でリスニング高得点2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "business-english-email-guide",
-      "title": "ビジネス英語メールの書き方【件名・書き出し・締め・頻出フレーズ完全版2026】",
-      "slug": "business-english-email-guide",
-      "target_keyword": "ビジネス英語 メール 書き方",
-      "target_reader": "英語でのビジネスメールに自信がない社会人",
-      "h2_topics": [
-        "英語ビジネスメールの基本構造",
-        "シーン別件名の書き方（依頼・お礼・謝罪・確認）",
-        "書き出し・締めのフレーズ40選",
-        "丁寧さのレベル調整テクニック",
-        "やってはいけない和製英語・直訳表現",
-        "スピードアップのためのテンプレート活用法"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-part3-preview-technique",
+      "title": "TOEIC Part3先読みテクニック｜設問を先に読んで正答率を上げる方法",
+      "category": "TOEIC"
     },
     {
-      "id": "english-listening-why-cant-hear",
-      "title": "英語のリスニングが聞き取れない原因と根本解決法【レベル別対策2026】",
-      "slug": "english-listening-why-cant-hear",
-      "target_keyword": "英語 リスニング 聞き取れない 原因",
-      "target_reader": "英語のリスニングが上達しない悩みを持つ学習者",
-      "h2_topics": [
-        "リスニングが聞き取れない3つの本質的原因",
-        "音の脱落・連結・変化の仕組みを理解する",
-        "語彙・文法知識不足がリスニングに与える影響",
-        "レベル別トレーニング方法（初級・中級・上級）",
-        "聞き取りを劇的に改善するシャドーイング法",
-        "おすすめアプリ・サービスで毎日練習する方法"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-part5-grammar-tips",
+      "title": "TOEIC パート5 文法問題の攻略法【品詞・時制・接続詞の解き方2026】",
+      "category": "TOEIC"
     },
     {
-      "id": "english-coaching-price-comparison",
-      "title": "英語コーチング費用比較【安い順ランキング・コスパで選ぶ2026年版】",
-      "slug": "english-coaching-price-comparison",
-      "target_keyword": "英語コーチング 費用 比較 安い",
-      "target_reader": "英語コーチングを費用で比較して選びたい社会人",
-      "h2_topics": [
-        "英語コーチングの料金相場（月額・総額）",
-        "安い英語コーチングランキングTOP5",
-        "費用だけで選ぶと失敗する理由",
-        "価格帯別のサービス特徴と向いている人",
-        "分割払い・給付金活用で実質費用を下げる方法",
-        "無料体験で費用対効果を見極めるポイント"
-      ],
-      "category": "英語コーチング"
+      "slug": "toeic-part5-speed-drills",
+      "title": "TOEIC Part5を速く解く技術｜文法問題スピードアップトレーニング",
+      "category": "TOEIC"
     },
     {
-      "id": "kids-english-when-to-start",
-      "title": "子どもの英語はいつから始める？早期英語教育の効果と年齢別おすすめ方法",
-      "slug": "kids-english-when-to-start",
-      "target_keyword": "子供 英語 いつから 始める",
-      "target_reader": "子どもの英語教育をいつ・どのように始めるか悩む保護者",
-      "h2_topics": [
-        "早期英語教育に科学的根拠はあるのか",
-        "年齢別・脳の発達と英語習得の関係",
-        "0〜3歳・4〜6歳・7〜12歳の最適なアプローチ",
-        "家庭でできる英語環境づくり",
-        "オンライン英会話・教材・教室の選び方",
-        "バイリンガル教育の現実とよくある誤解"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-part6-fill-in-blanks",
+      "title": "TOEIC Part6穴埋め問題攻略法｜文脈読解と文法の組み合わせ",
+      "category": "TOEIC"
     },
     {
-      "id": "english-speaking-improvement-method",
-      "title": "英語スピーキングを最速で伸ばす方法【独学でも話せるようになる練習法2026】",
-      "slug": "english-speaking-improvement-method",
-      "target_keyword": "英語 スピーキング 伸ばす 方法",
-      "target_reader": "英語を話せるようになりたい・スピーキングが伸びない学習者",
-      "h2_topics": [
-        "スピーキングが伸びない3つの根本原因",
-        "独学でスピーキング力を上げる具体的な練習法",
-        "独り言英語・シャドーイング・音読の効果的な組み合わせ",
-        "週1回のオンライン英会話で最大効果を出す方法",
-        "発音改善の優先順位と練習手順",
-        "スピーキング上達を加速するおすすめサービス"
-      ],
-      "category": "英語学習コラム"
+      "slug": "toeic-part6-strategy",
+      "title": "TOEIC Part6長文穴埋め問題の攻略法【文脈理解・品詞・接続詞の解き方2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-part7-inference-questions",
+      "title": "TOEIC Part7推測問題の解き方｜根拠を持って正解を選ぶコツ",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-part7-reading-speed",
+      "title": "TOEIC パート7が時間内に解き終わらない人の読解スピード改善法",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-reading-comprehension",
+      "title": "TOEIC Part7読解の攻略法【スキャニングで時間切れを防ぐ方法2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-reading-speed-techniques",
+      "title": "TOEICリーディングを時間内に解く技術｜速読と時間配分の戦略",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-reading-speed-up",
+      "title": "TOEICリーディングの時間が足りない原因と対策【速読力アップトレーニング2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-score-analysis",
+      "title": "TOEICスコアレポートの読み方【ABILITIES MEASUREDの活用法】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-score-certificate-use",
+      "title": "TOEICスコアの活用法｜就活・転職・昇進で評価されるポイント",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-score-improvement-plateau",
+      "title": "TOEICスコアが伸び悩む原因と突破法｜600点・730点・800点の壁",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-short-intensive",
+      "title": "短期集中でTOEICスコアを上げる英会話活用法【2026年版】3ヶ月で+100点を目指す戦略",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-speaking-test-prep",
+      "title": "TOEIC Speaking Test完全ガイド｜スコアアップの準備法",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-study-materials",
+      "title": "TOEIC対策おすすめ参考書・問題集【スコア別・目的別の選び方2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-test-anxiety",
+      "title": "TOEIC本番で実力を出す方法｜テスト不安を克服するメンタル術",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-test-day-tips",
+      "title": "TOEIC本番当日の注意点【持ち物・時間配分・マーク消去・体調管理チェックリスト2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-vocabulary-1000",
+      "title": "TOEIC必須単語1000語の効率的な覚え方｜頻出語彙を最速で習得",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toeic-vocabulary-tips",
+      "title": "TOEIC単語の効率的な覚え方【スコア別・パート別の必須語彙と暗記法2026】",
+      "category": "TOEIC"
+    },
+    {
+      "slug": "toraiz-review",
+      "title": "トライズの評判・口コミまとめ【1,000時間プログラムの実態と料金を解説】",
+      "category": "サービスレビュー"
+    },
+    {
+      "slug": "travel-english-phrases",
+      "title": "旅行で使える英会話フレーズ完全集【空港・ホテル・レストラン別2026】",
+      "category": "フレーズ集"
+    },
+    {
+      "slug": "travel-english-service-guide",
+      "title": "海外旅行の英会話対策【出発前1〜3ヶ月で使うべきサービス比較】",
+      "category": "英語学習法（総合）"
     }
-  ]
+  ],
+  "clusters": {
+    "オンライン英会話": [
+      "40s-online-eikaiwa-guide",
+      "adult-online-eikaiwa-guide",
+      "busy-worker-online-eikaiwa-guide",
+      "eikaiwa-beginner-guide",
+      "eikaiwa-example-phrases",
+      "eikaiwa-fee-comparison",
+      "eikaiwa-for-workers",
+      "eikaiwa-freetalk-topics",
+      "eikaiwa-how-to-start",
+      "eikaiwa-motivation",
+      "eikaiwa-practice-methods",
+      "eikaiwa-self-study",
+      "eikaiwa-study-methods",
+      "eikaiwa-textbooks",
+      "eikaiwa-textbooks-comparison",
+      "english-self-study-vs-eikaiwa",
+      "free-online-eikaiwa-guide",
+      "free-trial-online-eikaiwa",
+      "kyuufu-eikaiwa",
+      "online-eikaiwa-beginner-fear",
+      "online-eikaiwa-cancellation-guide",
+      "online-eikaiwa-complete-guide",
+      "online-eikaiwa-cost-comparison",
+      "online-eikaiwa-frequency",
+      "online-eikaiwa-frequency-guide",
+      "online-eikaiwa-how-long",
+      "online-eikaiwa-meaningless",
+      "online-eikaiwa-not-continue",
+      "online-eikaiwa-not-continue-reasons",
+      "online-eikaiwa-not-recommended",
+      "online-eikaiwa-once-a-week",
+      "online-eikaiwa-philippines",
+      "senior-online-eikaiwa"
+    ],
+    "AI英語学習": [
+      "ai-eikaiwa-comparison",
+      "ai-english-conversation-practice",
+      "chatgpt-eikaiwa-guide",
+      "chatgpt-eikaiwa-prompts",
+      "claude-prompt-english-learning"
+    ],
+    "サービスレビュー": [
+      "bizmates-review-article",
+      "cambly-review-article",
+      "english-review-methods",
+      "esports-eikaiwa-review",
+      "italki-review",
+      "kimini-eikaiwa-review",
+      "kimini-review",
+      "nativecamp-review",
+      "nativecamp-review-article",
+      "nova-review",
+      "progrit-review",
+      "progrit-review-detail",
+      "qq-english-review",
+      "rarejob-review",
+      "studysapuri-english-review",
+      "toraiz-review"
+    ],
+    "ビジネス英語": [
+      "business-english-complete-guide",
+      "business-english-email-guide",
+      "business-english-email-reply",
+      "business-english-guide",
+      "business-english-meeting-phrases",
+      "business-english-negotiation",
+      "business-english-online",
+      "business-english-online-eikaiwa",
+      "business-english-presentation",
+      "business-english-report-writing",
+      "english-business-apology",
+      "english-business-casual-conversation",
+      "english-business-feedback",
+      "english-business-request-phrases",
+      "english-business-writing-tips",
+      "english-international-business-etiquette",
+      "english-online-meeting-tips",
+      "english-phrasal-verbs-business",
+      "english-writing-business-basics"
+    ],
+    "英語学習法（総合）": [
+      "dmm-vs-nativecamp",
+      "english-accent-reduction",
+      "english-at-airport",
+      "english-connected-speech",
+      "english-conversation-partner",
+      "english-drama-learning",
+      "english-global-team-communication",
+      "english-immersion-tips",
+      "english-input-output-balance",
+      "english-input-vs-output",
+      "english-learning-goals-setting",
+      "english-learning-notebook",
+      "english-learning-one-year",
+      "english-learning-plateau",
+      "english-media-learning",
+      "english-note-taking",
+      "english-output-practice",
+      "english-podcast-guide",
+      "english-podcast-learning",
+      "english-self-study-limit",
+      "english-spaced-repetition",
+      "english-stress-rhythm",
+      "english-study-30min-daily",
+      "english-study-adult-worker",
+      "english-study-busy-schedule",
+      "english-study-methods-guide",
+      "english-youtube-learning",
+      "global-remote-work-english",
+      "how-to",
+      "how-to-choose",
+      "travel-english-service-guide"
+    ],
+    "キャリア・転職": [
+      "dmm-vs-rarejob",
+      "english-career-salary-impact",
+      "english-job-change-resume",
+      "english-job-interview-japanese",
+      "english-job-interview-prep",
+      "english-resume-prompt",
+      "rarejob-vs-dmm",
+      "salary-up-english"
+    ],
+    "アプリ・ツール": [
+      "eikaiwa-app-comparison",
+      "eikaiwa-app-free",
+      "english-learning-apps",
+      "english-study-apps"
+    ],
+    "コーチング": [
+      "eikaiwa-coaching-guide",
+      "english-coaching-3months",
+      "english-coaching-cheap",
+      "english-coaching-free-trial",
+      "english-coaching-individual",
+      "english-coaching-price-comparison",
+      "english-coaching-ranking",
+      "english-coaching-vs-online-eikaiwa",
+      "english-coaching-worth-it"
+    ],
+    "学生・子供": [
+      "eikaiwa-for-high-school",
+      "eikaiwa-for-students",
+      "junior-high-online-eikaiwa",
+      "kids-eikaiwa-no-effect",
+      "kids-english-when-to-start",
+      "kids-online-eikaiwa-effects",
+      "kids-online-eikaiwa-guide"
+    ],
+    "英検": [
+      "eiken-1st-grade",
+      "eiken-2kyuu-interview",
+      "eiken-2kyuu-vocabulary",
+      "eiken-2kyuu-writing",
+      "eiken-3kyuu-grammar",
+      "eiken-4kyuu-guide",
+      "eiken-junni-interview",
+      "eiken-junni-writing"
+    ],
+    "ライティング": [
+      "english-academic-writing",
+      "english-diary-writing",
+      "english-writing-email-subject",
+      "english-writing-improvement",
+      "english-writing-journal"
+    ],
+    "語彙": [
+      "english-anki-guide",
+      "english-flashcard-method",
+      "english-startup-vocabulary",
+      "english-vocabulary-adult",
+      "english-vocabulary-collocations",
+      "english-vocabulary-context-learning",
+      "english-vocabulary-guide",
+      "english-vocabulary-roots"
+    ],
+    "フレーズ集": [
+      "english-complaint-apology-phrases",
+      "english-data-analysis-phrases",
+      "english-hotel-restaurant-phrases",
+      "english-medical-phrases",
+      "english-networking-phrases",
+      "english-phrases-collection",
+      "english-small-talk-phrases",
+      "english-teleconference-phrases",
+      "english-work-from-home-phrases",
+      "travel-english-phrases"
+    ],
+    "リーディング": [
+      "english-extensive-reading",
+      "english-reading-tips",
+      "english-speed-reading"
+    ],
+    "業種別英語": [
+      "english-for-accountants",
+      "english-for-customer-service",
+      "english-for-engineers",
+      "english-for-finance-professionals",
+      "english-for-hr-professionals",
+      "english-for-it-engineers",
+      "english-for-lawyers",
+      "english-for-medical-research",
+      "english-for-nurses",
+      "english-for-project-managers",
+      "english-for-sales",
+      "english-for-teachers",
+      "english-for-travel-preparation",
+      "english-learning-for-beginners"
+    ],
+    "英文法": [
+      "english-grammar-adverb-clauses",
+      "english-grammar-apposition",
+      "english-grammar-articles",
+      "english-grammar-basics",
+      "english-grammar-causative",
+      "english-grammar-cleft-sentence",
+      "english-grammar-cleft-sentences",
+      "english-grammar-comparatives",
+      "english-grammar-complete-guide",
+      "english-grammar-complex-sentences",
+      "english-grammar-conditional",
+      "english-grammar-conjunctions",
+      "english-grammar-countable-nouns",
+      "english-grammar-discourse-markers",
+      "english-grammar-ellipsis",
+      "english-grammar-emphasis",
+      "english-grammar-fronting",
+      "english-grammar-future-expressions",
+      "english-grammar-gerund-infinitive",
+      "english-grammar-have-get",
+      "english-grammar-in-on-at",
+      "english-grammar-indirect-speech",
+      "english-grammar-infinitive-clauses",
+      "english-grammar-inversion",
+      "english-grammar-it-there",
+      "english-grammar-modal-verbs",
+      "english-grammar-negation",
+      "english-grammar-noun-clauses",
+      "english-grammar-parallel-structure",
+      "english-grammar-participle",
+      "english-grammar-passive-voice",
+      "english-grammar-perfect-progressive",
+      "english-grammar-preposition-phrases",
+      "english-grammar-prepositions",
+      "english-grammar-present-perfect",
+      "english-grammar-quantifiers",
+      "english-grammar-relative-clauses",
+      "english-grammar-relearn-adults",
+      "english-grammar-reported-speech",
+      "english-grammar-sentence-patterns",
+      "english-grammar-subjunctive",
+      "english-grammar-tag-questions",
+      "english-grammar-tenses",
+      "english-grammar-wish-if-only",
+      "english-grammar-word-order",
+      "english-grammar-would-used-to"
+    ],
+    "学習習慣・継続": [
+      "english-habit-guide",
+      "english-habit-morning-routine",
+      "english-learning-consistency",
+      "english-morning-routine",
+      "english-motivation-keep"
+    ],
+    "発音": [
+      "english-intonation-guide",
+      "english-pronunciation-correction",
+      "english-pronunciation-guide",
+      "english-pronunciation-vowels",
+      "english-r-l-pronunciation",
+      "english-th-pronunciation",
+      "english-vowel-sounds",
+      "japanese-english-pronunciation-guide"
+    ],
+    "料金・お得情報": [
+      "english-learning-cost-comparison",
+      "free-trial-comparison"
+    ],
+    "リスニング": [
+      "english-listening-apps",
+      "english-listening-comprehension",
+      "english-listening-daily",
+      "english-listening-guide",
+      "english-listening-news",
+      "english-listening-shadowing-difference",
+      "english-listening-study-guide",
+      "english-listening-why-cant-hear"
+    ],
+    "シャドーイング": [
+      "english-shadowing-guide",
+      "shadowing-complete-guide",
+      "shadowing-free-practice"
+    ],
+    "スピーキング": [
+      "english-speaking-alone",
+      "english-speaking-complete-guide",
+      "english-speaking-confidence",
+      "english-speaking-daily-habit",
+      "english-speaking-daily-practice",
+      "english-speaking-fear",
+      "english-speaking-filler-words",
+      "english-speaking-fluency",
+      "english-speaking-improvement",
+      "english-speaking-improvement-method"
+    ],
+    "TOEIC": [
+      "english-vocabulary-toeic",
+      "toeic-1month-intensive",
+      "toeic-2months-intensive",
+      "toeic-400-500-strategy",
+      "toeic-400-study-plan",
+      "toeic-500-escape-plan",
+      "toeic-550-study-plan",
+      "toeic-600-study-plan",
+      "toeic-700-guide",
+      "toeic-730-study-plan",
+      "toeic-800-guide",
+      "toeic-900-study-plan",
+      "toeic-abbreviations-vocabulary",
+      "toeic-business-vocabulary",
+      "toeic-complete-guide",
+      "toeic-double-triple-passage",
+      "toeic-eikaiwa-combination",
+      "toeic-failure-analysis",
+      "toeic-grammar-focus",
+      "toeic-grammar-part5-types",
+      "toeic-ip-vs-public",
+      "toeic-l-r-vs-sw",
+      "toeic-listening-dictation-practice",
+      "toeic-listening-part3-part4-tips",
+      "toeic-listening-score-by-part",
+      "toeic-listening-score-up",
+      "toeic-listening-tips",
+      "toeic-new-format-guide",
+      "toeic-official-materials-guide",
+      "toeic-online-eikaiwa-strategy",
+      "toeic-part1-part2-strategy",
+      "toeic-part1-photos",
+      "toeic-part2-strategy",
+      "toeic-part3-4-strategy",
+      "toeic-part3-preview-technique",
+      "toeic-part5-grammar-tips",
+      "toeic-part5-speed-drills",
+      "toeic-part6-fill-in-blanks",
+      "toeic-part6-strategy",
+      "toeic-part7-inference-questions",
+      "toeic-part7-reading-speed",
+      "toeic-reading-comprehension",
+      "toeic-reading-speed-techniques",
+      "toeic-reading-speed-up",
+      "toeic-score-analysis",
+      "toeic-score-certificate-use",
+      "toeic-score-improvement-plateau",
+      "toeic-short-intensive",
+      "toeic-speaking-test-prep",
+      "toeic-study-materials",
+      "toeic-test-anxiety",
+      "toeic-test-day-tips",
+      "toeic-vocabulary-1000",
+      "toeic-vocabulary-tips"
+    ]
+  }
 }

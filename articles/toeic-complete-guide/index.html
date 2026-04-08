@@ -51,7 +51,7 @@
       border-bottom: 1px solid #E8E4DC; padding: 10px 0;
       transition: padding 0.3s ease, box-shadow 0.3s ease;
     }
-    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(26,26,26,0.08); }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(0,0,0,0.08); }
     .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
     .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
     .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
@@ -85,7 +85,7 @@
     @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
     /* ── END UNIFIED HEADER ── */
 
-    :root{--primary:#2563eb;--primary-light:#3b82f6;--primary-dark:#1d4ed8;--primary-pale:#eff6ff;--accent:#10b981;--accent-dark:#059669;--accent-pale:#ecfdf5;--text:#111827;--text-muted:#6b7280;--bg:#F8F6F1;--bg-gray:#F2EFE9;--border:#e5e7eb;--shadow:0 1px 3px rgba(26,26,26,0.06),0 2px 8px rgba(26,26,26,0.04);--shadow-md:0 4px 16px rgba(26,26,26,0.08),0 8px 24px rgba(26,26,26,0.05);--radius:10px;--radius-lg:14px;}
+    :root{--primary:#2563eb;--primary-light:#3b82f6;--primary-dark:#1d4ed8;--primary-pale:#eff6ff;--accent:#10b981;--accent-dark:#059669;--accent-pale:#ecfdf5;--text:#111827;--text-muted:#6b7280;--bg:#ffffff;--bg-gray:#f9fafb;--border:#e5e7eb;--shadow:0 1px 3px rgba(0,0,0,0.06),0 2px 8px rgba(0,0,0,0.04);--shadow-md:0 4px 16px rgba(0,0,0,0.08),0 8px 24px rgba(0,0,0,0.05);--radius:10px;--radius-lg:14px;}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
     html{scroll-behavior:smooth;}
     body{font-family:"Inter","Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif;letter-spacing:.01em;font-size:16px;line-height:1.9;color:var(--text);background:var(--bg);}
@@ -116,12 +116,12 @@
     .btn-primary{display:inline-block;background:var(--primary);color:#fff;padding:11px 20px;border-radius:var(--radius);font-weight:700;font-size:.88rem;text-decoration:none;text-align:center;white-space:nowrap;transition:background .2s,transform .15s;box-shadow:0 3px 10px rgba(37,99,235,.3);}
     .btn-primary:hover{background:var(--primary-light);color:#fff;transform:translateY(-1px);}
     .disclaimer{background:var(--bg-gray);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;font-size:.78rem;color:var(--text-muted);margin-top:40px;line-height:1.7;}
-    .sidebar-widget{background:#FDFCF9;border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px;box-shadow:var(--shadow);}
+    .sidebar-widget{background:#fff;border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px;box-shadow:var(--shadow);}
     .sidebar-widget h4{font-size:.95rem;font-weight:700;margin-bottom:14px;color:var(--text);padding-bottom:10px;border-bottom:2px solid var(--bg-gray);}
     .sidebar-service-item a{font-size:.88rem;text-decoration:none;color:var(--text);}
     .sidebar-service-item a:hover{color:var(--primary);}
     .sidebar-service-list{display:flex;flex-direction:column;gap:10px;}
-    .quiz-promo{position:relative;overflow:hidden;background:linear-gradient(135deg,#060C1B,#0f1a35);border:1px solid rgba(251,191,36,.25);border-radius:16px;padding:20px 24px;margin:32px 0;box-shadow:0 0 40px rgba(251,191,36,.07),0 4px 24px rgba(26,26,26,.25);}
+    .quiz-promo{position:relative;overflow:hidden;background:linear-gradient(135deg,#060C1B,#0f1a35);border:1px solid rgba(251,191,36,.25);border-radius:16px;padding:20px 24px;margin:32px 0;box-shadow:0 0 40px rgba(251,191,36,.07),0 4px 24px rgba(0,0,0,.25);}
     .quiz-promo-orb{position:absolute;width:220px;height:220px;background:radial-gradient(circle,rgba(251,191,36,.13),transparent 70%);top:-60px;right:-40px;border-radius:50%;pointer-events:none;}
     .quiz-promo-inner{position:relative;z-index:1;display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
     .quiz-promo-icon{font-size:2rem;flex-shrink:0;line-height:1;}
@@ -144,7 +144,7 @@
     .site-footer a{color:rgba(255,255,255,.6);text-decoration:none;transition:color .2s;}
     .site-footer a:hover{color:#f0a080;}
     .footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;text-align:center;font-size:.78rem;color:rgba(255,255,255,.4);}
-    .pillar-card{background:#FDFCF9;border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px 24px;margin-bottom:16px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .15s;}
+    .pillar-card{background:#fff;border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px 24px;margin-bottom:16px;box-shadow:var(--shadow);transition:box-shadow .2s,transform .15s;}
     .pillar-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);}
     .pillar-card a{text-decoration:none;color:var(--text);display:block;}
     .pillar-card-title{font-size:1rem;font-weight:700;color:var(--primary);margin-bottom:6px;}
@@ -153,13 +153,16 @@
     .faq-q{font-weight:700;color:var(--primary);margin-bottom:8px;font-size:.95rem;}
     .faq-a{font-size:.9rem;color:var(--text);line-height:1.8;}
     @media(max-width:768px){.article-layout{grid-template-columns:1fr;}.sidebar{display:none;}.footer-grid{grid-template-columns:1fr;}}
-    .related-articles{margin:32px 0 24px;padding:24px;background:#f8fafc;border-radius:12px;border:1px solid #e2e8f0;}
-    .related-articles h3{font-size:1rem;font-weight:700;color:#1e293b;margin:0 0 14px;padding:0;border:none;}
-    .related-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;}
-    .related-list li a{color:#0369a1;text-decoration:none;font-size:.9rem;line-height:1.5;}
-    .related-list li a:hover{text-decoration:underline;}
-    .related-list li::before{content:"→ ";}
-  </style>
+  
+    <style>
+      .related-articles{margin:32px 0 24px;padding:24px;background:#f8fafc;border-radius:12px;border:1px solid #e2e8f0;}
+      .related-articles h3{font-size:1rem;font-weight:700;color:#1e293b;margin:0 0 14px;padding:0;border:none;}
+      .related-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;}
+      .related-list li a{color:#0369a1;text-decoration:none;font-size:.9rem;line-height:1.5;}
+      .related-list li a:hover{text-decoration:underline;}
+      .related-list li::before{content:"→ ";}
+    </style>
+    </style>
 <link rel="stylesheet" href="/assets/global-design.css">
 </head>
 <body>
@@ -175,10 +178,10 @@
       <div class="nav-dd">
         <button class="nav-dd-trigger" type="button">学ぶ<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
         <div class="nav-dd-menu">
-          <a href="/reading/">ReadUp</a>
-          <a href="/grammar/">GrammarUp</a>
+          <a href="/sync/">SyncReader</a>
+          <a href="/grammar/">文法クイズ</a>
           <a href="/words/">WordsUp</a>
-          <a href="/kioku-shinai/">語根記憶術</a>
+          <a href="/kioku-shinai/">記憶しない英単語</a>
         </div>
       </div>
       <div class="nav-dd">
@@ -189,7 +192,8 @@
           <a href="/prompts/">AIプロンプト</a>
         </div>
       </div>
-      <a href="/ranking/">英会話スクール</a>
+      <a href="/ranking/">ランキング</a>
+      <a href="/my/">My Progress</a>
     </nav>
     <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
       <span></span><span></span><span></span>
@@ -199,15 +203,16 @@
 <div class="site-mobile-nav" id="siteMobileNav">
   <a href="/">ListenUp</a>
   <div class="mobile-nav-label">学ぶ</div>
-  <a href="/reading/">ReadUp</a>
-  <a href="/grammar/">GrammarUp</a>
+  <a href="/sync/">SyncReader</a>
+  <a href="/grammar/">文法クイズ</a>
   <a href="/words/">WordsUp</a>
-  <a href="/kioku-shinai/">語根記憶術</a>
+  <a href="/kioku-shinai/">記憶しない英単語</a>
   <div class="mobile-nav-label">読む</div>
   <a href="/articles/" class="active">学習コラム</a>
   <a href="/real-phrases/">フレーズ集</a>
   <a href="/prompts/">AIプロンプト</a>
-  <a href="/ranking/">英会話スクール</a>
+  <a href="/ranking/">ランキング</a>
+  <a href="/my/">My Progress</a>
 </div>
 
 <div style="height:60px;"></div>
@@ -494,28 +499,27 @@
       <p>TOEICのスコアアップには、現在のスコアに合った学習プランと、パート別の弱点を理解した対策が必要です。このページの記事一覧から、今の自分に最も必要な情報を選んで学習を進めてください。</p>
       <p>リスニング力を無料で鍛えたい方は、native-realの<a href="/">ListenUpリスニングクイズ</a>（1,099問・無料）もぜひ活用ください。TOEICで問われる速い発話・音変化・語彙問題を網羅した問題設計になっています。</p>
 
-      <div class="disclaimer">
-        ※本記事はアフィリエイト広告を含みます。料金・サービス内容は変更される場合があります。最新情報は各公式サイトでご確認ください。
+      
       <div class="related-articles">
         <h3>関連記事</h3>
         <ul class="related-list">
-          <li><a href="/articles/toeic-grammar-focus/">TOEIC文法対策【Part5・6頻出ポイント30選】</a></li>
-          <li><a href="/articles/toeic-vocabulary-strategies/">TOEIC語彙対策【頻出単語・効率的な覚え方完全ガイド】</a></li>
-          <li><a href="/articles/toeic-listening-training/">TOEICリスニング対策【Part1〜4の攻略法と練習方法】</a></li>
-          <li><a href="/articles/toeic-reading-strategies/">TOEIC読解対策【Part7を時間内に解く攻略法】</a></li>
-          <li><a href="/articles/toeic-score-improvement/">TOEICスコアアップのための学習計画【目標スコア別ロードマップ】</a></li>
-          <li><a href="/ranking/">TOEIC対策のためのオンライン英会話おすすめランキング</a></li>
+          <li><a href="/articles/english-vocabulary-toeic/">TOEIC英単語の覚え方｜スコア別おすすめ学習法</a></li>
+          <li><a href="/articles/toeic-1month-intensive/">TOEIC1ヶ月集中対策【短期でスコアを上げる週別スケジュール2026】</a></li>
+          <li><a href="/articles/toeic-2months-intensive/">TOEIC2ヶ月集中学習プラン｜スコア別目標設定と週次スケジュール</a></li>
+          <li><a href="/articles/toeic-400-500-strategy/">TOEIC400点台から500点台へ｜伸び悩みを打破する勉強法</a></li>
         </ul>
       </div>
+      <div class="disclaimer">
+        ※本記事はアフィリエイト広告を含みます。料金・サービス内容は変更される場合があります。最新情報は各公式サイトでご確認ください。
       </div>
     </main>
 
     <aside class="sidebar">
       <div class="sidebar-widget quiz-promo-widget">
         <div class="quiz-promo-orb"></div>
-        <p class="quiz-promo-widget-label">🎧 TOEIC対策</p>
-        <p class="quiz-promo-widget-title">リスニング模擬問題で<br>実力を測る</p>
-        <p class="quiz-promo-widget-sub">1,099問・適応型・無料</p>
+        <p class="quiz-promo-widget-label">🎧 英語力診断</p>
+        <p class="quiz-promo-widget-title">リスニングクイズで<br>実力チェック</p>
+        <p class="quiz-promo-widget-sub">1,099問・無料・5段階レベル</p>
         <a href="/" class="quiz-promo-btn">無料で試す →</a>
       </div>
       <div class="sidebar-widget">
@@ -542,18 +546,6 @@
   </div>
 </div>
 
-<section style="max-width:720px;margin:40px auto 0;padding:0 20px 48px;">
-  <div style="background:#FDFCF9;border:1px solid #E8E4DC;border-radius:16px;padding:24px 28px;text-align:center;">
-    <p style="font-size:0.75rem;font-weight:700;color:#F5A623;letter-spacing:0.08em;margin:0 0 8px;">無料ツールで練習する</p>
-    <p style="font-size:0.95rem;font-weight:700;color:rgba(26,26,26,0.88);margin:0 0 16px;">読んだら、聴いて・解いて・覚えよう。</p>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;">
-      <a href="/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#fff;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">🎧 ListenUp</a>
-      <a href="/reading/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#fff;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">📖 ReadUp</a>
-      <a href="/grammar/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#fff;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">✓ GrammarUp</a>
-      <a href="/words/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#fff;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">📝 WordsUp</a>
-    </div>
-  </div>
-</section>
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">

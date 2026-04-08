@@ -697,13 +697,16 @@ RELATED_HTML_STYLE = """
     </style>"""
 
 
-def build_related_map(topics: list) -> dict:
-    """slug → [related_slug, ...] のマップを構築（最大4件）"""
+def build_related_map(topics: list, clusters: dict = None) -> dict:
+    """slug → [related_slug, ...] のマップを構築（最大4件）
+    clusters が渡された場合はそちらを優先（article_topics.json の clusters フィールド）"""
     slug_set = {t["slug"] for t in topics}
+    cluster_map = clusters if clusters else CLUSTERS
+
     slug_to_clusters: dict[str, list[str]] = {}
     for t in topics:
         slug_to_clusters[t["slug"]] = []
-    for cluster_name, slugs in CLUSTERS.items():
+    for cluster_name, slugs in cluster_map.items():
         for s in slugs:
             if s in slug_to_clusters:
                 slug_to_clusters[s].append(cluster_name)
@@ -714,7 +717,7 @@ def build_related_map(topics: list) -> dict:
         my_clusters = slug_to_clusters.get(slug, [])
         candidates: list[str] = []
         for c in my_clusters:
-            for s in CLUSTERS[c]:
+            for s in cluster_map[c]:
                 if s != slug and s in slug_set and s not in candidates:
                     candidates.append(s)
         # 最大4件（同クラスター優先）
@@ -759,8 +762,9 @@ def inject_style(html: str) -> str:
 def main():
     data = json.loads(Path("data/article_topics.json").read_text())
     topics = data["topics"]
+    clusters = data.get("clusters", None)
     slug_to_title = {t["slug"]: t["title"] for t in topics}
-    related_map = build_related_map(topics)
+    related_map = build_related_map(topics, clusters)
 
     articles_dir = Path("articles")
     updated = 0
