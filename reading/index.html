@@ -16,6 +16,20 @@
   <meta property="og:site_name" content="native-real">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "ReadUp Series — レベル別英文リーディング",
+    "description": "語彙制限されたレベル別英文を1日1分読む。4段階（VL2000〜7000）・辞書不要・音声付き・毎週更新。",
+    "url": "https://native-real.com/reading/",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    "publisher": { "@type": "Organization", "name": "native-real", "url": "https://native-real.com" },
+    "inLanguage": "ja"
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
@@ -430,11 +444,20 @@
     /* ── Loading ── */
     .loading { text-align: center; padding: 60px 20px; color: var(--text-3); font-size: 15px; }
 
-    @media (max-width: 480px) {
+    @media (min-width: 641px) and (max-width: 1023px) {
+      .page { padding: 32px 32px 80px; }
+      .article-card { padding: 24px 28px; }
+      .progress-section { padding: 24px 28px; }
+    }
+    @media (max-width: 640px) {
       .page { padding: 24px 16px 80px; }
       .article-body { font-size: 17px; }
       .reader-title { font-size: 20px; }
       .progress-stats { gap: 24px; }
+    }
+    @media (max-height: 700px) {
+      .page { padding: 20px 16px 60px; }
+      .site-header { height: 44px; }
     }
   </style>
 </head>
@@ -772,7 +795,7 @@ function buildBodyHtml(story) {
     if (!/[a-zA-Z]/.test(tok)) return escHtml(tok);
     const key = tok.toLowerCase().replace(/^'+|'+$/g, '');
     if (vocabMap[key]) {
-      return `<span class="vocab-word" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok)}')">${escHtml(tok)}</span>`;
+      return `<span class="vocab-word" data-word="${escAttr(tok)}" onclick="showVocabPopup(event,'${escAttr(tok)}')">${escHtml(tok)}</span>`;
     }
     return escHtml(tok);
   }).join('');

@@ -499,15 +499,17 @@ def build_quiz_prompt(title, body):
 def build_annotated(body, vl):
     """body_annotated を構築（単語ごとにVLレベルを付与）"""
     words = re.findall(r"[a-zA-Z]+(?:'[a-z]+)?|[^a-zA-Z\s]+|\s+", body)
-    vocab = load_vocab(vl)
+    vocab = load_vocab(vl) | _ALLOWLIST
     annotated = []
     for token in words:
         if re.match(r"^[a-zA-Z]", token):
             lower = token.lower()
             base = re.sub(r"'[a-z]+$", "", lower)
+            lemma = lemmatize(lower)
+            lemma_base = lemmatize(base)
             if is_proper_noun(token):
                 annotated.append({"w": token, "vl": None})
-            elif base in vocab or lower in vocab:
+            elif base in vocab or lower in vocab or lemma in vocab or lemma_base in vocab:
                 # VLレベル特定
                 level = None
                 for lvl in VL_LEVELS:

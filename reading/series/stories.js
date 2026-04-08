@@ -2833,8 +2833,7 @@ const STORIES = [
       },
       {
         "w": "entrenched",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -5301,8 +5300,7 @@ const STORIES = [
       },
       {
         "w": "rower",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -5496,8 +5494,7 @@ const STORIES = [
       },
       {
         "w": "rower",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -5561,8 +5558,7 @@ const STORIES = [
       },
       {
         "w": "curtailed",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -5838,8 +5834,7 @@ const STORIES = [
       },
       {
         "w": "gusts",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -6945,8 +6940,7 @@ const STORIES = [
       },
       {
         "w": "dirty",
-        "vl": null,
-        "outside": true
+        "vl": 3000
       },
       {
         "w": "."
@@ -9542,8 +9536,7 @@ const STORIES = [
       },
       {
         "w": "overruns",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -23671,8 +23664,7 @@ const STORIES = [
       },
       {
         "w": "waterways",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -23867,8 +23859,7 @@ const STORIES = [
       },
       {
         "w": "hundreds",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -23882,8 +23873,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -27731,8 +27721,7 @@ const STORIES = [
       },
       {
         "w": "monarchs",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -27997,8 +27986,7 @@ const STORIES = [
       },
       {
         "w": "monarchs",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -31512,8 +31500,7 @@ const STORIES = [
       },
       {
         "w": "climbers",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -35054,8 +35041,7 @@ const STORIES = [
       },
       {
         "w": "wavering",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -35765,8 +35751,7 @@ const STORIES = [
       },
       {
         "w": "mourned",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -36780,8 +36765,7 @@ const STORIES = [
       },
       {
         "w": "millions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -37667,8 +37651,7 @@ const STORIES = [
       },
       {
         "w": "millions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -38544,8 +38527,7 @@ const STORIES = [
       },
       {
         "w": "millions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -46044,8 +46026,7 @@ const STORIES = [
       },
       {
         "w": "embarked",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -46812,8 +46793,7 @@ const STORIES = [
       },
       {
         "w": "billions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -50073,8 +50053,7 @@ const STORIES = [
       },
       {
         "w": "orbits",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -50154,8 +50133,7 @@ const STORIES = [
       },
       {
         "w": "incrementally",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -50214,8 +50192,7 @@ const STORIES = [
       },
       {
         "w": "asteroids",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": ","
@@ -51369,8 +51346,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -53531,8 +53507,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -54596,8 +54571,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -55403,8 +55377,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -55841,8 +55814,7 @@ const STORIES = [
       },
       {
         "w": "millions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -56417,8 +56389,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -56715,8 +56686,7 @@ const STORIES = [
       },
       {
         "w": "tens",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -56730,8 +56700,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -57260,8 +57229,7 @@ const STORIES = [
       },
       {
         "w": "millions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -57516,8 +57484,7 @@ const STORIES = [
       },
       {
         "w": "millions",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -57593,8 +57560,7 @@ const STORIES = [
       },
       {
         "w": "wobbles",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -57636,8 +57602,7 @@ const STORIES = [
       },
       {
         "w": "tens",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -57651,8 +57616,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -57836,8 +57800,7 @@ const STORIES = [
       },
       {
         "w": "glaciers",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -58341,8 +58304,7 @@ const STORIES = [
       },
       {
         "w": "surpasses",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -61595,8 +61557,7 @@ const STORIES = [
       },
       {
         "w": "stunned",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -61637,8 +61598,7 @@ const STORIES = [
       },
       {
         "w": "astronauts",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -62182,8 +62142,7 @@ const STORIES = [
       },
       {
         "w": "setbacks",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -65433,8 +65392,7 @@ const STORIES = [
       },
       {
         "w": "primates",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": "."
@@ -65747,8 +65705,7 @@ const STORIES = [
       },
       {
         "w": "anatomically",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -66396,8 +66353,7 @@ const STORIES = [
       },
       {
         "w": "safely",
-        "vl": null,
-        "outside": true
+        "vl": 5000
       },
       {
         "w": " "
@@ -74698,8 +74654,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -75675,8 +75630,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -76291,8 +76245,7 @@ const STORIES = [
       },
       {
         "w": "unearthed",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -76680,8 +76633,7 @@ const STORIES = [
       },
       {
         "w": "soaked",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -76716,8 +76668,7 @@ const STORIES = [
       },
       {
         "w": "enveloped",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
@@ -76745,8 +76696,7 @@ const STORIES = [
       },
       {
         "w": "thousands",
-        "vl": null,
-        "outside": true
+        "vl": null
       },
       {
         "w": " "
