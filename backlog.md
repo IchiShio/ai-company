@@ -101,6 +101,7 @@
 - 2026-04-06: 20問追加（g1408-g1427）、計1385問（have_been_to経験・not_until倒置・without動名詞・be_used_to・whose・insist仮定法現在・in_spite_of・much比較級強調・by_the_time過去完了・keep_from・exhausted分詞形容詞・a_number_of・動名詞主語・as_well_as・whom目的格・were_to仮定法・現在完了受動態・let_alone・受動分詞構文・for_vs_since）
 - 2026-04-07: 20問追加（g1428-g1447）、計1405問（現在分詞形容詞的用法・過去完了by the time・強調構文it was that・比較級more than・時制の一致間接話法・although逆接・too-to・分詞構文V-ing・仮定法過去if had・get受動態・between/among・最上級the・how間接疑問・must義務・because of名詞・remember動名詞vs不定詞・比例比較the more・比較級強調even・not until強調構文・未来進行形will be V-ing）
 - 2026-04-08: 20問追加（g1448-g1467）、計1425問（受動態不定詞need to be pp・among/between・what節主語・過去完了by the time・so-that結果・否定副詞倒置Never・前置詞+動名詞succeed in・wish仮定法過去完了・should義務・as if仮定法過去・look forward to動名詞・have difficulty動名詞・on曜日・It took時間・Only after倒置・despite前置詞・recommend仮定法現在・used to過去習慣・Provided that条件・since現在完了継続）
+- 2026-04-08: 20問追加（g1468-g1487）、計1445問（can't have pp否定推量・be satisfied with感情形容詞・get+O+to使役・Never before倒置・not so much A as B・Having been完了受動分詞構文・lest否定目的・in front of外側前置詞・Were it not for仮定法倒置・only to否定的結果・while対比・with+O+pp付帯状況・as is often the case慣用表現・what is worse慣用挿入句・be reported to受動不定詞・whether間接疑問・比較級harder than・have difficulty動名詞・It is high time仮定法過去・even if仮定条件）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
