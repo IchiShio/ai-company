@@ -261,6 +261,14 @@
       background: var(--gold-bg);
       border-radius: 3px;
     }
+    .article-body .word-tap {
+      cursor: pointer;
+    }
+    .article-body .word-tap:hover { color: var(--gold); }
+    .article-body .word-tap.active {
+      background: var(--gold-bg);
+      border-radius: 3px;
+    }
 
     /* ── Vocab Popup ── */
     #vocab-popup {
@@ -749,10 +757,12 @@ function buildBodyHtml(story) {
       const isOutside = tok.outside === true;
       const key = tok.w.toLowerCase().replace(/^'+|'+$/g, '');
       const hasNote = !!vocabMap[key];
+      // VL外 or vocab_notes → 下線付きタップ
       if (isOutside || hasNote) {
         return `<span class="vocab-word" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok.w)}')">${escHtml(tok.w)}</span>`;
       }
-      return escHtml(tok.w);
+      // VL内 → 下線なし・タップで辞書引き可能
+      return `<span class="word-tap" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok.w)}')">${escHtml(tok.w)}</span>`;
     }).join('');
   }
 
@@ -908,7 +918,8 @@ function showVocabPopup(event, word) {
   event.stopPropagation();
   const popup = document.getElementById('vocab-popup');
   if (activeVocabWord) {
-    document.querySelector(`.vocab-word.active`)?.classList.remove('active');
+    document.querySelector('.vocab-word.active')?.classList.remove('active');
+    document.querySelector('.word-tap.active')?.classList.remove('active');
   }
   event.currentTarget.classList.add('active');
   activeVocabWord = word;
@@ -948,12 +959,13 @@ function showVocabPopup(event, word) {
 function closeVocabPopup() {
   document.getElementById('vocab-popup').classList.remove('show');
   document.querySelector('.vocab-word.active')?.classList.remove('active');
+  document.querySelector('.word-tap.active')?.classList.remove('active');
   activeVocabWord = null;
 }
 
 // Close popup on outside click
 document.addEventListener('click', e => {
-  if (!e.target.closest('#vocab-popup') && !e.target.closest('.vocab-word')) {
+  if (!e.target.closest('#vocab-popup') && !e.target.closest('.vocab-word') && !e.target.closest('.word-tap')) {
     closeVocabPopup();
   }
 });
