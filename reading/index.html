@@ -5,11 +5,11 @@
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PS9R9844');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>ReadUp Series — 1日1分・時事英語を自分のレベルで読む | native-real</title>
-  <meta name="description" content="VOAの時事英語を4レベル（VL2000〜7000）で提供。1日1分・1ページ完結・辞書不要。毎週月水金更新。">
+  <title>ReadUp Series — レベル別英文を1日1分読む | native-real</title>
+  <meta name="description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階（VL2000〜7000）・辞書不要・毎週更新。">
   <link rel="canonical" href="https://native-real.com/reading/">
-  <meta property="og:title" content="ReadUp Series — 1日1分・時事英語を自分のレベルで">
-  <meta property="og:description" content="VOAの時事英語を4レベルで提供。1日1分・1ページ完結・辞書不要。">
+  <meta property="og:title" content="ReadUp Series — レベル別英文を1日1分読む">
+  <meta property="og:description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階・辞書不要。">
   <meta property="og:url" content="https://native-real.com/reading/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://native-real.com/assets/ogp.png">
@@ -436,7 +436,7 @@
   <div id="hub-view">
     <div style="margin-bottom:24px;">
       <h1 style="font-size:26px;font-weight:800;letter-spacing:-0.6px;margin-bottom:6px;">ReadUp Series</h1>
-      <p style="font-size:15px;color:var(--text-2);line-height:1.5;">VOA時事英語を、自分のレベルで、1日1分読む。</p>
+      <p style="font-size:15px;color:var(--text-2);line-height:1.5;">自分のレベルの英文を、1日1分読む。</p>
     </div>
 
     <!-- Level Tabs -->
@@ -638,12 +638,9 @@ function renderArticleList() {
   container.innerHTML = stories.map((s, i) => {
     const isRead  = readIds.includes(s.id);
     const wc      = wordCount(s.body);
-    const dateLabel = formatDate(s.pub_date);
     return `
       <div class="article-card ${isRead ? 'read' : ''}" onclick="openReader('${s.id}')">
         <div class="article-card-meta">
-          <span>${dateLabel}</span>
-          <span class="dot"></span>
           <span>${VL_LABELS[s.vl]}</span>
           ${isRead ? '<span class="badge-read">読了</span>' : ''}
         </div>
@@ -657,11 +654,6 @@ function renderArticleList() {
         </div>
       </div>`;
   }).join('');
-}
-
-function formatDate(dateStr) {
-  const d = new Date(dateStr + 'T00:00:00');
-  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
 }
 
 function renderProgress() {
