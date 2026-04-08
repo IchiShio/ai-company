@@ -137,3 +137,6 @@ Traceback (most recent call last):
   File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 400: Bad Request
+Reposted: 2031662160628068530 (likes=25)
+  英語を話す前に「完璧な文」を頭で組み立てようとする人が多い。でもそれは泳ぎ方を完璧に暗記してからプールに入ろうとするのと同じ。水に入らないと泳げるようにはならな
+  Result: {'data': {'retweeted': True, 'rest_id': '2041850298579533858'}}
