@@ -1111,14 +1111,15 @@ function initAudio(story) {
   stopAudio();
   const src = `series/audio/${story.id}.mp3`;
   const row = document.getElementById('audio-row');
-  // Check if file exists by trying to load
-  const a = new Audio(src);
-  a.preload = 'metadata';
-  a.addEventListener('canplaythrough', () => { row.style.display = 'block'; }, { once: true });
+  const a = new Audio();
+  a.preload = 'auto';
+  a.addEventListener('loadeddata', () => { row.style.display = 'block'; }, { once: true });
+  a.addEventListener('canplay', () => { row.style.display = 'block'; }, { once: true });
   a.addEventListener('error', () => { row.style.display = 'none'; });
   a.addEventListener('ended', () => { resetAudioUI(); });
+  a.src = src;
   storyAudio = a;
-  row.style.display = 'none'; // hidden until canplaythrough
+  row.style.display = 'none';
   resetAudioUI();
 }
 function toggleAudio() {
