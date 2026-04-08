@@ -209,6 +209,13 @@
     .week-day-dot.done { background: var(--streak-bg); border-color: var(--streak); }
     .week-day-dot.today { border-color: var(--gold); background: var(--gold-bg); }
 
+    /* ── Reader Hint ── */
+    .reader-hint {
+      font-size: 12px; color: var(--text-3); font-weight: 500;
+      margin-bottom: 12px; line-height: 1.5;
+    }
+    .reader-hint u { text-decoration: underline; text-decoration-color: rgba(26,26,26,0.3); text-underline-offset: 3px; }
+
     /* ── Reader ── */
     #reader-view { display: none; }
     .reader-header {
@@ -758,6 +765,7 @@
       </button>
     </div>
 
+    <p class="reader-hint"><u>下線付きの単語</u>は選択レベルの語彙リスト外の語です。タップすると英英定義を確認できます。それ以外の単語もタップ可能です。</p>
     <div class="article-body" id="article-body"></div>
 
     <button class="btn-finish" id="btn-finish" onclick="finishReading()">読み終えた ✓</button>
