@@ -444,6 +444,130 @@
     /* ── Loading ── */
     .loading { text-align: center; padding: 60px 20px; color: var(--text-3); font-size: 15px; }
 
+    /* ── LP Hero ── */
+    .lp-hero {
+      text-align: center; padding: 56px 20px 48px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+    .lp-hero-badge {
+      display: inline-block;
+      background: var(--gold-bg); color: var(--gold);
+      border: 1px solid rgba(245,166,35,0.3);
+      border-radius: var(--radius-pill);
+      padding: 5px 14px; font-size: 12px; font-weight: 700;
+      letter-spacing: 0.3px; margin-bottom: 18px;
+    }
+    .lp-hero h1 {
+      font-size: 32px; font-weight: 800; letter-spacing: -0.8px;
+      line-height: 1.2; margin-bottom: 14px;
+    }
+    .lp-hero-sub {
+      font-size: 16px; color: var(--text-2); line-height: 1.6;
+      max-width: 520px; margin: 0 auto 28px;
+    }
+    .lp-hero-cta {
+      background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
+      color: #000; font-weight: 800; font-size: 17px;
+      padding: 16px 36px; border-radius: var(--radius-pill);
+      border: none; cursor: pointer; min-height: 56px;
+      box-shadow: 0 2px 8px rgba(245,166,35,0.35);
+      transition: opacity var(--t);
+    }
+    .lp-hero-cta:hover { opacity: 0.9; }
+    .lp-hero-fine {
+      font-size: 12px; color: var(--text-3); margin-top: 12px;
+      font-weight: 500;
+    }
+
+    /* ── Feature Strip ── */
+    .feature-strip {
+      display: flex; border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
+      margin-bottom: 40px;
+    }
+    .feature-item {
+      flex: 1; text-align: center; padding: 20px 12px;
+      border-right: 1px solid var(--border);
+    }
+    .feature-item:last-child { border-right: none; }
+    .feature-icon { font-size: 24px; margin-bottom: 8px; }
+    .feature-label { font-size: 13px; font-weight: 700; color: var(--text-1); margin-bottom: 2px; }
+    .feature-desc { font-size: 11px; color: var(--text-3); font-weight: 500; }
+
+    /* ── How It Works ── */
+    .how-section { margin-bottom: 48px; }
+    .how-title {
+      font-size: 22px; font-weight: 800; letter-spacing: -0.6px;
+      text-align: center; margin-bottom: 28px;
+    }
+    .how-steps { display: flex; gap: 16px; }
+    .how-step {
+      flex: 1; background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px 16px;
+      text-align: center;
+    }
+    .how-step-num {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--gold-bg); color: var(--gold);
+      font-size: 14px; font-weight: 800; margin-bottom: 12px;
+    }
+    .how-step-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; letter-spacing: -0.3px; }
+    .how-step-desc { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+
+    /* ── Level Cards ── */
+    .levels-section { margin-bottom: 48px; }
+    .levels-title {
+      font-size: 22px; font-weight: 800; letter-spacing: -0.6px;
+      text-align: center; margin-bottom: 28px;
+    }
+    .level-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .level-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 16px;
+    }
+    .level-card-vl {
+      font-size: 14px; font-weight: 800; color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .level-card-cefr { font-size: 12px; color: var(--text-3); font-weight: 600; margin-bottom: 8px; }
+    .level-card-desc { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+
+    /* ── Philosophy ── */
+    .philosophy-section {
+      background: var(--bg-subtle); border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 20px; margin: 0 -20px 40px;
+      text-align: center;
+    }
+    .philosophy-inner { max-width: 600px; margin: 0 auto; }
+    .philosophy-hook {
+      font-size: 20px; font-weight: 800; letter-spacing: -0.5px;
+      margin-bottom: 16px; line-height: 1.35;
+    }
+    .philosophy-body {
+      font-size: 15px; color: var(--text-2); line-height: 1.7;
+      text-align: left;
+    }
+    .philosophy-body p { margin-bottom: 14px; }
+    .philosophy-body strong { color: var(--text-1); font-weight: 700; }
+    .philosophy-tagline {
+      font-size: 16px; font-weight: 700; color: var(--gold);
+      margin-top: 20px; letter-spacing: -0.3px;
+    }
+
+    @media (max-width: 640px) {
+      .lp-hero h1 { font-size: 26px; }
+      .how-steps { flex-direction: column; }
+      .level-cards { grid-template-columns: 1fr; }
+      .feature-strip { flex-direction: column; }
+      .feature-item { border-right: none; border-bottom: 1px solid var(--border); }
+      .feature-item:last-child { border-bottom: none; }
+    }
+
     @media (min-width: 641px) and (max-width: 1023px) {
       .page { padding: 32px 32px 80px; }
       .article-card { padding: 24px 28px; }
@@ -476,11 +600,104 @@
 
 <main class="page">
 
+  <!-- ── LP Section ── -->
+  <div id="lp-section">
+    <div class="lp-hero">
+      <div class="lp-hero-badge">無料 · 登録不要 · 音声付き</div>
+      <h1>辞書なしで読める英語へ。<br>1日1分、自分のレベルで。</h1>
+      <p class="lp-hero-sub">語彙制限されたレベル別英文を、1ページ・1分で読む。<br>わからない単語はタップで即確認。毎週新しい記事を追加。</p>
+      <button class="lp-hero-cta" onclick="document.getElementById('hub-content').scrollIntoView({behavior:'smooth'})">読み始める →</button>
+      <p class="lp-hero-fine">84記事 · 4レベル · 21トピック · 全記事に音声付き</p>
+    </div>
+
+    <div class="feature-strip">
+      <div class="feature-item">
+        <div class="feature-icon">📖</div>
+        <div class="feature-label">1分で読める</div>
+        <div class="feature-desc">80〜150語の短い英文</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🎯</div>
+        <div class="feature-label">4段階レベル</div>
+        <div class="feature-desc">VL2000〜7000</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🔊</div>
+        <div class="feature-label">音声再生</div>
+        <div class="feature-desc">米英豪6種の声</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📚</div>
+        <div class="feature-label">タップ辞書</div>
+        <div class="feature-desc">全単語タップで英英定義</div>
+      </div>
+    </div>
+
+    <div class="how-section">
+      <h2 class="how-title">使い方はシンプル</h2>
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="how-step-num">1</div>
+          <div class="how-step-title">レベルを選ぶ</div>
+          <div class="how-step-desc">VL2000（基礎）からVL7000（上級）まで。知っている語彙数に合わせて選べます。</div>
+        </div>
+        <div class="how-step">
+          <div class="how-step-num">2</div>
+          <div class="how-step-title">1分で読む</div>
+          <div class="how-step-desc">VL外の単語には下線表示。タップで意味を確認。音声を聴きながら読むことも可能。</div>
+        </div>
+        <div class="how-step">
+          <div class="how-step-num">3</div>
+          <div class="how-step-title">理解度チェック</div>
+          <div class="how-step-desc">読了後に2問の理解度クイズ。和訳も確認できます。読んだ語数とストリークを記録。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="levels-section">
+      <h2 class="levels-title">4つのレベル</h2>
+      <div class="level-cards">
+        <div class="level-card">
+          <div class="level-card-vl">VL2000</div>
+          <div class="level-card-cefr">CEFR B1 · 80〜100語</div>
+          <div class="level-card-desc">基本2000語で構成。英語学習を始めたばかりの方に。短い文、シンプルな構造。</div>
+        </div>
+        <div class="level-card">
+          <div class="level-card-vl">VL3000</div>
+          <div class="level-card-cefr">CEFR B1-B2 · 100〜120語</div>
+          <div class="level-card-desc">やや複雑な文もOK。関係代名詞・受動態も登場。日常英語に自信がある方に。</div>
+        </div>
+        <div class="level-card">
+          <div class="level-card-vl">VL5000</div>
+          <div class="level-card-cefr">CEFR B2 · 120〜140語</div>
+          <div class="level-card-desc">新聞英語に近い表現。ビジネス・学術語彙も含む。TOEIC 600点以上を目指す方に。</div>
+        </div>
+        <div class="level-card">
+          <div class="level-card-vl">VL7000</div>
+          <div class="level-card-cefr">CEFR C1 · 130〜150語</div>
+          <div class="level-card-desc">ほぼネイティブ向け。高度な語彙と自然な表現。英字新聞を読みたい方に。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="philosophy-section">
+      <div class="philosophy-inner">
+        <p class="philosophy-hook">英語の多読、続かなかった経験はありませんか？</p>
+        <div class="philosophy-body">
+          <p>Graded Readerは効果的な学習法です。でも、書籍を買うコスト、自分のレベルに合った本を探す手間、わからない単語を辞書で調べる面倒さ。続けるには、意志の力だけでは足りません。</p>
+          <p>ReadUp Seriesは、<strong>「物足りないくらいで終わる」</strong>を設計原則にしています。1記事1分。1ページ完結。わからない単語はタップするだけ。音声も、和訳も、理解度チェックも、全部1つの画面に。</p>
+          <p><strong>毎日1分、読むだけでいい。</strong>それだけで語彙が増え、英文を読む力が確実に育ちます。</p>
+        </div>
+        <p class="philosophy-tagline">「辞書なしで読める」を、毎日の習慣に。</p>
+      </div>
+    </div>
+  </div>
+
   <!-- ── Hub View ── -->
   <div id="hub-view">
-    <div style="margin-bottom:24px;">
-      <h1 style="font-size:26px;font-weight:800;letter-spacing:-0.6px;margin-bottom:6px;">ReadUp Series</h1>
-      <p style="font-size:15px;color:var(--text-2);line-height:1.5;">自分のレベルの英文を、1日1分読む。</p>
+    <div id="hub-content" style="margin-bottom:24px;">
+      <h2 style="font-size:22px;font-weight:800;letter-spacing:-0.6px;margin-bottom:6px;">記事を読む</h2>
+      <p style="font-size:14px;color:var(--text-2);line-height:1.5;">レベルを選んで、気になる記事をタップ。</p>
     </div>
 
     <!-- Level Tabs -->
@@ -745,6 +962,7 @@ function openReader(storyId) {
   currentStory = story;
   questionState = {};
 
+  document.getElementById('lp-section').style.display   = 'none';
   document.getElementById('hub-view').style.display    = 'none';
   document.getElementById('reader-view').style.display = 'block';
   document.getElementById('post-view').style.display   = 'none';
@@ -929,6 +1147,7 @@ function resetAudioUI() {
 
 function backToHub() {
   stopAudio();
+  document.getElementById('lp-section').style.display   = 'block';
   document.getElementById('hub-view').style.display    = 'block';
   document.getElementById('reader-view').style.display = 'none';
   currentStory = null;
