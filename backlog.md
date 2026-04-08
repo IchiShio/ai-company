@@ -100,6 +100,7 @@
 - 2026-04-06: 20問追加（g1388-g1407）、計1365問（関係副詞when・付帯状況with・混合仮定法・完了不定詞seem to have pp・比例比較the比較級・形式目的語it・regret動名詞vs不定詞・whatever複合関係詞・no matter how・fond of・間接疑問where・過去進行受動態・Were it not for倒置・強調do・There is付加疑問・enough to・as though仮定法・should have pp・neither nor・whichever複合関係形容詞）
 - 2026-04-06: 20問追加（g1408-g1427）、計1385問（have_been_to経験・not_until倒置・without動名詞・be_used_to・whose・insist仮定法現在・in_spite_of・much比較級強調・by_the_time過去完了・keep_from・exhausted分詞形容詞・a_number_of・動名詞主語・as_well_as・whom目的格・were_to仮定法・現在完了受動態・let_alone・受動分詞構文・for_vs_since）
 - 2026-04-07: 20問追加（g1428-g1447）、計1405問（現在分詞形容詞的用法・過去完了by the time・強調構文it was that・比較級more than・時制の一致間接話法・although逆接・too-to・分詞構文V-ing・仮定法過去if had・get受動態・between/among・最上級the・how間接疑問・must義務・because of名詞・remember動名詞vs不定詞・比例比較the more・比較級強調even・not until強調構文・未来進行形will be V-ing）
+- 2026-04-08: 20問追加（g1448-g1467）、計1425問（受動態不定詞need to be pp・among/between・what節主語・過去完了by the time・so-that結果・否定副詞倒置Never・前置詞+動名詞succeed in・wish仮定法過去完了・should義務・as if仮定法過去・look forward to動名詞・have difficulty動名詞・on曜日・It took時間・Only after倒置・despite前置詞・recommend仮定法現在・used to過去習慣・Provided that条件・since現在完了継続）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
