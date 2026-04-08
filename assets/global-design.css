@@ -600,6 +600,61 @@ html {
 /* ═══════════════════════════════════════════
    29. PRINT / ACCESSIBILITY
    ═══════════════════════════════════════════ */
+/* ═══════════════════════════════════════════
+   30. LANGUAGE TOGGLE
+   ═══════════════════════════════════════════ */
+.lang-toggle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2) !important;
+  text-decoration: none;
+  padding: 5px 12px;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm);
+  transition: all var(--t);
+  white-space: nowrap;
+}
+.lang-toggle:hover {
+  background: rgba(26,26,26,0.04) !important;
+  color: var(--text-1) !important;
+}
+
+/* ═══════════════════════════════════════════
+   31. JAPANESE HINTS (English pages)
+   ═══════════════════════════════════════════ */
+.ja-hint {
+  display: none;
+  font-size: 13px;
+  color: var(--text-3) !important;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+body.hints-on .ja-hint {
+  display: block;
+}
+.hint-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: all var(--t);
+}
+.hint-toggle:hover {
+  background: rgba(26,26,26,0.04);
+  color: var(--text-1);
+}
+.hint-toggle .hint-state {
+  color: var(--gold);
+  font-weight: 700;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
