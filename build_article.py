@@ -29,6 +29,7 @@ API不要の記事ビルダー
 import argparse
 import json
 import os
+import subprocess
 import sys
 import xml.etree.ElementTree as ET
 from datetime import date
@@ -191,7 +192,24 @@ def update_sitemap(slug: str):
     return True
 
 
-def build_article(json_path: Path, dry_run: bool = False) -> str:
+def run_factcheck(html_path: Path) -> bool:
+    """factcheck.py をゲートモードで実行。問題があれば False を返す。"""
+    fc = BASE_DIR / "factcheck.py"
+    if not fc.exists():
+        return True
+    result = subprocess.run(
+        [sys.executable, str(fc), "--gate", str(html_path)],
+        cwd=BASE_DIR, capture_output=True, text=True
+    )
+    if result.stdout:
+        print(result.stdout)
+    if result.returncode != 0:
+        print(f"  ❌ ファクトチェック失敗 (exit {result.returncode})")
+        return False
+    return True
+
+
+def build_article(json_path: Path, dry_run: bool = False, skip_fc: bool = False) -> str:
     meta = json.loads(json_path.read_text(encoding="utf-8"))
     slug = meta["slug"]
 
@@ -210,7 +228,17 @@ def build_article(json_path: Path, dry_run: bool = False) -> str:
 
     out_dir = ARTICLES_DIR / slug
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "index.html").write_text(html, encoding="utf-8")
+    html_path = out_dir / "index.html"
+    html_path.write_text(html, encoding="utf-8")
+
+    # ファクトチェックゲート（必須）
+    if not skip_fc:
+        if not run_factcheck(html_path):
+            # ファクトチェック失敗 → ファイルを削除してビルド中断
+            html_path.unlink()
+            if not any(out_dir.iterdir()):
+                out_dir.rmdir()
+            return ""
 
     added = update_sitemap(slug)
     sm = " + sitemap更新" if added else ""

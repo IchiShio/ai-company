@@ -62,6 +62,15 @@ def run(cmd: list[str], label: str) -> bool:
     return ok
 
 
+def step_factcheck():
+    header("Step 0: ファクトチェック（必須ゲート）")
+    ok = run(["python3", "factcheck.py", "--changed"], "新規・変更記事のファクトチェック")
+    if not ok:
+        print(f"  {RED}{BOLD}⛔ ファクトチェック不合格 — 問題を修正してから再実行してください{RESET}")
+        print(f"  修正後: python3 factcheck.py --changed で再検証\n")
+    return ok
+
+
 def step_seo():
     header("Step 1: SEOメンテナンス")
     run(["python3", "check_stats.py"], "統計チェック (check_stats.py)")
@@ -168,16 +177,26 @@ def summary():
 
 def main():
     parser = argparse.ArgumentParser(description="毎日のSEOパイプライン")
-    parser.add_argument("--step", choices=["seo", "links", "build", "topics", "api"],
+    parser.add_argument("--step", choices=["factcheck", "seo", "links", "build", "topics", "api"],
                         help="特定のステップのみ実行")
+    parser.add_argument("--skip-factcheck", action="store_true",
+                        help="ファクトチェックをスキップ（非推奨）")
     args = parser.parse_args()
 
     header(f"Daily SEO Pipeline — {TODAY}")
 
     if args.step:
-        {"seo": step_seo, "links": step_links, "build": step_build,
-         "topics": step_topics, "api": step_api}[args.step]()
+        {"factcheck": step_factcheck, "seo": step_seo, "links": step_links,
+         "build": step_build, "topics": step_topics, "api": step_api}[args.step]()
     else:
+        # ファクトチェックは最初に実行（必須ゲート）
+        if not args.skip_factcheck:
+            fc_ok = step_factcheck()
+            if not fc_ok:
+                print(f"  {RED}パイプラインを中断しました。ファクトチェックの問題を修正してください。{RESET}")
+                summary()
+                sys.exit(1)
+
         step_seo()
         step_links()
         step_build()
