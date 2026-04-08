@@ -114,3 +114,26 @@ Reposted: 2028055145351618845 (likes=87)
 Reposted: 2026519158016332033 (likes=40)
   "I'm so into it lately."は「最近これにハマってる」という意味で、会話で使いやすい一文。「ハマってる」を英語で言おうとして固まる人は多い。
   Result: {'data': {'retweeted': True, 'rest_id': '2041487912295190650'}}
+Reposted: 2029127209001337154 (likes=96)
+  毎日英語を勉強しないと伸びないと思いがち。でも筋トレと同じで休んだ日に脳は記憶を整理して定着させている。サボった日は「何もしてない日」じゃなく「脳が復習してる日
+  Result: {'data': {'retweeted': True, 'rest_id': '2041686720765423951'}}
+Traceback (most recent call last):
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 121, in <module>
+    main()
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 102, in main
+    result = oauth_request(env, 'POST',
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 63, in oauth_request
+    with urllib.request.urlopen(req) as resp:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
