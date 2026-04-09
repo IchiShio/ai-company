@@ -1659,19 +1659,94 @@ function render() {
   var accent = ACCENT_INFO[(qNum - 1) % ACCENT_INFO.length];
   document.getElementById('accentBadge').textContent = accent.flag + ' ' + accent.label;
 
-  // Highlight target word in sentence
+  // Highlight target word in sentence (supports inflected forms)
   var sentence = current.text;
   var word = current.word;
-  // Try to find the word in the sentence (case-insensitive)
-  var regex = new RegExp('(' + word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
-  var highlighted = sentence.replace(regex, '<span class="target-word">$1</span>');
-  // If exact match not found (multi-word), try individual words
-  if (highlighted === sentence && word.includes(' ')) {
+  function escRx(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  // Irregular verb forms: base → [past, past participle, other forms]
+  var IRREG = {
+    strike:['struck','stricken'], draw:['drew','drawn'], spring:['sprung','sprang'],
+    throw:['threw','thrown'], understand:['understood'], hold:['held'],
+    overcome:['overcame'], steal:['stole','stolen'], speak:['spoke','spoken'],
+    rob:['robbed'], say:['said'], deny:['denied'], defy:['defied'],
+    run:['ran'], come:['came'], go:['went','gone'], take:['took','taken'],
+    give:['gave','given'], make:['made'], write:['wrote','written'],
+    break:['broke','broken'], choose:['chose','chosen'], drive:['drove','driven'],
+    eat:['ate','eaten'], fall:['fell','fallen'], fly:['flew','flown'],
+    forget:['forgot','forgotten'], freeze:['froze','frozen'], grow:['grew','grown'],
+    hide:['hid','hidden'], know:['knew','known'], lead:['led'],
+    leave:['left'], lie:['lay','lain'], lose:['lost'], ride:['rode','ridden'],
+    ring:['rang','rung'], rise:['rose','risen'], see:['saw','seen'],
+    shake:['shook','shaken'], show:['showed','shown'], sing:['sang','sung'],
+    sit:['sat'], sleep:['slept'], stand:['stood'], swim:['swam','swum'],
+    teach:['taught'], tear:['tore','torn'], think:['thought'],
+    wake:['woke','woken'], wear:['wore','worn'], win:['won'],
+    begin:['began','begun'], blow:['blew','blown'], catch:['caught'],
+    dig:['dug'], drink:['drank','drunk'], feel:['felt'], fight:['fought'],
+    find:['found'], get:['got','gotten'], hang:['hung'], hear:['heard'],
+    hit:['hit'], hurt:['hurt'], keep:['kept'], lay:['laid'],
+    lend:['lent'], let:['let'], light:['lit'], mean:['meant'],
+    meet:['met'], pay:['paid'], put:['put'], read:['read'],
+    sell:['sold'], send:['sent'], set:['set'], shoot:['shot'],
+    shut:['shut'], spend:['spent'], split:['split'], spread:['spread'],
+    steal:['stole','stolen'], stick:['stuck'], sting:['stung'],
+    swear:['swore','sworn'], sweep:['swept'], swing:['swung'],
+    tell:['told'], undergo:['underwent','undergone'],
+    undertake:['undertook','undertaken'], upset:['upset'],
+    withdraw:['withdrew','withdrawn'], withstand:['withstood'],
+    nurse:['nursed','nursing'], note:['noted','noting']
+  };
+  function buildStemPatterns(w) {
+    var lw = w.toLowerCase();
+    var e = escRx(w);
+    var patterns = [e]; // exact match first
+    // Irregular verb forms
+    if (IRREG[lw]) {
+      IRREG[lw].forEach(function(form) { patterns.push(escRx(form)); });
+    }
+    // Regular inflections: -s, -es, -ed, -ing, -ied, consonant doubling
+    if (w.endsWith('e')) {
+      patterns.push(escRx(w.slice(0, -1)) + '(?:es?|ed|ing)');
+    } else if (w.endsWith('y')) {
+      patterns.push(escRx(w.slice(0, -1)) + '(?:ies|ied|ying|ys)');
+    } else {
+      patterns.push(e + '(?:s|es|ed|ing)');
+      var last = w.slice(-1);
+      if (/[bcdfgklmnprstvz]/.test(last)) {
+        patterns.push(e + escRx(last) + '(?:ed|ing)');
+      }
+    }
+    patterns.push(e + '(?:s|es)');
+    return patterns;
+  }
+  function tryHighlight(text, w) {
+    var pats = buildStemPatterns(w);
+    for (var i = 0; i < pats.length; i++) {
+      // word boundary match to avoid partial matches inside other words
+      var r = new RegExp('\\b(' + pats[i] + ')\\b', 'i');
+      var result = text.replace(r, '<span class="target-word">$1</span>');
+      if (result !== text) return result;
+    }
+    return null;
+  }
+  var highlighted = tryHighlight(sentence, word);
+  // If exact+stem match not found, try individual words (for "rob / steal" etc.)
+  if (!highlighted && (word.includes(' ') || word.includes('/'))) {
+    highlighted = sentence;
     var words = word.split(/\s*\/\s*|\s+/);
+    var anyMatched = false;
     words.forEach(function(w) {
-      var r = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'i');
-      highlighted = highlighted.replace(r, '<span class="target-word">$1</span>');
+      var r = tryHighlight(highlighted, w.trim());
+      if (r) { highlighted = r; anyMatched = true; }
     });
+    if (!anyMatched) highlighted = null;
+  }
+  // Final fallback: find the longest word in text that shares the same stem
+  if (!highlighted) {
+    var stem = word.length > 4 ? word.slice(0, Math.max(4, word.length - 2)) : word;
+    var r = new RegExp('\\b(' + escRx(stem) + '\\w*)\\b', 'i');
+    highlighted = sentence.replace(r, '<span class="target-word">$1</span>');
+    if (highlighted === sentence) highlighted = sentence; // give up gracefully
   }
   document.getElementById('sentenceEl').innerHTML = highlighted;
   document.getElementById('sentenceJa').textContent = '';
