@@ -191,13 +191,15 @@
     .site-hamburger.active span:nth-child(2) { opacity: 0; }
     .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
     /* Mobile nav */
-    .site-mobile-nav { display: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s; }
-    .site-mobile-nav.active { display: flex; opacity: 1; }
+    .site-mobile-nav { display: flex; visibility: hidden; pointer-events: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s, visibility 0.3s; }
+    .site-mobile-nav.active { visibility: visible; pointer-events: auto; opacity: 1; }
     .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
     .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
     .site-mobile-nav a.active { color: #F5A623; }
     .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
     @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+    .mobile-nav-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #fff; cursor: pointer; width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .mobile-nav-close:hover { background: rgba(255,255,255,0.2); }
     /* ── END UNIFIED HEADER ── */
 
     :root {
@@ -584,6 +586,9 @@
 </header>
 
 <div class="site-mobile-nav" id="siteMobileNav">
+  <button class="mobile-nav-close" id="siteMobileNavClose" aria-label="メニューを閉じる">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
   <a href="/">ListenUp</a>
   <div class="mobile-nav-label">学ぶ</div>
   <a href="/reading/">ReadUp</a>
