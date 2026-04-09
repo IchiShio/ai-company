@@ -79,7 +79,7 @@
       border-bottom: 1px solid rgba(26,26,26,0.06);
       padding: 10px 0;
     }
-    .site-header-inner-wrap {
+    .site-header-inner {
       max-width: 1100px; margin: 0 auto; padding: 0 20px;
       display: flex; align-items: center; justify-content: space-between;
     }
@@ -165,7 +165,7 @@
     .article-card-stats { font-size: 13px; color: var(--text-3); font-weight: 500; }
     .btn-read {
       background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
-      color: #000; font-weight: 800; font-size: 14px;
+      color: #fff; font-weight: 800; font-size: 14px;
       padding: 8px 20px; border-radius: var(--radius-pill);
       border: none; cursor: pointer; min-height: 36px;
       box-shadow: 0 2px 8px rgba(245,166,35,0.35);
@@ -333,7 +333,7 @@
     .btn-finish {
       width: 100%;
       background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
-      color: #000; font-weight: 800; font-size: 17px;
+      color: #fff; font-weight: 800; font-size: 17px;
       padding: 16px 28px; border-radius: var(--radius-pill);
       border: none; cursor: pointer; min-height: 56px;
       box-shadow: 0 2px 8px rgba(245,166,35,0.35);
@@ -480,6 +480,11 @@
       width: 300px; height: 300px; bottom: -60px; left: -60px;
       background: radial-gradient(circle, rgba(245,166,35,0.07), transparent 70%);
       animation: orbFloat2 10s ease-in-out infinite;
+    }
+    .lp-hero-orb-3 {
+      width: 200px; height: 200px; top: 40%; right: 10%;
+      background: radial-gradient(circle, rgba(245,166,35,0.05), transparent 70%);
+      animation: orbFloat1 12s ease-in-out infinite reverse;
     }
     @keyframes orbFloat1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-18px)} }
     @keyframes orbFloat2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(14px)} }
@@ -650,7 +655,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <header class="site-header">
-  <div class="site-header-inner-wrap">
+  <div class="site-header-inner">
     <a href="/" class="site-header-logo">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;color:#F5A623"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
       native-real
@@ -670,6 +675,7 @@
     <div class="lp-hero">
       <div class="lp-hero-orb lp-hero-orb-1"></div>
       <div class="lp-hero-orb lp-hero-orb-2"></div>
+      <div class="lp-hero-orb lp-hero-orb-3"></div>
       <div class="lp-hero-inner">
         <div class="lp-hero-badge">
           <svg viewBox="0 0 20 20" fill="currentColor" style="width:13px;height:13px"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
