@@ -140,3 +140,43 @@ urllib.error.HTTPError: HTTP Error 400: Bad Request
 Reposted: 2031662160628068530 (likes=25)
   英語を話す前に「完璧な文」を頭で組み立てようとする人が多い。でもそれは泳ぎ方を完璧に暗記してからプールに入ろうとするのと同じ。水に入らないと泳げるようにはならな
   Result: {'data': {'retweeted': True, 'rest_id': '2041850298579533858'}}
+Traceback (most recent call last):
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 166, in <module>
+    main()
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 147, in main
+    result = oauth_request(env, 'POST',
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 65, in oauth_request
+    with urllib.request.urlopen(req) as resp:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 402: Payment Required
+Traceback (most recent call last):
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 166, in <module>
+    main()
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 119, in main
+    data = oauth_request(env, 'GET',
+  File "/Users/yusuke/projects/claude/ai-company/repost_ichi_eigo.py", line 65, in oauth_request
+    with urllib.request.urlopen(req) as resp:
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 402: Payment Required
