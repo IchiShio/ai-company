@@ -73351,7 +73351,7 @@ const STORIES = [
     "title": "Old Circle of Wood Found in Northern Country",
     "title_ja": "北の国で古い木の円が見つかる",
     "body": "Scientists in a northern country in Europe found pieces of wood placed in a circle. The pieces may be about five thousand years old. The scientists found them near a small town on an island. The wood is still in good condition because the ground had a lot of water in it for a long time. Ground with much water can keep wood from breaking down. The circle is similar to a famous stone circle in England. But this one was made of wood, not stone. Scientists believe people built it a very long time ago. They are still studying why it was built.",
-    "body_ja": "ヨーロッパの北の国の科学者たちが、円形に並べられた木の断片を発見しました。その木片はおよそ5千年前のものかもしれません。円の直径は約30メートルです。科学者たちはある島の小さな町の近くでそれを見つけました。地面が長い間とても湿っていたため、木はまだ良い状態です。湿った地面は木が崩れるのを防ぐことができます。この円はイングランドにある有名な石の円に似ています。しかしこの円は石ではなく木で作られていました。科学者たちは、はるか昔に人々がこれを建てたと考えています。なぜ建てられたのかはまだ研究中です。重要な行事や集まりに使われていた可能性があります。",
+    "body_ja": "ヨーロッパの北の国の科学者たちが、円形に並べられた木の断片を発見しました。その木片はおよそ5千年前のものかもしれません。科学者たちはある島の小さな町の近くでそれを見つけました。地面が長い間とても湿っていたため、木はまだ良い状態です。湿った地面は木が崩れるのを防ぐことができます。この円はイングランドにある有名な石の円に似ています。しかしこの円は石ではなく木で作られていました。科学者たちは、はるか昔に人々がこれを建てたと考えています。なぜ建てられたのかはまだ研究中です。",
     "vocab_notes": [
       {
         "word": "condition",
