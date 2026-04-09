@@ -1267,7 +1267,10 @@ function showVocabPopup(event, word) {
   }
 
   // Fallback: Free Dictionary API
-  const base = word.toLowerCase().replace(/[^a-z]/g, '');
+  let base = word.toLowerCase().replace(/[^a-z]/g, '');
+  // 簡易語幹変換: butterflies→butterfly, meets→meet
+  if (base.endsWith('ies') && base.length > 4) base = base.slice(0, -3) + 'y';
+  else if (base.endsWith('s') && !base.endsWith('ss') && base.length > 4) base = base.slice(0, -1);
   fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${base}`)
     .then(r => r.json())
     .then(data => {
