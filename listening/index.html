@@ -2917,29 +2917,9 @@ function showReturningStats() {
   document.getElementById('rsAccuracy').textContent      = acc + '%';
   document.getElementById('returningStats').style.display = 'flex';
 
-  // マイルストーン称号
-  const MILESTONES = [
-    [1000, 'Listening Master'],
-    [500, 'Listening Expert'],
-    [300, 'Listening Adept'],
-    [100, 'Listening Challenger'],
-    [50, 'Listening Starter']
-  ];
-  const ms = MILESTONES.find(([n]) => p.totalAnswered >= n);
-  if (ms) {
-    document.getElementById('milestoneWrap').style.display = 'flex';
-    document.getElementById('milestoneText').textContent = ms[1] + ' — ' + ms[0] + '問達成';
-  }
+  // マイルストーン称号（LP要素削除済み、スキップ）
 
-  // seenSet 進捗バー
-  const seen = loadSeen();
-  const totalQ = new Set(DATA.map(q => getSrsId(q)).filter(Boolean)).size;
-  if (seen.size > 0 && totalQ > 0) {
-    const pct = Math.min(100, Math.round(seen.size / totalQ * 100));
-    document.getElementById('seenProgressWrap').style.display = 'flex';
-    document.getElementById('seenFill').style.width = pct + '%';
-    document.getElementById('seenLabel').textContent = seen.size + ' / ' + totalQ + ' 問クリア（' + pct + '%）';
-  }
+  // seenSet 進捗（LP要素削除済み、スキップ）
 
   // モードセレクター表示 + 日替わりラベル更新
   document.getElementById('quizModeSelector').style.display = 'flex';
@@ -2952,49 +2932,7 @@ function showReturningStats() {
   if (!hasRevenge) { revBtn.style.opacity = '0.4'; revBtn.style.pointerEvents = 'none'; }
   else { revBtn.style.opacity = '1'; revBtn.style.pointerEvents = 'auto'; }
 
-  // ストリーク状態バナー
-  if (p.dailyStreak >= 1) {
-    const wrap = document.getElementById('streakStatusWrap');
-    const text = document.getElementById('streakStatusText');
-    wrap.style.display = 'flex';
-    if (practicedToday) {
-      wrap.className = 'streak-status-wrap done';
-      text.textContent = `✅ 今日の練習完了！🔥 ${p.dailyStreak}日連続中`;
-    } else {
-      wrap.className = 'streak-status-wrap not-done';
-      text.textContent = `🔥 ${p.dailyStreak}日連続中 — 今日も練習して記録を守ろう！`;
-    }
-  }
-
-  // チャレンジ完了バッジ
-  const challengeDone = localStorage.getItem('listenup_challenge_' + today) === '1';
-  const cWrap = document.getElementById('challengeStatusWrap');
-  if (cWrap) {
-    cWrap.style.display = 'flex';
-    if (challengeDone) {
-      cWrap.className = 'challenge-status-wrap done';
-      cWrap.textContent = '⚡ 今日のチャレンジ完了！';
-    } else {
-      cWrap.className = 'challenge-status-wrap todo';
-      cWrap.textContent = '⚡ 今日の5問チャレンジに挑戦しよう';
-    }
-  }
-
-  // 週間カレンダー
-  const weekData = getWeekData(p.visitDates || []);
-  const hasHistory = weekData.some(d => d.done) || p.dailyStreak >= 1;
-  if (hasHistory) {
-    document.getElementById('weeklyCalWrap').style.display = 'flex';
-    weekData.forEach((d, i) => {
-      const dot = document.getElementById('wkd' + i);
-      if (!dot) return;
-      dot.className = 'wk-dot';
-      if      (d.isFuture)                        dot.className += ' future';
-      else if (d.isToday && practicedToday)        dot.className += ' today-done';
-      else if (d.isToday)                          dot.className += ' today-pending';
-      else if (d.done)                             dot.className += ' done';
-    });
-  }
+  // ストリーク・チャレンジ・週間カレンダー（LP要素削除済み、スキップ）
 }
 
 // ─────────────────────────────────────────
