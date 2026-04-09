@@ -1273,7 +1273,8 @@ function showVocabPopup(event, word) {
     .then(data => {
       if (!Array.isArray(data) || !data[0]) throw new Error();
       const meanings = data[0].meanings || [];
-      const m = meanings[0];
+      // 動詞を優先（meets → "スポーツ競技" 等の名詞誤表示を防ぐ）
+      const m = meanings.find(x => x.partOfSpeech === 'verb') || meanings[0];
       if (!m) throw new Error();
       const def = m.definitions?.[0]?.definition || '';
       document.getElementById('popup-pos').textContent = m.partOfSpeech || '';
