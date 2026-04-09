@@ -609,6 +609,17 @@
     /* ── LP content wrapper (below hero) ── */
     .lp-content-wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
 
+    /* ── Hero feature strip (inside hero) ── */
+    .hero-feature-strip {
+      display: flex; justify-content: center; gap: 32px;
+      margin-top: 48px; flex-wrap: wrap;
+      animation: fadeUp 0.5s 0.4s ease both;
+    }
+    .hero-feature-item { text-align: center; }
+    .hero-feature-icon { font-size: 22px; margin-bottom: 4px; }
+    .hero-feature-value { font-size: 20px; font-weight: 800; color: var(--text-1); }
+    .hero-feature-label { font-size: 12px; font-weight: 700; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.05em; }
+
     @media (max-width: 640px) {
       .how-steps { flex-direction: column; }
       .level-cards { grid-template-columns: 1fr; }
@@ -670,33 +681,33 @@
           読み始める
           <svg viewBox="0 0 20 20" fill="currentColor" style="width:18px;height:18px"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
         </button>
-        <p class="lp-hero-fine">84記事 · 4レベル · 21トピック · 全記事に音声付き</p>
+
+        <div class="hero-feature-strip">
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">📖</div>
+            <div class="hero-feature-value">84</div>
+            <div class="hero-feature-label">記事</div>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🎯</div>
+            <div class="hero-feature-value">4</div>
+            <div class="hero-feature-label">レベル</div>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🔊</div>
+            <div class="hero-feature-value">全記事</div>
+            <div class="hero-feature-label">音声付き</div>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🆓</div>
+            <div class="hero-feature-value">無料</div>
+            <div class="hero-feature-label">登録不要</div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="lp-content-wrap">
-    <div class="feature-strip">
-      <div class="feature-item">
-        <div class="feature-icon">📖</div>
-        <div class="feature-label">1分で読める</div>
-        <div class="feature-desc">80〜150語の短い英文</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">🎯</div>
-        <div class="feature-label">4段階レベル</div>
-        <div class="feature-desc">VL2000〜7000</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">🔊</div>
-        <div class="feature-label">音声再生</div>
-        <div class="feature-desc">米英豪6種の声</div>
-      </div>
-      <div class="feature-item">
-        <div class="feature-icon">📚</div>
-        <div class="feature-label">タップ辞書</div>
-        <div class="feature-desc">全単語タップで英英定義</div>
-      </div>
-    </div>
 
     <div class="how-section">
       <h2 class="how-title">使い方はシンプル</h2>
