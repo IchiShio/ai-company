@@ -46,6 +46,7 @@
       --text-2:        rgba(26,26,26,0.62);
       --text-3:        rgba(26,26,26,0.42);
       --gold:          #F5A623;
+      --gold-dark:     #E09520;
       --gold-bg:       rgba(245,166,35,0.10);
       --gold-glow:     rgba(245,166,35,0.18);
       --success:       #16A34A;
@@ -99,7 +100,7 @@
     }
 
     /* ── Layout ── */
-    .page { max-width: 680px; margin: 0 auto; padding: 0 20px 80px; }
+    .page { max-width: 680px; margin: 0 auto; padding: 32px 20px 80px; }
 
     /* ── Level Tabs ── */
     .level-tabs {
@@ -487,7 +488,7 @@
     .lp-hero-inner { position: relative; z-index: 1; max-width: 660px; margin: 0 auto; }
     .lp-hero-badge {
       display: inline-flex; align-items: center; gap: 6px;
-      background: rgba(245,166,35,0.14); color: var(--gold-dark, #E09520);
+      background: rgba(245,166,35,0.14); color: var(--gold-dark);
       border: 1px solid rgba(245,166,35,0.28);
       border-radius: var(--radius-pill);
       padding: 6px 14px; font-size: 13px; font-weight: 700;
@@ -605,8 +606,10 @@
       margin-top: 20px; letter-spacing: -0.3px;
     }
 
+    /* ── LP content wrapper (below hero) ── */
+    .lp-content-wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+
     @media (max-width: 640px) {
-      .lp-hero h1 { font-size: 26px; }
       .how-steps { flex-direction: column; }
       .level-cards { grid-template-columns: 1fr; }
       .feature-strip { flex-direction: column; }
@@ -651,10 +654,8 @@
   </div>
 </header>
 
-<main class="page">
-
-  <!-- ── LP Section ── -->
-  <div id="lp-section">
+<!-- ── LP Section (full-width, outside .page container) ── -->
+<div id="lp-section" class="page-lp">
     <div class="lp-hero">
       <div class="lp-hero-orb lp-hero-orb-1"></div>
       <div class="lp-hero-orb lp-hero-orb-2"></div>
@@ -673,6 +674,7 @@
       </div>
     </div>
 
+    <div class="lp-content-wrap">
     <div class="feature-strip">
       <div class="feature-item">
         <div class="feature-icon">📖</div>
@@ -754,8 +756,10 @@
         <p class="philosophy-tagline">「辞書なしで読める」を、毎日の習慣に。</p>
       </div>
     </div>
-  </div>
+    </div><!-- /lp-content-wrap -->
+  </div><!-- /lp-section -->
 
+<main class="page">
   <!-- ── Hub View ── -->
   <div id="hub-view">
     <div id="hub-content" style="margin-bottom:24px;">
