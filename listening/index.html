@@ -2296,6 +2296,14 @@
       font-size: 12px; color: var(--text-3); text-align: center; padding: 8px 0;
     }
 
+    /* ── SEO SECTION ── */
+    .seo-section { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+    .seo-section h2 { font-size: 22px; font-weight: 800; color: var(--text-1); margin-bottom: 20px; letter-spacing: -0.4px; }
+    .seo-section p { font-size: 15px; line-height: 1.9; color: var(--text-2); margin-bottom: 16px; }
+    .seo-box { background: var(--surface); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 16px; }
+    .seo-box strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-1); margin-bottom: 8px; }
+    .seo-box p { margin: 0; }
+
   </style>
 <script src="/shared/xp.js" defer></script>
 <link rel="stylesheet" href="/assets/global-design.css">
@@ -2479,59 +2487,7 @@
         <div class="rs-divider"></div>
         <div class="rs-item"><span id="rsAccuracy">—</span><small>正解率</small></div>
       </div>
-      <p id="dataNotice" style="display:none;font-size:11px;color:var(--text-3);margin-top:6px;">※ データはこの端末のブラウザに保存されています。キャッシュクリアでリセットされます。</p>
-      <div class="milestone-wrap" id="milestoneWrap">
-        <span id="milestoneText" class="milestone-text"></span>
-      </div>
-      <div class="seen-progress-wrap" id="seenProgressWrap">
-        <div class="seen-progress-bar"><div class="seen-progress-fill" id="seenFill"></div></div>
-        <span class="seen-progress-label" id="seenLabel"></span>
-      </div>
-      <div class="streak-status-wrap" id="streakStatusWrap">
-        <span id="streakStatusText" class="streak-status-text"></span>
-      </div>
-      <div class="challenge-status-wrap" id="challengeStatusWrap"></div>
-      <div class="weekly-cal-wrap" id="weeklyCalWrap">
-        <div class="wk-item"><div class="wk-label">月</div><div class="wk-dot" id="wkd0"></div></div>
-        <div class="wk-item"><div class="wk-label">火</div><div class="wk-dot" id="wkd1"></div></div>
-        <div class="wk-item"><div class="wk-label">水</div><div class="wk-dot" id="wkd2"></div></div>
-        <div class="wk-item"><div class="wk-label">木</div><div class="wk-dot" id="wkd3"></div></div>
-        <div class="wk-item"><div class="wk-label">金</div><div class="wk-dot" id="wkd4"></div></div>
-        <div class="wk-item"><div class="wk-label">土</div><div class="wk-dot" id="wkd5"></div></div>
-        <div class="wk-item"><div class="wk-label">日</div><div class="wk-dot" id="wkd6"></div></div>
-      </div>
-      <div class="hero-mockup">
-        <div class="hm-header">
-          <div class="hm-dot hm-dot-r"></div>
-          <div class="hm-dot hm-dot-y"></div>
-          <div class="hm-dot hm-dot-g"></div>
-          <span style="margin-left:4px">ListenUp — 英語リスニング</span>
-        </div>
-        <div class="hm-body">
-          <div class="hm-audio">
-            <div class="hm-play">▶</div>
-            <div class="hm-wave">
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-              <div class="hm-wbar"></div>
-            </div>
-            <div class="hm-audio-label">再生中</div>
-          </div>
-          <div class="hm-q">この会話の場面は？</div>
-          <div class="hm-opts">
-            <div class="hm-opt">🛫 空港でのチェックイン</div>
-            <div class="hm-opt hm-opt-active">🚉 駅での道案内</div>
-            <div class="hm-opt">🍽️ レストランの予約</div>
-            <div class="hm-opt">🏨 ホテルのフロント</div>
-          </div>
-        </div>
-      </div>
+      <div class="hero-badge">✦ 無料・登録不要</div>
       <div class="quiz-mode-selector" id="quizModeSelector">
         <button class="qm-btn qm-active" data-mode="normal" onclick="selectMode('normal')">通常モード</button>
         <button class="qm-btn" data-mode="daily" onclick="selectMode('daily')"><span class="qm-btn-sub" id="dailyModeLabel">今日のテーマ</span></button>
@@ -2594,282 +2550,30 @@
     </div>
   </div>
 
-  <!-- ── SECTION 3: How It Works ── -->
-  <section class="lp-section reveal">
-    <div class="lp-wrap">
-      <div class="section-eyebrow">HOW IT WORKS</div>
-      <h2 class="section-h2">3ステップで<span class="text-gold">耳が変わる</span></h2>
-      <div class="steps-row">
-        <div class="step-card reveal reveal-delay-1">
-          <div class="step-no">01</div>
-          <div class="step-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
-          </div>
-          <h3>聴く</h3>
-          <p>わからなければ、もう一度。何度聴いてもOK。</p>
-        </div>
-        <div class="step-connector">→</div>
-        <div class="step-card reveal reveal-delay-2">
-          <div class="step-no">02</div>
-          <div class="step-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-          </div>
-          <h3>選ぶ</h3>
-          <p>どんな場面か、5択で答える。</p>
-        </div>
-        <div class="step-connector">→</div>
-        <div class="step-card reveal reveal-delay-3">
-          <div class="step-no">03</div>
-          <div class="step-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="18" x2="15" y2="18"/><line x1="10" y1="22" x2="14" y2="22"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
-          </div>
-          <h3>掴む</h3>
-          <p>正解・不正解どちらでも、キーフレーズで「聴こえた理由」を掴む。続けるほど、あなたの苦手パターンに合わせた問題が増えていく。</p>
-        </div>
-      </div>
+  <!-- ── SEO SECTION ── -->
+  <section class="seo-section">
+    <h2>リスニングが聞き取れないのはなぜ？</h2>
+    <p>多くの人が「英語が速すぎる」と感じていますが、実際の原因は大きく3つに分かれます。ListenUpはこの3つを5軸に分解し、あなたの弱点を自動で特定します。</p>
+    <div class="seo-box">
+      <strong>音の変化に慣れていない</strong>
+      <p>gonna, wanna, kinda, lemme——ネイティブは日常的に音を省略・連結します。文字で見ればわかる英語が、音になると聞き取れないのはこのためです。ListenUpでは「速い発音」「音の変化」を独立した軸として出題し、集中的に鍛えられます。</p>
+    </div>
+    <div class="seo-box">
+      <strong>2〜3回目に聴いた瞬間が「黄金地帯」</strong>
+      <p>1回で余裕に聴ける音は、すでに知っている音。耳が本当に育つのは「2〜3回聴いてようやくわかった」瞬間です。ListenUpの5段階アダプティブシステムは、あなたにとっての「ちょうどいい難しさ」を常に探し続けます。</p>
+    </div>
+    <div class="seo-box">
+      <strong>月額0円で1,600問以上——他アプリとの違い</strong>
+      <p>スタディサプリENGLISH（月額2,178円〜）、シャドテン（月額21,780円）など有料アプリもありますが、ListenUpは完全無料・登録不要。弱点パターン分析・適応型出題・間隔反復（SRS）まで無料で使えます。</p>
+      <p style="font-size:12px;color:var(--text-3);margin-top:8px;">※ 価格は2026年2月時点の各社公式サイト情報。変更される場合があります。</p>
+    </div>
+    <div style="text-align:center; margin-top: 40px;">
+      <button class="btn-primary-lg" onclick="beginQuiz()">今すぐ無料でリスニング力を試す</button>
+      <p class="hero-fine" style="margin-top:14px;">登録不要 · 1問30秒 · <span class="js-total-q"></span>すべて無料</p>
     </div>
   </section>
-
-  <!-- ── PHILOSOPHY ── -->
-  <section class="philosophy-section reveal">
-    <div class="philosophy-wrap">
-
-      <div class="philosophy-eyebrow">OUR PHILOSOPHY</div>
-
-      <p class="philosophy-hook">
-        「もう1回聴いたら、わかった」<br>その瞬間、あなたの耳は確実に育っています。
-      </p>
-
-      <p class="philosophy-desc">
-        「1回で聴き取れないと、才能がないのかな」と思ったことがあるかもしれません。<br>でも、それは全く違います。
-      </p>
-
-      <p class="philosophy-question">
-        本当に耳が育つのは、<em>何回目に聴いた瞬間</em>だと思いますか？
-      </p>
-
-      <div class="philosophy-divider"></div>
-
-      <p class="philosophy-insight">
-        答えは、<strong>2〜3回目</strong>です。1回で余裕に聴けるものは「すでに知っている音」。それを繰り返しても耳は成長しません。
-      </p>
-
-      <p class="philosophy-insight">
-        2〜3回聴いてはじめて理解できたとき、その表現は初めて<strong>「自分の音」</strong>に変わります。この繰り返しが、リスニング力の正体です。
-      </p>
-
-      <blockquote class="philosophy-quote">
-        <p>「簡単すぎても、難しすぎても、耳は育たない。2〜3回でわかる——その難しさが、黄金地帯。」</p>
-      </blockquote>
-
-      <div class="philosophy-conclusion">
-        <p>ListenUpの<strong>5段階アダプティブシステム</strong>は、あなたの「黄金地帯」を常に探し続けます。どんな音が聴き取りにくいか、どんなパターンで間違えるか——練習するほど、あなたのことを知っていきます。</p>
-        <p class="philosophy-tagline">その一歩手前を、一緒に歩きます。</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ── SECTION 4: Pricing ── -->
-  <!-- ── COMPARISON TABLE ── -->
-  <div class="compare-section reveal">
-    <div class="compare-inner">
-      <div class="compare-lead">
-        <div class="section-eyebrow">COMPARISON</div>
-        <h2 class="section-h2">各アプリの特徴を比べてみてください</h2>
-        <p>価格・学習形式・問題数・AI機能を並べました。自分に合ったスタイルで選んでください。</p>
-      </div>
-      <div class="compare-scroll">
-        <table class="compare-table">
-          <thead>
-            <tr>
-              <th style="text-align:left">項目</th>
-              <th class="col-self">Native-real<br><small style="font-size:10px;font-weight:600">完全無料</small></th>
-              <th>スタサプ<br><small style="font-size:10px;font-weight:400">ENGLISH</small></th>
-              <th>Cake<br><small style="font-size:10px;font-weight:400">Plus</small></th>
-              <th>シャドテン</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="col-label">月額（税込）</td>
-              <td class="col-self"><span class="compare-price-self">¥0</span></td>
-              <td>¥2,178〜</td>
-              <td>¥1,500</td>
-              <td>¥21,780</td>
-            </tr>
-            <tr>
-              <td class="col-label">主な学習形式</td>
-              <td class="col-self">リスニングクイズ</td>
-              <td>動画レッスン＋クイズ＋スピーキング</td>
-              <td>動画視聴＋復習クイズ</td>
-              <td>シャドーイング録音＋添削</td>
-            </tr>
-            <tr>
-              <td class="col-label">リスニングクイズ問題数</td>
-              <td class="col-self" id="compareQCount"></td>
-              <td>コース内（公式非公表）</td>
-              <td>動画クリップ形式</td>
-              <td>教材1,000本以上</td>
-            </tr>
-            <tr>
-              <td class="col-label">パーソナライズ</td>
-              <td class="col-self">弱点パターン分析・適応出題</td>
-              <td>スピーキング評価AI</td>
-              <td>AI発音チェック・AIチューター</td>
-              <td>人間トレーナーによる添削</td>
-            </tr>
-          </tbody>
-        </table>
-        <p style="font-size:11px;color:var(--text-3);margin-top:10px;line-height:1.6">※ 価格・機能は2026年2月時点の各社公式サイト記載情報をもとにしています。変更される場合があります。各サービスの最新情報は公式サイトでご確認ください。</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── SECTION 6: Bottom CTA ── -->
-  <div class="lp-bottom-cta reveal">
-    <div class="lp-bcta-wrap">
-      <div class="lp-bcta-eyebrow">FREE · <span class="js-total-q"></span></div>
-      <h2 class="lp-bcta-h">英語が聴き取れる実感を、<br><span style="color:var(--gold)">今すぐ体験</span>。</h2>
-      <p class="lp-bcta-sub"><span class="js-total-q"></span>すべて完全無料。登録不要、1問30秒から。</p>
-      <button class="btn-primary-lg" onclick="beginQuiz()" style="margin-top:16px">無料でリスニング力を試す</button>
-    </div>
-  </div>
-
-  <!-- ── 英語学習コラム ── -->
-  <div class="lp-articles reveal">
-    <div class="lp-articles-inner">
-      <div class="lp-articles-eyebrow">LEARNING COLUMN</div>
-      <h2 class="lp-articles-h">リスニングと一緒に読みたい<span class="text-gold">英語学習コラム</span></h2>
-      <div class="lp-articles-grid">
-        <a class="lp-article-card" href="/articles/english-listening-why-cant-hear/">
-          <div class="lp-article-tag">リスニング</div>
-          <div class="lp-article-title">英語のリスニングが聞き取れない原因と根本解決法【レベル別対策】</div>
-        </a>
-        <a class="lp-article-card" href="/articles/shadowing-complete-guide/">
-          <div class="lp-article-tag">シャドーイング</div>
-          <div class="lp-article-title">シャドーイングのやり方完全ガイド【効果・手順・おすすめ教材2026】</div>
-        </a>
-        <a class="lp-article-card" href="/articles/english-speaking-improvement-method/">
-          <div class="lp-article-tag">スピーキング</div>
-          <div class="lp-article-title">英語スピーキングを最速で伸ばす方法【独学でも話せるようになる練習法】</div>
-        </a>
-        <a class="lp-article-card" href="/articles/online-eikaiwa-not-continue/">
-          <div class="lp-article-tag">継続</div>
-          <div class="lp-article-title">オンライン英会話が続かない本当の理由と解決策【挫折しない続け方】</div>
-        </a>
-      </div>
-      <div style="text-align:center;margin-top:24px;">
-        <a href="/articles/" style="display:inline-block;padding:12px 28px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.35);border-radius:12px;color:var(--gold);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(251,191,36,0.2)'" onmouseout="this.style.background='rgba(251,191,36,0.12)'">学習コラムをもっと見る →</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── PHRASES SECTION ── -->
-  <div class="lp-articles reveal" style="background:var(--teal-bg);">
-    <div class="lp-articles-inner">
-      <div class="lp-articles-eyebrow">REAL PHRASES</div>
-      <h2 class="lp-articles-h">リスニングに出てくる<span style="color:var(--teal)">ネイティブ表現</span></h2>
-      <div class="lp-phrases-grid">
-        <a class="lp-phrase-chip" href="/real-phrases/not-gonna-lie/">
-          <div class="lp-phrase-en">"Not gonna lie"</div>
-          <div class="lp-phrase-ja">正直に言うと</div>
-        </a>
-        <a class="lp-phrase-chip" href="/real-phrases/kind-of/">
-          <div class="lp-phrase-en">"Kind of"</div>
-          <div class="lp-phrase-ja">ちょっと・まあ</div>
-        </a>
-        <a class="lp-phrase-chip" href="/real-phrases/no-worries/">
-          <div class="lp-phrase-en">"No worries"</div>
-          <div class="lp-phrase-ja">大丈夫だよ</div>
-        </a>
-        <a class="lp-phrase-chip" href="/real-phrases/you-know-what-i-mean/">
-          <div class="lp-phrase-en">"You know what I mean"</div>
-          <div class="lp-phrase-ja">わかるでしょ？</div>
-        </a>
-        <a class="lp-phrase-chip" href="/real-phrases/got-it/">
-          <div class="lp-phrase-en">"Got it"</div>
-          <div class="lp-phrase-ja">了解</div>
-        </a>
-        <a class="lp-phrase-chip" href="/real-phrases/out-of-the-blue/">
-          <div class="lp-phrase-en">"Out of the blue"</div>
-          <div class="lp-phrase-ja">突然</div>
-        </a>
-      </div>
-      <div style="text-align:center;margin-top:24px;">
-        <a href="/real-phrases/" style="display:inline-block;padding:12px 28px;background:rgba(14,165,233,0.12);border:1px solid rgba(14,165,233,0.35);border-radius:12px;color:var(--teal);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(14,165,233,0.2)'" onmouseout="this.style.background='rgba(14,165,233,0.12)'">フレーズ集をもっと見る（101表現）→</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── SERVICE RANKING SECTION ── -->
-  <div class="lp-articles reveal">
-    <div class="lp-articles-inner">
-      <div class="lp-articles-eyebrow">NEXT STEP</div>
-      <h2 class="lp-articles-h">クイズで見つけた弱点を<span class="text-gold">実践で克服</span></h2>
-      <p style="text-align:center;color:var(--text-3);font-size:13px;margin:-8px 0 20px;">ListenUpで耳を鍛えたら、次はネイティブとの実戦。無料体験で実力を試そう。</p>
-      <div class="lp-services-grid">
-        <div class="lp-service-card-v2">
-          <a href="/services/nativecamp/" class="lp-svc-link">
-            <span class="lp-service-icon">🌐</span>
-            <div>
-              <div class="lp-service-name">ネイティブキャンプ</div>
-              <div class="lp-service-desc">24時間・回数無制限 / 月額7,480円</div>
-            </div>
-          </a>
-          <a href="https://px.a8.net/svt/ejp?a8mat=44WLF2+BW2OQA+35VG+6LWTE" class="lp-svc-cta" target="_blank" rel="nofollow noopener">7日間無料 →</a>
-        </div>
-        <div class="lp-service-card-v2">
-          <a href="/services/rarejob/" class="lp-svc-link">
-            <span class="lp-service-icon">🇯🇵</span>
-            <div>
-              <div class="lp-service-name">レアジョブ英会話</div>
-              <div class="lp-service-desc">毎日25分 / 月額4,980円〜</div>
-            </div>
-          </a>
-          <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+JNCII+1SVU+686ZM" class="lp-svc-cta" target="_blank" rel="nofollow noopener">無料体験2回 →</a>
-        </div>
-        <div class="lp-service-card-v2">
-          <a href="/services/dmm-eikaiwa/" class="lp-svc-link">
-            <span class="lp-service-icon">💬</span>
-            <div>
-              <div class="lp-service-name">DMM英会話</div>
-              <div class="lp-service-desc">130ヵ国の講師・13,000教材 / 月額5,450円〜</div>
-            </div>
-          </a>
-          <a href="https://px.a8.net/svt/ejp?a8mat=4AXFOG+K6XLOY+V6S+1NJYMR" class="lp-svc-cta" target="_blank" rel="nofollow noopener">無料体験2回 →</a>
-        </div>
-        <div class="lp-service-card-v2">
-          <a href="/services/cambly/" class="lp-svc-link">
-            <span class="lp-service-icon">🇺🇸</span>
-            <div>
-              <div class="lp-service-name">Cambly</div>
-              <div class="lp-service-desc">ネイティブ講師のみ / 月額3,790円〜</div>
-            </div>
-          </a>
-          <a href="https://px.a8.net/svt/ejp?a8mat=44WTZ2+TRP0Y+428Q+HVFKY" class="lp-svc-cta" target="_blank" rel="nofollow noopener">無料体験1回 →</a>
-        </div>
-      </div>
-      <div style="text-align:center;margin-top:24px;">
-        <a href="/ranking/" style="display:inline-block;padding:12px 28px;background:rgba(251,191,36,0.12);border:1px solid rgba(251,191,36,0.35);border-radius:12px;color:var(--gold);font-weight:700;font-size:13px;text-decoration:none;transition:all 0.2s;" onmouseover="this.style.background='rgba(251,191,36,0.2)'" onmouseout="this.style.background='rgba(251,191,36,0.12)'">全12サービスをランキングで比較する →</a>
-      </div>
-      <p style="text-align:center;font-size:10px;color:var(--text-4);margin-top:12px;">※本サイトはアフィリエイトリンクを含みます。</p>
-    </div>
-  </div>
-
-  <div class="lp-footer">
-    <div style="margin-bottom:8px">
-      <a href="/ranking/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">サービス比較ランキング</a>
-      <a href="/articles/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">学習コラム</a>
-      <a href="/real-phrases/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">フレーズ集</a>
-      <a href="/prompts/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">AIプロンプト集</a>
-      <a href="/privacy/" style="color:var(--text-3);text-decoration:none;margin:0 8px;font-size:12px;transition:color 0.18s" onmouseover="this.style.color='var(--text-2)'" onmouseout="this.style.color='var(--text-3)'">プライバシーポリシー</a>
-    </div>
-    © 2026 native-real.com · ListenUp 全問無料
-  </div>
 
 </div>
-
 <!-- ═══════════════ MINI REPLAY BAR (mobile, after answer) ═══════════════ -->
 <div class="mini-replay-bar" id="miniReplayBar">
   <span class="mini-replay-label">英語音声</span>
