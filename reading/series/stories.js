@@ -1543,6 +1543,22 @@ const STORIES = [
         "word": "prohibitive",
         "vl": 7000,
         "definition": "so high in cost that it prevents people from buying or doing something"
+      },
+      {
+        "word": "postponements",
+        "definition": "delays in planned weddings or events that were put off to a later time"
+      },
+      {
+        "word": "pandemic",
+        "definition": "a global outbreak of a contagious disease affecting many countries"
+      },
+      {
+        "word": "uptick",
+        "definition": "a small but noticeable increase in a number or rate"
+      },
+      {
+        "word": "parenthood",
+        "definition": "the state of being a parent and raising children"
       }
     ],
     "questions": [
@@ -2350,6 +2366,26 @@ const STORIES = [
         "word": "piecemeal",
         "vl": null,
         "definition": "done or made in separate stages rather than as part of a planned whole"
+      },
+      {
+        "word": "uptick",
+        "definition": "a small upward movement or increase"
+      },
+      {
+        "word": "nudging",
+        "definition": "gently pushing a value or figure slightly in a particular direction"
+      },
+      {
+        "word": "pandemic",
+        "definition": "a widespread outbreak of disease that spreads across many countries"
+      },
+      {
+        "word": "childcare",
+        "definition": "the supervision and care of young children, especially while parents work"
+      },
+      {
+        "word": "disincentives",
+        "definition": "factors or conditions that discourage people from taking a particular action"
       }
     ],
     "questions": [
@@ -3914,6 +3950,10 @@ const STORIES = [
         "word": "warship",
         "vl": 5000,
         "definition": "a ship designed for use in war"
+      },
+      {
+        "word": "handful",
+        "definition": "a very small number of people or things"
       }
     ],
     "questions": [
@@ -4696,6 +4736,22 @@ const STORIES = [
         "word": "endured",
         "vl": 5000,
         "definition": "suffered through something difficult for a long time"
+      },
+      {
+        "word": "adventurer",
+        "definition": "a person who seeks exciting and often dangerous experiences"
+      },
+      {
+        "word": "shattered",
+        "definition": "completely destroyed or broken into pieces"
+      },
+      {
+        "word": "solo",
+        "definition": "done alone, by one person without any assistance"
+      },
+      {
+        "word": "cyclone",
+        "definition": "a violent tropical storm with powerful rotating winds"
       }
     ],
     "questions": [
@@ -5456,6 +5512,34 @@ const STORIES = [
         "word": "harrowing",
         "vl": null,
         "definition": "extremely distressing or disturbing"
+      },
+      {
+        "word": "transpacific",
+        "definition": "crossing or spanning the Pacific Ocean"
+      },
+      {
+        "word": "ravaged",
+        "definition": "caused severe and widespread damage or destruction"
+      },
+      {
+        "word": "monotony",
+        "definition": "the tedious sameness of conditions that never seem to change"
+      },
+      {
+        "word": "beacon",
+        "definition": "a signal device activated to alert rescuers to one's location"
+      },
+      {
+        "word": "adrift",
+        "definition": "floating on water without direction or control"
+      },
+      {
+        "word": "warship",
+        "definition": "a ship armed and equipped for military operations"
+      },
+      {
+        "word": "annals",
+        "definition": "the historical records of notable achievements or events"
       }
     ],
     "questions": [
@@ -6292,7 +6376,12 @@ const STORIES = [
     "title_ja": "フランスの科学者がエネルギーの記録を達成",
     "body": "Scientists in France have set a new record. They kept very hot gas inside a special machine for 22 minutes. This is important because it may help make clean energy in the future. The gas was heated to about 50 million degrees. At this temperature, atoms can join together and make energy. This is how the sun makes its light and heat. Scientists around the world are working on this kind of energy. It could give us a lot of power without making the air dirty. But there are still many problems to solve before we can use it.",
     "body_ja": "フランスの科学者たちが新しい記録を達成しました。特別な機械の中でとても熱いガスを22分間保ちました。これは将来クリーンエネルギーを作る助けになるかもしれないので重要です。ガスは約5千万度まで加熱されました。この温度では、原子が結合してエネルギーを作ることができます。これが太陽が光と熱を作る仕組みです。世界中の科学者がこの種のエネルギーに取り組んでいます。空気を汚さずに大量の電力を生み出せる可能性があります。しかし使えるようになるまでには、まだ多くの問題を解決する必要があります。",
-    "vocab_notes": [],
+    "vocab_notes": [
+      {
+        "word": "atoms",
+        "definition": "the tiniest particles that make up all matter"
+      }
+    ],
     "questions": [
       {
         "axis": "detail",
@@ -7062,6 +7151,14 @@ const STORIES = [
         "word": "fusion",
         "vl": 5000,
         "definition": "the process of joining two atoms together to release energy"
+      },
+      {
+        "word": "tokamak",
+        "definition": "a machine that uses strong magnetic fields to contain hot plasma for nuclear fusion"
+      },
+      {
+        "word": "magnets",
+        "definition": "devices that generate a magnetic field used to hold and control the hot plasma"
       }
     ],
     "questions": [
@@ -7849,6 +7946,22 @@ const STORIES = [
         "word": "formidable",
         "vl": 7000,
         "definition": "very difficult to deal with; impressively large or powerful"
+      },
+      {
+        "word": "tokamak",
+        "definition": "a doughnut-shaped reactor that confines plasma with magnetic fields to study fusion energy"
+      },
+      {
+        "word": "plasma",
+        "definition": "a superheated gas-like state of matter in which atoms are broken into charged particles"
+      },
+      {
+        "word": "surpassing",
+        "definition": "going beyond a previous record or level of achievement"
+      },
+      {
+        "word": "limitless",
+        "definition": "having no restrictions or upper boundary in potential supply"
       }
     ],
     "questions": [
@@ -8759,6 +8872,22 @@ const STORIES = [
         "word": "chasm",
         "vl": null,
         "definition": "a deep gap or wide difference between two things"
+      },
+      {
+        "word": "tokamak",
+        "definition": "a reactor that magnetically confines plasma at extreme temperatures for fusion research"
+      },
+      {
+        "word": "eclipsing",
+        "definition": "surpassing or going beyond a previous benchmark or record"
+      },
+      {
+        "word": "limitless",
+        "definition": "boundless in potential supply or output"
+      },
+      {
+        "word": "beset",
+        "definition": "troubled or surrounded by persistent challenges and difficulties"
       }
     ],
     "questions": [
@@ -9633,7 +9762,12 @@ const STORIES = [
     "title_ja": "パール・バック：有名なアメリカ人作家",
     "body": "Pearl Buck was a famous American writer. She was born in 1892. Her parents took her to China when she was a baby. She lived in China for almost 40 years. She learned to speak Chinese very well. She loved the Chinese people and their way of life. She wrote many books about China. Her most famous book is The Good Earth. It tells the story of a poor Chinese family. The book was very popular in America. In 1938, she won a very big prize for her writing. She was the first American woman to win this prize. She wrote more than 100 books in her life.",
     "body_ja": "パール・バックは有名なアメリカ人作家でした。1892年に生まれました。赤ちゃんの時に両親が中国に連れて行きました。約40年間中国に住んでいました。中国語をとても上手に話せるようになりました。中国の人々とその生活を愛していました。中国について多くの本を書きました。最も有名な本は『大地』です。貧しい中国の家族の物語を語っています。この本はアメリカでとても人気がありました。1938年、執筆で非常に大きな賞を受賞しました。この賞を受賞した最初のアメリカ人女性でした。生涯で100冊以上の本を書きました。",
-    "vocab_notes": [],
+    "vocab_notes": [
+      {
+        "word": "prize",
+        "definition": "an award given to recognize an outstanding achievement"
+      }
+    ],
     "questions": [
       {
         "axis": "detail",
@@ -12128,6 +12262,10 @@ const STORIES = [
         "word": "immersed",
         "vl": null,
         "definition": "deeply involved in something"
+      },
+      {
+        "word": "O",
+        "definition": "part of the character name O-Lan, the wife of Wang Lung in The Good Earth"
       }
     ],
     "questions": [
@@ -13205,7 +13343,12 @@ const STORIES = [
     "title_ja": "セネガル、幼い子どもに英語を教え始める",
     "body": "Senegal is a country in Africa. The people there speak French as their main language. Now the government wants young children to learn English too. Children as young as three years old are starting to learn English in school. The teachers say the children like the English classes. They learn to say hello and sing songs in English. The government thinks English will help the children in the future. Many countries around the world use English for business. Senegal wants its young people to have more chances to find good work. More than 600 schools are now part of this new program.",
     "body_ja": "セネガルはアフリカの国です。人々はフランス語を主な言語として話しています。今、政府は幼い子どもたちにも英語を学ばせたいと考えています。3歳の子どもたちが学校で英語を学び始めています。先生たちは子どもたちが英語の授業を気に入っていると言います。英語で挨拶したり歌ったりすることを学んでいます。政府は英語が子どもたちの将来に役立つと考えています。世界中の多くの国がビジネスに英語を使っています。セネガルは若者がより良い仕事を見つけるチャンスを増やしたいと考えています。600以上の学校がこの新しいプログラムに参加しています。",
-    "vocab_notes": [],
+    "vocab_notes": [
+      {
+        "word": "hello",
+        "definition": "a common word used to greet someone"
+      }
+    ],
     "questions": [
       {
         "axis": "detail",
@@ -17716,6 +17859,10 @@ const STORIES = [
         "word": "cancer",
         "vl": 5000,
         "definition": "a serious disease in which cells grow in a way that is not normal"
+      },
+      {
+        "word": "worldwide",
+        "definition": "existing or happening in all parts of the world"
       }
     ],
     "questions": [
@@ -21370,6 +21517,10 @@ const STORIES = [
         "word": "volcano",
         "vl": 7000,
         "definition": "a mountain that can send out fire and hot rock"
+      },
+      {
+        "word": "deer",
+        "definition": "large wild mammals with hooves that live in forests and parks like Yellowstone"
       }
     ],
     "questions": [
@@ -24443,6 +24594,10 @@ const STORIES = [
         "word": "butterfly",
         "vl": 7000,
         "definition": "an insect with large colorful wings that flies during the day"
+      },
+      {
+        "word": "butterflies",
+        "definition": "colorful flying insects with large patterned wings"
       }
     ],
     "questions": [
@@ -25292,6 +25447,14 @@ const STORIES = [
         "word": "butterfly",
         "vl": 7000,
         "definition": "an insect with large colorful wings"
+      },
+      {
+        "word": "monarch",
+        "definition": "a type of large butterfly recognized by its vivid orange and black wings"
+      },
+      {
+        "word": "butterflies",
+        "definition": "colorful flying insects with large patterned wings"
       }
     ],
     "questions": [
@@ -27179,6 +27342,10 @@ const STORIES = [
         "word": "barometer",
         "vl": null,
         "definition": "something that shows the state or condition of something"
+      },
+      {
+        "word": "iconic",
+        "definition": "widely recognized and admired as a powerful symbol of something"
       }
     ],
     "questions": [
@@ -28223,7 +28390,12 @@ const STORIES = [
     "title_ja": "最も高い山に登るのがより高くなった",
     "body": "Mount Everest is the highest mountain in the world. It is in Nepal. Every year, many people try to climb it. But now Nepal says it will cost more money. Before, a person had to pay $11,000 to get permission to climb. Now it will cost $15,000. The government says this change is needed. Too many people are climbing the mountain. They leave a lot of waste behind. It is also dangerous when too many people are on the mountain at the same time. The government wants to use the extra money to keep the mountain clean and safe. The last time the price changed was about 10 years ago.",
     "body_ja": "エベレストは世界で最も高い山です。ネパールにあります。毎年多くの人が登ろうとします。しかし今、ネパールはより多くのお金がかかるようになると発表しました。以前は登山許可を得るのに11,000ドルを払う必要がありました。今は15,000ドルかかります。政府はこの変更が必要だと言います。あまりにも多くの人が山を登っています。多くのごみを残していきます。同時に多くの人が山にいると危険でもあります。政府は追加のお金を山をきれいで安全に保つために使いたいと考えています。前回価格が変わったのは約10年前でした。",
-    "vocab_notes": [],
+    "vocab_notes": [
+      {
+        "word": "permission",
+        "definition": "official approval allowing someone to do a specific activity"
+      }
+    ],
     "questions": [
       {
         "axis": "detail",
@@ -29068,7 +29240,12 @@ const STORIES = [
     "title_ja": "ネパール、エベレスト登山費用を値上げ",
     "body": "Nepal has increased the cost of a permit to climb Mount Everest by about one-third. The price has risen from $11,000 to $15,000 for the popular spring climbing season. Officials say the price had stayed the same for about 10 years before this change. The government says the increase is needed to reduce pollution and improve safety on the world's highest mountain. In recent years, large crowds of climbers have created long lines near the top of Everest, increasing the risk of accidents. Climbers also leave behind waste, including empty oxygen bottles and other equipment. The higher fees during less popular seasons, such as autumn and winter, have also gone up. Nepal hopes the additional money will help protect the mountain environment.",
     "body_ja": "ネパールはエベレスト登山許可証の費用を約3分の1値上げしました。人気の春季登山シーズンの価格は11,000ドルから15,000ドルに上がりました。当局によると、この変更前は約10年間価格が据え置かれていました。政府は世界最高峰での汚染削減と安全性向上のために値上げが必要だとしています。近年、大勢の登山者がエベレストの頂上付近で長い行列を作り、事故のリスクを高めています。登山者は空の酸素ボンベやその他の装備などのごみも残していきます。秋や冬などの人気の低いシーズンの料金も上がりました。ネパールは追加の収入が山の環境保護に役立つことを期待しています。",
-    "vocab_notes": [],
+    "vocab_notes": [
+      {
+        "word": "climbers",
+        "definition": "people who attempt to ascend mountains such as Everest"
+      }
+    ],
     "questions": [
       {
         "axis": "detail",
@@ -30014,6 +30191,14 @@ const STORIES = [
         "word": "accumulated",
         "vl": 7000,
         "definition": "gathered or collected over time"
+      },
+      {
+        "word": "climbers",
+        "definition": "people who pay for permits and attempt to climb high-altitude mountains"
+      },
+      {
+        "word": "cleanup",
+        "definition": "an organized effort to remove waste and pollution from an area"
       }
     ],
     "questions": [
@@ -31002,6 +31187,10 @@ const STORIES = [
         "word": "overdue",
         "vl": null,
         "definition": "should have happened earlier than it did"
+      },
+      {
+        "word": "cleanup",
+        "definition": "efforts to remove waste, abandoned equipment, and pollution from a site"
       }
     ],
     "questions": [
@@ -38339,6 +38528,10 @@ const STORIES = [
         "word": "snatch",
         "vl": 7000,
         "definition": "to grab something quickly and forcefully"
+      },
+      {
+        "word": "uncontrolled",
+        "definition": "done without proper management or restrictions"
       }
     ],
     "questions": [
@@ -42093,6 +42286,10 @@ const STORIES = [
         "word": "bless",
         "vl": 3000,
         "definition": "to make something holy through a religious ceremony"
+      },
+      {
+        "word": "deadliest",
+        "definition": "causing more deaths than any other event of the same kind"
       }
     ],
     "questions": [
@@ -49529,6 +49726,10 @@ const STORIES = [
         "word": "trajectory",
         "vl": 3000,
         "definition": "the curved path of an object moving through space"
+      },
+      {
+        "word": "detonation",
+        "definition": "the act of triggering a powerful explosion"
       }
     ],
     "questions": [
@@ -55255,6 +55456,10 @@ const STORIES = [
         "word": "emissions",
         "vl": 3000,
         "definition": "gases sent into the air, especially from factories and cars"
+      },
+      {
+        "word": "sunlight",
+        "definition": "the light and energy that the Earth receives from the sun"
       }
     ],
     "questions": [
@@ -56193,6 +56398,14 @@ const STORIES = [
         "word": "elevated",
         "vl": 5000,
         "definition": "higher than normal or expected"
+      },
+      {
+        "word": "gradual",
+        "definition": "happening slowly and steadily over a long period of time"
+      },
+      {
+        "word": "sunlight",
+        "definition": "the solar energy reaching Earth's surface, which drives climate and temperature"
       }
     ],
     "questions": [
@@ -60126,6 +60339,14 @@ const STORIES = [
         "word": "exploration",
         "vl": 5000,
         "definition": "the act of searching and learning about an unknown place"
+      },
+      {
+        "word": "spacecraft",
+        "definition": "a vehicle designed to travel in outer space"
+      },
+      {
+        "word": "feat",
+        "definition": "a remarkable and difficult achievement or accomplishment"
       }
     ],
     "questions": [
@@ -61197,6 +61418,10 @@ const STORIES = [
         "word": "touchdown",
         "vl": 7000,
         "definition": "the moment when a spacecraft lands on a surface"
+      },
+      {
+        "word": "unforgiving",
+        "definition": "extremely harsh and dangerous, leaving no margin for mistakes"
       }
     ],
     "questions": [
@@ -64015,6 +64240,10 @@ const STORIES = [
         "word": "avenue",
         "vl": 5000,
         "definition": "a way of approaching or making progress toward something"
+      },
+      {
+        "word": "avenues",
+        "definition": "possible ways or approaches to achieving a goal"
       }
     ],
     "questions": [
@@ -66085,6 +66314,10 @@ const STORIES = [
         "word": "NASA",
         "vl": null,
         "definition": "the United States space group (National Aeronautics and Space Administration)"
+      },
+      {
+        "word": "moon",
+        "definition": "the large natural body that orbits the Earth"
       }
     ],
     "questions": [
@@ -66879,6 +67112,10 @@ const STORIES = [
         "word": "CLPS",
         "vl": null,
         "definition": "a NASA program that pays private companies to send machines to the moon"
+      },
+      {
+        "word": "exploration",
+        "definition": "the act of traveling to and investigating an unknown place"
       }
     ],
     "questions": [
@@ -68674,6 +68911,10 @@ const STORIES = [
         "word": "curbing",
         "vl": null,
         "definition": "controlling or reducing something"
+      },
+      {
+        "word": "underscoring",
+        "definition": "emphasizing or highlighting the importance or significance of something"
       }
     ],
     "questions": [
@@ -69648,6 +69889,10 @@ const STORIES = [
         "word": "metal",
         "vl": null,
         "definition": "a hard, shiny material like gold or silver found in the ground"
+      },
+      {
+        "word": "discovery",
+        "definition": "the act of finding or learning about something new for the first time"
       }
     ],
     "questions": [
