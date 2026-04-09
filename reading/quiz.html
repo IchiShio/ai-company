@@ -1398,6 +1398,7 @@ function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.rand
   mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
     ham.classList.remove('active'); mobileNav.classList.remove('active');
   }));
+  const cl=document.getElementById('siteMobileNavClose');if(cl){cl.addEventListener('click',()=>{ham.classList.remove('active');mobileNav.classList.remove('active');});}
 
   // Reveal on scroll
   const revealEls=document.querySelectorAll('.reveal');
