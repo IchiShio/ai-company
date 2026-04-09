@@ -72,28 +72,34 @@
 
     /* ── Site Header ── */
     .site-header {
-      position: sticky; top: 0; z-index: 100;
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
       background: rgba(248,246,241,0.92);
-      backdrop-filter: blur(16px) saturate(180%);
-      border-bottom: 1px solid var(--border);
-      padding: 0 20px;
-      height: 52px;
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(26,26,26,0.06);
+      padding: 10px 0;
+    }
+    .site-header-inner-wrap {
+      max-width: 1100px; margin: 0 auto; padding: 0 20px;
       display: flex; align-items: center; justify-content: space-between;
     }
     .site-header-logo {
-      font-weight: 800; font-size: 16px; color: var(--text-1);
-      text-decoration: none; letter-spacing: -0.4px;
+      font-size: 15px; font-weight: 800; color: #111;
+      text-decoration: none; display: flex; align-items: center; gap: 7px;
     }
-    .site-header-nav { display: flex; gap: 20px; }
+    .site-header-nav { display: flex; gap: 2px; }
     .site-header-nav a {
-      font-size: 14px; font-weight: 600; color: var(--text-2);
-      text-decoration: none; transition: color var(--t);
+      font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.6);
+      text-decoration: none; padding: 7px 12px; border-radius: 10px;
+      transition: color 0.15s, background 0.15s;
     }
-    .site-header-nav a:hover,
-    .site-header-nav a.active { color: var(--gold); }
+    .site-header-nav a:hover { color: #111; background: rgba(26,26,26,0.04); }
+    .site-header-nav a.active {
+      color: #E09520; font-weight: 700;
+      box-shadow: #F5A623 0px -3px 0px 0px inset;
+    }
 
     /* ── Layout ── */
-    .page { max-width: 680px; margin: 0 auto; padding: 32px 20px 80px; }
+    .page { max-width: 680px; margin: 0 auto; padding: 0 20px 80px; }
 
     /* ── Level Tabs ── */
     .level-tabs {
@@ -453,38 +459,71 @@
 
     /* ── LP Hero ── */
     .lp-hero {
-      text-align: center; padding: 56px 20px 48px;
+      position: relative; overflow: hidden;
+      text-align: center; padding: 100px 20px 72px;
       border-bottom: 1px solid var(--border);
       margin-bottom: 40px;
+      background: var(--bg);
+      background-image: radial-gradient(rgba(26,26,26,0.05) 1px, transparent 1px);
+      background-size: 28px 28px;
     }
+    .lp-hero-orb {
+      position: absolute; border-radius: 50%; pointer-events: none; z-index: 0;
+    }
+    .lp-hero-orb-1 {
+      width: 400px; height: 400px; top: -120px; right: -80px;
+      background: radial-gradient(circle, rgba(245,166,35,0.10), transparent 70%);
+      animation: orbFloat1 8s ease-in-out infinite;
+    }
+    .lp-hero-orb-2 {
+      width: 300px; height: 300px; bottom: -60px; left: -60px;
+      background: radial-gradient(circle, rgba(245,166,35,0.07), transparent 70%);
+      animation: orbFloat2 10s ease-in-out infinite;
+    }
+    @keyframes orbFloat1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-18px)} }
+    @keyframes orbFloat2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(14px)} }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+
+    .lp-hero-inner { position: relative; z-index: 1; max-width: 660px; margin: 0 auto; }
     .lp-hero-badge {
-      display: inline-block;
-      background: var(--gold-bg); color: var(--gold);
-      border: 1px solid rgba(245,166,35,0.3);
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(245,166,35,0.14); color: var(--gold-dark, #E09520);
+      border: 1px solid rgba(245,166,35,0.28);
       border-radius: var(--radius-pill);
-      padding: 5px 14px; font-size: 12px; font-weight: 700;
-      letter-spacing: 0.3px; margin-bottom: 18px;
+      padding: 6px 14px; font-size: 13px; font-weight: 700;
+      letter-spacing: 0.3px; margin-bottom: 22px;
+      animation: fadeUp 0.5s ease both;
     }
     .lp-hero h1 {
-      font-size: 32px; font-weight: 800; letter-spacing: -0.8px;
-      line-height: 1.2; margin-bottom: 14px;
+      font-size: clamp(34px, 7vw, 64px); font-weight: 800; letter-spacing: -1.2px;
+      line-height: 1.15; margin-bottom: 18px;
+      animation: fadeUp 0.5s 0.1s ease both;
+    }
+    .text-gold {
+      background: linear-gradient(120deg, #D97706 0%, #F5A623 50%, #FBBF24 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
     }
     .lp-hero-sub {
-      font-size: 16px; color: var(--text-2); line-height: 1.6;
-      max-width: 520px; margin: 0 auto 28px;
+      font-size: 17px; color: var(--text-2); line-height: 1.75;
+      max-width: 520px; margin: 0 auto 36px;
+      animation: fadeUp 0.5s 0.2s ease both;
     }
     .lp-hero-cta {
+      display: inline-flex; align-items: center; gap: 8px;
       background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
-      color: #000; font-weight: 800; font-size: 17px;
+      color: #fff; font-weight: 700; font-size: 17px;
       padding: 16px 36px; border-radius: var(--radius-pill);
       border: none; cursor: pointer; min-height: 56px;
-      box-shadow: 0 2px 8px rgba(245,166,35,0.35);
-      transition: opacity var(--t);
+      box-shadow: 0 4px 16px rgba(245,166,35,0.32);
+      transition: transform 0.15s, box-shadow 0.15s;
+      animation: fadeUp 0.5s 0.3s ease both;
+      font-family: inherit;
     }
-    .lp-hero-cta:hover { opacity: 0.9; }
+    .lp-hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(245,166,35,0.40); }
     .lp-hero-fine {
-      font-size: 12px; color: var(--text-3); margin-top: 12px;
+      font-size: 12px; color: var(--text-3); margin-top: 14px;
       font-weight: 500;
+      animation: fadeUp 0.5s 0.4s ease both;
     }
 
     /* ── Feature Strip ── */
@@ -597,12 +636,19 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <header class="site-header">
-  <a href="/" class="site-header-logo">native-real</a>
-  <nav class="site-header-nav">
-    <a href="/">リスニング</a>
-    <a href="/reading/" class="active">リーディング</a>
-    <a href="/ranking/">比較</a>
-  </nav>
+  <div class="site-header-inner-wrap">
+    <a href="/" class="site-header-logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;color:#F5A623"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      native-real
+    </a>
+    <nav class="site-header-nav">
+      <a href="/">ListenUp</a>
+      <a href="/grammar/">GrammarUp</a>
+      <a href="/speaking/">SpeakUp</a>
+      <a href="/reading/" class="active">ReadUp</a>
+      <a href="/ranking/">Ranking</a>
+    </nav>
+  </div>
 </header>
 
 <main class="page">
@@ -610,11 +656,21 @@
   <!-- ── LP Section ── -->
   <div id="lp-section">
     <div class="lp-hero">
-      <div class="lp-hero-badge">無料 · 登録不要 · 音声付き</div>
-      <h1>辞書なしで読める英語へ。<br>1日1分、自分のレベルで。</h1>
-      <p class="lp-hero-sub">語彙制限されたレベル別英文を、1ページ・1分で読む。<br>わからない単語はタップで即確認。毎週新しい記事を追加。</p>
-      <button class="lp-hero-cta" onclick="document.getElementById('hub-content').scrollIntoView({behavior:'smooth'})">読み始める →</button>
-      <p class="lp-hero-fine">84記事 · 4レベル · 21トピック · 全記事に音声付き</p>
+      <div class="lp-hero-orb lp-hero-orb-1"></div>
+      <div class="lp-hero-orb lp-hero-orb-2"></div>
+      <div class="lp-hero-inner">
+        <div class="lp-hero-badge">
+          <svg viewBox="0 0 20 20" fill="currentColor" style="width:13px;height:13px"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          無料・登録不要・音声付き
+        </div>
+        <h1>英語は「辞書で止まる」より、<br><span class="text-gold">レベルを合わせて読み続ける</span>。</h1>
+        <p class="lp-hero-sub">語彙制限されたレベル別英文を、1ページ・1分で読む。わからない単語はタップで即確認。毎日続けるほど、英文がスラスラ読めるようになる。</p>
+        <button class="lp-hero-cta" onclick="document.getElementById('hub-content').scrollIntoView({behavior:'smooth'})">
+          読み始める
+          <svg viewBox="0 0 20 20" fill="currentColor" style="width:18px;height:18px"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        </button>
+        <p class="lp-hero-fine">84記事 · 4レベル · 21トピック · 全記事に音声付き</p>
+      </div>
     </div>
 
     <div class="feature-strip">
