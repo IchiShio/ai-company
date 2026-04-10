@@ -142,7 +142,7 @@ def _parse_audit_response(response_text: str, question_id: str, model: str) -> A
 
 
 def _postprocess_result(result: AuditResult) -> AuditResult:
-    """LLM の誤検出を後処理でフィルター"""
+    """LLM の明らかな誤検出のみフィルター"""
     if result.status == AuditStatus.OK:
         return result
 
@@ -157,23 +157,6 @@ def _postprocess_result(result: AuditResult) -> AuditResult:
             result.status = AuditStatus.OK
             result.fix_suggestions = []
             result.issues = []
-            return result
-
-    # 解説改善・翻訳ニュアンスの指摘は ERROR → WARNING に降格
-    if result.status == AuditStatus.ERROR:
-        downgrade_keywords = [
-            "explanation", "too narrow", "too brief", "could be",
-            "style", "verbose", "nuance", "synonym",
-            "interpretation", "wording",
-        ]
-        issues_text = " ".join(result.issues).lower()
-        if any(kw in issues_text for kw in downgrade_keywords):
-            # 正解自体が間違っている場合は降格しない
-            critical_keywords = ["not in choices", "wrong correct answer", "grammar error"]
-            if not any(kw in issues_text for kw in critical_keywords):
-                logger.info("後処理: %s を WARNING に降格（解説/翻訳の改善提案）", result.question_id)
-                result.status = AuditStatus.WARNING
-                result.confidence = min(result.confidence, 0.85)
 
     return result
 
