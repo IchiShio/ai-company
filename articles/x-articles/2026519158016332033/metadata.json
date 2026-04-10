@@ -1,0 +1,20 @@
+{
+  "id": "2026519158016332033",
+  "likes": 40,
+  "theme": "「ハマってる」を英語で言える人は会話が続く。日常のよく詰まるフレーズ10選。",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "日本語「感情・状態」→英語フレーズ変換表（10語）"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "趣味の話を広げる会話フロー（"I'm so into it" からの展開例）"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "created_at": "2026-03-30",
+  "account": "@ichi_eigo"
+}

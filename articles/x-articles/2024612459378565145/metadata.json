@@ -1,0 +1,31 @@
+{
+  "tweet_id": "2024612459378565145",
+  "like_count": 157,
+  "created_at": "2026-03-30",
+  "topic": "語学才能論と接触時間",
+  "theme": "語学才能論は完全に間違い。CLT理論と接触時間で英語力を数値で語る。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "type": "接触時間と英語力の相関グラフ",
+      "description": "帰国子女 vs 独学 vs 学校英語の接触時間比較グラフ"
+    },
+    {
+      "file": "figure_2.svg",
+      "type": "1日30分×3年の積み上げタイムライン",
+      "description": "3ヶ月/6ヶ月/1年/2年/3年のマイルストーン付きタイムライン"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS",
+    "checked_at": "2026-03-30",
+    "claims_verified": 5,
+    "note": "「才能はほぼ関係ない」は一般向け簡略化として許容範囲内。接触時間は概算値として図内に明記。"
+  },
+  "article": {
+    "file": "article.md",
+    "char_count": 399,
+    "char_limit": 800
+  }
+}

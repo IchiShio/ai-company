@@ -1,0 +1,21 @@
+{
+  "tweet_id": "2025156043261817066",
+  "likes": 76,
+  "theme": "留学不要時代の英語環境構築",
+  "native_real_link": "/",
+  "date_created": "2026-03-30",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "caption": "留学 vs スマホ活用の1日の英語接触時間比較"
+    },
+    {
+      "file": "figure_2.svg",
+      "caption": "スマホで作る英語環境の7つのツール一覧"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "word_count": 436,
+  "word_limit": 800
+}

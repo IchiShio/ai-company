@@ -1,0 +1,38 @@
+{
+  "tweet_id": "2024250071886565617",
+  "like_count": 103,
+  "original_text": "「アウトプットが大事」と言われてもやり方がわからない人が多い。一番簡単なのは、目の前のものを英語で描写すること。赤いマグカップを見て"red mug"と言うだけでいい。これを毎日やると脳が英語で考える回路が育つ。",
+  "article_theme": "最も簡単なアウトプット習慣。「目の前のものを英語で描写する」だけで回路が育つ。",
+  "figures": [
+    {
+      "id": "fig1",
+      "filename": "scene-description-guide.svg",
+      "type": "scene_guide",
+      "description": "英語実況練習シーン別ガイド（通勤・食事・家事などのシーンと英語例文）"
+    },
+    {
+      "id": "fig2",
+      "filename": "habit-reinforcement-flow.svg",
+      "type": "flow_diagram",
+      "description": "描写→発話→習慣化の強化フロー（7段階）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_notes": "「英語で考える回路が育つ」は神経可塑性の通俗的表現として許容範囲内。DeKeyserの自動化理論で裏付け。",
+  "fact_check_sources": [
+    {
+      "claim": "繰り返しの産出練習が語彙アクセスを自動化し流暢さを高める",
+      "source": "DeKeyser, R. M. (2001). Automaticity and automatization. In P. Robinson (Ed.), Cognition and second language instruction (pp. 125-151). Cambridge University Press.",
+      "verified": true
+    },
+    {
+      "claim": "習慣ループ（合図→行動→報酬）で習慣が強化される",
+      "source": "Duhigg, C. (2012). The Power of Habit: Why We Do What We Do in Life and Business. Random House.",
+      "verified": true
+    }
+  ],
+  "native_real_link": "/",
+  "cta_text": "リスニングで英語実況の耳を鍛える →",
+  "article_word_count": 527,
+  "created_at": "2026-03-30"
+}

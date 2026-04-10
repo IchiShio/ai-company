@@ -1,0 +1,2025 @@
+{
+  "root": "part",
+  "rootMeaning": "部分・分ける",
+  "rootLang": "ラテン語 pars/partire（PIE *per-）",
+  "imageSchema": "ひとつの塊をナイフで切り分けるイメージ。パイを「部分」に切り分け、それぞれを「分け与える」動き。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "part（部分）は「切り分ける」の語根。depart（出発）は「分かれて去る」、partition（仕切り）は「分けて立てるもの」。partが見えたら「分ける・部分」と読み替えるだけで、6語が一気に理解できる。"
+  },
+  "words": [
+    {
+      "word": "depart",
+      "phonetic": "/dɪˈpɑːrt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "分ける・部分",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（離れて）+ partire（分ける）= 分かれて離れていく → 出発する",
+        "fact": "古フランス語 departir「分ける、分かれる」から。ラテン語 dispartire（分割する）が語源。13世紀初頭に「分離する、別れる」の意味で英語に入り、15世紀に「旅立つ、出発する」の意味に定着。もともとは「人と人が分かれる」という相互的な別れを意味していた。",
+        "source": "EtymOnline: depart",
+        "cognates": [
+          "departure",
+          "department",
+          "departed"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "今いる場所・集団から「分かれて離れていく」動き",
+        "fact": "SEPARATIONスキーマの典型。今いる場所や人々からde-（離れて）分かれる（part）動作。「出発する」は物理的な分離だが、「亡くなる」（the departed）も同じ空間的イメージで、この世との分離を指す。",
+        "source": "Johnson (1987) SEPARATIONスキーマ"
+      },
+      "gap": "「出発する」だけで覚えると、depart from the rules（規則から逸脱する）で詰まる。語源の「分かれて離れる」がわかれば、飛行機の出発も規則からの逸脱も同じイメージ。TOEICでは depart from Terminal 2 のように前置詞 from と頻出。",
+      "gapOneliner": "depart = 「出発する」も「逸脱する」も、何かから「分かれて離れる」こと",
+      "hook": {
+        "label": "記憶フック",
+        "text": "改札口で仲間と「分かれて(de)部分(part)になる」のがdepart（出発）。みんなと別れて自分だけの旅へ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "departの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分かれて離れていく→出発する",
+            "下に向かう→降りる",
+            "前に進む→前進する",
+            "一緒になる→到着する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + part の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "離れて + 分ける = 出発する",
+            "強く + 分ける = 分割する",
+            "下に + 分ける = 降格する",
+            "再び + 分ける = 再配分する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The train will ______ from Platform 3 at 9:00.",
+          "hint": "「分かれて離れていく」→「出発する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "depart",
+            "impart",
+            "depart from",
+            "partial"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "departと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "from（〜から出発する）",
+            "into（〜に出発する）",
+            "with（一緒に出発する）",
+            "against（〜に逆らって出発する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new policy departs significantly from tradition.\" — departsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "逸脱する",
+            "強化する",
+            "継承する",
+            "出発する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The flight departs at 6:45 AM."
+      ]
+    },
+    {
+      "word": "department",
+      "phonetic": "/dɪˈpɑːrtmənt/",
+      "toeicRank": "TSL 上位・TOEIC頻出",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "分ける・部分",
+          "type": "root"
+        },
+        {
+          "part": "ment",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（離れて）+ partire（分ける）+ ment（名詞化）= 分け離されたもの → 部門・部署",
+        "fact": "フランス語 département「分割されたもの」から。18世紀初頭に「分割された領域」の意味で英語に入り、フランス革命後（1790年）にフランスの行政区画名としても使われた。英語では19世紀に「会社・政府の分割された部署」の意味で広く定着。",
+        "source": "EtymOnline: department",
+        "cognates": [
+          "depart",
+          "departmental",
+          "interdepartmental"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "大きな組織から「分け離された」ひとつのまとまり",
+        "fact": "PARTITIONスキーマの応用。全体（会社・政府）をde-（切り離して）part（部分）にした結果として生まれる区画。デパートメントストア（百貨店）もまさに商品カテゴリごとに「分割された」売り場の集合体。",
+        "source": "Johnson (1987) CONTAINERスキーマ / PARTITIONスキーマ"
+      },
+      "gap": "TOEICでは the HR department / sales department のように職場の「部署」として頻出。また department store（デパート）の department も語源は同じ「分割された売り場」。覚え方は「会社をpartに分けた(de)もの」。",
+      "gapOneliner": "department = 大きな組織を「分け離した」ひとつの部門・部署",
+      "hook": {
+        "label": "記憶フック",
+        "text": "デパート（department store）は売り場が「分け(de)られた部分(part)」の集まり。それが department の本質。会社の部署も同じ「切り分けられたまとまり」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "departmentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分け離されたもの→部門",
+            "出発したもの→旅行部",
+            "前に進んだもの→開発部",
+            "一緒になったもの→合併"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + part + ment の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "離れて + 分ける + 名詞 = 分割された区画",
+            "下に + 進む + 名詞 = 地下部門",
+            "強く + 分ける + 名詞 = 重要部門",
+            "再び + 戻る + 名詞 = 復帰部門"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please send this request to the accounting ______.",
+          "hint": "「分け離されたまとまり」→「部署」",
+          "explanationFocus": "gap",
+          "choices": [
+            "department",
+            "partition",
+            "partial",
+            "departure"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "departmentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "head（部門長）",
+            "start（部門を始める）",
+            "walk（部門を歩く）",
+            "speak（部門を話す）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"That's not my department.\" — departmentのニュアンスは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "私の担当範囲ではない",
+            "私の部屋ではない",
+            "私の出発地ではない",
+            "私の専門知識ではない"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I work in the marketing department."
+      ]
+    },
+    {
+      "word": "particular",
+      "phonetic": "/pəˈtɪkjʊlər/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "部分",
+          "type": "root"
+        },
+        {
+          "part": "icul",
+          "meaning": "小さな（指小辞）",
+          "type": "infix"
+        },
+        {
+          "part": "ar",
+          "meaning": "形容詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "part（部分）+ icul（小さな）+ ar（形容詞）= 小さな個別の部分に関する → 特定の・特別な",
+        "fact": "ラテン語 particularis「個別の部分に関する」から。pars（部分）の指小形 particula（小さな部分、粒子）から派生。14世紀後半に「個別の事例に属する、特定の」で英語に入り、17世紀には「細かいことにこだわる、几帳面な」の意味にも。",
+        "source": "EtymOnline: particular",
+        "cognates": [
+          "particle",
+          "particularly",
+          "particulars",
+          "particulate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "全体から切り出した「小さな特定の部分」に焦点を当てる",
+        "fact": "FIGURE/GROUNDスキーマの応用。全体（地）の中から特定の小さな部分（図）を取り出して注目するイメージ。in particular（特に）は「全体の中でこの特定の部分を取り出すと」という意味。",
+        "source": "Johnson (1987) FIGURE/GROUNDスキーマ"
+      },
+      "gap": "「特定の」と「几帳面な」という2つの意味が別物に見えるが、どちらも「小さな部分にこだわる」のバリエーション。Be particular about details = 細部という小さな部分にこだわる。TOEICでは in particular（特に）の形が頻出。",
+      "gapOneliner": "particular = 「特定の」も「几帳面な」も、小さな部分に焦点を当てること",
+      "hook": {
+        "label": "記憶フック",
+        "text": "part（部分）の小さな粒（icul）。全体の中の「この一粒」に注目するのがparticular（特定の）。「この一粒だけ」にこだわれば、几帳面（particular）にもなる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "particularの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "小さな部分に関する→特定の",
+            "大きな全体に関する→一般的な",
+            "先に進む部分→特別に速い",
+            "強い部分→特に強い"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "part + icul + ar の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "部分 + 小さな + 形容詞 = 個別の特定の",
+            "進む + 素早い + 形容詞 = 特に速い",
+            "分ける + 強い + 形容詞 = 特に強力な",
+            "離れる + 細かい + 形容詞 = 詳細な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Is there a ______ reason you chose this model?",
+          "hint": "「小さな特定の部分」→「特定の」",
+          "explanationFocus": "gap",
+          "choices": [
+            "particular",
+            "partial",
+            "partition",
+            "particle"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「in ______」の形で「特に」を意味するのは？",
+          "explanationFocus": "hook",
+          "choices": [
+            "particular（in particular = 特に）",
+            "partial（in partial = 一部は）",
+            "part（in part = 一部は）",
+            "partition（in partition = 分割中に）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She's very particular about the way her coffee is made.\" — particularの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "細かいことにこだわる",
+            "特定の方法を知らない",
+            "いつも急いでいる",
+            "コーヒーが大好きな"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Do you have any particular preferences?"
+      ]
+    },
+    {
+      "word": "partial",
+      "phonetic": "/ˈpɑːrʃəl/",
+      "toeicRank": "TSL外・NGSL中級",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "部分",
+          "type": "root"
+        },
+        {
+          "part": "ial",
+          "meaning": "〜に関する（形容詞化）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "part（部分）+ ial（〜に関する）= 部分に関する → 部分的な・一方に偏った",
+        "fact": "ラテン語 partialis「部分的な」から。部分を意味する pars の形容詞形。14世紀後半に「全体ではなく部分に関する」で英語に入り、15世紀初頭に「一方の側（部分）だけを支持する」→「偏った、えこひいきをする」の意味にも。",
+        "source": "EtymOnline: partial",
+        "cognates": [
+          "partially",
+          "impartial",
+          "partiality"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "全体でなく「部分」だけを見る・支持する状態",
+        "fact": "PART/WHOLE スキーマの典型。全体（whole）を見ず、特定の部分（part）だけに注目・支持するイメージ。partial agreement（部分的合意）は全体でなく一部分だけの合意。partial to（〜が大好きな）は心の「一部分」がそちらに傾いた状態。",
+        "source": "Johnson (1987) PART-WHOLE スキーマ"
+      },
+      "gap": "「部分的な」と「偏った」と「〜が大好きな」の3つの意味が混乱しやすい。全て「全体の一部分に傾く」イメージ。I'm partial to jazz = ジャズに心が傾いている（大好き）。partial to の用法がTOEICより実生活・読解で頻出。",
+      "gapOneliner": "partial = 「部分的な」も「偏った」も「大好きな」も、全体でなく一部分に傾くこと",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ケーキを全部食べず「部分(part)的に」食べるのがpartial（部分的な）。「この部分だけが好き」なら偏り（partial）に。I'm partial to chocolate = チョコの部分だけに傾いている = 大好き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "partialの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "部分に関する→部分的な",
+            "出発に関する→一時的な",
+            "分割に関する→分断された",
+            "進行に関する→進行中の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "part + ial の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "部分 + 形容詞 = 全体でなく部分的な",
+            "進む + 形容詞 = 部分的に進む",
+            "分ける + 形容詞 = 完全に分けた",
+            "離れる + 形容詞 = 部分的に離れた"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The project was only a ______ success due to budget cuts.",
+          "hint": "「全体でなく部分的な」→「部分的な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "partial",
+            "particular",
+            "impartial",
+            "partition"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "partialと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "to（〜が大好きな / 〜に偏った）",
+            "from（〜から部分的に）",
+            "into（〜に部分的に）",
+            "over（〜より部分的に）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The judge was accused of being partial to the defendant.\" — partialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一方に偏った・えこひいきをした",
+            "部分的にしか見ていない",
+            "被告が大好きだった",
+            "部分的に有罪だった"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "We reached a partial agreement on the terms."
+      ]
+    },
+    {
+      "word": "partition",
+      "phonetic": "/pɑːrˈtɪʃən/",
+      "toeicRank": "TSL外・NGSL中級",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "分ける・部分",
+          "type": "root"
+        },
+        {
+          "part": "ition",
+          "meaning": "行為・結果（名詞化）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "partire（分ける）+ ition（行為・結果）= 分ける行為・分けた結果 → 仕切り・分割",
+        "fact": "ラテン語 partitionem「分割、区分け」の対格形から。14世紀後半に「分割すること」で英語に入り、15世紀に「分割によって生まれた区画」→「物理的な仕切り、間仕切り」の意味に。歴史用語としては朝鮮半島や旧インドの「分割」にも使われる。",
+        "source": "EtymOnline: partition",
+        "cognates": [
+          "part",
+          "partial",
+          "bipartition"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "空間や領域を「分ける行為」と「その結果としての仕切り」",
+        "fact": "CONTAINERスキーマとSEPARATIONスキーマの合成。ひとつの空間（容器）をpart-（分けて）ition（結果として）できた壁・区画のイメージ。コンピュータ用語の「パーティション」もハードディスクを「分割した区画」という意味で同根。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "名詞「仕切り・区画」と動詞「分割する」の両方で使う。オフィスのガラスの仕切りも、国の領土分割も、HDDの区画も全てpartition。TOEICのオフィス・施設系写真問題でpartition walls（間仕切り壁）が時々出る。",
+      "gapOneliner": "partition = 「分ける行為」そのものと「その結果できた仕切り」の両方",
+      "hook": {
+        "label": "記憶フック",
+        "text": "オープンオフィスに「部分(part)に分ける(ition)」壁を立てたのがpartition（仕切り）。部屋をpartに分けた結果がpartition。HDDのパーティションも同じ「分けた区画」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "partitionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分ける行為・結果→仕切り・分割",
+            "出発する行為→旅立ち",
+            "参加する行為→参加",
+            "進む行為→前進"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "part + ition の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "分ける + 行為・結果 = 分割・仕切り",
+            "部分 + 行動 = 部分的行動",
+            "離れる + 結果 = 出発の結果",
+            "参加 + 行為 = 参加行為"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We used a glass ______ to separate the meeting room from the lobby.",
+          "hint": "「分けた結果できるもの」→「仕切り」",
+          "explanationFocus": "gap",
+          "choices": [
+            "partition",
+            "department",
+            "particular",
+            "partial"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "partitionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "wall（仕切り壁）",
+            "door（仕切りドア）",
+            "window（仕切り窓）",
+            "floor（仕切り床）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The country was partitioned into two separate states after the war.\" — partitionedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分割された",
+            "統合された",
+            "占領された",
+            "解放された"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The office was divided by a glass partition."
+      ]
+    },
+    {
+      "word": "impart",
+      "phonetic": "/ɪmˈpɑːrt/",
+      "toeicRank": "TSL外・上級語彙",
+      "parts": [
+        {
+          "part": "im",
+          "meaning": "中へ（in の異形）",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "分ける・部分",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（中へ）+ partire（分ける）= 一部分を中に分け与える → 伝える・授ける",
+        "fact": "ラテン語 impartire「一部を分け与える」から。in-（中へ）と pars（部分）の組み合わせ。15世紀初頭に「自分の一部を与える、分かち合う」で英語に入り、17世紀に「知識・情報・性質を伝える・授ける」の意味に発展。フォーマルな文脈で好まれる語。",
+        "source": "EtymOnline: impart",
+        "cognates": [
+          "impartation",
+          "impartment"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分が持つものの「一部分」を相手の中に分け与える動き",
+        "fact": "TRANSFER スキーマとPART-WHOLE スキーマの合成。自分が持つ全体（知識・性質・情報）からpart（一部分）を取り出し、相手のim-（中へ）渡す動作。「教える」より格調高く、「知恵を授ける」に近いニュアンス。",
+        "source": "Johnson (1987) TRANSFERスキーマ"
+      },
+      "gap": "日常会話より書き言葉・フォーマルな場面で使われる。impart knowledge（知識を伝授する）/ impart a sense of urgency（緊急感を与える）/ impart flavor（風味を加える）のように、目に見えないものを「分け与える」時に特によく使う。",
+      "gapOneliner": "impart = 自分の知識・性質の「一部を中に分け与える」→伝授する・授ける",
+      "hook": {
+        "label": "記憶フック",
+        "text": "先生が自分の知識の「一部(part)を中に(im)分け与える(part)」のがimpart（伝授する）。知恵を「切り分けて渡す」イメージ。im（中に）+ part（部分）= 心の中に部分を渡す。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "impartの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一部を中に分け与える→伝える・授ける",
+            "中に入る部分→一部分になる",
+            "前に部分を出す→発表する",
+            "部分に反する→反対する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "im + part の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "中へ + 分ける = 一部を分け与える",
+            "強く + 分ける = 強制的に分割する",
+            "再び + 部分 = 再分配する",
+            "下に + 分ける = 格下げする"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The mentor hoped to ______ her wisdom to the next generation.",
+          "hint": "「一部を分け与える」→「伝授する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "impart",
+            "depart",
+            "apart",
+            "partial"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "impartと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "knowledge（知識を授ける）",
+            "money（お金を渡す）",
+            "building（建物を伝える）",
+            "travel（旅を分ける）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The spices impart a rich flavor to the dish.\" — impartの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "（風味を）与える・加える",
+            "（風味を）取り除く",
+            "（風味を）変化させる",
+            "（風味を）記録する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She imparted her knowledge to the young researchers."
+      ]
+    },
+    {
+      "word": "apartment",
+      "phonetic": "əˈpɑːrtmənt",
+      "toeicRank": "A",
+      "parts": [
+        {
+          "part": "a-",
+          "meaning": "～へ、分離",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分、分ける",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "名詞化、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "分けられた部屋という意味から、独立した住居空間を指す",
+        "fact": "17世紀フランス語「apartement」が語源。建物の一部が独立した生活空間として分割されたことに由来",
+        "source": "EtymOnline: apart (c.1300) + -ment",
+        "cognates": [
+          "apart",
+          "depart",
+          "compartment",
+          "impart"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "全体から「分けられた」部分が独立した住居ユニットになるイメージ",
+        "fact": "建築の発展とともに、複数の「分けられた」部屋を持つ建物が都市化で増加。個人の独立した生活空間としての概念が強化された",
+        "source": "言語人類学的視点"
+      },
+      "gap": "「分ける」という基本概念が「独立した居住空間」という具体的な物理的実体へと拡張される過程",
+      "gapOneliner": "抽象的な分割から具体的な建築物へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Apart(分かれた) + ment = 他の部屋から分かれた自分の部屋。友達の家を訪ねる時に『I live in an apartment』と言う"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "apartmentの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "アパート・集合住宅の一室",
+            "一軒家",
+            "ホテル",
+            "事務所"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "apartmentの『apart』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "分ける、離す",
+            "上へ",
+            "中へ",
+            "外へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "After graduation, she rented a small ______ in the city center.",
+          "hint": "独立した住居空間を指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "apartment",
+            "room",
+            "house",
+            "building"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "apartmentと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "rent an apartment",
+            "eat an apartment",
+            "break an apartment",
+            "grow an apartment"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She lives in a one-bedroom apartment near the station.\" — apartmentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "マンションの一室などの独立した住居",
+            "駅の構内",
+            "家具付きの倉庫",
+            "駐車スペース"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I just signed the lease for my new apartment.",
+        "The apartment has two bedrooms and a modern kitchen.",
+        "She saved money to buy an apartment downtown."
+      ]
+    },
+    {
+      "word": "compartment",
+      "phonetic": "kəmˈpɑːrtmənt",
+      "toeicRank": "B",
+      "parts": [
+        {
+          "part": "com-",
+          "meaning": "共に、一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分、分ける",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "名詞化、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "共に分けられた空間。より大きな空間を複数の部分に分割したもの",
+        "fact": "フランス語『compartiment』から派生。列車や船で異なる乗客グループを分ける為に使用される構造から発展",
+        "source": "EtymOnline: compartir (分ける) + -ment",
+        "cognates": [
+          "apart",
+          "partition",
+          "depart",
+          "bipartisan"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "大きな乗り物や空間の中で、仕切りによって『共に』『分けられた』小区間のイメージ",
+        "fact": "列車の発展とともに、乗客を管理するために一つの車両を複数の『分けられた』区間に分割する必要性から発展。階級制度を反映した設計",
+        "source": "交通機関の歴史"
+      },
+      "gap": "「共に分ける」という概念が、物理的に仕切られた独立した小空間を指すようになる過程",
+      "gapOneliner": "抽象的分割から実際の仕切られた部屋へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Com(共に) + part(分ける) = 列車の中で乗客が『共に分けられた』区間に乗っている。飛行機の荷物室も『cargo compartment』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "compartmentの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "仕切られた小区間、区画",
+            "外部の部屋",
+            "通路",
+            "窓"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "compartmentの『com-』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "共に、一緒に",
+            "反対に",
+            "下へ",
+            "中から"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The train has first-class and second-class ______ for different passengers.",
+          "hint": "列車の区間を指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "compartments",
+            "apartments",
+            "sections",
+            "halls"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "compartmentと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "passenger compartment",
+            "drink compartment",
+            "sleep compartment",
+            "walk compartment"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The car has a spacious trunk compartment for luggage.\" — compartmentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "仕切られた荷物入れの区間",
+            "車全体",
+            "車の装飾品",
+            "車の色"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The train compartment was occupied by several passengers.",
+        "She stored her valuables in the glove compartment of the car.",
+        "Each airplane seat has a storage compartment above it."
+      ]
+    },
+    {
+      "word": "departure",
+      "phonetic": "dɪˈpɑːrtʃər",
+      "toeicRank": "A",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "から、離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分、分ける",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "名詞化、行為・状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「～から分ける、離れる」という意味から、ある場所から出発することを指す",
+        "fact": "ラテン語『departire』から派生。14世紀から『ある場所から去ること』を意味するようになった",
+        "source": "EtymOnline: depart (c.1300) + -ure",
+        "cognates": [
+          "depart",
+          "apart",
+          "impart",
+          "rampart"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "ある場所から『離れる、分ける』という動作が名詞化された「出発」のイメージ",
+        "fact": "交通機関の発展とともに、特に飛行機や列車の『予定された出発時刻』を指すようになった。現代では時間管理の重要な概念",
+        "source": "現代交通用語の発展"
+      },
+      "gap": "「分ける・離れる」という抽象的動作が、具体的な『出発』という行為・イベントになる過程",
+      "gapOneliner": "離別から出発へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "De(から) + part(分ける) = 一つの場所『から』『分かれて』去ることが『出発』。空港で『Departure time: 10:00 AM』という表示を見る"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "departureの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "出発、出発時刻",
+            "到着",
+            "停車",
+            "延着"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "departureの『de-』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "から、離れて",
+            "中へ",
+            "上に",
+            "下に"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The flight ______ is scheduled for 3:00 PM tomorrow.",
+          "hint": "飛行機が発つ時刻",
+          "explanationFocus": "gap",
+          "choices": [
+            "departure",
+            "arrival",
+            "delay",
+            "cancellation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "departureと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "on time departure",
+            "comfortable departure",
+            "delicious departure",
+            "cold departure"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His departure from the company shocked everyone.\" — departureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "会社を去ること、退職",
+            "会社への出張",
+            "会社の成功",
+            "会社の拡大"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The train departure was delayed by thirty minutes.",
+        "What is the departure time for the morning flight?",
+        "His sudden departure from the meeting surprised everyone."
+      ]
+    },
+    {
+      "word": "impartial",
+      "phonetic": "ɪmˈpɑːrʃəl",
+      "toeicRank": "B",
+      "parts": [
+        {
+          "part": "im-",
+          "meaning": "～ない、否定",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分、偏る",
+          "type": "root"
+        },
+        {
+          "part": "-ial",
+          "meaning": "形容詞化、～的な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「一方に偏らない」という意味から、公平で偏見がない状態を指す",
+        "fact": "ラテン語『impartialis』から派生。『partial（一部の、偏った）』の否定形。15世紀から法律や司法の文脈で使用される",
+        "source": "EtymOnline: im- (not) + partial",
+        "cognates": [
+          "partial",
+          "impart",
+          "apart",
+          "bipartisan"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「偏らない、どちらかに『分けない』」という中立的態度のイメージ",
+        "fact": "法的正義の発展とともに、裁判官や陪審員が『両方の側に『分けない』公平な判断』をする必要性が強調された。民主主義社会での重要な価値観",
+        "source": "法律・政治用語の発展"
+      },
+      "gap": "「一部に分ける」という概念が『公平性・中立性』という抽象的道徳概念に拡張される過程",
+      "gapOneliner": "偏りなしへ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Im(ない) + partial(偏った) = 『どちらかに『偏った』ではない』= 公平。裁判官が『impartial』であることが正義の基本"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "impartialの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "公平な、中立的な",
+            "不完全な",
+            "一部の",
+            "分かれた"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "impartialの『im-』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "～ない、否定",
+            "中へ",
+            "共に",
+            "上へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "A judge must remain ______ and fair in all legal cases.",
+          "hint": "偏見のない、公平な",
+          "explanationFocus": "gap",
+          "choices": [
+            "impartial",
+            "partial",
+            "partial-minded",
+            "biased"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "impartialと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "impartial judgment",
+            "impartial emotion",
+            "impartial decoration",
+            "impartial taste"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The referee made an impartial decision despite the crowd's pressure.\" — impartialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "公平で偏見のない",
+            "人気のある",
+            "厳しい",
+            "不正な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The investigation was conducted in an impartial manner.",
+        "News outlets should strive to be impartial in their reporting.",
+        "As a jury member, you must remain impartial throughout the trial."
+      ]
+    },
+    {
+      "word": "participant",
+      "phonetic": "pɑːrˈtɪsɪpənt",
+      "toeicRank": "A",
+      "parts": [
+        {
+          "part": "parti-",
+          "meaning": "部分、参加する",
+          "type": "root"
+        },
+        {
+          "part": "-cip-",
+          "meaning": "取る、握る",
+          "type": "root"
+        },
+        {
+          "part": "-ant",
+          "meaning": "人、名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「部分に『取る』『参加する』」という意味から、活動に参加する人を指す",
+        "fact": "ラテン語『participans』から派生。『pars（部分）』と『capere（取る）』の組み合わせ。一部を『取って』参加することが語源",
+        "source": "EtymOnline: participate + -ant",
+        "cognates": [
+          "participate",
+          "participation",
+          "participant",
+          "partaker"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "活動の『一部を『取る』参加者』というイメージ。全体に対する個々の関与",
+        "fact": "民主的プロセスの発展とともに、『全員が一部を取って参加する』という概念が強化された。現代では教育やイベント参加の文脈で頻繁に使用",
+        "source": "教育・イベント用語の発展"
+      },
+      "gap": "「部分を取る」という具体的動作が「活動や組織への参加」という社会的概念に拡張される過程",
+      "gapOneliner": "部分獲得から参加へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Parti(部分) + cip(取る) + ant(人) = 『部分を『取る』人』= 参加者。会議で『All participants should attend』という表現"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "participantの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "参加者、参加人",
+            "観客",
+            "主催者",
+            "専門家"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "participantの語源『cip』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "取る、握る",
+            "分ける",
+            "歩く",
+            "飛ぶ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Every ______ in the study received a small compensation for their time.",
+          "hint": "実験や調査に参加する人",
+          "explanationFocus": "gap",
+          "choices": [
+            "participant",
+            "observer",
+            "organizer",
+            "supporter"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "participantと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "active participant",
+            "soft participant",
+            "quiet participant",
+            "hidden participant"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We need more participants for our volunteer program.\" — participantの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "プログラムに参加する人",
+            "プログラムを企画する人",
+            "プログラムを見学する人",
+            "プログラムのスポンサー"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "There were over 100 participants in the marathon.",
+        "Each participant received a certificate of completion.",
+        "We're looking for volunteer participants for the research project."
+      ]
+    },
+    {
+      "word": "participation",
+      "phonetic": "pɑːrtɪsɪˈpeɪʃən",
+      "toeicRank": "A",
+      "parts": [
+        {
+          "part": "parti-",
+          "meaning": "部分、参加する",
+          "type": "root"
+        },
+        {
+          "part": "-cip-",
+          "meaning": "取る、握る",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "名詞化、行為・状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「部分に『取る』『参加する』行為」という意味から、参加という行為や状態を指す",
+        "fact": "ラテン語『participatio』から派生。『participant』の名詞形として14世紀から使用される。社会参加の概念とともに発展",
+        "source": "EtymOnline: participate + -tion",
+        "cognates": [
+          "participate",
+          "participant",
+          "participation",
+          "partaker"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『一部を『取る』行為』という参加のプロセス。個人が全体に関わる状態",
+        "fact": "民主主義社会の発展とともに、『市民参加』『政治参加』『社会参加』など、個人が社会的決定に関わることの重要性が強調された",
+        "source": "民主主義理論の発展"
+      },
+      "gap": "「部分を取る」という具体的な行為が、社会・政治・教育などの広い領域での「参加」という抽象概念に拡張される過程",
+      "gapOneliner": "個別行為から社会的関与へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Parti(部分) + cip(取る) + tion(行為・状態) = 『部分を『取る』という行為・状態』= 参加。『student participation in class』で自分の役割を『取る』こと"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "participationの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "参加、参加行為",
+            "観察",
+            "主催",
+            "スポンサーシップ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "participationとparticipantの関係は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "participantは参加者で、participationは参加という行為・状態",
+            "同じ意味",
+            "反対の意味",
+            "関連がない"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Active ______ in class discussions improves your learning outcomes.",
+          "hint": "クラスに関わる行為",
+          "explanationFocus": "gap",
+          "choices": [
+            "participation",
+            "attendance",
+            "observation",
+            "listening"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "participationと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "community participation",
+            "dark participation",
+            "silent participation",
+            "negative participation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Voter participation in the election was higher than expected.\" — participationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "選挙に参加する人数・行為",
+            "投票所の場所",
+            "候補者の資格",
+            "選挙結果"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "High student participation leads to better learning outcomes.",
+        "Voter participation rates have been declining in recent years.",
+        "Your participation in this project is greatly appreciated."
+      ]
+    },
+    {
+      "word": "partnership",
+      "phonetic": "ˈpɑːrtnərʃɪp",
+      "toeicRank": "A",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "部分、分ける",
+          "type": "root"
+        },
+        {
+          "part": "-ner",
+          "meaning": "人、～者",
+          "type": "root"
+        },
+        {
+          "part": "-ship",
+          "meaning": "状態、関係",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「部分を『分ける』者たち」という意味から、共同で事業や活動を進める関係を指す",
+        "fact": "『partner』(部分を分ける者)と『-ship』(関係・状態)の組み合わせ。14世紀から商業や法的関係を指すようになった。共同経営の法的概念",
+        "source": "EtymOnline: partner + -ship",
+        "cognates": [
+          "partner",
+          "partaker",
+          "apart",
+          "impart"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「複数の人が『部分を『分ける』』関係」という協力と責任の共有イメージ",
+        "fact": "商業の発展とともに、複数人が『利益と責任を『分ける』』という法的枠組みが発展。現代ではビジネス、外交、教育など多くの領域で使用",
+        "source": "商業法・ビジネス用語の発展"
+      },
+      "gap": "「部分を分ける」という基本的行為が、「信頼と責任に基づく組織的関係」という複雑な社会概念に拡張される過程",
+      "gapOneliner": "部分分配から協力関係へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Part(部分) + ner(人) + ship(関係) = 『部分を『分ける』者たちの関係』= パートナーシップ。『business partnership』で利益と責任を分ける関係"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "partnershipの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "パートナーシップ、提携・協力関係",
+            "雇用契約",
+            "友情",
+            "家族関係"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "partnershipで『複数者が『分ける』』という概念は何を強調している？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "利益と責任の共有",
+            "不平等な配分",
+            "一方的な支配",
+            "秘密の取引"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The two companies announced a strategic ______ to develop new products together.",
+          "hint": "共同で進める協力関係",
+          "explanationFocus": "gap",
+          "choices": [
+            "partnership",
+            "competition",
+            "merger",
+            "division"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "partnershipと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "strategic partnership",
+            "silent partnership",
+            "false partnership",
+            "broken partnership"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Our organization values its partnership with local charities.\" — partnershipの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "チャリティー団体との協力・連携関係",
+            "チャリティー団体への寄付",
+            "チャリティー団体の監督",
+            "チャリティー団体との競争"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The partnership between the two firms was very successful.",
+        "We're looking for new partners to establish a long-term partnership.",
+        "Their partnership lasted over twenty years before they decided to part ways."
+      ]
+    },
+    {
+      "word": "particle",
+      "phonetic": "/ˈpɑːrtɪkl/",
+      "toeicRank": "TSL中位・科学/学術頻出",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "部分",
+          "type": "root"
+        },
+        {
+          "part": "icle",
+          "meaning": "小さいもの（指小辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "particula（小さな部分）= 物質の最小の断片 → 粒子",
+        "fact": "ラテン語 particula「小さな部分」から。pars（部分）の指小辞形。14世紀にフランス語経由で英語に入り、物理学の「素粒子」から文法の「助詞・不変化詞」まで幅広く使われる。",
+        "source": "EtymOnline: particle",
+        "cognates": [
+          "particular",
+          "part",
+          "partial",
+          "partition"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "小さな（-icle）部分（part）→ 粒子・微粒子",
+        "fact": "PART-WHOLEスキーマの極限。全体から分けた「最小の部分」。particle physics（素粒子物理学）は物質の究極の「部分」を研究する分野。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "particle は「粒子」だけでなく、a particle of truth（一片の真実）のように「ごく小さな断片」の比喩としても使われる。part（部分）の指小辞。",
+      "gapOneliner": "particle = 小さな(icle)部分(part) → 粒子。particular と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "part(部分) + icle(小さい) = 小さな部分 = 粒子。particular(特定の)も「一つの小さな部分」が語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "particleの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "小さな部分→粒子",
+            "大きな部分→塊",
+            "全体→集合体",
+            "分けること→分割"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Scientists discovered a new subatomic ______.",
+          "hint": "「小さな部分」→「粒子」",
+          "explanationFocus": "gap",
+          "choices": [
+            "particle",
+            "article",
+            "particular",
+            "partition"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Dust particles floated in the beam of sunlight."
+      ]
+    },
+    {
+      "word": "partisan",
+      "phonetic": "/ˈpɑːrtɪzæn/",
+      "toeicRank": "TSL中位・ニュース/政治頻出",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "部分・側",
+          "type": "root"
+        },
+        {
+          "part": "isan",
+          "meaning": "〜の側の人（名詞/形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "parte（側・党派）+ -igiano = ある側に属する人 → 党派的な",
+        "fact": "イタリア語 partigiano「党派の一員」から。ラテン語 pars, partis（部分・側）に由来。16世紀に「党派の支持者」として英語に入り、第二次世界大戦では「パルチザン（ゲリラ戦士）」としても使われた。",
+        "source": "EtymOnline: partisan",
+        "cognates": [
+          "part",
+          "partial",
+          "party",
+          "participate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "ある側（part）に属する人 → 党派的な・偏った",
+        "fact": "PART-WHOLEスキーマの片方に寄る動き。全体を見ず、一つの「部分（part）」にのみ属する立場。bipartisan（二党派の）は bi + partisan。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "partisan は「党派的な」。partisan politics（党派政治）が頻出。non-partisan = 無党派の。part（側）に属する人がコア。",
+      "gapOneliner": "partisan = ある側(part)に属する人 → 党派的な・偏った",
+      "hook": {
+        "label": "記憶フック",
+        "text": "part(側) + isan(の人) = ある側の人 = 党派的。bipartisan = 二党派の(両方の側)。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "partisanの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "ある側に属する→党派的な",
+            "全体を見る→包括的な",
+            "部分を分ける→分割する",
+            "部分を集める→統合する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The debate became increasingly ______ as the election approached.",
+          "hint": "「一方の側に偏る」→「党派的な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "partisan",
+            "partial",
+            "particular",
+            "participant"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The vote was split along partisan lines."
+      ]
+    },
+    {
+      "word": "counterpart",
+      "phonetic": "/ˈkaʊntərpɑːrt/",
+      "toeicRank": "TSL上位・ビジネス頻出",
+      "parts": [
+        {
+          "part": "counter",
+          "meaning": "対応する・向かい合う",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分・役割",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "counter（対応する）+ part（部分）= 対応する部分 → 対応するもの・同等の人",
+        "fact": "中世フランス語 contrepartie「対応する部分」から。counter-（対応する、向かい合う）+ part（部分）。15世紀に法律用語として「契約書の写し」の意味で英語に入り、「対応する人・もの」へ意味拡張。",
+        "source": "EtymOnline: counterpart",
+        "cognates": [
+          "part",
+          "partial",
+          "partition",
+          "partner"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "対応する（counter）部分（part）→ 対をなすもの・対応者",
+        "fact": "MIRROR（鏡像）スキーマ。向かい合わせの位置にある対応する「部分」。ビジネスでは同じ役職の他社/他国の人物を指す。",
+        "source": "Langacker (2008) MIRRORスキーマ"
+      },
+      "gap": "counterpart はTOEICビジネス頻出。Japanese counterpart = 日本側の担当者。counter（対応する）+ part（部分・役割）で「同じ役割を持つ対応者」。",
+      "gapOneliner": "counterpart = 対応する(counter)部分(part) → 対応者・同等のもの",
+      "hook": {
+        "label": "記憶フック",
+        "text": "counter(向かい合う) + part(役割) = 向かい合う同じ役割の人 = 対応者。my counterpart in the Tokyo office = 東京支社の私の対応者。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "counterpartの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "対応する部分→対応者",
+            "反対の部分→敵対者",
+            "余分な部分→余剰",
+            "欠けた部分→欠陥"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She met with her ______ from the London office.",
+          "hint": "「対応する役割の人」→「対応者」",
+          "explanationFocus": "gap",
+          "choices": [
+            "counterpart",
+            "partner",
+            "competitor",
+            "opponent"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The Japanese minister discussed trade issues with his American counterpart."
+      ]
+    },
+    {
+      "word": "apart",
+      "phonetic": "/əˈpɑːrt/",
+      "toeicRank": "TSL上位・NGSL収録",
+      "parts": [
+        {
+          "part": "a",
+          "meaning": "〜の方へ（ad- の短縮）",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分・離れた側",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "à part（別の側に）= 分かれた状態 → 離れて",
+        "fact": "フランス語 à part「別々に、脇に」から。ラテン語 ad partem「一方の側へ」に由来。14世紀に「分離した状態」を表す副詞として英語に入った。apart from（〜を除いて）の形でも頻出。",
+        "source": "EtymOnline: apart",
+        "cognates": [
+          "part",
+          "depart",
+          "apartment",
+          "partition"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "別の側（a + part）に → 離れて・分かれて",
+        "fact": "SEPARATION（分離）スキーマ。一つの全体が二つの「部分（part）」に分かれた状態。fall apart = 部分に分かれて崩壊する。tell apart = 区別する（分離を認識する）。",
+        "source": "Johnson (1987) SEPARATIONスキーマ"
+      },
+      "gap": "apart は簡単に見えて多くのイディオムで使われる。fall apart（崩壊する）、take apart（分解する）、apart from（〜を除いて）。すべて part（部分に分かれる）がコア。",
+      "gapOneliner": "apart = 部分(part)に分かれて → 離れて。fall apart, apart from の核",
+      "hook": {
+        "label": "記憶フック",
+        "text": "a(〜へ) + part(部分) = 部分に分かれた状態 = 離れて。fall apart = 部分に分かれて崩れる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "apartの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "部分に分かれて→離れて",
+            "部分を集めて→一緒に",
+            "部分を作って→建設して",
+            "部分を壊して→破壊して"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 2,
+          "instruction": "apartと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "fall apart（崩壊する）",
+            "apart sleep（離れ睡眠）",
+            "apart food（離れ食品）",
+            "apart color（離れ色）"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The two cities are about 200 kilometers apart."
+      ]
+    },
+    {
+      "word": "partake",
+      "phonetic": "/pɑːrˈteɪk/",
+      "toeicRank": "TSL中位・フォーマル用語",
+      "parts": [
+        {
+          "part": "part",
+          "meaning": "部分・分け前",
+          "type": "root"
+        },
+        {
+          "part": "take",
+          "meaning": "取る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "part（分け前）+ take（取る）= 分け前を取る → 参加する・共にする",
+        "fact": "中英語 part taken「分け前を取る」の逆成語（back-formation）。16世紀に一語として定着。participate のよりフォーマルな表現。partake in a meal = 食事を共にする、partake of a tradition = 伝統を受け継ぐ。",
+        "source": "EtymOnline: partake",
+        "cognates": [
+          "participate",
+          "part",
+          "partition",
+          "partial"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "分け前（part）を取る（take）→ 参加する・共有する",
+        "fact": "SHARING（共有）スキーマ。全体から自分の「部分（part）」を「取る（take）」動き。食事や活動を他者と分け合う行為。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "partake はフォーマルな「参加する」。part（分け前）+ take（取る）で理解しやすい。partake in the discussion = 議論に参加する。participate より格式高い。",
+      "gapOneliner": "partake = 分け前(part)を取る(take) → 参加する。participate よりフォーマル",
+      "hook": {
+        "label": "記憶フック",
+        "text": "part(分け前) + take(取る) = 分け前を取る = 参加する。Would you like to partake in the celebration? = お祝いに参加しませんか？"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "partakeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分け前を取る→参加する",
+            "部分を壊す→破壊する",
+            "部分を送る→配送する",
+            "部分を見る→観察する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Guests are invited to ______ in the reception dinner.",
+          "hint": "「分け前を取る」→「参加する・共にする」",
+          "explanationFocus": "gap",
+          "choices": [
+            "partake",
+            "participate",
+            "depart",
+            "impart"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "All employees are welcome to partake in the annual company picnic."
+      ]
+    },
+    {
+      "word": "bipartisan",
+      "phonetic": "/baɪˈpɑːrtɪzæn/",
+      "toeicRank": "TSL中位・ニュース/政治頻出",
+      "parts": [
+        {
+          "part": "bi",
+          "meaning": "二つの",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "側・党派",
+          "type": "root"
+        },
+        {
+          "part": "isan",
+          "meaning": "〜の側の人",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "bi（二つの）+ partisan（党派の）= 二党派の → 超党派の",
+        "fact": "bi-（二つの）+ partisan（党派的な）から。1894年にアメリカ英語で造語された。「二つの政党が協力する」の意味。bipartisan support = 超党派の支持。アメリカの二大政党制を前提とした語。",
+        "source": "EtymOnline: bipartisan",
+        "cognates": [
+          "partisan",
+          "part",
+          "partial",
+          "party"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "二つの（bi）党派（partisan）が共に → 超党派の",
+        "fact": "UNITY（統合）スキーマ。分かれた二つの「部分（part）」が一つの目的のために協力する動き。partisan（一方の側）の拡張。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "bipartisan はアメリカ政治ニュースの頻出語。bipartisan bill = 超党派の法案。bi（二つの）+ partisan（党派的な）で「両方の党派が支持する」。",
+      "gapOneliner": "bipartisan = 二つの(bi)党派(partisan)が協力 → 超党派の",
+      "hook": {
+        "label": "記憶フック",
+        "text": "bi(二つ) + partisan(党派) = 二党派の = 超党派。bipartisan agreement = 両党が合意した。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "bipartisanの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "二党派の→超党派の",
+            "一党派の→独裁的な",
+            "無党派の→中立の",
+            "多党派の→多元的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The bill received ______ support in Congress.",
+          "hint": "「二つの党派が共に」→「超党派の」",
+          "explanationFocus": "gap",
+          "choices": [
+            "bipartisan",
+            "partisan",
+            "partial",
+            "particular"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The infrastructure bill had strong bipartisan support."
+      ]
+    },
+    {
+      "word": "compartmentalize",
+      "phonetic": "/ˌkɒmpɑːrtˈmentəlaɪz/",
+      "toeicRank": "TSL中位・ビジネス/心理学頻出",
+      "parts": [
+        {
+          "part": "com",
+          "meaning": "共に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "part",
+          "meaning": "部分",
+          "type": "root"
+        },
+        {
+          "part": "ment",
+          "meaning": "〜すること",
+          "type": "suffix"
+        },
+        {
+          "part": "alize",
+          "meaning": "〜化する（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "compartment（区画）+ -alize = 区画に分ける → 区分けする・分離する",
+        "fact": "compartment（区画）+ -alize（〜化する）から。compartment はフランス語 compartiment（仕切り）に由来。20世紀に心理学で「感情や経験を別々の区画に分けて処理する」防衛機制の意味で広く使われるようになった。",
+        "source": "EtymOnline: compartment",
+        "cognates": [
+          "compartment",
+          "part",
+          "partition",
+          "apartment"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "区画（compartment）に分ける → 感情や情報を区分けする",
+        "fact": "CONTAINER（容器）スキーマの複数適用。一つの空間を複数の「区画（compartment）」に分ける操作。心理学では矛盾する信念を別の「箱」に入れて共存させる防衛機制。",
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ"
+      },
+      "gap": "compartmentalize は心理学・ビジネスの重要語。He compartmentalizes work and family.（仕事と家族を完全に分けている）。com + part（部分）+ ment = 区画に分ける。",
+      "gapOneliner": "compartmentalize = 区画(compartment)に分ける → 区分けする。心理学・ビジネス頻出",
+      "hook": {
+        "label": "記憶フック",
+        "text": "compartment(区画) + alize(化する) = 区画化する。仕事とプライベートを compartmentalize = 完全に区分けする。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "compartmentalizeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "区画に分ける→区分けする",
+            "区画を壊す→統合する",
+            "区画を作る→建設する",
+            "区画を集める→集約する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She learned to ______ her emotions to stay focused at work.",
+          "hint": "「区画に分ける」→「分離する・区分けする」",
+          "explanationFocus": "gap",
+          "choices": [
+            "compartmentalize",
+            "compromise",
+            "complement",
+            "compensate"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Effective leaders can compartmentalize stress and remain calm."
+      ]
+    }
+  ]
+}

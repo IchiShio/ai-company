@@ -1,0 +1,97 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="52" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">シャドーイング速度ビルドアップ — 正しいフロー</text>
+
+  <!-- Fail path label -->
+  <text x="220" y="118" text-anchor="middle" fill="#E0245E" font-size="20" font-weight="bold">よくある間違いパス</text>
+  <!-- Fail start box -->
+  <rect x="60" y="130" width="320" height="70" rx="10" fill="#FFF0F3" stroke="#E0245E" stroke-width="2"/>
+  <text x="220" y="162" text-anchor="middle" fill="#E0245E" font-size="20" font-weight="bold">いきなり音声スタート</text>
+  <text x="220" y="187" text-anchor="middle" fill="#657786" font-size="15">スクリプトなし・速度そのまま</text>
+
+  <!-- Fail arrow -->
+  <line x1="220" y1="200" x2="220" y2="255" stroke="#E0245E" stroke-width="2.5"/>
+  <polygon points="220,265 211,250 229,250" fill="#E0245E"/>
+
+  <!-- Fail result box -->
+  <rect x="60" y="265" width="320" height="70" rx="10" fill="#FFF0F3" stroke="#E0245E" stroke-width="2"/>
+  <text x="220" y="297" text-anchor="middle" fill="#E0245E" font-size="18" font-weight="bold">口が追いつかず崩れる</text>
+  <text x="220" y="322" text-anchor="middle" fill="#657786" font-size="15">誤発音パターンが定着</text>
+
+  <!-- Fail arrow 2 -->
+  <line x1="220" y1="335" x2="220" y2="390" stroke="#E0245E" stroke-width="2.5"/>
+  <polygon points="220,400 211,385 229,385" fill="#E0245E"/>
+
+  <!-- Fail outcome -->
+  <rect x="60" y="400" width="320" height="90" rx="10" fill="#FFEBEE" stroke="#E0245E" stroke-width="2"/>
+  <text x="220" y="435" text-anchor="middle" fill="#E0245E" font-size="20" font-weight="bold">効果: 低</text>
+  <text x="220" y="460" text-anchor="middle" fill="#14171A" font-size="15">何ヶ月やっても</text>
+  <text x="220" y="480" text-anchor="middle" fill="#14171A" font-size="15">なぜか上手くならない</text>
+
+  <!-- VS divider -->
+  <line x1="440" y1="100" x2="440" y2="610" stroke="#AAB8C2" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="440" y="380" text-anchor="middle" fill="#AAB8C2" font-size="28" font-weight="bold" transform="rotate(-90 440 380)">vs</text>
+
+  <!-- Correct path label -->
+  <text x="820" y="118" text-anchor="middle" fill="#17BF63" font-size="20" font-weight="bold">正しいパス（速度ビルドアップ）</text>
+
+  <!-- Step A: スクリプト確認 -->
+  <rect x="460" y="130" width="680" height="70" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="460" y="130" width="130" height="70" rx="10" fill="#1DA1F2"/>
+  <rect x="560" y="130" width="30" height="70" fill="#1DA1F2"/>
+  <text x="525" y="162" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">STEP 1</text>
+  <text x="525" y="184" text-anchor="middle" fill="#FFFFFF" font-size="14">スクリプト確認</text>
+  <text x="770" y="158" text-anchor="middle" fill="#14171A" font-size="17">意味・発音・アクセントを全確認</text>
+  <text x="770" y="181" text-anchor="middle" fill="#657786" font-size="14">「未知の音」をゼロにしてから始める</text>
+
+  <!-- Arrow -->
+  <line x1="800" y1="200" x2="800" y2="225" stroke="#657786" stroke-width="2"/>
+  <polygon points="800,235 791,220 809,220" fill="#657786"/>
+
+  <!-- Step B: スロー音読 -->
+  <rect x="460" y="235" width="680" height="70" rx="10" fill="#FFFFFF" stroke="#17BF63" stroke-width="2.5"/>
+  <rect x="460" y="235" width="130" height="70" rx="10" fill="#17BF63"/>
+  <rect x="560" y="235" width="30" height="70" fill="#17BF63"/>
+  <text x="525" y="267" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">STEP 2</text>
+  <text x="525" y="289" text-anchor="middle" fill="#FFFFFF" font-size="14">スロー音読</text>
+  <text x="770" y="263" text-anchor="middle" fill="#14171A" font-size="17">70〜80%速度で音読 × 3回</text>
+  <text x="770" y="286" text-anchor="middle" fill="#657786" font-size="14">口の筋肉が正確に動く速度を守る</text>
+
+  <!-- Arrow -->
+  <line x1="800" y1="305" x2="800" y2="330" stroke="#657786" stroke-width="2"/>
+  <polygon points="800,340 791,325 809,325" fill="#657786"/>
+
+  <!-- Step C: 速度UP -->
+  <rect x="460" y="340" width="680" height="70" rx="10" fill="#FFFFFF" stroke="#F5A623" stroke-width="2.5"/>
+  <rect x="460" y="340" width="130" height="70" rx="10" fill="#F5A623"/>
+  <rect x="560" y="340" width="30" height="70" fill="#F5A623"/>
+  <text x="525" y="372" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">STEP 3</text>
+  <text x="525" y="394" text-anchor="middle" fill="#FFFFFF" font-size="14">速度UP</text>
+  <text x="770" y="368" text-anchor="middle" fill="#14171A" font-size="17">90% → 100% へ段階的に上げる</text>
+  <text x="770" y="391" text-anchor="middle" fill="#657786" font-size="14">崩れたら一段階戻す（崩れは速すぎのサイン）</text>
+
+  <!-- Arrow -->
+  <line x1="800" y1="410" x2="800" y2="435" stroke="#657786" stroke-width="2"/>
+  <polygon points="800,445 791,430 809,430" fill="#657786"/>
+
+  <!-- Step D: 本番シャドーイング -->
+  <rect x="460" y="445" width="680" height="70" rx="10" fill="#FFFFFF" stroke="#E0245E" stroke-width="2.5"/>
+  <rect x="460" y="445" width="130" height="70" rx="10" fill="#E0245E"/>
+  <rect x="560" y="445" width="30" height="70" fill="#E0245E"/>
+  <text x="525" y="477" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">STEP 4</text>
+  <text x="525" y="499" text-anchor="middle" fill="#FFFFFF" font-size="14">本番シャドー</text>
+  <text x="770" y="473" text-anchor="middle" fill="#14171A" font-size="17">正常速度でシャドーイング実施</text>
+  <text x="770" y="496" text-anchor="middle" fill="#657786" font-size="14">録音して聞き返し → 次回改善点を記録</text>
+
+  <!-- Correct outcome -->
+  <rect x="460" y="540" width="680" height="55" rx="10" fill="#E6F4EA" stroke="#17BF63" stroke-width="2"/>
+  <text x="800" y="565" text-anchor="middle" fill="#17BF63" font-size="18" font-weight="bold">効果: 高（同じ時間で約3倍の習得率）</text>
+  <text x="800" y="585" text-anchor="middle" fill="#14171A" font-size="14">正確なパターンが筋肉記憶に定着する</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "post_id": "2028402180244361676",
+  "likes": 62,
+  "theme": "完璧な文より「速度」を先に鍛える。英語実況で翻訳脳を壊す学習法。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "翻訳型思考 vs 実況型思考の処理フロー比較",
+      "description": "日本人に多い翻訳型（日→英変換プロセス）とネイティブ的な実況型（直結回路）の処理ステップを左右で対比"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "英語実況トレーニングの難易度別ステップ（初級→中級→上級）",
+      "description": "静止物の実況（初級）→動作・状況の実況（中級）→思考の実況（上級）の3段階ステアケース型図解"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_result": "PASS",
+  "word_count": 385,
+  "created_at": "2026-03-30",
+  "tags": ["英語学習", "翻訳脳", "実況学習", "スピーキング", "SLA"]
+}

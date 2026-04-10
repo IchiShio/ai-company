@@ -1,0 +1,2041 @@
+[
+  {
+    "id": "R001",
+    "rule": "accept と except の区別",
+    "rule_en": "Accept vs. Except",
+    "diff": "lv3",
+    "axes": [
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "accept = 動詞（受け取る・同意する）/ except = 前置詞（〜を除いて）",
+    "correct_example": "He accepted their praise graciously. / Everyone went to the game except Alyson.",
+    "common_errors": [
+      {
+        "wrong": "Everyone went to the game accept Alyson.",
+        "why": "acceptは動詞であり前置詞として使えない"
+      },
+      {
+        "wrong": "She excepted the invitation.",
+        "why": "exceptは前置詞であり動詞として使う場合は意味が異なる"
+      }
+    ],
+    "key_signal": "後に名詞が続いて「〜を除いて」の意味ならexcept、「受け取る・同意する」の動詞ならaccept",
+    "sources": [
+      "Purdue OWL: Spelling: Common Words that Sound Alike"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R002",
+    "rule": "affect と effect の区別（RAVEN）",
+    "rule_en": "Affect vs. Effect",
+    "diff": "lv3",
+    "axes": [
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "affect = 動詞（影響する）/ effect = 名詞（結果・影響）/ effect = 動詞（もたらす）は例外",
+    "correct_example": "Will lack of sleep affect your game? / Will lack of sleep have an effect on your game?",
+    "common_errors": [
+      {
+        "wrong": "Will lack of sleep effect your game?",
+        "why": "effectを動詞として使う場合は「もたらす」の意味で、「影響する」ではない"
+      },
+      {
+        "wrong": "The affect of stress is significant.",
+        "why": "affectは動詞なので名詞位置には使えない"
+      }
+    ],
+    "key_signal": "RAVEN: Remember Affect is a Verb and Effect is a Noun",
+    "sources": [
+      "Purdue OWL: Spelling: Common Words that Sound Alike"
+    ],
+    "verified": true,
+    "media_examples": [
+      "\"So my gut feel is that you'll see more of an impact of this in the petrol pumps than you will in bills.\" (BBC News)",
+      "\"Nothing in and of itself will fix this but these activities will bring prices down. (BBC News)",
+      "They won't isolate the UK - we're part of a global system - but they will bring prices down.\" (BBC News)"
+    ]
+  },
+  {
+    "id": "R003",
+    "rule": "advise と advice の区別",
+    "rule_en": "Advise vs. Advice",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "vocab"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic"
+    ],
+    "cefr": "A2",
+    "pattern": "advise = 動詞（勧める・助言する）/ advice = 名詞（助言・意見）",
+    "correct_example": "I advise you to be cautious. / I'd like to ask for your advice on this matter.",
+    "common_errors": [
+      {
+        "wrong": "Can you advice me?",
+        "why": "adviceは名詞なので動詞位置には使えない"
+      },
+      {
+        "wrong": "She gave me an advise.",
+        "why": "advise は動詞であり名詞ではない。名詞形は advice"
+      }
+    ],
+    "key_signal": "動詞ならadvise（末尾-ise）、名詞ならadvice（末尾-ice）",
+    "sources": [
+      "Purdue OWL: Spelling: Common Words that Sound Alike"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R004",
+    "rule": "conscious と conscience の区別",
+    "rule_en": "Conscious vs. Conscience",
+    "diff": "lv3",
+    "axes": [
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "conscious = 形容詞（意識がある・気づいている）/ conscience = 名詞（良心）",
+    "correct_example": "Despite a head injury, the patient remained conscious. / Chris wouldn't cheat because his conscience wouldn't let him.",
+    "common_errors": [
+      {
+        "wrong": "His conscience was still conscious after surgery.",
+        "why": "conscious（形容詞）とconscience（名詞）の品詞と意味の混同"
+      },
+      {
+        "wrong": "She acted against her conscious.",
+        "why": "consciousは形容詞であり名詞として使えない。名詞はconscience"
+      }
+    ],
+    "key_signal": "「良心」の意味ならconscience（名詞）、「意識がある」ならconscious（形容詞）",
+    "sources": [
+      "Purdue OWL: Spelling: Common Words that Sound Alike"
+    ],
+    "verified": true,
+    "media_examples": [
+      "ForCharlotte Ivers in the Times, despite the spoof skincare ad raising a smile, \"the spark is not there yet\". (BBC News)",
+      "Many viewers appear to treat the avatars as real, despite their unrealistic features. (BBC News)",
+      "Despite their perilous position, Passmoor believes Lehmann has made a positive impact and backs up how his striker perceives herself. (BBC News)"
+    ]
+  },
+  {
+    "id": "R005",
+    "rule": "数字を単語で書く基準（1〜2語）",
+    "rule_en": "Writing Numbers: Spell out one or two word numbers",
+    "diff": "lv3",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "toeic",
+      "eiken2"
+    ],
+    "cefr": "B1",
+    "pattern": "1〜2語で表せる数字はスペルアウト、3語以上の数字は数字（アラビア数字）で書く",
+    "correct_example": "over two pounds / six million dollars / after 126 days / only $31.50",
+    "common_errors": [
+      {
+        "wrong": "after 31 years",
+        "why": "thirty-oneは2語なのでスペルアウトが原則"
+      },
+      {
+        "wrong": "one hundred twenty six days",
+        "why": "126のように3語以上になる場合は数字で表す"
+      }
+    ],
+    "key_signal": "その数字を英語で書いたとき何語になるか確認し、1〜2語ならスペルアウト",
+    "sources": [
+      "Purdue OWL: Writing Numbers"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R006",
+    "rule": "文頭の数字は必ずスペルアウト",
+    "rule_en": "Write out numbers beginning sentences",
+    "diff": "lv3",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "toeic",
+      "eiken2"
+    ],
+    "cefr": "B1",
+    "pattern": "文の先頭に数字を置く場合は必ずスペルアウト（アラビア数字は不可）",
+    "correct_example": "Six percent of the group failed.",
+    "common_errors": [
+      {
+        "wrong": "6% of the group failed.",
+        "why": "文頭にアラビア数字・記号を置くことはできない"
+      }
+    ],
+    "key_signal": "文の最初の単語が数字になる場合は必ずスペルアウトする",
+    "sources": [
+      "Purdue OWL: Writing Numbers"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R007",
+    "rule": "同一文中の数字の一貫性",
+    "rule_en": "Numbers in series should be consistent",
+    "diff": "lv4",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "toeic",
+      "eiken2"
+    ],
+    "cefr": "B2",
+    "pattern": "同一文または同一文脈内の数字は、アラビア数字かスペルアウトかを統一する",
+    "correct_example": "two apples, six oranges, and three bananas",
+    "common_errors": [
+      {
+        "wrong": "two apples, 6 oranges, and 3 bananas",
+        "why": "同じ文脈で数字の表記形式が混在している"
+      }
+    ],
+    "key_signal": "シリーズや統計の数字は表記スタイルを揃える",
+    "sources": [
+      "Purdue OWL: Writing Numbers"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R008",
+    "rule": "形容詞の基本：名詞を修飾する",
+    "rule_en": "Adjectives modify nouns",
+    "diff": "lv1",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "eiken4",
+      "eiken3",
+      "juken"
+    ],
+    "cefr": "A1",
+    "pattern": "形容詞は名詞を修飾し、What kind? / Which? / How many? という問いに答える",
+    "correct_example": "I ate an enormous meal. / The tall girl is riding her bike. / Fifteen students passed the exam.",
+    "common_errors": [
+      {
+        "wrong": "She ate her lunch quick.",
+        "why": "quickは形容詞なので動詞(ate)を修飾できない。副詞quicklyを使う必要がある"
+      },
+      {
+        "wrong": "He is a quietly man.",
+        "why": "quietlyは副詞なので名詞(man)を修飾できない。形容詞quietを使う"
+      }
+    ],
+    "key_signal": "修飾対象が名詞なら形容詞、動詞・形容詞・副詞なら副詞を使う",
+    "sources": [
+      "Purdue OWL: Adjective or Adverb",
+      "Purdue OWL: Adjective or Adverb?"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R009",
+    "rule": "副詞の基本：動詞・形容詞・副詞を修飾する",
+    "rule_en": "Adverbs modify verbs, adjectives, and other adverbs",
+    "diff": "lv1",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "eiken4",
+      "eiken3",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "副詞は動詞・形容詞・他の副詞を修飾する。多くの副詞は形容詞に-lyを付けて形成される",
+    "correct_example": "Richard talks carelessly. / Priya was extremely happy.",
+    "common_errors": [
+      {
+        "wrong": "I have a happily dog.",
+        "why": "happilyは副詞なので名詞(dog)を修飾できない。形容詞happyを使う"
+      },
+      {
+        "wrong": "She ate her lunch quick.",
+        "why": "quickは形容詞。動詞を修飾するには副詞quicklyが必要"
+      }
+    ],
+    "key_signal": "動詞を修飾しているかどうかを確認し、副詞が必要かチェックする",
+    "sources": [
+      "Purdue OWL: Adjective or Adverb?"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
+    ]
+  },
+  {
+    "id": "R010",
+    "rule": "be動詞・感覚動詞の後は形容詞",
+    "rule_en": "Adjective follows be-verbs and sense verbs",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "trap"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "be動詞および feel/taste/smell/sound/look/appear/seem の後に来て名詞を修飾するのは形容詞",
+    "correct_example": "I was nervous. / Sharon's cough sounds bad. / Castor oil tastes awful. / The ocean air smells fresh.",
+    "common_errors": [
+      {
+        "wrong": "The dog smells badly.",
+        "why": "badlyは副詞で「においをかぐのが下手」という意味になる。外見・感覚を表すsmellの後は形容詞badが正しい"
+      },
+      {
+        "wrong": "She seems unhappily today.",
+        "why": "seemの後は形容詞が来るのでunhappyが正しい"
+      }
+    ],
+    "key_signal": "feel/taste/smell/sound/look/appear/seem/be の後に主語の状態を述べるなら形容詞",
+    "sources": [
+      "Purdue OWL: Adjective or Adverb",
+      "Purdue OWL: Avoiding Common Errors",
+      "Purdue OWL: Adjective or Adverb?"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
+    ]
+  },
+  {
+    "id": "R011",
+    "rule": "bad と badly の使い分け",
+    "rule_en": "Bad or Badly?",
+    "diff": "lv3",
+    "axes": [
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "感覚動詞(feel/smell等)の後は形容詞bad。動作動詞の後は副詞badly",
+    "correct_example": "I feel bad. (体調が悪い) / The dog smells bad. (犬が臭い) / She plays football badly. (下手にプレーする)",
+    "common_errors": [
+      {
+        "wrong": "I feel badly.",
+        "why": "「触覚機能が低下している」という意味になり、「気分が悪い」の意味にならない"
+      },
+      {
+        "wrong": "The dog smells badly.",
+        "why": "「犬のにおいをかぐ能力が低い」という意味になる"
+      }
+    ],
+    "key_signal": "feelの後に体調・感情を述べるなら形容詞bad。動作の質を述べるなら副詞badly",
+    "sources": [
+      "Purdue OWL: Avoiding Common Errors"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R012",
+    "rule": "good と well の使い分け",
+    "rule_en": "Good or Well?",
+    "diff": "lv3",
+    "axes": [
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "goodは形容詞（名詞・感覚動詞後）、wellは副詞（動作動詞後）",
+    "correct_example": "My mother looks good. / I feel really good today. / I did well on my exam. / She plays tennis well.",
+    "common_errors": [
+      {
+        "wrong": "She did good on her exam.",
+        "why": "doは動作動詞なので副詞wellが必要"
+      },
+      {
+        "wrong": "I feel well today. (健康の意味で)",
+        "why": "感覚動詞feelの後に健康・幸福を表す場合は形容詞goodが自然"
+      }
+    ],
+    "key_signal": "動作動詞（do/play等）の後はwell、感覚動詞・be動詞の後はgood",
+    "sources": [
+      "Purdue OWL: Avoiding Common Errors"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R013",
+    "rule": "sure と surely の使い分け",
+    "rule_en": "Sure or Surely?",
+    "diff": "lv3",
+    "axes": [
+      "form",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "sureは形容詞（名詞・主語を修飾）、surelyは副詞（動詞や文全体を修飾）",
+    "correct_example": "He is sure about his answer. / The Senator spoke out surely. / Surely, you're joking.",
+    "common_errors": [
+      {
+        "wrong": "He answered sure.",
+        "why": "動詞answeredを修飾するには副詞surelyが必要"
+      },
+      {
+        "wrong": "Surely he is surely correct.",
+        "why": "be動詞の後の述語は形容詞sureが正しい"
+      }
+    ],
+    "key_signal": "主語の状態を説明するならsure（形容詞）、動詞や文全体を修飾するならsurely（副詞）",
+    "sources": [
+      "Purdue OWL: Avoiding Common Errors"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R014",
+    "rule": "可算名詞と不可算名詞：much vs. many",
+    "rule_en": "Much modifies uncountable nouns; Many modifies countable nouns",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "vocab"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "much + 不可算名詞 / many + 可算名詞",
+    "correct_example": "They have so much money in the bank. / Many Americans travel to Europe.",
+    "common_errors": [
+      {
+        "wrong": "She wears so much rings.",
+        "why": "ringsは可算名詞（複数形）なのでmanyが正しい"
+      },
+      {
+        "wrong": "You deserve many rest.",
+        "why": "restは不可算名詞なのでmuchが正しい"
+      }
+    ],
+    "key_signal": "名詞に数字をつけられるか試す。つけられれば可算名詞でmany、つけられなければ不可算名詞でmuch",
+    "sources": [
+      "Purdue OWL: How to Use Adjectives and Adverbs"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
+    ]
+  },
+  {
+    "id": "R015",
+    "rule": "不定冠詞 a vs. an：音に基づく選択",
+    "rule_en": "A versus An: based on phonetic quality",
+    "diff": "lv1",
+    "axes": [
+      "form",
+      "trap"
+    ],
+    "tags": [
+      "eiken4",
+      "eiken3",
+      "juken"
+    ],
+    "cefr": "A1",
+    "pattern": "次の語が母音の音で始まるならan、子音の音で始まるならa（綴りではなく音で判断）",
+    "correct_example": "an apricot / an egg / an Indian / a cat / a dog / an honorable peace / a union / a unicorn",
+    "common_errors": [
+      {
+        "wrong": "a honest error",
+        "why": "honestの頭のhは発音されないため母音音で始まり、anが正しい"
+      },
+      {
+        "wrong": "an union",
+        "why": "unionの頭はyの音（子音）なのでaが正しい"
+      },
+      {
+        "wrong": "an one-legged man",
+        "why": "oneの頭はwの音（子音）なのでaが正しい"
+      }
+    ],
+    "key_signal": "綴りではなく発音で判断する。サイレントhの語はan、u/oが子音音で始まる語はa",
+    "sources": [
+      "Purdue OWL: Articles: A versus An"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R016",
+    "rule": "定冠詞 the と不定冠詞 a/an の使い分け",
+    "rule_en": "Definite article the vs. indefinite article a/an",
+    "diff": "lv2",
+    "axes": [
+      "logic",
+      "vocab"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "the = 特定・既知のもの（定冠詞）/ a/an = 不特定・任意のもの（不定冠詞）",
+    "correct_example": "Let's read the book. (特定の本) / Let's read a book. (どれかの本) / I just saw the most popular movie of the year.",
+    "common_errors": [
+      {
+        "wrong": "Somebody call the policeman!",
+        "why": "特定の警官を指しているのでなければaが正しい"
+      },
+      {
+        "wrong": "I want to see a most popular movie.",
+        "why": "最上級で特定された1つのものにはtheが必要"
+      }
+    ],
+    "key_signal": "読者・話し手が同じものを指していると分かる（特定）ならthe、分からない（不特定）ならa/an",
+    "sources": [
+      "Purdue OWL: Using Articles"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R017",
+    "rule": "同格語（アポジティブ）の基本",
+    "rule_en": "Appositives: noun set beside another noun to explain or identify it",
+    "diff": "lv4",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "eiken2",
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "B2",
+    "pattern": "名詞または代名詞の直後（または直前）に置かれ、その名詞を説明・同定する名詞句",
+    "correct_example": "Your friend Bill is in trouble. / My brother's car, a sporty red convertible with bucket seats, is the envy of my friends.",
+    "common_errors": [
+      {
+        "wrong": "My brother's car a sporty red convertible is the envy of my friends.",
+        "why": "非制限的同格語（なくても意味が通る）にはコンマが必要"
+      },
+      {
+        "wrong": "The, president, John Kennedy, was known for his speeches.",
+        "why": "制限的同格語（ないと誰か分からない）にはコンマ不要"
+      }
+    ],
+    "key_signal": "同格語なしで文の意味が完結するならコンマあり（非制限）、なしでは不明確ならコンマなし（制限）",
+    "sources": [
+      "Purdue OWL: Appositives"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R018",
+    "rule": "同格語のコンマ：制限的vs非制限的",
+    "rule_en": "Punctuation of appositives: restrictive vs. non-restrictive",
+    "diff": "lv4",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "eiken2",
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "B2",
+    "pattern": "同格語が文の意味に必須（制限的）→コンマなし / 同格語がなくても意味が通る（非制限的）→コンマあり",
+    "correct_example": "The popular US president John Kennedy was known for his speeches. (制限的) / John Kennedy, the popular US president, was known for his speeches. (非制限的)",
+    "common_errors": [
+      {
+        "wrong": "The popular US president, John Kennedy, was known for his speeches.",
+        "why": "「どの大統領か」を特定する情報なのでコンマは不要（制限的）"
+      },
+      {
+        "wrong": "John Kennedy the popular US president was known for his speeches.",
+        "why": "John Kennedyだけで特定できるためコンマが必要（非制限的）"
+      }
+    ],
+    "key_signal": "同格語を取り除いて文の意味が通るか・誰のことか分かるかを確認する",
+    "sources": [
+      "Purdue OWL: Appositives"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
+    ]
+  },
+  {
+    "id": "R019",
+    "rule": "前置詞 on/at/in：時間の使い分け",
+    "rule_en": "Prepositions for Time: on, at, in",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "vocab"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "on + 曜日 / at + 時刻・noon・night・midnight / in + 午前午後・月・年・季節",
+    "correct_example": "I will see you on Monday. / My plane leaves at noon. / He likes to read in the afternoon. / The book was published in 1999. / The flowers will bloom in spring.",
+    "common_errors": [
+      {
+        "wrong": "I will see you in Monday.",
+        "why": "曜日にはonを使う"
+      },
+      {
+        "wrong": "The movie starts on 6 p.m.",
+        "why": "時刻にはatを使う"
+      },
+      {
+        "wrong": "The days are long on August.",
+        "why": "月にはinを使う"
+      }
+    ],
+    "key_signal": "曜日→on、時刻・noon/night→at、月・年・季節・時間帯→in",
+    "sources": [
+      "Purdue OWL: Prepositions"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
+    ]
+  },
+  {
+    "id": "R020",
+    "rule": "前置詞 at/on/in：場所の使い分け",
+    "rule_en": "Prepositions of Location: at (point), on (surface), in (area/volume)",
+    "diff": "lv2",
+    "axes": [
+      "logic",
+      "vocab"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "at = 点（一般的な場所・地点）/ on = 面（表面）/ in = 面積・体積（内部に含まれる）",
+    "correct_example": "My car is at the house. / There is a new roof on the house. / The house is in Tippecanoe county. / There is a wasp in the house.",
+    "common_errors": [
+      {
+        "wrong": "She is in the bus stop.",
+        "why": "バス停は点なのでatが正しい"
+      },
+      {
+        "wrong": "There is a book at the table.",
+        "why": "表面に置かれているのでonが正しい"
+      },
+      {
+        "wrong": "He lives on Japan.",
+        "why": "国・地域の内部を示すにはinが正しい"
+      }
+    ],
+    "key_signal": "点的な場所→at、表面→on、内部・区域→in",
+    "sources": [
+      "Purdue OWL: Prepositions of Location: At, In, On"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R021",
+    "rule": "前置詞 since/for/by/during：継続時間の表現",
+    "rule_en": "Prepositions for Extended Time: since, for, by, during, within",
+    "diff": "lv3",
+    "axes": [
+      "tense",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "since + 起点 / for + 期間 / during + 期間名詞 / within + 期限",
+    "correct_example": "She has been gone since yesterday. / I'm going to Paris for two weeks. / I watch TV during the evening. / We must finish the project within a year.",
+    "common_errors": [
+      {
+        "wrong": "I have lived here for 2010.",
+        "why": "起点（年・日付）にはsinceを使う"
+      },
+      {
+        "wrong": "She has been gone during three hours.",
+        "why": "数値で表す期間にはforを使う。duringは名詞期間に使う"
+      }
+    ],
+    "key_signal": "起点（since）・数値期間（for）・名詞期間（during）・上限（within）で区別する",
+    "sources": [
+      "Purdue OWL: Prepositions"
+    ],
+    "verified": true,
+    "media_examples": [
+      "There is \"no assessment to substantiate\" Israel's claim that Iran has long-range missiles capable of reaching London, a UK cabinet minister has said. (BBC News)",
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The UK government has only allowed British airbases to be used for strikes on sites targeting UK interests and allies in the region. (BBC News)"
+    ]
+  },
+  {
+    "id": "R022",
+    "rule": "方向の前置詞 to/onto/into の使い分け",
+    "rule_en": "Prepositions of Direction: to, onto, into",
+    "diff": "lv3",
+    "axes": [
+      "logic",
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre2",
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B1",
+    "pattern": "to = 目標への方向 / onto = 表面への移動 / into = 内部への移動",
+    "correct_example": "We flew from New York to Paris. / The frog jumped onto the lilypad. / The milk went into the glass.",
+    "common_errors": [
+      {
+        "wrong": "The cat jumped in the table.",
+        "why": "表面への移動なのでonto（またはon to）が正しい"
+      },
+      {
+        "wrong": "She walked to the room and into.",
+        "why": "intoは移動動詞と共に使い内部への方向を示す必要がある"
+      }
+    ],
+    "key_signal": "移動先が表面ならonto、内部ならinto、目標・目的地ならto",
+    "sources": [
+      "Purdue OWL: Prepositions of Direction: To, On (to), In (to)"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R023",
+    "rule": "空間的前置詞の一覧（above/below/between等）",
+    "rule_en": "Prepositions of Spatial Relationship",
+    "diff": "lv2",
+    "axes": [
+      "vocab"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "above（上方）/below（下方）/between（2つの間）/among（3つ以上の間）/beside（隣）/behind（後ろ）/in front of（前）/near（近く）/through（通り抜けて）/toward（方向）",
+    "correct_example": "Write your name above the line. / She is between two trees. / He is among the trees. / She went through the door.",
+    "common_errors": [
+      {
+        "wrong": "He is between the trees. (3本以上)",
+        "why": "3つ以上の間にはamongを使う"
+      },
+      {
+        "wrong": "She is among two chairs.",
+        "why": "2つの間にはbetweenを使う"
+      }
+    ],
+    "key_signal": "2者の間→between、3者以上の間→among",
+    "sources": [
+      "Purdue OWL: Prepositions of Spatial Relationship"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R024",
+    "rule": "代名詞の数の一致",
+    "rule_en": "Pronouns must agree in number with their antecedents",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "eiken3",
+      "eikenpre2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "A2",
+    "pattern": "代名詞は先行詞（antecedent）と数（単数・複数）が一致しなければならない",
+    "correct_example": "The girls brought their umbrella.",
+    "common_errors": [
+      {
+        "wrong": "The girls brought her umbrella.",
+        "why": "先行詞the girls（複数）に対し単数代名詞herを使っている"
+      }
+    ],
+    "key_signal": "先行詞が複数ならtheir/them、単数ならhis/her/its/himを使う",
+    "sources": [
+      "Purdue OWL: Pronouns"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R025",
+    "rule": "andで結ばれた複数の主語には複数形の動詞を使う",
+    "rule_en": "When a subject is composed of two or more nouns/pronouns connected by 'and', use a plural verb.",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "verb",
+      "subject",
+      "and"
+    ],
+    "cefr": "A2",
+    "pattern": "[Noun1] and [Noun2] + plural verb",
+    "correct_example": "She and her friends are at the fair.",
+    "common_errors": [
+      "She and her friends is at the fair."
+    ],
+    "key_signal": "and",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R026",
+    "rule": "orまたはnorで結ばれた複数の単数名詞・代名詞には単数形の動詞を使う",
+    "rule_en": "When two or more singular nouns/pronouns are connected by 'or' or 'nor', use a singular verb.",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "verb",
+      "subject",
+      "or",
+      "nor"
+    ],
+    "cefr": "B1",
+    "pattern": "[Singular Noun1] or/nor [Singular Noun2] + singular verb",
+    "correct_example": "The book or the pen is in the drawer.",
+    "common_errors": [
+      "The book or the pen are in the drawer."
+    ],
+    "key_signal": "or / nor",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R027",
+    "rule": "or/norで単数・複数の名詞が結ばれる場合、動詞は動詞に近い方の主語に一致させる",
+    "rule_en": "When a compound subject contains both a singular and a plural noun joined by 'or'/'nor', the verb agrees with the part of the subject nearer to the verb.",
+    "diff": "lv3",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "verb",
+      "subject",
+      "or",
+      "nor",
+      "proximity"
+    ],
+    "cefr": "B1",
+    "pattern": "[Singular] or [Plural] + plural verb / [Plural] or [Singular] + singular verb",
+    "correct_example": "The boy or his friends run every day. / His friends or the boy runs every day.",
+    "common_errors": [
+      "The boy or his friends runs every day."
+    ],
+    "key_signal": "or / nor (mixed number subjects)",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R028",
+    "rule": "doesn'tは単数主語、don'tは複数主語に使う（I・youはdon't）",
+    "rule_en": "'Doesn't' is used only with a singular subject; 'don't' is used only with a plural subject. Exception: 'I' and 'you' use 'don't'.",
+    "diff": "lv1",
+    "axes": [
+      "form",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "verb",
+      "contraction",
+      "doesn't",
+      "don't"
+    ],
+    "cefr": "A2",
+    "pattern": "He/She/It + doesn't | They/We/I/You + don't",
+    "correct_example": "He doesn't like it. / They don't like it.",
+    "common_errors": [
+      "He don't like it.",
+      "They doesn't like it."
+    ],
+    "key_signal": "doesn't / don't",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R029",
+    "rule": "主語と動詞の間に挿入句があっても、動詞は主語に一致させる",
+    "rule_en": "Do not be misled by a phrase between the subject and the verb; the verb agrees with the subject, not with a noun in the intervening phrase.",
+    "diff": "lv3",
+    "axes": [
+      "form",
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "verb",
+      "subject",
+      "intervening phrase"
+    ],
+    "cefr": "B1",
+    "pattern": "[Subject] + [intervening phrase] + verb agreeing with subject",
+    "correct_example": "One of the boxes is open. / The team captain, as well as his players, is anxious.",
+    "common_errors": [
+      "One of the boxes are open.",
+      "The team captain, as well as his players, are anxious."
+    ],
+    "key_signal": "one of, as well as, including",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R030",
+    "rule": "each, everyone, everybodyなどの不定代名詞は単数扱いで単数動詞を使う",
+    "rule_en": "Words such as each, each one, either, neither, everyone, everybody, anybody, anyone, nobody, somebody, someone, and no one are singular and require a singular verb.",
+    "diff": "lv3",
+    "axes": [
+      "form"
+    ],
+    "tags": [
+      "grammar",
+      "verb",
+      "indefinite pronoun",
+      "singular"
+    ],
+    "cefr": "B1",
+    "pattern": "each/everyone/nobody/somebody + singular verb",
+    "correct_example": "Everyone is here. / Nobody knows the answer.",
+    "common_errors": [
+      "Everyone are here.",
+      "Nobody know the answer."
+    ],
+    "key_signal": "each, everyone, everybody, anyone, nobody, somebody, someone",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/subject_verb_agreement.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R031",
+    "rule": "単数のtheyは性別を特定しない個人または非二元的な性自認を持つ人を指す代名詞として使える",
+    "rule_en": "Singular 'they' can be used to refer to an individual person whose gender is unknown, non-binary, or unspecified, and is officially recognized as correct by major style guides.",
+    "diff": "lv3",
+    "axes": [
+      "form",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "pronoun",
+      "singular they",
+      "gender-neutral"
+    ],
+    "cefr": "B2",
+    "pattern": "[Person of unspecified/non-binary gender] → they/them/their",
+    "correct_example": "A student should bring their own pen. / Alex said they would arrive at noon.",
+    "common_errors": [
+      "A student should bring his pen. (when gender is unknown)",
+      "Use of he as generic default"
+    ],
+    "key_signal": "unknown gender / non-binary person / gender-neutral context",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/pronouns/gendered_pronouns_and_singular_they.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "and they're quite inaccurate at very long ranges… what would the Iranians be trying to achieve?\" (BBC News)",
+      "\"We're relying on other countries to protect British personnel, British nationals and British interests and that is not the position we should be.\" (BBC News)"
+    ]
+  },
+  {
+    "id": "R032",
+    "rule": "関係代名詞は先行詞を修飾する従属節（関係節）を導く",
+    "rule_en": "Relative pronouns (who, whom, whose, that, which) introduce relative clauses that modify a word, phrase, or idea in the main clause.",
+    "diff": "lv2",
+    "axes": [
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "relative pronoun",
+      "relative clause",
+      "antecedent"
+    ],
+    "cefr": "A2",
+    "pattern": "[Antecedent] + [relative pronoun] + [relative clause]",
+    "correct_example": "The house that Jack built is large. / The professor, whom I respect, recently received tenure.",
+    "common_errors": [
+      "The house which Jack built is large. (in restrictive clause, 'that' preferred)",
+      "Omitting the relative pronoun in subject position"
+    ],
+    "key_signal": "who, whom, whose, that, which",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/index.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R033",
+    "rule": "制限用法の関係節（定義節）はコンマで区切らず、情報を省略できない",
+    "rule_en": "Restrictive (defining) relative clauses add essential information and are NOT separated from the main clause by a comma.",
+    "diff": "lv3",
+    "axes": [
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "relative clause",
+      "restrictive",
+      "defining",
+      "comma"
+    ],
+    "cefr": "B1",
+    "pattern": "[Antecedent] + that/who/which [no comma] + [essential information]",
+    "correct_example": "The book that she recommended is excellent.",
+    "common_errors": [
+      "The book, that she recommended, is excellent."
+    ],
+    "key_signal": "essential information / no comma",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/index.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R034",
+    "rule": "非制限用法の関係節（非定義節）はコンマで区切り、thatは使えない",
+    "rule_en": "Non-defining (non-restrictive) relative clauses provide additional, non-essential information, ARE separated by commas, and cannot use 'that'.",
+    "diff": "lv3",
+    "axes": [
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "relative clause",
+      "non-restrictive",
+      "non-defining",
+      "comma",
+      "that"
+    ],
+    "cefr": "B1",
+    "pattern": "[Antecedent], who/which/whose, [additional information]",
+    "correct_example": "The writer, who lives in this mansion, has published his second novel.",
+    "common_errors": [
+      "The writer, that lives in this mansion, has published his second novel.",
+      "Omitting the commas in non-defining clauses"
+    ],
+    "key_signal": "additional / non-essential information, commas",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/relative_pronouns_in_non_defining_clauses.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "There is \"no assessment to substantiate\" Israel's claim that Iran has long-range missiles capable of reaching London, a UK cabinet minister has said. (BBC News)",
+      "The UK government has only allowed British airbases to be used for strikes on sites targeting UK interests and allies in the region. (BBC News)",
+      "Along with RAF Fairford in Gloucestershire, the UK has given the US permission to use Diego Garcia to conduct these bombing raids. (BBC News)"
+    ]
+  },
+  {
+    "id": "R035",
+    "rule": "人を指す関係代名詞にはwhoまたはwhom、物・概念にはwhichを使う",
+    "rule_en": "Use 'who' or 'whom' to refer to people; use 'which' to refer to things or concepts.",
+    "diff": "lv2",
+    "axes": [
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "relative pronoun",
+      "who",
+      "which",
+      "people",
+      "things"
+    ],
+    "cefr": "B1",
+    "pattern": "[Person] + who/whom | [Thing/Concept] + which",
+    "correct_example": "The teacher who inspired me retired last year. / The car, which was red, sped past.",
+    "common_errors": [
+      "The teacher which inspired me retired.",
+      "The car, who was red, sped past."
+    ],
+    "key_signal": "person → who/whom; thing → which",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
+    ]
+  },
+  {
+    "id": "R036",
+    "rule": "節全体を先行詞とする非制限用法の関係節にはwhichを使う",
+    "rule_en": "Use 'which' when referring to the previous clause as a whole in a non-defining clause.",
+    "diff": "lv4",
+    "axes": [
+      "logic"
+    ],
+    "tags": [
+      "grammar",
+      "which",
+      "non-defining",
+      "clause reference"
+    ],
+    "cefr": "B2",
+    "pattern": "[Main clause], which [refers to whole clause]",
+    "correct_example": "My friend decided to get divorced, which upset me a lot.",
+    "common_errors": [
+      "My friend decided to get divorced, that upset me a lot."
+    ],
+    "key_signal": "referring to previous whole clause",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/relative_pronouns_in_non_defining_clauses.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R037",
+    "rule": "most, many, some, both, noneなどの後で人にはof whom、物にはof whichを使う",
+    "rule_en": "After numbers and words like most, many, some, both, none: use 'of whom' for persons and 'of which' for things/concepts.",
+    "diff": "lv4",
+    "axes": [
+      "logic",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "of whom",
+      "of which",
+      "relative pronoun",
+      "quantifier"
+    ],
+    "cefr": "B2",
+    "pattern": "[Number/Quantifier] of whom/which",
+    "correct_example": "I saw many people at the party, some of whom seemed familiar.",
+    "common_errors": [
+      "some of which seemed familiar (when referring to people)"
+    ],
+    "key_signal": "most, many, some, both, none + of whom/of which",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/relative_pronouns_in_non_defining_clauses.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R038",
+    "rule": "コンマの有無によって定義節と非定義節の意味が変わる",
+    "rule_en": "The presence or absence of a comma distinguishes defining from non-defining clauses and changes the meaning of the sentence.",
+    "diff": "lv3",
+    "axes": [
+      "logic",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "relative clause",
+      "comma",
+      "meaning",
+      "defining"
+    ],
+    "cefr": "B1",
+    "pattern": "Noun + that ... (no comma = defining) vs. Noun, who/which ... (comma = non-defining)",
+    "correct_example": "They have two sons who are doctors. (more sons exist) / They have two sons, who are doctors. (only two sons)",
+    "common_errors": [
+      "Ignoring the comma distinction, causing unintended meaning"
+    ],
+    "key_signal": "comma = non-defining / no comma = defining",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
+    ]
+  },
+  {
+    "id": "R039",
+    "rule": "書き言葉では、人はwho、物はwhichを優先し、thatの前にコンマを置かない",
+    "rule_en": "In writing, prefer 'who' for people and 'which' for things over 'that'; never put a comma before 'that'.",
+    "diff": "lv3",
+    "axes": [
+      "logic",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "that",
+      "which",
+      "who",
+      "writing style",
+      "comma"
+    ],
+    "cefr": "B1",
+    "pattern": "In writing: people → who | things → which | no comma before that",
+    "correct_example": "The student who passed the exam was rewarded. / The report, which was thorough, impressed the committee.",
+    "common_errors": [
+      "The student that passed... (in formal writing)",
+      "The report, that was thorough..."
+    ],
+    "key_signal": "formal writing context",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "The attempted Iranian attack on Diego Garcia came before this latest decision was made, it is understood. (BBC News)"
+    ]
+  },
+  {
+    "id": "R040",
+    "rule": "可算名詞は複数形になれるが、不可算名詞は原則として複数形にならない",
+    "rule_en": "Count nouns can be expressed in plural form; noncount nouns usually cannot be expressed in plural form.",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "trap"
+    ],
+    "tags": [
+      "grammar",
+      "noun",
+      "count",
+      "noncount",
+      "plural"
+    ],
+    "cefr": "A2",
+    "pattern": "Count noun + -s/-es (plural) | Noncount noun (no plural)",
+    "correct_example": "cats, students (count) / milk, water, air (noncount)",
+    "common_errors": [
+      "moneys",
+      "waters (in general sense)",
+      "furnitures"
+    ],
+    "key_signal": "can be counted vs. cannot be counted",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R041",
+    "rule": "muchは不可算名詞、manyは可算名詞を修飾する",
+    "rule_en": "'Much' modifies only uncountable nouns; 'many' modifies only countable nouns.",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "much",
+      "many",
+      "quantifier",
+      "count",
+      "noncount"
+    ],
+    "cefr": "A2",
+    "pattern": "much + noncount noun | many + count noun",
+    "correct_example": "We don't have much time. / Many Americans travel to Europe.",
+    "common_errors": [
+      "many time",
+      "much students"
+    ],
+    "key_signal": "much / many",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
+    ]
+  },
+  {
+    "id": "R042",
+    "rule": "littleは不可算名詞、fewは可算名詞を修飾する",
+    "rule_en": "'Little' modifies only uncountable nouns; 'few' modifies only countable nouns.",
+    "diff": "lv2",
+    "axes": [
+      "form",
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "little",
+      "few",
+      "quantifier",
+      "count",
+      "noncount"
+    ],
+    "cefr": "B1",
+    "pattern": "little + noncount noun | few + count noun",
+    "correct_example": "He had little food in the house. / Few students like exams.",
+    "common_errors": [
+      "few food",
+      "little students"
+    ],
+    "key_signal": "little / few",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)",
+      "Israeli Prime Minister Benjamin Netanyahu insisted on Sunday that Iran had the \"capacity to reach deep into Europe\". (BBC News)"
+    ]
+  },
+  {
+    "id": "R043",
+    "rule": "some/anyは可算名詞・不可算名詞の両方に使える",
+    "rule_en": "'Some' and 'any' can be used with both countable and uncountable nouns.",
+    "diff": "lv1",
+    "axes": [
+      "form",
+      "trap",
+      "vocab"
+    ],
+    "tags": [
+      "grammar",
+      "some",
+      "any",
+      "quantifier"
+    ],
+    "cefr": "A1",
+    "pattern": "some/any + count or noncount noun",
+    "correct_example": "There is some water on the floor. / There are some students here. / Do you have any food?",
+    "common_errors": [
+      "Using 'much' where 'any' is appropriate"
+    ],
+    "key_signal": "some / any",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/count_and_noncount_nouns/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "The longest-range weapon in Iran's arsenal is thought to have a maximum range of 2,000km, far short of both Diego Garcia and London - even if fired from just inside the nearest Iranian border. (BBC News)",
+      "British forces operating in the Middle East have also shot down multiple Iranian drones since the start of the conflict. (BBC News)"
+    ]
+  },
+  {
+    "id": "R044",
+    "rule": "英語の動詞には現在形と過去形の2つの基本時制があり、それ以外は助動詞で表す",
+    "rule_en": "Only two tenses are conveyed through the verb alone: present and past. Most other English tenses are marked by auxiliary verbs.",
+    "diff": "lv2",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "tense",
+      "auxiliary",
+      "present",
+      "past"
+    ],
+    "cefr": "A2",
+    "pattern": "present: walk | past: walked | others: auxiliary + verb",
+    "correct_example": "They walk. (present) / They walked. (past) / They will walk. (future, with auxiliary)",
+    "common_errors": [
+      "Confusing simple tenses with perfect or progressive forms"
+    ],
+    "key_signal": "verb alone = only 2 tenses",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "\"So my gut feel is that you'll see more of an impact of this in the petrol pumps than you will in bills.\" (BBC News)",
+      "\"Nothing in and of itself will fix this but these activities will bring prices down. (BBC News)",
+      "They won't isolate the UK - we're part of a global system - but they will bring prices down.\" (BBC News)"
+    ]
+  },
+  {
+    "id": "R045",
+    "rule": "現在完了形は過去に始まり現在まで続く動作・状態、または効果が今も残る完了した行為を表す",
+    "rule_en": "The present perfect (have/has + past participle) designates action that began in the past but continues into the present, or whose effect still continues.",
+    "diff": "lv2",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "present perfect",
+      "have",
+      "has",
+      "past participle"
+    ],
+    "cefr": "B1",
+    "pattern": "have/has + past participle",
+    "correct_example": "Betty has taught for ten years. (still teaching) / He has lived here for many years.",
+    "common_errors": [
+      "Betty taught for ten years. (implies she stopped)",
+      "Using simple past for ongoing situations"
+    ],
+    "key_signal": "has/have + past participle; for, since, ever, never",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/index.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "There is \"no assessment to substantiate\" Israel's claim that Iran has long-range missiles capable of reaching London, a UK cabinet minister has said. (BBC News)",
+      "The UK government has only allowed British airbases to be used for strikes on sites targeting UK interests and allies in the region. (BBC News)",
+      "Along with RAF Fairford in Gloucestershire, the UK has given the US permission to use Diego Garcia to conduct these bombing raids. (BBC News)"
+    ]
+  },
+  {
+    "id": "R046",
+    "rule": "過去完了形は過去の別の出来事よりも前に完了した行為・状態を表す",
+    "rule_en": "The past perfect (had + past participle) describes an action that began and ended in the past, before another past event.",
+    "diff": "lv3",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "past perfect",
+      "had",
+      "past participle"
+    ],
+    "cefr": "B1",
+    "pattern": "had + past participle",
+    "correct_example": "I had eaten dinner before he came. / Mike had promised to repair Joe's bike.",
+    "common_errors": [
+      "I ate dinner before he came. (loses the sequence of past events)"
+    ],
+    "key_signal": "had + past participle; before, after, when (sequence of past events)",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)",
+      "Israeli Prime Minister Benjamin Netanyahu insisted on Sunday that Iran had the \"capacity to reach deep into Europe\". (BBC News)"
+    ]
+  },
+  {
+    "id": "R047",
+    "rule": "現在進行形は今進行中の動作または近い将来の予定を表す",
+    "rule_en": "The present progressive (is/am/are + verb-ing) shows action currently in progress or planned for the near future.",
+    "diff": "lv1",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "present progressive",
+      "ing",
+      "ongoing action"
+    ],
+    "cefr": "A1",
+    "pattern": "is/am/are + verb-ing",
+    "correct_example": "I am playing soccer now. / Next week they are going to Florida.",
+    "common_errors": [
+      "I play soccer now. (misses the in-progress aspect)"
+    ],
+    "key_signal": "now, at the moment, this week",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R048",
+    "rule": "過去進行形は過去のある時点で進行中だった動作、または別の動作に割り込まれた動作を表す",
+    "rule_en": "The past progressive (was/were + verb-ing) shows action that was in progress at a certain time in the past, or was interrupted by another action.",
+    "diff": "lv2",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "past progressive",
+      "was",
+      "were",
+      "ing"
+    ],
+    "cefr": "A2",
+    "pattern": "was/were + verb-ing",
+    "correct_example": "They were climbing for twenty-seven days. / We were eating dinner when she told me.",
+    "common_errors": [
+      "We ate dinner when she told me. (loses the in-progress aspect)"
+    ],
+    "key_signal": "when, while, at that time",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "PureGym, the UK's largest gym chain, notes 47% of its new joiners in January were aged 25 or under. (BBC News)",
+      "These classes make Megan Riley, a paralegal apprentice, feel \"empowered\" and connected after her friends moved away to university. (BBC News)"
+    ]
+  },
+  {
+    "id": "R049",
+    "rule": "助動詞（can, will, shall, may, could, would, should, might, must）は主語に関わらず形が変わらない",
+    "rule_en": "Modal auxiliaries (can, will, shall, may, could, would, should, might, must) do not change form to agree with the subject.",
+    "diff": "lv2",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "modal",
+      "auxiliary",
+      "invariant form"
+    ],
+    "cefr": "A2",
+    "pattern": "[Subject] + modal + base verb (modal does not inflect)",
+    "correct_example": "I can do it. / He can do it. / They can do it.",
+    "common_errors": [
+      "He cans do it.",
+      "She musts go."
+    ],
+    "key_signal": "can, will, shall, may, could, would, should, might, must",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R050",
+    "rule": "could have / would have / must haveの後には過去分詞を置く（'of'は誤り）",
+    "rule_en": "Modal perfect constructions use 'could have', 'would have', 'must have' + past participle. 'Could of', 'would of' are incorrect.",
+    "diff": "lv3",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "modal perfect",
+      "could have",
+      "would have",
+      "must have"
+    ],
+    "cefr": "B1",
+    "pattern": "could/would/must + have + past participle",
+    "correct_example": "I could have won the prize. / He must have bought the ticket already.",
+    "common_errors": [
+      "I could of won the prize.",
+      "He must of bought the ticket."
+    ],
+    "key_signal": "could have / would have / must have",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verbs_with_helpers.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Reed refused to say how close the missiles came to the British overseas territory, saying he could not share \"operational details\". (BBC News)",
+      "It added: \"We have been saying it: The Iranian terrorist regime poses a global threat. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)"
+    ]
+  },
+  {
+    "id": "R051",
+    "rule": "動詞の時制を不必要に変えてはならない。同一時間軸の動作は同じ時制で統一する",
+    "rule_en": "Do not shift from one tense to another unnecessarily if the time frame for each action or state is the same.",
+    "diff": "lv3",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "grammar",
+      "tense",
+      "consistency",
+      "tense shift"
+    ],
+    "cefr": "B1",
+    "pattern": "Maintain consistent tense throughout same time-frame narration",
+    "correct_example": "The instructor explains the diagram to students who ask questions during the lecture.",
+    "common_errors": [
+      "The instructor explains the diagram to students who asked questions during the lecture."
+    ],
+    "key_signal": "same time frame = same tense",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/verb_tense_consistency.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "id": "R052",
+    "rule": "受動態は行為者が不明・不要なとき、またはトピックを前景化したいときに使う",
+    "rule_en": "Use passive verbs when the actor is unknown or irrelevant, or when you wish to foreground a topic that is not the action or actor.",
+    "diff": "lv3",
+    "axes": [
+      "form"
+    ],
+    "tags": [
+      "grammar",
+      "passive voice",
+      "active voice",
+      "style"
+    ],
+    "cefr": "B1",
+    "pattern": "be + past participle (by [agent] — optional)",
+    "correct_example": "Crimes were committed. / Penicillin was developed in 1928.",
+    "common_errors": [
+      "Overusing passive voice when active is clearer",
+      "Using passive when the actor is important and known"
+    ],
+    "key_signal": "actor unknown / irrelevant; topic foregrounding",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/verb_tenses/passive_verbs.html"
+    ],
+    "verified": true,
+    "media_examples": [
+      "Iran fired two ballistic missiles at Diego Garcia - one of which failed and fell short, while the other was intercepted, Reed said. (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)"
+    ]
+  },
+  {
+    "id": "R053",
+    "rule": "不規則動詞は過去形・過去分詞形が規則的な-ed形にならず、固有の変化をする",
+    "rule_en": "Irregular verbs do not follow the standard -ed pattern for past and past participle forms; they take on alternative patterns.",
+    "diff": "lv2",
+    "axes": [
+      "form"
+    ],
+    "tags": [
+      "grammar",
+      "irregular verb",
+      "past tense",
+      "past participle"
+    ],
+    "cefr": "A2",
+    "pattern": "Present / Past / Past Participle (no -ed rule)",
+    "correct_example": "go/went/gone, eat/ate/eaten, begin/began/begun, drink/drank/drunk",
+    "common_errors": [
+      "goed",
+      "eated",
+      "beginned",
+      "drinked"
+    ],
+    "key_signal": "memorization required; no -ed pattern",
+    "sources": [
+      "https://owl.purdue.edu/owl/general_writing/grammar/irregular_verbs/index.html"
+    ],
+    "verified": false,
+    "media_examples": []
+  },
+  {
+    "rule": "仮定法過去完了",
+    "rule_en": "Past Unreal Conditional (Third Conditional)",
+    "diff": "lv4",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B2",
+    "pattern": "If + S + had + pp, S + would have + pp",
+    "correct_example": "If I had studied harder, I would have passed the exam.",
+    "common_errors": [
+      {
+        "wrong": "If I studied harder, I would have passed.",
+        "why": "過去の事実に反する仮定にはhad+ppが必要"
+      },
+      {
+        "wrong": "If I had studied, I would pass.",
+        "why": "帰結節もwould have+ppが必要"
+      }
+    ],
+    "key_signal": "過去の事実に反する仮定 → If had pp, would have pp",
+    "sources": [
+      "Purdue OWL: Verb Tenses"
+    ],
+    "id": "R054",
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "On Sunday, the Ministry of Defencesaida ground-based unit operating in a \"high threat area\" had downed a drone overnight. (BBC News)",
+      "Rival chainThe Gym Group says about 40%, or 360,000, of its members are Gen Z- adults under 29 - of which more than half, 51%, said they had formed a new friendship on the gym floor. (BBC News)"
+    ]
+  },
+  {
+    "rule": "仮定法過去",
+    "rule_en": "Present Unreal Conditional (Second Conditional)",
+    "diff": "lv4",
+    "axes": [
+      "tense"
+    ],
+    "tags": [
+      "eiken2",
+      "toeic",
+      "juken"
+    ],
+    "cefr": "B2",
+    "pattern": "If + S + V(過去形), S + would + V(原形)",
+    "correct_example": "If I were you, I would accept the offer.",
+    "common_errors": [
+      {
+        "wrong": "If I was you, I would accept.",
+        "why": "仮定法ではwereを使う（格式）"
+      },
+      {
+        "wrong": "If I am you, I would accept.",
+        "why": "現在の事実に反する仮定には過去形"
+      }
+    ],
+    "key_signal": "現在の事実に反する仮定 → If V(過去形), would V",
+    "sources": [
+      "Purdue OWL: Verb Tenses"
+    ],
+    "id": "R055",
+    "verified": true,
+    "media_examples": [
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "and they're quite inaccurate at very long ranges… what would the Iranians be trying to achieve?\" (BBC News)",
+      "Asked about government support with energy bills, O'Shea said \"targeted\" would be \"far better than blanket help\". (BBC News)"
+    ]
+  },
+  {
+    "rule": "仮定法の倒置 (Had S pp)",
+    "rule_en": "Inverted Conditional (Had + Subject + Past Participle)",
+    "diff": "lv5",
+    "axes": [
+      "logic",
+      "tense"
+    ],
+    "tags": [
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "C1",
+    "pattern": "Had + S + pp, S + would have + pp (= If S had pp)",
+    "correct_example": "Had I known the truth, I would have acted differently.",
+    "common_errors": [
+      {
+        "wrong": "Had I know the truth...",
+        "why": "had + 過去分詞。原形は不可"
+      },
+      {
+        "wrong": "Had I known, I would act.",
+        "why": "帰結節もwould have + ppが必要"
+      }
+    ],
+    "key_signal": "If省略→倒置: Had S pp / Were S to / Should S",
+    "sources": [
+      "Purdue OWL: Verb Tenses"
+    ],
+    "id": "R056",
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)"
+    ]
+  },
+  {
+    "rule": "否定語句の倒置",
+    "rule_en": "Inversion with Negative Adverbials",
+    "diff": "lv5",
+    "axes": [
+      "logic"
+    ],
+    "tags": [
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "C1",
+    "pattern": "否定語句(Never/Hardly/Not only) + 倒置(助動詞+S+V)",
+    "correct_example": "Not only does he speak English, but he also speaks French.",
+    "common_errors": [
+      {
+        "wrong": "Not only he speaks English...",
+        "why": "否定語句が文頭→倒置が必要"
+      },
+      {
+        "wrong": "Hardly he had begun...",
+        "why": "Hardlyが文頭→had he begun"
+      }
+    ],
+    "key_signal": "Never/Hardly/Seldom/Not only が文頭 → 倒置",
+    "sources": [
+      "Purdue OWL: Active Verb Tenses"
+    ],
+    "id": "R057",
+    "verified": true,
+    "media_examples": [
+      "I rest so well, I sleep every afternoon and I would never do anything before training or a game that would affect how I play. (BBC News)"
+    ]
+  },
+  {
+    "rule": "Hardly had S pp when ...",
+    "rule_en": "Hardly...When / No sooner...Than",
+    "diff": "lv5",
+    "axes": [
+      "logic",
+      "trap"
+    ],
+    "tags": [
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "C1",
+    "pattern": "Hardly + had + S + pp + when + S + V(過去形)",
+    "correct_example": "Hardly had he begun the presentation when the fire alarm went off.",
+    "common_errors": [
+      {
+        "wrong": "Hardly he had begun...",
+        "why": "倒置が必要 (had he begun)"
+      },
+      {
+        "wrong": "Hardly had he begun... than the alarm.",
+        "why": "hardly→when / no sooner→than"
+      }
+    ],
+    "key_signal": "Hardly/Scarcely + when, No sooner + than",
+    "sources": [
+      "Purdue OWL: Active Verb Tenses"
+    ],
+    "id": "R058",
+    "verified": true,
+    "media_examples": [
+      "After news of the attempted attack emerged, the IDF said on Saturday that it had revealed last year that Tehran had intended to develop missiles capable of reaching Europe, Asia and Africa. (BBC News)",
+      "Iran's foreign minister said earlier this month that his country had deliberately capped its missiles' range at 2,000km, as \"we don't want to be felt as a threat by anybody else in the world\". (BBC News)",
+      "Israeli Prime Minister Benjamin Netanyahu insisted on Sunday that Iran had the \"capacity to reach deep into Europe\". (BBC News)"
+    ]
+  },
+  {
+    "rule": "Were it not for（仮定法倒置）",
+    "rule_en": "Were It Not For (Inverted Conditional)",
+    "diff": "lv5",
+    "axes": [
+      "logic",
+      "tense"
+    ],
+    "tags": [
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "C1",
+    "pattern": "Were it not for + N, S + would/could + V",
+    "correct_example": "Were it not for his help, we could not have succeeded.",
+    "common_errors": [
+      {
+        "wrong": "Were it not his help...",
+        "why": "forが必要"
+      },
+      {
+        "wrong": "Was it not for his help...",
+        "why": "仮定法ではwere (wasは不可)"
+      }
+    ],
+    "key_signal": "Were it not for = If it were not for = But for",
+    "sources": [
+      "Purdue OWL: Verb Tenses"
+    ],
+    "id": "R059",
+    "verified": true,
+    "media_examples": [
+      "Reed refused to say how close the missiles came to the British overseas territory, saying he could not share \"operational details\". (BBC News)",
+      "Asked whether this was true, Reed insisted that there was \"no specific assessment that the Iranians are targeting the UK or even could, if they wanted to\". (BBC News)",
+      "Even if Iran were able to launch strikes at such a range, the British armed forces would be able to defend the UK, he said. (BBC News)"
+    ]
+  },
+  {
+    "rule": "suggest/recommend + that S + 原形",
+    "rule_en": "Subjunctive Mood after Suggest/Recommend",
+    "diff": "lv4",
+    "axes": [
+      "trap"
+    ],
+    "tags": [
+      "eiken2",
+      "toeic"
+    ],
+    "cefr": "B2",
+    "pattern": "suggest/recommend/insist + that + S + V(原形)",
+    "correct_example": "I suggest that he attend the meeting.",
+    "common_errors": [
+      {
+        "wrong": "I suggest that he attends the meeting.",
+        "why": "仮定法現在→三単現のsは不要"
+      },
+      {
+        "wrong": "I suggest him to attend.",
+        "why": "suggest + that節。to不定詞は不可"
+      }
+    ],
+    "key_signal": "suggest/recommend/insist/demand + that S + 原形",
+    "sources": [
+      "Purdue OWL: Verb Tenses"
+    ],
+    "id": "R060",
+    "verified": true,
+    "media_examples": [
+      "Such a request would suggest that, far from winding down, the White House is preparing for a long, expensive fight. (BBC News)",
+      "In 2022, Billie Eilishstopped a headline show at London's O2 Arenato demand that security guards passed water to fans. (BBC News)"
+    ]
+  },
+  {
+    "rule": "come into effect",
+    "rule_en": "Come Into Effect (Collocation)",
+    "diff": "lv5",
+    "axes": [
+      "vocab"
+    ],
+    "tags": [
+      "eikenpre1",
+      "toeic"
+    ],
+    "cefr": "C1",
+    "pattern": "come into effect/force = 施行される、発効する",
+    "correct_example": "The new regulation will come into effect next month.",
+    "common_errors": [
+      {
+        "wrong": "come in effect",
+        "why": "inではなくinto"
+      },
+      {
+        "wrong": "come to effect",
+        "why": "toではなくinto"
+      }
+    ],
+    "key_signal": "come into: effect/force/being/existence/contact",
+    "sources": [
+      "Purdue OWL: Commonly Confused Verbs"
+    ],
+    "id": "R061",
+    "verified": true,
+    "media_examples": [
+      "\"So my gut feel is that you'll see more of an impact of this in the petrol pumps than you will in bills.\" (BBC News)",
+      "\"Nothing in and of itself will fix this but these activities will bring prices down. (BBC News)",
+      "They won't isolate the UK - we're part of a global system - but they will bring prices down.\" (BBC News)"
+    ]
+  }
+]

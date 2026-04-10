@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="curve_fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0245E;stop-opacity:0.35" />
+      <stop offset="100%" style="stop-color:#E0245E;stop-opacity:0.04" />
+    </linearGradient>
+    <linearGradient id="review_fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.35" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg2)" />
+
+  <!-- Title -->
+  <text x="600" y="58" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">エビングハウスの忘却曲線</text>
+  <text x="600" y="88" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786" text-anchor="middle">適切な復習タイミングで記憶定着率が劇的に変わる</text>
+
+  <!-- Graph area -->
+  <!-- Axes -->
+  <line x1="110" y1="530" x2="1090" y2="530" stroke="#657786" stroke-width="2" stroke-opacity="0.7"/>
+  <line x1="110" y1="130" x2="110" y2="530" stroke="#657786" stroke-width="2" stroke-opacity="0.7"/>
+
+  <!-- Y axis labels -->
+  <text x="98" y="135" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="end">100%</text>
+  <text x="98" y="235" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="end">75%</text>
+  <text x="98" y="335" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="end">50%</text>
+  <text x="98" y="435" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="end">25%</text>
+  <text x="98" y="535" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="end">0%</text>
+
+  <!-- Y axis grid lines -->
+  <line x1="110" y1="130" x2="1090" y2="130" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="230" x2="1090" y2="230" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="330" x2="1090" y2="330" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="430" x2="1090" y2="430" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- X axis labels -->
+  <!-- x positions: 0h=110, 1h=255, 24h=450, 1w=645, 1m=840, 3m=1060 -->
+  <text x="110" y="555" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">学習直後</text>
+  <text x="255" y="555" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">1時間後</text>
+  <text x="450" y="555" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">24時間後</text>
+  <text x="645" y="555" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">1週間後</text>
+  <text x="840" y="555" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">1ヶ月後</text>
+  <text x="1060" y="555" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">3ヶ月後</text>
+
+  <!-- Forgetting curve (red) - starts at 100%, drops fast -->
+  <!-- Points: (110,130) -> (255,241) -> (450,302) -> (645,382) -> (840,434) -> (1060,494) -->
+  <path d="M110,130 C180,130 220,210 255,241 C330,278 380,295 450,302 C540,312 590,358 645,382 C720,408 790,426 840,434 C940,450 1000,480 1060,494" fill="none" stroke="#E0245E" stroke-width="3" stroke-opacity="0.9"/>
+  <path d="M110,130 C180,130 220,210 255,241 C330,278 380,295 450,302 C540,312 590,358 645,382 C720,408 790,426 840,434 C940,450 1000,480 1060,494 L1060,530 L110,530 Z" fill="url(#curve_fill)"/>
+
+  <!-- Label for forgetting curve -->
+  <rect x="680" y="148" width="190" height="30" rx="6" fill="#E0245E" fill-opacity="0.2" stroke="#E0245E" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="775" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#E0245E" text-anchor="middle">復習なし（忘却曲線）</text>
+
+  <!-- Review curve (blue) - rises after each review -->
+  <!-- Review 1 at 24h: dips then rises; Review 2 at 1w; Review 3 at 1m -->
+  <!-- Blue curve has resets upward at review points -->
+  <path d="M110,130 C180,130 220,200 255,230 C330,265 380,280 450,290" fill="none" stroke="#1DA1F2" stroke-width="3" stroke-opacity="0.5" stroke-dasharray="5,3"/>
+  <!-- Review 1 spike at 24h (x=450) -> goes up -->
+  <path d="M450,290 L450,155" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-opacity="0.7" stroke-dasharray="4,3"/>
+  <path d="M450,155 C520,160 580,185 645,200" fill="none" stroke="#1DA1F2" stroke-width="3" stroke-opacity="0.9"/>
+  <!-- Review 2 spike at 1w (x=645) -> goes up -->
+  <path d="M645,200 L645,148" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-opacity="0.7" stroke-dasharray="4,3"/>
+  <path d="M645,148 C720,152 790,162 840,170" fill="none" stroke="#1DA1F2" stroke-width="3" stroke-opacity="0.9"/>
+  <!-- Review 3 spike at 1m (x=840) -> very flat -->
+  <path d="M840,170 L840,140" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-opacity="0.7" stroke-dasharray="4,3"/>
+  <path d="M840,140 C930,142 990,144 1060,146" fill="none" stroke="#1DA1F2" stroke-width="3" stroke-opacity="0.9"/>
+
+  <!-- Review annotation lines -->
+  <!-- Review point 1 -->
+  <circle cx="450" cy="155" r="8" fill="#1DA1F2" fill-opacity="0.9"/>
+  <text x="452" y="138" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700" text-anchor="middle">復習①</text>
+
+  <!-- Review point 2 -->
+  <circle cx="645" cy="148" r="8" fill="#1DA1F2" fill-opacity="0.9"/>
+  <text x="647" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700" text-anchor="middle">復習②</text>
+
+  <!-- Review point 3 -->
+  <circle cx="840" cy="140" r="8" fill="#1DA1F2" fill-opacity="0.9"/>
+  <text x="842" y="124" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="700" text-anchor="middle">復習③</text>
+
+  <!-- Label for review curve -->
+  <rect x="115" y="148" width="220" height="30" rx="6" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="225" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">間違い復習あり（定着曲線）</text>
+
+  <!-- Key callout box -->
+  <rect x="750" y="470" width="320" height="44" rx="10" fill="#1DA1F2" fill-opacity="0.12" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="910" y="488" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle">最適な復習タイミング</text>
+  <text x="910" y="508" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc" font-weight="700" text-anchor="middle">翌日 → 1週間後 → 1ヶ月後</text>
+
+  <!-- Y axis title -->
+  <text x="35" y="340" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle" transform="rotate(-90, 35, 340)">記憶保持率</text>
+
+  <!-- Credit -->
+  <text x="1168" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

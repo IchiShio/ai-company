@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="46" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">自分のレベルに合ったテキスト選びチェックリスト</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="16">i+1 理論 — 少しだけ難しいが理解できる素材が最速で伸びる</text>
+
+  <!-- Step header -->
+  <rect x="60" y="96" width="1080" height="44" rx="8" fill="#1DA1F2" opacity="0.15"/>
+  <text x="600" y="123" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold">テキストを開いて最初の1ページを読む → 下のチェックをする</text>
+
+  <!-- Check items -->
+  <!-- Item 1 -->
+  <rect x="60" y="156" width="1080" height="62" rx="8" fill="#1A2333" stroke="#1DA1F2" stroke-width="1" opacity="0.9"/>
+  <circle cx="110" cy="187" r="18" fill="#17BF63" opacity="0.9"/>
+  <text x="110" y="193" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">1</text>
+  <text x="150" y="181" fill="#FFFFFF" font-size="16" font-weight="bold">1ページ（約200〜250語）に知らない単語が5語以下か？</text>
+  <text x="150" y="204" fill="#657786" font-size="14">→ 5語以下なら「既知語率95%以上」でOK。これが多読適正レベルの目安。</text>
+
+  <!-- Item 2 -->
+  <rect x="60" y="230" width="1080" height="62" rx="8" fill="#1A2333" stroke="#1DA1F2" stroke-width="1" opacity="0.9"/>
+  <circle cx="110" cy="261" r="18" fill="#17BF63" opacity="0.9"/>
+  <text x="110" y="267" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">2</text>
+  <text x="150" y="255" fill="#FFFFFF" font-size="16" font-weight="bold">知らない単語を飛ばしても大意が取れるか？</text>
+  <text x="150" y="278" fill="#657786" font-size="14">→ 飛ばしても内容が追えるなら合格。何度も止まるなら難しすぎる。</text>
+
+  <!-- Item 3 -->
+  <rect x="60" y="304" width="1080" height="62" rx="8" fill="#1A2333" stroke="#1DA1F2" stroke-width="1" opacity="0.9"/>
+  <circle cx="110" cy="335" r="18" fill="#17BF63" opacity="0.9"/>
+  <text x="110" y="341" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">3</text>
+  <text x="150" y="329" fill="#FFFFFF" font-size="16" font-weight="bold">辞書なしで楽しく読み続けられるか？</text>
+  <text x="150" y="352" fill="#657786" font-size="14">→ ストレスなく読める＝語彙が定着しやすい「フロー状態」に入れている。</text>
+
+  <!-- Item 4 -->
+  <rect x="60" y="378" width="1080" height="62" rx="8" fill="#1A2333" stroke="#1DA1F2" stroke-width="1" opacity="0.9"/>
+  <circle cx="110" cy="409" r="18" fill="#17BF63" opacity="0.9"/>
+  <text x="110" y="415" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">4</text>
+  <text x="150" y="403" fill="#FFFFFF" font-size="16" font-weight="bold">1ページで知らない単語が10語以上あるか？</text>
+  <text x="150" y="426" fill="#657786" font-size="14">→ 10語以上なら難しすぎる。今は単語帳・教材で語彙を増やすフェーズ。</text>
+
+  <!-- Level guide -->
+  <rect x="60" y="456" width="500" height="140" rx="10" fill="#1A2A1F" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="310" y="480" text-anchor="middle" fill="#17BF63" font-size="16" font-weight="bold">レベル別おすすめ素材</text>
+  <text x="90" y="504" fill="#FFFFFF" font-size="14">TOEIC 400以下 →</text>
+  <text x="300" y="504" fill="#657786" font-size="14">Graded Reader Lv.1・やさしいNHK</text>
+  <text x="90" y="528" fill="#FFFFFF" font-size="14">TOEIC 500〜700 →</text>
+  <text x="300" y="528" fill="#657786" font-size="14">Graded Reader Lv.3・VOA Special</text>
+  <text x="90" y="552" fill="#FFFFFF" font-size="14">TOEIC 750以上 →</text>
+  <text x="300" y="552" fill="#657786" font-size="14">一般洋書・BBC/NPR ポッドキャスト</text>
+  <text x="90" y="576" fill="#FFFFFF" font-size="14">ネイティブ相当 →</text>
+  <text x="300" y="576" fill="#657786" font-size="14">New York Times・専門書</text>
+
+  <!-- i+1 box -->
+  <rect x="620" y="456" width="520" height="140" rx="10" fill="#1A1F2A" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="880" y="480" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold">i+1 理論とは？（Krashen, 1985）</text>
+  <text x="640" y="508" fill="#657786" font-size="13">i = 現在の理解レベル</text>
+  <text x="640" y="530" fill="#FFFFFF" font-size="14">i+1 = 少しだけ難しい入力（comprehensible input）</text>
+  <text x="640" y="554" fill="#657786" font-size="13">i+2以上（難しすぎ）や i−1（簡単すぎ）は非効率</text>
+  <text x="640" y="578" fill="#FFAD1F" font-size="13">「ちょうどわかるけど新しい」素材が最速で伸びる</text>
+
+  <!-- Credit -->
+  <text x="1175" y="658" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

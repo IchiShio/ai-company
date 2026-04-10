@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fbff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f4fd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="1200" height="6" fill="#1DA1F2" />
+
+  <!-- Title -->
+  <text x="600" y="58" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#14171A">日本語型 vs 英語型：論理構造の根本的な違い</text>
+  <text x="600" y="90" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">ネイティブが「わかりやすい」と感じる話し方の秘密</text>
+
+  <!-- Left column: Japanese style -->
+  <rect x="60" y="115" width="500" height="440" fill="white" stroke="#AAB8C2" stroke-width="2" rx="16"/>
+  <rect x="60" y="115" width="500" height="52" fill="#657786" rx="12"/>
+  <rect x="60" y="147" width="500" height="20" fill="#657786"/>
+  <text x="310" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="white">日本語型（結論が最後）</text>
+
+  <!-- Japanese flow -->
+  <rect x="100" y="186" width="420" height="52" fill="#f0f4f8" stroke="#AAB8C2" stroke-width="1.5" rx="8"/>
+  <text x="310" y="208" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">① 背景・文脈を説明する</text>
+  <text x="310" y="227" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">"先日のミーティングで話した件ですが..."</text>
+  <text x="310" y="252" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#AAB8C2">↓</text>
+
+  <rect x="100" y="262" width="420" height="52" fill="#f0f4f8" stroke="#AAB8C2" stroke-width="1.5" rx="8"/>
+  <text x="310" y="284" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">② 理由・根拠を並べる</text>
+  <text x="310" y="303" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">"コストもかかりますし、時間も..."</text>
+  <text x="310" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#AAB8C2">↓</text>
+
+  <rect x="100" y="338" width="420" height="52" fill="#f0f4f8" stroke="#AAB8C2" stroke-width="1.5" rx="8"/>
+  <text x="310" y="360" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">③ 例外・懸念点を述べる</text>
+  <text x="310" y="379" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">"ただ、一方でリスクもあって..."</text>
+  <text x="310" y="404" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#AAB8C2">↓</text>
+
+  <rect x="100" y="414" width="420" height="52" fill="#e8e8e8" stroke="#AAB8C2" stroke-width="1.5" rx="8"/>
+  <text x="310" y="436" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" font-weight="700">④ やっと結論</text>
+  <text x="310" y="455" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">"...なので、Aがいいと思います"</text>
+
+  <rect x="100" y="480" width="420" height="40" fill="#ffeaea" rx="8"/>
+  <text x="310" y="505" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0392b" font-weight="700">聞き手は「結論は？」と途中でイライラ</text>
+
+  <!-- Right column: English style -->
+  <rect x="640" y="115" width="520" height="440" fill="white" stroke="#1DA1F2" stroke-width="2.5" rx="16"/>
+  <rect x="640" y="115" width="520" height="52" fill="#1DA1F2" rx="12"/>
+  <rect x="640" y="147" width="520" height="20" fill="#1DA1F2"/>
+  <text x="900" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="white">英語型・PREP（結論が最初）</text>
+
+  <!-- English flow -->
+  <rect x="680" y="186" width="440" height="52" fill="#e8f4fd" stroke="#1DA1F2" stroke-width="2" rx="8"/>
+  <text x="900" y="208" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="700">① Point — 結論を先に言う</text>
+  <text x="900" y="227" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">"I recommend option A."</text>
+  <text x="900" y="252" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2">↓</text>
+
+  <rect x="680" y="262" width="440" height="52" fill="#f0f8ff" stroke="#1DA1F2" stroke-width="1.5" rx="8"/>
+  <text x="900" y="284" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A" font-weight="600">② Reason — 理由を続ける</text>
+  <text x="900" y="303" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">"Because it saves time and cost."</text>
+  <text x="900" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2">↓</text>
+
+  <rect x="680" y="338" width="440" height="52" fill="#f0f8ff" stroke="#1DA1F2" stroke-width="1.5" rx="8"/>
+  <text x="900" y="360" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A" font-weight="600">③ Example — 具体例を添える</text>
+  <text x="900" y="379" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">"For example, last project cut 30%."</text>
+  <text x="900" y="404" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2">↓</text>
+
+  <rect x="680" y="414" width="440" height="52" fill="#e8f4fd" stroke="#1DA1F2" stroke-width="2" rx="8"/>
+  <text x="900" y="436" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="700">④ Point — 結論で締める</text>
+  <text x="900" y="455" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#14171A">"So, let's go with option A."</text>
+
+  <rect x="680" y="480" width="440" height="40" fill="#e8f4fd" rx="8"/>
+  <text x="900" y="505" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="700">聞き手は最初から「どこに向かうか」わかる</text>
+
+  <!-- Bottom insight -->
+  <rect x="60" y="570" width="1080" height="58" fill="#14171A" rx="10"/>
+  <text x="600" y="595" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="white" font-weight="700">文法ミスがあっても「構造が正しければ」ネイティブは信頼する</text>
+  <text x="600" y="618" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">優先度: 構造 &gt; 語彙 &gt; 発音 &gt; 文法</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#AAB8C2">@ichi_eigo</text>
+</svg>

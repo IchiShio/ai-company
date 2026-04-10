@@ -1,0 +1,38 @@
+{
+  "tweet_id": "2020995695034159190",
+  "like_count": 109,
+  "original_text": "「英語は毎日やらないと伸びない」と思われがちだけど、実は週3回×集中30分の方が毎日ダラダラ10分より圧倒的に定着する。脳は「負荷がかかった記憶」ほど長期保存するから、短くても"ちょっとキツい"練習を週3でOK。",
+  "article_theme": "毎日10分より週3回30分が記憶に残る。学習負荷と記憶定着の関係。",
+  "figures": [
+    {
+      "id": "fig1",
+      "filename": "retention-comparison-graph.svg",
+      "type": "line_graph",
+      "description": "毎日10分 vs 週3回30分の記憶定着率比較グラフ（1ヶ月後・3ヶ月後・半年後）"
+    },
+    {
+      "id": "fig2",
+      "filename": "weekly-schedule.svg",
+      "type": "calendar",
+      "description": "最適学習スケジュール例（週間カレンダー形式）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_notes": "グラフ数値は間隔学習研究の知見に基づく概念的モデル。実験値ではなく概念的説明として提示。",
+  "fact_check_sources": [
+    {
+      "claim": "「望ましい困難（desirable difficulties）」が長期記憶を強化する",
+      "source": "Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In J. Metcalfe & A. Shimamura (Eds.), Metacognition: Knowing about knowing. MIT Press.",
+      "verified": true
+    },
+    {
+      "claim": "間隔を空けた練習（spaced practice）は集中練習より定着率が高い",
+      "source": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380.",
+      "verified": true
+    }
+  ],
+  "native_real_link": "/",
+  "cta_text": "リスニング集中練習を試す →",
+  "article_word_count": 468,
+  "created_at": "2026-03-30"
+}

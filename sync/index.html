@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- noindex removed 2026-04-10 -->
+  <title>SyncReader — 音声と一緒に英文を読む練習 | native-real</title>
+  <meta name="description" content="音声が先行し、単語がリアルタイムで光る英語リーディングツール。耳が先。目が追う。速度調整可・5段階レベル・語彙カード付き。">
+  <link rel="canonical" href="https://native-real.com/sync/">
+  <meta property="og:title" content="SyncReader — 音声と一緒に英文を読む練習">
+  <meta property="og:description" content="音声が先行し、単語がリアルタイムで光る。耳が先。目が追う。">
+  <meta property="og:url" content="https://native-real.com/sync/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="/sync/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "SyncReader",
+    "url": "https://native-real.com/sync/",
+    "description": "音声が先行し、単語がリアルタイムでハイライトされる英語リーディング練習ツール。耳が先。目が追う。",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    "inLanguage": "ja",
+    "publisher": {
+      "@type": "Organization",
+      "name": "native-real",
+      "url": "https://native-real.com/"
+    },
+    "featureList": [
+      "200パッセージ収録（5レベル）",
+      "リアルタイム単語ハイライト",
+      "速度調整（0.5x〜2.0x）",
+      "日本語訳表示",
+      "語彙ポップアップ"
+    ]
+  }
+  </script>
+  <script type="module" crossorigin src="/sync/assets/index-kRCB5GMU.js"></script>
+  <link rel="stylesheet" crossorigin href="/sync/assets/index-C3aMdfln.css">
+  <style>
+    /* ── UNIFIED SITE HEADER ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(248,246,241,0.92); backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid #E8E4DC; padding: 10px 0;
+      transition: padding 0.3s ease, box-shadow 0.3s ease;
+    }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(26,26,26,0.08); }
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+    .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
+    .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
+    .site-header-nav { display: flex; align-items: center; gap: 2px; }
+    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
+    .site-header-nav > a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .site-header-nav > a.active { color: #F5A623; font-weight: 700; }
+    .nav-dd { position: relative; }
+    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
+    .nav-dd-trigger:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-trigger.active { color: #F5A623; font-weight: 700; }
+    .dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+    .nav-dd.open .dd-chevron { transform: rotate(180deg); }
+    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #FDFCF9; border-radius: 12px; border: 1px solid #E8E4DC; box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04); padding: 6px; margin-top: 4px; z-index: 310; }
+    .nav-dd.open .nav-dd-menu { display: block; }
+    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.62); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+    .nav-dd-menu a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-menu a.active { color: #F5A623; font-weight: 700; }
+    .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: rgba(26,26,26,0.88); margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .site-hamburger.active span:nth-child(2) { opacity: 0; }
+    .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    .site-mobile-nav { display: flex; visibility: hidden; pointer-events: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s, visibility 0.3s; }
+    .site-mobile-nav.active { visibility: visible; pointer-events: auto; opacity: 1; }
+    .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
+    .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .site-mobile-nav a.active { color: #F5A623; }
+    .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
+    @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+    .mobile-nav-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #fff; cursor: pointer; width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .mobile-nav-close:hover { background: rgba(255,255,255,0.2); }
+    /* ── END UNIFIED HEADER ── */
+
+    /* ── TOOL HUB FOOTER ── */
+    .tools-footer {
+      margin-top: 48px;
+      padding: 40px 20px 32px;
+      border-top: 1px solid rgba(26,26,26,0.07);
+      background: #fafafa;
+    }
+    .tools-footer-inner { max-width: 900px; margin: 0 auto; }
+    .tools-footer-heading {
+      font-size: 13px; font-weight: 700; color: rgba(26,26,26,0.4);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      margin-bottom: 20px; text-align: center;
+    }
+    .tools-footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    @media (max-width: 600px) { .tools-footer-grid { grid-template-columns: repeat(2, 1fr); } }
+    .tools-footer-card {
+      display: flex; align-items: center; gap: 10px;
+      padding: 14px 16px;
+      background: #FDFCF9; border-radius: 12px;
+      border: 1px solid rgba(26,26,26,0.07);
+      text-decoration: none; color: inherit;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+    .tools-footer-card:hover { box-shadow: 0 4px 16px rgba(26,26,26,0.08); transform: translateY(-2px); }
+    .tools-footer-card.current { border-color: rgba(245,166,35,0.4); background: rgba(245,166,35,0.03); }
+    .tools-footer-icon { font-size: 20px; flex-shrink: 0; }
+    .tools-footer-name { font-size: 13px; font-weight: 700; color: #111; }
+    .tools-footer-desc { font-size: 11px; color: rgba(26,26,26,0.5); margin-top: 2px; line-height: 1.4; }
+    .tools-footer-ranking-cta {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 20px 24px;
+      background: linear-gradient(135deg, #fff8ed, #fff);
+      border: 1px solid rgba(245,166,35,0.25);
+      border-radius: 14px;
+    }
+    @media (max-width: 560px) { .tools-footer-ranking-cta { flex-direction: column; text-align: center; } }
+    .tools-footer-ranking-text h3 { font-size: 15px; font-weight: 800; color: #111; margin-bottom: 4px; }
+    .tools-footer-ranking-text p { font-size: 12px; color: rgba(26,26,26,0.55); }
+    .tools-footer-ranking-btn {
+      flex-shrink: 0;
+      display: inline-block; padding: 11px 22px;
+      background: #F5A623; color: #fff;
+      font-size: 13px; font-weight: 700;
+      border-radius: 10px; text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      white-space: nowrap;
+    }
+    .tools-footer-ranking-btn:hover { background: #e09500; transform: translateY(-1px); }
+    .tools-footer-bottom {
+      margin-top: 28px; padding-top: 20px;
+      border-top: 1px solid rgba(26,26,26,0.06);
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .tools-footer-copy { font-size: 11px; color: rgba(26,26,26,0.4); }
+    .tools-footer-owner a { font-size: 11px; color: rgba(26,26,26,0.4); text-decoration: none; display: flex; align-items: center; gap: 5px; }
+    .tools-footer-owner a:hover { color: #111; }
+    .tools-footer-owner svg { width: 12px; height: 12px; fill: currentColor; }
+    /* ── END TOOL HUB FOOTER ── */
+
+    /* ── CANVAS MOBILE TOUCH FIX ── */
+    #sync-canvas {
+      touch-action: manipulation; /* タップ遅延(300ms)を除去・ダブルタップズーム無効化 */
+      -webkit-tap-highlight-color: transparent; /* タップ時の青いハイライト除去 */
+      user-select: none; /* 長押しテキスト選択UI防止 */
+      -webkit-user-select: none;
+    }
+    /* ── END CANVAS MOBILE TOUCH FIX ── */
+  /* ── PASSAGE COMPLETE CTA ── */
+  #passage-complete-cta {
+    display: none;
+    margin-top: 16px;
+    padding: 14px 16px;
+    background: rgba(245,166,35,0.06);
+    border: 1px solid rgba(245,166,35,0.25);
+    border-radius: 12px;
+    animation: slideInCta 0.3s ease;
+  }
+  #passage-complete-cta.visible { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  @keyframes slideInCta {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .cta-label {
+    font-size: 13px; color: var(--text-1); flex: 1 1 100%;
+    font-weight: 600; margin-bottom: 6px;
+  }
+  .cta-next-btn {
+    flex: 1; padding: 9px 16px; border-radius: 9999px;
+    background: #F5A623; color: #fff; border: none; cursor: pointer;
+    font-size: 14px; font-weight: 700; white-space: nowrap;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .cta-next-btn:hover { background: #E09520; transform: translateY(-1px); }
+  .cta-listenup-btn {
+    flex: 1; padding: 9px 16px; border-radius: 9999px;
+    background: #FDFCF9; color: #A0701A; border: 1.5px solid rgba(245,166,35,0.4);
+    cursor: pointer; font-size: 14px; font-weight: 600; white-space: nowrap;
+    text-decoration: none; display: inline-block; text-align: center;
+    transition: background 0.15s;
+  }
+  .cta-listenup-btn:hover { background: rgba(245,166,35,0.08); }
+
+  /* ── LP HERO ── */
+  .lp-hero { text-align: center; padding: 72px 20px 64px; }
+  .lp-hero-inner { max-width: 720px; margin: 0 auto; }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 14px; background: var(--gold-bg); border: 1px solid rgba(245,166,35,0.25);
+    border-radius: 20px; font-size: 12px; font-weight: 700; color: #A0701A;
+    margin-bottom: 28px; letter-spacing: 0.02em;
+    animation: fadeUp 0.5s 0s ease-out both;
+  }
+  .hero-h1 {
+    font-size: clamp(32px, 7vw, 56px); font-weight: 800;
+    letter-spacing: -1.2px; line-height: 1.15; margin-bottom: 22px;
+    animation: fadeUp 0.6s 0.1s ease-out both;
+  }
+  .text-gold {
+    background: linear-gradient(120deg, #D97706 0%, #F5A623 50%, #FBBF24 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .hero-sub {
+    font-size: clamp(15px, 2.2vw, 18px); color: var(--text-2);
+    line-height: 1.85; margin-bottom: 40px;
+    animation: fadeUp 0.6s 0.2s ease-out both;
+  }
+  .hero-ctas {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 12px; margin-bottom: 18px;
+    animation: fadeUp 0.6s 0.3s ease-out both;
+  }
+  @media (min-width: 500px) { .hero-ctas { flex-direction: row; justify-content: center; } }
+  .btn-primary-lg {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
+    color: #fff; font-weight: 800; font-size: 17px;
+    border: none; border-radius: 9999px; padding: 18px 32px;
+    cursor: pointer; transition: all 0.2s; font-family: inherit;
+    box-shadow: 0 4px 24px rgba(245,166,35,0.3); white-space: nowrap;
+    text-decoration: none;
+  }
+  .btn-primary-lg:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(245,166,35,0.45); filter: brightness(1.05); }
+  .btn-primary-lg:active { transform: translateY(0); }
+  .hero-fine { font-size: 13px; color: var(--text-3); animation: fadeUp 0.6s 0.4s ease-out both; }
+  @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+
+  /* ── FEATURE STRIP ── */
+  .feature-strip {
+    display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap;
+    background: rgba(26,26,26,0.03); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .feature-item { display: flex; align-items: center; gap: 16px; padding: 24px 32px; border-right: 1px solid var(--border); }
+  .feature-item:last-child { border-right: none; }
+  .feature-icon { width: 48px; height: 48px; border-radius: 12px; background: var(--gold-bg); border: 1px solid rgba(245,166,35,0.18); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); }
+  .feature-icon svg { width: 22px; height: 22px; }
+  .feature-text strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-1); line-height: 1.4; }
+  .feature-text span { font-size: 13px; color: var(--text-3); }
+  @media (max-width: 600px) {
+    .feature-strip { flex-direction: column; }
+    .feature-item { border-right: none; border-bottom: 1px solid var(--border); padding: 18px 20px; }
+    .feature-item:last-child { border-bottom: none; }
+  }
+
+  /* ── STATS STRIP ── */
+  .stats-strip { display: flex; justify-content: center; padding: 32px 0; }
+  .stat-item { text-align: center; padding: 0 40px; }
+  .stat-num { font-size: 36px; font-weight: 800; color: var(--gold); line-height: 1; }
+  .stat-label { font-size: 13px; color: var(--text-3); margin-top: 4px; }
+  .stat-divider { width: 1px; background: var(--border); }
+  @media (max-width: 480px) { .stat-item { padding: 0 20px; } .stat-num { font-size: 28px; } }
+
+  /* ── SEO SECTION ── */
+  .seo-section { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  .seo-section h2 { font-size: 22px; font-weight: 800; color: var(--text-1); margin-bottom: 20px; letter-spacing: -0.4px; }
+  .seo-section p { font-size: 15px; line-height: 1.9; color: var(--text-2); margin-bottom: 16px; }
+  .seo-box { background: var(--surface); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 16px; }
+  .seo-box strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-1); margin-bottom: 8px; }
+  .seo-box p { margin: 0; }
+  </style>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- ── SITE-WIDE HEADER ── -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header-inner">
+      <a href="/" class="site-header-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>native-real</a>
+      <nav class="site-header-nav">
+        <div class="nav-dd">
+          <button class="nav-dd-trigger" type="button">学ぶ<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+          <div class="nav-dd-menu">
+            <a href="/listening/">ListenUp</a>
+            <a href="/reading/">ReadUp</a>
+            <a href="/sync/" class="active">SyncReader</a>
+            <a href="/grammar/">GrammarUp</a>
+            <a href="/words/">WordsUp</a>
+            <a href="/kioku-shinai/">語根記憶術</a>
+          </div>
+        </div>
+        <div class="nav-dd">
+          <button class="nav-dd-trigger" type="button">読む<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+          <div class="nav-dd-menu">
+            <a href="/articles/">学習コラム</a>
+            <a href="/real-phrases/">フレーズ集</a>
+            <a href="/prompts/">AIプロンプト</a>
+          </div>
+        </div>
+        <a href="/ranking/">英会話スクール</a>
+      </nav>
+      <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="site-mobile-nav" id="siteMobileNav">
+  <button class="mobile-nav-close" id="siteMobileNavClose" aria-label="メニューを閉じる">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+    <div class="mobile-nav-label">学ぶ</div>
+    <a href="/listening/">ListenUp</a>
+    <a href="/reading/">ReadUp</a>
+    <a href="/sync/" class="active">SyncReader</a>
+    <a href="/grammar/">GrammarUp</a>
+    <a href="/words/">WordsUp</a>
+    <a href="/kioku-shinai/">語根記憶術</a>
+    <div class="mobile-nav-label">読む</div>
+    <a href="/articles/">学習コラム</a>
+    <a href="/real-phrases/">フレーズ集</a>
+    <a href="/prompts/">AIプロンプト</a>
+    <div class="mobile-nav-label"></div>
+    <a href="/ranking/">英会話スクール</a>
+  </div>
+  <!-- ── END SITE-WIDE HEADER ── -->
+  <div style="height:54px"></div>
+
+  <main>
+
+    <!-- ── HERO LP ── -->
+    <section class="lp-hero">
+      <div class="lp-hero-inner">
+        <div class="hero-badge">✦ 無料・登録不要</div>
+        <h1 class="hero-h1"><span class="text-gold">耳が先。目が追う。</span><br>音声と一緒に英文を読む練習</h1>
+        <p class="hero-sub">英語を聴くとき、頭の中で文字に変換していませんか？<br>SyncReaderは音声が先に進み、テキストが後から光る。<br>その順番で練習するだけで、聴き取りが変わり始める。</p>
+        <div class="hero-ctas">
+          <button class="btn-primary-lg" onclick="document.getElementById('tool').scrollIntoView({behavior:'smooth'})">今すぐ無料で試す →</button>
+        </div>
+        <p class="hero-fine">登録不要・完全無料・すべての機能が使えます</p>
+      </div>
+    </section>
+    <!-- ── END HERO LP ── -->
+
+    <!-- ── FEATURE STRIP ── -->
+    <div class="feature-strip">
+      <div class="feature-item">
+        <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></div>
+        <div class="feature-text"><strong>音声ハイライト同期</strong><span>単語が音声に合わせてリアルタイムで光る</span></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+        <div class="feature-text"><strong>200パッセージ収録</strong><span>5段階レベル・ジャンル多様な本格英文</span></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <div class="feature-text"><strong>速度調整 0.5x〜2.0x</strong><span>ゆっくりから始めてネイティブ速度へ</span></div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div class="feature-text"><strong>語彙ポップアップ</strong><span>分からない単語はタップで即確認</span></div>
+      </div>
+    </div>
+    <!-- ── END FEATURE STRIP ── -->
+
+    <!-- ── STATS STRIP ── -->
+    <div class="stats-strip">
+      <div class="stat-item"><div class="stat-num">200+</div><div class="stat-label">パッセージ</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><div class="stat-num">5</div><div class="stat-label">レベル対応</div></div>
+      <div class="stat-divider"></div>
+      <div class="stat-item"><div class="stat-num">0円</div><div class="stat-label">完全無料</div></div>
+    </div>
+    <!-- ── END STATS STRIP ── -->
+
+    <div id="tool" style="scroll-margin-top:60px"></div>
+
+    <!-- Level tabs -->
+    <div class="level-tabs">
+      <button class="level-tab active" data-level="lv1">Lv.1</button>
+      <button class="level-tab" data-level="lv2">Lv.2</button>
+      <button class="level-tab" data-level="lv3">Lv.3</button>
+      <button class="level-tab" data-level="lv4">Lv.4</button>
+      <button class="level-tab" data-level="lv5">Lv.5</button>
+    </div>
+
+    <div class="layout">
+      <!-- Passage list sidebar -->
+      <aside class="sidebar">
+        <div id="list-title" class="list-title">読み込み中…</div>
+        <div id="passage-list" class="passage-list"></div>
+      </aside>
+
+      <!-- Player -->
+      <section id="player-panel" class="player-panel">
+        <div class="pass-header">
+          <span id="pass-title" class="pass-title"></span>
+          <span id="tap-hint" class="tap-hint">単語をタップ → 語義</span>
+        </div>
+
+        <!-- Canvas: pretext layout + highlight -->
+        <div class="canvas-wrap">
+          <canvas id="sync-canvas"></canvas>
+          <div id="loading" class="loading">読み込み中…</div>
+        </div>
+
+        <!-- Japanese translation -->
+        <div id="ja-panel" class="ja-panel" hidden>
+          <p id="ja-text" class="ja-text"></p>
+        </div>
+
+        <!-- Transport -->
+        <div class="transport">
+          <div class="progress-row">
+            <span id="time-current" class="time">0:00</span>
+            <div id="progress-bar" class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <span id="time-total" class="time">0:00</span>
+          </div>
+          <div class="controls">
+            <div class="speed-ctrl">
+              <button id="speed-down" class="speed-btn">−</button>
+              <span id="speed-label" class="speed-label">0.9x</span>
+              <button id="speed-up" class="speed-btn">＋</button>
+            </div>
+            <button id="play-btn" class="play-btn">▶ Play</button>
+            <button id="replay-btn" class="replay-btn" disabled title="この文をもう一度">↩ この文</button>
+            <button id="ja-toggle" class="ja-toggle-btn">🇯🇵 日本語訳</button>
+            <div class="key-hints">
+              <span>Space: 再生/停止</span>
+              <span>← →: ±3秒</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Passage complete CTA -->
+        <div id="passage-complete-cta">
+          <div class="cta-label">✅ パッセージ完了！<span id="cta-countdown"></span></div>
+          <button class="cta-next-btn" id="cta-next-btn">次のパッセージ →</button>
+          <a href="/listening/" class="cta-listenup-btn">🎧 ListenUpで練習</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ── SEO SECTION ── -->
+    <section class="seo-section">
+      <h2>英語が「読めるのに聴けない」のはなぜ？</h2>
+      <p>多くの日本人が「文字を読めば意味は分かる」のに音声が速すぎてついていけない——その理由は、英語を「目で読む」練習しかしていないから。音とテキストを同時に処理する練習が足りていない。</p>
+      <div class="seo-box">
+        <strong>「読み先行」のクセが、リスニングを妨げている</strong>
+        <p>日本語では文字を読んで頭で処理するのが自然。英語でも同じクセが出ると、音が先に行ってしまって追えない。SyncReaderは「音が先、目が後」の順番を体で覚えるためのツール。単語が光るタイミングを少し遅らせることで、耳を先行させる回路を作る。</p>
+      </div>
+      <div class="seo-box">
+        <strong>速度調整0.5x〜2.0x——自分のペースから始められる</strong>
+        <p>いきなりネイティブ速度に挑む必要はない。0.7xでゆっくり音とテキストの同期を体感し、慣れたら1.0x、1.2xへ。スモールステップで「音に追いつく感覚」が身につく。</p>
+      </div>
+      <div class="seo-box">
+        <strong>単語タップで語義ポップアップ——聴きながら語彙も増える</strong>
+        <p>分からない単語はその場でタップするだけ。辞書アプリを開く手間なしに意味を確認。日本語訳ボタンで全文の意味確認もできる。リーディングと語彙学習を同時に進められる。</p>
+      </div>
+      <button class="btn-primary-lg" onclick="document.getElementById('tool').scrollIntoView({behavior:'smooth'})">今すぐ無料でリーディング力を試す</button>
+    </section>
+    <!-- ── END SEO SECTION ── -->
+
+  </main>
+
+  <!-- ── TOOL HUB FOOTER ── -->
+  <footer class="tools-footer">
+    <div class="tools-footer-inner">
+      <div class="tools-footer-heading">他のツールも試してみよう</div>
+      <div class="tools-footer-grid">
+        <a href="/listening/" class="tools-footer-card">
+          <div class="tools-footer-icon">🎧</div>
+          <div>
+            <div class="tools-footer-name">ListenUp</div>
+            <div class="tools-footer-desc">リスニング力を鍛える。1,500問+</div>
+          </div>
+        </a>
+        <a href="/reading/" class="tools-footer-card">
+          <div class="tools-footer-icon">📖</div>
+          <div>
+            <div class="tools-footer-name">ReadUp</div>
+            <div class="tools-footer-desc">読解力を鍛える。語彙・文法・文脈</div>
+          </div>
+        </a>
+        <a href="/sync/" class="tools-footer-card current">
+          <div class="tools-footer-icon">🔊</div>
+          <div>
+            <div class="tools-footer-name">SyncReader</div>
+            <div class="tools-footer-desc">耳が先。目が追う（今ここ）</div>
+          </div>
+        </a>
+        <a href="/grammar/" class="tools-footer-card">
+          <div class="tools-footer-icon">✓</div>
+          <div>
+            <div class="tools-footer-name">GrammarUp</div>
+            <div class="tools-footer-desc">英文法の弱点を発見。295問</div>
+          </div>
+        </a>
+        <a href="/kioku-shinai/" class="tools-footer-card">
+          <div class="tools-footer-icon">🧠</div>
+          <div>
+            <div class="tools-footer-name">記憶しない英単語</div>
+            <div class="tools-footer-desc">語根で覚える新しい単語学習</div>
+          </div>
+        </a>
+        <a href="/words/" class="tools-footer-card">
+          <div class="tools-footer-icon">📝</div>
+          <div>
+            <div class="tools-footer-name">WordsUp</div>
+            <div class="tools-footer-desc">単語力をクイズで伸ばす</div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Ranking CTA -->
+      <div class="tools-footer-ranking-cta">
+        <div class="tools-footer-ranking-text">
+          <h3>あなたに合った英会話サービスは?</h3>
+          <p>12社を料金・特徴で徹底比較。目的別ランキングですぐわかる。</p>
+        </div>
+        <a href="/ranking/" class="tools-footer-ranking-btn">ランキングを見る →</a>
+      </div>
+
+      <div class="tools-footer-bottom">
+        <div class="tools-footer-copy">© 2026 native-real. All rights reserved.</div>
+        <div class="tools-footer-owner">
+          <a href="https://x.com/ichi_eigo" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            @ichi_eigo
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ── END TOOL HUB FOOTER ── -->
+
+  <script>
+  (function(){
+    var b=document.getElementById('siteHamburger'),n=document.getElementById('siteMobileNav');
+    if(b&&n){
+      b.addEventListener('click',function(){b.classList.toggle('active');n.classList.toggle('active');document.body.style.overflow=n.classList.contains('active')?'hidden':'';});
+      n.addEventListener('click',function(e){if(e.target===n||e.target.tagName==='A'){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';}});
+    var c=document.getElementById('siteMobileNavClose');if(c){c.addEventListener('click',function(){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';});}
+    }
+    var h=document.getElementById('siteHeader');
+    if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>40);t=false;});t=true;}});}
+    document.querySelectorAll('.nav-dd-trigger').forEach(function(btn){
+      btn.addEventListener('click',function(e){
+        e.stopPropagation();
+        var dd=btn.parentElement;
+        document.querySelectorAll('.nav-dd.open').forEach(function(d){if(d!==dd)d.classList.remove('open');});
+        dd.classList.toggle('open');
+      });
+    });
+    document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+  })();
+  </script>
+
+  <script>
+  /* Passage-complete CTA: detect when playback finishes */
+  (function(){
+    var cta = document.getElementById('passage-complete-cta');
+    var nextBtn = document.getElementById('cta-next-btn');
+    var countdown = document.getElementById('cta-countdown');
+    var fill = document.getElementById('progress-fill');
+    var playBtn = document.getElementById('play-btn');
+    if(!cta || !fill || !playBtn) return;
+
+    var autoTimer = null;
+    var countTimer = null;
+
+    function clickNext(){
+      hideCta();
+      var items = document.querySelectorAll('.passage-item');
+      var active = document.querySelector('.passage-item.active');
+      if(!active){ if(items[0]) items[0].click(); return; }
+      for(var i=0;i<items.length-1;i++){
+        if(items[i]===active){ items[i+1].click(); return; }
+      }
+      // Last passage — no auto-next, just hide CTA
+    }
+
+    function showCta(){
+      cta.classList.add('visible');
+      // Auto-next countdown: 8 seconds
+      var sec = 8;
+      if(countdown) countdown.textContent = '（'+sec+'秒後に自動で次へ）';
+      clearInterval(countTimer);
+      clearTimeout(autoTimer);
+      countTimer = setInterval(function(){
+        sec--;
+        if(sec <= 0){
+          clearInterval(countTimer);
+          if(countdown) countdown.textContent = '';
+        } else {
+          if(countdown) countdown.textContent = '（'+sec+'秒後に自動で次へ）';
+        }
+      }, 1000);
+      autoTimer = setTimeout(function(){
+        clearInterval(countTimer);
+        if(countdown) countdown.textContent = '';
+        if(cta.classList.contains('visible')) clickNext();
+      }, 8000);
+    }
+    function hideCta(){
+      clearTimeout(autoTimer);
+      clearInterval(countTimer);
+      if(countdown) countdown.textContent = '';
+      cta.classList.remove('visible');
+    }
+
+    // Hide CTA whenever a new passage is selected or play starts
+    document.addEventListener('click', function(e){
+      if(e.target && (
+        e.target.classList.contains('passage-item') ||
+        e.target.id === 'play-btn' ||
+        e.target.closest && e.target.closest('.passage-item')
+      )){
+        hideCta();
+      }
+    }, true);
+
+    // Next passage button: click next .passage-item in the list
+    if(nextBtn){
+      nextBtn.addEventListener('click', clickNext);
+    }
+
+    // MutationObserver: watch progress-fill width → 100%
+    var observer = new MutationObserver(function(){
+      var w = parseFloat(fill.style.width) || 0;
+      var txt = playBtn.textContent || '';
+      if(w >= 99.9 && txt.indexOf('▶') !== -1){
+        // Small delay to let the bundle finish its own DOM updates
+        setTimeout(showCta, 400);
+      }
+    });
+    observer.observe(fill, { attributes: true, attributeFilter: ['style'] });
+  })();
+  </script>
+</body>
+</html>

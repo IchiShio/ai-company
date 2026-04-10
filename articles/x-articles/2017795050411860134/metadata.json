@@ -1,0 +1,26 @@
+{
+  "id": "2017795050411860134",
+  "likes": 36,
+  "topic": "TOEICスコアと会話力は別の筋肉",
+  "theme": "TOEICスコアと会話力は別の筋肉。2つのトレーニングを使い分ける戦略。",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "description": "TOEIC対策 vs 会話力トレーニングのスキルマップ（重なりと違いをベン図で可視化）"
+    },
+    {
+      "file": "figure_2.svg",
+      "description": "目的別おすすめ学習プラン（TOEIC目標/会話目標/両立 3パターン）"
+    }
+  ],
+  "article": "article.md",
+  "fact_check": "fact_check.md",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "canvas_size": "1200x675"
+}

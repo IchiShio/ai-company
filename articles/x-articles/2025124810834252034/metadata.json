@@ -1,0 +1,24 @@
+{
+  "post_id": "2025124810834252034",
+  "likes": 61,
+  "theme": "TOEICスコアの正しい使い方。採用現場から見えたスコアと実力の乖離。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "TOEICスコアと実際の会話能力の乖離マトリクス",
+      "description": "スコア×会話能力の4象限マトリクス。高スコア低会話力・低スコア高会話力の乖離パターンを可視化"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "TOEICを正しく使う目的設定フレームワーク",
+      "description": "正しい3用途（モチベ維持・弱点確認・足切りクリア）と誤った3用途（証明・代替・終点）の対比カード"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_result": "PASS",
+  "word_count": 383,
+  "created_at": "2026-03-30",
+  "tags": ["TOEIC", "英語採用", "英語学習", "スコア活用", "会話力"]
+}

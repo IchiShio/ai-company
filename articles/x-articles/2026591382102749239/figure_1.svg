@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg5)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">語学才能 vs 反復量｜スキル別影響度マップ</text>
+  <line x1="180" y1="62" x2="1020" y2="62" stroke="#1DA1F2" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="88" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">「才能が影響するのは発音だけ」——各スキルの習得に何が効くか</text>
+
+  <!-- Legend -->
+  <rect x="750" y="100" width="20" height="20" rx="4" fill="#f0c040"/>
+  <text x="778" y="115" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#f0c040">才能・センスの影響度</text>
+  <rect x="960" y="100" width="20" height="20" rx="4" fill="#1DA1F2"/>
+  <text x="988" y="115" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">反復量の影響度</text>
+
+  <!-- Skill rows -->
+  <!-- ROW 1: 発音 (Pronunciation) -->
+  <text x="150" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="end">発音</text>
+  <text x="155" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="start">Pronunciation</text>
+  <!-- Talent bar: 60% -->
+  <rect x="175" y="150" width="350" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="175" y="150" width="210" height="26" rx="4" fill="#f0c040" opacity="0.9"/>
+  <text x="390" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#f0c040">60%</text>
+  <!-- Repetition bar: 40% -->
+  <rect x="545" y="150" width="560" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="545" y="150" width="224" height="26" rx="4" fill="#1DA1F2" opacity="0.7"/>
+  <text x="775" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#1DA1F2">40%</text>
+  <text x="1115" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f0c040">才能が効く唯一の領域</text>
+
+  <!-- ROW 2: 文法 (Grammar) -->
+  <text x="150" y="238" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="end">文法</text>
+  <text x="155" y="250" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="start">Grammar</text>
+  <!-- Talent bar: 10% -->
+  <rect x="175" y="220" width="350" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="175" y="220" width="35" height="26" rx="4" fill="#f0c040" opacity="0.5"/>
+  <text x="215" y="238" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#f0c040">10%</text>
+  <!-- Repetition bar: 90% -->
+  <rect x="545" y="220" width="560" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="545" y="220" width="504" height="26" rx="4" fill="#1DA1F2" opacity="0.9"/>
+  <text x="800" y="238" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#fff">90%</text>
+  <text x="1115" y="238" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">ひたすら例文を書き込む</text>
+
+  <!-- ROW 3: 語彙 (Vocabulary) -->
+  <text x="150" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="end">語彙</text>
+  <text x="155" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="start">Vocabulary</text>
+  <!-- Talent bar: 5% -->
+  <rect x="175" y="290" width="350" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="175" y="290" width="17" height="26" rx="4" fill="#f0c040" opacity="0.4"/>
+  <text x="198" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#f0c040">5%</text>
+  <!-- Repetition bar: 95% -->
+  <rect x="545" y="290" width="560" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="545" y="290" width="532" height="26" rx="4" fill="#1DA1F2" opacity="0.95"/>
+  <text x="810" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#fff">95%</text>
+  <text x="1115" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">出会い回数で定着する</text>
+
+  <!-- ROW 4: リスニング (Listening) -->
+  <text x="150" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="end">リスニング</text>
+  <text x="155" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="start">Listening</text>
+  <!-- Talent bar: 8% -->
+  <rect x="175" y="360" width="350" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="175" y="360" width="28" height="26" rx="4" fill="#f0c040" opacity="0.45"/>
+  <text x="208" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#f0c040">8%</text>
+  <!-- Repetition bar: 92% -->
+  <rect x="545" y="360" width="560" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="545" y="360" width="515" height="26" rx="4" fill="#1DA1F2" opacity="0.92"/>
+  <text x="802" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#fff">92%</text>
+  <text x="1115" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">耳の慣れは時間の積み重ね</text>
+
+  <!-- ROW 5: 会話 (Speaking) -->
+  <text x="150" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="end">会話</text>
+  <text x="155" y="460" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="start">Speaking</text>
+  <!-- Talent bar: 5% -->
+  <rect x="175" y="430" width="350" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="175" y="430" width="17" height="26" rx="4" fill="#f0c040" opacity="0.4"/>
+  <text x="198" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#f0c040">5%</text>
+  <!-- Repetition bar: 95% -->
+  <rect x="545" y="430" width="560" height="26" rx="4" fill="#1a1a1a"/>
+  <rect x="545" y="430" width="532" height="26" rx="4" fill="#1DA1F2" opacity="0.95"/>
+  <text x="810" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#fff">95%</text>
+  <text x="1115" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">発話回数だけが会話を育てる</text>
+
+  <!-- Column headers -->
+  <text x="310" y="135" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#888" text-anchor="middle">才能の影響（0〜100%）</text>
+  <text x="770" y="135" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#888" text-anchor="middle">反復量の影響（0〜100%）</text>
+  <line x1="175" y1="140" x2="525" y2="140" stroke="#333" stroke-width="1"/>
+  <line x1="545" y1="140" x2="1105" y2="140" stroke="#333" stroke-width="1"/>
+
+  <!-- VS Divider -->
+  <rect x="530" y="148" width="12" height="310" rx="6" fill="#657786" opacity="0.2"/>
+  <text x="536" y="310" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle" writing-mode="vertical-rl">VS</text>
+
+  <!-- Conclusion banner -->
+  <rect x="175" y="498" width="930" height="54" rx="12" fill="#0d2233" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="640" y="521" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">結論：才能が効くのは発音のみ。文法・語彙・会話はすべて反復量で決まる。</text>
+  <text x="640" y="543" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">※ 上記は概念的な説明図です。特定研究の測定値ではありません。</text>
+
+  <!-- Note: Concept only -->
+  <text x="600" y="608" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#444" text-anchor="middle">「英語センスがない」は言い訳。練習量が全てを決める。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="665" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

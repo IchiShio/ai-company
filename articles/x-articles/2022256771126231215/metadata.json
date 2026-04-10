@@ -1,0 +1,23 @@
+{
+  "tweet_id": "2022256771126231215",
+  "like_count": 219,
+  "created_at": "2026-03-30",
+  "theme": "音の地図を作る。日本語にない英語音素を体系的に攻略する方法。",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "日英音素対応マップ",
+      "description": "日本語に近い音 vs 全く異なる音の分類表"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "音の地図構築ステップ",
+      "description": "フォニックス → 音読 → リスニングの順序フロー"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "native_real_link": "/",
+  "word_count": 464,
+  "tags": ["リスニング", "フォニックス", "音素", "音の地図", "英語学習"]
+}

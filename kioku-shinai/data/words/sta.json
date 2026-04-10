@@ -1,0 +1,2319 @@
+{
+  "root": "sta/stat/sist",
+  "rootMeaning": "立つ",
+  "rootLang": "ラテン語 stare / sistere（PIE *steh₂-）",
+  "imageSchema": "両足で地面を踏みしめて立つイメージ。何かを「その場に立たせる・立ち続けさせる」動き。安定・停止・主張・抵抗など、すべて「立つ」という姿勢から派生する。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "「スタジアム(stadium)」は観客が立って(sta)見る場所。「ステーション(station)」は電車が立ち止まる場所。staが見えたら「立つ」と読み替えるだけで、10語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "establish",
+      "phonetic": "/ɪˈstæblɪʃ/",
+      "toeicRank": "TSL上位・TOEIC頻出",
+      "parts": [
+        {
+          "part": "e(x)",
+          "meaning": "外へ・強意",
+          "type": "prefix"
+        },
+        {
+          "part": "sta",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "blish",
+          "meaning": "動詞化接尾辞",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "e（強意）+ stare（立つ）= しっかりと立たせる → 設立する",
+        "fact": "古フランス語 establir（しっかり立たせる）→ ラテン語 stabilire（安定させる）から。14世紀に英語に入り「固定する、定着させる」。15世紀に「機関・制度を設立する」、17世紀に「証明する・確立する」へ。establish oneself（自分の地位を確立する）は19世紀から。",
+        "source": "EtymOnline: establish",
+        "cognates": [
+          "establishment",
+          "established",
+          "reestablish"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "不安定なものを地に立たせる→存在を恒久的に固定する動き",
+        "fact": "CONTAINERスキーマの応用。存在があいまいだったものを「確固たる場所に立たせる(sta-)」ことで、現実世界に固定するイメージ。会社・習慣・事実・評判など「立てる対象」は何でも使える。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「設立する」だけで覚えると establish a fact（事実を確立する）やestablish oneself（地位を確立する）で詰まる。「しっかりと立たせる」がわかれば、会社でも事実でも評判でも「立たせる対象」として理解できる。",
+      "gapOneliner": "establish = 「設立する」だけでなく「しっかりと立たせる＝確立する」が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "グラグラしていた建物を「しっかり(e)立たせる(sta)」のがestablish。会社を設立するのも、事実を確立するのも、どちらも「立たせる」行為。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "establishの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "しっかりと立たせる→設立する",
+            "外に導く→輸出する",
+            "前に押し出す→提案する",
+            "下に置く→基礎を作る"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "e + sta + blish の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "強意 + 立つ + 動詞化 = 確立する",
+            "外へ + 歩く + 動詞化 = 出発する",
+            "内に + 置く + 動詞化 = 蓄積する",
+            "上へ + 伸びる + 動詞化 = 成長する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company was ______ in 1985 by two engineers.",
+          "hint": "「しっかりと立たせる」→「設立する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "established",
+            "consisted",
+            "resisted",
+            "assisted"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "establishと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "trust（信頼を確立する）",
+            "weather（天気を立てる）",
+            "silence（沈黙を設立する）",
+            "speed（速度を固める）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She established herself as a leading expert in the field.\" — establishの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "（地位を）確立した",
+            "登録した",
+            "宣伝した",
+            "主張した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The company was established in 1985."
+      ]
+    },
+    {
+      "word": "stable",
+      "phonetic": "/ˈsteɪbəl/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "sta",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "ble",
+          "meaning": "できる（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "stare（立つ）+ -bilis（できる）= 立っていられる → 安定した",
+        "fact": "ラテン語 stabilis（しっかり立っている、安定した）から古フランス語 stable を経て13世紀に英語へ。同じ語源からstabilize（安定させる）・stability（安定性）・unstable（不安定な）が派生。名詞の「馬小屋」も「家畜が立っている建物」という同語源。",
+        "source": "EtymOnline: stable",
+        "cognates": [
+          "stability",
+          "stabilize",
+          "unstable",
+          "instability"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "どんな力が加わっても立ち続けられる→揺れない・崩れない状態",
+        "fact": "BALANCE（バランス）スキーマの典型。重力に対して垂直に立ち(sta-)続けられる(-ble)物理的状態が、経済・感情・関係性などの「変動しない状態」への比喩に拡張。「economic stability」は経済が揺れずに立ち続けるイメージ。",
+        "source": "Johnson (1987) BALANCEスキーマ"
+      },
+      "gap": "「安定した」とだけ覚えると a stable condition（安定した状態）やstable economy（安定した経済）のニュアンスが薄れる。「立ち続けられる＝外力に負けない」がわかれば、医療・金融・心理など幅広い文脈で使いこなせる。",
+      "gapOneliner": "stable = 「安定した」は「どんな状況でも立ち続けられる強さ」が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "stable = 「立つ(sta)ことができる(ble)」。揺れても転ばずに立っていられる状態。馬小屋のstableも「馬が立っている建物」から同じ語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "stableの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "立っていられる→安定した",
+            "速く走る→高速な",
+            "高く伸びる→優れた",
+            "深く沈む→重要な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sta + ble の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "立つ + できる = 安定した",
+            "歩く + できる = 移動できる",
+            "伸びる + できる = 成長できる",
+            "戻る + できる = 回復できる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The patient's condition is now ______ after surgery.",
+          "hint": "「立っていられる」→「安定した」",
+          "explanationFocus": "gap",
+          "choices": [
+            "stable",
+            "capable",
+            "notable",
+            "suitable"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "stableと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "income（安定した収入）",
+            "wind（安定した風）",
+            "dream（安定した夢）",
+            "voice（安定した声）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Interest rates have remained stable for three months.\" — stableの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "安定している",
+            "上昇している",
+            "変動している",
+            "低下している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The patient's condition is now stable."
+      ]
+    },
+    {
+      "word": "substitute",
+      "phonetic": "/ˈsʌbstɪtjuːt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "sub",
+          "meaning": "下に・代わりに",
+          "type": "prefix"
+        },
+        {
+          "part": "sti",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "tute",
+          "meaning": "動詞化接尾辞",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sub（下に・代わりに）+ statuere（立たせる）= 代わりの場所に立たせる → 代替する",
+        "fact": "ラテン語 substituere「代わりに置く、下に立たせる」（sub- + statuere「立たせる」）から。statuereはstare（立つ）の使役形。15世紀に「代替物として置く」の意味で英語に入る。スポーツの「交代選手（substitute）」は「元の選手の場所に立たせる人」。",
+        "source": "EtymOnline: substitute",
+        "cognates": [
+          "substitution",
+          "substitutable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "元の位置から退かせ、別のものをその場に立たせる→差し替える動き",
+        "fact": "LOCATION（場所）スキーマの応用。「Aが立っていた場所」にBを立たせる（sub- = 下の位置に）置き換えの動き。スポーツの選手交代が最もわかりやすい具体イメージ。",
+        "source": "Johnson (1987) LOCATIONスキーマ"
+      },
+      "gap": "「代替する」だけで覚えると substitute A for B（AをBの代わりにする）の語順で混乱しがち。「AをBの場所に立たせる」と考えると、substitute oil for butter（バターの代わりに油を使う）の方向が自然に理解できる。",
+      "gapOneliner": "substitute A for B = 「AをBの場所に立たせる」→ BをAに差し替える",
+      "hook": {
+        "label": "記憶フック",
+        "text": "サッカーの交代(sub)選手が「元の選手の場所に立つ(sti)」のがsubstitute。料理でも勉強でも「代わりに立たせる」のが代替。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "substituteの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "代わりに立たせる→代替する",
+            "下に導く→減少させる",
+            "前に進める→推進する",
+            "一緒に働く→協力する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sub + sti + tute の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "代わりに + 立つ + 動詞化 = 代替する",
+            "下に + 書く + 動詞化 = 署名する",
+            "後ろに + 置く + 動詞化 = 延期する",
+            "外に + 送る + 動詞化 = 輸出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "You can ______ honey for sugar in this recipe.",
+          "hint": "「代わりに立たせる」→「代替する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "substitute",
+            "constitute",
+            "institute",
+            "destitute"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "substituteと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "teacher（代理教員）",
+            "building（代理建物）",
+            "weather（代理天気）",
+            "color（代理色）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The coach brought on a substitute in the second half.\" — substituteの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "交代選手",
+            "主力選手",
+            "審判",
+            "コーチ補佐"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "You can substitute honey for sugar in this recipe."
+      ]
+    },
+    {
+      "word": "constitute",
+      "phonetic": "/ˈkɒnstɪtjuːt/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "sti",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "tute",
+          "meaning": "動詞化接尾辞",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ statuere（立たせる）= 一緒に立たせる → 構成する",
+        "fact": "ラテン語 constituere「一緒に立てる、確立する、制定する」から。15世紀に「設立する・任命する」の意味で英語に入り、17世紀に「構成する・形成する」へ。constitution（憲法）は「国家を一緒に立たせるもの」、constituent（構成要素・有権者）は「一緒に立つもの」。",
+        "source": "EtymOnline: constitute",
+        "cognates": [
+          "constitution",
+          "constitutional",
+          "constituent",
+          "reconstitute"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数の要素を一緒に立たせてひとつの全体を作る→構成する・形成する",
+        "fact": "PART-WHOLE（部分-全体）スキーマの典型。バラバラな要素を「一緒に(con-)立たせる(statuere)」ことで、一つのまとまった全体が生まれる。三分の一がconstitute（構成する）ということは、それが全体の「立ち方の一部」を担っていること。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "「構成する」だけでは This constitutes a violation.（これは違反を構成する）のような法的文脈で戸惑いやすい。「一緒に立たせることで何かを形成する」という感覚があれば、物理的な構成から抽象的な「〜に当たる・〜をなす」まで対応できる。",
+      "gapOneliner": "constitute = 「構成する」だけでなく「〜に当たる・〜をなす」も同じ「一緒に立たせる」から",
+      "hook": {
+        "label": "記憶フック",
+        "text": "レンガを「一緒に(con)立たせる(sti)」と建物になるのがconstitute。三分の一が全体をconstitute（構成する）のも、各パーツが「一緒に立って」全体を作っているから。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "constituteの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一緒に立たせる→構成する",
+            "前に立たせる→提案する",
+            "下に立たせる→代替する",
+            "後ろに立たせる→補足する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + sti + tute の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に + 立つ + 動詞化 = 構成する",
+            "強く + 動く + 動詞化 = 推進する",
+            "外へ + 書く + 動詞化 = 記述する",
+            "反対に + 流れる + 動詞化 = 反対する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Women ______ 60% of the workforce at this company.",
+          "hint": "「一緒に立たせる」→「構成する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "constitute",
+            "substitute",
+            "institute",
+            "distribute"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "constituteと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a violation（違反をなす）",
+            "a weather（天気をなす）",
+            "a sound（音をなす）",
+            "a distance（距離をなす）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"This action could constitute a breach of contract.\" — constituteの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "〜に当たる・〜をなす",
+            "〜を防ぐ",
+            "〜を修正する",
+            "〜を認める"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Women constitute 60% of the workforce."
+      ]
+    },
+    {
+      "word": "circumstance",
+      "phonetic": "/ˈsɜːkəmstæns/",
+      "toeicRank": "TSL上位・TOEIC頻出",
+      "parts": [
+        {
+          "part": "circum",
+          "meaning": "周りに",
+          "type": "prefix"
+        },
+        {
+          "part": "sta",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "nce",
+          "meaning": "名詞化接尾辞",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "circum（周りに）+ stare（立つ）= 周りに立っているもの → 状況・環境",
+        "fact": "ラテン語 circumstantia「周囲の状況」（circum「周りに」+ stantia「立っていること」）から13世紀に英語へ。circumstantia はstare（立つ）の現在分詞 stans に由来。「自分の周りに立ち並ぶもの」がそのまま「状況・事情」になった。under the circumstances は「周りに立っているものの下で」。",
+        "source": "EtymOnline: circumstance",
+        "cognates": [
+          "circumstances",
+          "circumstantial",
+          "circumscribe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分を取り囲んで立っているものが状況を作る→変えられない外部条件",
+        "fact": "CONTAINER（容器）スキーマとSURROUND（囲む）スキーマの組み合わせ。自分の周り(circum-)に立ち並ぶ(sta-)要素が、その場の「状況」を形成する。under the circumstances は文字通り「それらに囲まれた中で」という空間感覚。",
+        "source": "Johnson (1987) CONTAINER/SURROUNDスキーマ"
+      },
+      "gap": "「状況」「事情」「環境」と訳語がバラバラで混乱しがち。「自分の周りに立っているもの＝自分ではコントロールできない外部条件」と理解すると、under no circumstances（いかなる状況でも〜しない）の「状況が何であれ」も自然に読める。",
+      "gapOneliner": "circumstance = 「自分の周りに立っているもの」＝コントロールできない外部の事情",
+      "hook": {
+        "label": "記憶フック",
+        "text": "サーカス(circus)のリングが「周り(circum)に立っている(sta)もの」で囲まれているのと同じ。circumstanceは自分を取り囲んで立つ状況のこと。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "circumstanceの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "周りに立っているもの→状況",
+            "上から降ってくるもの→運命",
+            "前に置かれたもの→条件",
+            "中に積まれたもの→経験"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "circum + sta + nce の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "周りに + 立つ + 名詞化 = 状況",
+            "強く + 動く + 名詞化 = 動機",
+            "前に + 置く + 名詞化 = 前提",
+            "内側に + 保つ + 名詞化 = 内容"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Under the ______, we had no choice but to cancel the event.",
+          "hint": "「周りに立っているもの」→「状況・事情」",
+          "explanationFocus": "gap",
+          "choices": [
+            "circumstances",
+            "substances",
+            "distances",
+            "instances"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "circumstanceと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "under no circumstances（いかなる状況でも〜しない）",
+            "in any distance（どんな距離でも）",
+            "by all accounts（あらゆる説明によれば）",
+            "at first glance（最初の一目では）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The circumstances surrounding the accident are still unclear.\" — circumstancesの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "状況・事情",
+            "原因・動機",
+            "証拠・証言",
+            "結果・影響"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Under the circumstances, we had no choice but to cancel."
+      ]
+    },
+    {
+      "word": "assist",
+      "phonetic": "/əˈsɪst/",
+      "toeicRank": "TSL上位・TOEIC頻出",
+      "parts": [
+        {
+          "part": "as(ad)",
+          "meaning": "〜のそばに・向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "sist",
+          "meaning": "立つ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（〜のそばに）+ sistere（立つ）= そばに立つ → 援助する",
+        "fact": "ラテン語 assistere「そばに立つ、側にいる」（ad- + sistere「立つ・止める」）から15世紀に英語へ。sistereはstare（立つ）の強意・反復形。「困っている人のそばに立って支える」という具体的な身体的イメージが「援助する」の原義。assistance・assistant も同語源。",
+        "source": "EtymOnline: assist",
+        "cognates": [
+          "assistance",
+          "assistant",
+          "unassisted"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "相手のそばに立って支える→力を貸す・援助する",
+        "fact": "NEAR（近接）スキーマの典型。遠くから声をかけるのではなく、「そば(as-)に立つ(sist)」という物理的な近接が援助の本質。スポーツのアシストも「そばにいて得点を助ける」行為。",
+        "source": "Johnson (1987) NEARスキーマ"
+      },
+      "gap": "「援助する」「補佐する」「アシストする」と使い分けに迷いがち。全て「そばに立つ」という一つの動き。assist in doing（〜するのを助ける）やassist with（〜について補佐する）も「そばに立って一緒にやる」感覚で理解できる。",
+      "gapOneliner": "assist = 「援助する」の本質は「そばに立って支える」という近接の姿勢",
+      "hook": {
+        "label": "記憶フック",
+        "text": "サッカーのアシスト(assist)は「そば(as)に立って(sist)」得点を助ける行為。日常でも「そばに立って力を貸す」がassistの本質。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "assistの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "そばに立つ→援助する",
+            "前に立つ→代表する",
+            "上に立つ→監督する",
+            "離れて立つ→独立する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "as + sist の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "そばに + 立つ = 援助する",
+            "一緒に + 動く = 協働する",
+            "外に + 向かう = 出発する",
+            "内に + 持つ = 所有する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Could you ______ me with this report?",
+          "hint": "「そばに立つ」→「援助する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "assist",
+            "resist",
+            "insist",
+            "persist"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "assistと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "customers（顧客を援助する）",
+            "weather（天気を援助する）",
+            "buildings（建物を援助する）",
+            "colors（色を援助する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"A nurse will assist you throughout the procedure.\" — assistの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "そばに立って補佐する",
+            "手術を実施する",
+            "詳しく説明する",
+            "記録を管理する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Could you assist me with this report?"
+      ]
+    },
+    {
+      "word": "consist",
+      "phonetic": "/kənˈsɪst/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "sist",
+          "meaning": "立つ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ sistere（立つ）= 一緒に立つ → 成り立つ・構成される",
+        "fact": "ラテン語 consistere「一緒に立つ、固まる、存在する」から16世紀に英語へ。「バラバラな要素が一緒に立っている」状態が「成り立つ」の語源。consist of（〜から成る）は最も基本的な用法。consist in（〜にある・本質がある）は「〜の中に立っている」という別用法。",
+        "source": "EtymOnline: consist",
+        "cognates": [
+          "consistent",
+          "consistency",
+          "inconsistent",
+          "inconsistency"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数の要素が一緒に立って全体を支える→〜から成り立つ",
+        "fact": "PART-WHOLE（部分-全体）スキーマとSUPPORT（支持）スキーマの組み合わせ。「一緒に(con-)立つ(sist)」ことで互いを支え合い、全体が崩れずに存在できる。consistent（一貫した）も「常に一緒に立っている＝ブレない」から。",
+        "source": "Johnson (1987) PART-WHOLE / SUPPORTスキーマ"
+      },
+      "gap": "consist of（〜から成る）とconsist in（〜にある）の使い分けが難しい。前者は「要素が一緒に立って全体を形成」、後者は「本質が〜の中に立っている」。また consistent との関連で、「一緒に立ち続ける＝一貫性がある」という意味の広がりも理解できる。",
+      "gapOneliner": "consist of = 「要素が一緒に立って全体を作る」/ consist in = 「本質が〜の中に立っている」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "レゴブロックが「一緒に(con)立っている(sist)」と建物になるのがconsist of。チームが「一緒に立つ」ことで機能するのと同じ感覚。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "consistの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一緒に立つ→成り立つ",
+            "前に立つ→主張する",
+            "反対に立つ→対抗する",
+            "離れて立つ→分離する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + sist の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に + 立つ = 成り立つ",
+            "強く + 動く = 行動する",
+            "上に + 置く = 超える",
+            "外に + 送る = 輸出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The team ______ of five engineers and two designers.",
+          "hint": "「一緒に立つ」→「成り立つ・構成される」",
+          "explanationFocus": "gap",
+          "choices": [
+            "consists",
+            "insists",
+            "persists",
+            "resists"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "consistと最も自然に結びつく前置詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "of（〜から成る）",
+            "on（〜に乗る）",
+            "by（〜によって）",
+            "at（〜において）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"True leadership consists in inspiring others, not commanding them.\" — consist inの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "本質がある・〜にある",
+            "〜から成る",
+            "〜と一致する",
+            "〜に反する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The team consists of five engineers and two designers."
+      ]
+    },
+    {
+      "word": "insist",
+      "phonetic": "/ɪnˈsɪst/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "上に・強調",
+          "type": "prefix"
+        },
+        {
+          "part": "sist",
+          "meaning": "立つ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（上に・強調）+ sistere（立つ）= 上に立つ・踏ん張る → 主張する",
+        "fact": "ラテン語 insistere「上に立つ、踏ん張る、固執する」から16世紀に英語へ。元は「ある場所の上に立ち続ける」という物理的意味。「その立場を変えずに踏ん張る」が「主張する・強く言い張る」に転じた。insist on doing（〜することを主張する）が典型的な英語の用法。",
+        "source": "EtymOnline: insist",
+        "cognates": [
+          "insistence",
+          "insistent",
+          "insistently"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分の立場の上に踏ん張って動かない→頑として主張する",
+        "fact": "RESISTANCE（抵抗）スキーマとSTABILITY（安定）スキーマの組み合わせ。相手の反論や圧力に対して「その場に(in-)立ち続ける(sist)」ことで主張の強さが生まれる。insist on は「その地点の上に立つ」という空間感覚。",
+        "source": "Johnson (1987) RESISTANCEスキーマ"
+      },
+      "gap": "「主張する」「言い張る」「要求する」と訳語が複数あるが、共通するのは「その立場から動かない」という頑固さ。insist on doing（〜することを主張する）とinsist that SV（〜だと主張する）の2つの構文が重要。",
+      "gapOneliner": "insist = 「踏ん張って動かない＝立場を変えない」という強さが主張を生む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「上に(in)立って(sist)」絶対に動かないのがinsist。「私が正しい」と踏ん張って主張する姿勢。insist on = 〜の上に立つ = 〜を強く要求する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "insistの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "上に立って踏ん張る→主張する",
+            "内側に入る→含める",
+            "一緒に立つ→合意する",
+            "そばに立つ→援助する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + sist の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "上に + 立つ = 主張する",
+            "中に + 置く = 含む",
+            "外に + 出す = 発行する",
+            "前に + 向かう = 進む"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He ______ on paying for the meal despite our objections.",
+          "hint": "「上に立って踏ん張る」→「主張する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "insisted",
+            "assisted",
+            "existed",
+            "consisted"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "insistと最も自然に結びつく前置詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "on（〜を強く要求する）",
+            "from（〜から要求する）",
+            "into（〜の中へ主張する）",
+            "upon（〜の上に主張する / ※on と同義）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The manager insisted that all reports be submitted by Friday.\" — insistの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "強く要求した",
+            "提案した",
+            "確認した",
+            "許可した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He insisted on paying for the meal."
+      ]
+    },
+    {
+      "word": "resist",
+      "phonetic": "/rɪˈzɪst/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "反対に・後ろに",
+          "type": "prefix"
+        },
+        {
+          "part": "sist",
+          "meaning": "立つ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（反対に）+ sistere（立つ）= 反対側に立つ → 抵抗する",
+        "fact": "ラテン語 resistere「反対に立つ、引き止める、抵抗する」（re- + sistere「立つ」）から14世紀に英語へ。「前から押してくる力に対して反対側から立って押し返す」という物理的イメージが原義。resist temptation（誘惑に抵抗する）も「誘惑が押してくるのに対して立ち向かう」動作。",
+        "source": "EtymOnline: resist",
+        "cognates": [
+          "resistance",
+          "resistant",
+          "irresistible",
+          "resistor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "押してくる力に向かって反対側から立ちふさがる→抵抗する・耐える",
+        "fact": "FORCE（力）スキーマとCOUNTER-FORCE（対抗力）スキーマの典型。外部から加えられる力（re-）に対して正面から「立つ(sist)」ことで抵抗が生まれる。irresistible（抗いがたい）は「反対に立てない」→抵抗不可能。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「抵抗する」「耐える」「忍ぶ」と訳語が複数あるが、共通するのは「外からの力に向かい合って立つ」姿勢。I can't resist chocolate.（チョコに我慢できない）も「チョコの引力に反対から立てない」という感覚。",
+      "gapOneliner": "resist = 「反対側から立つ」→外からの力や誘惑に向かい合って耐える",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「再び(re)立って(sist)」押し返すのがresist。水が水圧に抵抗するように、誘惑が押してきても「向かい合って立つ」のが抵抗の本質。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "resistの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "反対に立つ→抵抗する",
+            "後ろに戻る→撤退する",
+            "上に立つ→優位に立つ",
+            "一緒に立つ→協力する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + sist の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "反対に + 立つ = 抵抗する",
+            "再び + 動く = 繰り返す",
+            "後ろに + 引く = 撤回する",
+            "強く + 押す = 強制する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "I couldn't ______ having another slice of cake.",
+          "hint": "「反対側に立つ」→「抵抗する・我慢する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "resist",
+            "insist",
+            "persist",
+            "assist"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "resistと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "temptation（誘惑に抵抗する）",
+            "invitation（招待に抵抗する）",
+            "education（教育に抵抗する）",
+            "communication（連絡に抵抗する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new material is designed to resist extreme heat.\" — resistの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "〜に耐える・抵抗する",
+            "〜を発生させる",
+            "〜を吸収する",
+            "〜を伝導する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I couldn't resist having another slice of cake."
+      ]
+    },
+    {
+      "word": "persist",
+      "phonetic": "/pəˈsɪst/",
+      "toeicRank": "TSL外・NGSL中位",
+      "parts": [
+        {
+          "part": "per",
+          "meaning": "通して・最後まで",
+          "type": "prefix"
+        },
+        {
+          "part": "sist",
+          "meaning": "立つ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "per（通して・最後まで）+ sistere（立つ）= 最後まで立ち続ける → 持続する・粘り強く続ける",
+        "fact": "ラテン語 persistere「最後まで立つ、固執する」（per- + sistere「立つ」）から16世紀に英語へ。per- は「完全に・最後まで通して」という強意の接頭辞。「困難や反対があっても最後まで立ち続ける」が「持続する・やり通す」の語源。persistent（粘り強い）・persistence（粘り強さ）も同根。",
+        "source": "EtymOnline: persist",
+        "cognates": [
+          "persistent",
+          "persistence",
+          "persistently",
+          "perseverance（語源は別だが近義）"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "終点まで立ち続ける→困難に屈せずやり続ける粘り強さ",
+        "fact": "PATH（経路）スキーマとDURATION（持続）スキーマの組み合わせ。道の始まりから終わりまで(per-)ずっと立ち続ける(sist)イメージ。障害物があっても「倒れずに通り抜ける」という持続の動き。",
+        "source": "Johnson (1987) PATH / DURATIONスキーマ"
+      },
+      "gap": "「持続する」「続く」だけで覚えると persist in doing（〜し続ける）やpersist with（〜を粘り強く続ける）での使い方に迷う。また「好ましくないことが続く」にも使う（The problem persists.）。「最後まで立ち続ける」なら良いことも悪いことも同じ。",
+      "gapOneliner": "persist = 「最後まで立ち続ける」→粘り強く続ける（良いことにも悪いことにも使う）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「通して(per)立ち続ける(sist)」のがpersist。雨の中でも風の中でも「最後まで立っている」粘り強さ。問題が「立ち続ける」のも同じ語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "persistの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "最後まで立ち続ける→持続する",
+            "前に立つ→先行する",
+            "反対に立つ→抵抗する",
+            "高く立つ→目立つ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "per + sist の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "通して + 立つ = 持続する",
+            "周りに + 動く = 循環する",
+            "内側に + 置く = 保存する",
+            "上に + 向かう = 上昇する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Despite the setbacks, she ______ in her efforts to find a solution.",
+          "hint": "「最後まで立ち続ける」→「粘り強く続ける」",
+          "explanationFocus": "gap",
+          "choices": [
+            "persisted",
+            "insisted",
+            "consisted",
+            "resisted"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "persistと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "symptoms（症状が持続する）",
+            "buildings（建物が持続する）",
+            "colors（色が持続する）",
+            "numbers（数が持続する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"If the problem persists, please contact customer support.\" — persistsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "持続する・続く",
+            "悪化する",
+            "解決する",
+            "発生する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "If the problem persists, please contact customer support."
+      ]
+    },
+    {
+      "word": "constant",
+      "phonetic": "ˈkɑːnstənt",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-nt",
+          "meaning": "形容詞化、性質を示す",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "一緒に立ち止まったまま変わらない状態",
+        "fact": "ラテン語の『con-』（共に）と『stare』（立つ）の組み合わせ。共に立ち続ける＝変わらず同じ状態を保つ意味へ",
+        "source": "EtymOnline: Latin constantia (steadfastness)",
+        "cognates": [
+          "stand",
+          "statue",
+          "institute",
+          "understand"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "立ち止まったまま動かない＝変化しない、継続する",
+        "fact": "『立つ』という静止の状態から『変わらない』という意味が派生。物理的な固定から抽象的な不変性へ転移",
+        "source": "Lakoff & Johnson (1980) UP-DOWNスキーマ"
+      },
+      "gap": "日本語で『常数』『定数』と訳されるが、本来は『共に立ち止まったまま』という動的なイメージ",
+      "gapOneliner": "日本語は名詞化するが、英語は『立ち続ける状態』の動的イメージを保持",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『Con-STAND』→共に立ち止まる＝変わらない。STANDは『立つ』の基本語"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "constantの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一定の、変わらない",
+            "素晴らしい、優秀な",
+            "難しい、複雑な",
+            "明るい、陽気な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "constantの語源『con-』と『stare』の組み合わせは何を意味するか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "共に立ち止まったままの状態",
+            "一人で立ち上がる力",
+            "多くの人が集まる",
+            "速く走り続ける"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The speed of light is a ______ value in physics.",
+          "hint": "物理学で変わらない値を指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "constant",
+            "possible",
+            "variable",
+            "special"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "constantと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "constant reminder（絶え間ない想起）",
+            "constant joy（一時的な喜び）",
+            "constant mistake（時々の誤り）",
+            "constant change（たまの変化）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Her constant efforts led to success.\" — constantの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "絶え間ない、継続的な",
+            "時々の、断続的な",
+            "最初の、初期の",
+            "最終的な、決定的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "constant temperature（一定温度）",
+        "constant speed（一定速度）",
+        "constant reminder（絶え間ない想起）",
+        "in constant motion（絶えず動いて）"
+      ]
+    },
+    {
+      "word": "destination",
+      "phonetic": "ˌdestɪˈneɪʃən",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "～から、下へ",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "最終的に立ち止まる場所",
+        "fact": "ラテン語『destinare』（～へ向ける、決める）から。『de-』（下へ、完了）と『stare』（立つ）の組み合わせで、最終的に立ち止まる場所を意味する",
+        "source": "EtymOnline: Latin destinare (determine, appoint)",
+        "cognates": [
+          "destine",
+          "destiny",
+          "station",
+          "distinguish"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "旅人が最終的に『立ち止まる』場所＝目的地",
+        "fact": "移動のメタファーから。『立つ』という停止状態が旅の終点を表現。タクシーが目的地に着いて『立ち止まる』イメージ",
+        "source": "Tyler & Evans (2003) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "日本語では『目的地』と訳すが、英語の『de-stination』は『完全に立ち止まる場所』という動作的イメージを保持",
+      "gapOneliner": "日本語は単純に『目的地』だが、英語は『立ち止まることで決定される場所』という意味",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『De-STATION』→降りて立ち止まる場所＝目的地。駅（station）も同じ語源で『立ち止まる場所』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "destinationの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "目的地",
+            "出発地",
+            "途中駅",
+            "経由地"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "destinationの『de-』と『stare』が表すイメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "最終的に立ち止まる",
+            "急速に移動する",
+            "多くの場所を訪ねる",
+            "一度も停止しない"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "What is your ______ for this trip?",
+          "hint": "旅行の最終地点を指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "destination",
+            "direction",
+            "distance",
+            "decision"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "destinationと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "final destination（最終目的地）",
+            "starting destination（出発地点）",
+            "temporary destination（一時的な目的地）",
+            "intermediate destination（中程の目的地）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We finally reached our destination after a long journey.\" — destinationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "到着地、目的地",
+            "経路、道のり",
+            "交通手段",
+            "出発時間"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "final destination（最終目的地）",
+        "travel destination（旅行先）",
+        "dream destination（憧れの地）",
+        "reach one's destination（目的地に到着する）"
+      ]
+    },
+    {
+      "word": "establishment",
+      "phonetic": "ɪˈstæblɪʃmənt",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "es-",
+          "meaning": "～へ、～した状態に",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-blish",
+          "meaning": "安定させる（ablishは古英語の変形）",
+          "type": "suffix"
+        },
+        {
+          "part": "-ment",
+          "meaning": "行為、結果、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "しっかりと立ち上げられた、確立された状態",
+        "fact": "古フランス語『establir』から。『es-』（～へ）と『stable』（安定した、立った）の組み合わせで、『しっかり立てる、確立する』を意味する。-mentで名詞化",
+        "source": "EtymOnline: Old French establir (establish)",
+        "cognates": [
+          "stable",
+          "establish",
+          "establish",
+          "obstinate"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "基礎をしっかり『立て』て確立した状態＝機関、組織",
+        "fact": "建築メタファーから。『立つ』という動作から『しっかり基礎を作り安定させる』へ発展。機関や組織も『立てられた』ものとして認識",
+        "source": "Johnson (1987) CENTER-PERIPHERYスキーマ"
+      },
+      "gap": "日本語で『確立』『設立』『施設』と複数の意味に訳されるが、英語は『立てられた状態』という単一の概念",
+      "gapOneliner": "日本語は分散した意味だが、英語は『立てられ、確立された』という統一されたイメージ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『Es-STABLE-ISH-MENT』→安定して立たせた状態＝確立、施設。stableと関連"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "establishmentの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "確立、設立、施設",
+            "解散、廃止",
+            "一時的な配置",
+            "随意的な組織"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "establishmentの語根『sta-』が表すコアの意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "立つ、安定させる",
+            "移動する、変化する",
+            "組織する、計画する",
+            "破壊する、終わらせる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the company in 1995 marked a new era.",
+          "hint": "企業がしっかり立ち上げられたことを指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "establishment",
+            "abolishment",
+            "disappointment",
+            "employment"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "establishmentと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "establishment of peace（平和の確立）",
+            "establishment of chaos（混乱の確立）",
+            "temporary establishment（一時的な確立）",
+            "fragile establishment（脆弱な確立）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The establishment of diplomatic relations was a major achievement.\" — establishmentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "確立、構築",
+            "終了、打ち切り",
+            "一時的な試み",
+            "計画段階"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "the establishment of a new university（大学の新設）",
+        "business establishment（商業施設）",
+        "the establishment（既得権層、支配層）",
+        "educational establishments（教育機関）"
+      ]
+    },
+    {
+      "word": "institution",
+      "phonetic": "ˌɪnstɪˈtjuːʃən",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "～の中に、～へ",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-tion",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "中に『立てられた』制度や機関",
+        "fact": "ラテン語『instituere』（～を立てる、設立する）から。『in-』（～の中に）と『statuere』（立てる）の組み合わせ。特定の目的のため立てられた仕組みや組織を意味する",
+        "source": "EtymOnline: Latin instituere (set up, establish)",
+        "cognates": [
+          "institute",
+          "institutional",
+          "prostitute",
+          "constitute"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "社会の中に『立てられた』仕組みや機関＝制度、施設",
+        "fact": "社会構造のメタファー。『立つ』という行為から『社会秩序の中に設定された』制度や機関へ転移。建築から社会構造へ",
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ"
+      },
+      "gap": "日本語では『制度』『機関』『施設』に分散しているが、英語は『立てられた体系』という統一イメージ",
+      "gapOneliner": "日本語は機能別に分類するが、英語は『立てられた秩序』というメタファーを保持",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『IN-STIT-UTION』→内部に立てられた仕組み＝制度。学校、銀行などの社会的な『立てられた』体系"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "institutionの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "制度、施設、機関",
+            "個人的な努力",
+            "一時的な配置",
+            "非公式な集まり"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "institutionの『in-』と『sta-』が表すイメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "社会の中に立てられた体系",
+            "個人の外へ拡散する",
+            "速く移動する",
+            "不安定で浮遊している"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Harvard is one of the most prestigious ______ in the world.",
+          "hint": "高等教育の機関を指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "institutions",
+            "individuals",
+            "innovations",
+            "incidents"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "institutionと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "financial institution（金融機関）",
+            "fragile institution（脆弱な機関）",
+            "informal institution（非公式な機関）",
+            "temporary institution（一時的な機関）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Banks are important financial institutions in modern society.\" — institutionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "社会的に立てられた機関",
+            "個人的な選択",
+            "営利目的の企業のみ",
+            "一時的な組織"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "educational institution（教育機関）",
+        "financial institution（金融機関）",
+        "social institution（社会制度）",
+        "institutional framework（制度的枠組み）"
+      ]
+    },
+    {
+      "word": "instance",
+      "phonetic": "ˈɪnstəns",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "～の中に、～へ",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-nce",
+          "meaning": "状態、行為の結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "具体的に『立ち現れた』個別の事例",
+        "fact": "ラテン語『instantia』（即座、機会）から。『in-』（～の中に）と『stare』（立つ）の組み合わせで、『立ち現れる』『目の前に立つ』という意味から『具体的事例』へ転移",
+        "source": "EtymOnline: Latin instantia (presence, urgency)",
+        "cognates": [
+          "instant",
+          "instantaneous",
+          "distance",
+          "circumstance"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "抽象的なルールから『具体的に立ち現れた』個別の事例",
+        "fact": "具象化のメタファー。『立つ』という物理的な出現から『抽象的な中から立ち現れた具体例』へ転移。一般的から特殊的への転移",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "日本語では『例、事例』と訳すが、英語の『in-stance』は『立ち現れた』という動的なイメージを保持",
+      "gapOneliner": "日本語は静的な『例』だが、英語は『立ち現れた具体例』という動的イメージ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『IN-STANCE』→内部から立ち現れた＝具体例。『for instance』は『具体的に立ち現れた例として』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "instanceの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "例、事例、場合",
+            "距離、間隔",
+            "一般的な規則",
+            "理論的原則"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "instanceの『sta-』が元々表していたのは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "立ち現れる、目の前に出現する",
+            "高く上昇する",
+            "深く沈む",
+            "速く移動する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "For ______, many students struggle with mathematics.",
+          "hint": "具体例を挙げる時の表現",
+          "explanationFocus": "gap",
+          "choices": [
+            "instance",
+            "distance",
+            "assistance",
+            "existence"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "instanceと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "for instance（例えば）",
+            "first instance（第一審）",
+            "in this instance（この事例では）",
+            "a clear instance of（～の明らかな事例）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"This is just one instance of the problem we face.\" — instanceの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "事例、具体例",
+            "一般的な概念",
+            "理論的な原則",
+            "過去の傾向"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "for instance（例えば）",
+        "in this instance（この場合）",
+        "a clear instance（明らかな事例）",
+        "multiple instances（複数の事例）"
+      ]
+    },
+    {
+      "word": "obstacle",
+      "phonetic": "ˈɑːbstəkəl",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "ob-",
+          "meaning": "～に対して、反対に",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-cle",
+          "meaning": "小さなもの、道具",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "道を塞ぐために『立ちはだかる』もの",
+        "fact": "ラテン語『obstaculum』から。『ob-』（～に対して、反対に）と『staculum』（立つもの）の組み合わせで、『進路を塞いで立つもの』を意味する",
+        "source": "EtymOnline: Latin obstaculum (hindrance)",
+        "cognates": [
+          "obstinate",
+          "obstruction",
+          "obstreperous",
+          "substance"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "進路に『立ちはだかる』もの＝障害物、障害",
+        "fact": "移動のメタファー。目標への進路を物理的に『立ってふさぐ』ことから『抽象的な障害』へ転移。競争や人生の障害も『立ちはだかる』",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "日本語では『障害物』『障害』と抽象化されるが、英語の『ob-stacle』は『立ちはだかる』という具体的な物理イメージを保持",
+      "gapOneliner": "日本語は純粋に抽象的だが、英語は『立ちはだかる』という物理的イメージのメタファー",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『OB-STACLE』→対立して立ちはだかる＝障害。obstacle courseは『立ちはだかるコース』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "obstacleの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "障害物、障害、支障",
+            "助け、援助",
+            "捷径、近道",
+            "援護、保護"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "obstacleの『ob-』と『sta-』が表すイメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "進路に対立して立ちはだかる",
+            "道を案内する",
+            "速く前に出る",
+            "背後から支援する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Fear is often the biggest ______ to success.",
+          "hint": "成功への妨げになるもの",
+          "explanationFocus": "gap",
+          "choices": [
+            "obstacle",
+            "opportunity",
+            "offence",
+            "organ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "obstacleと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "major obstacle（主な障害）",
+            "obstacle course（障害物コース）",
+            "overcome an obstacle（障害を克服する）",
+            "insurmountable obstacle（乗り越え不可能な障害）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company faced numerous obstacles in entering the new market.\" — obstacleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "障害、障害物",
+            "機会、チャンス",
+            "支援、援助",
+            "推奨、奨励"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "major obstacle（主要な障害）",
+        "overcome an obstacle（障害を克服する）",
+        "obstacle course（障害物コース）",
+        "remove obstacles（障害を取り除く）"
+      ]
+    },
+    {
+      "word": "outstanding",
+      "phonetic": "aʊtˈstændɪŋ",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "out-",
+          "meaning": "外へ、～から離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-ing",
+          "meaning": "現在分詞、形容詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "他者から『飛び出して立つ』ほど優れた",
+        "fact": "『out-』（外へ、際立って）と『standing』（立つ）の組み合わせ。群衆の中から『飛び出して立つ』ほど目立つ、すなわち優秀で卓越していることを意味する",
+        "source": "EtymOnline: out- + stand (literally standing out)",
+        "cognates": [
+          "outstanding",
+          "outstand",
+          "understand",
+          "outstanding debt"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "他者の中から『飛び出して立つ』＝優れている、目立つ",
+        "fact": "可視性のメタファー。『立つ』という視覚的な出現から『目立つほど優秀』へ転移。物理的な『飛び出す』から品質的な『優れている』へ",
+        "source": "Lakoff & Johnson (1980) GOOD IS UPメタファー"
+      },
+      "gap": "日本語では『優秀な』『未払いの』と意味が分散するが、英語は『飛び出て立つ』という統一イメージ",
+      "gapOneliner": "日本語は意味が異なるが、英語は『立ち出ている』という単一の視覚的メタファー",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『OUT-STANDING』→外へ飛び出して立つ＝優秀、目立つ。人ごみから飛び出ているイメージ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "outstandingの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "優秀な、卓越した、目立つ",
+            "平凡な、普通の",
+            "劣った、低い",
+            "隠れた、目立たない"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "outstandingの『out-』と『sta-』が表すコアのイメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "群衆から飛び出して立つ",
+            "速く走る",
+            "背景に隠れる",
+            "低く沈む"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Her ______ performance earned her a standing ovation.",
+          "hint": "非常に優秀な表演を指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "outstanding",
+            "ordinary",
+            "awful",
+            "modest"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "outstandingと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "outstanding performance（優秀な成績）",
+            "outstanding debt（未払い債務）",
+            "outstanding student（優秀な学生）",
+            "absolutely outstanding（完全に卓越した）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His outstanding contributions to science were recognized worldwide.\" — outstandingの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "卓越した、優秀な",
+            "未払いの",
+            "矛盾した、相反する",
+            "一時的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "outstanding performance（優秀な成績）",
+        "outstanding student（優秀な学生）",
+        "outstanding achievement（卓越した成果）",
+        "outstanding debt（未払い債務）"
+      ]
+    },
+    {
+      "word": "stability",
+      "phonetic": "stəˈbɪləti",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-bility",
+          "meaning": "～することができる性質（-ble + -ity）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "しっかり『立っていられる』性質、安定性",
+        "fact": "ラテン語『stabilitas』から。『stabilis』（立つ、安定した）が語源で、『立ったままでいられる』という物理的な状態から『変わらない』『安定している』という抽象的意味へ転移",
+        "source": "EtymOnline: Latin stabilitas (firmness, steadiness)",
+        "cognates": [
+          "stable",
+          "establish",
+          "stability",
+          "circumstance"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『立つ』という静止状態から『変わらない』『揺るがない』という安定性へ",
+        "fact": "静止のメタファー。物理的な『立って動かない』から『精神的・社会的な安定』へ転移。タワーがしっかり立つ＝安定のイメージ",
+        "source": "Johnson (1987) BALANCEスキーマ"
+      },
+      "gap": "日本語では『安定』『安定性』と訳すが、英語の『stability』は『立っていられる状態』という物理的基盤を保持",
+      "gapOneliner": "日本語は抽象的だが、英語は『立つ』という物理的な安定のメタファーが残存",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『STA-BILITY』→立つ+性質＝立ち続けられる状態＝安定。『stable』と関連"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "stabilityの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "安定、安定性、堅固さ",
+            "変化、変動",
+            "不安定さ、揺らぎ",
+            "急速な成長"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "stabilityの『sta-』が表す元々の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "立つ、立ったままでいる",
+            "速く動く、変化する",
+            "下へ沈む",
+            "上へ上昇する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Political ______ is essential for economic growth.",
+          "hint": "政府や政治体制の変わらない状態",
+          "explanationFocus": "gap",
+          "choices": [
+            "stability",
+            "stability",
+            "change",
+            "chaos"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "stabilityと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "political stability（政治的安定）",
+            "economic stability（経済的安定）",
+            "emotional stability（心理的安定）",
+            "promote stability（安定を推進する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The country sought to maintain stability after the crisis.\" — stabilityの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "安定、均衡、不動性",
+            "変化、革新",
+            "増加、成長",
+            "衰退、低下"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "political stability（政治的安定）",
+        "economic stability（経済的安定）",
+        "emotional stability（心理的安定）",
+        "market stability（市場の安定）"
+      ]
+    },
+    {
+      "word": "substantial",
+      "phonetic": "səbˈstænʃəl",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "sub-",
+          "meaning": "下に、～の下で",
+          "type": "prefix"
+        },
+        {
+          "part": "-sta-",
+          "meaning": "立つ、立ち止まる",
+          "type": "root"
+        },
+        {
+          "part": "-tial",
+          "meaning": "形容詞化、～に関する",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『下に立つ』基礎となる、実質的な、相当な",
+        "fact": "ラテン語『substantia』（本質、物質）から。『sub-』（下に）と『stantia』（立つこと）の組み合わせで、『下に立つ基礎となるもの』＝『本質』『実質』の意味へ転移",
+        "source": "EtymOnline: Latin substantia (substance)",
+        "cognates": [
+          "substance",
+          "substantial",
+          "substitute",
+          "constitute"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『下に立つ』基盤となるもの＝本質的な、実質的な、相当な",
+        "fact": "構造のメタファー。物理的な『基礎として立つ』から『本質的・実質的な』へ転移。建築の基礎から抽象的な『根本的な』へ",
+        "source": "Johnson (1987) CENTER-PERIPHERYスキーマ"
+      },
+      "gap": "日本語では『実質的な』『相当な』『本質的な』と複数に訳されるが、英語は『下に立つ基盤』という統一イメージ",
+      "gapOneliner": "日本語は意味が分散するが、英語は『基礎として立つ』という単一の構造的メタファー",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『SUB-STAN-TIAL』→下に立つ基礎＝実質的、本質的。substanceと関連"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "substantialの最も一般的な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "実質的な、相当な、本質的な",
+            "わずかな、小さな",
+            "仮の、一時的な",
+            "仮想の、存在しない"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "substantialの『sub-』と『sta-』が表すイメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下に基礎として立つ",
+            "上へ高く上昇する",
+            "外へ飛び出す",
+            "内に隠れる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The two proposals have ______ differences.",
+          "hint": "相当な、実質的な違いを指す",
+          "explanationFocus": "gap",
+          "choices": [
+            "substantial",
+            "trivial",
+            "minimal",
+            "negligible"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "substantialと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "substantial improvement（相当な改善）",
+            "substantial growth（実質的な成長）",
+            "substantial portion（相当な部分）",
+            "substantial evidence（実質的な証拠）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new policy had a substantial impact on employment.\" — substantialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "相当な、重大な、実質的な",
+            "わずかな、軽微な",
+            "不確実な、曖昧な",
+            "一時的な、短期的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "substantial improvement（相当な改善）",
+        "substantial growth（実質的な成長）",
+        "substantial evidence（実質的な証拠）",
+        "substantial portion（相当な部分）"
+      ]
+    },
+    {
+      "word": "static",
+      "phonetic": "/ˈstæt.ɪk/",
+      "toeicRank": "TOEIC 600-730",
+      "parts": [
+        {
+          "part": "sta/stat",
+          "meaning": "立つ",
+          "type": "root"
+        },
+        {
+          "part": "-ic",
+          "meaning": "〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "立ったままの性質＝静止した、変化しない",
+        "fact": "staticはギリシャ語statikosから。histanai（立てる）+ -ikos（〜の性質）。立ち止まったまま動かない状態を指し、物理学・電気・IT・経済学など多分野で使われる",
+        "source": "EtymOnline: static < Greek statikos 'causing to stand, skilled in weighing'",
+        "cognates": [
+          "status",
+          "station",
+          "stationary",
+          "statistics"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "変化・動きがなく固定された状態。物理的静止から、データの不変性、電気のノイズまで多分野で適用",
+        "fact": "static website（静的ウェブサイト）はサーバー側で動的生成しない固定コンテンツ、static electricity（静電気）は流れずに留まる電気",
+        "source": "Lakoff & Johnson (1980) BOUNDED SPACEメタファー"
+      },
+      "gap": "stat（立つ）+ ic（性質）で「立ったまま動かない性質」→静的・不変を示す多分野語",
+      "gapOneliner": "「立ったままの性質」→変化しない・動かない→静的な（⇔dynamic）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "stat（立つ）+ ic（性質）= 立ったまま動かない。static website（静的サイト）⇔ dynamic content（動的コンテンツ）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「static」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "静的な、変化しない",
+            "動的な、変化する",
+            "効率的な",
+            "複雑な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「static electricity」の語根的説明は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "流れずに立ち止まっている電気だから",
+            "静かな場所で発生するから",
+            "静止状態で計測するから",
+            "安全な電気だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company's market share has remained ______ for the past three years.",
+          "hint": "過去3年間変化がない",
+          "explanationFocus": "gap",
+          "choices": [
+            "static",
+            "stable",
+            "substantial",
+            "outstanding"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「static」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "static website",
+            "static meeting",
+            "static decision",
+            "static revenue"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The industry has been static for years, with little innovation.\" — 「static」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "停滞している、変化がない",
+            "急成長している",
+            "競争が激しい",
+            "規制されている"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The website serves static HTML files to all users.",
+        "Demand has been static despite marketing efforts."
+      ]
+    }
+  ]
+}

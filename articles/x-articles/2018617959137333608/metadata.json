@@ -1,0 +1,24 @@
+{
+  "tweet_id": "2018617959137333608",
+  "like_count": 155,
+  "created_at": "2026-03-30",
+  "theme": "ネイティブ音変化8パターン：聞き取りを変える連結・脱落・短縮の実態",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "table",
+      "description": "音変化対応表（正式形→発音記号→実際に聞こえる音、難易度付き）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "checklist",
+      "description": "音変化が多い場面チェックリスト（会話速度・場面別の出現頻度と難易度）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "word_count": 477,
+  "tags": ["音変化", "リスニング", "gonna", "wanna", "シャドーイング", "ネイティブ発音"],
+  "status": "ready"
+}

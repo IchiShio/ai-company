@@ -1,0 +1,272 @@
+[
+  {
+    "word": "Working",
+    "start": 0.15,
+    "end": 0.653
+  },
+  {
+    "word": "from",
+    "start": 0.653,
+    "end": 0.941
+  },
+  {
+    "word": "home",
+    "start": 0.941,
+    "end": 1.229
+  },
+  {
+    "word": "has",
+    "start": 1.229,
+    "end": 1.445
+  },
+  {
+    "word": "changed",
+    "start": 1.445,
+    "end": 1.948
+  },
+  {
+    "word": "how",
+    "start": 1.948,
+    "end": 2.164
+  },
+  {
+    "word": "many",
+    "start": 2.164,
+    "end": 2.452
+  },
+  {
+    "word": "people",
+    "start": 2.452,
+    "end": 2.884
+  },
+  {
+    "word": "think",
+    "start": 2.884,
+    "end": 3.244
+  },
+  {
+    "word": "about",
+    "start": 3.244,
+    "end": 3.604
+  },
+  {
+    "word": "their",
+    "start": 3.604,
+    "end": 3.964
+  },
+  {
+    "word": "daily",
+    "start": 3.964,
+    "end": 4.324
+  },
+  {
+    "word": "routine.",
+    "start": 4.324,
+    "end": 4.824999999999999
+  },
+  {
+    "word": "Without",
+    "start": 4.825,
+    "end": 5.396
+  },
+  {
+    "word": "a",
+    "start": 5.396,
+    "end": 5.478
+  },
+  {
+    "word": "commute,",
+    "start": 5.478,
+    "end": 6.049
+  },
+  {
+    "word": "they",
+    "start": 6.049,
+    "end": 6.375
+  },
+  {
+    "word": "have",
+    "start": 6.375,
+    "end": 6.701
+  },
+  {
+    "word": "more",
+    "start": 6.701,
+    "end": 7.027
+  },
+  {
+    "word": "time",
+    "start": 7.027,
+    "end": 7.353
+  },
+  {
+    "word": "for",
+    "start": 7.353,
+    "end": 7.598
+  },
+  {
+    "word": "themselves.",
+    "start": 7.598,
+    "end": 8.413
+  },
+  {
+    "word": "However,",
+    "start": 8.462,
+    "end": 9.065
+  },
+  {
+    "word": "the",
+    "start": 9.065,
+    "end": 9.323
+  },
+  {
+    "word": "line",
+    "start": 9.323,
+    "end": 9.667
+  },
+  {
+    "word": "between",
+    "start": 9.667,
+    "end": 10.27
+  },
+  {
+    "word": "work",
+    "start": 10.27,
+    "end": 10.614
+  },
+  {
+    "word": "and",
+    "start": 10.614,
+    "end": 10.872
+  },
+  {
+    "word": "personal",
+    "start": 10.872,
+    "end": 11.561
+  },
+  {
+    "word": "life",
+    "start": 11.561,
+    "end": 11.905
+  },
+  {
+    "word": "can",
+    "start": 11.905,
+    "end": 12.163
+  },
+  {
+    "word": "easily",
+    "start": 12.163,
+    "end": 12.679
+  },
+  {
+    "word": "blur.",
+    "start": 12.679,
+    "end": 13.024000000000001
+  },
+  {
+    "word": "Setting",
+    "start": 13.075,
+    "end": 13.67
+  },
+  {
+    "word": "a",
+    "start": 13.67,
+    "end": 13.755
+  },
+  {
+    "word": "clear",
+    "start": 13.755,
+    "end": 14.18
+  },
+  {
+    "word": "schedule",
+    "start": 14.18,
+    "end": 14.86
+  },
+  {
+    "word": "helps",
+    "start": 14.86,
+    "end": 15.285
+  },
+  {
+    "word": "a",
+    "start": 15.285,
+    "end": 15.37
+  },
+  {
+    "word": "great",
+    "start": 15.37,
+    "end": 15.795
+  },
+  {
+    "word": "deal.",
+    "start": 15.795,
+    "end": 16.137
+  },
+  {
+    "word": "So",
+    "start": 16.187,
+    "end": 16.356
+  },
+  {
+    "word": "does",
+    "start": 16.356,
+    "end": 16.694
+  },
+  {
+    "word": "having",
+    "start": 16.694,
+    "end": 17.201
+  },
+  {
+    "word": "a",
+    "start": 17.201,
+    "end": 17.285
+  },
+  {
+    "word": "dedicated",
+    "start": 17.285,
+    "end": 18.045
+  },
+  {
+    "word": "workspace,",
+    "start": 18.045,
+    "end": 18.805
+  },
+  {
+    "word": "even",
+    "start": 18.805,
+    "end": 19.143
+  },
+  {
+    "word": "a",
+    "start": 19.143,
+    "end": 19.227
+  },
+  {
+    "word": "small",
+    "start": 19.227,
+    "end": 19.649
+  },
+  {
+    "word": "corner",
+    "start": 19.649,
+    "end": 20.156
+  },
+  {
+    "word": "of",
+    "start": 20.156,
+    "end": 20.325
+  },
+  {
+    "word": "a",
+    "start": 20.325,
+    "end": 20.409
+  },
+  {
+    "word": "room.",
+    "start": 20.409,
+    "end": 20.749000000000002
+  }
+]

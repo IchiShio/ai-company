@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <linearGradient id="curveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E0245E"/>
+      <stop offset="35%" stop-color="#FFAD1F"/>
+      <stop offset="60%" stop-color="#17BF63"/>
+      <stop offset="85%" stop-color="#FFAD1F"/>
+      <stop offset="100%" stop-color="#E0245E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="46" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">テキスト難易度と語彙習得効果の関係</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="16">95%の法則 — 既知語率が低すぎると文脈推測が機能しない</text>
+
+  <!-- Chart area -->
+  <!-- Y axis -->
+  <line x1="100" y1="100" x2="100" y2="530" stroke="#657786" stroke-width="1.5"/>
+  <!-- X axis -->
+  <line x1="100" y1="530" x2="1100" y2="530" stroke="#657786" stroke-width="1.5"/>
+
+  <!-- Y axis label -->
+  <text x="30" y="320" text-anchor="middle" fill="#657786" font-size="14" transform="rotate(-90,30,320)">語彙習得効果</text>
+  <!-- X axis label -->
+  <text x="600" y="578" text-anchor="middle" fill="#657786" font-size="14">テキスト内の既知語率（%）</text>
+
+  <!-- Y axis ticks -->
+  <text x="90" y="140" text-anchor="end" fill="#657786" font-size="12">高</text>
+  <text x="90" y="340" text-anchor="end" fill="#657786" font-size="12">中</text>
+  <text x="90" y="535" text-anchor="end" fill="#657786" font-size="12">低</text>
+
+  <!-- X axis ticks -->
+  <text x="100" y="550" text-anchor="middle" fill="#657786" font-size="12">60%</text>
+  <text x="280" y="550" text-anchor="middle" fill="#657786" font-size="12">70%</text>
+  <text x="460" y="550" text-anchor="middle" fill="#657786" font-size="12">80%</text>
+  <text x="640" y="550" text-anchor="middle" fill="#657786" font-size="12">90%</text>
+  <text x="780" y="550" text-anchor="middle" fill="#657786" font-size="12">95%</text>
+  <text x="920" y="550" text-anchor="middle" fill="#657786" font-size="12">98%</text>
+  <text x="1080" y="550" text-anchor="middle" fill="#657786" font-size="12">100%</text>
+
+  <!-- Grid lines (horizontal, faint) -->
+  <line x1="100" y1="200" x2="1100" y2="200" stroke="#657786" stroke-width="0.5" opacity="0.3" stroke-dasharray="6,6"/>
+  <line x1="100" y1="320" x2="1100" y2="320" stroke="#657786" stroke-width="0.5" opacity="0.3" stroke-dasharray="6,6"/>
+  <line x1="100" y1="430" x2="1100" y2="430" stroke="#657786" stroke-width="0.5" opacity="0.3" stroke-dasharray="6,6"/>
+
+  <!-- Curve: peaks at ~95% (x=780), low at both ends -->
+  <!-- Using polyline approximation of an inverted-U with steep drop below 80% -->
+  <polyline
+    points="100,520 280,500 460,450 640,300 720,165 780,125 840,145 920,200 1000,280 1080,390 1100,410"
+    fill="none" stroke="url(#curveGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fill under curve -->
+  <polygon
+    points="100,530 100,520 280,500 460,450 640,300 720,165 780,125 840,145 920,200 1000,280 1080,390 1100,410 1100,530"
+    fill="url(#curveGrad)" opacity="0.08"/>
+
+  <!-- 95% zone vertical lines + label -->
+  <line x1="700" y1="100" x2="700" y2="530" stroke="#17BF63" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.7"/>
+  <line x1="870" y1="100" x2="870" y2="530" stroke="#17BF63" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.7"/>
+  <!-- Zone fill -->
+  <rect x="700" y="100" width="170" height="430" fill="#17BF63" opacity="0.06"/>
+  <!-- Zone label -->
+  <rect x="700" y="106" width="170" height="38" rx="6" fill="#17BF63" opacity="0.25"/>
+  <text x="785" y="120" text-anchor="middle" fill="#17BF63" font-size="13" font-weight="bold">最適ゾーン</text>
+  <text x="785" y="136" text-anchor="middle" fill="#17BF63" font-size="12">既知語95〜98%</text>
+
+  <!-- Danger zone left -->
+  <rect x="100" y="106" width="280" height="38" rx="6" fill="#E0245E" opacity="0.18"/>
+  <text x="240" y="120" text-anchor="middle" fill="#E0245E" font-size="13" font-weight="bold">難しすぎる</text>
+  <text x="240" y="136" text-anchor="middle" fill="#E0245E" font-size="12">推測が機能しない（未知語多すぎ）</text>
+
+  <!-- Easy zone right -->
+  <rect x="920" y="106" width="170" height="38" rx="6" fill="#FFAD1F" opacity="0.18"/>
+  <text x="1005" y="120" text-anchor="middle" fill="#FFAD1F" font-size="13" font-weight="bold">簡単すぎる</text>
+  <text x="1005" y="136" text-anchor="middle" fill="#FFAD1F" font-size="12">新語に出会えない</text>
+
+  <!-- Annotation: 1 page rule -->
+  <line x1="780" y1="125" x2="830" y2="95" stroke="#FFFFFF" stroke-width="1.2"/>
+  <rect x="820" y="68" width="250" height="32" rx="6" fill="#17BF63" opacity="0.2" stroke="#17BF63" stroke-width="1"/>
+  <text x="945" y="88" text-anchor="middle" fill="#17BF63" font-size="13" font-weight="bold">1ページに未知語5語以下が目安</text>
+
+  <!-- Source note -->
+  <text x="600" y="618" text-anchor="middle" fill="#657786" font-size="12">参考: Nation (2001), Hu &amp; Nation (2000) — テキストの95%以上を既知語が占める場合に文脈推測が有効に機能する</text>
+
+  <!-- Credit -->
+  <text x="1175" y="658" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

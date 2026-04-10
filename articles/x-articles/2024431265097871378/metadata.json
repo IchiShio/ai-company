@@ -1,0 +1,17 @@
+{
+  "tweet_id": "2024431265097871378",
+  "likes": 55,
+  "article_title": "「聞く→読む→書く→話す」の順番は間違い。最初から口を動かすと全スキルが伸びる理由",
+  "native_real_link": "/",
+  "figures": ["figure_1.svg", "figure_2.svg"],
+  "figure_1_description": "従来の順番 vs 口優先アプローチの効果比較（スキル別成長曲線）",
+  "figure_2_description": "口優先の脳内活動イメージ（マルチタスク処理の可視化）",
+  "created_at": "2026-03-30",
+  "fact_check_status": "PASS",
+  "word_count": 413,
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "post_id": "2036572076811640987",
+  "likes": 36,
+  "theme": "Duolingo研究が証明した間隔反復の威力。「80%覚えてるうちに」復習が最強の理由。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "詰め込み vs 間隔反復の記憶定着比較グラフ",
+      "type": "line_chart"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "最適復習タイムライン（1時間→翌日→4日→2週間→1ヶ月）",
+      "type": "timeline"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_note": "Duolingo研究チームへの言及は元ポストの表現を保持。具体数値の創作追加なし。",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo"
+}

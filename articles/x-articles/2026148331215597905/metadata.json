@@ -1,0 +1,24 @@
+{
+  "tweet_id": "2026148331215597905",
+  "like_count": 143,
+  "created_at": "2026-03-30",
+  "theme": "「It was good」から卒業する：英語は形容詞より動詞で表現する言語",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "comparison_table",
+      "description": "形容詞表現 vs 動詞表現の比較表（同じ意味を5例で言い換え）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "flow",
+      "description": "動詞描写の練習フロー（場面想像→動作分解→英語化の3ステップ）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "word_count": 493,
+  "tags": ["英語表現", "動詞", "形容詞", "スピーキング", "英作文", "show dont tell"],
+  "status": "ready"
+}

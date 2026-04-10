@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2a3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg2)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#1DA1F2" opacity="0.12"/>
+  <text x="600" y="30" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="bold">英語脳構築ロードマップ</text>
+  <text x="600" y="60" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3秒実況 → 独り言 → 思考切替　3段階ステップ</text>
+
+  <!-- Stage 1 -->
+  <rect x="60" y="110" width="320" height="370" rx="16" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="60" y="110" width="320" height="50" rx="16" fill="#1DA1F2" opacity="0.25"/>
+  <text x="220" y="142" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">STAGE 1</text>
+  <text x="220" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" text-anchor="middle">⏱️</text>
+  <text x="220" y="220" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" text-anchor="middle" font-weight="bold">3秒実況</text>
+  <text x="220" y="248" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8899a6" text-anchor="middle">目安: 1〜4週間</text>
+
+  <line x1="100" y1="270" x2="340" y2="270" stroke="#657786" stroke-width="0.5" opacity="0.5"/>
+
+  <text x="100" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 今の動作を1文で言う</text>
+  <text x="100" y="326" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ I'm / This is / It's だけ</text>
+  <text x="100" y="352" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 1日10回目標</text>
+  <text x="100" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 声に出せなくて OK</text>
+  <text x="100" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 日本語変換してもいい</text>
+
+  <rect x="100" y="430" width="240" height="36" rx="8" fill="#1DA1F2" opacity="0.2"/>
+  <text x="220" y="453" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle" font-weight="bold">目標: 英語で現在地を表現</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="415,280 440,295 415,310" fill="#1DA1F2" opacity="0.8"/>
+  <line x1="380" y1="295" x2="415" y2="295" stroke="#1DA1F2" stroke-width="3" stroke-dasharray="6,3"/>
+  <text x="410" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">慣れたら</text>
+
+  <!-- Stage 2 -->
+  <rect x="440" y="110" width="320" height="370" rx="16" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="440" y="110" width="320" height="50" rx="16" fill="#1DA1F2" opacity="0.35"/>
+  <text x="600" y="142" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">STAGE 2</text>
+  <text x="600" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" text-anchor="middle">💬</text>
+  <text x="600" y="220" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" text-anchor="middle" font-weight="bold">独り言モード</text>
+  <text x="600" y="248" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8899a6" text-anchor="middle">目安: 1〜3ヶ月</text>
+
+  <line x1="480" y1="270" x2="720" y2="270" stroke="#657786" stroke-width="0.5" opacity="0.5"/>
+
+  <text x="480" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 2〜3文でつなげる</text>
+  <text x="480" y="326" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 感情・理由も加える</text>
+  <text x="480" y="352" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 知らない単語はスキップ</text>
+  <text x="480" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 料理・移動中に実践</text>
+  <text x="480" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 疑問形にも挑戦</text>
+
+  <rect x="480" y="430" width="240" height="36" rx="8" fill="#1DA1F2" opacity="0.3"/>
+  <text x="600" y="453" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle" font-weight="bold">目標: 英語で感情を表現</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="795,280 820,295 795,310" fill="#1DA1F2"/>
+  <line x1="760" y1="295" x2="795" y2="295" stroke="#1DA1F2" stroke-width="3" stroke-dasharray="6,3"/>
+  <text x="790" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">慣れたら</text>
+
+  <!-- Stage 3 -->
+  <rect x="820" y="110" width="320" height="370" rx="16" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="820" y="110" width="320" height="50" rx="16" fill="#1DA1F2" opacity="0.5"/>
+  <text x="980" y="142" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">STAGE 3</text>
+  <text x="980" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" text-anchor="middle">🧠</text>
+  <text x="980" y="220" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" text-anchor="middle" font-weight="bold">思考の切替</text>
+  <text x="980" y="248" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8899a6" text-anchor="middle">目安: 3〜6ヶ月〜</text>
+
+  <line x1="860" y1="270" x2="1100" y2="270" stroke="#657786" stroke-width="0.5" opacity="0.5"/>
+
+  <text x="860" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 日本語を介さず考える</text>
+  <text x="860" y="326" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 夢で英語が出てくる</text>
+  <text x="860" y="352" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 英語→日本語訳が遅れる</text>
+  <text x="860" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ ネイティブのスピードが追える</text>
+  <text x="860" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">✓ 英語で感情が動く</text>
+
+  <rect x="860" y="430" width="240" height="36" rx="8" fill="#1DA1F2" opacity="0.5"/>
+  <text x="980" y="453" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" font-weight="bold">目標: 英語脳の完成</text>
+
+  <!-- Bottom -->
+  <rect x="0" y="510" width="1200" height="80" fill="#14171A" opacity="0.9"/>
+  <text x="600" y="545" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#1DA1F2" text-anchor="middle" font-weight="bold">すべての始まりは「3秒実況」— 今日から始められる</text>
+  <text x="600" y="572" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">native-real.com でリスニング力も同時に鍛えよう</text>
+
+  <!-- Bottom footer -->
+  <rect x="0" y="590" width="1200" height="85" fill="#0f1923"/>
+  <text x="600" y="628" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">焦らず、毎日3秒。それだけでいい。</text>
+  <text x="600" y="652" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">native-real.com</text>
+  <text x="1170" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

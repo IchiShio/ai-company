@@ -1,0 +1,15 @@
+{
+  "tweet_id": "2028055145351618845",
+  "like_count": 87,
+  "theme": "間隔学習・分散効果",
+  "article_title": "1日100個より7日間10個。記憶は「日数」で決まる間隔学習の科学",
+  "native_real_link": "/",
+  "figures": ["figure_1.svg", "figure_2.svg"],
+  "figure_1_description": "1日集中学習 vs 7日間分散の記憶定着率比較グラフ（5時点の棒グラフ）",
+  "figure_2_description": "最適復習スケジュール 7日間チャート（Day1〜Day7の学習モード・定着率・脳活性度）",
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "word_count": 480,
+  "created_at": "2026-03-30",
+  "tags": ["記憶術", "間隔学習", "分散効果", "Ebbinghaus", "語彙学習", "スペーシング"]
+}

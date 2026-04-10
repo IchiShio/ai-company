@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2"/>
+      <stop offset="100%" style="stop-color:#0d7fc0"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">使用構文数 vs 会話カバー率：少数精鋭の法則</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">構文数を増やしても、カバー率の伸びは急速に鈍化する</text>
+
+  <!-- Chart area -->
+  <rect x="120" y="105" width="940" height="420" rx="12" fill="white" filter="url(#shadow)"/>
+
+  <!-- Y axis label -->
+  <text x="68" y="330" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" transform="rotate(-90, 68, 330)">会話カバー率 (%)</text>
+
+  <!-- Y axis ticks -->
+  <line x1="160" y1="115" x2="160" y2="515" stroke="#e0e0e0" stroke-width="1.5"/>
+  <!-- 100% line -->
+  <line x1="160" y1="127" x2="1060" y2="127" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="148" y="132" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">100%</text>
+  <!-- 80% -->
+  <line x1="160" y1="207" x2="1060" y2="207" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="148" y="212" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">80%</text>
+  <!-- 60% -->
+  <line x1="160" y1="287" x2="1060" y2="287" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="148" y="292" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">60%</text>
+  <!-- 40% -->
+  <line x1="160" y1="367" x2="1060" y2="367" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="148" y="372" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">40%</text>
+  <!-- 20% -->
+  <line x1="160" y1="447" x2="1060" y2="447" stroke="#e8e8e8" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="148" y="452" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">20%</text>
+  <!-- 0% -->
+  <text x="148" y="520" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">0%</text>
+
+  <!-- X axis -->
+  <line x1="160" y1="515" x2="1060" y2="515" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <!-- X axis labels -->
+  <text x="160" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">0</text>
+  <text x="340" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">50</text>
+  <text x="520" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">100</text>
+  <text x="700" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">200</text>
+  <text x="880" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">400</text>
+  <text x="1060" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">800</text>
+  <text x="610" y="556" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">使用構文数（パターン）</text>
+
+  <!-- Curve: coverage rate -->
+  <!-- Path: logarithmic-style growth curve -->
+  <path d="M 160,515 Q 200,430 250,370 Q 290,325 340,247 Q 390,210 430,207 Q 500,203 520,205 Q 600,205 700,204 Q 800,203 880,202 Q 970,201 1060,200"
+        stroke="#1DA1F2" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Shaded area under curve -->
+  <path d="M 160,515 Q 200,430 250,370 Q 290,325 340,247 Q 390,210 430,207 Q 500,203 520,205 Q 600,205 700,204 Q 800,203 880,202 Q 970,201 1060,200 L 1060,515 Z"
+        fill="#1DA1F2" fill-opacity="0.08"/>
+
+  <!-- KEY POINT: 50 patterns = 80% -->
+  <line x1="340" y1="247" x2="340" y2="515" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="8,4"/>
+  <circle cx="340" cy="247" r="9" fill="#ff6b6b" stroke="white" stroke-width="2"/>
+  <!-- Highlight box -->
+  <rect x="348" y="220" width="200" height="70" rx="8" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="448" y="244" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="white">50パターンで</text>
+  <text x="448" y="264" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="800" fill="white">約80%カバー</text>
+  <text x="448" y="282" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#ffcccc">← ここが最大効率ゾーン</text>
+
+  <!-- Annotation: diminishing returns zone -->
+  <rect x="720" y="160" width="220" height="60" rx="8" fill="#657786" fill-opacity="0.9"/>
+  <text x="830" y="183" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white" font-weight="600">逓減ゾーン</text>
+  <text x="830" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#dddddd">200以上増やしても効果薄</text>
+  <line x1="720" y1="190" x2="700" y2="204" stroke="#657786" stroke-width="2"/>
+
+  <!-- Annotation: steep growth zone -->
+  <rect x="168" y="310" width="130" height="50" rx="6" fill="#0d7fc0" fill-opacity="0.9"/>
+  <text x="233" y="332" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="white" font-weight="600">急成長ゾーン</text>
+  <text x="233" y="350" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#aadcf8">0〜50が最重要</text>
+
+  <!-- Stats comparison panel -->
+  <rect x="120" y="560" width="940" height="80" rx="10" fill="#14171A" filter="url(#shadow)"/>
+  <text x="370" y="590" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">多くの学習者</text>
+  <text x="370" y="618" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="#ff6b6b">500〜800パターン学習 → 会話が弾まない</text>
+  <text x="830" y="590" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">英語ができる人</text>
+  <text x="830" y="618" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="800" fill="#1DA1F2">50パターンを反射レベルで出せる</text>
+  <!-- Divider -->
+  <line x1="600" y1="568" x2="600" y2="632" stroke="#657786" stroke-width="1.5"/>
+
+  <!-- Credit -->
+  <text x="1180" y="668" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">@ichi_eigo</text>
+</svg>

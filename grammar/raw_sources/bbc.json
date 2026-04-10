@@ -1,0 +1,457 @@
+[
+  {
+    "title": "Homepage",
+    "url": "https://www.bbc.co.uk",
+    "source": "BBC"
+  },
+  {
+    "title": "Skip to content",
+    "url": "https://www.bbc.co.uk##bbcle-content",
+    "source": "BBC"
+  },
+  {
+    "title": "Accessibility Help",
+    "url": "https://www.bbc.co.uk/accessibility/",
+    "source": "BBC"
+  },
+  {
+    "title": "BBC Account",
+    "url": "https://account.bbc.com/account?ptrt=http://www.bbc.co.uk/learningenglish",
+    "source": "BBC"
+  },
+  {
+    "title": "Notifications",
+    "url": "https://www.bbc.co.uk/notifications",
+    "source": "BBC"
+  },
+  {
+    "title": "News",
+    "url": "https://www.bbc.co.uk/news",
+    "source": "BBC"
+  },
+  {
+    "title": "Sport",
+    "url": "https://www.bbc.co.uk/sport",
+    "source": "BBC"
+  },
+  {
+    "title": "Weather",
+    "url": "https://www.bbc.co.uk/weather",
+    "source": "BBC"
+  },
+  {
+    "title": "iPlayer",
+    "url": "https://www.bbc.co.uk/iplayer",
+    "source": "BBC"
+  },
+  {
+    "title": "Sounds",
+    "url": "https://www.bbc.co.uk/sounds",
+    "source": "BBC"
+  },
+  {
+    "title": "Bitesize",
+    "url": "https://www.bbc.co.uk/bitesize",
+    "source": "BBC"
+  },
+  {
+    "title": "CBeebies",
+    "url": "https://www.bbc.co.uk/cbeebies",
+    "source": "BBC"
+  },
+  {
+    "title": "CBBC",
+    "url": "https://www.bbc.co.uk/cbbc",
+    "source": "BBC"
+  },
+  {
+    "title": "Food",
+    "url": "https://www.bbc.co.uk/food",
+    "source": "BBC"
+  },
+  {
+    "title": "Home",
+    "url": "https://www.bbc.com/",
+    "source": "BBC"
+  },
+  {
+    "title": "News",
+    "url": "https://www.bbc.com/news",
+    "source": "BBC"
+  },
+  {
+    "title": "Sport",
+    "url": "https://www.bbc.com/sport",
+    "source": "BBC"
+  },
+  {
+    "title": "Business",
+    "url": "https://www.bbc.com/business",
+    "source": "BBC"
+  },
+  {
+    "title": "Innovation",
+    "url": "https://www.bbc.com/innovation",
+    "source": "BBC"
+  },
+  {
+    "title": "Culture",
+    "url": "https://www.bbc.com/culture",
+    "source": "BBC"
+  },
+  {
+    "title": "Travel",
+    "url": "https://www.bbc.com/travel",
+    "source": "BBC"
+  },
+  {
+    "title": "Earth",
+    "url": "https://www.bbc.com/future-planet",
+    "source": "BBC"
+  },
+  {
+    "title": "Video",
+    "url": "https://www.bbc.com/video",
+    "source": "BBC"
+  },
+  {
+    "title": "Live",
+    "url": "https://www.bbc.com/live",
+    "source": "BBC"
+  },
+  {
+    "title": "More menu",
+    "url": "https://www.bbc.co.uk#orbit-more-drawer",
+    "source": "BBC"
+  },
+  {
+    "title": "Search BBC",
+    "url": "https://search.bbc.co.uk/search?scope=bbcle&destination=WS_LEARNING_ENGLISH",
+    "source": "BBC"
+  },
+  {
+    "title": "Close menu",
+    "url": "https://www.bbc.co.uk#",
+    "source": "BBC"
+  },
+  {
+    "title": "Learning English",
+    "url": "https://www.bbc.co.uk/learningenglish/english/",
+    "source": "BBC"
+  },
+  {
+    "title": "EnglishChange language",
+    "url": "https://www.bbc.co.uk#header-language-selector",
+    "source": "BBC"
+  },
+  {
+    "title": "HomeHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/home",
+    "source": "BBC"
+  },
+  {
+    "title": "PronunciationHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/learn_pronunciation",
+    "source": "BBC"
+  },
+  {
+    "title": "VocabularyHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/vocabulary",
+    "source": "BBC"
+  },
+  {
+    "title": "GrammarHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "CoursesHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/courses",
+    "source": "BBC"
+  },
+  {
+    "title": "SkillsHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/skills",
+    "source": "BBC"
+  },
+  {
+    "title": "Work EnglishHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/business-english",
+    "source": "BBC"
+  },
+  {
+    "title": "NewsHome",
+    "url": "https://www.bbc.co.uk/learningenglish/english/news_english",
+    "source": "BBC"
+  },
+  {
+    "title": "EasyLevel",
+    "url": "https://www.bbc.co.uk/learningenglish/english/easy_course",
+    "source": "BBC"
+  },
+  {
+    "title": "MediumLevel",
+    "url": "https://www.bbc.co.uk/learningenglish/english/medium_course",
+    "source": "BBC"
+  },
+  {
+    "title": "HardLevel",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hard_course",
+    "source": "BBC"
+  },
+  {
+    "title": "FoodTopics",
+    "url": "https://www.bbc.co.uk/learningenglish/english/topics/food",
+    "source": "BBC"
+  },
+  {
+    "title": "Feelings and emotionsTopics",
+    "url": "https://www.bbc.co.uk/learningenglish/english/topics/feelings_and_emotions",
+    "source": "BBC"
+  },
+  {
+    "title": "The environmentTopics",
+    "url": "https://www.bbc.co.uk/learningenglish/english/topics/environment",
+    "source": "BBC"
+  },
+  {
+    "title": "Friends and familyTopics",
+    "url": "https://www.bbc.co.uk/learningenglish/english/topics/friends_and_family",
+    "source": "BBC"
+  },
+  {
+    "title": "Travel and transportTopics",
+    "url": "https://www.bbc.co.uk/learningenglish/english/topics/travel_and_transport",
+    "source": "BBC"
+  },
+  {
+    "title": "All topicsTopics",
+    "url": "https://www.bbc.co.uk/learningenglish/english/topics",
+    "source": "BBC"
+  },
+  {
+    "title": "LatestLatest",
+    "url": "https://www.bbc.co.uk/learningenglish/english/latest_programmes",
+    "source": "BBC"
+  },
+  {
+    "title": "DownloadsLatest",
+    "url": "https://www.bbc.co.uk/learningenglish/english/downloads",
+    "source": "BBC"
+  },
+  {
+    "title": "Podcasts homePodcasts",
+    "url": "https://www.bbc.co.uk/learningenglish/english/podcasts",
+    "source": "BBC"
+  },
+  {
+    "title": "A-Z IndexMore...",
+    "url": "https://www.bbc.co.uk/learningenglish/english/index",
+    "source": "BBC"
+  },
+  {
+    "title": "Test Your LevelMore...",
+    "url": "https://www.bbc.co.uk/learningenglish/english/course/test-your-level",
+    "source": "BBC"
+  },
+  {
+    "title": "TeachersMore...",
+    "url": "https://www.bbc.co.uk/learningenglish/english/teachers",
+    "source": "BBC"
+  },
+  {
+    "title": "For ChildrenMore...",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/childrens-stories",
+    "source": "BBC"
+  },
+  {
+    "title": "StoriesMore...",
+    "url": "https://www.bbc.co.uk/learningenglish/english/stories",
+    "source": "BBC"
+  },
+  {
+    "title": "QuizzesMore...",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/quizzes2024",
+    "source": "BBC"
+  },
+  {
+    "title": "فارسی",
+    "url": "https://www.bbc.co.uk/learningenglish/persian/grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "ဗမာစာ",
+    "url": "https://www.bbc.co.uk/learningenglish/burmese/grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "አማርኛ",
+    "url": "https://www.bbc.co.uk/learningenglish/amharic/grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "Afaan Oromoo",
+    "url": "https://www.bbc.co.uk/learningenglish/oromo/grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "ትግርኛ",
+    "url": "https://www.bbc.co.uk/learningenglish/tigrinya/grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "Home",
+    "url": "https://www.bbc.co.uk#navIndex-0",
+    "source": "BBC"
+  },
+  {
+    "title": "Level",
+    "url": "https://www.bbc.co.uk#navIndex-1",
+    "source": "BBC"
+  },
+  {
+    "title": "Topics",
+    "url": "https://www.bbc.co.uk#navIndex-2",
+    "source": "BBC"
+  },
+  {
+    "title": "Latest",
+    "url": "https://www.bbc.co.uk#navIndex-3",
+    "source": "BBC"
+  },
+  {
+    "title": "Podcasts",
+    "url": "https://www.bbc.co.uk#navIndex-4",
+    "source": "BBC"
+  },
+  {
+    "title": "More...",
+    "url": "https://www.bbc.co.uk#navIndex-5",
+    "source": "BBC"
+  },
+  {
+    "title": "Search",
+    "url": "https://www.bbc.co.uk#navIndex-search",
+    "source": "BBC"
+  },
+  {
+    "title": "The latest episode",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar/260317",
+    "source": "BBC"
+  },
+  {
+    "title": "All episodes",
+    "url": "https://www.bbc.co.uk/learningenglish/english/features/learning-english-grammar",
+    "source": "BBC"
+  },
+  {
+    "title": "About BBC Learning English",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hygiene",
+    "source": "BBC"
+  },
+  {
+    "title": "Courses",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hygiene/course-information",
+    "source": "BBC"
+  },
+  {
+    "title": "Course site maps",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hygiene/lowerintermediate-syllabus",
+    "source": "BBC"
+  },
+  {
+    "title": "Learning FAQ",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hygiene/frequently-asked-questions",
+    "source": "BBC"
+  },
+  {
+    "title": "Contact BBC Learning English",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hygiene/contact",
+    "source": "BBC"
+  },
+  {
+    "title": "TikTok",
+    "url": "https://www.tiktok.com/@bbclearningenglish",
+    "source": "BBC"
+  },
+  {
+    "title": "YouTube",
+    "url": "https://www.youtube.com/user/bbclearningenglish",
+    "source": "BBC"
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/bbclearningenglish",
+    "source": "BBC"
+  },
+  {
+    "title": "Facebook",
+    "url": "https://www.facebook.com/bbclearningenglish.multimedia",
+    "source": "BBC"
+  },
+  {
+    "title": "Social media house rules",
+    "url": "https://www.bbc.co.uk/learningenglish/english/hygiene/social-media",
+    "source": "BBC"
+  },
+  {
+    "title": "Terms of Use",
+    "url": "https://www.bbc.co.uk/usingthebbc/terms/",
+    "source": "BBC"
+  },
+  {
+    "title": "About the BBC",
+    "url": "https://www.bbc.co.uk/aboutthebbc",
+    "source": "BBC"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://www.bbc.co.uk/usingthebbc/privacy/",
+    "source": "BBC"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://www.bbc.com/usingthebbc/privacy/",
+    "source": "BBC"
+  },
+  {
+    "title": "Cookies",
+    "url": "https://www.bbc.co.uk/usingthebbc/cookies/",
+    "source": "BBC"
+  },
+  {
+    "title": "Cookies",
+    "url": "https://www.bbc.com/usingthebbc/cookies/",
+    "source": "BBC"
+  },
+  {
+    "title": "Parental Guidance",
+    "url": "https://www.bbc.co.uk/guidance",
+    "source": "BBC"
+  },
+  {
+    "title": "Contact the BBC",
+    "url": "https://www.bbc.co.uk/contact",
+    "source": "BBC"
+  },
+  {
+    "title": "Make an editorial complaint",
+    "url": "https://www.bbc.co.uk/contact/complaints/",
+    "source": "BBC"
+  },
+  {
+    "title": "BBC emails for you",
+    "url": "https://www.bbc.co.uk/bbcnewsletter",
+    "source": "BBC"
+  },
+  {
+    "title": "Advertise with us",
+    "url": "https://www.bbc.com/advertisingcontact",
+    "source": "BBC"
+  },
+  {
+    "title": "Read about our approach to external linking.",
+    "url": "https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links",
+    "source": "BBC"
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "word": "Climate",
+    "start": 0.15,
+    "end": 0.612
+  },
+  {
+    "word": "change",
+    "start": 0.612,
+    "end": 1.008
+  },
+  {
+    "word": "is",
+    "start": 1.008,
+    "end": 1.14
+  },
+  {
+    "word": "increasingly",
+    "start": 1.14,
+    "end": 1.932
+  },
+  {
+    "word": "affecting",
+    "start": 1.932,
+    "end": 2.526
+  },
+  {
+    "word": "global",
+    "start": 2.526,
+    "end": 2.922
+  },
+  {
+    "word": "food",
+    "start": 2.922,
+    "end": 3.186
+  },
+  {
+    "word": "production",
+    "start": 3.186,
+    "end": 3.846
+  },
+  {
+    "word": "in",
+    "start": 3.846,
+    "end": 3.978
+  },
+  {
+    "word": "ways",
+    "start": 3.978,
+    "end": 4.242
+  },
+  {
+    "word": "that",
+    "start": 4.242,
+    "end": 4.506
+  },
+  {
+    "word": "researchers",
+    "start": 4.506,
+    "end": 5.232
+  },
+  {
+    "word": "are",
+    "start": 5.232,
+    "end": 5.43
+  },
+  {
+    "word": "only",
+    "start": 5.43,
+    "end": 5.694
+  },
+  {
+    "word": "beginning",
+    "start": 5.694,
+    "end": 6.288
+  },
+  {
+    "word": "to",
+    "start": 6.288,
+    "end": 6.42
+  },
+  {
+    "word": "fully",
+    "start": 6.42,
+    "end": 6.75
+  },
+  {
+    "word": "understand.",
+    "start": 6.75,
+    "end": 7.412
+  },
+  {
+    "word": "Shifting",
+    "start": 7.412,
+    "end": 7.964
+  },
+  {
+    "word": "rainfall",
+    "start": 7.964,
+    "end": 8.516
+  },
+  {
+    "word": "patterns",
+    "start": 8.516,
+    "end": 9.068
+  },
+  {
+    "word": "and",
+    "start": 9.068,
+    "end": 9.275
+  },
+  {
+    "word": "rising",
+    "start": 9.275,
+    "end": 9.689
+  },
+  {
+    "word": "average",
+    "start": 9.689,
+    "end": 10.172
+  },
+  {
+    "word": "temperatures",
+    "start": 10.172,
+    "end": 11.0
+  },
+  {
+    "word": "are",
+    "start": 11.0,
+    "end": 11.207
+  },
+  {
+    "word": "reducing",
+    "start": 11.207,
+    "end": 11.759
+  },
+  {
+    "word": "crop",
+    "start": 11.759,
+    "end": 12.035
+  },
+  {
+    "word": "yields",
+    "start": 12.035,
+    "end": 12.449
+  },
+  {
+    "word": "in",
+    "start": 12.449,
+    "end": 12.587
+  },
+  {
+    "word": "vulnerable",
+    "start": 12.587,
+    "end": 13.277
+  },
+  {
+    "word": "regions",
+    "start": 13.277,
+    "end": 13.76
+  },
+  {
+    "word": "across",
+    "start": 13.76,
+    "end": 14.174
+  },
+  {
+    "word": "Africa",
+    "start": 14.174,
+    "end": 14.588
+  },
+  {
+    "word": "and",
+    "start": 14.588,
+    "end": 14.795
+  },
+  {
+    "word": "Asia.",
+    "start": 14.795,
+    "end": 15.075
+  },
+  {
+    "word": "Meanwhile,",
+    "start": 15.125,
+    "end": 15.772
+  },
+  {
+    "word": "extreme",
+    "start": 15.772,
+    "end": 16.276
+  },
+  {
+    "word": "weather",
+    "start": 16.276,
+    "end": 16.78
+  },
+  {
+    "word": "events",
+    "start": 16.78,
+    "end": 17.212
+  },
+  {
+    "word": "are",
+    "start": 17.212,
+    "end": 17.428
+  },
+  {
+    "word": "disrupting",
+    "start": 17.428,
+    "end": 18.147
+  },
+  {
+    "word": "supply",
+    "start": 18.147,
+    "end": 18.579
+  },
+  {
+    "word": "chains",
+    "start": 18.579,
+    "end": 19.011
+  },
+  {
+    "word": "that",
+    "start": 19.011,
+    "end": 19.299
+  },
+  {
+    "word": "the",
+    "start": 19.299,
+    "end": 19.515
+  },
+  {
+    "word": "modern",
+    "start": 19.515,
+    "end": 19.947
+  },
+  {
+    "word": "food",
+    "start": 19.947,
+    "end": 20.235
+  },
+  {
+    "word": "system",
+    "start": 20.235,
+    "end": 20.667
+  },
+  {
+    "word": "depends",
+    "start": 20.667,
+    "end": 21.171
+  },
+  {
+    "word": "on.",
+    "start": 21.171,
+    "end": 21.311999999999998
+  },
+  {
+    "word": "International",
+    "start": 21.362,
+    "end": 22.279
+  },
+  {
+    "word": "cooperation",
+    "start": 22.279,
+    "end": 23.055
+  },
+  {
+    "word": "on",
+    "start": 23.055,
+    "end": 23.196
+  },
+  {
+    "word": "agricultural",
+    "start": 23.196,
+    "end": 24.042
+  },
+  {
+    "word": "adaptation",
+    "start": 24.042,
+    "end": 24.747
+  },
+  {
+    "word": "and",
+    "start": 24.747,
+    "end": 24.959
+  },
+  {
+    "word": "food",
+    "start": 24.959,
+    "end": 25.241
+  },
+  {
+    "word": "security",
+    "start": 25.241,
+    "end": 25.805
+  },
+  {
+    "word": "will",
+    "start": 25.805,
+    "end": 26.087
+  },
+  {
+    "word": "be",
+    "start": 26.087,
+    "end": 26.228
+  },
+  {
+    "word": "essential",
+    "start": 26.228,
+    "end": 26.863
+  },
+  {
+    "word": "in",
+    "start": 26.863,
+    "end": 27.004
+  },
+  {
+    "word": "the",
+    "start": 27.004,
+    "end": 27.216
+  },
+  {
+    "word": "decades",
+    "start": 27.216,
+    "end": 27.71
+  },
+  {
+    "word": "ahead,",
+    "start": 27.71,
+    "end": 28.063
+  },
+  {
+    "word": "as",
+    "start": 28.063,
+    "end": 28.204
+  },
+  {
+    "word": "the",
+    "start": 28.204,
+    "end": 28.416
+  },
+  {
+    "word": "window",
+    "start": 28.416,
+    "end": 28.839
+  },
+  {
+    "word": "for",
+    "start": 28.839,
+    "end": 29.051
+  },
+  {
+    "word": "preventive",
+    "start": 29.051,
+    "end": 29.756
+  },
+  {
+    "word": "action",
+    "start": 29.756,
+    "end": 30.179
+  },
+  {
+    "word": "continues",
+    "start": 30.179,
+    "end": 30.814
+  },
+  {
+    "word": "to",
+    "start": 30.814,
+    "end": 30.955
+  },
+  {
+    "word": "narrow.",
+    "start": 30.955,
+    "end": 31.374000000000002
+  }
+]

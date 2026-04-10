@@ -1,0 +1,26 @@
+{
+  "id": "2033672155226124345",
+  "likes": 73,
+  "theme": "英語で考える最初の一歩は3秒の実況。英語脳構築の入門ガイド",
+  "original_text": "「英語で考えろ」と言われても何をすればいいかわからない人は多い。まず「今何してる？」を英語にするだけでいい。信号待ちで「I'm waiting」、コーヒー飲んで「This is good」。この3秒の積み重ねが英語脳への入り口。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "日常シーン別3秒英語実況フレーズ集（10シーン）",
+      "type": "phrase_collection"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "英語脳構築のロードマップ（3秒実況→独り言→思考切替への段階）",
+      "type": "roadmap"
+    }
+  ],
+  "article": "article.md",
+  "fact_check": "fact_check.md",
+  "fact_check_result": "PASS",
+  "word_count": 492,
+  "created_at": "2026-03-30",
+  "brand_color": "#1DA1F2",
+  "account": "@ichi_eigo"
+}

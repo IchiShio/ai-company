@@ -1,0 +1,27 @@
+{
+  "id": "2017002313358147720",
+  "likes": 71,
+  "theme": "勉強と練習は別物。試合に出ない英語学習を変える5分練習の始め方",
+  "original_text": "英語を「勉強」している人は多いけど、英語を「練習」している人は少ない。スポーツで例えるなら、ルールブックを読むだけで試合に出ないようなもの。毎日5分でいいから「使う」時間、取れていますか？",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "スポーツ選手の練習比率 vs 英語学習者の勉強比率（対比図）",
+      "type": "comparison_chart"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "5分間アウトプット練習メニュー（5種類の方法）",
+      "type": "method_cards"
+    }
+  ],
+  "article": "article.md",
+  "fact_check": "fact_check.md",
+  "fact_check_result": "PASS",
+  "fact_check_notes": "比率の数字はイメージ図として使用。断定的な科学的主張ではないため許容範囲内。",
+  "word_count": 498,
+  "created_at": "2026-03-30",
+  "brand_color": "#1DA1F2",
+  "account": "@ichi_eigo"
+}

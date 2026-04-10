@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2533;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="75" fill="#1DA1F2" opacity="0.12"/>
+  <text x="600" y="28" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle" font-weight="bold">内容語（強）vs 機能語（弱）— 選択的聴取トレーニング</text>
+  <text x="600" y="58" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">英文中の強・弱の構造を見抜く — サンプル文5つ</text>
+
+  <!-- Legend -->
+  <rect x="340" y="84" width="22" height="22" rx="4" fill="#1DA1F2"/>
+  <text x="370" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">内容語（強く発音・意味の核）</text>
+  <rect x="620" y="84" width="22" height="22" rx="4" fill="#657786"/>
+  <text x="650" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">機能語（弱く・省略気味）</text>
+  <rect x="870" y="84" width="22" height="22" rx="4" fill="#14171A" stroke="#657786" stroke-width="1"/>
+  <text x="900" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">聞き取れなくてもOK</text>
+
+  <!-- Sentence 1 -->
+  <rect x="30" y="114" width="1140" height="90" rx="10" fill="#1e2f3e" opacity="0.8"/>
+  <text x="60" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Sentence 1 — 日常会話</text>
+  <!-- Words with color coding -->
+  <text x="60" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">She</text>
+  <text x="110" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">told</text>
+  <!-- told is content -->
+  <rect x="107" y="153" width="50" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="110" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">told</text>
+  <text x="168" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">me</text>
+  <text x="208" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">that</text>
+  <text x="270" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">he</text>
+  <!-- came -->
+  <rect x="307" y="153" width="60" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="310" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">came</text>
+  <text x="378" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">to</text>
+  <text x="406" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">the</text>
+  <!-- office -->
+  <rect x="453" y="153" width="80" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="456" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">office</text>
+  <text x="545" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">but</text>
+  <!-- left -->
+  <rect x="598" y="153" width="48" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="600" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">left</text>
+  <!-- early -->
+  <rect x="655" y="153" width="62" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="658" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">early</text>
+  <text x="760" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">→ 拾うべき語: told / came / office / left / early</text>
+
+  <!-- Sentence 2 -->
+  <rect x="30" y="218" width="1140" height="90" rx="10" fill="#1e2f3e" opacity="0.8"/>
+  <text x="60" y="244" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Sentence 2 — ニュース英語</text>
+  <text x="60" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">The</text>
+  <!-- company -->
+  <rect x="98" y="257" width="100" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="101" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">company</text>
+  <!-- announced -->
+  <rect x="206" y="257" width="140" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="209" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">announced</text>
+  <text x="355" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">a</text>
+  <!-- new -->
+  <rect x="378" y="257" width="48" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="381" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">new</text>
+  <!-- product -->
+  <rect x="432" y="257" width="90" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="435" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">product</text>
+  <text x="530" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">at</text>
+  <text x="561" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">the</text>
+  <!-- event -->
+  <rect x="607" y="257" width="66" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="610" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">event</text>
+  <text x="730" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">→ 拾うべき語: company / announced / new / product / event</text>
+
+  <!-- Sentence 3 -->
+  <rect x="30" y="322" width="1140" height="90" rx="10" fill="#1e2f3e" opacity="0.8"/>
+  <text x="60" y="348" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Sentence 3 — 指示・依頼</text>
+  <text x="60" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">Can</text>
+  <text x="104" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">you</text>
+  <!-- send -->
+  <rect x="146" y="361" width="56" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="149" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">send</text>
+  <text x="210" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">me</text>
+  <text x="248" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">the</text>
+  <!-- report -->
+  <rect x="293" y="361" width="78" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="296" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">report</text>
+  <text x="378" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">by</text>
+  <!-- Friday -->
+  <rect x="415" y="361" width="80" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="418" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">Friday</text>
+  <text x="570" y="382" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">→ 拾うべき語: send / report / Friday</text>
+
+  <!-- Sentence 4 -->
+  <rect x="30" y="426" width="1140" height="90" rx="10" fill="#1e2f3e" opacity="0.8"/>
+  <text x="60" y="452" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Sentence 4 — 感情表現</text>
+  <text x="60" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">I</text>
+  <!-- got -->
+  <rect x="84" y="465" width="44" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="87" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">got</text>
+  <!-- really -->
+  <rect x="136" y="465" width="70" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="139" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">really</text>
+  <!-- upset -->
+  <rect x="215" y="465" width="70" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="218" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">upset</text>
+  <text x="293" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">about</text>
+  <text x="366" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">what</text>
+  <text x="430" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">he</text>
+  <!-- said -->
+  <rect x="468" y="465" width="52" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="471" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">said</text>
+  <text x="600" y="486" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">→ 拾うべき語: got / really / upset / said</text>
+
+  <!-- Sentence 5 -->
+  <rect x="30" y="530" width="1140" height="90" rx="10" fill="#1e2f3e" opacity="0.8"/>
+  <text x="60" y="556" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Sentence 5 — 説明・解説</text>
+  <text x="60" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">It</text>
+  <!-- made -->
+  <rect x="84" y="569" width="60" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="87" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">made</text>
+  <text x="152" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">a</text>
+  <!-- huge -->
+  <rect x="177" y="569" width="60" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="180" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">huge</text>
+  <!-- difference -->
+  <rect x="244" y="569" width="120" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="247" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">difference</text>
+  <text x="372" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">to</text>
+  <text x="402" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#657786">the</text>
+  <!-- team -->
+  <rect x="450" y="569" width="56" height="28" rx="4" fill="#1DA1F2" opacity="0.2"/>
+  <text x="453" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" font-weight="bold">team</text>
+  <text x="580" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">→ 拾うべき語: made / huge / difference / team</text>
+
+  <!-- Footer -->
+  <rect x="0" y="635" width="1200" height="40" fill="#14171A"/>
+  <text x="600" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">青いハイライト語だけで文意は追える — ListenUp で実践練習 → native-real.com</text>
+  <text x="1170" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

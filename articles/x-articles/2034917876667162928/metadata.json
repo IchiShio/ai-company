@@ -1,0 +1,21 @@
+{
+  "tweet_id": "2034917876667162928",
+  "likes": 76,
+  "theme": "4/3/2スピーキング練習法",
+  "native_real_link": "/",
+  "date_created": "2026-03-30",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "caption": "4/3/2練習のタイムライン図（3ラウンドの時間配分と効果の変化）"
+    },
+    {
+      "file": "figure_2.svg",
+      "caption": "発話速度とポーズ回数の改善グラフ"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "word_count": 418,
+  "word_limit": 800
+}

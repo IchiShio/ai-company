@@ -1,0 +1,27 @@
+{
+  "id": "2026607715599179848",
+  "likes": 69,
+  "theme": "動詞と名詞だけ拾えばリスニングが通じる。選択的聴取トレーニング法",
+  "original_text": "リスニングが伸びない人は「全部聞こうとしている」。ネイティブは弱い音をあまり聞いていない。強く発音された動詞と名詞だけ拾えば、文意は追える。\"came / told / got / made\"など、まず動詞を拾う訓練から。",
+  "native_real_link": "/（ListenUp）",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "英文中の内容語（強）vs機能語（弱）の色分けサンプル文5つ",
+      "type": "annotated_sentences"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "動詞ファースト聴取の練習ステップ（5段階）",
+      "type": "step_diagram"
+    }
+  ],
+  "article": "article.md",
+  "fact_check": "fact_check.md",
+  "fact_check_result": "PASS",
+  "fact_check_notes": "内容語・機能語の概念は言語学的に正確。70%という数値は出典不明だが断定回避済み。",
+  "word_count": 519,
+  "created_at": "2026-03-30",
+  "brand_color": "#1DA1F2",
+  "account": "@ichi_eigo"
+}

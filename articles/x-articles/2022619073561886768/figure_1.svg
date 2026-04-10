@@ -1,0 +1,117 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="52" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">記憶定着率の比較 — 詰め込み学習 vs 間隔反復（1ヶ月後）</text>
+
+  <!-- Graph area -->
+  <rect x="80" y="100" width="1040" height="440" rx="8" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+
+  <!-- Y-axis label -->
+  <text x="50" y="330" text-anchor="middle" fill="#657786" font-size="16" transform="rotate(-90 50 330)">記憶定着率 (%)</text>
+
+  <!-- X-axis label -->
+  <text x="600" y="570" text-anchor="middle" fill="#657786" font-size="16">経過日数</text>
+
+  <!-- Y-axis gridlines and labels -->
+  <line x1="140" y1="120" x2="140" y2="520" stroke="#E1E8ED" stroke-width="1.5"/>
+  <!-- 100% -->
+  <line x1="135" y1="128" x2="1100" y2="128" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="128" y="133" text-anchor="end" fill="#657786" font-size="14">100%</text>
+  <!-- 80% -->
+  <line x1="135" y1="208" x2="1100" y2="208" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="128" y="213" text-anchor="end" fill="#657786" font-size="14">80%</text>
+  <!-- 60% -->
+  <line x1="135" y1="288" x2="1100" y2="288" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="128" y="293" text-anchor="end" fill="#657786" font-size="14">60%</text>
+  <!-- 40% -->
+  <line x1="135" y1="368" x2="1100" y2="368" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="128" y="373" text-anchor="end" fill="#657786" font-size="14">40%</text>
+  <!-- 20% -->
+  <line x1="135" y1="448" x2="1100" y2="448" stroke="#E1E8ED" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="128" y="453" text-anchor="end" fill="#657786" font-size="14">20%</text>
+  <!-- 0% -->
+  <line x1="135" y1="520" x2="1100" y2="520" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="128" y="525" text-anchor="end" fill="#657786" font-size="14">0%</text>
+
+  <!-- X-axis labels: 学習直後 1日後 3日後 7日後 14日後 30日後 -->
+  <!-- x positions: 140, 248, 418, 648, 848, 1100 -->
+  <text x="140" y="545" text-anchor="middle" fill="#657786" font-size="13">学習直後</text>
+  <text x="248" y="545" text-anchor="middle" fill="#657786" font-size="13">1日後</text>
+  <text x="418" y="545" text-anchor="middle" fill="#657786" font-size="13">3日後</text>
+  <text x="648" y="545" text-anchor="middle" fill="#657786" font-size="13">7日後</text>
+  <text x="848" y="545" text-anchor="middle" fill="#657786" font-size="13">14日後</text>
+  <text x="1100" y="545" text-anchor="middle" fill="#657786" font-size="13">30日後</text>
+
+  <!-- Tick marks -->
+  <line x1="248" y1="518" x2="248" y2="526" stroke="#657786" stroke-width="1.5"/>
+  <line x1="418" y1="518" x2="418" y2="526" stroke="#657786" stroke-width="1.5"/>
+  <line x1="648" y1="518" x2="648" y2="526" stroke="#657786" stroke-width="1.5"/>
+  <line x1="848" y1="518" x2="848" y2="526" stroke="#657786" stroke-width="1.5"/>
+  <line x1="1100" y1="518" x2="1100" y2="526" stroke="#657786" stroke-width="1.5"/>
+
+  <!-- 詰め込み学習ライン (Massed Practice) -->
+  <!-- Points: 直後=100%(128), 1日=44%(338), 3日=30%(398), 7日=22%(432), 14日=18%(448), 30日=15%(460) -->
+  <!-- y = 128 + (100 - val) * 3.92 -->
+  <!-- 100%->128, 44%->348, 30%->405, 22%->436, 18%->449, 15%->457 -->
+  <polyline points="140,128 248,348 418,405 648,436 848,449 1100,457"
+    fill="none" stroke="#E0245E" stroke-width="3" stroke-dasharray="10,5"/>
+
+  <!-- 間隔反復ライン (Spaced Repetition) -->
+  <!-- Points: 直後=100%(128), 1日=75%(226), 3日=80%(208), 7日=82%(200), 14日=85%(188), 30日=85%(188) -->
+  <polyline points="140,128 248,226 418,208 648,200 848,188 1100,188"
+    fill="none" stroke="#1DA1F2" stroke-width="3.5"/>
+
+  <!-- Data points: Massed -->
+  <circle cx="140" cy="128" r="6" fill="#E0245E"/>
+  <circle cx="248" cy="348" r="6" fill="#E0245E"/>
+  <circle cx="418" cy="405" r="6" fill="#E0245E"/>
+  <circle cx="648" cy="436" r="6" fill="#E0245E"/>
+  <circle cx="848" cy="449" r="6" fill="#E0245E"/>
+  <circle cx="1100" cy="457" r="6" fill="#E0245E"/>
+
+  <!-- Data labels: Massed -->
+  <text x="140" y="120" text-anchor="middle" fill="#E0245E" font-size="13">100%</text>
+  <text x="248" y="340" text-anchor="middle" fill="#E0245E" font-size="13">44%</text>
+  <text x="418" y="397" text-anchor="middle" fill="#E0245E" font-size="13">30%</text>
+  <text x="648" y="428" text-anchor="middle" fill="#E0245E" font-size="13">22%</text>
+  <text x="848" y="441" text-anchor="middle" fill="#E0245E" font-size="13">18%</text>
+  <text x="1100" y="449" text-anchor="middle" fill="#E0245E" font-size="13">15%</text>
+
+  <!-- Data points: Spaced -->
+  <circle cx="140" cy="128" r="7" fill="#1DA1F2"/>
+  <circle cx="248" cy="226" r="7" fill="#1DA1F2"/>
+  <circle cx="418" cy="208" r="7" fill="#1DA1F2"/>
+  <circle cx="648" cy="200" r="7" fill="#1DA1F2"/>
+  <circle cx="848" cy="188" r="7" fill="#1DA1F2"/>
+  <circle cx="1100" cy="188" r="7" fill="#1DA1F2"/>
+
+  <!-- Data labels: Spaced -->
+  <text x="264" y="218" text-anchor="start" fill="#1DA1F2" font-size="13">75%</text>
+  <text x="434" y="200" text-anchor="start" fill="#1DA1F2" font-size="13">80%</text>
+  <text x="664" y="192" text-anchor="start" fill="#1DA1F2" font-size="13">82%</text>
+  <text x="864" y="180" text-anchor="start" fill="#1DA1F2" font-size="13">85%</text>
+  <text x="1106" y="180" text-anchor="start" fill="#1DA1F2" font-size="13">85%</text>
+
+  <!-- Legend -->
+  <line x1="860" y1="460" x2="900" y2="460" stroke="#E0245E" stroke-width="3" stroke-dasharray="8,4"/>
+  <circle cx="930" cy="460" r="5" fill="#E0245E"/>
+  <text x="940" y="465" fill="#E0245E" font-size="15" font-weight="bold">詰め込み学習（1日50個）</text>
+
+  <line x1="860" y1="490" x2="900" y2="490" stroke="#1DA1F2" stroke-width="3.5"/>
+  <circle cx="930" cy="490" r="5" fill="#1DA1F2"/>
+  <text x="940" y="495" fill="#1DA1F2" font-size="15" font-weight="bold">間隔反復（10個×5日）</text>
+
+  <!-- 30日後の差を強調 -->
+  <line x1="1100" y1="188" x2="1100" y2="457" stroke="#14171A" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="1115" y="325" text-anchor="start" fill="#14171A" font-size="16" font-weight="bold">70%の差</text>
+
+  <!-- Bottom note -->
+  <rect x="80" y="592" width="1040" height="48" rx="8" fill="#E8F5FE" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="600" y="621" text-anchor="middle" fill="#14171A" font-size="16">エビングハウスの忘却曲線に基づく推定値 — 実際の定着率は個人差・素材・学習方法により異なる</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

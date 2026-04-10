@@ -1,0 +1,29 @@
+{
+  "post_id": "2028236338667876728",
+  "likes": 43,
+  "theme": "R/Lの違いより文のリズムが大事",
+  "article_topic": "内容語/機能語の強弱練習で伝わる英語になる",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "英文強弱パターンの楽譜風ビジュアル（内容語=強、機能語=弱の視覚化）",
+      "dimensions": "1200x675"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "内容語 vs 機能語の分類チートシート",
+      "dimensions": "1200x675"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_result": "PASS",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo"
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "word": "She",
+    "start": 0.15,
+    "end": 0.426
+  },
+  {
+    "word": "works",
+    "start": 0.426,
+    "end": 0.886
+  },
+  {
+    "word": "at",
+    "start": 0.886,
+    "end": 1.07
+  },
+  {
+    "word": "a",
+    "start": 1.07,
+    "end": 1.162
+  },
+  {
+    "word": "small",
+    "start": 1.162,
+    "end": 1.622
+  },
+  {
+    "word": "café",
+    "start": 1.622,
+    "end": 1.99
+  },
+  {
+    "word": "near",
+    "start": 1.99,
+    "end": 2.358
+  },
+  {
+    "word": "the",
+    "start": 2.358,
+    "end": 2.634
+  },
+  {
+    "word": "station.",
+    "start": 2.634,
+    "end": 3.275
+  },
+  {
+    "word": "She",
+    "start": 3.275,
+    "end": 3.496
+  },
+  {
+    "word": "starts",
+    "start": 3.496,
+    "end": 3.938
+  },
+  {
+    "word": "at",
+    "start": 3.938,
+    "end": 4.085
+  },
+  {
+    "word": "eight",
+    "start": 4.085,
+    "end": 4.453
+  },
+  {
+    "word": "in",
+    "start": 4.453,
+    "end": 4.6
+  },
+  {
+    "word": "the",
+    "start": 4.6,
+    "end": 4.821
+  },
+  {
+    "word": "morning",
+    "start": 4.821,
+    "end": 5.337
+  },
+  {
+    "word": "and",
+    "start": 5.337,
+    "end": 5.558
+  },
+  {
+    "word": "finishes",
+    "start": 5.558,
+    "end": 6.147
+  },
+  {
+    "word": "at",
+    "start": 6.147,
+    "end": 6.294
+  },
+  {
+    "word": "three.",
+    "start": 6.294,
+    "end": 6.663
+  },
+  {
+    "word": "The",
+    "start": 6.712,
+    "end": 7.001
+  },
+  {
+    "word": "café",
+    "start": 7.001,
+    "end": 7.386
+  },
+  {
+    "word": "gets",
+    "start": 7.386,
+    "end": 7.771
+  },
+  {
+    "word": "busy",
+    "start": 7.771,
+    "end": 8.156
+  },
+  {
+    "word": "around",
+    "start": 8.156,
+    "end": 8.734
+  },
+  {
+    "word": "lunchtime.",
+    "start": 8.734,
+    "end": 9.6
+  },
+  {
+    "word": "Her",
+    "start": 9.65,
+    "end": 9.889
+  },
+  {
+    "word": "favorite",
+    "start": 9.889,
+    "end": 10.527
+  },
+  {
+    "word": "part",
+    "start": 10.527,
+    "end": 10.846
+  },
+  {
+    "word": "of",
+    "start": 10.846,
+    "end": 11.005
+  },
+  {
+    "word": "the",
+    "start": 11.005,
+    "end": 11.244
+  },
+  {
+    "word": "job",
+    "start": 11.244,
+    "end": 11.483
+  },
+  {
+    "word": "is",
+    "start": 11.483,
+    "end": 11.642
+  },
+  {
+    "word": "talking",
+    "start": 11.642,
+    "end": 12.2
+  },
+  {
+    "word": "to",
+    "start": 12.2,
+    "end": 12.359
+  },
+  {
+    "word": "regular",
+    "start": 12.359,
+    "end": 12.917
+  },
+  {
+    "word": "customers.",
+    "start": 12.917,
+    "end": 13.637
+  },
+  {
+    "word": "After",
+    "start": 13.687,
+    "end": 14.18
+  },
+  {
+    "word": "so",
+    "start": 14.18,
+    "end": 14.377
+  },
+  {
+    "word": "many",
+    "start": 14.377,
+    "end": 14.771
+  },
+  {
+    "word": "years",
+    "start": 14.771,
+    "end": 15.264
+  },
+  {
+    "word": "there,",
+    "start": 15.264,
+    "end": 15.757
+  },
+  {
+    "word": "she",
+    "start": 15.757,
+    "end": 16.053
+  },
+  {
+    "word": "feels",
+    "start": 16.053,
+    "end": 16.546
+  },
+  {
+    "word": "at",
+    "start": 16.546,
+    "end": 16.743
+  },
+  {
+    "word": "home.",
+    "start": 16.743,
+    "end": 17.137
+  }
+]

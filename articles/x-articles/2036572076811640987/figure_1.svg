@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="cramGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e53e3e;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#9b1c1c;stop-opacity:0.4"/>
+    </linearGradient>
+    <linearGradient id="srsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0d5a8c;stop-opacity:0.6"/>
+    </linearGradient>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="675" fill="url(#bg3)"/>
+
+  <!-- タイトル -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">詰め込み学習 vs 間隔反復｜記憶定着率の比較</text>
+
+  <!-- グラフエリア -->
+  <rect x="110" y="80" width="960" height="470" fill="none" stroke="#2d3748" stroke-width="1" rx="4"/>
+
+  <!-- グリッド線 -->
+  <line x1="110" y1="198" x2="1070" y2="198" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="316" x2="1070" y2="316" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="434" x2="1070" y2="434" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Y軸ラベル -->
+  <text x="68" y="115" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">記憶定着率</text>
+
+  <!-- Y軸目盛り -->
+  <text x="96" y="548" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">0%</text>
+  <text x="96" y="434" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">30%</text>
+  <text x="96" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">60%</text>
+  <text x="96" y="198" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">90%</text>
+
+  <!-- X軸ラベル -->
+  <text x="590" y="578" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">学習後の経過時間</text>
+  <text x="158" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">直後</text>
+  <text x="300" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">1日後</text>
+  <text x="460" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">1週間後</text>
+  <text x="650" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">1ヶ月後</text>
+  <text x="860" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">3ヶ月後</text>
+  <text x="1022" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">6ヶ月後</text>
+
+  <!-- 詰め込み曲線（赤・急降下） -->
+  <path d="M 158 120 C 180 130 210 155 270 240 C 320 305 370 380 430 440 C 480 490 540 520 600 535 C 650 545 720 548 800 549 C 860 549 940 549 1022 549"
+        fill="none" stroke="#e53e3e" stroke-width="3" stroke-dasharray="10,5"/>
+
+  <!-- 詰め込み 塗り -->
+  <path d="M 158 120 C 180 130 210 155 270 240 C 320 305 370 380 430 440 C 480 490 540 520 600 535 C 650 545 720 548 800 549 C 860 549 940 549 1022 549 L 1022 549 L 158 549 Z"
+        fill="url(#cramGrad)" fill-opacity="0.12"/>
+
+  <!-- 間隔反復曲線（ブルー・段階的維持） -->
+  <!-- 各復習後に上昇、緩やかに下がりながらも維持 -->
+  <path d="M 158 120 C 165 125 175 140 190 175 C 210 215 230 280 270 300 C 280 305 285 210 300 205 C 315 200 330 230 370 250 C 390 258 400 220 430 215 C 450 210 460 200 500 195 C 510 192 515 180 540 178 C 560 176 570 165 600 163 C 615 162 620 155 650 153 C 680 151 700 145 740 143 C 760 142 770 138 800 136 C 830 134 870 130 920 128 C 960 126 990 124 1022 122"
+        fill="none" stroke="#1DA1F2" stroke-width="4" filter="url(#glow3)"/>
+
+  <!-- 復習ポイントマーカー -->
+  <circle cx="300" cy="205" r="7" fill="#1DA1F2" stroke="#0d5a8c" stroke-width="2"/>
+  <circle cx="430" cy="215" r="7" fill="#1DA1F2" stroke="#0d5a8c" stroke-width="2"/>
+  <circle cx="600" cy="163" r="7" fill="#1DA1F2" stroke="#0d5a8c" stroke-width="2"/>
+  <circle cx="800" cy="136" r="7" fill="#1DA1F2" stroke="#0d5a8c" stroke-width="2"/>
+
+  <!-- 復習ポイントラベル -->
+  <text x="300" y="194" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#4fc3f7" text-anchor="middle">復習①</text>
+  <text x="430" y="204" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#4fc3f7" text-anchor="middle">復習②</text>
+  <text x="600" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#4fc3f7" text-anchor="middle">復習③</text>
+  <text x="800" y="125" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#4fc3f7" text-anchor="middle">復習④</text>
+
+  <!-- 凡例 -->
+  <rect x="130" y="86" width="200" height="36" fill="#1a2030" rx="6" opacity="0.9"/>
+  <line x1="144" y1="104" x2="178" y2="104" stroke="#e53e3e" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="186" y="109" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#fc8181">詰め込み学習</text>
+
+  <rect x="344" y="86" width="220" height="36" fill="#1a2030" rx="6" opacity="0.9"/>
+  <line x1="358" y1="104" x2="392" y2="104" stroke="#1DA1F2" stroke-width="4"/>
+  <text x="400" y="109" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">間隔反復（SRS）</text>
+
+  <!-- 右端の注釈 -->
+  <rect x="830" y="86" width="228" height="68" fill="#1a2535" rx="8" opacity="0.92"/>
+  <text x="944" y="108" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#fc8181" text-anchor="middle">詰め込み: 6ヶ月後には</text>
+  <text x="944" y="126" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e53e3e" text-anchor="middle">ほぼ忘却…</text>
+  <text x="944" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4fc3f7" text-anchor="middle">SRS: 高い定着率を維持</text>
+
+  <!-- 80%ラインの強調 -->
+  <line x1="110" y1="160" x2="1070" y2="160" stroke="#f6ad55" stroke-width="1.5" stroke-dasharray="8,5" opacity="0.6"/>
+  <text x="1074" y="164" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f6ad55">80%</text>
+  <text x="140" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f6ad55">復習の最適タイミング目安</text>
+
+  <!-- クレジット -->
+  <text x="1180" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

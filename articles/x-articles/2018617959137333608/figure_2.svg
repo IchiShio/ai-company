@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化が多い場面チェックリスト</text>
+  <text x="600" y="78" text-anchor="middle" fill="#657786" font-size="16" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">会話速度・場面別の音変化出現頻度</text>
+
+  <!-- Speed axis label -->
+  <text x="600" y="108" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">← 音変化少ない（聞き取りやすい）　　　　　　音変化多い（聞き取りにくい）→</text>
+
+  <!-- Category cards -->
+
+  <!-- Card 1: スピーチ/プレゼン -->
+  <rect x="60" y="125" width="190" height="380" fill="#1A2332" rx="12" stroke="#2C3640" stroke-width="2"/>
+  <rect x="60" y="125" width="190" height="48" fill="#2C3640" rx="12"/>
+  <rect x="60" y="153" width="190" height="20" fill="#2C3640"/>
+  <text x="155" y="154" text-anchor="middle" fill="#AAB8C2" font-size="15" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">スピーチ</text>
+  <text x="155" y="174" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">プレゼン</text>
+  <!-- Frequency bar -->
+  <rect x="90" y="195" width="130" height="12" fill="#2C3640" rx="6"/>
+  <rect x="90" y="195" width="20" height="12" fill="#657786" rx="6"/>
+  <text x="155" y="228" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化: 少ない</text>
+  <line x1="90" y1="245" x2="220" y2="245" stroke="#2C3640" stroke-width="1"/>
+  <text x="155" y="270" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 明瞭な発音</text>
+  <text x="155" y="298" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ ゆっくり話す</text>
+  <text x="155" y="326" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 略語が少ない</text>
+  <text x="155" y="354" text-anchor="middle" fill="#657786" font-size="12" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: TED Talks</text>
+  <rect x="90" y="455" width="130" height="30" fill="#2C3640" rx="6"/>
+  <text x="155" y="474" text-anchor="middle" fill="#AAB8C2" font-size="14" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難易度: やさしい</text>
+
+  <!-- Card 2: ニュース -->
+  <rect x="270" y="125" width="190" height="380" fill="#1A2332" rx="12" stroke="#2C3640" stroke-width="2"/>
+  <rect x="270" y="125" width="190" height="48" fill="#2C3640" rx="12"/>
+  <rect x="270" y="153" width="190" height="20" fill="#2C3640"/>
+  <text x="365" y="154" text-anchor="middle" fill="#AAB8C2" font-size="15" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ニュース</text>
+  <text x="365" y="174" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">インタビュー</text>
+  <!-- Frequency bar -->
+  <rect x="300" y="195" width="130" height="12" fill="#2C3640" rx="6"/>
+  <rect x="300" y="195" width="45" height="12" fill="#1DA1F2" opacity="0.5" rx="6"/>
+  <text x="365" y="228" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化: やや少ない</text>
+  <line x1="300" y1="245" x2="430" y2="245" stroke="#2C3640" stroke-width="1"/>
+  <text x="365" y="270" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ gonna/wanna程度</text>
+  <text x="365" y="298" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 速度は中程度</text>
+  <text x="365" y="326" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 標準的発音が多い</text>
+  <text x="365" y="354" text-anchor="middle" fill="#657786" font-size="12" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: BBC, NPR</text>
+  <rect x="300" y="455" width="130" height="30" fill="#2C3640" rx="6"/>
+  <text x="365" y="474" text-anchor="middle" fill="#AAB8C2" font-size="14" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難易度: 普通</text>
+
+  <!-- Card 3: ドラマ/映画 -->
+  <rect x="480" y="125" width="190" height="380" fill="#1A2332" rx="12" stroke="#1DA1F2" stroke-width="3"/>
+  <rect x="480" y="125" width="190" height="48" fill="#1DA1F2" rx="12"/>
+  <rect x="480" y="153" width="190" height="20" fill="#1DA1F2"/>
+  <text x="575" y="154" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">映画・ドラマ</text>
+  <text x="575" y="174" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">カジュアル会話</text>
+  <!-- Frequency bar -->
+  <rect x="510" y="195" width="130" height="12" fill="#2C3640" rx="6"/>
+  <rect x="510" y="195" width="85" height="12" fill="#1DA1F2" rx="6"/>
+  <text x="575" y="228" text-anchor="middle" fill="#1DA1F2" font-size="13" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化: 多い</text>
+  <line x1="510" y1="245" x2="640" y2="245" stroke="#2C3640" stroke-width="1"/>
+  <text x="575" y="270" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 全8パターン頻出</text>
+  <text x="575" y="298" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 速いテンポ</text>
+  <text x="575" y="326" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 感情表現で変化大</text>
+  <text x="575" y="354" text-anchor="middle" fill="#AAB8C2" font-size="12" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: Friends, Suits</text>
+  <rect x="510" y="455" width="130" height="30" fill="#1DA1F2" opacity="0.3" rx="6"/>
+  <text x="575" y="474" text-anchor="middle" fill="#1DA1F2" font-size="14" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難易度: ★ 要対策</text>
+
+  <!-- Card 4: ポッドキャスト -->
+  <rect x="690" y="125" width="190" height="380" fill="#1A2332" rx="12" stroke="#E85454" stroke-width="2"/>
+  <rect x="690" y="125" width="190" height="48" fill="#2C3640" rx="12"/>
+  <rect x="690" y="153" width="190" height="20" fill="#2C3640"/>
+  <text x="785" y="154" text-anchor="middle" fill="#AAB8C2" font-size="15" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ポッドキャスト</text>
+  <text x="785" y="174" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">フリートーク</text>
+  <!-- Frequency bar -->
+  <rect x="720" y="195" width="130" height="12" fill="#2C3640" rx="6"/>
+  <rect x="720" y="195" width="105" height="12" fill="#E85454" opacity="0.7" rx="6"/>
+  <text x="785" y="228" text-anchor="middle" fill="#E85454" font-size="13" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化: かなり多い</text>
+  <line x1="720" y1="245" x2="850" y2="245" stroke="#2C3640" stroke-width="1"/>
+  <text x="785" y="270" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 訛りも入る</text>
+  <text x="785" y="298" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 言い直し多い</text>
+  <text x="785" y="326" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 全短縮形が出る</text>
+  <text x="785" y="354" text-anchor="middle" fill="#657786" font-size="12" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: Joe Rogan等</text>
+  <rect x="720" y="455" width="130" height="30" fill="#E85454" opacity="0.2" rx="6"/>
+  <text x="785" y="474" text-anchor="middle" fill="#E85454" font-size="14" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難易度: ★★ 上級</text>
+
+  <!-- Card 5: ネイティブ同士の雑談 -->
+  <rect x="900" y="125" width="250" height="380" fill="#111820" rx="12" stroke="#E85454" stroke-width="3"/>
+  <rect x="900" y="125" width="250" height="48" fill="#E85454" opacity="0.8" rx="12"/>
+  <rect x="900" y="153" width="250" height="20" fill="#E85454" opacity="0.8"/>
+  <text x="1025" y="154" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ネイティブ同士の雑談</text>
+  <text x="1025" y="174" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">日常会話・電話</text>
+  <!-- Frequency bar -->
+  <rect x="940" y="195" width="130" height="12" fill="#2C3640" rx="6"/>
+  <rect x="940" y="195" width="130" height="12" fill="#E85454" rx="6"/>
+  <text x="1025" y="228" text-anchor="middle" fill="#E85454" font-size="13" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化: 最大</text>
+  <line x1="940" y1="245" x2="1130" y2="245" stroke="#2C3640" stroke-width="1"/>
+  <text x="1025" y="270" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 全パターン同時出現</text>
+  <text x="1025" y="298" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ スラング・省略語</text>
+  <text x="1025" y="326" text-anchor="middle" fill="#FFFFFF" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 文脈依存が高い</text>
+  <text x="1025" y="354" text-anchor="middle" fill="#AAB8C2" font-size="12" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: 友人間の会話</text>
+  <rect x="940" y="455" width="130" height="30" fill="#E85454" opacity="0.3" rx="6"/>
+  <text x="1025" y="474" text-anchor="middle" fill="#E85454" font-size="14" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難易度: ★★★ 最高</text>
+
+  <!-- Bottom message -->
+  <rect x="200" y="535" width="800" height="65" fill="#1A2332" rx="8"/>
+  <text x="600" y="558" text-anchor="middle" fill="#1DA1F2" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">対策: 映画・ドラマ→シャドーイングで8パターンを体に叩き込む</text>
+  <text x="600" y="582" text-anchor="middle" fill="#AAB8C2" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">試験英語が聞き取れても映画が聞き取れない理由はここにある</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

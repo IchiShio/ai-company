@@ -1,0 +1,697 @@
+[
+  {
+    "index": 15,
+    "word": "cook someone's goose",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 16,
+    "word": "momentary / momentous",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 17,
+    "word": "court",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「（支持を）積極的に求める」は court の正規の語義（court favor / court voters など）として辞書に載っており、正解として十分成立する。court の動詞用法の主要な意味のひとつが「（支持・好意などを）得ようと働きかける」であるため、不正解として機能しない。",
+        "fix": "「（支持を）積極的に求める」を court の正規語義と重ならない選択肢に差し替える。例：「（相手に）正式に抗議する」や「（問題を）先送りにする」など、court の語義から外れた選択肢にする。"
+      }
+    ]
+  },
+  {
+    "index": 18,
+    "word": "nascent",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 19,
+    "word": "sweep under the rug",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が 'phrase' に設定されているが、sweep under the rug は慣用的・比喩的意味を持つイディオムであり、'idiom' の方が適切な分類。expl 内でも「イディオム的句動詞」と説明されており、axis との不整合がある。",
+        "fix": "axis を 'phrase' から 'idiom' に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "word": "mendacious",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「意図的に判断を誤らせる」は mendacious の実際の含意（意図的な嘘による誤誘導）と意味的に近接しており、文脈によっては正解に準ずる解釈が可能。また「事実を誇張して伝える」も虚偽表現の一形態として mendacious の用法範囲に入りうる。ただし「意図的に判断を誤らせる」の方がより深刻な重複リスクがある。",
+        "fix": "「意図的に判断を誤らせる」を mendacious の語義から明確に外れる選択肢（例：「感情的に攻撃的な」「権威に過度に依存した」）に差し替える。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "expl に「組織的・常習的な嘘のニュアンスを伴うことが多い」とあるが、これは mendacious の必須ニュアンスではなく文脈依存の解釈。主要辞書（Merriam-Webster, Oxford）では単に「given to or characterized by deception」と定義され、必ずしも常習性・組織性を含意しない。",
+        "fix": "「組織的・常習的な嘘のニュアンスを伴うことが多い」という記述を削除または「dishonest よりも文語的・フォーマルな語で、意図的な欺きを強調する」程度に緩和する。"
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "word": "lead someone up the garden path",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 22,
+    "word": "venial / venal",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 23,
+    "word": "brook",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 24,
+    "word": "logomachy",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "選択肢「複数の言語が混在した混乱した議論」「権威ある人物の発言を曲解した論争」は、問題文のコンテキスト（哲学的討論・定義の言い争い）がなくても明らかに不自然で場違いに見える。「論理を無視した感情的な口論」も紛らわしいが、「言語が混在」という選択肢は logomachy の語根 logos から連想誘導のトラップとしては有効な面もある一方、実際の議論文脈では排除しやすい。全体的に消去しやすい選択肢が含まれている。",
+        "fix": "「複数の言語が混在した混乱した議論」を「双方が互いの議論の前提を認めない水掛け論」など、より紛らわしい選択肢に変更することを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "word": "anxious",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "anxious には「熱望している・〜したくてたまらない」という肯定的な意味（be anxious to do / be anxious for ～）があり、選択肢「興奮している・わくわくしている」は excited と同一ではないが、anxious の「熱望」義に近い情動として問題視しうる。ただし文脈（試験結果・眠れない）が否定的であるため正解として成立するには至らない。严密基準での警告レベル。",
+        "fix": "選択肢「興奮している・わくわくしている」を「嬉しい・喜んでいる」など anxious の熱望義とも重ならない語に差し替えることを検討する。"
+      }
+    ]
+  },
+  {
+    "index": 26,
+    "word": "look up to",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「調べる・検索する」は look up（look up a word in a dictionary など）の正規の意味であり、look up to ではなく look up 単独の用法とはいえ、同じ句動詞群として辞書に並記されている。問題が「look up to」の意味を問うている点は明確だが、選択肢として「調べる」を入れると look up との混同を問う問題なのか look up to を問う問題なのかが曖昧になる。厳格基準では、正解として一定程度成立しうる語義を持つ選択肢はFAIL扱いとする。",
+        "fix": "「調べる・検索する」は look up の意味であり look up to の意味ではないため不正解として機能するが、受験者に混乱を与える可能性がある。この選択肢を残す場合は問題文に「look up to の意味として」と明示するか、「世話をする・面倒を見る（look after）」など別の句動詞の意味に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 27,
+    "word": "once in a blue moon",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "FAIL",
+        "detail": "expl に「1か月に2度目の満月」と説明されているが、これは blue moon の現代的・通俗的定義の一つに過ぎない。blue moon の語源はより古く、元来は季節に4度目の満月（third full moon in a season with four full moons）を指す天文用語であり、「1か月に2度目の満月」説は1946年のSky & Telescope誌の誤読に由来するとされている。また語源説自体も諸説あり、確定的な語源として提示するのは不正確。",
+        "fix": "「blue moon は天文学的にまれな現象（1か月に2度目の満月）であることからきている」を「blue moon はまれにしか起きない出来事を指す表現で、『ごくまれに』という意味が生じた（語源については諸説あり）」程度の記述に修正する。"
+      }
+    ]
+  },
+  {
+    "index": 28,
+    "word": "childish / childlike",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 29,
+    "word": "flat",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "expl に「この用法では absolutely（絶対に）に近いニュアンス」とあるが、flat が副詞用法（flat out / in five minutes flat）で absolutely に近い意味を持つことはあっても、形容詞用法の a flat refusal における flat は「完全な・全面的な・有無を言わさぬ」という意味であり、absolutely とはニュアンスが異なる。absolutely は程度の強調だが、flat refusal の flat は「一切の交渉余地がない断固たる性質」を表す質的な修飾語であって、混同は不正確。",
+        "fix": "「この用法では absolutely（絶対に）に近いニュアンス」を削除し、「a flat refusal / flat denial のように、断りや否定に付くと『完全な・全面的な・交渉の余地がない』という意味を強調する」と説明を修正する。"
+      }
+    ]
+  },
+  {
+    "index": 30,
+    "word": "stubborn",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 31,
+    "word": "streamline",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「標準化する・均一にする」は streamline の意味とは明確に異なるが、文脈によっては「採用プロセスを標準化する」も自然に読める。ただし streamline の核心的意味（無駄を省く効率化）とは異なるため厳密にはFAILには至らないが、注意が必要。",
+        "fix": "選択肢「標準化する・均一にする」を「廃止する・取りやめる」など、より明確に誤りとわかる選択肢に差し替えることを推奨。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「拡大する・規模を広げる」「外部委託する・アウトソーシングする」はコスト削減文脈と矛盾し消去しやすい。「標準化する」も残るが、正解との差別化が不十分で2択に絞られやすい。",
+        "fix": "コスト削減・時間短縮という文脈手がかりと合致しにくい選択肢に統一するか、文脈のヒントを弱める。"
+      }
+    ]
+  },
+  {
+    "index": 32,
+    "word": "fall back on",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 33,
+    "word": "hit the nail on the head",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "「強引に議論を押し通す」「問題を修正して解決する」「最後の仕上げをする」はいずれも she really hit the nail on the head という文の後半「he had no way out」的な補足もなく、文脈から明らかにズレている。特に「問題を修正して解決する」と「最後の仕上げをする」は「nail（釘）」「head（頭）」という構成要素から直接連想されるため、イディオムを知らなくても語義推測で排除しにくい問題があるが、「強引に議論を押し通す」は完全に場違いで消去法が効きすぎる。3択が明らかに不正解方向に偏っており、正解だけが「言語行為の正確さ」に関する選択肢になっている。",
+        "fix": "「的外れなことを言う」「遠回しに批判する」「議論を途中で打ち切る」など、「発言・意見表明」カテゴリ内の誤答選択肢に統一し、消去法を効きにくくする。"
+      }
+    ]
+  },
+  {
+    "index": 34,
+    "word": "economic / economical",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「財政的に豊かな・裕福な」と「市場価格に連動した」は明らかに形容詞 economical の意味として不自然で、消去が容易。実質2択（「節約になる」vs「経済に関する」）に絞られやすく、nuance問題として成立しているとも言えるが、残り2択の質が低い。",
+        "fix": "「費用が高い・割高な」「収益性の高い・利益をもたらす」など、economical と混同しうる経済・金銭関連の形容詞に差し替える。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "説明文は正確だが、nuance問題であるにもかかわらず economic との対比説明のみで、economical が「人」にも使える（an economical person＝倹約家）という用法への言及がない。問題文は物（buying in bulk）への使用なので許容範囲だが、より完全な説明が望ましい。",
+        "fix": "「economical は物・方法・人いずれにも使え、『無駄がない』というニュアンスを持つ」旨を補足する。"
+      }
+    ]
+  },
+  {
+    "index": 35,
+    "word": "air",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "「放送する・公開する」は air の正当な意味（to air a TV program など）であり、辞書的に正解として成立する。air concerns を「公開する」と解釈することも文脈上ありえる（会議で公に述べる＝公開する）。不正解の選択肢に air の別義の正解が含まれている。",
+        "fix": "「放送する・公開する」を「記録する・文書化する」や「延期する・保留にする」など、air の動詞義に含まれない選択肢に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 36,
+    "word": "resilient",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 37,
+    "word": "shed light on",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「〜を強調する・際立たせる」は shed light on と完全に同義ではないが、「光を当てる」という語義から「注目させる・際立たせる」と解釈した場合、文脈によっては正解に近い。新発見文書が古代文明の食料管理を「際立たせた」という読みも不自然ではない。",
+        "fix": "「〜を強調する・際立たせる」を「〜を隠蔽する・見えにくくする」や「〜を証明する・立証する」など、より明確に異なる意味の選択肢に差し替える。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "「throw light on とも言い換えられる」とあるが、より一般的・辞書的な表現は throw light on よりも cast light on または shed light on であり、throw light on はやや非標準的。誤りではないが正確性の観点で補足が望ましい。",
+        "fix": "「cast light on とも言い換えられる」に修正するか、「throw/cast light on とも言う」と並記する。"
+      }
+    ]
+  },
+  {
+    "index": 38,
+    "word": "mitigate",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 39,
+    "word": "drill down into",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "「〜を大まかにまとめる・要約する」「〜を段階的に整理して提示する」「〜を別の視点から見直す」はすべて「分析する」「調べる」方向ではなく、いずれも drill down into の意味と明確に対立するか無関係。特に「大まかにまとめる」は drill down（深掘り）の対義語的で、文脈を見なくても消去できる。正解だけが「深く詳細に調べる」方向を向いており、消去法で確定できる。",
+        "fix": "「〜の全体像を把握する」「〜のパターンを可視化する」「〜をクロス集計して比較する」など、データ分析文脈の選択肢に統一し、正解との差別化を曖昧にする。"
+      }
+    ]
+  },
+  {
+    "index": 40,
+    "word": "cook someone's goose",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "「his goose is cooked（もう終わりだ）のように受動態でも使う」という説明は正確だが、cook someone's goose の主語は「第三者が誰かを破滅させる」用法が典型であり、受動態 his goose is cooked は「彼は破滅した（自業自得含む）」という自動詞的ニュアンスも強い。問題文の it really cooked his goose は「状況が彼を破滅させた」用法で、expl の説明と若干ズレがある。",
+        "fix": "「his goose is cooked は『彼はもう終わりだ』という意味で、他動詞・受動態ともに使われる。主語は人に限らず状況・出来事も取れる」と補足する。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「〜の計画をこっそり盗む」は明らかに場違いで即座に消去できる。残り3択のうち「強いプレッシャーをかける」「徹底的に調査する」は文脈（監査・帳簿不一致）と整合しうるが、「台無しにする・破滅させる」が最もフィットし消去法が比較的機能しやすい。",
+        "fix": "「〜の評判を傷つける」「〜の逃げ道を断つ」など、破滅・窮地に関連するが正確には異なる選択肢に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 41,
+    "word": "momentary / momentous",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「記念すべき・祝うべき」は平和条約調印という文脈において momentous occasion の言い換えとして自然に感じられる可能性がある。momentous は「重大な」であり「記念すべき」とは厳密に異なるが、学習者には正解に見える可能性が高い。",
+        "fix": "「記念すべき・祝うべき」を「頻繁に繰り返される・定期的な」や「象徴的な・形式的な」に差し替え、momentous との混同を避ける。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "「接尾辞 -ous がつくと意味が変わる典型的な混同しやすいペア」という説明は、moment → momentary（-ary）と moment → momentous（-ous）という別々の派生であり、「-ous がつくと意味が変わる」という説明は不正確。momentary と momentous はどちらも moment 由来だが異なる接尾辞を持つペアである。",
+        "fix": "「moment（瞬間）に -ary がつくと『一瞬の』、-ous がつくと『重大な』となり、同じ語幹から正反対に近い意味が生まれる混同しやすいペア」と正確に説明する。"
+      }
+    ]
+  },
+  {
+    "index": 42,
+    "word": "court",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「（支持者を）集める・勧誘する」は court の正当な動詞義（to court voters, to court investors など「歓心を買おうとする・勧誘する」）であり、辞書に載っている意味。court の動詞義として複数の正解が選択肢内に存在している。",
+        "fix": "「（支持者を）集める・勧誘する」を「（証拠を）収集する・整理する」や「（判決を）待つ・審判を仰ぐ」など、court の動詞義に含まれない選択肢に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 43,
+    "word": "nascent",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 44,
+    "word": "sweep under the rug",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「（問題を）後回しにして放置する」は sweep under the rug の結果として生じる状態（隠蔽した結果、放置される）と重なり、学習者が正解と混同しやすい。厳密には「隠蔽する」と「後回しにする」は異なる行為だが、意味的に近接しており不正解として機能しにくい可能性がある。",
+        "fix": "「（問題を）後回しにして放置する」を「（問題を）誇張して大げさに扱う」や「（問題を）公式に記録・報告する」に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 45,
+    "word": "mendacious",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 46,
+    "word": "lead someone up the garden path",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「〜を遠回しに説得する」は、文脈（false promises で老夫婦を誤った方向へ導く）と完全には一致しないが、「誤った方向に導く」行為が「遠回しに説得する」と解釈される余地がある。ただし厳密には意味が異なるためFAILとまでは言い切りにくいが、文脈なしに「騙す」と「遠回しに説得する」は近いニュアンスと受け取られる可能性がある。",
+        "fix": "「〜を遠回しに説得する」を「〜をおだてて従わせる」や「〜に不必要な仕事を押しつける」など、明確に異なる意味の選択肢に差し替えることを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 47,
+    "word": "venial / venal",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 48,
+    "word": "brook",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢「小川・せせらぎ」は動詞用法を問う文脈（'brook no dissent' という動詞句）の中で、名詞の意味として提示されており、品詞が異なることで消去法で即排除できる。また「〜を仲介する・調停する」と「〜を遅らせる・引き延ばす」も文の構造（brook no dissent）と明らかに意味的に合わず、「小川」とともに3択が明らかに場違いで、正解だけが「まとも」な選択肢となっている。",
+        "fix": "選択肢を同じ動詞カテゴリに統一し、例えば「〜を認める・承認する」「〜を無視する・却下する」「〜を延期する・保留する」など動詞的な表現に差し替えることで消去法による絞り込みを防ぐ。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が 'context' となっており、これは同一語が文脈によって異なる意味を持つ問題として適切な分類である。ただし問題の核心は名詞 'brook'（小川）と動詞 'brook'（許容する）という品詞・意味の違いを問うものであり、'meaning' も妥当。現状の 'context' でも許容範囲内。",
+        "fix": "必須ではないが、axis を 'meaning' に変更することも検討できる。"
+      }
+    ]
+  },
+  {
+    "index": 49,
+    "word": "logomachy",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「専門用語を乱用した難解な議論」は、logomachy の定義（用語の定義をめぐる無益な争い）と部分的に重なる。問題文でも「用語の定義をめぐって延々と言い争う」と説明されており、「専門用語を乱用した難解な議論」と混同される可能性がある。厳格基準では「意味が近い」もFAILとなる。",
+        "fix": "「専門用語を乱用した難解な議論」を「大勢の人を動員した組織的な抗議運動」や「権威に依拠した一方的な主張」など、logomachyとは無関係な選択肢に差し替える。"
+      }
+    ]
+  },
+  {
+    "index": 50,
+    "word": "stubborn",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 51,
+    "word": "fall back on",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 52,
+    "word": "hit the nail on the head",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "FAIL",
+        "detail": "選択肢「物事を乱暴に片付ける」「議論を突然打ち切る」「人を傷つける発言をする」はいずれも否定的なニュアンスを持つのに対し、正解「的確に言い当てる・核心をつく」のみが肯定的なニュアンスである。問題文の文脈（'that's exactly what's been causing the problem'）で肯定的に評価されていることは明らかであり、問題文を読まずとも肯定的な選択肢を正解と絞り込める。",
+        "fix": "否定的なニュアンスの選択肢を減らし、例えば「大げさに物事を主張する」「回りくどく表現する」「核心を避けてあいまいに話す」など、方向性の近い選択肢を加えてバランスをとる。"
+      }
+    ]
+  },
+  {
+    "index": 53,
+    "word": "childish / childlike",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 54,
+    "word": "flat",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "解説で「音程が正確に合っている」という選択肢について言及がないが、flat には音楽用語として「（音程が）低すぎる・フラットの」という意味があり、「音程が正確に合っている」は flat の意味として誤りである。この選択肢は flat の別義を誤った形で提示しており、学習者に誤解を与える可能性がある。",
+        "fix": "選択肢「音程が正確に合っている」を「半音低い・音程が下がった」などflatの正しい音楽的意味に修正するか、あるいはflatと無関係な選択肢（例：「音量が大きく迫力がある」）に差し替える。解説にも各選択肢の意図を補足することを推奨。"
+      },
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "選択肢「体が水平に横たわった」「音程が正確に合っている」「価格が一定で変動しない」は文脈（演技・感情表現）とカテゴリが大きく異なり、演技に関するコンテキストで使える意味は正解のみとなっており、消去法が効きやすい。",
+        "fix": "「感情が欠如した」「過度に誇張された」「一貫性がない」など、演技評価に関連しうる選択肢を追加してダミーの質を上げることを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 55,
+    "word": "anxious",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "解説で 'be anxious about で〜について心配している' のみ紹介されているが、anxious には 'be anxious to do'（〜したいと強く思っている・熱望している）という重要な用法がある。この用法を省略すると、anxious の意味理解が不完全になる可能性がある。",
+        "fix": "解説に「また、be anxious to do の形で『〜することを熱望している』という肯定的な意味でも使われる」と追記することを推奨。"
+      }
+    ]
+  },
+  {
+    "index": 56,
+    "word": "resilient",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "FAIL",
+        "detail": "選択肢「柔軟で従順な」は resilient のニュアンスと近い。resilient は物理的な意味では「弾力性がある・元の形に戻る」であり、「柔軟な」と混同される可能性がある。また、困難に適応するという文脈では「柔軟な」が類義語的に機能する場合がある。厳格基準では「意味が近い」もFAILとなる。",
+        "fix": "「柔軟で従順な」を「積極的で野心的な」や「忍耐強く辛抱できる」など、resilientとは明確に区別できる選択肢に差し替える。ただし「忍耐強い」も近義になりうるため、「社交的で人当たりが良い」など全く異なるカテゴリが望ましい。"
+      }
+    ]
+  },
+  {
+    "index": 57,
+    "word": "streamline",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "axis_match",
+        "severity": "FAIL",
+        "detail": "axis が 'phrase' となっているが、streamline は単独の動詞であり、複数の語から構成されるフレーズ（phrase）ではない。'phrase' は通常 'fall back on' のような句動詞や複数語から成る表現に使用される。streamline 単体の語義を問うこの問題は 'meaning' が適切。",
+        "fix": "axis を 'phrase' から 'meaning' に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 58,
+    "word": "once in a blue moon",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 59,
+    "word": "economic / economical",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 60,
+    "word": "air",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "選択肢「放送する・電波に乗せる」も air の正規の動詞用法（air a program）であり、文脈によっては正解となりうる。ただし本文の concerns という目的語とpublic meetingという文脈から「表明する」が適切であり、消去可能ではある。しかし選択肢として提示すると混乱を招く可能性がある。",
+        "fix": "「放送する・電波に乗せる」を別の誤答（例：「冷却する・冷やす」）に差し替えることを検討。あるいは問題文に「broadcast（放送）ではなく」と明示するか、より文脈を限定する文に変更する。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が 'context' であり、air の多義語から文脈に合う用法を選ぶ問題として概ね適切。ただし選択肢に air の別の動詞用法（放送する）が含まれているため、context 軸の設計として選択肢の精度を高める必要がある。",
+        "fix": "問題の意図通り context 軸で維持するが、選択肢を再設計して動詞用法同士の混同を避ける。"
+      }
+    ]
+  },
+  {
+    "index": 61,
+    "word": "nascent",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 62,
+    "word": "shed light on",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "「〜の重要性を強調する」は shed light on の用法と完全に異なるが、「〜を明らかにする」結果として重要性が浮かび上がることはある。ただし意味として直接の同義語ではないため WARN 止まり。",
+        "fix": "現状でも許容範囲内だが、より明確に誤答とわかる選択肢（例：「〜を完全に無視する」）に差し替えることで品質が向上する。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "FAIL",
+        "detail": "axis が 'phrase' となっているが、shed light on は慣用句（イディオム）的性質が強く、'idiom' の方が適切。'phrase' は文法的なフレーズや句動詞に用いるべき分類であり、比喩的意味を持つ固定表現は 'idiom' に分類すべき。",
+        "fix": "axis を 'phrase' から 'idiom' に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 63,
+    "word": "mitigate",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 64,
+    "word": "drill down into",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「〜を別の部署に転送する」「〜を破棄して再作成する」は文脈と完全にかけ離れた選択肢であり、データ分析の話題において明らかに場違い。実質的に「〜を深く掘り下げて分析する」と「〜を大まかに概観する」の2択に絞られてしまう可能性がある。",
+        "fix": "誤答をデータ分析の文脈に即した選択肢（例：「〜を別のフォーマットに変換する」「〜の傾向を予測する」）に差し替えて消去法を防ぐ。"
+      }
+    ]
+  },
+  {
+    "index": 65,
+    "word": "sweep under the rug",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 66,
+    "word": "momentary / momentous",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "説明文で「momentous は moment と語源が同じ」と記述しているが、これは誤解を招く。momentous はラテン語 momentum（重みを持つもの、重要性）に由来し、moment（瞬間）と語源的につながりはあるが、momentous の意味は「瞬間性」ではなく「重大な結果をもたらす重み・重要性」から来ている。「語源が同じでも意味が異なる」という説明は事実だが、なぜ意味が異なるかの説明が不足しており誤解を生じさせる。",
+        "fix": "「momentous は momentum（重み・重要性）と同語源で、『重大な結果や影響をもたらす』という意味に発展した」と補足説明を追加する。"
+      },
+      {
+        "check": "multi_answer",
+        "severity": "WARN",
+        "detail": "選択肢「どちらも時間の短さを表すが momentous の方が長い」は明確な誤りだが、「momentary は肯定的、momentous は否定的なニュアンス」という選択肢について、momentous は必ずしも肯定的でも否定的でもなく中立的な語であるため誤答として成立している。ただし momentary も neutral であるため、この選択肢の誤りは明確。問題なし。",
+        "fix": "特に修正不要。"
+      }
+    ]
+  },
+  {
+    "index": 67,
+    "word": "court",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 68,
+    "word": "mendacious",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「非常に傲慢で横柄な」「記憶力が著しく低下した」「道徳的に問題のない誠実な」の3択は mendacious の意味領域（虚偽・不誠実）から大きくかけ離れており、特に「記憶力が著しく低下した」は全く別カテゴリ。正解と意味的に対になる「誠実な」以外の2つが不自然で、消去が容易。",
+        "fix": "誤答を意味的に近い語彙（例：「誇張する傾向のある・大げさな」「事実を選択的に伝える」「不確かな・あいまいな」）に差し替えて消去を防ぐ。"
+      }
+    ]
+  },
+  {
+    "index": 69,
+    "word": "lead someone up the garden path",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "axis_match",
+        "severity": "FAIL",
+        "detail": "axis が 'phrase' となっているが、lead someone up the garden path は比喩的・慣用的意味を持つ固定イディオムであり、'idiom' に分類すべき。同様の理由で shed light on も同じ問題を抱えている。",
+        "fix": "axis を 'phrase' から 'idiom' に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "expl で「庭の小道へ連れて行く」とイメージ説明しているが、このイディオムの由来については諸説あり（19世紀の恋愛の駆け引きで庭に連れ込むという説など）、単純に「誤った方向に誘導する」とだけ説明するのはやや不正確。また lead up the garden path は英国英語に由来する点も補足する価値がある。",
+        "fix": "「英国英語起源のイディオムで、19世紀頃から『人を誤った期待で引き込んでだます』という意味で使われてきた」と補足すると正確性が向上する。"
+      }
+    ]
+  },
+  {
+    "index": 70,
+    "word": "venial",
+    "status": "PASS",
+    "issues": []
+  },
+  {
+    "index": 71,
+    "word": "brook",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "axis_match",
+        "severity": "FAIL",
+        "detail": "axis が 'idiom' となっているが、brook（動詞）は固定イディオムではなく単語の多義用法（名詞「小川」と動詞「容認する」）であり、'meaning' または 'context' が適切な分類。イディオムとは複数語が組み合わさった固定表現を指し、brook 単独の動詞用法はイディオムではない。",
+        "fix": "axis を 'idiom' から 'meaning' または 'context' に変更する。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "expl に「主に否定文で」と記載しているが、brook は肯定文でも使用可能（例：She brooks no nonsense. は否定文だが、文法的には肯定文の動詞として機能している）。「否定の目的語を取ることが多い」あるいは「no, not などと組み合わせて使われることが多い」と表現する方が正確。",
+        "fix": "「通例 no や not などの否定語を伴う目的語と共に使われることが多い」と修正する。"
+      }
+    ]
+  },
+  {
+    "index": 72,
+    "word": "venial / venal",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "選択肢「venial は褒め言葉で、venal は中立的な表現」は明らかに誤りであり（venial は中立〜やや肯定的、venal は明確な否定語）、この選択肢の誤りが見え透いているため消去が容易になり実質3択に近くなっている。",
+        "fix": "「venial は罪の文脈にのみ使い、venal は政治・ビジネス以外では使わない」など、より紛らわしい用法の違いを問う選択肢に差し替える。"
+      },
+      {
+        "check": "accuracy",
+        "severity": "WARN",
+        "detail": "expl で venial について「許容できる軽微な罪」とのみ説明しているが、venial の語源はラテン語 venia（許し・恩赦）であり、この点を明示するとより正確。また本問題では venial / venal の対比が主題であるにもかかわらず、venal の語源（ラテン語 venalis「売り物の」）への言及がなく説明が非対称。",
+        "fix": "「venial はラテン語 venia（許し）に由来し、venal はラテン語 venalis（売り物の・買収可能な）に由来する」と両語源を併記する。"
+      }
+    ]
+  },
+  {
+    "index": 73,
+    "word": "logomachy",
+    "status": "FAIL",
+    "issues": [
+      {
+        "check": "elimination",
+        "severity": "WARN",
+        "detail": "「複数の言語を交えた会話」は logos（言葉）から連想できる誤答として機能しているが、「論理的に組み立てられた反論」と「専門用語を多用した解説」は文脈（果てしない言い争い）から明らかに不適切と判断できる。正解と「複数の言語を交えた会話」の2択に絞られやすい。",
+        "fix": "誤答を logomachy の文脈により近い選択肢（例：「感情的な罵り合い」「実証に基づいた論争」）に差し替える。"
+      },
+      {
+        "check": "axis_match",
+        "severity": "WARN",
+        "detail": "axis が 'context' となっているが、logomachy は多義語ではなく単一の専門語彙であり、文脈から意味を推定する問題としては axis 'meaning' の方が適切。context 軸は通常、多義語の文脈依存的な意味選択に使用すべき。",
+        "fix": "axis を 'context' から 'meaning' に変更する。"
+      }
+    ]
+  },
+  {
+    "index": 74,
+    "word": "excogitate",
+    "status": "PASS",
+    "issues": []
+  }
+]

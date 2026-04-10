@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="56" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">翻訳経由 vs 直接処理：処理速度タイムライン比較</text>
+  <text x="600" y="84" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">「I'll get back to you」を聞いてから意味を掴むまでの時間</text>
+
+  <!-- ===== TRANSLATION ROUTE (TOP) ===== -->
+  <!-- Header -->
+  <rect x="60" y="110" width="340" height="42" rx="8" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="230" y="137" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="white">翻訳経由ルート（日本人の多く）</text>
+
+  <!-- Timeline bar background -->
+  <rect x="60" y="172" width="1080" height="52" rx="8" fill="#fff0f0"/>
+
+  <!-- Step boxes - Translation route -->
+  <!-- Step 1: 音声認識 -->
+  <rect x="68" y="180" width="140" height="36" rx="6" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="138" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white">① 音声認識</text>
+
+  <!-- Arrow -->
+  <polygon points="212,198 228,198 228,192 244,200 228,208 228,202 212,202" fill="#cc4444"/>
+
+  <!-- Step 2: 英語として認識 -->
+  <rect x="248" y="180" width="160" height="36" rx="6" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="328" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white">② 英文として認識</text>
+
+  <!-- Arrow -->
+  <polygon points="412,198 428,198 428,192 444,200 428,208 428,202 412,202" fill="#cc4444"/>
+
+  <!-- Step 3: 日本語に訳す -->
+  <rect x="448" y="172" width="180" height="52" rx="6" fill="#c0392b" filter="url(#shadow)"/>
+  <text x="538" y="196" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="white">③ 日本語に翻訳</text>
+  <text x="538" y="213" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#ffcccc">〔最大のボトルネック〕</text>
+
+  <!-- Arrow -->
+  <polygon points="632,198 648,198 648,192 664,200 648,208 648,202 632,202" fill="#cc4444"/>
+
+  <!-- Step 4: 意味理解 -->
+  <rect x="668" y="180" width="160" height="36" rx="6" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="748" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white">④ 日本語で理解</text>
+
+  <!-- Arrow -->
+  <polygon points="832,198 848,198 848,192 864,200 848,208 848,202 832,202" fill="#cc4444"/>
+
+  <!-- Step 5: 応答準備 -->
+  <rect x="868" y="180" width="164" height="36" rx="6" fill="#ff6b6b" filter="url(#shadow)"/>
+  <text x="950" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white">⑤ 英語に再翻訳</text>
+
+  <!-- Time label -->
+  <rect x="68" y="234" width="964" height="24" rx="4" fill="#ffcccc"/>
+  <text x="550" y="251" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#c0392b">処理時間：約 3〜5 秒（会話のテンポに乗れない）</text>
+
+  <!-- ===== DIRECT ROUTE (BOTTOM) ===== -->
+  <!-- Header -->
+  <rect x="60" y="300" width="340" height="42" rx="8" fill="#1DA1F2" filter="url(#shadow)"/>
+  <text x="230" y="327" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="white">直接処理ルート（目指すべき姿）</text>
+
+  <!-- Timeline bar background -->
+  <rect x="60" y="360" width="1080" height="52" rx="8" fill="#e8f4fd"/>
+
+  <!-- Step 1: 音声認識 -->
+  <rect x="68" y="368" width="140" height="36" rx="6" fill="#1DA1F2" filter="url(#shadow)"/>
+  <text x="138" y="391" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white">① 音声認識</text>
+
+  <!-- Arrow -->
+  <polygon points="212,386 228,386 228,380 244,388 228,396 228,390 212,390" fill="#0d7fc0"/>
+
+  <!-- Step 2: 英語のまま意味直結 -->
+  <rect x="248" y="360" width="720" height="52" rx="6" fill="#0d7fc0" filter="url(#shadow)"/>
+  <text x="608" y="384" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="white">② 英語のまま意味直結（翻訳ステップなし）</text>
+  <text x="608" y="402" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aadcf8">単語 → イメージ・感覚 → 理解</text>
+
+  <!-- Arrow -->
+  <polygon points="972,386 988,386 988,380 1004,388 988,396 988,390 972,390" fill="#0d7fc0"/>
+
+  <!-- Step 3: 応答 -->
+  <rect x="1008" y="368" width="124" height="36" rx="6" fill="#1DA1F2" filter="url(#shadow)"/>
+  <text x="1070" y="391" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="white">③ 即応答</text>
+
+  <!-- Time label -->
+  <rect x="68" y="422" width="1064" height="24" rx="4" fill="#aadcf8"/>
+  <text x="600" y="439" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#0d5f8f">処理時間：約 0.5〜1 秒（会話のテンポに乗れる）</text>
+
+  <!-- Speed comparison bars -->
+  <text x="600" y="490" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#14171A">処理速度の差：約 5〜10倍</text>
+
+  <!-- Bar chart area -->
+  <rect x="200" y="510" width="800" height="110" rx="10" fill="white" filter="url(#shadow)"/>
+
+  <!-- Translation bar -->
+  <text x="220" y="545" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A" font-weight="600">翻訳経由</text>
+  <rect x="320" y="530" width="620" height="28" rx="4" fill="#ff6b6b"/>
+  <text x="950" y="549" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0392b" font-weight="700">4.5秒</text>
+
+  <!-- Direct bar -->
+  <text x="220" y="593" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A" font-weight="600">直接処理</text>
+  <rect x="320" y="578" width="124" height="28" rx="4" fill="#1DA1F2"/>
+  <text x="455" y="597" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#0d5f8f" font-weight="700">0.9秒</text>
+
+  <!-- Key insight box -->
+  <rect x="60" y="638" width="1080" height="26" rx="6" fill="#14171A"/>
+  <text x="600" y="656" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="white">翻訳グセは「頭の回転」の問題ではなく「回路の問題」。毎日の音読で直接処理回路を育てよう。</text>
+
+  <!-- Credit -->
+  <text x="1180" y="670" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">@ichi_eigo</text>
+</svg>

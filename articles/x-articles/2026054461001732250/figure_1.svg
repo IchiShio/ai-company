@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F8F9FA"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="88" fill="#14171A"/>
+  <text x="60" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">英文の「強弱マップ」— ネイティブが実際に聞いている音</text>
+  <text x="60" y="74" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">太字・大きい = 強く発音される内容語 / 薄い・小さい = 弱化する機能語</text>
+
+  <!-- Legend -->
+  <rect x="60" y="108" width="22" height="22" rx="4" fill="#1DA1F2"/>
+  <text x="90" y="124" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A">内容語（強く発音）</text>
+  <rect x="260" y="108" width="22" height="22" rx="4" fill="#E1E8ED"/>
+  <text x="290" y="124" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">機能語（弱化・消える）</text>
+
+  <!-- Sentence 1 -->
+  <rect x="40" y="155" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="60" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">例文 1</text>
+
+  <!-- "I" -->
+  <text x="80" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">I</text>
+  <!-- "can" -->
+  <text x="105" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">can</text>
+  <!-- "go" strong -->
+  <text x="160" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">GO</text>
+  <!-- "to" -->
+  <text x="215" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">to</text>
+  <!-- "the" -->
+  <text x="248" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">the</text>
+  <!-- "store" strong -->
+  <text x="298" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">STORE</text>
+  <!-- "for" -->
+  <text x="408" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">for</text>
+  <!-- "you" strong -->
+  <text x="450" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">YOU</text>
+  <text x="510" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#14171A">.</text>
+
+  <text x="60" y="254" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 聞こえる核: GO / STORE / YOU（3語だけで意味の骨格が取れる）</text>
+
+  <!-- Sentence 2 -->
+  <rect x="40" y="282" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="60" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">例文 2</text>
+
+  <!-- "She" -->
+  <text x="80" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">She</text>
+  <!-- "was" -->
+  <text x="120" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">was</text>
+  <!-- "talking" strong -->
+  <text x="162" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">TALKING</text>
+  <!-- "to" -->
+  <text x="320" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">to</text>
+  <!-- "a" -->
+  <text x="350" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">a</text>
+  <!-- "friend" strong -->
+  <text x="372" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">FRIEND</text>
+  <!-- "of" -->
+  <text x="500" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">of</text>
+  <!-- "mine" strong -->
+  <text x="528" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">MINE</text>
+  <text x="620" y="356" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#14171A">.</text>
+
+  <text x="60" y="380" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 聞こえる核: TALKING / FRIEND / MINE（"She was ... of" は弱化して聞こえにくい）</text>
+
+  <!-- Sentence 3 -->
+  <rect x="40" y="408" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="60" y="434" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">例文 3</text>
+
+  <!-- "Do" -->
+  <text x="80" y="482" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">Do</text>
+  <!-- "you" -->
+  <text x="110" y="482" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">you</text>
+  <!-- "want" strong -->
+  <text x="148" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">WANT</text>
+  <!-- "to" -->
+  <text x="230" y="482" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">to</text>
+  <!-- "grab" strong -->
+  <text x="260" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">GRAB</text>
+  <!-- "some" -->
+  <text x="352" y="482" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#C0CCd4">some</text>
+  <!-- "coffee" strong -->
+  <text x="404" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#1DA1F2">COFFEE</text>
+  <text x="530" y="482" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#14171A">?</text>
+
+  <text x="60" y="506" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ 聞こえる核: WANT / GRAB / COFFEE（コーヒー誘いだとわかる）</text>
+
+  <!-- Bottom insight -->
+  <rect x="40" y="536" width="1120" height="60" rx="8" fill="#E8F5FF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="65" y="562" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">結論</text>
+  <text x="65" y="584" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A">ネイティブは「強い音」を意味の核として処理し、機能語は補完的に解釈する。全部の音を拾う必要はない。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

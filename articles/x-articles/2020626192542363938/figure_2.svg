@@ -1,0 +1,111 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">英語語順処理トレーニング</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="14">誰が → どうした → 何を の3ステップ読解</text>
+
+  <!-- 3ステップ解説 -->
+  <rect x="40" y="100" width="340" height="530" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="40" y="100" width="340" height="52" rx="16" fill="#1DA1F2"/>
+  <rect x="40" y="134" width="340" height="18" fill="#1DA1F2"/>
+  <text x="210" y="134" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">STEP 1  誰が？（主語）</text>
+  <text x="210" y="170" text-anchor="middle" fill="#657786" font-size="13">文頭の名詞句を「誰が」で受け取る</text>
+
+  <rect x="60" y="185" width="300" height="45" rx="8" fill="#E8F5FD"/>
+  <text x="210" y="205" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">The boy</text>
+  <text x="210" y="222" text-anchor="middle" fill="#1DA1F2" font-size="12">→ 「その男の子が」でいったん保持</text>
+
+  <rect x="60" y="238" width="300" height="45" rx="8" fill="#E8F5FD"/>
+  <text x="210" y="258" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">The girl who lives next door</text>
+  <text x="210" y="275" text-anchor="middle" fill="#1DA1F2" font-size="12">→ 「隣に住んでいる女の子が」でいったん保持</text>
+
+  <line x1="60" y1="295" x2="360" y2="295" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="70" y="318" fill="#14171A" font-size="13" font-weight="bold">練習のコツ</text>
+  <text x="70" y="340" fill="#657786" font-size="13">・関係代名詞はカッコでくくる感覚で</text>
+  <text x="70" y="362" fill="#657786" font-size="13">・修飾語は後から「説明が来た」と処理</text>
+  <text x="70" y="384" fill="#657786" font-size="13">・主語を特定したら次のステップへ</text>
+
+  <rect x="60" y="405" width="300" height="80" rx="8" fill="#E8F5FD"/>
+  <text x="210" y="428" text-anchor="middle" fill="#1DA1F2" font-size="13" font-weight="bold">練習文</text>
+  <text x="70" y="452" fill="#14171A" font-size="12">The woman who works in that office...</text>
+  <text x="70" y="472" fill="#14171A" font-size="12">A student from Japan who studies...</text>
+
+  <rect x="60" y="500" width="300" height="110" rx="8" fill="#14171A"/>
+  <text x="210" y="523" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">NG習慣</text>
+  <text x="70" y="548" fill="#FF6B6B" font-size="13">× 「誰が」を確定する前に先読み</text>
+  <text x="70" y="571" fill="#FF6B6B" font-size="13">× 主語に日本語訳を当てようとする</text>
+  <text x="70" y="594" fill="#657786" font-size="12">→ 英語の語感のまま受け取るのが目標</text>
+
+  <!-- STEP 2 -->
+  <rect x="430" y="100" width="340" height="530" rx="16" fill="#FFFFFF" stroke="#F45D22" stroke-width="2.5"/>
+  <rect x="430" y="100" width="340" height="52" rx="16" fill="#F45D22"/>
+  <rect x="430" y="134" width="340" height="18" fill="#F45D22"/>
+  <text x="600" y="134" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">STEP 2  どうした？（動詞）</text>
+  <text x="600" y="170" text-anchor="middle" fill="#657786" font-size="13">動詞が来たら「行動・状態」を即座に認識</text>
+
+  <rect x="450" y="185" width="300" height="45" rx="8" fill="#FFF0E8"/>
+  <text x="600" y="205" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">plays</text>
+  <text x="600" y="222" text-anchor="middle" fill="#F45D22" font-size="12">→ 「弾く（習慣・現在）」をすぐ認識</text>
+
+  <rect x="450" y="238" width="300" height="45" rx="8" fill="#FFF0E8"/>
+  <text x="600" y="258" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">was given / has been</text>
+  <text x="600" y="275" text-anchor="middle" fill="#F45D22" font-size="12">→ 受動・完了の状態をそのまま受け取る</text>
+
+  <line x1="450" y1="295" x2="750" y2="295" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="460" y="318" fill="#14171A" font-size="13" font-weight="bold">練習のコツ</text>
+  <text x="460" y="340" fill="#657786" font-size="13">・動詞を見た瞬間に時制を確認する</text>
+  <text x="460" y="362" fill="#657786" font-size="13">・否定・助動詞も動詞の一部として処理</text>
+  <text x="460" y="384" fill="#657786" font-size="13">・「誰がどうした」まで確定したら続きへ</text>
+
+  <rect x="450" y="405" width="300" height="80" rx="8" fill="#FFF0E8"/>
+  <text x="600" y="428" text-anchor="middle" fill="#F45D22" font-size="13" font-weight="bold">練習文</text>
+  <text x="460" y="452" fill="#14171A" font-size="12">...suddenly stopped eating...</text>
+  <text x="460" y="472" fill="#14171A" font-size="12">...has never been able to...</text>
+
+  <rect x="450" y="500" width="300" height="110" rx="8" fill="#14171A"/>
+  <text x="600" y="523" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">NG習慣</text>
+  <text x="460" y="548" fill="#FF6B6B" font-size="13">× 動詞を見てから主語に戻る</text>
+  <text x="460" y="571" fill="#FF6B6B" font-size="13">× 時制をあいまいにして先へ進む</text>
+  <text x="460" y="594" fill="#657786" font-size="12">→ 動詞で止まらず流れを維持することが重要</text>
+
+  <!-- STEP 3 -->
+  <rect x="820" y="100" width="340" height="530" rx="16" fill="#FFFFFF" stroke="#17BF63" stroke-width="2.5"/>
+  <rect x="820" y="100" width="340" height="52" rx="16" fill="#17BF63"/>
+  <rect x="820" y="134" width="340" height="18" fill="#17BF63"/>
+  <text x="990" y="134" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">STEP 3  何を？（目的語・補足）</text>
+  <text x="990" y="170" text-anchor="middle" fill="#657786" font-size="13">残りの要素を順番に受け取る</text>
+
+  <rect x="840" y="185" width="300" height="45" rx="8" fill="#E8FFF0"/>
+  <text x="990" y="205" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">the piano every day</text>
+  <text x="990" y="222" text-anchor="middle" fill="#17BF63" font-size="12">→ 「ピアノを」「毎日」と順に積み上げ</text>
+
+  <rect x="840" y="238" width="300" height="45" rx="8" fill="#E8FFF0"/>
+  <text x="990" y="258" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">to school by train every morning</text>
+  <text x="990" y="275" text-anchor="middle" fill="#17BF63" font-size="12">→ 追加情報を順番に処理して全体像</text>
+
+  <line x1="840" y1="295" x2="1140" y2="295" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="850" y="318" fill="#14171A" font-size="13" font-weight="bold">練習のコツ</text>
+  <text x="850" y="340" fill="#657786" font-size="13">・前置詞句は「場所・時・方法」の追加情報</text>
+  <text x="850" y="362" fill="#657786" font-size="13">・来た順に意味を積み上げていく</text>
+  <text x="850" y="384" fill="#657786" font-size="13">・文末まで読んで全体像を把握</text>
+
+  <rect x="840" y="405" width="300" height="80" rx="8" fill="#E8FFF0"/>
+  <text x="990" y="428" text-anchor="middle" fill="#17BF63" font-size="13" font-weight="bold">練習文</text>
+  <text x="850" y="452" fill="#14171A" font-size="12">...a book about Japanese history...</text>
+  <text x="850" y="472" fill="#14171A" font-size="12">...an email to her friend in Canada...</text>
+
+  <rect x="840" y="500" width="300" height="110" rx="8" fill="#1DA1F220" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="990" y="523" text-anchor="middle" fill="#1DA1F2" font-size="13" font-weight="bold">3ステップ統合の効果</text>
+  <text x="850" y="548" fill="#14171A" font-size="12">英語の語順で意味が「映像化」される</text>
+  <text x="850" y="571" fill="#14171A" font-size="12">返り読みゼロ → 速読・多読が可能に</text>
+  <text x="850" y="594" fill="#657786" font-size="12">長文問題の正答率・速度が同時に向上</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

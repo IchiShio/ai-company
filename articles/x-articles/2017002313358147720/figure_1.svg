@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2533;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#1DA1F2" opacity="0.12"/>
+  <text x="600" y="30" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="bold">勉強 vs 練習 — 比率の現実</text>
+  <text x="600" y="62" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">スポーツ選手の練習比率 vs 英語学習者の勉強比率</text>
+
+  <!-- Left Panel: Sports -->
+  <rect x="50" y="100" width="510" height="430" rx="16" fill="#1DA1F2" opacity="0.06" stroke="#1DA1F2" stroke-width="1.5"/>
+
+  <!-- Sports Header -->
+  <rect x="50" y="100" width="510" height="55" rx="16" fill="#1DA1F2" opacity="0.2"/>
+  <text x="305" y="134" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">⚽ スポーツ選手の場合</text>
+
+  <!-- Donut chart area - Sports -->
+  <!-- Background circle -->
+  <circle cx="305" cy="310" r="120" fill="none" stroke="#1e2f3e" stroke-width="35"/>
+  <!-- Practice 80% arc -->
+  <circle cx="305" cy="310" r="120" fill="none" stroke="#1DA1F2" stroke-width="35"
+    stroke-dasharray="603 151" stroke-dashoffset="0"
+    transform="rotate(-90 305 310)"/>
+  <!-- Theory 20% arc -->
+  <circle cx="305" cy="310" r="120" fill="none" stroke="#657786" stroke-width="35"
+    stroke-dasharray="151 603" stroke-dashoffset="-603"
+    transform="rotate(-90 305 310)"/>
+  <!-- Center label -->
+  <text x="305" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" fill="#1DA1F2" text-anchor="middle" font-weight="bold">80%</text>
+  <text x="305" y="330" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6" text-anchor="middle">実際にプレー</text>
+
+  <!-- Legend - Sports -->
+  <rect x="100" y="460" width="16" height="16" rx="3" fill="#1DA1F2"/>
+  <text x="124" y="473" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">実践練習 80%</text>
+  <rect x="270" y="460" width="16" height="16" rx="3" fill="#657786"/>
+  <text x="294" y="473" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">座学・映像 20%</text>
+
+  <!-- Right Panel: English Learner -->
+  <rect x="640" y="100" width="510" height="430" rx="16" fill="#e84057" opacity="0.06" stroke="#e84057" stroke-width="1.5"/>
+
+  <!-- English Header -->
+  <rect x="640" y="100" width="510" height="55" rx="16" fill="#e84057" opacity="0.2"/>
+  <text x="895" y="134" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">📚 多くの英語学習者の場合</text>
+
+  <!-- Donut chart area - English -->
+  <circle cx="895" cy="310" r="120" fill="none" stroke="#1e2f3e" stroke-width="35"/>
+  <!-- Output 10% arc -->
+  <circle cx="895" cy="310" r="120" fill="none" stroke="#1DA1F2" stroke-width="35"
+    stroke-dasharray="75 679" stroke-dashoffset="0"
+    transform="rotate(-90 895 310)"/>
+  <!-- Study 90% arc -->
+  <circle cx="895" cy="310" r="120" fill="none" stroke="#e84057" stroke-width="35"
+    stroke-dasharray="679 75" stroke-dashoffset="-75"
+    transform="rotate(-90 895 310)"/>
+  <!-- Center label -->
+  <text x="895" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" fill="#e84057" text-anchor="middle" font-weight="bold">90%</text>
+  <text x="895" y="330" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6" text-anchor="middle">インプット学習</text>
+
+  <!-- Legend - English -->
+  <rect x="690" y="460" width="16" height="16" rx="3" fill="#e84057"/>
+  <text x="714" y="473" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">インプット学習 90%</text>
+  <rect x="890" y="460" width="16" height="16" rx="3" fill="#1DA1F2"/>
+  <text x="914" y="473" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">アウトプット 10%</text>
+
+  <!-- VS badge -->
+  <circle cx="600" cy="315" r="38" fill="#14171A" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="600" y="323" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#1DA1F2" text-anchor="middle" font-weight="bold">VS</text>
+
+  <!-- Bottom insight -->
+  <rect x="0" y="553" width="1200" height="122" fill="#14171A"/>
+  <text x="600" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" text-anchor="middle" font-weight="bold">サッカー選手がルールブックを読むだけで試合に出ないようなもの</text>
+  <text x="600" y="616" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6" text-anchor="middle">英語も同じ。毎日5分でも「使う」時間が上達への近道。</text>
+  <text x="600" y="644" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">native-real.com でアウトプット練習を始めよう</text>
+  <text x="1170" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

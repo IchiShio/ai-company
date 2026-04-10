@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e0245e"/>
+      <stop offset="100%" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f7a733"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <linearGradient id="barGrad3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1DA1F2"/>
+      <stop offset="100%" stop-color="#00CC88"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg5)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    ハードルの高さ × 継続率の反比例グラフ
+  </text>
+  <text x="600" y="80" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" fill="#AAB8C2" text-anchor="middle">
+    1日の学習量を下げるほど、続く確率が指数関数的に上がる
+  </text>
+
+  <!-- Chart area -->
+  <!-- Y-axis: 継続率 0-100% -->
+  <!-- X-axis: 1日の学習量（ハードルの高さ） -->
+
+  <!-- Axes -->
+  <line x1="100" y1="520" x2="1100" y2="520" stroke="#657786" stroke-width="1.5"/>
+  <line x1="100" y1="120" x2="100" y2="520" stroke="#657786" stroke-width="1.5"/>
+
+  <!-- Y-axis labels -->
+  <text x="90" y="524" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="end">0%</text>
+  <text x="90" y="420" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="end">25%</text>
+  <text x="90" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="end">50%</text>
+  <text x="90" y="220" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="end">75%</text>
+  <text x="90" y="135" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="end">100%</text>
+
+  <!-- Y-axis grid lines -->
+  <line x1="100" y1="420" x2="1100" y2="420" stroke="#2D3748" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="100" y1="320" x2="1100" y2="320" stroke="#2D3748" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="100" y1="220" x2="1100" y2="220" stroke="#2D3748" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="100" y1="130" x2="1100" y2="130" stroke="#2D3748" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Y-axis title -->
+  <text x="40" y="330" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle"
+        transform="rotate(-90, 40, 330)">30日後の継続率</text>
+
+  <!-- X-axis title -->
+  <text x="600" y="562" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#AAB8C2" text-anchor="middle">1日の学習量（ハードルの高さ）→</text>
+
+  <!-- X-axis labels -->
+  <text x="180" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">5分</text>
+  <text x="380" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">15分</text>
+  <text x="580" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">30分</text>
+  <text x="780" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">1時間</text>
+  <text x="980" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">2時間+</text>
+
+  <!-- Curve: exponential decay approximated by cubic bezier -->
+  <!-- Points: (180, 150) -> (380, 210) -> (580, 320) -> (780, 430) -> (980, 490) -->
+  <path d="M 180,148 C 280,165 330,195 380,220 C 440,250 510,295 580,332 C 660,375 720,420 780,446 C 860,475 930,490 980,497"
+        fill="none" stroke="url(#barGrad3)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Area fill under curve -->
+  <path d="M 180,148 C 280,165 330,195 380,220 C 440,250 510,295 580,332 C 660,375 720,420 780,446 C 860,475 930,490 980,497 L 980,520 L 180,520 Z"
+        fill="url(#barGrad3)" fill-opacity="0.12"/>
+
+  <!-- Annotation points -->
+  <!-- 5分: 継続率~88% -> y≈148 -->
+  <circle cx="180" cy="148" r="10" fill="#00CC88" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="100" y="120" width="160" height="52" rx="8" fill="#0a3020" stroke="#00CC88" stroke-width="1.5"/>
+  <text x="180" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#00CC88" text-anchor="middle">5分</text>
+  <text x="180" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#00CC88" text-anchor="middle">継続率 約88%</text>
+  <text x="180" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="11" fill="#AAB8C2" text-anchor="middle">続けやすい ✓</text>
+
+  <!-- 30分: 継続率~46% -> y≈332 -->
+  <circle cx="580" cy="332" r="10" fill="#f7a733" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="500" y="300" width="160" height="52" rx="8" fill="#1C2010" stroke="#f7a733" stroke-width="1.5"/>
+  <text x="580" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#f7a733" text-anchor="middle">30分</text>
+  <text x="580" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#f7a733" text-anchor="middle">継続率 約46%</text>
+  <text x="580" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="11" fill="#AAB8C2" text-anchor="middle">半数が脱落</text>
+
+  <!-- 2時間+: 継続率~12% -> y≈497 -->
+  <circle cx="980" cy="497" r="10" fill="#e0245e" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="900" y="465" width="160" height="52" rx="8" fill="#20080e" stroke="#e0245e" stroke-width="1.5"/>
+  <text x="980" y="485" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#e08080" text-anchor="middle">2時間+</text>
+  <text x="980" y="503" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#e08080" text-anchor="middle">継続率 約12%</text>
+  <text x="980" y="519" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="11" fill="#AAB8C2" text-anchor="middle">9割が1ヶ月で挫折</text>
+
+  <!-- Sweet spot arrow -->
+  <line x1="180" y1="200" x2="180" y2="520" stroke="#00CC88" stroke-width="1.5" stroke-dasharray="5,4" opacity="0.5"/>
+  <text x="183" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#00CC88">← SWEET SPOT</text>
+
+  <!-- Bottom box -->
+  <rect x="40" y="588" width="1120" height="50" rx="10" fill="#0a1628" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="600" y="617" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">
+    「意志が強い人が続く」は幻想。ハードルを下げた人が最終的に最も成長する。
+  </text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

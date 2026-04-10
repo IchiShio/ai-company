@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="testBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#657786;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#8a9bb0;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="convBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e53e3e;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#fc8181;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="trainedBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:0.7"/>
+    </linearGradient>
+    <filter id="glow5">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="675" fill="url(#bg5)"/>
+
+  <!-- タイトル -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">検索速度の比較｜テスト vs 会話 vs 速度訓練後</text>
+
+  <!-- タイムライン軸（横型） -->
+  <!-- 3つのシナリオを縦に並べる -->
+
+  <!-- ラベル背景 -->
+  <rect x="30" y="118" width="160" height="120" fill="#1a2030" rx="8" opacity="0.7"/>
+  <text x="110" y="145" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#8a9bb0" text-anchor="middle">テスト・書き取り</text>
+  <text x="110" y="163" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">（10秒以内でOK）</text>
+
+  <rect x="30" y="278" width="160" height="120" fill="#1a2030" rx="8" opacity="0.7"/>
+  <text x="110" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#fc8181" text-anchor="middle">リアル会話</text>
+  <text x="110" y="323" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">（0.5秒が限界）</text>
+
+  <rect x="30" y="440" width="160" height="120" fill="#1a2030" rx="8" opacity="0.7"/>
+  <text x="110" y="465" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2" text-anchor="middle">速度訓練後</text>
+  <text x="110" y="483" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">（0.5秒以内に対応）</text>
+
+  <!-- タイムスケール表示（上部） -->
+  <text x="218" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">0秒</text>
+  <text x="380" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">0.5秒</text>
+  <text x="540" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">1秒</text>
+  <text x="700" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">2秒</text>
+  <text x="860" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">5秒</text>
+  <text x="1060" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">10秒以上</text>
+
+  <!-- グリッド縦線 -->
+  <line x1="380" y1="108" x2="380" y2="580" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="540" y1="108" x2="540" y2="580" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="700" y1="108" x2="700" y2="580" stroke="#2d3748" stroke-width="1" stroke-dasharray="4,6" opacity="0.5"/>
+  <line x1="860" y1="108" x2="860" y2="580" stroke="#2d3748" stroke-width="1" stroke-dasharray="4,6" opacity="0.5"/>
+
+  <!-- 0.5秒ラインの強調 -->
+  <line x1="380" y1="108" x2="380" y2="580" stroke="#e53e3e" stroke-width="2" opacity="0.6"/>
+  <rect x="362" y="594" width="40" height="22" fill="#e53e3e" fill-opacity="0.15" rx="4"/>
+  <text x="382" y="609" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e53e3e" text-anchor="middle">壁</text>
+
+  <!-- シナリオ1: テスト（グレーバー、長い） -->
+  <rect x="218" y="138" width="860" height="60" rx="8" fill="url(#testBar)"/>
+  <text x="640" y="175" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">〜10秒かけてゆっくり想起 → 正解できる</text>
+  <!-- 完了マーカー -->
+  <circle cx="1078" cy="168" r="12" fill="#8a9bb0"/>
+  <text x="1078" y="173" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">✓</text>
+
+  <!-- テスト 0.5秒時点での状態 -->
+  <rect x="218" y="208" width="162" height="32" rx="4" fill="#2d3748" opacity="0.8"/>
+  <text x="299" y="229" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8a9bb0" text-anchor="middle">0.5秒ではまだ「…」</text>
+
+  <!-- シナリオ2: 会話（赤バー、0.5秒で終了） -->
+  <rect x="218" y="298" width="162" height="60" rx="8" fill="url(#convBar)"/>
+  <text x="299" y="335" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">0.5秒でXアウト</text>
+  <!-- 話題が進んでしまう -->
+  <rect x="400" y="298" width="700" height="60" rx="8" fill="#2d3748" fill-opacity="0.4"/>
+  <text x="750" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">会話は先に進んでしまい…</text>
+  <text x="750" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4a5568" text-anchor="middle">「知ってるのに出てこなかった」が積み重なる</text>
+
+  <!-- 会話 バツ印 -->
+  <line x1="1040" y1="308" x2="1070" y2="348" stroke="#e53e3e" stroke-width="3"/>
+  <line x1="1070" y1="308" x2="1040" y2="348" stroke="#e53e3e" stroke-width="3"/>
+
+  <!-- シナリオ3: 速度訓練後（青バー、短い） -->
+  <rect x="218" y="460" width="162" height="60" rx="8" fill="url(#trainedBar)" filter="url(#glow5)"/>
+  <text x="299" y="497" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">0.5秒以内に出現!</text>
+  <!-- 続きの会話 -->
+  <rect x="400" y="460" width="700" height="60" rx="8" fill="#0d2844" fill-opacity="0.7" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="750" y="485" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#4fc3f7" text-anchor="middle">会話のリズムを保ったまま応答できる</text>
+  <text x="750" y="505" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">→ 自信とともに会話量が増え、さらに上達</text>
+
+  <!-- チェック印 -->
+  <circle cx="1058" cy="490" r="16" fill="#1DA1F2"/>
+  <text x="1058" y="496" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">✓</text>
+
+  <!-- 中央メッセージ -->
+  <rect x="330" y="590" width="540" height="44" fill="#0d2844" rx="22" stroke="#1DA1F2" stroke-width="1.5" opacity="0.9"/>
+  <text x="600" y="618" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2" text-anchor="middle">記憶の問題ではなく「検索速度」の問題</text>
+
+  <!-- クレジット -->
+  <text x="1180" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

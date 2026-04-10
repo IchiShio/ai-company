@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cardGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="600" y="56" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle" filter="url(#glow)">スマホで作る英語環境 7つのツール</text>
+  <text x="600" y="88" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">今日から1つだけ変えてみる。それだけでいい。</text>
+
+  <!-- Card 1: YouTube -->
+  <rect x="60" y="112" width="330" height="120" rx="12" fill="#1DA1F2" fill-opacity="0.1" stroke="#1DA1F2" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="100" y="145" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">▶</text>
+  <text x="140" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#1DA1F2">YouTube</text>
+  <text x="140" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0">BBC / TED / NPR / Vox</text>
+  <text x="80" y="194" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">日本語の視聴を英語チャンネルに入れ替え</text>
+  <text x="80" y="214" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">→ 字幕ON で理解しながら聞く</text>
+  <rect x="330" y="118" width="50" height="22" rx="4" fill="#1DA1F2" fill-opacity="0.3"/>
+  <text x="355" y="133" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" text-anchor="middle">無料</text>
+
+  <!-- Card 2: Podcast -->
+  <rect x="430" y="112" width="330" height="120" rx="12" fill="#38c9a0" fill-opacity="0.1" stroke="#38c9a0" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="470" y="145" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🎙</text>
+  <text x="510" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#38c9a0">Podcast</text>
+  <text x="510" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0e8c8">Spotify / Apple Podcasts</text>
+  <text x="450" y="194" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">通勤・家事中にながら聴き</text>
+  <text x="450" y="214" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">→ 1.0〜1.5倍速で耳を慣らす</text>
+  <rect x="700" y="118" width="50" height="22" rx="4" fill="#38c9a0" fill-opacity="0.3"/>
+  <text x="725" y="133" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#38c9a0" text-anchor="middle">無料</text>
+
+  <!-- Card 3: AI会話 -->
+  <rect x="800" y="112" width="330" height="120" rx="12" fill="#f5a623" fill-opacity="0.1" stroke="#f5a623" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="840" y="145" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🤖</text>
+  <text x="880" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#f5a623">AI英会話</text>
+  <text x="880" y="168" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffe0a0">ChatGPT / Claude</text>
+  <text x="820" y="194" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">テキスト or 音声で24時間練習可能</text>
+  <text x="820" y="214" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">→ 間違いをその場で訂正してもらう</text>
+  <rect x="1070" y="118" width="50" height="22" rx="4" fill="#f5a623" fill-opacity="0.3"/>
+  <text x="1095" y="133" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#f5a623" text-anchor="middle">一部無料</text>
+
+  <!-- Card 4: Netflix -->
+  <rect x="60" y="260" width="330" height="120" rx="12" fill="#e54a4a" fill-opacity="0.1" stroke="#e54a4a" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="100" y="293" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🎬</text>
+  <text x="140" y="296" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#e54a4a">Netflix / Disney+</text>
+  <text x="140" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#f09090">英語音声 + 英語字幕</text>
+  <text x="80" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">好きなコンテンツで楽しく継続</text>
+  <text x="80" y="362" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">→ シャドーイングにも最適</text>
+  <rect x="330" y="266" width="50" height="22" rx="4" fill="#e54a4a" fill-opacity="0.3"/>
+  <text x="355" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#e54a4a" text-anchor="middle">有料</text>
+
+  <!-- Card 5: SNS -->
+  <rect x="430" y="260" width="330" height="120" rx="12" fill="#c175f5" fill-opacity="0.1" stroke="#c175f5" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="470" y="293" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">📸</text>
+  <text x="510" y="296" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#c175f5">Instagram / X</text>
+  <text x="510" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#dfa0f8">英語アカウントをフォロー</text>
+  <text x="450" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">スクロールが英語学習に変わる</text>
+  <text x="450" y="362" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">→ フィードの英語比率を上げる</text>
+  <rect x="700" y="266" width="50" height="22" rx="4" fill="#c175f5" fill-opacity="0.3"/>
+  <text x="725" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#c175f5" text-anchor="middle">無料</text>
+
+  <!-- Card 6: Quiz App -->
+  <rect x="800" y="260" width="330" height="120" rx="12" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="840" y="293" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🎯</text>
+  <text x="880" y="296" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#1DA1F2">リスニングクイズ</text>
+  <text x="880" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0">native-real.com</text>
+  <text x="820" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">受動から能動的リスニングへ</text>
+  <text x="820" y="362" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">→ 1,000問+・難易度5段階</text>
+  <rect x="1070" y="266" width="50" height="22" rx="4" fill="#1DA1F2" fill-opacity="0.4"/>
+  <text x="1095" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" text-anchor="middle">無料</text>
+
+  <!-- Card 7: OS Language -->
+  <rect x="240" y="408" width="680" height="80" rx="12" fill="#657786" fill-opacity="0.1" stroke="#657786" stroke-opacity="0.4" stroke-width="1.5"/>
+  <text x="290" y="442" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24">⚙</text>
+  <text x="330" y="444" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff">スマホ本体の言語を英語に変更</text>
+  <text x="330" y="465" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0a8b0">設定 → 一般 → 言語 → English</text>
+  <text x="330" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">無意識に英語を読む状態を作る → 効果: 潜在的インプットの増加</text>
+  <rect x="870" y="414" width="30" height="30" rx="4" fill="#657786" fill-opacity="0.3"/>
+  <text x="885" y="434" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#a0a8b0" text-anchor="middle">7</text>
+
+  <!-- Bottom message -->
+  <text x="600" y="540" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700" filter="url(#glow)">まず1つ。今日変える。</text>
+  <text x="600" y="562" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">すべて揃える必要はない。1つ変えた習慣が環境を変える。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

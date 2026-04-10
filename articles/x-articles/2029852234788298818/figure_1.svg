@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="arrow-gray" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#657786"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000020"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#14171A">脳内の英語処理回路：変換型 vs 直接型</text>
+
+  <!-- === LEFT: Conversion Type === -->
+  <!-- Label -->
+  <rect x="60" y="80" width="480" height="44" rx="8" fill="#E8F5FD"/>
+  <text x="300" y="108" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#657786">❌ 変換型（多くの日本語話者）</text>
+
+  <!-- Step 1 -->
+  <rect x="100" y="150" width="200" height="70" rx="12" fill="#FFFFFF" stroke="#657786" stroke-width="2" filter="url(#shadow)"/>
+  <text x="200" y="181" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#14171A" font-weight="bold">① 目で見る・感じる</text>
+  <text x="200" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">（犬が走っている）</text>
+
+  <!-- Arrow down -->
+  <line x1="200" y1="222" x2="200" y2="258" stroke="#657786" stroke-width="2.5" marker-end="url(#arrow-gray)"/>
+  <rect x="120" y="228" width="160" height="24" rx="4" fill="#FFE4E4"/>
+  <text x="200" y="244" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#CC3333">⏱ 変換遅延 0.5〜2秒</text>
+
+  <!-- Step 2 -->
+  <rect x="100" y="260" width="200" height="70" rx="12" fill="#FFF3F3" stroke="#CC3333" stroke-width="2" filter="url(#shadow)"/>
+  <text x="200" y="291" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#14171A" font-weight="bold">② 日本語で考える</text>
+  <text x="200" y="313" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「犬が走っている」</text>
+
+  <!-- Arrow down -->
+  <line x1="200" y1="332" x2="200" y2="368" stroke="#657786" stroke-width="2.5" marker-end="url(#arrow-gray)"/>
+  <rect x="120" y="338" width="160" height="24" rx="4" fill="#FFE4E4"/>
+  <text x="200" y="354" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#CC3333">⏱ 翻訳遅延 0.5〜3秒</text>
+
+  <!-- Step 3 -->
+  <rect x="100" y="370" width="200" height="70" rx="12" fill="#FFF3F3" stroke="#CC3333" stroke-width="2" filter="url(#shadow)"/>
+  <text x="200" y="401" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#14171A" font-weight="bold">③ 英語に翻訳</text>
+  <text x="200" y="423" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「The dog is running...?」</text>
+
+  <!-- Arrow down -->
+  <line x1="200" y1="442" x2="200" y2="478" stroke="#657786" stroke-width="2.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- Step 4 -->
+  <rect x="100" y="480" width="200" height="70" rx="12" fill="#EEEEEE" stroke="#AAAAAA" stroke-width="2" filter="url(#shadow)"/>
+  <text x="200" y="511" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#14171A" font-weight="bold">④ ようやく発話</text>
+  <text x="200" y="533" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">遅くてぎこちない...</text>
+
+  <!-- Total time badge -->
+  <rect x="90" y="567" width="220" height="40" rx="20" fill="#CC3333"/>
+  <text x="200" y="592" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">総処理時間：3〜8秒</text>
+
+  <!-- === RIGHT: Direct Type === -->
+  <!-- Label -->
+  <rect x="660" y="80" width="480" height="44" rx="8" fill="#E8F5FD"/>
+  <text x="900" y="108" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#1DA1F2">✅ 直接型（英語話者の思考）</text>
+
+  <!-- Step 1 -->
+  <rect x="700" y="150" width="200" height="70" rx="12" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="800" y="181" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#14171A" font-weight="bold">① 目で見る・感じる</text>
+  <text x="800" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">（犬が走っている）</text>
+
+  <!-- Big arrow directly to output -->
+  <line x1="800" y1="222" x2="800" y2="378" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="710" y="295" width="180" height="30" rx="6" fill="#1DA1F2"/>
+  <text x="800" y="315" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">⚡ 直接回路（0.1秒）</text>
+
+  <!-- Step 2 (Output) -->
+  <rect x="700" y="380" width="200" height="70" rx="12" fill="#E8F5FD" stroke="#1DA1F2" stroke-width="3" filter="url(#shadow)"/>
+  <text x="800" y="411" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#14171A" font-weight="bold">② 英語で発話</text>
+  <text x="800" y="433" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">「The dog is running!」</text>
+
+  <!-- Skipped steps (ghost) -->
+  <rect x="690" y="460" width="220" height="44" rx="8" fill="#F5F8FA" stroke="#DDDDDD" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="800" y="486" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAAAAA">（日本語ステップなし）</text>
+
+  <!-- Total time badge -->
+  <rect x="690" y="567" width="220" height="40" rx="20" fill="#1DA1F2"/>
+  <text x="800" y="592" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">総処理時間：0.1〜0.5秒</text>
+
+  <!-- Divider -->
+  <line x1="600" y1="75" x2="600" y2="625" stroke="#E1E8ED" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="600" y="650" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">独り言練習でこの回路を鍛えよう → native-real.com</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

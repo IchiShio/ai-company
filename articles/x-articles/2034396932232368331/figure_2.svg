@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </linearGradient>
+    <marker id="arrowBlue2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00CC88"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg6)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    5分習慣を既存ルーティンに紐付ける：アンカーリング
+  </text>
+  <text x="600" y="76" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" fill="#AAB8C2" text-anchor="middle">
+    「〇〇した後に英語」と決めるだけで、意志力ゼロで続く仕組みになる
+  </text>
+
+  <!-- Method: [既存習慣] → [英語5分] → [ご褒美] -->
+
+  <!-- Formula header -->
+  <rect x="200" y="100" width="800" height="55" rx="10" fill="#0d2540" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="136" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="20" font-weight="700" fill="#1DA1F2" text-anchor="middle">
+    アンカー（既存習慣）→ 英語5分 → ご褒美
+  </text>
+
+  <!-- 3 columns -->
+
+  <!-- Col 1: 朝 -->
+  <rect x="40" y="175" width="340" height="340" rx="14" fill="#1C2938" stroke="#1DA1F2" stroke-width="1.5"/>
+  <rect x="40" y="175" width="340" height="50" rx="14" fill="#1DA1F2"/>
+  <rect x="40" y="200" width="340" height="25" fill="#1DA1F2"/>
+  <text x="210" y="207" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">☀ 朝のルーティン</text>
+
+  <!-- Anchor 1a -->
+  <rect x="60" y="240" width="300" height="68" rx="8" fill="#0d2540" stroke="#1DA1F2" stroke-width="1" opacity="0.8"/>
+  <text x="80" y="263" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: コーヒーを淹れる</text>
+  <text x="80" y="282" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2">→ 英語フレーズを1つ音読</text>
+  <text x="80" y="299" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">待ち時間でコーヒーを飲みながら</text>
+
+  <!-- Anchor 1b -->
+  <rect x="60" y="320" width="300" height="68" rx="8" fill="#0d2540" stroke="#1DA1F2" stroke-width="1" opacity="0.8"/>
+  <text x="80" y="343" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 歯磨き中</text>
+  <text x="80" y="362" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2">→ 英語音声を聞き流す</text>
+  <text x="80" y="379" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">両手がふさがってもできる</text>
+
+  <!-- Anchor 1c -->
+  <rect x="60" y="400" width="300" height="68" rx="8" fill="#0d2540" stroke="#1DA1F2" stroke-width="1" opacity="0.8"/>
+  <text x="80" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 起床後すぐ</text>
+  <text x="80" y="442" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2">→ 単語カード3枚めくる</text>
+  <text x="80" y="459" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">ベッドから出る前に完了</text>
+
+  <!-- Col 2: 移動中 -->
+  <rect x="430" y="175" width="340" height="340" rx="14" fill="#1C2938" stroke="#f7a733" stroke-width="1.5"/>
+  <rect x="430" y="175" width="340" height="50" rx="14" fill="#f7a733" opacity="0.9"/>
+  <rect x="430" y="200" width="340" height="25" fill="#f7a733" opacity="0.9"/>
+  <text x="600" y="207" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="17" font-weight="700" fill="#14171A" text-anchor="middle">🚃 移動・すき間時間</text>
+
+  <rect x="450" y="240" width="300" height="68" rx="8" fill="#1a1408" stroke="#f7a733" stroke-width="1" opacity="0.8"/>
+  <text x="470" y="263" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 電車に乗る</text>
+  <text x="470" y="282" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#f7a733">→ 英単語アプリを5分開く</text>
+  <text x="470" y="299" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">席に座ったら条件反射で開く</text>
+
+  <rect x="450" y="320" width="300" height="68" rx="8" fill="#1a1408" stroke="#f7a733" stroke-width="1" opacity="0.8"/>
+  <text x="470" y="343" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 昼食を待つ</text>
+  <text x="470" y="362" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#f7a733">→ 短いリスニング問題1問</text>
+  <text x="470" y="379" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">スマホを開くタイミングに差し込む</text>
+
+  <rect x="450" y="400" width="300" height="68" rx="8" fill="#1a1408" stroke="#f7a733" stroke-width="1" opacity="0.8"/>
+  <text x="470" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 信号待ち（徒歩）</text>
+  <text x="470" y="442" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#f7a733">→ フレーズを心の中で復唱</text>
+  <text x="470" y="459" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">デバイス不要の積み上げ</text>
+
+  <!-- Col 3: 夜 -->
+  <rect x="820" y="175" width="340" height="340" rx="14" fill="#1C2938" stroke="#00CC88" stroke-width="1.5"/>
+  <rect x="820" y="175" width="340" height="50" rx="14" fill="#00CC88" opacity="0.9"/>
+  <rect x="820" y="200" width="340" height="25" fill="#00CC88" opacity="0.9"/>
+  <text x="990" y="207" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="17" font-weight="700" fill="#14171A" text-anchor="middle">🌙 夜のルーティン</text>
+
+  <rect x="840" y="240" width="300" height="68" rx="8" fill="#081a10" stroke="#00CC88" stroke-width="1" opacity="0.8"/>
+  <text x="860" y="263" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 夕食後のくつろぎ</text>
+  <text x="860" y="282" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#00CC88">→ 英語動画を5分だけ見る</text>
+  <text x="860" y="299" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">娯楽との境界線をあいまいに</text>
+
+  <rect x="840" y="320" width="300" height="68" rx="8" fill="#081a10" stroke="#00CC88" stroke-width="1" opacity="0.8"/>
+  <text x="860" y="343" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 入浴中</text>
+  <text x="860" y="362" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#00CC88">→ 今日使いたいフレーズを声に出す</text>
+  <text x="860" y="379" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">誰にも聞かれない最高の練習場</text>
+
+  <rect x="840" y="400" width="300" height="68" rx="8" fill="#081a10" stroke="#00CC88" stroke-width="1" opacity="0.8"/>
+  <text x="860" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">アンカー: 就寝前</text>
+  <text x="860" y="442" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#00CC88">→ 今日覚えた単語を1つ思い出す</text>
+  <text x="860" y="459" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786">睡眠中の記憶固定に効果的</text>
+
+  <!-- Bottom box -->
+  <rect x="40" y="540" width="1120" height="72" rx="12" fill="#0a1628" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="566" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#1DA1F2" text-anchor="middle">
+    アンカーリングの鉄則：新しい習慣は「すでにある習慣」の直後に置く
+  </text>
+  <text x="600" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">
+    BJ Fogg（スタンフォード大）の行動デザイン理論「Tiny Habits」に基づく。意志力に頼わない仕組み化。
+  </text>
+  <text x="600" y="606" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">
+    毎日5分 × 30日 ＝ 150分。「ゼロかどうか」が英語力の分岐点。
+  </text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

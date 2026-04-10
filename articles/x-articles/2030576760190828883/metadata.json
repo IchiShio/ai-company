@@ -1,0 +1,27 @@
+{
+  "post_id": "2030576760190828883",
+  "likes": 36,
+  "theme": "「知ってるのに出てこない」は検索速度の問題。0.5秒以内に出す訓練法。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "テスト時の検索速度 vs 会話で必要な検索速度の比較タイムライン",
+      "type": "timeline_comparison"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "検索速度を上げる練習メニュー（瞬間英作文/単語フラッシュ/連想訓練）",
+      "type": "card_grid"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo"
+}

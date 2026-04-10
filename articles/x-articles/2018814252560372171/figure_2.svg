@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000018"/>
+    </filter>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#14171A">1日10回 × 7日で「自動引き出し」を作る</text>
+  <text x="600" y="78" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">接触回数アップのタイムライン（1単語につき計70回接触）</text>
+
+  <!-- Day columns -->
+  <!-- Day header bar -->
+  <rect x="60" y="100" width="1080" height="50" rx="8" fill="#14171A"/>
+
+  <!-- Day labels -->
+  <text x="170" y="131" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Day 1</text>
+  <text x="324" y="131" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Day 2</text>
+  <text x="478" y="131" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Day 3</text>
+  <text x="632" y="131" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Day 4</text>
+  <text x="786" y="131" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Day 5-6</text>
+  <text x="980" y="131" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">Day 7 ゴール</text>
+
+  <!-- Dividers -->
+  <line x1="247" y1="150" x2="247" y2="560" stroke="#E1E8ED" stroke-width="1.5"/>
+  <line x1="401" y1="150" x2="401" y2="560" stroke="#E1E8ED" stroke-width="1.5"/>
+  <line x1="555" y1="150" x2="555" y2="560" stroke="#E1E8ED" stroke-width="1.5"/>
+  <line x1="709" y1="150" x2="709" y2="560" stroke="#E1E8ED" stroke-width="1.5"/>
+  <line x1="863" y1="150" x2="863" y2="560" stroke="#E1E8ED" stroke-width="1.5"/>
+
+  <!-- Row: 朝 -->
+  <rect x="60" y="163" width="1080" height="80" rx="0" fill="#FFFFFF"/>
+  <rect x="60" y="163" width="1080" height="2" fill="#E1E8ED"/>
+  <text x="75" y="208" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" font-weight="bold">🌅 朝</text>
+
+  <!-- Day 1 朝 -->
+  <rect x="70" y="172" width="168" height="62" rx="8" fill="#E8F5FD"/>
+  <text x="154" y="196" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#1DA1F2">単語リスト作成</text>
+  <text x="154" y="214" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">出てこない5語を選ぶ</text>
+  <text x="154" y="228" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">声に出して3回読む</text>
+
+  <!-- Day 2-6 朝 -->
+  <rect x="258" y="172" width="596" height="62" rx="8" fill="#E8F5FD"/>
+  <text x="556" y="196" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#1DA1F2">リマインダー確認 × 3回</text>
+  <text x="556" y="214" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">起床後すぐに単語カードアプリを開く</text>
+  <text x="556" y="228" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">声に出して例文を1つ読む（計 +3接触）</text>
+
+  <!-- Day 7 朝 -->
+  <rect x="870" y="172" width="262" height="62" rx="8" fill="#1DA1F2"/>
+  <text x="1001" y="196" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">総復習テスト</text>
+  <text x="1001" y="214" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#E8F5FD">5語を0.5秒以内に言えるか</text>
+  <text x="1001" y="228" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#E8F5FD">チェック → 自動引き出し確認</text>
+
+  <!-- Row: 昼 -->
+  <rect x="60" y="253" width="1080" height="80" rx="0" fill="#FAFBFC"/>
+  <rect x="60" y="253" width="1080" height="2" fill="#E1E8ED"/>
+  <text x="75" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" font-weight="bold">☀️ 昼</text>
+
+  <rect x="70" y="262" width="168" height="62" rx="8" fill="#FFF8E8"/>
+  <text x="154" y="286" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#CC8800">SNSで例文検索</text>
+  <text x="154" y="304" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">英語Xで単語を検索</text>
+  <text x="154" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">ネイティブの使い方確認</text>
+
+  <rect x="258" y="262" width="596" height="62" rx="8" fill="#FFF8E8"/>
+  <text x="556" y="286" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#CC8800">昼休みに例文を書く × 2</text>
+  <text x="556" y="304" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">自分に関係する文脈で例文を2文作る</text>
+  <text x="556" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">「今日会議でこの単語使えないか？」と考える（+2接触）</text>
+
+  <rect x="870" y="262" width="262" height="62" rx="8" fill="#FFF8E8"/>
+  <text x="1001" y="286" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#CC8800">実際に使ってみる</text>
+  <text x="1001" y="304" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">会話・メール・SNSで</text>
+  <text x="1001" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">実際にアウトプット</text>
+
+  <!-- Row: 夜 -->
+  <rect x="60" y="343" width="1080" height="80" rx="0" fill="#FFFFFF"/>
+  <rect x="60" y="343" width="1080" height="2" fill="#E1E8ED"/>
+  <text x="75" y="388" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" font-weight="bold">🌙 夜</text>
+
+  <rect x="70" y="352" width="168" height="62" rx="8" fill="#F0E8FF"/>
+  <text x="154" y="376" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#6633AA">声に出して復習 × 5</text>
+  <text x="154" y="394" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">今日見た単語を声に出す</text>
+  <text x="154" y="408" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">例文ごと5回繰り返す</text>
+
+  <rect x="258" y="352" width="596" height="62" rx="8" fill="#F0E8FF"/>
+  <text x="556" y="376" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#6633AA">就寝前シャドーイング × 5</text>
+  <text x="556" y="394" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">その単語を含む短い例文をシャドーイング5回</text>
+  <text x="556" y="408" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">眠前の脳への刷り込み（+5接触）</text>
+
+  <rect x="870" y="352" width="262" height="62" rx="8" fill="#F0E8FF"/>
+  <text x="1001" y="376" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold" fill="#6633AA">翌日分の単語準備</text>
+  <text x="1001" y="394" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">新5語のリストアップ</text>
+  <text x="1001" y="408" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">サイクル継続</text>
+
+  <!-- Progress bar area -->
+  <rect x="60" y="433" width="1080" height="2" fill="#E1E8ED"/>
+  <rect x="60" y="444" width="1080" height="68" rx="0" fill="#F5F8FA"/>
+  <text x="75" y="469" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" font-weight="bold">接触数累計</text>
+
+  <!-- Progress bars per day -->
+  <rect x="100" y="478" width="130" height="18" rx="4" fill="#E1E8ED"/>
+  <rect x="100" y="478" width="18" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="154" y="491" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">10</text>
+
+  <rect x="258" y="478" width="130" height="18" rx="4" fill="#E1E8ED"/>
+  <rect x="258" y="478" width="36" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="330" y="491" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">20</text>
+
+  <rect x="412" y="478" width="130" height="18" rx="4" fill="#E1E8ED"/>
+  <rect x="412" y="478" width="54" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="484" y="491" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">30</text>
+
+  <rect x="566" y="478" width="130" height="18" rx="4" fill="#E1E8ED"/>
+  <rect x="566" y="478" width="72" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="638" y="491" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">40</text>
+
+  <rect x="720" y="478" width="130" height="18" rx="4" fill="#E1E8ED"/>
+  <rect x="720" y="478" width="100" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="792" y="491" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#FFFFFF" font-weight="bold">60</text>
+
+  <rect x="874" y="478" width="248" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="998" y="491" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#FFFFFF" font-weight="bold">70回達成！自動引き出しゾーン突入</text>
+
+  <!-- Bottom -->
+  <rect x="60" y="518" width="1080" height="52" rx="10" fill="#14171A"/>
+  <text x="600" y="542" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">毎日10回 × 7日 = 70回接触 → 「知っているのに出てこない」が解消される</text>
+  <text x="600" y="561" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">語彙を増やすより、使いたい語の接触回数を増やす方が会話では直接効く</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgG4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc"/>
+      <stop offset="100%" style="stop-color:#e8f4fd"/>
+    </linearGradient>
+    <filter id="sh4">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG4)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#14171A">
+    2つの回路を並行強化する学習配分設計
+  </text>
+  <text x="600" y="76" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">
+    「どっちか一方」ではなく「両方を適切な比率で」鍛えることが「読めて話せる」への最短ルート
+  </text>
+
+  <!-- Center split: Reading Circuit left, Speaking Circuit right -->
+
+  <!-- ===== Left: Reading Circuit ===== -->
+  <rect x="60" y="98" width="510" height="460" rx="16" fill="white" filter="url(#sh4)"/>
+  <rect x="60" y="98" width="510" height="50" rx="16" fill="#657786"/>
+  <rect x="60" y="128" width="510" height="20" fill="#657786"/>
+  <text x="315" y="132" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="white">📖 自分ペース回路（読解系）</text>
+
+  <!-- Sub item 1 -->
+  <rect x="84" y="168" width="462" height="76" rx="10" fill="#f8f8f8"/>
+  <text x="110" y="194" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#14171A">精読（Intensive Reading）</text>
+  <text x="110" y="214" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">1文ずつ理解を深める。語彙・文法・構造を分析。</text>
+  <text x="110" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">GrammarUp や英文記事を辞書を引きながら読む。</text>
+
+  <!-- Sub item 2 -->
+  <rect x="84" y="256" width="462" height="76" rx="10" fill="#f8f8f8"/>
+  <text x="110" y="282" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#14171A">多読（Extensive Reading）</text>
+  <text x="110" y="302" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">大量の英文に触れ、語彙と構文パターンを自動化。</text>
+  <text x="110" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">辞書を引かず流れで読む。速読感覚を身につける。</text>
+
+  <!-- Sub item 3 -->
+  <rect x="84" y="344" width="462" height="76" rx="10" fill="#f8f8f8"/>
+  <text x="110" y="370" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#14171A">リスニング読解</text>
+  <text x="110" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">スクリプトを見ながら音声を聞く（字幕モード）。</text>
+  <text x="110" y="408" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音声と文字の対応を脳に記憶させる橋渡し練習。</text>
+
+  <!-- Proportion bar -->
+  <text x="110" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" font-weight="600">推奨配分（学習全体の）</text>
+  <rect x="110" y="458" width="380" height="24" rx="12" fill="#e8e8e8"/>
+  <rect x="110" y="458" width="228" height="24" rx="12" fill="#657786"/>
+  <text x="224" y="475" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700" fill="white">60%</text>
+  <text x="510" y="475" text-anchor="start" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786"> 語彙・読解が「素材」</text>
+
+  <!-- ===== Right: Speaking Circuit ===== -->
+  <rect x="630" y="98" width="510" height="460" rx="16" fill="white" filter="url(#sh4)"/>
+  <rect x="630" y="98" width="510" height="50" rx="16" fill="#1DA1F2"/>
+  <rect x="630" y="128" width="510" height="20" fill="#1DA1F2"/>
+  <text x="885" y="132" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="white">💬 瞬時処理回路（発話系）</text>
+
+  <!-- Sub item 1 -->
+  <rect x="654" y="168" width="462" height="76" rx="10" fill="#e8f4fd"/>
+  <text x="680" y="194" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2">シャドーイング</text>
+  <text x="680" y="214" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音声の0.5〜1秒後を追いかけて発話する。</text>
+  <text x="680" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音と意味を同時処理するトレーニング。速度適応に最適。</text>
+
+  <!-- Sub item 2 -->
+  <rect x="654" y="256" width="462" height="76" rx="10" fill="#e8f4fd"/>
+  <text x="680" y="282" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2">音読（Out-loud Reading）</text>
+  <text x="680" y="302" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">テキストを声に出して読む。発音と速度を同時強化。</text>
+  <text x="680" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">読解回路から発話回路への橋渡しとして機能する。</text>
+
+  <!-- Sub item 3 -->
+  <rect x="654" y="344" width="462" height="76" rx="10" fill="#e8f4fd"/>
+  <text x="680" y="370" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2">即興発話（Free Speaking）</text>
+  <text x="680" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">テーマを決めて1〜2分話し続けるだけでいい。</text>
+  <text x="680" y="408" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">言葉に詰まる体験そのものが瞬時処理回路を育てる。</text>
+
+  <!-- Proportion bar -->
+  <text x="680" y="448" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" font-weight="600">推奨配分（学習全体の）</text>
+  <rect x="680" y="458" width="380" height="24" rx="12" fill="#e8f4fd"/>
+  <rect x="680" y="458" width="152" height="24" rx="12" fill="#1DA1F2"/>
+  <text x="756" y="475" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="700" fill="white">40%</text>
+  <text x="1080" y="475" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">発話速度が「武器」</text>
+
+  <!-- Bottom integration message -->
+  <rect x="200" y="586" width="800" height="58" rx="14" fill="#14171A" filter="url(#sh4)"/>
+  <text x="600" y="611" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="white">
+    2回路を別々に育てれば「読める × 話せる」が両立する
+  </text>
+  <text x="600" y="633" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab8c2">
+    週5設計（60:40配分）で6ヶ月まわすと、会話のもたつきが劇的に減る
+  </text>
+
+  <!-- Credit -->
+  <text x="1175" y="662" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">@ichi_eigo</text>
+</svg>

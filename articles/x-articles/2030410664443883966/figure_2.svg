@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1200" height="100" fill="#1DA1F2"/>
+  <text x="600" y="38" font-size="34" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">文法暗記 vs パターン練習</text>
+  <text x="600" y="75" font-size="20" fill="white" text-anchor="middle" dominant-baseline="middle">どちらが「話せる」に近いか？</text>
+
+  <!-- Left column: 文法暗記 -->
+  <rect x="60" y="130" width="480" height="430" fill="#192734" rx="14" stroke="#657786" stroke-width="2"/>
+  <rect x="60" y="130" width="480" height="55" fill="#657786" rx="14"/>
+  <rect x="60" y="157" width="480" height="28" fill="#657786"/>
+  <text x="300" y="162" font-size="24" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">文法書を端から端まで</text>
+
+  <text x="300" y="225" font-size="18" fill="#E1E8ED" text-anchor="middle">✗ 覚える量が膨大</text>
+  <text x="300" y="265" font-size="18" fill="#E1E8ED" text-anchor="middle">✗ 実際の会話で使いにくい</text>
+  <text x="300" y="305" font-size="18" fill="#E1E8ED" text-anchor="middle">✗ アウトプットまで時間がかかる</text>
+  <text x="300" y="345" font-size="18" fill="#E1E8ED" text-anchor="middle">✗ モチベーションが続かない</text>
+
+  <rect x="100" y="390" width="400" height="70" fill="#14171A" rx="10"/>
+  <text x="300" y="420" font-size="16" fill="#657786" text-anchor="middle">「完璧に覚えてから話そう」</text>
+  <text x="300" y="446" font-size="16" fill="#657786" text-anchor="middle">→ 永遠に話せない</text>
+
+  <text x="300" y="510" font-size="60" fill="#657786" text-anchor="middle">😟</text>
+
+  <!-- Right column: パターン練習 -->
+  <rect x="660" y="130" width="480" height="430" fill="#192734" rx="14" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="660" y="130" width="480" height="55" fill="#1DA1F2" rx="14"/>
+  <rect x="660" y="157" width="480" height="28" fill="#1DA1F2"/>
+  <text x="900" y="162" font-size="24" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">パターン5つを反復練習</text>
+
+  <text x="900" y="225" font-size="18" fill="#E1E8ED" text-anchor="middle">✓ 最初から絞れる</text>
+  <text x="900" y="265" font-size="18" fill="#E1E8ED" text-anchor="middle">✓ すぐ会話に使える</text>
+  <text x="900" y="305" font-size="18" fill="#E1E8ED" text-anchor="middle">✓ 自動化が早い</text>
+  <text x="900" y="345" font-size="18" fill="#E1E8ED" text-anchor="middle">✓ 成功体験が積める</text>
+
+  <rect x="700" y="390" width="400" height="70" fill="#14171A" rx="10"/>
+  <text x="900" y="420" font-size="16" fill="#1DA1F2" text-anchor="middle">「型を体に染み込ませてから話す」</text>
+  <text x="900" y="446" font-size="16" fill="#1DA1F2" text-anchor="middle">→ 最短で話せるようになる</text>
+
+  <text x="900" y="510" font-size="60" fill="#1DA1F2" text-anchor="middle">🗣️</text>
+
+  <!-- VS badge -->
+  <circle cx="600" cy="345" r="40" fill="#14171A" stroke="#1DA1F2" stroke-width="3"/>
+  <text x="600" y="353" font-size="26" font-weight="bold" fill="#1DA1F2" text-anchor="middle" dominant-baseline="middle">VS</text>
+
+  <!-- Credit -->
+  <text x="1165" y="658" font-size="18" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

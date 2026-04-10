@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /manifest.json
+
+Sitemap: https://native-real.com/sitemap.xml

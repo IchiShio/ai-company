@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2535;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="total_bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2a4a6a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="active_bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c04040;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6060;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="passive_bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3a8a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5adf5a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg5)" />
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">日本人の潜在英語語彙 vs 実際に使える語彙</text>
+  <text x="600" y="78" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786" text-anchor="middle">英語力はゼロじゃない。中高6年間で約3,000語を学んでいる</text>
+
+  <!-- Main visualization: iceberg style -->
+  <!-- Water line -->
+  <line x1="80" y1="350" x2="1120" y2="350" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="12,6" opacity="0.6"/>
+  <text x="1110" y="345" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="end">水面（意識できる語彙の境界）</text>
+
+  <!-- Left side: bar chart -->
+  <!-- Label -->
+  <text x="320" y="108" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">語彙サイズ比較</text>
+
+  <!-- Bar 1: 総学習語彙（中高） 3000 -->
+  <text x="90" y="155" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">中高 学習語彙</text>
+  <rect x="260" y="135" width="540" height="38" fill="url(#total_bar)" rx="5"/>
+  <text x="808" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#5bd4ff">約3,000語</text>
+
+  <!-- Bar 2: 実際に使えるアクティブ語彙 300 -->
+  <text x="90" y="215" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">使えるアクティブ語彙</text>
+  <rect x="260" y="195" width="54" height="38" fill="url(#active_bar)" rx="5"/>
+  <text x="322" y="219" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ff8080">約300語</text>
+
+  <!-- Bar 3: ネイティブ日常会話必要語彙 2000 -->
+  <text x="90" y="275" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">日常会話 必要語彙</text>
+  <rect x="260" y="255" width="360" height="38" fill="url(#passive_bar)" rx="5" opacity="0.8"/>
+  <text x="628" y="279" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#8adf8a">約2,000語</text>
+
+  <!-- Arrow and gap annotation -->
+  <line x1="314" y1="234" x2="314" y2="254" stroke="#ff8080" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="356" y="248" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ff8080">← 使えてるのはたった10%</text>
+
+  <!-- Iceberg visualization right side -->
+  <!-- Above water: ACTIVE 使える -->
+  <polygon points="700,110 900,110 860,350 740,350" fill="#1DA1F2" opacity="0.85"/>
+  <text x="800" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">使える語彙</text>
+  <text x="800" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">300語</text>
+  <text x="800" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#c0e8ff" text-anchor="middle">（アクティブ語彙）</text>
+  <text x="800" y="280" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">🗣️</text>
+  <text x="800" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0e8ff" text-anchor="middle">今すぐ口から出る</text>
+
+  <!-- Below water: SLEEPING 眠っている -->
+  <polygon points="740,350 860,350 980,560 620,560" fill="#2a5070" opacity="0.9"/>
+  <text x="800" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#c0e8ff" text-anchor="middle">眠っている語彙</text>
+  <text x="800" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="32" font-weight="700" fill="#f5c518" text-anchor="middle">2,700語</text>
+  <text x="800" y="465" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8ab4d4" text-anchor="middle">（パッシブ語彙）</text>
+  <text x="800" y="500" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">😴</text>
+  <text x="800" y="530" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ab4d4" text-anchor="middle">「知ってるけど出てこない」</text>
+
+  <!-- Key insight box -->
+  <rect x="80" y="395" width="560" height="170" fill="#1a2535" stroke="#f5c518" stroke-width="2" rx="12"/>
+  <text x="360" y="424" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#f5c518" text-anchor="middle">なぜ眠った語彙が生まれるのか？</text>
+  <text x="100" y="452" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">▸ 試験のために「認識する」だけで学んだから</text>
+  <text x="100" y="474" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">▸ 使うアウトプット練習が一切なかったから</text>
+  <text x="100" y="496" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">▸ 文法訳読式で「読む」に特化した学習のため</text>
+  <text x="100" y="518" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">▸ 試験後に使わないので長期記憶から出せない状態に</text>
+  <text x="100" y="546" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#5bd4ff">→ 新語を覚えるより「起こす」方が圧倒的に速い</text>
+
+  <!-- Bottom banner -->
+  <rect x="80" y="580" width="1040" height="48" fill="#1a3040" stroke="#1DA1F2" stroke-width="1.5" rx="10"/>
+  <text x="600" y="598" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">日常会話に必要な2,000語のうち、すでに2,700語を「知っている」あなたは出発点ではなく、ゴール手前にいる</text>
+  <text x="600" y="618" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">必要なのは「新しい知識」ではなく「眠った知識を使える状態に変える技術」</text>
+
+  <!-- Credit -->
+  <text x="1175" y="662" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

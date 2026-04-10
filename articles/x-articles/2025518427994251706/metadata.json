@@ -1,0 +1,31 @@
+{
+  "tweet_id": "2025518427994251706",
+  "like_count": 128,
+  "created_at": "2026-03-30",
+  "topic": "career_strategy",
+  "theme": "英語だけでは市場価値が低い。英語×専門スキルの掛け算戦略",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "type": "matrix",
+      "description": "英語力×専門性のスキル掛け算マトリクス（4象限）"
+    },
+    {
+      "file": "figure_2.svg",
+      "type": "roadmap_timeline",
+      "description": "英語+専門スキル並走キャリア戦略タイムライン（現在〜2年）"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS_CONDITIONAL",
+    "checked_at": "2026-03-30",
+    "notes": "年収1.5〜2倍は個人差あり。「も狙える」という表現で確定的主張を回避済み"
+  },
+  "article": {
+    "file": "article.md",
+    "word_count": 380,
+    "max_word_count": 800
+  },
+  "tags": ["キャリア", "英語学習", "市場価値", "専門スキル", "転職", "外資系"]
+}

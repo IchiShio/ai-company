@@ -1,0 +1,39 @@
+{
+  "tweet_id": "2023887683676688675",
+  "like_count": 83,
+  "created_at": "2026-03-30",
+  "article_theme": "文法書を読んでも話せない理由。パターン音読が文法を身につかせる最短ルート。",
+  "original_text": "「文法をちゃんとやらないと」と思って参考書を開くけど続かない人へ。文法は「ルールを暗記する」ものじゃなく「パターンを体に染み込ませる」もの。同じ構文の例文を20回音読する方が、文法書を1回精読するより定着する。",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "文法書精読 vs パターン音読の定着率比較",
+      "type": "bar_chart",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "構文別20回音読トレーニング表（5構文サンプル付き）",
+      "type": "table",
+      "dimensions": "1200x675"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS",
+    "checked_at": "2026-03-30",
+    "key_claims": [
+      "産出効果（Production Effect）による音読の定着率優位性 — 根拠あり",
+      "図解数値（25%/82%）はイラスト的概算値 — 図解のみ使用で適切",
+      "パターン音読の有効性 — SRS・スペーシング効果研究と整合"
+    ]
+  },
+  "article_word_count": 478,
+  "brand": "@ichi_eigo",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "secondary": "#657786",
+    "light": "#AAB8C2"
+  }
+}

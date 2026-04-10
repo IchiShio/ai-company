@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>プライバシーポリシー | native-real</title>
+  <meta name="description" content="native-realおよびListenUpリスニングクイズのプライバシーポリシー。個人情報の取り扱いについて説明します。">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ── UNIFIED HEADER ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(248,246,241,0.92); backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid #E8E4DC; padding: 10px 0;
+      transition: padding 0.3s ease, box-shadow 0.3s ease;
+    }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(26,26,26,0.08); }
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+    .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
+    .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
+    .site-header-nav { display: flex; align-items: center; gap: 2px; }
+    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
+    .site-header-nav > a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .site-header-nav > a.active { color: #F5A623; font-weight: 700; }
+    .site-header-nav > a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 16px; height: 2px; border-radius: 1px; background: #F5A623; }
+    /* Dropdown */
+    .nav-dd { position: relative; }
+    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
+    .nav-dd-trigger:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-trigger.active { color: #F5A623; font-weight: 700; }
+    .dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+    .nav-dd:hover .dd-chevron, .nav-dd.open .dd-chevron { transform: rotate(180deg); }
+    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #FDFCF9; border-radius: 12px; border: 1px solid #E8E4DC; box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04); padding: 6px; margin-top: 4px; z-index: 310; }
+    .nav-dd:hover .nav-dd-menu, .nav-dd.open .nav-dd-menu { display: block; }
+    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.62); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+    .nav-dd-menu a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-menu a.active { color: #F5A623; font-weight: 700; }
+    /* Hamburger */
+    .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: rgba(26,26,26,0.88); margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .site-hamburger.active span:nth-child(2) { opacity: 0; }
+    .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    /* Mobile nav */
+    .site-mobile-nav { display: flex; visibility: hidden; pointer-events: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s, visibility 0.3s; }
+    .site-mobile-nav.active { visibility: visible; pointer-events: auto; opacity: 1; }
+    .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
+    .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .site-mobile-nav a.active { color: #F5A623; }
+    .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
+    @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+    .mobile-nav-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #fff; cursor: pointer; width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .mobile-nav-close:hover { background: rgba(255,255,255,0.2); }
+    /* ── END UNIFIED HEADER ── */
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 768px) {   }
+
+:root {
+  --primary: #b85c45;
+  --primary-light: #d4735f;
+  --text: #2c2520;
+  --text-muted: #7a6e68;
+  --bg: #fffbf7;
+  --bg-gray: #fdf5ef;
+  --border: #e8d5c4;
+  --radius: 12px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--text);
+  background: var(--bg);
+}
+a { color: var(--primary); }
+a:hover { color: var(--primary-light); }
+.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
+/* Header */
+
+
+/* Hamburger */
+
+
+/* Page hero */
+.page-hero {
+  background: var(--bg-gray);
+  border-bottom: 1px solid var(--border);
+  padding: 40px 0 32px;
+}
+.page-hero h1 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text);
+}
+.page-hero p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Main content */
+.policy-body {
+  padding: 48px 0 80px;
+}
+.policy-section {
+  margin-bottom: 40px;
+}
+.policy-section h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  border-left: 4px solid var(--primary);
+  padding-left: 12px;
+  margin-bottom: 14px;
+}
+.policy-section p {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.policy-section ul {
+  list-style: disc;
+  padding-left: 24px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.policy-section ul li {
+  margin-bottom: 6px;
+}
+.policy-section .note {
+  background: var(--bg-gray);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+.updated {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 32px;
+}
+
+/* Footer */
+.site-footer {
+  background: #2c2520;
+  color: rgba(255,255,255,0.65);
+  padding: 48px 0 24px;
+  font-size: 0.88rem;
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.site-footer a { color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.2s; }
+.site-footer a:hover { color: #f0a080; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.4);
+}
+
+@media (max-width: 640px) {
+  
+  
+  .page-hero h1 { font-size: 1.3rem; }
+}
+  </style>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<header class="site-header" id="siteHeader">
+  <div class="site-header-inner">
+    <a href="/" class="site-header-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>native-real</a>
+    <nav class="site-header-nav">
+      <a href="/listening/">ListenUp</a>
+      <div class="nav-dd">
+        <button class="nav-dd-trigger" type="button">学ぶ<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+        <div class="nav-dd-menu">
+          <a href="/grammar/">文法クイズ</a>
+          <a href="/words/">WordsUp</a>
+          <a href="/kioku-shinai/">記憶しない英単語</a>
+        </div>
+      </div>
+      <div class="nav-dd">
+        <button class="nav-dd-trigger" type="button">読む<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+        <div class="nav-dd-menu">
+          <a href="/articles/">学習コラム</a>
+          <a href="/real-phrases/">フレーズ集</a>
+          <a href="/prompts/">AIプロンプト</a>
+        </div>
+      </div>
+      <a href="/ranking/">英会話スクール</a>
+    </nav>
+    <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="site-mobile-nav" id="siteMobileNav">
+  <button class="mobile-nav-close" id="siteMobileNavClose" aria-label="メニューを閉じる">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/listening/">ListenUp</a>
+  <div class="mobile-nav-label">学ぶ</div>
+          <a href="/grammar/">文法クイズ</a>
+  <a href="/words/">WordsUp</a>
+  <a href="/kioku-shinai/">記憶しない英単語</a>
+  <div class="mobile-nav-label">読む</div>
+  <a href="/articles/">学習コラム</a>
+  <a href="/real-phrases/">フレーズ集</a>
+  <a href="/prompts/">AIプロンプト</a>
+  <div class="mobile-nav-label"></div>
+  <a href="/ranking/">英会話スクール</a>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>プライバシーポリシー</h1>
+    <p>個人情報の取り扱いおよびメールマガジンの配信に関するポリシーです</p>
+  </div>
+</section>
+
+<main class="policy-body">
+  <div class="container">
+    <p class="updated">最終更新日：2026年3月</p>
+
+    <div class="policy-section">
+      <h2>1. 運営者情報</h2>
+      <p>本サービス（native-real / ListenUp英語リスニングクイズ）は、以下の者が運営しています。</p>
+      <ul>
+        <li>運営者名：いち英語</li>
+        <li>お問い合わせ：<a href="mailto:ichieigo7@gmail.com">ichieigo7@gmail.com</a></li>
+        <li>サイトURL：<a href="https://native-real.com">https://native-real.com</a></li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>2. 収集する個人情報</h2>
+      <p>本サービスでは、以下の個人情報・データを収集することがあります。</p>
+      <ul>
+        <li>メールアドレス（ニュースレター登録時、またはカスタムアプリ制作相談フォーム送信時）</li>
+        <li>年代・TOEICスコア（ニュースレター登録時に任意入力）</li>
+        <li>お名前・英語レベル・学習課題・ご予算の目安（カスタムアプリ制作相談フォーム送信時）：Google フォーム（Google LLC）のサーバーに保存されます</li>
+        <li>クイズの学習履歴（正解率・弱点分野・連続学習日数など）：ブラウザのローカルストレージに保存。ニュースレター登録後はFirebase（Google LLC）のサーバーにも保存されます</li>
+        <li>学習行動データ（正解率・難易度進捗・連続学習日数など）：Google Analytics 4（GA4）を通じて匿名で収集</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>3. 利用目的</h2>
+      <p>収集した個人情報・データは、以下の目的に使用します。</p>
+      <ul>
+        <li>英語学習に関するニュースレター・学習コンテンツの配信</li>
+        <li>サービスに関する重要なお知らせの送信</li>
+        <li>カスタム英語学習アプリの制作相談への対応・ご提案の送信</li>
+        <li>学習行動データ（正解率・難易度推移など）の統計的な分析・サービス改善</li>
+        <li>匿名化・統計処理した学習傾向データの第三者提供事業（個人を特定できない形での提供。詳細は「4-2. 学習データの統計提供」をご確認ください）</li>
+      </ul>
+      <p>取得した個人情報は、上記の目的以外には使用しません。</p>
+    </div>
+
+    <div class="policy-section" id="third-party">
+      <h2>4. 第三者提供・外部サービスへの委託</h2>
+
+      <p><strong>4-1. メール配信委託（Beehiiv）</strong></p>
+      <p>メールマガジンの配信には、米国 Beehiiv, Inc.（<a href="https://www.beehiiv.com" target="_blank" rel="noopener">beehiiv.com</a>）が提供するサービスを利用しています。登録されたメールアドレスは、配信目的のためBeehiivのサーバーに保存されます。</p>
+      <p>Beehiivのプライバシーポリシーは <a href="https://www.beehiiv.com/privacy" target="_blank" rel="noopener">こちら</a> をご確認ください。</p>
+
+      <p><strong>4-2. 学習データの統計提供</strong></p>
+      <p>本サービスでは、ユーザーの学習行動データ（正解率・難易度推移・連続学習日数など）を集計・統計化した上で、第三者に提供することがあります。提供するデータは以下の要件をすべて満たします。</p>
+      <ul>
+        <li>個人を特定できる情報（氏名・メールアドレス等）は一切含まない</li>
+        <li>複数ユーザーのデータを統計処理した集計値のみ</li>
+        <li>本サービスへの登録時にユーザーから明示的な同意を取得済み</li>
+      </ul>
+      <p>この第三者提供に同意されない場合は、メール登録をせずに本サービスをご利用ください（未登録でも基本機能をご利用いただけます）。</p>
+
+      <p><strong>4-3. 学習データ管理（Firebase / Google LLC）</strong></p>
+      <p>リスニングクイズの学習データ（正解率・弱点分野・学習継続日数など）の保存・管理には、米国 Google LLC が提供する Firebase（<a href="https://firebase.google.com" target="_blank" rel="noopener">firebase.google.com</a>）を利用しています。データはアジア東北部（東京）リージョンのサーバーに保存されます。</p>
+      <ul>
+        <li>未登録ユーザー：匿名ID（端末ごとに自動発行）で学習データのみ保存</li>
+        <li>メール登録済みユーザー：匿名IDにメールアドレスを紐付けて保存</li>
+      </ul>
+      <p>保存データはご本人の匿名IDからのみアクセス可能です。Firebaseのプライバシーポリシーは <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">こちら</a> をご確認ください。</p>
+      <p>なお、FirebaseはGoogle LLC（米国）のサービスであり、個人情報の保護に関する法律（個人情報保護法）第28条に基づく外国への第三者提供に該当します。本サービスご利用の際の同意は、上記の外国提供も含むものとします。Google LLCは米国プライバシーシールド（Privacy Shield）失効後もStandard Contractual Clauses（SCC）等の適切な保護措置を講じています。</p>
+      <p>学習データの削除を希望される場合は <a href="mailto:ichieigo7@gmail.com">ichieigo7@gmail.com</a> までご連絡ください。</p>
+
+      <p><strong>4-4. Google Analytics 4（アクセス解析）</strong></p>
+      <p>本サイトではGoogle Analytics 4（GA4）を使用しています。GA4はCookieを使用してサイトの利用状況を収集しますが、個人を特定する情報は含まれません。GAのデータ収集を無効にするには <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics オプトアウト アドオン</a> をご利用ください。</p>
+
+      <p>上記以外の第三者に個人情報を提供することはありません（法令に基づく場合を除く）。</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>5. メールマガジンの配信停止</h2>
+      <p>ニュースレターの受信を停止したい場合は、配信メールの最下部にある「配信停止」リンクからいつでも解除できます。また、<a href="mailto:ichieigo7@gmail.com">ichieigo7@gmail.com</a> へご連絡いただいても対応いたします。</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>6. データ保持期間</h2>
+      <p>収集した情報の保持期間は以下のとおりです。</p>
+      <ul>
+        <li>メールアドレス（Beehiiv）：配信停止のご連絡から30日以内に削除対応いたします。Beehiiv側の標準保持期間についてはBeehiivのプライバシーポリシーをご確認ください。</li>
+        <li>Firebase学習データ：削除申請（<a href="mailto:ichieigo7@gmail.com">ichieigo7@gmail.com</a>）から30日以内に削除します。</li>
+        <li>Google Analytics 4データ：Google の標準設定（最大14ヶ月）に準じます。</li>
+        <li>ローカルストレージ（端末内）：ブラウザのキャッシュ・ストレージをクリアするまで保持されます。</li>
+      </ul>
+    </div>
+
+    <div class="policy-section">
+      <h2>7. Cookie・外部送信および電気通信事業法対応</h2>
+      <p>本サイトでは、以下の目的でCookieおよび類似技術を使用し、一部の情報を外部サービスに送信しています（電気通信事業法第27条の12に基づく外部送信規律の開示）。</p>
+      <table style="width:100%;border-collapse:collapse;font-size:0.88rem;margin-top:12px">
+        <thead>
+          <tr style="background:var(--bg-gray)">
+            <th style="padding:10px;border:1px solid var(--border);text-align:left">送信先</th>
+            <th style="padding:10px;border:1px solid var(--border);text-align:left">送信される情報</th>
+            <th style="padding:10px;border:1px solid var(--border);text-align:left">利用目的</th>
+            <th style="padding:10px;border:1px solid var(--border);text-align:left">オプトアウト</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding:10px;border:1px solid var(--border)">Google Analytics 4（Google LLC）</td>
+            <td style="padding:10px;border:1px solid var(--border)">ページURL・デバイス情報・地域情報（匿名）</td>
+            <td style="padding:10px;border:1px solid var(--border)">アクセス解析・サービス改善</td>
+            <td style="padding:10px;border:1px solid var(--border)"><a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">オプトアウトアドオン</a></td>
+          </tr>
+          <tr>
+            <td style="padding:10px;border:1px solid var(--border)">Google Tag Manager（Google LLC）</td>
+            <td style="padding:10px;border:1px solid var(--border)">タグ管理のためのスクリプト読み込み</td>
+            <td style="padding:10px;border:1px solid var(--border)">各種計測タグの管理</td>
+            <td style="padding:10px;border:1px solid var(--border)">—</td>
+          </tr>
+          <tr>
+            <td style="padding:10px;border:1px solid var(--border)">Firebase / Firestore（Google LLC）</td>
+            <td style="padding:10px;border:1px solid var(--border)">匿名ID・学習行動データ</td>
+            <td style="padding:10px;border:1px solid var(--border)">学習データの保存・分析</td>
+            <td style="padding:10px;border:1px solid var(--border)">削除申請: <a href="mailto:ichieigo7@gmail.com">メール</a></td>
+          </tr>
+          <tr>
+            <td style="padding:10px;border:1px solid var(--border)">Google フォーム（Google LLC）</td>
+            <td style="padding:10px;border:1px solid var(--border)">メールアドレス・お名前・相談内容</td>
+            <td style="padding:10px;border:1px solid var(--border)">カスタムアプリ制作相談の受付</td>
+            <td style="padding:10px;border:1px solid var(--border)">削除申請: <a href="mailto:ichieigo7@gmail.com">メール</a></td>
+          </tr>
+          <tr>
+            <td style="padding:10px;border:1px solid var(--border)">A8.net（株式会社ファンコミュニケーションズ）</td>
+            <td style="padding:10px;border:1px solid var(--border)">クリック情報・Cookie</td>
+            <td style="padding:10px;border:1px solid var(--border)">アフィリエイト成果計測</td>
+            <td style="padding:10px;border:1px solid var(--border)">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="policy-section">
+      <h2>8. 個人情報の開示・訂正・削除</h2>
+      <p>ご自身の個人情報の開示、訂正、または削除を希望される方は、<a href="mailto:ichieigo7@gmail.com">ichieigo7@gmail.com</a> までご連絡ください。本人確認のうえ、合理的な期間内に対応いたします。</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>9. 個人情報の安全管理</h2>
+      <p>収集した個人情報の漏えい・滅失・毀損を防ぐため、適切な安全管理措置を講じます。</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>10. ポリシーの変更</h2>
+      <p>本ポリシーは、法令改正やサービス変更に伴い予告なく変更する場合があります。変更後のポリシーはこのページに掲載した時点で効力を生じます。</p>
+    </div>
+
+    <div class="policy-section">
+      <h2>11. お問い合わせ</h2>
+      <p>本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
+      <ul>
+        <li>運営者：いち英語</li>
+        <li>メール：<a href="mailto:ichieigo7@gmail.com">ichieigo7@gmail.com</a></li>
+      </ul>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="/listening/">ListenUp</a>
+      <a href="/kioku-shinai/">記憶しない英単語</a>
+      <a href="/ranking/">英会話スクール</a>
+      <a href="/articles/">学習コラム</a>
+      <a href="/real-phrases/">フレーズ集</a>
+      <a href="/privacy/">プライバシーポリシー</a>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 native-real. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+(function(){
+  var b=document.getElementById('siteHamburger'),n=document.getElementById('siteMobileNav');
+  if(b&&n){
+    b.addEventListener('click',function(){b.classList.toggle('active');n.classList.toggle('active');document.body.style.overflow=n.classList.contains('active')?'hidden':'';});
+    n.addEventListener('click',function(e){if(e.target===n||e.target.tagName==='A'){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';}});
+    var c=document.getElementById('siteMobileNavClose');if(c){c.addEventListener('click',function(){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';});}
+  }
+  var h=document.getElementById('siteHeader');
+  if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>40);t=false;});t=true;}});}
+  document.querySelectorAll('.nav-dd-trigger').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement;
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){if(d!==dd)d.classList.remove('open');});
+      dd.classList.toggle('open');
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="52" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">15分シャドーイングセッション — 理想のタイムテーブル</text>
+
+  <!-- Timeline bar background -->
+  <rect x="80" y="120" width="1040" height="80" rx="12" fill="#E1E8ED"/>
+
+  <!-- Segment 1: スクリプト確認 3min (3/15 = 20%) -->
+  <rect x="80" y="120" width="208" height="80" rx="12" fill="#1DA1F2"/>
+  <rect x="240" y="120" width="48" height="80" fill="#1DA1F2"/>
+  <text x="184" y="158" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">スクリプト確認</text>
+  <text x="184" y="179" text-anchor="middle" fill="#FFFFFF" font-size="15">3分</text>
+
+  <!-- Segment 2: スロー音読 5min (5/15 = 33%) -->
+  <rect x="288" y="120" width="347" height="80" rx="0" fill="#17BF63"/>
+  <text x="462" y="158" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">スロー音読</text>
+  <text x="462" y="179" text-anchor="middle" fill="#FFFFFF" font-size="15">5分</text>
+
+  <!-- Segment 3: 速度UP音読 4min (4/15 = 27%) -->
+  <rect x="635" y="120" width="277" height="80" rx="0" fill="#F5A623"/>
+  <text x="774" y="158" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">速度UP音読</text>
+  <text x="774" y="179" text-anchor="middle" fill="#FFFFFF" font-size="15">4分</text>
+
+  <!-- Segment 4: 本番シャドーイング 3min (3/15 = 20%) -->
+  <rect x="912" y="120" width="158" height="80" rx="0" fill="#E0245E"/>
+  <rect x="1070" y="120" width="50" height="80" rx="12" fill="#E0245E"/>
+  <text x="991" y="158" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">本番シャドー</text>
+  <text x="991" y="179" text-anchor="middle" fill="#FFFFFF" font-size="15">3分</text>
+
+  <!-- Time markers -->
+  <line x1="80" y1="210" x2="80" y2="230" stroke="#657786" stroke-width="1.5"/>
+  <text x="80" y="248" text-anchor="middle" fill="#657786" font-size="14">0:00</text>
+
+  <line x1="288" y1="210" x2="288" y2="230" stroke="#657786" stroke-width="1.5"/>
+  <text x="288" y="248" text-anchor="middle" fill="#657786" font-size="14">3:00</text>
+
+  <line x1="635" y1="210" x2="635" y2="230" stroke="#657786" stroke-width="1.5"/>
+  <text x="635" y="248" text-anchor="middle" fill="#657786" font-size="14">8:00</text>
+
+  <line x1="912" y1="210" x2="912" y2="230" stroke="#657786" stroke-width="1.5"/>
+  <text x="912" y="248" text-anchor="middle" fill="#657786" font-size="14">12:00</text>
+
+  <line x1="1120" y1="210" x2="1120" y2="230" stroke="#657786" stroke-width="1.5"/>
+  <text x="1120" y="248" text-anchor="middle" fill="#657786" font-size="14">15:00</text>
+
+  <!-- Detail cards -->
+  <!-- Card 1 -->
+  <rect x="80" y="270" width="190" height="230" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="80" y="270" width="190" height="40" rx="10" fill="#1DA1F2"/>
+  <rect x="80" y="295" width="190" height="15" fill="#1DA1F2"/>
+  <text x="175" y="296" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">スクリプト確認</text>
+  <text x="175" y="330" text-anchor="middle" fill="#1DA1F2" font-size="26" font-weight="bold">3分</text>
+  <text x="175" y="360" text-anchor="middle" fill="#657786" font-size="14">全単語の意味を確認</text>
+  <text x="175" y="382" text-anchor="middle" fill="#657786" font-size="14">発音記号・アクセント</text>
+  <text x="175" y="404" text-anchor="middle" fill="#657786" font-size="14">チェック</text>
+  <text x="175" y="430" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">重要度: ★★★★★</text>
+  <text x="175" y="455" text-anchor="middle" fill="#1DA1F2" font-size="12">省略厳禁</text>
+  <text x="175" y="472" text-anchor="middle" fill="#1DA1F2" font-size="12">ここが土台</text>
+
+  <!-- Card 2 -->
+  <rect x="290" y="270" width="320" height="230" rx="10" fill="#FFFFFF" stroke="#17BF63" stroke-width="2"/>
+  <rect x="290" y="270" width="320" height="40" rx="10" fill="#17BF63"/>
+  <rect x="290" y="295" width="320" height="15" fill="#17BF63"/>
+  <text x="450" y="296" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">スロー音読（70〜80%速度）</text>
+  <text x="450" y="330" text-anchor="middle" fill="#17BF63" font-size="26" font-weight="bold">5分</text>
+  <text x="450" y="360" text-anchor="middle" fill="#657786" font-size="14">音声より先に自分の声を出す</text>
+  <text x="450" y="382" text-anchor="middle" fill="#657786" font-size="14">崩れたら止めて確認</text>
+  <text x="450" y="404" text-anchor="middle" fill="#657786" font-size="14">繰り返しで口を慣らす</text>
+  <text x="450" y="430" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">重要度: ★★★★★</text>
+  <text x="450" y="455" text-anchor="middle" fill="#17BF63" font-size="12">筋肉記憶形成フェーズ</text>
+  <text x="450" y="472" text-anchor="middle" fill="#17BF63" font-size="12">最も時間をかけるべき工程</text>
+
+  <!-- Card 3 -->
+  <rect x="630" y="270" width="260" height="230" rx="10" fill="#FFFFFF" stroke="#F5A623" stroke-width="2"/>
+  <rect x="630" y="270" width="260" height="40" rx="10" fill="#F5A623"/>
+  <rect x="630" y="295" width="260" height="15" fill="#F5A623"/>
+  <text x="760" y="296" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">速度UP音読</text>
+  <text x="760" y="330" text-anchor="middle" fill="#F5A623" font-size="26" font-weight="bold">4分</text>
+  <text x="760" y="360" text-anchor="middle" fill="#657786" font-size="14">90% → 100% へ段階的に</text>
+  <text x="760" y="382" text-anchor="middle" fill="#657786" font-size="14">崩れたら前の速度に戻す</text>
+  <text x="760" y="404" text-anchor="middle" fill="#657786" font-size="14">リズム感覚を養う</text>
+  <text x="760" y="430" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">重要度: ★★★★</text>
+  <text x="760" y="455" text-anchor="middle" fill="#F5A623" font-size="12">自然なリズムに近づける</text>
+  <text x="760" y="472" text-anchor="middle" fill="#F5A623" font-size="12">スピードは後からついてくる</text>
+
+  <!-- Card 4 -->
+  <rect x="910" y="270" width="210" height="230" rx="10" fill="#FFFFFF" stroke="#E0245E" stroke-width="2"/>
+  <rect x="910" y="270" width="210" height="40" rx="10" fill="#E0245E"/>
+  <rect x="910" y="295" width="210" height="15" fill="#E0245E"/>
+  <text x="1015" y="296" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">本番シャドーイング</text>
+  <text x="1015" y="330" text-anchor="middle" fill="#E0245E" font-size="26" font-weight="bold">3分</text>
+  <text x="1015" y="360" text-anchor="middle" fill="#657786" font-size="14">音声に重ねて発音</text>
+  <text x="1015" y="382" text-anchor="middle" fill="#657786" font-size="14">録音して聞き返す</text>
+  <text x="1015" y="404" text-anchor="middle" fill="#657786" font-size="14">改善点をメモ</text>
+  <text x="1015" y="430" text-anchor="middle" fill="#14171A" font-size="13" font-weight="bold">重要度: ★★★</text>
+  <text x="1015" y="455" text-anchor="middle" fill="#E0245E" font-size="12">準備があれば</text>
+  <text x="1015" y="472" text-anchor="middle" fill="#E0245E" font-size="12">3分でも高密度</text>
+
+  <!-- Bottom summary -->
+  <rect x="80" y="520" width="1040" height="65" rx="10" fill="#E8F5FE" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="548" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">準備8分 + 実践3分 = 一般的な「15分ぶっ通し」より高い習得効果</text>
+  <text x="600" y="574" text-anchor="middle" fill="#657786" font-size="15">スクリプト確認・スロー音読の準備が「本番3分」を濃くする</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

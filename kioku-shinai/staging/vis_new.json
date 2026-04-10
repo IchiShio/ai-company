@@ -1,0 +1,1185 @@
+{
+  "root_id": "vis",
+  "words": [
+    {
+      "word": "adviser",
+      "phonetic": "əd'vaɪzər",
+      "toeicRank": "1000-1500",
+      "parts": [
+        {
+          "part": "ad-",
+          "meaning": "～へ、～に向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-er",
+          "meaning": "人、もの",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "見る能力を持つ人、つまり先見の明で助言する人",
+        "fact": "adviseは元々「見て判断する」という意味から発展し、後に「助言する」という意味になりました",
+        "source": "EtymOnline: advise (v.) c.1300, from Old French aviser, from a- 'to' + viser 'see, look at'",
+        "cognates": [
+          "advice",
+          "advise",
+          "video",
+          "vision"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "助言者は経験や知識で「見通す」人",
+        "fact": "visから派生した言葉は多くが「判断」「理解」といった知的活動を含みます",
+        "source": "認知言語学的分析"
+      },
+      "gap": "adviseの語源的意味「見る」が現代の「助言する」という意味にどう繋がるのかを理解できない",
+      "gapOneliner": "語義の抽象化のプロセス理解",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Ad-VISE = 見て足す。顧客に視点（VIS）を足す人が adviser"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "adviserの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "助言者、顧問",
+            "映像制作者",
+            "視察官",
+            "見守る人"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "adviseが「助言する」という意味になった理由として最も適切なものは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "見る能力で状況を判断し、その結果を伝えるから",
+            "视聴者に助言するから",
+            "見た目で人を判断するから",
+            "広く知識を見ているから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The financial ______ recommended investing in stocks.",
+          "hint": "金融の専門家",
+          "explanationFocus": "gap",
+          "choices": [
+            "adviser",
+            "vision",
+            "visible",
+            "visual"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "adviserと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "financial adviser",
+            "invisible adviser",
+            "divided adviser",
+            "televised adviser"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"My adviser helps me see the bigger picture in my career.\" — adviserの役割は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "より広い視点を提供する人",
+            "キャリアを分割する人",
+            "テレビで映る人",
+            "見えないものを見つける人"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The business adviser suggested a new marketing strategy.",
+        "She consulted with her financial adviser before making an investment.",
+        "A trusted adviser can guide you through difficult decisions."
+      ]
+    },
+    {
+      "word": "division",
+      "phonetic": "dɪ'vɪʒən",
+      "toeicRank": "800-1000",
+      "parts": [
+        {
+          "part": "di-",
+          "meaning": "分ける、二つ",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る、分ける",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "分けることで見えるようにする行為、つまり分割",
+        "fact": "visは語根として「分ける」という意味も持ち、divideやdivisionはこの意味から派生しています",
+        "source": "EtymOnline: division (n.) c.1300, from Old French division, from Latin divisio",
+        "cognates": [
+          "divide",
+          "divisor",
+          "subdivide",
+          "divisive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "全体を見えるように分割する行為",
+        "fact": "divisionは数学では視覚的に分割する操作を表し、組織では機能別に分ける構造を表します",
+        "source": "認知言語学的分析"
+      },
+      "gap": "visが「見る」と「分ける」の両方の意味を持つことの理由と関係性が不明確",
+      "gapOneliner": "語根の多義性の理解",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Di-VIS-ion = 二つに見える。見えるように分けるのがdivision"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "divisionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "分割、部門",
+            "視覚的表現",
+            "見守ること",
+            "異議を唱えること"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "divideとdivisionの語源的関係として正しいものは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "両者ともvisの「分ける」という意味に由来する",
+            "divideは視覚から、divisionは聴覚から派生した",
+            "divisionが先で、divideが後から派生した",
+            "全く無関係な別の語根から派生した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company is organized into several ______, each with its own manager.",
+          "hint": "企業の組織構造",
+          "explanationFocus": "gap",
+          "choices": [
+            "divisions",
+            "visions",
+            "visuals",
+            "provisions"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "divisionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "sales division",
+            "invisible division",
+            "television division",
+            "visual division"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The division of labor increases efficiency.\" — divisionの役割は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "労働を分割して効率を上げる",
+            "労働者を見守る",
+            "労働の視点を変える",
+            "労働を隠す"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The sales division reported strong growth this quarter.",
+        "Mathematical division is the inverse of multiplication.",
+        "There is a clear division between the two departments."
+      ]
+    },
+    {
+      "word": "envision",
+      "phonetic": "ɪn'vɪʒən",
+      "toeicRank": "1500-2000",
+      "parts": [
+        {
+          "part": "en-",
+          "meaning": "～の中に、～させる",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "心の中で見ること、想像すること",
+        "fact": "enは「中に」という意味で、心の中でビジョンを見ることから派生しました",
+        "source": "EtymOnline: envision (v.) 1864, from en- 'into' + vision",
+        "cognates": [
+          "vision",
+          "visual",
+          "visualize",
+          "envisage"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "内的な視覚で未来を見る",
+        "fact": "envisionは単なる推測ではなく、具体的に心で見ることを強調します",
+        "source": "認知言語学的分析"
+      },
+      "gap": "envisionが思考の中の『見ること』として機能する理由が不明確",
+      "gapOneliner": "抽象的な『見る』の概念理解",
+      "hook": {
+        "label": "記憶フック",
+        "text": "En-VISION = 頭の中にVISIONを入れる。想像力で未来を見る"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "envisionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "想像する、見通す",
+            "環境に適応させる",
+            "敵を見つける",
+            "視力を改善する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "envisionが『想像する』という意味を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "心の中で対象を見る、つまりvisualizeするから",
+            "環境の中で見るから",
+            "敵を見分けるから",
+            "視覚を強化するから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The CEO ______ a future where technology improves people's lives.",
+          "hint": "未来の姿を想像する",
+          "explanationFocus": "gap",
+          "choices": [
+            "envisioned",
+            "divided",
+            "televised",
+            "provided"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "envisionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "envision a future",
+            "envision division",
+            "envision television",
+            "envision invisibly"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We envision a world without poverty.\" — envisionsの機能は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "理想的な世界を心で見ている",
+            "貧困を見分けている",
+            "世界を分割している",
+            "世界をテレビで放映している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I envision a successful career in technology.",
+        "The architect envisioned a modern building design.",
+        "She envisioned herself winning the championship."
+      ]
+    },
+    {
+      "word": "invisible",
+      "phonetic": "ɪn'vɪzəbl",
+      "toeicRank": "800-1200",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "～ない、反対",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見える",
+          "type": "root"
+        },
+        {
+          "part": "-ible",
+          "meaning": "～できる",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "見えることができない、つまり見えない",
+        "fact": "visibleは「見えている」という意味で、inはそれを否定します",
+        "source": "EtymOnline: invisible (adj.) c.1300, from Latin invisibilis",
+        "cognates": [
+          "visible",
+          "vision",
+          "visual",
+          "visibility"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "視覚的に認識できない状態",
+        "fact": "invisibleは物理的に見えないだけでなく、社会的に認識されないという比喩的意味も持ちます",
+        "source": "認知言語学的分析"
+      },
+      "gap": "visibleと異なり、invisibleの『見えない』が単なる物理的性質か、抽象的な認識の問題かが曖昧",
+      "gapOneliner": "物理的意味と抽象的意味の区別",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in-VISIBLE = in（ない）+ VISIBLE（見える）= 見えない。inが見えるを否定"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "invisibleの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "見えない、目に見えない",
+            "分割できない",
+            "視力がある",
+            "映像化されている"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "invisibleが『見えない』という意味を持つメカニズムは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "in-（否定）+ visible（見える）で見えない状態を表現",
+            "invisは隠すという意味の独立した語根",
+            "視力が弱いという意味から派生した",
+            "映像化されていないという意味から派生した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Bacteria are ______ to the naked eye, but they can be seen under a microscope.",
+          "hint": "肉眼では見えない",
+          "explanationFocus": "gap",
+          "choices": [
+            "invisible",
+            "visible",
+            "divided",
+            "provided"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "invisibleと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "invisible hand",
+            "invisible division",
+            "invisible television",
+            "invisible adviser"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Many workers feel invisible in large corporations.\" — invisibleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "認識されない、軽視されている",
+            "実際に見えない",
+            "分割されている",
+            "支援されていない"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The invisible ink message could only be read under ultraviolet light.",
+        "Gravity is invisible, but its effects are obvious.",
+        "She felt invisible in the crowded room."
+      ]
+    },
+    {
+      "word": "provision",
+      "phonetic": "prə'vɪʒən",
+      "toeicRank": "1200-1500",
+      "parts": [
+        {
+          "part": "pro-",
+          "meaning": "前に、先に",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "先を見越えて用意すること、つまり備え",
+        "fact": "provisionはprovideと同じ語根で、『先に見る』ことから『準備する』という意味が派生しました",
+        "source": "EtymOnline: provision (n.) c.1300, from Old French provision, from Latin provisio",
+        "cognates": [
+          "provide",
+          "provider",
+          "providence",
+          "provisional"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "未来を見据えて準備する行為",
+        "fact": "provisionは単なる準備ではなく、先見の明を持った計画的な備えを表します",
+        "source": "認知言語学的分析"
+      },
+      "gap": "『先を見る』という概念が『供給する、用意する』という意味にどう発展したのかが不明確",
+      "gapOneliner": "視覚的概念から実践的行為への意味転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Pro-VISION = 先を見る。未来を見越えて食料を用意する = provision"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "provisionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "供給、支給、条項",
+            "見通す行為",
+            "分割した物",
+            "映像化"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "provisionが『供給』という意味を持つ語源的理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "先を見越えて必要なものを準備する行為から派生した",
+            "見えるものを分ける行為から派生した",
+            "敵を見分けて攻撃する行為から派生した",
+            "映像を提供する行為から派生した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The contract includes a ______ that allows either party to cancel with 30 days' notice.",
+          "hint": "契約の条項",
+          "explanationFocus": "gap",
+          "choices": [
+            "provision",
+            "division",
+            "television",
+            "revision"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "provisionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "contractual provision",
+            "invisible provision",
+            "television provision",
+            "revised provision"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Emergency provisions were made for the disaster.\" — provisionsの目的は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "災害に備えて必要な物資を用意している",
+            "災害を見つけている",
+            "災害を分割している",
+            "災害をテレビで放映している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The company made provisions for employee retirement.",
+        "There is a provision in the law that protects workers' rights.",
+        "We need to stock up on provisions for the camping trip."
+      ]
+    },
+    {
+      "word": "revision",
+      "phonetic": "rɪ'vɪʒən",
+      "toeicRank": "1000-1200",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "再び、もう一度",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "もう一度見ること、つまり見直し",
+        "fact": "revisionはreviseと同じ語根で、『もう一度見る』ことから『修正する』という意味が派生しました",
+        "source": "EtymOnline: revision (n.) c.1400, from Old French revision, from Latin revisio",
+        "cognates": [
+          "revise",
+          "review",
+          "revue",
+          "view"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "既存の内容をもう一度見直す行為",
+        "fact": "revisionは単なる修正ではなく、批判的に再検討して改善するプロセスを表します",
+        "source": "認知言語学的分析"
+      },
+      "gap": "『もう一度見る』という単純な意味が『修正、改定』という具体的な行為にどう発展するのかが不明確",
+      "gapOneliner": "反復的な視覚行為から実践的な改善への意味発展",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Re-VISION = もう一度見る。文章をもう一度見て修正する = revision"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "revisionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "修正、改定、改訂版",
+            "再度の分割",
+            "もう一度の放映",
+            "見えない状態"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "revisionが『修正』という意味を持つ語源的理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "もう一度見ることで、誤りや改善点を発見するから",
+            "見えないものを再び見えるようにするから",
+            "ものを分割して再度見るから",
+            "映像をもう一度見るから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The author made several ______ to the manuscript before publication.",
+          "hint": "原稿の修正",
+          "explanationFocus": "gap",
+          "choices": [
+            "revisions",
+            "divisions",
+            "provisions",
+            "televisions"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "revisionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "textual revision",
+            "invisible revision",
+            "television revision",
+            "supervisor revision"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The coach requested a revision of the team's strategy.\" — revisionの効果は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "戦略をもう一度見直して改善する",
+            "戦略を分割する",
+            "戦略を隠す",
+            "戦略をテレビで放映する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The book is now in its fifth revision.",
+        "Please review my work and suggest revisions.",
+        "The committee approved the revision of company policies."
+      ]
+    },
+    {
+      "word": "supervision",
+      "phonetic": "ˌsuːpər'vɪʒən",
+      "toeicRank": "1000-1200",
+      "parts": [
+        {
+          "part": "super-",
+          "meaning": "上に、超えて",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "状態、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "上から見下ろすこと、つまり監督",
+        "fact": "supervisionはsupervisor（監督者）と同じ語根で、『上から見る』ことが『管理する』という意味に発展しました",
+        "source": "EtymOnline: supervision (n.) 1800s, from Latin supervisio",
+        "cognates": [
+          "supervise",
+          "supervisor",
+          "superintendent",
+          "surveillance"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "権限を持つ者が下位者の行動を見守る",
+        "fact": "supervisionは単なる観察ではなく、指導と改善を含む管理的行為を表します",
+        "source": "認知言語学的分析"
+      },
+      "gap": "『上から見る』という空間的概念が『管理、監督』という社会的権力関係にどう繋がるのかが不明確",
+      "gapOneliner": "空間的メタファーから権力関係への概念転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Super-VISION = 上からの見方。上司が部下の仕事を上から見管理する = supervision"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "supervisionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "監督、管理、指導",
+            "上位の見解",
+            "見えない管理",
+            "分割された監視"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "supervisionが『監督』という意味を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "上に立つ者が下位者の行動を見守り指導するから",
+            "多くを見ることができる能力から派生した",
+            "見える部分と見えない部分を分けるから",
+            "映像を監督するから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The project was completed under the ______ of an experienced manager.",
+          "hint": "管理者の指導下で",
+          "explanationFocus": "gap",
+          "choices": [
+            "supervision",
+            "division",
+            "revision",
+            "provision"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "supervisionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "direct supervision",
+            "invisible supervision",
+            "divided supervision",
+            "temporary television"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Children need proper supervision to stay safe.\" — supervisionの機能は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "見守りと指導で安全を確保する",
+            "見えないものを見える化する",
+            "子供を分割する",
+            "子供をテレビで放映する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The manager provides supervision for the team's daily tasks.",
+        "Children require supervision in the swimming pool.",
+        "Under supervision, the new employees learned the company procedures."
+      ]
+    },
+    {
+      "word": "television",
+      "phonetic": "'telɪvɪʒən",
+      "toeicRank": "500-800",
+      "parts": [
+        {
+          "part": "tele-",
+          "meaning": "遠く、離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "遠くのものを見る技術、つまりテレビ",
+        "fact": "televisionはtele（遠い）とvision（見る）を組み合わせたもので、20世紀初頭に造語されました",
+        "source": "EtymOnline: television (n.) 1900, from tele- 'far' + vision",
+        "cognates": [
+          "telephone",
+          "telescope",
+          "teleport",
+          "vision",
+          "visible"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "遠距離での映像送受信を実現する技術",
+        "fact": "televisionは物理的な距離を克服して、遠い場所の映像を見ることを可能にします",
+        "source": "認知言語学的分析"
+      },
+      "gap": "『遠く』と『見る』という概念がテレビという具体的な技術にどう結びつくのかが不明確",
+      "gapOneliner": "言語的概念から物質的技術への具体化",
+      "hook": {
+        "label": "記憶フック",
+        "text": "TELE-VISION = 遠く（TELE）を見る（VISION）。距離を超えて映像を見る技術"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "televisionの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "テレビ、テレビ放送",
+            "遠い場所の見取り図",
+            "分割された映像",
+            "修正された画像"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "televisionという言葉が『テレビ放送』を指す理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "遠く離れた場所の映像を見ることができるから",
+            "見えるものを分割して送信するから",
+            "遠い時間を見ることができるから",
+            "見えない映像を見えるようにするから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "My family watches ______ together every evening.",
+          "hint": "毎晩見る娯楽",
+          "explanationFocus": "gap",
+          "choices": [
+            "television",
+            "revision",
+            "provision",
+            "division"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "televisionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "watch television",
+            "invisible television",
+            "divided television",
+            "provisional television"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Television brought the world into our homes.\" — televisionの影響は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "遠い世界の映像を家庭で見ることを可能にした",
+            "世界を分割している",
+            "世界を修正している",
+            "世界の食料を供給している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I have been watching television since morning.",
+        "Television is an important medium for news and entertainment.",
+        "Many families spend their evenings in front of the television."
+      ]
+    },
+    {
+      "word": "visibility",
+      "phonetic": "ˌvɪzə'bɪləti",
+      "toeicRank": "1200-1500",
+      "parts": [
+        {
+          "part": "vis/vid",
+          "meaning": "見える",
+          "type": "root"
+        },
+        {
+          "part": "-ible/-able",
+          "meaning": "～できる",
+          "type": "suffix"
+        },
+        {
+          "part": "-ity",
+          "meaning": "性質、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "見えることができる性質、つまり見えやすさ",
+        "fact": "visibilityはvisible（見える）とity（名詞化）を組み合わせたもので、『見えるかどうかの程度』を表します",
+        "source": "EtymOnline: visibility (n.) c.1400, from Latin visibilis",
+        "cognates": [
+          "visible",
+          "vision",
+          "visual",
+          "invisible",
+          "visibility"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "物や現象がどの程度見えるかという度合い",
+        "fact": "visibilityは物理的な見易さだけでなく、社会的認知度や認識度も表します",
+        "source": "認知言語学的分析"
+      },
+      "gap": "『見える』という形容詞的概念が『見えやすさの度合い』という名詞的抽象概念にどう転換されるのかが不明確",
+      "gapOneliner": "形容詞から抽象名詞への名詞化プロセス",
+      "hook": {
+        "label": "記憶フック",
+        "text": "VISIBLE（見える）+ ITY（性質）= VISIBILITY。見えるという性質の強さ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "visibilityの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "可視性、見えやすさ、認知度",
+            "見分ける能力",
+            "見えない状態",
+            "見直す行為"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "visibilityが『見えやすさ』という意味を表現する仕組みは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "visible（見える）をity（名詞化）して、見える性質の度合いを表す",
+            "見える人々の集団を表す",
+            "見えないものを見える化する能力",
+            "見えるものを分割する行為"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Poor ______ due to fog made driving dangerous on the highway.",
+          "hint": "霧による視界",
+          "explanationFocus": "gap",
+          "choices": [
+            "visibility",
+            "division",
+            "provision",
+            "revision"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "visibilityと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "limited visibility",
+            "divided visibility",
+            "temporary visibility",
+            "supervised visibility"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company is working to increase its visibility in the market.\" — visibilityの目的は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "市場での認知度を高める",
+            "市場を分割する",
+            "市場を見直す",
+            "市場に食料を供給する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The visibility in the valley was reduced by morning mist.",
+        "Social media increased the visibility of the campaign.",
+        "Good visibility is essential for safe driving at night."
+      ]
+    },
+    {
+      "word": "visual",
+      "phonetic": "'vɪʒuəl",
+      "toeicRank": "800-1000",
+      "parts": [
+        {
+          "part": "vis/vid",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ual",
+          "meaning": "～に関する",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "見ることに関する、つまり視覚的な",
+        "fact": "visualはラテン語visualisに由来し、『見る』という根本的な意味から『視覚に関する』という形容詞になりました",
+        "source": "EtymOnline: visual (adj.) c.1400, from Old French visual, from Latin visualis",
+        "cognates": [
+          "vision",
+          "visible",
+          "visual",
+          "visualize",
+          "visually"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "視覚を通じて知覚される特性",
+        "fact": "visualは目で見える、または見えることに関する様々な文脈で使用されます",
+        "source": "認知言語学的分析"
+      },
+      "gap": "visの『見る』という動詞的概念が『視覚的な』という形容詞的概念にどう転換されるのかが不明確",
+      "gapOneliner": "動詞から形容詞への品詞転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "VIS（見る）+ UAL（～に関する）= VISUAL。見ることに関する、視覚的"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "visualの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "視覚的な、目で見える",
+            "見えないもの",
+            "見直す",
+            "見えるようにする能力"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "visualが『視覚的な』という意味を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "vis（見る）+ ual（～に関する）で、目で見ることに関する意味になるから",
+            "見える部分と見えない部分を視覚化するから",
+            "視力を持つことから派生した",
+            "見分けることから派生した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The presentation included ______ aids such as charts and diagrams.",
+          "hint": "プレゼンテーションの補助道具",
+          "explanationFocus": "gap",
+          "choices": [
+            "visual",
+            "visible",
+            "invisible",
+            "divisive"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "visualと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "visual arts",
+            "invisible visual",
+            "divided visual",
+            "television visual"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Visual storytelling is more effective than written text.\" — visualの利点は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "目で見える映像による表現が効果的",
+            "見えないものを見える化できる",
+            "物を分割して見せる",
+            "テレビで放映される"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The visual design of the website is very appealing.",
+        "Visual communication is important in marketing.",
+        "Some people are more visual learners than auditory learners."
+      ]
+    }
+  ],
+  "fact_check": "APPROVED",
+  "checked_at": "2026-03-22"
+}

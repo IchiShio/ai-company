@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-size="30" font-weight="bold" fill="#14171A">英語実況練習 — シーン別ガイド</text>
+  <text x="600" y="80" text-anchor="middle" font-size="17" fill="#657786">目の前のものを英語で描写する。今日からできる最小アウトプット</text>
+
+  <!-- Scene cards: 2 rows × 3 cards -->
+
+  <!-- Card 1: 通勤 -->
+  <rect x="50" y="104" width="350" height="162" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="50" y="104" width="350" height="8" rx="4" fill="#1DA1F2"/>
+  <text x="80" y="138" font-size="24" fill="#1DA1F2">🚃</text>
+  <text x="116" y="140" font-size="18" font-weight="bold" fill="#14171A">通勤・移動中</text>
+  <text x="80" y="166" font-size="14" fill="#657786">描写例:</text>
+  <rect x="80" y="176" width="300" height="28" rx="6" fill="#E8F5FE"/>
+  <text x="230" y="195" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">"crowded train" / "empty seat"</text>
+  <rect x="80" y="210" width="300" height="28" rx="6" fill="#E8F5FE"/>
+  <text x="230" y="229" text-anchor="middle" font-size="14" fill="#1DA1F2">"The train is moving fast."</text>
+  <text x="80" y="254" font-size="12" fill="#AAB8C2">▶ スマホを見ずに窓の外を描写しよう</text>
+
+  <!-- Card 2: 食事 -->
+  <rect x="425" y="104" width="350" height="162" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="425" y="104" width="350" height="8" rx="4" fill="#1DA1F2"/>
+  <text x="455" y="138" font-size="24" fill="#1DA1F2">🍽️</text>
+  <text x="491" y="140" font-size="18" font-weight="bold" fill="#14171A">食事・カフェ</text>
+  <text x="455" y="166" font-size="14" fill="#657786">描写例:</text>
+  <rect x="455" y="176" width="300" height="28" rx="6" fill="#E8F5FE"/>
+  <text x="605" y="195" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">"hot coffee" / "salty soup"</text>
+  <rect x="455" y="210" width="300" height="28" rx="6" fill="#E8F5FE"/>
+  <text x="605" y="229" text-anchor="middle" font-size="14" fill="#1DA1F2">"This smells really good."</text>
+  <text x="455" y="254" font-size="12" fill="#AAB8C2">▶ 食材・色・温度・香りを英語で</text>
+
+  <!-- Card 3: 職場 -->
+  <rect x="800" y="104" width="350" height="162" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="800" y="104" width="350" height="8" rx="4" fill="#1DA1F2"/>
+  <text x="830" y="138" font-size="24" fill="#1DA1F2">💼</text>
+  <text x="866" y="140" font-size="18" font-weight="bold" fill="#14171A">職場・デスク周り</text>
+  <text x="830" y="166" font-size="14" fill="#657786">描写例:</text>
+  <rect x="830" y="176" width="300" height="28" rx="6" fill="#E8F5FE"/>
+  <text x="980" y="195" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">"red mug" / "blank screen"</text>
+  <rect x="830" y="210" width="300" height="28" rx="6" fill="#E8F5FE"/>
+  <text x="980" y="229" text-anchor="middle" font-size="14" fill="#1DA1F2">"My desk is a bit messy."</text>
+  <text x="830" y="254" font-size="12" fill="#AAB8C2">▶ モニター・文具・資料を英語で</text>
+
+  <!-- Card 4: 家事 -->
+  <rect x="50" y="290" width="350" height="162" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="50" y="290" width="350" height="8" rx="4" fill="#14171A"/>
+  <text x="80" y="324" font-size="24" fill="#14171A">🧹</text>
+  <text x="116" y="326" font-size="18" font-weight="bold" fill="#14171A">家事・掃除</text>
+  <text x="80" y="352" font-size="14" fill="#657786">描写例:</text>
+  <rect x="80" y="362" width="300" height="28" rx="6" fill="#F5F8FA"/>
+  <text x="230" y="381" text-anchor="middle" font-size="14" fill="#14171A" font-weight="bold">"dirty dishes" / "clean floor"</text>
+  <rect x="80" y="396" width="300" height="28" rx="6" fill="#F5F8FA"/>
+  <text x="230" y="415" text-anchor="middle" font-size="14" fill="#14171A">"I'm washing the dishes."</text>
+  <text x="80" y="440" font-size="12" fill="#AAB8C2">▶ 動作を現在進行形で描写しよう</text>
+
+  <!-- Card 5: 買い物 -->
+  <rect x="425" y="290" width="350" height="162" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="425" y="290" width="350" height="8" rx="4" fill="#14171A"/>
+  <text x="455" y="324" font-size="24" fill="#14171A">🛒</text>
+  <text x="491" y="326" font-size="18" font-weight="bold" fill="#14171A">買い物・スーパー</text>
+  <text x="455" y="352" font-size="14" fill="#657786">描写例:</text>
+  <rect x="455" y="362" width="300" height="28" rx="6" fill="#F5F8FA"/>
+  <text x="605" y="381" text-anchor="middle" font-size="14" fill="#14171A" font-weight="bold">"fresh vegetables" / "on sale"</text>
+  <rect x="455" y="396" width="300" height="28" rx="6" fill="#F5F8FA"/>
+  <text x="605" y="415" text-anchor="middle" font-size="14" fill="#14171A">"The line is pretty long."</text>
+  <text x="455" y="440" font-size="12" fill="#AAB8C2">▶ 商品・値段・状況を英語で</text>
+
+  <!-- Card 6: 就寝前 -->
+  <rect x="800" y="290" width="350" height="162" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <rect x="800" y="290" width="350" height="8" rx="4" fill="#14171A"/>
+  <text x="830" y="324" font-size="24" fill="#14171A">🌙</text>
+  <text x="866" y="326" font-size="18" font-weight="bold" fill="#14171A">就寝前・1日振り返り</text>
+  <text x="830" y="352" font-size="14" fill="#657786">描写例:</text>
+  <rect x="830" y="362" width="300" height="28" rx="6" fill="#F5F8FA"/>
+  <text x="980" y="381" text-anchor="middle" font-size="14" fill="#14171A" font-weight="bold">"quiet room" / "soft pillow"</text>
+  <rect x="830" y="396" width="300" height="28" rx="6" fill="#F5F8FA"/>
+  <text x="980" y="415" text-anchor="middle" font-size="14" fill="#14171A">"Today was a busy day."</text>
+  <text x="830" y="440" font-size="12" fill="#AAB8C2">▶ 1日の出来事を英語1文で締め</text>
+
+  <!-- Level up guide -->
+  <rect x="50" y="474" width="1100" height="116" rx="16" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="600" y="504" text-anchor="middle" font-size="18" font-weight="bold" fill="#14171A">ステップアップガイド</text>
+  <rect x="80" y="516" width="220" height="56" rx="10" fill="#E8F5FE"/>
+  <text x="190" y="538" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">Step 1（週1〜2）</text>
+  <text x="190" y="558" text-anchor="middle" font-size="13" fill="#657786">形容詞＋名詞だけ</text>
+  <text x="190" y="574" text-anchor="middle" font-size="12" fill="#AAB8C2">"red mug"</text>
+  <text x="332" y="548" text-anchor="middle" font-size="20" fill="#1DA1F2">→</text>
+  <rect x="360" y="516" width="220" height="56" rx="10" fill="#E8F5FE"/>
+  <text x="470" y="538" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">Step 2（週3〜4）</text>
+  <text x="470" y="558" text-anchor="middle" font-size="13" fill="#657786">主語＋動詞を加える</text>
+  <text x="470" y="574" text-anchor="middle" font-size="12" fill="#AAB8C2">"The mug is red."</text>
+  <text x="612" y="548" text-anchor="middle" font-size="20" fill="#1DA1F2">→</text>
+  <rect x="640" y="516" width="220" height="56" rx="10" fill="#E8F5FE"/>
+  <text x="750" y="538" text-anchor="middle" font-size="14" font-weight="bold" fill="#1DA1F2">Step 3（月2〜）</text>
+  <text x="750" y="558" text-anchor="middle" font-size="13" fill="#657786">感情・状況も加える</text>
+  <text x="750" y="574" text-anchor="middle" font-size="12" fill="#AAB8C2">"I need a refill."</text>
+  <text x="892" y="548" text-anchor="middle" font-size="20" fill="#14171A">→</text>
+  <rect x="920" y="516" width="210" height="56" rx="10" fill="#14171A"/>
+  <text x="1025" y="538" text-anchor="middle" font-size="14" font-weight="bold" fill="#FFFFFF">英語で考える</text>
+  <text x="1025" y="558" text-anchor="middle" font-size="13" fill="#AAB8C2">自動化完了</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

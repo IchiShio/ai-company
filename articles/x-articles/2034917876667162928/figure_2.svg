@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="speedGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="pauseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5a623;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#f5a623;stop-opacity:0.5" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+
+  <!-- Title -->
+  <text x="600" y="62" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#ffffff" text-anchor="middle" filter="url(#glow)">繰り返すたびに「速く」「滑らかに」なる</text>
+  <text x="600" y="96" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle">発話速度（WPM）の向上 ＋ ポーズ回数の減少</text>
+
+  <!-- Chart area -->
+  <!-- Y axis left (WPM) -->
+  <line x1="180" y1="140" x2="180" y2="490" stroke="#657786" stroke-width="1.5"/>
+  <!-- Y axis right (Pause) -->
+  <line x1="1020" y1="140" x2="1020" y2="490" stroke="#657786" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- X axis -->
+  <line x1="180" y1="490" x2="1020" y2="490" stroke="#657786" stroke-width="1.5"/>
+
+  <!-- Grid lines (horizontal) -->
+  <line x1="180" y1="315" x2="1020" y2="315" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="180" y1="228" x2="1020" y2="228" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="180" y1="403" x2="1020" y2="403" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+
+  <!-- X axis labels -->
+  <text x="320" y="522" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#1DA1F2" text-anchor="middle">Round 1（4分）</text>
+  <text x="600" y="522" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#38c9a0" text-anchor="middle">Round 2（3分）</text>
+  <text x="880" y="522" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#f5a623" text-anchor="middle">Round 3（2分）</text>
+
+  <!-- Y axis left labels (WPM) -->
+  <text x="165" y="494" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">80</text>
+  <text x="165" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">100</text>
+  <text x="165" y="315" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">120</text>
+  <text x="165" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">140</text>
+  <text x="150" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" text-anchor="middle" transform="rotate(-90,150,320)">発話速度 (WPM)</text>
+
+  <!-- Y axis right labels (Pauses) -->
+  <text x="1035" y="494" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5a623" text-anchor="start">12</text>
+  <text x="1035" y="404" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5a623" text-anchor="start">9</text>
+  <text x="1035" y="315" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5a623" text-anchor="start">6</text>
+  <text x="1035" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5a623" text-anchor="start">3</text>
+  <text x="1060" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#f5a623" text-anchor="middle" transform="rotate(90,1060,320)">ポーズ回数 (回/分)</text>
+
+  <!-- WPM bar: R1=80WPM, R2=110WPM, R3=135WPM -->
+  <!-- R1 bar: y bottom=490, height = (80-80)/2.22 = 0, but scale: 80=490, 140=228 → 1WPM=(490-228)/60=4.37px -->
+  <!-- R1: 80WPM → y=490, h=0 (baseline). Let's offset: 80→490, 140→228 -->
+  <!-- R1 bar area -->
+  <rect x="245" y="490" width="150" height="0" fill="url(#speedGrad)"/>
+  <!-- R1 WPM = 80 → y=490, h=0 (at baseline). Visualize as small bar from baseline: use 90WPM as min display -->
+  <!-- Rescale: 70WPM=490, 150WPM=140 → 1WPM=(490-140)/80=4.375px -->
+  <!-- R1=90WPM → y=490-(90-70)*4.375=490-87.5=402.5, h=87.5 -->
+  <!-- R2=115WPM → y=490-(115-70)*4.375=490-196.9=293.1, h=196.9 -->
+  <!-- R3=138WPM → y=490-(138-70)*4.375=490-297.5=192.5, h=297.5 -->
+  <rect x="245" y="402" width="150" height="88" rx="4" fill="url(#speedGrad)"/>
+  <line x1="245" y1="402" x2="395" y2="402" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="320" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#1DA1F2" text-anchor="middle" filter="url(#glow)">90 WPM</text>
+
+  <rect x="525" y="293" width="150" height="197" rx="4" fill="url(#speedGrad)"/>
+  <line x1="525" y1="293" x2="675" y2="293" stroke="#38c9a0" stroke-width="2"/>
+  <text x="600" y="280" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#38c9a0" text-anchor="middle" filter="url(#glow)">115 WPM</text>
+
+  <rect x="805" y="193" width="150" height="297" rx="4" fill="url(#speedGrad)"/>
+  <line x1="805" y1="193" x2="955" y2="193" stroke="#f5a623" stroke-width="2"/>
+  <text x="880" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#f5a623" text-anchor="middle" filter="url(#glow)">138 WPM</text>
+
+  <!-- WPM trend line -->
+  <polyline points="320,402 600,293 880,193" fill="none" stroke="#1DA1F2" stroke-width="2.5" stroke-dasharray="8,4" opacity="0.7"/>
+  <circle cx="320" cy="402" r="7" fill="#1DA1F2"/>
+  <circle cx="600" cy="293" r="7" fill="#38c9a0"/>
+  <circle cx="880" cy="193" r="7" fill="#f5a623"/>
+
+  <!-- Pause line: R1=11, R2=7, R3=4 -->
+  <!-- Scale: 0=490, 14=228 → 1pause=(490-228)/14=18.71px -->
+  <!-- R1=11 → y=490-11*18.71=490-206=284 -->
+  <!-- R2=7 → y=490-7*18.71=490-131=359 -->
+  <!-- R3=4 → y=490-4*18.71=490-75=415 -->
+  <polyline points="320,284 600,359 880,415" fill="none" stroke="#f5a623" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <circle cx="320" cy="284" r="6" fill="#f5a623" opacity="0.8"/>
+  <circle cx="600" cy="359" r="6" fill="#f5a623" opacity="0.8"/>
+  <circle cx="880" cy="415" r="6" fill="#f5a623" opacity="0.8"/>
+  <text x="320" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5a623" text-anchor="middle">11回/分</text>
+  <text x="600" y="345" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5a623" text-anchor="middle">7回/分</text>
+  <text x="880" y="400" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f5a623" text-anchor="middle">4回/分</text>
+
+  <!-- Legend -->
+  <rect x="350" y="556" width="14" height="14" rx="2" fill="#1DA1F2" opacity="0.7"/>
+  <text x="372" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0">発話速度（WPM）↑上昇</text>
+  <line x1="570" y1="563" x2="590" y2="563" stroke="#f5a623" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <circle cx="580" cy="563" r="5" fill="#f5a623"/>
+  <text x="600" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#f5a623">ポーズ回数（回/分）↓減少</text>
+
+  <!-- Source note -->
+  <text x="600" y="610" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">参考: Arevart &amp; Nation (1991), de Jong &amp; Perfetti (2011) のデータをもとにした模式図</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

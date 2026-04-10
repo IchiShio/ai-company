@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="58" text-anchor="middle" fill="#FFFFFF" font-size="30" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">語彙学習ロードマップ：基礎固め優先の4ステップ</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="110" width="240" height="420" fill="#1A2332" rx="12" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="80" y="110" width="240" height="50" fill="#1DA1F2" rx="12"/>
+  <rect x="80" y="140" width="240" height="20" fill="#1DA1F2"/>
+  <text x="200" y="142" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">STEP 1</text>
+  <text x="200" y="185" text-anchor="middle" fill="#1DA1F2" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">頻出1,000語</text>
+  <text x="200" y="210" text-anchor="middle" fill="#657786" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">カバー率 73%</text>
+  <line x1="110" y1="230" x2="290" y2="230" stroke="#2C3640" stroke-width="1"/>
+  <text x="200" y="262" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ Oxford 3000上位</text>
+  <text x="200" y="292" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ COCA頻度リスト</text>
+  <text x="200" y="322" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 例文+コロケーション</text>
+  <text x="200" y="352" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 発音まで完璧に</text>
+  <text x="200" y="410" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">目安: 2〜3ヶ月</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="340,320 370,310 370,330" fill="#1DA1F2"/>
+  <line x1="320" y1="320" x2="370" y2="320" stroke="#1DA1F2" stroke-width="3"/>
+
+  <!-- Step 2 -->
+  <rect x="380" y="110" width="240" height="420" fill="#1A2332" rx="12" stroke="#1DA1F2" stroke-width="3"/>
+  <rect x="380" y="110" width="240" height="50" fill="#1DA1F2" rx="12"/>
+  <rect x="380" y="140" width="240" height="20" fill="#1DA1F2"/>
+  <text x="500" y="142" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">STEP 2  ← ここが核心</text>
+  <text x="500" y="185" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">2,000語まで拡張</text>
+  <text x="500" y="210" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">カバー率 80%（+7%）</text>
+  <line x1="410" y1="230" x2="590" y2="230" stroke="#2C3640" stroke-width="1"/>
+  <text x="500" y="262" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ ニュース記事が読める</text>
+  <text x="500" y="292" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ ビジネスメール対応</text>
+  <text x="500" y="322" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 日常会話がほぼ理解</text>
+  <text x="500" y="352" text-anchor="middle" fill="#FFFFFF" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ リスニング精度向上</text>
+  <text x="500" y="410" text-anchor="middle" fill="#1DA1F2" font-size="13" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">目安: 追加2〜3ヶ月</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="640,320 670,310 670,330" fill="#657786"/>
+  <line x1="620" y1="320" x2="670" y2="320" stroke="#657786" stroke-width="3"/>
+
+  <!-- Step 3 -->
+  <rect x="680" y="110" width="240" height="420" fill="#1A2332" rx="12" stroke="#2C3640" stroke-width="2"/>
+  <rect x="680" y="110" width="240" height="50" fill="#2C3640" rx="12"/>
+  <rect x="680" y="140" width="240" height="20" fill="#2C3640"/>
+  <text x="800" y="142" text-anchor="middle" fill="#AAB8C2" font-size="20" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">STEP 3</text>
+  <text x="800" y="185" text-anchor="middle" fill="#AAB8C2" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">3,000〜5,000語</text>
+  <text x="800" y="210" text-anchor="middle" fill="#657786" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">カバー率 88%（+8%）</text>
+  <line x1="710" y1="230" x2="890" y2="230" stroke="#2C3640" stroke-width="1"/>
+  <text x="800" y="262" text-anchor="middle" fill="#657786" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 小説・映画に挑戦</text>
+  <text x="800" y="292" text-anchor="middle" fill="#657786" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ 専門分野の入口</text>
+  <text x="800" y="322" text-anchor="middle" fill="#657786" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✓ ライティング強化</text>
+  <text x="800" y="410" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">STEP 2完了後に着手</text>
+
+  <!-- Arrow 3→4 -->
+  <polygon points="940,320 970,310 970,330" fill="#657786"/>
+  <line x1="920" y1="320" x2="970" y2="320" stroke="#657786" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- Step 4 -->
+  <rect x="980" y="110" width="190" height="420" fill="#111820" rx="12" stroke="#2C3640" stroke-width="1"/>
+  <rect x="980" y="110" width="190" height="50" fill="#1A2332" rx="12"/>
+  <rect x="980" y="140" width="190" height="20" fill="#1A2332"/>
+  <text x="1075" y="142" text-anchor="middle" fill="#657786" font-size="20" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">STEP 4</text>
+  <text x="1075" y="185" text-anchor="middle" fill="#657786" font-size="17" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">10,000語+</text>
+  <text x="1075" y="210" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">カバー率 95%+</text>
+  <line x1="1000" y1="230" x2="1150" y2="230" stroke="#2C3640" stroke-width="1"/>
+  <text x="1075" y="265" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">学術論文</text>
+  <text x="1075" y="295" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">高度な文学</text>
+  <text x="1075" y="325" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">専門用語</text>
+  <text x="1075" y="410" text-anchor="middle" fill="#657786" font-size="12" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">長期目標</text>
+
+  <!-- Bottom message -->
+  <rect x="200" y="565" width="800" height="60" fill="#1A2332" rx="8"/>
+  <text x="600" y="592" text-anchor="middle" fill="#1DA1F2" font-size="19" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難単語に手を出す前に、STEP 2の完了が最優先</text>
+  <text x="600" y="615" text-anchor="middle" fill="#AAB8C2" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">2,000語×自動化 = 英語学習のゲームチェンジャー</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

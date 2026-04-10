@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg_grad)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">脳内の音声処理メカニズム</text>
+  <text x="600" y="82" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786">「知らない音」と「知っている音」では処理経路が異なる</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="100" x2="1120" y2="100" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- SOUND INPUT -->
+  <rect x="480" y="120" width="240" height="60" rx="12" fill="#1DA1F2" opacity="0.15" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="145" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">INPUT</text>
+  <text x="600" y="168" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#1DA1F2">英語の音声が耳に届く</text>
+
+  <!-- Arrow down to brain -->
+  <line x1="600" y1="180" x2="600" y2="220" stroke="#657786" stroke-width="2" stroke-dasharray="4,3"/>
+  <polygon points="594,218 606,218 600,230" fill="#657786"/>
+
+  <!-- Brain processing box -->
+  <rect x="420" y="230" width="360" height="60" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1.5"/>
+  <text x="600" y="255" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8b949e">脳の聴覚野</text>
+  <text x="600" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">音韻テンプレートと照合</text>
+
+  <!-- Branch arrow left -->
+  <line x1="420" y1="260" x2="300" y2="260" stroke="#657786" stroke-width="2"/>
+  <line x1="300" y1="260" x2="300" y2="340" stroke="#657786" stroke-width="2"/>
+  <polygon points="294,338 306,338 300,350" fill="#657786"/>
+
+  <!-- Branch arrow right -->
+  <line x1="780" y1="260" x2="900" y2="260" stroke="#657786" stroke-width="2"/>
+  <line x1="900" y1="260" x2="900" y2="340" stroke="#657786" stroke-width="2"/>
+  <polygon points="894,338 906,338 900,350" fill="#657786"/>
+
+  <!-- Label left -->
+  <text x="360" y="308" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">テンプレートが</text>
+  <text x="360" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">ない場合</text>
+
+  <!-- Label right -->
+  <text x="840" y="308" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">テンプレートが</text>
+  <text x="840" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">ある場合</text>
+
+  <!-- Left box: NOISE -->
+  <rect x="150" y="350" width="300" height="120" rx="14" fill="#FF4444" opacity="0.12" stroke="#FF4444" stroke-width="2"/>
+  <text x="300" y="385" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FF4444">知らない音</text>
+  <text x="300" y="415" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FF4444">雑音として棄却</text>
+  <text x="300" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">意味処理へ進まない</text>
+
+  <!-- Right box: MEANING -->
+  <rect x="750" y="350" width="300" height="120" rx="14" fill="#00C896" opacity="0.12" stroke="#00C896" stroke-width="2"/>
+  <text x="900" y="385" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#00C896">知っている音</text>
+  <text x="900" y="415" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#00C896">意味処理へ進む</text>
+  <text x="900" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">理解・記憶へ接続</text>
+
+  <!-- Arrows to result -->
+  <line x1="300" y1="470" x2="300" y2="530" stroke="#FF4444" stroke-width="2" opacity="0.6"/>
+  <polygon points="294,528 306,528 300,540" fill="#FF4444" opacity="0.6"/>
+  <line x1="900" y1="470" x2="900" y2="530" stroke="#00C896" stroke-width="2" opacity="0.6"/>
+  <polygon points="894,528 906,528 900,540" fill="#00C896" opacity="0.6"/>
+
+  <!-- Result boxes -->
+  <rect x="150" y="540" width="300" height="55" rx="10" fill="#21262d" stroke="#FF4444" stroke-width="1.5" opacity="0.8"/>
+  <text x="300" y="572" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#FF4444">「聞き流し」が無効な理由</text>
+
+  <rect x="750" y="540" width="300" height="55" rx="10" fill="#21262d" stroke="#00C896" stroke-width="1.5" opacity="0.8"/>
+  <text x="900" y="572" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#00C896">「突然クリアに聞こえる」理由</text>
+
+  <!-- VS label center -->
+  <circle cx="600" cy="410" r="36" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <text x="600" y="418" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#657786">VS</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

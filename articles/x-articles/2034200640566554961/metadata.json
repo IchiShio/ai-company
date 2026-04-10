@@ -1,0 +1,20 @@
+{
+  "id": "2034200640566554961",
+  "likes": 42,
+  "theme": "ゆっくり再生が耳を退化させる。自然速度で「部分的に聞き取る」訓練法。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "遅い再生 vs 自然速度での聴覚適応グラフ"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "自然速度で聞き取る「部分取り」練習ガイド（3段階）"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "created_at": "2026-03-30",
+  "account": "@ichi_eigo"
+}

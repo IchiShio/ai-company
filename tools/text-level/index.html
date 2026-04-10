@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJFJHQNF');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>英文テキスト難易度チェッカー｜英語レベル判定ツール - native-real</title>
+  <meta name="description" content="英文を貼り付けるだけで語彙レベルを自動分析。A1〜C2のCEFR相当レベルで可視化。VOA記事・英字新聞・教科書の難易度確認に。無料・登録不要。">
+  <link rel="canonical" href="https://native-real.com/tools/text-level/">
+  <meta name="author" content="native-real編集部">
+  <meta property="og:title" content="英文テキスト難易度チェッカー｜英語レベル判定ツール">
+  <meta property="og:description" content="英文を貼り付けるだけで語彙レベルを自動分析。A1〜C2のCEFR相当レベルで可視化。VOA記事・英字新聞・教科書の難易度確認に。無料・登録不要。">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta property="og:url" content="https://native-real.com/tools/text-level/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="native-real">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="英文テキスト難易度チェッカー｜英語レベル判定ツール">
+  <meta name="twitter:description" content="英文を貼り付けるだけで語彙レベルを自動分析。A1〜C2のCEFR相当レベルで可視化。無料・登録不要。">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "英文テキスト難易度チェッカー",
+    "description": "英文を貼り付けるだけで語彙レベルを自動分析。A1〜C2のCEFR相当レベルで可視化。",
+    "url": "https://native-real.com/tools/text-level/",
+    "applicationCategory": "EducationalApplication",
+    "datePublished": "2026-04-04",
+    "dateModified": "2026-04-04",
+    "author": {"@type": "Organization", "name": "native-real"},
+    "publisher": {"@type": "Organization", "name": "native-real.com"}
+  }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 16px 40px;
+      background: #f5f5f5;
+      color: #1a1a1a;
+    }
+
+    /* Header */
+    header {
+      background: #FDFCF9;
+      border-bottom: 1px solid #e5e5e5;
+      margin: 0 -16px 24px;
+      padding: 12px 16px;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      font-size: 0.85rem;
+      color: #555;
+      text-decoration: none;
+    }
+    nav a:hover { color: #1a1a1a; }
+
+    /* Page title */
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      color: #666;
+      margin: 0 0 20px;
+    }
+
+    /* Card */
+    .card {
+      background: #FDFCF9;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(26,26,26,0.08);
+    }
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 12px;
+      color: #333;
+    }
+
+    /* Input area */
+    textarea {
+      width: 100%;
+      min-height: 130px;
+      padding: 12px;
+      border: 1px solid #d4d4d4;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      resize: vertical;
+      line-height: 1.6;
+      transition: border-color 0.15s;
+    }
+    textarea:focus {
+      outline: none;
+      border-color: #6366f1;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+    .btn-analyze {
+      background: #6366f1;
+      color: #fff;
+      border: none;
+      padding: 10px 24px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-analyze:hover { background: #4f46e5; }
+    .btn-sample {
+      background: #f0f0f0;
+      color: #444;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-sample:hover { background: #e0e0e0; }
+    .btn-clear {
+      background: none;
+      color: #999;
+      border: 1px solid #d4d4d4;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-clear:hover { background: #f5f5f5; }
+
+    /* Results */
+    #results { display: none; }
+
+    /* Highlighted text */
+    .highlighted-text {
+      line-height: 1.9;
+      font-size: 0.95rem;
+    }
+    .highlighted-text span { border-radius: 2px; padding: 1px 0; }
+    .hl-a1 { background: #dcfce7; color: #15803d; }
+    .hl-b1 { background: #fef9c3; color: #a16207; }
+    .hl-b2 { background: #ffedd5; color: #c2410c; }
+    .hl-c1 { background: #fee2e2; color: #b91c1c; }
+    .hl-c2 { background: #f3f4f6; color: #374151; }
+
+    /* Legend */
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      font-size: 0.8rem;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .legend-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    /* Distribution bar */
+    .dist-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .dist-table tr { margin-bottom: 8px; }
+    .dist-table td { padding: 4px 0; vertical-align: middle; }
+    .dist-label {
+      width: 70px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #333;
+    }
+    .dist-bar-wrap {
+      padding: 0 12px;
+    }
+    .dist-bar-bg {
+      background: #e5e7eb;
+      border-radius: 4px;
+      height: 20px;
+      overflow: hidden;
+    }
+    .dist-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+    .dist-pct {
+      width: 44px;
+      font-size: 0.85rem;
+      color: #555;
+      text-align: right;
+    }
+    .dist-count {
+      width: 56px;
+      font-size: 0.75rem;
+      color: #999;
+      text-align: right;
+    }
+
+    /* Overall level */
+    .level-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .level-a { background: #dcfce7; color: #15803d; }
+    .level-b1 { background: #fef9c3; color: #a16207; }
+    .level-b2 { background: #ffedd5; color: #c2410c; }
+    .level-c { background: #fee2e2; color: #b91c1c; }
+    .level-desc {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* Difficult words */
+    .word-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .word-chip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #f8f8f8;
+      border: 1px solid #e5e5e5;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 0.85rem;
+    }
+    .word-badge {
+      font-size: 0.7rem;
+      padding: 1px 6px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    .badge-b2 { background: #ffedd5; color: #c2410c; }
+    .badge-c1 { background: #fee2e2; color: #b91c1c; }
+    .badge-c2 { background: #f3f4f6; color: #374151; }
+
+    /* Advice */
+    .advice-box {
+      background: #f0f4ff;
+      border-left: 4px solid #6366f1;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 16px;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #333;
+    }
+    .advice-box a {
+      color: #6366f1;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .advice-box a:hover { text-decoration: underline; }
+
+    /* Summary stats */
+    .stats-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+    .stat-item {
+      text-align: center;
+    }
+    .stat-val {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+    .stat-lbl {
+      font-size: 0.75rem;
+      color: #888;
+    }
+
+    /* Data source */
+    .data-source {
+      font-size: 0.78rem;
+      color: #888;
+      line-height: 1.7;
+      padding-top: 4px;
+      border-top: 1px solid #e5e5e5;
+      margin-top: 16px;
+    }
+    .data-source a { color: #6366f1; text-decoration: none; }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 0.8rem;
+      color: #888;
+      text-align: center;
+    }
+    footer a { color: #888; text-decoration: none; margin: 0 8px; }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 1.2rem; }
+      .dist-label { width: 58px; }
+      .dist-count { display: none; }
+    }
+  </style>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJFJHQNF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="/">native-real</a>
+    <nav>
+      <a href="/">リスニング</a>
+      <a href="/grammar/">文法クイズ</a>
+      <a href="/ranking/">英会話比較</a>
+      <a href="/reading/">多読</a>
+    </nav>
+  </div>
+</header>
+
+<h1>英文テキスト難易度チェッカー</h1>
+<p class="subtitle">英文を貼り付けるだけで語彙レベルを分析。VOA記事・英字新聞・教科書の難易度確認に。</p>
+
+<div class="card">
+  <textarea id="textInput" placeholder="英文を貼り付けてください。例: VOA記事、英字新聞、教科書の英文など"></textarea>
+  <div class="btn-row">
+    <button class="btn-analyze" onclick="analyze()">分析する</button>
+    <button class="btn-sample" onclick="loadSample()">サンプル文を試す</button>
+    <button class="btn-clear" onclick="clearAll()">クリア</button>
+  </div>
+</div>
+
+<div id="results">
+
+  <div class="card">
+    <h2>総合レベル判定</h2>
+    <div class="stats-row">
+      <div class="stat-item">
+        <div class="stat-val" id="statTotal">0</div>
+        <div class="stat-lbl">総単語数</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val" id="statUnique">0</div>
+        <div class="stat-lbl">ユニーク語数</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val" id="statDifficult">0</div>
+        <div class="stat-lbl">B2以上の語</div>
+      </div>
+    </div>
+    <div id="levelBadge" class="level-badge"></div>
+    <div id="levelDesc" class="level-desc"></div>
+  </div>
+
+  <div class="card">
+    <h2>語彙レベル分布</h2>
+    <table class="dist-table">
+      <tbody id="distRows"></tbody>
+    </table>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div><span>A1/A2（最頻出1000語）</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#eab308"></div><span>B1（1001〜2000語）</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#f97316"></div><span>B2（2001〜2801語）</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div><span>C1（学術語）</span></div>
+      <div class="legend-item"><div class="legend-dot" style="background:#9ca3af"></div><span>C2/未知語</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>テキストのハイライト表示</h2>
+    <div id="highlightedText" class="highlighted-text"></div>
+  </div>
+
+  <div class="card" id="difficultCard">
+    <h2>難しい語（B2以上・最大20件）</h2>
+    <div id="wordList" class="word-list"></div>
+  </div>
+
+  <div class="card">
+    <h2>学習アドバイス</h2>
+    <div id="adviceBox" class="advice-box"></div>
+    <div class="data-source">
+      <strong>語彙レベル判定の根拠:</strong><br>
+      New General Service List (NGSL) — Browne, Culligan &amp; Phillips (<a href="https://newgeneralservicelist.org" target="_blank" rel="noopener">newgeneralservicelist.org</a>, CC BY-SA 4.0)<br>
+      本ツールは語彙頻度に基づく参考値です。実際の読みやすさには文章構造・背景知識なども影響します。
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <a href="/">native-real トップ</a>
+  <a href="/ranking/">英会話スクール比較</a>
+  <a href="/grammar/">文法クイズ</a>
+  <a href="/privacy/">プライバシーポリシー</a>
+  <br><br>
+  &copy; 2026 native-real.com
+</footer>
+
+<script>
+// ============================================================
+// Word Lists (NGSL-based)
+// ============================================================
+
+// Tier 1: A1/A2 — NGSL Top 1000 (representative set)
+const TIER1 = new Set([
+  // Function words & pronouns
+  "the","be","of","and","a","in","to","have","it","that","for","on","are","with","as","at",
+  "this","but","they","from","or","an","will","my","one","all","would","there","their","what",
+  "so","up","out","if","about","who","get","which","go","when","make","can","like","time","no",
+  "just","him","know","take","into","your","some","could","them","see","other","than","then",
+  "now","look","come","its","over","think","also","back","after","use","two","how","our","way",
+  "work","first","well","even","want","because","any","these","give","most","us","is","was",
+  "said","do","at","her","she","he","we","you","i","me","had","has","did","been","were","not",
+  "by","each","many","more","very","through","form","much","great","before","line","right","too",
+  "mean","old","same","tell","boy","play","put","end","does","large","big","keep","point","city",
+  "earth","hand","near","place","year","live","small","found","study","plant","cover","food",
+  "sun","four","let","hard","strong","energy","light","voice","power","town","fine","drive",
+  "fell","felt","front","teach","week","final","gave","girl","open","seem","together","next",
+  "white","children","begin","got","walk","example","ease","paper","often","always","music",
+  "those","both","mark","book","river","car","feet","care","second","side","group","country",
+  "last","school","father","trees","never","start","eyes","thought","head","under","story",
+  "saw","left","few","while","along","might","close","something","hard","life","hold","carry",
+  "state","once","hear","stop","without","later","miss","idea","enough","eat","face","watch",
+  "far","real","almost","above","sometimes","cut","young","talk","soon","list","song","leave",
+  "family","body","myself","ourselves","yourself","yourselves","himself","herself","itself",
+  "themselves","whom","am","being","shall","should","may","must","again","further","then","once",
+  "here","where","why","such","nor","only","very","any",
+  // Common verbs
+  "say","see","take","get","make","know","think","use","give","find","tell","call","try","ask",
+  "need","feel","become","put","mean","let","show","hear","run","move","believe","hold","bring",
+  "happen","write","provide","sit","stand","lose","pay","meet","include","continue","set","learn",
+  "change","lead","understand","follow","stop","create","speak","read","spend","grow","offer",
+  "remember","love","consider","appear","buy","wait","serve","die","send","expect","build","stay",
+  "fall","reach","kill","remain","suggest","raise","pass","sell","require","report","decide",
+  "pull","break","choose","turn","add","draw","enter","cause","help","support","start",
+  // Common nouns
+  "people","man","woman","child","day","year","time","world","house","hand","part","place",
+  "case","week","company","system","program","question","government","number","night","point",
+  "home","water","room","mother","area","money","story","fact","month","lot","right","study",
+  "book","eye","job","word","business","issue","side","kind","head","house","service","friend",
+  "father","power","hour","game","line","end","among","while","name","land","here","different",
+  "move","air","day","door","product","black","short","numeral","class","wind","rock","space",
+  "word","fact","sign","clear","cold","red","list","though","form","yet","explain","mark",
+  "consonant","vowel","true","hundred","five","six","seven","eight","nine","ten","north","south",
+  "east","west","run","late","city","fish","bird","dog","cat","horse","cow",
+  // Common adjectives/adverbs
+  "new","good","high","old","great","big","small","large","long","little","own","right","early",
+  "young","important","public","private","real","best","free","sure","top","open","special",
+  "easy","clear","recent","ready","simple","past","either","possible","whole","common","national",
+  "main","last","next","different","able","likely","general","original","American","natural",
+  "certainly","probably","quickly","already","soon","still","yet","today","together","however",
+  "though","actually","usually","especially","simply","directly","exactly","quite","really",
+  "less","only","both","each","few","more","most","other","own","same","such","much","nor",
+  "not","so","than","too","very","just","any","many","around","between","inside","outside",
+  "across","behind","below","beside","beyond","during","except","instead","toward","until","upon",
+  "within","ago","away","back","down","off","once","out","rather","since","then","there",
+  "almost","always","enough","ever","never","often","sometimes","usually","well",
+]);
+
+// Tier 2: B1 — NGSL 1001-2000 (representative set)
+const TIER2 = new Set([
+  "ability","access","achieve","action","active","activity","actual","adult","advanced","affect",
+  "afford","agency","agent","agree","agreement","ahead","aim","allow","amount","analysis","announce",
+  "apply","approach","appropriate","approve","argue","arrangement","article","ask","asset","assistant",
+  "associate","assume","attention","attitude","attract","average","avoid","aware","basic","basis",
+  "behavior","benefit","broad","budget","capable","capital","career","challenge","character","charge",
+  "claim","collect","combination","command","commitment","community","compare","compete","complete",
+  "complex","concentrate","concern","conduct","confirm","conflict","connect","consider","contact",
+  "contain","content","context","contract","control","corporate","cost","couple","creative","critical",
+  "culture","current","cycle","damage","deal","debate","decision","decline","defend","define","delay",
+  "deliver","demand","design","detail","determine","develop","development","difference","direct",
+  "discuss","display","distribution","divide","document","domestic","draft","drive","economic",
+  "education","effective","efficiency","effort","element","encourage","engage","enhance","environment",
+  "establish","estimate","evaluation","eventually","evidence","expand","expense","explain","explore",
+  "export","extension","factor","feature","feedback","field","figure","finance","firm","flexible",
+  "focus","follow","force","foreign","formal","framework","function","fund","future","generally",
+  "global","goal","growth","guide","handle","health","history","however","identify","impact",
+  "implement","improve","income","increase","indicate","individual","industry","influence","inform",
+  "initial","integrate","interest","internal","investment","involve","issue","knowledge","language",
+  "leadership","legal","level","likely","limit","local","logical","maintain","major","manage",
+  "material","measure","media","method","modern","monitor","multiple","national","network","normal",
+  "obtain","occur","offer","official","operation","opportunity","order","organization","outcome",
+  "overall","particular","perform","period","physical","plan","policy","positive","potential",
+  "prepare","present","previous","primary","principle","priority","process","professional","project",
+  "promote","protect","provide","purpose","quality","range","rate","receive","recognize","reduce",
+  "refer","region","relate","release","rely","require","research","resource","respond","result",
+  "review","role","rule","safety","sample","schedule","scope","section","sector","select","senior",
+  "series","significant","similar","situation","skill","social","solution","source","specific",
+  "stage","standard","status","strategy","structure","subject","success","suitable","support",
+  "system","target","task","technical","technology","theme","theory","traditional","training",
+  "transfer","trend","understand","unique","valid","value","various","version","vision",
+  // Common adverbs/adjectives in B1
+  "approximately","generally","initially","currently","typically","frequently","occasionally",
+  "regularly","recently","obviously","clearly","definitely","certainly","possibly","probably",
+  "fairly","highly","largely","mainly","mostly","partly","nearly","closely","widely","deeply",
+  "strongly","firmly","carefully","easily","rapidly","gradually","directly","entirely","completely",
+  "totally","absolutely","somewhat","elsewhere","meanwhile","eventually","immediately",
+  "previously","additionally","alternatively","essentially","particularly","specifically",
+  "relatively","approximately","significantly","generally","consistently","subsequently",
+  "apparently","presumably","ultimately","furthermore","moreover","consequently","nevertheless",
+  "whereas","although","despite","therefore","however","furthermore","moreover",
+  // More B1 vocab
+  "advertise","agency","airline","appointment","assistant","authority","camera","candidate",
+  "colleague","competition","complaint","conference","contract","conversation","decision",
+  "department","description","emergency","equipment","examination","experience","expertise",
+  "explanation","exploration","facility","generation","government","guarantee","identification",
+  "imagination","improvement","instruction","introduction","investigation","location","management",
+  "measurement","motivation","negotiation","observation","operation","organization","participation",
+  "payment","permission","population","preparation","presentation","production","publication",
+  "qualification","recommendation","registration","regulation","relationship","representation",
+  "reservation","responsibility","satisfaction","selection","situation","specification","suggestion",
+  "supervision","transportation","understanding","accommodation","administration","communication",
+  "concentration","consideration","demonstration","discrimination","documentation","examination",
+  "implementation","investigation","organization","qualification","recommendation",
+]);
+
+// Tier 3: B2 — NGSL 2001-2801 (representative set)
+const TIER3 = new Set([
+  "acknowledge","advocate","albeit","allocate","ambiguous","analogous","anticipate","articulate",
+  "attribute","augment","bureaucratic","catalyst","circumstance","coherent","collaborate","comprise",
+  "conceive","concurrent","configure","contemplate","contradict","controversial","conventional",
+  "correlate","criterion","critique","cumulative","deduce","delegate","demonstrate","denote",
+  "depict","derive","differentiate","discern","dominate","elaborate","eliminate","empirical",
+  "encounter","enforce","enumerate","evaluate","evolve","exhibit","explicit","facilitate",
+  "formulate","generate","hypothesize","illustrate","implement","implicit","incorporate","infer",
+  "inhibit","integrate","investigate","justify","maintain","manipulate","modify","negate",
+  "negotiate","neutralize","observe","overcome","perceive","persist","postulate","preclude",
+  "prioritize","proceed","prohibit","quantify","reconcile","regulate","reinforce","resolve",
+  "retain","simulate","specify","summarize","supplement","systematize","terminate","transform",
+  "transmit","validate","verify","visualize","accommodate","accumulate","administer","aggregate",
+  "assimilate","catastrophe","commemorate","compensate","complicate","compromise","concentrate",
+  "conceptualize","consolidate","coordinate","corroborate","disseminate","equilibrium","exaggerate",
+  "generalize","illuminate","minimize","perpetuate","philosophize","predominate","rationalize",
+  "reciprocate","rehabilitate","sophisticated","stimulate","subordinate","substantiate","tolerate",
+  "underestimate","accelerate","acknowledge","activate","adhere","adjacent","administer","advocate",
+  "affiliate","aggregate","aggravate","alleviate","ambivalent","annotate","approximate","articulate",
+  "assess","benchmark","biased","brittle","categorical","chronic","cognitive","coherent","comparable",
+  "compatible","compelling","competitive","component","comprehensive","conceptual","concurrent",
+  "confidential","consistent","constraint","contemporary","controversial","conversely","cooperative",
+  "correlate","crucial","cumulative","deficient","deprive","derive","designate","deviate",
+  "discriminate","disposition","distribute","diverse","dominant","elevate","emerge","emphasize",
+  "equivalent","execute","exemplify","exhaustive","explicit","extensive","facilitate","fluctuate",
+  "formulate","fragment","fundamental","generate","graduate","hierarchy","highlight","hypothesis",
+  "identical","ideology","illustrate","impose","inadequate","incorporate","indicate","inherent",
+  "initiate","innovative","intensify","intermediate","interpret","intervene","involve","isolate",
+  "justify","legitimate","modify","monitor","mutual","neglect","nevertheless","objective","oppose",
+  "outcome","overlap","persist","precisely","preliminary","prevalent","primary","proceed","prohibit",
+  "proportion","qualitative","radical","rationalize","reinforce","relevant","reluctant","restrict",
+  "retain","rigid","simulate","simultaneously","somewhat","subsequent","sufficient","supplement",
+  "sustainable","symbolic","terminate","thesis","tolerance","transparent","uncertainty","underlying",
+  "unify","unique","universal","utilize","variable","variation","verify","vulnerable","widespread",
+]);
+
+// Tier 4: C1 — Academic / NAWL-equivalent (representative set)
+const TIER4 = new Set([
+  "abstraction","academia","algorithm","ambiguity","analogy","annotation","arbitration","archetype",
+  "assertion","autonomy","axiom","binary","causal","chronological","circumference","classification",
+  "coefficient","cognitive","coherence","corollary","correlation","deductive","derivative","discourse",
+  "epistemology","essence","etymology","finite","formulation","genealogy","gradient","heuristic",
+  "hypothesis","inductive","infinite","integral","iteration","lexical","magnitude","manifestation",
+  "metaphor","methodology","metric","normalization","ontology","paradigm","pedagogy","phenomenon",
+  "pragmatic","premise","probability","proposition","qualitative","quantitative","recursive",
+  "rhetoric","schema","semantic","sovereignty","spectrum","statutory","stochastic","subjective",
+  "synthesis","taxonomy","theorem","topology","transcendence","vector","velocity","ideology",
+  "hegemony","lexicon","morphology","syntax","pragmatics","semiotics","hermeneutics",
+  "phenomenology","dialectic","lemma","conjecture","inference","deduction","induction","abduction",
+  "syllogism","tautology","paradox","entropy","bifurcation","asymptote","eigenvalue","divergence",
+  "convergence","aphorism","arbitrage","ascertain","asymmetry","attrition","benchmark","calibrate",
+  "canonical","catalyst","categorical","cognition","commensurable","congruence","constraint",
+  "constructivism","contingency","determinism","dichotomy","dilemma","disposition","elicit",
+  "empiricism","endemic","epistemics","exogenous","extrapolate","fallacy","formalism","functional",
+  "granularity","homogeneous","idiomatic","immutable","impedance","incentive","incidence",
+  "indexical","indigenous","inertia","interpolate","iterative","jargon","latency","leverage",
+  "linearity","locus","marginal","mediation","modality","monotonic","multivariable","nominal",
+  "normative","nuance","optimal","orthogonal","oscillate","permutation","plausibility","polarity",
+  "polymorphism","postulate","precedent","prescriptive","probabilistic","procedural","propagate",
+  "proportional","proxy","rationalism","reductionism","redundancy","reflexive","regression",
+  "reification","resilience","resonance","robust","salience","saturation","scalar","stochastic",
+  "stratification","surrogate","sustainable","symmetry","systematic","temporal","threshold",
+  "trajectory","transitivity","triangulate","uncertainty","unidimensional","utility","validation",
+  "variance","volatility","yield","aggregate","axiom","baseline","causality","confound","confounder",
+]);
+
+// ============================================================
+// Tokenize & Stem (basic)
+// ============================================================
+function stem(word) {
+  // Apply basic stemming rules in order of specificity
+  let w = word;
+  // -tion/-sion/-ation
+  if (w.length > 7 && w.endsWith('ation')) w = w.slice(0, -5);
+  else if (w.length > 6 && w.endsWith('tion')) w = w.slice(0, -4);
+  else if (w.length > 6 && w.endsWith('sion')) w = w.slice(0, -4);
+  // -ing
+  else if (w.length > 5 && w.endsWith('ing')) {
+    const base = w.slice(0, -3);
+    w = base;
+  }
+  // -ed
+  else if (w.length > 4 && w.endsWith('ied')) w = w.slice(0, -3) + 'y';
+  else if (w.length > 4 && w.endsWith('ed')) w = w.slice(0, -2);
+  // -er/-est
+  else if (w.length > 4 && w.endsWith('ness')) w = w.slice(0, -4);
+  else if (w.length > 4 && w.endsWith('ment')) w = w.slice(0, -4);
+  else if (w.length > 4 && w.endsWith('ful')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('less')) w = w.slice(0, -4);
+  else if (w.length > 4 && w.endsWith('ous')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('ive')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('ize')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('ise')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('ly')) w = w.slice(0, -2);
+  else if (w.length > 3 && w.endsWith('er')) w = w.slice(0, -2);
+  else if (w.length > 4 && w.endsWith('est')) w = w.slice(0, -3);
+  else if (w.length > 3 && w.endsWith("'s")) w = w.slice(0, -2);
+  else if (w.length > 4 && w.endsWith("n't")) w = w.slice(0, -3);
+  else if (w.length > 2 && w.endsWith('s') && !w.endsWith('ss')) w = w.slice(0, -1);
+  return w;
+}
+
+function tokenize(text) {
+  return text.toLowerCase()
+    .replace(/[^a-z\s'\-]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length > 1)
+    .map(w => w.replace(/^['\-]+|['\-]+$/g, '').replace(/n't$/, '').replace(/'s$/, ''));
+}
+
+function analyzeWord(raw) {
+  const variants = [raw, stem(raw)];
+  for (const w of variants) {
+    if (!w || w.length < 2) continue;
+    if (TIER1.has(w)) return 'a1a2';
+    // also check common plurals / verb forms
+    if (TIER1.has(w + 'e') || TIER1.has(w + 'es') || TIER1.has(w + 's')) return 'a1a2';
+  }
+  for (const w of variants) {
+    if (!w || w.length < 2) continue;
+    if (TIER2.has(w)) return 'b1';
+    if (TIER2.has(w + 'e') || TIER2.has(w + 'es')) return 'b1';
+  }
+  for (const w of variants) {
+    if (!w || w.length < 2) continue;
+    if (TIER3.has(w)) return 'b2';
+    if (TIER3.has(w + 'e') || TIER3.has(w + 'tion')) return 'b2';
+  }
+  for (const w of variants) {
+    if (!w || w.length < 2) continue;
+    if (TIER4.has(w)) return 'c1';
+  }
+  return 'c2';
+}
+
+// ============================================================
+// Analysis
+// ============================================================
+function analyze() {
+  const text = document.getElementById('textInput').value.trim();
+  if (!text) {
+    alert('英文を入力してください。');
+    return;
+  }
+
+  const tokens = tokenize(text);
+  if (tokens.length < 3) {
+    alert('もう少し長い英文を入力してください。');
+    return;
+  }
+
+  // Count levels per token
+  const counts = { a1a2: 0, b1: 0, b2: 0, c1: 0, c2: 0 };
+  const wordLevels = tokens.map(w => {
+    const lv = analyzeWord(w);
+    counts[lv]++;
+    return { word: w, level: lv };
+  });
+
+  const total = tokens.length;
+
+  // Unique difficult words (B2+)
+  const difficultMap = {};
+  wordLevels.forEach(({ word, level }) => {
+    if ((level === 'b2' || level === 'c1' || level === 'c2') && !difficultMap[word]) {
+      difficultMap[word] = level;
+    }
+  });
+  const difficultWords = Object.entries(difficultMap).slice(0, 20);
+
+  // Render
+  renderStats(total, tokens, difficultWords.length);
+  renderLevel(counts, total);
+  renderDistribution(counts, total);
+  renderHighlight(text, tokens, wordLevels);
+  renderDifficultWords(difficultWords);
+  renderAdvice(counts, total);
+
+  document.getElementById('results').style.display = 'block';
+  document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  try { gtag('event', 'text_level_analyze', { word_count: total }); } catch(_) {}
+}
+
+function renderStats(total, tokens, difficultCount) {
+  const unique = new Set(tokens).size;
+  document.getElementById('statTotal').textContent = total;
+  document.getElementById('statUnique').textContent = unique;
+  document.getElementById('statDifficult').textContent = difficultCount;
+}
+
+function renderLevel(counts, total) {
+  const pct = k => total > 0 ? Math.round(counts[k] / total * 100) : 0;
+  const a = pct('a1a2');
+  const b1 = pct('b1');
+  const b2 = pct('b2');
+  const c1 = pct('c1');
+  const c2 = pct('c2');
+  const above_b2 = b2 + c1 + c2;
+  const above_c1 = c1 + c2;
+
+  let badge, badgeClass, desc;
+  if (above_c1 >= 10) {
+    badge = '専門的（C1–C2相当）';
+    badgeClass = 'level-c';
+    desc = '専門的・学術的な語彙が多く含まれています。C1以上のレベルが必要です。';
+  } else if (above_b2 >= 15) {
+    badge = '上級者向け（B2–C1相当）';
+    badgeClass = 'level-b2';
+    desc = 'B2以上の語彙が目立ちます。中〜上級者向けのテキストです。';
+  } else if (b1 >= 20) {
+    badge = '中級者向け（B1相当）';
+    badgeClass = 'level-b1';
+    desc = 'B1レベルの語彙が含まれており、中級者向けのテキストです。';
+  } else {
+    badge = '初級者向け（A2相当）';
+    badgeClass = 'level-a';
+    desc = '基本的な語彙で構成されており、初〜中級者に読みやすいテキストです。';
+  }
+
+  const el = document.getElementById('levelBadge');
+  el.textContent = badge;
+  el.className = 'level-badge ' + badgeClass;
+  document.getElementById('levelDesc').textContent = desc;
+}
+
+function renderDistribution(counts, total) {
+  const levels = [
+    { key: 'a1a2', label: 'A1/A2', color: '#22c55e' },
+    { key: 'b1',   label: 'B1',    color: '#eab308' },
+    { key: 'b2',   label: 'B2',    color: '#f97316' },
+    { key: 'c1',   label: 'C1',    color: '#ef4444' },
+    { key: 'c2',   label: 'C2',    color: '#9ca3af' },
+  ];
+  const tbody = document.getElementById('distRows');
+  tbody.innerHTML = '';
+  levels.forEach(({ key, label, color }) => {
+    const n = counts[key];
+    const pct = total > 0 ? Math.round(n / total * 100) : 0;
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="dist-label">${label}</td>
+      <td class="dist-bar-wrap">
+        <div class="dist-bar-bg">
+          <div class="dist-bar-fill" style="width:${pct}%;background:${color}"></div>
+        </div>
+      </td>
+      <td class="dist-pct">${pct}%</td>
+      <td class="dist-count">${n}語</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function renderHighlight(originalText, tokens, wordLevels) {
+  const levelClass = {
+    a1a2: 'hl-a1',
+    b1:   'hl-b1',
+    b2:   'hl-b2',
+    c1:   'hl-c1',
+    c2:   'hl-c2',
+  };
+
+  // Rebuild text with highlights
+  // We use a char-by-char approach on lowercased text to find positions
+  const lowerText = originalText.toLowerCase();
+  let result = '';
+  let pos = 0;
+  let ti = 0; // token index
+
+  // Build a lookup: token -> level (use first occurrence)
+  const tokenLevelMap = {};
+  wordLevels.forEach(({ word, level }) => {
+    if (!(word in tokenLevelMap)) tokenLevelMap[word] = level;
+  });
+
+  // Walk through original text, highlight word spans
+  const wordRegex = /[a-zA-Z''\-]+/g;
+  let match;
+  let lastIndex = 0;
+  const spans = [];
+
+  const re = /[a-zA-Z][a-zA-Z'\-]*/g;
+  while ((match = re.exec(originalText)) !== null) {
+    const raw = match[0].toLowerCase().replace(/^['\-]+|['\-]+$/g, '');
+    const cleaned = raw.replace(/n't$/, '').replace(/'s$/, '');
+    if (cleaned.length < 2) {
+      spans.push({ start: match.index, end: re.lastIndex, text: match[0], cls: null });
+      continue;
+    }
+    const lv = analyzeWord(cleaned);
+    const cls = lv !== 'a1a2' ? levelClass[lv] : null; // only highlight non-A1
+    spans.push({ start: match.index, end: re.lastIndex, text: match[0], cls });
+  }
+
+  let html = '';
+  let cursor = 0;
+  spans.forEach(({ start, end, text, cls }) => {
+    // Text before this word
+    html += escHtml(originalText.slice(cursor, start));
+    if (cls) {
+      html += `<span class="${cls}">${escHtml(text)}</span>`;
+    } else {
+      html += escHtml(text);
+    }
+    cursor = end;
+  });
+  html += escHtml(originalText.slice(cursor));
+
+  document.getElementById('highlightedText').innerHTML = html;
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderDifficultWords(words) {
+  const card = document.getElementById('difficultCard');
+  const list = document.getElementById('wordList');
+  if (words.length === 0) {
+    card.style.display = 'none';
+    return;
+  }
+  card.style.display = 'block';
+  list.innerHTML = words.map(([word, lv]) => {
+    const badgeClass = lv === 'b2' ? 'badge-b2' : lv === 'c1' ? 'badge-c1' : 'badge-c2';
+    const label = lv === 'b2' ? 'B2' : lv === 'c1' ? 'C1' : 'C2';
+    return `<div class="word-chip">${escHtml(word)}<span class="word-badge ${badgeClass}">${label}</span></div>`;
+  }).join('');
+}
+
+function renderAdvice(counts, total) {
+  const pct = k => total > 0 ? Math.round(counts[k] / total * 100) : 0;
+  const a = pct('a1a2');
+  const b1 = pct('b1');
+  const b2 = pct('b2');
+  const c1 = pct('c1');
+  const c2 = pct('c2');
+  const above_b2 = b2 + c1 + c2;
+  const above_c1 = c1 + c2;
+
+  let advice;
+  if (above_c1 >= 10) {
+    advice = `C1/C2レベルの語彙が${above_c1}%含まれており、専門的なテキストです。上級英語力を目指すなら、まずB2レベルの語彙から固めましょう。<br><a href="/ranking/">上級者向け英会話スクールを比較する →</a>`;
+  } else if (above_b2 >= 15) {
+    advice = `B2以上の語彙が${above_b2}%あります。上級者向けのテキストです。語彙力を上げるには、語源学習が効果的です。<br><a href="/ranking/">上級者向け英会話スクールを比較する →</a>`;
+  } else if (b1 >= 20) {
+    advice = `B1レベルの語彙が${b1}%含まれています。中級者向けのテキストです。文法の確認と語彙強化を並行すると効果的です。<br><a href="/grammar/">B1語彙の強化にはGrammarUpが効果的です →</a>`;
+  } else {
+    advice = `基礎的な語彙で構成された読みやすいテキストです（A1/A2: ${a}%）。リスニング練習と組み合わせることで、さらに効果的に学習できます。<br><a href="/">このレベルはListenUpで十分練習できます →</a>`;
+  }
+
+  document.getElementById('adviceBox').innerHTML = advice;
+}
+
+// ============================================================
+// Sample text
+// ============================================================
+function loadSample() {
+  document.getElementById('textInput').value = `Scientists say they have found evidence of water on Mars. The discovery was made by a team of researchers using data from a space probe. Water is important for life, and the finding could mean that Mars once had living things. The team will continue to study the data to learn more about the history of Mars. This is an exciting time for space exploration.`;
+}
+
+function clearAll() {
+  document.getElementById('textInput').value = '';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('textInput').focus();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="bold">英語×専門スキル 並走キャリア戦略ロードマップ</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="355" x2="1140" y2="355" stroke="#14171A" stroke-width="3"/>
+  <polygon points="1140,355 1125,345 1125,365" fill="#14171A"/>
+  <text x="1150" y="360" text-anchor="start" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14">時間</text>
+
+  <!-- Phase markers on timeline -->
+  <!-- Phase 1: NOW -->
+  <circle cx="160" cy="355" r="14" fill="#657786"/>
+  <text x="160" y="360" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" font-weight="bold">今</text>
+  <text x="160" y="385" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">現在地</text>
+
+  <!-- Phase 2: 3months -->
+  <circle cx="380" cy="355" r="14" fill="#AAB8C2"/>
+  <text x="380" y="360" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="10" font-weight="bold">3M</text>
+  <text x="380" y="385" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">3ヶ月</text>
+
+  <!-- Phase 3: 6months -->
+  <circle cx="620" cy="355" r="14" fill="#1DA1F2"/>
+  <text x="620" y="360" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="10" font-weight="bold">6M</text>
+  <text x="620" y="385" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">6ヶ月</text>
+
+  <!-- Phase 4: 1year -->
+  <circle cx="870" cy="355" r="14" fill="#1DA1F2"/>
+  <text x="870" y="360" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="10" font-weight="bold">1Y</text>
+  <text x="870" y="385" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">1年</text>
+
+  <!-- Phase 5: 2years -->
+  <circle cx="1090" cy="355" r="20" fill="#14171A" stroke="#1DA1F2" stroke-width="3"/>
+  <text x="1090" y="361" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="10" font-weight="bold">2Y+</text>
+  <text x="1090" y="385" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">目標達成</text>
+
+  <!-- UPPER LANE: 専門スキル -->
+  <rect x="80" y="100" width="1060" height="40" rx="6" fill="#14171A"/>
+  <text x="600" y="126" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">専門スキルレーン（今の仕事で使うスキルを深める）</text>
+
+  <!-- Skill progress bars -->
+  <!-- Phase 1 skill block -->
+  <rect x="105" y="155" width="250" height="160" rx="8" fill="#FFFFFF" stroke="#657786" stroke-width="2"/>
+  <text x="230" y="180" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">専門の棚卸し</text>
+  <text x="230" y="205" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">今の仕事の強みを言語化</text>
+  <text x="230" y="225" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語が必要な場面を特定</text>
+  <text x="230" y="250" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">例: エンジニア→英語技術記事</text>
+  <text x="230" y="270" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">　　経理→英文財務資料</text>
+  <text x="230" y="295" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">　　営業→英語プレゼン</text>
+
+  <!-- Arrow -->
+  <polygon points="360,220 375,210 375,230" fill="#657786"/>
+
+  <!-- Phase 2 skill block -->
+  <rect x="385" y="155" width="220" height="160" rx="8" fill="#FFFFFF" stroke="#AAB8C2" stroke-width="2"/>
+  <text x="495" y="180" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">専門×英語 適用</text>
+  <text x="495" y="205" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語コンテンツで</text>
+  <text x="495" y="225" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">専門知識をインプット</text>
+  <text x="495" y="255" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語で仕事の一部を</text>
+  <text x="495" y="275" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">アウトプットしてみる</text>
+
+  <!-- Arrow -->
+  <polygon points="612,220 627,210 627,230" fill="#1DA1F2"/>
+
+  <!-- Phase 3 skill block -->
+  <rect x="635" y="155" width="215" height="160" rx="8" fill="#EBF8FF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="743" y="180" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">英語で業務遂行</text>
+  <text x="743" y="205" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語でのメール・資料作成</text>
+  <text x="743" y="225" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語でのミーティング参加</text>
+  <text x="743" y="255" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">履歴書に「英語で〇〇できる」</text>
+  <text x="743" y="275" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">という実績が積み上がる</text>
+
+  <!-- Arrow -->
+  <polygon points="855,220 870,210 870,230" fill="#1DA1F2"/>
+
+  <!-- Phase 4+ skill block -->
+  <rect x="875" y="155" width="265" height="160" rx="8" fill="#14171A" stroke="#1DA1F2" stroke-width="3"/>
+  <text x="1008" y="180" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">希少人材として転職</text>
+  <text x="1008" y="205" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">外資系・グローバル企業に</text>
+  <text x="1008" y="225" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">強いポジションで転職可能</text>
+  <text x="1008" y="255" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">「英語×専門」の実績で</text>
+  <text x="1008" y="275" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">年収1.5〜2倍も狙える</text>
+
+  <!-- LOWER LANE: 英語学習 -->
+  <rect x="80" y="405" width="1060" height="40" rx="6" fill="#1DA1F2"/>
+  <text x="600" y="431" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">英語学習レーン（専門に紐付けた学習で効率を最大化）</text>
+
+  <!-- English learning blocks -->
+  <rect x="105" y="455" width="250" height="150" rx="8" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="230" y="480" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">英語の基礎固め</text>
+  <text x="230" y="502" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">毎日10〜15分リスニング</text>
+  <text x="230" y="522" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">基本語彙1,000語</text>
+  <text x="230" y="542" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">ListenUpで耳を鍛える</text>
+  <text x="230" y="565" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">→ TOEIC 600点相当</text>
+  <text x="230" y="585" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">　を目安に</text>
+
+  <rect x="385" y="455" width="220" height="150" rx="8" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="495" y="480" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">専門英語に絞る</text>
+  <text x="495" y="502" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">業界特化のYouTube/</text>
+  <text x="495" y="522" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">Podcastを英語で聴く</text>
+  <text x="495" y="542" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語の専門記事を週3本</text>
+  <text x="495" y="565" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">→ TOEIC 750点相当</text>
+
+  <rect x="635" y="455" width="215" height="150" rx="8" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="743" y="480" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">実務英語の実践</text>
+  <text x="743" y="502" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語での会議・交渉</text>
+  <text x="743" y="522" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語プレゼン・資料作成</text>
+  <text x="743" y="542" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">外国人同僚との協働</text>
+  <text x="743" y="565" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">→ TOEIC 850点以上</text>
+
+  <rect x="875" y="455" width="265" height="150" rx="8" fill="#EBF8FF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="1008" y="480" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">英語でのリーダーシップ</text>
+  <text x="1008" y="502" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語で部下・チームを管理</text>
+  <text x="1008" y="522" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語での社内発表・登壇</text>
+  <text x="1008" y="542" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">グローバルプロジェクト主導</text>
+  <text x="1008" y="565" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">→ 最高市場価値ゾーン</text>
+
+  <!-- Key message -->
+  <rect x="80" y="618" width="1040" height="30" rx="5" fill="#14171A"/>
+  <text x="600" y="638" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">2つのレーンを並走させるのが最短ルート。英語だけに集中する時間は最小限に。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18">@ichi_eigo</text>
+</svg>

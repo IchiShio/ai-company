@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14171A" />
+      <stop offset="100%" style="stop-color:#1a2030" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG)" />
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">日本語の感情・状態 → 英語フレーズ 変換表</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">この10個を覚えるだけで「言葉に詰まる」が激減する</text>
+
+  <!-- Arrow center decoration -->
+  <text x="590" y="640" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#1DA1F2" opacity="0.4">→ → → →</text>
+
+  <!-- Row definitions: japanese | english | usage hint | color -->
+  <!-- Row 1 -->
+  <rect x="40" y="105" width="1120" height="52" rx="8" fill="#1e2736"/>
+  <rect x="40" y="105" width="4" height="52" rx="2" fill="#1DA1F2"/>
+  <text x="65" y="138" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">ハマってる</text>
+  <text x="300" y="138" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">I'm so into it lately.</text>
+  <text x="680" y="138" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">趣味・ドラマ・音楽など幅広く使える万能フレーズ</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="162" width="1120" height="52" rx="8" fill="#181f2a"/>
+  <rect x="40" y="162" width="4" height="52" rx="2" fill="#17BF63"/>
+  <text x="65" y="195" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">疲れた（ぐったり）</text>
+  <text x="300" y="195" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#17BF63" font-weight="bold">I'm exhausted. / I'm drained.</text>
+  <text x="680" y="195" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">tired より強い疲労感。会話でよく出る表現</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="219" width="1120" height="52" rx="8" fill="#1e2736"/>
+  <rect x="40" y="219" width="4" height="52" rx="2" fill="#FFAD1F"/>
+  <text x="65" y="252" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">気になる</text>
+  <text x="300" y="252" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#FFAD1F" font-weight="bold">I'm curious about it.</text>
+  <text x="680" y="252" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">「もっと知りたい」という知的好奇心の表現</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="276" width="1120" height="52" rx="8" fill="#181f2a"/>
+  <rect x="40" y="276" width="4" height="52" rx="2" fill="#E0245E"/>
+  <text x="65" y="309" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">迷ってる</text>
+  <text x="300" y="309" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#E0245E" font-weight="bold">I'm on the fence.</text>
+  <text x="680" y="309" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">決断できない状態。ネイティブが頻繁に使うイディオム</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="333" width="1120" height="52" rx="8" fill="#1e2736"/>
+  <rect x="40" y="333" width="4" height="52" rx="2" fill="#794BC4"/>
+  <text x="65" y="366" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">うれしい（じわじわ）</text>
+  <text x="300" y="366" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#794BC4" font-weight="bold">I'm really touched.</text>
+  <text x="680" y="366" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">感動・心が動いた感覚。happy より深みがある</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="390" width="1120" height="52" rx="8" fill="#181f2a"/>
+  <rect x="40" y="390" width="4" height="52" rx="2" fill="#1DA1F2"/>
+  <text x="65" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">テンション上がる</text>
+  <text x="300" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">I'm so pumped!</text>
+  <text x="680" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">興奮・ワクワク感。excited より口語的でカジュアル</text>
+
+  <!-- Row 7 -->
+  <rect x="40" y="447" width="1120" height="52" rx="8" fill="#1e2736"/>
+  <rect x="40" y="447" width="4" height="52" rx="2" fill="#17BF63"/>
+  <text x="65" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">微妙（あまり好きじゃない）</text>
+  <text x="300" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#17BF63" font-weight="bold">It's not really my thing.</text>
+  <text x="680" y="480" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">やんわり断る表現。"I don't like it." より柔らかい</text>
+
+  <!-- Row 8 -->
+  <rect x="40" y="504" width="1120" height="52" rx="8" fill="#181f2a"/>
+  <rect x="40" y="504" width="4" height="52" rx="2" fill="#FFAD1F"/>
+  <text x="65" y="537" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">もったいない</text>
+  <text x="300" y="537" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#FFAD1F" font-weight="bold">What a waste. / It's such a shame.</text>
+  <text x="680" y="537" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">「もったいない」に近い英語は複数ある。文脈で選ぶ</text>
+
+  <!-- Row 9 -->
+  <rect x="40" y="561" width="1120" height="52" rx="8" fill="#1e2736"/>
+  <rect x="40" y="561" width="4" height="52" rx="2" fill="#E0245E"/>
+  <text x="65" y="594" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">なんかわかる</text>
+  <text x="300" y="594" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#E0245E" font-weight="bold">I totally get it. / That makes sense.</text>
+  <text x="680" y="594" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">共感を示す。会話のテンポを維持する必須表現</text>
+
+  <!-- Row 10 -->
+  <rect x="40" y="618" width="1120" height="36" rx="8" fill="#181f2a"/>
+  <rect x="40" y="618" width="4" height="36" rx="2" fill="#794BC4"/>
+  <text x="65" y="641" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">ちょっと怖い（ドキドキ）</text>
+  <text x="300" y="641" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#794BC4" font-weight="bold">I'm a bit nervous about it.</text>
+  <text x="680" y="641" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">不安・期待混じりの緊張感。scared より穏やか</text>
+
+  <!-- Column headers -->
+  <text x="65" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">日本語</text>
+  <text x="300" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">英語フレーズ</text>
+  <text x="680" y="100" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">使い方のポイント</text>
+
+  <!-- Credit -->
+  <text x="1170" y="662" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

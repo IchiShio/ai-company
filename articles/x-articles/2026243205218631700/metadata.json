@@ -1,0 +1,34 @@
+{
+  "tweet_id": "2026243205218631700",
+  "likes": 45,
+  "theme": "英語学習の継続・負荷設定",
+  "article_title": "英語が続かない本当の理由は「負荷設定の失敗」だった",
+  "article_word_count": 476,
+  "native_real_link": "https://native-real.com/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "快適ゾーン・学習ゾーン・パニックゾーンの3段階図",
+      "description": "適切な学習負荷の可視化（同心円ゾーンモデル）"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "週次難易度アップの実践ガイド",
+      "description": "レベル1〜4の素材・速度・進級目安の一覧"
+    }
+  ],
+  "fact_check_result": "PASS",
+  "key_concepts": [
+    "漸進的過負荷の原則（Progressive Overload）",
+    "最近接発達領域（ZPD）",
+    "快適ゾーン・学習ゾーン・パニックゾーン",
+    "適切なインプット（Comprehensible Input i+1）"
+  ],
+  "cta": "ListenUp（native-real.com）で自動難易度調整リスニング",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "medium": "#657786"
+  },
+  "created_at": "2026-03-30"
+}

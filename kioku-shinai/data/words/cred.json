@@ -1,0 +1,1399 @@
+{
+  "root": "cred",
+  "rootMeaning": "信じる",
+  "rootLang": "ラテン語 credere（PIE *kerd- 「心に置く」）",
+  "imageSchema": "心の扉を開いて情報を受け入れるイメージ。信用とは「この人/物を心に受け入れる」行為。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "クレジットカード(credit card)は「信用」で使えるカード。cred が見えたら「信じる・信用」と読み替えるだけで、20語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "credit",
+      "phonetic": "/ˈkredɪt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "it", "meaning": "過去分詞語尾", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "credere（信じる）の過去分詞 creditum → 「信じられたもの」→ 信用・信頼",
+        "fact": "ラテン語 creditum「貸し付けられたもの」から。15世紀に「名声・信用」として英語に入り、16世紀に「銀行の貸し付け」の意味に発展。現代の「クレジットカード」は1940年代アメリカから。",
+        "source": "EtymOnline: credit",
+        "cognates": ["creditor", "credibility", "incredible", "discredit"]
+      },
+      "cognitive": {
+        "oneliner": "信用とは「この人を心に受け入れる」→ だから貸せる",
+        "fact": "CONTAINERスキーマの適用。信用を「心の器」に入れることで、金銭的取引が可能になる。credit（信用）がある人にはお金が「流れ込む」FLUID metaphor。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "「信用」だけで覚えると take credit for（手柄を横取りする）や credit someone with（〜の功績を認める）で詰まる。「信じられたもの＝認められたもの」と理解すれば全てつながる。",
+      "gapOneliner": "credit = 信じられた価値。金銭的信用も、功績の評価も同じ根っこ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "銀行が「信じて(cred)」お金を預ける(it)からcredit。信用があれば世界が動く。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "creditの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信じられたもの→信用", "前に進む→前払い", "書かれたもの→記録", "測られたもの→評価"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cred（信じる）がcreditの意味をどう決める？",
+          "explanationFocus": "cognitive",
+          "choices": ["信じ合える関係だから貸し借りができる", "前に動くから取引できる", "書き記すから記録になる", "数えるから計算できる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？ \"She deserves full ___ for the project's success.\"",
+          "explanationFocus": "gap",
+          "choices": ["credit", "grade", "blame", "reward"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "creditと自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["take credit for（手柄にする）", "take blame from（責任を取る）", "make credit of（信用を作る）", "give credit away（信用を失う）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The bank extended him a line of credit.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["銀行が彼に融資枠を設けた", "銀行が彼を信用できないと判断した", "彼が銀行の信用を傷つけた", "銀行が彼の口座を凍結した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She received full credit for her innovative design.", "The company's credit rating was downgraded."]
+    },
+    {
+      "word": "credible",
+      "phonetic": "/ˈkredɪbəl/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ible", "meaning": "できる", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "cred（信じる）+ ible（できる）= 信じることができる → 信頼できる",
+        "fact": "ラテン語 credibilis「信じる価値がある」から。14世紀に英語に入り、現代では「証言・情報源・脅威」が「信じられる」かどうかを表す形容詞として定着。",
+        "source": "EtymOnline: credible",
+        "cognates": ["incredible", "credibility", "credibly"]
+      },
+      "cognitive": {
+        "oneliner": "信じられる＝心の扉を通過できる情報",
+        "fact": "認知的に「信頼性」は情報の「透過性」として理解される。credible sourceは心のフィルターを通過できる情報源。opposite: incredible = フィルターに引っかかるもの。",
+        "source": "Sperber & Wilson (1986) Relevance Theory"
+      },
+      "gap": "「信頼できる」と「可能性がある」は違う。credible threat（現実的な脅威）のように、「起こりうると信じられる」という意味でも使う。plausibleに近いが、credibleはより証拠・根拠ベース。",
+      "gapOneliner": "credible = 根拠があって信じられる（plausibleより証拠寄り）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cred（信じる）+ ible（できる）= 信じ「られる」人や情報。ニュースのcredible source（信頼できる情報源）が典型。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credibleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信頼できる・説得力ある", "信じやすい・だまされやすい", "信じられない・驚くべき", "信用できない・疑わしい"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cred + ible の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["信じる + できる = 信頼できる", "走る + できる = 実行可能", "見る + できる = 目に見える", "作る + できる = 製造可能"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The witness provided a ___ account of the incident.\"",
+          "explanationFocus": "gap",
+          "choices": ["credible", "credulous", "incredible", "discreditable"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credibleと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["credible threat（現実的脅威）", "credible mistake（信じやすいミス）", "credible secret（信頼できる秘密）", "credible luck（確かな運）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The opposition needs a credible alternative policy.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["野党には説得力ある代替政策が必要だ", "野党の政策は信じやすい内容だ", "野党は信頼できない政策を持っている", "野党の政策は驚くべき内容だ"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He gave a credible performance under pressure.", "We need a credible plan before the meeting."]
+    },
+    {
+      "word": "incredible",
+      "phonetic": "/ɪnˈkredɪbəl/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "in", "meaning": "否定", "type": "prefix"},
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ible", "meaning": "できる", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "in（否定）+ credible（信じられる）= 信じられない → 驚異的",
+        "fact": "ラテン語 incredibilis から。15世紀は「信じがたい」という否定的意味のみ。現代英語では「信じられないほど素晴らしい」という肯定的誇張表現としても広く使われる（意味の amelioration）。",
+        "source": "EtymOnline: incredible",
+        "cognates": ["incredibly", "incredulity", "credible"]
+      },
+      "cognitive": {
+        "oneliner": "信じる扉を通れない→そのまま「驚き」へ意味転化",
+        "fact": "認知的に「理解できない = 驚嘆」へのメタファー転用。negative capability（否定が肯定的感情に転化）の典型。\"That's incredible!\" は論理的否定ではなく感情的驚嘆。",
+        "source": "Langacker (1987) Foundations of Cognitive Grammar"
+      },
+      "gap": "incredibleは「信じられないほど悪い」にも「信じられないほど良い」にも使える。文脈で方向が決まる。「驚くべき(amazing)」との違いは語源的な「信じられない」というニュアンスが残っている点。",
+      "gapOneliner": "incredible = 信じられないほど（良くも悪くも）＝ amazingより少し強い驚き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（否定）で credible（信じられる）を打ち消す。「信じ「られない」ほどすごい！」がincredible。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "incredibleの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信じられない→驚異的", "信じやすい→単純な", "とても信頼できる→確実な", "すぐに信じる→軽率な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + cred + ible の正しい解釈は？",
+          "explanationFocus": "cognitive",
+          "choices": ["否定 + 信じる + できる = 信じられない", "中に + 走る + できる = 潜入できる", "前へ + 作る + できる = 創造できる", "上に + 見る + できる = 見通せる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The team made ___ progress in just one month.\"",
+          "explanationFocus": "gap",
+          "choices": ["incredible", "credulous", "incredible to", "discredited"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "incredibleと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["incredible achievement（驚異的な成果）", "incredible person（信じやすい人）", "incredible failure（失敗すること）", "incredible slowly（非常にゆっくり）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"It's incredible how quickly children learn languages.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["子どもの言語習得の速さは驚くほどだ", "子どもが言語を信じて学ぶのは当然だ", "子どもの言語学習は信頼できない", "子どもは信じられないほど言語を間違える"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The view from the summit was incredible.", "She showed incredible patience throughout the ordeal."]
+    },
+    {
+      "word": "discredit",
+      "phonetic": "/dɪsˈkredɪt/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "dis", "meaning": "否定・分離", "type": "prefix"},
+        {"part": "credit", "meaning": "信用", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "dis（否定）+ credit（信用）= 信用を否定する → 信用を傷つける",
+        "fact": "16世紀に「信用を失わせる、疑わせる」として英語に登場。動詞・名詞どちらでも使う。「証言・理論・人物」の信頼性を損なう際に使われる学術・法律・報道でよく登場する語。",
+        "source": "EtymOnline: discredit",
+        "cognates": ["credit", "credibility", "disreputable"]
+      },
+      "cognitive": {
+        "oneliner": "信用という容器から引き離す→信頼の破壊",
+        "fact": "CONTAINER スキーマの破壊として理解できる。credit（信用という容器）からdis-（引き離す）することで、その人への信頼が「漏れ出す」イメージ。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "discreditは「信用を傷つける」で、単に「否定する」(deny)とは違う。deny a claim（主張を否定）vs discredit a witness（証人の信頼性を損なう）。法廷や論文で頻出。",
+      "gapOneliner": "discredit = 単なる否定ではなく「信頼性そのもの」を損なう",
+      "hook": {
+        "label": "記憶フック",
+        "text": "dis（逆の）+ credit（信用）= 信用を「逆向き」にする = 信用を失わせる。ライバル会社をdiscreditする戦略は今も昔も変わらない。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "discreditの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信用を傷つける・失墜させる", "信用を与える・認定する", "信じやすくする・単純化する", "信用を調べる・評価する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "dis + credit の組み合わせが表すのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["信用の否定 = 信頼性を損なう", "信用の強化 = より信頼できる", "信用の移動 = 評価を変える", "信用の記録 = 履歴を残す"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The new evidence ___ the prosecution's key witness.\"",
+          "explanationFocus": "gap",
+          "choices": ["discredited", "credited", "accredited", "miscredited"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "discreditと最も自然に組み合わさる目的語は？",
+          "explanationFocus": "etymology",
+          "choices": ["discredit a theory（理論を否定する）", "discredit a salary（給与を下げる）", "discredit a location（場所を変える）", "discredit a schedule（予定を変更する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His rivals tried to discredit him with false accusations.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["ライバルが虚偽の告発で彼の信用を失墜させようとした", "ライバルが彼の業績を高く評価しようとした", "ライバルが彼の信頼性を調査しようとした", "ライバルが彼を信用しすぎて判断を誤った"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The defense attorney worked to discredit the witness.", "The report was largely discredited by later research."]
+    },
+    {
+      "word": "accredit",
+      "phonetic": "/əˈkredɪt/",
+      "toeicRank": "TSL-2 800-1100位",
+      "parts": [
+        {"part": "ac", "meaning": "〜に向かって", "type": "prefix"},
+        {"part": "credit", "meaning": "信用", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ac（〜へ）+ credit（信用）= 信用を与える → 公式に認定する",
+        "fact": "17世紀フランス語 accréditer から英語へ。「外交官に信任状を与える」が原義。現代では大学・医療機関・検査機関などの「公的認定」に使われる。TOEICではaccredited institution（認定機関）が頻出。",
+        "source": "EtymOnline: accredit",
+        "cognates": ["accreditation", "accredited", "credit"]
+      },
+      "cognitive": {
+        "oneliner": "信用を「向ける」→ 公的機関が信用のお墨付きを与える",
+        "fact": "TRANSFER スキーマ。認定機関（SOURCE）が、被認定者（GOAL）に向かって（ac-）信用（credit）を移転するイメージ。一方通行の権威付与。",
+        "source": "Talmy (2000) Toward a Cognitive Semantics"
+      },
+      "gap": "accreditとcertifyの違い：certify は「証明する」全般、accredit は「権威ある機関が公式認定を与える」という制度的行為。医学部・法科大学院・検査機関はaccredited が命。",
+      "gapOneliner": "accredit = 権威機関が正式に「信用のお墨付き」を与える（certifyより制度的）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ac（向かって）+ credit（信用）= 信用を「向けて渡す」。大学がaccredited（認定された）かどうかは就職活動でも重要。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "accreditの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["公式に認定する・信任する", "信用を取り消す・否定する", "信じやすくなる・単純化する", "信用を調べる・監査する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ac + credit の組み合わせが表すのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["信用を向けて与える = 認定する", "信用を引き戻す = 取り消す", "信用と共に動く = 協力する", "信用を超えて行く = 超過する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Only ___ laboratories can conduct official safety tests.\"",
+          "explanationFocus": "gap",
+          "choices": ["accredited", "incredible", "discredited", "credited"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "accreditedと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["accredited university（認定大学）", "accredited weather（確かな天気）", "accredited feeling（信頼できる感覚）", "accredited traffic（認可された交通）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The journalist was accredited to cover the summit.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["その記者は首脳会議の取材資格を公式に認められた", "その記者は首脳会議の情報を信じすぎた", "その記者は首脳会議で信用を失った", "その記者は首脳会議への取材を断られた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The school is accredited by the national board of education.", "He was accredited as an official representative."]
+    },
+    {
+      "word": "credentials",
+      "phonetic": "/krɪˈdenʃəlz/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "entials", "meaning": "〜に関するもの", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "cred（信じる）+ entials（関連するもの）= 信じさせるもの → 資格証明書",
+        "fact": "中世ラテン語 credentialis「信用を与えるもの」から。かつては外交官が持つ「信任状」を指した。現代では学位・資格・業績など「この人を信頼してよい」根拠全般を指す。複数形で使うのが普通。",
+        "source": "EtymOnline: credentials",
+        "cognates": ["credence", "credible", "accredit"]
+      },
+      "cognitive": {
+        "oneliner": "「信じさせるもの」のセット→ 人の信頼性を物理的に証明するアイテム群",
+        "fact": "CONTAINERスキーマ：credentials は「その人の信頼性を入れた器」。面接官は「器の中身（学歴・職歴・資格）」を見て判断する。ログイン情報もcredentials（認証情報）と呼ぶのも同根。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "日本語の「資格」より広い。学歴・職歴・受賞歴・推薦状も含む「信頼性の根拠すべて」。IT分野ではusername/passwordのことをcredentials（認証情報）と呼ぶ。",
+      "gapOneliner": "credentials = 信頼性を証明するもの全般（資格証+学歴+職歴+IT認証情報）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cred（信じる）+ entials（〜に関するもの）= 「信じさせるもの」＝ 履歴書に書くすべてがcredentials。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credentialsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["資格証明・業績などの信頼性の根拠", "信じやすい性格・素直さ", "信用を傷つける行為", "信用できない情報・うわさ"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "なぜlogin情報もcredentialsと呼ぶのか？",
+          "explanationFocus": "cognitive",
+          "choices": ["「信じさせるもの」＝本人を証明する情報だから", "「走らせるもの」＝システムを起動するから", "「書かれたもの」＝テキストだから", "「数えるもの」＝コード番号だから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Please submit your ___ along with the application form.\"",
+          "explanationFocus": "gap",
+          "choices": ["credentials", "creditors", "credits", "credulity"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credentialsと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["check credentials（資格を確認する）", "run credentials（資格を走らせる）", "build credentials（資格を建てる）", "sleep credentials（資格を眠らせる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Her credentials for the position are impeccable.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["彼女のそのポジションに対する資格・実績は申し分ない", "彼女は資格を信じすぎて判断を誤った", "彼女の信用調査の結果は不完全だった", "彼女はそのポジションを信じられないと思った"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The committee reviewed all candidates' credentials carefully.", "Enter your credentials to log in to the system."]
+    },
+    {
+      "word": "credibility",
+      "phonetic": "/ˌkredəˈbɪlɪti/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ibil", "meaning": "できる", "type": "suffix"},
+        {"part": "ity", "meaning": "性質・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "credible（信頼できる）+ ity（状態）= 信頼できる状態 → 信頼性",
+        "fact": "17世紀に英語に登場。政治・ジャーナリズム・科学で「この情報源・主張・人物を信頼してよいか」を評価する概念として定着。「credibility gap（信頼性の乖離）」はベトナム戦争時代の有名な政治用語。",
+        "source": "EtymOnline: credibility",
+        "cognates": ["credible", "incredible", "incredigibility"]
+      },
+      "cognitive": {
+        "oneliner": "信頼性は「積み上げ可能な資本」として理解される",
+        "fact": "CAPITAL metaphor：credibilityは「信頼という財産」。earn credibility（信頼性を積み上げる）、lose credibility（信頼性を失う）、damage credibility（信頼性を傷つける）という経済的メタファーで語られる。",
+        "source": "Lakoff & Johnson (1999)"
+      },
+      "gap": "credibilityは「信頼性」で、その人が実際に「信頼できる(trustworthy)」かどうかとは別。perceived credibility（知覚された信頼性）が重要。メディアリテラシーの中核概念。",
+      "gapOneliner": "credibility = 信頼性（実際に信頼できるかではなく、信頼されうるかの評価）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cred（信じる）+ ibility（できる性質）= 「信じられる力」。政治家はcredibility（信頼性）を失ったら終わり。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credibilityの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信頼性・説得力", "信じやすさ・単純さ", "信用できなさ・疑わしさ", "信用の量・クレジット"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "credible + ity が示す概念は？",
+          "explanationFocus": "cognitive",
+          "choices": ["信頼されうる状態という資本", "信じる行為そのもの", "信用の金額・価値", "信頼できる人物像"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The scandal seriously damaged the minister's ___.\"",
+          "explanationFocus": "gap",
+          "choices": ["credibility", "credulity", "credentials", "credence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credibilityと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["establish credibility（信頼性を確立する）", "invent credibility（信頼性を発明する）", "travel credibility（信頼性を旅する）", "sleep credibility（信頼性を眠らせる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The researcher's credibility was undermined by the retraction.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["論文撤回によって研究者の信頼性が損なわれた", "研究者は信頼できる撤回理由を示した", "研究者が信じやすい性格で騙された", "撤回によって研究者の信頼性が高まった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Years of honesty helped her build credibility with clients.", "The government's credibility was at an all-time low."]
+    },
+    {
+      "word": "creed",
+      "phonetic": "/kriːd/",
+      "toeicRank": "TSL外・教養語",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "（短縮）", "meaning": "", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 credo（私は信じる）が短縮 → 信条・信仰告白",
+        "fact": "古英語に直接ラテン語 credo（「私は信じる」= credoの一人称単数）から入った語。キリスト教の「使徒信条(Apostles' Creed)」が名詞化。現代では宗教に限らず「個人・組織の基本理念」を指す。",
+        "source": "EtymOnline: creed",
+        "cognates": ["credo", "credence", "credible"]
+      },
+      "cognitive": {
+        "oneliner": "信じる内容を一言にまとめたもの = 信条",
+        "fact": "CONDENSATION metaphor：creedは複雑な信念体系を「一粒の言葉」に凝縮したもの。宗教の信仰告白から、企業のmission statementまで、creekは「私たちが信じるもの」の最小単位。",
+        "source": "Conceptual metaphor theory, Lakoff (1993)"
+      },
+      "gap": "creedとcredo の違い：creedは英語化した名詞（組織・宗教の信条）、credoはラテン語のまま残した形（個人の信念・座右の銘的なニュアンス）。どちらも「信じるもの」が語源。",
+      "gapOneliner": "creed = 信条（組織・宗教）/ credo = 信条（個人的・座右の銘的）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "credo（クレド）はホテルのザ・リッツカールトンで有名。creed（クリード）も同じ根。どちらも「私が信じること」の宣言。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "creedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信条・信仰の告白", "信用の記録・成績", "信じやすい性格", "信頼できる証拠"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "creedはラテン語のどの言葉から来ている？",
+          "explanationFocus": "cognitive",
+          "choices": ["credo（私は信じる）", "credere（信じること）の名詞形", "creditus（信じられた）の複数形", "creditor（信じる人）の略称"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Our company's ___ is to always put customers first.\"",
+          "explanationFocus": "gap",
+          "choices": ["creed", "credit", "creditor", "credence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "creedと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["regardless of creed（信条に関わらず）", "in creed of（〜の信用で）", "by creed and credit（信条と信用で）", "creed the facts（信条に基づく事実）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The nation welcomes people of every race, color, and creed.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["国はあらゆる人種・肌の色・信条の人を歓迎する", "国は信頼できる人種と肌の色を認定する", "国は信じやすい人々に信用を与える", "国は信条の審査に合格した人を受け入れる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["People of all races and creeds are welcome here.", "Their creed was simple: work hard and treat others fairly."]
+    },
+    {
+      "word": "credence",
+      "phonetic": "/ˈkriːdəns/",
+      "toeicRank": "TSL-2 900-1200位",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ence", "meaning": "状態・行為", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "cred（信じる）+ ence（状態）= 信じる状態 → 信用・信頼",
+        "fact": "14世紀のラテン語 credentia「信頼」から。「give credence to（〜を信用する）」という慣用句で最もよく使われる。もともと食べ物が毒でないことを確認する「試食台(credence table)」という意味もあった。",
+        "source": "EtymOnline: credence",
+        "cognates": ["credentials", "credibility", "credit"]
+      },
+      "cognitive": {
+        "oneliner": "credenceは「信用を与える」という行為に焦点。credibilityは「信頼性の評価」",
+        "fact": "give credence to という動詞句で使われることが多く、「信用という贈り物」(GIFT metaphor)のイメージ。信用は能動的に「与える」もの、という認知的枠組みを持つ。",
+        "source": "Conceptual metaphor: ABSTRACT is OBJECT"
+      },
+      "gap": "credenceとcredibilityの違い：credibilityは「信頼性（測定可能な性質）」、credenceは「信用（与える/与えない行為）」。give credence（信用を与える）という動詞句でほぼ固定。",
+      "gapOneliner": "give credence to = 〜を信用する（credibilityは名詞的評価、credenceは動詞的行為）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cred（信じる）+ ence（状態）= 信じている状態。give credence to（〜に信用を与える）というセットで覚えると使いやすい。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credenceの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信用・信頼（与えるもの）", "信用調査の結果", "信じやすい性格", "信頼できる証拠書類"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "\"give credence to\" の語源的な意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["〜に信じる状態を贈る = 信用する", "〜の前に進む = 前提とする", "〜を書き記す = 記録する", "〜を数える = 評価する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The eyewitness testimony lent ___ to his alibi.\"",
+          "explanationFocus": "gap",
+          "choices": ["credence", "credit", "credibility", "credentials"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credenceと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["give credence to（〜を信用する）", "take credence from（〜から信用を奪う）", "make credence of（〜を信用に変える）", "run credence to（〜に走る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Don't give credence to rumors without checking facts.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["事実確認なしにうわさを信用するな", "うわさに信頼性を与えてから確認せよ", "事実を確認してからうわさを作れ", "うわさの信頼性は高いので確認は不要だ"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The new findings gave credence to the controversial theory.", "I wouldn't give much credence to that rumor."]
+    },
+    {
+      "word": "creditor",
+      "phonetic": "/ˈkredɪtər/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "credit", "meaning": "信用・貸し付け", "type": "root"},
+        {"part": "or", "meaning": "〜する人", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "credit（信用・貸し付け）+ or（人）= お金を信用して貸した人 → 債権者",
+        "fact": "15世紀ラテン語 creditor「貸す人」から。反対語はdebtor（借りる人）。会計・法律・ビジネス文書で必須の語。TOEICのパート5,6では「会社が〜に支払いを求める相手」として登場。",
+        "source": "EtymOnline: creditor",
+        "cognates": ["debtor", "credit", "crediting"]
+      },
+      "cognitive": {
+        "oneliner": "貸す側 = 信用を与えた人 → 債権者",
+        "fact": "AGENT スキーマ。credit（信用・貸し付け）という行為の「する側」が -or でマークされる。creditor（債権者）vs debtor（債務者）の二項対立は法律・ビジネスの基本構造。",
+        "source": "Langacker (1987) Foundations of Cognitive Grammar"
+      },
+      "gap": "日本語では「債権者」と「貸主」の区別があるが、英語ではどちらもcreditor。secured creditor（担保付債権者）/ unsecured creditor（無担保債権者）という区別もTOEICで頻出。",
+      "gapOneliner": "creditor = 貸し主・債権者（お金を信用して渡した側）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "credit（信用）+ or（人）= 「信用した人」 = 貸した人 = 債権者。借りた側はdebtor（debtに-orがついた語）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "creditorの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["債権者・貸し主", "債務者・借り手", "信用評価者・監査人", "信用組合・銀行"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "credit + or が示す人物は？",
+          "explanationFocus": "cognitive",
+          "choices": ["信用（お金）を与えた人 = 貸し主", "信用を評価する人 = 審査員", "信用を必要とする人 = 借り手", "信用を記録する人 = 会計士"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The company failed to repay its ___ on time.\"",
+          "explanationFocus": "gap",
+          "choices": ["creditors", "debtors", "credentials", "credits"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "creditorと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["repay creditors（債権者に返済する）", "hire creditors（債権者を雇う）", "produce creditors（債権者を生む）", "travel with creditors（債権者と旅する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The bankrupt firm was unable to satisfy its major creditors.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["破産した企業は主要な債権者への支払いができなかった", "その企業は主要な債権者に信用を与えられなかった", "破産した企業は信頼できる貸し手を見つけられなかった", "その企業は債権者の審査に満足に応じられなかった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company arranged a meeting with all its creditors.", "Creditors have the right to seek repayment through legal means."]
+    },
+    {
+      "word": "credulous",
+      "phonetic": "/ˈkredʒʊləs/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ulous", "meaning": "〜の性質がある", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "cred（信じる）+ ulous（性質）= 信じやすい性質 → だまされやすい",
+        "fact": "16世紀ラテン語 credulus「信じやすい」から。批判的思考なく信じる傾向を表す。gullible（だまされやすい）のより文語的表現。新聞・批評で「消費者・大衆が詐欺に引っかかりやすい状態」を表すのに使われる。",
+        "source": "EtymOnline: credulous",
+        "cognates": ["credulity", "incredulous", "gullible"]
+      },
+      "cognitive": {
+        "oneliner": "「信じる」が過剰になった状態 = フィルターなしで受け入れてしまう",
+        "fact": "認知的に、credulousな人は「信念の扉(belief gateway)」が常に開いている状態。批判的なフィルターが機能せず、情報が無抵抗に「流入する」FLUIDメタファー。",
+        "source": "Stanovich (2009) What Intelligence Tests Miss"
+      },
+      "gap": "credulousとnaive（単純）の違い：naiveは「世間知らず」、credulousは「特に信じやすすぎる」という認知的バイアスを指す。詐欺師はcredulous victims（信じやすい被害者）を狙う。",
+      "gapOneliner": "credulous = 信じやすすぎる（批判的フィルターが薄い）≒ gullibleの文語版",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cred（信じる）+ ulous（〜しがち）= 「信じがち」な人。インターネットのフェイクニュースを何でもcredulousに信じてはいけない。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credulousの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信じやすい・だまされやすい", "信頼できる・確実な", "信じられない・驚くべき", "信用できない・疑い深い"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "cred + ulous の組み合わせが示すのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["信じる性質が強すぎる = だまされやすい", "信じることができる = 信頼できる", "信じることを否定する = 疑い深い", "信じる行為 = 信仰"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Con artists target ___ individuals who believe everything they hear.\"",
+          "explanationFocus": "gap",
+          "choices": ["credulous", "credible", "incredible", "accredited"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credulousと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["credulous audience（信じやすい聴衆）", "credulous argument（信頼できる議論）", "credulous evidence（確かな証拠）", "credulous standard（信用の基準）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He was too credulous to question the salesman's claims.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["彼は信じやすすぎて営業マンの主張を疑えなかった", "彼は信頼できるので営業マンの主張を確認した", "彼は驚くほど賢くて営業マンを疑った", "彼は信頼できないので営業マンに断られた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Don't be so credulous — always verify information before sharing.", "Credulous consumers are easy targets for scammers."]
+    },
+    {
+      "word": "incredulous",
+      "phonetic": "/ɪnˈkredʒʊləs/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "in", "meaning": "否定", "type": "prefix"},
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ulous", "meaning": "〜の性質", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "in（否定）+ credulous（信じやすい）= 信じられない様子の → 懐疑的な顔をした",
+        "fact": "16世紀ラテン語 incredulus から。incredibleが「信じられない状況」を表すのに対し、incredulousは「信じられないと思っている人の様子」を表す形容詞。表情・反応・態度に使う。",
+        "source": "EtymOnline: incredulous",
+        "cognates": ["credulous", "incredulity", "skeptical"]
+      },
+      "cognitive": {
+        "oneliner": "信じる扉を「閉じた」状態にある人の様子",
+        "fact": "FACIAL EXPRESSION metaphor：incredulous look（信じられないという顔）のように、認知的「不信」が身体的表現に投影される。incredulousは他者から観察される「懐疑の表情・態度」。",
+        "source": "Ekman (1992) Emotions Revealed"
+      },
+      "gap": "incredibleは物事に使う（信じられない状況）、incredulousは人に使う（信じられないという様子の人）。混同しやすい。\"She was incredulous at the incredible news.\" のように並べると関係がわかる。",
+      "gapOneliner": "incredible = 信じられない（状況）/ incredulous = 信じられないと思っている（人の様子）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（否定）+ credulous（信じやすい）= 「信じやすくない」状態の人。incredulous look（驚いて目を見開いた顔）は映画で定番の表情。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "incredulousの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信じられないという様子の・懐疑的な", "信じやすい・だまされやすい", "信じられないほど素晴らしい", "信頼できる・確実な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "incredulousとincredibleの違いを語源から説明すると？",
+          "explanationFocus": "cognitive",
+          "choices": ["incredulous=信じない人の様子、incredible=信じられない状況", "incredulous=もっと信じやすい、incredible=全く信じられない", "incredulous=信頼できる、incredible=信頼できない", "incredulous=状況の驚き、incredible=人の驚き"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"She stared at him with an ___ expression.\"",
+          "explanationFocus": "gap",
+          "choices": ["incredulous", "incredible", "credulous", "credible"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "incredulousと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["incredulous look（信じられないという顔）", "incredulous story（信じられない話）", "incredulous achievement（驚くべき成果）", "incredulous source（信頼できる情報源）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The audience was incredulous when the magician revealed the trick.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["手品師がタネを明かした時、観客は信じられない様子だった", "観客は手品師を信頼できると感じた", "手品師の説明が驚くほど素晴らしかった", "観客は手品師の信頼性を疑わなかった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He looked incredulous when I told him the price.", "The team was incredulous at the umpire's decision."]
+    },
+    {
+      "word": "accreditation",
+      "phonetic": "/əˌkredɪˈteɪʃən/",
+      "toeicRank": "TSL-2 900-1200位",
+      "parts": [
+        {"part": "ac", "meaning": "〜に向かって", "type": "prefix"},
+        {"part": "credit", "meaning": "信用", "type": "root"},
+        {"part": "ation", "meaning": "行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "accredit（認定する）+ ation（行為）= 公式に認定する行為 → 認定・公認",
+        "fact": "17世紀の外交用語から発展。現代では大学・病院・研究機関が規定水準を満たしているかを審査し公認する「認定制度」を指す。TOEICでは「professional accreditation（専門資格認定）」「accreditation body（認定機関）」が頻出。",
+        "source": "EtymOnline: accreditation",
+        "cognates": ["accredit", "accredited", "credential"]
+      },
+      "cognitive": {
+        "oneliner": "信用を正式に移転する儀式・プロセス",
+        "fact": "CEREMONY metaphor：accreditationは「信用という贈り物を与える儀式」。審査(evaluation)→認定(accreditation)→資格(credential)という信用の制度的な流れがある。",
+        "source": "Institutional theory of organizations (Meyer & Rowan, 1977)"
+      },
+      "gap": "certificationとaccreditationの違い：certificationは個人の資格・能力証明、accreditationは組織・機関の公式認定。大学はaccredited（機関認定）、卒業生はcertified（個人資格）。",
+      "gapOneliner": "accreditation = 組織・機関への公式認定（certificationは個人）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "accredit（認定する）+ ation（行為）= 認定するプロセス全体。医学部や法科大学院がaccreditation（認定）を受けないと卒業生の資格が認められない。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "accreditationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（機関・組織の）公式認定", "個人の資格証明", "信用の取り消し", "債権の記録"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "accredit + ation が示すプロセスは？",
+          "explanationFocus": "cognitive",
+          "choices": ["機関へ向かって信用を与える行為", "個人の信頼性を数える行為", "不正を書き記す行為", "信用を否定する行為"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The hospital is seeking ___ from the national health authority.\"",
+          "explanationFocus": "gap",
+          "choices": ["accreditation", "credit", "credentials", "accrediting"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "accreditationと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["receive accreditation（認定を受ける）", "spend accreditation（認定を使う）", "travel accreditation（認定を旅する）", "eat accreditation（認定を食べる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Loss of accreditation would be devastating for the university.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["認定を失うことは大学にとって壊滅的だろう", "大学が認定を与えすぎることは問題だ", "認定の取得は大学にとって困難な目標だ", "認定機関が大学を過大評価している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The program is currently under review for accreditation.", "International accreditation opens doors to global recognition."]
+    },
+    {
+      "word": "credo",
+      "phonetic": "/ˈkriːdoʊ/",
+      "toeicRank": "TSL外・教養語",
+      "parts": [
+        {"part": "credo", "meaning": "私は信じる（ラテン語一人称）", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 credo（私は信じる）そのままが名詞化 → 個人の信条・座右の銘",
+        "fact": "ラテン語 credere（信じる）の一人称単数現在形。キリスト教のニカイア信条が「Credo in unum Deum（私は唯一の神を信じる）」と始まることから名詞化。現代ではリッツカールトンホテルの従業員教育「クレド」が有名。",
+        "source": "EtymOnline: credo",
+        "cognates": ["creed", "credible", "credit"]
+      },
+      "cognitive": {
+        "oneliner": "「私が信じること」という一人称宣言 = 個人の核心的価値観",
+        "fact": "IDENTITY スキーマ：credoは単なる規則(rule)ではなく「自分が何者か」を定義する信念の核。creedが組織の信条なら、credoは個人の「私はこう信じる」という宣言。",
+        "source": "Erickson (1968) Identity: Youth and Crisis"
+      },
+      "gap": "credoとmottoの違い：mottoは短い標語（行動指針）、credoはより深い「信念の宣言」。企業のcredoはmission statementより個人的・感情的なトーンを持つ傾向がある。",
+      "gapOneliner": "credo = 「私はこう信じる」という信念宣言（mottoより深い・個人的）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「クレド」はそのままラテン語で「私は信じる」。リッツカールトンの「ザ・クレド」カードは従業員が常に携帯する信条カード。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credoの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["個人の信条・座右の銘", "公式の認定証書", "信じやすい性格", "債権者への信頼"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "credoがラテン語で意味するのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["私は信じる（一人称宣言）", "信じられたもの（過去分詞）", "信じること（不定詞）", "信じる人（名詞）"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Her professional ___ was always to put the patient first.\"",
+          "explanationFocus": "gap",
+          "choices": ["credo", "credit", "creed", "credential"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credoと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["personal credo（個人の信条）", "financial credo（財務信条）", "credo score（信条スコア）", "credo card（信条カード申請）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company's credo guides every business decision.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["会社の信条がすべてのビジネス判断を導いている", "会社の信用スコアがビジネスを決定している", "会社の認定証書がすべての決定に必要だ", "会社は信じやすい姿勢でビジネスをしている"],
+          "correct": 0
+        }
+      ],
+      "examples": ["His credo was simple: always be honest, no matter what.", "The organization's credo emphasizes service above profit."]
+    },
+    {
+      "word": "incredulity",
+      "phonetic": "/ˌɪnkrɪˈdjuːlɪti/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "in", "meaning": "否定", "type": "prefix"},
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ul", "meaning": "傾向", "type": "root"},
+        {"part": "ity", "meaning": "状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "incredulous（信じられないという様子）の名詞形 → 不信感・懐疑",
+        "fact": "16世紀英語。incredulousの抽象名詞形。「suspension of disbelief（不信の一時停止）」の反対概念。文学・映画批評で「観客が感情移入できるかどうか」の議論でも使われる。",
+        "source": "EtymOnline: incredulity",
+        "cognates": ["incredulous", "credulity", "skepticism"]
+      },
+      "cognitive": {
+        "oneliner": "信じる扉を閉じた状態が固定化したもの",
+        "fact": "POSSESSION metaphor：incredulityは「不信という状態を持っている」感覚。be struck by incredulity（不信感に打たれる）のように、突発的に信じられない状態が「訪れる」体験として語られる。",
+        "source": "Talmy (2000) Toward a Cognitive Semantics"
+      },
+      "gap": "incredulityはskepticismより感情的・即興的。skepticismは「理性的懐疑主義」、incredulityは「驚きと共に来る不信感」。\"with incredulity\" のように前置詞句で使われることが多い。",
+      "gapOneliner": "incredulity = 驚きを伴う不信感（skepticismより感情的・即興的）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（否定）+ credulous（信じやすい）+ ity（状態）= 信じられない「状態」。with incredulity（信じられないという気持ちで）というセットで覚えると使いやすい。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "incredulityの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["不信感・信じられないという感覚", "信じやすさ・素直さ", "信頼性・確実性", "信用できなさ・詐欺"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "incredulityとskepticismの違いは語源的に言うと？",
+          "explanationFocus": "cognitive",
+          "choices": ["incredulityは感情的「信じられない」、skepticismは理性的「疑問」", "incredulityは完全否定、skepticismは部分否定", "incredulityは聴く行為、skepticismは見る行為", "どちらも同じで区別はない"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"She shook her head in ___ when she heard the news.\"",
+          "explanationFocus": "gap",
+          "choices": ["incredulity", "credibility", "credulity", "incredulousness"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "incredulityと最も自然に結びつく前置詞句は？",
+          "explanationFocus": "etymology",
+          "choices": ["with incredulity（信じられないという気持ちで）", "by incredulity（不信感によって）", "from incredulity（不信感から）", "to incredulity（不信感へ）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His face showed pure incredulity when he heard he had won.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["勝ったと聞いた時、彼の顔には純粋な驚きと不信感が表れた", "勝ったと信じていたので彼の表情は満足だった", "彼の表情から信頼できる勝利者だとわかった", "信じやすい性格が顔に出ていた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The audience greeted the announcement with total incredulity.", "She stared at the bill with an expression of pure incredulity."]
+    },
+    {
+      "word": "creditworthy",
+      "phonetic": "/ˈkredɪtˌwɜːrði/",
+      "toeicRank": "TSL-2 ビジネス頻出",
+      "parts": [
+        {"part": "credit", "meaning": "信用", "type": "root"},
+        {"part": "worthy", "meaning": "〜に値する", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "credit（信用）+ worthy（値する）= 信用に値する → （金融的に）信用できる",
+        "fact": "19世紀の金融用語として英語に定着。銀行・金融機関が顧客・企業の「信用に値するかどうか」を評価するcreditworthiness（信用度）という名詞形も頻出。TOEICのビジネス文書・パート5で登場。",
+        "source": "Financial terminology",
+        "cognates": ["trustworthy", "creditworthiness", "credit rating"]
+      },
+      "cognitive": {
+        "oneliner": "「信用の容器を満たすに値する」 = 財務的信頼性がある",
+        "fact": "VALUE metaphor：creditworthy は「信用という価値基準を満たしている」状態。銀行は creditworthiness（信用度）を計測し、それが一定水準を超えたらお金を「流す」FLUIDメタファーを使う。",
+        "source": "Lakoff (1993) The contemporary theory of metaphor"
+      },
+      "gap": "creditworthyは純粋に金融・ビジネス文脈の語。trustworthy（信頼に値する）と混同しやすいが、creditworthyは「借金を返せる/財務的信頼性がある」という狭い意味。",
+      "gapOneliner": "creditworthy = 金融的に信用に値する（trustworthyより狭い・財務特化）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "credit（信用）+ worthy（〜に値する）= 「信用を与えるに値する」人・企業。銀行ローンを組む際はcreditworthy（信用できる）かどうかが審査される。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "creditworthyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（金融的に）信用に値する", "信じるに値する・誠実な", "信用できない・危険な", "信用調査が必要な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "credit + worthy の組み合わせが示すのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["信用を与えるに値する状態", "信用を超えた状態", "信用を必要とする状態", "信用を否定する状態"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The bank approved the loan because the applicant was ___.\"",
+          "explanationFocus": "gap",
+          "choices": ["creditworthy", "credulous", "incredible", "discredited"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "creditworthyと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["creditworthy borrower（信用に値する借り手）", "creditworthy argument（信頼できる議論）", "creditworthy emotion（信用できる感情）", "creditworthy journey（信頼できる旅）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Small businesses must demonstrate they are creditworthy before securing loans.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["中小企業はローンを確保する前に信用に値することを示さなければならない", "中小企業は借り入れを信じすぎてはいけない", "中小企業が驚くべき実績を残せばローンが得られる", "中小企業の信頼性は貸し主が評価する必要がある"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Only creditworthy applicants will be considered for the mortgage.", "The startup needed to prove itself creditworthy to attract investors."]
+    },
+    {
+      "word": "credulity",
+      "phonetic": "/krɪˈdjuːlɪti/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ul", "meaning": "傾向", "type": "root"},
+        {"part": "ity", "meaning": "状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "credulous（信じやすい）の名詞形 → 信じやすさ・だまされやすさ",
+        "fact": "16世紀ラテン語 credulitas から。「strain credulity（信じやすさを試す＝信じがたい）」という慣用表現が有名。マーケティングで「消費者の信じやすさ」を利用した広告戦略の議論でよく登場する。",
+        "source": "EtymOnline: credulity",
+        "cognates": ["credulous", "incredulity", "gullibility"]
+      },
+      "cognitive": {
+        "oneliner": "信じる扉が開きすぎた状態が抽象名詞化したもの",
+        "fact": "CAPACITY metaphor：credulityは「信じる能力が過剰」という状態。strain credulity（信じやすさを限界まで伸ばす）は、信頼性の「ゴム」を引き伸ばしすぎるイメージ。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "credulityとnaivetyの違い：naivetyは「世間知らずから来る無垢さ」、credulityは「批判的思考の欠如から来る信じやすさ」。credulityは認知的バイアスとして批判的に使われることが多い。",
+      "gapOneliner": "credulity = 信じやすさ（批判的思考の欠如）/ naivety = 無垢さ（世間知らず）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "credulous（信じやすい）の名詞形がcredulity。\"strains credulity\"（信じがたい）という表現で丸ごと覚えると実用的。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credulityの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信じやすさ・だまされやすい性質", "信頼性・信用度", "不信感・懐疑心", "信用の証拠・資格"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "\"strains credulity\" という表現の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["信じやすさの限界を超える = 信じがたい", "信頼性を高める = 説得力を増す", "信用を調べる = 検証が必要", "信じることを促す = 説得する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The plot of the film stretched ___ beyond its breaking point.\"",
+          "explanationFocus": "gap",
+          "choices": ["credulity", "credibility", "incredulity", "credence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credulityと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["strain credulity（信じやすさを試す）", "build credulity（信じやすさを作る）", "trust credulity（信じやすさを信じる）", "lose credulity（信じやすさを失う）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His excuse strains credulity — no one could believe it.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["彼の言い訳は信じがたく、誰も信じられなかった", "彼の言い訳は信頼性が高く、みんなが信じた", "彼の言い訳は信じやすすぎて問題だった", "彼の言い訳が信頼性を高めた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The story stretches credulity to its limit.", "Advertisers often exploit consumers' credulity."]
+    },
+    {
+      "word": "accredited",
+      "phonetic": "/əˈkredɪtɪd/",
+      "toeicRank": "TSL-2 ビジネス頻出",
+      "parts": [
+        {"part": "ac", "meaning": "〜に向かって", "type": "prefix"},
+        {"part": "credit", "meaning": "信用", "type": "root"},
+        {"part": "ed", "meaning": "〜された", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "accredit（認定する）の過去分詞 = 公式に認定された",
+        "fact": "TOEICのビジネス文書で \"accredited training program\"（公認研修プログラム）や \"accredited investor\"（適格投資家）として頻出。金融・教育・報道の各分野で「公式に認められた」を表す形容詞として定着。",
+        "source": "Based on accredit (EtymOnline)",
+        "cognates": ["accredit", "accreditation", "credential"]
+      },
+      "cognitive": {
+        "oneliner": "信用を受け取り済みの状態 = お墨付きを持っている",
+        "fact": "COMPLETION スキーマ：accreditedは「信用移転プロセスが完了した」状態。形容詞として名詞の前につき「公認の〜」という権威付けを行う。accredited journalist（公認記者）のように、身分証明としても機能する。",
+        "source": "Talmy (2000) Toward a Cognitive Semantics"
+      },
+      "gap": "licensedとaccreditedの違い：licensedは「法律的許可を持つ」、accreditedは「基準を満たして認定機関から認められた」。医師はlicensed（免許保持）かつaccredited（認定病院所属）という両方を持ちうる。",
+      "gapOneliner": "accredited = 認定機関から基準充足を認められた（licensedは法的許可）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "accredit（認定する）+ ed（〜された）= 「認定されてしまった」状態。accredited institution（認定機関）のように形容詞として使うのがほとんど。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "accreditedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["公認された・認定を受けた", "信じやすくなった", "信用を失った", "資格を申請した"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "accredit + ed が示す状態は？",
+          "explanationFocus": "cognitive",
+          "choices": ["信用を与えられた状態 = 公認済み", "信用を求めている状態 = 審査中", "信用を否定された状態 = 不認定", "信用を与えた状態 = 認定者"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"All staff must complete training from an ___ provider.\"",
+          "explanationFocus": "gap",
+          "choices": ["accredited", "accrediting", "incredible", "credited"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "accreditedと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["accredited institution（認定機関）", "accredited behavior（認定行動）", "accredited feeling（認定された感情）", "accredited weather（公認天気）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Only accredited journalists were allowed inside the briefing room.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["公認を受けた記者だけがブリーフィング室への入室を許可された", "信頼できる記者が全員ブリーフィングに参加した", "記者たちは信じやすい情報を信じていた", "ブリーフィング室には認証が不要だった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He earned a degree from an accredited online university.", "Only accredited investors can participate in private placements."]
+    },
+    {
+      "word": "miscreant",
+      "phonetic": "/ˈmɪskriənt/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "mis", "meaning": "誤って・悪く", "type": "prefix"},
+        {"part": "credent", "meaning": "信じる", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "mis（誤って）+ credent（信じる）= 誤った信念を持つ者 → 悪人・犯罪者",
+        "fact": "14世紀の古フランス語 mescreant「異教徒」から。元々は「（キリスト教の）正しい信仰を持たない者」が原義。後に「道徳的に誤った信念を持つ者」→「悪人・犯罪者」に意味が広がった。現代では文語的・やや皮肉的に使う。",
+        "source": "EtymOnline: miscreant",
+        "cognates": ["misbelieve", "credo", "creed"]
+      },
+      "cognitive": {
+        "oneliner": "信念の方向性が「誤って」いる人 = 道徳的逸脱者",
+        "fact": "ORIENTATION metaphor：正しい信念は「正しい方向を向いて」いる。miscreantは信念の向きが間違っている（mis-）ために、社会規範から「逸脱した」状態にある。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "miscreantは文語的・時に皮肉的。日常会話では criminal, villain, wrongdoer を使う方が自然。ニュース記事・小説・フォーマルな文章で「悪漢」を表す際に登場する。",
+      "gapOneliner": "miscreant = 悪人・犯罪者（文語的。日常ではcriminalやvillanが自然）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mis（誤った）+ credent（信じる人）= 「誤った信念を持つ人」→ 悪人。credoの逆を行く人がmiscreant。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "miscreantの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["悪人・犯罪者（文語）", "信じやすい人・詐欺の被害者", "信頼できる人・誠実な人", "信用できない情報・うわさ"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "miscreantの語源的な意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["誤った信念を持つ者 = 道徳的逸脱者", "信じすぎる者 = 詐欺の被害者", "信頼に値する者 = 誠実な人", "信念のない者 = 無関心な人"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The police finally caught the ___ who had been terrorizing the neighborhood.\"",
+          "explanationFocus": "gap",
+          "choices": ["miscreant", "creditor", "accreditor", "credulous"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "miscreantと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["catch a miscreant（悪人を捕まえる）", "hire a miscreant（悪人を雇う）", "credit a miscreant（悪人を信用する）", "create a miscreant（悪人を作る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The security team tracked down the miscreant who had hacked the system.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["セキュリティチームはシステムをハッキングした悪人を追い詰めた", "セキュリティチームは信じやすいハッカーを信用した", "セキュリティチームは誤った信念でシステムを構築した", "セキュリティチームは悪人に認定証を与えた"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The miscreant was eventually brought to justice.", "Local miscreants had been vandalizing public property."]
+    },
+    {
+      "word": "credential",
+      "phonetic": "/krɪˈdenʃəl/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "cred", "meaning": "信じる", "type": "root"},
+        {"part": "ential", "meaning": "〜に関する・〜の性質", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "cred（信じる）+ ential（関連するもの）= 信じさせるもの → 信任状・資格",
+        "fact": "中世ラテン語 credentialis「信用を与えるもの」の単数形。外交官が携帯する「信任状(letter of credential)」が原義。現代では個人の資格・証明書の1枚1枚を指す。credentialsが複数形として一般的だが、単数形も使う。",
+        "source": "EtymOnline: credential",
+        "cognates": ["credentials", "credence", "credible"]
+      },
+      "cognitive": {
+        "oneliner": "「この人を信頼してよい」という物的証拠 = 信任状",
+        "fact": "OBJECT metaphor：credentialは抽象的な「信頼性」を物理的な「証明書」に変換したもの。信頼は目に見えないが、credentialは「手で持てる信頼の証」として機能する。",
+        "source": "Lakoff & Johnson (1980) Metaphors We Live By"
+      },
+      "gap": "credential（単数）とcredentials（複数）：単数は「特定の1つの証明書・資格」、複数は「その人の信頼性を証明するすべて」（学歴・職歴・資格の総体）。TOEICではどちらも登場する。",
+      "gapOneliner": "credential（単）= 特定の1資格 / credentials（複）= 信頼性の証拠すべて",
+      "hook": {
+        "label": "記憶フック",
+        "text": "cred（信じる）+ ential（〜するもの）= 「信じさせるもの」。パスポートも外交credential（信任状）も、「この人を信じてください」という物証。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "credentialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["信任状・資格証明書", "信じやすい性格", "信用の記録", "信頼できない情報"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "credentialとcredentialsの使い分けは？",
+          "explanationFocus": "cognitive",
+          "choices": ["単数=特定の1資格、複数=信頼性の証拠すべて", "単数=個人用、複数=組織用", "単数=現在、複数=過去", "どちらも同じで使い分けは不要"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"She presented her ___ at the security checkpoint.\"",
+          "explanationFocus": "gap",
+          "choices": ["credential", "credit", "creed", "credence"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "credentialと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["present a credential（証明書を提示する）", "spend a credential（証明書を使う）", "build a credential（証明書を建てる）", "run a credential（証明書を走らせる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The diplomat's credential was accepted by the host government.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["外交官の信任状が受入国政府によって受理された", "外交官の信用スコアが高く評価された", "外交官が信じやすい人物と認められた", "受入国が外交官の信頼性を否定した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Each professional credential must be renewed every five years.", "The credential was issued by the national examination board."]
+    }
+  ]
+}

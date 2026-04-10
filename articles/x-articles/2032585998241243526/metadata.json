@@ -1,0 +1,22 @@
+{
+  "id": "2032585998241243526",
+  "likes": 30,
+  "theme": "努力なしで英語が続く「習慣スタッキング」。意志力に頼らない設計の科学。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "習慣スタッキングの仕組み図",
+      "description": "既存習慣→スタック→英語習慣のフロー + 意志力 vs 習慣スタッキング比較"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "生活シーン別スタッキング例",
+      "description": "起床・食事・通勤・就寝の4シーン別スタック例"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "created_at": "2026-03-30",
+  "status": "draft"
+}

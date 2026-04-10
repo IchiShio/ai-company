@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </radialGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#657786"/>
+      <stop offset="100%" stop-color="#1DA1F2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg2)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">週次難易度アップ：実践ガイド</text>
+  <text x="600" y="85" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">同じ重さのトレーニングを繰り返しても筋肉はつかない</text>
+
+  <!-- Level boxes -->
+  <!-- Level 1 -->
+  <rect x="60" y="140" width="200" height="300" rx="14" fill="#1a2030" stroke="#657786" stroke-width="2"/>
+  <rect x="60" y="140" width="200" height="50" rx="14" fill="#657786"/>
+  <rect x="60" y="175" width="200" height="15" rx="0" fill="#657786"/>
+  <text x="160" y="172" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">レベル 1</text>
+  <text x="160" y="222" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">素材</text>
+  <text x="160" y="245" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">日本語字幕付き</text>
+  <text x="160" y="263" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">海外ドラマ</text>
+  <text x="160" y="300" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">速度</text>
+  <text x="160" y="323" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">0.8倍速</text>
+  <text x="160" y="360" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">目安</text>
+  <text x="160" y="383" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">TOEIC〜500</text>
+  <text x="160" y="420" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">週3回・15分</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="282,270 320,255 320,285" fill="#1DA1F2" opacity="0.7"/>
+  <line x1="262" y1="270" x2="318" y2="270" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="290" y="245" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">+1段階</text>
+
+  <!-- Level 2 -->
+  <rect x="320" y="120" width="200" height="320" rx="14" fill="#1a2030" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="320" y="120" width="200" height="50" rx="14" fill="#1DA1F2" opacity="0.8"/>
+  <rect x="320" y="155" width="200" height="15" rx="0" fill="#1DA1F2" opacity="0.8"/>
+  <text x="420" y="152" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">レベル 2</text>
+  <text x="420" y="202" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">素材</text>
+  <text x="420" y="225" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">英語字幕付き</text>
+  <text x="420" y="243" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">海外ドラマ</text>
+  <text x="420" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">速度</text>
+  <text x="420" y="301" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">0.9倍速</text>
+  <text x="420" y="338" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">目安</text>
+  <text x="420" y="361" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">TOEIC 500-650</text>
+  <text x="420" y="408" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">週3回・20分</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="542,265 580,250 580,280" fill="#1DA1F2" opacity="0.85"/>
+  <line x1="522" y1="265" x2="578" y2="265" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="550" y="240" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">+1段階</text>
+
+  <!-- Level 3 -->
+  <rect x="580" y="100" width="200" height="340" rx="14" fill="#1a2030" stroke="#1DA1F2" stroke-width="3"/>
+  <rect x="580" y="100" width="200" height="50" rx="14" fill="#1DA1F2"/>
+  <rect x="580" y="135" width="200" height="15" rx="0" fill="#1DA1F2"/>
+  <text x="680" y="132" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">レベル 3 ★</text>
+  <!-- Star badge -->
+  <circle cx="745" cy="100" r="18" fill="#f39c12"/>
+  <text x="745" y="106" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">今</text>
+
+  <text x="680" y="185" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">素材</text>
+  <text x="680" y="208" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">字幕なし</text>
+  <text x="680" y="226" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">ポッドキャスト</text>
+  <text x="680" y="261" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">速度</text>
+  <text x="680" y="284" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">1.0倍速</text>
+  <text x="680" y="320" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">目安</text>
+  <text x="680" y="343" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">TOEIC 650-750</text>
+  <text x="680" y="390" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">週4回・25分</text>
+
+  <!-- Arrow 3→4 -->
+  <polygon points="802,255 840,240 840,270" fill="#1DA1F2" opacity="0.7"/>
+  <line x1="782" y1="255" x2="838" y2="255" stroke="#1DA1F2" stroke-width="2.5"/>
+  <text x="810" y="230" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">+1段階</text>
+
+  <!-- Level 4 -->
+  <rect x="840" y="120" width="200" height="320" rx="14" fill="#1a2030" stroke="#657786" stroke-width="2"/>
+  <rect x="840" y="120" width="200" height="50" rx="14" fill="#657786" opacity="0.6"/>
+  <rect x="840" y="155" width="200" height="15" rx="0" fill="#657786" opacity="0.6"/>
+  <text x="940" y="152" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">レベル 4</text>
+  <text x="940" y="202" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">素材</text>
+  <text x="940" y="225" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">NPR / BBC</text>
+  <text x="940" y="243" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">ニュース英語</text>
+  <text x="940" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">速度</text>
+  <text x="940" y="301" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">1.1倍速〜</text>
+  <text x="940" y="338" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#aaaaaa">目安</text>
+  <text x="940" y="361" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">TOEIC 750+</text>
+  <text x="940" y="408" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">週4回・30分</text>
+
+  <!-- Bottom tip -->
+  <rect x="100" y="490" width="1000" height="80" rx="12" fill="#132030" stroke="#1DA1F2" stroke-width="1.5" opacity="0.9"/>
+  <text x="600" y="520" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2">実践のコツ</text>
+  <text x="600" y="545" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">2週間同じ素材で70%以上理解できたら → 次のレベルへ進む合図</text>
+  <text x="600" y="563" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">ListenUp なら難易度が自動で調整されます → native-real.com</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

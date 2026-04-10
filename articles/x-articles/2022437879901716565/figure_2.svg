@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#17BF63" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg2)" />
+  <rect x="0" y="0" width="1200" height="4" fill="#1DA1F2" />
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF">会話フロー図: 3語スタート → 展開 → 締め</text>
+  <text x="600" y="85" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">頭の中でなく口で考える — ネイティブの思考プロセス</text>
+
+  <!-- Step 1: 3語スタート -->
+  <rect x="80" y="120" width="280" height="110" rx="14" fill="#0a1929" stroke="#1DA1F2" stroke-width="2.5" />
+  <text x="220" y="155" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" font-weight="bold">STEP 1</text>
+  <text x="220" y="183" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">3語スタート</text>
+  <text x="220" y="210" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2">"I think that..."</text>
+
+  <!-- Arrow 1 -->
+  <line x1="360" y1="175" x2="440" y2="175" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrowBlue)" />
+  <text x="400" y="165" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">口が開く</text>
+
+  <!-- Step 2: バッファ処理 -->
+  <rect x="440" y="120" width="280" height="110" rx="14" fill="#0a1929" stroke="#17BF63" stroke-width="2.5" />
+  <text x="580" y="155" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#17BF63" font-weight="bold">STEP 2</text>
+  <text x="580" y="183" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">脳が並行処理</text>
+  <text x="580" y="210" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">内容を検索中...</text>
+
+  <!-- Arrow 2 -->
+  <line x1="720" y1="175" x2="800" y2="175" stroke="#17BF63" stroke-width="2.5" marker-end="url(#arrowGreen)" />
+  <text x="760" y="165" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">言葉が出る</text>
+
+  <!-- Step 3: 展開 -->
+  <rect x="800" y="120" width="280" height="110" rx="14" fill="#0a1929" stroke="#FFAD1F" stroke-width="2.5" />
+  <text x="940" y="155" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFAD1F" font-weight="bold">STEP 3</text>
+  <text x="940" y="183" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">文を展開</text>
+  <text x="940" y="210" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">内容 + 理由</text>
+
+  <!-- Example conversation block -->
+  <rect x="80" y="270" width="1040" height="240" rx="14" fill="#0d1e2d" stroke="#1a3a5c" stroke-width="1.5" />
+  <text x="130" y="303" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">実例: 「日本の食べ物について意見を聞かれた場合」</text>
+
+  <!-- Conversation line 1 -->
+  <rect x="110" y="318" width="8" height="36" rx="4" fill="#1DA1F2" />
+  <text x="135" y="333" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#1DA1F2">"I think that..."</text>
+  <text x="340" y="333" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">← まずここを口に出す（0.3秒）</text>
+  <text x="135" y="352" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">（脳：日本食について何を言おう？→ 健康的！）</text>
+
+  <!-- Conversation line 2 -->
+  <rect x="110" y="372" width="8" height="36" rx="4" fill="#17BF63" />
+  <text x="135" y="387" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#17BF63">"...Japanese food is really healthy."</text>
+  <text x="135" y="406" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">（脳：理由を追加しよう → 野菜が多い）</text>
+
+  <!-- Conversation line 3 -->
+  <rect x="110" y="426" width="8" height="36" rx="4" fill="#FFAD1F" />
+  <text x="135" y="441" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFAD1F">"The thing is, it uses lots of vegetables and fish."</text>
+  <text x="135" y="460" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">（補足フレーズで展開 → 完璧な文が完成）</text>
+
+  <!-- Bottom insight -->
+  <rect x="80" y="532" width="1040" height="72" rx="12" fill="#0a1929" stroke="#1DA1F2" stroke-width="1.5" />
+  <text x="600" y="564" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#1DA1F2">ポイント: 「考えてから話す」→「話しながら考える」へシフトする</text>
+  <text x="600" y="590" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">スターターフレーズはその橋渡し役。体に染み込ませれば、脳の処理時間を稼げる。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

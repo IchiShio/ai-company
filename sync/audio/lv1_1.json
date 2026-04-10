@@ -1,0 +1,232 @@
+[
+  {
+    "word": "My",
+    "start": 0.15,
+    "end": 0.394
+  },
+  {
+    "word": "dog",
+    "start": 0.394,
+    "end": 0.76
+  },
+  {
+    "word": "loves",
+    "start": 0.76,
+    "end": 1.371
+  },
+  {
+    "word": "to",
+    "start": 1.371,
+    "end": 1.615
+  },
+  {
+    "word": "go",
+    "start": 1.615,
+    "end": 1.859
+  },
+  {
+    "word": "for",
+    "start": 1.859,
+    "end": 2.225
+  },
+  {
+    "word": "walks.",
+    "start": 2.225,
+    "end": 2.837
+  },
+  {
+    "word": "We",
+    "start": 2.838,
+    "end": 3.017
+  },
+  {
+    "word": "visit",
+    "start": 3.017,
+    "end": 3.465
+  },
+  {
+    "word": "the",
+    "start": 3.465,
+    "end": 3.734
+  },
+  {
+    "word": "park",
+    "start": 3.734,
+    "end": 4.093
+  },
+  {
+    "word": "every",
+    "start": 4.093,
+    "end": 4.541
+  },
+  {
+    "word": "evening",
+    "start": 4.541,
+    "end": 5.169
+  },
+  {
+    "word": "after",
+    "start": 5.169,
+    "end": 5.617
+  },
+  {
+    "word": "work.",
+    "start": 5.617,
+    "end": 5.976
+  },
+  {
+    "word": "He",
+    "start": 6.025,
+    "end": 6.203
+  },
+  {
+    "word": "runs",
+    "start": 6.203,
+    "end": 6.56
+  },
+  {
+    "word": "and",
+    "start": 6.56,
+    "end": 6.827
+  },
+  {
+    "word": "plays",
+    "start": 6.827,
+    "end": 7.273
+  },
+  {
+    "word": "with",
+    "start": 7.273,
+    "end": 7.63
+  },
+  {
+    "word": "other",
+    "start": 7.63,
+    "end": 8.076
+  },
+  {
+    "word": "dogs",
+    "start": 8.076,
+    "end": 8.433
+  },
+  {
+    "word": "along",
+    "start": 8.433,
+    "end": 8.879
+  },
+  {
+    "word": "the",
+    "start": 8.879,
+    "end": 9.146
+  },
+  {
+    "word": "way.",
+    "start": 9.146,
+    "end": 9.413
+  },
+  {
+    "word": "I",
+    "start": 9.462,
+    "end": 9.552
+  },
+  {
+    "word": "always",
+    "start": 9.552,
+    "end": 10.089
+  },
+  {
+    "word": "bring",
+    "start": 10.089,
+    "end": 10.537
+  },
+  {
+    "word": "water",
+    "start": 10.537,
+    "end": 10.985
+  },
+  {
+    "word": "and",
+    "start": 10.985,
+    "end": 11.254
+  },
+  {
+    "word": "a",
+    "start": 11.254,
+    "end": 11.344
+  },
+  {
+    "word": "small",
+    "start": 11.344,
+    "end": 11.792
+  },
+  {
+    "word": "snack",
+    "start": 11.792,
+    "end": 12.24
+  },
+  {
+    "word": "for",
+    "start": 12.24,
+    "end": 12.509
+  },
+  {
+    "word": "him.",
+    "start": 12.509,
+    "end": 12.774000000000001
+  },
+  {
+    "word": "Watching",
+    "start": 12.825,
+    "end": 13.499
+  },
+  {
+    "word": "him",
+    "start": 13.499,
+    "end": 13.752
+  },
+  {
+    "word": "enjoy",
+    "start": 13.752,
+    "end": 14.174
+  },
+  {
+    "word": "himself",
+    "start": 14.174,
+    "end": 14.764
+  },
+  {
+    "word": "is",
+    "start": 14.764,
+    "end": 14.933
+  },
+  {
+    "word": "the",
+    "start": 14.933,
+    "end": 15.186
+  },
+  {
+    "word": "best",
+    "start": 15.186,
+    "end": 15.523
+  },
+  {
+    "word": "part",
+    "start": 15.523,
+    "end": 15.86
+  },
+  {
+    "word": "of",
+    "start": 15.86,
+    "end": 16.029
+  },
+  {
+    "word": "my",
+    "start": 16.029,
+    "end": 16.198
+  },
+  {
+    "word": "day.",
+    "start": 16.198,
+    "end": 16.45
+  }
+]
