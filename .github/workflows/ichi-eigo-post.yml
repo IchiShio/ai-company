@@ -1,0 +1,57 @@
+name: ichi-eigo scheduled posts
+
+on:
+  schedule:
+    # JST 7:00 = UTC 22:00 (前日)
+    - cron: '0 22 * * *'
+    # JST 18:00 = UTC 9:00
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      text:
+        description: '投稿テキスト（空欄ならスケジュール通り）'
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests requests-oauthlib
+
+      - name: Determine post text
+        id: text
+        run: |
+          python3 scripts/pick_scheduled_post.py >> "$GITHUB_OUTPUT"
+        env:
+          MANUAL_TEXT: ${{ github.event.inputs.text || '' }}
+
+      - name: Post to X
+        if: steps.text.outputs.post_text != ''
+        run: |
+          python3 scripts/post_tweet_ga.py
+        env:
+          POST_TEXT: ${{ steps.text.outputs.post_text }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+
+      - name: Mark as posted and push
+        if: steps.text.outputs.post_text != ''
+        run: |
+          python3 scripts/mark_posted.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add x-knowledge/posts/schedule.json
+          git diff --cached --quiet || git commit -m "mark posted: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

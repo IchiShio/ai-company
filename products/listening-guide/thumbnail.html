@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1280">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  width: 1280px;
+  height: 670px;
+  overflow: hidden;
+  font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Background decoration */
+.bg-circles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.bg-circles .c {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.08;
+}
+.bg-circles .c1 { width: 400px; height: 400px; background: #3b82f6; top: -100px; right: -50px; }
+.bg-circles .c2 { width: 300px; height: 300px; background: #8b5cf6; bottom: -80px; left: -40px; }
+.bg-circles .c3 { width: 200px; height: 200px; background: #06b6d4; top: 200px; left: 200px; }
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 40px 80px;
+  max-width: 1100px;
+}
+
+.badge {
+  display: inline-block;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 8px 24px;
+  border-radius: 30px;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: #f1f5f9;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.4;
+  margin-bottom: 32px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+h1 .highlight {
+  color: #60a5fa;
+}
+
+h1 .accent {
+  color: #fbbf24;
+}
+
+.axes {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+.axis-tag {
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93c5fd;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.footer-text {
+  color: #94a3b8;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-text strong {
+  color: #e2e8f0;
+}
+</style>
+</head>
+<body>
+  <div class="bg-circles">
+    <div class="c c1"></div>
+    <div class="c c2"></div>
+    <div class="c c3"></div>
+  </div>
+  <div class="container">
+    <div class="badge">1,099 QUESTIONS DESIGNED</div>
+    <h1>
+      リスニング教材を設計してわかった<br>
+      英語が聞き取れる人の<br>
+      <span class="accent">5つの共通点</span>
+    </h1>
+    <div class="axes">
+      <div class="axis-tag">Speed</div>
+      <div class="axis-tag">Reduction</div>
+      <div class="axis-tag">Vocab</div>
+      <div class="axis-tag">Context</div>
+      <div class="axis-tag">Distractor</div>
+    </div>
+    <div class="footer-text">
+      <strong>@ichi_eigo</strong> | native-real.com
+    </div>
+  </div>
+</body>
+</html>
