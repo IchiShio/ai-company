@@ -72350,7 +72350,7 @@
           "ロボット探査と地震測定"
         ],
         "answer": 1,
-        "expl": "本文に「combining data from spectroscopic analysis, laboratory simulations, and orbital observations」と書かれています。"
+        "expl": "本文に「combining data from spectrum analysis, laboratory work, and observations from space」と書かれています。"
       },
       {
         "axis": "inference",
@@ -72362,7 +72362,7 @@
           "新しい燃料源が見つかるから"
         ],
         "answer": 1,
-        "expl": "本文に「liquid water may have interacted with volcanic rock」「could inform future missions seeking signs of habitability」とあり、水の存在と居住可能性の調査への貢献が示されています。"
+        "expl": "本文に「liquid water may have interacted with volcanic rock」「could guide future missions seeking signs of past life」とあり、水の存在と過去の生命探査への貢献が示されています。"
       }
     ],
     "body_annotated": [

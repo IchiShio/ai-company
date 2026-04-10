@@ -1,0 +1,22 @@
+name: unrepost all (@ichi_eigo)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unrepost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6.0.2
+
+      - uses: actions/setup-python@v6.2.0
+        with:
+          python-version: '3.12'
+
+      - name: Unrepost all
+        run: python3 unrepost_timeline.py
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
