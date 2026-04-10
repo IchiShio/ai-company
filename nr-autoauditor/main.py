@@ -36,7 +36,7 @@ from datetime import datetime
 from config import Config
 from db_handler import AuditDB
 from extractor import extract_all
-from auditor import screening_batch, audit_batch_detailed, AuditStatus
+from auditor import screening_batch, audit_batch_detailed, precheck_all, AuditStatus
 from fixer import apply_fix, should_fix
 from reporter import build_report, format_notification_summary, generate_markdown_report
 from notifier import send_notifications
@@ -190,6 +190,14 @@ async def run_audit(args: argparse.Namespace) -> int:
             logger.info("  %s: %d問", cat, count)
         return 0
 
+    # ── Step 1.5: プログラム的プリチェック（LLM不要・即時） ──
+    logger.info("Step 1.5: プリチェック中（正解不在・下線欠落・重複選択肢）...")
+    precheck_results = precheck_all(all_questions)
+    precheck_ids = {r.question_id for r in precheck_results}
+    if precheck_results:
+        for r in precheck_results:
+            logger.warning("  [Precheck ERROR] %s: %s", r.question_id, r.issues)
+
     # 問題IDからQuizQuestionを引くマップ
     q_map = {q.question_id: q for q in all_questions}
 
@@ -232,7 +240,19 @@ async def run_audit(args: argparse.Namespace) -> int:
         # 結果を統合: OK結果 + 精密監査結果
         all_results = ok_results + detailed_results
 
-    # ── Step 3: 自動修正（31b の結果に基づく） ──
+    # プリチェック結果を統合（LLM結果より優先）
+    for pr in precheck_results:
+        # LLM結果にすでにある場合は上書き、なければ追加
+        replaced = False
+        for i, r in enumerate(all_results):
+            if r.question_id == pr.question_id:
+                all_results[i] = pr
+                replaced = True
+                break
+        if not replaced:
+            all_results.append(pr)
+
+    # ── Step 3: 自動修正 ──
     if config.auto_fix_enabled:
         logger.info("Step 3: 自動修正チェック中... (model=%s)", config.fix_model)
         for result in all_results:

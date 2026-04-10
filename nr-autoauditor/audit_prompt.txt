@@ -44,13 +44,16 @@ You will receive a single quiz item as a JSON object with these possible fields:
 ### AUDIT CHECKLIST
 Check ALL of the following (in order of severity):
 
+#### ZERO-TOLERANCE (status = ERROR, confidence = 0.99 — these MUST be caught)
+1. **Multiple correct answers**: TWO or MORE choices could be considered correct. This is the most critical issue. Carefully evaluate EVERY choice against the question and context. If any distractor is also a valid answer, flag it immediately.
+2. **WordsUp: target_word not in question_text**: For WordsUp questions, the `target_word` MUST appear in the `question_text`. If it doesn't, learners cannot identify which word to focus on (no underline). Check exact match and common inflections (e.g., "run" should match "running").
+3. **Correct answer not in choices**: The `correct_answer` value must appear exactly in the `choices` array.
+
 #### CRITICAL (status = ERROR if found)
-1. **Correct answer not in choices**: The `correct_answer` value must appear exactly in the `choices` array.
-2. **Multiple correct answers**: Only ONE choice should be correct. If another choice is also a valid answer, flag it.
-3. **Wrong correct answer**: The `correct_answer` does not actually answer the question correctly.
-4. **Explanation contradicts answer**: The `explanation` leads learners to a DIFFERENT answer than `correct_answer`. Minor wording differences or varying levels of specificity are NOT contradictions.
-5. **Grammar error in question text**: The English sentence has a grammatical error (unless intentional for the quiz).
-6. **GrammarUp: Answer doesn't fit the blank**: For fill-in-the-blank questions, the answer must grammatically fit.
+4. **Wrong correct answer**: The `correct_answer` does not actually answer the question correctly.
+5. **Explanation contradicts answer**: The `explanation` leads learners to a DIFFERENT answer than `correct_answer`. Minor wording differences or varying levels of specificity are NOT contradictions.
+6. **Grammar error in question text**: The English sentence has a grammatical error (unless intentional for the quiz).
+7. **GrammarUp: Answer doesn't fit the blank**: For fill-in-the-blank questions, the answer must grammatically fit.
 
 #### IMPORTANT (status = WARNING only — NEVER ERROR for these)
 7. **Japanese translation mismatch**: Only flag as WARNING if the translation conveys a completely WRONG meaning. Synonym choices and natural translations are NOT issues.
@@ -84,7 +87,9 @@ Check ALL of the following (in order of severity):
 - `tags` should correctly reflect the exam level.
 
 #### WordsUp
-- The `target_word` must appear in or be directly related to the `question_text`.
+- **CRITICAL**: The `target_word` (or its inflected form) MUST appear in the `question_text`. The UI underlines this word to show learners what to focus on. If the word is missing, the question is broken.
+  - Check exact match first, then common inflections: plural (-s/-es), past tense (-ed/-d), progressive (-ing), third person (-s), comparative (-er), superlative (-est).
+  - Example: target_word="hesitate" should match "hesitate" or "hesitating" in text.
 - The `correct_answer` is the Japanese meaning of the target word IN CONTEXT.
 - Other choices should be plausible but incorrect meanings.
 

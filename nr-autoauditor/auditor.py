@@ -23,6 +23,93 @@ from models import AuditResult, AuditStatus, FixSuggestion, QuizCategory, QuizQu
 
 logger = logging.getLogger(__name__)
 
+
+# ── LLM不要のプログラム的チェック（即時・100%正確） ──
+
+def precheck_question(q: QuizQuestion) -> AuditResult | None:
+    """
+    LLM を使わずにプログラムで検出できる致命的バグをチェック。
+    問題があれば AuditResult を返し、なければ None を返す。
+    """
+    issues: list[str] = []
+    fixes: list[FixSuggestion] = []
+
+    # 1. 正解が選択肢に含まれていない
+    if q.choices and q.answer and q.answer not in q.choices:
+        issues.append(
+            f"正解「{q.answer}」が選択肢に含まれていない。"
+            f" 選択肢: {q.choices}"
+        )
+
+    # 2. WordsUp: target_word が question_text に存在しない
+    if q.category == QuizCategory.WORDSUP and q.word and q.text:
+        if not _word_in_text(q.word, q.text):
+            issues.append(
+                f"target_word「{q.word}」が question_text 内に見つからない。"
+                f" 学習者は対象単語を特定できない（下線なし）。"
+            )
+
+    # 3. 選択肢の重複（完全一致）
+    if q.choices:
+        seen = set()
+        dupes = []
+        for c in q.choices:
+            if c in seen:
+                dupes.append(c)
+            seen.add(c)
+        if dupes:
+            issues.append(f"選択肢に重複あり: {dupes}")
+
+    if issues:
+        return AuditResult(
+            question_id=q.question_id,
+            category=q.category.value,
+            status=AuditStatus.ERROR,
+            confidence=1.0,  # プログラム的チェックなので確実
+            issues=issues,
+            fix_suggestions=fixes,
+            reasoning="プログラム的チェックで検出（LLM不使用）",
+            model_used="precheck",
+        )
+    return None
+
+
+def _word_in_text(word: str, text: str) -> bool:
+    """target_word が text 内に存在するか（活用形も考慮）"""
+    text_lower = text.lower()
+    word_lower = word.lower()
+
+    # 完全一致
+    if word_lower in text_lower:
+        return True
+
+    # スペース区切りの各単語と部分一致（活用形対応）
+    # e.g., "hesitate" → "hesitating", "run" → "running"
+    words_in_text = text_lower.split()
+    for w in words_in_text:
+        # 単語のステムが一致するか簡易チェック
+        # 短い方の単語が長い方の先頭に含まれるか
+        if len(word_lower) >= 3 and len(w) >= 3:
+            stem = word_lower[:max(3, len(word_lower) - 3)]
+            if w.startswith(stem):
+                return True
+    return False
+
+
+def precheck_all(questions: list[QuizQuestion]) -> list[AuditResult]:
+    """全問題をプログラム的にチェックし、致命的バグを即座に検出"""
+    results: list[AuditResult] = []
+    for q in questions:
+        result = precheck_question(q)
+        if result:
+            results.append(result)
+    if results:
+        logger.warning("[Precheck] 致命的バグ %d 件を検出", len(results))
+    else:
+        logger.info("[Precheck] 致命的バグなし")
+    return results
+
+
 # プロンプトファイルのパス
 AUDIT_PROMPT_PATH = Path(__file__).parent / "audit_prompt.txt"
 SCREENING_PROMPT_PATH = Path(__file__).parent / "screening_prompt.txt"
