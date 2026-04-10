@@ -1,27 +1,19 @@
 """
 NR-AutoAuditor メインエントリーポイント
-native-real.com の全クイズコンテンツを3段階パイプラインで自動監査・修正する。
+native-real.com の全クイズコンテンツを3段階パイプラインで自動監査・修正・デプロイする。
 
-3段階パイプライン:
-  Stage 1: gemma4:e4b  — 全問を高速スクリーニング
-  Stage 2: gemma4:31b  — WARNING/ERROR のみ精密監査
-  Stage 3: gemma4:31b  — ERROR (confidence>=0.95) を修正生成
+運用パターン:
+    # 今日: 全問監査 + 修正 + git push
+    python main.py --auto-fix --auto-push
 
-Usage:
-    # dry-run（デフォルト・修正なし）
-    python main.py --max-questions 10
+    # 毎日: 未監査の新規問題のみ
+    python main.py --new-only --auto-fix --auto-push
 
-    # 特定カテゴリのみ
-    python main.py --category listenup
+    # 3日ごと: 全問フル監査
+    python main.py --auto-fix --auto-push
 
-    # 自動修正を有効化
-    python main.py --auto-fix
-
-    # 31bのみで全問監査（旧方式）
-    python main.py --single-stage
-
-    # 統計情報の表示
-    python main.py --stats
+    # cron wrapper（推奨）
+    ./cron_audit.sh
 """
 
 from __future__ import annotations
@@ -29,9 +21,11 @@ from __future__ import annotations
 import argparse
 import asyncio
 import logging
+import subprocess
 import sys
 import time
 from datetime import datetime
+from pathlib import Path
 
 from config import Config
 from db_handler import AuditDB
@@ -55,16 +49,22 @@ def parse_args() -> argparse.Namespace:
         description="NR-AutoAuditor — native-real.com クイズ品質自動監査システム",
     )
     parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        default=True,
-        help="修正を適用せず監査のみ実行（デフォルト）",
-    )
-    parser.add_argument(
         "--auto-fix",
         action="store_true",
         default=False,
         help="自動修正を有効化（confidence >= 0.95 の ERROR のみ）",
+    )
+    parser.add_argument(
+        "--auto-push",
+        action="store_true",
+        default=False,
+        help="修正後に自動で git commit & push（デプロイ）",
+    )
+    parser.add_argument(
+        "--new-only",
+        action="store_true",
+        default=False,
+        help="まだ一度も監査されていない問題のみ対象",
     )
     parser.add_argument(
         "--category",
@@ -88,7 +88,7 @@ def parse_args() -> argparse.Namespace:
         "--single-stage",
         action="store_true",
         default=False,
-        help="3段階パイプラインを使わず 31b のみで全問監査",
+        help="3段階パイプラインを使わず単一モデルで全問監査",
     )
     parser.add_argument(
         "--stats",
@@ -118,7 +118,7 @@ def parse_args() -> argparse.Namespace:
 
 
 async def run_audit(args: argparse.Namespace) -> int:
-    """メイン監査フロー（3段階パイプライン）"""
+    """メイン監査フロー"""
     config = Config()
 
     # コマンドライン引数で設定を上書き
@@ -148,15 +148,15 @@ async def run_audit(args: argparse.Namespace) -> int:
         f"SINGLE ({config.audit_model})" if args.single_stage
         else f"3-STAGE ({config.screening_model} → {config.audit_model})"
     )
+    run_mode = "NEW-ONLY" if args.new_only else "FULL"
 
     logger.info("=" * 60)
     logger.info("NR-AutoAuditor 開始")
+    logger.info("  実行モード: %s", run_mode)
     logger.info("  パイプライン: %s", pipeline_mode)
-    logger.info("  モード: %s", "AUTO-FIX" if config.auto_fix_enabled else "DRY-RUN")
-    logger.info("  スクリーニング: %s", config.screening_model)
-    logger.info("  精密監査/修正: %s", config.audit_model)
+    logger.info("  修正: %s", "AUTO-FIX + AUTO-PUSH" if (config.auto_fix_enabled and args.auto_push) else "AUTO-FIX" if config.auto_fix_enabled else "DRY-RUN")
+    logger.info("  モデル: %s", config.screening_model)
     logger.info("  並列数: %d", config.max_concurrency)
-    logger.info("  修正閾値: confidence >= %.2f", config.auto_fix_confidence)
     logger.info("=" * 60)
 
     start_time = time.time()
@@ -173,13 +173,23 @@ async def run_audit(args: argparse.Namespace) -> int:
         ]
         logger.info("カテゴリ '%s' にフィルタ: %d問", args.category, len(all_questions))
 
+    # new-only モード: 未監査の問題のみ対象
+    if args.new_only:
+        before = len(all_questions)
+        all_questions = [
+            q for q in all_questions
+            if not db.question_was_audited_today(q.question_id)
+        ]
+        skipped = before - len(all_questions)
+        logger.info("NEW-ONLY: %d問スキップ（監査済み）、%d問を監査", skipped, len(all_questions))
+
     # 問題数制限
     if config.max_questions > 0:
         all_questions = all_questions[: config.max_questions]
         logger.info("最大問題数制限: %d問", len(all_questions))
 
     if not all_questions:
-        logger.warning("監査対象の問題がありません。終了します。")
+        logger.info("監査対象の問題がありません。終了します。")
         return 0
 
     # extract-only モード
@@ -190,28 +200,24 @@ async def run_audit(args: argparse.Namespace) -> int:
             logger.info("  %s: %d問", cat, count)
         return 0
 
+    # 問題IDからQuizQuestionを引くマップ
+    q_map = {q.question_id: q for q in all_questions}
+
     # ── Step 1.5: プログラム的プリチェック（LLM不要・即時） ──
     logger.info("Step 1.5: プリチェック中（正解不在・下線欠落・重複選択肢）...")
     precheck_results = precheck_all(all_questions)
-    precheck_ids = {r.question_id for r in precheck_results}
     if precheck_results:
         for r in precheck_results:
             logger.warning("  [Precheck ERROR] %s: %s", r.question_id, r.issues)
 
-    # 問題IDからQuizQuestionを引くマップ
-    q_map = {q.question_id: q for q in all_questions}
-
+    # ── Step 2: LLM 監査 ──
     if args.single_stage:
-        # ── 旧方式: 31b で全問監査 ──
         logger.info("Step 2: 全問監査 (%d問, model=%s)", len(all_questions), config.audit_model)
         all_results = await audit_batch_detailed(config, all_questions)
     else:
-        # ── 3段階パイプライン ──
-
-        # Stage 1: e4b で全問スクリーニング
+        # Stage 1: スクリーニング
         screening_results = await screening_batch(config, all_questions)
 
-        # Stage 1 の結果を振り分け
         ok_results = []
         flagged_question_ids = []
         for r in screening_results:
@@ -227,7 +233,7 @@ async def run_audit(args: argparse.Namespace) -> int:
             len(flagged_question_ids) / max(len(screening_results), 1) * 100,
         )
 
-        # Stage 2: フラグ付き問題のみ 31b で精密監査
+        # Stage 2: 精密監査
         if flagged_question_ids:
             flagged_questions = [
                 q_map[qid] for qid in flagged_question_ids if qid in q_map
@@ -235,14 +241,12 @@ async def run_audit(args: argparse.Namespace) -> int:
             detailed_results = await audit_batch_detailed(config, flagged_questions)
         else:
             detailed_results = []
-            logger.info("Stage 2: スクリーニングで問題なし。精密監査をスキップ。")
+            logger.info("Stage 2: 問題なし。精密監査スキップ。")
 
-        # 結果を統合: OK結果 + 精密監査結果
         all_results = ok_results + detailed_results
 
     # プリチェック結果を統合（LLM結果より優先）
     for pr in precheck_results:
-        # LLM結果にすでにある場合は上書き、なければ追加
         replaced = False
         for i, r in enumerate(all_results):
             if r.question_id == pr.question_id:
@@ -253,8 +257,9 @@ async def run_audit(args: argparse.Namespace) -> int:
             all_results.append(pr)
 
     # ── Step 3: 自動修正 ──
+    fix_count = 0
     if config.auto_fix_enabled:
-        logger.info("Step 3: 自動修正チェック中... (model=%s)", config.fix_model)
+        logger.info("Step 3: 自動修正中...")
         for result in all_results:
             if should_fix(result, config):
                 question = q_map.get(result.question_id)
@@ -262,28 +267,24 @@ async def run_audit(args: argparse.Namespace) -> int:
                     success = apply_fix(question, result, config, dry_run=False)
                     if success:
                         result.fix_applied = True
+                        fix_count += 1
+        logger.info("  修正適用: %d件", fix_count)
     else:
-        logger.info("Step 3: DRY-RUN モードのため修正をスキップ")
+        logger.info("Step 3: DRY-RUN モード")
         fix_candidates = [
             r for r in all_results
             if r.status == AuditStatus.ERROR and r.confidence >= config.auto_fix_confidence
         ]
         for r in fix_candidates:
-            logger.info(
-                "[DRY-RUN] 修正候補: %s (confidence=%.2f, issues=%s)",
-                r.question_id, r.confidence, r.issues,
-            )
-        if not fix_candidates:
-            logger.info("[DRY-RUN] 高信頼度の修正候補なし")
+            logger.info("  [DRY-RUN] 修正候補: %s (confidence=%.2f)", r.question_id, r.confidence)
 
     elapsed = time.time() - start_time
 
-    # ── Step 4: レポート生成 ──
+    # ── Step 4: レポート生成 + DB保存 ──
     logger.info("Step 4: レポート生成中...")
     report = build_report(all_results, elapsed)
     report_path = generate_markdown_report(report, config.reports_dir)
 
-    # DB保存
     db.save_results_batch(all_results)
     db.save_daily_report(
         date=report.date,
@@ -297,26 +298,69 @@ async def run_audit(args: argparse.Namespace) -> int:
         categories=report.categories,
     )
 
-    # ── Step 5: 通知（設定がある場合のみ） ──
+    # ── Step 5: 自動 git push（修正があった場合のみ） ──
+    if args.auto_push and fix_count > 0:
+        logger.info("Step 5: git commit & push 中...")
+        push_success = _git_push(config, fix_count, report.date)
+        if push_success:
+            logger.info("  デプロイ完了")
+        else:
+            logger.error("  git push 失敗")
+    elif args.auto_push:
+        logger.info("Step 5: 修正なしのため push スキップ")
+
+    # ── Step 6: 通知 ──
     if args.notify and config.has_notification:
-        logger.info("Step 5: 通知送信中...")
+        logger.info("Step 6: 通知送信中...")
         summary = format_notification_summary(report)
         await send_notifications(config, summary)
 
     # ── 完了サマリー ──
     logger.info("=" * 60)
     logger.info("監査完了!")
-    logger.info("  パイプライン: %s", pipeline_mode)
+    logger.info("  モード: %s | %s", run_mode, pipeline_mode)
     logger.info("  総問題数: %d", report.total_questions)
-    logger.info("  OK: %d", report.ok_count)
-    logger.info("  WARNING: %d", report.warning_count)
-    logger.info("  ERROR: %d", report.error_count)
-    logger.info("  自動修正: %d", report.auto_fixed_count)
+    logger.info("  OK: %d / WARNING: %d / ERROR: %d", report.ok_count, report.warning_count, report.error_count)
+    logger.info("  自動修正: %d件", report.auto_fixed_count)
+    if args.auto_push and fix_count > 0:
+        logger.info("  デプロイ: 済")
     logger.info("  所要時間: %.1f秒", elapsed)
     logger.info("  レポート: %s", report_path)
     logger.info("=" * 60)
 
     return 0
+
+
+def _git_push(config: Config, fix_count: int, date: str) -> bool:
+    """修正済みファイルを git commit & push"""
+    repo_root = config.repo_root
+    try:
+        # 変更されたファイルをステージ
+        subprocess.run(
+            ["git", "add", "-A"],
+            cwd=repo_root, check=True, capture_output=True,
+        )
+        # コミット
+        msg = f"fix(auto-audit): {fix_count}件の問題を自動修正 ({date})\n\nNR-AutoAuditor による自動修正"
+        subprocess.run(
+            ["git", "commit", "-m", msg],
+            cwd=repo_root, check=True, capture_output=True,
+        )
+        # プッシュ（リトライ付き）
+        for attempt in range(4):
+            result = subprocess.run(
+                ["git", "push", "origin", "main"],
+                cwd=repo_root, capture_output=True, text=True,
+            )
+            if result.returncode == 0:
+                return True
+            wait = 2 ** (attempt + 1)
+            logger.warning("git push 失敗 (attempt %d/4): %s — %d秒後にリトライ", attempt + 1, result.stderr.strip(), wait)
+            time.sleep(wait)
+        return False
+    except subprocess.CalledProcessError as e:
+        logger.error("git 操作失敗: %s", e)
+        return False
 
 
 def _show_stats(db: AuditDB) -> None:
@@ -325,7 +369,6 @@ def _show_stats(db: AuditDB) -> None:
 
     print("\n=== NR-AutoAuditor 統計情報 ===\n")
 
-    # 全体統計
     all_stats = db.get_stats()
     if all_stats and all_stats.get("total"):
         print("【累計】")
@@ -335,14 +378,12 @@ def _show_stats(db: AuditDB) -> None:
     else:
         print("まだ監査データがありません。")
 
-    # 今日の統計
     today_stats = db.get_stats(today)
     if today_stats and today_stats.get("total"):
         print(f"\n【今日 ({today})】")
         print(f"  総監査数: {today_stats['total']}")
         print(f"  OK: {today_stats['ok']} / WARNING: {today_stats['warning']} / ERROR: {today_stats['error']}")
 
-    # 直近のエラー
     errors = db.get_recent_errors(days=7)
     if errors:
         print(f"\n【直近7日間の ERROR ({len(errors)}件)】")
