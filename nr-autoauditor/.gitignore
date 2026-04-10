@@ -1,7 +1,0 @@
-# NR-AutoAuditor ローカルファイル
-.env
-audit_history.db
-backups/
-reports/*.md
-__pycache__/
-*.pyc
