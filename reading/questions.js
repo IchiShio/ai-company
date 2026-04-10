@@ -251,13 +251,7 @@ const DATA = [
     expl:"パッセージの冒頭で「Migration is the movement of people from one country or region to another」と定義されている。文脈から人間の国家間・地域間の移動を指している。",
     kp:["Migration is the movement of people from one country or region to another"] },
 
-  { id:"rp_global_02_2", pid:"global_02", diff:"lv1", axis:"detail",
-    passage:"Migration is the movement of people from one country or region to another. People migrate for various reasons, including seeking better job opportunities, escaping conflict, or reuniting with family members. Migration has become increasingly common in our globalized world.",
-    question:"パッセージに挙げられている移民の理由として、以下のうち含まれていないのはどれか？",
-    answer:"教育水準の向上",
-    choices:["より良い雇用機会を求めること", "紛争から逃げること", "教育水準の向上", "家族との再会"],
-    expl:"パッセージでは「seeking better job opportunities, escaping conflict, or reuniting with family members」が理由として述べられている。教育水準の向上は言及されていない。",
-    kp:["seeking better job opportunities", "escaping conflict", "reuniting with family members"] },
+    { id: "rp_global_02_2", pid: "global_02", diff: "lv1", axis: "detail", passage: "Migration is the movement of people from one country or region to another. People migrate for various reasons, including seeking better job opportunities, escaping conflict, or reuniting with family members. Migration has become increasingly common in our globalized world.", question: "パッセージに挙げられている移民の理由として、以下のうち含まれていないのはどれか？", answer: "教育水準の向上", choices: ["より良い雇用機会を求めること", "紛争から逃げること", "教育水準の向上", "家族との再会"], expl: "パッセージでは「seeking better job opportunities, escaping conflict, or reuniting with family members」が理由として述べられている。教育水準の向上は言及されていない。", kp: ["seeking better job opportunities", "escaping conflict", "reuniting with family members"] },
 
   { id:"rp_health_01_1", pid:"health_01", diff:"lv1", axis:"main_idea",
     passage:"Drinking water is important for your health. Water helps your body function properly. You should drink about eight glasses of water every day.",
@@ -379,13 +373,7 @@ const DATA = [
     expl:"passage内で「Without bees, many fruits and vegetables would not exist because bees help pollinate plants」と述べられており、受粉を助けることがミツバチの重要性だとわかります。",
     kp:["help pollinate plants", "Without bees, many fruits and vegetables would not exist"] },
 
-  { id:"rp_nature_02_2", pid:"nature_02", diff:"lv1", axis:"vocab_context",
-    passage:"Bees are important insects that help plants grow. They collect nectar from flowers and make honey. Without bees, many fruits and vegetables would not exist because bees help pollinate plants.",
-    question:"文中の「pollinate」の意味として最も適切なものは？",
-    answer:"受粉させる",
-    choices:["食べる", "受粉させる", "保護する", "育つ"],
-    expl:"「bees help pollinate plants」の文脈から、ミツバチが植物に対して行う自然なプロセスが受粉であることが推測できます。果物や野菜の存在に必要とされているプロセスです。",
-    kp:["help pollinate plants", "fruits and vegetables"] },
+    { id: "rp_nature_02_2", pid: "nature_02", diff: "lv1", axis: "vocab_context", passage: "Bees are important insects that help plants grow. They collect nectar from flowers and make honey. Without bees, many fruits and vegetables would not exist because bees help pollinate plants.", question: "文中の「pollinate」の意味として最も適切なものは？", answer: "受粉させる", choices: ["食べる", "受粉させる", "保護する", "育つ"], expl: "「bees help pollinate plants」の文脈から、ミツバチが植物に対して行う自然なプロセスが受粉であることが推測できます。果物や野菜の存在に必要とされているプロセスです。", kp: ["help pollinate plants", "fruits and vegetables"] },
 
   { id:"rp_psych_01_1", pid:"psych_01", diff:"lv1", axis:"main_idea",
     passage:"When you feel stressed, your body releases hormones like cortisol and adrenaline. These chemicals help you respond to danger quickly. However, if stress lasts too long, these hormones can make you sick.",
@@ -932,13 +920,7 @@ const DATA = [
     expl:"「threatens coastal communities」というフレーズから、著者は沿岸地域の人々の状況を危機的なものと捉えており、懸念の姿勢が読み取れる。",
     kp:["threatens coastal communities"] },
 
-  { id:"rp_env_04_1", pid:"env_04", diff:"lv2", axis:"detail",
-    passage:"Renewable energy sources like solar and wind power are becoming increasingly affordable. Battery storage technology has also improved, making it possible to store energy for use during cloudy or windless periods. These advances are making the transition to clean energy more practical than ever.",
-    question:"バッテリー貯蔵技術の改善により何が可能になったか？",
-    answer:"曇りや無風の時間帯での使用のためにエネルギーを貯蔵すること",
-    choices:["より多くの太陽光パネルの製造", "曇りや無風の時間帯での使用のためにエネルギーを貯蔵すること", "化石燃料の生産増加", "エネルギーコストの上昇"],
-    expl:"パッセージで「Battery storage technology has also improved, making it possible to store energy for use during cloudy or windless periods」と明記されている。",
-    kp:["store energy for use during cloudy or windless periods"] },
+    { id: "rp_env_05_1", pid: "env_05", diff: "lv2", axis: "main_idea", passage: "Deforestation is one of the leading causes of biodiversity loss and climate change. When forests are cleared for agriculture or development, thousands of species lose their habitats. Moreover, trees absorb carbon dioxide from the atmosphere, so removing them accelerates global warming.", question: "森林破壊がもたらす複数の悪影響は？", answer: "生物多様性の喪失、気候変動の加速、生息地の破壊", choices: ["農業生産性の向上のみ", "生物多様性の喪失、気候変動の加速、生息地の破壊", "大気汚染の減少", "人口増加の制御"], expl: "パッセージは森林破壊により「biodiversity loss and climate change」が起こり、「thousands of species lose their habitats」となり、「global warming」が加速することを説明している。", kp: ["biodiversity loss and climate change", "lose their habitats"] },
 
   { id:"rp_env_04_2", pid:"env_04", diff:"lv2", axis:"tone",
     passage:"Renewable energy sources like solar and wind power are becoming increasingly affordable. Battery storage technology has also improved, making it possible to store energy for use during cloudy or windless periods. These advances are making the transition to clean energy more practical than ever.",
@@ -1084,13 +1066,7 @@ const DATA = [
     expl:"パッセージで「A balanced diet includes fruits, vegetables, whole grains, and lean proteins. These foods provide essential nutrients」と述べられており、バランスの取れた食事が必要な栄養素を提供することが示されています。",
     kp:["A balanced diet includes fruits, vegetables, whole grains, and lean proteins", "provide essential nutrients"] },
 
-  { id:"rp_health_04_2", pid:"health_04", diff:"lv2", axis:"inference",
-    passage:"A balanced diet includes fruits, vegetables, whole grains, and lean proteins. These foods provide essential nutrients your body needs. Eating a variety of colorful foods ensures you get different vitamins and minerals for optimal health.",
-    question:"パッセージから、なぜ様々な色の食べ物を食べるべきなのかが推測できますか？",
-    answer:"異なるビタミンとミネラルを摂取するため",
-    choices:["見た目を美しくするため", "異なるビタミンとミネラルを摂取するため", "食事の準備を簡単にするため", "体重を減らすため"],
-    expl:"パッセージに「Eating a variety of colorful foods ensures you get different vitamins and minerals for optimal health」と述べられており、様々な色の食べ物を食べることで異なるビタミンとミネラルが得られることが示唆されています。",
-    kp:["Eating a variety of colorful foods ensures you get different vitamins and minerals"] },
+    { id: "rp_health_05_2", pid: "health_05", diff: "lv2", axis: "detail", passage: "Stress management is essential for overall wellness. Chronic stress can lead to serious health problems including high blood pressure and heart disease. Meditation, yoga, and spending time in nature are effective ways to reduce stress and improve mental health.", question: "パッセージで述べられているストレス軽減方法として含まれていないのは？", answer: "カフェイン摂取", choices: ["瞑想", "カフェイン摂取", "ヨガ", "自然の中で過ごす"], expl: "パッセージに「Meditation, yoga, and spending time in nature are effective ways to reduce stress」と述べられており、カフェインはストレス軽減方法として言及されていません。", kp: ["Meditation, yoga, and spending time in nature are effective ways to reduce stress"] },
 
   { id:"rp_health_05_1", pid:"health_05", diff:"lv2", axis:"main_idea",
     passage:"Stress management is essential for overall wellness. Chronic stress can lead to serious health problems including high blood pressure and heart disease. Meditation, yoga, and spending time in nature are effective ways to reduce stress and improve mental health.",
@@ -2237,13 +2213,7 @@ const DATA = [
     expl:"\"Cornerstone\"は基礎や最も重要な部分を意味します。文脈で「Regular screenings, vaccinations, and lifestyle modifications are cornerstone strategies」と述べられており、予防医療の最も基本的で不可欠な要素であることが示されています。",
     kp:["Regular screenings, vaccinations, and lifestyle modifications are cornerstone strategies"] },
 
-  { id:"rp_health_07_3", pid:"health_07", diff:"lv3", axis:"inference",
-    passage:"Preventive healthcare focuses on maintaining health and avoiding disease rather than treating illness after it occurs. Regular screenings, vaccinations, and lifestyle modifications are cornerstone strategies. By adopting preventive measures early, individuals can significantly reduce their medical expenses and improve their quality of life substantially.",
-    question:"予防医療の早期採用がなぜ医療費を削減するのかが示唆されていますか？",
-    answer:"深刻な病気の治療費を防ぐことができるから",
-    choices:["医師の診察を完全に避けられるから", "深刻な病気の治療費を防ぐことができるから", "すべての医療サービスが無料になるから", "政府が医療費を負担するから"],
-    expl:"パッセージで「avoiding disease rather than treating illness after it occurs」と述べられており、病気が発生する前に防ぐことで、その後の高額な治療費を避けられることが暗に示唆されています。",
-    kp:["avoiding disease rather than treating illness after it occurs", "reduce their medical expenses"] },
+    { id: "rp_health_08_2", pid: "health_08", diff: "lv3", axis: "detail", passage: "Mental health is equally important as physical health, yet it often receives less attention in healthcare discussions. Depression, anxiety, and other psychological disorders significantly impact daily functioning and overall well-being. Seeking professional help, maintaining social connections, and engaging in enjoyable activities are vital components of mental health care.", question: "パッセージで述べられている精神衛生ケアの不可欠な成分として挙げられていないのは？", answer: "高額な医療保険への加入", choices: ["専門家の助言を求める", "高額な医療保険への加入", "社会的なつながりを維持する", "楽しい活動に参加する"], expl: "パッセージで「Seeking professional help, maintaining social connections, and engaging in enjoyable activities are vital components」と述べられており、高額な医療保険は言及されていません。", kp: ["Seeking professional help, maintaining social connections, and engaging in enjoyable activities"] },
 
   { id:"rp_health_08_1", pid:"health_08", diff:"lv3", axis:"tone",
     passage:"Mental health is equally important as physical health, yet it often receives less attention in healthcare discussions. Depression, anxiety, and other psychological disorders significantly impact daily functioning and overall well-being. Seeking professional help, maintaining social connections, and engaging in enjoyable activities are vital components of mental health care.",
@@ -2277,13 +2247,7 @@ const DATA = [
     expl:"パッセージは、ルネッサンスが「unprecedented developments in art, science, and literature that would reshape European civilization」をもたらしたと述べており、この表現は単なる表面的な変化ではなく、ヨーロッパ文明の根本的な再構成を意味しています。",
     kp:["reshape European civilization", "unprecedented developments in art, science, and literature"] },
 
-  { id:"rp_hist_06_3", pid:"hist_06", diff:"lv3", axis:"vocab_context",
-    passage:"The Renaissance, which began in Italy during the 14th century, was a cultural and intellectual movement that emphasized humanism and the revival of classical knowledge. Artists and scholars of this period sought to break away from medieval traditions by studying ancient Greek and Roman texts and artworks. This era witnessed unprecedented developments in art, science, and literature that would reshape European civilization.",
-    question:"文中の「humanism」が文脈で示す意味として最も適切なものは？",
-    answer:"人間の理性と価値を強調する思想",
-    choices:["慈善活動の実践", "人間の理性と価値を強調する思想", "宗教的道徳の厳格さ", "国家権力の絶対性"],
-    expl:"パッセージの文脈から、humanismは古典知識の復興や中世的伝統からの決別と並置されており、人間の理性と能力を重視する思想体系を表しています。",
-    kp:["humanism", "studying ancient Greek and Roman texts"] },
+    { id: "rp_hist_07_2", pid: "hist_07", diff: "lv3", axis: "detail", passage: "The Silk Road was not a single road but rather a vast network of trade routes that connected East Asia with the Mediterranean region. For over 1,500 years, merchants, pilgrims, and adventurers traveled these routes, exchanging not only goods but also ideas, religions, and technologies. The Silk Road facilitated cultural interactions that profoundly influenced the development of civilizations across Asia, Europe, and the Middle East.", question: "シルクロードを利用した人々の主要な目的として、パッセージで明記されていないものは？", answer: "軍事的な征服", choices: ["商品の取引", "宗教の伝播", "軍事的な征服", "技術の交換"], expl: "パッセージでは「merchants, pilgrims, and adventurers」が「exchanging not only goods but also ideas, religions, and technologies」を行ったと述べられており、軍事的な征服については全く触れられていません。", kp: ["merchants, pilgrims, and adventurers", "exchanging goods, ideas, religions, and technologies"] },
 
   { id:"rp_hist_07_1", pid:"hist_07", diff:"lv3", axis:"vocab_context",
     passage:"The Silk Road was not a single road but rather a vast network of trade routes that connected East Asia with the Mediterranean region. For over 1,500 years, merchants, pilgrims, and adventurers traveled these routes, exchanging not only goods but also ideas, religions, and technologies. The Silk Road facilitated cultural interactions that profoundly influenced the development of civilizations across Asia, Europe, and the Middle East.",
@@ -2333,13 +2297,7 @@ const DATA = [
     expl:"「harmony（調和）」「respect（敬意）」「purity（清浄）」「tranquility（静寂）」といった原則から、茶道が参加者に心の平穏と精神的な深さを求める、瞑想的な実践であることが推論できます。",
     kp:["harmony, respect, purity, and tranquility", "mindfulness"] },
 
-  { id:"rp_life_06_1", pid:"life_06", diff:"lv3", axis:"main_idea",
-    passage:"The resurgence of vinyl records among younger generations has intrigued music industry observers. Nostalgia alone cannot account for this phenomenon; the tactile experience of playing records and the deliberate pace of listening foster a deeper connection to music. Unlike digital streaming, which prioritizes convenience and instant gratification, vinyl ownership demands intentionality and rewards attentiveness.",
-    question:"このパッセージは、若い世代がレコードに関心を持つ理由をどのように説明していますか？",
-    answer:"ノスタルジア以上に、音楽との深い関係性を生み出す体験価値にある",
-    choices:["単純にレコードが最新技術であるから", "親世代の影響だけが理由である", "ノスタルジア以上に、音楽との深い関係性を生み出す体験価値にある", "デジタルストリーミングが廃止されたから"],
-    expl:"パッセージは「ノスタルジアだけではこの現象を説明できない」と述べた上で、「レコードを再生する物理的な体験」と「聴き方の意図性」が音楽との深い結びつきを生み出すと説明しています。",
-    kp:["Nostalgia alone cannot account for this phenomenon", "tactile experience and deliberate pace foster a deeper connection"] },
+    { id: "rp_life_06_3", pid: "life_06", diff: "lv3", axis: "tone", passage: "The resurgence of vinyl records among younger generations has intrigued music industry observers. Nostalgia alone cannot account for this phenomenon; the tactile experience of playing records and the deliberate pace of listening foster a deeper connection to music. Unlike digital streaming, which prioritizes convenience and instant gratification, vinyl ownership demands intentionality and rewards attentiveness.", question: "このパッセージにおける著者のトーンをどのように特徴づけることができますか？", answer: "分析的で、興味深い文化現象を説明しようとしている", choices: ["ビニール記録に対して批判的で反対している", "デジタルストリーミングを強く支持している", "分析的で、興味深い文化現象を説明しようとしている", "両者は同等であると主張している"], expl: "パッセージは「intrigued observers」という表現から始まり、単純な説明を避け、ノスタルジア以上の理由を丁寧に説明しており、現象を分析的に理解しようとする態度が明らかです。", kp: ["intrigued music industry observers", "Unlike digital streaming, which prioritizes"] },
 
   { id:"rp_life_06_2", pid:"life_06", diff:"lv3", axis:"vocab_context",
     passage:"The resurgence of vinyl records among younger generations has intrigued music industry observers. Nostalgia alone cannot account for this phenomenon; the tactile experience of playing records and the deliberate pace of listening foster a deeper connection to music. Unlike digital streaming, which prioritizes convenience and instant gratification, vinyl ownership demands intentionality and rewards attentiveness.",
@@ -2573,13 +2531,7 @@ const DATA = [
     expl:"パッセージに「volcanic activity in India...may have exacerbated the environmental catastrophe」と明記されており、exacerbatedは「悪化させた」という意味です。",
     kp:["may have exacerbated the environmental catastrophe"] },
 
-  { id:"rp_society_06_1", pid:"society_06", diff:"lv3", axis:"main_idea",
-    passage:"Educational inequality remains a persistent challenge in developing nations. Rural students frequently encounter obstacles such as limited access to quality teachers, inadequate learning materials, and insufficient infrastructure. Bridging this divide requires substantial investment in rural schools and innovative teaching methods that can be implemented even in resource-constrained environments.",
-    question:"このパッセージの中心的な主張は何か？",
-    answer:"発展途上国における農村部の教育格差を解決するには多面的なアプローチが必要",
-    choices:["都市部の教育は完璧である", "発展途上国における農村部の教育格差を解決するには多面的なアプローチが必要", "農村部の学生は教育を受けるべきではない", "テクノロジーだけが唯一の解決策である"],
-    expl:"パッセージは農村部の具体的な課題を列挙した後、『Bridging this divide requires substantial investment in rural schools and innovative teaching methods』と述べており、投資と革新的な教育方法を組み合わせた解決策が必要であることが示唆されている。",
-    kp:["Educational inequality remains a persistent challenge", "Bridging this divide requires substantial investment and innovative teaching methods"] },
+    { id: "rp_society_06_3", pid: "society_06", diff: "lv3", axis: "detail", passage: "Educational inequality remains a persistent challenge in developing nations. Rural students frequently encounter obstacles such as limited access to quality teachers, inadequate learning materials, and insufficient infrastructure. Bridging this divide requires substantial investment in rural schools and innovative teaching methods that can be implemented even in resource-constrained environments.", question: "農村部の学生が直面している具体的な課題として、パッセージで挙げられていないものはどれか？", answer: "学生の学習意欲の不足", choices: ["質の高い教師へのアクセス不足", "学生の学習意欲の不足", "学習教材の不足", "インフラの不足"], expl: "パッセージは『limited access to quality teachers, inadequate learning materials, and insufficient infrastructure』を具体的な課題として挙げているが、学生の学習意欲については言及されていない。", kp: ["limited access to quality teachers", "inadequate learning materials", "insufficient infrastructure"] },
 
   { id:"rp_society_06_2", pid:"society_06", diff:"lv3", axis:"vocab_context",
     passage:"Educational inequality remains a persistent challenge in developing nations. Rural students frequently encounter obstacles such as limited access to quality teachers, inadequate learning materials, and insufficient infrastructure. Bridging this divide requires substantial investment in rural schools and innovative teaching methods that can be implemented even in resource-constrained environments.",
@@ -3062,13 +3014,7 @@ const DATA = [
     expl:"パッセージの最後に「not merely nostalgic regression, but rather a psychologically and physiologically informed adaptive strategy」と明記されており、著者の肯定的評価が示されています。",
     kp:["not merely nostalgic regression", "psychologically and physiologically informed adaptive strategy"] },
 
-  { id:"rp_daily_09_4", pid:"daily_09", diff:"lv4", axis:"detail",
-    passage:"The proliferation of digital technologies has fundamentally altered our quotidian patterns, yet paradoxically, individuals increasingly seek to recuperate analog practices through deliberate habit reconstruction. This counterintuitive trend manifests notably in the resurgence of handwritten journaling, digital detox protocols, and ritualistic morning routines eschewing screens. Neuroscientific discourse substantiates the efficacy of such intentional disengagement, demonstrating that cyclical periods of minimal technological stimulation facilitate enhanced neural plasticity and attenuate the deleterious effects of chronic digital saturation. Consequently, the deliberate cultivation of pre-digital habits represents not merely nostalgic regression, but rather a psychologically and physiologically informed adaptive strategy.",
-    question:"パッセージで言及されているアナログ習慣の具体例は何ですか？",
-    answer:"手書き日記、デジタルデトックス、スクリーンのない朝のルーティン",
-    choices:["読書と映画鑑賞", "手書き日記、デジタルデトックス、スクリーンのない朝のルーティン", "運動と瞑想", "音楽鑑賞と料理"],
-    expl:"パッセージに「handwritten journaling, digital detox protocols, and ritualistic morning routines eschewing screens」と明記されています。",
-    kp:["handwritten journaling, digital detox protocols, and ritualistic morning routines eschewing screens"] },
+    { id: "rp_env_09_3", pid: "env_09", diff: "lv4", axis: "inference", passage: "The phenomenon of ocean acidification, precipitated by increased atmospheric CO₂ absorption, fundamentally alters the chemical equilibrium of marine ecosystems. This process undermines the calcification mechanisms of mollusks and corals, rendering them more susceptible to skeletal degradation. Consequently, the cascading ecological ramifications pose an existential threat not merely to individual species but to the intricate food webs that sustain marine biodiversity. Policymakers have begun acknowledging this threat, yet the lag between scientific consensus and regulatory implementation remains problematically protracted.", question: "著者が「problematically protracted」という表現で意図している含意は？", answer: "科学的知見と政策実行の間の時間的遅れが現在の環境危機において許容できない水準であることへの批判的な評価", choices: ["政策立案プロセスは必然的に長期間を要するものである", "科学的知見が常に信頼できるわけではない", "科学的知見と政策実行の間の時間的遅れが現在の環境危機において許容できない水準であることへの批判的な評価", "規制機関は科学的証拠に完全に従う必要がない"], expl: "「problematically」は問題性を示唆し、「protracted」は過度に長引いている状態を意味する。文脈から、このような遅れが海洋酸性化の脅威の深刻さに対して不適切であることが批判的に述べられている。", kp: ["lag between scientific consensus and regulatory implementation"] },
 
   { id:"rp_edu_09_1", pid:"edu_09", diff:"lv4", axis:"main_idea",
     passage:"The proliferation of digital learning platforms has precipitated a paradigm shift in pedagogical methodologies, enabling unprecedented customization of educational experiences. Algorithmic personalization mechanisms facilitate adaptive learning pathways that dynamically calibrate content difficulty and pacing to individual learner profiles. Nonetheless, scholars remain circumspect regarding the pedagogical implications of algorithmic bias and the potential attenuation of human pedagogical relationships, which constitute a fundamental dimension of holistic educational development.",
@@ -3302,13 +3248,7 @@ const DATA = [
     expl:"『emerged as a salient predictor of interpersonal success and psychological well-being』という文脈から、salientは「重要で顕著な」という意味であり、emotional intelligenceが対人的成功と心理的幸福の重要な予測因子であることを示しています。",
     kp:["salient predictor of interpersonal success", "emerged as"] },
 
-  { id:"rp_psych_09_2", pid:"psych_09", diff:"lv4", axis:"main_idea",
-    passage:"The concept of emotional intelligence, encompassing the ability to perceive, interpret, manage, and utilize emotions effectively, has emerged as a salient predictor of interpersonal success and psychological well-being. Contemporary research elucidates that individuals possessing elevated levels of emotional intelligence demonstrate superior conflict resolution capabilities, exhibit heightened empathetic responses, and sustain more fulfilling relational dynamics. Furthermore, the cultivation of emotional intelligence through structured interventions has been demonstrated to yield significant ameliorations in both professional and personal life trajectories, suggesting its instrumental value extends beyond mere personality taxonomy.",
-    question:"このパッセージの主旨は何か？",
-    answer:"感情知能は対人的成功と心理的幸福の重要な要因であり、その発展は人生の多くの領域で有益である",
-    choices:["感情知能は生まれながらに決定される不変の特性である", "感情知能は対人的成功と心理的幸福の重要な要因であり、その発展は人生の多くの領域で有益である", "感情知能の発展は不可能である", "感情の管理は人間関係に悪影響を与える"],
-    expl:"パッセージ全体を通じて、感情知能の定義、その心理的利益、そしてそれが構造的介入を通じて発展させることができることが述べられており、それが個人的および専門的人生に利益をもたらすことが示唆されています。",
-    kp:["emotional intelligence has emerged as a salient predictor", "the cultivation of emotional intelligence through structured interventions"] },
+    { id: "rp_sports_09_3", pid: "sports_09", diff: "lv4", axis: "detail", passage: "The phenomenon of athlete burnout has emerged as a significant concern in contemporary sports medicine, particularly among young competitors subjected to intensive regimens from adolescence. Burnout is characterized by emotional exhaustion, reduced athletic commitment, and diminished accomplishment despite rigorous training. Longitudinal studies suggest that overemphasis on winning at developmental stages may precipitate psychological disengagement, necessitating a paradigm shift toward holistic athlete development that prioritizes intrinsic motivation and long-term wellbeing.", question: "バーンアウトの特性としてパッセージで示されていないものは？", answer: "肉体的な怪我の増加", choices: ["感情的疲弊", "競技への関心低下", "成就感の低下", "肉体的な怪我の増加"], expl: "パッセージは「emotional exhaustion, reduced athletic commitment, and diminished accomplishment」の3つをバーンアウトの特性として示しており、肉体的な怪我については言及していない。", kp: ["emotional exhaustion, reduced athletic commitment, and diminished accomplishment"] },
 
   { id:"rp_psych_09_3", pid:"psych_09", diff:"lv4", axis:"inference",
     passage:"The concept of emotional intelligence, encompassing the ability to perceive, interpret, manage, and utilize emotions effectively, has emerged as a salient predictor of interpersonal success and psychological well-being. Contemporary research elucidates that individuals possessing elevated levels of emotional intelligence demonstrate superior conflict resolution capabilities, exhibit heightened empathetic responses, and sustain more fulfilling relational dynamics. Furthermore, the cultivation of emotional intelligence through structured interventions has been demonstrated to yield significant ameliorations in both professional and personal life trajectories, suggesting its instrumental value extends beyond mere personality taxonomy.",
