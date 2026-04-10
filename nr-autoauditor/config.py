@@ -34,7 +34,7 @@ class Config:
 
     # ── Ollama / Gemma 4 設定 ──
     ollama_base_url: str = "http://localhost:11434"
-    ollama_model: str = "gemma3:27b"
+    ollama_model: str = "gemma4:27b"
     # Ollama API タイムアウト（秒）
     ollama_timeout: int = 120
     # 並列リクエスト数（Ollama はローカル実行なので控えめに）
