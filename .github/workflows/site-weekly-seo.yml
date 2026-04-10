@@ -1,4 +1,4 @@
-name: 週次SEO調査・内部リンク最適化
+name: "[site] 週次SEO調査・内部リンク最適化"
 
 on:
   schedule:
@@ -11,6 +11,10 @@ permissions:
 jobs:
   seo:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+
     steps:
       - uses: actions/checkout@v4
 
@@ -38,7 +42,6 @@ jobs:
           client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
           today = datetime.date.today().strftime("%Y-%m-%d")
 
-          # 既存記事スラッグ一覧
           articles = [p.parent.name for p in Path("articles").glob("*/index.html")]
           articles_list = "\n".join(f"- {s}" for s in sorted(articles))
 
@@ -49,24 +52,24 @@ jobs:
                   "role": "user",
                   "content": f"""あなたはnative-real.com（英語学習サービス比較サイト）のSEO担当者です。
 
-既存記事スラッグ一覧:
-{articles_list}
+          既存記事スラッグ一覧:
+          {articles_list}
 
-以下の観点でSEOレポートを日本語で作成してください（Markdown形式）：
+          以下の観点でSEOレポートを日本語で作成してください（Markdown形式）：
 
-## 今週のSEOチェックポイント
+          ## 今週のSEOチェックポイント
 
-## 強化すべきキーワード候補（5件）
-各キーワードに：想定月間検索数、競合難易度（低/中/高）、記事化の優先度
+          ## 強化すべきキーワード候補（5件）
+          各キーワードに：想定月間検索数、競合難易度（低/中/高）、記事化の優先度
 
-## 既存記事の改善提案（3件）
-タイトル最適化・メタディスクリプション改善など具体的に
+          ## 既存記事の改善提案（3件）
+          タイトル最適化・メタディスクリプション改善など具体的に
 
-## 内部リンク強化の提案
-どのページからどのページへリンクを追加すべきか
+          ## 内部リンク強化の提案
+          どのページからどのページへリンクを追加すべきか
 
-## 来週のアクション
-"""
+          ## 来週のアクション
+          """
               }]
           )
 

@@ -1,4 +1,4 @@
-name: 週次アナリティクスレポート
+name: "[site] 週次レポート"
 
 on:
   schedule:
@@ -11,6 +11,10 @@ permissions:
 jobs:
   report:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+
     steps:
       - uses: actions/checkout@v4
 

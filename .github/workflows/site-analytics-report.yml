@@ -1,15 +1,18 @@
-name: 週次アナリティクスレポート
+name: "[site] 週次アナリティクスレポート"
 
 on:
   schedule:
     - cron: '0 1 * * 1'   # 毎週月曜 10:00 JST (01:00 UTC)
-  workflow_dispatch:        # 手動実行も可能
+  workflow_dispatch:
 
 jobs:
   generate-report:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    defaults:
+      run:
+        working-directory: site
 
     steps:
       - name: Checkout

@@ -1,9 +1,8 @@
-name: listenup weekly email
+name: "[site] ListenUp weekly email"
 
 on:
   schedule:
-    # 毎週月曜 7:00 JST = 日曜 22:00 UTC
-    - cron: '0 22 * * 0'
+    - cron: '0 22 * * 0'  # 毎週月曜 7:00 JST = 日曜 22:00 UTC
   workflow_dispatch:
     inputs:
       dry_run:
@@ -14,6 +13,10 @@ on:
 jobs:
   send:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+
     steps:
       - uses: actions/checkout@v4
 

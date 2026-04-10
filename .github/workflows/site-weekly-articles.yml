@@ -1,9 +1,9 @@
-name: 週次記事自動生成
+name: "[site] 週次記事自動生成"
 
 on:
   schedule:
     - cron: '0 0 * * 3'  # 毎週水曜 09:00 JST
-  workflow_dispatch:       # 手動実行も可
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,6 +11,10 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+
     steps:
       - uses: actions/checkout@v4
 
