@@ -104,6 +104,7 @@
 - 2026-04-08: 20問追加（g1468-g1487）、計1445問（can't have pp否定推量・be satisfied with感情形容詞・get+O+to使役・Never before倒置・not so much A as B・Having been完了受動分詞構文・lest否定目的・in front of外側前置詞・Were it not for仮定法倒置・only to否定的結果・while対比・with+O+pp付帯状況・as is often the case慣用表現・what is worse慣用挿入句・be reported to受動不定詞・whether間接疑問・比較級harder than・have difficulty動名詞・It is high time仮定法過去・even if仮定条件）
 - 2026-04-09: 20問追加（g1488-g1507）、計1465問（現在完了yet・過去受動態・非制限用法which・分詞構文理由・仮定法過去if・seem to have pp・despite前置詞・should have過去後悔・否定同等比較not as as・on time前置詞・worth動名詞・倒置Never had・関係副詞where・使役get pp・知覚動詞hear原形・仮定法過去完了・最上級ever・not only but also・by means of手段・完了分詞構文Having pp）
 - 2026-04-09: 20問追加（g1508-g1527）、計1485問（現在完了進行形・不定詞形容詞的用法・関係代名詞which・仮定法現在insist・despite逆接・used to過去習慣・否定副詞倒置Rarely・関係副詞when・知覚動詞see V-ing・have been to経験・surprised at感情前置詞・間接疑問語順・enjoy動名詞・現在受動態・wish仮定法過去・強調did・普遍的事実現在形・付帯状況with O pp・come up with句動詞・such that結果）
+- 2026-04-10: 20問追加（g1528-g1547）、計1505問（not A but B・仮定法過去完了・too-to・whose所有格・不定詞否定not to V・過去受動態・despite前置詞・since現在完了・regret to V vs V-ing・関係副詞where・must義務・suggest仮定法現在・No sooner倒置・as-as同等比較・must have pp確信・強調構文it was・put off句動詞・while対比・現在完了already・provided that条件）
 
 ### [x] NewsUp MVP実装
 - VOA記事ベースのニュース英語読解クイズ
