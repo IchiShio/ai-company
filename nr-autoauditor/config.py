@@ -34,12 +34,12 @@ class Config:
 
     # ── Ollama / Gemma 4 設定 ──
     ollama_base_url: str = "http://localhost:11434"
-    # 3段階パイプライン用モデル設定
-    screening_model: str = "gemma4:e4b"    # 1次スクリーニング（高速）
-    audit_model: str = "gemma4:31b"        # 2次精密監査（高精度）
-    fix_model: str = "gemma4:31b"          # 3次修正生成（高精度）
+    # モデル設定（全段階で同一モデルを使用）
+    screening_model: str = "gemma4:e4b"    # 1次スクリーニング
+    audit_model: str = "gemma4:e4b"        # 2次精密監査
+    fix_model: str = "gemma4:e4b"          # 3次修正生成
     # Ollama API タイムアウト（秒）
-    ollama_timeout: int = 180
+    ollama_timeout: int = 120
     # 並列リクエスト数（Ollama はローカル実行なので控えめに）
     max_concurrency: int = 4
     # リトライ回数

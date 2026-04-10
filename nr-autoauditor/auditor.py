@@ -144,12 +144,13 @@ async def _call_ollama(
     prompt: str,
     max_tokens: int = 2048,
 ) -> str:
-    """Ollama API にリクエストを送信（モデルを明示的に指定）"""
+    """Ollama API にリクエストを送信（JSON モード強制）"""
     url = f"{config.ollama_base_url}/api/generate"
     payload = {
         "model": model,
         "prompt": prompt,
         "stream": False,
+        "format": "json",  # JSON 出力を強制
         "options": {
             "temperature": 0.1,  # 監査は確定的であるべき
             "num_predict": max_tokens,

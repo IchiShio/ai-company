@@ -144,7 +144,10 @@ async def run_audit(args: argparse.Namespace) -> int:
         logger.warning("kill-switch が有効です。処理を中止します。")
         return 1
 
-    pipeline_mode = "SINGLE (31b only)" if args.single_stage else "3-STAGE (e4b → 31b → 31b)"
+    pipeline_mode = (
+        f"SINGLE ({config.audit_model})" if args.single_stage
+        else f"3-STAGE ({config.screening_model} → {config.audit_model})"
+    )
 
     logger.info("=" * 60)
     logger.info("NR-AutoAuditor 開始")
