@@ -52,17 +52,21 @@ Check ALL of the following (in order of severity):
 5. **Grammar error in question text**: The English sentence has a grammatical error (unless intentional for the quiz).
 6. **GrammarUp: Answer doesn't fit the blank**: For fill-in-the-blank questions, the answer must grammatically fit.
 
-#### IMPORTANT (status = WARNING only — never ERROR)
-7. **Japanese translation mismatch**: The `japanese_translation` does not accurately reflect the English text. Note: natural/colloquial translations are acceptable. "back" can be translated as 腰 or 背中 depending on context — both are valid.
-8. **Explanation could be improved**: The explanation is not wrong but could be clearer or more detailed. This is NEVER an ERROR — only WARNING.
+#### IMPORTANT (status = WARNING only — NEVER ERROR for these)
+7. **Japanese translation mismatch**: Only flag as WARNING if the translation conveys a completely WRONG meaning. Synonym choices and natural translations are NOT issues.
+8. **Explanation could be improved**: NEVER flag explanation quality as ERROR. Only WARNING if factually wrong.
 9. **Distractor quality**: Choices are too obvious or not plausible enough.
 10. **Difficulty mismatch**: The question difficulty doesn't match its assigned level.
 
-#### NOT AN ISSUE (do NOT flag these)
-- Explanation style preferences (too brief, too verbose, etc.)
-- Explanation uses a general term when a specific one exists (e.g., "infrastructure" vs "water main") — unless it causes learner confusion
-- Translation uses a synonym or natural equivalent rather than a literal translation
+#### NOT AN ISSUE (status = OK — do NOT flag these at all)
+- "back" translated as 腰 or 背中 — both are valid Japanese for English "back"
+- "cleaning" vs "checkup" when the overall meaning is preserved in context
+- Explanation focuses on one key word rather than the full sentence
+- Explanation uses a general term instead of a specific one (e.g., "infrastructure" vs "water pipe")
+- Translation uses a synonym or natural equivalent
+- Explanation style preferences (too brief, too verbose, too narrow)
 - Minor differences in nuance between English and Japanese
+- The correct_answer is already correct but could be worded differently
 
 ### CATEGORY-SPECIFIC RULES
 

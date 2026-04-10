@@ -125,7 +125,7 @@ def _parse_audit_response(response_text: str, question_id: str, model: str) -> A
                 suggested=str(fs.get("suggested", "")),
             ))
 
-    return AuditResult(
+    result = AuditResult(
         question_id=data.get("question_id", question_id),
         category=data.get("category", "unknown"),
         status=status,
@@ -135,6 +135,47 @@ def _parse_audit_response(response_text: str, question_id: str, model: str) -> A
         reasoning=data.get("reasoning", ""),
         model_used=model,
     )
+
+    # 後処理フィルター: 誤検出を自動降格
+    result = _postprocess_result(result)
+    return result
+
+
+def _postprocess_result(result: AuditResult) -> AuditResult:
+    """LLM の誤検出を後処理でフィルター"""
+    if result.status == AuditStatus.OK:
+        return result
+
+    # 修正提案が現在値と同じ → 実質問題なし → OK に降格
+    if result.fix_suggestions:
+        all_noop = all(
+            fs.current.strip() == fs.suggested.strip()
+            for fs in result.fix_suggestions
+        )
+        if all_noop:
+            logger.info("後処理: %s を OK に降格（修正提案=現在値）", result.question_id)
+            result.status = AuditStatus.OK
+            result.fix_suggestions = []
+            result.issues = []
+            return result
+
+    # 解説改善・翻訳ニュアンスの指摘は ERROR → WARNING に降格
+    if result.status == AuditStatus.ERROR:
+        downgrade_keywords = [
+            "explanation", "too narrow", "too brief", "could be",
+            "style", "verbose", "nuance", "synonym",
+            "interpretation", "wording",
+        ]
+        issues_text = " ".join(result.issues).lower()
+        if any(kw in issues_text for kw in downgrade_keywords):
+            # 正解自体が間違っている場合は降格しない
+            critical_keywords = ["not in choices", "wrong correct answer", "grammar error"]
+            if not any(kw in issues_text for kw in critical_keywords):
+                logger.info("後処理: %s を WARNING に降格（解説/翻訳の改善提案）", result.question_id)
+                result.status = AuditStatus.WARNING
+                result.confidence = min(result.confidence, 0.85)
+
+    return result
 
 
 async def _call_ollama(
