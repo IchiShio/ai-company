@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="perfectGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#657786;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8a9bb0;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="commsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- タイトル -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">完璧主義 vs 伝達優先｜上達曲線の比較</text>
+
+  <!-- グラフエリア -->
+  <!-- Y軸ラベル -->
+  <text x="68" y="110" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">英語力</text>
+  <text x="68" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">（伝達力）</text>
+
+  <!-- グラフ枠 -->
+  <rect x="110" y="90" width="960" height="460" fill="none" stroke="#2d3748" stroke-width="1" rx="4"/>
+
+  <!-- グリッド線 -->
+  <line x1="110" y1="205" x2="1070" y2="205" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="320" x2="1070" y2="320" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+  <line x1="110" y1="435" x2="1070" y2="435" stroke="#2d3748" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Y軸目盛りラベル -->
+  <text x="96" y="550" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">初級</text>
+  <text x="96" y="435" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">中級</text>
+  <text x="96" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">上級</text>
+  <text x="96" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">流暢</text>
+
+  <!-- X軸ラベル -->
+  <text x="590" y="578" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">学習時間（年）</text>
+  <text x="158" y="572" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">0</text>
+  <text x="350" y="572" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">1年</text>
+  <text x="590" y="572" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">2年</text>
+  <text x="830" y="572" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">3年</text>
+  <text x="1022" y="572" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">4年</text>
+
+  <!-- 完璧主義曲線（グレー・緩やか） -->
+  <path d="M 158 550 C 200 545 240 538 280 535 C 320 532 360 530 400 528 C 440 526 480 522 520 518 C 560 514 600 508 640 500 C 680 492 720 480 760 465 C 800 450 840 430 900 410 C 950 392 1000 375 1022 365"
+        fill="none" stroke="url(#perfectGrad)" stroke-width="3" stroke-dasharray="10,5"/>
+
+  <!-- 停滞ゾーン強調 -->
+  <rect x="158" y="505" width="380" height="50" fill="#657786" fill-opacity="0.08" rx="2"/>
+  <text x="348" y="497" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8a9bb0" text-anchor="middle">「どう言えばいい？」で止まる停滞期</text>
+
+  <!-- 伝達優先曲線（ブルー・急上昇） -->
+  <path d="M 158 550 C 190 520 220 490 270 455 C 320 420 370 390 430 360 C 490 330 550 310 610 295 C 670 280 730 265 800 248 C 850 235 920 218 980 205 C 1005 198 1015 194 1022 192"
+        fill="none" stroke="url(#commsGrad)" stroke-width="4" filter="url(#glow)"/>
+
+  <!-- 伝達優先 初期ジャンプ矢印 -->
+  <path d="M 270 455 L 270 400" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- 凡例 -->
+  <rect x="130" y="96" width="200" height="36" fill="#1a2030" rx="6" opacity="0.9"/>
+  <line x1="144" y1="114" x2="178" y2="114" stroke="#657786" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="186" y="119" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8a9bb0">完璧主義型</text>
+
+  <rect x="344" y="96" width="220" height="36" fill="#1a2030" rx="6" opacity="0.9"/>
+  <line x1="358" y1="114" x2="392" y2="114" stroke="#1DA1F2" stroke-width="4"/>
+  <text x="400" y="119" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">伝達優先型</text>
+
+  <!-- 注釈: 完璧主義 -->
+  <rect x="750" y="348" width="220" height="56" fill="#2d3748" rx="8" opacity="0.9"/>
+  <text x="860" y="370" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8a9bb0" text-anchor="middle">4年後もまだ慎重に…</text>
+  <text x="860" y="392" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">上達は遅く、会話量は少ない</text>
+
+  <!-- 注釈: 伝達優先 -->
+  <rect x="730" y="148" width="250" height="56" fill="#0d2844" rx="8" opacity="0.9" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="855" y="170" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4fc3f7" text-anchor="middle">2年で実践的な会話が可能に</text>
+  <text x="855" y="192" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">フィードバックが加速度的に蓄積</text>
+
+  <!-- クレジット -->
+  <text x="1180" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

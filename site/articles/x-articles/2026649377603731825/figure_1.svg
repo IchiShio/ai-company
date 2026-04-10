@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#FAFBFC"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="88" fill="#14171A"/>
+  <text x="60" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">very + 形容詞 → 動詞表現への言い換え 10選</text>
+  <text x="60" y="74" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">感情を「状態」ではなく「身体の反応・行動」で描写するネイティブの発想</text>
+
+  <!-- Column headers -->
+  <rect x="40" y="100" width="520" height="34" rx="4" fill="#657786"/>
+  <rect x="580" y="100" width="580" height="34" rx="4" fill="#1DA1F2"/>
+  <text x="300" y="122" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">very + 形容詞（平板）</text>
+  <text x="870" y="122" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">ネイティブの動詞表現（生き生き）</text>
+
+  <!-- Arrow decoration -->
+  <text x="548" y="122" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#1DA1F2">→</text>
+
+  <!-- Row data -->
+  <!-- Row 1 -->
+  <rect x="40" y="142" width="520" height="44" rx="0" fill="#F5F8FA"/>
+  <rect x="580" y="142" width="580" height="44" rx="0" fill="#E8F5FF"/>
+  <text x="60" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very funny</text>
+  <text x="600" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">I couldn't stop laughing.</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="186" width="520" height="44" rx="0" fill="#FFFFFF"/>
+  <rect x="580" y="186" width="580" height="44" rx="0" fill="#FFFFFF"/>
+  <text x="60" y="213" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very scared</text>
+  <text x="600" y="213" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">My heart was pounding.</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="230" width="520" height="44" rx="0" fill="#F5F8FA"/>
+  <rect x="580" y="230" width="580" height="44" rx="0" fill="#E8F5FF"/>
+  <text x="60" y="257" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very surprised</text>
+  <text x="600" y="257" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">My jaw dropped.</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="274" width="520" height="44" rx="0" fill="#FFFFFF"/>
+  <rect x="580" y="274" width="580" height="44" rx="0" fill="#FFFFFF"/>
+  <text x="60" y="301" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very tired</text>
+  <text x="600" y="301" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">I'm completely drained.</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="318" width="520" height="44" rx="0" fill="#F5F8FA"/>
+  <rect x="580" y="318" width="580" height="44" rx="0" fill="#E8F5FF"/>
+  <text x="60" y="345" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very angry</text>
+  <text x="600" y="345" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">I was fuming. / My blood was boiling.</text>
+
+  <!-- Row 6 -->
+  <rect x="40" y="362" width="520" height="44" rx="0" fill="#FFFFFF"/>
+  <rect x="580" y="362" width="580" height="44" rx="0" fill="#FFFFFF"/>
+  <text x="60" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very happy</text>
+  <text x="600" y="389" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">I was over the moon.</text>
+
+  <!-- Row 7 -->
+  <rect x="40" y="406" width="520" height="44" rx="0" fill="#F5F8FA"/>
+  <rect x="580" y="406" width="580" height="44" rx="0" fill="#E8F5FF"/>
+  <text x="60" y="433" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very sad</text>
+  <text x="600" y="433" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">My heart sank.</text>
+
+  <!-- Row 8 -->
+  <rect x="40" y="450" width="520" height="44" rx="0" fill="#FFFFFF"/>
+  <rect x="580" y="450" width="580" height="44" rx="0" fill="#FFFFFF"/>
+  <text x="60" y="477" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very nervous</text>
+  <text x="600" y="477" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">My palms were sweating.</text>
+
+  <!-- Row 9 -->
+  <rect x="40" y="494" width="520" height="44" rx="0" fill="#F5F8FA"/>
+  <rect x="580" y="494" width="580" height="44" rx="0" fill="#E8F5FF"/>
+  <text x="60" y="521" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very excited</text>
+  <text x="600" y="521" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">I could barely contain myself.</text>
+
+  <!-- Row 10 -->
+  <rect x="40" y="538" width="520" height="44" rx="0" fill="#FFFFFF"/>
+  <rect x="580" y="538" width="580" height="44" rx="0" fill="#FFFFFF"/>
+  <text x="60" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">very embarrassed</text>
+  <text x="600" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">I wanted to disappear.</text>
+
+  <!-- Bottom border -->
+  <line x1="40" y1="582" x2="1160" y2="582" stroke="#E1E8ED" stroke-width="1.5"/>
+
+  <!-- Tip -->
+  <text x="60" y="610" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">💡 共通パターン: 感情を「身体の反応」で語る → "jaw dropped" "heart sank" "palms sweating"</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

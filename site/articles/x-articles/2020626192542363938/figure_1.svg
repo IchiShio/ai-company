@@ -1,0 +1,105 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">返り読みの視線 vs 前向き読みの視線</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="14">英文処理の視線移動パターン比較</text>
+
+  <!-- ===== 例文 ===== -->
+  <rect x="40" y="100" width="1120" height="55" rx="10" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="600" y="127" text-anchor="middle" fill="#14171A" font-size="16" font-weight="bold">例文：「The girl who lives next door plays the piano every day.」</text>
+  <text x="600" y="147" text-anchor="middle" fill="#657786" font-size="13">（隣に住んでいる女の子は毎日ピアノを弾く）</text>
+
+  <!-- ===== LEFT: 返り読み ===== -->
+  <rect x="40" y="175" width="540" height="450" rx="16" fill="#FFFFFF" stroke="#FF6B6B" stroke-width="2.5"/>
+  <rect x="40" y="175" width="540" height="50" rx="16" fill="#FF6B6B"/>
+  <rect x="40" y="207" width="540" height="18" fill="#FF6B6B"/>
+  <text x="310" y="206" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">❌ 返り読み（遅い・疲れる）</text>
+
+  <!-- 返り読みの視線パス図解 -->
+  <!-- 英文テキスト -->
+  <text x="310" y="258" text-anchor="middle" fill="#14171A" font-size="14">The girl  who lives  next door  plays  the piano  every day</text>
+
+  <!-- 視線の矢印（行ったり来たり） -->
+  <!-- 右向き -->
+  <path d="M 75 275 Q 160 265 220 275" stroke="#FF6B6B" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- 左向き（戻る） -->
+  <path d="M 225 285 Q 150 300 80 285" stroke="#FF6B6B" stroke-width="2.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowRedDash)"/>
+  <!-- 右向き続き -->
+  <path d="M 230 275 Q 310 265 390 275" stroke="#FF6B6B" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)"/>
+  <!-- 最初に戻る -->
+  <path d="M 395 285 Q 240 310 80 295" stroke="#FF6B6B" stroke-width="2.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arrowRedDash)"/>
+  <!-- 最後まで読む -->
+  <path d="M 230 270 Q 370 262 510 272" stroke="#FF6B6B" stroke-width="2.5" fill="none" marker-end="url(#arrowRed)"/>
+
+  <defs>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6B6B"/>
+    </marker>
+    <marker id="arrowRedDash" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6B6B"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#17BF63"/>
+    </marker>
+  </defs>
+
+  <!-- 処理の説明 -->
+  <rect x="60" y="325" width="500" height="50" rx="8" fill="#FFF0F0"/>
+  <text x="310" y="347" text-anchor="middle" fill="#CC0000" font-size="13" font-weight="bold">処理の流れ（返り読み）</text>
+  <text x="310" y="367" text-anchor="middle" fill="#657786" font-size="12">「The girl」→「who?」→先読み→「who lives next door」→「あ、主語だ」→最初に戻る</text>
+
+  <rect x="60" y="385" width="500" height="130" rx="8" fill="#FFFFFF" stroke="#FFD0D0" stroke-width="1"/>
+  <text x="75" y="408" fill="#CC0000" font-size="13" font-weight="bold">返り読みが起きる理由</text>
+  <text x="75" y="432" fill="#14171A" font-size="13">① 英語の語順を日本語に変換しようとする</text>
+  <text x="75" y="455" fill="#14171A" font-size="13">② 修飾語が出てくるたびに文頭に戻って確認</text>
+  <text x="75" y="478" fill="#14171A" font-size="13">③ 「誰が」「何を」の確定を先延ばしにする</text>
+  <text x="75" y="501" fill="#657786" font-size="12">→ 1文を3〜5回読み直すことも。長文で特に深刻</text>
+
+  <rect x="60" y="530" width="500" height="75" rx="8" fill="#FFCCCC"/>
+  <text x="310" y="555" text-anchor="middle" fill="#CC0000" font-size="14" font-weight="bold">結果：読解スピードが出ない</text>
+  <text x="310" y="577" text-anchor="middle" fill="#657786" font-size="13">単語がわかっても長文が読めないのはこのため</text>
+  <text x="310" y="598" text-anchor="middle" fill="#657786" font-size="12">疲れる → 集中力が切れる → 理解が下がる悪循環</text>
+
+  <!-- ===== RIGHT: 前向き読み ===== -->
+  <rect x="620" y="175" width="540" height="450" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="620" y="175" width="540" height="50" rx="16" fill="#1DA1F2"/>
+  <rect x="620" y="207" width="540" height="18" fill="#1DA1F2"/>
+  <text x="890" y="206" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold">✅ 前向き読み（速い・楽）</text>
+
+  <!-- 前向き読みの視線パス -->
+  <text x="890" y="258" text-anchor="middle" fill="#14171A" font-size="14">The girl  who lives  next door  plays  the piano  every day</text>
+
+  <!-- 一方向の視線 -->
+  <path d="M 640 270 L 1140 270" stroke="#17BF63" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <!-- 視線ポイント -->
+  <circle cx="680" cy="270" r="7" fill="#17BF63" opacity="0.8"/>
+  <circle cx="760" cy="270" r="7" fill="#17BF63" opacity="0.8"/>
+  <circle cx="848" cy="270" r="7" fill="#17BF63" opacity="0.8"/>
+  <circle cx="930" cy="270" r="7" fill="#17BF63" opacity="0.8"/>
+  <circle cx="1020" cy="270" r="7" fill="#17BF63" opacity="0.8"/>
+  <circle cx="1100" cy="270" r="7" fill="#17BF63" opacity="0.8"/>
+
+  <!-- 処理の説明 -->
+  <rect x="640" y="295" width="500" height="75" rx="8" fill="#E8F5FD"/>
+  <text x="890" y="317" text-anchor="middle" fill="#1DA1F2" font-size="13" font-weight="bold">処理の流れ（前向き読み）</text>
+  <text x="890" y="338" text-anchor="middle" fill="#14171A" font-size="12">「The girl（女の子が）→ who lives next door（隣に住んでいる）</text>
+  <text x="890" y="357" text-anchor="middle" fill="#14171A" font-size="12">→ plays（弾く）→ the piano（ピアノを）→ every day（毎日）」</text>
+
+  <rect x="640" y="380" width="500" height="130" rx="8" fill="#FFFFFF" stroke="#D0EAF8" stroke-width="1"/>
+  <text x="655" y="403" fill="#1DA1F2" font-size="13" font-weight="bold">前向き読みの原則</text>
+  <text x="655" y="427" fill="#14171A" font-size="13">① 出てきた順に意味を取っていく</text>
+  <text x="655" y="450" fill="#14171A" font-size="13">② 修飾語は「前の名詞の説明」として処理</text>
+  <text x="655" y="473" fill="#14171A" font-size="13">③ 文頭に戻らない・日本語に訳さない</text>
+  <text x="655" y="496" fill="#657786" font-size="12">→ 英語の語順のまま意味を蓄積していく感覚</text>
+
+  <rect x="640" y="525" width="500" height="90" rx="8" fill="#E8F5FD" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="890" y="550" text-anchor="middle" fill="#1DA1F2" font-size="14" font-weight="bold">結果：長文が「流れるように」読める</text>
+  <text x="890" y="572" text-anchor="middle" fill="#14171A" font-size="13">読み返し不要 → スピードが出る → 集中力が続く</text>
+  <text x="890" y="594" text-anchor="middle" fill="#657786" font-size="12">単語力はそのままで読解スコアが向上する</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

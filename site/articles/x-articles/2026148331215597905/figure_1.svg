@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">形容詞表現 vs 動詞表現：同じ意味を比較する5例</text>
+  <text x="600" y="78" text-anchor="middle" fill="#657786" font-size="16" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">形容詞で止まるか、動詞で描くか——伝わり方がまるで違う</text>
+
+  <!-- Column headers -->
+  <rect x="50" y="95" width="530" height="42" fill="#657786" rx="4"/>
+  <text x="315" y="122" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">形容詞表現（弱い）</text>
+
+  <rect x="620" y="95" width="530" height="42" fill="#1DA1F2" rx="4"/>
+  <text x="885" y="122" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">動詞表現（伝わる）</text>
+
+  <!-- VS divider -->
+  <text x="593" y="122" text-anchor="middle" fill="#AAB8C2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">VS</text>
+
+  <!-- Row 1: 映画の感想 -->
+  <rect x="50" y="137" width="530" height="80" fill="#1A2332"/>
+  <rect x="620" y="137" width="530" height="80" fill="#0D1F33"/>
+  <text x="315" y="162" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">映画の感想</text>
+  <text x="315" y="188" text-anchor="middle" fill="#FFFFFF" font-size="17" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"The movie was amazing."</text>
+  <text x="885" y="162" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">映画の感想</text>
+  <text x="885" y="188" text-anchor="middle" fill="#1DA1F2" font-size="17" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"I couldn't look away."</text>
+
+  <!-- Row 2: スピーチ -->
+  <rect x="50" y="217" width="530" height="80" fill="#111820"/>
+  <rect x="620" y="217" width="530" height="80" fill="#0A1520"/>
+  <text x="315" y="242" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">スピーチの評価</text>
+  <text x="315" y="268" text-anchor="middle" fill="#FFFFFF" font-size="17" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"The speaker was great."</text>
+  <text x="885" y="242" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">スピーチの評価</text>
+  <text x="885" y="268" text-anchor="middle" fill="#1DA1F2" font-size="17" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"Everyone leaned forward."</text>
+
+  <!-- Row 3: レストラン -->
+  <rect x="50" y="297" width="530" height="80" fill="#1A2332"/>
+  <rect x="620" y="297" width="530" height="80" fill="#0D1F33"/>
+  <text x="315" y="322" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">料理の感想</text>
+  <text x="315" y="348" text-anchor="middle" fill="#FFFFFF" font-size="17" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"The food was delicious."</text>
+  <text x="885" y="322" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">料理の感想</text>
+  <text x="885" y="348" text-anchor="middle" fill="#1DA1F2" font-size="17" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"I ordered the same dish twice."</text>
+
+  <!-- Row 4: 本の感想 -->
+  <rect x="50" y="377" width="530" height="80" fill="#111820"/>
+  <rect x="620" y="377" width="530" height="80" fill="#0A1520"/>
+  <text x="315" y="402" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">本の感想</text>
+  <text x="315" y="428" text-anchor="middle" fill="#FFFFFF" font-size="17" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"The book was interesting."</text>
+  <text x="885" y="402" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">本の感想</text>
+  <text x="885" y="428" text-anchor="middle" fill="#1DA1F2" font-size="17" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"I missed my stop reading it."</text>
+
+  <!-- Row 5: パーティー -->
+  <rect x="50" y="457" width="530" height="80" fill="#1A2332"/>
+  <rect x="620" y="457" width="530" height="80" fill="#0D1F33"/>
+  <text x="315" y="482" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">パーティーの感想</text>
+  <text x="315" y="508" text-anchor="middle" fill="#FFFFFF" font-size="17" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"The party was fun."</text>
+  <text x="885" y="482" text-anchor="middle" fill="#AAB8C2" font-size="14" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">パーティーの感想</text>
+  <text x="885" y="508" text-anchor="middle" fill="#1DA1F2" font-size="17" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">"Nobody wanted to go home."</text>
+
+  <!-- Bottom message -->
+  <rect x="200" y="565" width="800" height="60" fill="#1A2332" rx="8"/>
+  <text x="600" y="588" text-anchor="middle" fill="#1DA1F2" font-size="18" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">動詞表現のルール: 「その形容詞を引き起こした動作は何か?」を考える</text>
+  <text x="600" y="612" text-anchor="middle" fill="#AAB8C2" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">形容詞 → 身体的動作 → 英語化、このプロセスで表現が生まれる</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="46" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">集中型 vs 分散型：記憶定着率の比較</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="16">分散学習効果（Spacing Effect）— 同じ2時間でも「分け方」で成果が変わる</text>
+
+  <!-- Legend -->
+  <rect x="860" y="96" width="20" height="20" rx="4" fill="#E0245E"/>
+  <text x="888" y="112" fill="#E0245E" font-size="14">集中型（2時間連続）</text>
+  <rect x="860" y="124" width="20" height="20" rx="4" fill="#17BF63"/>
+  <text x="888" y="140" fill="#17BF63" font-size="14">分散型（30分×4回）</text>
+
+  <!-- Chart area -->
+  <line x1="100" y1="100" x2="100" y2="520" stroke="#657786" stroke-width="1.5"/>
+  <line x1="100" y1="520" x2="1100" y2="520" stroke="#657786" stroke-width="1.5"/>
+
+  <!-- Y axis label -->
+  <text x="30" y="310" text-anchor="middle" fill="#657786" font-size="14" transform="rotate(-90,30,310)">記憶定着率（%）</text>
+  <!-- X axis label -->
+  <text x="600" y="568" text-anchor="middle" fill="#657786" font-size="14">学習後の経過時間</text>
+
+  <!-- Y ticks -->
+  <text x="90" y="130" text-anchor="end" fill="#657786" font-size="12">100%</text>
+  <line x1="95" y1="126" x2="1100" y2="126" stroke="#657786" stroke-width="0.4" stroke-dasharray="5,5" opacity="0.4"/>
+  <text x="90" y="210" text-anchor="end" fill="#657786" font-size="12">80%</text>
+  <line x1="95" y1="206" x2="1100" y2="206" stroke="#657786" stroke-width="0.4" stroke-dasharray="5,5" opacity="0.4"/>
+  <text x="90" y="290" text-anchor="end" fill="#657786" font-size="12">60%</text>
+  <line x1="95" y1="286" x2="1100" y2="286" stroke="#657786" stroke-width="0.4" stroke-dasharray="5,5" opacity="0.4"/>
+  <text x="90" y="370" text-anchor="end" fill="#657786" font-size="12">40%</text>
+  <line x1="95" y1="366" x2="1100" y2="366" stroke="#657786" stroke-width="0.4" stroke-dasharray="5,5" opacity="0.4"/>
+  <text x="90" y="450" text-anchor="end" fill="#657786" font-size="12">20%</text>
+  <line x1="95" y1="446" x2="1100" y2="446" stroke="#657786" stroke-width="0.4" stroke-dasharray="5,5" opacity="0.4"/>
+
+  <!-- X ticks -->
+  <text x="100" y="540" text-anchor="middle" fill="#657786" font-size="12">直後</text>
+  <text x="300" y="540" text-anchor="middle" fill="#657786" font-size="12">1日後</text>
+  <text x="500" y="540" text-anchor="middle" fill="#657786" font-size="12">3日後</text>
+  <text x="700" y="540" text-anchor="middle" fill="#657786" font-size="12">1週間後</text>
+  <text x="900" y="540" text-anchor="middle" fill="#657786" font-size="12">1ヶ月後</text>
+  <text x="1100" y="540" text-anchor="middle" fill="#657786" font-size="12">3ヶ月後</text>
+
+  <!-- ===== Massed (concentrated) learning curve — Ebbinghaus forgetting curve ===== -->
+  <!-- Starts high (~90%) drops steeply -->
+  <polyline
+    points="100,140 300,310 500,380 700,420 900,450 1100,475"
+    fill="none" stroke="#E0245E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10,4"/>
+
+  <!-- ===== Spaced learning curve — stays higher ===== -->
+  <polyline
+    points="100,155 300,230 500,270 700,295 900,315 1100,330"
+    fill="none" stroke="#17BF63" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Fill areas -->
+  <polygon points="100,520 100,475 1100,475 1100,330 900,315 700,295 500,270 300,230 100,155"
+    fill="#17BF63" opacity="0.07"/>
+
+  <!-- Endpoints labels -->
+  <!-- Massed end -->
+  <circle cx="1100" cy="475" r="6" fill="#E0245E"/>
+  <rect x="960" y="468" width="110" height="28" rx="5" fill="#E0245E" opacity="0.2"/>
+  <text x="1015" y="487" text-anchor="middle" fill="#E0245E" font-size="13" font-weight="bold">約25%残存</text>
+
+  <!-- Spaced end -->
+  <circle cx="1100" cy="330" r="6" fill="#17BF63"/>
+  <rect x="960" y="316" width="110" height="28" rx="5" fill="#17BF63" opacity="0.2"/>
+  <text x="1015" y="335" text-anchor="middle" fill="#17BF63" font-size="13" font-weight="bold">約55%残存</text>
+
+  <!-- Difference annotation -->
+  <line x1="1080" y1="335" x2="1080" y2="470" stroke="#FFAD1F" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="1095" y="400" fill="#FFAD1F" font-size="18" font-weight="bold">↕</text>
+  <rect x="1060" y="388" width="90" height="28" rx="4" fill="#FFAD1F" opacity="0.15"/>
+  <text x="1105" y="407" text-anchor="middle" fill="#FFAD1F" font-size="13" font-weight="bold">2倍以上</text>
+
+  <!-- Spacing effect intervals annotation -->
+  <rect x="285" y="215" width="30" height="20" rx="3" fill="#17BF63" opacity="0.4"/>
+  <text x="300" y="229" text-anchor="middle" fill="#17BF63" font-size="11">↑</text>
+  <text x="300" y="210" text-anchor="middle" fill="#17BF63" font-size="11">復習</text>
+
+  <rect x="485" y="255" width="30" height="20" rx="3" fill="#17BF63" opacity="0.4"/>
+  <text x="500" y="269" text-anchor="middle" fill="#17BF63" font-size="11">↑</text>
+  <text x="500" y="250" text-anchor="middle" fill="#17BF63" font-size="11">復習</text>
+
+  <rect x="685" y="280" width="30" height="20" rx="3" fill="#17BF63" opacity="0.4"/>
+  <text x="700" y="294" text-anchor="middle" fill="#17BF63" font-size="11">↑</text>
+  <text x="700" y="275" text-anchor="middle" fill="#17BF63" font-size="11">復習</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="615" text-anchor="middle" fill="#657786" font-size="13">参考: Cepeda et al. (2006, Psychological Bulletin) — 分散学習は集中学習より長期記憶の保持率が有意に高い</text>
+
+  <!-- Credit -->
+  <text x="1175" y="658" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

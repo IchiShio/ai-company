@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bar_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9B59B6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00C896;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg4)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">反復練習の3段階モデル</text>
+  <text x="600" y="82" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786">理解 → 口語化 → 自動化への段階的強化</text>
+  <line x1="80" y1="100" x2="1120" y2="100" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- Progress bar -->
+  <rect x="100" y="120" width="1000" height="12" rx="6" fill="#21262d"/>
+  <rect x="100" y="120" width="1000" height="12" rx="6" fill="url(#bar_grad)" opacity="0.7"/>
+
+  <!-- Stage 1 -->
+  <rect x="80" y="155" width="320" height="350" rx="16" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="1.5"/>
+
+  <!-- Stage number circle -->
+  <circle cx="240" cy="195" r="28" fill="#1DA1F2" opacity="0.18" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="240" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#1DA1F2">01</text>
+
+  <text x="240" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">理解フェーズ</text>
+  <text x="240" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">準備運動</text>
+
+  <line x1="120" y1="298" x2="360" y2="298" stroke="#21262d" stroke-width="1"/>
+
+  <text x="240" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・ルールを読んで理解する</text>
+  <text x="240" y="355" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・例文の意味を把握する</text>
+  <text x="240" y="382" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・宣言的記憶への書き込み</text>
+
+  <!-- Warning box -->
+  <rect x="110" y="415" width="260" height="70" rx="10" fill="#FF4444" opacity="0.10" stroke="#FF4444" stroke-width="1"/>
+  <text x="240" y="443" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FF4444">ここで止まる人が多い</text>
+  <text x="240" y="466" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">「わかった = できる」の錯覚</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="415,335 433,325 433,345" fill="#657786"/>
+  <line x1="400" y1="335" x2="433" y2="335" stroke="#657786" stroke-width="2.5"/>
+
+  <!-- Stage 2 -->
+  <rect x="440" y="155" width="320" height="350" rx="16" fill="#9B59B6" opacity="0.08" stroke="#9B59B6" stroke-width="1.5"/>
+
+  <circle cx="600" cy="195" r="28" fill="#9B59B6" opacity="0.18" stroke="#9B59B6" stroke-width="2"/>
+  <text x="600" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#9B59B6">02</text>
+
+  <text x="600" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">口語化フェーズ</text>
+  <text x="600" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">本番トレーニング</text>
+
+  <line x1="480" y1="298" x2="720" y2="298" stroke="#21262d" stroke-width="1"/>
+
+  <text x="600" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・同じフレーズを声に出す</text>
+  <text x="600" y="355" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・意識しながら繰り返す</text>
+  <text x="600" y="382" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・手続き記憶への転写開始</text>
+
+  <!-- Repeat counter -->
+  <rect x="470" y="415" width="260" height="70" rx="10" fill="#9B59B6" opacity="0.15" stroke="#9B59B6" stroke-width="1"/>
+  <text x="600" y="443" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#9B59B6">目安: 50〜100回の反復</text>
+  <text x="600" y="466" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">筋トレのセット数と同じ</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="775,335 793,325 793,345" fill="#657786"/>
+  <line x1="760" y1="335" x2="793" y2="335" stroke="#657786" stroke-width="2.5"/>
+
+  <!-- Stage 3 -->
+  <rect x="800" y="155" width="320" height="350" rx="16" fill="#00C896" opacity="0.10" stroke="#00C896" stroke-width="2"/>
+
+  <circle cx="960" cy="195" r="28" fill="#00C896" opacity="0.20" stroke="#00C896" stroke-width="2"/>
+  <text x="960" y="203" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#00C896">03</text>
+
+  <text x="960" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF">自動化フェーズ</text>
+  <text x="960" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#00C896">ゴール</text>
+
+  <line x1="840" y1="298" x2="1080" y2="298" stroke="#21262d" stroke-width="1"/>
+
+  <text x="960" y="328" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・考えなくても文が出る</text>
+  <text x="960" y="355" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・英語で考えられる</text>
+  <text x="960" y="382" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#8b949e">・手続き記憶として定着</text>
+
+  <!-- Goal box -->
+  <rect x="830" y="415" width="260" height="70" rx="10" fill="#00C896" opacity="0.18" stroke="#00C896" stroke-width="1.5"/>
+  <text x="960" y="443" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#00C896">「できる」状態の完成</text>
+  <text x="960" y="466" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">使える英語スキルへ</text>
+
+  <!-- Bottom CTA -->
+  <rect x="200" y="560" width="800" height="52" rx="12" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="591" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2">GrammarUp — 文法ルールを「わかる」から「できる」へ変えるドリル</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

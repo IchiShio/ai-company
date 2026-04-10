@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2535;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg6)" />
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">眠った語彙を起こす「活性化フロー」</text>
+  <text x="600" y="78" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786" text-anchor="middle">再認 → 再生 → 自動化 の3段階で「知ってる」を「使える」に変える</text>
+
+  <!-- Stage 1: 再認 (Recognition) -->
+  <rect x="60" y="108" width="320" height="450" fill="#1a2535" stroke="#1DA1F2" stroke-width="2.5" rx="16"/>
+  <!-- Header -->
+  <rect x="60" y="108" width="320" height="60" fill="#1DA1F2" rx="16"/>
+  <rect x="60" y="148" width="320" height="20" fill="#1DA1F2"/>
+  <text x="220" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0e8ff" text-anchor="middle">STAGE 1</text>
+  <text x="220" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">再認（Recognition）</text>
+  <!-- Icon -->
+  <text x="220" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="50" text-anchor="middle">👁️</text>
+  <!-- Subtitle -->
+  <text x="220" y="260" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#5bd4ff" text-anchor="middle">「見れば分かる」状態</text>
+  <!-- Description -->
+  <text x="80" y="292" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">英文を読んで意味が取れる。</text>
+  <text x="80" y="312" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">聞いたら分かる。でも</text>
+  <text x="80" y="332" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">自分からは出てこない。</text>
+  <!-- Action -->
+  <rect x="80" y="352" width="280" height="80" fill="#0d2030" stroke="#1DA1F2" stroke-width="1" rx="8"/>
+  <text x="220" y="374" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2" text-anchor="middle">活性化アクション</text>
+  <text x="90" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be">▸ 中高の教科書を再読する</text>
+  <text x="90" y="414" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be">▸ 英英辞典で定義を読む</text>
+  <!-- Time -->
+  <text x="220" y="462" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">⏱ 1〜2週間</text>
+  <!-- Level bar -->
+  <text x="80" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">アクティブ語彙:</text>
+  <rect x="200" y="476" width="140" height="18" fill="#2a3a4a" rx="4"/>
+  <rect x="200" y="476" width="35" height="18" fill="#1DA1F2" rx="4"/>
+  <text x="220" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#1DA1F2" text-anchor="middle">300語 → 500語</text>
+  <text x="220" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">（パッシブが再認識される）</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="388,340 430,325 430,355" fill="#f5c518"/>
+  <text x="445" y="348" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#f5c518">→</text>
+
+  <!-- Stage 2: 再生 (Recall) -->
+  <rect x="440" y="108" width="320" height="450" fill="#1a2535" stroke="#f5c518" stroke-width="2.5" rx="16"/>
+  <!-- Header -->
+  <rect x="440" y="108" width="320" height="60" fill="#c0a000" rx="16"/>
+  <rect x="440" y="148" width="320" height="20" fill="#c0a000"/>
+  <text x="600" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#fff8d0" text-anchor="middle">STAGE 2</text>
+  <text x="600" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">再生（Recall）</text>
+  <!-- Icon -->
+  <text x="600" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="50" text-anchor="middle">🧠</text>
+  <!-- Subtitle -->
+  <text x="600" y="260" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#f5c518" text-anchor="middle">「考えれば出せる」状態</text>
+  <!-- Description -->
+  <text x="460" y="292" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">日本語からヒントなしで</text>
+  <text x="460" y="312" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">英単語を出せる。でも</text>
+  <text x="460" y="332" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">少し時間がかかる。</text>
+  <!-- Action -->
+  <rect x="460" y="352" width="280" height="80" fill="#2a2510" stroke="#f5c518" stroke-width="1" rx="8"/>
+  <text x="600" y="374" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#f5c518" text-anchor="middle">活性化アクション</text>
+  <text x="470" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be">▸ 英語実況で日常に使う</text>
+  <text x="470" y="414" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be">▸ 例文を音読・シャドーイング</text>
+  <!-- Time -->
+  <text x="600" y="462" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">⏱ 2〜4週間</text>
+  <!-- Level bar -->
+  <text x="460" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">アクティブ語彙:</text>
+  <rect x="580" y="476" width="140" height="18" fill="#2a3a4a" rx="4"/>
+  <rect x="580" y="476" width="84" height="18" fill="#f5c518" rx="4"/>
+  <text x="600" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#f5c518" text-anchor="middle">500語 → 1,200語</text>
+  <text x="600" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">（使う練習で回路が開く）</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="768,340 810,325 810,355" fill="#5adf5a"/>
+  <text x="825" y="348" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#5adf5a">→</text>
+
+  <!-- Stage 3: 自動化 (Automaticity) -->
+  <rect x="820" y="108" width="320" height="450" fill="#1a2f1a" stroke="#5adf5a" stroke-width="3" rx="16"/>
+  <!-- Header -->
+  <rect x="820" y="108" width="320" height="60" fill="#3a8a3a" rx="16"/>
+  <rect x="820" y="148" width="320" height="20" fill="#3a8a3a"/>
+  <text x="980" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c0ffc0" text-anchor="middle">STAGE 3</text>
+  <text x="980" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">自動化（Automaticity）</text>
+  <!-- Icon -->
+  <text x="980" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="50" text-anchor="middle">🚀</text>
+  <!-- Subtitle -->
+  <text x="980" y="260" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#5adf5a" text-anchor="middle">「考えずに出る」状態</text>
+  <!-- Description -->
+  <text x="840" y="292" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">意識せずに適切な語が</text>
+  <text x="840" y="312" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">口から出る。これが</text>
+  <text x="840" y="332" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#aab4be">「流暢さ」の正体。</text>
+  <!-- Action -->
+  <rect x="840" y="352" width="280" height="80" fill="#0a2010" stroke="#5adf5a" stroke-width="1" rx="8"/>
+  <text x="980" y="374" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#5adf5a" text-anchor="middle">活性化アクション</text>
+  <text x="850" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be">▸ 実際の会話・ライティング</text>
+  <text x="850" y="414" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be">▸ 多読・多聴で大量インプット</text>
+  <!-- Time -->
+  <text x="980" y="462" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">⏱ 1〜3ヶ月</text>
+  <!-- Level bar -->
+  <text x="840" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">アクティブ語彙:</text>
+  <rect x="960" y="476" width="140" height="18" fill="#2a3a4a" rx="4"/>
+  <rect x="960" y="476" width="130" height="18" fill="#5adf5a" rx="4"/>
+  <text x="980" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#5adf5a" text-anchor="middle">1,200語 → 2,000語+</text>
+  <text x="980" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">（日常会話に十分な語彙）</text>
+
+  <!-- Bottom banner -->
+  <rect x="60" y="580" width="1080" height="52" fill="#1a3040" stroke="#5adf5a" stroke-width="1.5" rx="10"/>
+  <text x="600" y="600" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#5adf5a" text-anchor="middle">新しい英単語を1,700語覚えるより、すでに知っている2,700語を使える状態に変える方が圧倒的に速い</text>
+  <text x="600" y="622" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">「再認」から始めてアウトプット練習を積み重ねる。これが最短の英語活性化ルートだ。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="662" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

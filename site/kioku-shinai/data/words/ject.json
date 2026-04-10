@@ -1,0 +1,2092 @@
+{
+  "root": "ject",
+  "rootMeaning": "投げる",
+  "rootLang": "ラテン語 jacere（PIE *yeh₁-）",
+  "imageSchema": "ボールを投げるイメージ。方向（前・後・中・向かい・下）によって意味が変わる。jectが見えたら「何かを投げる動き」と読み替えるだけで、派生語が一気に理解できる。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "注射(injection)は薬を「中に投げ入れる」こと。projectは計画を「前に投げ出す」こと。jectが見えたら「投げる」と読み替えるだけで、6語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "project",
+      "phonetic": "/ˈprɒdʒekt/ (n.) /prəˈdʒekt/ (v.)",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "pro",
+          "meaning": "前へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ jacere（投げる）= 前に投げ出す → 計画・映し出す",
+        "fact": "ラテン語 proicere「前に投げる、突き出す」の過去分詞 proiectus から。15世紀に「突き出た部分」「計画を前に放り出す」の意味で英語に入り、動詞「映写する」は19世紀初頭。名詞の「プロジェクト（計画）」は1600年代頃から。",
+        "source": "EtymOnline: project",
+        "cognates": [
+          "projection",
+          "projector",
+          "projectile"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "まだ存在しない将来に向けて計画を「前方に投げ出す」動き",
+        "fact": "PATHスキーマ（SOURCE→GOAL）の応用。現在地から未来の目標へ計画を前方(pro-)に投げる(ject)イメージ。映写機が光を前方スクリーンに「投げる」のも同じ身体感覚。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "「プロジェクト（仕事の計画）」だけで覚えると、project one's voice（声を前に飛ばす）やproject an image（映し出す）で詰まる。語源の「前に投げ出す」がわかれば全て同じ動きと理解できる。",
+      "gapOneliner": "project = 「前に投げ出す」から来る計画・映写・投影・声を飛ばす",
+      "hook": {
+        "label": "記憶フック",
+        "text": "会議で計画を「前に(pro)投げ出す(ject)」のがproject。プロジェクターが映像を「前のスクリーンに投げる」のも同じ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "projectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "前に投げ出す→計画する・映し出す",
+            "後ろに投げる→却下する",
+            "中に投げ入れる→注入する",
+            "下に投げる→落とす"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pro + ject の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "前へ + 投げる = 計画・映写する",
+            "強く + 投げる = 強調する",
+            "再び + 投げる = 繰り返す",
+            "外へ + 投げる = 輸出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The team is working on a new ______ to improve customer service.",
+          "hint": "「前に投げ出された計画」→「プロジェクト」",
+          "explanationFocus": "gap",
+          "choices": [
+            "project",
+            "reject",
+            "subject",
+            "object"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "projectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "confidence（自信を前に投げ出す＝発散させる）",
+            "money（お金を投げる）",
+            "question（質問を投げる）",
+            "building（建物を投げる）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The speaker projected her voice to the back of the hall.\" — projectedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "（声を）前方に飛ばした",
+            "録音した",
+            "小さくした",
+            "変えた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "We launched a new project last quarter."
+      ]
+    },
+    {
+      "word": "reject",
+      "phonetic": "/rɪˈdʒekt/ (v.) /ˈriːdʒekt/ (n.)",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "後ろへ・戻す",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ jacere（投げる）= 後ろに投げ返す → 拒絶する",
+        "fact": "ラテン語 reicere「投げ返す、追い払う」の過去分詞 reiectus から。15世紀に「退ける、拒む」の意味で英語に入る。名詞の「不合格品・reject」は1550年代。医学的な「拒絶反応（臓器移植）」の意味は20世紀になってから。",
+        "source": "EtymOnline: reject",
+        "cognates": [
+          "rejection",
+          "rejectable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "差し出されたものを後ろに投げ返す→受け入れを拒む",
+        "fact": "FORCEスキーマの応用。受け取るべき対象を手前の元の場所(re-)に投げ返す(ject)身体動作。プレゼントを突き返す身体感覚がそのまま「拒絶」という抽象概念に拡張されている。",
+        "source": "Lakoff & Johnson (1980) FORCEスキーマ"
+      },
+      "gap": "「断る（refuse）」との違いで迷いがち。refuse は単に「しない」だが、reject は「投げ返す」力動的なニュアンスがある。His application was rejected（落とされた）は選考プロセスで積極的に「弾かれた」感。",
+      "gapOneliner": "reject = 投げ返す力動感のある拒絶。refuseより強い「はじく」ニュアンス",
+      "hook": {
+        "label": "記憶フック",
+        "text": "面接官が履歴書を「後ろに(re)投げ返す(ject)」のがreject。移植した臓器が体に「投げ返される（拒絶反応）」のも同じ語根。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "rejectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "後ろに投げ返す→拒絶する",
+            "前に投げ出す→提案する",
+            "中に投げ入れる→受け入れる",
+            "上に投げる→昇進させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + ject の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "戻す + 投げる = 拒絶する",
+            "再び + 投げる = 再提出する",
+            "強く + 投げる = 強調する",
+            "離れて + 投げる = 遠ざける"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The committee decided to ______ the proposal due to budget concerns.",
+          "hint": "「後ろに投げ返す」→「却下する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "reject",
+            "project",
+            "inject",
+            "subject"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "rejectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "application（応募を却下する）",
+            "project（計画を投げる）",
+            "meeting（会議を断る）",
+            "money（お金を返す）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The patient's body began to reject the transplanted organ.\" — rejectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "拒絶反応を示す",
+            "受け入れる",
+            "修復する",
+            "感染させる"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Her job application was rejected after the first interview."
+      ]
+    },
+    {
+      "word": "inject",
+      "phonetic": "/ɪnˈdʒekt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "中へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（中へ）+ jacere（投げる）= 中に投げ入れる → 注射する・注入する",
+        "fact": "ラテン語 inicere「中に投げ入れる、差し込む」の過去分詞 iniectus から。1620年代に医学用語として「液体を体内に圧入する」の意味で英語に入る。比喩的な「資金を注入する・活気を吹き込む」は19世紀以降。",
+        "source": "EtymOnline: inject",
+        "cognates": [
+          "injection",
+          "injectable",
+          "self-inject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "外にある液体・要素を内部(in-)に強制的に投げ込む(ject)動き",
+        "fact": "CONTAINERスキーマとFORCEスキーマの複合。閉じた容器（体・システム）の境界を破って内側に物質を送り込む強制的な動き。注射針が皮膚を「貫いて中に投げ入れる」身体感覚が「資金注入」「ユーモアを注入する」に拡張。",
+        "source": "Johnson (1987) CONTAINERスキーマ + FORCEスキーマ"
+      },
+      "gap": "医療「注射」の意味だけで覚えると、inject capital into the economy（経済に資金を注入する）やinject some humor（ユーモアを入れる）で止まる。「中に強制的に投げ込む」がわかれば全て読める。",
+      "gapOneliner": "inject = 「中に強制投入」。医療・資金・アイデアすべて同じ動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "注射器が薬を皮膚の「中に(in)投げ入れる(ject)」のがinject。inject capital = 経済という「容器の中に」お金を「投げ込む」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "injectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中に投げ入れる→注射する・注入する",
+            "前に投げ出す→提案する",
+            "後ろに投げ返す→拒絶する",
+            "外に投げ出す→排出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + ject の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "中へ + 投げる = 注入する",
+            "再び + 投げる = 再提出する",
+            "上に + 投げる = 昇格させる",
+            "一緒に + 投げる = 共有する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government plans to ______ more funds into the healthcare system.",
+          "hint": "「中に投げ入れる」→「注入する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "inject",
+            "reject",
+            "project",
+            "object"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "injectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "capital（資本を注入する）",
+            "project（計画を注射する）",
+            "report（報告を投げる）",
+            "team（チームを注射する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The coach tried to inject some enthusiasm into the team before the match.\" — injectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "注入する・吹き込む",
+            "取り除く",
+            "測定する",
+            "記録する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The nurse injected the vaccine into his arm."
+      ]
+    },
+    {
+      "word": "object",
+      "phonetic": "/ˈɒbdʒɪkt/ (n.) /əbˈdʒekt/ (v.)",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "ob",
+          "meaning": "向かいに・対して",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ob（向かいに）+ jacere（投げる）= 向かいに投げる → 物体・反対する",
+        "fact": "ラテン語 obiectus「向かいに投げられたもの」から。名詞「物体・対象」は14世紀に哲学用語として入り、動詞「反対する」は15世紀後半。「向かいに投げつける」が「論拠を対向させる＝異議を唱える」に転じた。",
+        "source": "EtymOnline: object",
+        "cognates": [
+          "objection",
+          "objective",
+          "objectify"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "向かいに投げ置かれたもの（名詞）／向かいに異議を投げつける（動詞）",
+        "fact": "CONTAINERスキーマとFORCEスキーマの複合。向かい(ob-)に投げられた(ject)もの＝向かいに存在する「物体」。動詞では意見や異議を相手に向かって「投げつける」力動感。名詞と動詞でアクセント位置が変わる点も特徴的（名詞: /ˈɒbdʒɪkt/、動詞: /əbˈdʒekt/）。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "名詞「物体」と動詞「反対する」が同じ単語と知らずに混乱しがち。どちらも「向かいに投げる」から来ており、名詞はアクセント前、動詞はアクセント後ろ。I object to his proposal. = 彼の提案に向かって異議を投げる。",
+      "gapOneliner": "object = 名詞「物体」も動詞「反対する」も「向かいに投げる」が語源",
+      "hook": {
+        "label": "記憶フック",
+        "text": "法廷で弁護士が「向かいに(ob)異議を投げる(ject)」のが動詞object。目の「向かいに置かれたもの(ob+ject)」が名詞object（物体）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "objectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "向かいに投げる→物体・反対する",
+            "前に投げる→計画する",
+            "後ろに投げる→拒絶する",
+            "中に投げる→注入する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ob + ject の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向かいに + 投げる = 物体・反対",
+            "一緒に + 投げる = 提案する",
+            "下に + 投げる = 却下する",
+            "上に + 投げる = 昇格させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Several board members ______ to the proposed changes.",
+          "hint": "「向かいに異議を投げる」→「反対する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "object",
+            "project",
+            "subject",
+            "inject"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "動詞 object と最も自然に結びつく前置詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "to（〜に反対する）",
+            "on（〜の上に反対する）",
+            "by（〜によって反対する）",
+            "for（〜のために反対する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The defense lawyer immediately objected to the question.\" — objectedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "異議を唱えた",
+            "同意した",
+            "質問した",
+            "無視した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I object to being treated this way."
+      ]
+    },
+    {
+      "word": "subject",
+      "phonetic": "/ˈsʌbdʒɪkt/ (n./adj.) /səbˈdʒekt/ (v.)",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "sub",
+          "meaning": "下に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sub（下に）+ jacere（投げる）= 下に投げ置く → 主題・支配下に置く",
+        "fact": "ラテン語 subicere「下に投げ置く、従属させる」の過去分詞 subiectus から。14世紀に「支配者の臣民（下に置かれた者）」で英語に入り、16世紀に「議論・研究の主題」（思考の下に置かれたもの＝題材）、文法の「主語」へ拡張。動詞「さらす・服従させる」はアクセントが後ろ。",
+        "source": "EtymOnline: subject",
+        "cognates": [
+          "subjection",
+          "subjective",
+          "subjectivity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "下に投げ置かれたもの→支配下の人・議論の土台（主題）・文法の主語",
+        "fact": "UP-DOWN垂直スキーマの応用。권력や思考の「下に投げ置かれた(sub+ject)」ものという概念。臣民（権力の下）・主題（議論の下敷き）・主語（文の下支え）・be subject to（〜の下に置かれている＝〜を受ける）まで全て同じ空間感覚から派生。",
+        "source": "Lakoff & Johnson (1980) UP IS MORE / DOWN IS LESS スキーマ"
+      },
+      "gap": "「科目」「主題」「主語」「be subject to（〜を受けやすい）」と意味が多いように見えるが、全て「下に投げ置かれたもの」。be subject to change = 変化という力の下に置かれている = 変わりやすい。",
+      "gapOneliner": "subject = 「下に投げ置かれたもの」から科目・主語・服従がすべて派生",
+      "hook": {
+        "label": "記憶フック",
+        "text": "王様に「下に(sub)投げ置かれた(ject)」人が臣民(subject)。議論の「下に置かれた」土台が主題(subject)。文の「下に置かれた」骨格が主語(subject)。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "subjectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下に投げ置く→主題・支配下",
+            "前に投げ出す→計画する",
+            "向かいに投げる→反対する",
+            "中に投げ入れる→注入する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sub + ject の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下に + 投げる = 主題・支配下",
+            "一緒に + 投げる = 提案する",
+            "外に + 投げる = 輸出する",
+            "後ろに + 投げる = 拒絶する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "All employees are ______ to the company's code of conduct.",
+          "hint": "「下に投げ置かれた」→「〜に従う・〜を受ける」",
+          "explanationFocus": "gap",
+          "choices": [
+            "subject",
+            "object",
+            "project",
+            "reject"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "\"be subject to\" の意味として最も適切なものは？",
+          "explanationFocus": "hook",
+          "choices": [
+            "〜の支配・影響下にある",
+            "〜を拒絶する",
+            "〜に向かって話す",
+            "〜を計画する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Prices are subject to change without notice.\" — subject toの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "〜を受ける可能性がある",
+            "〜を引き起こす",
+            "〜から保護される",
+            "〜に反対する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "What subject did you study at university?"
+      ]
+    },
+    {
+      "word": "objective",
+      "phonetic": "/əbˈdʒektɪv/",
+      "toeicRank": "TSL 200位台相当・TOEIC頻出",
+      "parts": [
+        {
+          "part": "ob",
+          "meaning": "向かいに・対して",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        },
+        {
+          "part": "ive",
+          "meaning": "〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ob（向かいに）+ jacere（投げる）+ ive = 向かいに投げ置かれた性質 → 客観的・目標",
+        "fact": "中世ラテン語 obiectivus「対象に関わる」から。哲学用語として14世紀に「外部の物体に属する（心の外に向かいに置かれた）」の意味で入る。「客観的（感情を向こう側に投げ置いた）」は17世紀、名詞「目標（向かいに設定された点）」は19世紀初頭（軍事目標から）。",
+        "source": "EtymOnline: objective",
+        "cognates": [
+          "objectively",
+          "objectivity",
+          "objectivize"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "向こうに投げ置かれた（自分の外にある）性質 → 客観的・達成すべき目標点",
+        "fact": "IN/OUT空間スキーマの応用。主観(subjective)が「自分の内側」にあるのに対し、客観(objective)は感情や偏見を「向こう側(ob-)に投げ置いた(ject+ive)」状態。名詞の「目標」も、達成すべき地点を「向こう側に設定する」イメージから来ている。",
+        "source": "Johnson (1987) IN/OUT CONTAINERスキーマ"
+      },
+      "gap": "形容詞「客観的な」と名詞「目標」が同じ単語と気づかないことが多い。TOEICでは Our main objective is to... と名詞で頻出。語源の「向かいに投げ置く」がわかれば、客観（感情を投げ置いた状態）も目標（向こうに設定した地点）も同じ感覚で理解できる。",
+      "gapOneliner": "objective = 形容詞「客観的」も名詞「目標」も「向かいに投げ置いた」が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "感情を「向こうに(ob)投げ置いた(ject)性質(ive)」が客観的(objective)。達成すべき地点を「向こうに投げ置いたもの」が目標(objective)。subjectiveは「自分の内側」が語源で対義語。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "objectiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "向かいに投げ置いた性質→客観的・目標",
+            "前に投げ出す性質→積極的",
+            "下に投げ置く性質→従順な",
+            "後ろに投げる性質→保守的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ob + ject + ive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向かいに + 投げる + 性質 = 客観的・目標",
+            "一緒に + 投げる + 性質 = 協力的",
+            "中に + 投げる + 性質 = 内向的",
+            "強く + 投げる + 性質 = 積極的"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Our main ______ is to increase market share by 10% this year.",
+          "hint": "「向かいに投げ置いたもの」→「目標」",
+          "explanationFocus": "gap",
+          "choices": [
+            "objective",
+            "subjective",
+            "project",
+            "rejection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "objectiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "business（ビジネス目標）",
+            "weather（天気目標）",
+            "color（色目標）",
+            "music（音楽目標）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Try to remain objective when evaluating your team's performance.\" — objectiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "客観的な（感情を投げ置いた状態の）",
+            "積極的な",
+            "批判的な",
+            "主観的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Our primary objective is to deliver value to customers."
+      ]
+    },
+    {
+      "word": "injection",
+      "phonetic": "ɪnˈdʒɛkʃən",
+      "toeicRank": "1200",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "中へ、内側に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、注ぐ",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "液体を体内に注入する行為を「投げ込む」という概念から",
+        "fact": "ラテン語のinjectusから派生。医療分野で特に一般的な用語として定着した",
+        "source": "EtymOnline: injection (1540s)",
+        "cognates": [
+          "inject",
+          "injective",
+          "injectable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "針で何かを「体の中に投げ込む」というイメージ",
+        "fact": "医学用語として最初に確立され、その後比喩的に資金注入などにも使用",
+        "source": "医学史における用語の発展"
+      },
+      "gap": "医療行為と液体移動の概念の結合",
+      "gapOneliner": "なぜ注射は「ject」なのか？投げ込むから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "INjectできるのは針だけ、OBjectはできない"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "injectionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "注射",
+            "反対",
+            "放射線",
+            "軌道"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "injectionの「in-」と「ject」の組み合わせから何が推測できる？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "内側への挿入",
+            "外側への排出",
+            "回転運動",
+            "上下の動き"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "医療場面での正しい表現は？",
+          "sentence": "The doctor gave me a ______ to reduce the pain.",
+          "hint": "needle（針）と一緒に使う名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "injection",
+            "objection",
+            "projection",
+            "rejection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "injectionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "lethal",
+            "obvious",
+            "careful",
+            "distant"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The government approved a cash injection to stimulate the economy.\" — injectionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "資金の注入",
+            "注射針",
+            "反対意見",
+            "映画放映"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "vaccine injection（ワクチン注射）",
+        "fuel injection（燃料噴射）",
+        "cash injection（資金注入）"
+      ]
+    },
+    {
+      "word": "objection",
+      "phonetic": "əbˈdʒɛkʃən",
+      "toeicRank": "1300",
+      "parts": [
+        {
+          "part": "ob-",
+          "meaning": "反対に、向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、差し出す",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "反対の方向に何かを「投げつける」ことから反対や異議を表す",
+        "fact": "ラテン語のobjectusから。法廷での異議申し立てで特に使用された",
+        "source": "EtymOnline: objection (1540s)",
+        "cognates": [
+          "object",
+          "objective",
+          "objectively"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "相手の意見に対して言葉を「投げつけて反対する」イメージ",
+        "fact": "法律用語として確立され、その後日常会話にも広がった",
+        "source": "法律史における用語の発展"
+      },
+      "gap": "反対の方向性と投げつける行為の融合",
+      "gapOneliner": "なぜ反対は「ob-ject」か？逆向きに投げるから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "OBjectionは裁判官に物を投げて異議を唱える感じ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "objectionの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "反対、異議",
+            "注射",
+            "軌道",
+            "拒否"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「ob-」が「ject」に付くことで何が起こる？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "反対方向の意思表示",
+            "強い力",
+            "回転",
+            "上昇"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "法的な場面での正しい表現は？",
+          "sentence": "The lawyer raised an ______ to the witness's testimony.",
+          "hint": "異議申し立ての法律用語",
+          "explanationFocus": "gap",
+          "choices": [
+            "objection",
+            "injection",
+            "projection",
+            "collection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "objectionと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "raise an objection",
+            "take an injection",
+            "make a projection",
+            "file a rejection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"I have no objection to your proposal.\" — objectionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "反対、異議",
+            "注射",
+            "放映",
+            "軌跡"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "raise an objection（異議を唱える）",
+        "without objection（異議なく）",
+        "strong objection（強い反対）"
+      ]
+    },
+    {
+      "word": "projection",
+      "phonetic": "prəˈdʒɛkʃən",
+      "toeicRank": "1250",
+      "parts": [
+        {
+          "part": "pro-",
+          "meaning": "前へ、先へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、突き出す",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "何かを前方に「投げ出す」ことから突出や投影の概念が生まれた",
+        "fact": "ラテン語のprojectusから。建築や幾何学で図形の投影として使用された",
+        "source": "EtymOnline: projection (1400s)",
+        "cognates": [
+          "project",
+          "projector",
+          "projectile"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "光を前に投げて壁に映す映画プロジェクターのイメージ",
+        "fact": "建築用語から数学用語、心理学用語と多様に拡張発展した",
+        "source": "科学史における用語の多面的発展"
+      },
+      "gap": "前方への推進と視覚的投影の関連性",
+      "gapOneliner": "なぜ映写は「pro-ject」か？前に映像を投げるから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "PROjectionは映画館でスクリーンに映像を前に投げている感じ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "projectionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投影、映写",
+            "異議",
+            "軌跡",
+            "拒否"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語原クイズ",
+          "difficulty": 2,
+          "instruction": "「pro-」が「ject」に付くことで何をイメージしますか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "前方への投出",
+            "後ろへの反撃",
+            "円形の回転",
+            "下への沈下"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "ビジネス場面での正しい表現は？",
+          "sentence": "The company made a financial ______ for next year.",
+          "hint": "将来の見通しや予測",
+          "explanationFocus": "gap",
+          "choices": [
+            "projection",
+            "injection",
+            "objection",
+            "rejection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "projectionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "film projector",
+            "financial",
+            "market",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The psychologist explained that the patient's anger was a projection of his own insecurity.\" — projectionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "自分の感情を他者に押しつけること",
+            "映写",
+            "反対意見",
+            "軌道"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "film projection（映画映写）",
+        "financial projection（財務予測）",
+        "map projection（地図投影）"
+      ]
+    },
+    {
+      "word": "rejection",
+      "phonetic": "rɪˈdʒɛkʃən",
+      "toeicRank": "1350",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "後ろへ、戻す",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、放つ",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "何かを後ろに「投げ返す」ことから拒否や却下の意味が生まれた",
+        "fact": "ラテン語のrejectusから。医学での臓器移植拒否反応で特に知られた",
+        "source": "EtymOnline: rejection (1550s)",
+        "cognates": [
+          "reject",
+          "rejected",
+          "rejectable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "受け取ったものを後ろにバンと投げ返す拒否のジェスチャー",
+        "fact": "医学用語として臓器移植の免疫反応を表すようになった",
+        "source": "医学における免疫学の発展"
+      },
+      "gap": "後方への反発と拒否の感情的意味",
+      "gapOneliner": "なぜ拒否は「re-ject」か？後ろに投げ返すから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "REjectionは送られてきた物を『要らない』と投げ返す感じ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "rejectionの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "拒否、却下",
+            "注射",
+            "映写",
+            "異議"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「re-」が「ject」に付くことで何を表現する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後ろへの反発",
+            "前への推進",
+            "上への上昇",
+            "円への回転"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "医学場面での正しい表現は？",
+          "sentence": "The patient's body showed signs of ______ to the transplanted organ.",
+          "hint": "移植臓器に対する体の反応",
+          "explanationFocus": "gap",
+          "choices": [
+            "rejection",
+            "injection",
+            "projection",
+            "objection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "rejectionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "job rejection",
+            "organ rejection",
+            "rejection letter",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His rejection of the offer surprised everyone.\" — rejectionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "申し出の拒否",
+            "注射",
+            "映写",
+            "異議"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "job rejection（採用不採用）",
+        "organ rejection（臓器移植拒否反応）",
+        "rejection letter（不採用通知）"
+      ]
+    },
+    {
+      "word": "subjective",
+      "phonetic": "səbˈdʒɛktɪv",
+      "toeicRank": "1400",
+      "parts": [
+        {
+          "part": "sub-",
+          "meaning": "下に、以下",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、置く",
+          "type": "root"
+        },
+        {
+          "part": "-ive",
+          "meaning": "性質、傾向",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "主体の下に「置かれた」ことから個人の主観的見方を表す",
+        "fact": "ラテン語のsubjectusから。哲学では主観性を表す中心的な用語",
+        "source": "EtymOnline: subjective (1590s)",
+        "cognates": [
+          "subject",
+          "subjectively",
+          "subjectivity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "個人の心の中に「置かれた」意見で、客観的でない感じ",
+        "fact": "哲学の主観と客観の区別として確立された重要な概念",
+        "source": "西洋哲学史における認識論の発展"
+      },
+      "gap": "下位の地位と個人的視点の関連性",
+      "gapOneliner": "なぜ主観は「sub-ject」か？個人の下位に置かれた見方だから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SUBjectiveは自分の主観という名前の『下位の』見方"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "subjectiveの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "主観的な",
+            "客観的な",
+            "教科的な",
+            "積極的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「sub-」が「ject」に付くことで何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "個人的視点に置かれた",
+            "普遍的な真実",
+            "強い権力",
+            "前方への進出"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "学術的な正しい表現は？",
+          "sentence": "Art appreciation is often very ______, depending on individual taste.",
+          "hint": "個人差がある性質",
+          "explanationFocus": "gap",
+          "choices": [
+            "subjective",
+            "objective",
+            "projective",
+            "selective"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "subjectiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "subjective opinion",
+            "subjective experience",
+            "subjective judgment",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The reviewer's critique was highly subjective and reflected personal biases.\" — subjectiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "個人的観点に基づいた",
+            "客観的な",
+            "映写される",
+            "拒否される"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "subjective opinion（主観的意見）",
+        "subjective experience（個人的経験）",
+        "subjective judgment（主観的判断）"
+      ]
+    },
+    {
+      "word": "trajectory",
+      "phonetic": "trəˈdʒɛktəri",
+      "toeicRank": "1450",
+      "parts": [
+        {
+          "part": "tra-",
+          "meaning": "横に、渡って",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、放つ",
+          "type": "root"
+        },
+        {
+          "part": "-ory",
+          "meaning": "～に関する、場所",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "横に「投げられた」物体の経路から、軌道や進路を表す",
+        "fact": "ラテン語のtrajectusから。物理学で砲弾の軌道描写から始まった",
+        "source": "EtymOnline: trajectory (1680s)",
+        "cognates": [
+          "trajectory",
+          "traject",
+          "transject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "弓で矢を横に放つと描く弧線のようなイメージ",
+        "fact": "物理学の砲道計算から始まり、現在は人生経路などにも比喩的に使用",
+        "source": "物理学と比喩的用法の発展"
+      },
+      "gap": "横方向の投射と経路描写の関連性",
+      "gapOneliner": "なぜ軌道は「tra-ject-ory」か？横に投げた物の進路だから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "TRAjectoryは矢が横に飛んで描く『曲線の道』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "trajectoryの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "軌道、経路",
+            "注射",
+            "映写",
+            "拒否"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「tra-」が「ject」に付くことで何をイメージする？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "横に投げられた物体の経路",
+            "後ろへの反発",
+            "前への推進",
+            "下への沈下"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "科学的な正しい表現は？",
+          "sentence": "The ______ of the spacecraft was carefully calculated by mission control.",
+          "hint": "宇宙船の通る道",
+          "explanationFocus": "gap",
+          "choices": [
+            "trajectory",
+            "injection",
+            "projection",
+            "rejection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "trajectoryと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "career trajectory",
+            "upward trajectory",
+            "flight trajectory",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company's upward trajectory impressed all investors.\" — trajectoryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "進行経路、発展過程",
+            "注射",
+            "映写",
+            "反対"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "flight trajectory（飛行軌道）",
+        "career trajectory（キャリアの進展）",
+        "upward trajectory（上昇軌道）"
+      ]
+    },
+    {
+      "word": "conjecture",
+      "phonetic": "kənˈdʒɛktʃər",
+      "toeicRank": "1500",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、思い投げる",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "一緒に「推測を投げ出す」ことから、推論や予想を表す",
+        "fact": "ラテン語のconjecturaから。数学の予想定理『ゴールドバッハの予想』などで有名",
+        "source": "EtymOnline: conjecture (1300s)",
+        "cognates": [
+          "conjecture",
+          "conjectural",
+          "conjectured"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "証拠なく『こうに違いない』と予想を一緒に投げ出すイメージ",
+        "fact": "数学では『証明されていない予想』を指す重要な概念",
+        "source": "数学史における未解決問題の研究"
+      },
+      "gap": "共有行為と推測の意味的結合",
+      "gapOneliner": "なぜ推測は「con-ject-ure」か？根拠なく推測を投げ出すから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "CONjectureは根拠を『con（一緒に）』に投げて推測する"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "conjectureの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "推測、推論",
+            "注射",
+            "映写",
+            "軌道"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「con-」が「ject」に付くことで何を表現する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "根拠のない推測",
+            "確実な知識",
+            "強い反対",
+            "明確な証明"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "数学的な正しい表現は？",
+          "sentence": "The Riemann ______ remains one of the unsolved problems in mathematics.",
+          "hint": "証明されていない予想",
+          "explanationFocus": "gap",
+          "choices": [
+            "conjecture",
+            "injection",
+            "projection",
+            "rejection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "conjectureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "wild conjecture",
+            "mathematical conjecture",
+            "Goldbach's conjecture",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Based on the evidence, we can only conjecture about what happened.\" — conjectureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "推測する、推論する",
+            "映写する",
+            "拒否する",
+            "軌道を描く"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "wild conjecture（無根拠な推測）",
+        "mathematical conjecture（数学的予想）",
+        "pure conjecture（単なる推測）"
+      ]
+    },
+    {
+      "word": "eject",
+      "phonetic": "ɪˈdʒɛkt",
+      "toeicRank": "1350",
+      "parts": [
+        {
+          "part": "e-",
+          "meaning": "外へ、～から",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、放つ",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "外へ「投げ出す」ことから排出や放逐を表す",
+        "fact": "ラテン語のejactusから。航空機のイジェクトシートで特に知られた",
+        "source": "EtymOnline: eject (1540s)",
+        "cognates": [
+          "ejection",
+          "ejector",
+          "ejectable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "パイロットが座席からボタン一つで外に『プシュー』と飛ばされる感じ",
+        "fact": "軍用機のイジェクトシートは緊急脱出装置として命の綱",
+        "source": "航空宇宙工学の発展"
+      },
+      "gap": "外方向への強制的排出の概念",
+      "gapOneliner": "なぜ排出は「e-ject」か？外へ投げ出すから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "EJectは『E（外へ）』『ject（投げる）』で外に投げ出す強い動作"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "ejectの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "排出する、追い出す",
+            "注射する",
+            "映写する",
+            "軌道を描く"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「e-」が「ject」に付くことで何をイメージする？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "外への強制的排出",
+            "内側への挿入",
+            "前方への推進",
+            "側面への展開"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "技術的な正しい表現は？",
+          "sentence": "The pilot activated the ______ seat to escape from the damaged aircraft.",
+          "hint": "飛行機からの脱出装置",
+          "explanationFocus": "gap",
+          "choices": [
+            "eject",
+            "inject",
+            "project",
+            "reject"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "ejectと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "eject seat",
+            "eject button",
+            "eject DVD",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The bouncer ejected the rowdy customer from the nightclub.\" — ejectの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "強制的に排出する",
+            "注射する",
+            "映写する",
+            "拒否する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "eject seat（イジェクトシート）",
+        "eject button（排出ボタン）",
+        "eject a disc（ディスクを取り出す）"
+      ]
+    },
+    {
+      "word": "projectile",
+      "phonetic": "prəˈdʒɛktaɪl",
+      "toeicRank": "1500",
+      "parts": [
+        {
+          "part": "pro-",
+          "meaning": "前へ、先へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる、発射",
+          "type": "root"
+        },
+        {
+          "part": "-ile",
+          "meaning": "～に適した、～の傾向がある",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "前方に「投げられるもの」という意味で発射体や飛行物体を指す",
+        "fact": "ラテン語のprojectilisから。砲弾や矢などの軍事用語として発展",
+        "source": "EtymOnline: projectile (1650s)",
+        "cognates": [
+          "project",
+          "projection",
+          "projector"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "大砲から前へ『シュー』と飛ぶ砲弾のような物体のイメージ",
+        "fact": "物理学では重力下での放物運動を計算する重要な対象",
+        "source": "古典力学における運動論の発展"
+      },
+      "gap": "投げられる行為と物体そのものの名詞化",
+      "gapOneliner": "なぜ砲弾は「pro-ject-ile」か？前に投げられる物だから",
+      "hook": {
+        "label": "記憶フック",
+        "text": "PROjectILE（ILE＝物体）は前に投げられる物体そのもの"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "projectileの基本的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "発射体、飛行物体",
+            "映写装置",
+            "注射器",
+            "軌道"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「-ile」が「project」に付くことで何を表現する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "投げられるもの（名詞化）",
+            "投げる行為（動詞）",
+            "投げられる場所",
+            "投げられた後"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "物理学での正しい表現は？",
+          "sentence": "The ______ followed a parabolic trajectory under the influence of gravity.",
+          "hint": "大砲から発射される物体",
+          "explanationFocus": "gap",
+          "choices": [
+            "projectile",
+            "injection",
+            "protection",
+            "projection"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "projectileと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "ballistic projectile",
+            "projectile motion",
+            "projectile weapon",
+            "all of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The soldiers were trained to dodge incoming projectiles.\" — projectileの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "飛来する発射体",
+            "映写装置",
+            "注射針",
+            "軌道"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "ballistic projectile（弾道弾）",
+        "projectile motion（放物運動）",
+        "projectile weapon（投射兵器）"
+      ]
+    },
+    {
+      "word": "interject",
+      "phonetic": "/ˌɪntərˈdʒekt/",
+      "toeicRank": "TSL中位・ビジネス/日常用語",
+      "parts": [
+        {
+          "part": "inter",
+          "meaning": "間に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "inter（間に）+ jacere（投げる）= 間に投げ込む → 口を挟む",
+        "fact": "ラテン語 interjicere「間に投げ込む」から。inter-（間に）+ jacere（投げる）。16世紀に「会話の間に言葉を投げ込む」の意味で英語に入った。interjection = 感嘆詞（会話に投げ込まれる言葉）。",
+        "source": "EtymOnline: interject",
+        "cognates": [
+          "inject",
+          "eject",
+          "project",
+          "object"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "間に（inter）投げ込む（ject）→ 口を挟む",
+        "fact": "INTERRUPTION（中断）スキーマ。会話の流れの「間に（inter）」言葉を「投げ込む（ject）」動き。inject（注入する）と同じパターンだが方向が異なる。",
+        "source": "Johnson (1987) INTERRUPTIONスキーマ"
+      },
+      "gap": "interject は「口を挟む」。inter（間に）+ ject（投げる）= 間に投げ込む。May I interject? = 口を挟んでいいですか？ interjection = 感嘆詞。",
+      "gapOneliner": "interject = 間に(inter)投げ込む(ject) → 口を挟む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "inter(間に) + ject(投げる) = 間に投げ込む = 口を挟む。May I interject? = 一言よろしいですか？"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "interjectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "間に投げ込む→口を挟む",
+            "外に投げる→追い出す",
+            "前に投げる→予測する",
+            "中に投げる→注入する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "\"If I may ______,\" she said, \"I have a different view.\"",
+          "hint": "「間に投げ込む」→「口を挟む」",
+          "explanationFocus": "gap",
+          "choices": [
+            "interject",
+            "inject",
+            "eject",
+            "object"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He interjected a comment during the heated debate."
+      ]
+    },
+    {
+      "word": "dejected",
+      "phonetic": "/dɪˈdʒektɪd/",
+      "toeicRank": "TSL中位・文学/日常用語",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "下へ",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        },
+        {
+          "part": "ed",
+          "meaning": "〜された（過去分詞形容詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ jacere（投げる）= 下に投げ落とされた → 落胆した",
+        "fact": "ラテン語 dejectus「下に投げ落とされた」から。de-（下へ）+ jacere（投げる）。15世紀に「気分が落ち込んだ」の比喩的意味で英語に入った。dejection = 落胆・意気消沈。",
+        "source": "EtymOnline: dejected",
+        "cognates": [
+          "project",
+          "reject",
+          "inject",
+          "eject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "下に（de）投げ落とされた（ject）→ 落胆した・意気消沈した",
+        "fact": "DOWN IS SADメタファー。気持ちが「下に（de）投げ落とされた（ject）」状態。elated（高揚した）の対義概念。",
+        "source": "Lakoff & Johnson (1980) SAD IS DOWNメタファー"
+      },
+      "gap": "dejected は「落胆した」。de（下へ）+ ject（投げる）= 下に投げ落とされた＝気分が沈んだ。project（前に投げる）、reject（後ろに投げ返す）との対比。",
+      "gapOneliner": "dejected = 下へ(de)投げ落とされた(ject) → 落胆した",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(下へ) + ject(投げる) + ed = 下に投げ落とされた = 落胆した。He looked dejected after the loss = 負けた後、彼は落胆して見えた。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "dejectedの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下に投げ落とされた→落胆した",
+            "前に投げられた→推進された",
+            "中に投げ込まれた→注入された",
+            "外に投げ出された→追放された"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The players looked ______ after losing the final match.",
+          "hint": "「下に投げ落とされた」→「落胆した」",
+          "explanationFocus": "gap",
+          "choices": [
+            "dejected",
+            "projected",
+            "rejected",
+            "injected"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She felt dejected after failing the exam for the third time."
+      ]
+    },
+    {
+      "word": "adjective",
+      "phonetic": "/ˈædʒɪktɪv/",
+      "toeicRank": "TSL中位・言語学/教育用語",
+      "parts": [
+        {
+          "part": "ad",
+          "meaning": "〜に",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる・置く",
+          "type": "root"
+        },
+        {
+          "part": "ive",
+          "meaning": "〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に）+ jacere（投げる・添える）= 名詞に添えられるもの → 形容詞",
+        "fact": "ラテン語 adjectivum（nomen）「付け加えられた（名前）」から。ad-（〜に）+ jacere（投げる、置く）。名詞に「添えられる（ad + ject）」語として、14世紀に文法用語として英語に入った。",
+        "source": "EtymOnline: adjective",
+        "cognates": [
+          "adjacent",
+          "project",
+          "subject",
+          "object"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "名詞に（ad）添えられた（ject）もの → 形容詞",
+        "fact": "ADDITION（追加）スキーマ。名詞という主要素に「投げ添えられた（ad + ject）」修飾語。adjacent（隣接した）も ad + jac（近くに置かれた）で同根。",
+        "source": "Langacker (2008) ADDITIONスキーマ"
+      },
+      "gap": "adjective は「形容詞」。ad（〜に）+ ject（投げる・添える）= 名詞に添えられるもの。adjacent（隣接した）も同じ ad + jac。文法用語の語源。",
+      "gapOneliner": "adjective = 名詞に(ad)添えられた(ject)もの → 形容詞",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ad(〜に) + ject(添える) + ive = 名詞に添えられるもの = 形容詞。adjacent(隣接した)も ad + jac。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "adjectiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "名詞に添えられた→形容詞",
+            "前に投げられた→予測",
+            "中に投げ込まれた→注入",
+            "下に投げ落とされた→落胆"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ad（〜に）+ ject（投げる・添える）+ ive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "〜に + 添える + 性質 = 形容詞",
+            "前に + 投げる + 性質 = 予測的な",
+            "中に + 投げる + 性質 = 注入的な",
+            "反対に + 投げる + 性質 = 拒否的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Use descriptive adjectives to make your writing more vivid."
+      ]
+    },
+    {
+      "word": "jettison",
+      "phonetic": "/ˈdʒetɪsn/",
+      "toeicRank": "TSL中位・ビジネス/航空用語",
+      "parts": [
+        {
+          "part": "jet",
+          "meaning": "投げる（ject の変形）",
+          "type": "root"
+        },
+        {
+          "part": "ison",
+          "meaning": "〜すること（名詞/動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "jactare（投げる）= 荷物を投げ捨てる → 投棄する・放棄する",
+        "fact": "古フランス語 getaison「投げ捨てること」から。ラテン語 jactare（投げる、jacere の反復形）に由来。元は嵐の中で船の荷物を海に投げ捨てることを指し、比喩的に「不要なものを捨てる」意味に拡張。",
+        "source": "EtymOnline: jettison",
+        "cognates": [
+          "jet",
+          "project",
+          "reject",
+          "eject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "投げ捨てる（jet）→ 投棄する・放棄する",
+        "fact": "REMOVAL（除去）スキーマ。危機的状況で不要なものを「投げ捨てる（jet）」動き。jettison a plan = 計画を捨てる。航空では燃料を空中投棄することも指す。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "jettison は「投げ捨てる・放棄する」。jet（投げる）から。元は嵐で船の荷物を海に投げ捨てること。jettison an idea = アイデアを捨てる。ビジネスでも頻出。",
+      "gapOneliner": "jettison = 投げ捨てる(jet) → 投棄する・放棄する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "jet(投げる) + ison = 投げ捨てること。元は嵐で荷物を海に投げ捨てた。jettison the plan = 計画を放棄する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "jettisonの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投げ捨てる→投棄する",
+            "投げ入れる→注入する",
+            "投げ返す→拒否する",
+            "投げ前へ→推進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company decided to ______ its unprofitable divisions.",
+          "hint": "「投げ捨てる」→「放棄する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "jettison",
+            "project",
+            "inject",
+            "reject"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The airline had to jettison fuel before making an emergency landing."
+      ]
+    },
+    {
+      "word": "abject",
+      "phonetic": "/ˈæbdʒekt/",
+      "toeicRank": "TSL中位・文学/ニュース用語",
+      "parts": [
+        {
+          "part": "ab",
+          "meaning": "離れて",
+          "type": "prefix"
+        },
+        {
+          "part": "ject",
+          "meaning": "投げる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ab（離れて）+ jacere（投げる）= 投げ捨てられた → 惨めな・卑しい",
+        "fact": "ラテン語 abjectus「投げ捨てられた」から。ab-（離れて）+ jacere（投げる）。15世紀に「捨てられて最も低い状態にある」の意味で英語に入った。abject poverty = 極度の貧困。",
+        "source": "EtymOnline: abject",
+        "cognates": [
+          "reject",
+          "eject",
+          "project",
+          "inject"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "離れて（ab）投げ捨てられた（ject）→ 惨めな・卑しい",
+        "fact": "DOWN IS BADメタファー。「離れて（ab）投げ捨てられた（ject）」最低の状態。dejected（落胆した）と似ているが、abject はより極端な卑しさ・惨めさを表す。",
+        "source": "Lakoff & Johnson (1980) DOWN IS BADメタファー"
+      },
+      "gap": "abject は「極度の・惨めな」。ab（離れて）+ ject（投げる）= 投げ捨てられた。abject poverty = 極度の貧困。abject failure = 惨めな失敗。dejected より強い表現。",
+      "gapOneliner": "abject = 離れて(ab)投げ捨てられた(ject) → 惨めな・卑しい",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ab(離れて) + ject(投げる) = 投げ捨てられた = 惨めな。abject poverty = 極度の貧困。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "abjectの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投げ捨てられた→惨めな",
+            "投げ入れた→注入した",
+            "投げ返した→拒否した",
+            "投げ前に→計画した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Millions of people live in ______ poverty.",
+          "hint": "「投げ捨てられた」→「極度の・惨めな」",
+          "explanationFocus": "gap",
+          "choices": [
+            "abject",
+            "object",
+            "subject",
+            "reject"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The refugees were living in conditions of abject misery."
+      ]
+    }
+  ]
+}

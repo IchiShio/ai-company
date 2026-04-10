@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2a3a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg2)" />
+
+  <!-- Title -->
+  <text x="600" y="55" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">最適復習スケジュール ─ 7日間チャート</text>
+  <text x="600" y="83" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786" text-anchor="middle">1日10分。同じ単語に7日間触れ続けるだけで記憶が変わる</text>
+
+  <!-- Day boxes -->
+  <!-- Day 1 -->
+  <rect x="70" y="115" width="148" height="420" fill="#1a2a3a" stroke="#1DA1F2" stroke-width="2" rx="12"/>
+  <rect x="70" y="115" width="148" height="44" fill="#1DA1F2" rx="12"/>
+  <rect x="70" y="147" width="148" height="12" fill="#1DA1F2"/>
+  <text x="144" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Day 1</text>
+  <text x="144" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">📖</text>
+  <text x="144" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">初回インプット</text>
+  <text x="144" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">10単語を</text>
+  <text x="144" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">声に出して読む</text>
+  <text x="144" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="144" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#1DA1F2" text-anchor="middle">80%</text>
+  <text x="144" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 10分</text>
+  <!-- brain activity bar -->
+  <rect x="90" y="420" width="108" height="10" fill="#2a3a4a" rx="5"/>
+  <rect x="90" y="420" width="86" height="10" fill="#1DA1F2" rx="5"/>
+  <text x="144" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">脳の活性度 ▌▌▌▌▌▌▌░</text>
+  <text x="144" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5bd4ff" text-anchor="middle">「新情報」判定</text>
+  <text x="144" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">短期記憶に保存</text>
+
+  <!-- Day 2 -->
+  <rect x="232" y="115" width="148" height="420" fill="#1a2a3a" stroke="#2a8ad4" stroke-width="2" rx="12"/>
+  <rect x="232" y="115" width="148" height="44" fill="#2a8ad4" rx="12"/>
+  <rect x="232" y="147" width="148" height="12" fill="#2a8ad4"/>
+  <text x="306" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Day 2</text>
+  <text x="306" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">🔁</text>
+  <text x="306" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#2a8ad4" text-anchor="middle">最初の復習</text>
+  <text x="306" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">意味を確認</text>
+  <text x="306" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">例文も読む</text>
+  <text x="306" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="306" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#2a8ad4" text-anchor="middle">78%</text>
+  <text x="306" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 5分</text>
+  <text x="306" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">脳の活性度 ▌▌▌▌▌▌░░</text>
+  <text x="306" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5bd4ff" text-anchor="middle">「繰り返し情報」</text>
+  <text x="306" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">重要度UP↑</text>
+
+  <!-- Day 3 -->
+  <rect x="394" y="115" width="148" height="420" fill="#1a2a3a" stroke="#3a7abf" stroke-width="2" rx="12"/>
+  <rect x="394" y="115" width="148" height="44" fill="#3a7abf" rx="12"/>
+  <rect x="394" y="147" width="148" height="12" fill="#3a7abf"/>
+  <text x="468" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Day 3</text>
+  <text x="468" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">✍️</text>
+  <text x="468" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#3a7abf" text-anchor="middle">能動的テスト</text>
+  <text x="468" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">意味を隠して</text>
+  <text x="468" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">自力で思い出す</text>
+  <text x="468" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="468" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#3a7abf" text-anchor="middle">72%</text>
+  <text x="468" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 8分</text>
+  <text x="468" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">脳の活性度 ▌▌▌▌▌░░░</text>
+  <text x="468" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">検索記憶で強化</text>
+  <text x="468" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">想起練習効果↑↑</text>
+
+  <!-- Day 4 -->
+  <rect x="556" y="115" width="148" height="420" fill="#1a2a3a" stroke="#4a6aaa" stroke-width="2" rx="12"/>
+  <rect x="556" y="115" width="148" height="44" fill="#4a6aaa" rx="12"/>
+  <rect x="556" y="147" width="148" height="12" fill="#4a6aaa"/>
+  <text x="630" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Day 4</text>
+  <text x="630" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">🗣️</text>
+  <text x="630" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#4a6aaa" text-anchor="middle">使う練習</text>
+  <text x="630" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">単語を使った</text>
+  <text x="630" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">英文を作る</text>
+  <text x="630" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="630" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#4a6aaa" text-anchor="middle">76%</text>
+  <text x="630" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 10分</text>
+  <text x="630" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">脳の活性度 ▌▌▌▌▌▌▌░</text>
+  <text x="630" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5bd4ff" text-anchor="middle">意味ネットワーク形成</text>
+  <text x="630" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">文脈記憶で定着↑</text>
+
+  <!-- Day 5 -->
+  <rect x="718" y="115" width="148" height="420" fill="#1a2a3a" stroke="#5a5a90" stroke-width="2" rx="12"/>
+  <rect x="718" y="115" width="148" height="44" fill="#5a5a90" rx="12"/>
+  <rect x="718" y="147" width="148" height="12" fill="#5a5a90"/>
+  <text x="792" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Day 5</text>
+  <text x="792" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">🎯</text>
+  <text x="792" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#9090d0" text-anchor="middle">ミニクイズ</text>
+  <text x="792" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">4択・穴埋めで</text>
+  <text x="792" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">弱点を把握</text>
+  <text x="792" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="792" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#9090d0" text-anchor="middle">80%</text>
+  <text x="792" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 7分</text>
+  <text x="792" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">脳の活性度 ▌▌▌▌▌▌▌▌</text>
+  <text x="792" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">エラー訂正で強化</text>
+  <text x="792" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">弱点集中強化↑↑↑</text>
+
+  <!-- Day 6 -->
+  <rect x="880" y="115" width="148" height="420" fill="#1a2a3a" stroke="#6a8a50" stroke-width="2" rx="12"/>
+  <rect x="880" y="115" width="148" height="44" fill="#6a8a50" rx="12"/>
+  <rect x="880" y="147" width="148" height="12" fill="#6a8a50"/>
+  <text x="954" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">Day 6</text>
+  <text x="954" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">🌍</text>
+  <text x="954" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#8abf60" text-anchor="middle">実場面で使う</text>
+  <text x="954" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">英語実況や</text>
+  <text x="954" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">日常会話で応用</text>
+  <text x="954" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="954" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#8abf60" text-anchor="middle">85%</text>
+  <text x="954" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 自然に</text>
+  <text x="954" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">脳の活性度 ▌▌▌▌▌▌▌▌</text>
+  <text x="954" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5bd4ff" text-anchor="middle">感情記憶と結合</text>
+  <text x="954" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">長期記憶へ移行↑</text>
+
+  <!-- Day 7 -->
+  <rect x="1042" y="115" width="128" height="420" fill="#1a3a1a" stroke="#f5c518" stroke-width="3" rx="12"/>
+  <rect x="1042" y="115" width="128" height="44" fill="#f5c518" rx="12"/>
+  <rect x="1042" y="147" width="128" height="12" fill="#f5c518"/>
+  <text x="1106" y="144" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#14171A" text-anchor="middle">Day 7</text>
+  <text x="1106" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" text-anchor="middle">🏆</text>
+  <text x="1106" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#f5c518" text-anchor="middle">定着確認</text>
+  <text x="1106" y="258" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">全10単語を</text>
+  <text x="1106" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#aab4be" text-anchor="middle">一気にテスト</text>
+  <text x="1106" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">定着率</text>
+  <text x="1106" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="32" font-weight="700" fill="#f5c518" text-anchor="middle">90%+</text>
+  <text x="1106" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">⏱ 10分</text>
+  <text x="1106" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#f5c518" text-anchor="middle">脳の活性度 ▌▌▌▌▌▌▌▌</text>
+  <text x="1106" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">長期記憶に定着！</text>
+  <text x="1106" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8abf60" text-anchor="middle">次セット開始OK</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="612" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle">脳は「同じ情報が何日も続く」=「生存に必要な重要情報」と判断して長期記憶に格納する</text>
+
+  <!-- Credit -->
+  <text x="1175" y="662" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

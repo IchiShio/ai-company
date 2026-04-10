@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2533;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stepLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="75" fill="#1DA1F2" opacity="0.12"/>
+  <text x="600" y="28" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle" font-weight="bold">動詞ファースト聴取トレーニング</text>
+  <text x="600" y="58" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">選択的聴取マスター — 5ステップ練習法</text>
+
+  <!-- Step Line -->
+  <line x1="100" y1="130" x2="100" y2="580" stroke="url(#stepLine)" stroke-width="3"/>
+
+  <!-- Step 1 -->
+  <circle cx="100" cy="155" r="24" fill="#1DA1F2"/>
+  <text x="100" y="162" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="148" y="118" width="1020" height="76" rx="12" fill="#1DA1F2" opacity="0.1" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="175" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">動詞だけ追う（基礎）</text>
+  <text x="175" y="174" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">音声を流しながら、動詞（came / told / got / made など）だけに耳を向ける。他の音は無視してよい。</text>
+  <rect x="1060" y="128" width="90" height="28" rx="6" fill="#1DA1F2" opacity="0.25"/>
+  <text x="1105" y="147" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2" text-anchor="middle">Week 1</text>
+
+  <!-- Step 2 -->
+  <circle cx="100" cy="250" r="24" fill="#1DA1F2" opacity="0.85"/>
+  <text x="100" y="257" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+  <rect x="148" y="213" width="1020" height="76" rx="12" fill="#1DA1F2" opacity="0.08" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="175" y="243" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">動詞＋名詞を同時に拾う</text>
+  <text x="175" y="269" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">「誰が（名詞）」「何をした（動詞）」の2点に絞る。これだけで文意の70%以上は把握できる。</text>
+  <rect x="1060" y="223" width="90" height="28" rx="6" fill="#1DA1F2" opacity="0.2"/>
+  <text x="1105" y="242" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2" text-anchor="middle">Week 2</text>
+
+  <!-- Step 3 -->
+  <circle cx="100" cy="345" r="24" fill="#1DA1F2" opacity="0.7"/>
+  <text x="100" y="352" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="148" y="308" width="1020" height="76" rx="12" fill="#1DA1F2" opacity="0.06" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="175" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">形容詞・副詞を加える</text>
+  <text x="175" y="364" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">「どんな（形容詞）」「どのように（副詞）」を加えると文の細かいニュアンスも理解できてくる。</text>
+  <rect x="1060" y="318" width="90" height="28" rx="6" fill="#1DA1F2" opacity="0.15"/>
+  <text x="1105" y="337" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2" text-anchor="middle">Week 3-4</text>
+
+  <!-- Step 4 -->
+  <circle cx="100" cy="440" r="24" fill="#1DA1F2" opacity="0.55"/>
+  <text x="100" y="447" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">4</text>
+  <rect x="148" y="403" width="1020" height="76" rx="12" fill="#1DA1F2" opacity="0.05" stroke="#657786" stroke-width="1"/>
+  <text x="175" y="433" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">音の変化（連音・脱落）に慣れる</text>
+  <text x="175" y="459" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">ネイティブは "going to" → "gonna"、"want to" → "wanna" と発音する。音の変化パターンを学ぶ。</text>
+  <rect x="1060" y="413" width="90" height="28" rx="6" fill="#657786" opacity="0.3"/>
+  <text x="1105" y="432" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">Month 2</text>
+
+  <!-- Step 5 -->
+  <circle cx="100" cy="535" r="24" fill="#657786" opacity="0.7"/>
+  <text x="100" y="542" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="148" y="498" width="1020" height="76" rx="12" fill="#657786" opacity="0.06" stroke="#657786" stroke-width="1"/>
+  <text x="175" y="528" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#8899a6" font-weight="bold">全体把握（機能語も含める）</text>
+  <text x="175" y="554" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8899a6">内容語で文意をつかんだ上で、機能語も自然に聞き取れるようになる段階。スピードに慣れてくる。</text>
+  <rect x="1060" y="508" width="90" height="28" rx="6" fill="#657786" opacity="0.2"/>
+  <text x="1105" y="527" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">Month 3+</text>
+
+  <!-- Bottom CTA -->
+  <rect x="0" y="600" width="1200" height="75" fill="#14171A"/>
+  <text x="600" y="632" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" text-anchor="middle" font-weight="bold">まず Step 1「動詞だけ追う」— 今日から ListenUp で実践できる</text>
+  <text x="600" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">native-real.com でリスニング練習を始めよう</text>
+  <text x="1170" y="665" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

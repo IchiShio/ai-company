@@ -1,0 +1,68 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">生活シーン別 習慣スタッキング例</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="14">起床 / 食事 / 通勤 / 就寝の4シーン</text>
+
+  <!-- 起床 -->
+  <rect x="60" y="110" width="520" height="230" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="60" y="110" width="520" height="50" rx="16" fill="#1DA1F2"/>
+  <rect x="60" y="142" width="520" height="18" fill="#1DA1F2"/>
+  <text x="105" y="143" fill="#FFFFFF" font-size="22" font-weight="bold">🌅  起床</text>
+  <text x="100" y="183" fill="#14171A" font-size="14" font-weight="bold">既存習慣:</text>
+  <text x="230" y="183" fill="#657786" font-size="14">スマホを見る / 朝コーヒーを飲む</text>
+  <line x1="80" y1="195" x2="560" y2="195" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="100" y="218" fill="#1DA1F2" font-size="14" font-weight="bold">くっつける英語:</text>
+  <text x="100" y="243" fill="#14171A" font-size="14">→ コーヒーを待つ間に英語ポッドキャストを3分</text>
+  <text x="100" y="268" fill="#14171A" font-size="14">→ 起き抜けに単語アプリを5問だけ</text>
+  <text x="100" y="293" fill="#657786" font-size="12">「コーヒーが淹れ終わったら聞く」がトリガーになる</text>
+  <text x="100" y="318" fill="#657786" font-size="12">脳が一番フレッシュな朝は記憶定着率が高い</text>
+
+  <!-- 食事 -->
+  <rect x="620" y="110" width="520" height="230" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="620" y="110" width="520" height="50" rx="16" fill="#F45D22"/>
+  <rect x="620" y="142" width="520" height="18" fill="#F45D22"/>
+  <text x="665" y="143" fill="#FFFFFF" font-size="22" font-weight="bold">🍱  食事</text>
+  <text x="660" y="183" fill="#14171A" font-size="14" font-weight="bold">既存習慣:</text>
+  <text x="790" y="183" fill="#657786" font-size="14">昼食 / 夕食の準備・片付け</text>
+  <line x1="640" y1="195" x2="1120" y2="195" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="660" y="218" fill="#F45D22" font-size="14" font-weight="bold">くっつける英語:</text>
+  <text x="660" y="243" fill="#14171A" font-size="14">→ 昼食中に英語動画（字幕なし）を1本</text>
+  <text x="660" y="268" fill="#14171A" font-size="14">→ 食器洗いのBGMを英語ラジオに変える</text>
+  <text x="660" y="293" fill="#657786" font-size="12">「食事をする」という毎日必ず起きる行動を使う</text>
+  <text x="660" y="318" fill="#657786" font-size="12">手が動いている間は耳が空いている</text>
+
+  <!-- 通勤 -->
+  <rect x="60" y="370" width="520" height="230" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="60" y="370" width="520" height="50" rx="16" fill="#794BC4"/>
+  <rect x="60" y="402" width="520" height="18" fill="#794BC4"/>
+  <text x="105" y="403" fill="#FFFFFF" font-size="22" font-weight="bold">🚃  通勤</text>
+  <text x="100" y="443" fill="#14171A" font-size="14" font-weight="bold">既存習慣:</text>
+  <text x="230" y="443" fill="#657786" font-size="14">電車・バス・歩き通勤</text>
+  <line x1="80" y1="455" x2="560" y2="455" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="100" y="478" fill="#794BC4" font-size="14" font-weight="bold">くっつける英語:</text>
+  <text x="100" y="503" fill="#14171A" font-size="14">→ イヤホンでリスニング（片道5〜15分）</text>
+  <text x="100" y="528" fill="#14171A" font-size="14">→ 単語帳アプリをスマホゲーム代わりに</text>
+  <text x="100" y="553" fill="#657786" font-size="12">通勤自体がトリガー。家を出た瞬間に自動起動</text>
+  <text x="100" y="578" fill="#657786" font-size="12">往復で毎日最低10分を無意識に確保できる</text>
+
+  <!-- 就寝 -->
+  <rect x="620" y="370" width="520" height="230" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="620" y="370" width="520" height="50" rx="16" fill="#14171A"/>
+  <rect x="620" y="402" width="520" height="18" fill="#14171A"/>
+  <text x="665" y="403" fill="#FFFFFF" font-size="22" font-weight="bold">🌙  就寝前</text>
+  <text x="660" y="443" fill="#14171A" font-size="14" font-weight="bold">既存習慣:</text>
+  <text x="790" y="443" fill="#657786" font-size="14">歯磨き / スキンケア / 布団に入る</text>
+  <line x1="640" y1="455" x2="1120" y2="455" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="660" y="478" fill="#14171A" font-size="14" font-weight="bold">くっつける英語:</text>
+  <text x="660" y="503" fill="#14171A" font-size="14">→ 歯磨き中に英語音声を聞き流す</text>
+  <text x="660" y="528" fill="#14171A" font-size="14">→ 寝る前3分、今日習った表現を1つ復習</text>
+  <text x="660" y="553" fill="#657786" font-size="12">就寝前の学習は睡眠中に記憶が定着しやすい</text>
+  <text x="660" y="578" fill="#657786" font-size="12">歯磨きをやめる人はいない＝最強のトリガー</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

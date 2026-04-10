@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg5)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">処理速度の差：反射ありvs翻訳経由</text>
+  <text x="600" y="82" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786">ネイティブ発話速度（約150語/分）で1語あたり0.3〜0.4秒しかない</text>
+  <line x1="80" y1="100" x2="1120" y2="100" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- Timeline header -->
+  <text x="80" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">処理時間 →</text>
+  <!-- Time markers -->
+  <text x="200" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8b949e">0ms</text>
+  <text x="440" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8b949e">100ms</text>
+  <text x="680" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8b949e">200ms</text>
+  <text x="920" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#8b949e">300ms</text>
+  <text x="1100" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FF4444">400ms ⚠</text>
+
+  <!-- Tick marks -->
+  <line x1="200" y1="148" x2="200" y2="158" stroke="#8b949e" stroke-width="1"/>
+  <line x1="440" y1="148" x2="440" y2="158" stroke="#8b949e" stroke-width="1"/>
+  <line x1="680" y1="148" x2="680" y2="158" stroke="#8b949e" stroke-width="1"/>
+  <line x1="920" y1="148" x2="920" y2="158" stroke="#8b949e" stroke-width="1"/>
+  <line x1="1100" y1="148" x2="1100" y2="158" stroke="#FF4444" stroke-width="1"/>
+
+  <!-- Danger zone -->
+  <rect x="1060" y="158" width="100" height="440" rx="0" fill="#FF4444" opacity="0.05"/>
+  <line x1="1100" y1="158" x2="1100" y2="600" stroke="#FF4444" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="1115" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FF4444" transform="rotate(90,1115,300)">次の語が来る</text>
+
+  <!-- ===== CASE A: 反射回路あり ===== -->
+  <text x="80" y="195" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#00C896">CASE A：反射回路あり（字幕なしで見られる人）</text>
+
+  <!-- Sound wave symbol -->
+  <text x="200" y="250" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🔊</text>
+  <text x="200" y="278" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音が届く</text>
+
+  <!-- Direct arrow A -->
+  <line x1="230" y1="258" x2="560" y2="258" stroke="#00C896" stroke-width="3"/>
+  <polygon points="554,250 570,258 554,266" fill="#00C896"/>
+  <text x="395" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#00C896">音 → 意味（直結）</text>
+
+  <!-- Meaning box A -->
+  <rect x="570" y="230" width="200" height="55" rx="10" fill="#00C896" opacity="0.15" stroke="#00C896" stroke-width="2"/>
+  <text x="670" y="262" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#00C896">意味 浮かぶ</text>
+  <text x="670" y="280" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8b949e">〜150ms で完了</text>
+
+  <!-- Check -->
+  <circle cx="820" cy="258" r="26" fill="#00C896" opacity="0.18" stroke="#00C896" stroke-width="2"/>
+  <text x="820" y="266" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" fill="#00C896">✓</text>
+  <text x="820" y="302" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#00C896">次の語に間に合う</text>
+
+  <!-- Separator -->
+  <line x1="80" y1="335" x2="1100" y2="335" stroke="#21262d" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- ===== CASE B: 翻訳経由 ===== -->
+  <text x="80" y="370" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FF4444">CASE B：翻訳経由（字幕なしで見られない人）</text>
+
+  <!-- Sound -->
+  <text x="200" y="425" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🔊</text>
+  <text x="200" y="453" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">音が届く</text>
+
+  <!-- Step 1: 音 → 英語認識 -->
+  <line x1="230" y1="432" x2="376" y2="432" stroke="#F39C12" stroke-width="2.5"/>
+  <polygon points="370,424 386,432 370,440" fill="#F39C12"/>
+  <text x="303" y="422" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#F39C12">英語として認識</text>
+
+  <rect x="386" y="410" width="170" height="45" rx="8" fill="#F39C12" opacity="0.12" stroke="#F39C12" stroke-width="1.5"/>
+  <text x="471" y="437" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#F39C12">英語の語形</text>
+  <text x="471" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#8b949e">〜100ms</text>
+
+  <!-- Step 2: → 日本語翻訳 -->
+  <line x1="556" y1="432" x2="706" y2="432" stroke="#9B59B6" stroke-width="2.5"/>
+  <polygon points="700,424 716,432 700,440" fill="#9B59B6"/>
+  <text x="631" y="422" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#9B59B6">日本語に翻訳</text>
+
+  <rect x="716" y="410" width="170" height="45" rx="8" fill="#9B59B6" opacity="0.12" stroke="#9B59B6" stroke-width="1.5"/>
+  <text x="801" y="437" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#9B59B6">日本語訳</text>
+  <text x="801" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#8b949e">〜250ms</text>
+
+  <!-- Step 3: → 意味把握 -->
+  <line x1="886" y1="432" x2="1036" y2="432" stroke="#FF4444" stroke-width="2.5"/>
+  <polygon points="1030,424 1046,432 1030,440" fill="#FF4444"/>
+  <text x="961" y="422" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#FF4444">ようやく意味把握</text>
+
+  <rect x="1046" y="410" width="50" height="45" rx="8" fill="#FF4444" opacity="0.15" stroke="#FF4444" stroke-width="1.5"/>
+  <text x="1071" y="432" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#FF4444">意味</text>
+  <text x="1071" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#FF4444">≥400</text>
+
+  <!-- Overflow -->
+  <text x="600" y="510" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#FF4444">⚡ 意味が浮かぶ前に次の語が来て、処理が詰まる</text>
+  <text x="600" y="538" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786">「知っている単語なのに聞き取れない」現象の正体</text>
+
+  <!-- Summary -->
+  <rect x="200" y="570" width="800" height="50" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1.5"/>
+  <text x="600" y="600" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#FFFFFF">問題は「知識量」ではなく「音→意味の変換速度（反射）」</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

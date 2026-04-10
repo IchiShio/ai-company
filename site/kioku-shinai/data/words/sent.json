@@ -1,0 +1,1971 @@
+{
+  "root": "sent/sens",
+  "rootMeaning": "感じる",
+  "rootLang": "ラテン語 sentire（PIE *sent-）",
+  "imageSchema": "皮膚が外界の刺激を受け取るイメージ。感覚器官がシグナルをキャッチして内側に伝える動き。sentが見えたら「感じる・知覚する」と読み替えると、単語の核が一瞬で見える。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "sentiment（感情）は「感じたもの」の蓄積。sensor（センサー）は「感じる機器」。sent/sensが見えたら「感じる」と読み替えるだけで、今日の6語が全部つながる。"
+  },
+  "words": [
+    {
+      "word": "consent",
+      "phonetic": "/kənˈsent/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ sentire（感じる）= 同じように感じる → 同意する",
+        "fact": "ラテン語 consentire「一緒に感じる、一致する」から。13世紀半ばに「意見が一致する」の意味で英語に入り、14世紀に「許可する、承認する」へ。名詞 consent は1570年代から「承諾、同意」の意味で定着。医療・法律の informed consent（インフォームドコンセント）は20世紀の用語。",
+        "source": "EtymOnline: consent",
+        "cognates": [
+          "consensus",
+          "dissent",
+          "assent",
+          "consent form"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "二者が同じ方向に感じる→気持ちが揃う→同意",
+        "fact": "ALIGNMENTスキーマの応用。二者の感覚・意志ベクトルが同じ方向(con-)を向いて揃う(sentire)イメージ。反対語 dissent は dis-（離れて）+ sent で「感じ方が離れる＝反対する」。consensus はさらに多数が一緒に感じる状態。",
+        "source": "Lakoff & Johnson (1980) 方向性の一致メタファー"
+      },
+      "gap": "「同意する」だけで覚えると without consent（同意なしに）やinformed consent（説明に基づく同意）で詰まる。語源の「一緒に感じる」がわかれば、同意とは「感じ方を揃えること」だと理解でき、consent to（〜に同意する）の前置詞も自然に入る。",
+      "gapOneliner": "consent = 感じ方を揃える→同意する・承諾する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "二人が「一緒に(con)感じる(sent)」からconsent。契約書に sign = 両者の感覚が一致したサイン。without consent = 感じ方が揃っていないのに進める行為。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "consentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一緒に感じる→同意する",
+            "一緒に送る→提出する",
+            "前に感じる→予感する",
+            "感じさせる→説得する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + sent の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に + 感じる = 同意する",
+            "強く + 感じる = 主張する",
+            "再び + 感じる = 思い出す",
+            "外に + 感じる = 表現する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "You need written ______ before sharing personal data.",
+          "hint": "「一緒に感じる」→「同意・承諾」",
+          "explanationFocus": "gap",
+          "choices": [
+            "consent",
+            "content",
+            "dissent",
+            "assent"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "consentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "informed（インフォームドコンセント）",
+            "written（書面による同意）",
+            "mutual（相互の同意）",
+            "全て自然"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The patient gave informed consent for the procedure.\" — consentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "同意・承諾",
+            "拒否・反対",
+            "支払い・費用",
+            "証明・証拠"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "You need written consent before sharing personal data."
+      ]
+    },
+    {
+      "word": "present",
+      "phonetic": "/ˈprezənt/ (adj/n)　/prɪˈzent/ (v)",
+      "toeicRank": "TSL 130位相当",
+      "parts": [
+        {
+          "part": "pre",
+          "meaning": "前に",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる・あること",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pre（前に）+ esse（あること）→ praesens「目の前にある」→ 現在・プレゼント",
+        "fact": "ラテン語 praesens「目の前にいる、今ここにある」から。praesens は prae-（前に）+ esse（ある）の現在分詞形。英語には13世紀に「今この場所にいる」の意味で入り、名詞「贈り物」は14世紀（「目の前に差し出すもの」）、動詞「提示する」は15世紀から。sentireとは別語源だが prae- + esse の構造で「前に感じられる存在」として sent 系と意味的に隣接。",
+        "source": "EtymOnline: present",
+        "cognates": [
+          "presence",
+          "presentation",
+          "represent",
+          "absence"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "目の前（前方）に存在する→今・ここ・手渡せるもの",
+        "fact": "PROXIMITYスキーマ（近さ＝存在）の典型。目の前(pre-)に感知できる状態で存在する(sent)イメージ。「現在」も「贈り物」も「提示する」も、全て「今この場所で感じ取れる」という空間的核から派生している。",
+        "source": "Johnson (1987) CONTAINERスキーマ・近接性"
+      },
+      "gap": "形容詞「現在の」・名詞「贈り物」・動詞「提示する」が別物に見えて混乱しがち。全て「目の前に持ってくる」から派生。present a report = 報告書を目の前に出す、present tense = 今目の前にある時制。アクセント変化（名詞/形容詞は前、動詞は後ろ）も合わせて覚える。",
+      "gapOneliner": "present = 「目の前にある状態」が核—現在・贈り物・提示は全て同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "present は「前(pre)に感じられる(sent)もの」。誕生日プレゼントは目の前に差し出すもの。プレゼンは情報を目の前に出すこと。現在形は今まさに目の前にある時制。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "presentの語源的な核は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "目の前にある→現在・贈り物・提示",
+            "前に送る→転送する",
+            "前に感じる→予感する",
+            "前に立つ→邪魔する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pre + sent（praesens）が表す空間的イメージは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "目の前に存在する",
+            "後ろに隠れている",
+            "上に積み上げる",
+            "中に閉じ込める"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She will ______ her findings at tomorrow's meeting.",
+          "hint": "「目の前に出す」→「発表する・提示する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "present",
+            "represent",
+            "consent",
+            "resent"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "present（動詞）と最も自然に結びつく目的語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a report（報告を提示する）",
+            "an award（賞を授与する）",
+            "evidence（証拠を提示する）",
+            "全て自然"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"All team members must be present at the briefing.\" — presentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "出席している",
+            "準備ができている",
+            "発言する",
+            "プレゼントを持参する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She will present her findings at tomorrow's meeting."
+      ]
+    },
+    {
+      "word": "represent",
+      "phonetic": "/ˌreprɪˈzent/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "再び・代わりに",
+          "type": "prefix"
+        },
+        {
+          "part": "pre",
+          "meaning": "前に",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じられる存在",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（再び）+ praesent（目の前にある）= もう一度目の前に出す → 代表する・表現する",
+        "fact": "ラテン語 repraesentare「目の前に再び出す、示す」から。14世紀後半に「画像・記号で示す」で英語に入り、15世紀に「代理人として行動する」→17世紀に「代表する（議会等）」へ拡張。representation は「再び目の前に出されたもの」＝表現・代表・表象。",
+        "source": "EtymOnline: represent",
+        "cognates": [
+          "representative",
+          "representation",
+          "misrepresent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "不在のものを再び目の前に出す→代理・代表・表現",
+        "fact": "SUBSTITUTIONスキーマの核心。今ここにいない人・ものを再び(re-)目の前(pre-)に出す(sent)行為。弁護士が依頼人を代表する、絵画がリンゴを表現する、国会議員が市民を代表する——全て「不在者を目の前に再出現させる」動き。",
+        "source": "Lakoff & Johnson (1980) 代理・置換メタファー"
+      },
+      "gap": "「代表する」と「表現する」が別語義に見えて詰まりがち。どちらも「不在のものを再び目の前に出す」。represent a company = 会社（という存在）を目の前に再び出す代理人になる。misrepresent = 誤った形で目の前に出す＝偽って伝える。",
+      "gapOneliner": "represent = 不在のものを再び目の前に出す—代表・表現・代理は全て同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（再び）+ present（目の前にある）= represent。弁護士は法廷にいない依頼人を「再び目の前に出す」代理人。国会議員は選挙区の人々を「再び議場に出す」代表者。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "representの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "再び目の前に出す→代表する・表現する",
+            "再び感じる→思い出す",
+            "前に立つ→妨げる",
+            "再び送る→転送する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + pre + sent（present）の構造が表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "不在者を再び目の前に出す",
+            "強く前に押し出す",
+            "何度も繰り返して見せる",
+            "前後を入れ替える"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The lawyer will ______ the company in court.",
+          "hint": "「再び目の前に出す」→「代理する・代表する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "represent",
+            "present",
+            "resent",
+            "consent"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "representと最も自然に結びつく目的語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a client（依頼人を代理する）",
+            "a country（国を代表する）",
+            "an idea（考えを表す）",
+            "全て自然"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"This graph represents sales figures for Q3.\" — representsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "表している・示している",
+            "増やしている",
+            "予測している",
+            "修正している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The lawyer will represent the company in court."
+      ]
+    },
+    {
+      "word": "sensitive",
+      "phonetic": "/ˈsensɪtɪv/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "itive",
+          "meaning": "〜する傾向がある",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sens（感じる）+ itive（傾向）= 感じやすい傾向がある → 敏感な",
+        "fact": "後期ラテン語 sensitivus「感覚に関する」から。14世紀後半に「感覚器官で感知できる」の意味で英語に入り、16世紀に「感情的に反応しやすい」、19世紀後半に「機器・装置が変化を感知しやすい」へ拡張。sensitive data（機微データ）は20世紀後半の技術用語。",
+        "source": "EtymOnline: sensitive",
+        "cognates": [
+          "sensitivity",
+          "insensitive",
+          "hypersensitive",
+          "sensor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感じ取るアンテナが高感度な状態→敏感・繊細・機微",
+        "fact": "INSTRUMENT スキーマの応用。sentireのアンテナが通常より鋭く張られている状態。人の感情に sensitive = 感情のシグナルをよく拾う高感度センサー。環境問題に sensitive = 微細な変化を感知する能力がある。negative sensitive（傷つきやすい）もpositive sensitive（思いやりがある）も同じ知覚の鋭さから。",
+        "source": "Johnson (1987) 知覚スキーマ"
+      },
+      "gap": "「傷つきやすい」だけで覚えると sensitive data（機微情報）やsensitive issue（デリケートな問題）で詰まる。語源の「感知しやすい」がわかれば、「繊細に感じ取られるべき情報」として自然に読める。environmentally sensitive area = 環境変化を敏感に感じるエリア。",
+      "gapOneliner": "sensitive = 感じ取るアンテナが高感度—人も機器も情報も「敏感」は同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "sensitive は「感じる(sens)傾向がある(itive)」人・もの。皮膚が sensitive = 刺激をよく感じる。機密情報が sensitive = 漏れると敏感に反応されるデータ。センサー(sensor)の兄弟語。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensitiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感じやすい傾向がある→敏感な",
+            "感じさせる→感動的な",
+            "感じられない→鈍感な",
+            "一緒に感じる→共感的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sens + itive の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "感じる + 傾向 = 感じやすい",
+            "感じる + 結果 = 感じたもの",
+            "感じる + 行為者 = 感じる人",
+            "感じる + 否定 = 感じない"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please handle this ______ information with care.",
+          "hint": "「感知しやすい」→「機微な・デリケートな」",
+          "explanationFocus": "gap",
+          "choices": [
+            "sensitive",
+            "sensible",
+            "sensation",
+            "essential"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sensitiveと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "skin（敏感肌）",
+            "data（機微データ）",
+            "issue（デリケートな問題）",
+            "全て自然"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He is very sensitive to criticism.\" — sensitiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "（批判に）敏感な・傷つきやすい",
+            "（批判に）慣れている",
+            "（批判を）好む",
+            "（批判を）無視する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Please handle this sensitive information with care."
+      ]
+    },
+    {
+      "word": "sensation",
+      "phonetic": "/senˈseɪʃən/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "ation",
+          "meaning": "行為・状態・結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sens（感じる）+ ation（結果）= 感じた結果 → 感覚・センセーション",
+        "fact": "後期ラテン語 sensatio「感知、知覚」から。英語には1610年代に「肉体的感覚、知覚」の意味で入り、1742年に「感情的な興奮、強い印象」、1878年に「世間を騒がせる出来事・人物」（センセーション）へ。フランス語経由でデカルト哲学の sensatio の訳語として学術語に定着後、日常語に広がった。",
+        "source": "EtymOnline: sensation",
+        "cognates": [
+          "sensational",
+          "sensationalism",
+          "sense",
+          "sensory"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感覚器官が受け取った知覚結果→身体感覚・感情的興奮・話題",
+        "fact": "EVENT構造スキーマの応用。sentireという動的プロセスの結果物(-ation)。皮膚が感じた結果＝痛み・温感。心が感じた結果＝高揚・戦慄。社会が感じた結果＝センセーション（話題）。同じ語根から「感じるプロセス→感じた結果」へのスケールアップ。",
+        "source": "Talmy (2000) イベント構造"
+      },
+      "gap": "「感覚」の訳で止まると a sensation（話題の人・出来事）やcreate a sensation（センセーションを巻き起こす）で詰まる。語源の「感じた結果」がわかれば、身体感覚も社会的興奮も同じ「知覚の産物」として読める。",
+      "gapOneliner": "sensation = 感じた結果—身体感覚も「センセーション」も同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "sens（感じる）+ ation（〜の結果）= sensation。手に burning sensation = 「感じた結果」としての灼熱感。新人歌手が overnight sensation = 一晩で世間が「感じた結果」として話題になった人。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensationの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感じた結果→感覚・センセーション",
+            "感じる人→感覚的な人",
+            "感じさせること→感動させること",
+            "感じなくなること→麻痺"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sens + ation の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "感じる + 結果 = 感覚・興奮",
+            "感じる + 行為者 = センサー",
+            "感じる + 傾向 = 敏感",
+            "感じる + 否定 = 無感覚"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "I felt a burning ______ in my fingers after the cold water.",
+          "hint": "「感じた結果」→「感覚」",
+          "explanationFocus": "gap",
+          "choices": [
+            "sensation",
+            "sensitive",
+            "sense",
+            "consent"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sensationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "create a sensation（センセーションを巻き起こす）",
+            "burning sensation（灼熱感）",
+            "overnight sensation（一夜にして話題の人）",
+            "全て自然"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The young chef became an overnight sensation in the food world.\" — sensationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "話題の人・センセーション",
+            "感覚的な料理人",
+            "感情的な人",
+            "知覚の専門家"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I felt a burning sensation in my fingers after the cold water."
+      ]
+    },
+    {
+      "word": "essential",
+      "phonetic": "/ɪˈsenʃəl/",
+      "toeicRank": "TSL 約400位相当",
+      "parts": [
+        {
+          "part": "es",
+          "meaning": "ある・存在する（esse）",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じられる・本質的な存在",
+          "type": "root"
+        },
+        {
+          "part": "ial",
+          "meaning": "〜に関する・〜の性質の",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "esse（ある）+ sentia（感じられる本質）+ ial = 存在の核に感じられるもの → 本質的な・不可欠な",
+        "fact": "後期ラテン語 essentialis「本質に属する」から。essentia はラテン語 esse「ある、存在する」の名詞形で、ギリシャ語 ousia（存在・本質）のラテン語訳としてキケロが造語。英語には14世紀後半に「本質的な性質の」で入り、15世紀に「不可欠な」へ。essential oil（精油）は16世紀から「植物の本質的な成分」として使用。",
+        "source": "EtymOnline: essential",
+        "cognates": [
+          "essence",
+          "essentially",
+          "quintessential",
+          "inessential"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "存在の核として感じ取れるもの→本質・欠かせないもの",
+        "fact": "FOUNDATION スキーマの応用。何かが存在するための根っこ・土台の部分。それを取り除くと「ある」ことができなくなる要素が essential。essential nutrients = それなしでは生命が「ある」ことができない栄養素。essentially = 存在の核レベルで言えば＝本質的に。",
+        "source": "Johnson (1987) FOUNDATIONスキーマ"
+      },
+      "gap": "「必要な」と「重要な」を混同しがち。essential は「それなしでは存在できない」という絶対的な必要性。important（重要）とは強度が違う。essential skills for the job = その仕事として「存在する」ために不可欠なスキル。It is essential that + 仮定法現在の構文も頻出。",
+      "gapOneliner": "essential = 存在の核—「重要」より強い「これなしでは成り立たない」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "essential の核は esse「ある」。essenceはりんごの「本質的な存在感」を凝縮したもの。essential = 存在に「ある(es)感じ(sent)が宿っている(ial)」ほど中心的なもの。精油(essential oil)は植物の「本質エキス」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "essentialの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "存在の核に感じられる→本質的な・不可欠な",
+            "感情的に感じる→感傷的な",
+            "外から感じさせる→印象的な",
+            "一緒に感じる→共感的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "esse（ある）から派生したessentialが表す概念は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "存在の根っこにあって取り除けないもの",
+            "見た目に感じられるもの",
+            "繰り返し経験されるもの",
+            "感情的に感じ取るもの"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "It is ______ that all employees complete the safety training.",
+          "hint": "「存在の核・欠かせない」→「不可欠だ」",
+          "explanationFocus": "gap",
+          "choices": [
+            "essential",
+            "sensitive",
+            "potential",
+            "substantial"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "essentialと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "skills（不可欠なスキル）",
+            "oil（精油）",
+            "nutrients（必須栄養素）",
+            "全て自然"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Water is essential for all living organisms.\" — essentialの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "不可欠な・なければ存在できない",
+            "好ましい・あると良い",
+            "有害な・避けるべき",
+            "一般的な・よくある"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "It is essential that all employees complete the safety training."
+      ]
+    },
+    {
+      "word": "consensus",
+      "phonetic": "/kənˈsɛnsəs/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "sens",
+          "meaning": "感じる、知覚する",
+          "type": "root"
+        },
+        {
+          "part": "-us",
+          "meaning": "名詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "複数の人が共に感じる意見、つまり合意",
+        "fact": "ラテン語consensuから。con-（共に）+ sentire（感じる）が語源。複数の人が同じ感覚を持つことが合意へ",
+        "source": "EtymOnline: Latin consensus 'agreement, accord'",
+        "cognates": [
+          "sense",
+          "sentiment",
+          "sensible",
+          "sensitive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "全員が同じ方向に心が向く＝合意",
+        "fact": "投票や会議で『みんなが同じ気持ち』という状態が合意。感情的な一致がベースの概念",
+        "source": "認知言語学：embodied cognition"
+      },
+      "gap": "consensusは単なる多数決ではなく、全体的な一致・合意を指す。majority opinionと異なり、より深い同意を含む",
+      "gapOneliner": "多数決と合意は違う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Con（みんな）+ Sense（気持ち）= Consensus（みんなの気持ちが一致）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "consensusの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "全員の合意、一致した意見",
+            "少数派の意見",
+            "多くの人の反対",
+            "個人の感覚"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "consensusの語源の核となる概念は何か",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "複数の人が同じ感覚・気持ちを共有すること",
+            "強制的に意見を統一すること",
+            "数字を数えて決めること",
+            "権力者の判断"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The team reached a ______ on the project direction after weeks of discussion.",
+          "hint": "全員が同意した状態を表す単語",
+          "explanationFocus": "gap",
+          "choices": [
+            "consensus",
+            "conflict",
+            "confusion",
+            "conclusion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "consensusと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "reach a consensus（合意に達する）",
+            "break a consensus",
+            "force a consensus",
+            "ignore a consensus"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We need to build consensus among all stakeholders before moving forward.\" — consensusの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "全ステークホルダーの同意・合意",
+            "全員の反対意見を集める",
+            "リーダーの決定",
+            "多数派の投票"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "There is a scientific consensus that climate change is real.",
+        "We achieved consensus on the new policy.",
+        "Building consensus takes time and communication."
+      ]
+    },
+    {
+      "word": "resentment",
+      "phonetic": "/rɪˈzɛntmənt/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "再び、繰り返し",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "状態、感情、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "何度も繰り返し感じる嫌な感情＝恨み",
+        "fact": "フランス語ressentirから。re-（繰り返し）+ sentir（感じる）。同じ不快感を何度も味わう心理状態",
+        "source": "EtymOnline: French resentir 'to feel again'",
+        "cognates": [
+          "resent",
+          "sentiment",
+          "sentient",
+          "sensitivity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "嫌なことを繰り返し思い出して感じ直す＝恨みの心",
+        "fact": "resentmentは単発の怒りではなく、過去の不公正を何度も心に感じ続ける状態。時間とともに深まる感情",
+        "source": "感情心理学：rumination（反すう）"
+      },
+      "gap": "resentmentはangerと異なり、過去の出来事への持続的な不満。冷たく深い感情として特徴づけられる",
+      "gapOneliner": "怒りと恨みは違う感情",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Re（繰り返し）+ Sent（感じる）= Resentment（何度も嫌な気持ちを感じ続ける）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "resentmentの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "恨み、不満を持ち続ける気持ち",
+            "その場での怒り",
+            "相手を褒める",
+            "新しい発見"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "resentmentがangerと異なる点は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "過去の出来事を何度も思い出して感じ続ける持続的な感情",
+            "瞬間的で激しい怒り",
+            "相手への愛情",
+            "喜びの感覚"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Her ______ toward her former boss lasted for years after the unfair dismissal.",
+          "hint": "過去の不公正への持続的な不満",
+          "explanationFocus": "gap",
+          "choices": [
+            "resentment",
+            "happiness",
+            "loyalty",
+            "appreciation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "resentmentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "harbor resentment（恨みを抱く）",
+            "create resentment",
+            "build resentment",
+            "express resentment freely"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His years of resentment finally boiled over during the meeting.\" — resentmentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "長年抱き続けた恨みや不満",
+            "その場での一時的な怒り",
+            "相手への尊敬",
+            "新しい計画"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "There was a lot of resentment between the two groups.",
+        "She felt resentment toward her family's treatment of her.",
+        "His resentment grew over time."
+      ]
+    },
+    {
+      "word": "sensible",
+      "phonetic": "/ˈsɛnsəbəl/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる、知覚する",
+          "type": "root"
+        },
+        {
+          "part": "-ible",
+          "meaning": "〜できる、〜可能な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "感じることができる＝実在するもの＝合理的な",
+        "fact": "ラテン語sensibilis。感覚で知覚できるものが実在すると考えられた。そこから『実在的で理に適った』の意味へ",
+        "source": "EtymOnline: Latin sensibilis 'capable of feeling'",
+        "cognates": [
+          "sense",
+          "sensitive",
+          "sensation",
+          "sensor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "五感で認識できる現実的な判断＝賢明な",
+        "fact": "sensibleは感覚的な知覚と理性が結びついた言葉。『感じられる現実』に基づいた合理的判断を指す",
+        "source": "認知言語学：metaphor of the senses"
+      },
+      "gap": "sensibleは『intelligent』『wise』とは異なり、実際的で論理的であることを強調。感覚と常識に基づいている",
+      "gapOneliner": "理屈ぽい知識より実践的な判断",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sense（感覚）+ Able（できる）= Sensible（感覚で判断できる=実践的で賢い）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensibleの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "実践的で合理的な、分別のある",
+            "感覚的な",
+            "難しい",
+            "不可能な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sensibleが『合理的』を意味する理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "感覚で知覚できる現実に基づいた判断だから",
+            "頭が良いから",
+            "高い教育を受けたから",
+            "権力があるから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "It would be ______ to check the weather before planning the picnic.",
+          "hint": "実践的で分別のある判断",
+          "explanationFocus": "gap",
+          "choices": [
+            "sensible",
+            "foolish",
+            "impossible",
+            "random"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sensibleと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a sensible decision（分別のある判断）",
+            "a sensible emotion",
+            "a sensible color",
+            "sensible rules"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"That's a very sensible approach to the problem.\" — sensibleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "実践的で合理的な",
+            "感情的な",
+            "創造的な",
+            "難しい"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "That's a sensible solution to the problem.",
+        "She made a sensible decision.",
+        "Wearing a coat in winter is sensible."
+      ]
+    },
+    {
+      "word": "sentiment",
+      "phonetic": "/ˈsɛntɪmənt/",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "-iment",
+          "meaning": "状態、行為、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "心で感じる事柄＝感情や意見",
+        "fact": "ラテン語sentimentum。sentire（感じる）+ -mentum。心で感じられるもの、つまり感情や見解を指す",
+        "source": "EtymOnline: Latin sentimentum 'feeling, emotion'",
+        "cognates": [
+          "sense",
+          "sensible",
+          "sensitive",
+          "consensus"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "心が感じ取った内容＝その人の感情や見方",
+        "fact": "sentimentは個人の内的な感情・感覚が外へ表現されたもの。理性より感情・感覚が優先される表現",
+        "source": "感情心理学：affective response"
+      },
+      "gap": "sentimentは個人の感情的見方や意見を指し、sentiment analysisは世論や感情の傾向分析を意味する。客観的事実ではなく感情的判断",
+      "gapOneliner": "事実ではなく感情的な見方や意見",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sent（感じる）+ Ment（状態）= Sentiment（心が感じた気持ちや意見）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sentimentの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感情、感覚、見解",
+            "事実",
+            "科学的証拠",
+            "法律"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sentimentが『感情的』な印象を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "心が感じ取ったもの、つまり理性より感覚を優先する概念だから",
+            "科学的根拠があるから",
+            "法的効力があるから",
+            "普遍的だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The public ______ toward the new policy seemed largely negative according to the survey.",
+          "hint": "人々の感情的な見方や意見",
+          "explanationFocus": "gap",
+          "choices": [
+            "sentiment",
+            "law",
+            "evidence",
+            "regulation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sentimentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "express one's sentiment（感情を表現する）",
+            "ignore sentiment",
+            "deny sentiment",
+            "sentiment analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The artist's painting is filled with romantic sentiment.\" — sentimentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "ロマンティックな感情や感覚",
+            "技術的スキル",
+            "歴史的事実",
+            "科学的知識"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I appreciate the sentiment behind your gift.",
+        "The sentiment among employees is mixed.",
+        "Sentiment analysis is used in market research.",
+        "She expressed her deepest sentiments in the letter."
+      ]
+    },
+    {
+      "word": "sentimental",
+      "phonetic": "/ˌsɛntɪˈmɛntəl/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "状態、性質",
+          "type": "suffix"
+        },
+        {
+          "part": "-al",
+          "meaning": "〜の、〜的な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "感情に満ちた、感覚的な＝感傷的な",
+        "fact": "sentimentに形容詞化接尾辞-alを加えたもの。心で感じる性質が強く、感情に左右されやすい様子を表す",
+        "source": "EtymOnline: sentiment + -al",
+        "cognates": [
+          "sentiment",
+          "sense",
+          "sensitive",
+          "emotional"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感情が前面に出ている、感覚的に判断している状態",
+        "fact": "sentimentalは感情優位で時に過度な感情表現。理性より感覚や思い出への執着が強い心理状態",
+        "source": "感情心理学：emotional attachment"
+      },
+      "gap": "sentimentalは『emotional』より感情への執着度が強く、時にやや過度な感情表現を含む。懐かしさや思い出への固執の含意",
+      "gapOneliner": "感情的＋やや過度な感傷性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sentimental = Sentiment（感情）+ Al（的な）= 感情的でやや感傷的"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sentimentalの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感傷的な、感情的な",
+            "理性的な",
+            "実際的な",
+            "科学的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sentimentalとemotionalの違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "sentimentalはやや過度な感傷性と思い出への執着を含む",
+            "sentimentalの方がより冷淡",
+            "emotionalの方がより感傷的",
+            "意味は全く同じ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She kept the old letter for ______ reasons, unable to throw away memories of her childhood.",
+          "hint": "感情的で懐かしさを感じている",
+          "explanationFocus": "gap",
+          "choices": [
+            "sentimental",
+            "practical",
+            "logical",
+            "scientific"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sentimentalと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a sentimental journey（感傷的な旅）",
+            "sentimental logic",
+            "sentimental evidence",
+            "sentimental rules"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He became sentimental while looking through old photographs.\" — sentimentalの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "懐かしさや感情に浸っている感傷的な状態",
+            "怒りを感じている",
+            "喜びを感じている",
+            "退屈している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She has a sentimental attachment to the old house.",
+        "He got sentimental when talking about his childhood.",
+        "That movie is too sentimental for my taste.",
+        "It has sentimental value to her."
+      ]
+    },
+    {
+      "word": "sensory",
+      "phonetic": "/ˈsɛnsəri/",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる、知覚する",
+          "type": "root"
+        },
+        {
+          "part": "-ory",
+          "meaning": "〜に関する、〜を行う",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "知覚に関する、感覚と関連のある",
+        "fact": "ラテン語sensorius。sensus（感覚）+ -ory（関連の接尾辞）。五感による知覚と関連の形容詞",
+        "source": "EtymOnline: Latin sensorius 'relating to sensation'",
+        "cognates": [
+          "sense",
+          "sensation",
+          "sensor",
+          "sensory cortex"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "五感で直接知覚できる領域＝感覚的な",
+        "fact": "sensoryは視覚、聴覚、嗅覚、味覚、触覚など五感による直接的な知覚を指す。神経生物学的な基盤を持つ",
+        "source": "神経生物学：sensory neurons, sensory cortex"
+      },
+      "gap": "sensoryは『physical』より感覚知覚の側面を強調。『sensory experience』は実際に五感で経験した情報を意味する",
+      "gapOneliner": "五感で直接経験できる領域",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sens（感じる）+ Ory（〜に関する）= Sensory（五感に関する）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensoryの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感覚の、知覚に関する",
+            "理性的な",
+            "非現実的な",
+            "抽象的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sensoryが指す『感覚』とは具体的には何か",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "視覚、聴覚、嗅覚、味覚、触覚などの五感",
+            "理性的思考",
+            "抽象的概念",
+            "感情的判断"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ experience of tasting new foods from different cultures is enriching.",
+          "hint": "五感で直接経験する",
+          "explanationFocus": "gap",
+          "choices": [
+            "sensory",
+            "abstract",
+            "theoretical",
+            "conceptual"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sensoryと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "sensory experience（感覚的経験）",
+            "sensory thinking",
+            "sensory idea",
+            "sensory concept"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The garden provides rich sensory stimulation.\" — sensoryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "視覚、嗅覚、触覚など五感を刺激する",
+            "理性的な刺激",
+            "感情的な刺激",
+            "知識的な刺激"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Sensory deprivation can affect perception.",
+        "Children have sensory experiences through play.",
+        "The spa offers sensory massage treatments.",
+        "Sensory neurons transmit information to the brain.",
+        "A sensory garden engages all five senses."
+      ]
+    },
+    {
+      "word": "assent",
+      "phonetic": "/əˈsent/",
+      "toeicRank": "TSL中位・ビジネス/法律用語",
+      "parts": [
+        {
+          "part": "as",
+          "meaning": "〜に向かって（ad- の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（〜に向かって）+ sentire（感じる）= 同じ方向に感じる → 同意する",
+        "fact": "ラテン語 assentire「同意する、賛同する」から。ad-（〜に向かって）+ sentire（感じる）。13世紀にフランス語経由で英語に入った。相手の意見に「向かって感じる」＝同じ感覚を持つ＝同意する。",
+        "source": "EtymOnline: assent",
+        "cognates": [
+          "consent",
+          "dissent",
+          "sentiment",
+          "sense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "相手に向かって（as）同じ感覚を持つ（sent）→ 同意する",
+        "fact": "ALIGNMENT（一致）スキーマ。感覚の方向（sent）が相手に向かって（ad-）揃う動き。consent（共に感じる）とほぼ同義だが、assent はより公式な場面で使われる。",
+        "source": "Langacker (2008) ALIGNMENTスキーマ"
+      },
+      "gap": "assent と consent はどちらも「同意」だが微妙に異なる。assent = 賛成の意思表示（royal assent = 国王の裁可）、consent = 許可・合意（informed consent = 説明に基づく同意）。",
+      "gapOneliner": "assent = 向かって(as)感じる(sent) → 同意・裁可。consent とは使い分けあり",
+      "hook": {
+        "label": "記憶フック",
+        "text": "as(向かって) + sent(感じる) = 同じ方向に感じる = 同意。royal assent = 国王が法案に「向かって感じる」＝裁可する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "assentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "向かって感じる→同意する",
+            "離れて感じる→反対する",
+            "共に感じる→共感する",
+            "強く感じる→感動する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The board gave its ______ to the merger proposal.",
+          "hint": "「向かって感じる」→「同意・賛成」",
+          "explanationFocus": "gap",
+          "choices": [
+            "assent",
+            "ascent",
+            "absent",
+            "accent"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The proposal received the assent of all committee members."
+      ]
+    },
+    {
+      "word": "dissent",
+      "phonetic": "/dɪˈsent/",
+      "toeicRank": "TSL中位・ニュース/法律頻出",
+      "parts": [
+        {
+          "part": "dis",
+          "meaning": "離れて・反対に",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "dis（離れて）+ sentire（感じる）= 異なる方向に感じる → 反対する",
+        "fact": "ラテン語 dissentire「異なる意見を持つ」から。dis-（離れて）+ sentire（感じる）。15世紀に英語に入り、特に政治・宗教上の公式な「異議」を指す。dissenting opinion = 少数意見・反対意見。",
+        "source": "EtymOnline: dissent",
+        "cognates": [
+          "consent",
+          "assent",
+          "sentiment",
+          "resent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "離れて（dis）感じる（sent）→ 異なる意見を持つ → 反対する",
+        "fact": "DIVERGENCE（分岐）スキーマ。感覚（sent）の方向が主流から離れる（dis）動き。consent（共感）の対義概念。",
+        "source": "Johnson (1987) DIVERGENCEスキーマ"
+      },
+      "gap": "dissent は「反対意見」。consent（同意）の反対。dis（離れて）+ sent（感じる）= 別方向に感じる。裁判の dissenting opinion（反対意見）が重要用法。",
+      "gapOneliner": "dissent = 離れて(dis)感じる(sent) → 反対する。consent の対義語",
+      "hook": {
+        "label": "記憶フック",
+        "text": "dis(離れて) + sent(感じる) = 別の方向に感じる = 反対する。consent(同意) ↔ dissent(反対)。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "dissentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "離れて感じる→反対する",
+            "共に感じる→同意する",
+            "強く感じる→感動する",
+            "再び感じる→回想する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The judge wrote a powerful ______ against the majority ruling.",
+          "hint": "「離れて感じる」→「反対意見」",
+          "explanationFocus": "gap",
+          "choices": [
+            "dissent",
+            "consent",
+            "descent",
+            "dessert"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Political dissent was harshly suppressed under the regime."
+      ]
+    },
+    {
+      "word": "sensor",
+      "phonetic": "/ˈsensɔːr/",
+      "toeicRank": "TSL上位・IT/製造頻出",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる（sent の異形）",
+          "type": "root"
+        },
+        {
+          "part": "or",
+          "meaning": "〜するもの（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sentire（感じる）→ sensus + -or = 感じるもの → センサー",
+        "fact": "ラテン語 sentire「感じる」の過去分詞 sensus から。-or（行為者・道具）を付けて「感知する装置」。1940年代に電子工学の文脈で英語に定着した比較的新しい用法。",
+        "source": "EtymOnline: sensor",
+        "cognates": [
+          "sense",
+          "sensitive",
+          "sensory",
+          "sensation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感じる（sens）もの（or）→ 感知装置 → センサー",
+        "fact": "PERCEPTION（知覚）スキーマの技術的実装。人間の感覚器官（sensory organ）を模した装置。温度センサー、モーションセンサーなど、環境の変化を「感じ取る」機械。",
+        "source": "Langacker (2008) PERCEPTIONスキーマ"
+      },
+      "gap": "sensor はカタカナの「センサー」で意味は明確だが、sense（感覚）、sensitive（敏感な）、sensory（感覚の）と同じ sent/sens 語根と知ると語彙が連鎖する。",
+      "gapOneliner": "sensor = 感じる(sens)もの(or)。sense, sensitive と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "sensor = sens(感じる) + or(もの)。人間の感覚器官の機械版。motion sensor = 動きを感じる装置。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensorの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感じるもの→感知装置",
+            "送るもの→送信機",
+            "見るもの→カメラ",
+            "聞くもの→マイク"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 2,
+          "instruction": "sensorと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "motion sensor（動体検知器）",
+            "sensor decision（感知決定）",
+            "sensor opinion（感知意見）",
+            "sensor flavor（感知味）"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The motion sensor automatically turns on the lights."
+      ]
+    },
+    {
+      "word": "resent",
+      "phonetic": "/rɪˈzent/",
+      "toeicRank": "TSL中位・NGSL収録",
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "繰り返し・強意",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（繰り返し）+ sentire（感じる）= 何度も感じ返す → 憤る・恨む",
+        "fact": "フランス語 ressentir「強く感じる」から。re-（繰り返し、強意）+ sentire（感じる）。17世紀に英語に入り、当初は「良くも悪くも強く感じる」の意味だったが、現代では「怒りを感じる・恨む」のみに限定された。",
+        "source": "EtymOnline: resent",
+        "cognates": [
+          "resentment",
+          "resentful",
+          "sentiment",
+          "sense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "繰り返し（re）感じる（sent）→ 怒りが反復する → 憤る・恨む",
+        "fact": "ITERATION（反復）スキーマ。嫌な感情を何度も（re-）感じ直す（sent）ことで怒りが蓄積していく動き。resentment は「繰り返される否定的感情」の名詞化。",
+        "source": "Johnson (1987) ITERATIONスキーマ"
+      },
+      "gap": "resent と resentment はTOEICでも頻出。re（繰り返し）+ sent（感じる）で「何度も嫌な思いを感じ返す」。I resent being treated unfairly.（不公平に扱われることに腹が立つ）。",
+      "gapOneliner": "resent = 繰り返し(re)感じる(sent) → 腹が立つ・恨む",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re(繰り返し) + sent(感じる) = 嫌な気持ちを何度も感じ返す = 恨む。resentment = 恨み。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "resentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "繰り返し感じる→憤る",
+            "再び送る→返送する",
+            "離れて感じる→無関心",
+            "共に感じる→共感する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She ______ed being passed over for the promotion.",
+          "hint": "「繰り返し嫌な思いを感じる」→「腹が立つ」",
+          "explanationFocus": "gap",
+          "choices": [
+            "resent",
+            "present",
+            "consent",
+            "absent"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Many employees resent the new policy changes."
+      ]
+    },
+    {
+      "word": "sentient",
+      "phonetic": "/ˈsenʃənt/",
+      "toeicRank": "TSL中位・AI/哲学/ニュース頻出",
+      "parts": [
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "ient",
+          "meaning": "〜する（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sentire（感じる）+ -ent = 感じることができる → 知覚力のある",
+        "fact": "ラテン語 sentiens「感じている」（sentire の現在分詞）から。17世紀に「感覚・意識を持つ」の意味で英語に入った。AI時代に「AIは sentient（感覚を持つ存在）か？」という議論で注目を集めている。",
+        "source": "EtymOnline: sentient",
+        "cognates": [
+          "sense",
+          "sensitive",
+          "sensation",
+          "sentiment"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感じる力を持つ（sent + ient）→ 知覚力のある・意識のある",
+        "fact": "ANIMATE（生命）スキーマ。「感じる」能力は生命の本質的属性。sentient being = 感覚を持つ存在。AIが sentient かどうかの議論は「機械は感じるか？」という哲学的問い。",
+        "source": "Lakoff (1987) ANIMATEスキーマ"
+      },
+      "gap": "sentient はAI時代のキーワード。「AIはsentientか？」= 感覚・意識を持つか。sent（感じる）の形容詞形。sentient beings = 感覚を持つ存在（動物倫理でも重要）。",
+      "gapOneliner": "sentient = 感じる(sent)力を持つ → 知覚力のある。AI時代の重要ワード",
+      "hook": {
+        "label": "記憶フック",
+        "text": "sent(感じる) + ient(できる) = 感じることができる = 知覚力のある。Is AI sentient? = AIは感じられるか？"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "sentientの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感じることができる→知覚力のある",
+            "送ることができる→伝達力のある",
+            "見ることができる→視力のある",
+            "聞くことができる→聴力のある"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The debate over whether AI can become ______ continues to grow.",
+          "hint": "「感じる力を持つ」→「知覚力のある・意識のある」",
+          "explanationFocus": "gap",
+          "choices": [
+            "sentient",
+            "sensitive",
+            "sensible",
+            "sentimental"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "All sentient beings deserve protection from suffering."
+      ]
+    },
+    {
+      "word": "desensitize",
+      "phonetic": "/diːˈsensɪtaɪz/",
+      "toeicRank": "TSL中位・心理学/医療頻出",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "取り去る",
+          "type": "prefix"
+        },
+        {
+          "part": "sens",
+          "meaning": "感じる（sent の異形）",
+          "type": "root"
+        },
+        {
+          "part": "itize",
+          "meaning": "〜化する（動詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（取り去る）+ sensitive + -ize = 感受性を取り除く → 鈍感にする",
+        "fact": "de-（除去）+ sensitive（敏感な）+ -ize（〜化する）から。19世紀に写真の文脈で「感光性を除く」の意味で造語され、20世紀に心理学で「恐怖・不安への感受性を減らす治療法」として使われるようになった。",
+        "source": "EtymOnline: desensitize",
+        "cognates": [
+          "sensitive",
+          "sensitize",
+          "sensor",
+          "sensation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感受性（sens）を取り去る（de）→ 鈍感にする",
+        "fact": "REMOVAL（除去）スキーマ。「感じる力」を対象から取り除く操作。暴力映像への desensitization は「繰り返し曝露で感受性が除去される」プロセス。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "desensitize は心理学の重要用語。systematic desensitization = 系統的脱感作（恐怖症の治療法）。de（取る）+ sens（感じる）= 感じる力を取り去る。",
+      "gapOneliner": "desensitize = 感受性(sens)を取り去る(de) → 鈍感にする。心理学の重要概念",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(取り去る) + sensitive(敏感な) = 敏感さを取り去る = 鈍感にする。暴力映像で desensitized = 感覚が麻痺。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "desensitizeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感受性を取り去る→鈍感にする",
+            "感受性を高める→敏感にする",
+            "感覚を送る→伝達する",
+            "感覚を共有する→共感する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Constant exposure to violence can ______ people to its effects.",
+          "hint": "「感受性を取り去る」→「鈍感にする」",
+          "explanationFocus": "gap",
+          "choices": [
+            "desensitize",
+            "sensitize",
+            "emphasize",
+            "sympathize"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Repeated exposure to graphic content can desensitize viewers."
+      ]
+    },
+    {
+      "word": "presentiment",
+      "phonetic": "/prɪˈzentɪmənt/",
+      "toeicRank": "TSL中位・文学/教養用語",
+      "parts": [
+        {
+          "part": "pre",
+          "meaning": "前もって",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "iment",
+          "meaning": "〜すること（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "prae（前もって）+ sentire（感じる）= 前もって感じること → 予感",
+        "fact": "ラテン語 praesentire「前もって感じる」から。prae-（前に）+ sentire（感じる）。18世紀にフランス語 pressentiment 経由で英語に入った。「理由はないが何か起こりそうだと感じる」直感的な予感を指す。",
+        "source": "EtymOnline: presentiment",
+        "cognates": [
+          "present",
+          "sentiment",
+          "sensation",
+          "sense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "前もって（pre）感じる（sent）こと → 予感・虫の知らせ",
+        "fact": "ANTICIPATION（予期）スキーマ。時間軸の「前方」で感覚が先行して動く（pre + sent）。論理的根拠がない直感的な感覚。premonition（前兆）と近い概念。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "presentiment は present（現在の）とは別の意味系統。pre（前もって）+ sent（感じる）= 予感。She had a presentiment that something would go wrong.（何かうまくいかない予感がした）。",
+      "gapOneliner": "presentiment = 前もって(pre)感じる(sent)こと → 予感・虫の知らせ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pre(前もって) + sent(感じる) = 前もって感じること = 予感。presentiment of danger = 危険の予感。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 3,
+          "instruction": "presentimentの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "前もって感じること→予感",
+            "現在感じること→感想",
+            "共に感じること→共感",
+            "強く感じること→感動"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 3,
+          "instruction": "pre（前もって）+ sent（感じる）+ iment の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "前もって + 感じる = 予感",
+            "前もって + 送る = 予送",
+            "再び + 感じる = 回想",
+            "共に + 感じる = 共感"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She had a strange presentiment that she would never see him again."
+      ]
+    },
+    {
+      "word": "insensitive",
+      "phonetic": "/ɪnˈsensɪtɪv/",
+      "toeicRank": "TSL上位・ビジネス/日常頻出",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "〜でない（否定）",
+          "type": "prefix"
+        },
+        {
+          "part": "sens",
+          "meaning": "感じる（sent の異形）",
+          "type": "root"
+        },
+        {
+          "part": "itive",
+          "meaning": "〜しやすい（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（否定）+ sensitive（敏感な）= 感じない → 無神経な・鈍感な",
+        "fact": "in-（否定）+ sensitive（敏感な）から。17世紀に「物理的に感覚がない」の意味で使われ始め、19世紀に「他者の感情に対して鈍感な」の意味が一般化した。",
+        "source": "EtymOnline: insensitive",
+        "cognates": [
+          "sensitive",
+          "insensitivity",
+          "sense",
+          "sensation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感じる力がない（in + sens）→ 鈍感な・無神経な",
+        "fact": "NEGATION（否定）スキーマ。sensitive（敏感）の否定。他者の感情を「感じ取れない」状態。insensitive remark = 無神経な発言。",
+        "source": "Lakoff & Johnson (1980) NEGATION IS ABSENCEメタファー"
+      },
+      "gap": "insensitive は「無神経な」。in（否定）+ sensitive（敏感な）で理解は簡単だが、insensitive to criticism（批判に鈍感な）のように to と結びつくコロケーションが重要。",
+      "gapOneliner": "insensitive = 感じない(in + sens) → 無神経な。insensitive to 〜 が頻出パターン",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in(否定) + sensitive(敏感な) = 敏感でない = 無神経。insensitive to others' feelings = 他人の気持ちに鈍感。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "insensitiveの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感じない→無神経な",
+            "強く感じる→感動的な",
+            "共に感じる→共感的な",
+            "再び感じる→懐かしい"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "His ______ remarks upset several colleagues.",
+          "hint": "「感じない」→「無神経な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "insensitive",
+            "sensitive",
+            "intensive",
+            "incentive"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "It was insensitive of him to bring up that topic."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3d5c;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d2236;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3040;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1a28;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2840;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1520;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="cardGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1200" height="675" fill="url(#bg6)"/>
+
+  <!-- タイトル -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">検索速度を上げる3つの練習メニュー</text>
+  <text x="600" y="78" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle">「知ってる → すぐ出る」に変える訓練</text>
+
+  <!-- カード1: 瞬間英作文 -->
+  <rect x="60" y="110" width="330" height="440" rx="16" fill="url(#card1)" stroke="#1DA1F2" stroke-width="2" filter="url(#cardGlow)"/>
+  <!-- ナンバー -->
+  <circle cx="225" cy="152" r="28" fill="#1DA1F2" fill-opacity="0.25" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="225" y="160" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#1DA1F2" text-anchor="middle">01</text>
+  <!-- タイトル -->
+  <text x="225" y="204" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">瞬間英作文</text>
+  <!-- サブタイトル -->
+  <text x="225" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#7cc8f5" text-anchor="middle">文レベルの速度訓練</text>
+  <!-- 区切り線 -->
+  <line x1="90" y1="244" x2="360" y2="244" stroke="#1DA1F2" stroke-width="1" opacity="0.4"/>
+  <!-- 説明 -->
+  <text x="225" y="274" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff" text-anchor="middle">日本語文を見た瞬間に</text>
+  <text x="225" y="294" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff" text-anchor="middle">英語で声に出す練習</text>
+  <!-- ポイント -->
+  <rect x="90" y="316" width="260" height="48" fill="#1DA1F2" fill-opacity="0.12" rx="8"/>
+  <text x="220" y="336" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4fc3f7" text-anchor="middle">文構造ごと反射させる</text>
+  <text x="220" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">→ 脳の出力回路を鍛える</text>
+  <!-- 例 -->
+  <text x="225" y="394" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">例: 森沢洋介『どんどん』シリーズ</text>
+  <!-- 効果 -->
+  <rect x="90" y="414" width="260" height="60" fill="#0d1a2e" rx="8"/>
+  <text x="220" y="438" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4fc3f7" text-anchor="middle">効果: 文の組み立て速度</text>
+  <text x="220" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">が劇的に向上</text>
+  <!-- 難易度 -->
+  <text x="225" y="494" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">難易度: ★★★☆☆</text>
+  <text x="225" y="512" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">頻度: 毎日10〜15分推奨</text>
+
+  <!-- カード2: 単語フラッシュ -->
+  <rect x="435" y="110" width="330" height="440" rx="16" fill="url(#card2)" stroke="#38b2ac" stroke-width="2"/>
+  <!-- ナンバー -->
+  <circle cx="600" cy="152" r="28" fill="#38b2ac" fill-opacity="0.25" stroke="#38b2ac" stroke-width="2"/>
+  <text x="600" y="160" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#38b2ac" text-anchor="middle">02</text>
+  <!-- タイトル -->
+  <text x="600" y="204" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">単語フラッシュ</text>
+  <!-- サブタイトル -->
+  <text x="600" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#81e6d9" text-anchor="middle">単語レベルの速度訓練</text>
+  <!-- 区切り線 -->
+  <line x1="465" y1="244" x2="735" y2="244" stroke="#38b2ac" stroke-width="1" opacity="0.4"/>
+  <!-- 説明 -->
+  <text x="600" y="274" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff" text-anchor="middle">単語カードを素早くめくり</text>
+  <text x="600" y="294" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff" text-anchor="middle">0.5秒以内に意味を出す</text>
+  <!-- ポイント -->
+  <rect x="465" y="316" width="260" height="48" fill="#38b2ac" fill-opacity="0.1" rx="8"/>
+  <text x="595" y="336" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#81e6d9" text-anchor="middle">意味の検索速度を直接</text>
+  <text x="595" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#38b2ac" text-anchor="middle">鍛えるシンプルな方法</text>
+  <!-- 例 -->
+  <text x="600" y="394" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">ツール: Anki / Quizlet</text>
+  <!-- 効果 -->
+  <rect x="465" y="414" width="260" height="60" fill="#0d1a2e" rx="8"/>
+  <text x="595" y="438" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#81e6d9" text-anchor="middle">効果: 個別単語の即応</text>
+  <text x="595" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#38b2ac" text-anchor="middle">スピードが改善</text>
+  <!-- 難易度 -->
+  <text x="600" y="494" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">難易度: ★★☆☆☆</text>
+  <text x="600" y="512" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">頻度: 毎日5〜10分</text>
+
+  <!-- カード3: 連想訓練 -->
+  <rect x="810" y="110" width="330" height="440" rx="16" fill="url(#card3)" stroke="#9f7aea" stroke-width="2"/>
+  <!-- ナンバー -->
+  <circle cx="975" cy="152" r="28" fill="#9f7aea" fill-opacity="0.25" stroke="#9f7aea" stroke-width="2"/>
+  <text x="975" y="160" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="bold" fill="#9f7aea" text-anchor="middle">03</text>
+  <!-- タイトル -->
+  <text x="975" y="204" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">連想訓練</text>
+  <!-- サブタイトル -->
+  <text x="975" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d6bcfa" text-anchor="middle">ネットワーク型の速度訓練</text>
+  <!-- 区切り線 -->
+  <line x1="840" y1="244" x2="1110" y2="244" stroke="#9f7aea" stroke-width="1" opacity="0.4"/>
+  <!-- 説明 -->
+  <text x="975" y="274" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff" text-anchor="middle">テーマを決めて関連単語を</text>
+  <text x="975" y="294" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#d0eeff" text-anchor="middle">10秒で連鎖的に出す</text>
+  <!-- ポイント -->
+  <rect x="840" y="316" width="260" height="48" fill="#9f7aea" fill-opacity="0.1" rx="8"/>
+  <text x="970" y="336" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d6bcfa" text-anchor="middle">記憶同士のリンクを強化</text>
+  <text x="970" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#9f7aea" text-anchor="middle">→ 文脈の中で出やすくなる</text>
+  <!-- 例 -->
+  <text x="975" y="394" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">例: 「食事」→ eat/meal/hungry</text>
+  <!-- 効果 -->
+  <rect x="840" y="414" width="260" height="60" fill="#0d1a2e" rx="8"/>
+  <text x="970" y="438" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d6bcfa" text-anchor="middle">効果: 話題別の語彙</text>
+  <text x="970" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#9f7aea" text-anchor="middle">アクセスが速くなる</text>
+  <!-- 難易度 -->
+  <text x="975" y="494" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">難易度: ★★★★☆</text>
+  <text x="975" y="512" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">頻度: 週3〜4回でOK</text>
+
+  <!-- 下部: 共通メッセージ -->
+  <rect x="200" y="582" width="800" height="52" fill="#0d2236" rx="26" stroke="#1DA1F2" stroke-width="1.5" opacity="0.95"/>
+  <text x="600" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2" text-anchor="middle">3つを組み合わせて「使える語彙」に昇格させる</text>
+  <text x="600" y="624" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#4fc3f7" text-anchor="middle">知ってる単語 → 反射的に出る単語 → 会話で自在に使える単語</text>
+
+  <!-- クレジット -->
+  <text x="1180" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

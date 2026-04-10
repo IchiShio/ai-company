@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="stairBlue" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d4a7a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1DA1F2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgGrad2)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">英語実況トレーニング｜難易度別ステップ</text>
+  <line x1="200" y1="64" x2="1000" y2="64" stroke="#1DA1F2" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="92" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="middle">完璧さを捨てて「速度」を育てる3段階メソッド</text>
+
+  <!-- Stage background bars (staircase) -->
+  <!-- Stage 1 - Beginner -->
+  <rect x="80" y="440" width="320" height="180" rx="14" fill="#0d2233" stroke="#1DA1F2" stroke-width="1.5" filter="url(#shadow2)"/>
+  <rect x="80" y="440" width="320" height="46" rx="14" fill="#1DA1F2"/>
+  <rect x="80" y="466" width="320" height="20" fill="#1DA1F2"/>
+  <text x="92" y="469" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="rgba(255,255,255,0.6)">STEP</text>
+  <text x="148" y="471" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="900" fill="#fff">01</text>
+  <text x="240" y="469" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">初級：静止物の実況</text>
+  <text x="240" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#b3deff" text-anchor="middle">部屋を見まわして目に入るものを</text>
+  <text x="240" y="530" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#b3deff" text-anchor="middle">ひたすら英語で言う</text>
+  <text x="240" y="558" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">"A cup." "My phone." "The window."</text>
+  <rect x="100" y="574" width="220" height="28" rx="6" fill="#0a3a5c"/>
+  <text x="210" y="592" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">目標：1分間 20単語以上</text>
+
+  <!-- Stage 2 - Intermediate -->
+  <rect x="440" y="290" width="320" height="330" rx="14" fill="#0d2233" stroke="#1DA1F2" stroke-width="1.5" filter="url(#shadow2)"/>
+  <rect x="440" y="290" width="320" height="46" rx="14" fill="#0d84d4"/>
+  <rect x="440" y="316" width="320" height="20" fill="#0d84d4"/>
+  <text x="452" y="319" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="rgba(255,255,255,0.6)">STEP</text>
+  <text x="508" y="321" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="900" fill="#fff">02</text>
+  <text x="600" y="319" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">中級：動作・状況の実況</text>
+  <text x="600" y="365" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#b3deff" text-anchor="middle">自分の行動や外の出来事を</text>
+  <text x="600" y="385" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#b3deff" text-anchor="middle">リアルタイムで英語実況する</text>
+  <text x="600" y="420" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">"I'm opening the fridge."</text>
+  <text x="600" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">"Someone's laughing outside."</text>
+  <text x="600" y="478" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#7cc8f5" text-anchor="middle">完成度は問わない。速度優先。</text>
+  <text x="600" y="498" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#7cc8f5" text-anchor="middle">詰まっても止まらず続ける。</text>
+  <rect x="460" y="524" width="220" height="28" rx="6" fill="#0a3a5c"/>
+  <text x="570" y="542" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">目標：30秒 途切れず話す</text>
+  <rect x="460" y="556" width="220" height="28" rx="6" fill="#0a3a5c"/>
+  <text x="570" y="574" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">進捗：週5日 × 5分継続</text>
+
+  <!-- Stage 3 - Advanced -->
+  <rect x="800" y="140" width="320" height="480" rx="14" fill="#0d2233" stroke="#1DA1F2" stroke-width="1.5" filter="url(#shadow2)"/>
+  <rect x="800" y="140" width="320" height="46" rx="14" fill="#0d5fa0"/>
+  <rect x="800" y="166" width="320" height="20" fill="#0d5fa0"/>
+  <text x="812" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="rgba(255,255,255,0.6)">STEP</text>
+  <text x="868" y="171" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="900" fill="#fff">03</text>
+  <text x="960" y="169" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">上級：思考の実況</text>
+  <text x="960" y="220" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#b3deff" text-anchor="middle">頭に浮かんだ考えや感情を</text>
+  <text x="960" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#b3deff" text-anchor="middle">そのまま英語で外に出す</text>
+  <text x="960" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">"I wonder if this is right..."</text>
+  <text x="960" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">"That's actually pretty interesting."</text>
+  <text x="960" y="338" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#7cc8f5" text-anchor="middle">抽象的な内容でも止まらない。</text>
+  <text x="960" y="358" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#7cc8f5" text-anchor="middle">言葉が出なければ言い換える。</text>
+  <text x="960" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#7cc8f5" text-anchor="middle">翻訳脳が壊れる瞬間はここ。</text>
+  <rect x="820" y="404" width="280" height="28" rx="6" fill="#0a3a5c"/>
+  <text x="960" y="422" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">目標：2分間 英語で独り言</text>
+  <rect x="820" y="436" width="280" height="28" rx="6" fill="#0a3a5c"/>
+  <text x="960" y="454" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7cc8f5" text-anchor="middle">ツール：録音して聴き返す</text>
+
+  <!-- Crown for Stage 3 -->
+  <text x="960" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" text-anchor="middle">👑</text>
+  <text x="960" y="548" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f0c040" font-weight="700" text-anchor="middle">翻訳脳を完全に壊す</text>
+  <text x="960" y="566" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#f0c040" font-weight="700" text-anchor="middle">ゴールがここにある</text>
+
+  <!-- Staircase arrows -->
+  <path d="M 402 510 L 440 400" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+  <polygon points="440,392 434,408 448,404" fill="#1DA1F2" opacity="0.6"/>
+  <path d="M 762 360 L 800 250" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+  <polygon points="800,242 794,258 808,254" fill="#1DA1F2" opacity="0.6"/>
+
+  <!-- Credit -->
+  <text x="1175" y="665" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

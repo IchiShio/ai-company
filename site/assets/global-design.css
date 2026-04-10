@@ -1,0 +1,664 @@
+/*
+ * global-design.css — native-real.com Design System
+ * Based on DESIGN.md: Lovable-inspired warm minimalism
+ * Cream #F8F6F1 base, Gold #F5A623 accent
+ * Injected via <link> before </head> in all HTML files.
+ * Uses !important to override inline <style> blocks.
+ */
+
+/* ═══════════════════════════════════════════
+   1. CSS VARIABLES
+   ═══════════════════════════════════════════ */
+:root {
+  /* ── Base ── */
+  --bg:            #F8F6F1 !important;
+  --bg-elevated:   #FDFCF9;
+  --bg-subtle:     #F2EFE9;
+  --bg-gray:       #F2EFE9;   /* article-style alias */
+
+  /* ── Surface ── */
+  --surface:       rgba(26,26,26,0.04);
+  --surface-2:     rgba(26,26,26,0.07);
+  --surface-hover: rgba(26,26,26,0.06);
+
+  /* ── Border ── */
+  --border:        #E8E4DC !important;
+  --border-strong: rgba(26,26,26,0.35);
+
+  /* ── Text ── */
+  --text-1:        rgba(26,26,26,0.88);
+  --text-2:        rgba(26,26,26,0.62);
+  --text-3:        rgba(26,26,26,0.42);
+  --text:          rgba(26,26,26,0.88);      /* alias */
+  --text-muted:    rgba(26,26,26,0.55);      /* alias */
+
+  /* ── Brand Accent ── */
+  --gold:          #F5A623;
+  --gold-dim:      rgba(245,166,35,0.65);
+  --gold-glow:     rgba(245,166,35,0.18);
+  --gold-bg:       rgba(245,166,35,0.10);
+
+  /* ── Quiz Feedback ── */
+  --success:       #16A34A;
+  --success-bg:    rgba(22,163,74,0.10);
+  --error:         #DC2626;
+  --error-bg:      rgba(220,38,38,0.10);
+  --hint:          #D97706;
+  --hint-bg:       rgba(217,119,6,0.10);
+
+  /* ── Gamification ── */
+  --xp:            #F5A623;
+  --streak:        #EA580C;
+  --streak-bg:     rgba(234,88,12,0.10);
+
+  /* ── Interactive ── */
+  --teal:          #0EA5E9;
+  --teal-bg:       rgba(14,165,233,0.08);
+
+  /* ── Shape ── */
+  --radius:        14px;
+  --radius-sm:     8px;
+  --radius-lg:     20px;
+  --radius-pill:   9999px;
+
+  /* ── Motion ── */
+  --t:             0.18s ease;
+  --t-fast:        0.10s ease;
+}
+
+/* ═══════════════════════════════════════════
+   2. BODY & PAGE BACKGROUND
+   ═══════════════════════════════════════════ */
+body {
+  background: #F8F6F1 !important;
+  background-image: radial-gradient(rgba(26,26,26,0.04) 1px, transparent 1px) !important;
+  background-size: 28px 28px !important;
+}
+
+/* Override any inline :root --bg: #FFFFFF or --bg: #fff */
+html {
+  --bg: #F8F6F1 !important;
+}
+
+/* ═══════════════════════════════════════════
+   3. SITE HEADER — Cream Backdrop
+   ═══════════════════════════════════════════ */
+.site-header {
+  background: rgba(248,246,241,0.92) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  border-bottom-color: #E8E4DC !important;
+}
+
+.site-header-logo {
+  color: rgba(26,26,26,0.88) !important;
+}
+
+.site-header-nav > a {
+  color: rgba(26,26,26,0.55) !important;
+}
+.site-header-nav > a:hover {
+  color: rgba(26,26,26,0.88) !important;
+  background: rgba(26,26,26,0.04) !important;
+}
+.site-header-nav > a.active {
+  color: #F5A623 !important;
+}
+.site-header-nav > a.active::after {
+  background: #F5A623 !important;
+}
+
+/* ── Nav Dropdown ── */
+.nav-dd-menu {
+  background: #FDFCF9 !important;
+  border: 1px solid #E8E4DC !important;
+  box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04) !important;
+}
+.nav-dd-menu a {
+  color: rgba(26,26,26,0.62) !important;
+}
+.nav-dd-menu a:hover {
+  color: rgba(26,26,26,0.88) !important;
+  background: rgba(26,26,26,0.04) !important;
+}
+.nav-dd-menu a.active {
+  color: #F5A623 !important;
+}
+
+.nav-dd-trigger {
+  color: rgba(26,26,26,0.55) !important;
+}
+.nav-dd-trigger:hover {
+  color: rgba(26,26,26,0.88) !important;
+  background: rgba(26,26,26,0.04) !important;
+}
+.nav-dd-trigger.active {
+  color: #F5A623 !important;
+}
+
+/* ── Hamburger lines ── */
+.site-hamburger span {
+  background: rgba(26,26,26,0.88) !important;
+}
+
+/* ── App Header (listening quiz) ── */
+.app-header {
+  background: rgba(248,246,241,0.92) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-bottom-color: #E8E4DC !important;
+}
+
+/* ═══════════════════════════════════════════
+   4. SECTION BACKGROUNDS
+   ═══════════════════════════════════════════ */
+.section-alt,
+.lp-section-alt {
+  background: var(--bg-subtle, #F2EFE9) !important;
+}
+
+/* Philosophy section: warm gradient instead of cold gray */
+.philosophy-section {
+  background: linear-gradient(180deg, #F2EFE9 0%, #EDE9E0 60%, #F2EFE9 100%) !important;
+  border-top-color: rgba(245,166,35,0.12) !important;
+  border-bottom-color: rgba(245,166,35,0.12) !important;
+}
+
+/* ═══════════════════════════════════════════
+   5. CARDS & CONTAINERS
+   ═══════════════════════════════════════════ */
+.cross-card-mini,
+.philosophy-conclusion,
+.mission-modal {
+  background: var(--bg-elevated, #FDFCF9) !important;
+}
+
+/* Step cards, pricing cards, generic surface cards */
+.step-card,
+.pricing-card {
+  background: rgba(253,252,249,0.8) !important;
+  border-color: #E8E4DC !important;
+}
+.step-card:hover {
+  border-color: rgba(245,166,35,0.3) !important;
+}
+
+/* Feature strip */
+.feature-strip {
+  background: rgba(26,26,26,0.025) !important;
+  border-color: #E8E4DC !important;
+}
+.feature-item {
+  border-color: #E8E4DC !important;
+}
+
+/* ═══════════════════════════════════════════
+   6. QUIZ OPTION BUTTONS
+   ═══════════════════════════════════════════ */
+.opt-btn {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border: 1.5px solid var(--border, #E8E4DC) !important;
+  color: rgba(26,26,26,0.88) !important;
+  transition: all 0.18s ease !important;
+}
+.opt-btn:hover:not(:disabled) {
+  background: rgba(26,26,26,0.04) !important;
+  border-color: rgba(26,26,26,0.35) !important;
+}
+.opt-btn.correct {
+  background: var(--success-bg, rgba(22,163,74,0.10)) !important;
+  border-color: var(--success, #16A34A) !important;
+  color: var(--success, #16A34A) !important;
+}
+.opt-btn.wrong {
+  background: var(--error-bg, rgba(220,38,38,0.10)) !important;
+  border-color: var(--error, #DC2626) !important;
+  color: var(--error, #DC2626) !important;
+}
+.opt-btn.selected {
+  background: var(--gold-bg, rgba(245,166,35,0.10)) !important;
+  border-color: var(--gold, #F5A623) !important;
+}
+.opt-num {
+  background: rgba(26,26,26,0.06) !important;
+  color: rgba(26,26,26,0.62) !important;
+}
+.opt-btn.correct .opt-num {
+  background: var(--success, #16A34A) !important;
+  color: #fff !important;
+}
+.opt-btn.wrong .opt-num {
+  background: var(--error, #DC2626) !important;
+  color: #fff !important;
+}
+
+/* ── Quiz Animations ── */
+@keyframes correct-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(22,163,74,0.4); }
+  70%  { box-shadow: 0 0 0 8px rgba(22,163,74,0); }
+  100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+}
+.opt-btn.correct.anim-pop {
+  animation: anim-pop 0.3s ease-out, correct-pulse 0.6s ease-out !important;
+}
+
+/* ═══════════════════════════════════════════
+   7. EXPLANATION & TRANSCRIPT
+   ═══════════════════════════════════════════ */
+.explanation {
+  background: rgba(26,26,26,0.04) !important;
+  border-color: #E8E4DC !important;
+}
+
+.transcript {
+  background: rgba(14,165,233,0.04) !important;
+  border-color: rgba(14,165,233,0.12) !important;
+}
+
+/* ═══════════════════════════════════════════
+   8. HINT PANEL
+   ═══════════════════════════════════════════ */
+.hint-panel,
+.hint-box {
+  background: var(--hint-bg, rgba(217,119,6,0.10)) !important;
+  border: 1px solid rgba(217,119,6,0.3) !important;
+  border-radius: var(--radius-sm, 8px) !important;
+  color: var(--hint, #D97706) !important;
+}
+
+/* ═══════════════════════════════════════════
+   9. XP / LEVEL BAR (Gamification)
+   ═══════════════════════════════════════════ */
+.level-xp-track,
+.xp-bar-track {
+  background: rgba(26,26,26,0.07) !important;
+  border-radius: 9999px !important;
+}
+.level-xp-fill,
+.xp-bar-fill {
+  background: linear-gradient(90deg, #E09520, #F5A623, #F8C347) !important;
+  border-radius: 9999px !important;
+  transition: width 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+/* Level badge */
+.level-badge {
+  background: rgba(245,166,35,0.10) !important;
+  color: #F5A623 !important;
+  border: 1px solid rgba(245,166,35,0.3) !important;
+  border-radius: 9999px !important;
+  padding: 3px 10px !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+/* Streak badge */
+.streak-badge {
+  background: rgba(234,88,12,0.10) !important;
+  color: #EA580C !important;
+  border: 1px solid rgba(234,88,12,0.25) !important;
+  border-radius: 9999px !important;
+  padding: 4px 10px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+/* Level name in quiz header */
+.level-name {
+  color: rgba(26,26,26,0.88) !important;
+}
+
+/* ═══════════════════════════════════════════
+   10. AUDIO CARD
+   ═══════════════════════════════════════════ */
+.audio-card {
+  background: linear-gradient(135deg, rgba(26,26,26,0.88) 0%, rgba(26,26,26,0.78) 100%) !important;
+  border-color: rgba(255,255,255,0.08) !important;
+}
+
+/* ═══════════════════════════════════════════
+   11. PRIMARY CTA BUTTON (Gold)
+   ═══════════════════════════════════════════ */
+.btn-primary-lg,
+.plan-btn-gold,
+.next-btn {
+  background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%) !important;
+  color: #000 !important;
+  box-shadow: 0 2px 8px rgba(245,166,35,0.35), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+}
+.btn-primary-lg:hover,
+.plan-btn-gold:hover,
+.next-btn:hover {
+  box-shadow: 0 8px 40px rgba(245,166,35,0.5), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+}
+
+/* Ghost / Secondary button */
+.btn-ghost,
+.plan-btn-ghost {
+  background: transparent !important;
+  color: rgba(26,26,26,0.88) !important;
+  border: 1px solid rgba(26,26,26,0.35) !important;
+}
+.btn-ghost:hover,
+.plan-btn-ghost:hover {
+  background: rgba(26,26,26,0.04) !important;
+  color: rgba(26,26,26,0.88) !important;
+}
+
+/* Teal Secondary CTA */
+.plan-btn-teal,
+.btn-teal {
+  background: linear-gradient(135deg, #0D9488, #0EA5E9) !important;
+  color: #fff !important;
+}
+
+/* ═══════════════════════════════════════════
+   12. TAB NAVIGATION (Zapier-style inset underline)
+   ═══════════════════════════════════════════ */
+.filter-tabs button,
+.mode-tab,
+.cat-tab {
+  background: transparent !important;
+  color: rgba(26,26,26,0.62) !important;
+  border: none !important;
+  transition: box-shadow 0.15s ease, color 0.15s ease !important;
+}
+.filter-tabs button:hover,
+.mode-tab:hover,
+.cat-tab:hover {
+  color: rgba(26,26,26,0.88) !important;
+  box-shadow: rgba(26,26,26,0.35) 0px -3px 0px 0px inset !important;
+}
+.filter-tabs button.active,
+.mode-tab.active,
+.cat-tab.active {
+  color: #F5A623 !important;
+  box-shadow: #F5A623 0px -3px 0px 0px inset !important;
+}
+
+/* ═══════════════════════════════════════════
+   13. STATS DISPLAY
+   ═══════════════════════════════════════════ */
+.stat-num,
+.stat-value {
+  font-variant-numeric: tabular-nums !important;
+  color: rgba(26,26,26,0.88) !important;
+}
+.stat-label {
+  color: rgba(26,26,26,0.62) !important;
+}
+
+/* ═══════════════════════════════════════════
+   14. AXIS FEEDBACK PANEL
+   ═══════════════════════════════════════════ */
+.axis-feedback {
+  background: rgba(26,26,26,0.04) !important;
+  border-color: #E8E4DC !important;
+}
+.af-bar-wrap {
+  background: #E8E4DC !important;
+}
+.af-bar {
+  background: #F5A623 !important;
+}
+.af-bar.weak {
+  background: #DC2626 !important;
+}
+.af-bar.strong {
+  background: #16A34A !important;
+}
+
+/* ═══════════════════════════════════════════
+   15. MISSION MODAL
+   ═══════════════════════════════════════════ */
+.mission-modal {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border: 1px solid #E8E4DC !important;
+  box-shadow: 0 8px 32px rgba(26,26,26,0.15) !important;
+}
+
+/* Share card */
+.share-card-wrap {
+  background: rgba(26,26,26,0.04) !important;
+}
+
+/* ═══════════════════════════════════════════
+   16. BACKGROUND ORBS — Warm tones
+   ═══════════════════════════════════════════ */
+.orb-1 {
+  background: radial-gradient(circle at center, rgba(245,166,35,0.08), transparent 70%) !important;
+}
+.orb-2 {
+  background: radial-gradient(circle at center, rgba(245,166,35,0.12), transparent 70%) !important;
+}
+.orb-3 {
+  background: radial-gradient(circle at center, rgba(234,88,12,0.06), transparent 70%) !important;
+}
+
+/* ═══════════════════════════════════════════
+   17. RESET BUTTON
+   ═══════════════════════════════════════════ */
+.reset-btn {
+  background: rgba(26,26,26,0.04) !important;
+  border-color: #E8E4DC !important;
+  color: rgba(26,26,26,0.62) !important;
+}
+.reset-btn:hover {
+  background: rgba(26,26,26,0.07) !important;
+  color: rgba(26,26,26,0.88) !important;
+}
+
+/* End session button */
+.end-session-btn {
+  border-color: #E8E4DC !important;
+  color: rgba(26,26,26,0.42) !important;
+}
+.end-session-btn:hover {
+  background: rgba(26,26,26,0.04) !important;
+  color: rgba(26,26,26,0.62) !important;
+}
+
+/* ═══════════════════════════════════════════
+   18. ARTICLE / SERVICE PAGE OVERRIDES
+   ═══════════════════════════════════════════ */
+
+/* CTA boxes in service/article pages */
+.cta-box,
+.sticky-cta {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border-color: #E8E4DC !important;
+}
+
+/* Table borders */
+.compare-table th,
+.compare-table td {
+  border-color: #E8E4DC !important;
+}
+
+/* TOC sidebar */
+.toc-sidebar,
+.toc-wrap {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border-color: #E8E4DC !important;
+}
+
+/* FAQ sections */
+.faq-q,
+.faq-item {
+  border-color: #E8E4DC !important;
+}
+
+/* Service cards on index */
+.card-service,
+.service-card {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border-color: #E8E4DC !important;
+}
+.card-service:hover,
+.service-card:hover {
+  border-color: rgba(26,26,26,0.35) !important;
+  box-shadow: 0 4px 16px rgba(26,26,26,0.08) !important;
+}
+
+/* ═══════════════════════════════════════════
+   19. QUIZ MODE CARDS (listening start screen)
+   ═══════════════════════════════════════════ */
+.mode-card {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border-color: #E8E4DC !important;
+}
+.mode-card:hover,
+.mode-card.selected {
+  border-color: rgba(245,166,35,0.4) !important;
+}
+
+/* ═══════════════════════════════════════════
+   20. LEVEL-UP TOAST
+   ═══════════════════════════════════════════ */
+.level-up-toast {
+  background: rgba(26,26,26,0.92) !important;
+  box-shadow: 0 8px 32px rgba(26,26,26,0.3) !important;
+}
+.level-up-toast .lvup-label {
+  color: #F5A623 !important;
+}
+
+/* ═══════════════════════════════════════════
+   21. KEYFRAME ANIMATIONS
+   ═══════════════════════════════════════════ */
+@keyframes toast-in {
+  from { transform: translateY(-20px) scale(0.9); opacity: 0; }
+  to   { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+/* ═══════════════════════════════════════════
+   22. SCORE DISPLAY
+   ═══════════════════════════════════════════ */
+.score-num {
+  color: #F5A623 !important;
+}
+
+/* Seen progress bar */
+.seen-bar-track {
+  background: rgba(26,26,26,0.07) !important;
+}
+.seen-bar-fill {
+  background: linear-gradient(90deg, #E09520, #F5A623) !important;
+}
+
+/* ═══════════════════════════════════════════
+   23. KEY PHRASE BADGES
+   ═══════════════════════════════════════════ */
+.kp {
+  background: rgba(14,165,233,0.08) !important;
+  border-color: rgba(14,165,233,0.2) !important;
+  color: #0EA5E9 !important;
+}
+
+/* ═══════════════════════════════════════════
+   24. MOBILE NAV OVERLAY
+   ═══════════════════════════════════════════ */
+.site-mobile-nav a.active {
+  color: #F5A623 !important;
+}
+
+/* ═══════════════════════════════════════════
+   25. READING / GRAMMAR / WORDS PAGES
+   ═══════════════════════════════════════════ */
+/* These pages may have their own --bg: #FFFFFF.
+   The :root override + body background handles them. */
+
+/* ═══════════════════════════════════════════
+   26. PHILOSOPHY QUOTE — warm accent
+   ═══════════════════════════════════════════ */
+.philosophy-quote {
+  background: rgba(245,166,35,0.07) !important;
+  border-left-color: #F5A623 !important;
+}
+
+.philosophy-conclusion {
+  background: var(--bg-elevated, #FDFCF9) !important;
+  border-color: rgba(245,166,35,0.22) !important;
+}
+
+/* ═══════════════════════════════════════════
+   27. PRICING MONITOR (teal) — preserve accent
+   ═══════════════════════════════════════════ */
+.pricing-monitor {
+  background: rgba(20,184,166,0.04) !important;
+  border-color: #14B8A6 !important;
+}
+
+/* ═══════════════════════════════════════════
+   28. DEPTH & ELEVATION (consistent shadows)
+   ═══════════════════════════════════════════ */
+
+/* Default cards: no shadow, border only */
+/* Hover cards: subtle shadow */
+/* Modal: strong shadow — handled per-component above */
+
+/* ═══════════════════════════════════════════
+   29. PRINT / ACCESSIBILITY
+   ═══════════════════════════════════════════ */
+/* ═══════════════════════════════════════════
+   30. LANGUAGE TOGGLE
+   ═══════════════════════════════════════════ */
+.lang-toggle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-2) !important;
+  text-decoration: none;
+  padding: 5px 12px;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-sm);
+  transition: all var(--t);
+  white-space: nowrap;
+}
+.lang-toggle:hover {
+  background: rgba(26,26,26,0.04) !important;
+  color: var(--text-1) !important;
+}
+
+/* ═══════════════════════════════════════════
+   31. JAPANESE HINTS (English pages)
+   ═══════════════════════════════════════════ */
+.ja-hint {
+  display: none;
+  font-size: 13px;
+  color: var(--text-3) !important;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+body.hints-on .ja-hint {
+  display: block;
+}
+.hint-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: all var(--t);
+}
+.hint-toggle:hover {
+  background: rgba(26,26,26,0.04);
+  color: var(--text-1);
+}
+.hint-toggle .hint-state {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

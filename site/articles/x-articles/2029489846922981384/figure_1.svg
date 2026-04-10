@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="bold">アルファベット「名前読み」vs「フォニックス音」完全比較</text>
+
+  <!-- Column headers -->
+  <rect x="40" y="90" width="80" height="40" rx="4" fill="#657786"/>
+  <text x="80" y="116" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">文字</text>
+
+  <rect x="130" y="90" width="170" height="40" rx="4" fill="#AAB8C2"/>
+  <text x="215" y="116" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">名前読み（知ってる）</text>
+
+  <rect x="310" y="90" width="180" height="40" rx="4" fill="#1DA1F2"/>
+  <text x="400" y="116" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">フォニックス音（本当の音）</text>
+
+  <rect x="520" y="90" width="80" height="40" rx="4" fill="#657786"/>
+  <text x="560" y="116" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">文字</text>
+
+  <rect x="610" y="90" width="170" height="40" rx="4" fill="#AAB8C2"/>
+  <text x="695" y="116" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">名前読み（知ってる）</text>
+
+  <rect x="790" y="90" width="180" height="40" rx="4" fill="#1DA1F2"/>
+  <text x="880" y="116" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">フォニックス音（本当の音）</text>
+
+  <!-- Left column: A-M -->
+  <!-- A -->
+  <rect x="40" y="137" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="157" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">A</text>
+  <text x="215" y="157" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エー</text>
+  <text x="400" y="157" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ア / ア（æ）</text>
+  <!-- B -->
+  <rect x="40" y="170" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="190" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">B</text>
+  <text x="215" y="190" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ビー</text>
+  <text x="400" y="190" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ブ（/b/）</text>
+  <!-- C -->
+  <rect x="40" y="203" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="223" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">C</text>
+  <text x="215" y="223" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">スィー</text>
+  <text x="400" y="223" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ク（/k/）</text>
+  <!-- D -->
+  <rect x="40" y="236" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="256" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">D</text>
+  <text x="215" y="256" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ディー</text>
+  <text x="400" y="256" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ドゥ（/d/）</text>
+  <!-- E -->
+  <rect x="40" y="269" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="289" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">E</text>
+  <text x="215" y="289" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">イー</text>
+  <text x="400" y="289" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">エ（/e/）</text>
+  <!-- F -->
+  <rect x="40" y="302" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="322" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">F</text>
+  <text x="215" y="322" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エフ</text>
+  <text x="400" y="322" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">フ（/f/）</text>
+  <!-- G -->
+  <rect x="40" y="335" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="355" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">G</text>
+  <text x="215" y="355" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ジー</text>
+  <text x="400" y="355" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">グ（/ɡ/）</text>
+  <!-- H -->
+  <rect x="40" y="368" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="388" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">H</text>
+  <text x="215" y="388" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エイチ</text>
+  <text x="400" y="388" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ハ（/h/）</text>
+  <!-- I -->
+  <rect x="40" y="401" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="421" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">I</text>
+  <text x="215" y="421" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">アイ</text>
+  <text x="400" y="421" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">イ（/ɪ/）</text>
+  <!-- J -->
+  <rect x="40" y="434" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="454" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">J</text>
+  <text x="215" y="454" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ジェイ</text>
+  <text x="400" y="454" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ジュ（/dʒ/）</text>
+  <!-- K -->
+  <rect x="40" y="467" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="487" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">K</text>
+  <text x="215" y="487" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ケイ</text>
+  <text x="400" y="487" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ク（/k/）</text>
+  <!-- L -->
+  <rect x="40" y="500" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="520" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">L</text>
+  <text x="215" y="520" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エル</text>
+  <text x="400" y="520" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ル（/l/）</text>
+  <!-- M -->
+  <rect x="40" y="533" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="80" y="553" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">M</text>
+  <text x="215" y="553" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エム</text>
+  <text x="400" y="553" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ム（/m/）</text>
+
+  <!-- Right column: N-Z -->
+  <!-- N -->
+  <rect x="520" y="137" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="157" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">N</text>
+  <text x="695" y="157" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エン</text>
+  <text x="880" y="157" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ヌ（/n/）</text>
+  <!-- O -->
+  <rect x="520" y="170" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="190" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">O</text>
+  <text x="695" y="190" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">オー</text>
+  <text x="880" y="190" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">オ（/ɒ/）</text>
+  <!-- P -->
+  <rect x="520" y="203" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="223" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">P</text>
+  <text x="695" y="223" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ピー</text>
+  <text x="880" y="223" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">プ（/p/）</text>
+  <!-- Q -->
+  <rect x="520" y="236" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="256" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">Q</text>
+  <text x="695" y="256" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">キュー</text>
+  <text x="880" y="256" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">クウ（/kw/）</text>
+  <!-- R -->
+  <rect x="520" y="269" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="289" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">R</text>
+  <text x="695" y="289" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">アール</text>
+  <text x="880" y="289" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ル（/r/）</text>
+  <!-- S -->
+  <rect x="520" y="302" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="322" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">S</text>
+  <text x="695" y="322" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エス</text>
+  <text x="880" y="322" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ス（/s/）</text>
+  <!-- T -->
+  <rect x="520" y="335" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="355" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">T</text>
+  <text x="695" y="355" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ティー</text>
+  <text x="880" y="355" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ト（/t/）</text>
+  <!-- U -->
+  <rect x="520" y="368" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="388" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">U</text>
+  <text x="695" y="388" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ユー</text>
+  <text x="880" y="388" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ア（/ʌ/）</text>
+  <!-- V -->
+  <rect x="520" y="401" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="421" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">V</text>
+  <text x="695" y="421" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ヴィー</text>
+  <text x="880" y="421" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ヴ（/v/）</text>
+  <!-- W -->
+  <rect x="520" y="434" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="454" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">W</text>
+  <text x="695" y="454" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ダブリュー</text>
+  <text x="880" y="454" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ウ（/w/）</text>
+  <!-- X -->
+  <rect x="520" y="467" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="487" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">X</text>
+  <text x="695" y="487" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">エックス</text>
+  <text x="880" y="487" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">クス（/ks/）</text>
+  <!-- Y -->
+  <rect x="520" y="500" width="460" height="30" rx="3" fill="#F5F8FA" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="520" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">Y</text>
+  <text x="695" y="520" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ワイ</text>
+  <text x="880" y="520" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ヤ（/j/）</text>
+  <!-- Z -->
+  <rect x="520" y="533" width="460" height="30" rx="3" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="560" y="553" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">Z</text>
+  <text x="695" y="553" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ゼット</text>
+  <text x="880" y="553" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">ズ（/z/）</text>
+
+  <!-- Bottom note -->
+  <rect x="1000" y="137" width="160" height="426" rx="8" fill="#14171A"/>
+  <text x="1080" y="175" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">注意!</text>
+  <text x="1080" y="205" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">名前読みは</text>
+  <text x="1080" y="225" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">スペルの時</text>
+  <text x="1080" y="245" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">のみ使う。</text>
+  <text x="1080" y="285" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">単語を読む</text>
+  <text x="1080" y="305" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">ときは</text>
+  <text x="1080" y="325" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">フォニックス</text>
+  <text x="1080" y="345" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">音を使う!</text>
+  <text x="1080" y="395" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">例:</text>
+  <text x="1080" y="415" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">cat =</text>
+  <text x="1080" y="435" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">ク+ア+ト</text>
+  <text x="1080" y="465" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">dog =</text>
+  <text x="1080" y="485" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">ドゥ+オ+グ</text>
+
+  <!-- Footer -->
+  <rect x="40" y="577" width="950" height="38" rx="6" fill="#EBF8FF" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="515" y="601" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold">約84%の英単語はフォニックスのルールで発音が予測可能。まず26音を覚えれば読み書きの土台が完成！</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18">@ichi_eigo</text>
+</svg>

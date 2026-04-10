@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-size="25" font-weight="bold" fill="#FFFFFF">TOEIC後のスキルギャップ診断</text>
+  <text x="600" y="78" text-anchor="middle" font-size="16" fill="#657786">あなたにはどのギャップがある？</text>
+
+  <!-- Score display -->
+  <rect x="80" y="100" width="260" height="100" rx="12" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="210" y="138" text-anchor="middle" font-size="14" fill="#657786">あなたのTOEICスコア</text>
+  <text x="210" y="175" text-anchor="middle" font-size="44" font-weight="bold" fill="#1DA1F2">900</text>
+
+  <!-- Arrow -->
+  <text x="370" y="158" text-anchor="middle" font-size="28" fill="#657786">→</text>
+
+  <!-- But -->
+  <text x="460" y="145" text-anchor="middle" font-size="18" fill="#657786">でも…</text>
+  <text x="460" y="168" text-anchor="middle" font-size="24" fill="#EF4444">話せる？</text>
+
+  <!-- 4 skill checks -->
+  <!-- Row 1 -->
+  <!-- Listening check -->
+  <rect x="80" y="230" width="250" height="130" rx="10" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="2"/>
+  <text x="205" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#10B981">🎧 Listening</text>
+  <text x="205" y="280" text-anchor="middle" font-size="13" fill="#657786">TOEICで評価される</text>
+  <text x="100" y="305" font-size="13" fill="#FFFFFF">□ ネイティブ速度で聞き取れる</text>
+  <text x="100" y="325" font-size="13" fill="#FFFFFF">□ 雑音下でも理解できる</text>
+  <text x="100" y="345" font-size="13" fill="#FFFFFF">□ 訛りのある英語も対応できる</text>
+
+  <!-- Reading check -->
+  <rect x="360" y="230" width="250" height="130" rx="10" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="2"/>
+  <text x="485" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#10B981">📖 Reading</text>
+  <text x="485" y="280" text-anchor="middle" font-size="13" fill="#657786">TOEICで評価される</text>
+  <text x="380" y="305" font-size="13" fill="#FFFFFF">□ ビジネス文書を速読できる</text>
+  <text x="380" y="325" font-size="13" fill="#FFFFFF">□ 複数文書を横断して理解できる</text>
+  <text x="380" y="345" font-size="13" fill="#FFFFFF">□ 語彙・文法の理解が正確</text>
+
+  <!-- Speaking check -->
+  <rect x="640" y="230" width="250" height="130" rx="10" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-width="2"/>
+  <text x="765" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#EF4444">🗣 Speaking</text>
+  <text x="765" y="280" text-anchor="middle" font-size="13" fill="#EF4444">TOEICで評価されない</text>
+  <text x="660" y="305" font-size="13" fill="#A0AEC0">□ 0.5秒で返答できる</text>
+  <text x="660" y="325" font-size="13" fill="#A0AEC0">□ 相手に伝わる発音がある</text>
+  <text x="660" y="345" font-size="13" fill="#A0AEC0">□ 話の組み立てができる</text>
+
+  <!-- Writing check -->
+  <rect x="920" y="230" width="250" height="130" rx="10" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-width="2"/>
+  <text x="1045" y="258" text-anchor="middle" font-size="15" font-weight="bold" fill="#EF4444">✍️ Writing</text>
+  <text x="1045" y="280" text-anchor="middle" font-size="13" fill="#EF4444">TOEICで評価されない</text>
+  <text x="940" y="305" font-size="13" fill="#A0AEC0">□ ビジネスメールを書ける</text>
+  <text x="940" y="325" font-size="13" fill="#A0AEC0">□ 要点を簡潔にまとめられる</text>
+  <text x="940" y="345" font-size="13" fill="#A0AEC0">□ ニュアンスを文章で表現できる</text>
+
+  <!-- Gap diagnosis -->
+  <rect x="80" y="390" width="1100" height="52" rx="8" fill="#EF4444" fill-opacity="0.12" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="630" y="412" text-anchor="middle" font-size="15" font-weight="bold" fill="#EF4444">Speaking / Writing にチェックが少ない ＝ 「スキルギャップ」あり</text>
+  <text x="630" y="432" text-anchor="middle" font-size="13" fill="#FFFFFF">TOEIC900点でも発信系は別トレーニングが必要。スコアだけで安心しないこと。</text>
+
+  <!-- 3-step action plan -->
+  <text x="600" y="475" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">ギャップ解消 3ステップ</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="492" width="330" height="80" rx="8" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="245" y="516" text-anchor="middle" font-size="13" fill="#1DA1F2" font-weight="bold">STEP 1: ギャップを数値化</text>
+  <text x="245" y="538" text-anchor="middle" font-size="13" fill="#FFFFFF">TOEIC S&amp;W テストを受験し</text>
+  <text x="245" y="555" text-anchor="middle" font-size="13" fill="#FFFFFF">現在値を把握する</text>
+
+  <!-- Step 2 -->
+  <rect x="435" y="492" width="330" height="80" rx="8" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="600" y="516" text-anchor="middle" font-size="13" fill="#F59E0B" font-weight="bold">STEP 2: 発信系を毎日30分</text>
+  <text x="600" y="538" text-anchor="middle" font-size="13" fill="#FFFFFF">瞬間英作文 + シャドーイング</text>
+  <text x="600" y="555" text-anchor="middle" font-size="13" fill="#FFFFFF">処理速度を上げる</text>
+
+  <!-- Step 3 -->
+  <rect x="790" y="492" width="390" height="80" rx="8" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1.5"/>
+  <text x="985" y="516" text-anchor="middle" font-size="13" fill="#10B981" font-weight="bold">STEP 3: アウトプットの場を作る</text>
+  <text x="985" y="538" text-anchor="middle" font-size="13" fill="#FFFFFF">オンライン英会話 / 英語日記 /</text>
+  <text x="985" y="555" text-anchor="middle" font-size="13" fill="#FFFFFF">英語SNS発信</text>
+
+  <!-- Bottom CTA -->
+  <text x="600" y="610" text-anchor="middle" font-size="14" fill="#1DA1F2">▶ native-real.com でリスニングから始める</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" font-size="13" fill="#657786">@ichi_eigo</text>
+</svg>

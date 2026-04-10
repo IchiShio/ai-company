@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg_p2f2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg_p2f2)" />
+
+  <!-- Title -->
+  <text x="600" y="56" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">"That's a thing?" 使用シーン別チェックリスト</text>
+  <text x="600" y="86" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786" text-anchor="middle">このシーンで使えば自然。使えない場面も要確認</text>
+  <line x1="80" y1="104" x2="1120" y2="104" stroke="#657786" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- LEFT: 使えるシーン -->
+  <rect x="80" y="118" width="490" height="440" rx="14" fill="#1DA1F2" fill-opacity="0.07" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.4"/>
+  <rect x="80" y="118" width="490" height="48" rx="14" fill="#1DA1F2" fill-opacity="0.3"/>
+  <rect x="80" y="148" width="490" height="18" rx="0" fill="#1DA1F2" fill-opacity="0.3"/>
+  <text x="325" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">✅ 使えるシーン</text>
+
+  <!-- Scene items -->
+  <!-- Scene 1 -->
+  <rect x="105" y="186" width="440" height="72" rx="8" fill="#1DA1F2" fill-opacity="0.1"/>
+  <text x="125" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2">異文化・習慣を聞いたとき</text>
+  <text x="125" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">"People take naps at work in Spain."</text>
+  <text x="125" y="250" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">"Wait, that's a thing?"</text>
+
+  <!-- Scene 2 -->
+  <rect x="105" y="268" width="440" height="72" rx="8" fill="#1DA1F2" fill-opacity="0.1"/>
+  <text x="125" y="292" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2">新しいトレンド・現象を知ったとき</text>
+  <text x="125" y="314" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">"There's a sport called cheese rolling."</text>
+  <text x="125" y="332" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">"Seriously? That's a thing?"</text>
+
+  <!-- Scene 3 -->
+  <rect x="105" y="350" width="440" height="72" rx="8" fill="#1DA1F2" fill-opacity="0.1"/>
+  <text x="125" y="374" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2">予想外の事実を確認したいとき</text>
+  <text x="125" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">"Competitive eating is an Olympic sport."</text>
+  <text x="125" y="414" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">"Is that actually a thing?"</text>
+
+  <!-- Scene 4 -->
+  <rect x="105" y="432" width="440" height="72" rx="8" fill="#1DA1F2" fill-opacity="0.1"/>
+  <text x="125" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2">会話をつなげたいとき</text>
+  <text x="125" y="478" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">相手が詳しく説明したくなるフレーズ</text>
+  <text x="125" y="496" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">オープンな好奇心を示す効果あり</text>
+
+  <!-- RIGHT: 使えないシーン -->
+  <rect x="630" y="118" width="490" height="440" rx="14" fill="#E0245E" fill-opacity="0.07" stroke="#E0245E" stroke-width="1.5" stroke-opacity="0.4"/>
+  <rect x="630" y="118" width="490" height="48" rx="14" fill="#E0245E" fill-opacity="0.3"/>
+  <rect x="630" y="148" width="490" height="18" rx="0" fill="#E0245E" fill-opacity="0.3"/>
+  <text x="875" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">❌ 注意が必要なシーン</text>
+
+  <!-- Bad Scene 1 -->
+  <rect x="655" y="186" width="440" height="72" rx="8" fill="#E0245E" fill-opacity="0.1"/>
+  <text x="675" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#E0245E">深刻・重大なニュースへの反応</text>
+  <text x="675" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">事故・病気・悲報には使わない</text>
+  <text x="675" y="250" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">→ 軽すぎて失礼に聞こえる</text>
+
+  <!-- Bad Scene 2 -->
+  <rect x="655" y="268" width="440" height="72" rx="8" fill="#E0245E" fill-opacity="0.1"/>
+  <text x="675" y="292" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#E0245E">フォーマルなビジネス場面</text>
+  <text x="675" y="314" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">会議・プレゼン・上司との会話</text>
+  <text x="675" y="332" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">→ カジュアルすぎる印象を与える</text>
+
+  <!-- Bad Scene 3 -->
+  <rect x="655" y="350" width="440" height="72" rx="8" fill="#E0245E" fill-opacity="0.1"/>
+  <text x="675" y="374" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#E0245E">相手が誇りに思っていることを否定</text>
+  <text x="675" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">文化・宗教・伝統への軽視と誤解される</text>
+  <text x="675" y="414" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">→ トーンに注意。好奇心か軽蔑かが変わる</text>
+
+  <!-- Bad Scene 4 -->
+  <rect x="655" y="432" width="440" height="72" rx="8" fill="#E0245E" fill-opacity="0.1"/>
+  <text x="675" y="456" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#E0245E">すでに知っている明らかな事実</text>
+  <text x="675" y="478" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">「英語ってあるの？」みたいな文脈</text>
+  <text x="675" y="496" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">→ 不自然・わざとらしく聞こえる</text>
+
+  <!-- Bottom tip -->
+  <rect x="80" y="572" width="1040" height="56" rx="10" fill="#17BF63" fill-opacity="0.10" stroke="#17BF63" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="120" y="597" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#17BF63" font-weight="700">Tip:</text>
+  <text x="180" y="597" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc">語尾を上げる（疑問形トーン）= 驚き・確認　／　フラットに言う = 軽い確認・雑談</text>
+  <text x="120" y="617" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc">笑顔や開放的な表情と一緒に使うと「好奇心を持って聞いている」と伝わりやすい。</text>
+
+  <!-- Credit -->
+  <text x="1168" y="658" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

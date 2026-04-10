@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold">フォニックス習得ロードマップ：3段階で英語が「読める耳」になる</text>
+
+  <!-- Stage 1 -->
+  <rect x="60" y="100" width="330" height="490" rx="12" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="3"/>
+  <rect x="60" y="100" width="330" height="60" rx="12" fill="#1DA1F2"/>
+  <rect x="60" y="140" width="330" height="20" fill="#1DA1F2"/>
+  <text x="225" y="140" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold">STAGE 1</text>
+  <text x="225" y="162" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">単音（アルファベット26音）</text>
+
+  <text x="225" y="205" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="50">🔤</text>
+  <text x="225" y="250" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold">目標期間: 2〜4週間</text>
+
+  <line x1="80" y1="270" x2="370" y2="270" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="90" y="300" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">学習内容</text>
+  <text x="90" y="325" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・各文字の「音」を口と耳で覚える</text>
+  <text x="90" y="348" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・A=/æ/ B=/b/ C=/k/ など</text>
+  <text x="90" y="371" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・フラッシュカードや歌で反復練習</text>
+
+  <line x1="80" y1="390" x2="370" y2="390" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="90" y="415" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">達成基準</text>
+  <text x="90" y="440" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・文字を見て即座に音が出る</text>
+  <text x="90" y="463" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・cat, dog, sit が読める</text>
+
+  <rect x="80" y="490" width="290" height="85" rx="6" fill="#EBF8FF"/>
+  <text x="225" y="515" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">練習例</text>
+  <text x="225" y="537" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">cat → /k/ /æ/ /t/ → キャット</text>
+  <text x="225" y="558" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">map → /m/ /æ/ /p/ → マップ</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="405,340 435,320 435,360" fill="#1DA1F2"/>
+
+  <!-- Stage 2 -->
+  <rect x="435" y="100" width="330" height="490" rx="12" fill="#FFFFFF" stroke="#14171A" stroke-width="3"/>
+  <rect x="435" y="100" width="330" height="60" rx="12" fill="#14171A"/>
+  <rect x="435" y="140" width="330" height="20" fill="#14171A"/>
+  <text x="600" y="140" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold">STAGE 2</text>
+  <text x="600" y="162" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">ブレンド（子音の組み合わせ）</text>
+
+  <text x="600" y="205" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="50">🔗</text>
+  <text x="600" y="250" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold">目標期間: 1〜2ヶ月</text>
+
+  <line x1="455" y1="270" x2="745" y2="270" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="455" y="300" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">学習内容</text>
+  <text x="455" y="325" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・2文字以上の子音ブレンド</text>
+  <text x="455" y="348" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・bl, cl, fl, str, spr など</text>
+  <text x="455" y="371" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・sh, ch, th, wh（二文字音）</text>
+
+  <line x1="455" y1="390" x2="745" y2="390" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="455" y="415" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">達成基準</text>
+  <text x="455" y="440" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・shop, this, chip が読める</text>
+  <text x="455" y="463" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・blue, strong, spring も読める</text>
+
+  <rect x="455" y="490" width="290" height="85" rx="6" fill="#F5F8FA" stroke="#14171A" stroke-width="1"/>
+  <text x="600" y="515" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">練習例</text>
+  <text x="600" y="537" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">shop → /ʃ/ /ɒ/ /p/ → ショップ</text>
+  <text x="600" y="558" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">this → /ð/ /ɪ/ /s/ → ジス</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="780,340 810,320 810,360" fill="#1DA1F2"/>
+
+  <!-- Stage 3 -->
+  <rect x="810" y="100" width="330" height="490" rx="12" fill="#FFFFFF" stroke="#657786" stroke-width="3"/>
+  <rect x="810" y="100" width="330" height="60" rx="12" fill="#657786"/>
+  <rect x="810" y="140" width="330" height="20" fill="#657786"/>
+  <text x="975" y="140" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold">STAGE 3</text>
+  <text x="975" y="162" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">二重母音・長母音パターン</text>
+
+  <text x="975" y="205" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="50">🎵</text>
+  <text x="975" y="250" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold">目標期間: 2〜3ヶ月</text>
+
+  <line x1="830" y1="270" x2="1120" y2="270" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="830" y="300" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">学習内容</text>
+  <text x="830" y="325" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・ai, ay, ee, ea, oa（長母音）</text>
+  <text x="830" y="348" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・ou, ow, oi, oy（二重母音）</text>
+  <text x="830" y="371" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・silent e（magic e）ルール</text>
+
+  <line x1="830" y1="390" x2="1120" y2="390" stroke="#E1E8ED" stroke-width="1"/>
+
+  <text x="830" y="415" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold">達成基準</text>
+  <text x="830" y="440" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・rain, boat, night が読める</text>
+  <text x="830" y="463" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">・cake, kite（magic e）も読める</text>
+
+  <rect x="830" y="490" width="290" height="85" rx="6" fill="#F5F8FA" stroke="#657786" stroke-width="1"/>
+  <text x="975" y="515" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">練習例</text>
+  <text x="975" y="537" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">rain → /r/ /eɪ/ /n/ → レイン</text>
+  <text x="975" y="558" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">cake → /k/ /eɪ/ /k/ → ケイク</text>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="605" width="1080" height="38" rx="6" fill="#14171A"/>
+  <text x="600" y="630" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">3段階をクリアすれば、初めて見る単語も「読める・聞こえる」耳と口が完成する</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18">@ichi_eigo</text>
+</svg>

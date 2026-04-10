@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <filter id="card-shadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-size="30" font-weight="bold" fill="#14171A">小さなアウトプット 10の方法</text>
+  <text x="600" y="82" text-anchor="middle" font-size="18" fill="#657786">インプット直後に1つだけ実行する</text>
+
+  <!-- Row 1: items 1-5 -->
+  <!-- Item 1 -->
+  <rect x="50" y="106" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="50" y="106" width="210" height="6" rx="3" fill="#1DA1F2"/>
+  <text x="75" y="142" font-size="22" fill="#1DA1F2" font-weight="bold">①</text>
+  <text x="105" y="142" font-size="16" font-weight="bold" fill="#14171A">1文日本語要約</text>
+  <text x="75" y="166" font-size="13" fill="#657786">聞いた内容を</text>
+  <text x="75" y="184" font-size="13" fill="#657786">1文にまとめる</text>
+
+  <!-- Item 2 -->
+  <rect x="278" y="106" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="278" y="106" width="210" height="6" rx="3" fill="#1DA1F2"/>
+  <text x="303" y="142" font-size="22" fill="#1DA1F2" font-weight="bold">②</text>
+  <text x="333" y="142" font-size="16" font-weight="bold" fill="#14171A">シャドーイング</text>
+  <text x="303" y="166" font-size="13" fill="#657786">音声を追いかけて</text>
+  <text x="303" y="184" font-size="13" fill="#657786">声に出す</text>
+
+  <!-- Item 3 -->
+  <rect x="506" y="106" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="506" y="106" width="210" height="6" rx="3" fill="#1DA1F2"/>
+  <text x="531" y="142" font-size="22" fill="#1DA1F2" font-weight="bold">③</text>
+  <text x="561" y="142" font-size="16" font-weight="bold" fill="#14171A">英語3行メモ</text>
+  <text x="531" y="166" font-size="13" fill="#657786">スマホに英語で</text>
+  <text x="531" y="184" font-size="13" fill="#657786">3行書き出す</text>
+
+  <!-- Item 4 -->
+  <rect x="734" y="106" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="734" y="106" width="210" height="6" rx="3" fill="#1DA1F2"/>
+  <text x="759" y="142" font-size="22" fill="#1DA1F2" font-weight="bold">④</text>
+  <text x="789" y="142" font-size="16" font-weight="bold" fill="#14171A">フレーズ即興使用</text>
+  <text x="759" y="166" font-size="13" fill="#657786">覚えた表現を別の</text>
+  <text x="759" y="184" font-size="13" fill="#657786">状況で使ってみる</text>
+
+  <!-- Item 5 -->
+  <rect x="962" y="106" width="188" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="962" y="106" width="188" height="6" rx="3" fill="#1DA1F2"/>
+  <text x="987" y="142" font-size="22" fill="#1DA1F2" font-weight="bold">⑤</text>
+  <text x="1017" y="142" font-size="16" font-weight="bold" fill="#14171A">音読1回</text>
+  <text x="987" y="166" font-size="13" fill="#657786">本文を見ながら</text>
+  <text x="987" y="184" font-size="13" fill="#657786">声に出して読む</text>
+
+  <!-- Row 2: items 6-10 -->
+  <!-- Item 6 -->
+  <rect x="50" y="232" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="50" y="232" width="210" height="6" rx="3" fill="#14171A"/>
+  <text x="75" y="268" font-size="22" fill="#14171A" font-weight="bold">⑥</text>
+  <text x="105" y="268" font-size="16" font-weight="bold" fill="#14171A">穴埋め暗唱</text>
+  <text x="75" y="292" font-size="13" fill="#657786">キーワードを隠して</text>
+  <text x="75" y="310" font-size="13" fill="#657786">再現する</text>
+
+  <!-- Item 7 -->
+  <rect x="278" y="232" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="278" y="232" width="210" height="6" rx="3" fill="#14171A"/>
+  <text x="303" y="268" font-size="22" fill="#14171A" font-weight="bold">⑦</text>
+  <text x="333" y="268" font-size="16" font-weight="bold" fill="#14171A">家族に説明</text>
+  <text x="303" y="292" font-size="13" fill="#657786">今日学んだことを</text>
+  <text x="303" y="310" font-size="13" fill="#657786">日本語で人に話す</text>
+
+  <!-- Item 8 -->
+  <rect x="506" y="232" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="506" y="232" width="210" height="6" rx="3" fill="#14171A"/>
+  <text x="531" y="268" font-size="22" fill="#14171A" font-weight="bold">⑧</text>
+  <text x="561" y="268" font-size="16" font-weight="bold" fill="#14171A">X投稿（英語）</text>
+  <text x="531" y="292" font-size="13" fill="#657786">覚えたフレーズで</text>
+  <text x="531" y="310" font-size="13" fill="#657786">一言SNS投稿</text>
+
+  <!-- Item 9 -->
+  <rect x="734" y="232" width="210" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="734" y="232" width="210" height="6" rx="3" fill="#14171A"/>
+  <text x="759" y="268" font-size="22" fill="#14171A" font-weight="bold">⑨</text>
+  <text x="789" y="268" font-size="16" font-weight="bold" fill="#14171A">和訳→英訳</text>
+  <text x="759" y="292" font-size="13" fill="#657786">本文を日本語にして</text>
+  <text x="759" y="310" font-size="13" fill="#657786">英語に戻す</text>
+
+  <!-- Item 10 -->
+  <rect x="962" y="232" width="188" height="100" rx="14" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="962" y="232" width="188" height="6" rx="3" fill="#14171A"/>
+  <text x="987" y="268" font-size="22" fill="#14171A" font-weight="bold">⑩</text>
+  <text x="1017" y="268" font-size="16" font-weight="bold" fill="#14171A">描写実況</text>
+  <text x="987" y="292" font-size="13" fill="#657786">目の前のものを</text>
+  <text x="987" y="310" font-size="13" fill="#657786">英語で実況する</text>
+
+  <!-- Difficulty scale -->
+  <text x="600" y="380" text-anchor="middle" font-size="16" fill="#657786" font-weight="bold">難易度スケール</text>
+  <rect x="100" y="392" width="1000" height="12" rx="6" fill="#E1E8ED"/>
+  <rect x="100" y="392" width="200" height="12" rx="6" fill="#1DA1F2" opacity="0.4"/>
+  <rect x="300" y="392" width="400" height="12" rx="6" fill="#1DA1F2" opacity="0.7"/>
+  <rect x="700" y="392" width="400" height="12" rx="6" fill="#1DA1F2"/>
+  <text x="200" y="422" text-anchor="middle" font-size="14" fill="#657786">①②③ 簡単</text>
+  <text x="500" y="422" text-anchor="middle" font-size="14" fill="#1DA1F2">④⑤⑥⑦ 中級</text>
+  <text x="900" y="422" text-anchor="middle" font-size="14" fill="#14171A" font-weight="bold">⑧⑨⑩ 効果大</text>
+
+  <!-- Habit table -->
+  <rect x="100" y="448" width="1000" height="150" rx="16" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <text x="600" y="484" text-anchor="middle" font-size="18" font-weight="bold" fill="#14171A">「今日から始める」1週間習慣プラン</text>
+
+  <text x="160" y="516" font-size="15" fill="#1DA1F2" font-weight="bold">月・水・金</text>
+  <text x="160" y="536" font-size="14" fill="#657786">ポッドキャスト後→①1文要約（30秒）</text>
+
+  <text x="460" y="516" font-size="15" fill="#14171A" font-weight="bold">火・木</text>
+  <text x="460" y="536" font-size="14" fill="#657786">動画後→②シャドーイング1回（60秒）</text>
+
+  <text x="760" y="516" font-size="15" fill="#657786" font-weight="bold">週末</text>
+  <text x="760" y="536" font-size="14" fill="#657786">その週の全フレーズ→③英語メモにまとめ</text>
+
+  <rect x="120" y="552" width="960" height="34" rx="8" fill="#E8F5FE"/>
+  <text x="600" y="574" text-anchor="middle" font-size="14" fill="#1DA1F2" font-weight="bold">ルール：インプット直後5分以内に必ず1つ実行。完璧にやらなくていい。やることが大事。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

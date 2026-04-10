@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a2530;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e2d3d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)" />
+
+  <!-- Accent bar top -->
+  <rect x="0" y="0" width="1200" height="4" fill="#1DA1F2" />
+
+  <!-- Title -->
+  <text x="600" y="58" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF">スターターフレーズ10選 — 用途別ガイド</text>
+  <text x="600" y="88" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#657786">最初の3語を決めるだけで口が開く</text>
+
+  <!-- Category 1: 意見・考え -->
+  <rect x="60" y="110" width="330" height="230" rx="12" fill="url(#cardGrad)" stroke="#1DA1F2" stroke-width="1.5" />
+  <rect x="60" y="110" width="330" height="42" rx="12" fill="#1DA1F2" />
+  <rect x="60" y="138" width="330" height="14" fill="#1DA1F2" />
+  <text x="225" y="137" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">💡 意見・考えを伝える</text>
+  <text x="85" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#1DA1F2">I think that...</text>
+  <text x="85" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">〜だと思います（万能）</text>
+  <text x="85" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#1DA1F2">In my opinion...</text>
+  <text x="85" y="257" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">私の意見では（フォーマル）</text>
+  <text x="85" y="284" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#1DA1F2">Personally, I feel...</text>
+  <text x="85" y="309" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">個人的には（カジュアル）</text>
+
+  <!-- Category 2: 説明・補足 -->
+  <rect x="430" y="110" width="340" height="230" rx="12" fill="url(#cardGrad)" stroke="#17BF63" stroke-width="1.5" />
+  <rect x="430" y="110" width="340" height="42" rx="12" fill="#17BF63" />
+  <rect x="430" y="138" width="340" height="14" fill="#17BF63" />
+  <text x="600" y="137" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#FFFFFF">🔍 説明・補足する</text>
+  <text x="455" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#17BF63">The thing is...</text>
+  <text x="455" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">実はですね（核心を伝える）</text>
+  <text x="455" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#17BF63">What I mean is...</text>
+  <text x="455" y="257" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">つまりですね（言い換え）</text>
+  <text x="455" y="284" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#17BF63">What I'm saying is...</text>
+  <text x="455" y="309" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">要するに（まとめ）</text>
+
+  <!-- Category 3: 反応・つなぎ -->
+  <rect x="810" y="110" width="330" height="230" rx="12" fill="url(#cardGrad)" stroke="#FFAD1F" stroke-width="1.5" />
+  <rect x="810" y="110" width="330" height="42" rx="12" fill="#FFAD1F" />
+  <rect x="810" y="138" width="330" height="14" fill="#FFAD1F" />
+  <text x="975" y="137" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#14171A">🔗 反応・話題つなぎ</text>
+  <text x="835" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#FFAD1F">That's a good point...</text>
+  <text x="835" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">それ良い点ですね（同意）</text>
+  <text x="835" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#FFAD1F">Actually, I was going...</text>
+  <text x="835" y="257" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">実は〜しようとしてた</text>
+  <text x="835" y="284" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#FFAD1F">By the way...</text>
+  <text x="835" y="309" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">ところで（話題転換）</text>
+
+  <!-- Bottom tip -->
+  <rect x="60" y="370" width="1080" height="80" rx="12" fill="#1a2a3a" stroke="#1DA1F2" stroke-width="1" />
+  <text x="600" y="403" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#1DA1F2">使い方のコツ</text>
+  <text x="600" y="432" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#E7E9EA">まずスターターを口に出す → 脳が自動で後続フレーズを検索 → 文が完成する</text>
+
+  <!-- 10th phrase highlight -->
+  <rect x="60" y="476" width="1080" height="120" rx="12" fill="#0d2035" stroke="#1DA1F2" stroke-width="2" />
+  <text x="600" y="510" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">+1 万能フレーズ（第10選）</text>
+  <text x="600" y="548" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#1DA1F2">"Well, I'm not sure, but I think..."</text>
+  <text x="600" y="578" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">自信がないときにも使える最強の保険フレーズ</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

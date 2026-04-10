@@ -1,0 +1,39 @@
+{
+  "tweet_id": "2036729807506133257",
+  "like_count": 78,
+  "created_at": "2026-03-30",
+  "article_theme": "ビジネス英語で評価されるのは発音でなく「話の構造」。PREP法で信頼を得る。",
+  "original_text": "ビジネス英語で流暢さを目指してる人、優先順位を間違えてます。ネイティブが非ネイティブを評価するとき最も重視するのは発音でも語彙でもなく「話の構造」。結論を先に言って理由を後で言う。これだけで文法がぼろぼろでも信頼感が出る。",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "PREP法フレームワーク図（Point→Reason→Example→Pointの4ステップ）",
+      "type": "framework_diagram",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "日本語型 vs 英語型の論理構造比較",
+      "type": "comparison_diagram",
+      "dimensions": "1200x675"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS",
+    "checked_at": "2026-03-30",
+    "key_claims": [
+      "話の構造がネイティブ評価に影響 — ELF研究・言語態度研究と整合（断定は回避）",
+      "PREP法の有効性 — ビジネスコミュニケーション教育の標準フレームワーク",
+      "文法ミスより構造の優位性 — Jenkins (2000) 等のELF研究で支持"
+    ]
+  },
+  "article_word_count": 468,
+  "brand": "@ichi_eigo",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "secondary": "#657786",
+    "light": "#AAB8C2"
+  }
+}

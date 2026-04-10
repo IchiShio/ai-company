@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#14171A"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ネイティブ音変化 8パターン対応表</text>
+  <text x="600" y="78" text-anchor="middle" fill="#657786" font-size="16" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">正式形 → 発音記号 → 実際に聞こえる音</text>
+
+  <!-- Header row -->
+  <rect x="50" y="95" width="1100" height="42" fill="#1DA1F2" rx="4"/>
+  <text x="160" y="122" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">正式な英語表現</text>
+  <text x="420" y="122" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">口語・短縮形</text>
+  <text x="650" y="122" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">実際に聞こえる音</text>
+  <text x="910" y="122" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音変化の種類</text>
+  <text x="1090" y="122" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">難易度</text>
+
+  <!-- Dividers (vertical) -->
+  <line x1="270" y1="95" x2="270" y2="635" stroke="#2C3640" stroke-width="1"/>
+  <line x1="540" y1="95" x2="540" y2="635" stroke="#2C3640" stroke-width="1"/>
+  <line x1="780" y1="95" x2="780" y2="635" stroke="#2C3640" stroke-width="1"/>
+  <line x1="1020" y1="95" x2="1020" y2="635" stroke="#2C3640" stroke-width="1"/>
+
+  <!-- Row 1: gonna — highlighted -->
+  <rect x="50" y="137" width="1100" height="56" fill="#1A2332" rx="0"/>
+  <rect x="50" y="137" width="4" height="56" fill="#1DA1F2"/>
+  <text x="160" y="162" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">I'm going to</text>
+  <text x="160" y="182" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">アイム ゴーイング トゥ</text>
+  <text x="420" y="162" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">I'm gonna</text>
+  <text x="420" y="182" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/aɪm ˈɡɒnə/</text>
+  <text x="650" y="162" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「アマナ」</text>
+  <text x="650" y="182" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">※元ツイートの例</text>
+  <text x="910" y="170" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">短縮＋連結</text>
+  <text x="1090" y="170" text-anchor="middle" fill="#E85454" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★★</text>
+
+  <!-- Row 2 -->
+  <rect x="50" y="193" width="1100" height="56" fill="#111820"/>
+  <text x="160" y="218" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">want to</text>
+  <text x="160" y="238" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ウォント トゥ</text>
+  <text x="420" y="218" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">wanna</text>
+  <text x="420" y="238" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈwɒnə/</text>
+  <text x="650" y="226" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「ワナ」</text>
+  <text x="910" y="226" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">短縮</text>
+  <text x="1090" y="226" text-anchor="middle" fill="#E8A854" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★☆</text>
+
+  <!-- Row 3 -->
+  <rect x="50" y="249" width="1100" height="56" fill="#1A2332"/>
+  <text x="160" y="274" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">have to</text>
+  <text x="160" y="294" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ハブ トゥ</text>
+  <text x="420" y="274" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">hafta / gotta</text>
+  <text x="420" y="294" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈhæftə/</text>
+  <text x="650" y="282" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「ハフタ」</text>
+  <text x="910" y="282" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">子音変化</text>
+  <text x="1090" y="282" text-anchor="middle" fill="#E8A854" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★☆</text>
+
+  <!-- Row 4 -->
+  <rect x="50" y="305" width="1100" height="56" fill="#111820"/>
+  <text x="160" y="330" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">could have</text>
+  <text x="160" y="350" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">クッド ハブ</text>
+  <text x="420" y="330" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">coulda</text>
+  <text x="420" y="350" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈkʊdə/</text>
+  <text x="650" y="338" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「クダ」</text>
+  <text x="910" y="338" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">have脱落</text>
+  <text x="1090" y="338" text-anchor="middle" fill="#E85454" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★★</text>
+
+  <!-- Row 5 -->
+  <rect x="50" y="361" width="1100" height="56" fill="#1A2332"/>
+  <text x="160" y="386" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">would have</text>
+  <text x="160" y="406" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ウッド ハブ</text>
+  <text x="420" y="386" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">woulda</text>
+  <text x="420" y="406" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈwʊdə/</text>
+  <text x="650" y="394" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「ウダ」</text>
+  <text x="910" y="394" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">have脱落</text>
+  <text x="1090" y="394" text-anchor="middle" fill="#E85454" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★★</text>
+
+  <!-- Row 6 -->
+  <rect x="50" y="417" width="1100" height="56" fill="#111820"/>
+  <text x="160" y="442" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ought to</text>
+  <text x="160" y="462" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">オート トゥ</text>
+  <text x="420" y="442" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">oughta</text>
+  <text x="420" y="462" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈɔːtə/</text>
+  <text x="650" y="450" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「オータ」</text>
+  <text x="910" y="450" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">短縮</text>
+  <text x="1090" y="450" text-anchor="middle" fill="#E8A854" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★☆</text>
+
+  <!-- Row 7 -->
+  <rect x="50" y="473" width="1100" height="56" fill="#1A2332"/>
+  <text x="160" y="498" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">let me</text>
+  <text x="160" y="518" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">レット ミー</text>
+  <text x="420" y="498" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">lemme</text>
+  <text x="420" y="518" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈlɛmi/</text>
+  <text x="650" y="506" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「レミ」</text>
+  <text x="910" y="506" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">連結</text>
+  <text x="1090" y="506" text-anchor="middle" fill="#54A8E8" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★☆☆</text>
+
+  <!-- Row 8 -->
+  <rect x="50" y="529" width="1100" height="56" fill="#111820"/>
+  <text x="160" y="554" text-anchor="middle" fill="#FFFFFF" font-size="15" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">give me</text>
+  <text x="160" y="574" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ギブ ミー</text>
+  <text x="420" y="554" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">gimme</text>
+  <text x="420" y="574" text-anchor="middle" fill="#657786" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">/ˈɡɪmi/</text>
+  <text x="650" y="562" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「ギミ」</text>
+  <text x="910" y="562" text-anchor="middle" fill="#AAB8C2" font-size="13" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">連結＋同化</text>
+  <text x="1090" y="562" text-anchor="middle" fill="#54A8E8" font-size="22" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★☆☆</text>
+
+  <!-- Bottom border -->
+  <rect x="50" y="585" width="1100" height="2" fill="#2C3640"/>
+
+  <!-- Legend -->
+  <text x="700" y="618" text-anchor="middle" fill="#E85454" font-size="16" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★★ 要注意（聞き取り困難）</text>
+  <text x="870" y="618" text-anchor="start" fill="#E8A854" font-size="16" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★★☆ 練習で対応可</text>
+  <text x="1020" y="618" text-anchor="start" fill="#54A8E8" font-size="16" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">★☆☆ 比較的容易</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

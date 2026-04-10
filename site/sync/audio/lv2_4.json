@@ -1,0 +1,297 @@
+[
+  {
+    "word": "More",
+    "start": 0.15,
+    "end": 0.445
+  },
+  {
+    "word": "cities",
+    "start": 0.445,
+    "end": 0.887
+  },
+  {
+    "word": "around",
+    "start": 0.887,
+    "end": 1.329
+  },
+  {
+    "word": "the",
+    "start": 1.329,
+    "end": 1.55
+  },
+  {
+    "word": "world",
+    "start": 1.55,
+    "end": 1.918
+  },
+  {
+    "word": "are",
+    "start": 1.918,
+    "end": 2.139
+  },
+  {
+    "word": "building",
+    "start": 2.139,
+    "end": 2.728
+  },
+  {
+    "word": "dedicated",
+    "start": 2.728,
+    "end": 3.391
+  },
+  {
+    "word": "cycling",
+    "start": 3.391,
+    "end": 3.907
+  },
+  {
+    "word": "lanes",
+    "start": 3.907,
+    "end": 4.275
+  },
+  {
+    "word": "to",
+    "start": 4.275,
+    "end": 4.422
+  },
+  {
+    "word": "encourage",
+    "start": 4.422,
+    "end": 5.085
+  },
+  {
+    "word": "people",
+    "start": 5.085,
+    "end": 5.527
+  },
+  {
+    "word": "to",
+    "start": 5.527,
+    "end": 5.674
+  },
+  {
+    "word": "ride",
+    "start": 5.674,
+    "end": 5.969
+  },
+  {
+    "word": "bikes.",
+    "start": 5.969,
+    "end": 6.337
+  },
+  {
+    "word": "Cycling",
+    "start": 6.337,
+    "end": 6.867
+  },
+  {
+    "word": "reduces",
+    "start": 6.867,
+    "end": 7.397
+  },
+  {
+    "word": "traffic",
+    "start": 7.397,
+    "end": 7.927
+  },
+  {
+    "word": "congestion",
+    "start": 7.927,
+    "end": 8.685
+  },
+  {
+    "word": "and",
+    "start": 8.685,
+    "end": 8.912
+  },
+  {
+    "word": "cuts",
+    "start": 8.912,
+    "end": 9.215
+  },
+  {
+    "word": "carbon",
+    "start": 9.215,
+    "end": 9.67
+  },
+  {
+    "word": "emissions",
+    "start": 9.67,
+    "end": 10.352
+  },
+  {
+    "word": "significantly.",
+    "start": 10.352,
+    "end": 11.337
+  },
+  {
+    "word": "It",
+    "start": 11.388,
+    "end": 11.542
+  },
+  {
+    "word": "is",
+    "start": 11.542,
+    "end": 11.696
+  },
+  {
+    "word": "also",
+    "start": 11.696,
+    "end": 12.004
+  },
+  {
+    "word": "better",
+    "start": 12.004,
+    "end": 12.466
+  },
+  {
+    "word": "for",
+    "start": 12.466,
+    "end": 12.697
+  },
+  {
+    "word": "personal",
+    "start": 12.697,
+    "end": 13.314
+  },
+  {
+    "word": "health",
+    "start": 13.314,
+    "end": 13.777
+  },
+  {
+    "word": "than",
+    "start": 13.777,
+    "end": 14.085
+  },
+  {
+    "word": "sitting",
+    "start": 14.085,
+    "end": 14.625
+  },
+  {
+    "word": "in",
+    "start": 14.625,
+    "end": 14.779
+  },
+  {
+    "word": "a",
+    "start": 14.779,
+    "end": 14.856
+  },
+  {
+    "word": "car.",
+    "start": 14.856,
+    "end": 15.088
+  },
+  {
+    "word": "However,",
+    "start": 15.138,
+    "end": 15.746
+  },
+  {
+    "word": "safety",
+    "start": 15.746,
+    "end": 16.267
+  },
+  {
+    "word": "remains",
+    "start": 16.267,
+    "end": 16.875
+  },
+  {
+    "word": "a",
+    "start": 16.875,
+    "end": 16.962
+  },
+  {
+    "word": "key",
+    "start": 16.962,
+    "end": 17.222
+  },
+  {
+    "word": "concern",
+    "start": 17.222,
+    "end": 17.83
+  },
+  {
+    "word": "for",
+    "start": 17.83,
+    "end": 18.09
+  },
+  {
+    "word": "many",
+    "start": 18.09,
+    "end": 18.437
+  },
+  {
+    "word": "potential",
+    "start": 18.437,
+    "end": 19.218
+  },
+  {
+    "word": "riders.",
+    "start": 19.218,
+    "end": 19.738
+  },
+  {
+    "word": "Better",
+    "start": 19.788,
+    "end": 20.23
+  },
+  {
+    "word": "infrastructure",
+    "start": 20.23,
+    "end": 21.262
+  },
+  {
+    "word": "is",
+    "start": 21.262,
+    "end": 21.409
+  },
+  {
+    "word": "needed",
+    "start": 21.409,
+    "end": 21.851
+  },
+  {
+    "word": "to",
+    "start": 21.851,
+    "end": 21.998
+  },
+  {
+    "word": "make",
+    "start": 21.998,
+    "end": 22.293
+  },
+  {
+    "word": "cycling",
+    "start": 22.293,
+    "end": 22.809
+  },
+  {
+    "word": "a",
+    "start": 22.809,
+    "end": 22.883
+  },
+  {
+    "word": "realistic",
+    "start": 22.883,
+    "end": 23.546
+  },
+  {
+    "word": "option",
+    "start": 23.546,
+    "end": 23.988
+  },
+  {
+    "word": "for",
+    "start": 23.988,
+    "end": 24.209
+  },
+  {
+    "word": "everyone.",
+    "start": 24.209,
+    "end": 24.8
+  }
+]

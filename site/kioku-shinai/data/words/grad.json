@@ -1,0 +1,1258 @@
+{
+  "root": "grad/gress",
+  "rootMeaning": "歩む・進む",
+  "rootLang": "ラテン語 gradi（歩む）/ gradus（一歩・段階）",
+  "imageSchema": "一歩一歩前に進む人のイメージ。階段を上り下りするように、方向と速度を変えながら「歩み」が続く。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "progress（進歩）は前に(pro)歩む(gress)こと。grade（成績）は学習の「段階」。grad/gress が見えたら「歩む・段階」と読み替えると、20語が一気につながる。"
+  },
+  "words": [
+    {
+      "word": "progress",
+      "phonetic": "/ˈprɑːɡres/(名詞) /prəˈɡres/(動詞)",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "pro", "meaning": "前へ", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "pro（前へ）+ gradi（歩む）= 前に歩み続ける → 進歩・前進",
+        "fact": "ラテン語 progressus「前進」から15世紀に英語へ。名詞は /ˈprɑːɡres/、動詞は /prəˈɡres/ とアクセントが変わる。TOEICでは in progress（進行中）、make progress（進歩する）が頻出。",
+        "source": "EtymOnline: progress",
+        "cognates": ["progression", "progressive", "regress"]
+      },
+      "cognitive": {
+        "oneliner": "前方への継続的な歩み = 改善・発展",
+        "fact": "JOURNEY metaphor（旅メタファー）の典型。progressは「目標という目的地に向かって歩む旅」として概念化される。make progress（進歩する）= 「旅の途中を進む」行為。stop progress（進歩を止める）= 旅を中断する。",
+        "source": "Lakoff & Johnson (1980) Metaphors We Live By"
+      },
+      "gap": "名詞progressは不可算名詞（a progressは誤り）。make great progress（大きな進歩をする）。動詞としてはproject is progressing（プロジェクトが進んでいる）のように使う。アクセントの違いに注意。",
+      "gapOneliner": "progress（名）= 不可算（a progressは誤り）/ progress（動）= 進行するアクセント変化あり",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pro（前へ）+ gress（歩む）= 前に歩む = 進歩。進歩状況はprogress report（進捗報告書）でTOEICに頻出。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "progressの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["前に歩む→進歩・前進", "前に作る→生産する", "前に書く→記録する", "前に置く→提案する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pro + gress の組み合わせが示す運動は？",
+          "explanationFocus": "cognitive",
+          "choices": ["前方への継続的な歩み", "後方への段階的な退行", "横方向への移動", "上方向への跳躍"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The construction is still in ___ and will be completed next month.\"",
+          "explanationFocus": "gap",
+          "choices": ["progress", "regress", "aggression", "grade"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "progressと最も自然に結びつく動詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["make progress（進歩する）", "do progress（進歩を行う）", "have progress（進歩を持つ）", "take progress（進歩を取る）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Negotiations are progressing slowly but steadily.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["交渉はゆっくりだが着実に進んでいる", "交渉は速く前進している", "交渉は後退している", "交渉は完全に止まっている"],
+          "correct": 0
+        }
+      ],
+      "examples": ["We're making steady progress on the new product launch.", "The patient is progressing well after surgery."]
+    },
+    {
+      "word": "grade",
+      "phonetic": "/ɡreɪd/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "grad", "meaning": "段階・一歩", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 gradus（一歩・段階）→ 段階で評価する → 成績・等級",
+        "fact": "16世紀に「段階」として英語に入り、19世紀アメリカで学校の「成績評価」の意味に発展。grade A（最高等級）、grading system（評価制度）はビジネスでも使われる。TOEICのビジネス文書でも頻出。",
+        "source": "EtymOnline: grade",
+        "cognates": ["gradient", "gradual", "degrade", "upgrade"]
+      },
+      "cognitive": {
+        "oneliner": "一歩ずつ区切られた「段階」 = 評価の尺度",
+        "fact": "SCALE metaphor：gradeは縦方向に段階が積み上がった「評価の階段」。A>B>C...という序列は、より高い段(grade)へ登る運動として理解される。gradeを上げる(improve one's grade)は階段を登るイメージ。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "gradeとrankの違い：gradeは絶対的評価尺度（A, B, Cなど）、rankは相対的な順位（1位, 2位など）。make the grade（基準を満たす、成功する）という慣用表現も重要。",
+      "gapOneliner": "grade = 絶対的評価段階（A/B/C）/ rank = 相対順位（1位/2位）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "grad（段階）がgradeに。成績は「段階(grad)」で評価するから。A・B・Cは段階の名前。make the grade（基準に達する）も同じ語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "gradeの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["段階・等級→成績・評価", "歩む行為→前進・進歩", "傾き・勾配→方向性", "列に並ぶ→順序・序列"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "\"make the grade\" という表現の語源的な意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["基準の段階に達する = 成功する", "成績を作る = 評価する", "等級を移動する = 転職する", "段階を作り出す = 発明する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The company uses a five-___ rating system for employee performance.\"",
+          "explanationFocus": "gap",
+          "choices": ["grade", "degree", "progress", "gradient"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "gradeと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["grade A（最高等級の）", "grade forward（前に等級する）", "grade beyond（等級を超えた）", "grade between（等級の間）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Not all applicants will make the grade in the final round.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["最終選考でその基準を満たす応募者は全員ではないだろう", "最終ラウンドでは全員が同じ成績になる", "応募者は最終評価に進めなかった", "成績を作ることが最終目標だ"],
+          "correct": 0
+        }
+      ],
+      "examples": ["She consistently earns top grades in all her subjects.", "This is a grade A product with zero defects."]
+    },
+    {
+      "word": "graduate",
+      "phonetic": "/ˈɡrædʒueɪt/(動詞) /ˈɡrædʒuɪt/(名詞)",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "grad", "meaning": "段階", "type": "root"},
+        {"part": "uate", "meaning": "〜の状態にする", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "gradus（段階）+ uate（〜の状態にする）= 段階（学位）を得た状態にする → 卒業する",
+        "fact": "中世ラテン語 graduari「学位を与える」から。学位(degree)は段階(gradus)の概念から来ており、学位授与式（graduation ceremony）は文字通り「段階を登る」儀式。",
+        "source": "EtymOnline: graduate",
+        "cognates": ["graduation", "undergraduate", "postgraduate"]
+      },
+      "cognitive": {
+        "oneliner": "学びの段階を完全に登り切った状態 = 卒業",
+        "fact": "JOURNEY UP metaphor：教育は「段階的な上昇」として概念化される。graduate（卒業する）は「階段の頂上に達する」瞬間。post-graduate（大学院）は「その先の新たな階段」。",
+        "source": "Lakoff & Johnson (1999)"
+      },
+      "gap": "動詞と名詞でアクセットが変わる：動詞 /ˈɡrædʒueɪt/（〜から卒業する）、名詞・形容詞 /ˈɡrædʒuɪt/（卒業生・大学院の）。graduate from（〜を卒業する）vs graduate school（大学院）の使い分けも重要。",
+      "gapOneliner": "graduate（動）= 〜から卒業する / graduate（名）= 卒業生・大学院レベルの",
+      "hook": {
+        "label": "記憶フック",
+        "text": "grad（段階）+ uate（〜する）= 「段階を達成する」= 卒業。大学のgraduation ceremony（卒業式）で学位(degree=段階)を手に入れる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "graduateの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["段階（学位）を達成した状態→卒業する", "段階的に前進する→進歩する", "段階を下る→退化する", "段階を作る→評価する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "graduate school（大学院）にgradが含まれる理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["さらに上の段階(grade)の教育機関だから", "卒業生(graduate)が教える学校だから", "学位(graduate)を授与する場所だから", "成績(grade)が特に重要な機関だから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"She plans to ___ from medical school next spring.\"",
+          "explanationFocus": "gap",
+          "choices": ["graduate", "regress", "degrade", "progress"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "graduateと最も自然に結びつく前置詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["graduate from（〜を卒業する）", "graduate to（〜を卒業する）", "graduate by（〜によって卒業する）", "graduate on（〜の上で卒業する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Recent graduates are struggling to find jobs in this market.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["最近の卒業生はこの市場で仕事を見つけるのに苦労している", "大学院生が最近卒業した市場に参入している", "卒業生は市場での進歩に苦労している", "最近の成績優秀者が市場で活躍している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["He graduated with honors from the university.", "The program is designed for graduate students."]
+    },
+    {
+      "word": "aggressive",
+      "phonetic": "/əˈɡresɪv/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "ag", "meaning": "〜へ向かって", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"},
+        {"part": "ive", "meaning": "〜の性質", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ag（〜へ）+ gradi（歩む）= 相手に向かって歩む性質 → 攻撃的な・積極的な",
+        "fact": "ラテン語 aggressus「攻撃した」から17世紀に英語へ。軍事・政治用語から発展。ビジネスでは「aggressive sales strategy（積極的な販売戦略）」のように肯定的意味でも使われる。",
+        "source": "EtymOnline: aggressive",
+        "cognates": ["aggression", "aggressor", "nonaggressive"]
+      },
+      "cognitive": {
+        "oneliner": "「相手に向かって歩む」→ 対立的接近 → 攻撃性/積極性",
+        "fact": "FORCE動態スキーマ：aggressiveは「外部に向けて力を発する」傾向。軍事的には「脅威」だが、ビジネスでは「競争力の高さ」と解釈される。同じ語源的意味が文脈で価値判断を変える。",
+        "source": "Talmy (2000) Toward a Cognitive Semantics"
+      },
+      "gap": "aggressiveはネガティブ（攻撃的）とポジティブ（積極的）の両方に使える。an aggressive driver（危険な運転手）vs an aggressive marketer（積極的なマーケター）。文脈判断が重要。",
+      "gapOneliner": "aggressive = 攻撃的（悪）にも積極的（良）にも使える。文脈で判断",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ag（〜へ）+ gress（歩む）+ ive（性質）= 「相手に向かって歩む」性質。戦場では攻撃的、ビジネスでは積極的。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "aggressiveの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["相手に向かって歩む性質→攻撃的・積極的", "後ろに歩む性質→消極的・後退的", "横に歩む性質→平行的・均等な", "上に歩む性質→優越的・高慢な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ビジネスで\"aggressive\"がポジティブな意味になる理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["「相手に向かう」積極性が競争力として評価されるから", "「後退する」性質が慎重さとして評価されるから", "「均等に歩む」性質が公平さとして評価されるから", "「上に歩む」性質が出世欲として評価されるから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The company launched an ___ marketing campaign to capture new markets.\"",
+          "explanationFocus": "gap",
+          "choices": ["aggressive", "regressive", "progressive", "digressive"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "aggressiveと最も自然に結びつく名詞（ビジネス文脈）は？",
+          "explanationFocus": "etymology",
+          "choices": ["aggressive expansion（積極的な拡大）", "aggressive relaxation（攻撃的なリラックス）", "aggressive sleeping（積極的な睡眠）", "aggressive reading（攻撃的な読書）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The firm adopted an aggressive pricing strategy to undercut rivals.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["会社はライバルを下回る積極的な価格戦略を採用した", "会社は攻撃的に値段を上げてライバルを圧倒した", "会社はライバルに価格を決めてもらった", "会社の価格は競合より段階的に高かった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The startup took an aggressive approach to acquiring customers.", "His aggressive behavior in meetings upset his colleagues."]
+    },
+    {
+      "word": "digress",
+      "phonetic": "/daɪˈɡres/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "di", "meaning": "離れて・別の方向へ", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "di（離れて）+ gradi（歩む）= 本道から離れた方向に歩む → 話が脱線する",
+        "fact": "ラテン語 digressus「逸れた」から16世紀に英語へ。話・文章が主題から外れることを表す。digressionという名詞形もよく使われる。学術論文・スピーチ・会議での「脱線」に使う語。",
+        "source": "EtymOnline: digress",
+        "cognates": ["digression", "regress", "progress"]
+      },
+      "cognitive": {
+        "oneliner": "話という「旅路」が脇道に入る = 脱線する",
+        "fact": "JOURNEY metaphor：会話・議論は「道(path)を歩む旅」として概念化される。digressは主題という「本道」から分岐(di-)した脇道に入ること。get back on track（軌道に戻る）という表現がその対処法。",
+        "source": "Lakoff & Johnson (1980) Metaphors We Live By"
+      },
+      "gap": "digressは話の「脱線」だが、「少し脱線するが」という断りを入れて使うことが多い。if I may digress for a moment（少し話が逸れますが）という表現で丁重に脱線を告知できる。",
+      "gapOneliner": "digress = 話が脱線する（if I may digress = 少し話が逸れますが）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "di（離れて）+ gress（歩む）= 「本筋から離れて歩む」= 脱線。プレゼンで話が逸れた時はdigressingと気づいたら戻れる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "digressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["話が脱線する・本題から逸れる", "話が進歩する・前に進む", "話が後退する・遡る", "話が攻撃的になる"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "di + gress の組み合わせが示す運動は？",
+          "explanationFocus": "cognitive",
+          "choices": ["本道から離れた方向への歩み", "前方に向かう直線的な歩み", "後方に戻る歩み", "上方向への歩み"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"I'd like to ___ briefly to discuss a related but important point.\"",
+          "explanationFocus": "gap",
+          "choices": ["digress", "progress", "regress", "aggress"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "digressと最も自然に結びつく表現は？",
+          "explanationFocus": "etymology",
+          "choices": ["digress from the topic（話題から脱線する）", "digress to success（成功へ逸れる）", "digress beyond limits（限界を超えて逸れる）", "digress the meeting（会議を脱線させる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"If I may digress for a moment, this reminds me of a similar case.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["少し話が逸れますが、これは似たケースを思い出させます", "進み続けますが、このケースは似ています", "話を戻しますが、このケースに戻ります", "積極的に言いますが、このケースが重要です"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Let me not digress further from the main point.", "He has a tendency to digress when speaking publicly."]
+    },
+    {
+      "word": "regress",
+      "phonetic": "/rɪˈɡres/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "re", "meaning": "後ろへ・戻る", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ gradi（歩む）= 後ろに歩み戻る → 後退する・退化する",
+        "fact": "ラテン語 regressus「後退」から15世紀に英語へ。progressの反対概念。心理学では「退行（幼児的行動に戻る）」、統計学では「回帰分析（regression analysis）」として専門的に使われる。",
+        "source": "EtymOnline: regress",
+        "cognates": ["regression", "regressive", "progress"]
+      },
+      "cognitive": {
+        "oneliner": "進歩という旅路を逆向きに歩む = 退化・後退",
+        "fact": "BACKWARD JOURNEY metaphor：regressはprogressの方向を反転させたもの。発達心理学の「退行(regression)」は、ストレス時に子ども時代の行動に「戻る(re-)歩み(gress)」として理解される。",
+        "source": "Freud (1900) The Interpretation of Dreams; JOURNEY metaphor"
+      },
+      "gap": "regressとretreatの違い：regressは発展・進歩の反転（退化・退行）、retreatは意図的な撤退（軍事・瞑想リトリートなど）。regressはネガティブな含意が強い。",
+      "gapOneliner": "regress = 退化・退行（進歩の反転）/ retreat = 意図的撤退（必ずしも否定的でない）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（後ろへ）+ gress（歩む）= 後ろに歩む = 退化。progressの反対がregress。regression analysis（回帰分析）も「過去のデータに戻る」イメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["後退する・退化する", "前に進む・進歩する", "話が逸れる・脱線する", "段階を上がる・昇進する"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + gress の組み合わせが示す運動は？",
+          "explanationFocus": "cognitive",
+          "choices": ["進歩という旅を逆向きに歩む", "前方に向かい続ける歩み", "横方向への逸れた歩み", "急速に上昇する歩み"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Without continued investment, standards will ___ to previous levels.\"",
+          "explanationFocus": "gap",
+          "choices": ["regress", "progress", "digress", "transgress"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "regression（名詞形）と最も自然に結びつく語は？",
+          "explanationFocus": "etymology",
+          "choices": ["regression analysis（回帰分析）", "regression progress（退化の前進）", "regression grade（退化の成績）", "regression forward（前方退化）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The patient began to regress after the medication was changed.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["薬を変えてから患者は状態が後退し始めた", "薬の変更で患者は大きく前進した", "患者は薬を変えることに積極的だった", "薬の変更により患者の退行分析が始まった"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The country's economy has regressed to pre-reform levels.", "Children sometimes regress to earlier behaviors under stress."]
+    },
+    {
+      "word": "ingredient",
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "in", "meaning": "中に", "type": "prefix"},
+        {"part": "gredi", "meaning": "歩む", "type": "root"},
+        {"part": "ent", "meaning": "〜するもの", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "in（中に）+ gredi（歩む）= 中に歩み入るもの → （料理・混合物に）入っている材料",
+        "fact": "ラテン語 ingrediens「中に歩み入るもの」から15世紀英語へ。元々は「混合物に入っているもの」全般を指したが、現代では主に「料理の材料」または「成功の要素」として使われる。",
+        "source": "EtymOnline: ingredient",
+        "cognates": ["ingress", "progress", "transgress"]
+      },
+      "cognitive": {
+        "oneliner": "「中に歩み入る」もの = 混合物を作る構成要素",
+        "fact": "PART-WHOLE スキーマ：ingredientは「全体（料理・混合物・成功）の中に入り込む(in+gress)」部分。the ingredients of success（成功の要素）のように抽象的な「構成要素」にも使われる。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "ingredientはrecipe（レシピ）の材料だけでなく、「成功・幸福・問題の構成要素」にも使える。key ingredient（重要な要素）はビジネス・マネジメントでも頻出表現。",
+      "gapOneliner": "ingredient = 料理の材料 + 何かを構成する要素（key ingredient of success = 成功の重要要素）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（中へ）+ gredi（歩む）+ ent（もの）= 「中に歩み入るもの」= 材料。料理のingredientも、成功のingredient（要素）も「中に入って全体を作るもの」。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "ingredientの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["中に歩み入るもの→材料・要素", "前に歩み出るもの→産物・結果", "後ろに戻るもの→残留物・廃材", "上に積み上がるもの→完成品・製品"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "\"ingredient of success\" で ingredientを使う理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["成功という「全体」に「入り込む」要素だから", "成功のために「前進する」もの全般だから", "成功の「段階」を表す尺度だから", "成功から「離れた」周辺要素だから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The ___ list on the label shows what's inside the product.\"",
+          "explanationFocus": "gap",
+          "choices": ["ingredient", "gradient", "progress", "grade"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "ingredientと最も自然に結びつく形容詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["key ingredient（重要な要素）", "progressive ingredient（進歩的な材料）", "regressive ingredient（退化的な材料）", "aggressive ingredient（攻撃的な材料）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Trust is a key ingredient in any successful business relationship.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["信頼はどんなビジネス関係の成功にも重要な要素だ", "信頼は材料の中で最も重要な物質だ", "ビジネス関係の材料は信頼できる業者から買う", "信頼できる材料がビジネス成功の条件だ"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Check the ingredient list for any allergens.", "Hard work and creativity are the key ingredients of innovation."]
+    },
+    {
+      "word": "gradual",
+      "phonetic": "/ˈɡrædʒuəl/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "grad", "meaning": "段階・一歩", "type": "root"},
+        {"part": "ual", "meaning": "〜の性質を持つ", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "gradus（段階・一歩）+ ual（性質）= 一歩一歩の性質 → 段階的な・緩やかな",
+        "fact": "中世ラテン語 gradualis「一歩ずつの」から16世紀英語へ。\"gradual change（段階的変化）\"のように、急激でなく少しずつ変化することを表す形容詞。副詞形gradually（徐々に）も重要。",
+        "source": "EtymOnline: gradual",
+        "cognates": ["gradually", "grade", "gradient", "graduate"]
+      },
+      "cognitive": {
+        "oneliner": "一歩一歩を刻む性質 = ゆっくりとした段階的変化",
+        "fact": "SCALE metaphor：gradualは「変化量の測定値が小さい段階で積み上がる」という意味。gradual improvement（段階的改善）は「階段を一段一段上がる」イメージ。sudden（突然）の対義語として重要。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "gradualとslowの違い：slowは「速度が遅い」、gradualは「変化が段階的に少しずつ起こる」。gradual decline（段階的衰退）は徐々に悪化すること。graduallyを使った副詞句でよく登場。",
+      "gapOneliner": "gradual = 段階的な（一歩ずつの変化）/ slow = ただ遅い（速度のみ）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "grad（段階）+ ual（性質）= 「段階的な」性質。gradual improvement（段階的改善）は毎日少しずつ進歩するイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "gradualの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["段階的な・徐々の", "急激な・突然の", "攻撃的な・積極的な", "後退的な・退行的な"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "grad（段階）+ ual（性質）が示す変化の様子は？",
+          "explanationFocus": "cognitive",
+          "choices": ["一段一段上がる階段のような変化", "一気に跳び上がる変化", "逆方向に進む変化", "横に広がる変化"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"There has been a ___ improvement in air quality over the past decade.\"",
+          "explanationFocus": "gap",
+          "choices": ["gradual", "sudden", "aggressive", "regressive"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "gradualと最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["gradual increase（段階的増加）", "gradual explosion（段階的爆発）", "gradual stop（段階的停止）", "gradual creation（段階的創造）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The team made gradual but consistent gains throughout the season.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["チームはシーズンを通じて段階的だが一貫した向上を見せた", "チームは突然大きな成果を出した", "チームは段階的に後退し一貫性を失った", "チームは攻撃的な戦略で急成長した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["A gradual increase in temperature was recorded.", "Her recovery was gradual but steady."]
+    },
+    {
+      "word": "degrade",
+      "phonetic": "/dɪˈɡreɪd/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "de", "meaning": "下へ・降格", "type": "prefix"},
+        {"part": "grade", "meaning": "段階・等級", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ grade（等級）= 等級を下げる → 品位を傷つける・品質を劣化させる",
+        "fact": "14世紀のラテン語 degradare「位を下げる」から。もともとは「聖職者や兵士を降格させる」意味だった。現代では「環境の劣化(environmental degradation)」「人の尊厳を傷つける」にも広く使われる。",
+        "source": "EtymOnline: degrade",
+        "cognates": ["degradation", "downgrade", "upgrade", "grade"]
+      },
+      "cognitive": {
+        "oneliner": "等級という階段を下方向に動かす = 劣化・品位傷つけ",
+        "fact": "VERTICAL SCALE metaphor：gradeは縦の評価軸。degrade（下へ+等級）はその軸を下降させる力。物理的劣化（材料がdegradeする）と社会的降格（人をdegradeする）に同じ語源的構造が使われる。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "degrade には2つの意味がある：①品質・材料が「劣化する」（This plastic degrades in sunlight.）②人の尊厳を「傷つける」（Don't degrade your employees.）。文脈で使い分ける。",
+      "gapOneliner": "degrade = ①材料が劣化する ②人の品位・尊厳を傷つける（どちらも「等級を下げる」）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de（下へ）+ grade（等級）= 等級を「下げる」。材料のdegradation（劣化）も、人をdegradeする（侮辱する）も「品質・品位が下がる」同じイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "degradeの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["等級を下げる→劣化させる・品位を傷つける", "等級を上げる→改善する・昇格させる", "等級を評価する→査定する", "等級を戻す→元に戻す"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + grade の組み合わせが示す運動は？",
+          "explanationFocus": "cognitive",
+          "choices": ["等級という縦軸を下降させる", "等級という縦軸を上昇させる", "等級を横移動させる", "等級を削除する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Ultraviolet light will ___ the quality of the plastic over time.\"",
+          "explanationFocus": "gap",
+          "choices": ["degrade", "upgrade", "grade", "aggress"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "degradeと最も自然に結びつく目的語（物質）は？",
+          "explanationFocus": "etymology",
+          "choices": ["degrade the environment（環境を悪化させる）", "degrade the progress（進歩を下げる）", "degrade the income（収入を下げる）", "degrade the meeting（会議を下げる）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Such working conditions degrade employees' dignity.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["そのような労働条件は従業員の尊厳を傷つける", "そのような労働条件は従業員の等級を上げる", "その条件は従業員の品質評価を改善する", "従業員はそのような条件で格上げされる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Exposure to sunlight will gradually degrade the material.", "No manager should degrade employees in public."]
+    },
+    {
+      "word": "upgrade",
+      "phonetic": "/ˈʌpɡreɪd/(名詞) /ʌpˈɡreɪd/(動詞)",
+      "toeicRank": "TSL-2 ビジネス頻出",
+      "parts": [
+        {"part": "up", "meaning": "上へ", "type": "prefix"},
+        {"part": "grade", "meaning": "等級・段階", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "up（上へ）+ grade（等級）= 等級を上げる → アップグレード・昇格",
+        "fact": "19世紀アメリカ英語。もともとは「上り坂(uphill grade)」の意味だったが、20世紀に「品質・等級の向上」に転用。IT時代にはソフトウェア・ハードウェアのアップグレードとして広く使われる。TOEICでも超頻出。",
+        "source": "EtymOnline: upgrade",
+        "cognates": ["downgrade", "degrade", "grade"]
+      },
+      "cognitive": {
+        "oneliner": "等級の縦軸を上に移動させる = 改善・昇格",
+        "fact": "VERTICAL SCALE metaphor：upgradeはdegradeの反対。等級という「縦の尺度」を上に動かす力。IT文脈では「性能スケール」、航空会社では「シートのグレード」、職場では「スキル・職位」と様々な「縦軸」に適用される。",
+        "source": "Johnson (1987) The Body in the Mind"
+      },
+      "gap": "upgrade はIT（ソフト・ハードの更新）、交通（座席のアップグレード）、スキル（能力向上）など多分野で使う。upgrade skills（スキルを向上させる）はTOEICに頻出。名詞と動詞でアクセントが変わる。",
+      "gapOneliner": "upgrade = 等級・品質・機能を上げる（IT/航空/スキル全般で使える万能語）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "up（上へ）+ grade（等級）= 等級を「上げる」= アップグレード。パソコンのupgrade（性能向上）も、飛行機のseat upgrade（座席格上げ）も同じ語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "upgradeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["等級・品質を上げる→アップグレード", "等級・品質を下げる→ダウングレード", "等級を評価する→査定する", "等級を維持する→現状維持"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "up + grade の組み合わせが示す動きは？",
+          "explanationFocus": "cognitive",
+          "choices": ["等級という縦軸を上昇させる", "等級という縦軸を下降させる", "等級を横移動させる", "等級を完全に削除する"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The airline offered us a free ___ to business class.\"",
+          "explanationFocus": "gap",
+          "choices": ["upgrade", "downgrade", "degrade", "grade"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "upgradeと最も自然に結びつく目的語は？",
+          "explanationFocus": "etymology",
+          "choices": ["upgrade your skills（スキルを向上させる）", "upgrade your feelings（感情を格上げする）", "upgrade your sleep（睡眠を昇格させる）", "upgrade your history（歴史を改善する）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Employees are encouraged to upgrade their digital skills continuously.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["従業員はデジタルスキルを継続的に向上させることが奨励されている", "従業員はデジタルツールのアップグレードを禁じられている", "デジタルスキルを持つ従業員が段階的に昇格する", "従業員のスキル評価が段階的に下げられる"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The company decided to upgrade all workstations to the latest model.", "She has been continuously upgrading her qualifications."]
+    },
+    {
+      "word": "aggression",
+      "phonetic": "/əˈɡreʃən/",
+      "toeicRank": "TSL-2 600-900位",
+      "parts": [
+        {"part": "ag", "meaning": "〜へ向かって", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"},
+        {"part": "ion", "meaning": "行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "ag（〜へ向かって）+ gradi（歩む）+ ion（行為）= 相手に向かって歩む行為 → 攻撃・侵略",
+        "fact": "ラテン語 aggressio「攻撃」から17世紀英語へ。心理学では「攻撃性」の研究対象として重要な概念。国際法では「武力侵略行為」を指す。aggressiveの名詞形。",
+        "source": "EtymOnline: aggression",
+        "cognates": ["aggressive", "aggressor", "nonaggression"]
+      },
+      "cognitive": {
+        "oneliner": "相手に向かって歩む行為そのもの = 攻撃・侵略",
+        "fact": "FORCE スキーマ：aggressionは「外部に向けて力を発する行為」。displaced aggression（転移攻撃）のように、心理学では「攻撃エネルギーが別の対象に向かう」現象としても研究される。",
+        "source": "Bandura (1977) Social Learning Theory"
+      },
+      "gap": "aggressionは「攻撃行為・行動」（名詞）、aggressiveは「攻撃的・積極的」（形容詞）。military aggression（軍事侵略）vs territorial aggression（縄張り争い）など、文脈で使い分ける。",
+      "gapOneliner": "aggression = 攻撃行為（名詞）/ aggressive = 攻撃的（形容詞）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ag（向かって）+ gress（歩む）+ ion（行為）= 「相手に向かって歩む行為」= 攻撃。aggressiveが性質なら、aggressionはその行為そのもの。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "aggressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["攻撃行為・侵略", "進歩・前進", "退却行為・後退", "段階的変化"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ag + gress + ion の組み合わせが示すのは？",
+          "explanationFocus": "cognitive",
+          "choices": ["相手に向かって歩む行為そのもの", "前方に進む継続的行動", "段階的に変化する行為", "後方に退く行動"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The international community condemned the military ___ against the small nation.\"",
+          "explanationFocus": "gap",
+          "choices": ["aggression", "progression", "regression", "digression"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "aggressionと最も自然に結びつく形容詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["unprovoked aggression（挑発なしの攻撃）", "gradual aggression（段階的な攻撃）", "regressive aggression（退化的な攻撃）", "credible aggression（信頼できる攻撃）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The psychologist studied how children express aggression in play.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["心理学者は子どもが遊びの中でどのように攻撃性を表現するかを研究した", "心理学者は子どもが進歩するための遊びを研究した", "心理学者は攻撃的な遊びを段階的に減らす方法を研究した", "子どもの遊びにおける退化行動を研究した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The coach warned players against unnecessary aggression on the field.", "Acts of aggression will not be tolerated in this workplace."]
+    },
+    {
+      "word": "congress",
+      "phonetic": "/ˈkɑːŋɡres/",
+      "toeicRank": "TSL外・NGSL上位",
+      "parts": [
+        {"part": "con", "meaning": "共に", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "con（共に）+ gradi（歩む）= 共に歩み集まる → 会議・議会",
+        "fact": "ラテン語 congressus「会合」から15世紀英語へ。元々は「集会」全般を指したが、アメリカ英語では「合衆国議会」を指す固有名詞として発展。小文字で「(医学・学術)学会」の意味でも使う。",
+        "source": "EtymOnline: congress",
+        "cognates": ["progress", "regress", "congressional"]
+      },
+      "cognitive": {
+        "oneliner": "共に歩み寄る = 人々が一堂に会する場",
+        "fact": "GATHERING スキーマ：congressは「複数の人が中心点に向かって歩み寄る」動作の名詞化。決定を下すには「共に歩み来る(con+gress)」必要があるという政治的知恵が語源に反映されている。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "Congress（大文字）= アメリカ連邦議会 / congress（小文字）= 国際学会・会議。medical congress（医学会）のように小文字でも使う。日本語の「議会」はCongressだけでなくParliamentも使う（英国はParliament）。",
+      "gapOneliner": "Congress（大）= 米国議会 / congress（小）= 国際学会・会議",
+      "hook": {
+        "label": "記憶フック",
+        "text": "con（共に）+ gress（歩む）= 「共に歩み集まる」= 会議・議会。アメリカのCongressは国民の代表が「共に歩み集まる」場所。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "congressの語源的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["共に歩み集まる→会議・議会", "前に歩む→進歩・発展", "後ろに歩む→後退・退場", "離れて歩む→分裂・解散"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + gress の組み合わせが示す行為は？",
+          "explanationFocus": "cognitive",
+          "choices": ["人々が共に一点に集まる歩み", "一人が前方に進む歩み", "人々が後方に散らばる歩み", "単独で別方向に進む歩み"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The ___ passed the new healthcare bill by a wide margin.\"",
+          "explanationFocus": "gap",
+          "choices": ["Congress", "Progress", "Aggression", "Regression"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "congress（小文字）と最も自然に結びつく名詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["medical congress（医学会）", "aggressive congress（攻撃的会議）", "gradual congress（段階的会議）", "regressive congress（後退的議会）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The international congress on climate change attracted 5,000 delegates.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["気候変動に関する国際会議に5,000人の代表が集まった", "気候変動対策の議会が5,000人の前進を命じた", "5,000人が気候変動について段階的に後退した", "議会は気候変動で5,000人の攻撃行為を議論した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The bill was presented to Congress for approval.", "She presented her research at an international congress."]
+    },
+    {
+      "word": "transgress",
+      "phonetic": "/trænzˈɡres/",
+      "toeicRank": "TSL外・語彙強化語",
+      "parts": [
+        {"part": "trans", "meaning": "横切って・超えて", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "trans（超えて）+ gradi（歩む）= 境界線を超えて歩む → （規則・道徳を）犯す",
+        "fact": "ラテン語 transgressus「越境」から15世紀英語へ。宗教・法律・道徳の「禁じられた境界線を越える」行為を表す。transgression（違反・罪）は宗教的文脈で「sin」に近い重みを持つ。",
+        "source": "EtymOnline: transgress",
+        "cognates": ["transgression", "transgressor", "trespass"]
+      },
+      "cognitive": {
+        "oneliner": "「超えてはいけない線」を超えて歩む = 違反・罪",
+        "fact": "BOUNDARY スキーマ：transgress は「社会・道徳・法律の境界線(trans-)を歩んで越える」行為。許可されたゾーンの外に踏み出す動作として概念化。犯罪だけでなく、芸術・哲学での「規範逸脱」にも使う。",
+        "source": "Lakoff & Johnson (1999) Philosophy in the Flesh"
+      },
+      "gap": "transgressは「道徳・法律・社会規範の侵犯」に使う文語的語。日常では break the rules / violate が自然。transgression（名詞）は宗教・哲学でも重要で、「罪・逸脱行為」を指す。",
+      "gapOneliner": "transgress = 規範・道徳・法律の境界を越える（文語的・宗教・哲学でも使う）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "trans（越えて）+ gress（歩む）= 「越えて歩む」= 境界線を犯す。don't transgress the rules（規則を犯してはいけない）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "transgressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["（規則・道徳を）犯す・越える", "段階的に前進する", "共に歩んで集まる", "後退して退く"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "trans + gress の組み合わせが示す行為は？",
+          "explanationFocus": "cognitive",
+          "choices": ["許可されたゾーンの境界線を歩いて越える", "境界線を段階的に引き上げる", "境界線に共に集まる", "境界線を後ろに押し下げる"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"Anyone who ___ the company's code of conduct will face disciplinary action.\"",
+          "explanationFocus": "gap",
+          "choices": ["transgresses", "progresses", "regresses", "digresses"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "transgress（またはtransgression）と最も自然に結びつく目的語は？",
+          "explanationFocus": "etymology",
+          "choices": ["transgress the law（法律を犯す）", "transgress the goal（目標を越える）", "transgress the grade（等級を犯す）", "transgress the congress（議会を犯す）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The artist's work deliberately transgresses the boundaries of acceptable taste.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["そのアーティストの作品は許容されたセンスの境界を意図的に越える", "そのアーティストは徐々に規則に従うようになった", "アーティストは共に集まって規範を作った", "その作品は段階的に品質が向上している"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Those who transgress the code of ethics will be expelled.", "The novel transgresses social norms to challenge the reader."]
+    },
+    {
+      "word": "progression",
+      "phonetic": "/prəˈɡreʃən/",
+      "toeicRank": "TSL-2 700-1000位",
+      "parts": [
+        {"part": "pro", "meaning": "前へ", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"},
+        {"part": "ion", "meaning": "行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "progress（前進）+ ion（行為・状態）= 前進する行為・過程 → 進行・推移",
+        "fact": "ラテン語 progressioから14世紀英語へ。progressが「前進している状態」なら、progressionは「前進していく過程・推移・連続」。音楽では「和音進行(chord progression)」、医学では「病気の進行(disease progression)」として使われる。",
+        "source": "EtymOnline: progression",
+        "cognates": ["progress", "progressive", "regression"]
+      },
+      "cognitive": {
+        "oneliner": "前に歩む連続した過程 = 段階的推移",
+        "fact": "SEQUENCE metaphor：progressionは「一歩ずつ連なる歩みの集合体」。音楽のchord progression（コード進行）は「音が段階的に移り変わっていく連鎖」として直感的に理解できる語源的比喩。",
+        "source": "Lakoff & Johnson (1980) Metaphors We Live By"
+      },
+      "gap": "progressとprogressionの違い：progressは「状態」（We are making progress.）、progressionは「過程・連続」（a logical progression of ideas = アイデアの論理的な流れ）。数学では「等差数列(arithmetic progression)」にも使う。",
+      "gapOneliner": "progress = 前進している状態 / progression = 前進していく連続過程",
+      "hook": {
+        "label": "記憶フック",
+        "text": "progress（前進）+ ion（行為）= 「前進する行為の流れ」= 推移・進行。chord progression（コード進行）で覚えると音楽的に直感的。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "progressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["前進の過程・段階的推移", "前進している状態・進歩", "後退する行為・退行", "段階的な性質・緩やかさ"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "progressとprogressionの違いは？",
+          "explanationFocus": "cognitive",
+          "choices": ["progressは状態、progressionは連続過程", "progressは個人的、progressionは集団的", "progressはポジティブ、progressionはネガティブ", "どちらも同じで使い分けは不要"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The disease showed rapid ___ within three months of diagnosis.\"",
+          "explanationFocus": "gap",
+          "choices": ["progression", "regression", "aggression", "digression"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "progressionと最も自然に結びつく語は？",
+          "explanationFocus": "etymology",
+          "choices": ["career progression（キャリアの進行）", "regressive progression（退化的前進）", "aggressive progression（攻撃的前進）", "credible progression（信頼できる前進）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The film traces the progression from chaos to order.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["その映画は混沌から秩序への推移を描いている", "その映画は前進する混沌を描いている", "映画は秩序から混沌への後退を追う", "映画は段階的な混沌を攻撃的に描く"],
+          "correct": 0
+        }
+      ],
+      "examples": ["Her career progression has been remarkable over the past five years.", "The doctor monitored the progression of the illness."]
+    },
+    {
+      "word": "gradient",
+      "phonetic": "/ˈɡreɪdiənt/",
+      "toeicRank": "TSL外・理工系語",
+      "parts": [
+        {"part": "grad", "meaning": "段階・一歩", "type": "root"},
+        {"part": "ient", "meaning": "〜しながら進むもの", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "gradus（一歩・段階）+ ient（進むもの）= 段階的に変化するもの → 勾配・傾き",
+        "fact": "19世紀ラテン語 gradientem「歩んでいる」の現在分詞から。「一歩ずつ変化する割合」が原義。数学・物理では「変化の傾き」、地形では「坂の傾斜」、デザインでは「グラデーション」として使われる。",
+        "source": "EtymOnline: gradient",
+        "cognates": ["grade", "gradual", "graduate"]
+      },
+      "cognitive": {
+        "oneliner": "「一歩ずつ変化しながら進む」 = 傾き・グラデーション",
+        "fact": "INCLINE スキーマ：gradientは縦の変化量を水平距離で割った「歩み(grad)の傾き」。temperature gradient（温度勾配）= 一歩進むごとに温度が変化する割合。デザインのcolor gradient（グラデーション）も同じ語源的概念。",
+        "source": "Physics and mathematics; Design terminology"
+      },
+      "gap": "gradientとslopeの違い：slopeは「傾斜・坂」という一般語、gradientはより技術的・数値的な「変化率・勾配」。数学では「微分・偏微分の方向と大きさ」を示す専門語としても重要。",
+      "gapOneliner": "gradient = 変化の傾き・勾配（slopeより技術的・数値的）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "grad（段階）+ ient（進むもの）= 「段階的に変化するもの」= 勾配。色のグラデーション(gradient)も、坂の傾き(gradient)も「一歩ずつ変化する」同じ概念。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "gradientの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["勾配・傾き・変化率", "進歩・前進", "段階的な性質", "等級・成績"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "gradientとgradualはどちらも「grad（段階）」から来ているが、違いは？",
+          "explanationFocus": "cognitive",
+          "choices": ["gradientは変化の「量・率」、gradualは変化の「性質・様子」", "gradientは前進、gradualは後退", "gradientは攻撃的、gradualは穏やか", "どちらも全く同じ意味"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The steep ___ made cycling up the hill very challenging.\"",
+          "explanationFocus": "gap",
+          "choices": ["gradient", "transgression", "progression", "aggression"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "gradientと最も自然に結びつく形容詞は？",
+          "explanationFocus": "etymology",
+          "choices": ["steep gradient（急勾配）", "aggressive gradient（攻撃的な傾き）", "credible gradient（信頼できる勾配）", "incredible gradient（驚くべき成績）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The color gradient shifts smoothly from blue to green.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["色のグラデーションは青から緑へ滑らかに変化する", "色が段階的に後退して青くなる", "緑から青へ急激に変化する色合い", "青と緑が均等に混ざっている"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The road has a steep gradient at this point.", "The design uses a blue-to-white gradient in the background."]
+    },
+    {
+      "word": "ingress",
+      "phonetic": "/ˈɪŋɡres/",
+      "toeicRank": "TSL外・法律・技術語",
+      "parts": [
+        {"part": "in", "meaning": "中に入る", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "in（中へ）+ gradi（歩む）= 中に歩み入ること → 入場・入る権利",
+        "fact": "ラテン語 ingressus「入ること」から16世紀英語へ。法律・不動産では「立ち入り権(right of ingress)」として重要。対義語はegress（出る権利）。現代の建築基準・消防法では「egress（非常口・避難経路）」とセットで登場する。",
+        "source": "EtymOnline: ingress",
+        "cognates": ["egress", "ingredient", "progress"]
+      },
+      "cognitive": {
+        "oneliner": "「中に歩み入る」という行為 = 入場・進入",
+        "fact": "PATH スキーマ：ingressはソース（外側）からゴール（内側）への移動。建築・法律では「人が安全に入る経路」という具体的な移動として概念化。ingress（入場）とegress（退場）は「建物」というCONTAINERの出入り口。",
+        "source": "Johnson (1987) The Body in the Mind; Architectural terminology"
+      },
+      "gap": "ingressとegressは法律・建築の専門語ペア。ingress = 入る権利・入場 / egress = 出る権利・出口。消防法では「egress（避難経路）」の確保が義務。日常では enterとexitを使うのが普通。",
+      "gapOneliner": "ingress = 入場・進入権（法律・建築用語）/ egress = 退場・避難経路（消防法で重要）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（中へ）+ gress（歩む）= 「中に歩み入る」= 入場。ingredientも「in + gress = 中に入るもの」で同じ語源。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "ingressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["入場・進入（する権利）", "退場・脱出（する権利）", "前進・進歩", "段階的変化"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ingressとingredientsは語源的にどうつながる？",
+          "explanationFocus": "cognitive",
+          "choices": ["どちらも「中に(in)歩み入る(gress)もの」", "どちらも「前に(pro)歩む」もの", "ingressは入る、ingredientsは後退する", "ingress=入る行為、ingredients=入る命令"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The tenant has the right of ___ and egress at all hours.\"",
+          "explanationFocus": "gap",
+          "choices": ["ingress", "aggress", "digress", "progress"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "ingressと最も自然に結びつく法律用語は？",
+          "explanationFocus": "etymology",
+          "choices": ["right of ingress（立ち入り権）", "aggressive ingress（攻撃的入場）", "gradual ingress（段階的入場）", "incredible ingress（驚くべき入場）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The building code requires separate points of ingress and egress.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["建築基準は入口と出口を分けることを要求している", "建築基準は段階的な入場のみを許可している", "建物への入場と前進は別の問題だ", "建築法は攻撃的な入場を禁じている"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The lease grants the tenant rights of ingress and egress.", "The security system monitors all points of ingress."]
+    },
+    {
+      "word": "egress",
+      "phonetic": "/ˈiːɡres/",
+      "toeicRank": "TSL外・法律・建築語",
+      "parts": [
+        {"part": "e", "meaning": "外へ", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"}
+      ],
+      "etymology": {
+        "oneliner": "e（外へ）+ gradi（歩む）= 外に歩み出ること → 退場・避難経路",
+        "fact": "ラテン語 egressus「外に出ること」から16世紀英語へ。建築・消防法では emergency egress（緊急避難経路）として最重要語。アメリカの建築基準（IBC）では egress の確保が厳格に定められている。",
+        "source": "EtymOnline: egress",
+        "cognates": ["ingress", "progress", "regress"]
+      },
+      "cognitive": {
+        "oneliner": "CONTAINERから外へ歩み出る = 脱出・退場",
+        "fact": "PATH スキーマ逆方向：egressはingressの反対。建物（CONTAINER）から外（GOAL）への移動。火災時に「egress route（避難経路）」が封鎖されると命に関わる。身体の安全保障に直結する語として建築基準で厳密に定義される。",
+        "source": "International Building Code (IBC); Johnson (1987)"
+      },
+      "gap": "egressはingressとペアで使う専門語。日常では exit/escape/way out を使うのが普通。ただし消防・建築・法律の文書では egress が必須語。means of egress（避難手段）はTOEIC公式問題でも登場する。",
+      "gapOneliner": "egress = 退出・避難経路（消防・建築法で必須語）/ 日常はexit/escapeを使う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "e（外へ）+ gress（歩む）= 「外に歩み出る」= 退場・避難。ingressが入口なら、egressは出口。非常口の英語標識はexit（日常）またはegress（法令）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "egressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["退場・出る権利・避難経路", "入場・入る権利", "前進・進歩", "攻撃・侵略"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "e + gress の組み合わせが示す動きは？",
+          "explanationFocus": "cognitive",
+          "choices": ["建物の外へ歩み出る動き", "建物の中に歩み入る動き", "建物の中で前進する動き", "建物の段階を上がる動き"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"All emergency ___ routes must be clearly marked and unobstructed.\"",
+          "explanationFocus": "gap",
+          "choices": ["egress", "ingress", "progress", "transgress"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "egressと最も自然に結びつく法律・建築語は？",
+          "explanationFocus": "etymology",
+          "choices": ["means of egress（避難手段）", "gradual egress（段階的退場）", "aggressive egress（攻撃的退場）", "incredible egress（驚くべき退場）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The fire inspector confirmed all egress points were accessible.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["消防検査官はすべての避難出口が通行可能であることを確認した", "消防検査官は入口がすべて安全であることを確認した", "検査官は段階的な避難計画を確認した", "消防官は攻撃的な避難訓練を実施した"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The fire exit serves as the primary egress from the building.", "Blocked egress routes are a serious safety violation."]
+    },
+    {
+      "word": "regression",
+      "phonetic": "/rɪˈɡreʃən/",
+      "toeicRank": "TSL外・統計・心理学語",
+      "parts": [
+        {"part": "re", "meaning": "後ろへ", "type": "prefix"},
+        {"part": "gress", "meaning": "歩む", "type": "root"},
+        {"part": "ion", "meaning": "行為・状態", "type": "suffix"}
+      ],
+      "etymology": {
+        "oneliner": "regress（後退する）+ ion（行為）= 後退する行為・状態 → 退行・回帰",
+        "fact": "17世紀英語。心理学では「幼児的行動への退行」、統計学では「regression analysis（回帰分析）」= データの傾向線に「戻る(re-)」分析手法として使われる。IT分野では「regression testing（リグレッションテスト）」として重要。",
+        "source": "EtymOnline: regression",
+        "cognates": ["regress", "regressive", "progression"]
+      },
+      "cognitive": {
+        "oneliner": "前進という旅を逆向きに歩んだ結果の状態",
+        "fact": "BACKWARD JOURNEY + STATISTICS metaphor：統計の「回帰分析」は「変数関係のパターンに戻る(re-gress)」分析。心理学の「退行(regression)」はFreudが命名し、ストレスで「過去の段階(grad)に戻る(re-)」現象。",
+        "source": "Galton (1889) Natural Inheritance; Freud (1900)"
+      },
+      "gap": "regressionには3つの主要な意味がある：①（価値・状態の）後退・退化、②（心理学）退行、③（統計）回帰分析。特に統計・データサイエンスでは regression model（回帰モデル）が必須語。",
+      "gapOneliner": "regression = ①後退 ②心理的退行 ③統計の回帰分析（文脈で意味が変わる）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（後ろへ）+ gress（歩む）+ ion（行為）= 「後ろに歩んだ状態」。regression testing（回帰テスト）はソフト開発で新機能追加後に「前の状態（バグなし）に戻れているか」を確認するテスト。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "regressionの主な意味は？",
+          "explanationFocus": "etymology",
+          "choices": ["退化・後退・回帰（分析）", "前進・進歩・発展", "横への逸脱・脱線", "段階的上昇・昇格"],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "統計の「回帰分析(regression analysis)」にgress（歩む）が含まれる理由は？",
+          "explanationFocus": "cognitive",
+          "choices": ["変数関係のパターンに「戻る(re-)」分析だから", "データが前に「進む(pro-)」分析だから", "段階(grad)を攻撃的に分析するから", "データが横に「逸れる(di-)」パターンを分析するから"],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "\"The data scientist built a ___ model to predict sales figures.\"",
+          "explanationFocus": "gap",
+          "choices": ["regression", "progression", "digression", "aggression"],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "regressionと最も自然に結びつく語（IT・統計）は？",
+          "explanationFocus": "etymology",
+          "choices": ["regression testing（回帰テスト）", "aggressive regression（攻撃的後退）", "gradual regression（段階的前進）", "credible regression（信頼できる後退）"],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Regression testing is essential after any major software update.\" の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": ["大規模なソフトウェア更新後には回帰テストが不可欠だ", "ソフトウェアの後退を防ぐために積極的に更新する", "段階的なテストが更新前に必要だ", "更新後に前進テストを実施する必要がある"],
+          "correct": 0
+        }
+      ],
+      "examples": ["The regression analysis revealed a strong correlation between the variables.", "Regression testing ensures updates don't break existing features."]
+    }
+  ]
+}

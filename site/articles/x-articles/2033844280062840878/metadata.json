@@ -1,0 +1,26 @@
+{
+  "id": "2033844280062840878",
+  "likes": 33,
+  "topic": "TOEIC600点の壁と処理速度",
+  "theme": "TOEIC600点の壁を突破する処理速度トレーニング。音読と速音読の科学。",
+  "native_real_link": "/（ListenUp）",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "description": "TOEICスコア帯別・必要なスキルの積み上げ図（600点の壁を可視化）"
+    },
+    {
+      "file": "figure_2.svg",
+      "description": "音読→速音読→シャドーイングの処理速度向上プログラム（3段階ステップ）"
+    }
+  ],
+  "article": "article.md",
+  "fact_check": "fact_check.md",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "canvas_size": "1200x675"
+}

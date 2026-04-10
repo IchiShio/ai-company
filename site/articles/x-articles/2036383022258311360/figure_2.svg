@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg3)" />
+  <rect x="0" y="0" width="1200" height="4" fill="#1DA1F2" />
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF">関与負荷を高める単語学習ステップ</text>
+  <text x="600" y="85" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">1単語 3〜5分の深い処理が長期記憶を作る</text>
+
+  <!-- Step boxes - vertical flow with connecting arrows -->
+
+  <!-- Step 1 -->
+  <rect x="400" y="115" width="400" height="88" rx="14" fill="#0a1929" stroke="#657786" stroke-width="1.5" />
+  <circle cx="430" cy="159" r="18" fill="#2a3a4a" />
+  <text x="430" y="164" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#AAB8C2">1</text>
+  <text x="620" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">単語帳で単語に出会う</text>
+  <text x="620" y="173" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">まずは意味を確認（浅い処理）</text>
+  <rect x="730" y="128" width="55" height="22" rx="6" fill="#1a2a3a" />
+  <text x="757" y="143" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">Need: 低</text>
+
+  <!-- Arrow -->
+  <line x1="600" y1="203" x2="600" y2="238" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arr)" />
+
+  <!-- Step 2 -->
+  <rect x="400" y="240" width="400" height="88" rx="14" fill="#0a1929" stroke="#1DA1F2" stroke-width="1.5" />
+  <circle cx="430" cy="284" r="18" fill="#0e3a5c" />
+  <text x="430" y="289" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">2</text>
+  <text x="620" y="273" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">辞書で語義・用例を調べる</text>
+  <text x="620" y="298" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">Search を発動させる（処理が深まる）</text>
+  <rect x="718" y="253" width="68" height="22" rx="6" fill="#0a1f35" />
+  <text x="752" y="268" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">Search: 高</text>
+
+  <!-- Arrow -->
+  <line x1="600" y1="328" x2="600" y2="363" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arr)" />
+
+  <!-- Step 3 -->
+  <rect x="400" y="365" width="400" height="88" rx="14" fill="#0a1929" stroke="#1DA1F2" stroke-width="2" />
+  <circle cx="430" cy="409" r="18" fill="#0e3a5c" />
+  <text x="430" y="414" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#1DA1F2">3</text>
+  <text x="620" y="398" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">既知語・経験と関連づける</text>
+  <text x="620" y="423" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">Evaluation を発動（意味ネットワーク構築）</text>
+  <rect x="706" y="378" width="80" height="22" rx="6" fill="#0a1f35" />
+  <text x="746" y="393" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2">Evaluation: 高</text>
+
+  <!-- Arrow -->
+  <line x1="600" y1="453" x2="600" y2="488" stroke="#17BF63" stroke-width="2.5" marker-end="url(#arr)" />
+
+  <!-- Step 4: 作文 (Highlight) -->
+  <rect x="350" y="490" width="500" height="100" rx="14" fill="#0d2a1a" stroke="#17BF63" stroke-width="2.5" />
+  <circle cx="390" cy="540" r="22" fill="#0d5c36" />
+  <text x="390" y="546" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#17BF63">4</text>
+  <text x="620" y="525" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold" fill="#17BF63">自分の状況で例文を1文作る</text>
+  <text x="620" y="553" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">Need + Search + Evaluation = 最大関与負荷</text>
+  <text x="620" y="576" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#17BF63">★ これが最も記憶に定着するタスク</text>
+
+  <!-- Right side: comparison panel -->
+  <rect x="870" y="115" width="270" height="230" rx="12" fill="#0d1e10" stroke="#17BF63" stroke-width="1" />
+  <text x="1005" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#17BF63">量 vs 深さ</text>
+  <line x1="890" y1="158" x2="1120" y2="158" stroke="#17BF63" stroke-width="0.5" />
+  <text x="1005" y="183" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">50単語を眺める</text>
+  <text x="1005" y="205" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">定着率 ≈ 20% → 10語</text>
+  <line x1="890" y1="218" x2="1120" y2="218" stroke="#2a3a2a" stroke-width="0.5" />
+  <text x="1005" y="244" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">5単語を深く処理</text>
+  <text x="1005" y="266" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#17BF63">定着率 ≈ 90% → 4.5語</text>
+  <line x1="890" y1="278" x2="1120" y2="278" stroke="#2a3a2a" stroke-width="0.5" />
+  <text x="1005" y="305" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#17BF63">→ 効率は同等、定着は段違い</text>
+
+  <!-- Left side: what NOT to do -->
+  <rect x="60" y="115" width="270" height="230" rx="12" fill="#1a0a0a" stroke="#E0245E" stroke-width="1" />
+  <text x="195" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#E0245E">やりがちなNG習慣</text>
+  <line x1="80" y1="158" x2="310" y2="158" stroke="#E0245E" stroke-width="0.5" />
+  <text x="95" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">❌ 単語帳を眺めるだけ</text>
+  <text x="95" y="215" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">❌ 読んで「わかった」で終わり</text>
+  <text x="95" y="245" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">❌ 翻訳だけで使わない</text>
+  <text x="95" y="275" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#AAB8C2">❌ 1度見て「覚えた」</text>
+  <text x="95" y="305" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#E0245E">→ すべて処理が浅い</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2a3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2f3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#162536;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="#1DA1F2" opacity="0.15"/>
+  <text x="600" y="30" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="bold">3秒英語実況フレーズ集</text>
+  <text x="600" y="60" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" fill="#FFFFFF" text-anchor="middle" font-weight="bold">日常シーン別 10の実況フレーズ</text>
+
+  <!-- Cards Row 1 -->
+  <!-- Card 1 -->
+  <rect x="30" y="100" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="60" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🚦</text>
+  <text x="100" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">信号待ち</text>
+  <text x="60" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">"I'm waiting."</text>
+  <text x="60" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">待っている</text>
+  <rect x="30" y="198" width="210" height="3" rx="2" fill="#1DA1F2" opacity="0.5"/>
+
+  <!-- Card 2 -->
+  <rect x="258" y="100" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="288" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">☕</text>
+  <text x="328" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">コーヒーを飲む</text>
+  <text x="288" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">"This is good."</text>
+  <text x="288" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">これはおいしい</text>
+  <rect x="258" y="198" width="210" height="3" rx="2" fill="#1DA1F2" opacity="0.5"/>
+
+  <!-- Card 3 -->
+  <rect x="486" y="100" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="516" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🚶</text>
+  <text x="556" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">通勤・歩く</text>
+  <text x="516" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">"I'm walking."</text>
+  <text x="516" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">歩いている</text>
+  <rect x="486" y="198" width="210" height="3" rx="2" fill="#1DA1F2" opacity="0.5"/>
+
+  <!-- Card 4 -->
+  <rect x="714" y="100" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="744" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🍱</text>
+  <text x="784" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">昼ごはん</text>
+  <text x="744" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">"I'm hungry."</text>
+  <text x="744" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">お腹が空いた</text>
+  <rect x="714" y="198" width="210" height="3" rx="2" fill="#1DA1F2" opacity="0.5"/>
+
+  <!-- Card 5 -->
+  <rect x="942" y="100" width="228" height="110" rx="12" fill="url(#cardGrad)" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="972" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">💤</text>
+  <text x="1012" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">眠い</text>
+  <text x="972" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#1DA1F2" font-weight="bold">"I'm so sleepy."</text>
+  <text x="972" y="182" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">すごく眠い</text>
+  <rect x="942" y="198" width="228" height="3" rx="2" fill="#1DA1F2" opacity="0.5"/>
+
+  <!-- Cards Row 2 -->
+  <!-- Card 6 -->
+  <rect x="30" y="240" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#657786" stroke-width="1.5"/>
+  <text x="60" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🖥️</text>
+  <text x="100" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">仕事中</text>
+  <text x="60" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">"I'm so busy."</text>
+  <text x="60" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">すごく忙しい</text>
+
+  <!-- Card 7 -->
+  <rect x="258" y="240" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#657786" stroke-width="1.5"/>
+  <text x="288" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🌧️</text>
+  <text x="328" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">天気を見る</text>
+  <text x="288" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">"It's raining."</text>
+  <text x="288" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">雨が降っている</text>
+
+  <!-- Card 8 -->
+  <rect x="486" y="240" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#657786" stroke-width="1.5"/>
+  <text x="516" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">📱</text>
+  <text x="556" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">スマホを見る</text>
+  <text x="516" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">"Let me check."</text>
+  <text x="516" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">確認しよう</text>
+
+  <!-- Card 9 -->
+  <rect x="714" y="240" width="210" height="110" rx="12" fill="url(#cardGrad)" stroke="#657786" stroke-width="1.5"/>
+  <text x="744" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🛁</text>
+  <text x="784" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">入浴</text>
+  <text x="744" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">"So relaxing."</text>
+  <text x="744" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">すごくリラックス</text>
+
+  <!-- Card 10 -->
+  <rect x="942" y="240" width="228" height="110" rx="12" fill="url(#cardGrad)" stroke="#657786" stroke-width="1.5"/>
+  <text x="972" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28">🌙</text>
+  <text x="1012" y="270" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">就寝前</text>
+  <text x="972" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#1DA1F2" font-weight="bold">"I'm done today."</text>
+  <text x="972" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6">今日は終わり</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="380" x2="1170" y2="380" stroke="#1DA1F2" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Bottom Tips -->
+  <text x="600" y="420" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3秒実況のコツ</text>
+
+  <rect x="100" y="440" width="300" height="80" rx="10" fill="#1DA1F2" opacity="0.1" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="250" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="bold">シンプルに始める</text>
+  <text x="250" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">I am / This is / It is</text>
+  <text x="250" y="508" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">の3パターンで始めよう</text>
+
+  <rect x="450" y="440" width="300" height="80" rx="10" fill="#1DA1F2" opacity="0.1" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="600" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="bold">声に出す</text>
+  <text x="600" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">頭の中だけでなく</text>
+  <text x="600" y="508" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">小声でもOK</text>
+
+  <rect x="800" y="440" width="300" height="80" rx="10" fill="#1DA1F2" opacity="0.1" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="950" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="bold">毎日続ける</text>
+  <text x="950" y="490" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">1日10回でも</text>
+  <text x="950" y="508" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8899a6" text-anchor="middle">30日で300回の積み重ね</text>
+
+  <!-- Bottom banner -->
+  <rect x="0" y="590" width="1200" height="85" fill="#14171A"/>
+  <text x="600" y="628" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#1DA1F2" text-anchor="middle" font-weight="bold">英語脳への入り口は「今この瞬間」の実況から</text>
+  <text x="600" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">native-real.com でリスニング練習も始めよう</text>
+  <text x="1170" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

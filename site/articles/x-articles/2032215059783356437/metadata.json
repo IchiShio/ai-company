@@ -1,0 +1,20 @@
+{
+  "id": "2032215059783356437",
+  "likes": 39,
+  "theme": "リスニング力の正体は「予測力」。聴力ではなく文脈予測で聞き取りを改善する。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "聴力モデル vs 予測モデルのリスニング処理比較図"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "予測力を上げる「既知英文リスニング」トレーニング法"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "created_at": "2026-03-30",
+  "account": "@ichi_eigo"
+}

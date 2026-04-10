@@ -1,0 +1,77 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">習慣スタッキングの仕組み</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="14">既存習慣に英語をくっつける</text>
+
+  <!-- Main flow: 既存習慣 → スタック → 英語習慣 -->
+  <!-- 既存習慣ボックス -->
+  <rect x="80" y="140" width="280" height="120" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="3"/>
+  <text x="220" y="183" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">既存習慣</text>
+  <text x="220" y="210" text-anchor="middle" fill="#657786" font-size="15">毎日すでにやっていること</text>
+  <text x="220" y="235" text-anchor="middle" fill="#14171A" font-size="15">歯磨き・朝コーヒー・通勤...</text>
+
+  <!-- Arrow -->
+  <line x1="360" y1="200" x2="430" y2="200" stroke="#1DA1F2" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+  <text x="395" y="190" text-anchor="middle" fill="#657786" font-size="12">くっつける</text>
+
+  <!-- スタックボックス -->
+  <rect x="430" y="120" width="340" height="160" rx="16" fill="#1DA1F2" stroke="#0d8ecf" stroke-width="2"/>
+  <text x="600" y="165" text-anchor="middle" fill="#FFFFFF" font-size="20" font-weight="bold">習慣スタッキング</text>
+  <text x="600" y="193" text-anchor="middle" fill="#FFFFFF" font-size="14">「〇〇をしたら → 英語を聞く」</text>
+  <text x="600" y="218" text-anchor="middle" fill="#E8F5FD" font-size="13">既存の習慣をトリガーにする</text>
+  <text x="600" y="243" text-anchor="middle" fill="#E8F5FD" font-size="13">意志力は一切不要</text>
+  <text x="600" y="265" text-anchor="middle" fill="#E8F5FD" font-size="12">（Fogg行動モデル・BJ Fogg）</text>
+
+  <!-- Arrow -->
+  <line x1="770" y1="200" x2="840" y2="200" stroke="#1DA1F2" stroke-width="4" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+  <text x="805" y="190" text-anchor="middle" fill="#657786" font-size="12">自動実行</text>
+
+  <!-- 英語習慣ボックス -->
+  <rect x="840" y="140" width="280" height="120" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="3"/>
+  <text x="980" y="183" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">英語習慣</text>
+  <text x="980" y="210" text-anchor="middle" fill="#657786" font-size="15">努力感ゼロで継続</text>
+  <text x="980" y="235" text-anchor="middle" fill="#14171A" font-size="15">毎日 3〜10分×365日</text>
+
+  <!-- 下部：フォーミュラ -->
+  <rect x="80" y="310" width="1040" height="70" rx="12" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="600" y="345" text-anchor="middle" fill="#14171A" font-size="17" font-weight="bold">スタック公式：</text>
+  <text x="600" y="368" text-anchor="middle" fill="#1DA1F2" font-size="17">「〔既存の習慣〕をしたら、〔英語の習慣〕をする」</text>
+
+  <!-- 意志力 vs 習慣スタッキング比較 -->
+  <rect x="80" y="410" width="490" height="200" rx="14" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <rect x="80" y="410" width="490" height="42" rx="14" fill="#FF6B6B"/>
+  <rect x="80" y="440" width="490" height="12" rx="0" fill="#FF6B6B"/>
+  <text x="325" y="437" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">意志力に頼る方法（失敗しやすい）</text>
+  <text x="325" y="477" text-anchor="middle" fill="#14171A" font-size="14">「今日から毎日英語をやろう！」</text>
+  <text x="325" y="502" text-anchor="middle" fill="#657786" font-size="13">→ 疲れた日・忙しい日に途切れる</text>
+  <text x="325" y="527" text-anchor="middle" fill="#657786" font-size="13">→ サボると罪悪感でさらに遠ざかる</text>
+  <text x="325" y="552" text-anchor="middle" fill="#657786" font-size="13">→ 平均 66日で習慣崩壊（研究値）</text>
+  <text x="325" y="580" text-anchor="middle" fill="#657786" font-size="13">→ モチベーション変動に左右される</text>
+
+  <rect x="630" y="410" width="490" height="200" rx="14" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1.5"/>
+  <rect x="630" y="410" width="490" height="42" rx="14" fill="#17BF63"/>
+  <rect x="630" y="440" width="490" height="12" rx="0" fill="#17BF63"/>
+  <text x="875" y="437" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="bold">習慣スタッキング（続く）</text>
+  <text x="875" y="477" text-anchor="middle" fill="#14171A" font-size="14">「歯磨きのあとにアプリを開く」</text>
+  <text x="875" y="502" text-anchor="middle" fill="#657786" font-size="13">→ 既存習慣がリマインダー代わり</text>
+  <text x="875" y="527" text-anchor="middle" fill="#657786" font-size="13">→ 疲れていても歯磨きはする</text>
+  <text x="875" y="552" text-anchor="middle" fill="#657786" font-size="13">→ モチベーション不要・自動実行</text>
+  <text x="875" y="580" text-anchor="middle" fill="#657786" font-size="13">→ やらないことが「気持ち悪い」状態に</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

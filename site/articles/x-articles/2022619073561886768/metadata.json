@@ -1,0 +1,23 @@
+{
+  "tweet_id": "2022619073561886768",
+  "like_count": 204,
+  "created_at": "2026-03-30",
+  "theme": "単語記憶を3倍にする間隔反復の科学。1日50個暗記より「5日間10個」が勝つ理由。",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "記憶定着率の比較グラフ",
+      "description": "詰め込み学習 vs 間隔反復の1ヶ月後定着率（忘却曲線ベース）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "最適復習スケジュール",
+      "description": "1日後、3日後、7日後、14日後、30日後のタイムライン"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS（グラフ数値は推定値として注記済み）",
+  "native_real_link": "/",
+  "word_count": 478,
+  "tags": ["間隔反復", "単語暗記", "記憶科学", "SRS", "忘却曲線", "英語学習"]
+}

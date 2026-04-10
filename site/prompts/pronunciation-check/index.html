@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>英語表現・言い回しをチェックするプロンプト | 英語学習AIプロンプト集</title>
+  <meta name="description" content="ChatGPT・Claudeで英語表現が自然かどうかチェックするプロンプト。ネイティブ度・フォーマル度・類似表現まで一気に調べられます。">
+  <link rel="canonical" href="https://native-real.com/prompts/pronunciation-check/">
+  <meta property="og:title" content="英語表現・言い回しをチェックするプロンプト | 英語学習AIプロンプト集">
+  <meta property="og:description" content="自分の英語表現が自然かどうか確認。ネイティブ度・フォーマル度・類似表現まで一気に調べられます。">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta property="og:url" content="https://native-real.com/prompts/pronunciation-check/">
+  <meta property="og:site_name" content="native-real">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://native-real.com/assets/ogp.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "英語表現・言い回しをチェックするプロンプト",
+    "description": "自分の英語表現が自然かどうか確認。ネイティブ度・フォーマル度・類似表現まで一気に調べられます。",
+    "url": "https://native-real.com/prompts/pronunciation-check/",
+    "publisher": { "@type": "Organization", "name": "native-real" }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    /* ── UNIFIED HEADER ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(248,246,241,0.92); backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid #E8E4DC; padding: 10px 0;
+      transition: padding 0.3s ease, box-shadow 0.3s ease;
+    }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(26,26,26,0.08); }
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+    .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
+    .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
+    .site-header-nav { display: flex; align-items: center; gap: 2px; }
+    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
+    .site-header-nav > a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .site-header-nav > a.active { color: #F5A623; font-weight: 700; }
+    .site-header-nav > a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 16px; height: 2px; border-radius: 1px; background: #F5A623; }
+    /* Dropdown */
+    .nav-dd { position: relative; }
+    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
+    .nav-dd-trigger:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-trigger.active { color: #F5A623; font-weight: 700; }
+    .dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+    .nav-dd:hover .dd-chevron, .nav-dd.open .dd-chevron { transform: rotate(180deg); }
+    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #FDFCF9; border-radius: 12px; border: 1px solid #E8E4DC; box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04); padding: 6px; margin-top: 4px; z-index: 310; }
+    .nav-dd:hover .nav-dd-menu, .nav-dd.open .nav-dd-menu { display: block; }
+    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.62); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+    .nav-dd-menu a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-menu a.active { color: #F5A623; font-weight: 700; }
+    /* Hamburger */
+    .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: rgba(26,26,26,0.88); margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .site-hamburger.active span:nth-child(2) { opacity: 0; }
+    .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    /* Mobile nav */
+    .site-mobile-nav { display: flex; visibility: hidden; pointer-events: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s, visibility 0.3s; }
+    .site-mobile-nav.active { visibility: visible; pointer-events: auto; opacity: 1; }
+    .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
+    .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .site-mobile-nav a.active { color: #F5A623; }
+    .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
+    @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+    .mobile-nav-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #fff; cursor: pointer; width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .mobile-nav-close:hover { background: rgba(255,255,255,0.2); }
+    /* ── END UNIFIED HEADER ── */
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 768px) {   }
+
+:root {
+  --primary: #2563eb; --primary-light: #3b82f6; --primary-dark: #1d4ed8; --primary-pale: #eff6ff;
+  --accent: #10b981; --accent-dark: #059669; --accent-pale: #ecfdf5;
+  --purple: #7c3aed; --purple-pale: #f5f3ff; --purple-dark: #5b21b6;
+  --text: #111827; --text-muted: #6b7280; --bg: #F8F6F1; --bg-gray: #F2EFE9;
+  --border: #e5e7eb; --shadow: 0 1px 3px rgba(26,26,26,0.06); --shadow-md: 0 4px 16px rgba(26,26,26,0.08);
+  --radius: 10px; --radius-lg: 14px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: "Inter","Noto Sans JP",-apple-system,sans-serif; font-size: 16px; line-height: 1.85; color: var(--text); background: var(--bg); letter-spacing: 0.01em; }
+a { color: var(--primary); } a:hover { color: var(--primary-light); }
+.container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
+
+.site-header .logo span { color: var(--primary); }
+
+
+.breadcrumb { padding: 14px 0; font-size: 0.8rem; color: var(--text-muted); }
+.breadcrumb a { color: var(--text-muted); text-decoration: none; } .breadcrumb a:hover { color: var(--primary); }
+.breadcrumb span { margin: 0 6px; }
+.page-hero { background: linear-gradient(135deg, #3b0764 0%, #4c1d95 40%, #6d28d9 100%); color: white; padding: 48px 0 40px; }
+.page-hero .container { max-width: 800px; }
+.page-hero-tag { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); padding: 4px 12px; border-radius: 999px; font-size: 0.72rem; font-weight: 700; margin-bottom: 16px; letter-spacing: 0.05em; text-transform: uppercase; }
+.page-hero h1 { font-size: clamp(1.4rem, 3.5vw, 1.9rem); font-weight: 800; line-height: 1.3; margin-bottom: 12px; }
+.page-hero p { font-size: 0.95rem; color: rgba(255,255,255,0.85); line-height: 1.7; }
+.content-body { padding: 40px 0 64px; }
+.section-label { display: flex; align-items: center; gap: 10px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--purple); margin-bottom: 12px; }
+.section-label::before { content: ''; display: block; width: 3px; height: 16px; background: var(--purple); border-radius: 2px; }
+h2.section-title { font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; }
+.prompt-block { background: #1e1b4b; border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 32px; }
+.prompt-block-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; background: rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.08); }
+.prompt-block-header span { font-size: 0.78rem; color: rgba(255,255,255,0.5); font-family: monospace; }
+.copy-btn { background: var(--purple); color: white; border: none; border-radius: 6px; padding: 6px 16px; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: background 0.15s; font-family: inherit; }
+.copy-btn:hover { background: var(--purple-dark); } .copy-btn.copied { background: var(--accent-dark); }
+.prompt-text { padding: 24px 20px; font-size: 0.88rem; line-height: 1.9; color: rgba(255,255,255,0.9); white-space: pre-wrap; font-family: "Noto Sans JP", sans-serif; }
+.steps-list { list-style: none; display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; }
+.step-item { display: flex; gap: 16px; align-items: flex-start; }
+.step-num { width: 32px; height: 32px; background: var(--purple); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+.step-content h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 4px; }
+.step-content p { font-size: 0.875rem; color: var(--text-muted); }
+.chat-example { background: var(--bg-gray); border: 1.5px solid var(--border); border-radius: var(--radius-lg); padding: 24px; margin-bottom: 32px; }
+.chat-example h3 { font-size: 0.85rem; font-weight: 700; color: var(--text-muted); margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.06em; }
+.chat-msg { margin-bottom: 14px; } .chat-msg:last-child { margin-bottom: 0; }
+.chat-role { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+.chat-role.user { color: var(--purple); } .chat-role.ai { color: var(--primary); }
+.chat-bubble { font-size: 0.875rem; line-height: 1.75; background: #FDFCF9; border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; }
+.chat-bubble.ai-bubble { background: var(--primary-pale); border-color: #bfdbfe; }
+.related-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.related-card { background: var(--bg-gray); border: 1.5px solid var(--border); border-radius: var(--radius); padding: 16px 20px; text-decoration: none; color: inherit; transition: border-color 0.15s, box-shadow 0.15s; display: flex; align-items: center; gap: 12px; }
+.related-card:hover { border-color: var(--primary-light); box-shadow: var(--shadow); color: inherit; }
+.related-card .icon { font-size: 1.4rem; } .related-card .title { font-size: 0.88rem; font-weight: 700; } .related-card .cat { font-size: 0.72rem; color: var(--text-muted); }
+.tip-box { background: var(--purple-pale); border: 1.5px solid #ddd6fe; border-radius: var(--radius); padding: 16px 20px; margin-bottom: 24px; font-size: 0.875rem; line-height: 1.75; }
+.tip-box strong { color: var(--purple-dark); }
+.site-footer { background: #0f172a; color: rgba(255,255,255,0.65); padding: 48px 0 24px; font-size: 0.88rem; }
+.site-footer .container { max-width: 1100px; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; margin-bottom: 32px; }
+.site-footer h4 { color: rgba(255,255,255,0.9); font-size: 0.95rem; margin-bottom: 14px; }
+.site-footer ul { list-style: none; } .site-footer li { margin-bottom: 9px; }
+.site-footer a { color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.2s; } .site-footer a:hover { color: #93c5fd; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 0.78rem; color: rgba(255,255,255,0.4); }
+.footer-owner { margin-top: 16px; display: flex; align-items: center; gap: 10px; }
+.footer-owner-label { font-size: 0.78rem; color: rgba(255,255,255,0.4); }
+.footer-owner a { color: rgba(255,255,255,0.85); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+.footer-owner a:hover { color: #93c5fd; } .footer-owner svg { width: 15px; height: 15px; fill: currentColor; }
+@media (max-width: 768px) {   .related-grid { grid-template-columns: 1fr; } .footer-grid { grid-template-columns: 1fr; } }
+  
+/* FAQ */
+.faq-section { padding: 48px 0; }
+.faq-list { display: flex; flex-direction: column; gap: 8px; max-width: 720px; }
+.faq-item { border: 1.5px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.faq-q { display: flex; align-items: center; gap: 12px; padding: 16px 20px; font-size: 0.95rem; font-weight: 700; cursor: pointer; list-style: none; }
+.faq-q::-webkit-details-marker { display: none; }
+.faq-q::before { content: 'Q'; font-size: 0.75rem; font-weight: 800; color: white; background: var(--primary); border-radius: 4px; padding: 2px 7px; flex-shrink: 0; }
+.faq-a { padding: 0 20px 16px 20px; font-size: 0.875rem; line-height: 1.8; color: var(--text-muted); }
+details[open] .faq-q { border-bottom: 1px solid var(--border); }
+</style>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header class="site-header" id="siteHeader">
+  <div class="site-header-inner">
+    <a href="/" class="site-header-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>native-real</a>
+    <nav class="site-header-nav">
+      <a href="/listening/">ListenUp</a>
+      <div class="nav-dd">
+        <button class="nav-dd-trigger" type="button">学ぶ<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+        <div class="nav-dd-menu">
+          <a href="/grammar/">文法クイズ</a>
+          <a href="/words/">WordsUp</a>
+          <a href="/kioku-shinai/">記憶しない英単語</a>
+        </div>
+      </div>
+      <div class="nav-dd">
+        <button class="nav-dd-trigger active" type="button">読む<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+        <div class="nav-dd-menu">
+          <a href="/articles/">学習コラム</a>
+          <a href="/real-phrases/">フレーズ集</a>
+          <a href="/prompts/" class="active">AIプロンプト</a>
+        </div>
+      </div>
+      <a href="/ranking/">英会話スクール</a>
+    </nav>
+    <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="site-mobile-nav" id="siteMobileNav">
+  <button class="mobile-nav-close" id="siteMobileNavClose" aria-label="メニューを閉じる">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/listening/">ListenUp</a>
+  <div class="mobile-nav-label">学ぶ</div>
+          <a href="/grammar/">文法クイズ</a>
+  <a href="/words/">WordsUp</a>
+  <a href="/kioku-shinai/">記憶しない英単語</a>
+  <div class="mobile-nav-label">読む</div>
+  <a href="/articles/">学習コラム</a>
+  <a href="/real-phrases/">フレーズ集</a>
+  <a href="/prompts/" class="active">AIプロンプト</a>
+  <div class="mobile-nav-label"></div>
+  <a href="/ranking/">英会話スクール</a>
+</div>
+
+<div class="breadcrumb">
+  <div class="container" style="max-width:800px;">
+    <a href="/">ホーム</a><span>›</span><a href="/prompts/">AIプロンプト</a>
+      <a href="/about/">About</a><span>›</span>英語表現チェック
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-tag">🗣️ 表現力</div>
+    <h1>英語表現・言い回しをチェックするプロンプト</h1>
+    <p>「この英語、ネイティブには通じる？」を即確認。<br>フォーマル度・類似表現・使われる文脈まで一気に調べられます。</p>
+  </div>
+</section>
+
+<div class="content-body">
+  <div class="container">
+
+    <div class="section-label">プロンプト</div>
+    <div class="prompt-block">
+      <div class="prompt-block-header">
+        <span>pronunciation-check.txt</span>
+        <button class="copy-btn" id="copyBtn" onclick="copyPrompt()">コピーする</button>
+      </div>
+      <pre class="prompt-text" id="promptText">以下の英語表現が自然かどうかチェックしてください。
+
+【チェックしたい表現】
+{ここに英語表現を入力してください}
+
+使用シーン：{ビジネス / 日常会話 / 旅行 / その他}
+
+確認してほしいこと：
+1. この表現はネイティブに通じますか？
+   （◎とても自然 / ○通じる / △やや不自然 / ×NGまたは意味が違う）
+2. より自然な言い方があれば3つ教えてください
+3. この表現が使われる典型的な状況・文脈
+4. フォーマル度（カジュアル / 普通 / フォーマル）
+5. 似た意味の別の表現（類義語・言い換え）を3つ
+6. 注意すべきニュアンスや使う際の注意点（あれば）</pre>
+    </div>
+
+    <div class="tip-box">
+      <strong>活用シーン：</strong> メールや会議で使いたい表現、英会話レッスンで出てきた表現、参考書の例文が実際に使われるか確認したいときに最適です。複数の表現をまとめてチェックすることもできます。
+    </div>
+
+    <div class="section-label">使い方</div>
+    <h2 class="section-title">3ステップで表現チェック</h2>
+    <ul class="steps-list">
+      <li class="step-item">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>確認したい表現をメモする</h3>
+          <p>「これ正しい？」と思った英語表現を書き留めておきましょう。単語・フレーズ・文章どれでもOKです。</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>使用シーンを指定して送信</h3>
+          <p>ビジネスか日常会話かによってAIの評価基準が変わります。使用シーンを正確に指定するとより的確なフィードバックが得られます。</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>類義表現もあわせて覚える</h3>
+          <p>AIが出してくれた3つの類義表現も一緒にメモしましょう。表現の幅が一度に3〜4倍に広がります。</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="section-label">使用例</div>
+    <h2 class="section-title">AIのチェック結果サンプル</h2>
+    <div class="chat-example">
+      <h3>入力例：「I look forward to meet you.」（ビジネス）</h3>
+      <div class="chat-msg">
+        <div class="chat-role user">あなた（入力）</div>
+        <div class="chat-bubble">【チェックしたい表現】<br>I look forward to meet you.<br>使用シーン：ビジネス</div>
+      </div>
+      <div class="chat-msg">
+        <div class="chat-role ai">AI（チェック結果）</div>
+        <div class="chat-bubble ai-bubble">
+          <strong>評価：△ やや不自然（文法ミスあり）</strong><br><br>
+          <strong>正しい形：</strong> I look forward to <u>meeting</u> you.<br>
+          （"look forward to" の後は動名詞 -ing 形が必要。to は前置詞）<br><br>
+          <strong>より自然な表現3つ：</strong><br>
+          ① I'm looking forward to meeting you.（最も一般的・フレンドリー）<br>
+          ② It would be a pleasure to meet you.（格式高い場面向け）<br>
+          ③ I can't wait to meet you.（親しい相手・カジュアル）<br><br>
+          <strong>フォーマル度：</strong> 普通〜フォーマル（修正後はビジネスメールに適切）<br>
+          <strong>注意：</strong> "I look forward to" は現在形で締めくくり表現として使うとフォーマルな印象になります。
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">関連プロンプト</div>
+    <h2 class="section-title">他のプロンプトも試してみる</h2>
+    <div class="related-grid">
+      <a href="/prompts/speaking-practice/" class="related-card">
+        <span class="icon">💬</span>
+        <div><div class="title">AIと英会話練習するプロンプト</div><div class="cat">スピーキング</div></div>
+      </a>
+      <a href="/prompts/diary-correction/" class="related-card">
+        <span class="icon">✏️</span>
+        <div><div class="title">英語日記を添削してもらうプロンプト</div><div class="cat">ライティング</div></div>
+      </a>
+      <a href="/prompts/business-email/" class="related-card">
+        <span class="icon">📧</span>
+        <div><div class="title">ビジネス英語メール作成プロンプト</div><div class="cat">ビジネス</div></div>
+      </a>
+      <a href="/prompts/toeic-prep/" class="related-card">
+        <span class="icon">📝</span>
+        <div><div class="title">TOEIC Part別対策プロンプト</div><div class="cat">TOEIC</div></div>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<section class="faq-section">
+  <div class="container">
+    <div class="section-label">よくある質問</div>
+    <h2 class="section-title">FAQ</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary class="faq-q">ChatGPTとClaude、どちらで使えますか？</summary>
+        <div class="faq-a"><p>どちらでも使えます。どちらもテキストチャット形式のAIで、このプロンプトをそのまま貼り付けて使用できます。ChatGPT（GPT-4o）はOpenAI、ClaudeはAnthropicがそれぞれ提供しています。</p></div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">無料版でも使えますか？</summary>
+        <div class="faq-a"><p>はい。ChatGPT（GPT-4o無料プラン）およびClaude（無料プラン）どちらでも使用できます。ただし無料プランは利用回数に制限がある場合があります。</p></div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">AIの回答は必ず正しいですか？</summary>
+        <div class="faq-a"><p>概ね正確ですが、まれに誤りが含まれることがあります。特に文法の細かいルールや専門的な内容については、辞書や文法書でも確認することをおすすめします。</p></div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">テキストで発音チェックできるのですか？</summary>
+        <div class="faq-a"><p>AIはテキストを入力として処理するため、実際に声に出した発音をチェックすることはできません。このプロンプトでは「文章として不自然な表現がないか」「別の言い方はないか」を確認する表現チェックに活用してください。</p></div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">アメリカ英語とイギリス英語の違いも確認できますか？</summary>
+        <div class="faq-a"><p>はい。「アメリカ英語・イギリス英語どちらで確認してほしいか」をプロンプトに追加すると、対応した表現で確認してもらえます。</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg-subtle,#F2EFE9);padding:48px 0;margin-top:0;">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:28px;">
+      <p style="font-size:12px;font-weight:700;color:rgba(26,26,26,0.4);letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px;">準備ができたら</p>
+      <h2 style="font-size:1.35rem;font-weight:800;color:rgba(26,26,26,0.88);margin:0;">AIと練習したフレーズを、実際に使おう</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;max-width:900px;margin:0 auto;">
+      <a href="/" style="display:block;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:14px;padding:18px 20px;text-decoration:none;transition:all 0.2s;">
+        <div style="font-size:22px;margin-bottom:8px;">🎧</div>
+        <div style="font-size:14px;font-weight:700;color:rgba(26,26,26,0.88);margin-bottom:4px;">ListenUp</div>
+        <div style="font-size:12px;color:rgba(26,26,26,0.5);line-height:1.5;">ネイティブ音声で聞き取りを練習。1,099問・無料。</div>
+      </a>
+      <a href="/grammar/" style="display:block;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:14px;padding:18px 20px;text-decoration:none;transition:all 0.2s;">
+        <div style="font-size:22px;margin-bottom:8px;">📝</div>
+        <div style="font-size:14px;font-weight:700;color:rgba(26,26,26,0.88);margin-bottom:4px;">GrammarUp</div>
+        <div style="font-size:12px;color:rgba(26,26,26,0.5);line-height:1.5;">文法の正確さをクイズで確認。896問・無料。</div>
+      </a>
+      <a href="/words/" style="display:block;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:14px;padding:18px 20px;text-decoration:none;transition:all 0.2s;">
+        <div style="font-size:22px;margin-bottom:8px;">📖</div>
+        <div style="font-size:14px;font-weight:700;color:rgba(26,26,26,0.88);margin-bottom:4px;">WordsUp</div>
+        <div style="font-size:12px;color:rgba(26,26,26,0.5);line-height:1.5;">頻出1,000語を適応型出題で習得。無料。</div>
+      </a>
+      <a href="/ranking/" style="display:block;background:linear-gradient(135deg,#1e293b,#334155);border-radius:14px;padding:18px 20px;text-decoration:none;transition:all 0.2s;">
+        <div style="font-size:22px;margin-bottom:8px;">🏆</div>
+        <div style="font-size:14px;font-weight:700;color:#fff;margin-bottom:4px;">サービス比較ランキング</div>
+        <div style="font-size:12px;color:rgba(255,255,255,0.55);line-height:1.5;">AIで鍛えた実力を、ネイティブ講師と話して磨こう。</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section style="max-width:720px;margin:40px auto 0;padding:0 20px 48px;">
+  <div style="background:#FDFCF9;border:1px solid #E8E4DC;border-radius:16px;padding:24px 28px;text-align:center;">
+    <p style="font-size:0.75rem;font-weight:700;color:#F5A623;letter-spacing:0.08em;margin:0 0 8px;">無料ツールで練習する</p>
+    <p style="font-size:0.95rem;font-weight:700;color:rgba(26,26,26,0.88);margin:0 0 16px;">読んだら、聴いて・解いて・覚えよう。</p>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;">
+      <a href="/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">🎧 ListenUp</a>
+      <a href="/reading/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">📖 ReadUp</a>
+      <a href="/grammar/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">✓ GrammarUp</a>
+      <a href="/words/" style="display:inline-flex;align-items:center;gap:5px;padding:8px 16px;background:#FDFCF9;border:1px solid #E8E4DC;border-radius:9999px;font-size:0.82rem;font-weight:600;color:rgba(26,26,26,0.88);text-decoration:none;">📝 WordsUp</a>
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>native-real</h4>
+        <p>プロが選ぶオンライン英会話・英語アプリ徹底比較</p>
+        <p style="margin-top:12px;">※当サイトはアフィリエイトリンクを含みます。</p>
+        <div class="footer-owner">
+          <span class="footer-owner-label">運営者</span>
+          <a href="https://x.com/ichi_eigo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@ichi_eigo</a>
+        </div>
+      </div>
+      <div>
+        <h4>サービス一覧</h4>
+        <ul>
+          <li><a href="/services/dmm-eikaiwa/">DMM英会話</a></li>
+          <li><a href="/services/rarejob/">レアジョブ英会話</a></li>
+          <li><a href="/services/nativecamp/">ネイティブキャンプ</a></li>
+          <li><a href="/services/cambly/">Cambly（キャンブリー）</a></li>
+          <li><a href="/services/bizmates/">Bizmates（ビズメイツ）</a></li>
+          <li><a href="/services/progrit/">プログリット</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>コンテンツ</h4>
+        <ul>
+          <li><a href="/articles/">学習コラム一覧</a></li>
+          <li><a href="/ranking/">ランキングTOP</a></li>
+          <li><a href="/listening/">ListenUp</a></li>
+          <li><a href="/prompts/">AIプロンプト集</a></li>
+          <li><a href="/privacy/">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 native-real. All rights reserved.</p></div>
+  </div>
+</footer>
+<script>
+function copyPrompt() {
+  var text = document.getElementById('promptText').textContent;
+  navigator.clipboard.writeText(text).then(function() {
+    var btn = document.getElementById('copyBtn');
+    btn.textContent = 'コピーしました！'; btn.classList.add('copied');
+    setTimeout(function() { btn.textContent = 'コピーする'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+
+
+<script>
+(function(){
+  var b=document.getElementById('siteHamburger'),n=document.getElementById('siteMobileNav');
+  if(b&&n){
+    b.addEventListener('click',function(){b.classList.toggle('active');n.classList.toggle('active');document.body.style.overflow=n.classList.contains('active')?'hidden':'';});
+    n.addEventListener('click',function(e){if(e.target===n||e.target.tagName==='A'){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';}});
+    var c=document.getElementById('siteMobileNavClose');if(c){c.addEventListener('click',function(){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';});}
+  }
+  var h=document.getElementById('siteHeader');
+  if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>40);t=false;});t=true;}});}
+  document.querySelectorAll('.nav-dd-trigger').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement;
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){if(d!==dd)d.classList.remove('open');});
+      dd.classList.toggle('open');
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "tweet_id": "2035290422138839506",
+  "like_count": 156,
+  "created_at": "2026-03-30",
+  "theme": "語彙カバー率の科学：なぜ頻出2,000語を先にやるべきか",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "bar_chart",
+      "description": "語彙数と英文カバー率の積み上げ比較（1000/2000/5000/10000語）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "roadmap",
+      "description": "語彙学習ロードマップ：基礎固め優先の4ステップフロー"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "word_count": 493,
+  "tags": ["語彙学習", "英語学習", "カバー率", "頻出語", "効率的学習"],
+  "status": "ready"
+}

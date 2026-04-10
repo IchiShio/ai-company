@@ -1,0 +1,25 @@
+{
+  "post_id": "2026591382102749239",
+  "likes": 58,
+  "theme": "英語センス不要論の根拠。反復量だけが英語力を決める4つの証拠。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "語学才能と反復量の影響度比較（各スキル別）",
+      "description": "発音・文法・語彙・リスニング・会話の5スキル別に、才能と反復量の影響割合を横棒グラフで対比"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "ピアノ練習量と演奏能力の曲線 → 英語版への転用図",
+      "description": "ピアノ（金）と英語（青破線）の習得対数曲線を重ね、100h・1000hのマイルストーンと「諦めポイント」を注記"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "fact_check_result": "PASS（条件付き）",
+  "fact_check_condition": "図解の数値は概念図であることを補足すること（図解内に既注記）",
+  "word_count": 381,
+  "created_at": "2026-03-30",
+  "tags": ["英語センス", "反復学習", "英語習得", "スキル習得", "マインドセット"]
+}

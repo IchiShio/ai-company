@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="r1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0d8bd9;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="r2Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38c9a0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#28a07a;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="r3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f5a623;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#e0901a;stop-opacity:0.9" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="337" x2="1200" y2="337" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="675" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="600" y="62" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="32" font-weight="700" fill="#ffffff" text-anchor="middle" filter="url(#glow)">4 / 3 / 2 スピーキング練習法</text>
+  <text x="600" y="98" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786" text-anchor="middle">同じ話題を繰り返すたびに「流暢さ」が科学的に向上する</text>
+
+  <!-- Timeline base line -->
+  <line x1="100" y1="370" x2="1100" y2="370" stroke="#657786" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Round 1 block -->
+  <rect x="100" y="230" width="320" height="140" rx="12" fill="url(#r1Grad)" opacity="0.9"/>
+  <text x="260" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" filter="url(#glow)">4分</text>
+  <text x="260" y="298" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#d0eeff" text-anchor="middle">Round 1</text>
+  <text x="260" y="318" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a8d8f0" text-anchor="middle">ゆっくり・内容を整理しながら</text>
+  <text x="260" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#d0eeff" text-anchor="middle">詰まっても止まらない</text>
+  <!-- Connector arrow -->
+  <line x1="420" y1="300" x2="470" y2="300" stroke="#657786" stroke-width="2"/>
+  <polygon points="470,295 485,300 470,305" fill="#657786"/>
+
+  <!-- Round 2 block -->
+  <rect x="490" y="248" width="250" height="122" rx="12" fill="url(#r2Grad)" opacity="0.9"/>
+  <text x="615" y="283" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="40" font-weight="900" fill="#ffffff" text-anchor="middle" filter="url(#glow)">3分</text>
+  <text x="615" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#d0fff0" text-anchor="middle">Round 2</text>
+  <text x="615" y="328" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0e8c8" text-anchor="middle">速度が少し上がる</text>
+  <text x="615" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#d0fff0" text-anchor="middle">言い換えが自然に増える</text>
+  <!-- Connector arrow -->
+  <line x1="740" y1="309" x2="790" y2="309" stroke="#657786" stroke-width="2"/>
+  <polygon points="790,304 805,309 790,314" fill="#657786"/>
+
+  <!-- Round 3 block -->
+  <rect x="810" y="262" width="210" height="108" rx="12" fill="url(#r3Grad)" opacity="0.9"/>
+  <text x="915" y="296" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="36" font-weight="900" fill="#ffffff" text-anchor="middle" filter="url(#glow)">2分</text>
+  <text x="915" y="318" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#fff0d0" text-anchor="middle">Round 3</text>
+  <text x="915" y="336" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffe0a0" text-anchor="middle">最速・ポーズ最少</text>
+  <text x="915" y="354" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#fff0d0" text-anchor="middle">流暢さが実感できる</text>
+
+  <!-- Effect bars below timeline -->
+  <text x="190" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">WPM（発話速度）</text>
+  <rect x="130" y="415" width="120" height="14" rx="4" fill="#1DA1F2" opacity="0.5"/>
+  <text x="615" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">WPM（発話速度）</text>
+  <rect x="490" y="415" width="150" height="14" rx="4" fill="#38c9a0" opacity="0.65"/>
+  <text x="940" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786" text-anchor="middle">WPM（発話速度）</text>
+  <rect x="820" y="415" width="180" height="14" rx="4" fill="#f5a623" opacity="0.8"/>
+
+  <!-- Key insight box -->
+  <rect x="100" y="460" width="1000" height="80" rx="10" fill="#1DA1F2" fill-opacity="0.08" stroke="#1DA1F2" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="600" y="492" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle" font-weight="700">なぜ効くのか？</text>
+  <text x="600" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0" text-anchor="middle">脳が同じ内容を「既知情報」として処理するため、言語的な認知負荷が下がり</text>
+  <text x="600" y="534" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0" text-anchor="middle">音声化に使えるリソースが増える。Nation (1989) / Arevart &amp; Nation (1991)</text>
+
+  <!-- Label: one person OK -->
+  <circle cx="600" cy="596" r="16" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="600" y="601" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2" text-anchor="middle">1人</text>
+  <text x="630" y="601" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#8ec8f0">でもできる。相手不要。録音推奨。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

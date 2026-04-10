@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold">英語のストレスパターン：内容語を強く、機能語を弱く</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="120" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20">ネイティブが無意識に使うリズムの法則</text>
+
+  <!-- Example sentence area -->
+  <rect x="60" y="145" width="1080" height="180" rx="12" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="2"/>
+  <text x="600" y="180" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16">例文</text>
+
+  <!-- Words with stress visualization -->
+  <!-- "I" - weak -->
+  <text x="130" y="230" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="32">I</text>
+  <text x="130" y="260" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">機能語（弱）</text>
+  <circle cx="130" cy="290" r="8" fill="#AAB8C2"/>
+
+  <!-- "WANT" - strong -->
+  <text x="270" y="215" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="44" font-weight="bold">WANT</text>
+  <text x="270" y="260" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">内容語（強）</text>
+  <circle cx="270" cy="290" r="18" fill="#1DA1F2"/>
+
+  <!-- "to" - weak -->
+  <text x="410" y="235" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26">to</text>
+  <text x="410" y="260" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">機能語（弱）</text>
+  <circle cx="410" cy="290" r="8" fill="#AAB8C2"/>
+
+  <!-- "go" - strong -->
+  <text x="530" y="215" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="44" font-weight="bold">GO</text>
+  <text x="530" y="260" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">内容語（強）</text>
+  <circle cx="530" cy="290" r="18" fill="#1DA1F2"/>
+
+  <!-- "to" - weak -->
+  <text x="660" y="235" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26">to</text>
+  <text x="660" y="260" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">機能語（弱）</text>
+  <circle cx="660" cy="290" r="8" fill="#AAB8C2"/>
+
+  <!-- "the" - weak -->
+  <text x="780" y="235" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26">the</text>
+  <text x="780" y="260" text-anchor="middle" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">機能語（弱）</text>
+  <circle cx="780" cy="290" r="8" fill="#AAB8C2"/>
+
+  <!-- "STORE" - strong -->
+  <text x="950" y="215" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="44" font-weight="bold">STORE</text>
+  <text x="950" y="260" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">内容語（強）</text>
+  <circle cx="950" cy="290" r="18" fill="#1DA1F2"/>
+
+  <!-- Wave line connecting words -->
+  <polyline points="130,290 200,298 270,272 340,298 410,298 470,298 530,272 590,298 660,298 720,298 780,298 860,298 950,272 1010,298" stroke="#1DA1F2" stroke-width="3" fill="none" stroke-dasharray="0"/>
+
+  <!-- Legend -->
+  <rect x="60" y="345" width="1080" height="100" rx="12" fill="#EBF8FF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="375" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold">内容語 vs 機能語</text>
+  <circle cx="200" cy="405" r="10" fill="#1DA1F2"/>
+  <text x="220" y="410" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">内容語（強）: 名詞・動詞・形容詞・副詞 → 意味を運ぶ重要語</text>
+  <circle cx="700" cy="405" r="10" fill="#AAB8C2"/>
+  <text x="720" y="410" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15">機能語（弱）: 前置詞・冠詞・代名詞 → 文法的なつなぎ語</text>
+
+  <!-- Key message -->
+  <rect x="60" y="465" width="1080" height="130" rx="12" fill="#14171A"/>
+  <text x="600" y="505" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" font-weight="bold">英語のリズム3原則</text>
+  <text x="140" y="535" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16">① 内容語を強く・高く・長く発音する</text>
+  <text x="140" y="560" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16">② 機能語は素早く・弱く流す（短縮形になることも多い）</text>
+  <text x="140" y="585" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16">③ 強音節の間隔を一定に保つ（強勢拍リズム）</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18">@ichi_eigo</text>
+</svg>

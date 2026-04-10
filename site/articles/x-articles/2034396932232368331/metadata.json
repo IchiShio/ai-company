@@ -1,0 +1,23 @@
+{
+  "tweet_id": "2034396932232368331",
+  "like_count": 88,
+  "topic": "習慣化 / 5分学習 / アンカーリング",
+  "article_title": "続かない原因は「やる気」ではなく「量の設定ミス」。5分習慣の作り方",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "ハードルの高さと継続率の反比例グラフ（概念的グラフ）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "5分習慣を既存ルーティンに紐付けるアンカーリング（朝・移動・夜の3パターン）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS（図解数値は概念グラフ）",
+  "key_reference": "BJ Fogg, Tiny Habits (2019), Stanford Behavior Design Lab",
+  "word_count": 436,
+  "created_at": "2026-03-30",
+  "tags": ["習慣化", "5分学習", "アンカーリング", "Tiny Habits", "継続", "行動科学"]
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "word": "Remote",
+    "start": 0.15,
+    "end": 0.56
+  },
+  {
+    "word": "work",
+    "start": 0.56,
+    "end": 0.833
+  },
+  {
+    "word": "has",
+    "start": 0.833,
+    "end": 1.038
+  },
+  {
+    "word": "fundamentally",
+    "start": 1.038,
+    "end": 1.927
+  },
+  {
+    "word": "altered",
+    "start": 1.927,
+    "end": 2.405
+  },
+  {
+    "word": "the",
+    "start": 2.405,
+    "end": 2.61
+  },
+  {
+    "word": "relationship",
+    "start": 2.61,
+    "end": 3.43
+  },
+  {
+    "word": "between",
+    "start": 3.43,
+    "end": 3.908
+  },
+  {
+    "word": "employees",
+    "start": 3.908,
+    "end": 4.523
+  },
+  {
+    "word": "and",
+    "start": 4.523,
+    "end": 4.728
+  },
+  {
+    "word": "the",
+    "start": 4.728,
+    "end": 4.933
+  },
+  {
+    "word": "organizations",
+    "start": 4.933,
+    "end": 5.822
+  },
+  {
+    "word": "they",
+    "start": 5.822,
+    "end": 6.095
+  },
+  {
+    "word": "work",
+    "start": 6.095,
+    "end": 6.368
+  },
+  {
+    "word": "for.",
+    "start": 6.368,
+    "end": 6.574999999999999
+  },
+  {
+    "word": "Companies",
+    "start": 6.575,
+    "end": 7.15
+  },
+  {
+    "word": "are",
+    "start": 7.15,
+    "end": 7.342
+  },
+  {
+    "word": "reconsidering",
+    "start": 7.342,
+    "end": 8.173
+  },
+  {
+    "word": "their",
+    "start": 8.173,
+    "end": 8.493
+  },
+  {
+    "word": "office",
+    "start": 8.493,
+    "end": 8.877
+  },
+  {
+    "word": "space",
+    "start": 8.877,
+    "end": 9.197
+  },
+  {
+    "word": "requirements,",
+    "start": 9.197,
+    "end": 9.964
+  },
+  {
+    "word": "while",
+    "start": 9.964,
+    "end": 10.284
+  },
+  {
+    "word": "workers",
+    "start": 10.284,
+    "end": 10.732
+  },
+  {
+    "word": "are",
+    "start": 10.732,
+    "end": 10.924
+  },
+  {
+    "word": "reassessing",
+    "start": 10.924,
+    "end": 11.627
+  },
+  {
+    "word": "where",
+    "start": 11.627,
+    "end": 11.947
+  },
+  {
+    "word": "they",
+    "start": 11.947,
+    "end": 12.203
+  },
+  {
+    "word": "want",
+    "start": 12.203,
+    "end": 12.459
+  },
+  {
+    "word": "to",
+    "start": 12.459,
+    "end": 12.587
+  },
+  {
+    "word": "live",
+    "start": 12.587,
+    "end": 12.843
+  },
+  {
+    "word": "and",
+    "start": 12.843,
+    "end": 13.035
+  },
+  {
+    "word": "raise",
+    "start": 13.035,
+    "end": 13.355
+  },
+  {
+    "word": "families.",
+    "start": 13.355,
+    "end": 13.863
+  },
+  {
+    "word": "This",
+    "start": 13.913,
+    "end": 14.215
+  },
+  {
+    "word": "shift",
+    "start": 14.215,
+    "end": 14.592
+  },
+  {
+    "word": "has",
+    "start": 14.592,
+    "end": 14.818
+  },
+  {
+    "word": "accelerated",
+    "start": 14.818,
+    "end": 15.648
+  },
+  {
+    "word": "a",
+    "start": 15.648,
+    "end": 15.723
+  },
+  {
+    "word": "notable",
+    "start": 15.723,
+    "end": 16.251
+  },
+  {
+    "word": "migration",
+    "start": 16.251,
+    "end": 16.93
+  },
+  {
+    "word": "from",
+    "start": 16.93,
+    "end": 17.232
+  },
+  {
+    "word": "expensive",
+    "start": 17.232,
+    "end": 17.911
+  },
+  {
+    "word": "major",
+    "start": 17.911,
+    "end": 18.288
+  },
+  {
+    "word": "cities",
+    "start": 18.288,
+    "end": 18.741
+  },
+  {
+    "word": "to",
+    "start": 18.741,
+    "end": 18.892
+  },
+  {
+    "word": "smaller",
+    "start": 18.892,
+    "end": 19.42
+  },
+  {
+    "word": "regional",
+    "start": 19.42,
+    "end": 20.023
+  },
+  {
+    "word": "towns.",
+    "start": 20.023,
+    "end": 20.4
+  },
+  {
+    "word": "The",
+    "start": 20.45,
+    "end": 20.682
+  },
+  {
+    "word": "long-term",
+    "start": 20.682,
+    "end": 21.3
+  },
+  {
+    "word": "effects",
+    "start": 21.3,
+    "end": 21.841
+  },
+  {
+    "word": "on",
+    "start": 21.841,
+    "end": 21.996
+  },
+  {
+    "word": "urban",
+    "start": 21.996,
+    "end": 22.383
+  },
+  {
+    "word": "real",
+    "start": 22.383,
+    "end": 22.692
+  },
+  {
+    "word": "estate,",
+    "start": 22.692,
+    "end": 23.156
+  },
+  {
+    "word": "local",
+    "start": 23.156,
+    "end": 23.543
+  },
+  {
+    "word": "economies,",
+    "start": 23.543,
+    "end": 24.239
+  },
+  {
+    "word": "and",
+    "start": 24.239,
+    "end": 24.471
+  },
+  {
+    "word": "public",
+    "start": 24.471,
+    "end": 24.935
+  },
+  {
+    "word": "infrastructure",
+    "start": 24.935,
+    "end": 26.017
+  },
+  {
+    "word": "remain",
+    "start": 26.017,
+    "end": 26.481
+  },
+  {
+    "word": "complex",
+    "start": 26.481,
+    "end": 27.022
+  },
+  {
+    "word": "and",
+    "start": 27.022,
+    "end": 27.254
+  },
+  {
+    "word": "deeply",
+    "start": 27.254,
+    "end": 27.718
+  },
+  {
+    "word": "uncertain.",
+    "start": 27.718,
+    "end": 28.412
+  }
+]

@@ -1,0 +1,35 @@
+name: listenup weekly email
+
+on:
+  schedule:
+    # 毎週月曜 7:00 JST = 日曜 22:00 UTC
+    - cron: '0 22 * * 0'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'dry-run（送信しない）'
+        required: false
+        default: 'true'
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Send weekly emails
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 scripts/send_weekly_listenup_emails.py --dry-run
+          else
+            python3 scripts/send_weekly_listenup_emails.py
+          fi
+        env:
+          MAILERLITE_API_KEY: ${{ secrets.MAILERLITE_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          FROM_EMAIL: ${{ secrets.LISTENUP_FROM_EMAIL }}

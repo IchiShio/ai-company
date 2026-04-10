@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#f8f9fa"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="white" font-size="28" font-weight="bold">主要チャンクパターン一覧</text>
+
+  <!-- Section 1: 前置詞句 -->
+  <rect x="30" y="100" width="360" height="540" rx="16" fill="white" stroke="#e1e8ed" stroke-width="2"/>
+  <rect x="30" y="100" width="360" height="54" rx="16" fill="#1DA1F2"/>
+  <rect x="30" y="134" width="360" height="20" fill="#1DA1F2"/>
+  <text x="210" y="135" text-anchor="middle" fill="white" font-size="20" font-weight="bold">前置詞句チャンク</text>
+  <text x="210" y="167" text-anchor="middle" fill="#657786" font-size="15">Prepositional Phrase Chunks</text>
+
+  <!-- Prep chunk items -->
+  <g transform="translate(50, 190)">
+    <rect x="0" y="0" width="300" height="52" rx="8" fill="#e8f5fe"/>
+    <text x="150" y="20" text-anchor="middle" fill="#1DA1F2" font-size="13">「〜の前に」</text>
+    <text x="150" y="42" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">in front of</text>
+
+    <rect x="0" y="62" width="300" height="52" rx="8" fill="#e8f5fe"/>
+    <text x="150" y="82" text-anchor="middle" fill="#1DA1F2" font-size="13">「〜に従って」</text>
+    <text x="150" y="104" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">according to</text>
+
+    <rect x="0" y="124" width="300" height="52" rx="8" fill="#e8f5fe"/>
+    <text x="150" y="144" text-anchor="middle" fill="#1DA1F2" font-size="13">「〜の代わりに」</text>
+    <text x="150" y="166" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">instead of</text>
+
+    <rect x="0" y="186" width="300" height="52" rx="8" fill="#e8f5fe"/>
+    <text x="150" y="206" text-anchor="middle" fill="#1DA1F2" font-size="13">「〜に加えて」</text>
+    <text x="150" y="228" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">in addition to</text>
+
+    <rect x="0" y="248" width="300" height="52" rx="8" fill="#e8f5fe"/>
+    <text x="150" y="268" text-anchor="middle" fill="#1DA1F2" font-size="13">「〜にもかかわらず」</text>
+    <text x="150" y="290" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">in spite of</text>
+
+    <rect x="0" y="310" width="300" height="52" rx="8" fill="#e8f5fe"/>
+    <text x="150" y="330" text-anchor="middle" fill="#1DA1F2" font-size="13">「〜の結果として」</text>
+    <text x="150" y="352" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">as a result of</text>
+  </g>
+
+  <!-- Section 2: 動詞句 -->
+  <rect x="420" y="100" width="360" height="540" rx="16" fill="white" stroke="#e1e8ed" stroke-width="2"/>
+  <rect x="420" y="100" width="360" height="54" rx="16" fill="#17bf63"/>
+  <rect x="420" y="134" width="360" height="20" fill="#17bf63"/>
+  <text x="600" y="135" text-anchor="middle" fill="white" font-size="20" font-weight="bold">動詞句チャンク</text>
+  <text x="600" y="167" text-anchor="middle" fill="#657786" font-size="15">Verb Phrase Chunks</text>
+
+  <g transform="translate(440, 190)">
+    <rect x="0" y="0" width="300" height="52" rx="8" fill="#e6faf0"/>
+    <text x="150" y="20" text-anchor="middle" fill="#17bf63" font-size="13">「〜しなければならない」</text>
+    <text x="150" y="42" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">have to do</text>
+
+    <rect x="0" y="62" width="300" height="52" rx="8" fill="#e6faf0"/>
+    <text x="150" y="82" text-anchor="middle" fill="#17bf63" font-size="13">「〜することを楽しむ」</text>
+    <text x="150" y="104" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">enjoy doing</text>
+
+    <rect x="0" y="124" width="300" height="52" rx="8" fill="#e6faf0"/>
+    <text x="150" y="144" text-anchor="middle" fill="#17bf63" font-size="13">「〜しようとする」</text>
+    <text x="150" y="166" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">try to do</text>
+
+    <rect x="0" y="186" width="300" height="52" rx="8" fill="#e6faf0"/>
+    <text x="150" y="206" text-anchor="middle" fill="#17bf63" font-size="13">「〜に取り組む」</text>
+    <text x="150" y="228" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">work on</text>
+
+    <rect x="0" y="248" width="300" height="52" rx="8" fill="#e6faf0"/>
+    <text x="150" y="268" text-anchor="middle" fill="#17bf63" font-size="13">「〜を見据えて」</text>
+    <text x="150" y="290" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">look forward to</text>
+
+    <rect x="0" y="310" width="300" height="52" rx="8" fill="#e6faf0"/>
+    <text x="150" y="330" text-anchor="middle" fill="#17bf63" font-size="13">「〜を諦める」</text>
+    <text x="150" y="352" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">give up on</text>
+  </g>
+
+  <!-- Section 3: 接続詞句 -->
+  <rect x="810" y="100" width="360" height="540" rx="16" fill="white" stroke="#e1e8ed" stroke-width="2"/>
+  <rect x="810" y="100" width="360" height="54" rx="16" fill="#794bc4"/>
+  <rect x="810" y="134" width="360" height="20" fill="#794bc4"/>
+  <text x="990" y="135" text-anchor="middle" fill="white" font-size="20" font-weight="bold">接続詞句チャンク</text>
+  <text x="990" y="167" text-anchor="middle" fill="#657786" font-size="15">Conjunction Phrase Chunks</text>
+
+  <g transform="translate(830, 190)">
+    <rect x="0" y="0" width="300" height="52" rx="8" fill="#f3effe"/>
+    <text x="150" y="20" text-anchor="middle" fill="#794bc4" font-size="13">「〜であるとはいえ」</text>
+    <text x="150" y="42" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">even though</text>
+
+    <rect x="0" y="62" width="300" height="52" rx="8" fill="#f3effe"/>
+    <text x="150" y="82" text-anchor="middle" fill="#794bc4" font-size="13">「〜する限り」</text>
+    <text x="150" y="104" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">as long as</text>
+
+    <rect x="0" y="124" width="300" height="52" rx="8" fill="#f3effe"/>
+    <text x="150" y="144" text-anchor="middle" fill="#794bc4" font-size="13">「〜であるため」</text>
+    <text x="150" y="166" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">due to the fact</text>
+
+    <rect x="0" y="186" width="300" height="52" rx="8" fill="#f3effe"/>
+    <text x="150" y="206" text-anchor="middle" fill="#794bc4" font-size="13">「〜と同時に」</text>
+    <text x="150" y="228" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">at the same time</text>
+
+    <rect x="0" y="248" width="300" height="52" rx="8" fill="#f3effe"/>
+    <text x="150" y="268" text-anchor="middle" fill="#794bc4" font-size="13">「その一方で」</text>
+    <text x="150" y="290" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">on the other hand</text>
+
+    <rect x="0" y="310" width="300" height="52" rx="8" fill="#f3effe"/>
+    <text x="150" y="330" text-anchor="middle" fill="#794bc4" font-size="13">「〜するとすぐに」</text>
+    <text x="150" y="352" text-anchor="middle" fill="#14171A" font-size="20" font-weight="bold">as soon as</text>
+  </g>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="16">@ichi_eigo</text>
+</svg>

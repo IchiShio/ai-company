@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgG4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14171A" />
+      <stop offset="100%" style="stop-color:#1a2030" />
+    </linearGradient>
+    <marker id="arrowW" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#657786"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgG4)" />
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">予測力を上げる「既知英文リスニング」法</text>
+  <text x="600" y="78" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">知っている英文を速いスピードで聴くことが、脳のリズム認識を精緻にする</text>
+
+  <!-- Core Principle Box -->
+  <rect x="200" y="100" width="800" height="65" rx="14" fill="#1DA1F2" opacity="0.15"/>
+  <rect x="200" y="100" width="800" height="4" rx="2" fill="#1DA1F2"/>
+  <text x="600" y="128" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#1DA1F2">原則：「知識先行 → 音声照合」の順序で練習する</text>
+  <text x="600" y="151" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">初見音声を聴き続けるより、知っている英文を繰り返す方が予測精度が上がる</text>
+
+  <!-- Three Method Cards -->
+
+  <!-- Method 1: 洋楽 -->
+  <rect x="40" y="190" width="350" height="280" rx="16" fill="#1e2736"/>
+  <rect x="40" y="190" width="350" height="6" rx="3" fill="#1DA1F2"/>
+  <!-- Number badge -->
+  <circle cx="82" cy="225" r="20" fill="#1DA1F2"/>
+  <text x="82" y="231" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="115" y="222" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#1DA1F2">洋楽メソッド</text>
+  <text x="115" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Music Method</text>
+
+  <!-- Flow inside card 1 -->
+  <rect x="60" y="258" width="310" height="40" rx="8" fill="#102030"/>
+  <text x="215" y="283" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">① 歌詞の意味を先に調べて覚える</text>
+
+  <line x1="215" y1="298" x2="215" y2="318" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowW)"/>
+
+  <rect x="60" y="320" width="310" height="40" rx="8" fill="#102030"/>
+  <text x="215" y="345" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">② 通常速度で歌と一緒に聴く</text>
+
+  <line x1="215" y1="360" x2="215" y2="380" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowW)"/>
+
+  <rect x="60" y="382" width="310" height="40" rx="8" fill="#1DA1F2" opacity="0.2"/>
+  <text x="215" y="407" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="bold">③ 音とリズムが脳に刻まれる</text>
+
+  <text x="215" y="452" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">継続しやすい・楽しく続けられる</text>
+
+  <!-- Method 2: 映画 -->
+  <rect x="425" y="190" width="350" height="280" rx="16" fill="#1e2736"/>
+  <rect x="425" y="190" width="350" height="6" rx="3" fill="#17BF63"/>
+  <circle cx="467" cy="225" r="20" fill="#17BF63"/>
+  <text x="467" y="231" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="500" y="222" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#17BF63">映画シーンメソッド</text>
+  <text x="500" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Scene Replay Method</text>
+
+  <rect x="445" y="258" width="310" height="40" rx="8" fill="#102030"/>
+  <text x="600" y="283" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">① 好きなシーンを字幕付きで観る</text>
+
+  <line x1="600" y1="298" x2="600" y2="318" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowW)"/>
+
+  <rect x="445" y="320" width="310" height="40" rx="8" fill="#102030"/>
+  <text x="600" y="345" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">② 字幕なしで同じシーンを5回聴く</text>
+
+  <line x1="600" y1="360" x2="600" y2="380" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowW)"/>
+
+  <rect x="445" y="382" width="310" height="40" rx="8" fill="#17BF63" opacity="0.2"/>
+  <text x="600" y="407" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#17BF63" font-weight="bold">③ 感情込みのリズムが身につく</text>
+
+  <text x="600" y="452" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">自然な発音・イントネーションも習得</text>
+
+  <!-- Method 3: ListenUp -->
+  <rect x="810" y="190" width="350" height="280" rx="16" fill="#1e2736"/>
+  <rect x="810" y="190" width="350" height="6" rx="3" fill="#FFAD1F"/>
+  <circle cx="852" cy="225" r="20" fill="#FFAD1F"/>
+  <text x="852" y="231" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">3</text>
+  <text x="885" y="222" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFAD1F">ListenUpメソッド</text>
+  <text x="885" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Quiz Replay Method</text>
+
+  <rect x="830" y="258" width="310" height="40" rx="8" fill="#102030"/>
+  <text x="985" y="283" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">① 問題に挑戦して答えを確認</text>
+
+  <line x1="985" y1="298" x2="985" y2="318" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowW)"/>
+
+  <rect x="830" y="320" width="310" height="40" rx="8" fill="#102030"/>
+  <text x="985" y="345" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#CCCCCC">② 正解を知ったうえで音声を再聴</text>
+
+  <line x1="985" y1="360" x2="985" y2="380" stroke="#657786" stroke-width="1.5" marker-end="url(#arrowW)"/>
+
+  <rect x="830" y="382" width="310" height="40" rx="8" fill="#FFAD1F" opacity="0.2"/>
+  <text x="985" y="407" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFAD1F" font-weight="bold">③ 予測と照合の感覚が鍛えられる</text>
+
+  <text x="985" y="452" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">SRS機能で記憶定着も同時にできる</text>
+
+  <!-- Bottom progression chart -->
+  <rect x="40" y="495" width="1120" height="130" rx="16" fill="#1e2736"/>
+  <text x="600" y="522" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">予測力の成長サイクル</text>
+
+  <!-- Cycle boxes -->
+  <rect x="60" y="535" width="200" height="50" rx="10" fill="#1DA1F2" opacity="0.2"/>
+  <text x="160" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">語彙・文法を増やす</text>
+
+  <text x="285" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#657786">→</text>
+
+  <rect x="300" y="535" width="200" height="50" rx="10" fill="#17BF63" opacity="0.2"/>
+  <text x="400" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#17BF63">予測精度が上がる</text>
+
+  <text x="525" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#657786">→</text>
+
+  <rect x="540" y="535" width="200" height="50" rx="10" fill="#FFAD1F" opacity="0.2"/>
+  <text x="640" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFAD1F">聴き取り率が上がる</text>
+
+  <text x="765" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#657786">→</text>
+
+  <rect x="780" y="535" width="200" height="50" rx="10" fill="#E0245E" opacity="0.2"/>
+  <text x="880" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#E0245E">自信がつき続けられる</text>
+
+  <text x="1005" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="20" fill="#657786">→</text>
+
+  <rect x="1020" y="535" width="120" height="50" rx="10" fill="#1DA1F2" opacity="0.2"/>
+  <text x="1080" y="565" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">繰り返す</text>
+
+  <text x="600" y="612" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ native-real.com でListenUpを試す</text>
+
+  <!-- Credit -->
+  <text x="1170" y="662" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

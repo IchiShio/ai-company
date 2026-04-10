@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>SyncReader — 音声と一緒に英文を読む練習 | native-real</title>
+  <meta name="description" content="音声が先行し、単語がリアルタイムで光る英語リーディングツール。耳が先。目が追う。速度調整可・5段階レベル・語彙カード付き。">
+  <link rel="canonical" href="https://native-real.com/sync/">
+  <meta property="og:title" content="SyncReader — 音声と一緒に英文を読む練習">
+  <meta property="og:description" content="音声が先行し、単語がリアルタイムで光る。耳が先。目が追う。">
+  <meta property="og:url" content="https://native-real.com/sync/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script type="module" src="/src/main.ts"></script>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <header>
+    <a class="logo" href="/">
+      <div class="logo-mark">N</div>
+      <div><div class="logo-text">native-real</div><div class="logo-sub">英語学習比較</div></div>
+    </a>
+    <a class="nav-link" href="/ranking/">比較ランキング</a>
+  </header>
+
+  <main>
+    <div class="page-title">
+      <h1>SyncReader</h1>
+      <p>単語をタップして語義確認。テキストが動的に回り込む。</p>
+    </div>
+
+    <!-- Level tabs -->
+    <div class="level-tabs">
+      <button class="level-tab active" data-level="lv1">Lv.1</button>
+      <button class="level-tab" data-level="lv2">Lv.2</button>
+      <button class="level-tab" data-level="lv3">Lv.3</button>
+      <button class="level-tab" data-level="lv4">Lv.4</button>
+      <button class="level-tab" data-level="lv5">Lv.5</button>
+    </div>
+
+    <div class="layout">
+      <!-- Passage list sidebar -->
+      <aside class="sidebar">
+        <div id="list-title" class="list-title">Level 1 — 0本</div>
+        <div id="passage-list" class="passage-list"></div>
+      </aside>
+
+      <!-- Player -->
+      <section id="player-panel" class="player-panel">
+        <div class="pass-header">
+          <span id="pass-title" class="pass-title"></span>
+          <span id="tap-hint" class="tap-hint">単語をタップ → 語義</span>
+        </div>
+
+        <!-- Canvas: pretext layout + highlight -->
+        <div class="canvas-wrap">
+          <canvas id="sync-canvas"></canvas>
+          <div id="loading" class="loading">読み込み中…</div>
+        </div>
+
+        <!-- Japanese translation -->
+        <div id="ja-panel" class="ja-panel" hidden>
+          <p id="ja-text" class="ja-text"></p>
+        </div>
+
+        <!-- Transport -->
+        <div class="transport">
+          <div class="progress-row">
+            <span id="time-current" class="time">0:00</span>
+            <div id="progress-bar" class="progress-bar">
+              <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <span id="time-total" class="time">0:00</span>
+          </div>
+          <div class="controls">
+            <div class="speed-ctrl">
+              <button id="speed-down" class="speed-btn">−</button>
+              <span id="speed-label" class="speed-label">0.9x</span>
+              <button id="speed-up" class="speed-btn">＋</button>
+            </div>
+            <button id="play-btn" class="play-btn">▶ Play</button>
+            <button id="replay-btn" class="replay-btn" disabled title="この文をもう一度">↩ この文</button>
+            <button id="ja-toggle" class="ja-toggle-btn">🇯🇵 日本語訳</button>
+            <div class="key-hints">
+              <span>Space: 再生/停止</span>
+              <span>← →: ±3秒</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

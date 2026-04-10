@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJFJHQNF');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Grammar Quiz | Free 1,000+ Questions — Native Grammar Training | native-real</title>
+  <meta name="description" content="Practice English grammar for free. 1,000+ questions based on real native patterns. No sign-up. Mobile-friendly. Covers conditionals, relative clauses, tenses, and more.">
+  <link rel="canonical" href="https://native-real.com/en/grammar/">
+  <meta name="author" content="native-real">
+  <meta property="og:title" content="English Grammar Quiz — Native Grammar Training">
+  <meta property="og:description" content="Practice English grammar for free. 1,000+ questions based on real native patterns. No sign-up. Mobile-friendly.">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta property="og:url" content="https://native-real.com/en/grammar/">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="native-real">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="English Grammar Quiz — Native Grammar Training">
+  <meta name="twitter:description" content="Practice English grammar for free. 1,000+ questions based on real native patterns. No sign-up. Mobile-friendly.">
+  <link rel="alternate" hreflang="ja" href="https://native-real.com/grammar/">
+  <link rel="alternate" hreflang="en" href="https://native-real.com/en/grammar/">
+  <link rel="alternate" hreflang="x-default" href="https://native-real.com/en/grammar/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "English Grammar Quiz — Native Grammar Training",
+    "description": "Practice English grammar for free. 1,000+ questions based on real native patterns. No sign-up. Mobile-friendly.",
+    "datePublished": "2026-04-08",
+    "dateModified": "2026-04-08",
+    "author": {"@type": "Organization", "name": "native-real"},
+    "publisher": {"@type": "Organization", "name": "native-real.com"}
+  }
+  </script>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .card {
+      background: #FDFCF9;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(26,26,26,0.1);
+    }
+    .question {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .options {
+      display: grid;
+      gap: 10px;
+    }
+    .option-btn {
+      padding: 12px 20px;
+      border: 2px solid #ddd;
+      border-radius: 6px;
+      background: #FDFCF9;
+      cursor: pointer;
+      font-size: 1em;
+      text-align: left;
+      transition: all 0.2s;
+    }
+    .option-btn:hover {
+      border-color: #4CAF50;
+      background: #f0fff0;
+    }
+    .option-btn.correct {
+      border-color: #4CAF50;
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+    .option-btn.incorrect {
+      border-color: #f44336;
+      background: #ffebee;
+      color: #c62828;
+    }
+    .feedback {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 6px;
+      display: none;
+    }
+    .feedback.show {
+      display: block;
+    }
+    .feedback.correct {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+    .feedback.incorrect {
+      background: #ffebee;
+      color: #c62828;
+    }
+    .next-btn {
+      margin-top: 15px;
+      padding: 12px 24px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+      display: none;
+    }
+    .next-btn.show {
+      display: block;
+    }
+    .next-btn:hover {
+      background: #45a049;
+    }
+    .progress {
+      text-align: center;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .score {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    #results {
+      display: none;
+      text-align: center;
+    }
+    #results.show {
+      display: block;
+    }
+    .result-score {
+      font-size: 2em;
+      color: #4CAF50;
+      margin: 20px 0;
+    }
+    .restart-btn {
+      padding: 12px 24px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    .restart-btn:hover {
+      background: #1976D2;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .explanation {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #555;
+    }
+    /* =====================
+       Axis feedback styles
+       ===================== */
+    #axis-feedback-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(26,26,26,0.5);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+    #axis-feedback-overlay.show {
+      display: flex;
+    }
+    #axis-feedback-box {
+      background: #FDFCF9;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 500px;
+      width: 90%;
+      box-shadow: 0 4px 20px rgba(26,26,26,0.3);
+    }
+    #axis-feedback-box h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .axis-bar-container {
+      margin: 12px 0;
+    }
+    .axis-bar-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85em;
+      color: #555;
+      margin-bottom: 4px;
+    }
+    .axis-bar-bg {
+      height: 18px;
+      background: #eee;
+      border-radius: 9px;
+      overflow: hidden;
+    }
+    .axis-bar-fill {
+      height: 100%;
+      border-radius: 9px;
+      transition: width 0.6s ease;
+    }
+    .axis-bar-fill.axis-formal     { background: #5c6bc0; }
+    .axis-bar-fill.axis-casual     { background: #26a69a; }
+    .axis-bar-fill.axis-direct     { background: #ef5350; }
+    .axis-bar-fill.axis-indirect   { background: #ff7043; }
+    .axis-bar-fill.axis-logical    { background: #42a5f5; }
+    .axis-bar-fill.axis-emotional  { background: #ec407a; }
+    .axis-bar-fill.axis-structured { background: #66bb6a; }
+    .axis-bar-fill.axis-flexible   { background: #ffa726; }
+    #axis-feedback-close {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    #axis-feedback-close:hover { background: #45a049; }
+
+    /* =====================
+       Category badge
+       ===================== */
+    .category-badge {
+      display: inline-block;
+      background: #e3f2fd;
+      color: #1565c0;
+      font-size: 0.75em;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+
+    /* =====================
+       History panel
+       ===================== */
+    #history-panel {
+      display: none;
+      margin-top: 20px;
+    }
+    #history-panel.show { display: block; }
+    #history-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85em;
+    }
+    #history-table th, #history-table td {
+      border: 1px solid #ddd;
+      padding: 6px 10px;
+      text-align: left;
+    }
+    #history-table th { background: #f0f4ff; }
+
+    /* =====================
+       Japanese hints
+       ===================== */
+    .ja-hint {
+      display: none;
+      font-size: 0.85em;
+      color: rgba(26,26,26,0.5);
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+    body.hints-on .ja-hint {
+      display: block;
+    }
+    .ja-kp-hint {
+      display: none;
+      font-size: 0.82em;
+      color: #92400e;
+      background: #fffbeb;
+      border: 1px solid #f59e0b33;
+      border-radius: 6px;
+      padding: 6px 10px;
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+    body.hints-on .ja-kp-hint {
+      display: block;
+    }
+
+    /* =====================
+       Site header & toggles
+       ===================== */
+    .hint-toggle {
+      padding: 5px 12px;
+      border: 1px solid #E8E4DC;
+      border-radius: 9999px;
+      background: #FDFCF9;
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(26,26,26,0.62);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .hint-toggle:hover {
+      border-color: rgba(26,26,26,0.35);
+    }
+    .hint-state {
+      color: #F5A623;
+      font-weight: 700;
+    }
+    body.hints-on .hint-toggle {
+      border-color: #F5A623;
+      color: rgba(26,26,26,0.88);
+    }
+    .lang-toggle {
+      padding: 5px 12px;
+      border: 1px solid #E8E4DC;
+      border-radius: 9999px;
+      font-size: 12px;
+      font-weight: 600;
+      color: rgba(26,26,26,0.62);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .lang-toggle:hover {
+      border-color: rgba(26,26,26,0.35);
+      color: rgba(26,26,26,0.88);
+    }
+  </style>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJFJHQNF"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Site header -->
+  <div style="max-width:800px;margin:0 auto 0;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;">
+    <a href="/en/" style="font-size:15px;font-weight:800;color:rgba(26,26,26,0.88);text-decoration:none;display:flex;align-items:center;gap:7px;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;color:#F5A623;"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+      native-real
+    </a>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <button class="hint-toggle" id="hintToggle" onclick="toggleHints()">Japanese Hints: <span class="hint-state" id="hintState">OFF</span></button>
+      <a href="/grammar/" class="lang-toggle">日本語</a>
+    </div>
+  </div>
+
+  <h1>English Grammar Quiz | Native Grammar Training</h1>
+
+  <div id="quiz-container">
+    <div class="progress">
+      Question <span id="current-q">1</span> / <span id="total-q">10</span>
+      &nbsp;|&nbsp; Score: <span id="score" class="score">0</span>
+    </div>
+
+    <div class="card">
+      <div id="category-badge" class="category-badge"></div>
+      <div class="question" id="question-text"></div>
+      <div id="ja-hint-container"></div>
+      <div class="options" id="options-container"></div>
+      <div class="feedback" id="feedback"></div>
+      <div class="explanation" id="explanation"></div>
+      <div id="ja-kp-container"></div>
+      <button class="next-btn" id="next-btn">Next &rarr;</button>
+    </div>
+  </div>
+
+  <div id="results" class="card">
+    <h2>Training Complete!</h2>
+    <div class="result-score" id="final-score"></div>
+    <p id="result-message"></p>
+    <button class="restart-btn" onclick="restartQuiz()">Try Again</button>
+
+    <!-- Cross-promo -->
+    <div style="margin:20px 0 8px;">
+      <p style="font-size:12px;font-weight:700;color:rgba(26,26,26,0.42);letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px;">Try next</p>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div style="background:#FDFCF9;border-radius:12px;padding:14px 16px;border:1px solid #E8E4DC;border-left:3px solid #F59E0B;">
+          <div style="font-size:14px;font-weight:700;margin-bottom:4px;">🎧 Test your grammar with listening</div>
+          <div style="font-size:12px;color:rgba(26,26,26,0.6);margin-bottom:10px;line-height:1.5;">Can you hear the grammar you just learned? 1,099 listening questions.</div>
+          <a href="/en/" style="display:inline-block;padding:7px 18px;font-size:12px;font-weight:700;color:#fff;background:#F59E0B;border-radius:8px;text-decoration:none;">Try ListenUp</a>
+        </div>
+        <div style="display:flex;gap:8px;">
+          <a href="/en/" style="flex:1;text-align:center;padding:10px 4px;background:rgba(99,102,241,0.06);border-radius:10px;text-decoration:none;font-size:12px;font-weight:600;color:#6366F1;border:1px solid rgba(99,102,241,0.12);">📖 WordsUp</a>
+          <a href="/en/" style="flex:1;text-align:center;padding:10px 4px;background:rgba(0,122,255,0.06);border-radius:10px;text-decoration:none;font-size:12px;font-weight:600;color:#007AFF;border:1px solid rgba(0,122,255,0.12);">🧠 Root Words</a>
+          <a href="/en/" style="flex:1;text-align:center;padding:10px 4px;background:rgba(16,185,129,0.06);border-radius:10px;text-decoration:none;font-size:12px;font-weight:600;color:#10B981;border:1px solid rgba(16,185,129,0.12);">📚 ReadUp</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="history-panel">
+      <h3>Past Results</h3>
+      <table id="history-table">
+        <thead><tr><th>Date</th><th>Score</th><th>Questions</th></tr></thead>
+        <tbody id="history-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Axis feedback overlay -->
+  <div id="axis-feedback-overlay">
+    <div id="axis-feedback-box">
+      <h2>🎯 Communication Style (Last 5 Questions)</h2>
+      <div id="axis-bars"></div>
+      <button id="axis-feedback-close">Close & Continue</button>
+    </div>
+  </div>
+
+  <script src="/grammar/questions.js"></script>
+  <script src="/grammar/questions_extra.js"></script>
+  <script>
+'use strict';
+
+/* =========================================================
+   Japanese Hints toggle
+   ========================================================= */
+function toggleHints() {
+  const on = document.body.classList.toggle('hints-on');
+  document.getElementById('hintState').textContent = on ? 'ON' : 'OFF';
+  try { localStorage.setItem('native_real_ja_hints', on ? 'on' : 'off'); } catch(_) {}
+}
+(function() {
+  try {
+    if (localStorage.getItem('native_real_ja_hints') === 'on') {
+      document.body.classList.add('hints-on');
+      var s = document.getElementById('hintState');
+      if (s) s.textContent = 'ON';
+    }
+  } catch(_) {}
+})();
+
+/* =========================================================
+   History (localStorage)
+   ========================================================= */
+const HISTORY_KEY = 'grammar_en_history';
+
+function saveResult(score, total) {
+  try {
+    const history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+    history.unshift({ ts: new Date().toLocaleString('en-US'), score, total });
+    if (history.length > 10) history.length = 10;
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch (e) { /* ignore */ }
+}
+
+function loadHistory() {
+  try {
+    const history = JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]');
+    if (history.length === 0) return;
+    const tbody = document.getElementById('history-body');
+    tbody.innerHTML = '';
+    history.forEach(d => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${d.ts}</td><td>${d.score}</td><td>${d.total}</td>`;
+      tbody.appendChild(tr);
+    });
+    document.getElementById('history-panel').classList.add('show');
+  } catch (e) { /* ignore */ }
+}
+
+/* =========================================================
+   Quiz logic
+   ========================================================= */
+
+// Use DATA array (defined in questions.js, extended by questions_extra.js)
+const allQuestions = DATA;
+
+const QUESTIONS_PER_SESSION = 10;
+const AXIS_INTERVAL = 5;   // show axis feedback every N questions
+
+let sessionQuestions = [];
+let currentQuestion  = 0;
+let score            = 0;
+let answered         = false;
+
+// Axis counters for the current window
+let axisWindow = { formal:0, casual:0, direct:0, indirect:0,
+                   logical:0, emotional:0, structured:0, flexible:0 };
+let axisWindowCount = 0;
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function startQuiz() {
+  sessionQuestions = shuffle(allQuestions).slice(0, QUESTIONS_PER_SESSION);
+  currentQuestion  = 0;
+  score            = 0;
+  answered         = false;
+  axisWindow       = { formal:0, casual:0, direct:0, indirect:0,
+                       logical:0, emotional:0, structured:0, flexible:0 };
+  axisWindowCount  = 0;
+
+  document.getElementById('total-q').textContent = sessionQuestions.length;
+  document.getElementById('results').classList.remove('show');
+  document.getElementById('quiz-container').style.display = 'block';
+  showQuestion();
+}
+
+function showQuestion() {
+  const q = sessionQuestions[currentQuestion];
+  answered = false;
+
+  document.getElementById('current-q').textContent = currentQuestion + 1;
+  document.getElementById('score').textContent      = score;
+  document.getElementById('question-text').textContent = q.stem;
+  document.getElementById('feedback').classList.remove('show', 'correct', 'incorrect');
+  document.getElementById('feedback').textContent   = '';
+  document.getElementById('explanation').textContent = '';
+  document.getElementById('next-btn').classList.remove('show');
+
+  // Japanese hint below question
+  const jaHintContainer = document.getElementById('ja-hint-container');
+  jaHintContainer.innerHTML = '';
+  if (q.ja) {
+    const jaHint = document.createElement('div');
+    jaHint.className = 'ja-hint';
+    jaHint.textContent = q.ja;
+    jaHintContainer.appendChild(jaHint);
+  }
+
+  // Clear kp hint area
+  document.getElementById('ja-kp-container').innerHTML = '';
+
+  // Category badge (use rule or tags as category label)
+  const badge = document.getElementById('category-badge');
+  if (q.rule) {
+    badge.textContent = q.rule;
+    badge.style.display = 'inline-block';
+  } else if (q.tags && q.tags.length > 0) {
+    badge.textContent = q.tags[0];
+    badge.style.display = 'inline-block';
+  } else {
+    badge.style.display = 'none';
+  }
+
+  const container = document.getElementById('options-container');
+  container.innerHTML = '';
+  const shuffledOptions = shuffle(q.choices);
+  shuffledOptions.forEach(option => {
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = option;
+    btn.addEventListener('click', () => checkAnswer(option, q));
+    container.appendChild(btn);
+  });
+}
+
+function checkAnswer(selected, q) {
+  if (answered) return;
+  answered = true;
+
+  const isCorrect = selected === q.answer;
+  if (isCorrect) score++;
+
+  // Accumulate axis data (if axes is an object with formal/casual/etc keys)
+  if (q.axes && typeof q.axes === 'object') {
+    Object.keys(q.axes).forEach(axis => {
+      if (axisWindow.hasOwnProperty(axis)) axisWindow[axis] += q.axes[axis];
+    });
+  }
+  axisWindowCount++;
+
+  // Highlight buttons
+  const buttons = document.querySelectorAll('.option-btn');
+  buttons.forEach(btn => {
+    if (btn.textContent === q.answer) {
+      btn.classList.add('correct');
+    } else if (btn.textContent === selected && !isCorrect) {
+      btn.classList.add('incorrect');
+    }
+    btn.disabled = true;
+  });
+
+  // Feedback message
+  const feedback = document.getElementById('feedback');
+  feedback.textContent = isCorrect ? '\u2713 Correct!' : `\u2717 Incorrect. The answer is '${q.answer}'.`;
+  feedback.classList.add('show', isCorrect ? 'correct' : 'incorrect');
+
+  if (q.expl) {
+    document.getElementById('explanation').textContent = q.expl;
+  }
+
+  // Show Japanese key phrases as hint after feedback
+  if (q.kp && q.kp.length > 0) {
+    const kpContainer = document.getElementById('ja-kp-container');
+    kpContainer.innerHTML = '';
+    const kpHint = document.createElement('div');
+    kpHint.className = 'ja-kp-hint';
+    kpHint.textContent = q.kp.join(' / ');
+    kpContainer.appendChild(kpHint);
+  }
+
+  document.getElementById('next-btn').classList.add('show');
+}
+
+document.getElementById('next-btn').addEventListener('click', () => {
+  currentQuestion++;
+
+  // Axis feedback (every 5 questions)
+  if (axisWindowCount > 0 && axisWindowCount % AXIS_INTERVAL === 0) {
+    showAxisFeedback();
+    return;   // axis overlay will call advanceQuestion() on close
+  }
+
+  advanceQuestion();
+});
+
+function advanceQuestion() {
+  if (currentQuestion >= sessionQuestions.length) {
+    finishQuiz();
+  } else {
+    showQuestion();
+  }
+}
+
+function finishQuiz() {
+  document.getElementById('quiz-container').style.display = 'none';
+  const results = document.getElementById('results');
+  results.classList.add('show');
+  const pct = Math.round((score / sessionQuestions.length) * 100);
+  document.getElementById('final-score').textContent = `${score} / ${sessionQuestions.length} (${pct}%)`;
+
+  let msg;
+  if (pct >= 90)      msg = 'Excellent! Your grammar is at native level!';
+  else if (pct >= 70) msg = 'Well done! Keep pushing for more.';
+  else if (pct >= 50) msg = 'Not bad. Try reviewing the tricky ones.';
+  else                msg = 'Keep practicing \u2014 you\'ll get there!';
+  document.getElementById('result-message').textContent = msg;
+
+  saveResult(score, sessionQuestions.length);
+  loadHistory();
+}
+
+function restartQuiz() {
+  document.getElementById('history-panel').classList.remove('show');
+  startQuiz();
+}
+
+/* =========================================================
+   Axis feedback overlay
+   ========================================================= */
+function showAxisFeedback() {
+  const overlay = document.getElementById('axis-feedback-overlay');
+  const barsDiv = document.getElementById('axis-bars');
+  barsDiv.innerHTML = '';
+
+  const axisPairs = [
+    ['formal',     'casual',     'Formal',     'Casual'],
+    ['direct',     'indirect',   'Direct',     'Indirect'],
+    ['logical',    'emotional',  'Logical',    'Emotional'],
+    ['structured', 'flexible',   'Structured', 'Flexible'],
+  ];
+
+  axisPairs.forEach(([a, b, labelA, labelB]) => {
+    const total = (axisWindow[a] || 0) + (axisWindow[b] || 0);
+    if (total === 0) return;
+    const pctA = Math.round((axisWindow[a] / total) * 100);
+    const pctB = 100 - pctA;
+
+    barsDiv.innerHTML += `
+      <div class="axis-bar-container">
+        <div class="axis-bar-label"><span>${labelA} (${pctA}%)</span><span>${labelB} (${pctB}%)</span></div>
+        <div class="axis-bar-bg">
+          <div class="axis-bar-fill axis-${a}" style="width:${pctA}%"></div>
+        </div>
+      </div>`;
+  });
+
+  overlay.classList.add('show');
+}
+
+document.getElementById('axis-feedback-close').addEventListener('click', () => {
+  document.getElementById('axis-feedback-overlay').classList.remove('show');
+  // Reset window counters for next batch
+  axisWindow = { formal:0, casual:0, direct:0, indirect:0,
+                 logical:0, emotional:0, structured:0, flexible:0 };
+  axisWindowCount = 0;
+  advanceQuestion();
+});
+
+/* =========================================================
+   Boot
+   ========================================================= */
+startQuiz();
+  </script>
+</body>
+</html>

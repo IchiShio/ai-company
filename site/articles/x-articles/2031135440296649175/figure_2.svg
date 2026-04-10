@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2535;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrow_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg4)" />
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">英語実況 → 習慣化 → 自動化 の段階フロー</text>
+  <text x="600" y="78" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786" text-anchor="middle">始めた日から3週間で「意識しなくても英語が出る脳」になる</text>
+
+  <!-- Timeline horizontal line -->
+  <line x1="80" y1="360" x2="1120" y2="360" stroke="#2a3a4a" stroke-width="3"/>
+
+  <!-- Stages -->
+  <!-- Stage 1: Day 1-3 -->
+  <circle cx="180" cy="360" r="20" fill="#1DA1F2" stroke="#5bd4ff" stroke-width="3"/>
+  <text x="180" y="365" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+
+  <rect x="95" y="105" width="170" height="220" fill="#1a2a3f" stroke="#1DA1F2" stroke-width="2" rx="12"/>
+  <text x="180" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">Day 1〜3</text>
+  <text x="180" y="155" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">🗒️</text>
+  <text x="180" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">モード切替</text>
+  <text x="180" y="208" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">意識的に</text>
+  <text x="180" y="224" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">「英語で言うと?」</text>
+  <text x="180" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">と自問する</text>
+  <text x="180" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">難しく感じる</text>
+  <text x="180" y="280" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">でも続けるのが全て</text>
+  <text x="180" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">⚡ 1日5フレーズ目標</text>
+  <line x1="180" y1="325" x2="180" y2="340" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Stage 2: Day 4-7 -->
+  <circle cx="380" cy="360" r="20" fill="#1DA1F2" stroke="#5bd4ff" stroke-width="3"/>
+  <text x="380" y="365" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+
+  <rect x="295" y="105" width="170" height="220" fill="#1a2a3f" stroke="#2a9ad2" stroke-width="2" rx="12"/>
+  <text x="380" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#2a9ad2" text-anchor="middle">Day 4〜7</text>
+  <text x="380" y="155" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">🔁</text>
+  <text x="380" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">フレーズ増量</text>
+  <text x="380" y="208" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">I'm〜ing以外に</text>
+  <text x="380" y="224" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">感情・天気・評価</text>
+  <text x="380" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">を加えてみる</text>
+  <text x="380" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">慣れてきた感覚</text>
+  <text x="380" y="280" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786" text-anchor="middle">詰まっても良い</text>
+  <text x="380" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">⚡ 1日10フレーズ目標</text>
+  <line x1="380" y1="325" x2="380" y2="340" stroke="#2a9ad2" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Stage 3: Week 2 -->
+  <circle cx="580" cy="360" r="20" fill="#3a9a3a" stroke="#5adf5a" stroke-width="3"/>
+  <text x="580" y="365" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+
+  <rect x="495" y="105" width="170" height="220" fill="#1a2f1a" stroke="#3a9a3a" stroke-width="2" rx="12"/>
+  <text x="580" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#5adf5a" text-anchor="middle">2週目</text>
+  <text x="580" y="155" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">📈</text>
+  <text x="580" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">習慣の芽生え</text>
+  <text x="580" y="208" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">日本語→英語の</text>
+  <text x="580" y="224" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">変換が速くなる</text>
+  <text x="580" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">知らない単語も</text>
+  <text x="580" y="256" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">言い換えできる</text>
+  <text x="580" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#5adf5a" text-anchor="middle">楽しくなってくる!</text>
+  <text x="580" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">⚡ 1日20フレーズ目標</text>
+  <line x1="580" y1="325" x2="580" y2="340" stroke="#3a9a3a" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Stage 4: Week 3 -->
+  <circle cx="780" cy="360" r="20" fill="#c0a000" stroke="#f5c518" stroke-width="3"/>
+  <text x="780" y="365" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+
+  <rect x="695" y="105" width="170" height="220" fill="#2a2a10" stroke="#c0a000" stroke-width="2" rx="12"/>
+  <text x="780" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#f5c518" text-anchor="middle">3週目</text>
+  <text x="780" y="155" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">⚡</text>
+  <text x="780" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">半自動化</text>
+  <text x="780" y="208" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">意識せずに</text>
+  <text x="780" y="224" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">英語フレーズが</text>
+  <text x="780" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">頭に浮かぶ</text>
+  <text x="780" y="260" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">思考が英語化</text>
+  <text x="780" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#f5c518" text-anchor="middle">日本語と並走</text>
+  <text x="780" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">⚡ 自然に30フレーズ+</text>
+  <line x1="780" y1="325" x2="780" y2="340" stroke="#c0a000" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Stage 5: 1 month+ -->
+  <circle cx="1020" cy="360" r="24" fill="#c040c0" stroke="#ff80ff" stroke-width="3"/>
+  <text x="1020" y="365" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+
+  <rect x="920" y="105" width="200" height="220" fill="#2a102a" stroke="#c040c0" stroke-width="2.5" rx="12"/>
+  <text x="1020" y="132" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#ff80ff" text-anchor="middle">1ヶ月以降</text>
+  <text x="1020" y="155" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" text-anchor="middle">🚀</text>
+  <text x="1020" y="185" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">完全自動化</text>
+  <text x="1020" y="208" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">英語が「出る言語」</text>
+  <text x="1020" y="224" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">として機能する</text>
+  <text x="1020" y="244" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">会話相手ができた時</text>
+  <text x="1020" y="260" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#aab4be" text-anchor="middle">すぐに話せる状態</text>
+  <text x="1020" y="280" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#ff80ff" text-anchor="middle">スピーキング土台完成</text>
+  <text x="1020" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#f5c518" text-anchor="middle">⚡ 1日50フレーズ以上</text>
+  <line x1="1020" y1="325" x2="1020" y2="336" stroke="#c040c0" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Arrows between stages -->
+  <polygon points="240,355 240,365 290,360" fill="#1DA1F2" opacity="0.8"/>
+  <polygon points="440,355 440,365 490,360" fill="#2a9ad2" opacity="0.8"/>
+  <polygon points="640,355 640,365 690,360" fill="#3a9a3a" opacity="0.8"/>
+  <polygon points="840,355 840,365 890,360" fill="#c0a000" opacity="0.8"/>
+
+  <!-- Bottom note -->
+  <rect x="80" y="415" width="1040" height="60" fill="#1a2030" stroke="#657786" stroke-width="1" rx="8"/>
+  <text x="600" y="440" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">ポイント：完璧な英語を目指さない。「今感じたことを英語でなんと言う?」を繰り返すだけでいい。</text>
+  <text x="600" y="462" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">間違えても構わない。1日5フレーズから始めれば21日後には英語が「出る脳」になっている。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="662" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

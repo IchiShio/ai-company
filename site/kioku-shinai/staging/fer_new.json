@@ -1,0 +1,1052 @@
+{
+  "root_id": "fer",
+  "words": [
+    {
+      "word": "differently",
+      "phonetic": "/ˈdɪf.ər.ənt.li/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "differ",
+          "meaning": "異なる、相違する",
+          "type": "root"
+        },
+        {
+          "part": "-ent",
+          "meaning": "形容詞化",
+          "type": "suffix"
+        },
+        {
+          "part": "-ly",
+          "meaning": "副詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "差異を持つことから、異なる方法で、という意味",
+        "fact": "differはラテン語differre（運び分ける、相違する）から。di-（分ける）+ ferre（運ぶ）の組み合わせで、別々に運ぶ＝異なるという概念",
+        "source": "EtymOnline: differ < Latin differre",
+        "cognates": [
+          "differ",
+          "difference",
+          "different",
+          "differential"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "異なるものを別々に運ぶように、異なった方向へ進む状態",
+        "fact": "複数のパスが分岐して別々の方向に運ばれるイメージから、異なるやり方を表現",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "differとferの関係を理解することで、「相違」の根本的な意味が把握できる",
+      "gapOneliner": "「運び分ける」→「異なる」という論理的つながり",
+      "hook": {
+        "label": "記憶フック",
+        "text": "differ = di（分ける）+ fer（運ぶ）→ 別々に運ぶ = 異なる → differently = 異なったやり方で"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「differently」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "異なった方法で",
+            "より多く",
+            "同じように",
+            "以前のように"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「differ」の語源「ferre」は何を意味するか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "運ぶ",
+            "作る",
+            "考える",
+            "見る"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "They approached the problem ______ from each other.",
+          "hint": "相互に異なった方法で、という意味",
+          "explanationFocus": "gap",
+          "choices": [
+            "differently",
+            "similarly",
+            "together",
+            "carefully"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「differently」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "think differently",
+            "run differently",
+            "eat differently",
+            "sleep differently"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"People view success differently based on their values.\" — 「differently」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "異なった方法で、様々に",
+            "反対に",
+            "徐々に",
+            "突然"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "They see the world differently.",
+        "She approached the task differently than expected."
+      ]
+    },
+    {
+      "word": "indifference",
+      "phonetic": "/ɪnˈdɪf.ər.əns/",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "否定、〜ではない",
+          "type": "prefix"
+        },
+        {
+          "part": "differ",
+          "meaning": "相違する、異なる",
+          "type": "root"
+        },
+        {
+          "part": "-ence",
+          "meaning": "名詞化、状態・性質",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "相違がない状態＝区別しない、無関心",
+        "fact": "indifferenceは「区別がない」「相違がない」という意味から、「どちらでもいい」「無関心」という意味に発展。in-（否定）+ differentia（相違）+ -ence",
+        "source": "EtymOnline: indifference < Medieval Latin indifferentia",
+        "cognates": [
+          "indifferent",
+          "indifferently",
+          "differ",
+          "difference"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数の選択肢を区別しない心理状態＝無関心",
+        "fact": "A地点とB地点の間に「運ぶべき違い」がないと感じる心理状態。選択肢を同等に扱う無関心さを表現",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "indifferenceは単なる「無関心」ではなく、「区別しない」という論理的根拠を持つ概念",
+      "gapOneliner": "「相違を認識しない」→「無関心である」というロジック",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in（否定）+ difference = 相違がない = どちらでも同じ = 無関心"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「indifference」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "無関心、区別しないこと",
+            "強い関心",
+            "深い違い",
+            "完全な理解"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「indifference」の接頭辞「in-」と語根「differ」の組み合わせが表現する概念は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "相違がない状態",
+            "非常な相違",
+            "運び込む",
+            "差別する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "His ______ toward the outcome surprised everyone who expected him to care.",
+          "hint": "無関心、区別しない態度",
+          "explanationFocus": "gap",
+          "choices": [
+            "indifference",
+            "preference",
+            "interference",
+            "reference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「indifference」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "show indifference",
+            "break indifference",
+            "prove indifference",
+            "suggest indifference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The government's indifference to public concerns angered many citizens.\" — 「indifference」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "関心の欠如、無視する態度",
+            "積極的な支援",
+            "詳細な検討",
+            "迅速な対応"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "His indifference to the matter was obvious.",
+        "She showed complete indifference toward the proposal."
+      ]
+    },
+    {
+      "word": "interference",
+      "phonetic": "/ˌɪn.tərˈfɪr.əns/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "inter-",
+          "meaning": "〜の間に、相互に",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ",
+          "type": "root"
+        },
+        {
+          "part": "-ence",
+          "meaning": "名詞化、状態・性質",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "相互に運び合う、衝突させる→干渉",
+        "fact": "interfere（干渉する）は inter-（相互に）+ ferre（運ぶ）から。二つ以上の力やプロセスが相互に作用する状態を表現。物理学では波動の相互作用を意味する",
+        "source": "EtymOnline: interfere < Old French entreferir",
+        "cognates": [
+          "interfere",
+          "interfering",
+          "interferer",
+          "interference pattern"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数のプロセスが同じ空間で相互に衝突・妨害する状態",
+        "fact": "異なる方向から運ばれてきた力や情報が衝突して、相互に阻害される様子。物理的な衝突から心理的な干渉まで拡張された概念",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "interと-ferの組み合わせで、「相互作用による障害」という複雑な概念を表現",
+      "gapOneliner": "「相互に運ぶ」→「衝突する」→「干渉する」という論理的展開",
+      "hook": {
+        "label": "記憶フック",
+        "text": "inter（相互に）+ fer（運ぶ）= 互いに運び合って衝突 = 干渉、邪魔"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「interference」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "干渉、妨害",
+            "助言",
+            "提案",
+            "協力"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「interference」の「inter-」は何を表しているか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "相互に、〜の間に",
+            "内部に",
+            "外部に",
+            "後ろに"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ from external noise made it difficult to concentrate on the experiment.",
+          "hint": "妨害、干渉",
+          "explanationFocus": "gap",
+          "choices": [
+            "interference",
+            "preference",
+            "reference",
+            "offering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「interference」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cause interference",
+            "receive interference",
+            "appreciate interference",
+            "consider interference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Radio interference disrupted the broadcast during the storm.\" — 「interference」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "信号の妨害、電波障害",
+            "周波数の上昇",
+            "音量の増加",
+            "接続の改善"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The interference from nearby electronics disrupted the signal.",
+        "Without interference, the project could have succeeded sooner."
+      ]
+    },
+    {
+      "word": "offering",
+      "phonetic": "/ˈɔː.fɚ.ɪŋ/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "offer",
+          "meaning": "提供する、申し出る",
+          "type": "root"
+        },
+        {
+          "part": "-ing",
+          "meaning": "名詞化、現在分詞化、動作・物質",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "前に向かって運ぶ→提供する、供える",
+        "fact": "offer（提供する）は古フランス語offrir（捧げる）から。offerre（前に向かって運ぶ）= ob-（向かって）+ ferre（運ぶ）。宗教的な供え物から始まり、一般的な提供へと拡張",
+        "source": "EtymOnline: offer < Old French offrir < Latin offerre",
+        "cognates": [
+          "offer",
+          "offerer",
+          "offered",
+          "offertory"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "自分が持つ何かを他者へ向かって運んで提示する行為",
+        "fact": "神聖な対象や贈り物を祭壇へ向かって運ぶという宗教的行為から、一般的な提供や申し出へと意味が拡張。前方への向きと運ぶという動作が結合した概念",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "offerはferを含む動詞で、「向かって」という方向性が重要な意味を持つ",
+      "gapOneliner": "「前に向かって運ぶ」という具体的行為から「提供する」という抽象的意味へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ob（向かって）+ fer（運ぶ）= 前方へ差し出す = 申し出る、供える"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「offering」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "提供、供え物",
+            "要求",
+            "拒否",
+            "中止"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「offer」の語源「offerre」は元々何を表現していたか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "前に向かって運ぶ",
+            "後ろに運ぶ",
+            "上に運ぶ",
+            "下に運ぶ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company's special ______ includes a free consultation for new customers.",
+          "hint": "提供される物、申し出",
+          "explanationFocus": "gap",
+          "choices": [
+            "offering",
+            "suffering",
+            "reference",
+            "preference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「offering」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "limited offering",
+            "direct offering",
+            "strong offering",
+            "clear offering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The restaurant's seasonal offering features fresh local ingredients.\" — 「offering」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "提供される品物、メニュー",
+            "価格",
+            "営業時間",
+            "従業員数"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The store's special offering attracted many customers.",
+        "Religious offerings were placed on the altar."
+      ]
+    },
+    {
+      "word": "preference",
+      "phonetic": "/ˈpref.ər.əns/",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "pre-",
+          "meaning": "前に、先に",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ、担う",
+          "type": "root"
+        },
+        {
+          "part": "-ence",
+          "meaning": "名詞化、状態・性質",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "前に運ぶ、優先する→好み、選好",
+        "fact": "preference（好み）は preferre（前に運ぶ、優先する）から。pre-（前に）+ ferre（運ぶ）。他の選択肢より前に、より高く価値を置く状態を表現",
+        "source": "EtymOnline: preference < Late Latin praeferentia",
+        "cognates": [
+          "prefer",
+          "preferrable",
+          "preferably",
+          "preferential"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数の選択肢の中から、ある選択肢を前に置く、優先する心理状態",
+        "fact": "複数のオプションを前後に序列化し、特定のものを前（より高い位置）に運ぶというメタファー。個人的な価値判断が序列化の根拠となる",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "preと-ferの関係で「順序付けと優先順位」という概念が表現される",
+      "gapOneliner": "「前に運ぶ」→「優先する」→「好む」という意味の拡張",
+      "hook": {
+        "label": "記憶フック",
+        "text": "pre（前に）+ fer（運ぶ）= 前に置く、優先する = 好み、選好"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「preference」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "好み、選好、優先",
+            "要求",
+            "義務",
+            "禁止"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「preference」の「pre-」が表現する概念は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "優先順位の前に置く",
+            "後ろに置く",
+            "横に置く",
+            "無視する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "According to the survey, customers show a strong ______ for eco-friendly products.",
+          "hint": "好み、優先事項",
+          "explanationFocus": "gap",
+          "choices": [
+            "preference",
+            "reference",
+            "interference",
+            "offering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「preference」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "personal preference",
+            "negative preference",
+            "unclear preference",
+            "harmful preference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"My preference is for traditional cooking methods rather than modern techniques.\" — 「preference」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "より好む、優先する傾向",
+            "反対する",
+            "無視する",
+            "比較する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She expressed her preference for coffee over tea.",
+        "The company gives preference to experienced candidates."
+      ]
+    },
+    {
+      "word": "referendum",
+      "phonetic": "/ˌref.ə.ˈren.dəm/",
+      "toeicRank": "800-950",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "戻す、再び",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ",
+          "type": "root"
+        },
+        {
+          "part": "-endum",
+          "meaning": "〜されるべき事柄（ラテン語動名詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "人民へ運び返す＝国民投票",
+        "fact": "referendum（国民投票）は referenda（複数形）で使われることもある。re-（戻す）+ ferre（運ぶ）+ -endum（〜されるべき事柄）。政治的決定を市民に運び返して投票させる制度を表現",
+        "source": "EtymOnline: referendum < New Latin referendum < Latin referre",
+        "cognates": [
+          "refer",
+          "referral",
+          "reference",
+          "referent"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "政府の意思決定を人民へ運び返して、承認を求める政治プロセス",
+        "fact": "中央権力が決めた事項を国民へ運び返して、直接投票により決定させるシステム。民主主義における意思決定の逆行流を表現",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "referendumはreferre（〜を人に報告する、運ぶ）の派生で、政治的決定プロセスを表現する技術用語",
+      "gapOneliner": "「〜について運び返す」→「〜について国民投票する」という政治的意味の確立",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（戻す）+ fer（運ぶ）= 人民へ運び返す = 国民投票、国民に問う"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「referendum」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "国民投票、住民投票",
+            "議会の決定",
+            "大統領令",
+            "裁判所の判決"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「referendum」の「re-」は何を表しているか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "決定を国民に戻す",
+            "決定を遅延させる",
+            "決定を取り消す",
+            "決定を強化する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government held a ______ to allow citizens to vote on the constitutional amendment.",
+          "hint": "国民投票",
+          "explanationFocus": "gap",
+          "choices": [
+            "referendum",
+            "reference",
+            "preference",
+            "offering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「referendum」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "hold a referendum",
+            "conduct a referendum",
+            "schedule a referendum",
+            "pass a referendum"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The Brexit referendum in 2016 asked British voters whether to leave the European Union.\" — 「referendum」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "重要事項について国民に直接投票させる制度",
+            "議会での秘密投票",
+            "政党の内部選挙",
+            "地方自治体の会議"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The referendum resulted in a narrow victory for the proposed law.",
+        "Citizens participated in the referendum on independence."
+      ]
+    },
+    {
+      "word": "reference",
+      "phonetic": "/ˈref.ər.əns/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "戻す、再び",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ、伝える",
+          "type": "root"
+        },
+        {
+          "part": "-ence",
+          "meaning": "名詞化、状態・性質",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "〜に戻す、〜を指す＝参照、引用",
+        "fact": "reference（参照、引用）は referre（〜に戻す、報告する）から。re-（戻す）+ ferre（運ぶ）。ある情報を別の場所へ運び戻して、関連性を指摘する行為",
+        "source": "EtymOnline: reference < Late Latin referentia",
+        "cognates": [
+          "refer",
+          "referral",
+          "referring",
+          "referee"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "読者の注意をある情報や出典へ運び戻して、相互関連性を明示する行為",
+        "fact": "テキストA内の情報をテキストBへ運び戻すことで、両者の関連性を確立。情報の流通と指示のネットワークを形成するプロセス",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "referre（戻す）という方向性が、「参照」と「出典への指示」という意味を確立する",
+      "gapOneliner": "「（読者の注意を）戻す」→「参照する」→「引用する」という意味の拡張",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（戻す）+ fer（運ぶ）= （読者を）別の情報へ向かわせる = 参照、出典示唆"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「reference」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "参照、引用、出典",
+            "拒否",
+            "要求",
+            "命令"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「reference」の「refer」が基本的に表現する概念は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ある情報を別の情報や出典へ指し示す",
+            "情報を隠す",
+            "情報を破壊する",
+            "情報を複製する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please provide a ______ to the original research in your essay's bibliography.",
+          "hint": "参照、引用元",
+          "explanationFocus": "gap",
+          "choices": [
+            "reference",
+            "preference",
+            "interference",
+            "offering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「reference」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "make reference to",
+            "give reference to",
+            "request reference",
+            "provide reference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The author makes frequent reference to classical literature throughout the novel.\" — 「reference」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "言及、参照、引用",
+            "批評",
+            "翻訳",
+            "改変"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He made a reference to the earlier discussion.",
+        "The book contains many historical references."
+      ]
+    },
+    {
+      "word": "suffering",
+      "phonetic": "/ˈsʌf.ər.ɪŋ/",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "suffer",
+          "meaning": "苦しむ、耐える",
+          "type": "root"
+        },
+        {
+          "part": "-ing",
+          "meaning": "名詞化、動作・状態・過程",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "下から運び上げる、耐える→苦しむ",
+        "fact": "suffer（苦しむ）は古フランス語sufrir（耐える）から。sufferre = suf-（下から）+ ferre（運ぶ）。苦難を下から支える、耐え抜くという逆説的な行為から、苦しみの状態を表現。物理的な負荷を運ぶことから精神的苦痛へと拡張",
+        "source": "EtymOnline: suffer < Old French sufrir < Latin sufferre",
+        "cognates": [
+          "suffer",
+          "sufferer",
+          "suffered",
+          "sufferable",
+          "sufferance"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "苦しみの重みを下から支えて耐え抜く状態、またはその重みが身体・心に圧し掛かっている状態",
+        "fact": "アトラスが世界を肩に背負うように、人間が苦しみという重みを支える様子。または圧力が上から加わり、それに耐える被動的な状態を表現。受動性と忍耐が結合した概念",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "sufferはferを含む動詞だが、「下から」という方向が他の-fer語と異なり、その違いが「耐える」という独特な意味を作る",
+      "gapOneliner": "「下から運ぶ」→「耐える」→「苦しむ」という、他の-fer語と異なる意味の軌跡",
+      "hook": {
+        "label": "記憶フック",
+        "text": "suf（下から）+ fer（運ぶ）= 重みを支える = 耐える = 苦しむ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「suffering」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "苦しみ、苦痛を被ること",
+            "喜び",
+            "成功",
+            "平和"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「suffer」の語源「sufferre」は元々何を表現していたか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下から重みを支える、耐える",
+            "上へ運ぶ",
+            "横に運ぶ",
+            "破壊する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Many people reported ______ from extreme heat during the summer heatwave.",
+          "hint": "苦しみ、被害",
+          "explanationFocus": "gap",
+          "choices": [
+            "suffering",
+            "offering",
+            "preference",
+            "reference"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「suffering」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "alleviate suffering",
+            "cause suffering",
+            "reduce suffering",
+            "prevent suffering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The humanitarian organization works to reduce suffering caused by poverty and disease.\" — 「suffering」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "苦痛、苦難、困難",
+            "幸福",
+            "豊かさ",
+            "安定"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She endured great suffering during her illness.",
+        "The war caused immense human suffering."
+      ]
+    },
+    {
+      "word": "transferable",
+      "phonetic": "/trænsˈfɜːr.ə.bəl/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "trans-",
+          "meaning": "〜を通じて、向こう側へ",
+          "type": "prefix"
+        },
+        {
+          "part": "fer",
+          "meaning": "運ぶ、伝える",
+          "type": "root"
+        },
+        {
+          "part": "-able",
+          "meaning": "〜できる、〜される傾向にある",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "向こう側へ運ぶことができる＝譲渡可能な",
+        "fact": "transferable（譲渡可能な）は transfer（譲渡する、移す）+ -able。trans-（向こう側へ）+ ferre（運ぶ）+ -able（できる）。物や権利、知識など何かを一方から他方へ運び移すことが可能である状態を表現",
+        "source": "EtymOnline: transfer < Old French transferer < Latin transferre",
+        "cognates": [
+          "transfer",
+          "transferring",
+          "transferred",
+          "transferee",
+          "transferor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "何かを一方の所有者や領域から他方へ運び移すことができる性質",
+        "fact": "物的資産、知識、スキル、権利など様々な対象が、空間的・所有的境界線を越えて移動可能である状態。移動性と変換可能性を強調する概念",
+        "source": "認知言語学的メタファー分析"
+      },
+      "gap": "transと-ferの関係で、「境界線を越えた移動可能性」という複雑な法律・経済的概念が表現される",
+      "gapOneliner": "「向こう側へ運ぶ」→「譲渡する」→「譲渡可能である」という法的意味の確立",
+      "hook": {
+        "label": "記憶フック",
+        "text": "trans（向こう側へ）+ fer（運ぶ）+ able（できる）= 境界線を越えて移動させることができる"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "「transferable」の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "譲渡可能な、移転可能な",
+            "譲渡不可能な",
+            "固定的な",
+            "変更不可の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "「transferable」の「trans-」が表現する概念は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一方から他方へ、境界線を越えて",
+            "内部へ",
+            "部分的に",
+            "完全に"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "These university credits are ______ to other institutions within the system.",
+          "hint": "移転可能な、譲渡可能な",
+          "explanationFocus": "gap",
+          "choices": [
+            "transferable",
+            "preference",
+            "reference",
+            "offering"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "「transferable」と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "transferable skills",
+            "transferable credits",
+            "non-transferable rights",
+            "directly transferable"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Software development skills are highly transferable across different industries and technologies.\" — 「transferable」の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "異なる状況や領域で活用可能である",
+            "習得困難である",
+            "価値がない",
+            "実用的でない"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The ticket is not transferable to another person.",
+        "Transferable skills are valuable in any career."
+      ]
+    }
+  ],
+  "fact_check": "APPROVED",
+  "checked_at": "2026-03-22"
+}

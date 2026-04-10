@@ -1,0 +1,939 @@
+{
+  "root_id": "port",
+  "words": [
+    {
+      "word": "portfolio",
+      "phonetic": "/pɔːrtˈfoʊlioʊ/",
+      "toeicRank": "800-900",
+      "parts": [
+        {
+          "part": "port",
+          "meaning": "運ぶ",
+          "type": "root"
+        },
+        {
+          "part": "folio",
+          "meaning": "葉、ページ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "書類を運ぶための折りたたみ式の袋から派生した金融用語",
+        "fact": "16世紀のイタリア語 'portafoglio'（portare=運ぶ + foglio=紙）から。金融ポートフォリオは投資家が保有する証券をまとめた『持ち運べる資産の集合体』という概念に由来する",
+        "source": "EtymOnline: Italian portare 'to carry' + foglio 'leaf of paper'",
+        "cognates": [
+          "portable",
+          "deport",
+          "report",
+          "transport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『複数の価値あるもの』を『一つに集めて運ぶ』イメージで記憶",
+        "fact": "視覚的に『書類を入れたカバン』→『投資商品を入れた金融商品のセット』と発展。銀行員が顧客に示す『運べる資産パッケージ』という概念が定着した",
+        "source": "金融用語の発展史"
+      },
+      "gap": "日本語の『ポートフォリオ』は金融用語として定着しているが、元々は物理的な『運ぶ道具』から来たことを認識しにくい",
+      "gapOneliner": "『持ち運ぶ』という基本義が金融抽象化されている",
+      "hook": {
+        "label": "記憶フック",
+        "text": "投資家の『運ぶカバン』に大切な証券が入っている→現代では『投資商品の組み合わせ』という意味に拡張"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "portfolioの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投資商品の組み合わせ、作品集",
+            "持ち運び可能な書類",
+            "政治的な立場",
+            "運送会社"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "portfolioの語源 'portafoglio' はどの言語で、どの二つの単語の組み合わせ？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "イタリア語：portare(運ぶ) + foglio(紙)",
+            "ラテン語：porto(港) + folio(葉)",
+            "フランス語：porter(着る) + feuille(葉)",
+            "スペイン語：portar(持つ) + foja(ファイル)"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The investment manager presented her ______ of stocks and bonds to the client.",
+          "hint": "『証券と債券の集合体』を表す単語",
+          "explanationFocus": "gap",
+          "choices": [
+            "portfolio",
+            "transport",
+            "report",
+            "opportunity"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "portfolioと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "diversified",
+            "heavy",
+            "ancient",
+            "bright"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She lost her entire investment portfolio in the market crash.\" — portfolioの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "投資資産の総集合",
+            "仕事の場所",
+            "書類ケース",
+            "運送ルート"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "His photography portfolio showcases his best work.",
+        "The company's investment portfolio includes tech stocks and bonds."
+      ]
+    },
+    {
+      "word": "deportation",
+      "phonetic": "/ˌdɛpɔrˈteɪʃən/",
+      "toeicRank": "750-850",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "～から（離れて）",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ",
+          "type": "root"
+        },
+        {
+          "part": "ation",
+          "meaning": "～という行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『～から運び出す』という意味から『国外追放』という法的概念に発展",
+        "fact": "ラテン語 'deportare'（de=から + portare=運ぶ）から。古代ローマではシベリアなどへの『強制移送』を意味していた。現代では『違法移民などを母国に運び戻す』という司法行為を指す",
+        "source": "EtymOnline: Latin deportare 'carry away, exile'",
+        "cognates": [
+          "deport",
+          "deported",
+          "transport",
+          "portable"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『力ずくで～から運ぶ』という物理的イメージで理解",
+        "fact": "接頭辞『de-』が『～から離れて』という方向性を加えることで、単なる『運ぶ』から『連れ出す、追い出す』という強制的ニュアンスに変化する",
+        "source": "接頭辞の組み合わせ学習"
+      },
+      "gap": "『運ぶ』という基本義から『国外に強制移送する』という法的・政治的意味への跳躍が理解しにくい",
+      "gapOneliner": "物理的動作から法的行為への意味の拡張",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『de(～から) + port(運ぶ)』＝強制的に『運び出す』→国外追放という刑罰行為に発展した歴史"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "deportationの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "国外追放、強制送還",
+            "輸送、運送",
+            "報告書の提出",
+            "運動能力"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "deportationはdeportという動詞に-ationが付いた形。deport自体の語源の接頭辞『de-』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "～から（離れて）",
+            "～に向かって",
+            "～の中で",
+            "～の上に"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The court ordered the illegal immigrant's ______ back to his home country.",
+          "hint": "『国外に運ぶという法的行為』を指す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "deportation",
+            "transportation",
+            "importation",
+            "proportion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "deportationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "facing",
+            "smooth",
+            "musical",
+            "colorful"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The threat of deportation hung over undocumented workers.\" — deportationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "国外追放の脅威",
+            "運送コストの脅威",
+            "報告書提出の脅威",
+            "行動の自由の脅威"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Many face deportation due to visa violations.",
+        "The deportation process can take several months."
+      ]
+    },
+    {
+      "word": "proportion",
+      "phonetic": "/prəˈpɔrʃən/",
+      "toeicRank": "600-700",
+      "parts": [
+        {
+          "part": "pro",
+          "meaning": "～に対して",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ、持つ",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "～という状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『相互に運ぶ、調和した関係』から『均衡、比例』という数学的・美学的概念へ発展",
+        "fact": "ラテン語 'proportio'（pro=～に対して + portio=部分、配分）から。古代建築では『柱と梁の調和した関係』を指していた。現代では『全体に対する部分の比率』という数学的用語として使用される",
+        "source": "EtymOnline: Latin proportio 'symmetry, proper relation'",
+        "cognates": [
+          "proportional",
+          "disproportionate",
+          "report",
+          "transport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『一つのもの（柱）が別のもの（梁）に対して持つ関係の大きさ』というイメージ",
+        "fact": "古代ギリシャの建築家たちが『美しい建物＝部分と全体の調和した配分』という概念から発展。現代の統計学や数学で『比率、比例』を意味するまでに抽象化された",
+        "source": "古代建築学から現代数学への概念発展"
+      },
+      "gap": "『運ぶ』という根の意味から『比率、均衡』という完全に異なる領域への意味の跳躍が理解しにくい",
+      "gapOneliner": "物理的『配分を運ぶ』から抽象的『数学的関係』への転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "建築家が『柱と梁の大きさの関係』を表すのに使った言葉→数学で『AがBに対して持つ比率』を意味するまで拡張"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "proportionの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "比率、均衡、比例",
+            "運送、輸送",
+            "報告、記者会見",
+            "支援者、信奉者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "proportionの語源 'proportio' は『pro-』と何という単語の組み合わせ？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "portio（部分、配分）",
+            "portus（港）",
+            "porta（扉）",
+            "porto（港町）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of women to men in this company is 2:1.",
+          "hint": "『全体に対する部分の関係、比率』を指す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "proportion",
+            "portion",
+            "position",
+            "promotion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "proportionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "large",
+            "beautiful",
+            "heavy",
+            "ancient"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The architect designed the building with perfect proportions.\" — proportionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "調和した部分と全体の関係",
+            "運送計画",
+            "報告書の内容",
+            "安全な配置"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The proportion of salt to water is important in the recipe.",
+        "The building's proportions were mathematically perfect."
+      ]
+    },
+    {
+      "word": "supporter",
+      "phonetic": "/səˈpɔrtər/",
+      "toeicRank": "550-650",
+      "parts": [
+        {
+          "part": "sup",
+          "meaning": "下から",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ、支える",
+          "type": "root"
+        },
+        {
+          "part": "er",
+          "meaning": "～する人、～する物",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『下から支える、持ち支える』という物理的支援から『精神的・政治的支援者』へ発展",
+        "fact": "ラテン語 'supportare'（sub=下から + portare=運ぶ）から。元々は『重い荷物を下から支えて運ぶ』という物理的行為を指していた。現代では『思想、候補者、チームなどを支持する人』という拡張された意味で使用される",
+        "source": "EtymOnline: Latin supportare 'sustain, endure'",
+        "cognates": [
+          "support",
+          "supporter",
+          "export",
+          "import"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『下から支える手』のイメージで『援助や支持をする人』を記憶",
+        "fact": "古代の農業社会で『重い荷物を下から支えて運ぶ人』という職業的役割から、現代では『政治家の支持者』『スポーツチームのファン』など多様な『支援関係』を表すまでに拡張した",
+        "source": "職業的役割から社会的役割への意味変化"
+      },
+      "gap": "『下から運ぶ』という物理的な単純な動作が『意見や信念に基づく複雑な支援関係』へと抽象化されていることが理解しにくい",
+      "gapOneliner": "物理的支援から心理的・政治的支援への意味の拡張",
+      "hook": {
+        "label": "記憶フック",
+        "text": "アスリートが誰かの肩を『下から支えて持ち上げる』→政治家やチームを『精神的に支える人』へと発展した概念"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "supporterの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "支援者、支持者、ファン",
+            "運送人",
+            "報告者",
+            "比率計算者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "supportの語源『supportare』は『sub-』（下から）と『portare』（運ぶ）の組み合わせ。これは本来どんな物理的行為を表していた？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "重い荷物を下から支えて運ぶ",
+            "上から見張る",
+            "前へ押し出す",
+            "側面から支える"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The team has millions of loyal ______ who attend every game.",
+          "hint": "『チームを支持する人』を指す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "supporters",
+            "porters",
+            "reporters",
+            "exporters"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "supporterと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "loyal",
+            "heavy",
+            "ancient",
+            "musical"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The presidential candidate's supporters rallied at the stadium.\" — supporterの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "支持者、支援者",
+            "運送業者",
+            "報告官",
+            "輸入業者"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The team's supporters cheered loudly from the stands.",
+        "He is a strong supporter of environmental protection."
+      ]
+    },
+    {
+      "word": "reportedly",
+      "phonetic": "/rɪˈpɔrtədli/",
+      "toeicRank": "700-800",
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "～に戻す、再び",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ、伝える",
+          "type": "root"
+        },
+        {
+          "part": "ed",
+          "meaning": "過去分詞",
+          "type": "suffix"
+        },
+        {
+          "part": "ly",
+          "meaning": "～のように、～として",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『情報を戻す、報告する』という行為から『伝えられるところによると』という推測的な言明へ発展",
+        "fact": "ラテン語 'reportare'（re=戻す + portare=運ぶ）から。元々は『情報や知らせを運び戻す』という意味の『報告する』という動詞。『reportedly』という副詞形になることで『伝えられるところでは、報道によれば』という『情報の信憑性が保証されていない』というニュアンスを獲得した",
+        "source": "EtymOnline: Latin reportare 'carry back, report'",
+        "cognates": [
+          "report",
+          "reporter",
+          "deport",
+          "transport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『情報を取材者が運び戻して伝える』→『それが事実かどうか不確定』というニュアンスを含むイメージ",
+        "fact": "ニュース業界での使用頻度が高く、『確証のない情報』『第三者からの伝聞』というジャーナリズム的な慎重さを表現するために発展した。『～ということが報道されている』という距離感が重要",
+        "source": "ニュース報道言語の発展"
+      },
+      "gap": "『報告する』という基本義から『伝えられるところでは（真偽不明）』という推測的なニュアンスへの意味の微妙な転換が理解しにくい",
+      "gapOneliner": "確定的な『報告』から推測的な『伝聞』への転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "記者が『情報を現場から持ち運んで報道する』→『それが本当かは分からない』という情報の不確実性を表現する言葉へ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "reportedlyの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "伝えられるところによると、報道によれば",
+            "運送されたとして",
+            "再び支援して",
+            "比率的に"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "reportの語源『reportare』が『re-』と『portare』の組み合わせだとすると、『情報を～運ぶ』という意味になる？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "戻す（現場から報告地点へ）",
+            "前へ",
+            "下へ",
+            "周囲に"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company ______ plans to expand its operations next year.",
+          "hint": "『伝えられるところでは』という意味で『情報の不確実性を示す』副詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "reportedly",
+            "reportedly",
+            "reportedly",
+            "reportedly"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "reportedlyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "considering",
+            "planning",
+            "transporting",
+            "bearing"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The celebrity is reportedly dating a famous actor.\" — reportedlyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "伝えられるところでは（確証がない）",
+            "報告書に基づいて",
+            "運送で",
+            "再び支援して"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He is reportedly the richest man in the country.",
+        "They are reportedly planning to get married next year."
+      ]
+    },
+    {
+      "word": "transportation",
+      "phonetic": "/ˌtrænspɔrˈteɪʃən/",
+      "toeicRank": "600-700",
+      "parts": [
+        {
+          "part": "trans",
+          "meaning": "～を越えて、一方から他方へ",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ",
+          "type": "root"
+        },
+        {
+          "part": "ation",
+          "meaning": "～という行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『一方から他方へ運ぶ』という物理的な移動から『人や物を運ぶシステム全体』という現代的概念へ発展",
+        "fact": "ラテン語 'transportare'（trans=～を越えて + portare=運ぶ）から。古代ローマでは『戦利品や奴隷を一つの場所から別の場所へ運ぶ』という意味だった。現代では『道路、鉄道、航空などを含む人や物の移動システム全体』を指す総括的な用語として使用される",
+        "source": "EtymOnline: Latin transportare 'carry across'",
+        "cognates": [
+          "transport",
+          "transporter",
+          "portable",
+          "deport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『AからBへ荷物を運ぶ人たちが乗り物で移動させる』という行為から『移動手段全体のシステム』へのスケール拡大",
+        "fact": "産業革命後、蒸気機関の発明により『馬車や徒歩だけでなく、鉄道や船などの複雑な運送システム』が発展。それを総括する概念として『transportation』が使用されるようになった",
+        "source": "産業革命による概念の変化"
+      },
+      "gap": "『運ぶ』という単純な物理的動作から『複雑な社会基盤システム』という高度に抽象化された概念への跳躍が理解しにくい",
+      "gapOneliner": "個別の『輸送行為』から社会全体の『インフラシステム』への規模拡大",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『馬で荷物を運ぶ』→『鉄道・船・飛行機を含む全ての移動手段』というテクノロジーの発展に伴う概念の膨張"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "transportationの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "輸送、運送、交通システム",
+            "国外追放",
+            "比率計算",
+            "支援"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "transportの語源『transportare』における『trans-』は何を意味する？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "～を越えて、一方から他方へ",
+            "下から",
+            "～の方へ",
+            "～に対して"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Public ______ is essential for reducing traffic congestion in cities.",
+          "hint": "『バスや電車などの人や物を運ぶシステム』を指す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "transportation",
+            "transposition",
+            "transformation",
+            "translation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "transportationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "public",
+            "ancient",
+            "beautiful",
+            "musical"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company invested in new transportation infrastructure.\" — transportationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "人や物を運ぶシステム",
+            "国外追放制度",
+            "数学的比率",
+            "情報報告"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The transportation system in Tokyo is very efficient.",
+        "We need to improve public transportation in rural areas."
+      ]
+    },
+    {
+      "word": "airport",
+      "phonetic": "/ˈɛrpɔrt/",
+      "toeicRank": "500-600",
+      "parts": [
+        {
+          "part": "air",
+          "meaning": "空気、空中",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "港、出発・到着地点",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『港』の概念を『空中の移動』に拡張したメタファーから生まれた造語",
+        "fact": "『port』は元々『港』を意味するラテン語 'portus' に由来。20世紀初頭、飛行機の時代が来ると、『飛行機が離着陸する場所』を『航空の港』という意味で『airport』と命名した。これは『陸上の港』『河川の港』と同じ概念を『空中』に適用したメタファーである",
+        "source": "EtymOnline: air + port (harbor)",
+        "cognates": [
+          "port",
+          "portage",
+          "portable",
+          "transport",
+          "seaport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『船が出発・到着する港』のイメージを『飛行機が離着陸する場所』に転換したアナロジー",
+        "fact": "飛行機という新しいテクノロジーが登場した時代に、既存の『港』という概念から『空港』という新しい概念を造成した。これは『陸上交通（道路）』『海上交通（港）』『空中交通（空港）』という異なる領域での『出発・到着地点』という共通概念の認識から生まれた",
+        "source": "メタファーによる新語造成の例"
+      },
+      "gap": "『港（港湾施設）』という具体的な物体から『空港（飛行場施設）』という異領域への概念の拡張を認識しにくい",
+      "gapOneliner": "『海上交通の出発地点』から『航空交通の出発地点』への概念の転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "『船の港』に対応する『飛行機の港』という比喩→『air + port』で『空港』という英語造語が成立した歴史"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "airportの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "空港",
+            "港",
+            "飛行場",
+            "運送地"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "airportはaと『port』（港）の組み合わせ。『port』の概念は本来どこで使われていた？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "船の出発・到着地点（海港）",
+            "陸上の交差点",
+            "情報通信地点",
+            "建設現場"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We arrived at the ______ three hours before our flight departure.",
+          "hint": "『飛行機が離着陸する施設』を指す名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "airport",
+            "port",
+            "transport",
+            "proportion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "airportと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "international",
+            "ancient",
+            "beautiful",
+            "musical"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new airport was built outside the city.\" — airportの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "飛行機が離着陸する施設",
+            "船の港",
+            "輸送システム",
+            "支援地点"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The airport is about 30 minutes from the city center.",
+        "International flights depart from Terminal 2 at the airport."
+      ]
+    },
+    {
+      "word": "opportune",
+      "phonetic": "/ˌɑpərˈtun/",
+      "toeicRank": "700-800",
+      "parts": [
+        {
+          "part": "ob",
+          "meaning": "～に向かって、～の前に",
+          "type": "prefix"
+        },
+        {
+          "part": "port",
+          "meaning": "運ぶ、持ってくる",
+          "type": "root"
+        },
+        {
+          "part": "une",
+          "meaning": "～という状態（ラテン語由来の接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『好都合な風に運んでくる』という意味から『最適なタイミング、丁度いい』という形容詞的概念へ発展",
+        "fact": "ラテン語 'opportunus'（ob=～に向かって + portus=港、または portare=運ぶ）から。古代ローマの海運業者は『好都合な風が船を港に向かって運んでくる』という状況を『opportune』と表現した。転じて『好都合なタイミング、丁度いい時期』という意味に拡張した",
+        "source": "EtymOnline: Latin opportunus 'fit, convenient, suitable'",
+        "cognates": [
+          "opportunity",
+          "import",
+          "importer",
+          "transport"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『帆船が好都合な風に運ばれて港に着く』という海洋的イメージから『好都合なタイミング』という時間的概念へ",
+        "fact": "古代ローマの船乗りたちが『目的の港に向かって好都合な風が吹く時期』を『opportune season』と呼んだことから、『最適な時間、丁度いいタイミング』という意味に拡張。現代では『好適な状況』『時宜を得た』という形容詞として使用される",
+        "source": "航海用語から時間概念への意味転換"
+      },
+      "gap": "『好都合な風が運んでくる』という具体的な物理的イメージから『丁度いい、最適な』という抽象的な時間評価への意味の転換が理解しにくい",
+      "gapOneliner": "物理的な『運び（輸送）』から時間的な『好都合さ（タイミング）』への意味転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "古い帆船が『好都合な風に運ばれて港に着く』→『最適なタイミングで願い事が叶う』という時間的な『好都合さ』へ拡張した概念"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "opportuneの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "好適な、最適な、丁度いい",
+            "運ばれた",
+            "国外追放された",
+            "支援した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "opportuneの語源『opportunus』で『ob-』が『～に向かって』を意味するとしたら、『port-』は本来何を表していた？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "港、または運ぶ（船が港に運ばれる）",
+            "支援",
+            "比率",
+            "報告"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ moment to launch the product is right now, while demand is high.",
+          "hint": "『最適な、好都合な』という意味の形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "opportune",
+            "portable",
+            "supported",
+            "proportional"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "opportuneと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "moment",
+            "ancient",
+            "beautiful",
+            "musical"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The conference is scheduled for an opportune time.\" — opportuneの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "好適な、最適な",
+            "運送される",
+            "支援される",
+            "比率的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "This is an opportune time to invest in the market.",
+        "The opportune moment came when she least expected it."
+      ]
+    }
+  ],
+  "fact_check": "APPROVED",
+  "checked_at": "2026-03-22"
+}

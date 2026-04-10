@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="75" fill="#14171A"/>
+  <text x="600" y="48" text-anchor="middle" fill="white" font-size="26" font-weight="bold">英文強弱パターン — 楽譜風ビジュアル</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="95" text-anchor="middle" fill="#657786" font-size="17">内容語（強）= ● / 機能語（弱）= ○</text>
+
+  <!-- Example Sentence 1 -->
+  <rect x="40" y="115" width="1120" height="160" rx="14" fill="#1a1f2e" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="70" y="148" fill="#1DA1F2" font-size="15" font-weight="bold">例文 1</text>
+
+  <!-- Music staff lines for sentence 1 -->
+  <line x1="70" y1="200" x2="1130" y2="200" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="215" x2="1130" y2="215" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="230" x2="1130" y2="230" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="245" x2="1130" y2="245" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="260" x2="1130" y2="260" stroke="#2d3748" stroke-width="1"/>
+
+  <!-- Word: I (function - weak) -->
+  <circle cx="120" cy="250" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="120" y="278" text-anchor="middle" fill="#657786" font-size="16">I</text>
+
+  <!-- Word: WANT (content - strong) -->
+  <circle cx="220" cy="200" r="18" fill="#1DA1F2"/>
+  <text x="220" y="206" text-anchor="middle" fill="white" font-size="13" font-weight="bold">●</text>
+  <text x="220" y="278" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold">WANT</text>
+
+  <!-- Word: to (function - weak) -->
+  <circle cx="310" cy="250" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="310" y="278" text-anchor="middle" fill="#657786" font-size="16">to</text>
+
+  <!-- Word: LEARN (content - strong) -->
+  <circle cx="420" cy="200" r="18" fill="#1DA1F2"/>
+  <text x="420" y="278" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold">LEARN</text>
+
+  <!-- Word: to (function - weak) -->
+  <circle cx="510" cy="250" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="510" y="278" text-anchor="middle" fill="#657786" font-size="16">to</text>
+
+  <!-- Word: SPEAK (content - strong) -->
+  <circle cx="610" cy="200" r="18" fill="#1DA1F2"/>
+  <text x="610" y="278" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold">SPEAK</text>
+
+  <!-- Word: ENGLISH (content - strong) -->
+  <circle cx="740" cy="200" r="18" fill="#e0245e"/>
+  <text x="740" y="278" text-anchor="middle" fill="#e0245e" font-size="16" font-weight="bold">ENGLISH</text>
+
+  <!-- Word: with (function - weak) -->
+  <circle cx="860" cy="250" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="860" y="278" text-anchor="middle" fill="#657786" font-size="16">with</text>
+
+  <!-- Word: CONFIDENCE (content - strong) -->
+  <circle cx="1000" cy="200" r="18" fill="#e0245e"/>
+  <text x="1000" y="278" text-anchor="middle" fill="#e0245e" font-size="16" font-weight="bold">CONFIDENCE</text>
+
+  <!-- Rhythm line connecting beats -->
+  <path d="M120,250 Q170,200 220,200 Q265,200 310,250 Q365,200 420,200 Q465,200 510,250 Q560,200 610,200 Q675,200 740,200 Q800,230 860,250 Q930,200 1000,200" fill="none" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Example Sentence 2 -->
+  <rect x="40" y="295" width="1120" height="160" rx="14" fill="#1a1f2e" stroke="#17bf63" stroke-width="1.5"/>
+  <text x="70" y="328" fill="#17bf63" font-size="15" font-weight="bold">例文 2</text>
+
+  <!-- Staff lines for sentence 2 -->
+  <line x1="70" y1="380" x2="1130" y2="380" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="395" x2="1130" y2="395" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="410" x2="1130" y2="410" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="425" x2="1130" y2="425" stroke="#2d3748" stroke-width="1"/>
+  <line x1="70" y1="440" x2="1130" y2="440" stroke="#2d3748" stroke-width="1"/>
+
+  <!-- She (function) -->
+  <circle cx="120" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="120" y="458" text-anchor="middle" fill="#657786" font-size="16">She</text>
+
+  <!-- TOLD (content) -->
+  <circle cx="220" cy="385" r="18" fill="#17bf63"/>
+  <text x="220" y="458" text-anchor="middle" fill="#17bf63" font-size="16" font-weight="bold">TOLD</text>
+
+  <!-- me (function) -->
+  <circle cx="305" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="305" y="458" text-anchor="middle" fill="#657786" font-size="16">me</text>
+
+  <!-- that (function) -->
+  <circle cx="380" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="380" y="458" text-anchor="middle" fill="#657786" font-size="16">that</text>
+
+  <!-- she (function) -->
+  <circle cx="450" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="450" y="458" text-anchor="middle" fill="#657786" font-size="16">she</text>
+
+  <!-- WANTED (content) -->
+  <circle cx="560" cy="385" r="18" fill="#17bf63"/>
+  <text x="560" y="458" text-anchor="middle" fill="#17bf63" font-size="16" font-weight="bold">WANTED</text>
+
+  <!-- to (function) -->
+  <circle cx="650" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="650" y="458" text-anchor="middle" fill="#657786" font-size="16">to</text>
+
+  <!-- COME (content) -->
+  <circle cx="740" cy="385" r="18" fill="#17bf63"/>
+  <text x="740" y="458" text-anchor="middle" fill="#17bf63" font-size="16" font-weight="bold">COME</text>
+
+  <!-- to (function) -->
+  <circle cx="820" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="820" y="458" text-anchor="middle" fill="#657786" font-size="16">to</text>
+
+  <!-- the (function) -->
+  <circle cx="890" cy="430" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="890" y="458" text-anchor="middle" fill="#657786" font-size="16">the</text>
+
+  <!-- PARTY (content) -->
+  <circle cx="990" cy="385" r="18" fill="#e0245e"/>
+  <text x="990" y="458" text-anchor="middle" fill="#e0245e" font-size="16" font-weight="bold">PARTY</text>
+
+  <!-- Rhythm line -->
+  <path d="M120,430 Q170,385 220,385 Q262,385 305,430 Q342,430 380,430 Q415,430 450,430 Q505,385 560,385 Q605,385 650,430 Q695,385 740,385 Q780,385 820,430 Q855,430 890,430 Q940,385 990,385" fill="none" stroke="#17bf63" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Legend -->
+  <rect x="40" y="475" width="1120" height="90" rx="14" fill="#1a1f2e"/>
+
+  <circle cx="120" cy="520" r="18" fill="#1DA1F2"/>
+  <text x="150" y="525" fill="white" font-size="16" font-weight="bold">内容語（強く・長く読む）</text>
+  <text x="150" y="548" fill="#657786" font-size="14">名詞 / 動詞 / 形容詞 / 副詞</text>
+
+  <circle cx="520" cy="520" r="14" fill="none" stroke="#657786" stroke-width="2"/>
+  <text x="550" y="525" fill="#657786" font-size="16" font-weight="bold">機能語（弱く・短く読む）</text>
+  <text x="550" y="548" fill="#657786" font-size="14">冠詞 / 前置詞 / 接続詞 / 代名詞</text>
+
+  <circle cx="920" cy="520" r="18" fill="#e0245e"/>
+  <text x="950" y="525" fill="white" font-size="16" font-weight="bold">特に強調される内容語</text>
+  <text x="950" y="548" fill="#657786" font-size="14">文末・重要情報</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="16">@ichi_eigo</text>
+</svg>

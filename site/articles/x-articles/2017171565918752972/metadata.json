@@ -1,0 +1,26 @@
+{
+  "tweet_id": "2017171565918752972",
+  "like_count": 228,
+  "created_at": "2026-03-30",
+  "topic": "リスニング × 処理速度 × 反射回路",
+  "theme": "字幕なしで聞き取れる人との差は「反射回路」。音→意味の自動化トレーニング。",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "タイムライン比較図",
+      "description": "処理速度の比較タイムライン（反射ありvs翻訳経由の時間差可視化）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "ロードマップ（フロー）",
+      "description": "反射回路構築ロードマップ（音の認識→即時変換→文脈処理の3フェーズ）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "native_real_link": "/",
+  "native_real_feature": "ListenUp",
+  "article_char_count": 413,
+  "article_char_limit": 800,
+  "tags": ["字幕なし", "反射回路", "処理速度", "自動化", "シャドーイング", "リスニング"]
+}

@@ -1,0 +1,96 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="52" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">日英音素対応マップ — 脳が「勝手に変換」する仕組み</text>
+
+  <!-- Section: 近い音（左列） -->
+  <rect x="40" y="110" width="520" height="50" rx="8" fill="#1DA1F2"/>
+  <text x="300" y="142" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold">日本語に「近い」英語音 ▶ 聞き取りやすい</text>
+
+  <!-- 近い音カード群 -->
+  <!-- p -->
+  <rect x="40" y="175" width="155" height="110" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="118" y="218" text-anchor="middle" fill="#1DA1F2" font-size="42" font-weight="bold">p</text>
+  <text x="118" y="248" text-anchor="middle" fill="#14171A" font-size="15">英: /p/ ≈ 日: パ行</text>
+  <text x="118" y="268" text-anchor="middle" fill="#657786" font-size="13">ほぼ同じ音</text>
+
+  <!-- t -->
+  <rect x="210" y="175" width="155" height="110" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="288" y="218" text-anchor="middle" fill="#1DA1F2" font-size="42" font-weight="bold">t</text>
+  <text x="288" y="248" text-anchor="middle" fill="#14171A" font-size="15">英: /t/ ≈ 日: タ行</text>
+  <text x="288" y="268" text-anchor="middle" fill="#657786" font-size="13">やや近い音</text>
+
+  <!-- k -->
+  <rect x="380" y="175" width="155" height="110" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="458" y="218" text-anchor="middle" fill="#1DA1F2" font-size="42" font-weight="bold">k</text>
+  <text x="458" y="248" text-anchor="middle" fill="#14171A" font-size="15">英: /k/ ≈ 日: カ行</text>
+  <text x="458" y="268" text-anchor="middle" fill="#657786" font-size="13">ほぼ同じ音</text>
+
+  <!-- s -->
+  <rect x="40" y="305" width="155" height="110" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="118" y="348" text-anchor="middle" fill="#1DA1F2" font-size="42" font-weight="bold">s</text>
+  <text x="118" y="378" text-anchor="middle" fill="#14171A" font-size="15">英: /s/ ≈ 日: サ行</text>
+  <text x="118" y="398" text-anchor="middle" fill="#657786" font-size="13">ほぼ同じ音</text>
+
+  <!-- m -->
+  <rect x="210" y="305" width="155" height="110" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="288" y="348" text-anchor="middle" fill="#1DA1F2" font-size="42" font-weight="bold">m</text>
+  <text x="288" y="378" text-anchor="middle" fill="#14171A" font-size="15">英: /m/ ≈ 日: マ行</text>
+  <text x="288" y="398" text-anchor="middle" fill="#657786" font-size="13">ほぼ同じ音</text>
+
+  <!-- n -->
+  <rect x="380" y="305" width="155" height="110" rx="10" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="458" y="348" text-anchor="middle" fill="#1DA1F2" font-size="42" font-weight="bold">n</text>
+  <text x="458" y="378" text-anchor="middle" fill="#14171A" font-size="15">英: /n/ ≈ 日: ナ行</text>
+  <text x="458" y="398" text-anchor="middle" fill="#657786" font-size="13">ほぼ同じ音</text>
+
+  <!-- 日本語音素数 -->
+  <rect x="40" y="435" width="520" height="60" rx="8" fill="#E8F5FE" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="300" y="470" text-anchor="middle" fill="#14171A" font-size="18">日本語の音素数: 約25　→　英語の音素数: 約44</text>
+
+  <!-- Divider -->
+  <line x1="600" y1="110" x2="600" y2="630" stroke="#AAB8C2" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Section: 全く異なる音（右列） -->
+  <rect x="640" y="110" width="520" height="50" rx="8" fill="#E0245E"/>
+  <text x="900" y="142" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold">日本語に「ない」英語音 ▶ 脳が誤変換する</text>
+
+  <!-- r/l -->
+  <rect x="640" y="175" width="240" height="110" rx="10" fill="#FFFFFF" stroke="#E0245E" stroke-width="2"/>
+  <text x="760" y="218" text-anchor="middle" fill="#E0245E" font-size="38" font-weight="bold">r / l</text>
+  <text x="760" y="248" text-anchor="middle" fill="#14171A" font-size="15">日本語「ラ行」に混在</text>
+  <text x="760" y="270" text-anchor="middle" fill="#657786" font-size="13">→ 区別できず両方「ラ」に聞こえる</text>
+
+  <!-- th -->
+  <rect x="900" y="175" width="240" height="110" rx="10" fill="#FFFFFF" stroke="#E0245E" stroke-width="2"/>
+  <text x="1020" y="218" text-anchor="middle" fill="#E0245E" font-size="38" font-weight="bold">θ / ð</text>
+  <text x="1020" y="248" text-anchor="middle" fill="#14171A" font-size="15">th音（有声・無声）</text>
+  <text x="1020" y="270" text-anchor="middle" fill="#657786" font-size="13">→ 「ス」「ザ」に誤変換</text>
+
+  <!-- æ -->
+  <rect x="640" y="305" width="240" height="110" rx="10" fill="#FFFFFF" stroke="#E0245E" stroke-width="2"/>
+  <text x="760" y="348" text-anchor="middle" fill="#E0245E" font-size="38" font-weight="bold">æ</text>
+  <text x="760" y="378" text-anchor="middle" fill="#14171A" font-size="15">cat の短母音</text>
+  <text x="760" y="400" text-anchor="middle" fill="#657786" font-size="13">→ 「ア」または「エ」に誤変換</text>
+
+  <!-- v -->
+  <rect x="900" y="305" width="240" height="110" rx="10" fill="#FFFFFF" stroke="#E0245E" stroke-width="2"/>
+  <text x="1020" y="348" text-anchor="middle" fill="#E0245E" font-size="38" font-weight="bold">v</text>
+  <text x="1020" y="378" text-anchor="middle" fill="#14171A" font-size="15">下唇・上歯の摩擦音</text>
+  <text x="1020" y="400" text-anchor="middle" fill="#657786" font-size="13">→ 「バ行」に誤変換</text>
+
+  <!-- 対策メッセージ -->
+  <rect x="640" y="435" width="520" height="60" rx="8" fill="#FFF0F3" stroke="#E0245E" stroke-width="1"/>
+  <text x="900" y="462" text-anchor="middle" fill="#E0245E" font-size="17" font-weight="bold">対策: まず「この音は日本語にない」と知識として認識する</text>
+  <text x="900" y="484" text-anchor="middle" fill="#14171A" font-size="16">知っていれば脳は「別カテゴリー」として処理を始める</text>
+
+  <!-- Bottom caption -->
+  <text x="600" y="590" text-anchor="middle" fill="#657786" font-size="18">知覚的同化（Perceptual Assimilation）— 脳は未知の音を既知の音に当てはめる</text>
+  <text x="600" y="618" text-anchor="middle" fill="#14171A" font-size="16">音の地図を作る第一歩は「どの音が日本語にないか」をリスト化すること</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

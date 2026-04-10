@@ -1,0 +1,46 @@
+name: ReadUp 日次チェック
+
+on:
+  schedule:
+    - cron: '7 0 * * *'   # JST 9:07（UTC 0:07）
+  workflow_dispatch:       # 手動実行も可能
+
+permissions:
+  contents: write          # stories.js の自動コミット用
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      # ── チェック1: 品質チェック ──────────────────────────
+      - name: check_stories.py
+        run: python3 reading/series/check_stories.py --errors-only
+
+      # ── チェック2: vocab_notes 欠け → 自動追加 ──────────
+      # APIクレジットがある場合は自動生成・コミット
+      # クレジット切れでもチェックまでは動く（continue-on-error）
+      - name: add_vocab_notes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 reading/series/add_vocab_notes.py
+        continue-on-error: true   # クレジット切れでも後続ステップを続行
+
+      # ── stories.js に変更があれば自動コミット ────────────
+      - name: Commit vocab_notes if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet reading/series/stories.js || \
+            (git add reading/series/stories.js && \
+             git commit -m "auto: vocab_notes 自動追加 [skip ci]" && \
+             git push)

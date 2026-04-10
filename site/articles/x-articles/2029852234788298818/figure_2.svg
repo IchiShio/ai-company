@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <marker id="arrow-blue2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000018"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#14171A">通勤中 英語独り言 実践ステップ</text>
+  <text x="600" y="78" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">1日5分から始められる「直接回路」トレーニング</text>
+
+  <!-- Timeline line -->
+  <line x1="100" y1="360" x2="1100" y2="360" stroke="#E1E8ED" stroke-width="3"/>
+
+  <!-- Step 1 -->
+  <circle cx="180" cy="360" r="28" fill="#1DA1F2" filter="url(#shadow2)"/>
+  <text x="180" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">1</text>
+  <!-- Card above -->
+  <rect x="100" y="150" width="160" height="185" rx="12" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="180" y="178" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#1DA1F2">STEP 1</text>
+  <text x="180" y="200" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">目の前を</text>
+  <text x="180" y="220" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">一言で言う</text>
+  <text x="180" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「A red bus.」</text>
+  <text x="180" y="266" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「Many people.」</text>
+  <text x="180" y="284" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">単語1〜2語でOK</text>
+  <rect x="120" y="297" width="120" height="24" rx="6" fill="#E8F5FD"/>
+  <text x="180" y="313" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" font-weight="bold">Week 1〜2</text>
+  <!-- connector line -->
+  <line x1="180" y1="335" x2="180" y2="332" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 2 -->
+  <circle cx="420" cy="360" r="28" fill="#1DA1F2" filter="url(#shadow2)"/>
+  <text x="420" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">2</text>
+  <!-- Card below -->
+  <rect x="340" y="400" width="160" height="185" rx="12" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="420" y="428" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#1DA1F2">STEP 2</text>
+  <text x="420" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">短い文に</text>
+  <text x="420" y="470" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">伸ばす</text>
+  <text x="420" y="498" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「The bus is late.」</text>
+  <text x="420" y="516" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「It's getting cold.」</text>
+  <text x="420" y="534" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">be動詞・現在進行形</text>
+  <rect x="360" y="547" width="120" height="24" rx="6" fill="#E8F5FD"/>
+  <text x="420" y="563" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" font-weight="bold">Week 3〜4</text>
+
+  <!-- Step 3 -->
+  <circle cx="660" cy="360" r="28" fill="#1DA1F2" filter="url(#shadow2)"/>
+  <text x="660" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">3</text>
+  <!-- Card above -->
+  <rect x="580" y="150" width="160" height="185" rx="12" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="660" y="178" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#1DA1F2">STEP 3</text>
+  <text x="660" y="200" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">感情・意見を</text>
+  <text x="660" y="220" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">加える</text>
+  <text x="660" y="248" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「I feel tired today.」</text>
+  <text x="660" y="266" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">「I wish it was sunny.」</text>
+  <text x="660" y="284" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">自分の内面を英語化</text>
+  <rect x="600" y="297" width="120" height="24" rx="6" fill="#E8F5FD"/>
+  <text x="660" y="313" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" font-weight="bold">Month 2</text>
+  <line x1="660" y1="335" x2="660" y2="332" stroke="#1DA1F2" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Step 4 -->
+  <circle cx="900" cy="360" r="28" fill="#1DA1F2" filter="url(#shadow2)"/>
+  <text x="900" y="366" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">4</text>
+  <!-- Card below -->
+  <rect x="820" y="400" width="160" height="185" rx="12" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2" filter="url(#shadow2)"/>
+  <text x="900" y="428" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#1DA1F2">STEP 4</text>
+  <text x="900" y="450" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">連続描写で</text>
+  <text x="900" y="470" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#14171A">流暢さを育てる</text>
+  <text x="900" y="498" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">「I'm on the train now.</text>
+  <text x="900" y="514" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">It's really crowded.」</text>
+  <text x="900" y="532" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">30秒間続ける</text>
+  <rect x="840" y="547" width="120" height="24" rx="6" fill="#E8F5FD"/>
+  <text x="900" y="563" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#1DA1F2" font-weight="bold">Month 3〜</text>
+
+  <!-- Goal badge -->
+  <circle cx="1080" cy="360" r="50" fill="#14171A" filter="url(#shadow2)"/>
+  <text x="1080" y="352" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#1DA1F2">直接回路</text>
+  <text x="1080" y="372" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">完成！</text>
+
+  <!-- Bottom note -->
+  <rect x="300" y="622" width="600" height="36" rx="8" fill="#1DA1F2" opacity="0.12"/>
+  <text x="600" y="645" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="bold">ポイント：日本語に戻らない。「言えない」ときは単語1語で乗り越える</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

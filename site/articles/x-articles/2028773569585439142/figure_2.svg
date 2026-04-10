@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="white" font-size="28" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+    いきなりシャドーイング vs 4ステップ手順 — 効果比較
+  </text>
+
+  <!-- Column headers -->
+  <rect x="50" y="96" width="510" height="56" rx="10" fill="#E0245E"/>
+  <text x="305" y="130" text-anchor="middle" fill="white" font-size="22" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">❌ いきなりシャドーイング</text>
+
+  <rect x="640" y="96" width="510" height="56" rx="10" fill="#17BF63"/>
+  <text x="895" y="130" text-anchor="middle" fill="white" font-size="22" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">✅ 4ステップ手順</text>
+
+  <!-- Row labels (left side) -->
+  <!-- Row 1 -->
+  <rect x="50" y="168" width="510" height="70" rx="8" fill="white" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="305" y="197" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">意味の処理</text>
+  <text x="305" y="222" text-anchor="middle" fill="#E0245E" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音を追うだけ。意味不明のまま</text>
+
+  <rect x="640" y="168" width="510" height="70" rx="8" fill="white" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="895" y="197" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">意味の処理</text>
+  <text x="895" y="222" text-anchor="middle" fill="#17BF63" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">意味を把握した上で音声練習</text>
+
+  <!-- Row 2 -->
+  <rect x="50" y="254" width="510" height="70" rx="8" fill="white" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="305" y="283" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">脳への負荷</text>
+  <text x="305" y="308" text-anchor="middle" fill="#E0245E" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">オーバーロード → パンク</text>
+
+  <rect x="640" y="254" width="510" height="70" rx="8" fill="white" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="895" y="283" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">脳への負荷</text>
+  <text x="895" y="308" text-anchor="middle" fill="#17BF63" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">段階的に慣れるので持続できる</text>
+
+  <!-- Row 3 -->
+  <rect x="50" y="340" width="510" height="70" rx="8" fill="white" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="305" y="369" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">発音の正確さ</text>
+  <text x="305" y="394" text-anchor="middle" fill="#E0245E" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">聞こえた音をそのまま → 誤習得</text>
+
+  <rect x="640" y="340" width="510" height="70" rx="8" fill="white" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="895" y="369" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">発音の正確さ</text>
+  <text x="895" y="394" text-anchor="middle" fill="#17BF63" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">音読で確認済み → 正確に上達</text>
+
+  <!-- Row 4 -->
+  <rect x="50" y="426" width="510" height="70" rx="8" fill="white" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="305" y="455" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">リスニング力の向上</text>
+  <text x="305" y="480" text-anchor="middle" fill="#E0245E" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">ほぼ変化なし（音声体操で終わる）</text>
+
+  <rect x="640" y="426" width="510" height="70" rx="8" fill="white" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="895" y="455" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">リスニング力の向上</text>
+  <text x="895" y="480" text-anchor="middle" fill="#17BF63" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">2〜4週間で実感できる変化あり</text>
+
+  <!-- Row 5 -->
+  <rect x="50" y="512" width="510" height="70" rx="8" fill="#FFF0F3" stroke="#E0245E" stroke-width="1.5"/>
+  <text x="305" y="541" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">継続率</text>
+  <text x="305" y="566" text-anchor="middle" fill="#E0245E" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">しんどい → 1週間で挫折しがち</text>
+
+  <rect x="640" y="512" width="510" height="70" rx="8" fill="#F0FFF4" stroke="#17BF63" stroke-width="1.5"/>
+  <text x="895" y="541" text-anchor="middle" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">継続率</text>
+  <text x="895" y="566" text-anchor="middle" fill="#17BF63" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">達成感がある → 続けやすい</text>
+
+  <!-- VS badge center -->
+  <circle cx="600" cy="368" r="36" fill="#14171A"/>
+  <text x="600" y="378" text-anchor="middle" fill="white" font-size="22" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">VS</text>
+
+  <!-- Bottom CTA -->
+  <rect x="50" y="598" width="1100" height="50" rx="10" fill="#1DA1F2" opacity="0.13"/>
+  <text x="600" y="629" text-anchor="middle" fill="#1DA1F2" font-size="18" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+    native-real.com のリスニング練習で「聞く力の土台」を先に作ろう →
+  </text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

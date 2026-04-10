@@ -1,0 +1,27 @@
+{
+  "post_id": "2017432650609500585",
+  "likes": 39,
+  "theme": "「ネイティブはそう言わない」への過敏さが英語を止める。伝わる英語優先の思考法。",
+  "native_real_link": "/grammar/",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "description": "完璧主義 vs 伝達優先の上達曲線比較",
+      "type": "line_chart"
+    },
+    {
+      "filename": "figure_2.svg",
+      "description": "英語表現の許容範囲マップ（コア表現→バリエーション→地域差の同心円）",
+      "type": "concentric_circle_map"
+    }
+  ],
+  "article_file": "article.md",
+  "fact_check_file": "fact_check.md",
+  "created_at": "2026-03-30",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  },
+  "credit": "@ichi_eigo"
+}

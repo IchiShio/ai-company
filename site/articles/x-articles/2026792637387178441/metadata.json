@@ -1,0 +1,32 @@
+{
+  "id": "2026792637387178441",
+  "likes": 126,
+  "created_at": "2026-03-30",
+  "article": {
+    "title": "\"I understand\"だけじゃ感情が伝わらない。返事のニュアンス5段階使い分け",
+    "file": "article.md",
+    "word_count_approx": 560,
+    "native_real_link": "/grammar/",
+    "tags": ["英会話", "ニュアンス", "感情表現", "フレーズ"]
+  },
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "type": "感情温度計",
+      "description": "冷静→共感の軸で5つの「わかった」表現を縦に配置"
+    },
+    {
+      "file": "figure_2.svg",
+      "type": "シーン別使い分けチェックリスト",
+      "description": "5シーンごとにおすすめ・避けるフレーズと理由を一覧表示"
+    }
+  ],
+  "fact_check": {
+    "file": "fact_check.md",
+    "result": "PASS",
+    "checked_at": "2026-03-30"
+  },
+  "source_tweet": {
+    "text": "英語の「わかった」にも段階がある。\"I understand\"は事務的に聞こえることも。\"Got it\", \"Makes sense\", \"I see\"を使い分けると会話の温度が変わる。日本人が苦手な感情乗せ表現の話。"
+  }
+}

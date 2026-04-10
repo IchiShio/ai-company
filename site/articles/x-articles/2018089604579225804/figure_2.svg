@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg_p3f2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg_p3f2)" />
+
+  <!-- Title -->
+  <text x="600" y="56" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">インプット vs アウトプット 最適時間配分</text>
+  <text x="600" y="86" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786" text-anchor="middle">レベル別・目的別の推奨比率マトリクス</text>
+  <line x1="80" y1="104" x2="1120" y2="104" stroke="#657786" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Header row -->
+  <rect x="80" y="118" width="200" height="48" rx="6" fill="#14171A" stroke="#657786" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="180" y="148" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">レベル / 目的</text>
+
+  <rect x="290" y="118" width="230" height="48" rx="6" fill="#E0245E" fill-opacity="0.2" stroke="#E0245E" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="405" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#E0245E" text-anchor="middle">インプット</text>
+  <text x="405" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#AAB8C2" text-anchor="middle">読む・聴く・見る</text>
+
+  <rect x="530" y="118" width="230" height="48" rx="6" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="645" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">アウトプット</text>
+  <text x="645" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#AAB8C2" text-anchor="middle">話す・書く・音読・シャドーイング</text>
+
+  <rect x="770" y="118" width="350" height="48" rx="6" fill="#17BF63" fill-opacity="0.15" stroke="#17BF63" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="945" y="140" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#17BF63" text-anchor="middle">具体的な方法</text>
+  <text x="945" y="158" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#AAB8C2" text-anchor="middle">（実践例）</text>
+
+  <!-- Row 1: 初心者 -->
+  <rect x="80" y="176" width="1040" height="80" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#657786" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="180" y="210" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#cccccc" text-anchor="middle">初心者</text>
+  <text x="180" y="232" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">CEFR A1-A2</text>
+
+  <!-- Bar for 初心者: Input 60%, Output 40% -->
+  <rect x="295" y="196" width="138" height="40" rx="6" fill="#E0245E" fill-opacity="0.6"/>
+  <text x="364" y="221" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">60%</text>
+  <rect x="535" y="196" width="92" height="40" rx="6" fill="#1DA1F2" fill-opacity="0.7"/>
+  <text x="581" y="221" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">40%</text>
+
+  <text x="785" y="207" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">教材読み・音声モデル聴取 + 音読・リピート練習</text>
+  <text x="785" y="228" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">まず「正しい音」を体に入れることが最優先</text>
+  <text x="785" y="247" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">アウトプットは音読・シャドーイングから始める</text>
+
+  <!-- Row 2: 中級者 -->
+  <rect x="80" y="266" width="1040" height="80" rx="8" fill="#1DA1F2" fill-opacity="0.04" stroke="#1DA1F2" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="180" y="300" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#1DA1F2" text-anchor="middle">中級者</text>
+  <text x="180" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">CEFR B1-B2</text>
+
+  <!-- Bar for 中級者: Input 35%, Output 65% -->
+  <rect x="295" y="286" width="80.5" height="40" rx="6" fill="#E0245E" fill-opacity="0.6"/>
+  <text x="335" y="311" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">35%</text>
+  <rect x="535" y="286" width="149.5" height="40" rx="6" fill="#1DA1F2" fill-opacity="0.8"/>
+  <text x="609" y="311" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">65%</text>
+
+  <text x="785" y="297" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">ポッドキャスト・映画 + 独り言英語・日記・会話</text>
+  <text x="785" y="318" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">インプットは「理解できる+1」レベルに絞る</text>
+  <text x="785" y="337" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">← 最も伸びる黄金期。アウトプット最大化を</text>
+
+  <!-- Row 3: 上級者 -->
+  <rect x="80" y="356" width="1040" height="80" rx="8" fill="#ffffff" fill-opacity="0.025" stroke="#657786" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="180" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#cccccc" text-anchor="middle">上級者</text>
+  <text x="180" y="412" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">CEFR C1以上</text>
+
+  <!-- Bar for 上級者: Input 30%, Output 70% -->
+  <rect x="295" y="376" width="69" height="40" rx="6" fill="#E0245E" fill-opacity="0.5"/>
+  <text x="329" y="401" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">30%</text>
+  <rect x="535" y="376" width="161" height="40" rx="6" fill="#1DA1F2" fill-opacity="0.75"/>
+  <text x="615" y="401" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">70%</text>
+
+  <text x="785" y="387" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">専門分野の英文 + プレゼン・議論・ライティング</text>
+  <text x="785" y="408" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">語彙・表現の幅を広げながら実践中心</text>
+  <text x="785" y="427" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">ネイティブとの実会話が最も効率的</text>
+
+  <!-- Row 4: 「勉強」しかしていない人 -->
+  <rect x="80" y="446" width="1040" height="80" rx="8" fill="#E0245E" fill-opacity="0.05" stroke="#E0245E" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="180" y="476" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#E0245E" text-anchor="middle">伸び悩み型</text>
+  <text x="180" y="498" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="middle">（暗記中心）</text>
+
+  <!-- Bar for 伸び悩み型: Input 90%, Output 10% -->
+  <rect x="295" y="462" width="207" height="40" rx="6" fill="#E0245E" fill-opacity="0.7"/>
+  <text x="398" y="487" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">90%</text>
+  <rect x="535" y="462" width="23" height="40" rx="6" fill="#1DA1F2" fill-opacity="0.5"/>
+  <text x="546" y="487" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">10</text>
+
+  <text x="785" y="473" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">参考書・単語帳 + ほぼなし</text>
+  <text x="785" y="494" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#E0245E">知識は増えるが、話せない状態が続く</text>
+  <text x="785" y="515" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2">「準備ができたら話そう」が永遠のループに</text>
+
+  <!-- Bar scale label -->
+  <text x="295" y="545" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">0%</text>
+  <text x="518" y="545" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">50%</text>
+  <text x="750" y="545" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">100%</text>
+  <line x1="295" y1="538" x2="759" y2="538" stroke="#657786" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Legend -->
+  <rect x="295" y="556" width="20" height="14" rx="3" fill="#E0245E" fill-opacity="0.7"/>
+  <text x="322" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#cccccc">インプット（読む・聴く）</text>
+  <rect x="490" y="556" width="20" height="14" rx="3" fill="#1DA1F2" fill-opacity="0.8"/>
+  <text x="517" y="568" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#cccccc">アウトプット（話す・書く・音読）</text>
+
+  <!-- Bottom insight -->
+  <rect x="80" y="585" width="1040" height="44" rx="10" fill="#17BF63" fill-opacity="0.10" stroke="#17BF63" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="120" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#17BF63" font-weight="700">結論:</text>
+  <text x="185" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">どのレベルでも、アウトプットが4割を下回ると「知識は増えるが話せない」状態になりやすい。</text>
+  <text x="120" y="622" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc">「準備ができたら話そう」は禁物。不完全でも今すぐ口を動かすことが唯一の近道。</text>
+
+  <!-- Credit -->
+  <text x="1168" y="658" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

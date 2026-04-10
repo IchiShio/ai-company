@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="58" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">適切な学習負荷の3ゾーン</text>
+  <text x="600" y="88" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">Comfort Zone / Learning Zone / Panic Zone</text>
+
+  <!-- Zone circles (concentric) -->
+  <!-- Panic Zone (outer) -->
+  <ellipse cx="600" cy="370" rx="440" ry="250" fill="#e74c3c" opacity="0.18"/>
+  <ellipse cx="600" cy="370" rx="440" ry="250" fill="none" stroke="#e74c3c" stroke-width="2.5" stroke-dasharray="8,4"/>
+
+  <!-- Learning Zone (middle) -->
+  <ellipse cx="600" cy="370" rx="300" ry="170" fill="#1DA1F2" opacity="0.22"/>
+  <ellipse cx="600" cy="370" rx="300" ry="170" fill="none" stroke="#1DA1F2" stroke-width="3"/>
+
+  <!-- Comfort Zone (inner) -->
+  <ellipse cx="600" cy="370" rx="160" ry="90" fill="#2ecc71" opacity="0.30"/>
+  <ellipse cx="600" cy="370" rx="160" ry="90" fill="none" stroke="#2ecc71" stroke-width="3"/>
+
+  <!-- Zone labels -->
+  <!-- Comfort Zone label -->
+  <text x="600" y="362" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#2ecc71">快適ゾーン</text>
+  <text x="600" y="385" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a8d5b8">Comfort Zone</text>
+
+  <!-- Learning Zone label -->
+  <text x="820" y="295" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#1DA1F2">学習ゾーン</text>
+  <text x="820" y="318" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#7ec8f0">Learning Zone</text>
+  <!-- Arrow pointing to learning zone -->
+  <line x1="770" y1="325" x2="730" y2="348" stroke="#1DA1F2" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Panic Zone label -->
+  <text x="950" y="200" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="700" fill="#e74c3c">パニックゾーン</text>
+  <text x="950" y="223" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#f09090">Panic Zone</text>
+  <!-- Arrow pointing to panic zone -->
+  <line x1="920" y1="230" x2="880" y2="260" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Description callouts -->
+  <!-- Comfort Zone desc -->
+  <rect x="30" y="540" width="320" height="90" rx="10" fill="#1a2e1a" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="50" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#2ecc71">快適ゾーン</text>
+  <text x="50" y="586" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">すでに知っている表現・速度</text>
+  <text x="50" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">→ 脳は成長しない</text>
+  <text x="50" y="622" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">例: 何度も見た同じ教材</text>
+
+  <!-- Learning Zone desc -->
+  <rect x="440" y="540" width="320" height="90" rx="10" fill="#132030" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="460" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2">学習ゾーン ← ここを狙え</text>
+  <text x="460" y="586" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">7〜8割わかる少し難しい素材</text>
+  <text x="460" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">→ 最も効率よく伸びる</text>
+  <text x="460" y="622" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">例: +1段階難しいポッドキャスト</text>
+
+  <!-- Panic Zone desc -->
+  <rect x="850" y="540" width="320" height="90" rx="10" fill="#2e1a1a" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="870" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#e74c3c">パニックゾーン</text>
+  <text x="870" y="586" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">半分以上わからない素材</text>
+  <text x="870" y="604" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#CCCCCC">→ 挫折・やる気喪失の原因</text>
+  <text x="870" y="622" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">例: TOEIC 400点でTED生英語</text>
+
+  <!-- Sweet spot arrow -->
+  <text x="600" y="480" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" font-weight="600">↑ スイートスポット：今より「少しだけ」難しい素材</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#FFFFFF"/>
+  <rect width="1200" height="8" fill="#1DA1F2"/>
+
+  <!-- Header -->
+  <rect x="0" y="8" width="1200" height="82" fill="#14171A"/>
+  <text x="60" y="55" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">シーン別「わかった」使い分けチェックリスト</text>
+  <text x="60" y="76" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#AAB8C2">状況に合った一言が会話の温度を変える</text>
+
+  <!-- Column headers -->
+  <text x="60" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#657786">シーン</text>
+  <text x="340" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#657786">おすすめフレーズ</text>
+  <text x="640" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#657786">避けるフレーズ</text>
+  <text x="900" y="130" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#657786">理由</text>
+  <line x1="40" y1="138" x2="1160" y2="138" stroke="#E1E8ED" stroke-width="1.5"/>
+
+  <!-- Row 1 -->
+  <rect x="40" y="148" width="1120" height="64" rx="6" fill="#F5F8FA"/>
+  <text x="60" y="172" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">📧 ビジネスメール</text>
+  <text x="60" y="196" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">上司・取引先への返信</text>
+  <text x="340" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#0D8FD8">I understand.</text>
+  <text x="640" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#E0544F">Got it.</text>
+  <text x="900" y="180" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">カジュアルすぎる</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="220" width="1120" height="64" rx="6" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="60" y="244" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">💬 日常会話・職場</text>
+  <text x="60" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">同僚からの指示・説明</text>
+  <text x="340" y="252" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#0D8FD8">Got it. / Makes sense.</text>
+  <text x="640" y="252" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#E0544F">I understand.</text>
+  <text x="900" y="252" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">硬すぎて距離感が出る</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="292" width="1120" height="64" rx="6" fill="#F5F8FA"/>
+  <text x="60" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">🧠 技術的な説明を聞いた後</text>
+  <text x="60" y="340" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">複雑な仕組みを理解した場面</text>
+  <text x="340" y="324" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#0D8FD8">Makes sense. / I see.</text>
+  <text x="640" y="324" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#E0544F">OK.</text>
+  <text x="900" y="324" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">理解した感が薄い</text>
+
+  <!-- Row 4 -->
+  <rect x="40" y="364" width="1120" height="64" rx="6" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="60" y="388" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">😔 友人が悩みを打ち明けた</text>
+  <text x="60" y="412" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">感情的なサポートが必要な場面</text>
+  <text x="340" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#0D8FD8">That makes total sense.</text>
+  <text x="640" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#E0544F">I understand.</text>
+  <text x="900" y="396" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">冷たく聞こえる</text>
+
+  <!-- Row 5 -->
+  <rect x="40" y="436" width="1120" height="64" rx="6" fill="#F5F8FA"/>
+  <text x="60" y="460" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">🎉 相手のアイデアに強く同意</text>
+  <text x="60" y="484" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">ブレスト・アイデア共有の場面</text>
+  <text x="340" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="bold" fill="#0D8FD8">Absolutely! / Totally!</text>
+  <text x="640" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#E0544F">Got it.</text>
+  <text x="900" y="468" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">熱量が伝わらない</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="518" x2="1160" y2="518" stroke="#E1E8ED" stroke-width="1.5"/>
+
+  <!-- Tip box -->
+  <rect x="40" y="530" width="1120" height="60" rx="8" fill="#E8F5FF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="65" y="556" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">💡 ポイント</text>
+  <text x="65" y="578" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#14171A">"I understand" は間違いではない。ただし「感情のない正解」になりがち。相手との距離感に合わせた選択を。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,944 @@
+{
+  "root_id": "pend",
+  "words": [
+    {
+      "word": "compensation",
+      "phonetic": "ˌkɑːmpənˈseɪʃən",
+      "toeicRank": 730,
+      "parts": [
+        {
+          "part": "com-",
+          "meaning": "共に、一緒に",
+          "type": "prefix"
+        },
+        {
+          "part": "pens",
+          "meaning": "量る、重さで釣り合わせる、ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "-ation",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "相互に釣り合わせる行為から、埋め合わせ・補償の意味へ",
+        "fact": "ラテン語compensareは『com-（共に）+ pensare（量る、釣り合わせる）』から。天秤で互いの重さを釣り合わせる動作が語源。",
+        "source": "EtymOnline: compensate（c.1600）< Latin compensatus",
+        "cognates": [
+          "compensate",
+          "dispense",
+          "expense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "天秤のイメージ：失ったものと同等の価値を与えて釣り合わせる",
+        "fact": "補償とは損害と利益を天秤にかけて『釣り合わせる』こと。失ったものに対して等価の代わりを提供する仕組み。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "補償・報酬・賠償金という意味だが、『釣り合わせる』という根本的な仕組みを理解することで、なぜ対価を指すのかが明確になる",
+      "gapOneliner": "天秤で釣り合わせる動作→失ったものと等価の対価を与えることへの概念転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "天秤の両端に損害と報酬を置いて『バランスを取る』＝compensation"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "compensationの最も適切な日本語訳は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "補償、報酬",
+            "懲罰",
+            "拒否",
+            "延期"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "compensationの『comp-』と『pens』が示す根本的な意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "共に釣り合わせる",
+            "一緒に下げる",
+            "共に数える",
+            "一緒に支払う"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The company offered generous ______ to employees affected by the restructuring.",
+          "hint": "天秤で釣り合わせる価値あるもの",
+          "explanationFocus": "gap",
+          "choices": [
+            "compensation",
+            "suspension",
+            "pension",
+            "expenditure"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "compensationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "financial compensation（金銭補償）",
+            "rapid compensation",
+            "silent compensation",
+            "brief compensation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The insurance company refused to provide compensation for the damage.\" — compensationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "損害に対する金銭的埋め合わせ",
+            "保険契約の拒否",
+            "損害調査",
+            "賠償期限"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The accident victim received substantial compensation.",
+        "Employees demanded fair compensation for their overtime work.",
+        "Insurance provides compensation for medical expenses."
+      ]
+    },
+    {
+      "word": "dependent",
+      "phonetic": "dɪˈpendənt",
+      "toeicRank": 640,
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "下へ、から",
+          "type": "prefix"
+        },
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる、懸かる",
+          "type": "root"
+        },
+        {
+          "part": "-ent",
+          "meaning": "～である状態、～するもの",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "何かに『ぶら下がっている』状態から『依存する』の意味へ",
+        "fact": "ラテン語dependereは『de-（下へ）+ pendere（ぶら下がる）』。物理的に垂れ下がることから、精神的・経済的に頼ることへ。",
+        "source": "EtymOnline: depend（c.1400）< Old French dependre",
+        "cognates": [
+          "depend",
+          "independence",
+          "pendant"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "紐で吊るされた物体のイメージ：何かに支えられなければ落ちる状態が『依存』",
+        "fact": "dependentは『ぶら下がったままでいる人』。子どもが親に支えられるように、何かに依存している存在を指す。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『依存した、従属的な』という意味だが、『紐でぶら下がる』という物理的なイメージからの比喩が理解の鍵",
+      "gapOneliner": "物理的な『ぶら下がり』から心理的・経済的な『依存』への概念転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "子どもが親に『ぶら下がる』ように、dependentは何かに支えられている存在"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "dependentの意味として最適なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "依存する、扶養される",
+            "独立した",
+            "一時的な",
+            "否定的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "dependentの『de-』と『pend』が表す根本的な状態は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下へぶら下がっている",
+            "上に支えられている",
+            "下へ積み重ねられている",
+            "下へ押し付けられている"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "Tax deductions are available for ______ children under 18 years old.",
+          "hint": "何かに支えられている人",
+          "explanationFocus": "gap",
+          "choices": [
+            "dependent",
+            "independent",
+            "pendant",
+            "suspended"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "dependentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "financial dependent（経済的扶養者）",
+            "independent dependent",
+            "temporary dependent",
+            "legal dependent"
+          ],
+          "correct": 3
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Young children are highly dependent on their parents for survival.\" — dependentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "支えや助けを必要としている状態",
+            "親に支配されている",
+            "親と同じ行動をする",
+            "親から学ぶ"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Children are dependent on their parents.",
+        "The project's success is dependent on funding.",
+        "Tax benefits for dependents."
+      ]
+    },
+    {
+      "word": "expenditure",
+      "phonetic": "ɪkˈspendɪtʃər",
+      "toeicRank": 750,
+      "parts": [
+        {
+          "part": "ex-",
+          "meaning": "外へ、出す",
+          "type": "prefix"
+        },
+        {
+          "part": "pend",
+          "meaning": "量る、ぶら下がる、支払う",
+          "type": "root"
+        },
+        {
+          "part": "-iture",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『外へ』『量る・払う』ことから『支出・費用』の意味へ",
+        "fact": "ラテン語expendereは『ex-（外へ）+ pendere（量る、払う）』。金銭を外へ『量り出す』ことから支出の意味に。",
+        "source": "EtymOnline: expend（c.1400）< Latin expendere",
+        "cognates": [
+          "expend",
+          "expense",
+          "expensive",
+          "dispense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "金銭を『天秤で量り出す』動作が『支出』の基盤",
+        "fact": "支出とは金銭を『量り量りながら外へ出す』こと。無駄なく、計算して支払う仕組みが語源に隠れている。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『支出・費用』という意味だが、『量って出す』という原義が理解できると、なぜ金銭額を正確に指すのか納得できる",
+      "gapOneliner": "『量る・払う』という具体的な動作から『支出という抽象概念』への転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "天秤で金銭を『量り量りながら出す』＝expenditure（支出）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "expenditureの意味として最適なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "支出、費用額",
+            "収入",
+            "貯蓄",
+            "投資利益"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "expenditureの『ex-』と『pend』が示す根本的な動作は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "外へ量り出す",
+            "内へ積み重ねる",
+            "上へ支える",
+            "下へ下ろす"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The government's military ______ has increased significantly this year.",
+          "hint": "お金が外へ出ていく量",
+          "explanationFocus": "gap",
+          "choices": [
+            "expenditure",
+            "compensation",
+            "suspension",
+            "pension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "expenditureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "government expenditure（政府支出）",
+            "rapid expenditure",
+            "silent expenditure",
+            "brief expenditure"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company reduced expenditures by cutting unnecessary costs.\" — expenditureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "外へ流出する金銭額",
+            "削減対象",
+            "予算計画",
+            "会計監査"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Government expenditure on education.",
+        "The company's operational expenditures exceeded revenue.",
+        "Monitor your household expenditure carefully."
+      ]
+    },
+    {
+      "word": "suspension",
+      "phonetic": "səˈspenʃən",
+      "toeicRank": 720,
+      "parts": [
+        {
+          "part": "sus-",
+          "meaning": "下から支える、上へ",
+          "type": "prefix"
+        },
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『上から支えてぶら下げる』ことから『一時的な中止・停止』の意味へ",
+        "fact": "ラテン語suspendereは『sus-（下から支える）+ pendere（ぶら下がる）』。文字通り『ぶら下げる』ことから、活動を『ぶら下げたままにする＝中止』へ。",
+        "source": "EtymOnline: suspend（c.1300）< Old French suspendre",
+        "cognates": [
+          "suspend",
+          "suspense",
+          "pendant",
+          "pensive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "ロープでぶら下げられた状態が『一時停止・保留』のイメージ",
+        "fact": "suspensionは『活動がぶら下げたまま留まっている』状態。再開も終了も決まらずに『宙ぶらりん』の状態を表す。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『停止・中止・保留』『懸濁液』など複数の意味があるが、すべて『ぶら下げたまま保つ』という共通イメージで統一される",
+      "gapOneliner": "物理的な『ぶら下げる』から時間的な『一時停止』への意味拡張",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ロープでぶら下げられて『宙ぶらりん』＝suspension（保留・中止）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "suspensionの最も一般的な意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "停止、中止、保留",
+            "永遠の終了",
+            "即座の開始",
+            "継続的な運営"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "suspensionの『sus-』と『pend』が表す状態は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "上から支えてぶら下げている",
+            "下から押し上げている",
+            "左右に振動している",
+            "前後に移動している"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The player received a two-week ______ for violating team rules.",
+          "hint": "ロープでぶら下げられたような宙ぶらりん状態",
+          "explanationFocus": "gap",
+          "choices": [
+            "suspension",
+            "compensation",
+            "expenditure",
+            "pension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "suspensionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "suspension bridge（吊橋）",
+            "rapid suspension",
+            "silent suspension",
+            "brief suspension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The school imposed a three-day suspension on the disruptive student.\" — suspensionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "学校への一時的な出席停止",
+            "学校からの永遠の退学",
+            "特別な褒賞",
+            "昇進"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The driver's license suspension lasted six months.",
+        "The suspension bridge spans the valley.",
+        "Car suspension absorbs road shock.",
+        "The event is in suspension pending further investigation."
+      ]
+    },
+    {
+      "word": "pending",
+      "phonetic": "ˈpendɪŋ",
+      "toeicRank": 680,
+      "parts": [
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる、懸かる",
+          "type": "root"
+        },
+        {
+          "part": "-ing",
+          "meaning": "現在進行形、状態を表す形容詞",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『ぶら下がったままの』『決着のつかない』状態を表す",
+        "fact": "ラテン語pendereが『ぶら下がる』を意味し、-ingが進行・状態を表す。『ぶら下がったままになっている』から『決定待ち・保留中』へ。",
+        "source": "EtymOnline: pend（c.1600）< Latin pendere",
+        "cognates": [
+          "pend",
+          "pending",
+          "pensive",
+          "append"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "決着がつかずに『宙ぶらりん』のままの状態",
+        "fact": "pendingは『判定がぶら下がったままになっている』状態。結論が出るまでの『中途半端な待機状態』を表す。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『進行中、保留中』という意味だが、『ぶら下がっている』という物理的なイメージが理解の鍵",
+      "gapOneliner": "『ぶら下がったままの状態』から『決定や完了が未決定のままの状態』への意味転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "判定が『ぶら下がったままになっている』＝pending（保留中・審理中）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pendingの意味として最適なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "保留中の、審理中の",
+            "完了した",
+            "拒否された",
+            "承認済みの"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pendingが表す根本的な状態は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "ぶら下がったままになっている",
+            "完全に落ちた",
+            "確実に支えられている",
+            "上へ飛び上がっている"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The court case is still ______ a final decision from the judge.",
+          "hint": "判定がぶら下がったまま",
+          "explanationFocus": "gap",
+          "choices": [
+            "pending",
+            "suspended",
+            "approved",
+            "rejected"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "pendingと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "pending approval（承認待ち）",
+            "pending completion（完成待ち）",
+            "rapid pending",
+            "silent pending"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The application is pending review by the committee.\" — pendingの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "審査がまだ進行中で結論が出ていない状態",
+            "既に承認されている",
+            "拒否された",
+            "次回に延期された"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The decision is pending approval.",
+        "Your application is pending review.",
+        "Pending further investigation, the case remains open.",
+        "The pending matter awaits resolution."
+      ]
+    },
+    {
+      "word": "dispense",
+      "phonetic": "dɪˈspens",
+      "toeicRank": 800,
+      "parts": [
+        {
+          "part": "dis-",
+          "meaning": "分散させる、異なった方向へ",
+          "type": "prefix"
+        },
+        {
+          "part": "pens",
+          "meaning": "量る、ぶら下がる、支払う",
+          "type": "root"
+        },
+        {
+          "part": "-e",
+          "meaning": "動詞形",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『異なった方向へ』『量る・配分する』ことから『配給する・免除する』の意味へ",
+        "fact": "ラテン語dispensareは『dis-（分散）+ pensare（量る、配分する）』。薬局で薬を『量って配分する』ことから、法的に『義務を免除する』へ。",
+        "source": "EtymOnline: dispense（c.1300）< Old French dispenser",
+        "cognates": [
+          "dispense",
+          "dispensary",
+          "dispensable",
+          "expense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "天秤で『各方向に量って配分する』イメージから『配給・免除』へ",
+        "fact": "dispenserは薬剤師が薬を『個別に量って配分する』ように、必要なものを『正確に配給する』人や装置。一方『dispense with』は『～なしで済ませる＝免除する』。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『配給する』『免除する』『配置する』など複数の意味があるが、すべて『量って配分する』という原義から発生している",
+      "gapOneliner": "『量って配分する』という動作から『配給』『免除』への多義的展開",
+      "hook": {
+        "label": "記憶フック",
+        "text": "薬局で薬を『量って配分する』＝dispense（配給する）。『dispense with』は『なしで配分する＝免除』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "dispenseの意味として最適なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "配給する、免除する",
+            "拒否する",
+            "保存する",
+            "集積する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "dispenseの『dis-』と『pens』が表す根本的な動作は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "異なった方向に量って配分する",
+            "内へ集める",
+            "上へ積み上げる",
+            "下へ押し付ける"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The pharmacist will ______ your medication according to the doctor's prescription.",
+          "hint": "薬を正確に量って配分する",
+          "explanationFocus": "gap",
+          "choices": [
+            "dispense",
+            "suspend",
+            "expend",
+            "depend"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "dispenseと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "dispense medication（医薬品を配給する）",
+            "dispense with formality（形式にこだわらない）",
+            "rapid dispense",
+            "silent dispense"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Can we dispense with the lengthy introduction and get to the main point?\" — dispenseの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "～を省略する・なしで済ませる",
+            "～を強調する",
+            "～を準備する",
+            "～を記録する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The hospital dispenses medications to patients.",
+        "Let's dispense with unnecessary formalities.",
+        "The vending machine dispenses snacks.",
+        "She was dispensed from jury duty."
+      ]
+    },
+    {
+      "word": "pension",
+      "phonetic": "ˈpenʃən",
+      "toeicRank": 720,
+      "parts": [
+        {
+          "part": "pens",
+          "meaning": "量る、ぶら下がる、支払う",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『量って支払う』ことから『定期的に支払われる手当・年金』の意味へ",
+        "fact": "ラテン語pensioは『pensare（量る、支払う）』から。当初は『戦士や退職者に定期的に支払われる金銭』を意味していた。",
+        "source": "EtymOnline: pension（c.1400）< Old French pension",
+        "cognates": [
+          "pensive",
+          "pending",
+          "compensate",
+          "expense"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『定期的に正確に量って支払う金銭』が年金のイメージ",
+        "fact": "pensionとは『毎月・毎年、正確に量り量りして支払われる手当』。退職者や兵士に『継続的に配分される生活費』を指す。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『年金・手当』という意味だが、『定期的・継続的に量って支払う』という動作が根本にある",
+      "gapOneliner": "『量って支払う』という動作から『継続的な定期支払い』という制度へ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "毎月『正確に量り量りして支払われる金銭』＝pension（年金）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pensionの意味として最適なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "年金、定期給付金",
+            "一回限りの支払い",
+            "借金",
+            "投資利益"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pensionが表す支払いの特徴は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "定期的に正確に量って支払われる",
+            "不規則に支払われる",
+            "一括払いされる",
+            "返金可能である"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "After working for 40 years, she is now receiving a monthly ______ from her employer.",
+          "hint": "定期的に支払われる手当",
+          "explanationFocus": "gap",
+          "choices": [
+            "pension",
+            "compensation",
+            "expenditure",
+            "suspension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "pensionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "retirement pension（退職年金）",
+            "monthly pension（毎月年金）",
+            "rapid pension",
+            "silent pension"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The government increased pensions for senior citizens.\" — pensionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "高齢者に定期的に支払われる生活費",
+            "一度限りの贈与",
+            "社会保険料",
+            "税金控除"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She receives a pension after retirement.",
+        "Government pensions for veterans.",
+        "The company contributes to employee pension plans.",
+        "Living on a fixed pension."
+      ]
+    },
+    {
+      "word": "perpendicular",
+      "phonetic": "ˌpɜːrpənˈdɪkjələr",
+      "toeicRank": 850,
+      "parts": [
+        {
+          "part": "per-",
+          "meaning": "完全に、徹底的に",
+          "type": "prefix"
+        },
+        {
+          "part": "pend",
+          "meaning": "ぶら下がる",
+          "type": "root"
+        },
+        {
+          "part": "-icular",
+          "meaning": "～のような、関連する",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『完全にぶら下がった』状態から『垂直の・直角の』の意味へ",
+        "fact": "ラテン語perpendiculumは『per-（完全に）+ pendere（ぶら下がる）』。重りをぶら下げた紐が『完全に垂直に』落ちることから、垂直方向を指すように。",
+        "source": "EtymOnline: perpendicular（c.1400）< Latin perpendicularis",
+        "cognates": [
+          "perpendicular",
+          "pendulum",
+          "pendant",
+          "pending"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "重りがぶら下がった紐が『完全に垂直に落ちる』イメージから幾何学的な『垂直』概念へ",
+        "fact": "perpendiculumは『重りをつけたぶら下げた紐』。これが『完全に垂直に下へ落ちる』様子が、垂直線・直角の原型になった。",
+        "source": "認知言語学的解釈"
+      },
+      "gap": "『垂直の、直角の』という数学的・幾何学的な意味だが、『重りがぶら下がる完全な垂直状態』という物理的なイメージが起源",
+      "gapOneliner": "重りの『完全に垂直なぶら下がり』から幾何学的『垂直・直角』概念への転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "重りをつけた紐が『完全に垂直に落ちる』＝perpendicular（垂直の）。昔の建築家たちは重り付き紐で垂直を確認した"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "perpendicularの意味として最適なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "垂直の、直角の",
+            "斜めの",
+            "平行の",
+            "曲線の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "perpendicularの『per-』と『pend』が表す根本的な状態は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "完全に垂直にぶら下がった状態",
+            "部分的に斜めにぶら下がった状態",
+            "上へ支えられている状態",
+            "左右に振動している状態"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "In geometry, a ______ line makes a 90-degree angle with another line.",
+          "hint": "完全に垂直に落ちた状態",
+          "explanationFocus": "gap",
+          "choices": [
+            "perpendicular",
+            "parallel",
+            "diagonal",
+            "horizontal"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "perpendicularと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "perpendicular line（垂直線）",
+            "perpendicular angle（直角）",
+            "rapid perpendicular",
+            "silent perpendicular"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The wall is perpendicular to the ground.\" — perpendicularの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "壁が地面に対して垂直である",
+            "壁が地面に対して平行である",
+            "壁が地面に対して斜めである",
+            "壁と地面が同じ高さである"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The perpendicular line bisects the angle.",
+        "The building's walls are perpendicular to the foundation.",
+        "Perpendicular roads intersect at right angles.",
+        "Draw a perpendicular from the point to the line."
+      ]
+    }
+  ],
+  "fact_check": "APPROVED",
+  "checked_at": "2026-03-22"
+}

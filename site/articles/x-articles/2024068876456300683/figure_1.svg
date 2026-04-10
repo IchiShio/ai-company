@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="white" font-size="28" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+    内容語 vs 機能語 — 聞こえる単語・聞こえない単語の正体
+  </text>
+
+  <!-- Legend -->
+  <rect x="60" y="96" width="260" height="46" rx="10" fill="#1DA1F2" opacity="0.15"/>
+  <rect x="72" y="110" width="18" height="18" rx="4" fill="#1DA1F2"/>
+  <text x="100" y="124" fill="#1DA1F2" font-size="16" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">内容語（強・聞こえる）</text>
+
+  <rect x="360" y="96" width="280" height="46" rx="10" fill="#657786" opacity="0.12"/>
+  <rect x="372" y="110" width="18" height="18" rx="4" fill="#657786" opacity="0.5"/>
+  <text x="400" y="124" fill="#657786" font-size="16" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">機能語（弱・聞きとりにくい）</text>
+
+  <!-- Example Sentence 1 -->
+  <rect x="60" y="158" width="1080" height="100" rx="12" fill="white" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="90" y="185" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例文 1:</text>
+
+  <!-- Word blocks sentence 1 -->
+  <!-- She's -->
+  <rect x="90" y="198" width="70" height="40" rx="8" fill="#E8ECEF"/>
+  <text x="125" y="223" text-anchor="middle" fill="#657786" font-size="17" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">She's</text>
+  <!-- going -->
+  <rect x="174" y="192" width="90" height="52" rx="8" fill="#1DA1F2"/>
+  <text x="219" y="223" text-anchor="middle" fill="white" font-size="20" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">going</text>
+  <!-- to -->
+  <rect x="278" y="198" width="50" height="40" rx="8" fill="#E8ECEF"/>
+  <text x="303" y="223" text-anchor="middle" fill="#AAB8C2" font-size="17"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">to</text>
+  <!-- the -->
+  <rect x="342" y="198" width="55" height="40" rx="8" fill="#E8ECEF"/>
+  <text x="369" y="223" text-anchor="middle" fill="#AAB8C2" font-size="17"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">the</text>
+  <!-- store -->
+  <rect x="411" y="192" width="90" height="52" rx="8" fill="#1DA1F2"/>
+  <text x="456" y="223" text-anchor="middle" fill="white" font-size="20" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">store</text>
+  <!-- annotation -->
+  <text x="700" y="225" fill="#657786" font-size="16"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">→ "going" と "store" が聞こえれば十分</text>
+  <text x="700" y="248" fill="#14171A" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「彼女は店に行くところ」の意味が伝わる</text>
+
+  <!-- Example Sentence 2 -->
+  <rect x="60" y="276" width="1080" height="100" rx="12" fill="white" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="90" y="303" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例文 2:</text>
+  <!-- I -->
+  <rect x="90" y="316" width="40" height="40" rx="8" fill="#E8ECEF"/>
+  <text x="110" y="341" text-anchor="middle" fill="#AAB8C2" font-size="17"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">I</text>
+  <!-- need -->
+  <rect x="144" y="310" width="85" height="52" rx="8" fill="#1DA1F2"/>
+  <text x="186" y="341" text-anchor="middle" fill="white" font-size="20" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">need</text>
+  <!-- to -->
+  <rect x="243" y="316" width="50" height="40" rx="8" fill="#E8ECEF"/>
+  <text x="268" y="341" text-anchor="middle" fill="#AAB8C2" font-size="17"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">to</text>
+  <!-- talk -->
+  <rect x="307" y="310" width="80" height="52" rx="8" fill="#1DA1F2"/>
+  <text x="347" y="341" text-anchor="middle" fill="white" font-size="20" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">talk</text>
+  <!-- to -->
+  <rect x="401" y="316" width="50" height="40" rx="8" fill="#E8ECEF"/>
+  <text x="426" y="341" text-anchor="middle" fill="#AAB8C2" font-size="17"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">to</text>
+  <!-- you -->
+  <rect x="465" y="310" width="70" height="52" rx="8" fill="#1DA1F2"/>
+  <text x="500" y="341" text-anchor="middle" fill="white" font-size="20" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">you</text>
+  <text x="700" y="340" fill="#657786" font-size="16"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">→ "need", "talk", "you" が核心</text>
+  <text x="700" y="363" fill="#14171A" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">「あなたと話す必要がある」と理解できる</text>
+
+  <!-- Example Sentence 3 -->
+  <rect x="60" y="394" width="1080" height="100" rx="12" fill="white" stroke="#E1E8ED" stroke-width="1.5"/>
+  <text x="90" y="421" fill="#657786" font-size="14"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例文 3 (縮約の例):</text>
+  <!-- going to → gonna -->
+  <rect x="90" y="434" width="180" height="42" rx="8" fill="#FFF3E0" stroke="#FFAD1F" stroke-width="1.5"/>
+  <text x="180" y="460" text-anchor="middle" fill="#FFAD1F" font-size="17" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">going to → gonna</text>
+  <!-- want to → wanna -->
+  <rect x="290" y="434" width="180" height="42" rx="8" fill="#FFF3E0" stroke="#FFAD1F" stroke-width="1.5"/>
+  <text x="380" y="460" text-anchor="middle" fill="#FFAD1F" font-size="17" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">want to → wanna</text>
+  <!-- have to → hafta -->
+  <rect x="490" y="434" width="180" height="42" rx="8" fill="#FFF3E0" stroke="#FFAD1F" stroke-width="1.5"/>
+  <text x="580" y="460" text-anchor="middle" fill="#FFAD1F" font-size="17" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">have to → hafta</text>
+  <text x="720" y="445" fill="#657786" font-size="15"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">機能語は</text>
+  <text x="720" y="466" fill="#E0245E" font-size="15" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">弱くなって連結・変形するのが正常</text>
+
+  <!-- Bottom category table -->
+  <rect x="60" y="508" width="530" height="110" rx="12" fill="#EAF6FF"/>
+  <text x="325" y="532" text-anchor="middle" fill="#1DA1F2" font-size="16" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">内容語（強く発音）</text>
+  <text x="325" y="556" text-anchor="middle" fill="#14171A" font-size="15"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">名詞 / 一般動詞 / 形容詞 / 副詞</text>
+  <text x="325" y="580" text-anchor="middle" fill="#657786" font-size="13"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: book, run, beautiful, quickly</text>
+  <text x="325" y="602" text-anchor="middle" fill="#1DA1F2" font-size="13" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">→ これを拾えば意味が分かる</text>
+
+  <rect x="610" y="508" width="530" height="110" rx="12" fill="#F0F0F0"/>
+  <text x="875" y="532" text-anchor="middle" fill="#657786" font-size="16" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">機能語（弱く発音）</text>
+  <text x="875" y="556" text-anchor="middle" fill="#14171A" font-size="15"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">冠詞 / 前置詞 / 接続詞 / 助動詞</text>
+  <text x="875" y="580" text-anchor="middle" fill="#657786" font-size="13"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">例: a, the, in, and, can, will</text>
+  <text x="875" y="602" text-anchor="middle" fill="#657786" font-size="13" font-weight="bold"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">→ 聞こえなくても問題ない</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18"
+        font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">@ichi_eigo</text>
+</svg>

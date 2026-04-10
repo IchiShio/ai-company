@@ -1,0 +1,796 @@
+{
+  "root_id": "spec",
+  "words": [
+    {
+      "word": "specific",
+      "phonetic": "/spəˈsɪfɪk/",
+      "toeicRank": "1000-1200",
+      "parts": [
+        {
+          "part": "spec-",
+          "meaning": "見る、注視する",
+          "type": "root"
+        },
+        {
+          "part": "-ific",
+          "meaning": "～を作る、～する",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「見分ける」から「特定の、具体的な」という意味に転じた",
+        "fact": "ラテン語の'specificus'は「特定の種類を見分ける」という意味で、speciesとfacereの組み合わせから生まれた。具体的に「見分ける」ことができるレベルの詳細さを表す",
+        "source": "EtymOnline: Latin specificus",
+        "cognates": [
+          "species",
+          "spectator",
+          "inspect"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "「ぼやけた全体」ではなく「はっきり見分けられる個別の詳細」をイメージ",
+        "fact": "目で見て『あ、この部分だ』と指さすことができるほど明確という心的イメージが根底にある",
+        "source": "認知言語学的分析"
+      },
+      "gap": "一般的→特定的への意味シフト",
+      "gapOneliner": "見る行為が「全体を眺める」から「特定部分を見分ける」へ焦点が移った",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SPECIFIC = SPE(見て)CIF(指で)IC → 指で指して『この詳細だ』と見分ける"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "specificの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "特定の、具体的な",
+            "一般的な",
+            "大規模な",
+            "推測上の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "specificの語根speciousとの違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "実在する明確さ vs 見た目の誤った明確さ",
+            "大きさの違い",
+            "時間軸の違い",
+            "数量の違い"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "We need a ______ plan, not just general ideas.",
+          "hint": "「具体的な」という意味の形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "specific",
+            "spectacular",
+            "speculative",
+            "suspicious"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "specificと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "details",
+            "dreams",
+            "suspicions",
+            "fears"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The doctor gave specific instructions about medication.\" — specificの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "明確で詳細な",
+            "曖昧な",
+            "一般的な",
+            "予想上の"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Give me specific examples.",
+        "The specific purpose of this meeting is unclear."
+      ]
+    },
+    {
+      "word": "specification",
+      "phonetic": "/ˌspesɪfɪˈkeɪʃən/",
+      "toeicRank": "1200-1400",
+      "parts": [
+        {
+          "part": "spec-",
+          "meaning": "見る、注視する",
+          "type": "root"
+        },
+        {
+          "part": "-fic-",
+          "meaning": "作る",
+          "type": "root"
+        },
+        {
+          "part": "-ation",
+          "meaning": "行為、状態",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「見分けることで作る」から「詳細に規定する行為や詳細書」へ",
+        "fact": "specificの名詞形。buildingが構造物であるのと同じく、specificationは『見分けて詳細化する』というプロセスと、そのプロセスの結果としての『詳細書』の両方を意味する",
+        "source": "EtymOnline: Latin specification",
+        "cognates": [
+          "specification",
+          "specify",
+          "specific"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "抽象的な要件を『詳細に見えるように書き出す』プロセス",
+        "fact": "設計図や取扱説明書のように『見える形にして詳細を明確にする』というアクティブなイメージが強い",
+        "source": "認知言語学的分析"
+      },
+      "gap": "プロセスと成果物の両義性",
+      "gapOneliner": "「詳細化する行為」と「詳細書という結果物」の二つの意味を持つ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SPECIFICATION = specify(詳細を見分ける) + -ation(その行為/結果) → 要件を細かく『見える化』する文書"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "specificationの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "詳細書、仕様書",
+            "推測",
+            "外観",
+            "懸念"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "specificationがビジネスで重要な理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "要件を『見える化』して共通理解を作るため",
+            "簡潔性のため",
+            "楽しさのため",
+            "短縮のため"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The ______ for the new building includes detailed requirements.",
+          "hint": "詳細書や仕様書を意味する名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "specification",
+            "speculation",
+            "spectacle",
+            "suspicion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "specificationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "technical",
+            "vague",
+            "beautiful",
+            "suspicious"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The software specifications were completed last week.\" — specificationsの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "詳細な仕様書、機能要件書",
+            "推測",
+            "外観上の違い",
+            "疑わしい点"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Read the product specifications carefully.",
+        "The specifications for this project are still being finalized."
+      ]
+    },
+    {
+      "word": "specimen",
+      "phonetic": "/ˈspesɪmən/",
+      "toeicRank": "1400-1600",
+      "parts": [
+        {
+          "part": "spec-",
+          "meaning": "見る、注視する",
+          "type": "root"
+        },
+        {
+          "part": "-imen",
+          "meaning": "もの、標本",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「見て観察するべきもの」から「標本、見本」へ",
+        "fact": "ラテン語specimen。specimenは『見て学べるもの』つまり『観察すべき対象』を意味し、古くから科学的観察の対象として使われてきた",
+        "source": "EtymOnline: Latin specimen",
+        "cognates": [
+          "species",
+          "inspect",
+          "spectacle"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『全体の代表として見せるもの』というイメージ",
+        "fact": "医学検査の検体、美術館の展示物など『代表として人に見せて判断させるもの』という心的構造が共通している",
+        "source": "認知言語学的分析"
+      },
+      "gap": "見る対象から標本概念へ",
+      "gapOneliner": "見て判断するための対象物から、全体を代表する標本という専門的概念に昇華した",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SPECIMEN = SPEC(見て) + IMEN(もの) → 見て観察するために取り出した代表的なもの"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "specimenの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "標本、見本",
+            "推測",
+            "懸念",
+            "外観"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "specimenとsampleの違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "specimen=『見て観察』する代表 vs sample=『取り出す』ランダム部分",
+            "大きさが違う",
+            "色が違う",
+            "重さが違う"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The laboratory examined the blood ______ under a microscope.",
+          "hint": "医学検査での標本を意味する名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "specimen",
+            "speculation",
+            "spectacle",
+            "suspicion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "specimenと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "collected",
+            "imagined",
+            "feared",
+            "suspected"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The museum has a rare specimen from the 18th century.\" — specimenの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "珍しい標本、見本品",
+            "推測",
+            "危険な物体",
+            "疑わしい人物"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "A DNA specimen was collected for the study.",
+        "This flower is a fine specimen of its species."
+      ]
+    },
+    {
+      "word": "spectacle",
+      "phonetic": "/ˈspektəkəl/",
+      "toeicRank": "1200-1400",
+      "parts": [
+        {
+          "part": "spect-",
+          "meaning": "見る、眺める",
+          "type": "root"
+        },
+        {
+          "part": "-acle",
+          "meaning": "～するもの、～の場所",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「見ること」から「見る価値のあるもの、壮大な光景」へ",
+        "fact": "ラテン語spectaculum。speculari(眺める)から、観客が見に集まる舞台や劇場の演技を指すようになった。ローマの円形闘技場（アンフィシアター）での華やかなショーが語源",
+        "source": "EtymOnline: Latin spectaculum",
+        "cognates": [
+          "spectator",
+          "spectator",
+          "inspect",
+          "aspect"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『多くの人が集まって見たくなる、印象的で華やかな光景』",
+        "fact": "劇場での演劇、サーカス、大規模なイベントなど『視覚的に印象的で、注目を集める』という共通のイメージが強い",
+        "source": "認知言語学的分析"
+      },
+      "gap": "見る行為から見ものの概念へ",
+      "gapOneliner": "受動的な『眺める行為』から、人々を魅了する『華やかで印象的な光景』へと概念拡張した",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SPECTACLE = SPECT(見て) + ACLE(もの) → 人々が集まって『見たい！』と思わせる華やかで印象的なもの。眼鏡(spectacles)も『見る道具』から派生"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "spectacleの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "壮大な光景、見せ物",
+            "小さな飾り",
+            "隠れた出来事",
+            "静かな瞬間"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "spectacleの根底にある感覚的特徴は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "視覚的に印象的で、人を引きつける華やかさ",
+            "聴覚的美しさ",
+            "触覚的快感",
+            "嗅覚的特性"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "The opening ceremony was a magnificent ______ with fireworks and performances.",
+          "hint": "华やかで印象的な光景を意味する名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "spectacle",
+            "speculation",
+            "specimen",
+            "suspicion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "spectacleと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "grand",
+            "quiet",
+            "hidden",
+            "doubtful"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The parade was quite a spectacle to behold.\" — spectacleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "見応えのある華やかな光景",
+            "隠れた計画",
+            "軽微な問題",
+            "疑わしい行動"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The fireworks display was quite a spectacle.",
+        "She made a spectacle of herself at the party."
+      ]
+    },
+    {
+      "word": "speculate",
+      "phonetic": "/ˈspekjəleɪt/",
+      "toeicRank": "1200-1400",
+      "parts": [
+        {
+          "part": "specul-",
+          "meaning": "見る、観察する",
+          "type": "root"
+        },
+        {
+          "part": "-ate",
+          "meaning": "～する、～と行動する",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「眺める、観察する」から「目に見えないものまで予測する」へ進化",
+        "fact": "ラテン語speculari(見張る、監視する)から。物理的に『見る』から、心の目で『先を見通す、推測する』へと意味が拡張。金融取引では『見える情報から将来を推測して賭ける』という意味に",
+        "source": "EtymOnline: Latin speculari",
+        "cognates": [
+          "speculation",
+          "speculum",
+          "spectator"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『見える部分から見えない未来を推測する』という精神活動",
+        "fact": "具体的な観察から抽象的な推測へ：『今目の前に見えているデータから、将来の不確実性を予測してみる』という思考プロセス",
+        "source": "認知言語学的分析"
+      },
+      "gap": "物理的『見る』から認知的『推測する』へ",
+      "gapOneliner": "外部世界の観察から、内面的な思考活動（仮説形成、予想、推測）への意味転換",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SPECULATE = SPECUL(見る) + ATE(～する) → 見える情報から『先を見る』『推測する』という知的活動。金融用語では『先が見えない状況で賭ける』という危険性も内包"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "speculateの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "推測する、予想する",
+            "確認する",
+            "忘れる",
+            "否定する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "speculationが『危険な金融取引』を意味する理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "確実でない『推測』に基づいて資金を投じるから",
+            "計算が複雑だから",
+            "外国語だから",
+            "新しい言葉だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "It's impossible to ______ about what will happen next year.",
+          "hint": "推測する、予想するという意味の動詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "speculate",
+            "spectate",
+            "suspect",
+            "suspect"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "speculateと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "about the future",
+            "the evidence",
+            "the theory",
+            "the conclusion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Investors speculate about the stock market's direction.\" — speculateの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "将来の方向性を推測する",
+            "直接観察する",
+            "確実に予測する",
+            "懸念を表明する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Don't speculate without facts.",
+        "The media speculated about the celebrity's next move."
+      ]
+    },
+    {
+      "word": "speculation",
+      "phonetic": "/ˌspekjəˈleɪʃən/",
+      "toeicRank": "1200-1400",
+      "parts": [
+        {
+          "part": "specul-",
+          "meaning": "見る、観察する",
+          "type": "root"
+        },
+        {
+          "part": "-ation",
+          "meaning": "行為、状態、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "『見て推測する行為』から『推測そのもの、そして投機取引』へ",
+        "fact": "speculateの名詞形。観察から導き出される『推測、憶測』という意味と、不確実な情報で利益を得ようとする『投機、相場張り』という意味を併せ持つ。19世紀には金融市場での『賭け的取引』を強く指すようになった",
+        "source": "EtymOnline: Latin speculation",
+        "cognates": [
+          "speculate",
+          "speculative",
+          "spectator"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『見える情報から見えない未来を推測する知的プロセス』と『その過程で利益を得ようとする行為』",
+        "fact": "日常的な『推測、推量』という低リスク意味から、金融の『投機取引』という高リスク意味まで、スケール感が大きく異なる二つの概念を表す",
+        "source": "認知言語学的分析"
+      },
+      "gap": "推測から投機への意味の分化",
+      "gapOneliner": "単純な『推測という思考行為』から『不確実さに賭けて利益を追求する行為』へと、評価的ニュアンスが追加された",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SPECULATION = SPECUL(見る推測) + ATION(その行為) → 『見える情報から先を『見える化』する推測活動』。金融では『見えない将来に賭ける危険な行為』"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "speculationの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "推測、推量、また投機取引",
+            "観察の結果",
+            "懸念の表明",
+            "明確な証拠"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "speculationが『危険性を含む』と判断される理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "確実でない『見える情報』に頼って『見えない未来』に賭けるから",
+            "人気がないから",
+            "難しい言葉だから",
+            "古い言葉だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "There's a lot of ______ in the press about the company's future.",
+          "hint": "推測、憶測を意味する名詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "speculation",
+            "spectacle",
+            "specimen",
+            "suspicion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "speculationと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "wild",
+            "certain",
+            "obvious",
+            "proven"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Real estate speculation led to a market bubble.\" — speculationの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "将来の値上がりを期待した投機的購入",
+            "綿密な調査",
+            "確実な予測",
+            "懸念の表明"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The speculation about the merger has died down.",
+        "Some dismiss his theory as pure speculation."
+      ]
+    },
+    {
+      "word": "suspicious",
+      "phonetic": "/səˈspɪʃəs/",
+      "toeicRank": "1000-1200",
+      "parts": [
+        {
+          "part": "sus-",
+          "meaning": "下に、～の下から（接頭辞）",
+          "type": "prefix"
+        },
+        {
+          "part": "spec-",
+          "meaning": "見る",
+          "type": "root"
+        },
+        {
+          "part": "-ious",
+          "meaning": "～の性質を持つ、～に満ちた",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "「下からこっそり見る」から「疑わしいと見張る」へ進化した言葉",
+        "fact": "ラテン語suspiciosus（suspicari = 見張る、疑う）。sus（下に）+ specere（見る）で『下からこっそり見張る』という隠密的な観察イメージ。信頼できないものを『見守って警戒する』という意味に発展。相手に対する信頼が欠けた状態",
+        "source": "EtymOnline: Latin suspicari",
+        "cognates": [
+          "suspect",
+          "suspicion",
+          "respect"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『安心して『見る』ことができない』から『警戒して見守る』という心理状態",
+        "fact": "新しい人間関係や状況で、相手の行動を『本当に信じていいのか？』と、背後の意図を推し量ろうとする警戒的な眼差しが根底にある",
+        "source": "認知言語学的分析"
+      },
+      "gap": "見る → こっそり見張る → 疑わしいと判断する",
+      "gapOneliner": "見る行為が『下からこっそり』『警戒的に』『不安を持って』というニュアンスに変化した",
+      "hook": {
+        "label": "記憶フック",
+        "text": "SUSPICIOUS = SUS(下から) + SPECT(見る) + IOUS(満ちた) → 『背後の意図を疑って見張っている、警戒に満ちた状態』。『見張られて疑われている』側にもなる"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "suspiciousの意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "疑わしい、怪しい、警戒心を持つ",
+            "明白な",
+            "明るい",
+            "人気のある"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "suspiciousの『sus-』（下に）という接頭辞が表す心理は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "表面の信頼できない行動を『下からこっそり見張る』警戒心",
+            "単なる小ささ",
+            "深さ",
+            "悪意"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に適切な単語を入れよ",
+          "sentence": "He gave a ______ look when she explained her whereabouts.",
+          "hint": "疑わしい、怪しいという意味の形容詞",
+          "explanationFocus": "gap",
+          "choices": [
+            "suspicious",
+            "spectacular",
+            "specific",
+            "speculative"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "suspiciousと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "activity",
+            "beauty",
+            "knowledge",
+            "facts"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The suspicious package was reported to the police.\" — suspiciousの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "危険または不正の可能性が疑われる",
+            "目立った",
+            "珍しい",
+            "予想通りの"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "His suspicious behavior caught the detective's attention.",
+        "She cast a suspicious glance at the stranger.",
+        "I'm suspicious of his motives."
+      ]
+    }
+  ],
+  "fact_check": "APPROVED",
+  "checked_at": "2026-03-22"
+}

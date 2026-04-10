@@ -1,0 +1,26 @@
+{
+  "tweet_id": "2017071985558454359",
+  "like_count": 281,
+  "created_at": "2026-03-30",
+  "topic": "リスニング × 脳の音韻処理",
+  "theme": "リスニング力は「耳」でなく「脳」の問題。音の認識回路を作る学習法。",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "比較図",
+      "description": "脳内音声処理の仕組み図（知らない音→雑音処理 vs 知っている音→意味処理の分岐）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "フロー図",
+      "description": "フォニックス×音の認識ステップ（4ステップフロー）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "native_real_link": "/",
+  "native_real_feature": "ListenUp",
+  "article_char_count": 404,
+  "article_char_limit": 800,
+  "tags": ["リスニング", "脳科学", "フォニックス", "音素", "聞き流し"]
+}

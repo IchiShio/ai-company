@@ -1,0 +1,17 @@
+{
+  "tweet_id": "2035121598722892042",
+  "likes": 57,
+  "article_title": "発音練習の前に「聞き分け」が先。研究が示す最短発音改善ルート",
+  "native_real_link": "/",
+  "figures": ["figure_1.svg", "figure_2.svg"],
+  "figure_1_description": "聞き分けトレーニング → 発音改善のメカニズム図（知覚→産出の連鎖）",
+  "figure_2_description": "効果量0.92の意味と発音改善タイムライン",
+  "created_at": "2026-03-30",
+  "fact_check_status": "PASS",
+  "word_count": 407,
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  }
+}

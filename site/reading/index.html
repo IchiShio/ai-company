@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>ReadUp Series — レベル別英文を1日1分読む | native-real</title>
+  <meta name="description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階（VL2000〜7000）・辞書不要・毎週更新。">
+  <link rel="canonical" href="https://native-real.com/reading/">
+  <meta property="og:title" content="ReadUp Series — レベル別英文を1日1分読む">
+  <meta property="og:description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階・辞書不要。">
+  <meta property="og:url" content="https://native-real.com/reading/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta property="og:site_name" content="native-real">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "ReadUp Series — レベル別英文リーディング",
+    "description": "語彙制限されたレベル別英文を1日1分読む。4段階（VL2000〜7000）・辞書不要・音声付き・毎週更新。",
+    "url": "https://native-real.com/reading/",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    "publisher": { "@type": "Organization", "name": "native-real", "url": "https://native-real.com" },
+    "inLanguage": "ja"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:            #F8F6F1;
+      --bg-elevated:   #FDFCF9;
+      --bg-subtle:     #F2EFE9;
+      --surface:       rgba(26,26,26,0.04);
+      --surface-2:     rgba(26,26,26,0.07);
+      --border:        #E8E4DC;
+      --border-strong: rgba(26,26,26,0.35);
+      --text-1:        rgba(26,26,26,0.88);
+      --text-2:        rgba(26,26,26,0.62);
+      --text-3:        rgba(26,26,26,0.42);
+      --gold:          #F5A623;
+      --gold-dark:     #E09520;
+      --gold-bg:       rgba(245,166,35,0.10);
+      --gold-glow:     rgba(245,166,35,0.18);
+      --success:       #16A34A;
+      --success-bg:    rgba(22,163,74,0.10);
+      --error:         #DC2626;
+      --error-bg:      rgba(220,38,38,0.10);
+      --streak:        #EA580C;
+      --streak-bg:     rgba(234,88,12,0.10);
+      --radius:        14px;
+      --radius-sm:     8px;
+      --radius-pill:   9999px;
+      --t:             0.18s ease;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text-1);
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    /* ── Site Header ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(248,246,241,0.92);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(26,26,26,0.06);
+      padding: 10px 0;
+    }
+    .site-header-inner {
+      max-width: 1100px; margin: 0 auto; padding: 0 20px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-header-logo {
+      font-size: 15px; font-weight: 800; color: #111;
+      text-decoration: none; display: flex; align-items: center; gap: 7px;
+    }
+    .site-header-nav { display: flex; gap: 2px; }
+    .site-header-nav a {
+      font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.6);
+      text-decoration: none; padding: 7px 12px; border-radius: 10px;
+      transition: color 0.15s, background 0.15s;
+    }
+    .site-header-nav a:hover { color: #111; background: rgba(26,26,26,0.04); }
+    .site-header-nav a.active {
+      color: #E09520; font-weight: 700;
+      box-shadow: #F5A623 0px -3px 0px 0px inset;
+    }
+
+    /* ── Layout ── */
+    .page { max-width: 680px; margin: 0 auto; padding: 32px 20px 80px; }
+
+    /* ── Level Tabs ── */
+    .level-tabs {
+      display: flex; gap: 4px; overflow-x: auto;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 28px;
+      scrollbar-width: none;
+    }
+    .level-tabs::-webkit-scrollbar { display: none; }
+    .level-tab {
+      background: transparent; border: none; cursor: pointer;
+      padding: 10px 16px; font-size: 14px; font-weight: 600;
+      color: var(--text-2); white-space: nowrap;
+      transition: color var(--t), box-shadow var(--t);
+      border-radius: 0;
+    }
+    .level-tab:hover { color: var(--text-1); }
+    .level-tab.active {
+      color: var(--gold);
+      box-shadow: var(--gold) 0px -3px 0px 0px inset;
+    }
+    .level-desc {
+      font-size: 13px; color: var(--text-3); margin-bottom: 24px;
+      font-weight: 500;
+    }
+
+    /* ── Article Card ── */
+    .article-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-bottom: 14px;
+      cursor: pointer;
+      transition: border-color var(--t);
+    }
+    .article-card:hover { border-color: var(--border-strong); }
+    .article-card.read { opacity: 0.65; }
+    .article-card-meta {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px; font-weight: 600; color: var(--text-3);
+      letter-spacing: 0.3px; margin-bottom: 8px;
+    }
+    .article-card-meta .dot { width: 3px; height: 3px; background: var(--text-3); border-radius: 50%; }
+    .badge-read {
+      background: var(--success-bg); color: var(--success);
+      border-radius: var(--radius-pill); padding: 2px 8px;
+      font-size: 11px; font-weight: 700;
+    }
+    .article-card-title {
+      font-size: 17px; font-weight: 700; letter-spacing: -0.4px;
+      color: var(--text-1); margin-bottom: 4px;
+      line-height: 1.35;
+    }
+    .article-card-title-ja {
+      font-size: 13px; color: var(--text-2); font-weight: 400;
+      margin-bottom: 14px;
+    }
+    .article-card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .article-card-stats { font-size: 13px; color: var(--text-3); font-weight: 500; }
+    .btn-read {
+      background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
+      color: #fff; font-weight: 800; font-size: 14px;
+      padding: 8px 20px; border-radius: var(--radius-pill);
+      border: none; cursor: pointer; min-height: 36px;
+      box-shadow: 0 2px 8px rgba(245,166,35,0.35);
+      transition: opacity var(--t);
+    }
+    .btn-read:hover { opacity: 0.9; }
+    .btn-read-ghost {
+      background: transparent; color: var(--text-2);
+      border: 1px solid var(--border-strong);
+      font-weight: 600; font-size: 14px;
+      padding: 8px 20px; border-radius: var(--radius-pill);
+      cursor: pointer; min-height: 36px;
+    }
+
+    /* ── Progress Section ── */
+    .progress-section {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-top: 28px;
+    }
+    .progress-title {
+      font-size: 13px; font-weight: 700; color: var(--text-2);
+      letter-spacing: 0.3px; text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .progress-stats { display: flex; gap: 32px; flex-wrap: wrap; margin-bottom: 20px; }
+    .stat-block { display: flex; flex-direction: column; gap: 2px; }
+    .stat-value {
+      font-size: 28px; font-weight: 800; letter-spacing: -0.8px;
+      font-variant-numeric: tabular-nums;
+    }
+    .stat-label { font-size: 12px; font-weight: 600; color: var(--text-3); letter-spacing: 0.3px; }
+    .streak-value { color: var(--streak); }
+    .week-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .week-day {
+      display: flex; flex-direction: column; align-items: center; gap: 4px;
+    }
+    .week-day-label { font-size: 11px; font-weight: 600; color: var(--text-3); letter-spacing: 0.3px; }
+    .week-day-dot {
+      width: 28px; height: 28px; border-radius: 50%;
+      border: 1.5px solid var(--border);
+      background: var(--bg-subtle);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 14px;
+    }
+    .week-day-dot.done { background: var(--streak-bg); border-color: var(--streak); }
+    .week-day-dot.today { border-color: var(--gold); background: var(--gold-bg); }
+
+    /* ── Reader Hint ── */
+    .reader-hint {
+      font-size: 12px; color: var(--text-3); font-weight: 500;
+      margin-bottom: 12px; line-height: 1.5;
+    }
+    .reader-hint u { text-decoration: underline; text-decoration-color: rgba(26,26,26,0.3); text-underline-offset: 3px; }
+
+    /* ── Reader ── */
+    #reader-view { display: none; }
+    .reader-header {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 24px;
+    }
+    .btn-back {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--text-2); font-size: 13px; font-weight: 600;
+      padding: 6px 14px; border-radius: var(--radius-pill);
+      cursor: pointer; transition: border-color var(--t), color var(--t);
+      min-height: 32px;
+    }
+    .btn-back:hover { border-color: var(--border-strong); color: var(--text-1); }
+    .reader-badge {
+      background: var(--gold-bg); color: var(--gold);
+      border: 1px solid rgba(245,166,35,0.3);
+      border-radius: var(--radius-pill); padding: 3px 10px;
+      font-size: 12px; font-weight: 700;
+    }
+
+    .reader-title {
+      font-size: 24px; font-weight: 800; letter-spacing: -0.6px;
+      line-height: 1.25; margin-bottom: 6px;
+    }
+    .reader-title-ja {
+      font-size: 15px; color: var(--text-2); font-weight: 400;
+      margin-bottom: 20px;
+    }
+    .reader-meta {
+      display: flex; gap: 12px; align-items: center;
+      font-size: 13px; color: var(--text-3); font-weight: 500;
+      margin-bottom: 24px;
+    }
+    .reader-meta .sep { width: 3px; height: 3px; background: var(--text-3); border-radius: 50%; }
+
+    .audio-row { margin-bottom: 20px; }
+    .btn-audio {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-pill);
+      padding: 10px 20px; min-height: 44px;
+      font-size: 14px; font-weight: 600; color: var(--text-1);
+      cursor: pointer; transition: border-color var(--t);
+    }
+    .btn-audio:hover { border-color: var(--border-strong); }
+    .btn-audio.playing { border-color: var(--gold); color: var(--gold); }
+
+    .article-body {
+      font-size: 18px; line-height: 1.75; color: var(--text-1);
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+    .article-body .vocab-word {
+      text-decoration: underline;
+      text-decoration-color: rgba(26,26,26,0.3);
+      text-underline-offset: 3px;
+      cursor: pointer;
+      transition: background var(--t);
+    }
+    .article-body .vocab-word:hover,
+    .article-body .vocab-word.active {
+      background: var(--gold-bg);
+      border-radius: 3px;
+    }
+    .article-body .word-tap {
+      cursor: pointer;
+    }
+    .article-body .word-tap:hover { color: var(--gold); }
+    .article-body .word-tap.active {
+      background: var(--gold-bg);
+      border-radius: 3px;
+    }
+
+    /* ── Vocab Popup ── */
+    #vocab-popup {
+      display: none;
+      position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%);
+      width: calc(100% - 40px); max-width: 560px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      box-shadow: 0 8px 32px rgba(26,26,26,0.15);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      z-index: 200;
+    }
+    #vocab-popup.show { display: block; }
+    .vocab-popup-word {
+      font-size: 18px; font-weight: 800; letter-spacing: -0.4px;
+      margin-bottom: 4px;
+    }
+    .vocab-popup-pos {
+      font-size: 12px; color: var(--text-3); font-weight: 600;
+      letter-spacing: 0.3px; margin-bottom: 8px;
+    }
+    .vocab-popup-def {
+      font-size: 15px; color: var(--text-1); line-height: 1.5;
+    }
+    .vocab-popup-close {
+      position: absolute; top: 12px; right: 14px;
+      background: transparent; border: none;
+      font-size: 18px; color: var(--text-3); cursor: pointer;
+      line-height: 1;
+    }
+
+    /* ── Finish button ── */
+    .btn-finish {
+      width: 100%;
+      background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
+      color: #fff; font-weight: 800; font-size: 17px;
+      padding: 16px 28px; border-radius: var(--radius-pill);
+      border: none; cursor: pointer; min-height: 56px;
+      box-shadow: 0 2px 8px rgba(245,166,35,0.35);
+      transition: opacity var(--t);
+      margin-bottom: 40px;
+    }
+    .btn-finish:hover { opacity: 0.9; }
+
+    /* ── Post-reading ── */
+    #post-view { display: none; }
+    .completion-banner {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .completion-words {
+      font-size: 32px; font-weight: 800; letter-spacing: -0.8px;
+      color: var(--gold); margin-bottom: 6px;
+    }
+    .completion-streak {
+      font-size: 15px; font-weight: 600; color: var(--streak);
+    }
+
+    .btn-ja-toggle {
+      width: 100%;
+      background: transparent; border: 1px solid var(--border-strong);
+      color: var(--text-1); font-size: 15px; font-weight: 600;
+      padding: 12px 20px; border-radius: var(--radius-pill);
+      cursor: pointer; transition: all var(--t);
+      margin-bottom: 12px; min-height: 48px;
+    }
+    .btn-ja-toggle:hover { background: var(--surface); }
+    .btn-ja-toggle.open { background: var(--surface); }
+
+    #ja-text {
+      display: none;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      font-size: 15px; line-height: 1.8; color: var(--text-2);
+      margin-bottom: 28px;
+    }
+    #ja-text.show { display: block; }
+
+    /* ── Questions ── */
+    .questions-section { margin-bottom: 32px; }
+    .questions-title {
+      font-size: 14px; font-weight: 700; color: var(--text-2);
+      letter-spacing: 0.2px; margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+    .question-block { margin-bottom: 24px; }
+    .question-text {
+      font-size: 16px; font-weight: 600; color: var(--text-1);
+      margin-bottom: 12px; line-height: 1.5;
+    }
+    .choices { display: flex; flex-direction: column; gap: 8px; }
+    .choice-btn {
+      background: var(--bg-elevated);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 12px 16px; min-height: 48px;
+      text-align: left; font-size: 15px; color: var(--text-1);
+      cursor: pointer; transition: all var(--t); font-weight: 400;
+    }
+    .choice-btn:hover:not(:disabled) { background: var(--surface); border-color: var(--border-strong); }
+    .choice-btn.correct {
+      background: var(--success-bg); border-color: var(--success); color: var(--success);
+    }
+    .choice-btn.wrong {
+      background: var(--error-bg); border-color: var(--error); color: var(--error);
+    }
+    .choice-btn:disabled { cursor: default; }
+    .expl-text {
+      font-size: 13px; color: var(--text-2); line-height: 1.5;
+      background: var(--bg-subtle); border-radius: var(--radius-sm);
+      padding: 10px 14px; margin-top: 8px;
+    }
+    .questions-actions {
+      display: flex; gap: 12px; align-items: center;
+      margin-bottom: 8px;
+    }
+    .btn-skip {
+      background: transparent; border: 1px solid var(--border);
+      color: var(--text-3); font-size: 14px; font-weight: 600;
+      padding: 8px 16px; border-radius: var(--radius-pill);
+      cursor: pointer; min-height: 36px;
+    }
+    .btn-skip:hover { color: var(--text-2); border-color: var(--border-strong); }
+
+    /* ── Done section ── */
+    .done-section {
+      display: none; text-align: center; padding: 32px 0;
+    }
+    .done-section.show { display: block; }
+    .done-msg {
+      font-size: 16px; color: var(--text-2); margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    .btn-back-hub {
+      background: transparent; border: 1px solid var(--border-strong);
+      color: var(--text-1); font-size: 15px; font-weight: 600;
+      padding: 12px 28px; border-radius: var(--radius-pill);
+      cursor: pointer; min-height: 48px; margin-bottom: 12px;
+    }
+    .btn-share-x {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #000; color: #fff;
+      border: none; font-size: 14px; font-weight: 700;
+      padding: 10px 20px; border-radius: var(--radius-pill);
+      cursor: pointer; min-height: 40px;
+    }
+    .source-link {
+      font-size: 12px; color: var(--text-3); margin-top: 20px;
+    }
+    .source-link a { color: var(--text-3); text-decoration: underline; }
+
+    /* ── Loading ── */
+    .loading { text-align: center; padding: 60px 20px; color: var(--text-3); font-size: 15px; }
+
+    /* ── LP Hero ── */
+    .lp-hero {
+      position: relative; overflow: hidden;
+      text-align: center; padding: 100px 20px 72px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+      background: var(--bg);
+      background-image: radial-gradient(rgba(26,26,26,0.05) 1px, transparent 1px);
+      background-size: 28px 28px;
+    }
+    .lp-hero-orb {
+      position: absolute; border-radius: 50%; pointer-events: none; z-index: 0;
+    }
+    .lp-hero-orb-1 {
+      width: 400px; height: 400px; top: -120px; right: -80px;
+      background: radial-gradient(circle, rgba(245,166,35,0.10), transparent 70%);
+      animation: orbFloat1 8s ease-in-out infinite;
+    }
+    .lp-hero-orb-2 {
+      width: 300px; height: 300px; bottom: -60px; left: -60px;
+      background: radial-gradient(circle, rgba(245,166,35,0.07), transparent 70%);
+      animation: orbFloat2 10s ease-in-out infinite;
+    }
+    .lp-hero-orb-3 {
+      width: 200px; height: 200px; top: 40%; right: 10%;
+      background: radial-gradient(circle, rgba(245,166,35,0.05), transparent 70%);
+      animation: orbFloat1 12s ease-in-out infinite reverse;
+    }
+    @keyframes orbFloat1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-18px)} }
+    @keyframes orbFloat2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(14px)} }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+
+    .lp-hero-inner { position: relative; z-index: 1; max-width: 660px; margin: 0 auto; }
+    .lp-hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(245,166,35,0.14); color: var(--gold-dark);
+      border: 1px solid rgba(245,166,35,0.28);
+      border-radius: var(--radius-pill);
+      padding: 6px 14px; font-size: 13px; font-weight: 700;
+      letter-spacing: 0.3px; margin-bottom: 22px;
+      animation: fadeUp 0.5s ease both;
+    }
+    .lp-hero h1 {
+      font-size: clamp(34px, 7vw, 64px); font-weight: 800; letter-spacing: -1.2px;
+      line-height: 1.15; margin-bottom: 18px;
+      animation: fadeUp 0.5s 0.1s ease both;
+    }
+    .text-gold {
+      background: linear-gradient(120deg, #D97706 0%, #F5A623 50%, #FBBF24 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .lp-hero-sub {
+      font-size: 17px; color: var(--text-2); line-height: 1.75;
+      max-width: 520px; margin: 0 auto 36px;
+      animation: fadeUp 0.5s 0.2s ease both;
+    }
+    .lp-hero-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, #E09520 0%, #F5A623 50%, #F8C347 100%);
+      color: #fff; font-weight: 700; font-size: 17px;
+      padding: 16px 36px; border-radius: var(--radius-pill);
+      border: none; cursor: pointer; min-height: 56px;
+      box-shadow: 0 4px 16px rgba(245,166,35,0.32);
+      transition: transform 0.15s, box-shadow 0.15s;
+      animation: fadeUp 0.5s 0.3s ease both;
+      font-family: inherit;
+    }
+    .lp-hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(245,166,35,0.40); }
+    .lp-hero-fine {
+      font-size: 12px; color: var(--text-3); margin-top: 14px;
+      font-weight: 500;
+      animation: fadeUp 0.5s 0.4s ease both;
+    }
+
+    /* ── Feature Strip ── */
+    .feature-strip {
+      display: flex; border: 1px solid var(--border);
+      border-radius: var(--radius); overflow: hidden;
+      margin-bottom: 40px;
+    }
+    .feature-item {
+      flex: 1; text-align: center; padding: 20px 12px;
+      border-right: 1px solid var(--border);
+    }
+    .feature-item:last-child { border-right: none; }
+    .feature-icon { font-size: 24px; margin-bottom: 8px; }
+    .feature-label { font-size: 13px; font-weight: 700; color: var(--text-1); margin-bottom: 2px; }
+    .feature-desc { font-size: 11px; color: var(--text-3); font-weight: 500; }
+
+    /* ── How It Works ── */
+    .how-section { margin-bottom: 48px; }
+    .how-title {
+      font-size: 22px; font-weight: 800; letter-spacing: -0.6px;
+      text-align: center; margin-bottom: 28px;
+    }
+    .how-steps { display: flex; gap: 16px; }
+    .how-step {
+      flex: 1; background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px 16px;
+      text-align: center;
+    }
+    .how-step-num {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--gold-bg); color: var(--gold);
+      font-size: 14px; font-weight: 800; margin-bottom: 12px;
+    }
+    .how-step-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; letter-spacing: -0.3px; }
+    .how-step-desc { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+
+    /* ── Level Cards ── */
+    .levels-section { margin-bottom: 48px; }
+    .levels-title {
+      font-size: 22px; font-weight: 800; letter-spacing: -0.6px;
+      text-align: center; margin-bottom: 28px;
+    }
+    .level-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .level-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 16px;
+    }
+    .level-card-vl {
+      font-size: 14px; font-weight: 800; color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .level-card-cefr { font-size: 12px; color: var(--text-3); font-weight: 600; margin-bottom: 8px; }
+    .level-card-desc { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+
+    /* ── Philosophy ── */
+    .philosophy-section {
+      background: var(--bg-subtle); border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 20px; margin: 0 -20px 40px;
+      text-align: center;
+    }
+    .philosophy-inner { max-width: 600px; margin: 0 auto; }
+    .philosophy-hook {
+      font-size: 20px; font-weight: 800; letter-spacing: -0.5px;
+      margin-bottom: 16px; line-height: 1.35;
+    }
+    .philosophy-body {
+      font-size: 15px; color: var(--text-2); line-height: 1.7;
+      text-align: left;
+    }
+    .philosophy-body p { margin-bottom: 14px; }
+    .philosophy-body strong { color: var(--text-1); font-weight: 700; }
+    .philosophy-tagline {
+      font-size: 16px; font-weight: 700; color: var(--gold);
+      margin-top: 20px; letter-spacing: -0.3px;
+    }
+
+    /* ── LP content wrapper (below hero) ── */
+    .lp-content-wrap { max-width: 680px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── Hero feature strip (inside hero) ── */
+    .hero-feature-strip {
+      display: flex; justify-content: center; gap: 32px;
+      margin-top: 48px; flex-wrap: wrap;
+      animation: fadeUp 0.5s 0.4s ease both;
+    }
+    .hero-feature-item { text-align: center; }
+    .hero-feature-icon { font-size: 22px; margin-bottom: 4px; }
+    .hero-feature-value { font-size: 20px; font-weight: 800; color: var(--text-1); }
+    .hero-feature-label { font-size: 12px; font-weight: 700; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.05em; }
+
+    @media (max-width: 640px) {
+      .how-steps { flex-direction: column; }
+      .level-cards { grid-template-columns: 1fr; }
+      .feature-strip { flex-direction: column; }
+      .feature-item { border-right: none; border-bottom: 1px solid var(--border); }
+      .feature-item:last-child { border-bottom: none; }
+    }
+
+    @media (min-width: 641px) and (max-width: 1023px) {
+      .page { padding: 32px 32px 80px; }
+      .article-card { padding: 24px 28px; }
+      .progress-section { padding: 24px 28px; }
+    }
+    @media (max-width: 640px) {
+      .page { padding: 24px 16px 80px; }
+      .article-body { font-size: 17px; }
+      .reader-title { font-size: 20px; }
+      .progress-stats { gap: 24px; }
+    }
+    @media (max-height: 700px) {
+      .page { padding: 20px 16px 60px; }
+      .site-header { height: 44px; }
+    }
+
+    /* ── Hamburger ── */
+    .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
+    .site-hamburger:hover { background: rgba(26,26,26,0.04); }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: rgba(26,26,26,0.88); margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .site-hamburger.active span:nth-child(2) { opacity: 0; }
+    .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    .site-mobile-nav { display: flex; visibility: hidden; pointer-events: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s, visibility 0.3s; }
+    .site-mobile-nav.active { visibility: visible; pointer-events: auto; opacity: 1; }
+    .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
+    .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .site-mobile-nav a.active { color: #F5A623; }
+    .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
+    .mobile-nav-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #fff; cursor: pointer; width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .mobile-nav-close:hover { background: rgba(255,255,255,0.2); }
+    @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-header-logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;color:#F5A623"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      native-real
+    </a>
+    <nav class="site-header-nav">
+      <a href="/listening/">ListenUp</a>
+      <a href="/grammar/">GrammarUp</a>
+      <a href="/speaking/">SpeakUp</a>
+      <a href="/reading/" class="active">ReadUp</a>
+      <a href="/ranking/">Ranking</a>
+    </nav>
+    <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="site-mobile-nav" id="siteMobileNav">
+  <button class="mobile-nav-close" id="siteMobileNavClose" aria-label="メニューを閉じる">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="mobile-nav-label">学ぶ</div>
+  <a href="/listening/">ListenUp</a>
+  <a href="/grammar/">GrammarUp</a>
+  <a href="/speaking/">SpeakUp</a>
+  <a href="/reading/" class="active">ReadUp</a>
+  <div class="mobile-nav-label">読む・その他</div>
+  <a href="/ranking/">英会話スクール</a>
+  <a href="/articles/">学習コラム</a>
+</div>
+
+<!-- ── LP Section (full-width, outside .page container) ── -->
+<div id="lp-section" class="page-lp">
+    <div class="lp-hero">
+      <div class="lp-hero-orb lp-hero-orb-1"></div>
+      <div class="lp-hero-orb lp-hero-orb-2"></div>
+      <div class="lp-hero-orb lp-hero-orb-3"></div>
+      <div class="lp-hero-inner">
+        <div class="lp-hero-badge">
+          <svg viewBox="0 0 20 20" fill="currentColor" style="width:13px;height:13px"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+          無料・登録不要・音声付き
+        </div>
+        <h1>英語は「辞書で止まる」より、<br><span class="text-gold">レベルを合わせて読み続ける</span>。</h1>
+        <p class="lp-hero-sub">語彙制限されたレベル別英文を、1ページ・1分で読む。わからない単語はタップで即確認。毎日続けるほど、英文がスラスラ読めるようになる。</p>
+        <button class="lp-hero-cta" onclick="document.getElementById('hub-content').scrollIntoView({behavior:'smooth'})">
+          読み始める
+          <svg viewBox="0 0 20 20" fill="currentColor" style="width:18px;height:18px"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        </button>
+
+        <div class="hero-feature-strip">
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">📖</div>
+            <div class="hero-feature-value">84</div>
+            <div class="hero-feature-label">記事</div>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🎯</div>
+            <div class="hero-feature-value">4</div>
+            <div class="hero-feature-label">レベル</div>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🔊</div>
+            <div class="hero-feature-value">全記事</div>
+            <div class="hero-feature-label">音声付き</div>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">🆓</div>
+            <div class="hero-feature-value">無料</div>
+            <div class="hero-feature-label">登録不要</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lp-content-wrap">
+
+    <div class="how-section">
+      <h2 class="how-title">使い方はシンプル</h2>
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="how-step-num">1</div>
+          <div class="how-step-title">レベルを選ぶ</div>
+          <div class="how-step-desc">VL2000（基礎）からVL7000（上級）まで。知っている語彙数に合わせて選べます。</div>
+        </div>
+        <div class="how-step">
+          <div class="how-step-num">2</div>
+          <div class="how-step-title">1分で読む</div>
+          <div class="how-step-desc">VL外の単語には下線表示。タップで意味を確認。音声を聴きながら読むことも可能。</div>
+        </div>
+        <div class="how-step">
+          <div class="how-step-num">3</div>
+          <div class="how-step-title">理解度チェック</div>
+          <div class="how-step-desc">読了後に2問の理解度クイズ。和訳も確認できます。読んだ語数とストリークを記録。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="levels-section">
+      <h2 class="levels-title">4つのレベル</h2>
+      <div class="level-cards">
+        <div class="level-card">
+          <div class="level-card-vl">VL2000</div>
+          <div class="level-card-cefr">CEFR B1 · 80〜100語</div>
+          <div class="level-card-desc">基本2000語で構成。英語学習を始めたばかりの方に。短い文、シンプルな構造。</div>
+        </div>
+        <div class="level-card">
+          <div class="level-card-vl">VL3000</div>
+          <div class="level-card-cefr">CEFR B1-B2 · 100〜120語</div>
+          <div class="level-card-desc">やや複雑な文もOK。関係代名詞・受動態も登場。日常英語に自信がある方に。</div>
+        </div>
+        <div class="level-card">
+          <div class="level-card-vl">VL5000</div>
+          <div class="level-card-cefr">CEFR B2 · 120〜140語</div>
+          <div class="level-card-desc">新聞英語に近い表現。ビジネス・学術語彙も含む。TOEIC 600点以上を目指す方に。</div>
+        </div>
+        <div class="level-card">
+          <div class="level-card-vl">VL7000</div>
+          <div class="level-card-cefr">CEFR C1 · 130〜150語</div>
+          <div class="level-card-desc">ほぼネイティブ向け。高度な語彙と自然な表現。英字新聞を読みたい方に。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="philosophy-section">
+      <div class="philosophy-inner">
+        <p class="philosophy-hook">英語の多読、続かなかった経験はありませんか？</p>
+        <div class="philosophy-body">
+          <p>Graded Readerは効果的な学習法です。でも、書籍を買うコスト、自分のレベルに合った本を探す手間、わからない単語を辞書で調べる面倒さ。続けるには、意志の力だけでは足りません。</p>
+          <p>ReadUp Seriesは、<strong>「物足りないくらいで終わる」</strong>を設計原則にしています。1記事1分。1ページ完結。わからない単語はタップするだけ。音声も、和訳も、理解度チェックも、全部1つの画面に。</p>
+          <p><strong>毎日1分、読むだけでいい。</strong>それだけで語彙が増え、英文を読む力が確実に育ちます。</p>
+        </div>
+        <p class="philosophy-tagline">「辞書なしで読める」を、毎日の習慣に。</p>
+      </div>
+    </div>
+    </div><!-- /lp-content-wrap -->
+  </div><!-- /lp-section -->
+
+<main class="page">
+  <!-- ── Hub View ── -->
+  <div id="hub-view">
+    <div id="hub-content" style="margin-bottom:24px;">
+      <h2 style="font-size:22px;font-weight:800;letter-spacing:-0.6px;margin-bottom:6px;">記事を読む</h2>
+      <p style="font-size:14px;color:var(--text-2);line-height:1.5;">レベルを選んで、気になる記事をタップ。</p>
+    </div>
+
+    <!-- Level Tabs -->
+    <div class="level-tabs" role="tablist">
+      <button class="level-tab active" data-vl="vl2000" onclick="selectLevel('vl2000')" role="tab">VL2000</button>
+      <button class="level-tab" data-vl="vl3000" onclick="selectLevel('vl3000')" role="tab">VL3000</button>
+      <button class="level-tab" data-vl="vl5000" onclick="selectLevel('vl5000')" role="tab">VL5000</button>
+      <button class="level-tab" data-vl="vl7000" onclick="selectLevel('vl7000')" role="tab">VL7000</button>
+    </div>
+    <p class="level-desc" id="level-desc">B1 · NGSL上位2000語 · 1文80〜100語</p>
+
+    <!-- Article List -->
+    <div id="article-list">
+      <div class="loading">読み込み中...</div>
+    </div>
+
+    <!-- Progress -->
+    <div class="progress-section">
+      <div class="progress-title">学習記録</div>
+      <div class="progress-stats">
+        <div class="stat-block">
+          <span class="stat-value streak-value" id="stat-streak">0</span>
+          <span class="stat-label">連続読書（日）🔥</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-value" id="stat-words">0</span>
+          <span class="stat-label">累計語数</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-value" id="stat-count">0</span>
+          <span class="stat-label">読了記事数</span>
+        </div>
+      </div>
+      <div class="week-row" id="week-row"></div>
+    </div>
+  </div>
+
+  <!-- ── Reader View ── -->
+  <div id="reader-view">
+    <div class="reader-header">
+      <button class="btn-back" onclick="backToHub()">← 記事一覧</button>
+      <span class="reader-badge" id="reader-vl-badge">VL2000</span>
+    </div>
+    <h1 class="reader-title" id="reader-title"></h1>
+    <p class="reader-title-ja" id="reader-title-ja"></p>
+    <div class="reader-meta">
+      <span id="reader-wc"></span>
+      <span class="sep"></span>
+      <span>約1分</span>
+    </div>
+
+    <!-- Audio Player -->
+    <div class="audio-row" id="audio-row" style="display:none;">
+      <button class="btn-audio" id="btn-audio" onclick="toggleAudio()">
+        <svg id="icon-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>
+        <svg id="icon-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+        <span id="audio-label">音声を聴く</span>
+      </button>
+    </div>
+
+    <p class="reader-hint"><u>下線付きの単語</u>は選択レベルの語彙リスト（頻度上位語）外の語です。基本語に見えても下線が付く場合があります。タップすると英英定義を確認できます。</p>
+    <div class="article-body" id="article-body"></div>
+
+    <button class="btn-finish" id="btn-finish" onclick="finishReading()">読み終えた ✓</button>
+
+    <!-- Post-reading -->
+    <div id="post-view">
+      <div class="completion-banner">
+        <div class="completion-words" id="completion-words">+94語読了！</div>
+        <div class="completion-streak" id="completion-streak">連続読書: 1日 🔥</div>
+      </div>
+
+      <button class="btn-ja-toggle" id="btn-ja-toggle" onclick="toggleJa()">和訳を見る ▼</button>
+      <div id="ja-text"></div>
+
+      <div class="questions-section" id="questions-section">
+        <div class="questions-actions">
+          <span class="questions-title">理解度チェック（任意）</span>
+          <button class="btn-skip" onclick="skipQuestions()">スキップ →</button>
+        </div>
+        <div id="questions-list"></div>
+      </div>
+
+      <div class="done-section" id="done-section">
+        <p class="done-msg">おつかれさまでした！<br>また明日も読みましょう。</p>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:10px;">
+          <button class="btn-back-hub" onclick="backToHub()">← 記事一覧に戻る</button>
+          <button class="btn-share-x" id="btn-share-x" onclick="shareToX()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.256 5.622 5.908-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Xでシェア
+          </button>
+        </div>
+        <div class="source-link" id="source-link"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Vocab Popup -->
+<div id="vocab-popup" role="tooltip">
+  <button class="vocab-popup-close" onclick="closeVocabPopup()">×</button>
+  <div class="vocab-popup-word" id="popup-word"></div>
+  <div class="vocab-popup-pos" id="popup-pos"></div>
+  <div class="vocab-popup-def" id="popup-def">読み込み中...</div>
+</div>
+
+<script src="series/stories.js"></script>
+<script>
+'use strict';
+
+// ── Constants ──
+const VL_LABELS = {
+  vl2000: 'VL2000',
+  vl3000: 'VL3000',
+  vl5000: 'VL5000',
+  vl7000: 'VL7000',
+};
+const VL_DESCS = {
+  vl2000: 'B1 · NGSL上位2000語 · 80〜100語 · 約1分',
+  vl3000: 'B1-B2 · NGSL+NAWL · 100〜120語 · 約1分',
+  vl5000: 'B2 · +TSL/BSL · 120〜140語 · 約1分',
+  vl7000: 'C1 · 上級語彙 · 130〜150語 · 約1分',
+};
+const STORAGE_KEY = 'readup_v1';
+const LEVEL_KEY   = 'readup_level';
+
+// ── State ──
+let currentLevel = localStorage.getItem(LEVEL_KEY) || 'vl2000';
+let currentStory = null;
+let questionState = {}; // qIndex → answered
+
+// ── Progress ──
+function loadProgress() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch { return {}; }
+}
+function saveProgress(p) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(p)); } catch {}
+}
+
+function getProgress() {
+  const p = loadProgress();
+  const today = todayStr();
+  // Streak calc
+  let streak = 0;
+  const d = new Date();
+  for (let i = 0; i < 365; i++) {
+    const s = dateStr(d);
+    if ((p.readDates || []).includes(s)) { streak++; d.setDate(d.getDate() - 1); }
+    else if (i === 0) break;
+    else break;
+  }
+  return {
+    streak,
+    totalWords: p.totalWords || 0,
+    readIds:    p.readIds    || [],
+    readDates:  p.readDates  || [],
+  };
+}
+
+function markRead(story) {
+  const p = loadProgress();
+  const today = todayStr();
+  const wc = wordCount(story.body);
+  p.totalWords  = (p.totalWords  || 0) + wc;
+  p.readIds     = [...new Set([...(p.readIds    || []), story.id])];
+  p.readDates   = [...new Set([...(p.readDates  || []), today])];
+  saveProgress(p);
+}
+
+function todayStr() { return new Date().toISOString().slice(0, 10); }
+function dateStr(d) { return d.toISOString().slice(0, 10); }
+function wordCount(text) { return text.trim().split(/\s+/).length; }
+
+// ── Render Hub ──
+function renderHub() {
+  updateLevelTabs();
+  renderArticleList();
+  renderProgress();
+  renderWeekRow();
+}
+
+function updateLevelTabs() {
+  document.querySelectorAll('.level-tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.vl === currentLevel);
+  });
+  document.getElementById('level-desc').textContent = VL_DESCS[currentLevel];
+}
+
+function selectLevel(vl) {
+  currentLevel = vl;
+  localStorage.setItem(LEVEL_KEY, vl);
+  updateLevelTabs();
+  renderArticleList();
+}
+
+function renderArticleList() {
+  const stories = (typeof STORIES !== 'undefined' ? STORIES : [])
+    .filter(s => s.vl === currentLevel)
+    .sort((a, b) => b.pub_date.localeCompare(a.pub_date));
+
+  const { readIds } = getProgress();
+  const container = document.getElementById('article-list');
+
+  if (!stories.length) {
+    container.innerHTML = '<p style="color:var(--text-3);font-size:15px;padding:20px 0;">この週はまだ記事がありません。</p>';
+    return;
+  }
+
+  container.innerHTML = stories.map((s, i) => {
+    const isRead  = readIds.includes(s.id);
+    const wc      = wordCount(s.body);
+    return `
+      <div class="article-card ${isRead ? 'read' : ''}" onclick="openReader('${s.id}')">
+        <div class="article-card-meta">
+          <span>${VL_LABELS[s.vl]}</span>
+          ${isRead ? '<span class="badge-read">読了</span>' : ''}
+        </div>
+        <div class="article-card-title">${escHtml(s.title)}</div>
+        <div class="article-card-title-ja">${escHtml(s.title_ja)}</div>
+        <div class="article-card-footer">
+          <span class="article-card-stats">${wc}語</span>
+          <button class="btn-read" onclick="event.stopPropagation();openReader('${s.id}')">
+            ${isRead ? '読み直す' : '読む →'}
+          </button>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function renderProgress() {
+  const { streak, totalWords, readIds } = getProgress();
+  document.getElementById('stat-streak').textContent = streak;
+  document.getElementById('stat-words').textContent  = totalWords.toLocaleString();
+  document.getElementById('stat-count').textContent  = readIds.length;
+}
+
+function renderWeekRow() {
+  const { readDates } = getProgress();
+  const today = todayStr();
+  const DAY_LABELS = ['月','火','水','木','金','土','日'];
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    days.push({ date: dateStr(d), label: DAY_LABELS[d.getDay() === 0 ? 6 : d.getDay() - 1] });
+  }
+  document.getElementById('week-row').innerHTML = days.map(({ date, label }) => {
+    const isToday = date === today;
+    const done    = readDates.includes(date);
+    return `<div class="week-day">
+      <span class="week-day-label">${label}</span>
+      <div class="week-day-dot ${done ? 'done' : ''} ${isToday && !done ? 'today' : ''}">
+        ${done ? '✓' : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── Reader ──
+function openReader(storyId) {
+  const story = (typeof STORIES !== 'undefined' ? STORIES : []).find(s => s.id === storyId);
+  if (!story) return;
+  currentStory = story;
+  questionState = {};
+
+  document.getElementById('lp-section').style.display   = 'none';
+  document.getElementById('hub-view').style.display    = 'none';
+  document.getElementById('reader-view').style.display = 'block';
+  document.getElementById('post-view').style.display   = 'none';
+  document.getElementById('btn-finish').style.display  = 'block';
+  document.getElementById('ja-text').classList.remove('show');
+  document.getElementById('btn-ja-toggle').classList.remove('open');
+  document.getElementById('btn-ja-toggle').textContent = '和訳を見る ▼';
+  document.getElementById('done-section').classList.remove('show');
+
+  document.getElementById('reader-vl-badge').textContent = VL_LABELS[story.vl];
+  document.getElementById('reader-title').textContent    = story.title;
+  document.getElementById('reader-title-ja').textContent = story.title_ja;
+  const wc = wordCount(story.body);
+  document.getElementById('reader-wc').textContent = `${wc}語`;
+
+  document.getElementById('article-body').innerHTML = buildBodyHtml(story);
+  document.getElementById('questions-section').style.display = 'block';
+  renderQuestions(story);
+  initAudio(story);
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  try { gtag('event', 'story_open', { vl: story.vl, story_id: story.id }); } catch(_){}
+}
+
+function buildBodyHtml(story) {
+  const vocabMap = {};
+  (story.vocab_notes || []).forEach(n => { vocabMap[n.word.toLowerCase()] = n; });
+
+  // Use body_annotated if available (pre-computed VL-out marking)
+  if (story.body_annotated && story.body_annotated.length) {
+    return story.body_annotated.map(tok => {
+      if (!tok.w || !/[a-zA-Z]/.test(tok.w)) return escHtml(tok.w || '');
+      const isOutside = tok.outside === true;
+      const key = tok.w.toLowerCase().replace(/^'+|'+$/g, '');
+      const hasNote = !!vocabMap[key];
+      // VL外 or vocab_notes → 下線付きタップ
+      if (isOutside || hasNote) {
+        return `<span class="vocab-word" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok.w)}')">${escHtml(tok.w)}</span>`;
+      }
+      // VL内 → 下線なし・タップで辞書引き可能
+      return `<span class="word-tap" data-word="${escAttr(tok.w)}" onclick="showVocabPopup(event,'${escAttr(tok.w)}')">${escHtml(tok.w)}</span>`;
+    }).join('');
+  }
+
+  // Fallback: vocab_notes only
+  const tokens = story.body.match(/[a-zA-Z'-]+|[^a-zA-Z'-]+/g) || [];
+  return tokens.map(tok => {
+    if (!/[a-zA-Z]/.test(tok)) return escHtml(tok);
+    const key = tok.toLowerCase().replace(/^'+|'+$/g, '');
+    if (vocabMap[key]) {
+      return `<span class="vocab-word" data-word="${escAttr(tok)}" onclick="showVocabPopup(event,'${escAttr(tok)}')">${escHtml(tok)}</span>`;
+    }
+    return escHtml(tok);
+  }).join('');
+}
+
+function finishReading() {
+  if (!currentStory) return;
+  markRead(currentStory);
+  const wc = wordCount(currentStory.body);
+  const { streak } = getProgress();
+
+  document.getElementById('btn-finish').style.display = 'none';
+  document.getElementById('post-view').style.display  = 'block';
+  document.getElementById('completion-words').textContent  = `+${wc}語読了！`;
+  document.getElementById('completion-streak').textContent = `連続読書: ${streak}日 🔥`;
+  document.getElementById('ja-text').textContent = currentStory.body_ja;
+
+  renderProgress();
+  renderArticleList();
+  window.scrollTo({ top: document.getElementById('post-view').offsetTop - 80, behavior: 'smooth' });
+  try { gtag('event', 'story_complete', { vl: currentStory.vl, story_id: currentStory.id, word_count: wc }); } catch(_){}
+}
+
+function toggleJa() {
+  const el  = document.getElementById('ja-text');
+  const btn = document.getElementById('btn-ja-toggle');
+  const showing = el.classList.contains('show');
+  el.classList.toggle('show', !showing);
+  btn.classList.toggle('open', !showing);
+  btn.textContent = showing ? '和訳を見る ▼' : '和訳を隠す ▲';
+}
+
+// ── Questions ──
+function renderQuestions(story) {
+  const qs = story.questions || [];
+  if (!qs.length) {
+    document.getElementById('questions-section').style.display = 'none';
+    return;
+  }
+  document.getElementById('questions-list').innerHTML = qs.map((q, i) => `
+    <div class="question-block" id="qblock-${i}">
+      <div class="question-text">${escHtml(q.q)}</div>
+      <div class="choices">
+        ${q.choices.map((c, j) => `
+          <button class="choice-btn" onclick="answerQuestion(${i},${j})">${escHtml(c)}</button>
+        `).join('')}
+      </div>
+      <div class="expl-text" id="expl-${i}" style="display:none;">${escHtml(q.expl)}</div>
+    </div>`).join('');
+}
+
+function answerQuestion(qi, ci) {
+  if (questionState[qi] !== undefined) return;
+  questionState[qi] = ci;
+  const story = currentStory;
+  const q     = story.questions[qi];
+  const block = document.getElementById(`qblock-${qi}`);
+  const btns  = block.querySelectorAll('.choice-btn');
+  btns.forEach((b, j) => {
+    b.disabled = true;
+    if (j === q.answer)  b.classList.add('correct');
+    if (j === ci && ci !== q.answer) b.classList.add('wrong');
+  });
+  document.getElementById(`expl-${qi}`).style.display = 'block';
+  // Check all answered
+  if (Object.keys(questionState).length === story.questions.length) {
+    showDoneSection();
+  }
+}
+
+function skipQuestions() {
+  document.getElementById('questions-section').style.display = 'none';
+  showDoneSection();
+}
+
+function showDoneSection() {
+  const s = currentStory;
+  document.getElementById('done-section').classList.add('show');
+  document.getElementById('source-link').innerHTML =
+    `元記事: <a href="${escAttr(s.source_url)}" target="_blank" rel="noopener">${escHtml(s.source_title)}</a>`;
+  window.scrollTo({ top: document.getElementById('done-section').offsetTop - 80, behavior: 'smooth' });
+}
+
+function shareToX() {
+  if (!currentStory) return;
+  const wc  = wordCount(currentStory.body);
+  const { streak } = getProgress();
+  const text = `📖 ${currentStory.title}\n${wc}語読了！連続読書${streak}日 🔥\n\n#ReadUp #英語学習\nhttps://native-real.com/reading/`;
+  window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text), '_blank');
+}
+
+// ── Audio ──
+let storyAudio = null;
+function initAudio(story) {
+  stopAudio();
+  const src = `series/audio/${story.id}.mp3`;
+  const row = document.getElementById('audio-row');
+  const a = new Audio();
+  a.preload = 'auto';
+  a.addEventListener('loadeddata', () => { row.style.display = 'block'; }, { once: true });
+  a.addEventListener('canplay', () => { row.style.display = 'block'; }, { once: true });
+  a.addEventListener('error', () => { row.style.display = 'none'; });
+  a.addEventListener('ended', () => { resetAudioUI(); });
+  a.src = src;
+  storyAudio = a;
+  row.style.display = 'none';
+  resetAudioUI();
+}
+function toggleAudio() {
+  if (!storyAudio) return;
+  if (storyAudio.paused) {
+    storyAudio.play();
+    document.getElementById('btn-audio').classList.add('playing');
+    document.getElementById('icon-play').style.display  = 'none';
+    document.getElementById('icon-pause').style.display = 'inline';
+    document.getElementById('audio-label').textContent  = '再生中...';
+  } else {
+    storyAudio.pause();
+    resetAudioUI();
+  }
+}
+function stopAudio() {
+  if (storyAudio) { storyAudio.pause(); storyAudio = null; }
+  resetAudioUI();
+}
+function resetAudioUI() {
+  document.getElementById('btn-audio').classList.remove('playing');
+  document.getElementById('icon-play').style.display  = 'inline';
+  document.getElementById('icon-pause').style.display = 'none';
+  document.getElementById('audio-label').textContent  = '音声を聴く';
+}
+
+function backToHub() {
+  stopAudio();
+  document.getElementById('lp-section').style.display   = 'block';
+  document.getElementById('hub-view').style.display    = 'block';
+  document.getElementById('reader-view').style.display = 'none';
+  currentStory = null;
+  renderWeekRow();
+}
+
+// ── Vocab Popup ──
+let activeVocabWord = null;
+function showVocabPopup(event, word) {
+  event.stopPropagation();
+  const popup = document.getElementById('vocab-popup');
+  if (activeVocabWord) {
+    document.querySelector('.vocab-word.active')?.classList.remove('active');
+    document.querySelector('.word-tap.active')?.classList.remove('active');
+  }
+  event.currentTarget.classList.add('active');
+  activeVocabWord = word;
+
+  document.getElementById('popup-word').textContent = word;
+  document.getElementById('popup-pos').textContent  = '';
+  document.getElementById('popup-def').textContent  = '読み込み中...';
+  popup.classList.add('show');
+
+  // Look up vocab_notes first
+  const note = (currentStory?.vocab_notes || [])
+    .find(n => n.word.toLowerCase() === word.toLowerCase());
+  if (note) {
+    document.getElementById('popup-pos').textContent = note.vl ? `VL${note.vl}` : '';
+    document.getElementById('popup-def').textContent = note.definition;
+    return;
+  }
+
+  // Fallback: Free Dictionary API
+  let base = word.toLowerCase().replace(/[^a-z]/g, '');
+  // 簡易語幹変換: butterflies→butterfly, meets→meet
+  if (base.endsWith('ies') && base.length > 4) base = base.slice(0, -3) + 'y';
+  else if (base.endsWith('s') && !base.endsWith('ss') && base.length > 4) base = base.slice(0, -1);
+  fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${base}`)
+    .then(r => r.json())
+    .then(data => {
+      if (!Array.isArray(data) || !data[0]) throw new Error();
+      const meanings = data[0].meanings || [];
+      // 動詞を優先（meets → "スポーツ競技" 等の名詞誤表示を防ぐ）
+      const m = meanings.find(x => x.partOfSpeech === 'verb') || meanings[0];
+      if (!m) throw new Error();
+      const def = m.definitions?.[0]?.definition || '';
+      document.getElementById('popup-pos').textContent = m.partOfSpeech || '';
+      document.getElementById('popup-def').textContent = def || '定義が見つかりませんでした';
+    })
+    .catch(() => {
+      document.getElementById('popup-def').textContent = '定義が見つかりませんでした';
+    });
+}
+
+function closeVocabPopup() {
+  document.getElementById('vocab-popup').classList.remove('show');
+  document.querySelector('.vocab-word.active')?.classList.remove('active');
+  document.querySelector('.word-tap.active')?.classList.remove('active');
+  activeVocabWord = null;
+}
+
+// Close popup on outside click
+document.addEventListener('click', e => {
+  if (!e.target.closest('#vocab-popup') && !e.target.closest('.vocab-word') && !e.target.closest('.word-tap')) {
+    closeVocabPopup();
+  }
+});
+
+// ── Utils ──
+function escHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+function escAttr(s) { return String(s).replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
+
+// ── Init ──
+document.addEventListener('DOMContentLoaded', () => {
+  renderHub();
+});
+
+// ── Site Header Hamburger ──
+(function() {
+  var hamburger = document.getElementById('siteHamburger');
+  var mobileNav = document.getElementById('siteMobileNav');
+  var closeBtn  = document.getElementById('siteMobileNavClose');
+  if (!hamburger || !mobileNav) return;
+  function openMenu()  { hamburger.classList.add('active');    mobileNav.classList.add('active'); }
+  function closeMenu() { hamburger.classList.remove('active'); mobileNav.classList.remove('active'); }
+  hamburger.addEventListener('click', function() {
+    hamburger.classList.contains('active') ? closeMenu() : openMenu();
+  });
+  if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+  mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', closeMenu); });
+})();
+</script>
+</body>
+</html>

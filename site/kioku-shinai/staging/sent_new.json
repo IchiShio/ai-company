@@ -1,0 +1,704 @@
+{
+  "root_id": "sent",
+  "words": [
+    {
+      "word": "consensus",
+      "phonetic": "/kənˈsɛnsəs/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "sens",
+          "meaning": "感じる、知覚する",
+          "type": "root"
+        },
+        {
+          "part": "-us",
+          "meaning": "名詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "複数の人が共に感じる意見、つまり合意",
+        "fact": "ラテン語consensuから。con-（共に）+ sentire（感じる）が語源。複数の人が同じ感覚を持つことが合意へ",
+        "source": "EtymOnline: Latin consensus 'agreement, accord'",
+        "cognates": [
+          "sense",
+          "sentiment",
+          "sensible",
+          "sensitive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "全員が同じ方向に心が向く＝合意",
+        "fact": "投票や会議で『みんなが同じ気持ち』という状態が合意。感情的な一致がベースの概念",
+        "source": "認知言語学：embodied cognition"
+      },
+      "gap": "consensusは単なる多数決ではなく、全体的な一致・合意を指す。majority opinionと異なり、より深い同意を含む",
+      "gapOneliner": "多数決と合意は違う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Con（みんな）+ Sense（気持ち）= Consensus（みんなの気持ちが一致）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "consensusの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "全員の合意、一致した意見",
+            "少数派の意見",
+            "多くの人の反対",
+            "個人の感覚"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "consensusの語源の核となる概念は何か",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "複数の人が同じ感覚・気持ちを共有すること",
+            "強制的に意見を統一すること",
+            "数字を数えて決めること",
+            "権力者の判断"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The team reached a ______ on the project direction after weeks of discussion.",
+          "hint": "全員が同意した状態を表す単語",
+          "explanationFocus": "gap",
+          "choices": [
+            "consensus",
+            "conflict",
+            "confusion",
+            "conclusion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "consensusと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "reach a consensus（合意に達する）",
+            "break a consensus",
+            "force a consensus",
+            "ignore a consensus"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"We need to build consensus among all stakeholders before moving forward.\" — consensusの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "全ステークホルダーの同意・合意",
+            "全員の反対意見を集める",
+            "リーダーの決定",
+            "多数派の投票"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "There is a scientific consensus that climate change is real.",
+        "We achieved consensus on the new policy.",
+        "Building consensus takes time and communication."
+      ]
+    },
+    {
+      "word": "resentment",
+      "phonetic": "/rɪˈzɛntmənt/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "再び、繰り返し",
+          "type": "prefix"
+        },
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "状態、感情、行為",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "何度も繰り返し感じる嫌な感情＝恨み",
+        "fact": "フランス語ressentirから。re-（繰り返し）+ sentir（感じる）。同じ不快感を何度も味わう心理状態",
+        "source": "EtymOnline: French resentir 'to feel again'",
+        "cognates": [
+          "resent",
+          "sentiment",
+          "sentient",
+          "sensitivity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "嫌なことを繰り返し思い出して感じ直す＝恨みの心",
+        "fact": "resentmentは単発の怒りではなく、過去の不公正を何度も心に感じ続ける状態。時間とともに深まる感情",
+        "source": "感情心理学：rumination（反すう）"
+      },
+      "gap": "resentmentはangerと異なり、過去の出来事への持続的な不満。冷たく深い感情として特徴づけられる",
+      "gapOneliner": "怒りと恨みは違う感情",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Re（繰り返し）+ Sent（感じる）= Resentment（何度も嫌な気持ちを感じ続ける）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "resentmentの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "恨み、不満を持ち続ける気持ち",
+            "その場での怒り",
+            "相手を褒める",
+            "新しい発見"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "resentmentがangerと異なる点は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "過去の出来事を何度も思い出して感じ続ける持続的な感情",
+            "瞬間的で激しい怒り",
+            "相手への愛情",
+            "喜びの感覚"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Her ______ toward her former boss lasted for years after the unfair dismissal.",
+          "hint": "過去の不公正への持続的な不満",
+          "explanationFocus": "gap",
+          "choices": [
+            "resentment",
+            "happiness",
+            "loyalty",
+            "appreciation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "resentmentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "harbor resentment（恨みを抱く）",
+            "create resentment",
+            "build resentment",
+            "express resentment freely"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His years of resentment finally boiled over during the meeting.\" — resentmentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "長年抱き続けた恨みや不満",
+            "その場での一時的な怒り",
+            "相手への尊敬",
+            "新しい計画"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "There was a lot of resentment between the two groups.",
+        "She felt resentment toward her family's treatment of her.",
+        "His resentment grew over time."
+      ]
+    },
+    {
+      "word": "sensible",
+      "phonetic": "/ˈsɛnsəbəl/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる、知覚する",
+          "type": "root"
+        },
+        {
+          "part": "-ible",
+          "meaning": "〜できる、〜可能な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "感じることができる＝実在するもの＝合理的な",
+        "fact": "ラテン語sensibilis。感覚で知覚できるものが実在すると考えられた。そこから『実在的で理に適った』の意味へ",
+        "source": "EtymOnline: Latin sensibilis 'capable of feeling'",
+        "cognates": [
+          "sense",
+          "sensitive",
+          "sensation",
+          "sensor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "五感で認識できる現実的な判断＝賢明な",
+        "fact": "sensibleは感覚的な知覚と理性が結びついた言葉。『感じられる現実』に基づいた合理的判断を指す",
+        "source": "認知言語学：metaphor of the senses"
+      },
+      "gap": "sensibleは『intelligent』『wise』とは異なり、実際的で論理的であることを強調。感覚と常識に基づいている",
+      "gapOneliner": "理屈ぽい知識より実践的な判断",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sense（感覚）+ Able（できる）= Sensible（感覚で判断できる=実践的で賢い）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensibleの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "実践的で合理的な、分別のある",
+            "感覚的な",
+            "難しい",
+            "不可能な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sensibleが『合理的』を意味する理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "感覚で知覚できる現実に基づいた判断だから",
+            "頭が良いから",
+            "高い教育を受けたから",
+            "権力があるから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "It would be ______ to check the weather before planning the picnic.",
+          "hint": "実践的で分別のある判断",
+          "explanationFocus": "gap",
+          "choices": [
+            "sensible",
+            "foolish",
+            "impossible",
+            "random"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sensibleと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a sensible decision（分別のある判断）",
+            "a sensible emotion",
+            "a sensible color",
+            "sensible rules"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"That's a very sensible approach to the problem.\" — sensibleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "実践的で合理的な",
+            "感情的な",
+            "創造的な",
+            "難しい"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "That's a sensible solution to the problem.",
+        "She made a sensible decision.",
+        "Wearing a coat in winter is sensible."
+      ]
+    },
+    {
+      "word": "sentiment",
+      "phonetic": "/ˈsɛntɪmənt/",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "-iment",
+          "meaning": "状態、行為、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "心で感じる事柄＝感情や意見",
+        "fact": "ラテン語sentimentum。sentire（感じる）+ -mentum。心で感じられるもの、つまり感情や見解を指す",
+        "source": "EtymOnline: Latin sentimentum 'feeling, emotion'",
+        "cognates": [
+          "sense",
+          "sensible",
+          "sensitive",
+          "consensus"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "心が感じ取った内容＝その人の感情や見方",
+        "fact": "sentimentは個人の内的な感情・感覚が外へ表現されたもの。理性より感情・感覚が優先される表現",
+        "source": "感情心理学：affective response"
+      },
+      "gap": "sentimentは個人の感情的見方や意見を指し、sentiment analysisは世論や感情の傾向分析を意味する。客観的事実ではなく感情的判断",
+      "gapOneliner": "事実ではなく感情的な見方や意見",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sent（感じる）+ Ment（状態）= Sentiment（心が感じた気持ちや意見）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sentimentの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感情、感覚、見解",
+            "事実",
+            "科学的証拠",
+            "法律"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sentimentが『感情的』な印象を持つ理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "心が感じ取ったもの、つまり理性より感覚を優先する概念だから",
+            "科学的根拠があるから",
+            "法的効力があるから",
+            "普遍的だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The public ______ toward the new policy seemed largely negative according to the survey.",
+          "hint": "人々の感情的な見方や意見",
+          "explanationFocus": "gap",
+          "choices": [
+            "sentiment",
+            "law",
+            "evidence",
+            "regulation"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sentimentと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "express one's sentiment（感情を表現する）",
+            "ignore sentiment",
+            "deny sentiment",
+            "sentiment analysis"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The artist's painting is filled with romantic sentiment.\" — sentimentの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "ロマンティックな感情や感覚",
+            "技術的スキル",
+            "歴史的事実",
+            "科学的知識"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "I appreciate the sentiment behind your gift.",
+        "The sentiment among employees is mixed.",
+        "Sentiment analysis is used in market research.",
+        "She expressed her deepest sentiments in the letter."
+      ]
+    },
+    {
+      "word": "sentimental",
+      "phonetic": "/ˌsɛntɪˈmɛntəl/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "sent",
+          "meaning": "感じる",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "状態、性質",
+          "type": "suffix"
+        },
+        {
+          "part": "-al",
+          "meaning": "〜の、〜的な",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "感情に満ちた、感覚的な＝感傷的な",
+        "fact": "sentimentに形容詞化接尾辞-alを加えたもの。心で感じる性質が強く、感情に左右されやすい様子を表す",
+        "source": "EtymOnline: sentiment + -al",
+        "cognates": [
+          "sentiment",
+          "sense",
+          "sensitive",
+          "emotional"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "感情が前面に出ている、感覚的に判断している状態",
+        "fact": "sentimentalは感情優位で時に過度な感情表現。理性より感覚や思い出への執着が強い心理状態",
+        "source": "感情心理学：emotional attachment"
+      },
+      "gap": "sentimentalは『emotional』より感情への執着度が強く、時にやや過度な感情表現を含む。懐かしさや思い出への固執の含意",
+      "gapOneliner": "感情的＋やや過度な感傷性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sentimental = Sentiment（感情）+ Al（的な）= 感情的でやや感傷的"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sentimentalの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感傷的な、感情的な",
+            "理性的な",
+            "実際的な",
+            "科学的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sentimentalとemotionalの違いは？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "sentimentalはやや過度な感傷性と思い出への執着を含む",
+            "sentimentalの方がより冷淡",
+            "emotionalの方がより感傷的",
+            "意味は全く同じ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She kept the old letter for ______ reasons, unable to throw away memories of her childhood.",
+          "hint": "感情的で懐かしさを感じている",
+          "explanationFocus": "gap",
+          "choices": [
+            "sentimental",
+            "practical",
+            "logical",
+            "scientific"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sentimentalと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a sentimental journey（感傷的な旅）",
+            "sentimental logic",
+            "sentimental evidence",
+            "sentimental rules"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He became sentimental while looking through old photographs.\" — sentimentalの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "懐かしさや感情に浸っている感傷的な状態",
+            "怒りを感じている",
+            "喜びを感じている",
+            "退屈している"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She has a sentimental attachment to the old house.",
+        "He got sentimental when talking about his childhood.",
+        "That movie is too sentimental for my taste.",
+        "It has sentimental value to her."
+      ]
+    },
+    {
+      "word": "sensory",
+      "phonetic": "/ˈsɛnsəri/",
+      "toeicRank": "650-800",
+      "parts": [
+        {
+          "part": "sens",
+          "meaning": "感じる、知覚する",
+          "type": "root"
+        },
+        {
+          "part": "-ory",
+          "meaning": "〜に関する、〜を行う",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "知覚に関する、感覚と関連のある",
+        "fact": "ラテン語sensorius。sensus（感覚）+ -ory（関連の接尾辞）。五感による知覚と関連の形容詞",
+        "source": "EtymOnline: Latin sensorius 'relating to sensation'",
+        "cognates": [
+          "sense",
+          "sensation",
+          "sensor",
+          "sensory cortex"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "五感で直接知覚できる領域＝感覚的な",
+        "fact": "sensoryは視覚、聴覚、嗅覚、味覚、触覚など五感による直接的な知覚を指す。神経生物学的な基盤を持つ",
+        "source": "神経生物学：sensory neurons, sensory cortex"
+      },
+      "gap": "sensoryは『physical』より感覚知覚の側面を強調。『sensory experience』は実際に五感で経験した情報を意味する",
+      "gapOneliner": "五感で直接経験できる領域",
+      "hook": {
+        "label": "記憶フック",
+        "text": "Sens（感じる）+ Ory（〜に関する）= Sensory（五感に関する）"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "sensoryの意味として最も適切なものを選びなさい",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感覚の、知覚に関する",
+            "理性的な",
+            "非現実的な",
+            "抽象的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sensoryが指す『感覚』とは具体的には何か",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "視覚、聴覚、嗅覚、味覚、触覚などの五感",
+            "理性的思考",
+            "抽象的概念",
+            "感情的判断"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ experience of tasting new foods from different cultures is enriching.",
+          "hint": "五感で直接経験する",
+          "explanationFocus": "gap",
+          "choices": [
+            "sensory",
+            "abstract",
+            "theoretical",
+            "conceptual"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "sensoryと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "sensory experience（感覚的経験）",
+            "sensory thinking",
+            "sensory idea",
+            "sensory concept"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The garden provides rich sensory stimulation.\" — sensoryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "視覚、嗅覚、触覚など五感を刺激する",
+            "理性的な刺激",
+            "感情的な刺激",
+            "知識的な刺激"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Sensory deprivation can affect perception.",
+        "Children have sensory experiences through play.",
+        "The spa offers sensory massage treatments.",
+        "Sensory neurons transmit information to the brain.",
+        "A sensory garden engages all five senses."
+      ]
+    }
+  ],
+  "fact_check": "APPROVED",
+  "checked_at": "2026-03-22"
+}

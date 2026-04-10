@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2340;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phaseGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="phaseGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="phaseGrad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="phaseGrad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#1DA1F2;stop-opacity:0.3" />
+    </linearGradient>
+    <marker id="arrowR" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad5)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#ffffff">初中級者向け：段階的シャドーイング導入プラン</text>
+
+  <!-- Timeline bar at top -->
+  <rect x="60" y="75" width="1080" height="8" rx="4" fill="#1DA1F2" fill-opacity="0.2"/>
+  <rect x="60" y="75" width="270" height="8" rx="4" fill="#1DA1F2" fill-opacity="0.4"/>
+  <rect x="330" y="75" width="270" height="8" rx="0" fill="#1DA1F2" fill-opacity="0.6"/>
+  <rect x="600" y="75" width="270" height="8" rx="0" fill="#1DA1F2" fill-opacity="0.8"/>
+  <rect x="870" y="75" width="270" height="8" rx="4" fill="#1DA1F2"/>
+
+  <!-- Phase 1 -->
+  <rect x="60" y="100" width="256" height="500" rx="14" fill="url(#phaseGrad1)" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Phase header -->
+  <rect x="60" y="100" width="256" height="60" rx="14" fill="#1DA1F2" fill-opacity="0.2"/>
+  <rect x="60" y="140" width="256" height="20" fill="#1DA1F2" fill-opacity="0.2"/>
+  <text x="188" y="125" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">PHASE 1</text>
+  <text x="188" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">1〜2週間目</text>
+
+  <text x="188" y="190" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#ffffff">ならし期間</text>
+  <text x="188" y="215" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">聞き流し + 音読</text>
+
+  <line x1="80" y1="240" x2="296" y2="240" stroke="#1DA1F2" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="85" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 音声を1〜2回通しで聞く</text>
+  <text x="85" y="290" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• スクリプトを見ながら音読</text>
+  <text x="85" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 1日5分以内でOK</text>
+  <text x="85" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 短文（1〜2文）から開始</text>
+
+  <line x1="80" y1="365" x2="296" y2="365" stroke="#1DA1F2" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="188" y="388" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">目標</text>
+  <rect x="85" y="398" width="186" height="36" rx="6" fill="#1DA1F2" fill-opacity="0.15"/>
+  <text x="178" y="421" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffffff">音のリズムに慣れる</text>
+
+  <!-- Phase 2 -->
+  <rect x="330" y="100" width="256" height="500" rx="14" fill="url(#phaseGrad2)" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.6"/>
+  <rect x="330" y="100" width="256" height="60" rx="14" fill="#1DA1F2" fill-opacity="0.25"/>
+  <rect x="330" y="140" width="256" height="20" fill="#1DA1F2" fill-opacity="0.25"/>
+  <text x="458" y="125" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">PHASE 2</text>
+  <text x="458" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">3〜4週間目</text>
+
+  <text x="458" y="190" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#ffffff">基本習得期</text>
+  <text x="458" y="215" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">スクリプトあり シャドーイング</text>
+
+  <line x1="350" y1="240" x2="566" y2="240" stroke="#1DA1F2" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="355" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• スクリプトを見ながら追いかける</text>
+  <text x="355" y="290" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 0.75倍速から開始も可</text>
+  <text x="355" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 1日10分、2〜3文セット</text>
+  <text x="355" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• うまく言えた箇所に◯をつける</text>
+
+  <line x1="350" y1="365" x2="566" y2="365" stroke="#1DA1F2" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="458" y="388" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">目標</text>
+  <rect x="355" y="398" width="186" height="36" rx="6" fill="#1DA1F2" fill-opacity="0.2"/>
+  <text x="448" y="421" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffffff">文を途切れずに追える</text>
+
+  <!-- Phase 3 -->
+  <rect x="600" y="100" width="256" height="500" rx="14" fill="url(#phaseGrad3)" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.7"/>
+  <rect x="600" y="100" width="256" height="60" rx="14" fill="#1DA1F2" fill-opacity="0.3"/>
+  <rect x="600" y="140" width="256" height="20" fill="#1DA1F2" fill-opacity="0.3"/>
+  <text x="728" y="125" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">PHASE 3</text>
+  <text x="728" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">2ヶ月目</text>
+
+  <text x="728" y="190" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#ffffff">定着期</text>
+  <text x="728" y="215" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">スクリプトなし シャドーイング</text>
+
+  <line x1="620" y1="240" x2="836" y2="240" stroke="#1DA1F2" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="625" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 音声のみで追いかける</text>
+  <text x="625" y="290" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 標準速度に挑戦</text>
+  <text x="625" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 1日15分、段落単位</text>
+  <text x="625" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 録音して自分の声を確認</text>
+
+  <line x1="620" y1="365" x2="836" y2="365" stroke="#1DA1F2" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="728" y="388" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">目標</text>
+  <rect x="625" y="398" width="186" height="36" rx="6" fill="#1DA1F2" fill-opacity="0.25"/>
+  <text x="718" y="421" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffffff">音とリズムが体に馴染む</text>
+
+  <!-- Phase 4 -->
+  <rect x="870" y="100" width="270" height="500" rx="14" fill="url(#phaseGrad4)" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="870" y="100" width="270" height="60" rx="14" fill="#1DA1F2" fill-opacity="0.4"/>
+  <rect x="870" y="140" width="270" height="20" fill="#1DA1F2" fill-opacity="0.4"/>
+  <text x="1005" y="125" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">PHASE 4</text>
+  <text x="1005" y="148" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#ffffff">3ヶ月目以降</text>
+
+  <text x="1005" y="190" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="700" fill="#ffffff">自動化期</text>
+  <text x="1005" y="215" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2">プロソディ シャドーイング</text>
+
+  <line x1="890" y1="240" x2="1120" y2="240" stroke="#1DA1F2" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="895" y="264" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• イントネーション・強弱を真似る</text>
+  <text x="895" y="290" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 感情・ニュアンスも再現</text>
+  <text x="895" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• 毎日20分のルーティン化</text>
+  <text x="895" y="342" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#e0e8f0">• ニュース・ドラマに素材を広げる</text>
+
+  <line x1="890" y1="365" x2="1120" y2="365" stroke="#1DA1F2" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="1005" y="388" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffffff">目標</text>
+  <rect x="895" y="398" width="196" height="36" rx="6" fill="#1DA1F2" fill-opacity="0.4"/>
+  <text x="993" y="421" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffffff">発音・流暢さが大幅改善</text>
+
+  <!-- ListenUp CTA -->
+  <rect x="895" y="455" width="196" height="90" rx="8" fill="#1DA1F2" fill-opacity="0.15" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="993" y="480" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">耳を鍛えるなら</text>
+  <text x="993" y="500" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#ffffff">native-real.com</text>
+  <text x="993" y="520" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">ListenUp で今すぐ練習</text>
+  <text x="993" y="538" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" fill="#657786">→ /（トップページ）</text>
+
+  <!-- Bottom note -->
+  <text x="600" y="630" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">各フェーズは目安。難しければ同じフェーズを繰り返すことが重要。「難しい」と感じることが成長のサイン。</text>
+
+  <!-- Credit -->
+  <text x="1180" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

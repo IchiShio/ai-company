@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="bold">スキル掛け算マトリクス：英語力 × 専門性で市場価値が決まる</text>
+
+  <!-- Axis labels -->
+  <!-- Y axis label -->
+  <text x="50" y="390" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" transform="rotate(-90, 50, 390)">専門スキルの高さ</text>
+  <!-- X axis label -->
+  <text x="630" y="655" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">英語力の高さ</text>
+
+  <!-- Grid / Matrix area -->
+  <rect x="100" y="95" width="1060" height="530" rx="8" fill="#FFFFFF" stroke="#E1E8ED" stroke-width="2"/>
+
+  <!-- Quadrant lines -->
+  <line x1="630" y1="95" x2="630" y2="625" stroke="#657786" stroke-width="2" stroke-dasharray="6,4"/>
+  <line x1="100" y1="360" x2="1160" y2="360" stroke="#657786" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Quadrant: Low英語 × Low専門 (bottom-left) -->
+  <rect x="105" y="365" width="520" height="255" rx="6" fill="#FFF0F0"/>
+  <text x="365" y="410" text-anchor="middle" fill="#CC0000" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">市場価値：低</text>
+  <text x="365" y="440" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">英語も専門も弱い</text>
+  <text x="365" y="480" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">まずは専門性を一つ</text>
+  <text x="365" y="500" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">集中して伸ばすべき段階</text>
+  <!-- Example jobs -->
+  <rect x="150" y="525" width="430" height="85" rx="5" fill="#FFFFFF" stroke="#FFAAAA" stroke-width="1"/>
+  <text x="365" y="548" text-anchor="middle" fill="#CC0000" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">例</text>
+  <text x="365" y="568" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">一般事務（専門×英語 どちらも低）</text>
+  <text x="365" y="588" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">「英語ができる人を探している」に応募できない</text>
+  <text x="365" y="608" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">AIに代替されやすいゾーン</text>
+
+  <!-- Quadrant: High英語 × Low専門 (bottom-right) -->
+  <rect x="635" y="365" width="520" height="255" rx="6" fill="#FFF8E1"/>
+  <text x="895" y="410" text-anchor="middle" fill="#F57C00" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">市場価値：中〜低</text>
+  <text x="895" y="440" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">英語だけ高い（専門性が薄い）</text>
+  <text x="895" y="480" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">翻訳・通訳は需要が続くが</text>
+  <text x="895" y="500" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">AI翻訳の台頭で競争激化</text>
+  <rect x="680" y="525" width="430" height="85" rx="5" fill="#FFFFFF" stroke="#FFD580" stroke-width="1"/>
+  <text x="895" y="548" text-anchor="middle" fill="#F57C00" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">例</text>
+  <text x="895" y="568" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英会話講師・一般通訳（差別化が難しい）</text>
+  <text x="895" y="588" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語力だけでは給与が上がりにくい</text>
+  <text x="895" y="608" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">専門性を加えると価値が急上昇</text>
+
+  <!-- Quadrant: Low英語 × High専門 (top-left) -->
+  <rect x="105" y="100" width="520" height="255" rx="6" fill="#E8F5E9"/>
+  <text x="365" y="145" text-anchor="middle" fill="#2E7D32" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">市場価値：中〜高</text>
+  <text x="365" y="175" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">専門高い（英語は低い）</text>
+  <text x="365" y="215" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">国内では強いが海外案件に参入できない</text>
+  <text x="365" y="235" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">英語を加えれば市場が一気に拡大</text>
+  <rect x="150" y="260" width="430" height="85" rx="5" fill="#FFFFFF" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="365" y="283" text-anchor="middle" fill="#2E7D32" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">例</text>
+  <text x="365" y="303" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">日本語専門の医師・弁護士・エンジニア</text>
+  <text x="365" y="323" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">専門性は十分。英語を足すだけで</text>
+  <text x="365" y="343" text-anchor="middle" fill="#657786" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">グローバル市場に参入可能</text>
+
+  <!-- Quadrant: High英語 × High専門 (top-right) - STAR ZONE -->
+  <rect x="635" y="100" width="520" height="255" rx="6" fill="#E3F2FD" stroke="#1DA1F2" stroke-width="3"/>
+  <!-- Star badge -->
+  <polygon points="895,108 905,135 933,135 911,153 919,180 895,163 871,180 879,153 857,135 885,135" fill="#1DA1F2" opacity="0.9"/>
+
+  <text x="895" y="145" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold">市場価値：最高</text>
+  <text x="895" y="175" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="bold">英語×専門性の掛け算ゾーン</text>
+  <text x="895" y="210" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">希少人材として重宝される</text>
+  <text x="895" y="230" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13">年収・キャリア選択肢が大幅に拡大</text>
+  <rect x="680" y="260" width="430" height="85" rx="5" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="895" y="283" text-anchor="middle" fill="#1DA1F2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" font-weight="bold">例</text>
+  <text x="895" y="303" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語×IT（外資系エンジニア）</text>
+  <text x="895" y="323" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語×医療（国際医療、研究職）</text>
+  <text x="895" y="343" text-anchor="middle" fill="#14171A" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12">英語×法務（外資系リーガル、国際弁護士）</text>
+
+  <!-- Arrows on axes -->
+  <polygon points="1160,360 1150,350 1150,370" fill="#14171A"/>
+  <polygon points="630,95 620,105 640,105" fill="#14171A"/>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18">@ichi_eigo</text>
+</svg>

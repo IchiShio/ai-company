@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <style>
+      text { font-family: system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif; }
+    </style>
+    <marker id="arrow-main" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L10,3 z" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#f0f4f8"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="white" font-size="28" font-weight="bold">録音→比較→修正：フィードバックサイクル</text>
+
+  <!-- Central cycle diagram -->
+  <!-- Large background circle -->
+  <circle cx="600" cy="390" r="230" fill="white" stroke="#e1e8ed" stroke-width="2"/>
+
+  <!-- Step 1: シャドーイング実行 (Top) -->
+  <circle cx="600" cy="180" r="75" fill="#14171A"/>
+  <text x="600" y="170" text-anchor="middle" fill="white" font-size="17" font-weight="bold">STEP 1</text>
+  <text x="600" y="193" text-anchor="middle" fill="#1DA1F2" font-size="20" font-weight="bold">実行</text>
+  <text x="600" y="215" text-anchor="middle" fill="white" font-size="14">シャドーイング</text>
+
+  <!-- Step 2: 録音 (Right) -->
+  <circle cx="840" cy="390" r="75" fill="#1DA1F2"/>
+  <text x="840" y="380" text-anchor="middle" fill="white" font-size="17" font-weight="bold">STEP 2</text>
+  <text x="840" y="403" text-anchor="middle" fill="white" font-size="20" font-weight="bold">録音</text>
+  <text x="840" y="425" text-anchor="middle" fill="white" font-size="14">自分の声を記録</text>
+
+  <!-- Step 3: 比較分析 (Bottom) -->
+  <circle cx="600" cy="600" r="75" fill="#17bf63"/>
+  <text x="600" y="590" text-anchor="middle" fill="white" font-size="17" font-weight="bold">STEP 3</text>
+  <text x="600" y="613" text-anchor="middle" fill="white" font-size="20" font-weight="bold">比較</text>
+  <text x="600" y="635" text-anchor="middle" fill="white" font-size="14">元音声と聴き比べ</text>
+
+  <!-- Step 4: 修正 (Left) -->
+  <circle cx="360" cy="390" r="75" fill="#e0245e"/>
+  <text x="360" y="380" text-anchor="middle" fill="white" font-size="17" font-weight="bold">STEP 4</text>
+  <text x="360" y="403" text-anchor="middle" fill="white" font-size="20" font-weight="bold">修正</text>
+  <text x="360" y="425" text-anchor="middle" fill="white" font-size="14">ズレを意識して再練習</text>
+
+  <!-- Arrows between steps (curved) -->
+  <!-- Step 1 → Step 2 (top to right) -->
+  <path d="M670,220 Q780,280 770,320" fill="none" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow-main)"/>
+
+  <!-- Step 2 → Step 3 (right to bottom) -->
+  <path d="M820,460 Q790,530 680,580" fill="none" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow-main)"/>
+
+  <!-- Step 3 → Step 4 (bottom to left) -->
+  <path d="M520,580 Q440,560 400,460" fill="none" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow-main)"/>
+
+  <!-- Step 4 → Step 1 (left to top) -->
+  <path d="M410,320 Q440,230 530,200" fill="none" stroke="#1DA1F2" stroke-width="3" marker-end="url(#arrow-main)"/>
+
+  <!-- Center label -->
+  <circle cx="600" cy="390" r="60" fill="#f0f4f8"/>
+  <text x="600" y="384" text-anchor="middle" fill="#14171A" font-size="16" font-weight="bold">週1回</text>
+  <text x="600" y="404" text-anchor="middle" fill="#14171A" font-size="16" font-weight="bold">でOK</text>
+
+  <!-- Side annotations -->
+  <!-- Step 1 annotation -->
+  <rect x="30" y="115" width="220" height="100" rx="10" fill="white" stroke="#14171A" stroke-width="1.5"/>
+  <text x="140" y="143" text-anchor="middle" fill="#14171A" font-size="14" font-weight="bold">ネイティブ音声を流す</text>
+  <text x="140" y="165" text-anchor="middle" fill="#657786" font-size="13">同時に自分も発音する</text>
+  <text x="140" y="184" text-anchor="middle" fill="#657786" font-size="13">「追いかける」ように読む</text>
+  <text x="140" y="203" text-anchor="middle" fill="#657786" font-size="13">1〜2分の短い素材でOK</text>
+  <line x1="250" y1="165" x2="540" y2="200" stroke="#14171A" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Step 2 annotation -->
+  <rect x="950" y="310" width="220" height="100" rx="10" fill="white" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="1060" y="338" text-anchor="middle" fill="#1DA1F2" font-size="14" font-weight="bold">スマホ録音でOK</text>
+  <text x="1060" y="360" text-anchor="middle" fill="#657786" font-size="13">メモアプリ等で簡単録音</text>
+  <text x="1060" y="379" text-anchor="middle" fill="#657786" font-size="13">全部録らなくていい</text>
+  <text x="1060" y="398" text-anchor="middle" fill="#657786" font-size="13">一番難しい箇所だけでも</text>
+  <line x1="950" y1="360" x2="915" y2="390" stroke="#1DA1F2" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Step 3 annotation -->
+  <rect x="750" y="580" width="220" height="80" rx="10" fill="white" stroke="#17bf63" stroke-width="1.5"/>
+  <text x="860" y="606" text-anchor="middle" fill="#17bf63" font-size="14" font-weight="bold">ズレを確認するポイント</text>
+  <text x="860" y="628" text-anchor="middle" fill="#657786" font-size="13">① 強弱のリズムが合っているか</text>
+  <text x="860" y="648" text-anchor="middle" fill="#657786" font-size="13">② つなぎ（リンキング）が出来ているか</text>
+  <line x1="750" y1="610" x2="675" y2="605" stroke="#17bf63" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Step 4 annotation -->
+  <rect x="30" y="490" width="220" height="80" rx="10" fill="white" stroke="#e0245e" stroke-width="1.5"/>
+  <text x="140" y="516" text-anchor="middle" fill="#e0245e" font-size="14" font-weight="bold">修正の優先順位</text>
+  <text x="140" y="538" text-anchor="middle" fill="#657786" font-size="13">① リズム → ② 発音 → ③ 速度</text>
+  <text x="140" y="558" text-anchor="middle" fill="#657786" font-size="13">1回で全部直そうとしない</text>
+  <line x1="250" y1="530" x2="288" y2="420" stroke="#e0245e" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Credit -->
+  <text x="1170" y="665" text-anchor="end" fill="#657786" font-size="16">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="50" text-anchor="middle" fill="#FFFFFF" font-size="26" font-weight="bold">瞬間英作文の仕組みフロー</text>
+  <text x="600" y="70" text-anchor="middle" fill="#657786" font-size="14">翻訳なし処理 vs 日本語変換処理の比較</text>
+
+  <!-- ===== LEFT: 翻訳する処理（遅い）===== -->
+  <rect x="40" y="100" width="500" height="520" rx="16" fill="#FFFFFF" stroke="#FF6B6B" stroke-width="2.5"/>
+  <rect x="40" y="100" width="500" height="52" rx="16" fill="#FF6B6B"/>
+  <rect x="40" y="134" width="500" height="18" fill="#FF6B6B"/>
+  <text x="290" y="133" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="bold">❌ 日本語→英語変換処理（遅い）</text>
+
+  <!-- 日本語思考 -->
+  <rect x="110" y="175" width="360" height="55" rx="10" fill="#FFF0F0" stroke="#FF6B6B" stroke-width="1.5"/>
+  <text x="290" y="199" text-anchor="middle" fill="#14171A" font-size="15" font-weight="bold">日本語で考える</text>
+  <text x="290" y="221" text-anchor="middle" fill="#657786" font-size="13">「今日は疲れた」</text>
+
+  <!-- 矢印 + 時間 -->
+  <line x1="290" y1="230" x2="290" y2="265" stroke="#FF6B6B" stroke-width="2.5" marker-end="url(#arrowR)"/>
+  <defs>
+    <marker id="arrowR" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FF6B6B"/>
+    </marker>
+    <marker id="arrowB" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#1DA1F2"/>
+    </marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#17BF63"/>
+    </marker>
+  </defs>
+
+  <!-- 翻訳処理ボックス -->
+  <rect x="110" y="265" width="360" height="75" rx="10" fill="#FFE0E0" stroke="#FF6B6B" stroke-width="1.5"/>
+  <text x="290" y="296" text-anchor="middle" fill="#CC0000" font-size="15" font-weight="bold">頭の中で翻訳</text>
+  <text x="290" y="316" text-anchor="middle" fill="#CC0000" font-size="13">今日 → today / 疲れた → tired</text>
+  <text x="290" y="333" text-anchor="middle" fill="#657786" font-size="12">I am... I was... どっちだっけ？</text>
+
+  <line x1="290" y1="340" x2="290" y2="375" stroke="#FF6B6B" stroke-width="2.5" marker-end="url(#arrowR)"/>
+
+  <!-- 英語組み立て -->
+  <rect x="110" y="375" width="360" height="55" rx="10" fill="#FFE0E0" stroke="#FF6B6B" stroke-width="1.5"/>
+  <text x="290" y="399" text-anchor="middle" fill="#14171A" font-size="14" font-weight="bold">英語に組み立て直す</text>
+  <text x="290" y="418" text-anchor="middle" fill="#657786" font-size="13">語順を確認→文法を確認→出力</text>
+
+  <line x1="290" y1="430" x2="290" y2="465" stroke="#FF6B6B" stroke-width="2.5" marker-end="url(#arrowR)"/>
+
+  <!-- 出力（遅い） -->
+  <rect x="110" y="465" width="360" height="55" rx="10" fill="#FFF0F0" stroke="#FF6B6B" stroke-width="1.5"/>
+  <text x="290" y="489" text-anchor="middle" fill="#CC0000" font-size="15" font-weight="bold">「I was tired today.」</text>
+  <text x="290" y="511" text-anchor="middle" fill="#657786" font-size="13">⏱ 3〜5秒（会話が進んでしまう）</text>
+
+  <rect x="110" y="545" width="360" height="50" rx="8" fill="#FFCCCC"/>
+  <text x="290" y="567" text-anchor="middle" fill="#CC0000" font-size="14" font-weight="bold">結果：会話についていけない</text>
+  <text x="290" y="585" text-anchor="middle" fill="#657786" font-size="12">知識はあるのにテンポが合わない</text>
+
+  <!-- ===== RIGHT: 瞬間英作文処理（速い）===== -->
+  <rect x="660" y="100" width="500" height="520" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="660" y="100" width="500" height="52" rx="16" fill="#1DA1F2"/>
+  <rect x="660" y="134" width="500" height="18" fill="#1DA1F2"/>
+  <text x="910" y="133" text-anchor="middle" fill="#FFFFFF" font-size="19" font-weight="bold">✅ 瞬間英作文処理（速い）</text>
+
+  <!-- 入力 -->
+  <rect x="730" y="175" width="360" height="55" rx="10" fill="#E8F5FD" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="910" y="199" text-anchor="middle" fill="#14171A" font-size="15" font-weight="bold">場面・感情を直接認識</text>
+  <text x="910" y="221" text-anchor="middle" fill="#657786" font-size="13">（疲労感・帰宅後）</text>
+
+  <line x1="910" y1="230" x2="910" y2="265" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrowB)"/>
+
+  <!-- 直接回路 -->
+  <rect x="730" y="265" width="360" height="75" rx="10" fill="#1DA1F2" stroke="#0d8ecf" stroke-width="1.5"/>
+  <text x="910" y="296" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">英語回路が直接反応</text>
+  <text x="910" y="316" text-anchor="middle" fill="#E8F5FD" font-size="13">「I was tired today」がそのまま出る</text>
+  <text x="910" y="333" text-anchor="middle" fill="#E8F5FD" font-size="12">翻訳プロセスをスキップ</text>
+
+  <line x1="910" y1="340" x2="910" y2="375" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrowB)"/>
+
+  <!-- チャンクとして記憶 -->
+  <rect x="730" y="375" width="360" height="55" rx="10" fill="#E8F5FD" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="910" y="399" text-anchor="middle" fill="#14171A" font-size="14" font-weight="bold">チャンクとして反射出力</text>
+  <text x="910" y="418" text-anchor="middle" fill="#657786" font-size="13">文法を意識しない→自然に出る</text>
+
+  <line x1="910" y1="430" x2="910" y2="465" stroke="#1DA1F2" stroke-width="2.5" marker-end="url(#arrowB)"/>
+
+  <!-- 出力（速い） -->
+  <rect x="730" y="465" width="360" height="55" rx="10" fill="#E8F5FD" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="910" y="489" text-anchor="middle" fill="#1DA1F2" font-size="15" font-weight="bold">「I was tired today.」</text>
+  <text x="910" y="511" text-anchor="middle" fill="#657786" font-size="13">⚡ 0.5〜1秒（会話のテンポに乗れる）</text>
+
+  <rect x="730" y="545" width="360" height="50" rx="8" fill="#E8F5FD" stroke="#17BF63" stroke-width="2"/>
+  <text x="910" y="567" text-anchor="middle" fill="#17BF63" font-size="14" font-weight="bold">結果：スムーズな会話が成立</text>
+  <text x="910" y="585" text-anchor="middle" fill="#657786" font-size="12">知識量そのままでテンポが変わる</text>
+
+  <!-- Credit -->
+  <text x="1170" y="660" text-anchor="end" fill="#657786" font-size="13">@ichi_eigo</text>
+</svg>

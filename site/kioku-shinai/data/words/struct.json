@@ -1,0 +1,2125 @@
+{
+  "root": "struct",
+  "rootMeaning": "建てる",
+  "rootLang": "ラテン語 struere（PIE *strew-）",
+  "imageSchema": "石やレンガを積み上げて形を作るイメージ。構造物(structure)が土台から上に積み上げられるように、何かを秩序立てて組み上げる動き。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "構造物(structure)はものを「建てる」語源から来ている。建設(construct)も指導(instruct)も破壊(destroy)も、すべてstructが見えたら「建てる」と読み替えるだけで、6語が一気に読める。"
+  },
+  "words": [
+    {
+      "word": "structure",
+      "phonetic": "/ˈstrʌktʃər/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {
+          "part": "struct",
+          "meaning": "建てる",
+          "type": "root"
+        },
+        {
+          "part": "ure",
+          "meaning": "〜したもの・結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "struere（建てる）+ -ura（結果）= 建てられたもの → 構造",
+        "fact": "ラテン語 structura「建設・組み立て」から。struereの過去分詞 structus に -ura を加えた形。15世紀に「建物」の意味で英語に入り、17世紀に「物事の組み立て方・構成」という抽象的な意味へ拡張。",
+        "source": "EtymOnline: structure",
+        "cognates": [
+          "structural",
+          "restructure",
+          "infrastructure",
+          "microstructure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "積み上げた結果として残るもの→目に見える・見えない「構造」",
+        "fact": "CONTAINERスキーマの応用。建てる(struct)行為の結果(-ure)として生まれた容れ物。建物だけでなく「組織の構造」「文の構造」など、目に見えない秩序にも同じイメージが転用される。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「構造」だけで覚えると sentence structure（文の構造）や power structure（権力構造）など抽象的な用法で詰まる。語源の「建てられたもの」がわかれば、物理的な建物も抽象的な仕組みも同じイメージで読める。",
+      "gapOneliner": "structure = 物理的「建物」も抽象的「仕組み」も、建てられた結果",
+      "hook": {
+        "label": "記憶フック",
+        "text": "レンガを積み上げた(-ure)結果(struct)がstructure。組織の構造も文の構造も、積み上げて作られた「形」のこと。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "structureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "建てられたもの→構造",
+            "引き出されたもの→産物",
+            "後ろに導かれたもの→削減",
+            "一緒に導かれたもの→指揮"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "struct + ure の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "建てる + 結果 = 構造",
+            "導く + 状態 = 伝導",
+            "壊す + もの = 廃墟",
+            "動く + もの = 乗り物"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the report needs to be clearer.",
+          "hint": "「建てられたもの」→「構成・構造」",
+          "explanationFocus": "gap",
+          "choices": [
+            "structure",
+            "texture",
+            "mixture",
+            "culture"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "structureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "organizational（組織構造）",
+            "colorful（色鮮やかな構造）",
+            "musical（音楽的な流れ）",
+            "emotional（感情的な反応）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The salary structure at this company is quite flat.\" — structureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "仕組み・体系",
+            "金額そのもの",
+            "交渉プロセス",
+            "契約書"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The organizational structure of the company was redesigned last year."
+      ]
+    },
+    {
+      "word": "construct",
+      "phonetic": "/kənˈstrʌkt/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "一緒に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "建てる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（一緒に）+ struere（建てる）= 一緒に建てる → 建設する",
+        "fact": "ラテン語 construere「一緒に積み上げる、組み立てる」から。con-（一緒に）と struere（積み重ねる）を合わせた形。15世紀に「建設する」で英語に入り、18世紀に「概念・理論を組み立てる」という抽象的意味にも拡張。",
+        "source": "EtymOnline: construct",
+        "cognates": [
+          "construction",
+          "constructor",
+          "constructive",
+          "reconstruct",
+          "deconstruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数の部品を一緒に積み上げる→物も概念も「組み立てる」",
+        "fact": "PART-WHOLEスキーマの応用。バラバラな部品(con-)を秩序立てて積み上げる(struct)ことで全体が生まれる動き。建物の建設だけでなく、「議論を構築する」「文を作る」にも同じスキーマが働く。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "「建設する」だけで覚えると construct a theory（理論を構築する）や construct a sentence（文を作る）で詰まる。語源の「一緒に積み上げる」がわかれば物理的・抽象的どちらの用法も読める。",
+      "gapOneliner": "construct = 建物も理論も文も、部品を一緒に積み上げて作る",
+      "hook": {
+        "label": "記憶フック",
+        "text": "コンクリートブロックを「一緒に(con)建てる(struct)」のがconstruct。建物だけでなく、議論も文も「ブロックを積み上げる」イメージで組み立てる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "constructの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一緒に建てる→建設する",
+            "前に建てる→前提する",
+            "下に建てる→掘り下げる",
+            "後ろに建てる→再建する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + struct の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に + 建てる = 建設する",
+            "反対に + 導く = 反論する",
+            "外へ + 建てる = 展開する",
+            "中に + 建てる = 内蔵する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "They plan to ______ a new bridge over the river.",
+          "hint": "「一緒に建てる」→「建設する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "construct",
+            "instruct",
+            "obstruct",
+            "destruct"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "constructと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "an argument（議論を構築する）",
+            "a mistake（間違いを建てる）",
+            "a weather（天気を作る）",
+            "a feeling（感情を建てる）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The professor helped students construct a coherent argument.\" — constructの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "組み立てる・構築する",
+            "批判する",
+            "発表する",
+            "記録する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The team will construct a new office building downtown."
+      ]
+    },
+    {
+      "word": "instruct",
+      "phonetic": "/ɪnˈstrʌkt/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "中に・上に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "建てる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（中に）+ struere（建てる）= 中に建てる・積み上げる → 教える",
+        "fact": "ラテン語 instruere「中に積み上げる、知識を備えさせる」から。in-（中に）と struere（積み重ねる）を合わせた形。15世紀初頭に「知識・技能を与える」の意味で英語に入った。「人の頭の中に知識を積み上げる」のが語源的な意味。",
+        "source": "EtymOnline: instruct",
+        "cognates": [
+          "instruction",
+          "instructor",
+          "instructive",
+          "instructional"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "相手の内側に知識を積み上げる→教える・指示する",
+        "fact": "CONTAINERスキーマの応用。人の心(in-)に知識のブロックを積み上げる(struct)動き。「教える」と「指示する」が同じ単語なのは、どちらも「相手の頭の中に何かを構築する」行為だから。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「教える」と「指示する」が同じ単語で混乱しがち。語源の「中に積み上げる」がわかれば両方が自然に結びつく。instruct staff to do something（スタッフに〜するよう指示する）とinstruct students（生徒を教える）は同じ動き。",
+      "gapOneliner": "instruct = 「教える」も「指示する」も、相手の中に何かを積み上げる行為",
+      "hook": {
+        "label": "記憶フック",
+        "text": "生徒の頭の「中(in)に知識を建てる(struct)」のがinstruct。教師も上司も、相手の内側に「何かを積み上げる」人。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "instructの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中に建てる→教える",
+            "外に建てる→展示する",
+            "前に建てる→準備する",
+            "上に建てる→昇進させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + struct の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "中に + 建てる = 教える",
+            "一緒に + 建てる = 建設する",
+            "〜に対して + 建てる = 妨害する",
+            "下に + 建てる = 下敷きにする"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The manager ______ the team to submit reports by Friday.",
+          "hint": "「中に積み上げる」→「指示する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "instructed",
+            "constructed",
+            "obstructed",
+            "destructed"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "instructと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "employees（従業員に指示する）",
+            "weather（天気を教える）",
+            "buildings（建物を教える）",
+            "colors（色を指示する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She was instructed to keep the information confidential.\" — instructedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "指示された",
+            "禁止された",
+            "許可された",
+            "奨励された"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The trainer instructed new employees on company procedures."
+      ]
+    },
+    {
+      "word": "destroy",
+      "phonetic": "/dɪˈstrɔɪ/",
+      "toeicRank": "TSL 上位・NGSL上位",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "下に・完全に・逆に",
+          "type": "prefix"
+        },
+        {
+          "part": "stroy",
+          "meaning": "建てる（struereの変形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（逆に・完全に）+ struere（建てる）= 建てたものを逆にする → 破壊する",
+        "fact": "ラテン語 destruere「解体する、壊す」から。de-（逆に・下へ）と struere（積み上げる）を合わせた形。古フランス語 destruire を経て13世紀に英語に入った。struereの音が -stroy に変化したのは古フランス語経由の音韻変化による。",
+        "source": "EtymOnline: destroy",
+        "cognates": [
+          "destruction",
+          "destructive",
+          "indestructible",
+          "self-destruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "積み上げたものを逆方向に崩す→破壊する",
+        "fact": "PATHスキーマの逆転の応用。constructが「積み上げる方向」なら、destroyは「その逆方向(de-)」に力を加えて崩す動き。constructとdestroyを対で覚えると両方が定着する。",
+        "source": "Johnson (1987) PATHスキーマ"
+      },
+      "gap": "spellingが -stroy で struct と結びつかず、語源が見えにくい。destroyのstroy = struere（建てる）の変形と知れば、「建てたものをde（逆に）する」でイメージが完成する。",
+      "gapOneliner": "destroy の stroy = struct（建てる）の変形。de（逆に）建てる = 壊す",
+      "hook": {
+        "label": "記憶フック",
+        "text": "constructが「積み上げる」なら、destroyは「逆(de)に建てる(stroy)」、つまり崩すこと。constructとdestroyはコインの裏表。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "destroyの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "逆に建てる→破壊する",
+            "一緒に建てる→建設する",
+            "中に建てる→教える",
+            "下に建てる→埋める"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + stroy（struere）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "逆に + 建てる = 破壊する",
+            "完全に + 導く = 消耗する",
+            "外へ + 走る = 逃げる",
+            "下へ + 押す = 抑圧する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The fire completely ______ the old warehouse.",
+          "hint": "「逆に建てる」→「破壊する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "destroyed",
+            "constructed",
+            "instructed",
+            "restructured"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "destroyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "evidence（証拠を破壊する）",
+            "ideas（アイデアを建てる）",
+            "plans（計画を建設する）",
+            "weather（天気を壊す）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The scandal destroyed his reputation overnight.\" — destroyedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "完全に壊した",
+            "少し傷つけた",
+            "守った",
+            "高めた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The earthquake destroyed hundreds of buildings in the city."
+      ]
+    },
+    {
+      "word": "infrastructure",
+      "phonetic": "/ˈɪnfrəˌstrʌktʃər/",
+      "toeicRank": "ビジネス英語・TOEIC頻出",
+      "parts": [
+        {
+          "part": "infra",
+          "meaning": "下に・より低い",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "建てる",
+          "type": "root"
+        },
+        {
+          "part": "ure",
+          "meaning": "〜したもの・結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "infra（下に）+ struere（建てる）+ -ura（結果）= 下に建てられたもの → インフラ",
+        "fact": "フランス語 infrastructure（1875年）から英語に借用。ラテン語 infra（下に・それ以下の）と structura（構造）を組み合わせた語。もとは軍事用語で「上部構造を支える基盤設備」を指し、20世紀に「道路・鉄道・電力網など社会の基盤」へ拡張。",
+        "source": "EtymOnline: infrastructure",
+        "cognates": [
+          "structure",
+          "superstructure",
+          "microstructure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "社会の下に建てられた見えない骨格→インフラ",
+        "fact": "FOUNDATIONスキーマの典型。上に見える建物や活動を支える「下(infra-)に建てられた(struct)もの(-ure)」。道路・電力・水道など、普段は見えないが社会を支える基盤。",
+        "source": "Johnson (1987) FOUNDATIONスキーマ"
+      },
+      "gap": "カタカナ「インフラ」で覚えている人が多いが、TOEICでは infrastructure investment（インフラ投資）やinfrastructure project（インフラ整備事業）の形で出る。語源の「下に建てたもの」がわかれば用法の幅が広がる。",
+      "gapOneliner": "infrastructure = 社会の「下(infra)に建てられた(struct)もの(ure)」、見えない基盤",
+      "hook": {
+        "label": "記憶フック",
+        "text": "道路や電線は地面の「下(infra)に建てられた(struct)もの(ure)」= infrastructure。社会の見えない骨格。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "infrastructureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下に建てられたもの→基盤設備",
+            "上に建てられたもの→上部構造",
+            "一緒に建てられたもの→建設物",
+            "中に建てられたもの→内部設備"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "infra + struct + ure の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下に + 建てる + 結果 = 基盤設備",
+            "外へ + 導く + 状態 = 輸出品",
+            "共に + 動く + もの = 乗り物",
+            "内に + 保つ + もの = 在庫"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government announced a major ______ investment plan.",
+          "hint": "「下に建てたもの」→「インフラ・基盤設備」",
+          "explanationFocus": "gap",
+          "choices": [
+            "infrastructure",
+            "structure",
+            "restructure",
+            "superstructure"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "infrastructureと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "digital（デジタルインフラ）",
+            "emotional（感情的基盤）",
+            "colorful（色鮮やかな設備）",
+            "musical（音楽的基盤）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Aging infrastructure is a major challenge for the city.\" — infrastructureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "道路・橋・電力網などの基盤設備",
+            "古い建物群",
+            "行政組織",
+            "予算計画"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The country needs to invest heavily in its digital infrastructure."
+      ]
+    },
+    {
+      "word": "obstruct",
+      "phonetic": "/əbˈstrʌkt/",
+      "toeicRank": "TOEIC中上級・法律・ビジネス文書頻出",
+      "parts": [
+        {
+          "part": "ob",
+          "meaning": "〜に対して・前に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "建てる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ob（〜に対して）+ struere（建てる）= 前に建てる・立ちはだかる → 妨害する",
+        "fact": "ラテン語 obstruere「前に積み上げる、塞ぐ」から。ob-（〜に対して・向かいに）と struere（積み重ねる）を合わせた形。1590年代に「塞ぐ・通行を遮る」の意味で英語に入り、17世紀以降「妨害する・邪魔する」へ拡張。",
+        "source": "EtymOnline: obstruct",
+        "cognates": [
+          "obstruction",
+          "obstructive",
+          "obstructionism"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "進路の前に壁を建てる→通れないようにする→妨害する",
+        "fact": "BLOCKAGEスキーマの典型。相手(ob-)の進路上に構造物を積み上げる(struct)ことで動きを止める。交通を妨げる物体も、議会の審議を遅らせる戦術も、同じ「前に建てて塞ぐ」イメージ。",
+        "source": "Johnson (1987) BLOCKAGEスキーマ"
+      },
+      "gap": "「妨害する」は block や hinder でも言えるが、obstruct は特に「物理的・制度的に通路を塞ぐ」ニュアンスが強い。obstruct justice（司法妨害）はTOEICや法律文書で頻出。語源の「前に建てる」で区別できる。",
+      "gapOneliner": "obstruct = 「前に建てて塞ぐ」。block/hinderより「構造的・意図的な妨害」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "道の「前(ob)に壁を建てる(struct)」のがobstruct。物理的な障害物も制度的な妨害も、「進路の前に何かを積み上げる」こと。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "obstructの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "〜に対して建てる→妨害する",
+            "一緒に建てる→建設する",
+            "逆に建てる→破壊する",
+            "中に建てる→教える"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ob + struct の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "〜に対して + 建てる = 妨害する",
+            "一緒に + 建てる = 建設する",
+            "下に + 建てる = 基盤を作る",
+            "外へ + 建てる = 展開する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "A fallen tree was ______ the road after the storm.",
+          "hint": "「前に建てて塞ぐ」→「妨害する・塞ぐ」",
+          "explanationFocus": "gap",
+          "choices": [
+            "obstructing",
+            "constructing",
+            "instructing",
+            "restructuring"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "obstructと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "justice（司法を妨害する）",
+            "ideas（アイデアを建てる）",
+            "friends（友人を遮る）",
+            "music（音楽を塞ぐ）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The suspect was charged with obstructing the investigation.\" — obstructingの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "妨害すること",
+            "支援すること",
+            "記録すること",
+            "開始すること"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The construction work is obstructing traffic on the main road."
+      ]
+    },
+    {
+      "word": "construction",
+      "phonetic": "/kənˈstrʌkʃən/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 construere（一緒に積み重ねる）から派生した、建造・建設を意味する言葉",
+        "fact": "14世紀から使用され、建物や物理的構造の建造だけでなく、理論や議論の構築にも使われる",
+        "source": "EtymOnline: Latin construere, from com- 'together' + struere 'to pile, build'",
+        "cognates": [
+          "structure",
+          "construct",
+          "destruction",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数の部品や要素を組み合わせて何かを作り上げるプロセスのイメージ",
+        "fact": "建設現場では実際に様々な部材が組み合わされるため、この概念は視覚的に理解しやすい",
+        "source": "認知言語学：体験に基づく比喩的理解"
+      },
+      "gap": "日本語では『建設』『建築』『構築』など複数の訳語があり、文脈による使い分けが必要",
+      "gapOneliner": "建設は建物、構築は概念や組織など対象が異なる場合がある",
+      "hook": {
+        "label": "記憶フック",
+        "text": "construction site（建設現場）— 多くの人が働いて何かを『一緒に（con-）積み上げている（struct）』場面をイメージ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "construction の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "建設、建造、建築",
+            "破壊、損害",
+            "指導、教育",
+            "障害、妨害"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con- と struct- を組み合わせると『construction』になる。con- の意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に、共に",
+            "反対に、逆に",
+            "後ろに、背後に",
+            "内部に、中に"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The ______ of the new stadium took three years to complete.",
+          "hint": "『新しいスタジアムの___は3年かかった』",
+          "explanationFocus": "gap",
+          "choices": [
+            "construction",
+            "destruction",
+            "instruction",
+            "obstruction"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'construction' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "site",
+            "failure",
+            "silence",
+            "argument"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The construction of this argument relies on flawed logic.\" — construction の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "構築、構成",
+            "建物の建設",
+            "破壊、分解",
+            "物理的な組み立て"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The construction industry employs millions of workers worldwide.",
+        "Under construction（工事中）",
+        "Construction materials are becoming more sustainable."
+      ]
+    },
+    {
+      "word": "destructive",
+      "phonetic": "/dɪˈstrʌktɪv/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "de-",
+          "meaning": "ない、逆に、打ち消す",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ive",
+          "meaning": "〜する性質、〜する傾向",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 destruere（分解する、壊す）から派生し、破壊的な性質を表す形容詞",
+        "fact": "de-（打ち消し）+ struct（組み立て）= 組み立てたものを壊す、という論理的な意味合いを持つ",
+        "source": "EtymOnline: Latin destruere, from de- 'down' + struere 'to pile, build'",
+        "cognates": [
+          "destroy",
+          "destruction",
+          "destruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "建設と反対のプロセス——秩序を壊す、組織を分解するイメージ",
+        "fact": "『破壊』という日本語の『破』は破裂、『壊』は壊れるという異なるニュアンスがあるが、destructive は両方の意味を包含",
+        "source": "認知言語学：対比による理解"
+      },
+      "gap": "destructive は形容詞で『破壊的な』という性質を表し、destruction（名詞）とは品詞が異なる",
+      "gapOneliner": "破壊的な『傾向』『結果』『影響』など、形容詞として機能する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "destructive behavior — 『破壊的な振る舞い』は何かを壊す『傾向』がある行動"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "destructive の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "破壊的な、有害な",
+            "教育的な、指導的な",
+            "構造的な、建築的な",
+            "指示的な、命令的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de- という接頭辞は通常どのような意味を持つ？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "逆に、打ち消す",
+            "強調する、増す",
+            "一緒に、共に",
+            "繰り返す、再び"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The storm had a ______ impact on the coastal communities.",
+          "hint": "『嵐が沿岸地域に___影響を与えた』",
+          "explanationFocus": "gap",
+          "choices": [
+            "destructive",
+            "constructive",
+            "instructive",
+            "structural"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'destructive' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "behavior",
+            "material",
+            "method",
+            "knowledge"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Destructive criticism can harm a person's confidence.\" — destructive の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "有害な、建設的でない",
+            "正確な、詳細な",
+            "教育的な、学習的な",
+            "構造的な、分析的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Destructive storms have increased in frequency.",
+        "Destructive criticism vs. constructive feedback",
+        "The destructive power of nuclear weapons is immense."
+      ]
+    },
+    {
+      "word": "instructor",
+      "phonetic": "/ɪnˈstrʌktər/",
+      "toeicRank": "600-750",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "内に、〜の中へ",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-or",
+          "meaning": "行為者、者",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 instruere（心の中に知識を『組み立てる』）から派生し、教える人を意味する",
+        "fact": "'instruct' は『指示する』『教える』を意味し、知識を人の心に構築するという概念",
+        "source": "EtymOnline: Latin instruere, from in- 'in, into' + struere 'to build, construct'",
+        "cognates": [
+          "instruct",
+          "instruction",
+          "instructive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "教育者を『知識を人の中に構築する人』というメタファーで理解",
+        "fact": "教師が生徒の頭や心に知識を『積み重ねる』という比喩的思考が根底にある",
+        "source": "認知言語学：MIND AS CONTAINER メタファー"
+      },
+      "gap": "instructor は trainer や teacher と異なるニュアンスを持ち、特に実践的スキルの指導者を指す",
+      "gapOneliner": "instructor は『指導者、トレーナー』で実践的スキル習得の指導に使われる傾向",
+      "hook": {
+        "label": "記憶フック",
+        "text": "flight instructor — パイロットの『技能』を『構築する』専門家、という具体的なイメージ"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "instructor の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "講師、指導者",
+            "建築家、エンジニア",
+            "破壊者、解体業者",
+            "障害者、妨害者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in- + struct で『instructor』となる。『知識を人の中に構築する』というメタファーは何か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "MIND AS CONTAINER（心は容器）",
+            "LEARNING IS BUILDING（学習は建設）",
+            "KNOWLEDGE IS OBJECT（知識は物体）",
+            "TEACHING IS TRANSFER（教育は移転）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The swimming ______ taught the children how to swim safely.",
+          "hint": "『水泳の___が子どもたちに安全な泳ぎ方を教えた』",
+          "explanationFocus": "gap",
+          "choices": [
+            "instructor",
+            "construction",
+            "instruction",
+            "destruction"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'instructor' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "flight",
+            "thought",
+            "purpose",
+            "example"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The yoga instructor guided the students through each pose.\" — instructor の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "指導者、トレーナー",
+            "建築業者",
+            "破壊者",
+            "批評家"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "A fitness instructor helps clients achieve their health goals.",
+        "The instructor provided clear instructions for the assignment.",
+        "Flight instructors undergo extensive training themselves."
+      ]
+    },
+    {
+      "word": "instrumental",
+      "phonetic": "/ˌɪnstrəˈmentəl/",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "in-",
+          "meaning": "内に、〜の中へ",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ment",
+          "meaning": "物、道具、状態",
+          "type": "suffix"
+        },
+        {
+          "part": "-al",
+          "meaning": "〜に関する、〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 instrumentum（道具）から派生し、『道具のような』『手段となる』という意味",
+        "fact": "instrument は本来『調べるための道具』『楽器』を意味し、instrumental はその性質を表す形容詞",
+        "source": "EtymOnline: Latin instrumentum, from instruere 'to construct, furnish'",
+        "cognates": [
+          "instrument",
+          "instrumentation"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "何かを達成するための『道具』『手段』という概念から派生した意味",
+        "fact": "楽器のない音楽（vocal）と対比される『楽器を使った』という意味から、転じて『手段となる』という広い意味へ拡張",
+        "source": "認知言語学：メトニミー（隣接関係）による意味拡張"
+      },
+      "gap": "instrumental は『手段的な』『道具的な』『有利に働く』など複数の意味を持ち、文脈による使い分けが必要",
+      "gapOneliner": "instrumental music（楽器音楽）vs. instrumental in（〜に貢献する）で意味が異なる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "\"He was instrumental in the company's success\" — 『手段となった』『重要な役割を果たした』という意味で、『道具』のメタファーが機能"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "instrumental の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "道具的な、手段となる、楽器による",
+            "構造的な、建設的な",
+            "教育的な、指導的な",
+            "破壊的な、有害な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "'instrument'（楽器、道具）という意味から、『instrumental』がどのように発展したか？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "道具としての機能から『手段となる』意味へ拡張",
+            "楽器の音から『音楽的な』意味へ拡張",
+            "建築材料から『構造的な』意味へ拡張",
+            "教育用具から『教育的な』意味へ拡張"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She was ______ in organizing the charity event.",
+          "hint": "『彼女はチャリティイベントの企画に___役割を果たした』",
+          "explanationFocus": "gap",
+          "choices": [
+            "instrumental",
+            "instructive",
+            "destructive",
+            "structural"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'instrumental' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "music",
+            "thought",
+            "criticism",
+            "process"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Your feedback was instrumental in improving our product.\" — instrumental の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "重要な役割を果たした、有利に作用した",
+            "複雑な、難しい",
+            "音楽的な、楽器による",
+            "建設的な、前向きな"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Instrumental music can help you concentrate while working.",
+        "She was instrumental in the success of the project.",
+        "Instrumental analysis is crucial in chemistry."
+      ]
+    },
+    {
+      "word": "obstruction",
+      "phonetic": "/əbˈstrʌkʃən/",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "ob-",
+          "meaning": "〜の前に、〜に対して、阻止する",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 obstruere（〜の前に積み重ねて塞ぐ）から派生し、『障害』『妨害』を意味する",
+        "fact": "ob-（〜に対して）+ struct（積み重ねる）= 前に積み重ねて道を塞ぐ、という物理的イメージが語源",
+        "source": "EtymOnline: Latin obstruere, from ob- 'against' + struere 'to pile up'",
+        "cognates": [
+          "obstruct",
+          "obstructive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "『前に積み重ねられた障害物』という物理的なイメージから『流れを止める』『妨害する』へ拡張",
+        "fact": "交通渋滞、視界を遮る、進路を塞ぐなど、具体的な障害から抽象的な妨害まで広がる",
+        "source": "認知言語学：具体から抽象へのメタファー的拡張"
+      },
+      "gap": "obstruction は『行為』『状態』『結果』など複数の層の意味を持ち、context により訳し分けが必要",
+      "gapOneliner": "『障害』『妨害』『閉塞』など、日本語では複数の訳が可能",
+      "hook": {
+        "label": "記憶フック",
+        "text": "obstruction of justice — 『司法妨害』という法律用語で、『道を塞ぐ』という物理的イメージが『妨害する』に転用される"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "obstruction の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "障害、妨害、閉塞",
+            "建設、建築",
+            "教育、指導",
+            "破壊、分解"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ob- という接頭辞は通常どのような意味を持つ？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "〜に対して、〜の前に",
+            "一緒に、共に",
+            "逆に、打ち消す",
+            "内に、中へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The fallen tree caused an ______ on the road.",
+          "hint": "『倒れた木が道路に___を引き起こした』",
+          "explanationFocus": "gap",
+          "choices": [
+            "obstruction",
+            "construction",
+            "instruction",
+            "obstinacy"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'obstruction' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "justice",
+            "learning",
+            "material",
+            "thought"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"There was an obstruction in the pipeline that needed to be cleared.\" — obstruction の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "障害物、塞き止められた状態",
+            "建築物、構造物",
+            "教育施設、学習環境",
+            "破壊物、残骸"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Obstruction of traffic is a serious offense.",
+        "Clear the obstruction from the drain.",
+        "Obstruction of justice is a criminal charge in court cases."
+      ]
+    },
+    {
+      "word": "reconstruction",
+      "phonetic": "/ˌriːkənˈstrʌkʃən/",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "再び、もう一度",
+          "type": "prefix"
+        },
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為、結果",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ラテン語 re-（再び）+ construere（組み立てる）から派生し、『再構築』『復興』を意味する",
+        "fact": "戦後の国の再建を指す歴史用語としても使われ、物理的・政治的な『作り直し』を表現",
+        "source": "EtymOnline: Medieval Latin reconstructio, from re- 'again' + construere 'to build'",
+        "cognates": [
+          "reconstruct",
+          "reconstructive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "壊れたものや失われたものを『もう一度組み立てる』というプロセス",
+        "fact": "考古学的な『遺跡の復元』から歴史的な『事件の再構成』まで、様々な文脈で使われる",
+        "source": "認知言語学：反復メタファーと修復の概念"
+      },
+      "gap": "reconstruction は物理的な再建と、事実や歴史の『再構成』という抽象的意味の両方を持つ",
+      "gapOneliner": "『復興』『再建』『再構成』など、複数の訳語が文脈に応じて使い分けられる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "crime scene reconstruction — 犯罪現場から『事件を再構成する』という検査技法。『物質的事実』から『論理的構造』へ再び組み立てるプロセス"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "reconstruction の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "再構築、再建、復興",
+            "初期構築、新規建設",
+            "構造分析、構造判定",
+            "構造的破壊、建造物の破壊"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re- + con- + struct で『reconstruction』となる。re- の役割は何か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "もう一度、再び",
+            "強調、増幅",
+            "逆に、打ち消す",
+            "内に、中へ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "After the disaster, the ______ of the city took many years.",
+          "hint": "『災害後、都市の___は何年もかかった』",
+          "explanationFocus": "gap",
+          "choices": [
+            "reconstruction",
+            "construction",
+            "instruction",
+            "obstruction"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'reconstruction' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "crime scene",
+            "theory",
+            "material",
+            "thought"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The historical reconstruction of ancient Rome helps us understand Roman life.\" — reconstruction の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "再構成、再現",
+            "新規建設、新築",
+            "構造分析、詳細検討",
+            "破壊と復旧、損壊と修理"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Post-war reconstruction helped the country recover economically.",
+        "The reconstruction of the ancient temple took careful archaeological work.",
+        "Facial reconstruction surgery can restore appearance after injury."
+      ]
+    },
+    {
+      "word": "restructure",
+      "phonetic": "/ˌriːˈstrʌktʃər/",
+      "toeicRank": "750-900",
+      "parts": [
+        {
+          "part": "re-",
+          "meaning": "再び、もう一度",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "行為、結果、体系",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "構造を『もう一度組み立てる』『再編成する』という意味で、特に組織改革を指すビジネス用語",
+        "fact": "20世紀後半のビジネス環境で多用され、企業の『組織改革』『リストラクチャリング』を表現",
+        "source": "EtymOnline: re- 'again' + structure 'arrangement of parts'",
+        "cognates": [
+          "structure",
+          "restructuring"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "既存の構造を壊して『もう一度組み立てる』というプロセスを表現",
+        "fact": "建築の『改築』から組織の『リストラクチャリング』まで、再構成のイメージが共通する",
+        "source": "認知言語学：解体と再構築のメタファー"
+      },
+      "gap": "restructure は通常、肯定的な『改編』『改革』を指すが、日本語の『リストラ』は『人員削減』の悪いイメージがある",
+      "gapOneliner": "英語の restructuring は組織全体の『作り直し』、日本語の『リストラ』は人員削減に特化した使われ方",
+      "hook": {
+        "label": "記憶フック",
+        "text": "corporate restructuring — 企業が『古い組織構造を壊して新しく作り直す』という改革を指し、経営的効率化の文脈で使われる"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "restructure の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "再構成する、再編成する、組織改革をする",
+            "新たに建設する、初めて構築する",
+            "構造を分析する、詳細に検討する",
+            "構造を破壊する、壊す"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "'restructure' という単語の中核的なアイデアは何か？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "既存のものを壊して新たに組み立てる",
+            "最初から完全に新しいものを作る",
+            "細部にわたって詳しく調べる",
+            "複数の部分を最初に集める"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company decided to ______ its management hierarchy to improve efficiency.",
+          "hint": "『会社は効率を改善するために管理階層を___することにした』",
+          "explanationFocus": "gap",
+          "choices": [
+            "restructure",
+            "construct",
+            "instruct",
+            "obstruct"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'restructure' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "organization",
+            "music",
+            "material",
+            "lesson"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The bank is restructuring its operations to reduce costs.\" — restructure の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "再編成する、作り直す",
+            "新しく建設する、設立する",
+            "詳細に分析する、検討する",
+            "破壊する、解体する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The company underwent a major restructuring to adapt to market changes.",
+        "Restructuring the curriculum improved student outcomes.",
+        "The bank announced plans to restructure its lending operations."
+      ]
+    },
+    {
+      "word": "structural",
+      "phonetic": "/ˈstrʌktʃərəl/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "行為、結果、体系",
+          "type": "suffix"
+        },
+        {
+          "part": "-al",
+          "meaning": "〜に関する、〜の性質を持つ",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "構造（structure）に関する、構造的な性質を持つという形容詞",
+        "fact": "建築、化学、社会学など様々な分野で『構造に関連した』という意味で広く使われている",
+        "source": "EtymOnline: structure + -al suffix forming adjectives",
+        "cognates": [
+          "structure",
+          "restructure",
+          "construction"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "物体や組織の『内部の配置』『組織方法』『組み合わせ方』に関連する性質",
+        "fact": "建物の強度から言語の文法構造、組織形態まで、『中身の組み立て方』という統一概念で理解される",
+        "source": "認知言語学：構造という抽象的概念の多領域への拡張"
+      },
+      "gap": "structural は『見た目』ではなく『内部構造』に焦点を当てるため、cosmetic（外面的）と対比される",
+      "gapOneliner": "structural reform（構造改革）は根本的な改変を指し、表面的な改善とは異なる",
+      "hook": {
+        "label": "記憶フック",
+        "text": "structural engineer — 『構造エンジニア』は建物の『骨組み』『内部構造』を設計する専門家。『目に見えない部分』が重要"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "structural の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "構造的な、構造に関する",
+            "建築的な、建物の",
+            "表面的な、外観の",
+            "装飾的な、飾りの"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "'structural' という形容詞が『様々な分野で使われる』理由は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "すべての物体や組織が何らかの『構造』を持つから",
+            "すべてが建築に関連しているから",
+            "すべてが教育と関連しているから",
+            "すべてが破壊可能だから"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The earthquake revealed ______ problems in the building's foundation.",
+          "hint": "『地震が建物の基礎の___問題を明らかにした』",
+          "explanationFocus": "gap",
+          "choices": [
+            "structural",
+            "constructive",
+            "instructive",
+            "destructive"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'structural' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "engineer",
+            "criticism",
+            "instruction",
+            "obstruction"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The company faces structural problems that require deep organizational changes.\" — structural の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "根本的な、内部的な、根深い",
+            "表面的な、一時的な",
+            "建築的な、物理的な",
+            "教育的な、指導的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "A structural engineer designs buildings to withstand earthquakes.",
+        "The company faced structural problems in its business model.",
+        "Structural analysis is essential in understanding protein function in biology."
+      ]
+    },
+    {
+      "word": "constructive",
+      "phonetic": "/kənˈstrʌktɪv/",
+      "toeicRank": "700-850",
+      "parts": [
+        {
+          "part": "con-",
+          "meaning": "一緒に、共に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる、積み重ねる",
+          "type": "root"
+        },
+        {
+          "part": "-ive",
+          "meaning": "〜する性質、〜する傾向",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "建設的（construction）の性質を持つ形容詞で、『作り上げる傾向を持つ』『前向きな』という意味",
+        "fact": "destructive（破壊的）と対比されることが多く、『建設的批判』『建設的提案』など肯定的なニュアンスを持つ",
+        "source": "EtymOnline: construct + -ive suffix forming adjectives",
+        "cognates": [
+          "construct",
+          "construction",
+          "destructive"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "何かを『作り上げる傾向を持つ』『前に進める』『改善に向かう』というポジティブなイメージ",
+        "fact": "建設現場で複数の人が『一緒に（con-）何かを積み上げている』ポジティブなシーンが根底",
+        "source": "認知言語学：BUILDING IS PROGRESS メタファー"
+      },
+      "gap": "constructive は『建設的』という訳だが、『良い』『望ましい』という価値判断が含まれている",
+      "gapOneliner": "単なる『建築の』という物理的意味ではなく、『改善に向かう』『生産的な』という価値的意味を持つ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "constructive feedback — 『建設的なフィードバック』は相手の『成長を助け』『改善に向かう』否定的でない指摘。『一緒に何かを『作り上げる』というメタファーが機能"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "constructive の意味として最も適切なものは？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "建設的な、前向きな、改善志向の",
+            "破壊的な、有害な",
+            "教育的な、指導的な",
+            "構造的な、内部的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "'constructive' と 'destructive' はどのように対比される？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "建設する傾向 vs. 破壊する傾向",
+            "大きな vs. 小さな",
+            "複雑な vs. 単純な",
+            "古い vs. 新しい"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The teacher provided ______ feedback to help the student improve.",
+          "hint": "『先生は学生の改善を助けるために___フィードバックを提供した』",
+          "explanationFocus": "gap",
+          "choices": [
+            "constructive",
+            "destructive",
+            "instructive",
+            "obstructive"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "'constructive' と最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "feedback",
+            "destruction",
+            "obstacle",
+            "danger"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Instead of criticism, I prefer constructive dialogue that helps find solutions.\" — constructive の意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "改善や進歩に向かう、前向きな",
+            "破壊的な、批判的な",
+            "複雑な、難しい",
+            "表面的な、形式的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Constructive criticism helps people grow and improve.",
+        "Let's have a constructive discussion about how to solve this problem.",
+        "Constructive collaboration between departments improved productivity."
+      ]
+    },
+    {
+      "word": "deconstruct",
+      "phonetic": "/ˌdiːkənˈstrʌkt/",
+      "toeicRank": "TSL中位・学術/批評用語",
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "分解して",
+          "type": "prefix"
+        },
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（分解して）+ construct（組み立てる）= 組み立てたものを分解する → 脱構築する",
+        "fact": "de-（分解）+ construct（組み立てる）から。1970年代にフランスの哲学者ジャック・デリダの deconstructionism（脱構築主義）の英訳として広まった。「前提を解体して再検討する」の意味で一般にも使われる。",
+        "source": "EtymOnline: deconstruct; Derrida (1967)",
+        "cognates": [
+          "construct",
+          "destruct",
+          "instruct",
+          "reconstruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "組み立てた（construct）ものを分解する（de）→ 脱構築する・解体して分析する",
+        "fact": "DECOMPOSITION（分解）スキーマ。「組み立てた（construct）」構造を「分解して（de）」内部の前提や矛盾を明らかにする動き。deconstruct an argument = 議論を解体分析する。",
+        "source": "Johnson (1987) PART-WHOLEスキーマ"
+      },
+      "gap": "deconstruct は「脱構築する・解体分析する」。de（分解）+ construct（組み立てる）= 組み立てたものを分解する。デリダの哲学用語から一般語化。",
+      "gapOneliner": "deconstruct = 組み立て(construct)を分解(de)する → 脱構築・解体分析",
+      "hook": {
+        "label": "記憶フック",
+        "text": "de(分解) + construct(組み立てる) = 組み立てたものを分解する = 脱構築する。deconstruct the myth = 神話を解体分析する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "deconstructの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "組み立てを分解する→脱構築する",
+            "組み立て直す→再建する",
+            "組み立て方を教える→指導する",
+            "組み立てを壊す→破壊する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The critic ______ed the film's narrative structure.",
+          "hint": "「組み立てを分解する」→「解体分析する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "deconstructed",
+            "constructed",
+            "destructed",
+            "instructed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The essay deconstructs the traditional notion of success."
+      ]
+    },
+    {
+      "word": "superstructure",
+      "phonetic": "/ˈsuːpərstrʌktʃər/",
+      "toeicRank": "TSL中位・建築/学術用語",
+      "parts": [
+        {
+          "part": "super",
+          "meaning": "上に",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる",
+          "type": "root"
+        },
+        {
+          "part": "ure",
+          "meaning": "〜されたもの（名詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "super（上に）+ structure（構造物）= 上部の構造物 → 上部構造",
+        "fact": "super-（上に）+ structure（構造物）から。17世紀に建築用語として「基礎の上に建てられた構造物」の意味で英語に入った。マルクス主義では「経済的土台（base）の上に築かれた政治・文化的制度」を指す。",
+        "source": "EtymOnline: superstructure",
+        "cognates": [
+          "structure",
+          "construct",
+          "infrastructure",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上に（super）組み立てた（struct）もの → 上部構造",
+        "fact": "ABOVE-BELOW（上下）スキーマ。基礎（infrastructure）の「上に（super）」「組み立てた（struct）」構造物。infrastructure（下部構造）との対概念。",
+        "source": "Lakoff & Johnson (1980) UP IS MOREメタファー"
+      },
+      "gap": "superstructure は「上部構造」。super（上に）+ structure（構造物）。infrastructure（下部構造）との対。建築でも政治思想でも使われる。",
+      "gapOneliner": "superstructure = 上に(super)組み立てた(struct)もの → 上部構造",
+      "hook": {
+        "label": "記憶フック",
+        "text": "super(上に) + structure(構造物) = 上部構造。infrastructure(下部構造)の対義語。船のデッキ上の構造もsuperstructure。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "superstructureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "上に組み立てたもの→上部構造",
+            "下に組み立てたもの→下部構造",
+            "再び組み立てたもの→再建物",
+            "壊して組み立てたもの→改築物"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 3,
+          "instruction": "super（上に）+ struct（組み立てる）+ ure（もの）の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "上に + 組み立てる + もの = 上部構造",
+            "下に + 組み立てる + もの = 下部構造",
+            "再び + 組み立てる + もの = 再建物",
+            "間に + 組み立てる + もの = 仲介物"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The bridge's superstructure was damaged by the earthquake."
+      ]
+    },
+    {
+      "word": "unstructured",
+      "phonetic": "/ʌnˈstrʌktʃərd/",
+      "toeicRank": "TSL上位・ビジネス/IT頻出",
+      "parts": [
+        {
+          "part": "un",
+          "meaning": "〜でない（否定）",
+          "type": "prefix"
+        },
+        {
+          "part": "struct",
+          "meaning": "組み立てる",
+          "type": "root"
+        },
+        {
+          "part": "ured",
+          "meaning": "〜された（過去分詞形容詞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "un（否定）+ structured（構造化された）= 構造化されていない → 非構造の",
+        "fact": "un-（否定）+ structured（構造化された）から。IT分野では「定型フォーマットを持たないデータ」を指す。unstructured data = 非構造化データ（テキスト、画像、音声など）。ビジネスでは unstructured interview = 非定型面接。",
+        "source": "EtymOnline: structure",
+        "cognates": [
+          "structure",
+          "structured",
+          "construct",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "構造（struct）が付けられていない（un + ured）→ 非構造の",
+        "fact": "ABSENCE（不在）スキーマ。「組み立て（struct）」の枠組みが「ない（un）」状態。unstructured data はAI/ML分野の重要概念。structured ↔ unstructured。",
+        "source": "Langacker (2008) ABSENCEスキーマ"
+      },
+      "gap": "unstructured はIT/ビジネス頻出。unstructured data = 非構造化データ（テキスト・画像・音声）。un（否定）+ structured（構造化された）= 構造がない。",
+      "gapOneliner": "unstructured = 構造(struct)が付けられていない(un) → 非構造の",
+      "hook": {
+        "label": "記憶フック",
+        "text": "un(否定) + structured(構造化された) = 構造化されていない。unstructured data = 非構造化データ（テキスト、画像、音声）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "unstructuredの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "構造化されていない→非構造の",
+            "構造化された→定型の",
+            "再構造化された→改組の",
+            "破壊された→壊滅の"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "AI excels at processing large volumes of ______ data.",
+          "hint": "「構造化されていない」→「非構造の」",
+          "explanationFocus": "gap",
+          "choices": [
+            "unstructured",
+            "structured",
+            "constructed",
+            "destructed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Most of the world's data is unstructured, including emails and social media posts."
+      ]
+    },
+    {
+      "word": "industrious",
+      "phonetic": "/ɪnˈdʌstriəs/",
+      "toeicRank": "TSL中位・ビジネス/日常用語",
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "中に",
+          "type": "prefix"
+        },
+        {
+          "part": "stru",
+          "meaning": "組み立てる（struct の異形）",
+          "type": "root"
+        },
+        {
+          "part": "ious",
+          "meaning": "〜の性質を持つ（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "instruere（中に組み立てる→準備する）→ 勤勉に準備する性質 → 勤勉な",
+        "fact": "ラテン語 industrius「勤勉な」から。industria「勤勉、努力」に由来し、これは instruere（中に組み立てる、準備する）と関連があるとされる。16世紀に「熱心に働く」の意味で英語に入った。industry（産業）も同根。",
+        "source": "EtymOnline: industrious",
+        "cognates": [
+          "industry",
+          "industrial",
+          "instruct",
+          "construct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "中に（in）組み立てる（stru）性質 → 勤勉に準備する → 勤勉な",
+        "fact": "EFFORT（努力）スキーマ。内部で絶えず「組み立て・準備する（in + stru）」性質。industrious worker = 勤勉な労働者。industry = 勤勉さ → 産業。",
+        "source": "Langacker (2008) EFFORTスキーマ"
+      },
+      "gap": "industrious は「勤勉な」。industry（産業）と同根で、元は「勤勉さ」の意味。in + stru（中に組み立てる）→ 常に準備している → 勤勉。",
+      "gapOneliner": "industrious = 中に(in)組み立てる(stru)性質 → 勤勉な。industry と同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "in(中に) + stru(組み立てる) + ious(性質) = 中で絶えず準備する = 勤勉な。industry = 勤勉さ → 産業。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "industriousの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "勤勉に準備する→勤勉な",
+            "壊す性質→破壊的な",
+            "教える性質→教育的な",
+            "組み立てる性質→建設的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 2,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is known as one of the most ______ employees in the company.",
+          "hint": "「勤勉に準備する」→「勤勉な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "industrious",
+            "industrial",
+            "instructive",
+            "destructive"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "The industrious team completed the project ahead of schedule."
+      ]
+    },
+    {
+      "word": "misconstrue",
+      "phonetic": "/ˌmɪskənˈstruː/",
+      "toeicRank": "TSL中位・法律/ビジネス頻出",
+      "parts": [
+        {
+          "part": "mis",
+          "meaning": "誤って",
+          "type": "prefix"
+        },
+        {
+          "part": "con",
+          "meaning": "共に",
+          "type": "prefix"
+        },
+        {
+          "part": "strue",
+          "meaning": "組み立てる（struct の異形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "mis（誤って）+ construe（意味を組み立てる）= 意味を誤って組み立てる → 誤解する",
+        "fact": "mis-（誤って）+ construe（解釈する）から。construe はラテン語 construere「共に組み立てる」に由来し、「言葉の意味を組み立てて解釈する」の意味に転じた。misconstrue = 意味を誤って組み立てる = 誤解する。",
+        "source": "EtymOnline: misconstrue",
+        "cognates": [
+          "construe",
+          "construct",
+          "structure",
+          "instruct"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "意味を誤って（mis）組み立てる（construe）→ 誤解する",
+        "fact": "ERROR（誤り）スキーマ。言葉や行為の意味を「組み立てる（construe）」過程で「誤り（mis）」が生じる。misconstrue someone's intentions = 意図を誤解する。",
+        "source": "Langacker (2008) ERRORスキーマ"
+      },
+      "gap": "misconstrue は「誤解する」。mis（誤って）+ construe（解釈する＝意味を組み立てる）。misunderstand よりフォーマル。法律やビジネスで頻出。",
+      "gapOneliner": "misconstrue = 意味を誤って(mis)組み立てる(construe) → 誤解する",
+      "hook": {
+        "label": "記憶フック",
+        "text": "mis(誤って) + construe(意味を組み立てる) = 誤解する。Don't misconstrue my words = 私の言葉を誤解しないで。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 2,
+          "instruction": "misconstrueの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "誤って意味を組み立てる→誤解する",
+            "正しく意味を組み立てる→正解する",
+            "壊して意味を失う→誤用する",
+            "共に意味を作る→共有する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "His silence was ______d as agreement.",
+          "hint": "「誤って意味を組み立てる」→「誤解する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "misconstrued",
+            "constructed",
+            "instructed",
+            "destructed"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Please don't misconstrue my comments as criticism."
+      ]
+    }
+  ]
+}

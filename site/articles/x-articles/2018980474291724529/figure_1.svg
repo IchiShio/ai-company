@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg_p2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg_p2)" />
+
+  <!-- Title area -->
+  <text x="600" y="58" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="27" font-weight="700" fill="#ffffff" text-anchor="middle">"That's a thing?" — 直訳 vs 実際の意味</text>
+  <text x="600" y="88" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786" text-anchor="middle">教科書には載らないネイティブの驚き表現5選</text>
+  <line x1="80" y1="106" x2="1120" y2="106" stroke="#657786" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <rect x="80" y="118" width="234" height="36" rx="6" fill="#657786" fill-opacity="0.25"/>
+  <text x="197" y="141" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#AAB8C2" text-anchor="middle">英語表現</text>
+
+  <rect x="324" y="118" width="234" height="36" rx="6" fill="#E0245E" fill-opacity="0.2" stroke="#E0245E" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="441" y="141" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#E0245E" text-anchor="middle">❌ 直訳（間違い）</text>
+
+  <rect x="568" y="118" width="234" height="36" rx="6" fill="#1DA1F2" fill-opacity="0.2" stroke="#1DA1F2" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="685" y="141" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">✅ 実際の意味</text>
+
+  <rect x="812" y="118" width="308" height="36" rx="6" fill="#17BF63" fill-opacity="0.15" stroke="#17BF63" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="966" y="141" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="700" fill="#17BF63" text-anchor="middle">使用シーン例</text>
+
+  <!-- Row data -->
+  <!-- Row 1 - highlight -->
+  <rect x="80" y="162" width="1040" height="70" rx="8" fill="#1DA1F2" fill-opacity="0.10" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="197" y="193" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#1DA1F2" text-anchor="middle">That's a thing?</text>
+  <text x="197" y="216" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">Is that a thing?</text>
+  <text x="441" y="193" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" text-anchor="middle">それは物ですか？</text>
+  <text x="685" y="193" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc" text-anchor="middle">それって本当にあるの？</text>
+  <text x="685" y="213" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">（習慣・現象への軽い驚き）</text>
+  <text x="966" y="193" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">文化・習慣を聞いたとき</text>
+  <text x="966" y="213" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">"KFC on Christmas? That's a thing?"</text>
+
+  <!-- Row 2 -->
+  <rect x="80" y="238" width="1040" height="66" rx="8" fill="#ffffff" fill-opacity="0.025"/>
+  <text x="197" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">No way!</text>
+  <text x="441" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" text-anchor="middle">道はない！</text>
+  <text x="685" y="261" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc" text-anchor="middle">ありえない！／まさか！</text>
+  <text x="685" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">（強い否定・驚き）</text>
+  <text x="966" y="268" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">信じられないニュースを聞いた</text>
+
+  <!-- Row 3 -->
+  <rect x="80" y="310" width="1040" height="66" rx="8" fill="#ffffff" fill-opacity="0.025"/>
+  <text x="197" y="340" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Seriously?</text>
+  <text x="441" y="340" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" text-anchor="middle">まじめに？</text>
+  <text x="685" y="333" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc" text-anchor="middle">マジで？／本当に？</text>
+  <text x="685" y="353" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">（疑問・軽い不信感）</text>
+  <text x="966" y="340" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">予想外の発言への反応</text>
+
+  <!-- Row 4 -->
+  <rect x="80" y="382" width="1040" height="66" rx="8" fill="#ffffff" fill-opacity="0.025"/>
+  <text x="197" y="412" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">For real?</text>
+  <text x="441" y="412" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" text-anchor="middle">本物のために？</text>
+  <text x="685" y="405" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc" text-anchor="middle">マジで？（カジュアル確認）</text>
+  <text x="685" y="425" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">（日常会話・友人間）</text>
+  <text x="966" y="412" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">友人との軽い会話</text>
+
+  <!-- Row 5 -->
+  <rect x="80" y="454" width="1040" height="66" rx="8" fill="#ffffff" fill-opacity="0.025"/>
+  <text x="197" y="478" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">That's not a thing.</text>
+  <text x="197" y="498" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#AAB8C2" text-anchor="middle">（否定形）</text>
+  <text x="441" y="484" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#E0245E" text-anchor="middle">それは物ではない</text>
+  <text x="685" y="477" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc" text-anchor="middle">そんな習慣はない</text>
+  <text x="685" y="497" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#AAB8C2" text-anchor="middle">（否定・打ち消し）</text>
+  <text x="966" y="484" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#cccccc" text-anchor="middle">誤情報の訂正・否定</text>
+
+  <!-- Key insight box -->
+  <rect x="80" y="538" width="1040" height="68" rx="10" fill="#1DA1F2" fill-opacity="0.12" stroke="#1DA1F2" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="120" y="562" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2" font-weight="700">Key Point:</text>
+  <text x="230" y="562" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc">"thing" = 「概念・慣習・流行」。語気を上げると驚き、フラットに言うと軽い確認になる。</text>
+  <text x="120" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#cccccc">日本語の「え、マジで？」「それってどういうこと？」に近い感覚で使おう。</text>
+
+  <!-- Credit -->
+  <text x="1168" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

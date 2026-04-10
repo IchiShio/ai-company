@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14171A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2030;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="slowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E0245E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0184e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="naturalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1DA1F2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d8ae0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)" />
+
+  <!-- Title -->
+  <text x="600" y="58" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF">遅い再生 vs 自然速度：聴覚適応の分岐</text>
+  <text x="600" y="88" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">「慣れる速度」が上達の上限を決める</text>
+
+  <!-- Chart area background -->
+  <rect x="100" y="120" width="750" height="440" rx="12" fill="#1e2736" opacity="0.7"/>
+
+  <!-- Grid lines -->
+  <line x1="160" y1="160" x2="820" y2="160" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="220" x2="820" y2="220" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="280" x2="820" y2="280" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="340" x2="820" y2="340" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="400" x2="820" y2="400" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="460" x2="820" y2="460" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="160" y1="520" x2="820" y2="520" stroke="#2a3a4a" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Axes -->
+  <line x1="160" y1="520" x2="820" y2="520" stroke="#657786" stroke-width="2"/>
+  <line x1="160" y1="140" x2="160" y2="520" stroke="#657786" stroke-width="2"/>
+
+  <!-- Y-axis label -->
+  <text x="60" y="335" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" transform="rotate(-90, 60, 335)">自然速度英語の聴解率（%）</text>
+
+  <!-- Y-axis values -->
+  <text x="148" y="524" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">0%</text>
+  <text x="148" y="464" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">20%</text>
+  <text x="148" y="404" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">40%</text>
+  <text x="148" y="344" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">60%</text>
+  <text x="148" y="284" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">80%</text>
+  <text x="148" y="224" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">90%</text>
+  <text x="148" y="164" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">100%</text>
+
+  <!-- X-axis labels -->
+  <text x="160" y="544" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">開始</text>
+  <text x="290" y="544" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">1ヶ月</text>
+  <text x="420" y="544" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">2ヶ月</text>
+  <text x="550" y="544" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">3ヶ月</text>
+  <text x="680" y="544" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">6ヶ月</text>
+  <text x="820" y="544" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">12ヶ月</text>
+
+  <!-- X-axis title -->
+  <text x="490" y="575" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">学習期間</text>
+
+  <!-- Slow playback curve (red) — plateaus at 55% -->
+  <polyline points="160,490 290,450 420,420 550,405 680,400 820,398"
+    fill="none" stroke="#E0245E" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Slow curve fill -->
+  <polygon points="160,490 290,450 420,420 550,405 680,400 820,398 820,520 160,520"
+    fill="#E0245E" opacity="0.12"/>
+
+  <!-- Natural speed curve (blue) — continues to rise -->
+  <polyline points="160,490 290,460 420,410 550,350 680,270 820,185"
+    fill="none" stroke="#1DA1F2" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Natural curve fill -->
+  <polygon points="160,490 290,460 420,410 550,350 680,270 820,185 820,520 160,520"
+    fill="#1DA1F2" opacity="0.10"/>
+
+  <!-- Plateau indicator -->
+  <line x1="420" y1="398" x2="820" y2="398" stroke="#E0245E" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+  <text x="830" y="402" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#E0245E">頭打ち</text>
+  <text x="830" y="418" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#E0245E">〜50%</text>
+
+  <!-- Natural speed endpoint label -->
+  <text x="830" y="190" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">90%+</text>
+  <text x="830" y="206" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#1DA1F2">到達</text>
+
+  <!-- Gap annotation at 12 months -->
+  <line x1="820" y1="185" x2="820" y2="398" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <text x="820" y="295" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF" opacity="0.7">差：</text>
+  <text x="820" y="312" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF" opacity="0.7">40%</text>
+
+  <!-- Legend -->
+  <rect x="870" y="250" width="280" height="120" rx="10" fill="#1e2736" opacity="0.9"/>
+  <line x1="888" y1="285" x2="930" y2="285" stroke="#E0245E" stroke-width="3"/>
+  <circle cx="909" cy="285" r="5" fill="#E0245E"/>
+  <text x="940" y="290" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#FFFFFF">スロー再生練習</text>
+  <text x="940" y="308" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">（0.7〜0.8倍速）</text>
+
+  <line x1="888" y1="345" x2="930" y2="345" stroke="#1DA1F2" stroke-width="3"/>
+  <circle cx="909" cy="345" r="5" fill="#1DA1F2"/>
+  <text x="940" y="350" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#FFFFFF">自然速度練習</text>
+  <text x="940" y="368" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#657786">（1.0〜1.2倍速）</text>
+
+  <!-- Key insight box -->
+  <rect x="870" y="400" width="280" height="100" rx="10" fill="#1DA1F2" opacity="0.15"/>
+  <rect x="870" y="400" width="4" height="100" rx="2" fill="#1DA1F2"/>
+  <text x="886" y="423" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" font-weight="bold" fill="#1DA1F2">KEY INSIGHT</text>
+  <text x="886" y="446" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFFFFF">脳は「慣れた速度」に</text>
+  <text x="886" y="464" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFFFFF">最適化される。</text>
+  <text x="886" y="482" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#FFFFFF">負荷が低すぎると上限も低い。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bg5" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </radialGradient>
+    <linearGradient id="slowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <linearGradient id="fastGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1DA1F2"/>
+      <stop offset="100%" stop-color="#0d8bd9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg5)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">脳の処理適応：遅い音声 vs 自然速度</text>
+  <text x="600" y="85" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#657786">継続6週間後のリスニング処理能力の変化（概念モデル）</text>
+
+  <!-- Left panel: Slow speed -->
+  <rect x="60" y="108" width="490" height="390" rx="14" fill="#2a1010" stroke="#e74c3c" stroke-width="2"/>
+  <rect x="60" y="108" width="490" height="52" rx="14" fill="#e74c3c" opacity="0.85"/>
+  <rect x="60" y="143" width="490" height="17" rx="0" fill="#e74c3c" opacity="0.85"/>
+  <text x="305" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">ゆっくり再生（0.7倍速以下）</text>
+  <text x="305" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#ffcccc">Slow Playback Addiction</text>
+
+  <!-- Slow brain diagram -->
+  <!-- Week 0 -->
+  <text x="90" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 1</text>
+  <rect x="140" y="192" width="340" height="22" rx="4" fill="#2a2a2a"/>
+  <rect x="140" y="192" width="170" height="22" rx="4" fill="#e74c3c" opacity="0.6"/>
+  <text x="488" y="208" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">50%</text>
+
+  <text x="90" y="242" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 2</text>
+  <rect x="140" y="229" width="340" height="22" rx="4" fill="#2a2a2a"/>
+  <rect x="140" y="229" width="195" height="22" rx="4" fill="#e74c3c" opacity="0.65"/>
+  <text x="488" y="245" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">57%</text>
+
+  <text x="90" y="279" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 3</text>
+  <rect x="140" y="266" width="340" height="22" rx="4" fill="#2a2a2a"/>
+  <rect x="140" y="266" width="210" height="22" rx="4" fill="#e74c3c" opacity="0.7"/>
+  <text x="488" y="282" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">62%</text>
+
+  <text x="90" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 4</text>
+  <rect x="140" y="303" width="340" height="22" rx="4" fill="#2a2a2a"/>
+  <rect x="140" y="303" width="215" height="22" rx="4" fill="#e74c3c" opacity="0.7"/>
+  <text x="488" y="319" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">63%</text>
+
+  <text x="90" y="353" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 5</text>
+  <rect x="140" y="340" width="340" height="22" rx="4" fill="#2a2a2a"/>
+  <rect x="140" y="340" width="218" height="22" rx="4" fill="#e74c3c" opacity="0.7"/>
+  <text x="488" y="356" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">64%</text>
+
+  <text x="90" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 6</text>
+  <rect x="140" y="377" width="340" height="22" rx="4" fill="#2a2a2a"/>
+  <rect x="140" y="377" width="220" height="22" rx="4" fill="#e74c3c" opacity="0.7"/>
+  <text x="488" y="393" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#e74c3c">65%</text>
+
+  <text x="305" y="438" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#e74c3c">処理能力：頭打ち（+15%止まり）</text>
+  <text x="305" y="458" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#cc8888">「遅い耳」が完成→ 実会話で通じない</text>
+  <text x="305" y="478" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#cc8888">ネイティブ速度（160wpm）に対応できない</text>
+
+  <!-- Right panel: Natural speed -->
+  <rect x="650" y="108" width="490" height="390" rx="14" fill="#102030" stroke="#1DA1F2" stroke-width="2.5"/>
+  <rect x="650" y="108" width="490" height="52" rx="14" fill="#1DA1F2"/>
+  <rect x="650" y="143" width="490" height="17" rx="0" fill="#1DA1F2"/>
+  <text x="895" y="140" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">自然速度（0.9倍速以上）</text>
+  <text x="895" y="158" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#c8e8f8">Natural Speed Training</text>
+
+  <!-- Fast brain diagram -->
+  <text x="680" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 1</text>
+  <rect x="730" y="192" width="340" height="22" rx="4" fill="#1a2a3a"/>
+  <rect x="730" y="192" width="136" height="22" rx="4" fill="#1DA1F2" opacity="0.6"/>
+  <text x="1078" y="208" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">40%</text>
+
+  <text x="680" y="242" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 2</text>
+  <rect x="730" y="229" width="340" height="22" rx="4" fill="#1a2a3a"/>
+  <rect x="730" y="229" width="170" height="22" rx="4" fill="#1DA1F2" opacity="0.65"/>
+  <text x="1078" y="245" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">50%</text>
+
+  <text x="680" y="279" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 3</text>
+  <rect x="730" y="266" width="340" height="22" rx="4" fill="#1a2a3a"/>
+  <rect x="730" y="266" width="221" height="22" rx="4" fill="#1DA1F2" opacity="0.75"/>
+  <text x="1078" y="282" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">65%</text>
+
+  <text x="680" y="316" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 4</text>
+  <rect x="730" y="303" width="340" height="22" rx="4" fill="#1a2a3a"/>
+  <rect x="730" y="303" width="272" height="22" rx="4" fill="#1DA1F2" opacity="0.8"/>
+  <text x="1078" y="319" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">80%</text>
+
+  <text x="680" y="353" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 5</text>
+  <rect x="730" y="340" width="340" height="22" rx="4" fill="#1a2a3a"/>
+  <rect x="730" y="340" width="306" height="22" rx="4" fill="#1DA1F2" opacity="0.85"/>
+  <text x="1078" y="356" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">90%</text>
+
+  <text x="680" y="390" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#888888">Week 6</text>
+  <rect x="730" y="377" width="340" height="22" rx="4" fill="#1a2a3a"/>
+  <rect x="730" y="377" width="340" height="22" rx="4" fill="#1DA1F2"/>
+  <text x="1078" y="393" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#FFFFFF">100%</text>
+
+  <text x="895" y="438" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" font-weight="700" fill="#1DA1F2">処理能力：急成長（+60%）</text>
+  <text x="895" y="458" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7ec8f0">脳が「速い音」のパターンを学習</text>
+  <text x="895" y="478" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#7ec8f0">実会話・ネイティブ音声に対応できる耳が育つ</text>
+
+  <!-- Bottom CTA -->
+  <rect x="100" y="525" width="1000" height="70" rx="12" fill="#0a1020" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="600" y="552" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">ネイティブの平均発話速度：約160語/分（wpm）</text>
+  <text x="600" y="574" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">最初から0.9倍速以上で練習すれば、6週間で耳は劇的に変わる</text>
+
+  <!-- Credit -->
+  <text x="1175" y="660" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

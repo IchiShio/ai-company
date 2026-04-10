@@ -1,0 +1,75 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#F5F8FA"/>
+
+  <!-- Title bar -->
+  <rect width="1200" height="80" fill="#14171A"/>
+  <text x="600" y="52" text-anchor="middle" fill="#FFFFFF" font-size="28" font-weight="bold">音の地図構築ステップ — フォニックス → 音読 → リスニング</text>
+
+  <!-- Step 1 box -->
+  <rect x="80" y="120" width="310" height="380" rx="16" fill="#FFFFFF" stroke="#1DA1F2" stroke-width="3"/>
+  <rect x="80" y="120" width="310" height="70" rx="16" fill="#1DA1F2"/>
+  <rect x="80" y="160" width="310" height="30" fill="#1DA1F2"/>
+  <text x="235" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold">STEP 1</text>
+  <text x="235" y="190" text-anchor="middle" fill="#FFFFFF" font-size="20">フォニックス</text>
+
+  <text x="235" y="235" text-anchor="middle" fill="#14171A" font-size="48">🗺</text>
+  <text x="235" y="295" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">音の「地図」を入力する</text>
+  <line x1="110" y1="310" x2="360" y2="310" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="235" y="340" text-anchor="middle" fill="#657786" font-size="15">英語44音素の種類を知識として</text>
+  <text x="235" y="362" text-anchor="middle" fill="#657786" font-size="15">インプット。教材や動画で</text>
+  <text x="235" y="384" text-anchor="middle" fill="#657786" font-size="15">「この音はこう出す」を確認する。</text>
+  <text x="235" y="420" text-anchor="middle" fill="#1DA1F2" font-size="14">目安: 2〜4週間</text>
+  <text x="235" y="445" text-anchor="middle" fill="#14171A" font-size="14">音が「存在する」と知るだけでOK</text>
+  <text x="235" y="467" text-anchor="middle" fill="#14171A" font-size="14">完璧に発音できなくてよい</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="430,300 410,282 410,298 470,298 470,302 410,302 410,318" fill="#657786"/>
+  <text x="450" y="295" text-anchor="middle" fill="#657786" font-size="13">インプット</text>
+
+  <!-- Step 2 box -->
+  <rect x="450" y="120" width="310" height="380" rx="16" fill="#FFFFFF" stroke="#17BF63" stroke-width="3"/>
+  <rect x="450" y="120" width="310" height="70" rx="16" fill="#17BF63"/>
+  <rect x="450" y="160" width="310" height="30" fill="#17BF63"/>
+  <text x="605" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold">STEP 2</text>
+  <text x="605" y="190" text-anchor="middle" fill="#FFFFFF" font-size="20">口まね・音読</text>
+
+  <text x="605" y="235" text-anchor="middle" fill="#14171A" font-size="48">🗣</text>
+  <text x="605" y="295" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">体に「刻み込む」</text>
+  <line x1="480" y1="310" x2="730" y2="310" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="605" y="340" text-anchor="middle" fill="#657786" font-size="15">ゆっくりの音声で発音を真似る。</text>
+  <text x="605" y="362" text-anchor="middle" fill="#657786" font-size="15">口が動かせる音は耳でも</text>
+  <text x="605" y="384" text-anchor="middle" fill="#657786" font-size="15">認識できるようになる。</text>
+  <text x="605" y="420" text-anchor="middle" fill="#17BF63" font-size="14">目安: 4〜8週間継続</text>
+  <text x="605" y="445" text-anchor="middle" fill="#14171A" font-size="14">r/l・th・æ を重点練習</text>
+  <text x="605" y="467" text-anchor="middle" fill="#14171A" font-size="14">1日5〜10分で十分</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="800,300 780,282 780,298 840,298 840,302 780,302 780,318" fill="#657786"/>
+  <text x="820" y="295" text-anchor="middle" fill="#657786" font-size="13">定着</text>
+
+  <!-- Step 3 box -->
+  <rect x="820" y="120" width="310" height="380" rx="16" fill="#FFFFFF" stroke="#E0245E" stroke-width="3"/>
+  <rect x="820" y="120" width="310" height="70" rx="16" fill="#E0245E"/>
+  <rect x="820" y="160" width="310" height="30" fill="#E0245E"/>
+  <text x="975" y="163" text-anchor="middle" fill="#FFFFFF" font-size="22" font-weight="bold">STEP 3</text>
+  <text x="975" y="190" text-anchor="middle" fill="#FFFFFF" font-size="20">リスニング実践</text>
+
+  <text x="975" y="235" text-anchor="middle" fill="#14171A" font-size="48">👂</text>
+  <text x="975" y="295" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">地図を使って「探す」</text>
+  <line x1="850" y1="310" x2="1100" y2="310" stroke="#E1E8ED" stroke-width="1"/>
+  <text x="975" y="340" text-anchor="middle" fill="#657786" font-size="15">知っている音を耳で探す練習。</text>
+  <text x="975" y="362" text-anchor="middle" fill="#657786" font-size="15">地図があるから音が</text>
+  <text x="975" y="384" text-anchor="middle" fill="#657786" font-size="15">「見えるように」聞こえる。</text>
+  <text x="975" y="420" text-anchor="middle" fill="#E0245E" font-size="14">ここから初めて量をこなす</text>
+  <text x="975" y="445" text-anchor="middle" fill="#14171A" font-size="14">英語字幕付き動画・ポッドキャスト</text>
+  <text x="975" y="467" text-anchor="middle" fill="#14171A" font-size="14">ListenUpで実践</text>
+
+  <!-- Bottom note -->
+  <rect x="80" y="525" width="1050" height="65" rx="10" fill="#E8F5FE" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="605" y="553" text-anchor="middle" fill="#14171A" font-size="18" font-weight="bold">よくある間違い: STEP1・2 を飛ばして STEP3 だけやり続ける</text>
+  <text x="605" y="577" text-anchor="middle" fill="#657786" font-size="16">音の地図なしにリスニングを繰り返しても「慣れ」は生まれない。地図が先、量は後。</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" fill="#AAB8C2" font-size="18">@ichi_eigo</text>
+</svg>

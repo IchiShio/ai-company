@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg3)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    子供 vs 大人の英語習得速度比較
+  </text>
+  <text x="600" y="80" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" fill="#AAB8C2" text-anchor="middle">
+    3つの軸で科学的に比較する — 「手遅れ」は本当か？
+  </text>
+
+  <!-- Radar chart area center: 600, 350; radius: 180 -->
+  <!-- Axis labels: 文法・語彙（上）/ 発音（右下）/ 定着速度（左下） -->
+
+  <!-- Grid lines (hexagonal, 3 levels) -->
+  <!-- Level 1 (60) -->
+  <polygon points="600,230 755.8,320 755.8,500 600,590 444.2,500 444.2,320"
+           fill="none" stroke="#2D3748" stroke-width="1"/>
+  <!-- Level 2 (120) -->
+  <polygon points="600,170 815.7,290 815.7,530 600,650 384.3,530 384.3,290"
+           fill="none" stroke="#2D3748" stroke-width="1" opacity="0.5"/>
+  <!-- Level 3 (180) - outer -->
+  <polygon points="600,120 875.4,260 875.4,560 600,700 324.6,560 324.6,260"
+           fill="none" stroke="#2D3748" stroke-width="1" opacity="0.3"/>
+
+  <!-- Axis lines: 3 axes -->
+  <!-- Axis 1: top (文法・語彙) -->
+  <line x1="600" y1="350" x2="600" y2="130" stroke="#657786" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- Axis 2: bottom-right (発音) -->
+  <line x1="600" y1="350" x2="840" y2="490" stroke="#657786" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- Axis 3: bottom-left (定着速度) -->
+  <line x1="600" y1="350" x2="360" y2="490" stroke="#657786" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Axis labels -->
+  <text x="600" y="112" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#AAB8C2" text-anchor="middle">文法・語彙習得速度</text>
+  <text x="872" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#AAB8C2" text-anchor="start">発音精度</text>
+  <text x="328" y="510" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#AAB8C2" text-anchor="end">定着スピード</text>
+
+  <!-- Scale labels -->
+  <text x="605" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="11" fill="#657786">50</text>
+  <text x="605" y="218" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="11" fill="#657786">75</text>
+  <text x="605" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="11" fill="#657786">100</text>
+
+  <!-- Adult radar: 文法95, 発音50, 定着80 -->
+  <!-- axis1 top: 600, 350 - (0, 180*0.95) = 600, 179 -->
+  <!-- axis2 bottom-right: 350 + cos(330°)*180*0.50, 350 + sin(330°)*180*0.50 -->
+  <!-- cos(330°)=0.866, sin(330°)=-0.5 => 350+78=428... wait, let me recalc with correct geometry -->
+  <!-- Using simplified 3-axis radar with vertex at 90°, 210°, 330° -->
+  <!-- 90°: (0,-1); 330°: (0.866, 0.5); 210°: (-0.866, 0.5) -->
+  <!-- Adult: grammar=0.95, pronunciation=0.50, retention=0.80 -->
+  <!-- P1(grammar top): 600+0*180*0.95, 350+(-1)*180*0.95 = 600, 179 -->
+  <!-- P2(pronunciation right): 600+0.866*180*0.50, 350+0.5*180*0.50 = 678, 395 -->
+  <!-- P3(retention left): 600+(-0.866)*180*0.80, 350+0.5*180*0.80 = 475, 422 -->
+  <polygon points="600,179 678,395 475,422"
+           fill="#1DA1F2" fill-opacity="0.25" stroke="#1DA1F2" stroke-width="2.5"/>
+  <circle cx="600" cy="179" r="6" fill="#1DA1F2"/>
+  <circle cx="678" cy="395" r="6" fill="#1DA1F2"/>
+  <circle cx="475" cy="422" r="6" fill="#1DA1F2"/>
+
+  <!-- Child radar: grammar=0.55, pronunciation=0.95, retention=0.65 -->
+  <!-- P1: 600, 350-180*0.55 = 600, 251 -->
+  <!-- P2: 600+0.866*180*0.95=748, 350+0.5*180*0.95=436 -->
+  <!-- P3: 600-0.866*180*0.65=498, 350+0.5*180*0.65=409 -->
+  <polygon points="600,251 748,436 498,409"
+           fill="#e0245e" fill-opacity="0.20" stroke="#e0245e" stroke-width="2" stroke-dasharray="6,3"/>
+  <circle cx="600" cy="251" r="6" fill="#e0245e"/>
+  <circle cx="748" cy="436" r="6" fill="#e0245e"/>
+  <circle cx="498" cy="409" r="6" fill="#e0245e"/>
+
+  <!-- Legend -->
+  <rect x="700" y="150" width="180" height="80" rx="8" fill="#1C2938" stroke="#2D3748" stroke-width="1"/>
+  <line x1="716" y1="178" x2="746" y2="178" stroke="#1DA1F2" stroke-width="2.5"/>
+  <circle cx="731" cy="178" r="5" fill="#1DA1F2"/>
+  <text x="755" y="183" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#1DA1F2">大人（Adult）</text>
+  <line x1="716" y1="210" x2="746" y2="210" stroke="#e0245e" stroke-width="2" stroke-dasharray="6,3"/>
+  <circle cx="731" cy="210" r="5" fill="#e0245e"/>
+  <text x="755" y="215" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" fill="#e08080">子供（Child）</text>
+
+  <!-- Score annotations -->
+  <text x="550" y="165" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#1DA1F2" font-weight="700">95</text>
+  <text x="565" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#e08080" font-weight="700">55</text>
+  <text x="692" y="392" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#e08080" font-weight="700">95</text>
+  <text x="680" y="410" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#1DA1F2" font-weight="700">50</text>
+  <text x="432" y="435" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#1DA1F2" font-weight="700">80</text>
+  <text x="460" y="418" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#e08080" font-weight="700">65</text>
+
+  <!-- Bottom insight boxes -->
+  <rect x="50" y="560" width="330" height="72" rx="10" fill="#0d2540" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="215" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#1DA1F2" text-anchor="middle">大人の圧倒的強み</text>
+  <text x="215" y="608" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2" text-anchor="middle">文法・語彙は子供より速く習得</text>
+  <text x="215" y="624" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="middle">論理的理解力が武器になる</text>
+
+  <rect x="435" y="560" width="330" height="72" rx="10" fill="#1C2938" stroke="#657786" stroke-width="1"/>
+  <text x="600" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#AAB8C2" text-anchor="middle">子供の優位点</text>
+  <text x="600" y="608" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#8899A6" text-anchor="middle">発音はネイティブ並みに近づきやすい</text>
+  <text x="600" y="624" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="middle">臨界期効果（Critical Period）</text>
+
+  <rect x="820" y="560" width="330" height="72" rx="10" fill="#1C2938" stroke="#657786" stroke-width="1"/>
+  <text x="985" y="588" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="14" font-weight="700" fill="#AAB8C2" text-anchor="middle">結論</text>
+  <text x="985" y="608" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#8899A6" text-anchor="middle">「手遅れ」は発音以外には</text>
+  <text x="985" y="624" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#657786" text-anchor="middle">当てはまらない</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

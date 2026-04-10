@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14171A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2030;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgGrad2)" />
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF">自然速度「部分取り」練習ガイド</text>
+  <text x="600" y="84" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" fill="#657786">全部聞き取ろうとしないことが、耳を鍛える近道</text>
+
+  <!-- Step connector line -->
+  <line x1="600" y1="165" x2="600" y2="580" stroke="#2a3a4a" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Step 1 -->
+  <rect x="80" y="120" width="480" height="150" rx="16" fill="#1e2736" stroke="#1DA1F2" stroke-width="2"/>
+  <rect x="80" y="120" width="480" height="6" rx="3" fill="#1DA1F2"/>
+  <!-- Step badge -->
+  <circle cx="115" cy="155" r="22" fill="#1DA1F2"/>
+  <text x="115" y="161" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="150" y="152" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#1DA1F2">部分取りメモ</text>
+  <text x="150" y="173" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Partial Capture</text>
+  <text x="100" y="205" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">知っている素材を</text>
+  <text x="100" y="225" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">自然速度で流しながら、</text>
+  <text x="100" y="245" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#1DA1F2" font-weight="bold">聞こえた単語だけを書き留める</text>
+
+  <!-- Step 1 tag -->
+  <rect x="420" y="192" width="120" height="28" rx="14" fill="#1DA1F2" opacity="0.2"/>
+  <text x="480" y="211" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#1DA1F2">全体理解は不要</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="600,278 588,255 612,255" fill="#657786"/>
+
+  <!-- Step 2 -->
+  <rect x="80" y="290" width="480" height="150" rx="16" fill="#1e2736" stroke="#17BF63" stroke-width="2"/>
+  <rect x="80" y="290" width="480" height="6" rx="3" fill="#17BF63"/>
+  <circle cx="115" cy="325" r="22" fill="#17BF63"/>
+  <text x="115" y="331" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="150" y="322" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#17BF63">ピンポイント復習</text>
+  <text x="150" y="343" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Pinpoint Review</text>
+  <text x="100" y="375" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">気になった表現を</text>
+  <text x="100" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#17BF63" font-weight="bold">1〜2個だけ</text>
+  <text x="230" y="395" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">取り出して確認する</text>
+
+  <!-- Step 2 tag -->
+  <rect x="380" y="362" width="160" height="28" rx="14" fill="#17BF63" opacity="0.2"/>
+  <text x="460" y="381" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#17BF63">消化不良を残さない</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="600,448 588,425 612,425" fill="#657786"/>
+
+  <!-- Step 3 -->
+  <rect x="80" y="460" width="480" height="150" rx="16" fill="#1e2736" stroke="#FFAD1F" stroke-width="2"/>
+  <rect x="80" y="460" width="480" height="6" rx="3" fill="#FFAD1F"/>
+  <circle cx="115" cy="495" r="22" fill="#FFAD1F"/>
+  <text x="115" y="501" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#14171A">3</text>
+  <text x="150" y="492" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="19" font-weight="bold" fill="#FFAD1F">流し聞き確認</text>
+  <text x="150" y="513" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">Flow Listening</text>
+  <text x="100" y="545" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">メモなしで再生し直し、</text>
+  <text x="100" y="565" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#FFAD1F" font-weight="bold">文脈とリズムを丸ごと感じる</text>
+
+  <!-- Step 3 tag -->
+  <rect x="380" y="532" width="160" height="28" rx="14" fill="#FFAD1F" opacity="0.2"/>
+  <text x="460" y="551" text-anchor="middle" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#FFAD1F">集中しすぎない</text>
+
+  <!-- Right panel: 素材選びのポイント -->
+  <rect x="640" y="120" width="520" height="200" rx="16" fill="#1e2736"/>
+  <rect x="640" y="120" width="520" height="6" rx="3" fill="#1DA1F2"/>
+  <text x="660" y="153" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#1DA1F2">素材選びの3原則</text>
+
+  <!-- Icon + text rows -->
+  <rect x="660" y="168" width="6" height="22" rx="3" fill="#1DA1F2"/>
+  <text x="676" y="184" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">内容を知っている素材（ストーリーが既知）</text>
+
+  <rect x="660" y="200" width="6" height="22" rx="3" fill="#17BF63"/>
+  <text x="676" y="216" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">60〜70%程度わかればOKな難易度</text>
+
+  <rect x="660" y="232" width="6" height="22" rx="3" fill="#FFAD1F"/>
+  <text x="676" y="248" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">1〜3分程度の短い音声から始める</text>
+
+  <text x="660" y="295" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">例: ドラマの既視聴エピソード、</text>
+  <text x="660" y="312" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">暗記している洋楽、TEDの再視聴</text>
+
+  <!-- Right panel: NGパターン -->
+  <rect x="640" y="340" width="520" height="140" rx="16" fill="#1e2736"/>
+  <rect x="640" y="340" width="520" height="6" rx="3" fill="#E0245E"/>
+  <text x="660" y="373" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="17" font-weight="bold" fill="#E0245E">よくあるNG習慣</text>
+
+  <text x="666" y="400" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">✗  「もう1回だけ」と遅くして確認する</text>
+  <text x="666" y="425" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">✗  全文書き起こし（ディクテーション）を毎回やる</text>
+  <text x="666" y="450" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" fill="#CCCCCC">✗  聞き取れた割合で自分を評価する</text>
+
+  <!-- Right panel: 目安 -->
+  <rect x="640" y="500" width="520" height="110" rx="16" fill="#1DA1F2" opacity="0.12"/>
+  <rect x="640" y="500" width="4" height="110" rx="2" fill="#1DA1F2"/>
+  <text x="660" y="525" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="bold" fill="#1DA1F2">1セットの目安時間</text>
+  <text x="660" y="549" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">Step1: 3分  →  Step2: 5分  →  Step3: 3分</text>
+  <text x="660" y="571" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#FFFFFF">合計 約11分 / 1素材。毎日続けることが最優先。</text>
+  <text x="660" y="595" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786">→ native-real.com でリスニング練習をはじめる</text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" text-anchor="end" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786">@ichi_eigo</text>
+</svg>

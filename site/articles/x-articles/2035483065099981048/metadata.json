@@ -1,0 +1,17 @@
+{
+  "tweet_id": "2035483065099981048",
+  "likes": 53,
+  "article_title": "シャドーイングは初中級者にこそ効果的。実験が示す正しい開始タイミング",
+  "native_real_link": "/",
+  "figures": ["figure_1.svg", "figure_2.svg"],
+  "figure_1_description": "レベル別シャドーイング効果量グラフ（初級>中級>上級の傾向）",
+  "figure_2_description": "初中級者向け段階的シャドーイング導入プラン",
+  "created_at": "2026-03-30",
+  "fact_check_status": "PASS",
+  "word_count": 413,
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "gray": "#657786"
+  }
+}

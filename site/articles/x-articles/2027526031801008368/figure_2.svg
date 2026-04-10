@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#14171A"/>
+    </linearGradient>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1DA1F2"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg4)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    大人の強みを活かした最短習得フロー
+  </text>
+  <text x="600" y="78" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" fill="#AAB8C2" text-anchor="middle">
+    30〜40代が最速で英語力を上げるための戦略ステップ
+  </text>
+
+  <!-- Step 1: START -->
+  <rect x="480" y="108" width="240" height="60" rx="30" fill="#1DA1F2"/>
+  <text x="600" y="142" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">START：目的を明確化</text>
+
+  <!-- Arrow down -->
+  <line x1="600" y1="168" x2="600" y2="196" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 2: 文法を論理で理解 -->
+  <rect x="60" y="200" width="500" height="90" rx="12" fill="#0d2540" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="90" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" font-weight="700" fill="#1DA1F2">STEP 1</text>
+  <text x="90" y="255" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" fill="#FFFFFF">文法を「ルール」として素早く習得</text>
+  <text x="90" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">大人の論理的理解力で子供の3〜5倍速で文法が身につく</text>
+
+  <!-- Arrow right -->
+  <line x1="560" y1="245" x2="628" y2="245" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 2b: 既存知識活用 -->
+  <rect x="640" y="200" width="500" height="90" rx="12" fill="#0d2540" stroke="#1DA1F2" stroke-width="1.5"/>
+  <text x="670" y="230" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" font-weight="700" fill="#1DA1F2">STEP 2</text>
+  <text x="670" y="255" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" fill="#FFFFFF">既存知識に語彙を「紐付け」</text>
+  <text x="670" y="278" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">母語の概念構造を利用した語彙習得。記憶の足がかりが多い</text>
+
+  <!-- Arrow down from center -->
+  <line x1="600" y1="290" x2="600" y2="340" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 3: 発音は「許容範囲」を目標に -->
+  <rect x="200" y="345" width="800" height="80" rx="12" fill="#1C2938" stroke="#657786" stroke-width="1.5"/>
+  <text x="340" y="375" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" font-weight="700" fill="#AAB8C2">STEP 3</text>
+  <text x="340" y="400" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" fill="#8899A6">発音は「ネイティブ並み」ではなく「通じる」を目標に</text>
+  <!-- Badge -->
+  <rect x="810" y="360" width="160" height="50" rx="8" fill="#2D3748" stroke="#657786" stroke-width="1"/>
+  <text x="890" y="381" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#AAB8C2" text-anchor="middle">ネイティブ並み発音は</text>
+  <text x="890" y="398" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="12" fill="#AAB8C2" text-anchor="middle">子供の優位領域（気にしない）</text>
+
+  <!-- Arrow down -->
+  <line x1="600" y1="425" x2="600" y2="458" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Step 4: 実践・アウトプット -->
+  <rect x="60" y="463" width="500" height="80" rx="12" fill="#0d2540" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="90" y="493" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" font-weight="700" fill="#1DA1F2">STEP 4</text>
+  <text x="90" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" fill="#FFFFFF">アウトプット中心の練習へ移行</text>
+  <text x="90" y="534" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">スピーキング・ライティングで定着加速</text>
+
+  <!-- Arrow right to GOAL -->
+  <line x1="560" y1="503" x2="628" y2="503" stroke="#1DA1F2" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- GOAL -->
+  <rect x="640" y="463" width="500" height="80" rx="12" fill="#0a3020" stroke="#00CC88" stroke-width="2"/>
+  <text x="670" y="493" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" font-weight="700" fill="#00CC88">GOAL</text>
+  <text x="670" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="15" fill="#FFFFFF">実用英語力の完成</text>
+  <text x="670" y="534" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#AAB8C2">30〜40代でも十分達成可能。発音以外は大人が有利</text>
+
+  <!-- Bottom summary -->
+  <rect x="40" y="575" width="1120" height="60" rx="10" fill="#0a1628" stroke="#1DA1F2" stroke-width="1"/>
+  <text x="600" y="602" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="16" font-weight="700" fill="#1DA1F2" text-anchor="middle">
+    科学的根拠：Snow &amp; Hoefnagel-Höhle (1978)「大人は初期段階の文法・語彙習得で子供を上回る」
+  </text>
+  <text x="600" y="623" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="13" fill="#657786" text-anchor="middle">
+    発音の「臨界期」は実在するが、それ以外の英語力に年齢の上限はない
+  </text>
+
+  <!-- Credit -->
+  <text x="1170" y="655" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif"
+        font-size="18" fill="#AAB8C2" text-anchor="end">@ichi_eigo</text>
+</svg>

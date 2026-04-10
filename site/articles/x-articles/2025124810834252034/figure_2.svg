@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#14171A;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a5c;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d2233;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1DA1F2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg4)"/>
+
+  <!-- Title -->
+  <text x="600" y="50" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">TOEICを正しく使う｜目的設定フレームワーク</text>
+  <line x1="180" y1="62" x2="1020" y2="62" stroke="#1DA1F2" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Center question -->
+  <rect x="400" y="82" width="400" height="58" rx="28" fill="#0d2233" stroke="#1DA1F2" stroke-width="2"/>
+  <text x="600" y="107" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#657786" text-anchor="middle">あなたはTOEICを何のために受けますか？</text>
+  <text x="600" y="128" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#1DA1F2" text-anchor="middle">目的を先に決める。スコアは後からついてくる。</text>
+
+  <!-- 3 Correct uses (left column) -->
+  <text x="80" y="188" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#2ecc71">✓ TOEICの正しい使い方</text>
+  <line x1="80" y1="196" x2="540" y2="196" stroke="#2ecc71" stroke-width="1" opacity="0.4"/>
+
+  <!-- Correct card 1 -->
+  <rect x="80" y="210" width="440" height="118" rx="12" fill="url(#blueCard)" stroke="#2ecc71" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <circle cx="110" cy="256" r="22" fill="#2ecc71"/>
+  <text x="110" y="261" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="700">M</text>
+  <text x="330" y="240" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#2ecc71" text-anchor="middle">モチベーション維持の指標</text>
+  <text x="330" y="262" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0d4b0" text-anchor="middle">「3ヶ月で50点アップ」という数値目標は</text>
+  <text x="330" y="281" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0d4b0" text-anchor="middle">継続の燃料になる。成長の可視化に使う。</text>
+  <text x="330" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5a8a6a" text-anchor="middle">→ 中間目標として設定するのは有効</text>
+
+  <!-- Correct card 2 -->
+  <rect x="80" y="348" width="440" height="118" rx="12" fill="url(#blueCard)" stroke="#2ecc71" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <circle cx="110" cy="394" r="22" fill="#2ecc71"/>
+  <text x="110" y="399" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="700">B</text>
+  <text x="330" y="378" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#2ecc71" text-anchor="middle">基礎力の確認ツール</text>
+  <text x="330" y="400" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0d4b0" text-anchor="middle">語彙・文法・リスニングの</text>
+  <text x="330" y="419" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0d4b0" text-anchor="middle">弱点を客観的に把握できる。</text>
+  <text x="330" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5a8a6a" text-anchor="middle">→ Part別スコアで弱点を特定する</text>
+
+  <!-- Correct card 3 -->
+  <rect x="80" y="486" width="440" height="118" rx="12" fill="url(#blueCard)" stroke="#2ecc71" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <circle cx="110" cy="532" r="22" fill="#2ecc71"/>
+  <text x="110" y="537" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="700">E</text>
+  <text x="330" y="516" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#2ecc71" text-anchor="middle">エントリー要件の最低ライン</text>
+  <text x="330" y="538" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0d4b0" text-anchor="middle">外資・商社の応募に「730点以上」等の</text>
+  <text x="330" y="557" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#a0d4b0" text-anchor="middle">門前払い防止として取得しておく。</text>
+  <text x="330" y="596" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#5a8a6a" text-anchor="middle">→ 足切りを超えたら次のステップへ</text>
+
+  <!-- Divider -->
+  <line x1="560" y1="180" x2="560" y2="630" stroke="#657786" stroke-width="1" stroke-dasharray="4,6" opacity="0.3"/>
+
+  <!-- 3 Wrong uses (right column) -->
+  <text x="600" y="188" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="700" fill="#e74c3c">✗ TOEICを目的にしてはいけない例</text>
+  <line x1="600" y1="196" x2="1120" y2="196" stroke="#e74c3c" stroke-width="1" opacity="0.4"/>
+
+  <!-- Wrong card 1 -->
+  <rect x="600" y="210" width="540" height="118" rx="12" fill="#1a0d0d" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="870" y="253" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#e74c3c" text-anchor="middle">「英語力の証明」として使う</text>
+  <text x="870" y="276" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">TOEICは読む・聞くのみの試験。</text>
+  <text x="870" y="295" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">書く・話す能力は測定されない。</text>
+  <text x="870" y="320" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8a3a3a" text-anchor="middle">採用担当は総合力で判断している</text>
+
+  <!-- Wrong card 2 -->
+  <rect x="600" y="348" width="540" height="118" rx="12" fill="#1a0d0d" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="870" y="391" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#e74c3c" text-anchor="middle">「会話力の代替」として提示する</text>
+  <text x="870" y="414" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">「英語はTOEIC 850点です」だけでは</text>
+  <text x="870" y="433" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">面接でのコミュニケーション力は不明。</text>
+  <text x="870" y="458" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#8a3a3a" text-anchor="middle">記事の中東出身者が証明している</text>
+
+  <!-- Wrong card 3 -->
+  <rect x="600" y="486" width="540" height="118" rx="12" fill="#1a0d0d" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="870" y="529" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="15" font-weight="700" fill="#e74c3c" text-anchor="middle">「勉強の終点」として設定する</text>
+  <text x="870" y="552" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">「900点取ったから英語完了」は間違い。</text>
+  <text x="870" y="571" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">試験終了後に実際の英語使用量が増えなければ</text>
+  <text x="870" y="590" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#d4a0a0" text-anchor="middle">会話力は永遠に上がらない。</text>
+
+  <!-- Bottom note -->
+  <rect x="240" y="625" width="720" height="34" rx="17" fill="#0d2233" stroke="#1DA1F2" stroke-width="1" opacity="0.8"/>
+  <text x="600" y="646" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#1DA1F2" text-anchor="middle">TOEICは「手段」。実際に話せるようになることが「目的」。</text>
+
+  <!-- Credit -->
+  <text x="1175" y="665" font-family="system-ui, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="13" fill="#657786" text-anchor="end">@ichi_eigo</text>
+</svg>

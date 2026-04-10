@@ -1,0 +1,39 @@
+{
+  "tweet_id": "2028958596663533811",
+  "like_count": 81,
+  "created_at": "2026-03-30",
+  "article_theme": "日常会話は1500語で足りる。語彙量より「発話練習量」が会話力を決める。",
+  "original_text": "「単語をたくさん覚えれば話せるようになる」は間違い。日常会話の9割は1500語で成立する。話せない本当の理由は語彙不足ではなく「口から出る練習」の不足。知っている単語を声に出す訓練だけで会話力は別次元になる。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "title": "語彙数と会話カバー率の関係グラフ（収穫逓減の可視化）",
+      "type": "line_chart",
+      "dimensions": "1200x675"
+    },
+    {
+      "file": "figure_2.svg",
+      "title": "知ってる語彙を「話せる語彙」に変える練習ステップ",
+      "type": "step_flow",
+      "dimensions": "1200x675"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS",
+    "checked_at": "2026-03-30",
+    "key_claims": [
+      "1,500語で日常会話89%カバー — NGSL等の頻度研究と整合（記事本文は89%と保守表現）",
+      "収穫逓減の法則 — Zipf's Lawと語彙頻度研究により根拠あり",
+      "発話練習の有効性 — Swain (1995) Output hypothesis等で支持"
+    ]
+  },
+  "article_word_count": 467,
+  "brand": "@ichi_eigo",
+  "brand_colors": {
+    "primary": "#1DA1F2",
+    "dark": "#14171A",
+    "secondary": "#657786",
+    "light": "#AAB8C2"
+  }
+}

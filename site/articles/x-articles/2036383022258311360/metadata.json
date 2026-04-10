@@ -1,0 +1,31 @@
+{
+  "tweet_id": "2036383022258311360",
+  "like_count": 178,
+  "created_at": "2026-03-30",
+  "topic": "関与負荷仮説と単語学習",
+  "theme": "関与負荷仮説とは何か。単語帳を眺めるだけが最も効果が低い理由と実践法。",
+  "native_real_link": "/",
+  "figures": [
+    {
+      "file": "figure_1.svg",
+      "type": "処理の深さと記憶定着率の比較棒グラフ",
+      "description": "見るだけ→選択→作文の3段階で定着率を比較した棒グラフ"
+    },
+    {
+      "file": "figure_2.svg",
+      "type": "関与負荷を高める学習ステップフロー",
+      "description": "単語学習の4ステップフロー（Search/Evaluation/Need の発動プロセス）"
+    }
+  ],
+  "fact_check": {
+    "status": "PASS",
+    "checked_at": "2026-03-30",
+    "claims_verified": 4,
+    "note": "図解の数値（20%/55%/90%）は概念的相対値。図内にも明記済み。"
+  },
+  "article": {
+    "file": "article.md",
+    "char_count": 397,
+    "char_limit": 800
+  }
+}

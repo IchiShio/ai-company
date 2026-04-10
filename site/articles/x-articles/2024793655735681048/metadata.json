@@ -1,0 +1,26 @@
+{
+  "tweet_id": "2024793655735681048",
+  "like_count": 254,
+  "created_at": "2026-03-30",
+  "topic": "スキル習得 × 記憶システム",
+  "theme": "「わかる」と「できる」は別回路。英語を筋トレとして設計する反復練習法。",
+  "figures": [
+    {
+      "filename": "figure_1.svg",
+      "type": "比較図",
+      "description": "「わかる」vs「できる」の神経回路比較（宣言的記憶 vs 手続き記憶）"
+    },
+    {
+      "filename": "figure_2.svg",
+      "type": "段階表",
+      "description": "反復練習の段階表（理解→口語化→自動化への段階的強化）"
+    }
+  ],
+  "fact_checked": true,
+  "fact_check_result": "PASS",
+  "native_real_link": "/grammar/",
+  "native_real_feature": "GrammarUp",
+  "article_char_count": 408,
+  "article_char_limit": 800,
+  "tags": ["スキル習得", "宣言的記憶", "手続き記憶", "反復練習", "筋トレ英語"]
+}
