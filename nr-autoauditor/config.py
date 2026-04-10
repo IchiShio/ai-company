@@ -34,9 +34,12 @@ class Config:
 
     # ── Ollama / Gemma 4 設定 ──
     ollama_base_url: str = "http://localhost:11434"
-    ollama_model: str = "gemma4:31b"
+    # 3段階パイプライン用モデル設定
+    screening_model: str = "gemma4:e4b"    # 1次スクリーニング（高速）
+    audit_model: str = "gemma4:31b"        # 2次精密監査（高精度）
+    fix_model: str = "gemma4:31b"          # 3次修正生成（高精度）
     # Ollama API タイムアウト（秒）
-    ollama_timeout: int = 120
+    ollama_timeout: int = 180
     # 並列リクエスト数（Ollama はローカル実行なので控えめに）
     max_concurrency: int = 4
     # リトライ回数
@@ -72,7 +75,9 @@ class Config:
         """初期化後処理: 環境変数の読み込みとパス解決"""
         # 環境変数からの上書き
         self.ollama_base_url = os.getenv("OLLAMA_BASE_URL", self.ollama_base_url)
-        self.ollama_model = os.getenv("OLLAMA_MODEL", self.ollama_model)
+        self.screening_model = os.getenv("SCREENING_MODEL", self.screening_model)
+        self.audit_model = os.getenv("AUDIT_MODEL", self.audit_model)
+        self.fix_model = os.getenv("FIX_MODEL", self.fix_model)
         self.ollama_timeout = int(os.getenv("OLLAMA_TIMEOUT", str(self.ollama_timeout)))
         self.max_concurrency = int(os.getenv("MAX_CONCURRENCY", str(self.max_concurrency)))
         self.auto_fix_confidence = float(

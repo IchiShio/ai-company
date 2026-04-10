@@ -1,19 +1,24 @@
 """
 NR-AutoAuditor メインエントリーポイント
-native-real.com の全クイズコンテンツを自動監査し、品質問題を検出・修正する。
+native-real.com の全クイズコンテンツを3段階パイプラインで自動監査・修正する。
+
+3段階パイプライン:
+  Stage 1: gemma4:e4b  — 全問を高速スクリーニング
+  Stage 2: gemma4:31b  — WARNING/ERROR のみ精密監査
+  Stage 3: gemma4:31b  — ERROR (confidence>=0.95) を修正生成
 
 Usage:
     # dry-run（デフォルト・修正なし）
-    python main.py
+    python main.py --max-questions 10
 
-    # 特定カテゴリのみ監査
+    # 特定カテゴリのみ
     python main.py --category listenup
 
-    # 自動修正を有効化（confidence >= 0.95 の ERROR のみ）
+    # 自動修正を有効化
     python main.py --auto-fix
 
-    # 問題数を制限してテスト
-    python main.py --max-questions 10
+    # 31bのみで全問監査（旧方式）
+    python main.py --single-stage
 
     # 統計情報の表示
     python main.py --stats
@@ -31,7 +36,7 @@ from datetime import datetime
 from config import Config
 from db_handler import AuditDB
 from extractor import extract_all
-from auditor import audit_batch
+from auditor import screening_batch, audit_batch_detailed, AuditStatus
 from fixer import apply_fix, should_fix
 from reporter import build_report, format_notification_summary, generate_markdown_report
 from notifier import send_notifications
@@ -80,10 +85,10 @@ def parse_args() -> argparse.Namespace:
         help="並列リクエスト数の上書き",
     )
     parser.add_argument(
-        "--model",
-        type=str,
-        default=None,
-        help="Ollama モデル名の上書き（例: gemma3:12b）",
+        "--single-stage",
+        action="store_true",
+        default=False,
+        help="3段階パイプラインを使わず 31b のみで全問監査",
     )
     parser.add_argument(
         "--stats",
@@ -113,7 +118,7 @@ def parse_args() -> argparse.Namespace:
 
 
 async def run_audit(args: argparse.Namespace) -> int:
-    """メイン監査フロー"""
+    """メイン監査フロー（3段階パイプライン）"""
     config = Config()
 
     # コマンドライン引数で設定を上書き
@@ -123,8 +128,6 @@ async def run_audit(args: argparse.Namespace) -> int:
         config.max_questions = args.max_questions
     if args.concurrency:
         config.max_concurrency = args.concurrency
-    if args.model:
-        config.ollama_model = args.model
     if args.kill_switch:
         config.kill_switch = True
 
@@ -141,12 +144,16 @@ async def run_audit(args: argparse.Namespace) -> int:
         logger.warning("kill-switch が有効です。処理を中止します。")
         return 1
 
+    pipeline_mode = "SINGLE (31b only)" if args.single_stage else "3-STAGE (e4b → 31b → 31b)"
+
     logger.info("=" * 60)
     logger.info("NR-AutoAuditor 開始")
+    logger.info("  パイプライン: %s", pipeline_mode)
     logger.info("  モード: %s", "AUTO-FIX" if config.auto_fix_enabled else "DRY-RUN")
-    logger.info("  モデル: %s", config.ollama_model)
+    logger.info("  スクリーニング: %s", config.screening_model)
+    logger.info("  精密監査/修正: %s", config.audit_model)
     logger.info("  並列数: %d", config.max_concurrency)
-    logger.info("  閾値: %.2f", config.auto_fix_confidence)
+    logger.info("  修正閾値: confidence >= %.2f", config.auto_fix_confidence)
     logger.info("=" * 60)
 
     start_time = time.time()
@@ -175,54 +182,86 @@ async def run_audit(args: argparse.Namespace) -> int:
     # extract-only モード
     if args.extract_only:
         logger.info("抽出完了: %d問", len(all_questions))
-        for cat in set(q.category.value for q in all_questions):
+        for cat in sorted(set(q.category.value for q in all_questions)):
             count = sum(1 for q in all_questions if q.category.value == cat)
             logger.info("  %s: %d問", cat, count)
         return 0
 
-    # ── Step 2: 監査実行 ──
-    logger.info("Step 2: 監査実行中... (%d問)", len(all_questions))
-    results = await audit_batch(config, all_questions)
+    # 問題IDからQuizQuestionを引くマップ
+    q_map = {q.question_id: q for q in all_questions}
 
-    # ── Step 3: 自動修正（有効時のみ） ──
-    fix_count = 0
-    verify_count = 0
+    if args.single_stage:
+        # ── 旧方式: 31b で全問監査 ──
+        logger.info("Step 2: 全問監査 (%d問, model=%s)", len(all_questions), config.audit_model)
+        all_results = await audit_batch_detailed(config, all_questions)
+    else:
+        # ── 3段階パイプライン ──
+
+        # Stage 1: e4b で全問スクリーニング
+        screening_results = await screening_batch(config, all_questions)
+
+        # Stage 1 の結果を振り分け
+        ok_results = []
+        flagged_question_ids = []
+        for r in screening_results:
+            if r.status == AuditStatus.OK:
+                ok_results.append(r)
+            else:
+                flagged_question_ids.append(r.question_id)
+
+        logger.info(
+            "Stage 1 結果: OK=%d, 要精査=%d (%.1f%%)",
+            len(ok_results),
+            len(flagged_question_ids),
+            len(flagged_question_ids) / max(len(screening_results), 1) * 100,
+        )
+
+        # Stage 2: フラグ付き問題のみ 31b で精密監査
+        if flagged_question_ids:
+            flagged_questions = [
+                q_map[qid] for qid in flagged_question_ids if qid in q_map
+            ]
+            detailed_results = await audit_batch_detailed(config, flagged_questions)
+        else:
+            detailed_results = []
+            logger.info("Stage 2: スクリーニングで問題なし。精密監査をスキップ。")
+
+        # 結果を統合: OK結果 + 精密監査結果
+        all_results = ok_results + detailed_results
+
+    # ── Step 3: 自動修正（31b の結果に基づく） ──
     if config.auto_fix_enabled:
-        logger.info("Step 3: 自動修正チェック中...")
-        # 問題IDから QuizQuestion を引けるようにマップ作成
-        q_map = {q.question_id: q for q in all_questions}
-
-        for result in results:
+        logger.info("Step 3: 自動修正チェック中... (model=%s)", config.fix_model)
+        for result in all_results:
             if should_fix(result, config):
                 question = q_map.get(result.question_id)
                 if question:
-                    dry_run_mode = not config.auto_fix_enabled
-                    success = apply_fix(question, result, config, dry_run=dry_run_mode)
+                    success = apply_fix(question, result, config, dry_run=False)
                     if success:
                         result.fix_applied = True
-                        fix_count += 1
-                        # TODO: 修正後の再監査（Phase 2で実装）
     else:
         logger.info("Step 3: DRY-RUN モードのため修正をスキップ")
-        # dry-run でも修正候補をログに出力
-        for result in results:
-            if result.status.value == "ERROR" and result.confidence >= config.auto_fix_confidence:
-                logger.info(
-                    "[DRY-RUN] 修正候補: %s (confidence=%.2f, issues=%s)",
-                    result.question_id,
-                    result.confidence,
-                    result.issues,
-                )
+        fix_candidates = [
+            r for r in all_results
+            if r.status == AuditStatus.ERROR and r.confidence >= config.auto_fix_confidence
+        ]
+        for r in fix_candidates:
+            logger.info(
+                "[DRY-RUN] 修正候補: %s (confidence=%.2f, issues=%s)",
+                r.question_id, r.confidence, r.issues,
+            )
+        if not fix_candidates:
+            logger.info("[DRY-RUN] 高信頼度の修正候補なし")
 
     elapsed = time.time() - start_time
 
     # ── Step 4: レポート生成 ──
     logger.info("Step 4: レポート生成中...")
-    report = build_report(results, elapsed)
+    report = build_report(all_results, elapsed)
     report_path = generate_markdown_report(report, config.reports_dir)
 
     # DB保存
-    db.save_results_batch(results)
+    db.save_results_batch(all_results)
     db.save_daily_report(
         date=report.date,
         total=report.total_questions,
@@ -244,6 +283,7 @@ async def run_audit(args: argparse.Namespace) -> int:
     # ── 完了サマリー ──
     logger.info("=" * 60)
     logger.info("監査完了!")
+    logger.info("  パイプライン: %s", pipeline_mode)
     logger.info("  総問題数: %d", report.total_questions)
     logger.info("  OK: %d", report.ok_count)
     logger.info("  WARNING: %d", report.warning_count)
