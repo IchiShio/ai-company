@@ -26,6 +26,7 @@ import sys
 import urllib.request
 from datetime import date
 from pathlib import Path
+from pipeline_status import PipelineStatus
 
 BASE_DIR    = Path(__file__).resolve().parent
 AICOMP_DIR  = BASE_DIR.parent / "ai-company"
@@ -248,6 +249,8 @@ def main():
     subprocess.run(["git", "pull", "origin", "main", "--quiet"],
                    cwd=AICOMP_DIR, check=False)
 
+    ps = PipelineStatus("readup")
+
     if args.step == "generate":
         step_generate(args.count, args.model)
     elif args.step == "factcheck":
@@ -256,9 +259,18 @@ def main():
         step_qc(args.dry_run, args.model)
     else:
         # フル実行
-        step_generate(args.count, args.model)
-        step_factcheck()
-        step_qc(args.dry_run, args.model)
+        ps.start(total_steps=3, description=f"ReadUp: VOA {args.count}本→4レベル→deploy")
+        try:
+            ps.update(1, f"Gemma4 リライト ({args.count}本×4レベル)")
+            step_generate(args.count, args.model)
+            ps.update(2, "Factcheck (claude -p)")
+            step_factcheck()
+            ps.update(3, "QC + deploy")
+            step_qc(args.dry_run, args.model)
+            ps.done(success=True)
+        except SystemExit as e:
+            ps.done(success=(e.code == 0), message=f"exit {e.code}")
+            raise
 
     log(f"\n{'═'*60}", GREEN)
     log(f"  ReadUp Pipeline 完了！", GREEN)

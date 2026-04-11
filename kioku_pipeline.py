@@ -37,6 +37,7 @@ import subprocess
 import sys
 from datetime import date
 from pathlib import Path
+from pipeline_status import PipelineStatus
 
 BASE_DIR     = Path(__file__).resolve().parent
 KIOKU_DIR    = BASE_DIR / "kioku-shinai"
@@ -450,6 +451,8 @@ def main():
         log(f"  Claude Code生成 → Factcheck → Audio → Deploy", BOLD)
         log(f"{'═'*60}")
 
+        ps = PipelineStatus("kioku")
+
         if args.step:
             {
                 "generate":  lambda: step_generate(root_id),
@@ -459,14 +462,26 @@ def main():
                 "deploy":    lambda: step_deploy(root_id),
             }[args.step]()
         else:
-            step_generate(root_id)
-            step_factcheck(root_id)
-            step_audio(root_id)
-            step_merge(root_id)
-            if not args.dry_run:
-                step_deploy(root_id)
-            else:
-                log(f"\n  [dry-run] デプロイをスキップ", YELLOW)
+            ps.start(total_steps=5, description=f"kioku: {root_id} 語根追加")
+            try:
+                ps.update(1, f"generate ({root_id})")
+                step_generate(root_id)
+                ps.update(2, "factcheck (claude -p)")
+                step_factcheck(root_id)
+                ps.update(3, "audio (Edge TTS)")
+                step_audio(root_id)
+                ps.update(4, "merge → data/words/")
+                step_merge(root_id)
+                if not args.dry_run:
+                    ps.update(5, "git push")
+                    step_deploy(root_id)
+                    ps.done(success=True, message=f"{root_id} 完了")
+                else:
+                    log(f"\n  [dry-run] デプロイをスキップ", YELLOW)
+                    ps.done(success=True, message="dry-run完了")
+            except SystemExit as e:
+                ps.done(success=(e.code == 0), message=f"exit {e.code}")
+                raise
 
         log(f"\n{'═'*60}", GREEN)
         log(f"  {root_id} 完了！", GREEN)

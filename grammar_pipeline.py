@@ -25,6 +25,7 @@ import urllib.request
 import urllib.error
 from datetime import date
 from pathlib import Path
+from pipeline_status import PipelineStatus
 
 BASE_DIR = Path(__file__).resolve().parent
 STAGING_PATH = BASE_DIR / "grammar" / "staging.json"
@@ -354,20 +355,33 @@ def main():
     log(f"  Gemma4:e4b → Factcheck → QC → native-real.com", BOLD)
     log(f"{'═'*60}")
 
+    ps = PipelineStatus("grammar")
+
     if args.step:
         {"generate":   lambda: step_generate(args.count),
          "factcheck":  step_factcheck,
          "qc":         step_qc,
          "deploy":     step_deploy}[args.step]()
     else:
-        step_generate(args.count)
-        step_factcheck()
-        step_qc()
-        if args.dry_run:
-            log(f"\n  [dry-run] デプロイをスキップしました", YELLOW)
-            log(f"  grammar/questions_extra.js を確認してください", YELLOW)
-        else:
-            step_deploy()
+        ps.start(total_steps=4, description=f"GrammarUp: {args.count}問生成→QC→deploy")
+        try:
+            ps.update(1, "Gemma4 ドラフト生成")
+            step_generate(args.count)
+            ps.update(2, "Factcheck (claude -p)")
+            step_factcheck()
+            ps.update(3, "QC・questions_extra.js 追記")
+            step_qc()
+            if args.dry_run:
+                log(f"\n  [dry-run] デプロイをスキップしました", YELLOW)
+                log(f"  grammar/questions_extra.js を確認してください", YELLOW)
+                ps.done(success=True, message="dry-run完了")
+            else:
+                ps.update(4, "git push")
+                step_deploy()
+                ps.done(success=True)
+        except SystemExit as e:
+            ps.done(success=(e.code == 0), message=f"exit {e.code}")
+            raise
 
     log(f"\n{'═'*60}", GREEN)
     log(f"  パイプライン完了！", GREEN)
