@@ -1,0 +1,2509 @@
+{
+  "root": "press",
+  "rootMeaning": "押す・圧力",
+  "rootLang": "ラテン語 pressare/premere",
+  "imageSchema": "手のひらで何かに力を加え、変形・移動・排出を起こす身体感覚。圧力が「外へ押し出す」か「中へ押し込む」か「下から潰す」かで接頭辞が変わる。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "press（押す）が見えれば20語読める。ex-press（外へ押し出す）、im-press（中に押し込む）、com-press（一緒に押し潰す）、sup-press（下から押さえる）、de-press（下へ押し下げる）。接頭辞の方向を体で感じれば、訳語が自然に浮かぶ。"
+  },
+  "words": [
+    {
+      "word": "express",
+      "phonetic": "/ɪkˈspres/",
+      "toeicRank": 1,
+      "parts": [
+        {
+          "part": "ex",
+          "meaning": "外へ",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ pressare（押す）= 内にあるものを外へ押し出す → 表現する・急行の",
+        "fact": "ラテン語 exprimere「絞り出す、押し出す」の過去分詞 expressus から。14世紀後半に形容詞「明確な・直接の（clearly stated）」および動詞「言葉で押し出す＝表現する」として英語に入る。1610年代に名詞「特別な使者（special messenger）」、1841年に「急行列車（特定目的のために直接送り出す）」へ拡張。espresso コーヒーも同根（蒸気で押し出して抽出）。",
+        "source": "EtymOnline: express",
+        "cognates": [
+          "expression",
+          "expressive",
+          "expressly",
+          "expressway",
+          "espresso"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "内側にある思い・感情・概念を外側の言語や行動として押し出す動き",
+        "fact": "CONTAINERスキーマ（内側→外側）の典型。心の容器の中に閉じ込められた意味を「外へ(ex-)押し出す(press)」ことが「表現する」。急行電車も「直接外へ送り出す」という同じ身体感覚から派生している。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「表現する」だけで覚えると express lane（急行レーン）や express delivery（速達）で詰まる。語源の「直接外へ押し出す」がわかれば、感情表現も速達配送も「寄り道なく外に出す」と同じイメージ。",
+      "gapOneliner": "express = 感情も荷物も「外へ直接押し出す」のが本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "胸の中の気持ちを「外へ(ex)押し出す(press)」のがexpress。エスプレッソは蒸気で豆を「押し出して」抽出したコーヒー。同じ語根。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "expressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "外へ押し出す→表現する",
+            "前へ押す→前進する",
+            "強く押す→強制する",
+            "内へ押す→感じる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "外へ + 押す = 押し出す・表現する",
+            "強く + 押す = 強調する",
+            "再び + 押す = 繰り返す",
+            "一緒に + 押す = 協力する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ your concerns clearly in the meeting.",
+          "hint": "「外へ押し出す」→「表現する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "express",
+            "impress",
+            "suppress",
+            "compress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "expressと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "gratitude（感謝を表現する）",
+            "money（お金を押し出す）",
+            "building（建物を表す）",
+            "weather（天気を急行する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She found it difficult to express her feelings in words.\" — expressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "表現する",
+            "抑える",
+            "理解する",
+            "変える"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please express your concerns clearly in the meeting.",
+          "ja": "会議では懸念事項を明確に述べてください。"
+        },
+        {
+          "en": "The company offers an express delivery service for urgent orders.",
+          "ja": "同社は緊急注文向けに速達サービスを提供しています。"
+        },
+        {
+          "en": "He expressed his appreciation to the entire team after the project launch.",
+          "ja": "プロジェクト立ち上げ後、彼はチーム全体に感謝の意を伝えた。"
+        }
+      ]
+    },
+    {
+      "word": "impress",
+      "phonetic": "/ɪmˈpres/",
+      "toeicRank": 2,
+      "parts": [
+        {
+          "part": "im",
+          "meaning": "中へ・上に",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "im（中へ）+ pressare（押す）= 中に押し込む → 印象を刻み込む",
+        "fact": "ラテン語 imprimere「上に押しつける、刻印する」から。14世紀後半に英語に入る際、すでに「型や印を押しつける（物理的）」と「心に強く刻み込む→感銘を与える（比喩的）」の両義を持ち、後者が主要な意味として定着（EtymOnline）。1580年代に名詞形「刻印・印象の跡」が成立。印刷機(printing press)も同じ「押して刻む」動作から。",
+        "source": "EtymOnline: impress",
+        "cognates": [
+          "impression",
+          "impressive",
+          "impressionism",
+          "imprint"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "相手の心という柔らかい素材に自分の存在を型として押し込む動き",
+        "fact": "CONTAINERスキーマとFORCEスキーマの融合。粘土に型を「押し込む(im-press)」ように、相手の意識・記憶という容器に鮮明な痕跡を残す。「感銘を与える」とは「心に消えない印を作る」という身体的イメージの比喩。",
+        "source": "Lakoff & Johnson (1980) CONTAINERスキーマ + FORCEスキーマ"
+      },
+      "gap": "「感銘を与える」と暗記すると I'm not impressed（感動しない）の否定形や be impressed by（〜に感銘を受ける）の受動態で混乱しやすい。「心に押し込まれた痕跡の有無」と考えれば能動・受動が両方理解できる。",
+      "gapOneliner": "impress = 心という粘土に「中へ押し込んで」痕跡を残す動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "印鑑を「中へ(im)押す(press)」と跡が残る——それがimpress。心に残る＝感銘を与える。印象(impression)は押された跡そのもの。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "impressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中へ押し込む→感銘を与える",
+            "外へ押し出す→表現する",
+            "下へ押す→落ち込ませる",
+            "一緒に押す→圧縮する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "im + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "中へ + 押す = 印を刻む・感動させる",
+            "上へ + 押す = 昇格させる",
+            "前へ + 押す = 前進させる",
+            "強く + 押す = 強制する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Her presentation skills never fail to ______ the clients.",
+          "hint": "「中へ押し込む」→「感銘を与える」",
+          "explanationFocus": "gap",
+          "choices": [
+            "impress",
+            "express",
+            "depress",
+            "suppress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "impressと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "the interviewer（面接官を感動させる）",
+            "the weather（天気を押し込む）",
+            "the budget（予算に印を押す）",
+            "the schedule（スケジュールを圧縮する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The new employee's attention to detail impressed the entire department.\" — impressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "感銘を与えた",
+            "圧力をかけた",
+            "表現した",
+            "抑え込んだ"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her presentation skills never fail to impress the clients.",
+          "ja": "彼女のプレゼン能力はいつもクライアントを感動させる。"
+        },
+        {
+          "en": "The new employee impressed everyone with his thorough market research.",
+          "ja": "その新入社員は徹底的な市場調査でみんなを感心させた。"
+        },
+        {
+          "en": "We were deeply impressed by the quality of the proposal.",
+          "ja": "私たちは提案書のクオリティに深く感銘を受けた。"
+        }
+      ]
+    },
+    {
+      "word": "compress",
+      "phonetic": "/kəmˈpres/",
+      "toeicRank": 3,
+      "parts": [
+        {
+          "part": "com",
+          "meaning": "一緒に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "com（一緒に）+ pressare（押す）= 一緒に押し固める → 圧縮する",
+        "fact": "ラテン語 comprimere「一緒に押しつける、締める」の過去分詞 compressus から。14世紀後半に「一緒に押して小さくする」の意味で英語に入り、医療用語としての「圧迫する」は15世紀から。コンピューター分野での「ファイル圧縮」の意味は1959年以降に拡張。",
+        "source": "EtymOnline: compress",
+        "cognates": [
+          "compression",
+          "compressor",
+          "incompressible",
+          "compressed air"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "バラバラな要素を一箇所に集めて全方向から押しつぶす身体感覚",
+        "fact": "FORCEスキーマ（多方向からの力の集中）。con-（一緒に）は全ての側面を同時に押すというイメージ。スポンジを両手で握るように、外側から内側に向けて「一緒に(com-)押す(press)」。ファイル圧縮も情報の「かさ」を小さくする同じ動き。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「圧縮する」と覚えると compress a file（ファイルを圧縮する）はわかっても compress a speech into 5 minutes（5分に要約する）や compressed timeline（短縮されたスケジュール）では詰まる。全て「一緒に押して小さくする」で統一できる。",
+      "gapOneliner": "compress = ファイルも発言も時間も「一緒に押して凝縮させる」のが本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "スポンジを「一緒に(com)両手で押す(press)」とギュッと小さくなる——それがcompress。ファイル圧縮も、内容を凝縮した短いスピーチも同じ動き。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "compressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一緒に押し固める→圧縮する",
+            "外へ押し出す→表現する",
+            "下へ押す→落ち込ませる",
+            "内に押し込む→感銘を与える"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "com + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に + 押す = 圧縮する",
+            "完全に + 走る = 完了する",
+            "前へ + 押す = 前進する",
+            "再び + 押す = 繰り返す"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "You can ______ the file to save storage space.",
+          "hint": "「一緒に押し固める」→「圧縮する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "compress",
+            "express",
+            "impress",
+            "suppress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "compressと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "data（データを圧縮する）",
+            "staff（スタッフを押しつぶす）",
+            "opinion（意見を一緒にする）",
+            "budget（予算を前進させる）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The manager asked her to compress the report into a two-page summary.\" — compressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "要約して凝縮する",
+            "拡大して詳述する",
+            "分類して整理する",
+            "削除して省く"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "You can compress the file to save storage space on your device.",
+          "ja": "デバイスのストレージを節約するためにファイルを圧縮できます。"
+        },
+        {
+          "en": "The surgeon applied a compress to stop the bleeding.",
+          "ja": "外科医は出血を止めるために患部に圧迫包帯を当てた。"
+        },
+        {
+          "en": "She managed to compress three weeks of training into just five days.",
+          "ja": "彼女は3週間分のトレーニングをわずか5日間に凝縮させた。"
+        }
+      ]
+    },
+    {
+      "word": "suppress",
+      "phonetic": "/səˈpres/",
+      "toeicRank": 4,
+      "parts": [
+        {
+          "part": "sub",
+          "meaning": "下から・下に",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sub（下に）+ pressare（押す）= 下から押さえつける → 抑圧する・鎮圧する",
+        "fact": "ラテン語 supprimere「下に押しつける、停止させる」の過去分詞 suppressus から。14世紀後半に「力で止める・隠す」の意味で英語に入る。16世紀に「感情を抑える」、心理学では20世紀に「意識的な抑圧（=repression の意識的側面）」として専門用語化。",
+        "source": "EtymOnline: suppress",
+        "cognates": [
+          "suppression",
+          "suppressive",
+          "suppressant",
+          "unsuppressed"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "台頭しようとするものを下方向の力で押さえつけて表面に出ないようにする動き",
+        "fact": "垂直スキーマとFORCEスキーマの組み合わせ。UP IS MORE/FREE の比喩において、「下から(sub-)押す(press)」ことで上昇しようとするもの（感情・反乱・情報）を封じ込める。政治的「弾圧」も心理的「抑圧」も同一の空間イメージから。",
+        "source": "Lakoff & Johnson (1980) 垂直スキーマ（UP = FREE）"
+      },
+      "gap": "「抑圧する」だけでは suppress a cough（咳を抑える）、suppress evidence（証拠を隠滅する）、suppress immune response（免疫反応を抑制する）のどれかと混乱する。全て「下から押さえつけて表面に出さない」という同じ動きのバリエーション。",
+      "gapOneliner": "suppress = 咳も反乱も証拠も「下から押さえつけて表に出させない」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "噴き出そうとする笑いを「下から(sup=sub)押す(press)」のがsuppress。感情・反乱・情報を上に出させないよう、すべて下から力で封じ込める。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "suppressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下から押さえつける→抑圧する",
+            "外へ押し出す→表現する",
+            "一緒に押す→圧縮する",
+            "中へ押し込む→感銘を与える"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sub + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下へ + 押す = 押さえつける・抑制する",
+            "下へ + 走る = 逃げる",
+            "下へ + 置く = 基礎を作る",
+            "下へ + 送る = 提出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The government attempted to ______ all negative media coverage.",
+          "hint": "「下から押さえつける」→「抑圧する・隠す」",
+          "explanationFocus": "gap",
+          "choices": [
+            "suppress",
+            "express",
+            "impress",
+            "compress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "suppressと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a laugh（笑いを抑える）",
+            "a plan（計画を表現する）",
+            "a file（ファイルを圧縮する）",
+            "a client（顧客を感動させる）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The drug is used to suppress the immune system after transplant surgery.\" — suppressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "抑制する",
+            "活性化する",
+            "測定する",
+            "強化する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "She tried hard to suppress a smile during the serious meeting.",
+          "ja": "真剣な会議の中で、彼女は笑いをこらえるのに必死だった。"
+        },
+        {
+          "en": "The medication helps suppress the body's immune response.",
+          "ja": "その薬は体の免疫反応を抑制するのに役立ちます。"
+        },
+        {
+          "en": "The company was accused of suppressing negative customer reviews.",
+          "ja": "同社はネガティブなカスタマーレビューを隠蔽したとして告発された。"
+        }
+      ]
+    },
+    {
+      "word": "depress",
+      "phonetic": "/dɪˈpres/",
+      "toeicRank": 5,
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "下へ・強意",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ pressare（押す）= 下へ押し下げる → 気分を落とす・不景気にする",
+        "fact": "ラテン語 deprimere「下に押す、沈める」の過去分詞 depressus から。14世紀後半に「力で押さえ込む・征服する（conquer）」の意味（現在は廃語）で英語に入り、15世紀前半に「物理的に押し下げる」へ転じ、1620年代に「精神を沈ませる」、経済用語として「市場・業況を低下させる」は1878年以降。the Great Depression（大恐慌）は1934年から定着。",
+        "source": "EtymOnline: depress",
+        "cognates": [
+          "depression",
+          "depressing",
+          "depressed",
+          "antidepressant",
+          "the Great Depression"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上にあるべき気分・経済・水準を下方向の力で押し下げる動き",
+        "fact": "垂直スキーマ（HAPPY IS UP / SAD IS DOWN）の典型。気分の「高低」は身体的な上下と直結している。「元気がない（down）」「気分が落ちる（fall）」と同様に、depress は「下へ(de-)押す(press)」ことで正常水準から引き下げる力を表す。株価も気分も同じスキーマ。",
+        "source": "Lakoff & Johnson (1980) 垂直スキーマ（HAPPY IS UP）"
+      },
+      "gap": "「落ち込ませる」だけで覚えると depress a key（キーを押す）、depress the accelerator（アクセルを踏む）、depress wages（賃金を引き下げる）でつまずく。すべて「下へ押し下げる」の身体的動作が根底にある。",
+      "gapOneliner": "depress = 気分も賃金もキーも「下へ押し下げる」のが共通の身体イメージ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ピアノの鍵盤を「下へ(de)押す(press)」のがdepressの原義。気分も株価も同じように「下へ押し下げられた」状態がdepressed。大恐慌もthe Great Depressionと呼ぶ理由がここにある。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "depressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下へ押し下げる→気分を落とす",
+            "外へ押し出す→表現する",
+            "一緒に押す→圧縮する",
+            "下から押さえる→抑圧する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下へ + 押す = 落ち込ませる・引き下げる",
+            "離れて + 押す = 追い払う",
+            "強く + 押す = 強制する",
+            "再び + 押す = 再開する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The prolonged downturn continued to ______ consumer spending.",
+          "hint": "「下へ押し下げる」→「低迷させる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "depress",
+            "express",
+            "impress",
+            "suppress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "depressと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "the market（市場を低迷させる）",
+            "the file（ファイルを押し下げる）",
+            "the client（顧客を落ち込ませる）",
+            "the idea（アイデアを押し込む）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Rising inflation is starting to depress demand for luxury goods.\" — depressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "低下させる・抑制する",
+            "増加させる",
+            "安定させる",
+            "表現する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The prolonged downturn continued to depress consumer spending.",
+          "ja": "長引く景気後退が消費者支出を押し下げ続けた。"
+        },
+        {
+          "en": "Overwork and lack of sleep can seriously depress your immune system.",
+          "ja": "過労と睡眠不足は免疫機能を著しく低下させる可能性がある。"
+        },
+        {
+          "en": "The gloomy forecast depressed investor confidence across the sector.",
+          "ja": "暗い見通しがセクター全体の投資家心理を落ち込ませた。"
+        }
+      ]
+    },
+    {
+      "word": "repress",
+      "phonetic": "/rɪˈpres/",
+      "toeicRank": 6,
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "後ろへ・戻す",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ pressare（押す）= 押し返す・押し戻す → 抑圧する",
+        "fact": "ラテン語 reprimere「押し返す、封じ込める」の過去分詞 repressus から。14世紀後半に「力で押し返して止める」の意味で英語に入り、16世紀に「感情・欲求を抑える」の心理的意味へ拡張。20世紀にフロイトが「無意識の抑圧（≠suppress の意識的抑制）」として専門用語化。repress a rebellion（反乱を鎮圧する）の政治的用法も現役。",
+        "source": "EtymOnline: repress",
+        "cognates": [
+          "repression",
+          "repressive",
+          "repressor",
+          "unrepressed"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "浮かび上がろうとするものに対し、繰り返し押し返す力を加え続ける動き",
+        "fact": "FORCEスキーマの対抗力モデル。suppress（下から押さえつけて出させない）と異なり、repress は「出ようとする力に対して re-（戻す方向に）press（押す）」という拮抗運動。フロイトの抑圧概念はこの「繰り返し押し戻す」身体感覚の比喩として成立した。",
+        "source": "Johnson (1987) FORCEスキーマ（拮抗力）"
+      },
+      "gap": "suppressと混同しやすい。suppress は「意識的に抑える」（咳を我慢する）、repress は「無意識に押し戻す」（フロイト的抑圧）が本義の違い。ただしビジネス英語では repress a rebellion（反乱を鎮圧する）のように suppress と互換的に使われる場面もある。語源の「押し返す」がわかれば両方の文脈で対応できる。",
+      "gapOneliner": "repress = suppress との違いは「後ろへ押し返す」運動。無意識の抑圧が本義",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ばねを「後ろへ(re)押す(press)」と縮んで見えなくなる——それがrepress。感情が浮かび上がるたびに繰り返し押し返すのが抑圧。フロイトが「忘れたいのに忘れられない記憶を押し返す」ことにこの語を使った。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "repressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "後ろへ押し返す→抑圧する",
+            "外へ押し出す→表現する",
+            "下へ押す→落ち込ませる",
+            "一緒に押す→圧縮する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "戻す + 押す = 押し返す・抑圧する",
+            "再び + 押す = 繰り返し印刷する",
+            "強く + 押す = 強制する",
+            "前へ + 押す = 前進させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The soldiers were sent in to ______ the uprising in the capital.",
+          "hint": "「押し返す」→「鎮圧する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "repress",
+            "express",
+            "impress",
+            "depress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "repressと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "emotions（感情を抑圧する）",
+            "a file（ファイルを押し戻す）",
+            "a client（顧客を押し返す）",
+            "the market（市場を後退させる）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She had learned to repress her anger rather than deal with it directly.\" — repressの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "抑圧する・押し返す",
+            "表現する",
+            "理解する",
+            "強化する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The soldiers were sent in to repress the uprising in the capital.",
+          "ja": "首都での反乱を鎮圧するために兵士たちが派遣された。"
+        },
+        {
+          "en": "She had spent years repressing memories she found too painful to face.",
+          "ja": "彼女は向き合うには辛すぎる記憶を何年もかけて抑圧してきた。"
+        },
+        {
+          "en": "The new policy was seen as an attempt to repress political dissent.",
+          "ja": "その新政策は政治的異論を抑え込もうとする試みとみなされた。"
+        }
+      ]
+    },
+    {
+      "word": "oppress",
+      "phonetic": "/əˈpres/",
+      "toeicRank": 7,
+      "parts": [
+        {
+          "part": "op (ob)",
+          "meaning": "に向かって・上から",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ob（〜に向かって）+ pressare（押す）= 上から押しつける → 圧迫する・虐げる",
+        "fact": "ラテン語 opprimere「上から押しつける、圧倒する、押しつぶす」の過去分詞 oppressus から。ob- は「向かって・上から」を表す接頭辞で、press の前で op- に同化。14世紀に「権力や重みで圧迫する、虐げる」の意味で英語に入る。oppressive（抑圧的な・うだるような）は1650年代から。",
+        "source": "EtymOnline: oppress",
+        "cognates": [
+          "oppression",
+          "oppressive",
+          "oppressor",
+          "oppressed"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上から全体重をかけて押しつけ、相手を身動きできなくする力の動き",
+        "fact": "垂直スキーマとFORCEスキーマの融合。POWER IS UP の比喩において、oppressは「権力を持つ者が上から(op-)押し(press)つける」ことで相手を身動きできなくする。oppressive heat（うだるような暑さ）は文字通り「熱が上から体を押しつける」身体感覚から来ている。",
+        "source": "Lakoff & Johnson (1980) POWER IS UP + FORCEスキーマ"
+      },
+      "gap": "「抑圧する」でsuppressやrepressと混同しやすい。oppressは特に「権力ある者が弱者に向かって上から押しつける」というベクトルが特徴。suppressは「表に出ないよう下から抑える」、repressは「押し戻す」と方向が異なる。",
+      "gapOneliner": "oppress = 権力が「上から向かって押しつける」——suppress・repressとは方向が違う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「に向かって(op=ob)押す(press)」のがoppress。権力が弱者に向かって上から押しつぶす——それが「圧政・虐げる」。oppressive heatは「熱が体に向かって押してくる」うだるような暑さ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "oppressの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "向かって押しつける→圧迫する・虐げる",
+            "外へ押し出す→表現する",
+            "下から押さえる→抑制する",
+            "戻して押す→鎮圧する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ob/op + press の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向かって + 押す = 上から押しつける・虐げる",
+            "外へ + 押す = 発信する",
+            "下へ + 押す = 落ち込ませる",
+            "一緒に + 押す = 圧縮する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The regime continued to ______ minority groups for decades.",
+          "hint": "「向かって押しつける」→「虐げる・抑圧する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "oppress",
+            "express",
+            "impress",
+            "suppress"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "oppressと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "minority groups（少数派グループを虐げる）",
+            "a file（ファイルを圧迫する）",
+            "the market（市場を前進させる）",
+            "the client（顧客に印を押す）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The oppressive heat made it impossible to work outdoors.\" — oppressiveの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "うだるような・圧迫するような",
+            "爽やかな",
+            "穏やかな",
+            "強制的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The regime continued to oppress minority groups for decades.",
+          "ja": "その政権は数十年にわたって少数派グループを抑圧し続けた。"
+        },
+        {
+          "en": "Workers organized to resist the oppressive conditions in the factory.",
+          "ja": "労働者たちは工場の過酷な労働環境に抵抗するために団結した。"
+        },
+        {
+          "en": "The oppressive heat in July kept shoppers away from outdoor markets.",
+          "ja": "7月のうだるような暑さで、買い物客は屋外市場から遠のいた。"
+        }
+      ]
+    },
+    {
+      "word": "pressure",
+      "phonetic": "/ˈpreʃər/",
+      "toeicRank": 8,
+      "parts": [
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "-ure",
+          "meaning": "行為・結果・状態（名詞接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pressare（押す）+ -ura（名詞接尾辞）= 押す行為・力 → 圧力・プレッシャー",
+        "fact": "ラテン語 pressura「圧力、重さ、圧迫」から。14世紀後半に「物理的な力・重さ」の意味で英語に入り、15世紀に「強制・苦境」の比喩的意味へ拡張。blood pressure（血圧）は19世紀から医学用語として定着。「プレッシャー」として日本語にも外来語化。動詞用法「pressure someone into doing」は20世紀から。",
+        "source": "EtymOnline: pressure",
+        "cognates": [
+          "pressurize",
+          "pressurized",
+          "high-pressure",
+          "peer pressure",
+          "blood pressure"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "押す動作そのものを名詞化した、力の量・強度・状態を表す概念",
+        "fact": "FORCEスキーマの名詞形。press（押す動作）の「行為の結果・継続状態」を -ure で名詞化したもの。物理的な血圧も社会的な peer pressure（仲間の圧力）も「外部から加えられた押す力の量」という同一イメージで統一できる。",
+        "source": "Johnson (1987) FORCEスキーマの名詞化"
+      },
+      "gap": "「プレッシャー」として日本語に定着しているため簡単に思えるが、under pressure（プレッシャー下で）・high-pressure sales tactics（強引な営業手法）・pressure someone into signing（署名させるよう迫る）など動詞・形容詞・慣用句が多い。語源の「押す力」を軸に展開するとすべて読める。",
+      "gapOneliner": "pressure = 「押す力そのもの」——物理的な血圧も社会的プレッシャーも同一イメージ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "「押す(press)行為の結果(-ure)」がpressure。血圧計は血管にかかる押す力を測る。上司からのプレッシャーも、大気圧も、すべて「押す力の量」。日本語の「プレッシャー」はそのまま英語と同じ感覚で使える。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pressureの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "押す行為・力→圧力・プレッシャー",
+            "押し出す状態→表現力",
+            "押しつける度合い→感動の程度",
+            "押し下げる量→落ち込み度"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "press + -ure の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "押す + 行為・状態 = 圧力・プレッシャー",
+            "押す + 再び = 繰り返し押す",
+            "押す + 人 = 押す人",
+            "押す + 場所 = 押す場所"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The sales team was under enormous ______ to meet the quarterly targets.",
+          "hint": "「押す力」→「プレッシャー・重圧」",
+          "explanationFocus": "gap",
+          "choices": [
+            "pressure",
+            "expression",
+            "impression",
+            "depression"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "pressureと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "blood pressure（血圧）",
+            "blood expression（血の表現）",
+            "blood impression（血の印象）",
+            "blood depression（血の落ち込み）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The manager used high-pressure tactics to close the deal quickly.\" — high-pressureの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "強引な・圧力をかける",
+            "高品質な",
+            "迅速な",
+            "印象的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sales team was under enormous pressure to meet the quarterly targets.",
+          "ja": "営業チームは四半期目標を達成するよう強いプレッシャーにさらされていた。"
+        },
+        {
+          "en": "His doctor advised him to monitor his blood pressure regularly.",
+          "ja": "担当医は彼に血圧を定期的に測定するよう勧めた。"
+        },
+        {
+          "en": "The client pressured the agency into delivering the campaign ahead of schedule.",
+          "ja": "クライアントは代理店にキャンペーンをスケジュール前倒しで納品するよう迫った。"
+        }
+      ]
+    },
+    {
+      "word": "impression",
+      "phonetic": "/ɪmˈpreʃən/",
+      "toeicRank": 9,
+      "parts": [
+        {
+          "part": "im",
+          "meaning": "中へ・上に",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為・結果・状態（名詞接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "im（中へ）+ pressare（押す）+ -io（名詞）= 中へ押し込んだ跡 → 印象・印",
+        "fact": "ラテン語 impressio「押すこと、刻印、押し跡」から。14世紀後半に「物体に押しつけた型や印」の物理的意味で英語に入り、15世紀に「心に残った跡＝印象・感じ」の比喩的意味へ拡張。印刷用語として「1回の印刷・1刷り」の意味もある（初版first impression）。",
+        "source": "EtymOnline: impression",
+        "cognates": [
+          "impress",
+          "impressive",
+          "impressionism",
+          "impressionist",
+          "first impression"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "心という柔らかい素材に押しつけられた「跡・型」そのものを指す名詞",
+        "fact": "impressの名詞形。CONTAINERスキーマにおいて、心という容器の壁に「中へ(im-)押された(press)結果(-ion)」として残る痕跡が impression。粘土に型を押しつけると凹凸が残るように、体験や人物が心に残す鮮明な跡。first impression（第一印象）は最初に押された型の跡。",
+        "source": "Johnson (1987) CONTAINERスキーマ + 型押しイメージ"
+      },
+      "gap": "「印象」と訳を覚えるだけでは make an impression（印象を残す）・give the impression that〜（〜という印象を与える）・under the impression that〜（〜だと思い込んで）が使いこなせない。「心に押された跡を作る・与える・持つ」というイメージで全て統一できる。",
+      "gapOneliner": "impression = 心に「中へ押し込まれた」跡——make/give/under で使い分けは跡の動作から理解",
+      "hook": {
+        "label": "記憶フック",
+        "text": "印鑑を「中へ(im)押した(press)結果(-ion)」が印鑑の跡——それがimpression。心に残る第一印象(first impression)も、誰かに感銘を与えた(make an impression)のも、すべて「押された跡」のイメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "impressionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "中へ押し込んだ跡→印象",
+            "外へ押し出した結果→表現",
+            "下へ押した状態→落ち込み",
+            "一緒に押した結果→圧縮"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "im + press + -ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "中へ + 押す + 結果 = 押し込まれた跡・印象",
+            "再び + 押す + 行為 = 繰り返し印刷",
+            "上へ + 押す + 状態 = 昇格",
+            "外へ + 押す + 結果 = 発信物"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "First ______ matter a lot in job interviews.",
+          "hint": "「中へ押し込まれた跡」→「印象」",
+          "explanationFocus": "gap",
+          "choices": [
+            "impressions",
+            "expressions",
+            "depressions",
+            "compressions"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "impressionと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "make a good impression（良い印象を与える）",
+            "make a good expression（良い表現をする）",
+            "make a good compression（良い圧縮をする）",
+            "make a good depression（良い落ち込みをする）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"I was under the impression that the meeting had been cancelled.\" — under the impression thatの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "〜だと思い込んでいた",
+            "〜を印象的に感じた",
+            "〜のせいで落ち込んでいた",
+            "〜を圧縮していた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "First impressions matter a lot in job interviews, so dress professionally.",
+          "ja": "就職面接では第一印象が非常に重要なので、きちんとした服装をしてください。"
+        },
+        {
+          "en": "The new CEO made a strong impression on investors with her vision.",
+          "ja": "新CEOはそのビジョンで投資家に強い印象を与えた。"
+        },
+        {
+          "en": "I was under the impression that the deadline had been extended by a week.",
+          "ja": "締め切りが1週間延長されたと思い込んでいた。"
+        }
+      ]
+    },
+    {
+      "word": "depression",
+      "phonetic": "/dɪˈpreʃən/",
+      "toeicRank": 10,
+      "parts": [
+        {
+          "part": "de",
+          "meaning": "下へ・強意",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "行為・結果・状態（名詞接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "de（下へ）+ pressare（押す）+ -io（名詞）= 下へ押された状態 → 窪み・憂鬱・不景気",
+        "fact": "ラテン語 depressio「押し下げること、窪み」から。14世紀末（c.1400）に天文用語「星の水平線下への角距離」として英語に入り、15世紀初頭（early 15c.）に「気分の沈み込み・憂鬱状態」の心理的意味へ拡張。物理的な「地形の窪み」の意味は1650年代（17世紀）から。経済用語としての「不況」は1826年以降で、1929年以降の the Great Depression（大恐慌）は1934年に定着。",
+        "source": "EtymOnline: depression",
+        "cognates": [
+          "depress",
+          "depressing",
+          "depressed",
+          "antidepressant",
+          "the Great Depression"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "下へ押し下げられた結果として生まれた「窪み・落ち込み・低迷」の状態名詞",
+        "fact": "depressの名詞形。垂直スキーマ（HAPPY IS UP / SAD IS DOWN）において、「下へ(de-)押された(press)結果(-ion)」として地面に生まれる窪みが depression の原義。気分の窪み（鬱）も、経済の窪み（不況）も、気圧の低い窪み（低気圧）も、すべて「下へ押し込まれたくぼみ」という同一の空間イメージ。",
+        "source": "Lakoff & Johnson (1980) 垂直スキーマ（HAPPY IS UP / SAD IS DOWN）"
+      },
+      "gap": "「うつ病」だけで覚えると economic depression（経済的不況）、a depression in the surface（表面の窪み）、weather depression（低気圧）でつまずく。「下へ押し下げられてできた窪み」という物理的イメージが先にあり、そこから気分・経済・気象に比喩拡張された順序を知ると全文脈で対応できる。",
+      "gapOneliner": "depression = 「下に押された窪み」——地形・気分・経済・気圧に共通する空間イメージ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "地面が「下へ(de)押された(press)結果(-ion)」にできるのが窪み(depression)。気分が「下へ押された」のが鬱、経済が「下へ押された」のが不況、大気が「下へ押された」低い領域が低気圧。同じ語根が3つの世界をつなぐ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "depressionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下へ押された状態→窪み・落ち込み・不況",
+            "外へ押し出された結果→表現・発言",
+            "中へ押し込まれた跡→印象",
+            "下から押さえた状態→抑圧"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "de + press + -ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下へ + 押す + 結果 = 押し下げられた状態・窪み",
+            "外へ + 押す + 行為 = 押し出す行為",
+            "一緒に + 押す + 状態 = 圧縮状態",
+            "戻す + 押す + 結果 = 押し戻された状態"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The country experienced its worst economic ______ in over fifty years.",
+          "hint": "「下へ押された状態」→「不況・落ち込み」",
+          "explanationFocus": "gap",
+          "choices": [
+            "depression",
+            "expression",
+            "impression",
+            "compression"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "depressionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "economic depression（経済的不況）",
+            "economic expression（経済的表現）",
+            "economic impression（経済的印象）",
+            "economic compression（経済的圧縮）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She was diagnosed with clinical depression and began therapy immediately.\" — depressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "うつ病（気分が下へ押し下げられた状態）",
+            "高揚感",
+            "圧迫感",
+            "印象的な体験"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The country experienced its worst economic depression in over fifty years.",
+          "ja": "その国は50年以上ぶりとなる最悪の経済不況を経験した。"
+        },
+        {
+          "en": "She was diagnosed with clinical depression and began therapy immediately.",
+          "ja": "彼女は臨床的うつ病と診断され、すぐに治療を開始した。"
+        },
+        {
+          "en": "A deep depression in the Pacific is expected to bring heavy rain to the region.",
+          "ja": "太平洋上の深い低気圧が、その地域に大雨をもたらすと予想されている。"
+        }
+      ]
+    },
+    {
+      "word": "expression",
+      "phonetic": "/ɪkˈspreʃ.ən/",
+      "toeicRank": 11,
+      "parts": [
+        {
+          "part": "ex",
+          "meaning": "外へ",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ex（外へ）+ pressare（押す）+ ion（名詞化）= 外へ押し出した行為・結果",
+        "fact": "ラテン語 expressio（絞り出すこと）から。express の名詞形として15世紀初頭（early 15c.）に英語に入り、「言葉や行動で内側を押し出す行為」を表す。facial expression（表情）は顔の筋肉が内側の感情を「外へ押し出した」状態。espresso コーヒーと同根。",
+        "source": "EtymOnline: expression",
+        "cognates": [
+          "express",
+          "expressive",
+          "expressly",
+          "expressionism",
+          "espresso"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "内側の思考・感情を外側の言語・行動として押し出した「結果」",
+        "fact": "CONTAINERスキーマ（内側→外側）の名詞化。心の容器から「押し出された(ex-press)もの(ion)」が expression。動詞 express の行為が固定化された産物として、表情・発言・芸術作品のすべてを包む。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「表現」と一言で訳すと expression of interest（意向表明）や beyond expression（言い表せないほど）で詰まる。語源の「外へ押し出されたもの」がわかれば、芸術表現・表情・意向表明が全て同じイメージで読める。",
+      "gapOneliner": "expression = 内から外へ押し出された「言葉・表情・意向」すべて",
+      "hook": {
+        "label": "記憶フック",
+        "text": "expressに-ionを付けるだけ。「外へ(ex)押し出す(press)行為の結果(ion)」がexpression。チューブを絞って中身を出したもの——それが表現。表情(facial expression)は感情がチューブから押し出された顔の形。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "expressionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "外へ押し出した行為・結果",
+            "内側に押し込んだもの",
+            "一緒に押し固めたもの",
+            "後ろに押し返したもの"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ex + press + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "外へ + 押す + 名詞化 = 押し出した結果",
+            "中へ + 押す + 名詞化 = 印象",
+            "一緒に + 押す + 名詞化 = 圧縮",
+            "下へ + 押す + 名詞化 = 抑うつ"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She had a puzzled ______ on her face when she heard the news.",
+          "hint": "「外へ押し出された」感情の見た目 = 表情",
+          "explanationFocus": "gap",
+          "choices": [
+            "expression",
+            "impression",
+            "compression",
+            "depression"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "expressionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "facial expression（表情）",
+            "facial compression（顔の圧縮）",
+            "facial impression（顔の印象づけ）",
+            "facial oppression（顔の抑圧）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The artist found expression in painting abstract shapes.\" — expressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "表現・表出",
+            "圧迫",
+            "印象",
+            "抑圧"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "She had a puzzled expression on her face when she heard the news.",
+          "ja": "彼女はそのニュースを聞いたとき、困惑した表情を浮かべた。"
+        },
+        {
+          "en": "Freedom of expression is a fundamental right in a democratic society.",
+          "ja": "表現の自由は、民主主義社会における基本的な権利だ。"
+        },
+        {
+          "en": "The pianist poured all her emotion into the musical expression.",
+          "ja": "そのピアニストは音楽的表現にすべての感情を注ぎ込んだ。"
+        }
+      ]
+    },
+    {
+      "word": "compression",
+      "phonetic": "/kəmˈpreʃ.ən/",
+      "toeicRank": 12,
+      "parts": [
+        {
+          "part": "com",
+          "meaning": "一緒に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "com（一緒に）+ pressare（押す）+ ion（名詞化）= 一緒に押し固める行為・結果",
+        "fact": "ラテン語 compressio（押し固めること、圧縮）から。compress の名詞形として15世紀に英語に入った。現代では医療（圧迫療法）・音楽（ダイナミクス圧縮）・IT（ファイル圧縮）と分野を超えて使われる。コンプレッサー（compressor）も同根。",
+        "source": "EtymOnline: compression",
+        "cognates": [
+          "compress",
+          "compressor",
+          "compressed",
+          "incompressible"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "複数のものを一緒に押し固めて密度を上げる動き・その結果",
+        "fact": "FORCEスキーマとCONTAINERスキーマの複合。com-（一緒に）+ pressare（押す）で、外側から全方向に力が集中し、内部の空間・体積を縮小させる感覚。ITのファイル圧縮も人体の血管圧迫も「同じ身体感覚の拡張」として理解できる。",
+        "source": "Johnson (1987) FORCEスキーマ + CONTAINERスキーマ"
+      },
+      "gap": "「圧縮」と訳すと data compression（データ圧縮）はわかっても、compression bandage（圧迫包帯）や chest compression（胸骨圧迫）で詰まる。語源の「一緒に押し固める」がわかれば医療・IT・音響すべて同じイメージで読める。",
+      "gapOneliner": "compression = 「一緒に押し固める」行為——IT圧縮も医療圧迫も同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "コンプレッサー（compressor）はcom（一緒に）+ press（押す）の機械。compressionはその行為・状態。スポンジを両手で押し潰す感覚——分散したものが一点に集まるのがcompression。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "compressionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "一緒に押し固める行為・結果",
+            "外へ押し出す行為",
+            "下へ押し下げる状態",
+            "後ろへ押し返す力"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "com + press + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "一緒に + 押す + 名詞化 = 押し固めた結果",
+            "外へ + 押す + 名詞化 = 表現",
+            "中へ + 押す + 名詞化 = 印象",
+            "下へ + 押す + 名詞化 = 落ち込み"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "File ______ reduces storage space significantly.",
+          "hint": "「一緒に押し固める」= ファイルを小さくする",
+          "explanationFocus": "gap",
+          "choices": [
+            "compression",
+            "expression",
+            "oppression",
+            "impression"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "compressionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "data compression（データ圧縮）",
+            "data expression（データ表現）",
+            "data oppression（データ抑圧）",
+            "data depression（データ不況）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Apply compression to the wound to stop the bleeding.\" — compressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "圧迫（押し固める処置）",
+            "表現",
+            "抑圧",
+            "解放"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Data compression allows files to be stored in a fraction of their original size.",
+          "ja": "データ圧縮により、ファイルを元のサイズのほんの一部で保存できる。"
+        },
+        {
+          "en": "The doctor applied compression to the injured area to reduce swelling.",
+          "ja": "医師は腫れを抑えるために、傷ついた部位に圧迫処置を施した。"
+        },
+        {
+          "en": "Audio compression is used in broadcasting to even out the volume levels.",
+          "ja": "音声圧縮は、放送において音量レベルを均一にするために使われる。"
+        }
+      ]
+    },
+    {
+      "word": "oppression",
+      "phonetic": "/əˈpreʃ.ən/",
+      "toeicRank": 13,
+      "parts": [
+        {
+          "part": "ob/op",
+          "meaning": "上から・向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ob（向かって・上から）+ pressare（押す）+ ion（名詞化）= 上から押さえつける行為",
+        "fact": "ラテン語 oppressio（制圧、抑圧）から。oppress の名詞形として14世紀後半に英語に入り、「権力による不当な重圧」を指す。ob- は母音・p 前で op- に変化（ob + press → oppression）。歴史的・社会的な不正義の文脈で多用される。",
+        "source": "EtymOnline: oppression",
+        "cognates": [
+          "oppress",
+          "oppressor",
+          "oppressive",
+          "oppressed"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上から継続的に押さえつける力——抵抗する隙を与えない重さ",
+        "fact": "FORCE（垂直方向の抑圧）イメージスキーマ。ob-（向かって・上方から）+ pressare（押す）で、立ち上がれないほど上から押さえ続ける感覚。単発的な「圧力(pressure)」と異なり、継続的・組織的な弾圧を指すのが特徴。",
+        "source": "Lakoff & Johnson (1999) 身体化された認知"
+      },
+      "gap": "「抑圧」と訳しても oppression of women（女性への抑圧）と mild oppression（軽い圧迫感）が同じ単語とは気づきにくい。語源の「上から押さえつける継続的な力」がわかれば、政治的文脈も心理的文脈も同じイメージで読める。",
+      "gapOneliner": "oppression = 上から押さえ続ける「組織的・継続的な重圧」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ob（向かって）+ press（押す）。権力が上から民衆を「押さえつける(op-press)行為(ion)」がoppression。oppressor（抑圧者）が上にいて下の人を押さえている絵を思い浮かべれば忘れない。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "oppressionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "上から押さえつける継続的な重圧",
+            "外へ押し出す表現行為",
+            "一緒に押し固める圧縮",
+            "後ろへ押し返す封じ込め"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ob/op + press + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向かって + 押す + 名詞化 = 上から押さえつけ",
+            "外へ + 押す + 名詞化 = 表現",
+            "一緒に + 押す + 名詞化 = 圧縮",
+            "下へ + 押す + 名詞化 = 落ち込み"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The people finally rose up against decades of ______.",
+          "hint": "「上から押さえつける」継続的な重圧",
+          "explanationFocus": "gap",
+          "choices": [
+            "oppression",
+            "expression",
+            "compression",
+            "depression"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "oppressionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "racial oppression（人種的抑圧）",
+            "racial expression（人種的表現）",
+            "racial compression（人種的圧縮）",
+            "racial impression（人種的印象）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The oppression of minority groups has persisted for centuries.\" — oppressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "抑圧・弾圧（継続的な押さえつけ）",
+            "表現・表出",
+            "圧縮・密度増加",
+            "落ち込み・不況"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The people finally rose up against decades of political oppression.",
+          "ja": "民衆はついに、数十年にわたる政治的抑圧に立ち上がった。"
+        },
+        {
+          "en": "The novel depicts the oppression faced by workers in industrial-era cities.",
+          "ja": "その小説は、産業時代の都市で労働者が直面した抑圧を描いている。"
+        },
+        {
+          "en": "Oppression based on race, gender, or religion is a violation of human rights.",
+          "ja": "人種・性別・宗教に基づく抑圧は、人権の侵害だ。"
+        }
+      ]
+    },
+    {
+      "word": "repression",
+      "phonetic": "/rɪˈpreʃ.ən/",
+      "toeicRank": 14,
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "後ろへ・押し返す",
+          "type": "prefix"
+        },
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ pressare（押す）+ ion（名詞化）= 押し返して封じ込める行為",
+        "fact": "ラテン語 repressio（抑制、押し返すこと）から。repress の名詞形として16世紀に英語に入った。政治的文脈（反体制派の弾圧）と心理学的文脈（フロイトの抑圧：無意識への封じ込め）の両方で使われる二面性を持つ。",
+        "source": "EtymOnline: repression",
+        "cognates": [
+          "repress",
+          "repressive",
+          "repressed",
+          "repressor"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "外に出ようとするものを後ろへ押し返して内側に閉じ込める動き",
+        "fact": "BACK（押し戻す）+ CONTAINMENT（閉じ込め）の複合イメージスキーマ。re-（後ろへ）+ pressare（押す）で、表面に出ようとする感情・行動・勢力を「押し返して内側に封じる」感覚。フロイトの「無意識への抑圧」もこの身体感覚から派生している。",
+        "source": "Freud (1915) Repression; Johnson (1987) CONTAINMENT スキーマ"
+      },
+      "gap": "「抑圧」で訳すと oppression と混同しやすい。repression は「出ようとするものを押し返して封じ込める」のに対し、oppression は「上から継続的に押さえつける」。政治的弾圧にも心理的抑圧にも使える二面性が特徴。",
+      "gapOneliner": "repression = 外に出ようとするものを「押し返して内側に封じ込める」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（後ろへ）+ press（押す）。感情や反乱が「外へ出ようとする力」を「後ろへ押し返す(re-press)行為(ion)」。フロイトの「抑圧」も政府の「弾圧」も、押し返して見えなくするのが本質。oppression（上から潰す）との違いを体で覚える。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "repressionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "押し返して封じ込める行為",
+            "外へ押し出す表現",
+            "一緒に押し固める圧縮",
+            "上から押さえつける抑圧"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + press + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後ろへ + 押す + 名詞化 = 押し返し封じ込め",
+            "外へ + 押す + 名詞化 = 表現",
+            "一緒に + 押す + 名詞化 = 圧縮",
+            "向かって + 押す + 名詞化 = 制圧"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Emotional ______ can lead to serious psychological problems over time.",
+          "hint": "感情を「後ろへ押し返して封じ込める」こと",
+          "explanationFocus": "gap",
+          "choices": [
+            "repression",
+            "expression",
+            "oppression",
+            "compression"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "repressionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "political repression（政治的弾圧）",
+            "political expression（政治的表現）",
+            "political compression（政治的圧縮）",
+            "political impression（政治的印象）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The government's repression of free speech sparked widespread protests.\" — repressionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "弾圧・封じ込め",
+            "表現の推進",
+            "感情の解放",
+            "意見の圧縮"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The government's repression of free speech sparked widespread protests.",
+          "ja": "政府による言論の自由の弾圧が、広範な抗議運動を引き起こした。"
+        },
+        {
+          "en": "According to Freud, repression occurs when the mind pushes disturbing thoughts into the unconscious.",
+          "ja": "フロイトによれば、抑圧は心が不快な思考を無意識の領域に押し込む際に起こる。"
+        },
+        {
+          "en": "Decades of repression under the authoritarian regime left deep social scars.",
+          "ja": "権威主義政権のもとでの数十年にわたる抑圧は、社会に深い傷跡を残した。"
+        }
+      ]
+    },
+    {
+      "word": "irresistible",
+      "phonetic": "/ˌɪr.ɪˈzɪs.tɪ.bəl/",
+      "toeicRank": 15,
+      "parts": [
+        {
+          "part": "ir",
+          "meaning": "否定（not）",
+          "type": "prefix"
+        },
+        {
+          "part": "re",
+          "meaning": "逆らって・後ろへ",
+          "type": "prefix"
+        },
+        {
+          "part": "sist",
+          "meaning": "立つ・抵抗する",
+          "type": "root"
+        },
+        {
+          "part": "ible",
+          "meaning": "できる（形容詞化）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ir（not）+ re（逆らって）+ sistere（立つ）+ ible（できる）= 立ち向かうことができない",
+        "fact": "ラテン語 irresistibilis から。ir-（not）+ resistere（抵抗する：re- 逆らって + sistere 立つ）+ -ibilis（できる）= 抵抗不可能。16世紀末（1590年代）に英語に入り、「押し返す力がない」→「抗えない魅力・衝動」の意味へ。press の語根とは別系統だが、力に「押し流される」感覚で press 語族と対で覚えると効果的。",
+        "source": "EtymOnline: irresistible",
+        "cognates": [
+          "resist",
+          "resistance",
+          "resistible",
+          "irresistibly",
+          "irresistibility"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "どれほど押し返そうとしても立ち向かえない——圧倒的な引力・衝動",
+        "fact": "Talmy (2000) の Force Dynamics（力の動態）の「拮抗力ゼロ」状態。resist（逆らって立つ）の能力を ir-（not）+ -ible（できる）で否定することで「抗うことが不可能な力」を表す。おいしい食べ物・魅力的な人・強烈な衝動に「押し流されてしまう感覚」が典型。",
+        "source": "Talmy (2000) Force Dynamics"
+      },
+      "gap": "「抵抗できない」と訳すと an irresistible offer（断れない提案）や irresistible urge（抑えられない衝動）で使い分けに迷う。語源の「立ち向かうことができない力・引力」がわかれば、魅力・提案・衝動すべてに応用できる。",
+      "gapOneliner": "irresistible = 押し返す力がない——魅力・提案・衝動すべてに使う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "resist（抵抗する）の頭に ir-（not）をつけ、末尾に -ible（できる）をつけるだけ。「抵抗(resist)できない(ir-...-ible)」= irresistible。チョコレートケーキを前に resist しようとしても「もう無理！」——その状態が irresistible。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "irresistibleの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "立ち向かうことができない・抗えない",
+            "立ち向かうことができる・抵抗可能",
+            "一緒に押し固められた状態",
+            "外へ押し出された結果"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ir + resist + ible の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "not + 抵抗する + できる = 抵抗できない",
+            "強く + 押す + できる = 強烈に押せる",
+            "外へ + 立つ + できる = 目立てる",
+            "一緒に + 立つ + できる = 協力できる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The smell of fresh bread was ______, and she couldn't walk past the bakery.",
+          "hint": "「立ち向かうことができない」魅力",
+          "explanationFocus": "gap",
+          "choices": [
+            "irresistible",
+            "irresponsible",
+            "irreversible",
+            "irrational"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "irresistibleと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "irresistible urge（抑えられない衝動）",
+            "irresistible logic（わかりにくい論理）",
+            "irresistible silence（騒がしい沈黙）",
+            "irresistible distance（近い距離）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"He made her an irresistible offer that she simply couldn't turn down.\" — irresistibleの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "断れない・抗えない",
+            "疑わしい・怪しい",
+            "理解しやすい・明快な",
+            "取り消しのできない"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The smell of fresh bread was irresistible, and she couldn't walk past the bakery.",
+          "ja": "焼きたてのパンの香りは抗いがたく、彼女はそのパン屋を素通りできなかった。"
+        },
+        {
+          "en": "He felt an irresistible urge to laugh despite the serious situation.",
+          "ja": "彼は深刻な状況にもかかわらず、笑いを抑えられない衝動を感じた。"
+        },
+        {
+          "en": "The company made them an irresistible offer, and they signed the contract immediately.",
+          "ja": "その会社は彼らに断りきれない提案をし、すぐに契約が結ばれた。"
+        }
+      ]
+    },
+    {
+      "word": "pressing",
+      "phonetic": "/ˈpresɪŋ/",
+      "toeicRank": 16,
+      "parts": [
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "ing",
+          "meaning": "〜の状態の（形容詞化）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "press（押す）+ -ing = 押しつけてくる → 緊急の・差し迫った",
+        "fact": "ラテン語 pressare（押す）の現在分詞形が英語に定着したもの。17世紀から「強く求める・迫る」の意味で使われ始め、「pressing need（差し迫った必要性）」のように形容詞として「緊急の・今すぐ対処が必要な」を意味するようになった。物理的な圧力が時間的・心理的な緊急性へと意味拡張した典型例。",
+        "source": "EtymOnline: press",
+        "cognates": [
+          "pressure",
+          "press",
+          "impress",
+          "compress"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "何かが外から押しつけてくる感覚 → 今すぐ応じなければならない緊急性",
+        "fact": "FORCE スキーマの典型。外部から押しつけてくる(pressing)力は、受け手に即座の反応を強いる。「締め切りが押しつけてくる」「問題が圧力をかけてくる」という身体感覚が「緊急の・差し迫った」という意味を生み出している。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「緊急の」だけで覚えると a pressing engagement（急ぎの用事）や the most pressing issue（最重要課題）で戸惑う。「外から押しつけてくる」感覚がわかれば、締め切りも問題も人間関係も「press してくる」ものは全て pressing と表現できる。",
+      "gapOneliner": "pressing = 外から「押しつけてくる」→ 今すぐ対応を迫る緊急性",
+      "hook": {
+        "label": "記憶フック",
+        "text": "締め切りが背中を「押して(press)くる(-ing)」感覚がpressing。上司から pressing な依頼が来たら、今すぐ対応しないと押しつぶされる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pressingの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "押しつけてくる→差し迫った・緊急の",
+            "押しながら進む→積極的な",
+            "押して広げる→重要な",
+            "押して止める→抑えた"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "press + -ing が表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "押しつけてくる状態 = 緊急の",
+            "押し続ける動作 = 継続的な",
+            "押した結果 = 完了した",
+            "押す能力 = 強力な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We have a ______ deadline that must be met by tomorrow morning.",
+          "hint": "「押しつけてくる」→「差し迫った」",
+          "explanationFocus": "gap",
+          "choices": [
+            "pressing",
+            "depressing",
+            "expressing",
+            "impressing"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "pressingと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "concern（差し迫った懸念）",
+            "holiday（急ぎの休日）",
+            "color（緊急の色）",
+            "music（押しつけの音楽）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The most pressing issue facing the company is the cash flow shortage.\" — pressingの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "差し迫った・緊急の",
+            "重要度が低い",
+            "将来的な",
+            "解決済みの"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "There are several pressing matters that require your immediate attention.",
+          "ja": "あなたの即時対応が必要な差し迫った案件がいくつかあります。"
+        },
+        {
+          "en": "The pressing deadline forced the team to work through the weekend.",
+          "ja": "迫りくる締め切りが、チームを週末も働かせることになった。"
+        },
+        {
+          "en": "Climate change is the most pressing challenge of our generation.",
+          "ja": "気候変動は私たちの世代が直面する最も差し迫った課題だ。"
+        }
+      ]
+    },
+    {
+      "word": "pressurize",
+      "phonetic": "/ˈpreʃəraɪz/",
+      "toeicRank": 17,
+      "parts": [
+        {
+          "part": "press",
+          "meaning": "押す",
+          "type": "root"
+        },
+        {
+          "part": "ure",
+          "meaning": "状態・結果（名詞化）",
+          "type": "suffix"
+        },
+        {
+          "part": "ize",
+          "meaning": "〜化する・〜の状態にする",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "pressare（押す）→ pressure（圧力）→ pressurize（圧力をかける状態にする）",
+        "fact": "ラテン語 pressura（押すこと・圧迫）から英語 pressure が16世紀に定着し、そこに「〜化する」を意味する接尾辞 -ize が付いて20世紀に pressurize が生まれた。航空機の機内気圧を一定に保つ技術の発達（1940年代）と共に工学的意味が広まり、同時に「人に心理的圧力をかける」の比喩的意味でも定着した。",
+        "source": "EtymOnline: pressure, -ize",
+        "cognates": [
+          "pressure",
+          "pressurized",
+          "depressurize",
+          "pressurization"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "容器の中の圧力を人為的に操作する → 物理的・心理的に「圧力状態」を作り出す",
+        "fact": "CONTAINER スキーマの応用。密閉された空間（機内・ボトル・人の心）に圧力を「作り出す(-ize)」操作。物理的な気圧管理から「人を追い詰める」心理的圧力まで、容器の中に力が充満するイメージが一貫している。",
+        "source": "Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "The cabin is pressurized（客室は与圧されている）と He pressurized her into signing（彼は彼女に署名を迫った）は一見違う用法に見えるが、どちらも「圧力状態を作り出す」が本質。語源がわかれば両方が同じイメージで読める。",
+      "gapOneliner": "pressurize = 物理的気圧管理も「追い詰める」も、圧力状態を作り出す同じ動詞",
+      "hook": {
+        "label": "記憶フック",
+        "text": "飛行機の機内は高高度でも息ができるよう「圧力状態に(-ize)」してある。それが pressurize。上司が部下を「圧力状態に追い込む」のも同じ単語。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pressurizeの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "圧力の状態を作り出す → 加圧する・強いる",
+            "圧力を取り除く → 解放する",
+            "圧力を測る → 計測する",
+            "圧力に耐える → 我慢する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "pressure + -ize の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "圧力 + 〜化する = 圧力状態にする",
+            "圧力 + 〜に似た = 圧力のような",
+            "圧力 + 〜の人 = 圧力をかける人",
+            "圧力 + 〜できる = 圧力に耐えられる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The aircraft cabin is ______ to maintain a comfortable environment at high altitude.",
+          "hint": "「圧力状態に〜化する」→「加圧する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "pressurized",
+            "depressed",
+            "impressed",
+            "compressed"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "pressurizeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "cabin（客室を加圧する）",
+            "song（歌を圧縮する）",
+            "color（色を強くする）",
+            "clock（時計を早める）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"His manager pressurized him into accepting the transfer.\" — pressurizeの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "強く迫った・圧力をかけた",
+            "穏やかに説得した",
+            "自由に選ばせた",
+            "正式に命じた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Modern aircraft cabins are pressurized to simulate conditions at lower altitudes.",
+          "ja": "現代の航空機の客室は、低高度の環境を再現するよう加圧されている。"
+        },
+        {
+          "en": "Don't let anyone pressurize you into making a decision before you're ready.",
+          "ja": "準備が整う前に決断を迫られるようなことがあっても、流されてはいけない。"
+        },
+        {
+          "en": "The deadline pressurized the whole team to work faster than usual.",
+          "ja": "締め切りがチーム全体にいつも以上のペースで働くよう圧力をかけた。"
+        }
+      ]
+    },
+    {
+      "word": "fingerprint",
+      "phonetic": "/ˈfɪŋɡərprɪnt/",
+      "toeicRank": 18,
+      "parts": [
+        {
+          "part": "finger",
+          "meaning": "指",
+          "type": "root"
+        },
+        {
+          "part": "print",
+          "meaning": "押した跡（pressare の過去分詞 pressus → 古仏語 preinte）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "finger（指）+ print（押した跡）= 指を押しつけた跡 → 指紋",
+        "fact": "print は古仏語 preinte「押された印」から来ており、ラテン語 premere（押す）の過去分詞 pressus が祖先。つまり fingerprint は「指で押された跡」という意味の合成語。英語での定着は1834年（EtymOnline）。1809年に木版画家トーマス・ビーウィック（Thomas Bewick）が自身の指紋を著作物の署名として使用。1858年にウィリアム・ハーシェルがインドで身分確認への利用を確立。fingerprint（動詞）は「指紋を採取する」の意味でも使われる。",
+        "source": "EtymOnline: print, fingerprint",
+        "cognates": [
+          "print",
+          "imprint",
+          "blueprint",
+          "footprint",
+          "thumbprint"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "指を押しつける物理的動作 → その人だけの痕跡・固有のパターン",
+        "fact": "CONTACTスキーマ（表面への接触・圧力）と UNIQUENESS（固有性）の結合。指が表面を「押す(press)」ことで残る跡が、個人を識別する固有のパターンになる。比喩的に「a company's fingerprint（企業の特徴）」と使われるのも、この「固有の押し跡＝個性」スキーマの拡張。",
+        "source": "Johnson (1987) CONTACTスキーマ"
+      },
+      "gap": "「指紋」だけで覚えると leave a fingerprint（指紋を残す）はわかるが、The policy bears the fingerprint of the previous administration（その政策には前政権の痕跡がある）という比喩的用法で詰まる。「押しつけた固有の跡」という本質がわかれば比喩も読める。",
+      "gapOneliner": "fingerprint = 指の「押し跡」= 固有の痕跡・特徴（物理的・比喩的両方）",
+      "hook": {
+        "label": "記憶フック",
+        "text": "指(finger)を押しつけて(press)残る跡(print)。犯罪現場の指紋も、企業の独自カラーも「押しつけた固有の跡」という意味では同じ fingerprint。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "fingerprintのprintの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "pressare（押す）の過去分詞 → 押した跡",
+            "printare（印刷する）→ 印刷物",
+            "punctus（点）→ 点の集まり",
+            "figura（形）→ 形の記録"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "finger + print の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "指 + 押した跡 = 指紋・固有の痕跡",
+            "指 + 文字 = 指で書いた文字",
+            "指 + 印刷 = 指を使った印刷",
+            "指 + 記号 = 指の記号"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Police found a clear ______ on the door handle at the crime scene.",
+          "hint": "「指で押した跡」→「指紋」",
+          "explanationFocus": "gap",
+          "choices": [
+            "fingerprint",
+            "footprint",
+            "blueprint",
+            "imprint"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "fingerprintと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "scanner（指紋スキャナー）",
+            "telescope（指紋望遠鏡）",
+            "calculator（指紋計算機）",
+            "dictionary（指紋辞書）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Each artist leaves a unique fingerprint on their work.\" — fingerprintの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "固有の痕跡・スタイル",
+            "実際の指紋",
+            "著作権の証明",
+            "デジタル署名"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The suspect's fingerprint was found on the glass at the scene.",
+          "ja": "容疑者の指紋が現場のグラスから発見された。"
+        },
+        {
+          "en": "You can unlock your smartphone using your fingerprint.",
+          "ja": "指紋を使ってスマートフォンのロックを解除できます。"
+        },
+        {
+          "en": "Every great designer leaves their fingerprint on the products they create.",
+          "ja": "優れたデザイナーはみな、自分が手がけた製品に固有の痕跡を残す。"
+        }
+      ]
+    },
+    {
+      "word": "espresso",
+      "phonetic": "/eˈspresəʊ/",
+      "toeicRank": 19,
+      "parts": [
+        {
+          "part": "es",
+          "meaning": "外へ（ex- のイタリア語形）",
+          "type": "prefix"
+        },
+        {
+          "part": "presso",
+          "meaning": "押した（pressare の過去分詞のイタリア語形）",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "イタリア語 espresso = ex（外へ）+ pressus（押した）= 蒸気で押し出して抽出した → エスプレッソ",
+        "fact": "イタリア語 caffè espresso「押し出したコーヒー」から。ラテン語 exprimere（外へ押し出す）の過去分詞 expressus がイタリア語に入り espresso に。1884年にアンジェロ・モリオンド（Angelo Moriondo）が蒸気式コーヒー機の特許取得。1901年にルイジ・ベッゼーラ（Luigi Bezzera）が実用的なエスプレッソマシンを発明し、1906年のミラノ見本市で普及。英語への定着は1945年（EtymOnline）。英語の express（表現する・急行）と語根が完全に同一。「すぐに作れる」説は俗説で、語源は「押し出す」。",
+        "source": "EtymOnline: espresso",
+        "cognates": [
+          "express",
+          "expression",
+          "expressive",
+          "expressway"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "高圧の蒸気で水を外へ押し出してコーヒーエキスを抽出する → 凝縮された本質を押し出したもの",
+        "fact": "SOURCE-PATH-GOAL スキーマ。圧力（press）がコーヒーの成分を外（ex-）へ強制的に押し出す工程がそのまま語義に。「表現する(express)」と同根である点が、エスプレッソを語根学習の絶好のアンカーにする。コーヒーを飲むたびに ex-press の身体感覚が想起される。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ"
+      },
+      "gap": "espresso を「エスプレッソ（コーヒーの種類）」で覚えると語根の記憶に貢献しないが、express と同じ「外へ押し出す」語根だとわかれば、コーヒーを注文するたびに ex + press を体で覚えられる最強の記憶アンカーになる。",
+      "gapOneliner": "espresso = express と同語根。蒸気で「外へ押し出して」抽出したコーヒー",
+      "hook": {
+        "label": "記憶フック",
+        "text": "エスプレッソは蒸気圧でコーヒーを「外へ(es=ex)押し出した(presso=pressed)」飲み物。express（表現する）と全く同じ語根。感情を「押し出す」のも、コーヒーを「押し出す」のも同じ press。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "espressoの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "外へ押し出したもの → 圧力抽出コーヒー",
+            "速く作ったもの → 即席コーヒー",
+            "強く焙煎したもの → 濃いコーヒー",
+            "細かく挽いたもの → 微粉末コーヒー"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "espresso と express は語根が同じ。共通する意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "外へ押し出す（ex + press）",
+            "速く動く（express train から）",
+            "強く感じる（intense feeling）",
+            "深く掘る（deep extraction）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "I'll have a double ______ to go, please.",
+          "hint": "「外へ押し出して」抽出した濃いコーヒー",
+          "explanationFocus": "gap",
+          "choices": [
+            "espresso",
+            "expresso",
+            "compresso",
+            "suppresso"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "espressoと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "machine（エスプレッソマシン）",
+            "printer（エスプレッソプリンター）",
+            "engine（エスプレッソエンジン）",
+            "keyboard（エスプレッソキーボード）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Both espresso and express share the Latin root meaning 'to press out.'\" — この文が示す関係は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "2語は「外へ押し出す」という語根を共有している",
+            "2語はともにイタリア語から来た",
+            "2語はともにコーヒーに関係する",
+            "2語は発音が似ているだけで無関係"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "She ordered a double espresso to get through the afternoon meeting.",
+          "ja": "彼女は午後の会議を乗り切るためにダブルエスプレッソを注文した。"
+        },
+        {
+          "en": "A proper espresso should have a thick layer of crema on top.",
+          "ja": "本物のエスプレッソは上部にクレマが厚く乗っているべきだ。"
+        },
+        {
+          "en": "The barista explained that espresso means 'pressed out' in Italian.",
+          "ja": "バリスタは、エスプレッソはイタリア語で「押し出したもの」を意味すると教えてくれた。"
+        }
+      ]
+    },
+    {
+      "word": "bulldozer",
+      "phonetic": "/ˈbʊldəʊzər/",
+      "toeicRank": 20,
+      "parts": [
+        {
+          "part": "bull",
+          "meaning": "雄牛のような強大な力",
+          "type": "root"
+        },
+        {
+          "part": "dose",
+          "meaning": "大量に与える・一撃（bull-whipping の一撃を与える意から）",
+          "type": "root"
+        },
+        {
+          "part": "r",
+          "meaning": "〜する者・機械（動作主）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "bull（雄牛）+ dose（大量の一撃）+ -r = 雄牛の一撃を与えるもの → ブルドーザー",
+        "fact": "1876年にアメリカ英語で「威圧する・強引に押し込む」を意味する動詞 bulldoze として初出。bull（雄牛）＋ dose（大量に与える）の合成語で「雄牛の一撃を与える」→「強引に押しつぶす」。機械としての bulldozer は1942年に登場（EtymOnline）。press のように「物理的に押す」力が語義の核にあり、bulldoze someone into（〜するよう圧力をかける）という使い方は press と同じ強制スキーマを持つ。",
+        "source": "EtymOnline: bulldozer",
+        "cognates": [
+          "bulldoze",
+          "bulldozed",
+          "bulldozing"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "圧倒的な力で何もかも正面から押しつぶす → 障害を力ずくで取り除く機械・人",
+        "fact": "FORCE スキーマの極端な例。雄牛（bull）が正面から突進して押しつぶす身体感覚が語義の中心。機械としての bulldozer は文字通り地面を押しつぶすが、比喩的に「bulldoze through opposition（反対意見を押しつぶす）」と使われる場合も、press のような「強制的に押す」イメージが一貫している。",
+        "source": "Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「ブルドーザー（建設機械）」だけで覚えると、Don't bulldoze me into agreeing（私を無理やり同意させようとしないで）という比喩的用法で詰まる。「圧倒的な力で押しつぶす」という核心がわかれば、機械も人の行動も同じ語でカバーできる。",
+      "gapOneliner": "bulldozer = 物理的にも比喩的にも「力ずくで押しつぶすもの・人」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "雄牛(bull)が大量の一撃(dose)を与えるように押しつぶす機械がbulldozer。上司が反対意見を全て押しつぶすのも「bulldozing」。pressと同じ「力で押す」スキーマ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "bulldozerの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "雄牛のような力で押しつぶすもの → ブルドーザー・強引な人",
+            "土を掘り起こすもの → 掘削機",
+            "早く走るもの → 高速車両",
+            "重いものを運ぶもの → 重機"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "bull + dose + -r の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "雄牛の力 + 強引に押す + 動作主 = 押しつぶすもの",
+            "大きい + 眠る + 機械 = 大型の眠い機械",
+            "雄牛 + 牧草 + 管理者 = 牧場の管理者",
+            "力強い + 押す + 人 = 力持ちの人"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The construction crew used a ______ to clear the land before building.",
+          "hint": "「雄牛のように押しつぶす」→「ブルドーザー」",
+          "explanationFocus": "gap",
+          "choices": [
+            "bulldozer",
+            "compressor",
+            "excavator",
+            "presser"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "bulldozeと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "opposition（反対を力ずくで押しつぶす）",
+            "music（音楽を押しつぶす）",
+            "friendship（友情を押しつぶす）",
+            "weather（天気を押しつぶす）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She bulldozed through every objection without listening to anyone.\" — bulldozedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "誰の意見も聞かず力ずくで押し進んだ",
+            "丁寧に一つずつ反論した",
+            "慎重に検討してから決断した",
+            "チームの意見を尊重して進めた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "A bulldozer was brought in to clear the rubble after the demolition.",
+          "ja": "解体後のがれきを取り除くため、ブルドーザーが投入された。"
+        },
+        {
+          "en": "He tends to bulldoze his ideas through meetings without considering others' input.",
+          "ja": "彼は会議で他のメンバーの意見を考慮せず、自分のアイデアを力ずくで通す傾向がある。"
+        },
+        {
+          "en": "The old neighborhood was bulldozed to make way for a new shopping center.",
+          "ja": "新しいショッピングセンターを建設するため、昔の街並みがブルドーザーで取り壊された。"
+        }
+      ]
+    }
+  ]
+}
