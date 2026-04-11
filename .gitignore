@@ -24,3 +24,4 @@ missing_vocab.json
 service-account-key.json
 .feedback_last_check
 feedback-reports/
+generate_series_ollama.py
