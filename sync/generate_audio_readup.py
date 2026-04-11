@@ -1,9 +1,9 @@
 """
-ReadUpパッセージからSyncReader用音声・タイミングデータを一括生成
+ReadUp Graded Series (stories.js) から音声・タイミングデータを一括生成
 
 Usage:
-  python3 generate_audio_readup.py          # 全200本生成
-  python3 generate_audio_readup.py lv1      # Level 1のみ
+  python3 generate_audio_readup.py          # 全記事を生成
+  python3 generate_audio_readup.py vl2000   # VLレベル指定
   python3 generate_audio_readup.py --skip   # 既存ファイルをスキップ
 """
 
@@ -24,51 +24,31 @@ VOICES = [
     "en-AU-WilliamNeural",  # 5: AU 男性
 ]
 AUDIO_DIR = os.path.join(os.path.dirname(__file__), "audio")
-READUP_JS = os.path.join(os.path.dirname(__file__), "../reading/questions.js")
-PASSAGES_JSON = os.path.join(os.path.dirname(__file__), "passages_readup.json")
+STORIES_JS = os.path.join(os.path.dirname(__file__), "../reading/series/stories.js")
 
 
-def extract_readup_passages(js_path: str) -> dict:
-    """questions.jsからユニークパッセージを抽出してレベル別に整理"""
+def load_stories(js_path: str) -> list:
+    """stories.js から全ストーリーを抽出（id・vl・body）"""
     with open(js_path, encoding="utf-8") as f:
         content = f.read()
-
-    pattern = r'\{\s*id:"([^"]+)",\s*pid:"([^"]+)",\s*diff:"([^"]+)",\s*axis:"[^"]+",\s*passage:"([^"]+)"'
-    matches = re.findall(pattern, content)
-
-    seen_pids = {}
-    for _, pid, diff, passage in matches:
-        if pid not in seen_pids:
-            seen_pids[pid] = {"pid": pid, "diff": diff, "passage": passage}
-
-    # レベル別に整理
-    levels = {"lv1": [], "lv2": [], "lv3": [], "lv4": [], "lv5": []}
-    for item in seen_pids.values():
-        lv = item["diff"]
-        if lv in levels:
-            levels[lv].append(item)
-
-    # 各レベルをpid順でソート
-    for lv in levels:
-        levels[lv].sort(key=lambda x: x["pid"])
-
-    return levels
+    # JSON部分を抽出してパース
+    m = re.search(r'const STORIES\s*=\s*(\[.*\])\s*;?\s*$', content, re.DOTALL)
+    if not m:
+        raise ValueError("stories.js から STORIES 配列を抽出できませんでした")
+    return json.loads(m.group(1))
 
 
 def estimate_word_timings(text: str, sentences: list) -> list:
     """SentenceBoundary情報 + 文字数比率で単語タイミングを推定"""
     result = []
-
     for sent in sentences:
         sent_words = re.findall(r'\S+', sent["text"])
         if not sent_words:
             continue
-
         clean_lens = [len(re.sub(r'[^\w]', '', w)) or 1 for w in sent_words]
         total_chars = sum(clean_lens)
         current = sent["start"] + 0.05
         remaining_dur = sent["duration"] - 0.05
-
         for i, (w, cl) in enumerate(zip(sent_words, clean_lens)):
             ratio = cl / total_chars
             if i == len(sent_words) - 1:
@@ -77,16 +57,15 @@ def estimate_word_timings(text: str, sentences: list) -> list:
                 end_time = round(current + remaining_dur * ratio, 3)
             result.append({"word": w, "start": round(current, 3), "end": end_time})
             current = end_time
-
     return result
 
 
-async def generate_passage_audio(pid: str, text: str, voice: str, skip_existing: bool = False) -> bool:
-    mp3_path = os.path.join(AUDIO_DIR, f"{pid}.mp3")
-    json_path = os.path.join(AUDIO_DIR, f"{pid}.json")
+async def generate_audio(story_id: str, text: str, voice: str, skip_existing: bool = False) -> bool:
+    mp3_path = os.path.join(AUDIO_DIR, f"{story_id}.mp3")
+    json_path = os.path.join(AUDIO_DIR, f"{story_id}.json")
 
     if skip_existing and os.path.exists(mp3_path) and os.path.exists(json_path):
-        return False  # スキップ
+        return False
 
     communicate = edge_tts.Communicate(text, voice)
     sentences = []
@@ -116,47 +95,45 @@ async def generate_passage_audio(pid: str, text: str, voice: str, skip_existing:
 async def main():
     os.makedirs(AUDIO_DIR, exist_ok=True)
 
-    target_lv = None
+    target_vl = None
     skip_existing = "--skip" in sys.argv
     for arg in sys.argv[1:]:
-        if arg.startswith("lv"):
-            target_lv = arg
+        if arg.startswith("vl"):
+            target_vl = arg
 
-    print(f"ReadUpパッセージ抽出中...")
-    levels = extract_readup_passages(READUP_JS)
+    print("stories.js 読み込み中...")
+    stories = load_stories(STORIES_JS)
 
-    # passages_readup.json（フロントエンド用メタデータ）を生成
-    meta = {}
-    for lv, items in levels.items():
-        meta[lv] = [
-            {
-                "pid": item["pid"],
-                "wordCount": len(item["passage"].split())
-            }
-            for item in items
-        ]
-    with open(PASSAGES_JSON, "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
+    # VLレベル別に整理（id順でソート）
+    levels = {}
+    for s in stories:
+        vl = s.get("vl", "unknown")
+        if target_vl and vl != target_vl:
+            continue
+        levels.setdefault(vl, []).append(s)
+    for vl in levels:
+        levels[vl].sort(key=lambda x: x["id"])
 
     total_generated = 0
     total_skipped = 0
 
-    for lv, items in levels.items():
-        if target_lv and lv != target_lv:
-            continue
-
-        print(f"\n── {lv} ({len(items)}本) ──")
-        for i, item in enumerate(items):
-            pid = item["pid"]
-            text = item["passage"]
+    for vl in sorted(levels.keys()):
+        items = levels[vl]
+        print(f"\n── {vl} ({len(items)}本) ──")
+        for i, story in enumerate(items):
+            story_id = story["id"]
+            text = story.get("body", "")
+            if not text:
+                print(f"  [{i+1:3d}/{len(items)}] ⚠ {story_id} (body なし、スキップ)")
+                continue
             words = len(text.split())
             voice = VOICES[i % len(VOICES)]
-            generated = await generate_passage_audio(pid, text, voice, skip_existing)
+            generated = await generate_audio(story_id, text, voice, skip_existing)
             if generated:
-                print(f"  [{i+1:3d}/{len(items)}] ✓ {pid}  {voice}  ({words}語)", flush=True)
+                print(f"  [{i+1:3d}/{len(items)}] ✓ {story_id}  {voice}  ({words}語)", flush=True)
                 total_generated += 1
             else:
-                print(f"  [{i+1:3d}/{len(items)}] - {pid} (スキップ)", flush=True)
+                print(f"  [{i+1:3d}/{len(items)}] - {story_id} (スキップ)", flush=True)
                 total_skipped += 1
 
     print(f"\n✅ 完了: 生成 {total_generated}本 / スキップ {total_skipped}本")
