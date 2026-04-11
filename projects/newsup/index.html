@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsUp - ニュース英語学習サービス（UIプロトタイプ）</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f5f6fa; color: #1a1a2e; }
+
+    /* Header */
+    .header {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 0 24px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #1a56db;
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: #e85d04; }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .streak-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff8f0;
+      border: 1px solid #fed7aa;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #e85d04;
+    }
+    .user-avatar {
+      width: 34px; height: 34px;
+      background: linear-gradient(135deg, #1a56db, #60a5fa);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    /* Layout */
+    .layout {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 24px;
+    }
+
+    /* Article Panel */
+    .article-panel {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .article-header {
+      padding: 20px 24px 16px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .article-category {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #eff6ff;
+      color: #1a56db;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .article-title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      color: #111;
+    }
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.78rem;
+      color: #888;
+    }
+    .difficulty-badge {
+      background: #dcfce7;
+      color: #16a34a;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 0.72rem;
+    }
+
+    /* Toolbar */
+    .article-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 24px;
+      background: #fafafa;
+      border-bottom: 1px solid #f0f0f0;
+      flex-wrap: wrap;
+    }
+    .tool-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 12px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: 1px solid #e5e7eb;
+      background: #fff;
+      cursor: pointer;
+      color: #444;
+      transition: all 0.15s;
+    }
+    .tool-btn.active { background: #1a56db; color: #fff; border-color: #1a56db; }
+    .tool-btn:hover { background: #f0f5ff; }
+    .speed-control {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: #666;
+    }
+
+    /* Article Body */
+    .article-body {
+      padding: 24px;
+      line-height: 1.9;
+      font-size: 1rem;
+      color: #1a1a2e;
+    }
+    .article-body p { margin-bottom: 18px; }
+    .vocab {
+      background: #fef9c3;
+      border-bottom: 2px solid #fbbf24;
+      cursor: pointer;
+      border-radius: 2px;
+      padding: 1px 2px;
+      transition: background 0.15s;
+    }
+    .vocab:hover { background: #fde68a; }
+    .vocab.mastered { background: #dcfce7; border-color: #4ade80; }
+
+    /* Vocab Tooltip */
+    .tooltip {
+      display: none;
+      position: absolute;
+      background: #1e293b;
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      max-width: 220px;
+      z-index: 200;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      line-height: 1.5;
+    }
+    .tooltip.show { display: block; }
+    .tooltip-word { font-weight: 700; font-size: 0.9rem; margin-bottom: 3px; }
+    .tooltip-def { color: #cbd5e1; }
+    .tooltip-example { color: #94a3b8; font-style: italic; font-size: 0.78rem; margin-top: 4px; }
+
+    /* Quiz Section */
+    .quiz-section {
+      border-top: 2px solid #f0f0f0;
+      padding: 24px;
+    }
+    .quiz-title {
+      font-size: 1rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .quiz-title span { 
+      background: #1a56db;
+      color: #fff;
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+    }
+    .question-card {
+      background: #f8faff;
+      border: 1px solid #e0e7ff;
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .question-text {
+      font-weight: 700;
+      margin-bottom: 14px;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .options {
+      display: grid;
+      gap: 8px;
+    }
+    .option {
+      padding: 10px 14px;
+      border: 1.5px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      background: #fff;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .option:hover { border-color: #1a56db; background: #f0f5ff; }
+    .option.correct { border-color: #16a34a; background: #dcfce7; }
+    .option.incorrect { border-color: #dc2626; background: #fef2f2; }
+    .option-letter {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .option.correct .option-letter { background: #16a34a; color: #fff; }
+    .option.incorrect .option-letter { background: #dc2626; color: #fff; }
+
+    .quiz-submit {
+      margin-top: 8px;
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(90deg, #1a56db, #3b82f6);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .quiz-submit:hover { opacity: 0.88; }
+
+    /* Sidebar */
+    .sidebar { display: flex; flex-direction: column; gap: 20px; }
+    .widget {
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+    .widget-header {
+      padding: 14px 18px;
+      border-bottom: 1px solid #f0f0f0;
+      font-weight: 800;
+      font-size: 0.88rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .widget-body { padding: 16px 18px; }
+
+    /* Progress Widget */
+    .progress-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .stat-box {
+      background: #f8faff;
+      border-radius: 10px;
+      padding: 12px;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #1a56db;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-label { font-size: 0.72rem; color: #888; }
+    .progress-bar-wrap { margin-bottom: 8px; }
+    .progress-bar-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: #666;
+      margin-bottom: 4px;
+    }
+    .progress-bar {
+      height: 8px;
+      background: #e5e7eb;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #1a56db, #60a5fa);
+      border-radius: 4px;
+    }
+
+    /* Today's Articles */
+    .article-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f5f5f5;
+      cursor: pointer;
+    }
+    .article-item:last-child { border-bottom: none; }
+    .article-thumb {
+      width: 44px; height: 44px;
+      border-radius: 8px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+    }
+    .article-info .title { font-size: 0.8rem; font-weight: 600; color: #1a1a2e; line-height: 1.3; margin-bottom: 3px; }
+    .article-info .meta { font-size: 0.72rem; color: #aaa; display: flex; align-items: center; gap: 6px; }
+    .read-badge { background: #dcfce7; color: #16a34a; padding: 2px 7px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
+    .unread-badge { background: #eff6ff; color: #1a56db; padding: 2px 7px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; }
+
+    /* Vocabulary Flashcard Widget */
+    .flashcard {
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .flashcard-word { font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 4px; }
+    .flashcard-phonetic { font-size: 0.8rem; color: #94a3b8; margin-bottom: 10px; }
+    .flashcard-def { font-size: 0.82rem; color: #cbd5e1; line-height: 1.5; }
+    .flashcard-btns {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+    }
+    .fc-btn {
+      padding: 8px 4px;
+      border-radius: 8px;
+      border: none;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .fc-btn.hard { background: #fee2e2; color: #dc2626; }
+    .fc-btn.ok { background: #fef9c3; color: #a16207; }
+    .fc-btn.easy { background: #dcfce7; color: #16a34a; }
+
+    @media (max-width: 768px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">News<span>Up</span></div>
+  <div class="header-right">
+    <div class="streak-badge">🔥 7日連続</div>
+    <div class="user-avatar">田</div>
+  </div>
+</header>
+
+<!-- Vocab Tooltip -->
+<div class="tooltip" id="tooltip">
+  <div class="tooltip-word" id="tt-word"></div>
+  <div class="tooltip-def" id="tt-def"></div>
+  <div class="tooltip-example" id="tt-ex"></div>
+</div>
+
+<div class="layout">
+  <!-- Main Article Panel -->
+  <div>
+    <div class="article-panel">
+      <div class="article-header">
+        <div class="article-category">🌍 World</div>
+        <h1 class="article-title">Global Leaders Agree on New Climate Framework to Cut Emissions by 2035</h1>
+        <div class="article-meta">
+          <span>Reuters · 2026/04/10</span>
+          <span class="difficulty-badge">B2 中上級</span>
+          <span>読了 約4分</span>
+        </div>
+      </div>
+
+      <div class="article-toolbar">
+        <button class="tool-btn active" onclick="toggleMode(this,'read')">📖 読む</button>
+        <button class="tool-btn" onclick="toggleMode(this,'listen')">🎧 聴く</button>
+        <button class="tool-btn" onclick="toggleMode(this,'vocab')">📝 単語</button>
+        <div class="speed-control">
+          再生速度: <strong>1.0x</strong>
+          <button class="tool-btn" style="padding:3px 8px;font-size:0.7rem;">▲</button>
+          <button class="tool-btn" style="padding:3px 8px;font-size:0.7rem;">▼</button>
+        </div>
+      </div>
+
+      <div class="article-body" id="article-body">
+        <p>
+          World leaders gathered in Geneva on Thursday reached a landmark
+          <span class="vocab" data-word="consensus" data-def="一般的な合意・総意" data-ex="The team reached a consensus after hours of debate.">consensus</span>
+          on a new climate
+          <span class="vocab" data-word="framework" data-def="枠組み・フレームワーク" data-ex="The framework provides guidelines for action.">framework</span>
+          aimed at reducing global carbon emissions by 45% before 2035.
+          The agreement, dubbed the "Geneva Accord," was
+          <span class="vocab" data-word="ratified" data-def="（条約などを）批准する・承認する" data-ex="The treaty was ratified by all member states.">ratified</span>
+          by 132 countries, marking the broadest international
+          <span class="vocab" data-word="commitment" data-def="約束・取り組み・コミットメント" data-ex="The company made a commitment to net-zero emissions.">commitment</span>
+          to climate action in history.
+        </p>
+
+        <p>
+          "This is a
+          <span class="vocab" data-word="pivotal" data-def="極めて重要な・中枢的な" data-ex="This is a pivotal moment in our history.">pivotal</span>
+          moment for our planet," said UN Secretary-General Elena Morales, speaking at the closing
+          <span class="vocab" data-word="plenary" data-def="全体会議（の）・本会議" data-ex="The resolution was adopted at the plenary session.">plenary</span>
+          session. "We have moved beyond
+          <span class="vocab" data-word="rhetoric" data-def="（実質を伴わない）修辞・言葉だけの議論" data-ex="They need action, not empty rhetoric.">rhetoric</span>
+          and into
+          <span class="vocab" data-word="tangible" data-def="具体的な・明確な・有形の" data-ex="We need tangible results, not promises.">tangible</span>
+          action."
+        </p>
+
+        <p>
+          The accord
+          <span class="vocab" data-word="stipulates" data-def="規定する・明記する" data-ex="The contract stipulates a 30-day payment period.">stipulates</span>
+          that
+          <span class="vocab" data-word="affluent" data-def="豊かな・裕福な・富裕な" data-ex="Affluent nations pledged more funding.">affluent</span>
+          nations must provide $150 billion annually in
+          <span class="vocab" data-word="mitigation" data-def="（被害などの）軽減・緩和" data-ex="Mitigation strategies are needed to reduce risk.">mitigation</span>
+          funds to developing economies, which have historically
+          <span class="vocab" data-word="borne" data-def="bear（負担する）の過去分詞" data-ex="She has borne the responsibility alone.">borne</span>
+          the least responsibility for climate change yet face its worst effects.
+        </p>
+
+        <p>
+          Critics, however, argue that the targets remain
+          <span class="vocab" data-word="inadequate" data-def="不十分な・不適切な" data-ex="The response was widely seen as inadequate.">inadequate</span>
+          to limit warming to 1.5°C above pre-industrial levels, warning that current
+          <span class="vocab" data-word="trajectories" data-def="軌道・推移・進路（複数形）" data-ex="The economic trajectories of both countries differ.">trajectories</span>
+          still point to a 2.4°C
+          <span class="vocab" data-word="scenario" data-def="シナリオ・筋書き・想定" data-ex="In the worst-case scenario, losses could exceed $1 trillion.">scenario</span>
+          by century's end.
+        </p>
+      </div>
+
+      <!-- Comprehension Quiz -->
+      <div class="quiz-section">
+        <div class="quiz-title"><span>Q</span> 理解度チェック</div>
+
+        <div class="question-card">
+          <div class="question-text">1. What is the main goal of the Geneva Accord?</div>
+          <div class="options">
+            <div class="option" onclick="selectOption(this, false)">
+              <div class="option-letter">A</div>
+              To increase global GDP by 45% before 2035
+            </div>
+            <div class="option" onclick="selectOption(this, true)">
+              <div class="option-letter">B</div>
+              To reduce global carbon emissions by 45% before 2035
+            </div>
+            <div class="option" onclick="selectOption(this, false)">
+              <div class="option-letter">C</div>
+              To provide $150 billion in loans to developing nations
+            </div>
+            <div class="option" onclick="selectOption(this, false)">
+              <div class="option-letter">D</div>
+              To limit warming to 2.4°C above pre-industrial levels
+            </div>
+          </div>
+        </div>
+
+        <div class="question-card">
+          <div class="question-text">2. According to the article, what do critics argue about the targets?</div>
+          <div class="options">
+            <div class="option" onclick="selectOption(this, false)">
+              <div class="option-letter">A</div>
+              They are too ambitious and unrealistic
+            </div>
+            <div class="option" onclick="selectOption(this, false)">
+              <div class="option-letter">B</div>
+              They place too much burden on developing nations
+            </div>
+            <div class="option" onclick="selectOption(this, true)">
+              <div class="option-letter">C</div>
+              They remain inadequate to limit warming to 1.5°C
+            </div>
+            <div class="option" onclick="selectOption(this, false)">
+              <div class="option-letter">D</div>
+              They require too much funding from affluent nations
+            </div>
+          </div>
+        </div>
+
+        <button class="quiz-submit" onclick="submitQuiz()">回答を確認する →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Progress Widget -->
+    <div class="widget">
+      <div class="widget-header">📊 今日の進捗</div>
+      <div class="widget-body">
+        <div class="progress-stats">
+          <div class="stat-box">
+            <div class="stat-number">3</div>
+            <div class="stat-label">記事読了</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">24</div>
+            <div class="stat-label">単語習得</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">82%</div>
+            <div class="stat-label">正答率</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">47</div>
+            <div class="stat-label">分学習</div>
+          </div>
+        </div>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-label">
+            <span>今日の目標</span><span>3/5記事</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width:60%"></div>
+          </div>
+        </div>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-label">
+            <span>週間語彙目標</span><span>120/200語</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width:60%;background:linear-gradient(90deg,#059669,#34d399)"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Today's Articles Widget -->
+    <div class="widget">
+      <div class="widget-header">📰 今日のニュース</div>
+      <div class="widget-body" style="padding:8px 18px 14px;">
+        <div class="article-item">
+          <div class="article-thumb" style="background:#eff6ff;">🌍</div>
+          <div class="article-info">
+            <div class="title">Global Leaders Agree on New Climate Framework</div>
+            <div class="meta"><span class="unread-badge">読中</span> B2 · 4分</div>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-thumb" style="background:#f0fdf4;">💹</div>
+          <div class="article-info">
+            <div class="title">Tech Stocks Rally as Fed Signals Rate Cut</div>
+            <div class="meta"><span class="read-badge">読了</span> B1 · 3分</div>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-thumb" style="background:#fff7ed;">🏆</div>
+          <div class="article-info">
+            <div class="title">Japan's Athletes Eye Record Medal Count at 2026 Games</div>
+            <div class="meta"><span class="read-badge">読了</span> B1 · 3分</div>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-thumb" style="background:#fdf4ff;">🤖</div>
+          <div class="article-info">
+            <div class="title">OpenAI Announces New AI Safety Commitments</div>
+            <div class="meta"><span class="unread-badge">未読</span> B2 · 5分</div>
+          </div>
+        </div>
+        <div class="article-item">
+          <div class="article-thumb" style="background:#fff1f2;">🏙️</div>
+          <div class="article-info">
+            <div class="title">Tokyo Real Estate Prices Hit 30-Year High</div>
+            <div class="meta"><span class="unread-badge">未読</span> B2 · 4分</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flashcard Widget -->
+    <div class="widget">
+      <div class="widget-header">🃏 単語フラッシュカード</div>
+      <div class="widget-body">
+        <div class="flashcard">
+          <div class="flashcard-word">consensus</div>
+          <div class="flashcard-phonetic">/kənˈsɛnsəs/</div>
+          <div class="flashcard-def">一般的な合意・総意。<br>グループ全体が同意する意見。</div>
+        </div>
+        <div style="font-size:0.75rem;color:#888;text-align:center;margin-bottom:10px;">
+          この単語をどれくらい知っていましたか？
+        </div>
+        <div class="flashcard-btns">
+          <button class="fc-btn hard">😓 難しい</button>
+          <button class="fc-btn ok">🤔 まあまあ</button>
+          <button class="fc-btn easy">😊 簡単</button>
+        </div>
+        <div style="text-align:center;margin-top:12px;font-size:0.75rem;color:#aaa;">
+          残り 8語 | 今日の単語カード
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Vocab tooltip
+var vocab = document.querySelectorAll('.vocab');
+var tooltip = document.getElementById('tooltip');
+
+vocab.forEach(function(el) {
+  el.addEventListener('mouseenter', function(e) {
+    document.getElementById('tt-word').textContent = el.dataset.word;
+    document.getElementById('tt-def').textContent = el.dataset.def;
+    document.getElementById('tt-ex').textContent = '"' + el.dataset.ex + '"';
+    tooltip.classList.add('show');
+    var rect = el.getBoundingClientRect();
+    tooltip.style.left = Math.min(rect.left + window.scrollX, window.innerWidth - 250) + 'px';
+    tooltip.style.top = (rect.bottom + window.scrollY + 8) + 'px';
+  });
+  el.addEventListener('mouseleave', function() {
+    tooltip.classList.remove('show');
+  });
+});
+
+// Option selection
+function selectOption(el, correct) {
+  var card = el.closest('.question-card');
+  card.querySelectorAll('.option').forEach(function(o) {
+    o.classList.remove('correct', 'incorrect');
+    o.onclick = null;
+  });
+  el.classList.add(correct ? 'correct' : 'incorrect');
+  if (!correct) {
+    card.querySelectorAll('.option').forEach(function(o) {
+      // highlight correct on wrong answer
+    });
+  }
+}
+
+function submitQuiz() {
+  alert('2問中 1問正解！\n単語の学習も忘れずに。');
+}
+
+function toggleMode(btn, mode) {
+  document.querySelectorAll('.tool-btn').forEach(function(b) {
+    b.classList.remove('active');
+  });
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>
