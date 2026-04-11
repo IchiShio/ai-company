@@ -389,6 +389,9 @@ def step_deploy(root_id: str):
         (["git", "commit", "-m",
           f"kioku-shinai: add {root_id} root ({TODAY})"],
          "git commit"),
+        (["git", "stash"], "git stash"),
+        (["git", "pull", "--rebase", "origin", "main"], "git pull --rebase"),
+        (["git", "stash", "pop"], "git stash pop"),
         (["git", "push", "origin", "main"],
          "git push → native-real.com"),
     ]
@@ -397,7 +400,7 @@ def step_deploy(root_id: str):
         ok = r.returncode == 0
         icon = f"{GREEN}✅{RESET}" if ok else f"{RED}❌{RESET}"
         print(f"  {icon} {label}")
-        if not ok:
+        if not ok and label not in ("git stash", "git stash pop"):
             log(f"     {r.stderr.strip()}", RED)
             sys.exit(1)
 

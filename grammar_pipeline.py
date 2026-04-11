@@ -326,6 +326,9 @@ def step_deploy():
     steps = [
         (["git", "add", "grammar/questions_extra.js", "grammar/staging.json"], "git add"),
         (["git", "commit", "-m", f"grammar: auto-generate questions ({TODAY})"], "git commit"),
+        (["git", "stash"], "git stash"),
+        (["git", "pull", "--rebase", "origin", "main"], "git pull --rebase"),
+        (["git", "stash", "pop"], "git stash pop"),
         (["git", "push", "origin", "main"], "git push → native-real.com"),
     ]
     for cmd, label in steps:
@@ -333,7 +336,7 @@ def step_deploy():
         ok = r.returncode == 0
         icon = f"{GREEN}✅{RESET}" if ok else f"{RED}❌{RESET}"
         print(f"  {icon} {label}")
-        if not ok:
+        if not ok and label not in ("git stash", "git stash pop"):
             log(f"     {r.stderr.strip()}", RED)
             sys.exit(1)
 
