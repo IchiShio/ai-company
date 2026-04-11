@@ -22,3 +22,5 @@ listening/axis_cache.json
 # qa-solver-log is tracked (QA reports)
 missing_vocab.json
 service-account-key.json
+.feedback_last_check
+feedback-reports/

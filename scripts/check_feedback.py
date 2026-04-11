@@ -7,11 +7,13 @@ Firestoreのfeedbackコレクションを取得し、対応方針付きで整理
   python3 scripts/check_feedback.py           # 未対応のみ表示
   python3 scripts/check_feedback.py --all     # すべて表示
   python3 scripts/check_feedback.py --mark ID # 指定IDを対応済みにする
+  python3 scripts/check_feedback.py --notify  # 新着があればmacOS通知を送る（cron用）
 """
 import sys
 import os
 import json
-from datetime import datetime
+import subprocess
+from datetime import datetime, timezone
 
 # プロジェクトルートを基準にサービスアカウントキーを参照
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -136,6 +138,58 @@ def display(items):
     print(f"{'='*60}\n")
 
 
+LAST_CHECK_FILE = os.path.join(PROJECT_ROOT, ".feedback_last_check")
+
+
+def get_last_check_time():
+    if os.path.exists(LAST_CHECK_FILE):
+        with open(LAST_CHECK_FILE, "r") as f:
+            ts = f.read().strip()
+            return datetime.fromisoformat(ts)
+    return None
+
+
+def save_last_check_time():
+    with open(LAST_CHECK_FILE, "w") as f:
+        f.write(datetime.now(timezone.utc).isoformat())
+
+
+def notify_new():
+    """新着フィードバックがあればmacOS通知を送る"""
+    last = get_last_check_time()
+    items = fetch_feedback(show_all=False)
+
+    if last:
+        new_items = []
+        for item in items:
+            created = item.get("createdAt")
+            if created and hasattr(created, "timestamp"):
+                if created.replace(tzinfo=timezone.utc) > last:
+                    new_items.append(item)
+        items = new_items
+
+    save_last_check_time()
+
+    if not items:
+        return
+
+    count = len(items)
+    cats = {}
+    for item in items:
+        cat = CATEGORY_LABELS.get(item.get("category", "other"), "その他")
+        cats[cat] = cats.get(cat, 0) + 1
+    summary = "、".join(f"{k}{v}件" for k, v in cats.items())
+
+    title = f"native-real: 新着フィードバック {count}件"
+    body = summary
+
+    subprocess.run([
+        "osascript", "-e",
+        f'display notification "{body}" with title "{title}" sound name "Glass"'
+    ])
+    print(f"  通知送信: {title} — {body}")
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
 
@@ -145,6 +199,10 @@ if __name__ == "__main__":
             mark_resolved(args[idx + 1])
         else:
             print("  エラー: --mark の後にドキュメントIDを指定してください")
+        sys.exit(0)
+
+    if "--notify" in args:
+        notify_new()
         sys.exit(0)
 
     show_all = "--all" in args
