@@ -141,7 +141,85 @@ def step_generate(count: int):
     log(f"  ✅ {line_count}問 生成 → grammar/staging.json", GREEN)
 
 
-# ─── Step 2: Claude Code QC ──────────────────────────────────────────────────
+# ─── Step 2a: Claude Code ファクトチェック ────────────────────────────────────
+
+def step_factcheck():
+    log(f"\n{'─'*60}")
+    log(f"  Step 2a / Claude Code → 文法ファクトチェック", BOLD + CYAN)
+    log(f"{'─'*60}")
+
+    if not STAGING_PATH.exists() or not STAGING_PATH.read_text().strip():
+        log("  ❌ grammar/staging.json が空です", RED)
+        sys.exit(1)
+
+    factcheck_prompt = """grammar/staging.json に英語文法問題のドラフトが入っています。
+デプロイ前の最終ファクトチェックとして、以下を厳密に検証してください。
+
+## 検証項目（全問・全選択肢）
+
+### A. 文法ルールの正確性
+- stem の英文が標準的な英語として自然か
+- answer として指定された語句が、その文脈で**唯一の正解**か
+- 他の choices が「誤答として本当に誤り」かを1つずつ確認する
+  - 「文脈次第では正解になりうる」選択肢がないか特に注意
+  - 例: "would give" と "would have given" は両方使える文脈があるため注意
+
+### B. 解説の正確性
+- expl の説明が言語学的・文法的に正確か
+- 誤答の「なぜ誤りか」の理由が正確か（「時制が合わない」「不定詞が必要」など）
+- rule フィールドの文法ルールが一般的に認められたルールか
+
+### C. 問題の品質
+- 問題として成立しているか（曖昧さがないか）
+- TOEIC・英検の出題傾向として適切か
+
+## アクション
+
+- 問題あり → staging.json の該当フィールドを直接修正する
+- 修正不可能なレベルの問題（stem 自体が成立しないなど）→ その問題を staging.json から削除する
+- 問題なし → そのまま
+
+## 完了報告
+各問題について「✅ 合格」または「⚠️ 修正: [内容]」または「❌ 削除: [理由]」を報告してください。
+最後に「FACTCHECK DONE: N問合格 / M問修正 / K問削除」と出力してください。
+"""
+
+    cmd = [
+        "claude", "-p", factcheck_prompt,
+        "--allowedTools", "Read,Edit",
+        "--dangerously-skip-permissions",
+        "--system-prompt", "You are an expert English linguist and grammar fact-checker. Verify grammar rules with precision.",
+    ]
+
+    log(f"  claude -p 実行中 ... （1〜2分かかる場合があります）")
+    try:
+        result = subprocess.run(
+            cmd, cwd=BASE_DIR, capture_output=True, text=True, timeout=360
+        )
+    except subprocess.TimeoutExpired:
+        log("  ❌ ファクトチェックがタイムアウト（360秒）", RED)
+        sys.exit(1)
+
+    if result.stdout:
+        for line in result.stdout.strip().split("\n"):
+            print(f"  {line}")
+    if result.returncode != 0:
+        log("  ❌ Claude Code 終了コード異常:", RED)
+        if result.stderr:
+            for line in result.stderr.strip().split("\n"):
+                print(f"  {RED}{line}{RESET}")
+        sys.exit(1)
+
+    # staging が空になっていたら（全問削除）中断
+    remaining = STAGING_PATH.read_text().strip()
+    if not remaining or remaining in ("[]", ""):
+        log("  ⚠️  全問削除されました — デプロイをスキップします", YELLOW)
+        sys.exit(0)
+
+    log(f"  ✅ ファクトチェック完了", GREEN)
+
+
+# ─── Step 2b: Claude Code QC ─────────────────────────────────────────────────
 
 def step_qc():
     log(f"\n{'─'*60}")
@@ -267,21 +345,23 @@ def main():
     parser = argparse.ArgumentParser(description="文法問題自動生成パイプライン (Gemma4 → Claude Code QC → Deploy)")
     parser.add_argument("--count", type=int, default=5, metavar="N", help="生成問題数 (default: 5)")
     parser.add_argument("--dry-run", action="store_true", help="デプロイしない（確認用）")
-    parser.add_argument("--step", choices=["generate", "qc", "deploy"],
+    parser.add_argument("--step", choices=["generate", "factcheck", "qc", "deploy"],
                         help="特定ステップのみ実行")
     args = parser.parse_args()
 
     log(f"\n{'═'*60}", BOLD)
     log(f"  Grammar Pipeline  —  {TODAY}", BOLD)
-    log(f"  Gemma4:e4b  →  Claude Code QC  →  native-real.com", BOLD)
+    log(f"  Gemma4:e4b → Factcheck → QC → native-real.com", BOLD)
     log(f"{'═'*60}")
 
     if args.step:
-        {"generate": lambda: step_generate(args.count),
-         "qc":       step_qc,
-         "deploy":   step_deploy}[args.step]()
+        {"generate":   lambda: step_generate(args.count),
+         "factcheck":  step_factcheck,
+         "qc":         step_qc,
+         "deploy":     step_deploy}[args.step]()
     else:
         step_generate(args.count)
+        step_factcheck()
         step_qc()
         if args.dry_run:
             log(f"\n  [dry-run] デプロイをスキップしました", YELLOW)
