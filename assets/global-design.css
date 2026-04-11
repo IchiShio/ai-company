@@ -93,6 +93,12 @@ html {
 .site-header-logo {
   color: rgba(26,26,26,0.88) !important;
 }
+.site-header-logo svg {
+  width: 18px !important;
+  height: 18px !important;
+  color: #F5A623 !important;
+  flex-shrink: 0 !important;
+}
 
 .site-header-nav > a {
   color: rgba(26,26,26,0.55) !important;
