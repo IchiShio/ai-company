@@ -267,7 +267,7 @@ JSONのトップレベルに以下の2フィールドを追加して上書き保
 ファイル保存後に「FACTCHECK DONE: N語合格 / M語修正 / K語削除 — APPROVED書き込み済み」と出力してください。
 """
 
-    ok = run_claude(prompt, f"{root_id} ファクトチェック", timeout=480)
+    ok = run_claude(prompt, f"{root_id} ファクトチェック", timeout=720)
     if not ok:
         sys.exit(1)
 

@@ -143,7 +143,7 @@ staging.json のパス: {staging_path}
 
 最後に各ストーリーのチェック結果を簡潔に報告してください（OK / 修正済み）。
 """
-    ok = run_claude(prompt, "ReadUp factcheck")
+    ok = run_claude(prompt, "ReadUp factcheck", timeout=600)
     if ok:
         log(f"  ✅ Factcheck 完了", GREEN)
     else:
@@ -189,7 +189,7 @@ staging.json のパス: {staging_path}
 
 修正完了後、チェック結果を報告してください。
 """
-    ok = run_claude(prompt, "ReadUp QC")
+    ok = run_claude(prompt, "ReadUp QC", timeout=600)
     if not ok:
         log(f"  ⚠️  QC に問題がありました。staging.json を確認してください", YELLOW)
         sys.exit(1)
