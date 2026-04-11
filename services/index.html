@@ -136,11 +136,11 @@
 :root {
   --primary: #2563eb;
   --primary-light: #3b82f6;
-  --primary-dark: #1d4ed8;
-  --primary-pale: #eff6ff;
-  --accent: #10b981;
-  --accent-dark: #059669;
-  --accent-pale: #ecfdf5;
+  --primary-dark: #b87010;
+  --primary-pale: rgba(245,166,35,0.10);
+  --accent:#F5A623;
+  --accent-dark:#d4891a;
+  --accent-pale:rgba(245,166,35,0.08);
   --text: #111827;
   --text-muted: #6b7280;
   --bg: #F8F6F1;
@@ -324,8 +324,8 @@ img { max-width: 100%; height: auto; }
   white-space: nowrap;
   flex-shrink: 0;
 }
-.tag-online { background: #eff6ff; color: #1d4ed8; }
-.tag-coaching { background: #f5f3ff; color: #6d28d9; }
+.tag-online { background: rgba(245,166,35,0.10); color: #b87010; }
+.tag-coaching { background: #f5f3ff; color: #e8a020; }
 .tag-app { background: #ecfdf5; color: #065f46; }
 .stars { color: #f59e0b; font-size: 1rem; letter-spacing: 1px; }
 .score { font-weight: 700; color: var(--text); margin-left: 4px; font-size: 0.88rem; }
@@ -379,7 +379,7 @@ img { max-width: 100%; height: auto; }
   text-align: center;
   white-space: nowrap;
   transition: background 0.15s, transform 0.15s;
-  box-shadow: 0 2px 8px rgba(16,185,129,0.2);
+  box-shadow: 0 2px 8px rgba(245,166,35,0.2);
 }
 .btn-primary:hover { background: var(--accent-dark); color: white; transform: translateY(-1px); }
 .btn-secondary {

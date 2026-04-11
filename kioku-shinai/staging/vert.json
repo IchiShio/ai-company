@@ -1,0 +1,584 @@
+{
+  "fact_check": "APPROVED",
+  "checked_at": "2026-04-11",
+  "root": "vert/vers",
+  "rootMeaning": "向ける・回る",
+  "rootLang": "ラテン語 vertere（PIE *wer-「回す」）",
+  "imageSchema": "向きを変えて別の方向へ進む運動イメージ。ハンドルを「回す」ように、人・物・概念の向きを変える動き。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "vert/versが見えたら「向ける・回る」と読み替える。invert（逆に向ける）、convert（共に向け変える）、reverse（後ろに向ける）。20語が一つのイメージで読める。"
+  },
+  "words": [
+    {
+      "word": "introvert",
+      "phonetic": "/ˈɪntrəvɜːrt/",
+      "toeicRank": 16,
+      "parts": [
+        {
+          "part": "intro",
+          "meaning": "内へ",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "intro（内へ）+ vertere（向ける）= 内へ向けられた人",
+        "fact": "ラテン語 introvertere「内に向ける」から。17世紀（1650年代）に「内向きにする」の動詞として使われたが、1917年頃にカール・ユングの著作が英語圏に紹介され内向型の性格タイプを表す心理学用語として普及。名詞「内向的な人」は20世紀初頭から定着。",
+        "source": "EtymOnline: introvert",
+        "cognates": [
+          "introverted",
+          "introversion",
+          "extrovert",
+          "ambivert"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "エネルギーと注意を内側に向ける→独処で充電する性格タイプ",
+        "fact": "DIRECTIONスキーマの応用。エネルギーや意識の「向き」が内側(intro-)に固定されている(vert)人。外向き(extrovert)と対をなす概念。充電を一人でする=エネルギーが内に向かっている、という方向性の比喩。",
+        "source": "Lakoff & Johnson (1980) 方向性メタファー"
+      },
+      "gap": "「内向的な人」と訳すが、「恥ずかしがり屋」ではなく「一人の時間でエネルギーを回復する人」が正確。TOEICのビジネス文書では introverted personality / introversion が職場環境の文脈で登場する。extrovert との対比でセットで覚えると定着が早い。",
+      "gapOneliner": "introvert = 恥ずかしがり屋ではなく「内向きにエネルギーを向ける人」",
+      "hook": {
+        "label": "記憶フック",
+        "text": "intro（内へ）+ vert（向ける）＝内に向ける人。パーティの後で一人の部屋に戻ってエネルギーを充填する人がintrovert。extrovert（外向き）と対で覚える。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "introvertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "内へ向ける→内向きの人",
+            "前へ向ける→先進的な人",
+            "上へ向ける→野心的な人",
+            "外へ向ける→外交的な人"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "intro + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "内へ + 向ける = 内向きの人",
+            "内へ + 走る = 引きこもり",
+            "深く + 向ける = 熟考する人",
+            "逆に + 向ける = 反論する人"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is a classic ______ who recharges by spending time alone.",
+          "hint": "「内へ向けられた人」→「内向的な人」",
+          "explanationFocus": "gap",
+          "choices": [
+            "introvert",
+            "extrovert",
+            "convert",
+            "revert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "introvertと最も自然に結びつく表現は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "quiet introvert（静かな内向的人）",
+            "loud introvert（うるさい内向的人）",
+            "fast introvert（速い内向的人）",
+            "heavy introvert（重い内向的人）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"As an introvert, he finds large meetings draining.\" — introvertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "内向きの人",
+            "外交的な人",
+            "積極的な人",
+            "慎重な人"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She is a classic introvert who recharges by spending time alone.",
+        "Being an introvert doesn't mean he lacks social skills.",
+        "The team has a healthy mix of introverts and extroverts."
+      ]
+    },
+    {
+      "word": "anniversary",
+      "phonetic": "/ˌænɪˈvɜːrsəri/",
+      "toeicRank": 17,
+      "parts": [
+        {
+          "part": "anni",
+          "meaning": "年",
+          "type": "prefix"
+        },
+        {
+          "part": "vers",
+          "meaning": "回る・巡る",
+          "type": "root"
+        },
+        {
+          "part": "ary",
+          "meaning": "関連する（形容詞・名詞語尾）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "anni（年）+ versus（回った）+ ary = 年が一巡してくる日 → 記念日",
+        "fact": "ラテン語 anniversarius「年に一度回ってくる」から。annus（年）+ vertere（回る）の形容詞形 anniversarius が中英語に入り13世紀初頭（c. 1200）頃から使用。もとはカトリックの聖人・殉教者の「忌日」を指し、のちに祝賀的な記念日全般に拡張。",
+        "source": "EtymOnline: anniversary",
+        "cognates": [
+          "annual",
+          "per annum",
+          "perennial",
+          "millennium"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "年という円環が一周して同じ地点に戻ってくる→記念日",
+        "fact": "CYCLEスキーマの典型。時間を円環として捉え、365日という「一周(vers)」が「年(anni)」単位で繰り返される。「記念日」とは、その円環が同じ地点に戻ってきた日。誕生日も wedding anniversary も同じ時間的循環モデル。",
+        "source": "Lakoff (1993) 時間の円環メタファー"
+      },
+      "gap": "「記念日」と一言で覚えると、10th anniversary（10周年）や anniversary sale（創業記念セール）の数字・文脈を処理しにくい。「年が n 周巡った」と捉えると 5th anniversary = 5年目の巡りと自然に理解できる。TOEICパート7の社内通知でも頻出。",
+      "gapOneliner": "anniversary = 年(anni)が n 周巡った(vers)日 → n 周年記念日",
+      "hook": {
+        "label": "記憶フック",
+        "text": "anni（年）+ vers（回る）。地球が太陽を「一回り(vers)」するのが「一年(anni)」。その一周が戻ってくる日がanniversary（記念日）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "anniversaryの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "年が一巡した日→記念日",
+            "年に一度の祭り→祝祭日",
+            "年を重ねた日→誕生日",
+            "年の始まりの日→元日"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "anni + vers の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "年 + 回る = 年が一巡した日",
+            "多い + 回る = 頻繁に繰り返す",
+            "始まり + 向く = 出発点",
+            "同じ + 時間 = 定期的な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "We are celebrating our company's 50th ______.",
+          "hint": "「年が50周巡った」→「50周年」",
+          "explanationFocus": "gap",
+          "choices": [
+            "anniversary",
+            "birthday",
+            "ceremony",
+            "holiday"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "anniversaryと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "wedding anniversary（結婚記念日）",
+            "working anniversary（業務記念日）",
+            "sleeping anniversary（睡眠記念日）",
+            "reading anniversary（読書記念日）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The store is having a 20th anniversary sale this weekend.\" — anniversaryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "20周年の",
+            "20日間の",
+            "20種類の",
+            "20倍引きの"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "We are celebrating our company's 50th anniversary.",
+        "She bought him a gift for their wedding anniversary.",
+        "The anniversary sale attracted thousands of customers."
+      ]
+    },
+    {
+      "word": "vertigo",
+      "phonetic": "/ˈvɜːrtɪɡoʊ/",
+      "toeicRank": 18,
+      "parts": [
+        {
+          "part": "vert",
+          "meaning": "回る",
+          "type": "root"
+        },
+        {
+          "part": "igo",
+          "meaning": "状態・疾患を表す名詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "vertere（回る）+ -igo（疾患名詞）= 世界が回っている感覚 → めまい",
+        "fact": "ラテン語 vertigo「回転、目眩」から直接英語に入った。vertere（回す、向ける）の派生名詞で、15世紀初頭に医学用語として使用開始。ヒッチコック映画『めまい(Vertigo, 1958)』で一般にも広く知られる語になった。",
+        "source": "EtymOnline: vertigo",
+        "cognates": [
+          "vertiginous",
+          "vertex",
+          "vortex",
+          "vertebra"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "世界が自分の周りを回っているような感覚→めまい・高所恐怖",
+        "fact": "身体的回転経験スキーマの乱れ。通常は自分が回っているが、vertigo では世界や周囲の環境が回転しているように感じる感覚の逆転。「回転(vert-)する感覚(-igo)」という語源が症状をそのまま記述している。",
+        "source": "認知神経科学：前庭感覚の空間モデル（医学的記述。認知言語学のイメージスキーマとしては身体経験の具体的カテゴリ）"
+      },
+      "gap": "「めまい」の中でも、単なるふらつき(dizziness)とは区別される「世界がぐるぐる回る」感覚が vertigo。TOEICの医療・健康文書では dizziness と並んで登場する。高所の恐怖・不安を比喩的に「heights give me vertigo」と表現することもある。",
+      "gapOneliner": "vertigo = ただの「めまい」でなく「世界が回転して見える」特有の感覚",
+      "hook": {
+        "label": "記憶フック",
+        "text": "vert（回る）+ igo（疾患）＝「回転する」病気。高い場所から見下ろした時に世界がぐるぐる回って見える感覚がvertigo（めまい・高所恐怖）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "vertigoの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "回転する感覚→めまい",
+            "倒れる感覚→失神",
+            "揺れる感覚→船酔い",
+            "止まる感覚→麻痺"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "vert + igo の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "回る + 疾患 = めまい",
+            "高い + 感覚 = 高揚感",
+            "落ちる + 状態 = 落下感",
+            "止まる + 病気 = 麻痺"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She suffers from ______ and cannot look down from tall buildings.",
+          "hint": "「回転する感覚」→「めまい・高所恐怖」",
+          "explanationFocus": "gap",
+          "choices": [
+            "vertigo",
+            "fatigue",
+            "nausea",
+            "anxiety"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "vertigoと最も自然に結びつく動詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "suffer from vertigo（めまいに苦しむ）",
+            "create vertigo（めまいを作る）",
+            "study vertigo（めまいを研究する）",
+            "enjoy vertigo（めまいを楽しむ）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The steep cliff gave him a sudden sense of vertigo.\" — vertigoの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "めまい・目が回る感覚",
+            "恐怖・パニック",
+            "興奮・高揚感",
+            "疲労・脱力感"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "She suffers from vertigo and cannot stand near the edge.",
+        "The doctor diagnosed him with benign positional vertigo.",
+        "Heights give me vertigo, so I avoid tall buildings."
+      ]
+    },
+    {
+      "word": "pervert",
+      "phonetic": "/pərˈvɜːrt/ (動詞) / /ˈpɜːrvɜːrt/ (名詞)",
+      "toeicRank": 19,
+      "parts": [
+        {
+          "part": "per",
+          "meaning": "悪い方向に・〜から離れて（ラテン語 per = away）",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "per（悪い方向に完全に）+ vertere（向ける）= 正しい方向から完全に歪める",
+        "fact": "ラテン語 pervertere「ひっくり返す、転覆させる、堕落させる」から。14世紀に「誤った方向に向ける、道を踏み外させる」の意味で英語に入り、宗教・道徳的な文脈で使われた。名詞「変質者」の意味は1897年から（第1音節強調に変化）。",
+        "source": "EtymOnline: pervert",
+        "cognates": [
+          "perverted",
+          "perversion",
+          "perverse",
+          "perversity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "正しい方向から完全に逆側に向けてしまう→歪める・堕落させる",
+        "fact": "DIRECTIONスキーマの逸脱。per- は「完全に・徹底的に」または「悪い方向に」を示す強意の接頭辞。正しい向き(vert)から完全に(per-)外れた方向に押し込む動き。「真実を歪める(pervert the truth)」が最も典型的な用法。",
+        "source": "Johnson (1987) DIRECTIONスキーマ"
+      },
+      "gap": "動詞と名詞で発音が異なる（動詞=/pərˈvɜːrt/ 名詞=/ˈpɜːrvɜːrt/）点に注意。TOEICでは名詞の猥褻な意味より、動詞「歪める・悪用する」の用法が重要。pervert the course of justice（司法を歪める）、pervert the meaning（意味を曲解する）など。",
+      "gapOneliner": "pervert = 動詞「歪める・悪用する」が試験頻出、名詞より先に覚える",
+      "hook": {
+        "label": "記憶フック",
+        "text": "per（完全に）+ vert（向ける）。正しい道から「完全に別方向に向けてしまう」のがpervert。真実をpervert（歪める）、正義をpervert（曲げる）。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "pervertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "完全に別方向へ向ける→歪める",
+            "後ろへ向ける→後退させる",
+            "前へ向ける→推進する",
+            "上へ向ける→向上させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "per + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "完全に + 向ける = 歪める・堕落させる",
+            "繰り返し + 向ける = 反復する",
+            "少し + 向ける = 修正する",
+            "前に + 向ける = 推進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "He tried to ______ the course of justice by bribing witnesses.",
+          "hint": "「完全に歪める」→「司法を曲げる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "pervert",
+            "convert",
+            "divert",
+            "revert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "pervertと最も自然に結びつく目的語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "the course of justice（司法を歪める）",
+            "the course of history（歴史を歪める）",
+            "the rules of grammar（文法を歪める）",
+            "the mood of the meeting（会議の雰囲気を歪める）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The report accused him of perverting the truth.\" — pervertingの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "歪める・曲解する",
+            "隠す・秘密にする",
+            "広める・拡散する",
+            "否定する・反論する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "He was charged with attempting to pervert the course of justice.",
+        "Don't pervert the meaning of what I said.",
+        "The investigation found evidence that he had perverted official records."
+      ]
+    },
+    {
+      "word": "revert",
+      "phonetic": "/rɪˈvɜːrt/",
+      "toeicRank": 20,
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "後ろへ・元に戻る",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向く・戻る",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ vertere（向ける）= 元の方向に向き直す → 元に戻る",
+        "fact": "ラテン語 revertere「引き返す、元に戻る」から。14世紀初頭（c. 1300）に「意識を取り戻す・元の状態に戻る」の意味で英語に入り、15世紀中期以降に法律用語として「財産が元の持ち主に戻る」の意味で定着。のちに一般的な「元の状態に戻る」へ拡張。ビジネスメールで「後ほど返信します(I'll revert)」と使う用法は主に南アジア英語の慣用。",
+        "source": "EtymOnline: revert",
+        "cognates": [
+          "reversion",
+          "reversible",
+          "reverse",
+          "irreversible"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "一度進んだ方向から元に向き直す→以前の状態・習慣・計画に戻る",
+        "fact": "SOURCE-PATH-GOALスキーマの逆行パターン。進行方向から体を後ろ(re-)に向け直す(vert)動き。「以前の状態への逆方向移動」を表す。revert to type（本来の姿に戻る）、revert to old habits（昔の習慣に戻る）など、変化後に元に戻るパターンで使われる。",
+        "source": "Johnson (1987) SOURCE-PATH-GOALスキーマ（逆行的適用）"
+      },
+      "gap": "「元に戻る」と訳すだけでは revert to the original plan（元の計画に立ち戻る）やrevert to type（本来の性格が出る）などのニュアンスを捉えにくい。「方向を後ろに向け直す」という語源感覚を持つと、「変化が起きた後に前の状態の方向を向く」と直感的に理解できる。",
+      "gapOneliner": "revert = 変化後に「以前の状態へ向きを戻す」→元に戻る・逆戻りする",
+      "hook": {
+        "label": "記憶フック",
+        "text": "re（戻る）+ vert（向く）。ダイエット後に「元の食生活の方向に向き直す」のがrevert。計画を変えたけど「元の計画の方向に向き直す」のもrevert。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "revertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "後ろへ向き直す→元に戻る",
+            "再び向ける→繰り返す",
+            "上へ向ける→改善する",
+            "外へ向ける→公開する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "戻る + 向く = 元の状態に戻る",
+            "再び + 動く = やり直す",
+            "強く + 変える = 完全に変える",
+            "遠く + 向ける = 脱線する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "After the experiment, the team decided to ______ to the original plan.",
+          "hint": "「元の方向に向き直す」→「元の計画に戻る」",
+          "explanationFocus": "gap",
+          "choices": [
+            "revert",
+            "convert",
+            "divert",
+            "invert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "revertと最も自然に結びつく前置詞は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "revert to（〜に戻る）",
+            "revert from（〜から戻る）",
+            "revert into（〜の中に戻る）",
+            "revert by（〜によって戻る）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Under stress, he tends to revert to his old habits.\" — revertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "逆戻りする",
+            "克服する",
+            "改善する",
+            "継続する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        "Under stress, she tends to revert to her old habits.",
+        "The company decided to revert to its original pricing strategy.",
+        "After the software update failed, the system reverted to the previous version."
+      ]
+    }
+  ]
+}

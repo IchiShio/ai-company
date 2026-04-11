@@ -240,11 +240,11 @@
 :root {
   --primary: #2563eb;
   --primary-light: #3b82f6;
-  --primary-dark: #1d4ed8;
-  --primary-pale: #eff6ff;
-  --accent: #10b981;
-  --accent-dark: #059669;
-  --accent-pale: #ecfdf5;
+  --primary-dark: #b87010;
+  --primary-pale: rgba(245,166,35,0.10);
+  --accent:#F5A623;
+  --accent-dark:#d4891a;
+  --accent-pale:rgba(245,166,35,0.08);
   --text: #111827;
   --text-muted: #6b7280;
   --bg: #F8F6F1;
@@ -426,7 +426,7 @@ img { max-width: 100%; height: auto; }
 .card-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; flex-shrink: 0; min-width: 130px; }
 .btn-primary {
   display: inline-block;
-  background: #10b981;
+  background:#F5A623;
   color: white;
   padding: 11px 20px;
   border-radius: var(--radius);
@@ -436,7 +436,7 @@ img { max-width: 100%; height: auto; }
   text-align: center;
   white-space: nowrap;
   transition: background 0.2s, transform 0.15s;
-  box-shadow: 0 3px 10px rgba(16,185,129,0.3);
+  box-shadow: 0 3px 10px rgba(245,166,35,0.3);
 }
 .btn-primary:hover { background: #059669; color: white; transform: translateY(-2px); }
 .btn-secondary {
@@ -847,9 +847,9 @@ img { max-width: 100%; height: auto; }
 
 /* Pulse animation for CTA buttons */
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
-  70% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(245,166,35, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(245,166,35, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(245,166,35, 0); }
 }
 .btn-primary { animation: pulse 2s infinite; }
 
@@ -1026,7 +1026,7 @@ img { max-width: 100%; height: auto; }
 </div>
 
 <div style="background:#FDFCF9;border:2px solid #3b82f6;border-radius:12px;padding:20px 24px;margin:20px 0;">
-  <p style="font-size:1.0rem;font-weight:700;margin-bottom:12px;color:#1d4ed8;">レアジョブを選ぶ人が多い3つの理由</p>
+  <p style="font-size:1.0rem;font-weight:700;margin-bottom:12px;color:#b87010;">レアジョブを選ぶ人が多い3つの理由</p>
   <ul style="margin:0 0 0 20px;padding:0;">
     <li style="margin-bottom:8px;">累計会員数120万人超・東証プライム上場で<strong>安心感が段違い</strong></li>
     <li style="margin-bottom:8px;">ビジネス英語コースが充実、<strong>法人導入4,000社以上の実績</strong></li>
