@@ -23,7 +23,7 @@
 ## native-real MAU強化
 
 - [x] grammar: GrammarUp 問題15問追加（g1548–g1562、仮定法・句動詞・未来完了など） <!-- 2026-04-10 -->
-- [ ] grammar: GrammarUp 問題15問追加（g1563以降）
-- [ ] grammar/index.html: タイトル・meta の問題数を実際の問題数に更新（現在295問表記、実際は1,515問）
+- [x] grammar: GrammarUp 問題15問追加（g1563–g1577、比較・受動態・関係詞・条件文・仮定法など） <!-- 2026-04-11 -->
+- [ ] grammar/index.html: questions_extra2.js のscriptタグ追加 + タイトル・meta の問題数を実際の問題数に更新（現在295問表記、実際は1,530問）
 - [ ] listening: リスニング問題20問追加（speed/distractor軸を補強）
 - [ ] words/: 単語クイズに TOEIC 頻出語句20語追加
