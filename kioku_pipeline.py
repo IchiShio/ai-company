@@ -426,7 +426,17 @@ def main():
         print()
         return
 
-    roots = args.roots if args.roots else ([args.root] if args.root else [])
+    # --root next: ROOT_META の中で未収録の最初の語根を自動選択
+    root_arg = args.root
+    if root_arg == "next":
+        existing = set(get_existing_roots())
+        root_arg = next((rid for rid in ROOT_META if rid not in existing), None)
+        if root_arg is None:
+            log("  ✅ すべての語根が収録済みです。追加する語根がありません。", GREEN)
+            sys.exit(0)
+        log(f"  [auto] 次の未収録語根を選択: {root_arg}", CYAN)
+
+    roots = args.roots if args.roots else ([root_arg] if root_arg else [])
     if not roots and not args.step:
         parser.print_help()
         sys.exit(1)
