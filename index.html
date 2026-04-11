@@ -322,6 +322,46 @@
     @media (max-width: 600px) {
       .ranking-cta { flex-direction: column; text-align: center; margin-left: 20px; margin-right: 20px; }
     }
+
+    /* ── GHOST CTA ── */
+    .btn-ghost-lg {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: var(--text-1);
+      font-weight: 600; font-size: 16px;
+      border: 2px solid var(--border-strong); border-radius: 9999px;
+      padding: 16px 28px; cursor: pointer;
+      transition: all var(--t); font-family: inherit; text-decoration: none;
+    }
+    .btn-ghost-lg:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* ── HOW IT WORKS ── */
+    .how-section { padding: 48px 20px 40px; }
+    .how-inner { max-width: 800px; margin: 0 auto; text-align: center; }
+    .how-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-3); margin-bottom: 10px; }
+    .how-h2 { font-size: 22px; font-weight: 800; color: var(--text-1); margin-bottom: 36px; letter-spacing: -0.4px; }
+    .how-steps { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .how-step { display: flex; align-items: flex-start; gap: 14px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; max-width: 220px; text-align: left; }
+    .how-step-num { width: 32px; height: 32px; border-radius: 50%; background: var(--gold-bg); border: 1.5px solid rgba(245,166,35,0.3); display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 800; color: var(--gold); flex-shrink: 0; }
+    .how-step strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-1); margin-bottom: 4px; }
+    .how-step span { font-size: 13px; color: var(--text-3); line-height: 1.5; }
+    .how-arrow { font-size: 20px; color: var(--text-3); flex-shrink: 0; }
+    @media (max-width: 600px) { .how-arrow { transform: rotate(90deg); } .how-steps { flex-direction: column; align-items: center; } .how-step { max-width: 300px; width: 100%; } }
+
+    /* ── FEATURED TOOL CARD ── */
+    .tool-card { position: relative; }
+    .tool-card.featured {
+      border: 2px solid rgba(245,166,35,0.5);
+      background: linear-gradient(135deg, rgba(245,166,35,0.05), var(--bg-elevated));
+      box-shadow: 0 4px 24px rgba(245,166,35,0.12);
+    }
+    .tool-card.featured:hover { box-shadow: 0 8px 40px rgba(245,166,35,0.22); border-color: rgba(245,166,35,0.7); }
+    .tool-card-featured-badge {
+      position: absolute; top: -1px; right: 16px;
+      background: var(--gold); color: #fff;
+      font-size: 11px; font-weight: 700;
+      padding: 4px 10px; border-radius: 0 0 8px 8px;
+      letter-spacing: 0.04em;
+    }
   </style>
   <link rel="stylesheet" href="/assets/global-design.css">
 </head>
@@ -372,7 +412,6 @@
   <a href="/listening/">ListenUp</a>
   <a href="/reading/">ReadUp</a>
   <a href="/sync/">SyncReader</a>
-          <a href="/sync/">SyncReader</a>
   <a href="/grammar/">GrammarUp</a>
   <a href="/words/">WordsUp</a>
   <a href="/kioku-shinai/">語根で覚える英単語</a>
@@ -394,14 +433,15 @@
   <!-- ══════════════════ HERO ══════════════════ -->
   <section class="lp-hero">
     <div class="lp-hero-inner">
-      <div class="hero-badge">✦ 完全無料・登録不要・5つの英語学習ツール</div>
+      <div class="hero-badge">✦ 完全無料・登録不要・6つの英語学習ツール</div>
       <h1 class="hero-h1">英語力を、<br><span class="text-gold">毎日ちょっとずつ</span>。</h1>
-      <p class="hero-sub">リスニング・文法・読解・単語——4つのスキルをクイズ形式で鍛える。<br>5,000問以上、すべて無料。今日から始めよう。</p>
+      <p class="hero-sub">リスニング・文法・読解・単語をクイズ形式で毎日鍛える。<br>6つの無料ツール・5,000問以上。登録なしで今すぐ始められる。</p>
       <div class="hero-ctas">
         <a class="btn-primary-lg" href="/listening/">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
           一番人気のListenUpを試す
         </a>
+        <a class="btn-ghost-lg" href="#tools">全ツールを見る ↓</a>
       </div>
       <p class="hero-fine">アカウント登録なし · 1問30秒 · すぐ始められます</p>
     </div>
@@ -456,12 +496,46 @@
     <div class="stat-item"><div class="stat-num">無料</div><div class="stat-label">登録不要</div></div>
   </div>
 
+  <!-- ══════════════════ HOW IT WORKS ══════════════════ -->
+  <section class="how-section">
+    <div class="how-inner">
+      <p class="how-eyebrow">HOW IT WORKS</p>
+      <h2 class="how-h2">3ステップで始められる</h2>
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="how-step-num">1</div>
+          <div>
+            <strong>ツールを選ぶ</strong>
+            <span>リスニング・文法・読解など好きなスキルから</span>
+          </div>
+        </div>
+        <div class="how-arrow">→</div>
+        <div class="how-step">
+          <div class="how-step-num">2</div>
+          <div>
+            <strong>クイズに挑戦</strong>
+            <span>1問30秒。直感で答えてすぐ解説を確認</span>
+          </div>
+        </div>
+        <div class="how-arrow">→</div>
+        <div class="how-step">
+          <div class="how-step-num">3</div>
+          <div>
+            <strong>弱点を把握</strong>
+            <span>回答パターンを自動分析。苦手なパターンがわかる</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ══════════════════ TOOL SHOWCASE ══════════════════ -->
-  <div class="tool-section">
+  <div class="tool-section" id="tools">
     <div class="tool-section-eyebrow">TOOLS</div>
     <h2 class="tool-section-h2">6つのツールで<span class="text-gold">英語力を鍛える</span></h2>
     <div class="tool-grid">
-      <a href="/listening/" class="tool-card">
+      <a href="/listening/" class="tool-card featured">
+        <span class="tool-card-featured-badge">人気 No.1</span>
         <div class="tool-card-icon" style="background:rgba(245,166,35,0.1);">🎧</div>
         <div class="tool-card-body">
           <div class="tool-card-name">ListenUp</div>
