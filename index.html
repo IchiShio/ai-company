@@ -189,12 +189,9 @@
 
     /* ── ORBS ── */
     .orb { position: fixed; border-radius: 50%; pointer-events: none; z-index: 0; filter: blur(80px); }
-    .orb-1 { width: 700px; height: 700px; background: radial-gradient(circle, rgba(245,166,35,0.10), transparent 70%); top: -250px; left: -200px; animation: float1 16s ease-in-out infinite; }
-    .orb-2 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(245,166,35,0.07), transparent 70%); top: 25%; right: -150px; animation: float2 20s ease-in-out infinite; }
-    .orb-3 { width: 450px; height: 450px; background: radial-gradient(circle, rgba(14,165,233,0.06), transparent 70%); bottom: -100px; left: 15%; animation: float3 24s ease-in-out infinite; }
-    @keyframes float1 { 0%,100%{transform:translate(0,0)} 33%{transform:translate(40px,30px)} 66%{transform:translate(-20px,50px)} }
-    @keyframes float2 { 0%,100%{transform:translate(0,0)} 40%{transform:translate(-30px,-40px)} 70%{transform:translate(20px,-20px)} }
-    @keyframes float3 { 0%,100%{transform:translate(0,0)} 30%{transform:translate(50px,-30px)} 60%{transform:translate(-20px,40px)} }
+    .orb-1 { width: 700px; height: 700px; background: radial-gradient(circle, rgba(245,166,35,0.10), transparent 70%); top: -250px; left: -200px; }
+    .orb-2 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(245,166,35,0.07), transparent 70%); top: 25%; right: -150px; }
+    .orb-3 { width: 450px; height: 450px; background: radial-gradient(circle, rgba(14,165,233,0.06), transparent 70%); bottom: -100px; left: 15%; }
 
     .page-content { position: relative; z-index: 1; }
 
@@ -244,19 +241,28 @@
 
     /* ── FEATURE STRIP ── */
     .feature-strip {
-      display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap;
+      display: grid; grid-template-columns: repeat(3, 1fr);
       background: rgba(26,26,26,0.03); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
     }
-    .feature-item { display: flex; align-items: center; gap: 16px; padding: 24px 32px; border-right: 1px solid var(--border); }
-    .feature-item:last-child { border-right: none; }
-    .feature-icon { width: 48px; height: 48px; border-radius: 12px; background: var(--gold-bg); border: 1px solid rgba(245,166,35,0.18); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); }
-    .feature-icon svg { width: 22px; height: 22px; }
-    .feature-text strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-1); line-height: 1.4; }
-    .feature-text span { font-size: 13px; color: var(--text-3); }
-    @media (max-width: 600px) {
-      .feature-strip { flex-direction: column; }
-      .feature-item { border-right: none; border-bottom: 1px solid var(--border); padding: 18px 20px; }
-      .feature-item:last-child { border-bottom: none; }
+    .feature-item { display: flex; align-items: center; gap: 16px; padding: 22px 28px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .feature-item:nth-child(3n) { border-right: none; }
+    .feature-item:nth-child(n+4) { border-bottom: none; }
+    .feature-icon { width: 44px; height: 44px; border-radius: 12px; background: var(--gold-bg); border: 1px solid rgba(245,166,35,0.18); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--gold); }
+    .feature-icon svg { width: 20px; height: 20px; }
+    .feature-text strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-1); line-height: 1.4; }
+    .feature-text span { font-size: 12px; color: var(--text-3); }
+    @media (max-width: 640px) {
+      .feature-strip { grid-template-columns: repeat(2, 1fr); }
+      .feature-item:nth-child(3n) { border-right: 1px solid var(--border); }
+      .feature-item:nth-child(2n) { border-right: none; }
+      .feature-item:nth-child(n+4) { border-bottom: 1px solid var(--border); }
+      .feature-item:nth-child(n+5) { border-bottom: none; }
+      .feature-item { padding: 16px 18px; }
+    }
+    @media (max-width: 400px) {
+      .feature-strip { grid-template-columns: 1fr; }
+      .feature-item { border-right: none !important; border-bottom: 1px solid var(--border) !important; }
+      .feature-item:last-child { border-bottom: none !important; }
     }
 
     /* ── STATS STRIP ── */
@@ -347,6 +353,15 @@
     .how-arrow { font-size: 20px; color: var(--text-3); flex-shrink: 0; }
     @media (max-width: 600px) { .how-arrow { transform: rotate(90deg); } .how-steps { flex-direction: column; align-items: center; } .how-step { max-width: 300px; width: 100%; } }
 
+    /* ── SITE FOOTER ── */
+    .site-footer { border-top: 1px solid var(--border); padding: 36px 20px; margin-top: 0; background: rgba(26,26,26,0.02); }
+    .site-footer-inner { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; }
+    .site-footer-logo { font-size: 14px; font-weight: 800; color: var(--text-1); letter-spacing: -0.2px; }
+    .site-footer-nav { display: flex; gap: 24px; flex-wrap: wrap; justify-content: center; }
+    .site-footer-nav a { font-size: 13px; color: var(--text-3); text-decoration: none; transition: color var(--t); }
+    .site-footer-nav a:hover { color: var(--text-1); }
+    .site-footer-copy { font-size: 12px; color: var(--text-3); }
+
     /* ── FEATURED TOOL CARD ── */
     .tool-card { position: relative; }
     .tool-card.featured {
@@ -419,7 +434,7 @@
   <a href="/articles/">学習コラム</a>
   <a href="/real-phrases/">フレーズ集</a>
   <a href="/prompts/">AIプロンプト</a>
-  <div class="mobile-nav-label"></div>
+  <div class="mobile-nav-label">英会話</div>
   <a href="/ranking/">英会話スクール</a>
 </div>
 
@@ -485,6 +500,24 @@
         <span>語根から覚える新しい単語学習</span>
       </div>
     </div>
+    <div class="feature-item">
+      <span class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+      </span>
+      <div class="feature-text">
+        <strong>音読×多読</strong>
+        <span>音声に合わせて単語が光るSyncReader</span>
+      </div>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.04"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-1.04"/></svg>
+      </span>
+      <div class="feature-text">
+        <strong>語根学習</strong>
+        <span>丸暗記不要・成り立ちで単語が増える</span>
+      </div>
+    </div>
   </div>
 
   <!-- ══════════════════ STATS STRIP ══════════════════ -->
@@ -492,6 +525,8 @@
     <div class="stat-item"><div class="stat-num">5,000+</div><div class="stat-label">収録問題</div></div>
     <div class="stat-divider"></div>
     <div class="stat-item"><div class="stat-num">6</div><div class="stat-label">学習ツール</div></div>
+    <div class="stat-divider"></div>
+    <div class="stat-item"><div class="stat-num">5種</div><div class="stat-label">AI音声</div></div>
     <div class="stat-divider"></div>
     <div class="stat-item"><div class="stat-num">無料</div><div class="stat-label">登録不要</div></div>
   </div>
@@ -544,7 +579,7 @@
         </div>
       </a>
       <a href="/grammar/" class="tool-card">
-        <div class="tool-card-icon" style="background:rgba(14,165,233,0.1);">✓</div>
+        <div class="tool-card-icon" style="background:rgba(14,165,233,0.1);">✏️</div>
         <div class="tool-card-body">
           <div class="tool-card-name">GrammarUp</div>
           <div class="tool-card-desc">ネイティブが実際に使う英文法パターンを4択クイズで体感。コミュニケーションスタイルも分析。</div>
@@ -560,7 +595,7 @@
         </div>
       </a>
       <a href="/sync/" class="tool-card">
-        <div class="tool-card-icon" style="background:rgba(37,99,235,0.1);">🔊</div>
+        <div class="tool-card-icon" style="background:rgba(234,88,12,0.1);">🔊</div>
         <div class="tool-card-body">
           <div class="tool-card-name">SyncReader</div>
           <div class="tool-card-desc">音声が先に進み、単語が光る。耳が先、目が追う——リスニングと読解を同時に鍛える。</div>
@@ -633,6 +668,21 @@
   </div>
 
 </div><!-- /page-content -->
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <div class="site-footer-logo">native-real</div>
+    <nav class="site-footer-nav">
+      <a href="/listening/">ListenUp</a>
+      <a href="/grammar/">GrammarUp</a>
+      <a href="/reading/">ReadUp</a>
+      <a href="/articles/">学習コラム</a>
+      <a href="/ranking/">英会話スクール比較</a>
+      <a href="/privacy/">プライバシーポリシー</a>
+    </nav>
+    <p class="site-footer-copy">© 2026 native-real</p>
+  </div>
+</footer>
 
 <script>
 (function(){
