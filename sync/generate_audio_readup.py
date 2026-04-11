@@ -14,7 +14,15 @@ import re
 import sys
 import edge_tts
 
-VOICE = "en-US-JennyNeural"
+# 米（US）/ 英（GB）/ 豪（AU）の男女6種をラウンドロビンで割り当て
+VOICES = [
+    "en-US-AriaNeural",     # 0: US 女性
+    "en-US-GuyNeural",      # 1: US 男性
+    "en-GB-SoniaNeural",    # 2: GB 女性
+    "en-GB-RyanNeural",     # 3: GB 男性
+    "en-AU-NatashaNeural",  # 4: AU 女性
+    "en-AU-WilliamNeural",  # 5: AU 男性
+]
 AUDIO_DIR = os.path.join(os.path.dirname(__file__), "audio")
 READUP_JS = os.path.join(os.path.dirname(__file__), "../reading/questions.js")
 PASSAGES_JSON = os.path.join(os.path.dirname(__file__), "passages_readup.json")
@@ -73,14 +81,14 @@ def estimate_word_timings(text: str, sentences: list) -> list:
     return result
 
 
-async def generate_passage_audio(pid: str, text: str, skip_existing: bool = False) -> bool:
+async def generate_passage_audio(pid: str, text: str, voice: str, skip_existing: bool = False) -> bool:
     mp3_path = os.path.join(AUDIO_DIR, f"{pid}.mp3")
     json_path = os.path.join(AUDIO_DIR, f"{pid}.json")
 
     if skip_existing and os.path.exists(mp3_path) and os.path.exists(json_path):
         return False  # スキップ
 
-    communicate = edge_tts.Communicate(text, VOICE)
+    communicate = edge_tts.Communicate(text, voice)
     sentences = []
     audio_chunks = []
 
@@ -142,9 +150,10 @@ async def main():
             pid = item["pid"]
             text = item["passage"]
             words = len(text.split())
-            generated = await generate_passage_audio(pid, text, skip_existing)
+            voice = VOICES[i % len(VOICES)]
+            generated = await generate_passage_audio(pid, text, voice, skip_existing)
             if generated:
-                print(f"  [{i+1:3d}/{len(items)}] ✓ {pid} ({words}語)", flush=True)
+                print(f"  [{i+1:3d}/{len(items)}] ✓ {pid}  {voice}  ({words}語)", flush=True)
                 total_generated += 1
             else:
                 print(f"  [{i+1:3d}/{len(items)}] - {pid} (スキップ)", flush=True)

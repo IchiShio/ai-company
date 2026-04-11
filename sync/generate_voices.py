@@ -17,14 +17,14 @@ import sys
 import edge_tts
 
 # ─── 音声設定 ──────────────────────────────────────────────────────────────────
-# US / GB / AU の男女6種。アクセントと性別がバランスよく分散されるよう選定。
+# 米（US）/ 英（GB）/ 豪（AU）の男女6種。アクセントと性別がバランスよく分散されるよう選定。
 VOICES = [
     "en-US-AriaNeural",     # 0: US 女性
     "en-US-GuyNeural",      # 1: US 男性
     "en-GB-SoniaNeural",    # 2: GB 女性
     "en-GB-RyanNeural",     # 3: GB 男性
     "en-AU-NatashaNeural",  # 4: AU 女性
-    "en-US-EricNeural",     # 5: US 男性2（AU男性代替・自然な発音）
+    "en-AU-WilliamNeural",  # 5: AU 男性
 ]
 
 AUDIO_DIR = os.path.join(os.path.dirname(__file__), "audio")
