@@ -107,6 +107,75 @@ ROOT_META = {
 }
 
 
+BATCH_SIZE = 5  # 1回のclaudeコールで生成する単語数（タイムアウト対策）
+
+
+def _generate_batch(root_id: str, meta: dict, words_batch: list[str],
+                    batch_no: int, total_batches: int, is_first: bool):
+    """5語分のデータを生成してstaging JSONに追記/作成する"""
+
+    toeic_start = (batch_no - 1) * BATCH_SIZE + 1
+
+    if is_first:
+        # 初回バッチ: ルートメタデータ + 最初の5語
+        prompt = f"""以下の仕様で英語語根データを生成してください。
+
+## 語根情報
+- root_id: {root_id}
+- root（表示名）: {meta['full']}
+- rootMeaning: {meta['meaning']}
+- rootLang: {meta['lang']}
+
+## 参照ファイル
+`kioku-shinai/data/words/duct.json` を読んで、完全に同じスキーマで生成してください。
+
+## 今回生成する単語（バッチ {batch_no}/{total_batches}）
+{', '.join(words_batch)}（toeicRank {toeic_start}〜{toeic_start+len(words_batch)-1}）
+
+## 出力形式
+`kioku-shinai/staging/{root_id}.json` を新規作成してください。
+内容:
+{{
+  "root": "{meta['full']}",
+  "rootMeaning": "{meta['meaning']}",
+  "rootLang": "{meta['lang']}",
+  "imageSchema": "（この語根の身体的・空間的イメージ 1〜2文）",
+  "hook": {{"label": "記憶フック", "text": "（語根が見えれば20語読める強烈なフック）"}},
+  "words": [ ...{len(words_batch)}語分の完全なエントリ... ]
+}}
+
+各単語に必ず含めるフィールド:
+word, phonetic（IPA）, toeicRank, parts（分解）,
+etymology（oneliner/fact/source/cognates）,
+cognitive（oneliner/fact/source）,
+gap, gapOneliner, hook,
+formats（5種・duct.jsonと同じ構造）,
+examples（TOEIC例文3文・英語+日本語訳）
+
+完了したら「✅ バッチ{batch_no} 完了: {len(words_batch)}語」と報告してください。
+"""
+    else:
+        # 追加バッチ: 既存 staging.json の words 配列に追記
+        prompt = f"""`kioku-shinai/staging/{root_id}.json` が既に存在します。
+この words 配列に以下の単語を追記してください（既存の配列は変更しない）。
+
+## 追記する単語（バッチ {batch_no}/{total_batches}）
+{', '.join(words_batch)}（toeicRank {toeic_start}〜{toeic_start+len(words_batch)-1}）
+
+## 参照
+`kioku-shinai/data/words/duct.json` と同じスキーマで生成。
+
+各単語に必ず含めるフィールド:
+word, phonetic, toeicRank, parts, etymology, cognitive,
+gap, gapOneliner, hook, formats（5種）, examples（3文）
+
+ファイルを読んで words 配列の末尾に追記し、上書き保存してください。
+完了したら「✅ バッチ{batch_no} 完了: {len(words_batch)}語追記」と報告してください。
+"""
+
+    return run_claude(prompt, f"{root_id} バッチ{batch_no}/{total_batches}", timeout=360)
+
+
 def step_generate(root_id: str):
     log(f"\n{'─'*60}")
     log(f"  Step 1 / Claude Code → {root_id} 語根データ生成", BOLD + CYAN)
@@ -114,7 +183,6 @@ def step_generate(root_id: str):
 
     if root_id in get_existing_roots():
         log(f"  ⚠️  {root_id} は既に data/words/ に存在します", YELLOW)
-        log(f"     既存語根への追加はサポートされていません（--root で別語根を指定）", YELLOW)
         sys.exit(1)
 
     meta = ROOT_META.get(root_id)
@@ -123,77 +191,26 @@ def step_generate(root_id: str):
         log(f"     定義済み: {', '.join(ROOT_META.keys())}", YELLOW)
         sys.exit(1)
 
-    # 参照用に既存ファイルの1つを例として読む
-    example_path = DATA_DIR / "duct.json"
+    words_list = [w.strip() for w in meta["words"].split(",")][:20]
+    batches = [words_list[i:i+BATCH_SIZE] for i in range(0, len(words_list), BATCH_SIZE)]
+    log(f"  {len(words_list)}語を {len(batches)}バッチ（{BATCH_SIZE}語×）で生成")
 
-    prompt = f"""以下の仕様で英語語根データJSONを生成し、`kioku-shinai/staging/{root_id}.json` として保存してください。
+    for i, batch in enumerate(batches, 1):
+        log(f"\n  バッチ {i}/{len(batches)}: {', '.join(batch)}", YELLOW)
+        ok = _generate_batch(root_id, meta, batch, i, len(batches), is_first=(i == 1))
+        if not ok:
+            log(f"  ❌ バッチ{i} 失敗 — 途中まで生成された staging/{root_id}.json を確認してください", RED)
+            sys.exit(1)
 
-## 語根情報
-- root_id: {root_id}
-- root（表示名）: {meta['full']}
-- rootMeaning: {meta['meaning']}
-- rootLang: {meta['lang']}
-- 対象単語: {meta['words']}
-
-## 参照ファイル
-`kioku-shinai/data/words/duct.json` を読んで、完全に同じスキーマ・品質で生成してください。
-
-## 生成ルール
-
-### ルートレベル（JSONトップ）
-- root: "{meta['full']}"
-- rootMeaning: "{meta['meaning']}"
-- rootLang: "{meta['lang']}"
-- imageSchema: この語根の身体的・空間的イメージを1〜2文で（具体的な物理動作で説明）
-- hook.label: "記憶フック"
-- hook.text: 語根が見えれば20語読める、という強烈な記憶フックを1〜2文で
-
-### 単語レベル（wordsの各エントリ）
-対象単語から20語を選び、toeicRank順（1=最頻出）で並べる。
-
-各単語に以下を必ず含める:
-- word, phonetic（IPA）
-- toeicRank: 1〜20（TOEIC頻出順）または "TSL外・NGSL上位"
-- parts: prefix/root/suffix の分解（type は "prefix"/"root"/"suffix"）
-- etymology.oneliner: "語根分解 = 意味の流れ" の1行（例: "ex（外へ）+ press（押す）= 外へ押し出す → 表現する"）
-- etymology.fact: EtymOnline準拠の語源史（いつ英語に入ったか、意味の変遷）
-- etymology.source: "EtymOnline: [word]"
-- etymology.cognates: 同語根の派生語5語前後
-- cognitive.oneliner: 認知言語学的本質を1行
-- cognitive.fact: イメージスキーマ（CONTAINER/PATH/FORCE等）を使った認知的説明
-- cognitive.source: "Johnson (1987) XXXスキーマ" または "Lakoff & Johnson (1980)"
-- gap: この単語でよくある誤解・暗記の落とし穴と、語源から理解する解決策（2〜3文）
-- gapOneliner: gap の1行要約
-- hook.label: "記憶フック"
-- hook.text: この単語固有の記憶フック（語根が見える具体的なイメージ）
-- formats: 出題形式5種（下記仕様参照）
-- examples: TOEIC例文3文（英語 + 日本語訳）
-
-### formats の5種（duct.json を参照して完全に同じ構造で）
-1. 英→日選択（difficulty: 1）
-2. 語源クイズ（difficulty: 2）
-3. 穴埋め（difficulty: 3）
-4. 日→英選択（difficulty: 2）
-5. 派生語クイズ（difficulty: 3）
-
-## 出力
-`kioku-shinai/staging/{root_id}.json` に書き出してください。
-完了したら「✅ {root_id} 生成完了: N語」と報告してください。
-"""
-
-    ok = run_claude(prompt, f"{root_id} 語根生成", timeout=480)
-    if not ok:
-        sys.exit(1)
-
-    out = staging_path(root_id)
-    if not out.exists():
+    spath = staging_path(root_id)
+    if not spath.exists():
         log(f"  ❌ staging/{root_id}.json が生成されませんでした", RED)
         sys.exit(1)
 
     try:
-        data = json.load(open(out))
+        data = json.load(open(spath))
         n = len(data.get("words", []))
-        log(f"  ✅ {root_id} 生成完了: {n}語 → kioku-shinai/staging/{root_id}.json", GREEN)
+        log(f"\n  ✅ {root_id} 生成完了: {n}語 → kioku-shinai/staging/{root_id}.json", GREEN)
     except json.JSONDecodeError as e:
         log(f"  ❌ JSON パースエラー: {e}", RED)
         sys.exit(1)
@@ -237,10 +254,16 @@ def step_factcheck(root_id: str):
 ## アクション
 - 誤りを発見したら `kioku-shinai/staging/{root_id}.json` を直接修正
 - 修正不能な誤りは該当単語を削除
-- 完了後に `fact_check: "APPROVED"` と `checked_at: "{TODAY}"` をJSONルートに追加
+
+## 最後に必ず実行すること（必須）
+全検証・修正が完了したら、`kioku-shinai/staging/{root_id}.json` を読み込み、
+JSONのトップレベルに以下の2フィールドを追加して上書き保存してください:
+
+  "fact_check": "APPROVED",
+  "checked_at": "{TODAY}"
 
 ## 完了報告
-「FACTCHECK DONE: N語合格 / M語修正 / K語削除」と出力してください。
+ファイル保存後に「FACTCHECK DONE: N語合格 / M語修正 / K語削除 — APPROVED書き込み済み」と出力してください。
 """
 
     ok = run_claude(prompt, f"{root_id} ファクトチェック", timeout=480)

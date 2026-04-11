@@ -1,0 +1,1887 @@
+{
+  "root": "vert/vers",
+  "rootMeaning": "回る・向ける",
+  "rootLang": "ラテン語 vertere（PIE *wer-）",
+  "imageSchema": "体の軸を中心にくるりと回転させ、向きを変える身体動作のイメージ。verterbrae（脊椎）が体を回転させるように、vertは「もともとの方向から別の方向へ向け直す」根本運動を表す。",
+  "hook": {
+    "label": "記憶フック",
+    "text": "「vert = 向きを変える」と覚えれば20語が一気に読める。con（一緒に）+ vert = convert（変換する）、re（後ろへ）+ vers = reverse（逆にする）、di（離れて）+ vers = diverse（多様な）。vertが見えたら「向きを変える力」が働いていると読み替えよう。"
+  },
+  "words": [
+    {
+      "word": "convert",
+      "phonetic": "/kənˈvɜːrt/",
+      "toeicRank": 1,
+      "parts": [
+        {
+          "part": "con",
+          "meaning": "一緒に・完全に",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "con（完全に）+ vertere（向ける）= 完全に向きを変える → 変換する・改宗する",
+        "fact": "ラテン語 convertere「完全に向きを変える、引き返す」から。14世紀初頭に宗教的「改宗させる」の意味で英語に入り、15世紀以降「別の形・用途・信仰に変える」へ。TOEICでは「ファイル形式を変換する」「通貨を換算する」文脈が頻出。",
+        "source": "EtymOnline: convert",
+        "cognates": [
+          "conversion",
+          "convertible",
+          "converter",
+          "invert",
+          "pervert"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "あるものを完全に別の方向に向け直す→形・性質・信仰を丸ごと変える",
+        "fact": "CONTAINERスキーマとPATHスキーマの複合。「容器に入っているものを、別の容器（状態）に移し替える」イメージ。con-（完全に）という強調が「中途半端な変化ではなく、方向ごと丸ごと変える」ことを示す。MORPHINGイメージスキーマの典型。",
+        "source": "Lakoff & Johnson (1980) METAPHORスキーマ; Johnson (1987) CONTAINERスキーマ"
+      },
+      "gap": "「変換する」だけで覚えると convert to（〜に改宗する）やconvert a loan（ローンを借り換える）で詰まる。「完全に向きを変える」が本質なので、物理的変換（ファイル）も信仰的転換（宗教）も同じイメージ。convertible（転換社債/オープンカー）も「向きを変えられるもの」。",
+      "gapOneliner": "convert = ファイル変換も改宗も「完全に向きを変える」動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "ダム建設で川の向き（流れ）を「完全に(con)向け変える(vert)」のがconvert。PDFをWordに変換するのも、神道からキリスト教に改宗するのも、向きを丸ごと変える同じ力。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "convertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "完全に向きを変える→変換する",
+            "前へ向ける→進める",
+            "下へ向ける→転落させる",
+            "外へ向ける→放出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "con + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "完全に + 向ける = 変換する",
+            "一緒に + 曲げる = 協力する",
+            "強く + 回す = 加速する",
+            "前へ + 向ける = 前進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please ______ this file to PDF format before sending.",
+          "hint": "「完全に向きを変える」→「変換する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "convert",
+            "invert",
+            "divert",
+            "revert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "convertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "currency（通貨を換算する）",
+            "weather（天気を変える）",
+            "friends（友人を変える）",
+            "music（音楽を変換する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The startup converted its garage into a state-of-the-art lab.\" — convertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "転換した",
+            "解体した",
+            "購入した",
+            "修理した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please convert this document to PDF before sending it to the client.",
+          "ja": "クライアントに送る前に、この書類をPDF形式に変換してください。"
+        },
+        {
+          "en": "The company plans to convert the old warehouse into a modern office space.",
+          "ja": "その会社は古い倉庫をモダンなオフィススペースに転換する計画です。"
+        },
+        {
+          "en": "Could you convert this amount into euros for me?",
+          "ja": "この金額をユーロに換算していただけますか？"
+        }
+      ]
+    },
+    {
+      "word": "reverse",
+      "phonetic": "/rɪˈvɜːrs/",
+      "toeicRank": 2,
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "後ろへ・逆に",
+          "type": "prefix"
+        },
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ vertere（向ける）= 後ろへ向け直す → 逆にする・後退する",
+        "fact": "ラテン語 reversus（reversare「何度も向き直す」の過去分詞）から。14世紀中頃に「逆の・反対の」の形容詞で英語に入り、動詞「逆にする」は15世紀初頭、名詞「裏面」は14世紀後半から。車の「バック（後退）ギア」の意味は20世紀初頭の自動車普及とともに定着。",
+        "source": "EtymOnline: reverse",
+        "cognates": [
+          "reversal",
+          "reversible",
+          "irreversible",
+          "revert",
+          "controversy"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "進んできた方向を後ろに向け直す→逆転・後退・裏返し",
+        "fact": "PATHスキーマの「逆向き運動」の典型例。前方に進んでいたベクトルを(re-)180度回して逆方向(vers-)に向け直すイメージ。物理的後退（車のリバース）・時間的逆行（政策の撤回）・空間的裏返し（コインの裏面）がすべてこの一つのイメージスキーマから派生する。",
+        "source": "Johnson (1987) PATHスキーマ; Talmy (2000) 力のダイナミクス"
+      },
+      "gap": "「逆にする」だけでは reverse a decision（決定を覆す）やreverse charges（料金着払い）で詰まる。「後ろへ向け直す」が本質なので、車のバックも判決の覆しも同じ動き。reverse engineering（リバースエンジニアリング）は「完成品を後ろ向きに分解する」発想。",
+      "gapOneliner": "reverse = 車のバックも判決の覆しも「後ろへ向け直す」一つの動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "車のギアを「後ろ(re)向き(vers)」に入れるのがreverse。判決も政策も、前に進んでいたものを後ろへ180度向け直すのが reverse。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "reverseの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "後ろへ向け直す→逆にする",
+            "再び向ける→繰り返す",
+            "強く向ける→強制する",
+            "前に向ける→前進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + vers の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後ろへ + 向ける = 逆にする",
+            "再び + 回す = 繰り返す",
+            "離れて + 向ける = 回避する",
+            "完全に + 回す = 変換する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The court decided to ______ the original verdict.",
+          "hint": "「後ろへ向け直す」→「覆す・逆にする」",
+          "explanationFocus": "gap",
+          "choices": [
+            "reverse",
+            "convert",
+            "divert",
+            "revert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "reverseと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a decision（決定を覆す）",
+            "a friend（友人を変える）",
+            "a color（色を選ぶ）",
+            "a language（言語を学ぶ）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Management had to reverse its earlier stance on remote work.\" — reverseの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "撤回した",
+            "発表した",
+            "調査した",
+            "支持した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company decided to reverse its decision to close the regional office.",
+          "ja": "その会社は地方オフィスを閉鎖するという決定を撤回することにした。"
+        },
+        {
+          "en": "Please put the car in reverse and back into the parking space.",
+          "ja": "車をバックギアに入れて、駐車スペースに後退してください。"
+        },
+        {
+          "en": "The results were the reverse of what we had expected.",
+          "ja": "結果は私たちが予想していたものとは逆でした。"
+        }
+      ]
+    },
+    {
+      "word": "diverse",
+      "phonetic": "/daɪˈvɜːrs/",
+      "toeicRank": 3,
+      "parts": [
+        {
+          "part": "di (dis)",
+          "meaning": "離れて・別々に",
+          "type": "prefix"
+        },
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "e",
+          "meaning": "形容詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "di（別々に）+ vertere（向ける）= 別々の方向に向く → 多様な",
+        "fact": "ラテン語 diversus（divertere「別の方向へ向ける」の過去分詞）から。14世紀末に「異なる・様々な」の意味で英語に入る。diverseとdifferentの違いは、diverseが「多方向に向いた多様性」（複数の方向性が共存する豊かさ）を強調するのに対し、differentは単に「違い」を指す点。",
+        "source": "EtymOnline: diverse",
+        "cognates": [
+          "diversity",
+          "diversify",
+          "divert",
+          "diverge",
+          "diverse"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "それぞれが別の方向を向いている→多様で豊か",
+        "fact": "RADIAL CATEGORYスキーマの応用。中心点から複数の方向(vers-)へ別々に(di-)向かう放射状のイメージ。単なる「違い」ではなく「多方向への広がり」。現代ビジネス英語でdiversityが「画一的でなく多様な視点が集まる豊かさ」として使われるのはこの空間感覚が根底にある。",
+        "source": "Lakoff (1987) RADIALカテゴリ; Johnson (1987) 多方向のPATHスキーマ"
+      },
+      "gap": "「多様な」と訳語だけ覚えると a diverse range of（様々な種類の）やdiverse opinions（多様な意見）で使いにくい。「それぞれが別の方向を向いている」イメージがあれば diverse backgrounds（異なるバックグラウンド）もdiverse portfolio（分散ポートフォリオ）も同じ感覚で使える。diversifyも「一方向に集中していたものを別々の方向に分散させる」。",
+      "gapOneliner": "diverse = 「多様な」の訳語より「別々の方向を向いている豊かさ」が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "コンパスの針が「別々に(di)向いている(vers)」状態がdiverse。全員が同じ方向を向いていない——それが多様性(diversity)の本質。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "diverseの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "別々の方向を向く→多様な",
+            "深く向ける→深刻な",
+            "外へ向ける→外向きな",
+            "強く向ける→強力な"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "di + vers の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "別々に + 向く = 多様な",
+            "二つの + 回す = 対立する",
+            "離れて + 向ける = 回避する",
+            "深く + 向ける = 集中した"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Our company values a ______ workforce with varied skills and perspectives.",
+          "hint": "「別々の方向を向く」→「多様な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "diverse",
+            "reverse",
+            "adverse",
+            "inverse"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "diverseと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "backgrounds（多様なバックグラウンド）",
+            "mistakes（多様なミス）",
+            "delays（多様な遅延）",
+            "prices（多様な価格）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The panel featured speakers from a diverse range of industries.\" — diverseの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "多様な",
+            "著名な",
+            "限られた",
+            "競合する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company has built a diverse team with members from over 20 countries.",
+          "ja": "その会社は20カ国以上のメンバーで構成された多様なチームを築いてきました。"
+        },
+        {
+          "en": "Our investment portfolio is designed to be as diverse as possible.",
+          "ja": "私たちの投資ポートフォリオは、できる限り分散されるよう設計されています。"
+        },
+        {
+          "en": "The conference attracted a diverse range of professionals from different fields.",
+          "ja": "その会議は異なる分野からの多様な専門家を集めました。"
+        }
+      ]
+    },
+    {
+      "word": "version",
+      "phonetic": "/ˈvɜːrʒən/",
+      "toeicRank": 4,
+      "parts": [
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "ion",
+          "meaning": "〜すること・状態（名詞語尾）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "vertere（向ける・翻訳する）+ ion（名詞語尾）= 向け変えた結果 → 版・バージョン・訳",
+        "fact": "ラテン語 versio「向き変えること、翻訳」から、16世紀中頃に「聖書の翻訳版」の意味で英語に入る。「翻訳」は文字通り「言語の向きを変える」行為。ソフトウェアの「バージョン」は20世紀の用法で、「別の方向に向けた（改良した）同じ製品の状態」を意味する。",
+        "source": "EtymOnline: version",
+        "cognates": [
+          "convert",
+          "divert",
+          "reverse",
+          "reversion",
+          "versatile"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "元のものを別方向へ向け替えた姿→改訂版・派生形・個人の解釈",
+        "fact": "TRANSFORMATIONスキーマの名詞化。「向け替えた行為そのもの（ion）」が version の本質。ソフトウェアの version 2.0 も、映画のリメイク版も、証言における「私の version of events（私の見解）」も、すべて「元のものを別の向きに回した状態」を指す。",
+        "source": "Johnson (1987) TRANSFORMATIONスキーマ"
+      },
+      "gap": "「バージョン」とカタカナで覚えていると his version of events（彼の言い分）やa revised version（改訂版）の「バージョン＝解釈・見方」という用法で詰まる。「元のものを別の向きに変えた姿」なので、ソフトも翻訳も個人の証言も全て「version」で表せる。",
+      "gapOneliner": "version = ソフトの版だけでなく「個人の解釈・見方」もTOEICに出る",
+      "hook": {
+        "label": "記憶フック",
+        "text": "スマホのiOS「バージョン」アップは、同じOSを別の向き（改良方向）に回したもの。翻訳（version）も元テキストを別言語の向きに回す行為。vers（向ける）+ ion（名詞）= 向け替えた姿。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "versionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "向け替えた結果→版・解釈",
+            "前に出たもの→提案",
+            "強く押したもの→主張",
+            "戻ってきたもの→報告"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "vers + ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向ける + 名詞語尾 = 向け替えた姿",
+            "回す + 強調 = 回転運動",
+            "変わる + 状態 = 変化の途中",
+            "向かう + 場所 = 目的地"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please make sure you are running the latest ______ of the software.",
+          "hint": "「向け替えた姿」→「バージョン」",
+          "explanationFocus": "gap",
+          "choices": [
+            "version",
+            "vision",
+            "revision",
+            "mission"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "versionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "updated（最新バージョン）",
+            "deleted（削除された版）",
+            "hidden（隠されたバージョン）",
+            "broken（壊れたバージョン）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Each witness gave a slightly different version of events.\" — versionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "見解・説明",
+            "証拠",
+            "矛盾",
+            "記録"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please update to the latest version of the application before the meeting.",
+          "ja": "会議の前にアプリケーションを最新バージョンに更新してください。"
+        },
+        {
+          "en": "The updated version of the report will be distributed tomorrow morning.",
+          "ja": "報告書の更新版は明日の朝に配布される予定です。"
+        },
+        {
+          "en": "Each department had its own version of what caused the project delay.",
+          "ja": "各部門がプロジェクト遅延の原因についてそれぞれの見解を持っていた。"
+        }
+      ]
+    },
+    {
+      "word": "controversy",
+      "phonetic": "/ˈkɒntrəvɜːrsi/",
+      "toeicRank": 5,
+      "parts": [
+        {
+          "part": "contro (contra)",
+          "meaning": "反対に・逆に",
+          "type": "prefix"
+        },
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "y",
+          "meaning": "名詞語尾",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "contra（逆に）+ vertere（向ける）= 互いに逆方向を向く → 論争・議論",
+        "fact": "ラテン語 controversia「反対の向きに立つこと」から、14世紀末に英語に入る。contra（反対）+ versus（向き）の名詞形で、文字通り「互いに反対方向を向いて立つ」状態が論争の本質。現代英語で controversialは「議論を呼ぶ・物議を醸す」意味で、ビジネス・政治・メディア報道に頻出。",
+        "source": "EtymOnline: controversy",
+        "cognates": [
+          "controversial",
+          "controvert",
+          "incontrovertible",
+          "converse",
+          "versus"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "二者が真逆の方向を向いて向き合う→対立・論争",
+        "fact": "OPPOSITIONスキーマの空間的表現。二人の人物がそれぞれ反対方向(contra-)を向いて(vers-)対立している構図がcontroversyの根本イメージ。武力衝突でなく言論の「向き合い」なので「議論・論争」になる。versus（〜対〜）も同根で、対戦相手が「互いに向き合う」関係を表す。",
+        "source": "Johnson (1987) OPPOSITIONスキーマ; Lakoff & Johnson (1980) ARGUMENT IS WARメタファー"
+      },
+      "gap": "「論争」と覚えただけではa subject of controversy（議論の的）やavoid controversy（物議を避ける）で使いにくい。「互いに逆方向を向いている」イメージがあれば、controversialな話題とは「聞く人によって向く方向が正反対になる」話題だとわかる。incontrovertible（反論不可能な）も「逆方向に向けられない＝絶対的な」。",
+      "gapOneliner": "controversy = 「論争」の訳語より「互いに逆方向を向いて対立する」構図が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "法廷でAとBが「互いに逆(contro)向きに向かい合う(vers)」のがcontroversy。versus（対）もcontroversyも、向き合って争う同じ空間イメージ。controversialな話題は、聞いた人が正反対の方向を向いてしまう話題。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "controversyの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "互いに逆方向を向く→論争",
+            "上に向ける→昇格争い",
+            "前へ向かう→競争",
+            "外へ向ける→排除"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "contro + vers の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "反対に + 向く = 対立・論争",
+            "一緒に + 回す = 協力",
+            "上へ + 向ける = 昇進",
+            "下へ + 向ける = 没落"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The new policy sparked considerable ______ among employees.",
+          "hint": "「互いに逆方向を向く」→「論争・物議」",
+          "explanationFocus": "gap",
+          "choices": [
+            "controversy",
+            "diversity",
+            "recovery",
+            "discovery"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "controversyと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "sparked（論争を引き起こした）",
+            "solved（論争を解決した）",
+            "ignored（論争を無視した）",
+            "copied（論争をコピーした）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The CEO's remarks stirred up controversy in the business community.\" — controversyの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "物議・論争",
+            "称賛",
+            "無関心",
+            "合意"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The merger announcement sparked controversy among shareholders and employees alike.",
+          "ja": "合併の発表は株主と従業員の双方の間に論争を引き起こした。"
+        },
+        {
+          "en": "The company tried to avoid controversy by releasing a detailed statement.",
+          "ja": "その会社は詳細な声明を発表することで物議を避けようとした。"
+        },
+        {
+          "en": "There is considerable controversy over the proposed changes to the tax policy.",
+          "ja": "税制改正案をめぐって相当な論争が起きている。"
+        }
+      ]
+    },
+    {
+      "word": "avert",
+      "phonetic": "/əˈvɜːrt/",
+      "toeicRank": 6,
+      "parts": [
+        {
+          "part": "a (ab)",
+          "meaning": "離れて・そらして",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ab（離れて）+ vertere（向ける）= 離れた方向に向け直す → そらす・回避する",
+        "fact": "ラテン語 avertere「離れた方向に向ける、そらす」から。15世紀初頭に「目をそらす」の意味で英語に入り、16世紀以降「危険・災難を回避する」の意味に発展。avert one's gaze（視線をそらす）とavert a crisis（危機を回避する）は同根の動き。",
+        "source": "EtymOnline: avert",
+        "cognates": [
+          "aversion",
+          "averse",
+          "inadvertent",
+          "adverse",
+          "advertise"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "迫ってくるものを横にそらして自分から離す→回避・防止",
+        "fact": "FORCEスキーマとPATHスキーマの複合。危険が直進してくるベクトルを、ab-（離れた方向）に向け直す(vert-)ことで進路をそらすイメージ。物理的な「目をそらす」動作が抽象的な「危機回避」へメタファー拡張した典型例。",
+        "source": "Talmy (2000) 力のダイナミクス; Johnson (1987) FORCEスキーマ"
+      },
+      "gap": "「避ける」だけで覚えると avert one's eyes（目をそらす）とavoid（回避する）の違いが曖昧になる。avertは「向きを変えてそらす」能動的動作が本質で、目線・頭・危機など「向きを持つもの」に使う。inadvertent（不注意な）は「向きをそらさなかった=うっかり」。",
+      "gapOneliner": "avert = 「避ける」より「向きをそらして遠ざける」能動的動作が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "危険なボールが飛んできたとき、顔を「離れた方向(a)に向ける(vert)」のがavert。avert a crisis = 危機の矛先を別の方向にそらして回避する。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "avertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "離れた方向に向ける→そらす・回避する",
+            "前へ向ける→進める",
+            "内側に向ける→集中する",
+            "上に向ける→昇進させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "a(b) + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "離れて + 向ける = そらす・回避する",
+            "強く + 向ける = 強制する",
+            "再び + 向ける = 繰り返す",
+            "一緒に + 向ける = 協力する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Quick action by the team helped ______ a major financial crisis.",
+          "hint": "「離れた方向に向ける」→「回避する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "avert",
+            "revert",
+            "invert",
+            "convert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "avertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "a crisis（危機を回避する）",
+            "a profit（利益を生む）",
+            "a meeting（会議を開く）",
+            "a contract（契約を結ぶ）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"She averted her eyes when the graphic images appeared on screen.\" — avertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "そらした",
+            "閉じた",
+            "向けた",
+            "開いた"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The negotiators worked through the night to avert a strike.",
+          "ja": "交渉担当者たちはストライキを回避するために夜通し働いた。"
+        },
+        {
+          "en": "He averted his eyes to avoid making the situation more awkward.",
+          "ja": "状況をさらに気まずくしないよう、彼は視線をそらした。"
+        },
+        {
+          "en": "Early intervention can avert many serious health problems.",
+          "ja": "早期の介入により、多くの深刻な健康問題を未然に防ぐことができる。"
+        }
+      ]
+    },
+    {
+      "word": "revert",
+      "phonetic": "/rɪˈvɜːrt/",
+      "toeicRank": 7,
+      "parts": [
+        {
+          "part": "re",
+          "meaning": "後ろへ・元に",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "re（後ろへ）+ vertere（向ける）= 後ろへ向き直す → 元の状態に戻る",
+        "fact": "ラテン語 revertere「戻る、引き返す」から。14世紀に「元の場所・状態に戻る」の意味で英語に入る。reverseとの違いは、reverseが「方向を逆にする他動詞」なのに対し、revertは「自ら元に向き直る自動詞」。法律用語では「財産権が元の所有者に戻る」こともrevertという。",
+        "source": "EtymOnline: revert",
+        "cognates": [
+          "reversion",
+          "reversible",
+          "reverse",
+          "irreversible",
+          "revertible"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "前進していたものが向きを後ろに戻す→元の状態・習慣・所有者に戻る",
+        "fact": "PATHスキーマの「UターンしてSOURCEへ戻る」運動。前進してきた道を(re-)後ろに向け直す(vert-)ことでスタート地点に戻るイメージ。習慣のリバウンド（revert to old habits）も、ソフトウェアのロールバック（revert to version 1.0）も、同じ「元の方向へ向き直す」動きで理解できる。",
+        "source": "Johnson (1987) PATHスキーマ; Lakoff & Johnson (1980) SOURCEスキーマ"
+      },
+      "gap": "「戻る」だけで覚えると revert to type（本来の性格に戻る）やrevert to sb（折り返し連絡する）のビジネス用法で詰まる。「元の方向に向き直る」がわかれば、習慣の逆戻りも連絡の折り返しも「元の相手に向き直す」同じイメージ。",
+      "gapOneliner": "revert = 「元の状態に向き直る」が本質——習慣・設定・折り返し連絡まで同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "スマホのアプデが失敗してアプリを「後ろ(re)向き(vert)」の旧バージョンに戻すのがrevert。ダイエット後にリバウンドするのも、前に向かっていた体重が後ろに向き直るrevert。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "revertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "後ろへ向き直す→元の状態に戻る",
+            "再び向ける→繰り返す",
+            "前へ向ける→前進する",
+            "外へ向ける→広める"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "re + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "後ろへ + 向ける = 元に戻る",
+            "再び + 曲げる = 繰り返す",
+            "強く + 向ける = 強制する",
+            "離れて + 向ける = 回避する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "After the update failed, the system automatically ______ to the previous version.",
+          "hint": "「後ろへ向き直す」→「元に戻る」",
+          "explanationFocus": "gap",
+          "choices": [
+            "reverted",
+            "converted",
+            "diverted",
+            "averted"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "revertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "to default settings（デフォルト設定に戻る）",
+            "to a new plan（新しい計画へ転換する）",
+            "to a higher level（上位レベルに移る）",
+            "to a customer（顧客を獲得する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"Without ongoing training, employees tend to revert to their old habits.\" — revertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "逆戻りする",
+            "改善する",
+            "忘れる",
+            "学習する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please revert to me by Friday if you have any questions about the proposal.",
+          "ja": "提案について質問があれば、金曜日までにご連絡ください。"
+        },
+        {
+          "en": "The software will automatically revert to the last saved version if an error occurs.",
+          "ja": "エラーが発生した場合、ソフトウェアは自動的に最後に保存したバージョンに戻ります。"
+        },
+        {
+          "en": "After the merger fell through, both companies reverted to their independent strategies.",
+          "ja": "合併が破談になった後、両社はそれぞれの独自戦略に戻った。"
+        }
+      ]
+    },
+    {
+      "word": "divert",
+      "phonetic": "/daɪˈvɜːrt/",
+      "toeicRank": 8,
+      "parts": [
+        {
+          "part": "di (dis)",
+          "meaning": "離れて・別の方向に",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "di（別の方向に）+ vertere（向ける）= 別の方向に向け直す → 転換する・迂回させる・楽しませる",
+        "fact": "ラテン語 divertere「別の方向へ向ける、分岐させる」から。15世紀に「元の進路から外れさせる」の意味で英語に入り、17世紀以降「楽しませる、気晴らしにする」へも拡張。「注意を別方向に向ける」が「楽しませる」にメタファー拡張した。diversion（迂回路・気晴らし）も同根。",
+        "source": "EtymOnline: divert",
+        "cognates": [
+          "diversion",
+          "diverse",
+          "diverge",
+          "divertissement",
+          "diversity"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "本来の進路から別方向に向け直す→迂回・転用・気晴らし",
+        "fact": "PATHスキーマの「進路変更」イメージ。直進していたベクトルを(di-)別の方向(vert-)に折り曲げるイメージが基本。道路の迂回（traffic diversion）も、資金の転用（divert funds）も、注意のそらし（divert attention）も、すべて「直進を別方向に曲げる」同じ空間運動。",
+        "source": "Johnson (1987) PATHスキーマ; Talmy (2000) 進路変更スキーマ"
+      },
+      "gap": "「迂回させる」だけで覚えると divert funds（資金を転用する）やdivert attention（注意をそらす）で詰まる。「別方向に向け直す」が本質なので、交通も資金も注意も全て「元の進路から折り曲げる」同じイメージ。diversifying（多様化）も同根——投資の矛先を別方向に分散させること。",
+      "gapOneliner": "divert = 交通の迂回も資金の転用も注意のそらしも「別方向に向け直す」一つの動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "工事で道路が「別方向(di)へ向け直される(vert)」のがdivert（迂回）。Netflixで映画を見て注意が「別方向」に向くのがdiversion（気晴らし）。どちらも同じ「折れ曲がる」イメージ。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "divertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "別方向に向け直す→迂回させる・転用する",
+            "深く向ける→集中させる",
+            "前に向ける→推進する",
+            "上に向ける→昇格させる"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "di + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "別の方向に + 向ける = 迂回・転用",
+            "二つの + 回す = 対立させる",
+            "離れて + 曲げる = 撤退する",
+            "外へ + 向ける = 放出する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Traffic was ______ around the accident site for several hours.",
+          "hint": "「別の方向に向け直す」→「迂回させる」",
+          "explanationFocus": "gap",
+          "choices": [
+            "diverted",
+            "reverted",
+            "averted",
+            "converted"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "divertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "attention（注意をそらす）",
+            "salary（給与を上げる）",
+            "schedule（スケジュールを立てる）",
+            "contract（契約を結ぶ）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The manager tried to divert the team's frustration toward a new challenge.\" — divertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "（別方向へ）向け直した",
+            "解消した",
+            "増幅させた",
+            "記録した"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company decided to divert additional resources to the struggling project.",
+          "ja": "その会社は苦戦しているプロジェクトに追加リソースを振り向けることにした。"
+        },
+        {
+          "en": "The flight was diverted to a nearby airport due to bad weather.",
+          "ja": "悪天候のため、その便は近くの空港に迂回することになった。"
+        },
+        {
+          "en": "He tried to divert attention from the real issue by changing the subject.",
+          "ja": "彼は話題を変えることで本当の問題から注意をそらそうとした。"
+        }
+      ]
+    },
+    {
+      "word": "invert",
+      "phonetic": "/ɪnˈvɜːrt/",
+      "toeicRank": 9,
+      "parts": [
+        {
+          "part": "in",
+          "meaning": "内へ・逆に",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "in（逆に・内側に）+ vertere（向ける）= 逆方向に向け直す → ひっくり返す・逆にする",
+        "fact": "ラテン語 invertere「ひっくり返す、逆さにする」から。16世紀初頭に「位置・順序・関係を逆にする」の意味で英語に入る。inversion（倒置）は文法・音楽・気象学で使われる専門用語でもある。inverted commas（引用符）は「通常の方向と逆向きのコンマ」が語源的な本質。",
+        "source": "EtymOnline: invert",
+        "cognates": [
+          "inversion",
+          "inverted",
+          "inverse",
+          "invertebrate",
+          "convert"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "上下・内外・順序を逆の方向に向け直す→反転・転倒・逆順",
+        "fact": "UP-DOWN方向のPATHスキーマの反転。通常「上→下」に向いているものを(in-)逆の「下→上」に向け直す(vert-)イメージ。コップをひっくり返す物理的動作が基本で、「収益率の逆転（inverted yield curve）」「文法の倒置（inversion）」「無脊椎動物（invertebrate＝脊椎を持たない＝内側に向いていない）」へメタファー拡張。",
+        "source": "Johnson (1987) UP-DOWNスキーマ; Lakoff & Johnson (1980) 方向メタファー"
+      },
+      "gap": "「逆にする」だけでは inverted pyramid（逆ピラミッド型の文章構造）やinverted yield curve（逆イールドカーブ）の専門用法で詰まる。「向きを逆に回す」が本質なので、物理的なひっくり返しも論理的な逆転も同じ動き。invertebrate（無脊椎動物）は「脊椎(vertebra)が内側を向いていない生き物」。",
+      "gapOneliner": "invert = コップのひっくり返しも経済指標の逆転も「向きを180度回す」同じ動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "グラスを「内側(in)向きに回す(vert)」とひっくり返るのがinvert。逆ピラミッド（inverted pyramid）は普通の三角形を「ひっくり返した」もの。invertedが見えたら「逆さ」と読み替えよう。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "invertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "逆方向に向け直す→ひっくり返す",
+            "内側に引き込む→含める",
+            "強く回す→加速する",
+            "前に向ける→前進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "in + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "逆に + 向ける = ひっくり返す",
+            "内側に + 曲げる = 折り畳む",
+            "強く + 向ける = 強制する",
+            "再び + 回す = 繰り返す"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "If you ______ the triangle, you get the classic warning sign shape.",
+          "hint": "「逆方向に向け直す」→「ひっくり返す」",
+          "explanationFocus": "gap",
+          "choices": [
+            "invert",
+            "divert",
+            "revert",
+            "subvert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "invertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "the order（順序を逆にする）",
+            "the profit（利益を上げる）",
+            "the team（チームを結成する）",
+            "the deadline（締め切りを設定する）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The article used an inverted pyramid structure, putting the conclusion first.\" — invertedの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "逆さまの",
+            "拡大された",
+            "詳細な",
+            "標準的な"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The chef inverted the cake onto the plate and carefully removed the pan.",
+          "ja": "シェフはケーキを皿の上にひっくり返し、型を慎重に取り外した。"
+        },
+        {
+          "en": "The report used an inverted pyramid structure with the key findings at the top.",
+          "ja": "報告書は重要な結論を先頭に置く逆ピラミッド型の構成を採用していた。"
+        },
+        {
+          "en": "Rising short-term rates have inverted the yield curve, signaling possible recession.",
+          "ja": "短期金利の上昇がイールドカーブを逆転させており、景気後退の可能性を示唆している。"
+        }
+      ]
+    },
+    {
+      "word": "subvert",
+      "phonetic": "/səbˈvɜːrt/",
+      "toeicRank": 10,
+      "parts": [
+        {
+          "part": "sub",
+          "meaning": "下から・ひそかに",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "sub（下から）+ vertere（向ける）= 下から向きを変えて崩す → 転覆させる・覆す",
+        "fact": "ラテン語 subvertere「下からひっくり返す、基盤を崩す」から。14世紀末に「国家や制度を転覆させる」の意味で英語に入る。subversion（転覆・破壊工作）、subversive（体制転覆的な）は現代でも政治・安全保障・ビジネスの文脈で使われる。「土台を下から掘り崩して建物を倒す」物理的イメージが原点。",
+        "source": "EtymOnline: subvert",
+        "cognates": [
+          "subversion",
+          "subversive",
+          "subversiveness",
+          "subverter",
+          "vert"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "支えている土台を下から崩して方向を変える→制度・権威・期待を転覆させる",
+        "fact": "SUPPORTスキーマとFORCEスキーマの複合。建造物を支える土台(sub-)を崩して向きを変える(vert-)ことで上部構造全体が崩壊するイメージ。政治的転覆（subvert a government）も企業文化の破壊（subvert company values）も、「外側から正面攻撃するのでなく、内側の土台を下から掘り崩す」点が特徴。subvert expectations（期待を裏切る）は比較的軽い用法。",
+        "source": "Johnson (1987) SUPPORTスキーマ; Talmy (2000) 力のダイナミクス"
+      },
+      "gap": "「転覆させる」という訳語は強すぎてTOEICでの使いにくさがある。subvert expectations（期待をいい意味で裏切る）やsubvert traditional norms（従来の規範を覆す）のような比較的穏やかな用法も増えている。「下から土台を崩す」イメージがあれば、転覆から期待外しまで同じ感覚で使える。",
+      "gapOneliner": "subvert = 「転覆」だけでなく「下から土台を崩す」——期待を覆すにも使う",
+      "hook": {
+        "label": "記憶フック",
+        "text": "建物の「下(sub)から基盤を向け崩す(vert)」のがsubvert。政府転覆も、固定観念を崩すことも、底を「ぐるっと向け替える」のが本質。subversive（反体制的）はいつも「下から揺さぶってくる」存在。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "subvertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "下から向きを崩す→転覆させる・覆す",
+            "上へ向ける→昇進させる",
+            "内側に向ける→集中させる",
+            "前へ向ける→推進する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "sub + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "下から + 向け崩す = 転覆させる",
+            "より少なく + 向ける = 抑制する",
+            "後ろへ + 向ける = 元に戻す",
+            "一緒に + 回す = 協力する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The whistleblower claimed the executives had tried to ______ the regulatory process.",
+          "hint": "「下から向きを崩す」→「転覆させる・妨害する」",
+          "explanationFocus": "gap",
+          "choices": [
+            "subvert",
+            "revert",
+            "avert",
+            "divert"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "subvertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "democracy（民主主義を転覆させる）",
+            "a budget（予算を組む）",
+            "a schedule（スケジュールを立てる）",
+            "a contract（契約を結ぶ）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The artist's work deliberately subverts expectations about what a business presentation should look like.\" — subvertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "覆す・裏切る",
+            "満たす",
+            "強化する",
+            "記録する"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The investigation revealed an organized attempt to subvert the company's internal audit process.",
+          "ja": "調査により、会社の内部監査プロセスを意図的に妨害しようとした組織的な試みが明らかになった。"
+        },
+        {
+          "en": "The startup's business model subverts the traditional retail supply chain.",
+          "ja": "そのスタートアップのビジネスモデルは、従来の小売サプライチェーンを根本から覆すものだ。"
+        },
+        {
+          "en": "The film subverts audience expectations by revealing the twist in the first scene.",
+          "ja": "その映画は第一場面でどんでん返しを明かすことで、観客の期待を覆している。"
+        }
+      ]
+    },
+    {
+      "word": "versatile",
+      "phonetic": "/ˈvɜːrsətaɪl/",
+      "toeicRank": 11,
+      "parts": [
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "-atile",
+          "meaning": "〜できる傾向のある（形容詞化接尾辞）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "versare（何度も向きを変える）+ -atile（〜できる）= 自在に向きを変えられる → 多才な・多目的の",
+        "fact": "ラテン語 versatilis「容易に向きを変えられる、回転できる」← versare（vertereの反復形「何度も向きを変える」）から。1600年代初頭に英語に入り、当初は「回転できる・可動の」の意味。現代の「多才な・多目的の」の意味は17世紀後半から定着。TOEICでは a versatile tool / versatile skills の形が頻出。",
+        "source": "EtymOnline: versatile",
+        "cognates": [
+          "versatility",
+          "versatilely",
+          "verse",
+          "version",
+          "universe"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "同一の能力・物体が複数方向に自在に向けられる → 多目的・多才",
+        "fact": "PATHスキーマの拡張。単一の出発点（一人の人・一つの道具）から複数の方向（複数の用途・分野）にベクトルを向けられる能力を表す。「固定された向き」を持たず、状況に応じて向きを自在に変えられることが versatile の核心。",
+        "source": "Johnson (1987) PATHスキーマ; Talmy (2000) 力のダイナミクス"
+      },
+      "gap": "「多才な」だけで覚えると a versatile material（汎用素材）や versatile use（多用途）で詰まる。語源の「自在に向きを変えられる」がわかれば、人にも物にも使える理由がわかる。versatility（多才さ・汎用性）も同根。",
+      "gapOneliner": "versatile = 人にも物にも使える「自在に向きを変えられる」能力",
+      "hook": {
+        "label": "記憶フック",
+        "text": "スイスアーミーナイフは「何度も(versare)向きを変えられる(atile)」道具だから versatile。人間なら「営業も経理も開発もできる」人が versatile。vers（向き変え）が見えたら「自在に向きを変えられる力」がある。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "versatileの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "自在に向きを変えられる→多才な",
+            "強く押し進める→粘り強い",
+            "一点に集中する→専門的な",
+            "上へ向かう→向上心のある"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "vers + -atile の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向きを変える + できる = 多才な",
+            "曲げる + 作る = 柔軟に作る",
+            "回す + 覚える = 反復する",
+            "向ける + 増やす = 多様化する"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "She is a ______ employee who can handle both sales and technical support.",
+          "hint": "「自在に向きを変えられる」→「多才な」",
+          "explanationFocus": "gap",
+          "choices": [
+            "versatile",
+            "diligent",
+            "dominant",
+            "reliable"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "versatileと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "tool（多目的ツール）",
+            "delay（遅延）",
+            "budget（予算）",
+            "complaint（苦情）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"This fabric is versatile enough to be used in both formal and casual wear.\" — versatileの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "多目的に使える",
+            "非常に高価な",
+            "環境に優しい",
+            "耐久性のある"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "She is a versatile engineer who can work on both hardware and software projects.",
+          "ja": "彼女はハードウェアとソフトウェアの両方のプロジェクトに携われる多才なエンジニアだ。"
+        },
+        {
+          "en": "The new conference room is versatile enough to host presentations, training sessions, and client meetings.",
+          "ja": "その新しい会議室はプレゼンテーション、研修、顧客会議など多目的に使えるほど汎用性が高い。"
+        },
+        {
+          "en": "We need a versatile candidate who can adapt quickly to different roles within the organization.",
+          "ja": "組織内のさまざまな役割に素早く適応できる、汎用性の高い候補者が必要です。"
+        }
+      ]
+    },
+    {
+      "word": "diversion",
+      "phonetic": "/daɪˈvɜːrʒən/",
+      "toeicRank": 12,
+      "parts": [
+        {
+          "part": "di",
+          "meaning": "離れて・別方向に",
+          "type": "prefix"
+        },
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "-ion",
+          "meaning": "名詞化",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "di（別方向に）+ vertere（向ける）+ -ion = 別方向に向け直すこと → 迂回・気晴らし",
+        "fact": "ラテン語 divertere「脇道に向ける、分岐する」の名詞形 diversio から。1610年代に「注意・関心をそらすこと」として英語に入り、18世紀に「娯楽・気晴らし」の意味が加わった。交通の「迂回路」は20世紀の自動車社会とともに普及した意味。TOEICでは traffic diversion（交通迂回）や budget diversion（予算流用）の形で出る。",
+        "source": "EtymOnline: diversion",
+        "cognates": [
+          "divert",
+          "diverse",
+          "diversity",
+          "diverge",
+          "divert"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "向いている方向から別の方向に引き離す → 迂回・注意そらし・気晴らし",
+        "fact": "PATHスキーマの「経路変更」。本来進むべきベクトルを(di-)別方向に向け直す(vers-)運動。物理的には「車が迂回路を走る」、認知的には「注意が本題からそれる」、感情的には「ストレスが別の楽しみに向けられる」が、同一のイメージスキーマから派生する。",
+        "source": "Johnson (1987) PATHスキーマ; Lakoff (1993) 概念メタファー"
+      },
+      "gap": "「気晴らし」だけで覚えると traffic diversion（交通迂回）や diversion of funds（資金流用）で詰まる。「向きを別方向に変えること」が本質なので、道でも注意でもお金でも「本来の方向から外す」動きはすべてdiversion。",
+      "gapOneliner": "diversion = 道路の迂回も気晴らしも資金流用も「別方向に向け直す」一つの動き",
+      "hook": {
+        "label": "記憶フック",
+        "text": "工事中の道路で「別の方向に(di)向け(vers)られる」のが traffic diversion（迂回路）。仕事の疲れを「別の方向に向ける」のが diversion（気晴らし）。di（離れて）+ vers（向き変え）= 本筋から外れる。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "diversionの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "別方向に向け直すこと→迂回・気晴らし",
+            "深く潜ること→深く関わる",
+            "分けて調べること→分析",
+            "離れて待つこと→延期"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "di + vers + -ion の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "離れて + 向ける + 名詞 = 迂回・気晴らし",
+            "二つに + 曲げる + 名詞 = 二分割",
+            "反対に + 回す + 名詞 = 逆回転",
+            "深く + 向ける + 名詞 = 集中"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Due to road construction, all vehicles must follow the ______ signs.",
+          "hint": "「別方向に向け直す」→「迂回（路）」",
+          "explanationFocus": "gap",
+          "choices": [
+            "diversion",
+            "conversion",
+            "immersion",
+            "expansion"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "diversionと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "traffic（交通迂回）",
+            "product（製品開発）",
+            "meeting（会議）",
+            "contract（契約）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The audit uncovered an illegal diversion of company funds to private accounts.\" — diversionの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "流用・横領",
+            "投資",
+            "増加",
+            "返済"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Drivers are advised to follow the diversion route due to an accident on the main highway.",
+          "ja": "幹線道路での事故により、ドライバーは迂回ルートに従うよう案内されています。"
+        },
+        {
+          "en": "Reading is my favorite diversion after a stressful day at the office.",
+          "ja": "読書は仕事でストレスを受けた後の私のお気に入りの気晴らしです。"
+        },
+        {
+          "en": "The internal investigation revealed a systematic diversion of project budgets over three years.",
+          "ja": "社内調査により、3年間にわたってプロジェクト予算が組織的に流用されていたことが明らかになった。"
+        }
+      ]
+    },
+    {
+      "word": "adversary",
+      "phonetic": "/ˈædvərˌseri/",
+      "toeicRank": 13,
+      "parts": [
+        {
+          "part": "ad",
+          "meaning": "向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "vers",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "-ary",
+          "meaning": "〜の性質を持つ人・物",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（向かって）+ versus（向けられた）+ -ary（人）= こちらに向かい合っている人 → 敵対者",
+        "fact": "ラテン語 adversarius「向かい合っている者、反対側の人」← adversus（ad- + versus「向けられた」）から。13世紀から英語に存在し、法律・宗教・スポーツの文脈で対戦相手・敵対者を指す。TOEICや法律文書では legal adversary（法的対立者）、competitive adversary（競合相手）の形で出る。",
+        "source": "EtymOnline: adversary",
+        "cognates": [
+          "adverse",
+          "adversity",
+          "adversarial",
+          "advertise",
+          "advertisement"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "こちらに向かって真正面から対峙してくる人 → 敵対者・競争相手",
+        "fact": "FACINGスキーマ（正面対峙）の典型。ad-（向かって）+ versus（向けられた）= 自分のベクトルと真逆のベクトルを持つ存在。物理的衝突（対戦相手）から抽象的対立（法廷での相手方・競合企業）まで、「真向かいに向き合う力」がすべての意味の源。",
+        "source": "Talmy (2000) 力のダイナミクス; Lakoff & Johnson (1980) 対立メタファー"
+      },
+      "gap": "「敵」だけで覚えると legal adversary（訴訟相手）や adversary negotiation（対立的交渉）で詰まる。必ずしも「憎い敵」ではなく「向かい合う立場にある者」が本質。スポーツの対戦相手も法廷の相手方も adversary。adversarial AI（敵対的AI）も同根。",
+      "gapOneliner": "adversary = 憎む「敵」ではなく「向かい合う立場にある者」が本質",
+      "hook": {
+        "label": "記憶フック",
+        "text": "剣道の「正面で向き合う相手」が adversary。ad（向かって）+ vers（向ける）= 真正面から向き合ってくる人。法廷でも、ビジネスでも、スポーツでも「向き合う立場の人」= adversary。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "adversaryの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "向かい合っている人→敵対者・相手方",
+            "前に立つ人→先導者",
+            "上から見る人→監督者",
+            "離れて動く人→逃亡者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ad + vers + -ary の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向かって + 向ける + 人 = 敵対者",
+            "強く + 曲げる + 人 = 支配者",
+            "離れて + 走る + 人 = 逃走者",
+            "上へ + 押す + 人 = 昇進者"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "The company treated the merger talks as a partnership rather than an ______ negotiation.",
+          "hint": "「向かい合う立場にある」→「対立的な・敵対的な（形容詞形 adversarial）」",
+          "explanationFocus": "gap",
+          "choices": [
+            "adversarial",
+            "additional",
+            "universal",
+            "essential"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "adversaryと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "legal（法的対立者）",
+            "annual（年次の）",
+            "primary（主要な）",
+            "digital（デジタルの）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"In the courtroom, both attorneys respected their adversary's skill and preparation.\" — adversaryの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "相手方・対立者",
+            "証人",
+            "依頼人",
+            "判事"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two companies, once fierce adversaries, agreed to a joint venture to expand into new markets.",
+          "ja": "かつて激しいライバル関係にあった2社は、新市場への進出に向けて合弁事業を設立することで合意した。"
+        },
+        {
+          "en": "Understanding your adversary's strategy is just as important as developing your own.",
+          "ja": "自社の戦略を構築することと同じくらい、競合相手の戦略を理解することが重要だ。"
+        },
+        {
+          "en": "In an adversarial legal system, each side presents its case before a neutral judge.",
+          "ja": "対審制度においては、中立の裁判官の前で各当事者が自らの主張を提示する。"
+        }
+      ]
+    },
+    {
+      "word": "advertisement",
+      "phonetic": "/ˌædvərˈtaɪzmənt/",
+      "toeicRank": 14,
+      "parts": [
+        {
+          "part": "ad",
+          "meaning": "向かって",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        },
+        {
+          "part": "-ise",
+          "meaning": "動詞化",
+          "type": "suffix"
+        },
+        {
+          "part": "-ment",
+          "meaning": "名詞化（行為・結果）",
+          "type": "suffix"
+        }
+      ],
+      "etymology": {
+        "oneliner": "ad（向かって）+ vertere（向ける）= 注意を向けさせる → 告知 → 広告",
+        "fact": "ラテン語 advertere「注意を向ける」（ad- + vertere）→ 中英語 advertisen「通知する、知らせる」→ advertisement（15世紀）。元は「注意喚起・通達」の意味だったが、19世紀の印刷メディア普及で「有料の宣伝告知」へ特化。略語 ad / advert も同根。TOEICの Part 7 では求人広告（job advertisement）や製品広告が頻出。",
+        "source": "EtymOnline: advertisement",
+        "cognates": [
+          "advertise",
+          "advertiser",
+          "advertising",
+          "advert",
+          "adverse"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "消費者の注意を特定の方向（製品・サービス・求人）へ強制的に向けさせる行為",
+        "fact": "ATTENTIONスキーマ（注意の方向制御）の典型。広告主が受け手の「注意のベクトル」を自社製品・サービスの方向に向け(vert-)させる(ad-)行為。物理的なビルボードから検索エンジン広告まで、「注意を向けさせる」という核心は変わらない。",
+        "source": "Lakoff (1993) 概念メタファー; Ungerer & Schmid (2006) 認知言語学入門"
+      },
+      "gap": "「広告」だけで覚えると job advertisement（求人広告）やplace an advertisement（広告を出す）で詰まることも。advertise（動詞）・advertising（業界・行為）・advert（英国略語）を同根として押さえると、ビジネス英語が一気に読める。",
+      "gapOneliner": "advertisement = 「注意を向けさせる」行為の名詞形。ad / advert / advertise も全て同根",
+      "hook": {
+        "label": "記憶フック",
+        "text": "看板が通行人の目を「こちらに(ad)向け(vert)させる」のが advertisement（広告）。advertise は「注意を向けさせる行動」で、advertisement はその結果生まれた「向けさせるもの」。ad（広告）は advertisement の頭。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "advertisementの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "注意を向けさせること→広告・告知",
+            "強く押し出すこと→販売促進",
+            "繰り返し見せること→展示",
+            "前に進み出ること→売り込み"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "ad + vert + -ise + -ment の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "向かって + 向ける + 動詞化 + 名詞化 = 注意を向けさせるもの",
+            "前へ + 進む + 動詞化 + 名詞化 = 前進させるもの",
+            "外へ + 送る + 動詞化 + 名詞化 = 送り出すもの",
+            "強く + 言う + 動詞化 + 名詞化 = 主張するもの"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "Please place a job ______ in the local newspaper to attract qualified candidates.",
+          "hint": "「注意を向けさせるもの」→「広告・告知」",
+          "explanationFocus": "gap",
+          "choices": [
+            "advertisement",
+            "announcement",
+            "agreement",
+            "adjustment"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "advertisementと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "job（求人広告）",
+            "weather（天気予報）",
+            "budget（予算）",
+            "schedule（スケジュール）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The advertisement campaign significantly boosted brand awareness among younger consumers.\" — advertisementの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "広告",
+            "調査",
+            "研修",
+            "製品開発"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company placed a full-page advertisement in the business section of the newspaper.",
+          "ja": "その会社は新聞のビジネス面に全面広告を掲載した。"
+        },
+        {
+          "en": "She responded to a job advertisement posted on the company's official website.",
+          "ja": "彼女は会社の公式ウェブサイトに掲載された求人広告に応募した。"
+        },
+        {
+          "en": "Online advertisements can be targeted to specific demographics based on browsing history.",
+          "ja": "オンライン広告は閲覧履歴に基づいて特定の人口統計層に的を絞って表示することができる。"
+        }
+      ]
+    },
+    {
+      "word": "extrovert",
+      "phonetic": "/ˈekstrəvɜːrt/",
+      "toeicRank": 15,
+      "parts": [
+        {
+          "part": "extro",
+          "meaning": "外へ（extra の変形）",
+          "type": "prefix"
+        },
+        {
+          "part": "vert",
+          "meaning": "向ける・回す",
+          "type": "root"
+        }
+      ],
+      "etymology": {
+        "oneliner": "extro（外へ）+ vertere（向ける）= 関心・エネルギーを外側に向ける人 → 外向型",
+        "fact": "ラテン語 extra（外へ）+ vertere（向ける）を合成した心理学用語。スイスの精神科医カール・グスタフ・ユング（C. G. Jung）が1921年の著書 Psychological Types で extrovert / introvert の対を定式化した。元の学術的スペルは extravert だが、現代では extrovert が一般的。TOEICよりも TOEFL・IELTS・ビジネス文書の personality assessment でよく登場。",
+        "source": "EtymOnline: extrovert; Jung (1921) Psychological Types",
+        "cognates": [
+          "extroverted",
+          "extroversion",
+          "introvert",
+          "introversion",
+          "invert"
+        ]
+      },
+      "cognitive": {
+        "oneliner": "関心・エネルギーのベクトルが外側（他者・外界）に向いている人格タイプ",
+        "fact": "DIRECTIONスキーマの人格への投射。vert（向ける）という動詞的イメージが人格特性を定義する。extro-（外へ）のベクトルを持つ extrovert は「外界・他者に向けてエネルギーを放出する」タイプ、intro-（内へ）の introvert は「内側に向けてエネルギーを蓄える」タイプ。向きの違いだけが二つを分ける。",
+        "source": "Jung (1921) Psychological Types; Lakoff (1987) 認知モデル"
+      },
+      "gap": "「社交的な人」だけで覚えると性格テスト文書の extroverted personality（外向的な性格）や extroversion score（外向性スコア）で詰まる。introvert（内向型）と対でvert（向ける）の方向違いとして覚えると両方が定着する。必ずしも「陽気・うるさい」ではなく「エネルギーを外に向ける傾向」が本質。",
+      "gapOneliner": "extrovert = 「外にエネルギーを向ける」人。introvert は「内に向ける」人。vertの向きが違うだけ",
+      "hook": {
+        "label": "記憶フック",
+        "text": "extrovert は「外へ(extro)向ける(vert)」人。パーティーに行くとエネルギーが満タンになる人が extrovert。introvert は「内へ(intro)向ける(vert)」人で、一人の時間でエネルギーを充電する。vert（向き）の方向だけが違う。"
+      },
+      "formats": [
+        {
+          "type": "英→日選択",
+          "difficulty": 1,
+          "instruction": "extrovertの語源的な本質は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "エネルギーを外へ向ける人→外向型",
+            "強く外に出る人→行動的な人",
+            "外を好む人→アウトドア派",
+            "外から来た人→外国人"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "語源クイズ",
+          "difficulty": 2,
+          "instruction": "extro + vert の組み合わせが表す意味は？",
+          "explanationFocus": "cognitive",
+          "choices": [
+            "外へ + 向ける = 外向型の人",
+            "出る + 回す = 回転させる人",
+            "超える + 変える = 変革者",
+            "速く + 動く = 行動派"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "穴埋め",
+          "difficulty": 3,
+          "instruction": "空欄に入る単語は？",
+          "sentence": "As an ______, she thrives in team environments and gains energy from group discussions.",
+          "hint": "「外へ向ける」→「外向型の人」",
+          "explanationFocus": "gap",
+          "choices": [
+            "extrovert",
+            "introvert",
+            "convert",
+            "advocate"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "コロケーション",
+          "difficulty": 3,
+          "instruction": "extrovertと最も自然に結びつく語は？",
+          "explanationFocus": "hook",
+          "choices": [
+            "personality（外向的な性格）",
+            "document（文書）",
+            "budget（予算）",
+            "schedule（スケジュール）"
+          ],
+          "correct": 0
+        },
+        {
+          "type": "例文意味推測",
+          "difficulty": 4,
+          "instruction": "\"The sales role suits extroverts who draw energy from meeting new people every day.\" — extrovertの意味は？",
+          "explanationFocus": "etymology",
+          "choices": [
+            "外向型の人",
+            "経験豊富な人",
+            "技術に詳しい人",
+            "几帳面な人"
+          ],
+          "correct": 0
+        }
+      ],
+      "examples": [
+        {
+          "en": "Being an extrovert, he naturally gravitated toward client-facing roles in the company.",
+          "ja": "外向型の彼は、社内で自然と顧客対応の役割に惹かれていった。"
+        },
+        {
+          "en": "The personality assessment revealed that most of the sales team scored high on extroversion.",
+          "ja": "性格アセスメントにより、営業チームの大半が外向性で高得点を記録していることが判明した。"
+        },
+        {
+          "en": "Knowing whether a candidate is an extrovert or introvert can help managers assign them to suitable projects.",
+          "ja": "候補者が外向型か内向型かを知ることで、マネージャーが適切なプロジェクトへのアサインを判断しやすくなる。"
+        }
+      ]
+    }
+  ]
+}
