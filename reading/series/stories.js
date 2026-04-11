@@ -77452,5 +77452,3499 @@ const STORIES = [
         "w": "."
       }
     ]
+  },
+  {
+    "id": "2026W14_01_vl2000",
+    "vl": "vl2000",
+    "week": "2026W14",
+    "pub_date": "2026-04-11",
+    "source_url": "https://learningenglish.voanews.com/a/researchers-south-korea-s-birth-rate-increase-last-year-unclear-/7997203.html",
+    "source_title": "Researchers: South Korea’s Birth Rate Increase Last Year Unc",
+    "title": "South Korea Sees More Babies",
+    "title_ja": "韓国、出生数増加の兆し",
+    "word_count": 80,
+    "body": "South Korea saw a small increase in the number of babies born last year. This is welcome news for the country. But the nation still faces a serious problem: its birth rate is very low. In 2024, the rate was 0.75. This low rate could hurt the country’s economy. Because the rate is so low, South Korea might face work shortages. Experts say that while the small increase is good, solving this big problem will be very difficult for the government.",
+    "body_ja": "韓国では昨年、出生数がわずかに増加し、国内にとって朗報となりました。しかし、同国は依然として深刻な課題を抱えています。それは、極めて低い出生率です。2024年の出生率は0.75を記録し、この低さは国の経済を圧迫し、労働力不足を引き起こす恐れがあります。専門家は、今回のわずかな増加は評価できるものの、この根深い問題を解決するのは政府にとって極めて困難であると警鐘を鳴らしています。",
+    "body_annotated": [
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "saw",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "small",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "increase",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "number",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "born",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "last",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "year",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "This",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "welcome",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "news",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "But",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "nation",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "still",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "faces",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "serious",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problem",
+        "vl": 2000
+      },
+      {
+        "w": ":"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "its",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "birth",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "very",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "In",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "2024,"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "was",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "0.75."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "This",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "could",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "hurt",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country",
+        "vl": 2000
+      },
+      {
+        "w": "’"
+      },
+      {
+        "w": "s",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "economy",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Because",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "so",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "might",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "face",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "work",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "shortages",
+        "vl": null,
+        "outside": true
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Experts",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "say",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "while",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "small",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "increase",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "good",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "solving",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "big",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problem",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "very",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "difficult",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "government",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      }
+    ],
+    "vocab_notes": [
+      {
+        "word": "increase",
+        "vl": 2000,
+        "definition": "to become larger or greater"
+      },
+      {
+        "word": "economy",
+        "vl": 2000,
+        "definition": "the way that people make and buy things"
+      },
+      {
+        "word": "shortages",
+        "vl": null,
+        "definition": ""
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "記事によると、2024年時点の韓国の出生率はどれくらいでしたか？",
+        "choices": [
+          "1.5",
+          "0.30",
+          "0.75",
+          "1.0"
+        ],
+        "answer": 2,
+        "expl": "本文に「In 2024, the rate was 0.75.」と明記されているため、正解は3番目の選択肢（0.75）です。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が最も伝えたいメッセージは何ですか？",
+        "choices": [
+          "韓国の経済はすでに回復し始めている。",
+          "出生率が少し上がっただけで、問題は解決した。",
+          "出生率は改善傾向にあるものの、深刻な経済問題が残っている。",
+          "今後は人口減少は避けられないため、国は対策を放棄すべきだ。"
+        ],
+        "answer": 2,
+        "expl": "本文は、出生率がわずかに増加したことを歓迎しつつも、それが「深刻な問題」（low rate）であり、解決は「非常に難しい」（very difficult）と警告しているため、現状の課題を指摘する内容が主旨です。"
+      }
+    ]
+  },
+  {
+    "id": "2026W14_01_vl3000",
+    "vl": "vl3000",
+    "week": "2026W14",
+    "pub_date": "2026-04-11",
+    "source_url": "https://learningenglish.voanews.com/a/researchers-south-korea-s-birth-rate-increase-last-year-unclear-/7997203.html",
+    "source_title": "Researchers: South Korea’s Birth Rate Increase Last Year Unc",
+    "title": "South Korea Sees More Babies Born in 2024",
+    "title_ja": "2024年、韓国の出生数が増加",
+    "word_count": 117,
+    "body": "In 2024, South Korea saw an increase in the number of babies born, which was welcome news after many years. The country’s statistics agency reported that the birth count went up, showing a small rise in the nation's population. However, the overall birth rate—the average number of babies per woman—remains very low. This low rate, which has been seen in recent years, can create big problems for the economy, possibly causing labor shortages. Although the government offers many programs to help new parents, experts warn that fixing the country's population issues will be difficult. The data suggests that while there were some positive changes, the long-term situation remains a serious challenge for South Korea.",
+    "body_ja": "2024年、韓国では長年ぶりに出生数の増加が見られ、歓迎ムードとなった。統計庁によると、出生数は増加し、国の人口にわずかな上昇を示した。しかし、女性一人当たりの平均出生率自体は依然として非常に低い水準にある。この低水準は近年懸念されており、経済に大きな影響を与え、労働力不足を引き起こす恐れがある。政府は新米の親たちを支援する様々なプログラムを提供しているものの、専門家は国の人口問題の解決は容易ではないと警告している。データは、一部に前向きな変化があった一方で、韓国の長期的な状況は依然として深刻な課題が残っていることを示唆している。",
+    "body_annotated": [
+      {
+        "w": "In",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "2024,"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "saw",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "an",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "increase",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "number",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "born",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "which",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "was",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "welcome",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "news",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "after",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "many",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "years",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "The",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country",
+        "vl": 2000
+      },
+      {
+        "w": "’"
+      },
+      {
+        "w": "s",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "statistics",
+        "vl": 3000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "agency",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "reported",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "birth",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "count",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "went",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "up",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "showing",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "small",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rise",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "nation's",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "population",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "However",
+        "vl": null
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "overall",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "birth",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": "—"
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "average",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "number",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "per",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "woman",
+        "vl": 2000
+      },
+      {
+        "w": "—"
+      },
+      {
+        "w": "remains",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "very",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "This",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "which",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "has",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "been",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "seen",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "recent",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "years",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "can",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "create",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "big",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problems",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "economy",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "possibly",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "causing",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "labor",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "shortages",
+        "vl": null,
+        "outside": true
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Although",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "government",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "offers",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "many",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "programs",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "help",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "new",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "parents",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "experts",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "warn",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "fixing",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country's",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "population",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "issues",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "difficult",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "The",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "data",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "suggests",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "while",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "there",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "were",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "some",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "positive",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "changes",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "long",
+        "vl": 2000
+      },
+      {
+        "w": "-"
+      },
+      {
+        "w": "term",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "situation",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "remains",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "serious",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "challenge",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": "."
+      }
+    ],
+    "vocab_notes": [
+      {
+        "word": "increase",
+        "vl": 100,
+        "definition": "to become greater in amount or number"
+      },
+      {
+        "word": "rate",
+        "vl": 500,
+        "definition": "a measure of how fast something changes"
+      },
+      {
+        "word": "overall",
+        "vl": 800,
+        "definition": "taking everything into account"
+      },
+      {
+        "word": "labor",
+        "vl": 1200,
+        "definition": "work or effort"
+      },
+      {
+        "word": "shortages",
+        "vl": 1500,
+        "definition": "a lack of something needed"
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "本文によると、2024年の韓国の人口動態について述べられている具体的な事実はどれですか？",
+        "choices": [
+          "出生率が過去最高を記録し、経済的な問題が完全に解決した。",
+          "2024年には出生数は増加したが、全体的な出生率は依然として低い水準にある。",
+          "政府の支援策が成功したため、労働力不足の懸念は解消された。",
+          "人口減少は深刻な問題ではないため、特別な対策は必要ない。"
+        ],
+        "answer": 1,
+        "expl": "本文には「In 2024, South Korea saw an increase in the number of babies born... However, the overall birth rate... remains very low.」とあり、出生数は増えたが、全体的な出生率は依然として低いことが述べられています。したがって、2番目の選択肢が正解です。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事全体が最も伝えているメッセージ（主旨）として適切なものはどれですか？",
+        "choices": [
+          "政府が提供する多くの支援プログラムによって、韓国の人口問題は短期的に乗り越えられる。",
+          "2024年の出生数の増加は、韓国の人口構造の長期的な問題を解決する決定的な証拠である。",
+          "出生数には一時的な改善が見られたものの、低出生率による経済的課題は長期的かつ深刻な問題として残っている。",
+          "労働力不足は、出生率の低さとは無関係であり、韓国経済の主要な懸念材料ではない。"
+        ],
+        "answer": 2,
+        "expl": "本文は、2024年の出生数の増加という「ポジティブな変化」に触れつつも、「overall birth rate... remains very low」「long-term situation remains a serious challenge」と繰り返し、根本的な課題の深刻さを強調しています。したがって、一時的な改善と長期的な課題の両面を指摘している3番目の選択肢が、記事の主旨を最もよく表しています。"
+      }
+    ]
+  },
+  {
+    "id": "2026W14_01_vl5000",
+    "vl": "vl5000",
+    "week": "2026W14",
+    "pub_date": "2026-04-11",
+    "source_url": "https://learningenglish.voanews.com/a/researchers-south-korea-s-birth-rate-increase-last-year-unclear-/7997203.html",
+    "source_title": "Researchers: South Korea’s Birth Rate Increase Last Year Unc",
+    "title": "South Korea Sees Small Increase in Births",
+    "title_ja": "韓国、出生数がわずかに増加",
+    "word_count": 112,
+    "body": "In 2024, South Korea recorded an increase in the number of babies born, marking the first rise in nine years. This news is welcome for a country dealing with serious population issues. The nation's fertility rate, which measures the average number of babies born to each woman, rose to 0.75. Experts suggest this small jump may be due to more marriages happening after delays caused by the COVID-19 pandemic, and also because more people entered their early 30s. However, the low birth rate continues to threaten South Korea's economy, potentially causing labor shortages. Although the government is offering many support programs, experts warn that solving the country's long-term population problems will remain difficult.",
+    "body_ja": "2024年、韓国は出生数の増加を記録し、実に9年間ぶりの上昇となりました。深刻な人口問題に直面する同国にとって、このニュースは歓迎されています。女性一人当たりの平均出産数を測る出生率は0.75に上昇しました。専門家は、このわずかな増加は、コロナ禍による遅延を経て結婚が増えたことや、30代前半に入った人が増えたことが要因だと指摘しています。しかし、低い出生率は引き続き韓国経済を脅かし、労働力不足を引き起こす可能性があります。政府は多くの支援策を講じていますが、専門家は、同国の長期的な人口問題を解決するのは依然として困難であると警告しています。",
+    "body_annotated": [
+      {
+        "w": "In",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "2024,"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "recorded",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "an",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "increase",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "number",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "born",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "marking",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "first",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rise",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "nine",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "years",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "This",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "news",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "welcome",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "dealing",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "with",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "serious",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "population",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "issues",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "The",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "nation's",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "fertility",
+        "vl": 3000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "which",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "measures",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "average",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "number",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "born",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "each",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "woman",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rose",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "0.75."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Experts",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "suggest",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "small",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "jump",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "may",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "due",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "more",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "marriages",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "happening",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "after",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "delays",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "caused",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "by",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "COVID",
+        "vl": null
+      },
+      {
+        "w": "-19"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "pandemic",
+        "vl": null,
+        "outside": true
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "also",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "because",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "more",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "people",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "entered",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "their",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "early",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "30"
+      },
+      {
+        "w": "s",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "However",
+        "vl": null
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "birth",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "continues",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "threaten",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea's",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "economy",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "potentially",
+        "vl": 3000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "causing",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "labor",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "shortages",
+        "vl": 5000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Although",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "government",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "offering",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "many",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "support",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "programs",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "experts",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "warn",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "solving",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country's",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "long",
+        "vl": 2000
+      },
+      {
+        "w": "-"
+      },
+      {
+        "w": "term",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "population",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problems",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "remain",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "difficult",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      }
+    ],
+    "vocab_notes": [
+      {
+        "word": "population",
+        "vl": 5000,
+        "definition": "the total number of people in a place"
+      },
+      {
+        "word": "fertility",
+        "vl": 5000,
+        "definition": "the ability or rate of having babies"
+      },
+      {
+        "word": "threaten",
+        "vl": 5000,
+        "definition": "to put into danger; to endanger"
+      },
+      {
+        "word": "shortages",
+        "vl": 5000,
+        "definition": "a lack of something needed in sufficient amounts"
+      },
+      {
+        "word": "pandemic",
+        "vl": null,
+        "definition": ""
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "2024年の韓国の出生率（一人当たりの平均出生数）は、具体的にいくつでしたか？",
+        "choices": [
+          "1.0",
+          "0.75",
+          "0.5",
+          "0.70"
+        ],
+        "answer": 1,
+        "expl": "本文に「The nation's fertility rate... rose to 0.75.」と明記されているため、正解は2番目の選択肢です。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事が伝えたい最も重要なポイントは何ですか？",
+        "choices": [
+          "韓国は人口問題から完全に脱却し、経済が回復に向かっている。",
+          "出生数がわずかに増加したため、韓国の長期的な人口危機は解決に向かっている。",
+          "政府が提供する支援プログラムが、韓国の長期的な人口問題を解決する鍵となる。",
+          "わずかな出生数の増加があったものの、長期的な人口問題は依然として深刻な課題である。"
+        ],
+        "answer": 3,
+        "expl": "記事は出生数の増加というポジティブなニュースから始まりますが、「However, the low birth rate continues to threaten...」「experts warn that solving... will remain difficult」と述べられており、一時的な改善があっても根本的な問題は続いているという点が最も重要な論点です。"
+      }
+    ]
+  },
+  {
+    "id": "2026W14_01_vl7000",
+    "vl": "vl7000",
+    "week": "2026W14",
+    "pub_date": "2026-04-11",
+    "source_url": "https://learningenglish.voanews.com/a/researchers-south-korea-s-birth-rate-increase-last-year-unclear-/7997203.html",
+    "source_title": "Researchers: South Korea’s Birth Rate Increase Last Year Unc",
+    "title": "South Korea's Birth Numbers Increase for the First Time in Years",
+    "title_ja": "韓国、出生数が数年ぶりに増加",
+    "word_count": 123,
+    "body": "In 2024, the number of babies born in South Korea went up, marking the first increase in nine years. This is welcome news for a country that has been facing serious population challenges. South Korea’s statistics agency reported that 238,300 babies were born last year, which is an increase of 8,300. The country's birth rate was 0.75 in 2024, slightly higher than 0.72 the year before. Experts suggest this rise may be partly due to more people getting married after delays during the COVID-19 pandemic, and also because more people entered their early thirties. However, the country's birth rate remains very low, which could threaten its economic future. While the government offers various support programs, experts caution that solving the population problem will prove challenging for South Korea.",
+    "body_ja": "2024年、韓国の出生数が9年間で初めて増加しました。これは深刻な人口問題に直面する国にとって朗報です。韓国の統計局によると、昨年は23万8,300人の赤子が生まれ、8,300人の増加となりました。同国の出生率は2024年は0.75となり、前年の0.72をわずかに上回りました。専門家は、この増加は、コロナ禍での遅れを経て結婚した人や、30代前半に入った人が増えたことが要因の一つだと指摘しています。しかし、出生率は依然として非常に低く、国の経済的将来を脅かす懸念があります。政府は様々な支援策を提供していますが、専門家は、この人口問題の解決は韓国にとって依然として困難を伴うだろうと警鐘を鳴らしています。",
+    "body_annotated": [
+      {
+        "w": "In",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "2024,"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "number",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "born",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "went",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "up",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "marking",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "first",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "increase",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "nine",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "years",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "This",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "welcome",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "news",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "a",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "has",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "been",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "facing",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "serious",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "population",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "challenges",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": "’"
+      },
+      {
+        "w": "s",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "statistics",
+        "vl": 3000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "agency",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "reported",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "238,300"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "babies",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "were",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "born",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "last",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "year",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "which",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "is",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "an",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "increase",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "of",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "8,300."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "The",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country's",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "birth",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "was",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "0.75"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "in",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "2024,"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "slightly",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "higher",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "than",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "0.72"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "year",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "before",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Experts",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "suggest",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "this",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rise",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "may",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "be",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "partly",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "due",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "to",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "more",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "people",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "getting",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "married",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "after",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "delays",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "during",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "COVID",
+        "vl": null
+      },
+      {
+        "w": "-19"
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "pandemic",
+        "vl": null,
+        "outside": true
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "and",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "also",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "because",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "more",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "people",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "entered",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "their",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "early",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "thirties",
+        "vl": null
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "However",
+        "vl": null
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "country's",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "birth",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "rate",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "remains",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "very",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "low",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "which",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "could",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "threaten",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "its",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "economic",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "future",
+        "vl": 2000
+      },
+      {
+        "w": "."
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "While",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "government",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "offers",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "various",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "support",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "programs",
+        "vl": 2000
+      },
+      {
+        "w": ","
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "experts",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "caution",
+        "vl": 5000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "that",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "solving",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "the",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "population",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "problem",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "will",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "prove",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "challenging",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "for",
+        "vl": 2000
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "South",
+        "vl": null
+      },
+      {
+        "w": " "
+      },
+      {
+        "w": "Korea",
+        "vl": null
+      },
+      {
+        "w": "."
+      }
+    ],
+    "vocab_notes": [
+      {
+        "word": "fluctuated",
+        "vl": 6000,
+        "definition": "changed regularly"
+      },
+      {
+        "word": "challenges",
+        "vl": 4500,
+        "definition": "difficult problems"
+      },
+      {
+        "word": "suggest",
+        "vl": 5000,
+        "definition": "to put forward an idea"
+      },
+      {
+        "word": "threaten",
+        "vl": 5500,
+        "definition": "to put into danger"
+      },
+      {
+        "word": "pandemic",
+        "vl": null,
+        "definition": ""
+      }
+    ],
+    "questions": [
+      {
+        "axis": "detail",
+        "q": "この記事が伝える具体的な事実として、最も正しいものはどれですか？",
+        "choices": [
+          "出生数は過去9年間ずっと減少傾向が続いている。",
+          "2024年の出生率は前年よりも低下した。",
+          "2024年は9年ぶりに出生数が増加に転じた。",
+          "増加した出生数は、経済的な問題を引き起こしていない。"
+        ],
+        "answer": 2,
+        "expl": "本文の冒頭に「In 2024, the number of babies born in South Korea went up, marking the first increase in nine years.」と記載されているため、9年ぶりの増加が事実です。"
+      },
+      {
+        "axis": "main_idea",
+        "q": "この記事全体を通して筆者が伝えたい主なメッセージは何ですか？",
+        "choices": [
+          "韓国の政府は、全ての人口問題を支援策で完全に解決できる。",
+          "一時的な出生数の増加は見られるものの、人口問題の解決は依然として大きな課題であること。",
+          "2024年以降は、出生率が上昇に転じ、経済的な危機は回避できる。",
+          "結婚の遅延や年齢層の変化が、人口増加の唯一の原因である。"
+        ],
+        "answer": 1,
+        "expl": "記事は出生数の増加という「歓迎すべきニュース」から始まりますが、同時に「birth rate remains very low, which could threaten its economic future」や「solving the population problem will prove challenging」といった警告を繰り返しており、単なる一時的な改善ではなく、深刻な課題が残っていることが主旨です。"
+      }
+    ]
   }
 ];
