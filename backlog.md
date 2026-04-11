@@ -17,7 +17,7 @@
 ## Tier 3: SaaS / 新規収益源
 
 - [x] saas-d: 英語学習コンテンツ生成SaaS MVP設計書作成（/projects/saas-d-content-generator/） <!-- 2026-04-10 -->
-- [ ] saas-d: Claude APIを使った問題生成デモスクリプト作成（Python）
+- [x] saas-d: Claude APIを使った問題生成デモスクリプト作成（Python） <!-- 2026-04-11 -->
 - [ ] newsup/: ニュース英語学習サービスのUIプロトタイプ作成
 
 ## native-real MAU強化
