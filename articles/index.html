@@ -128,17 +128,17 @@
 
 :root {
   --primary: #F5A623;
-  --primary-light: #3b82f6;
+  --primary-light: #f0b429;
   --primary-dark: #d4891a;
-  --primary-pale: #eff6ff;
-  --accent: #10b981;
+  --primary-pale: rgba(245,166,35,0.10);
+  --accent: #F5A623;
   --accent-dark: #d4891a;
-  --accent-pale: #ecfdf5;
+  --accent-pale: rgba(245,166,35,0.08);
   --text: #111827;
   --text-muted: #6b7280;
   --bg: #F8F6F1;
-  --bg-gray: #f9fafb;
-  --border: #e5e7eb;
+  --bg-gray: #F2EFE9;
+  --border: #E8E4DC;
   --shadow: 0 1px 3px rgba(26,26,26,0.06), 0 2px 8px rgba(26,26,26,0.04);
   --shadow-md: 0 4px 16px rgba(26,26,26,0.08), 0 8px 24px rgba(26,26,26,0.05);
   --radius: 10px;
@@ -225,7 +225,7 @@ img { max-width: 100%; height: auto; }
 }
 .btn-hero-cta {
   display: inline-block;
-  background: var(--accent);
+  background: var(--primary);
   color: white;
   padding: 12px 28px;
   border-radius: var(--radius);
@@ -233,9 +233,9 @@ img { max-width: 100%; height: auto; }
   font-size: 0.95rem;
   text-decoration: none;
   transition: background 0.15s, transform 0.15s;
-  box-shadow: 0 2px 8px rgba(16,185,129,0.25);
+  box-shadow: 0 2px 8px rgba(245,166,35,0.25);
 }
-.btn-hero-cta:hover { background: var(--accent-dark); color: white; transform: translateY(-1px); }
+.btn-hero-cta:hover { background: var(--primary-dark); color: white; transform: translateY(-1px); }
 
 /* Sections */
 .section { padding: 80px 0; }
@@ -325,7 +325,7 @@ img { max-width: 100%; height: auto; }
 .card-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; flex-shrink: 0; min-width: 130px; }
 .btn-primary {
   display: inline-block;
-  background: #10b981;
+  background: #F5A623;
   color: white;
   padding: 11px 20px;
   border-radius: var(--radius);
@@ -335,9 +335,9 @@ img { max-width: 100%; height: auto; }
   text-align: center;
   white-space: nowrap;
   transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-  box-shadow: 0 3px 10px rgba(16,185,129,0.3);
+  box-shadow: 0 3px 10px rgba(245,166,35,0.3);
 }
-.btn-primary:hover { background: #d4891a; color: white; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(16,185,129,0.4); }
+.btn-primary:hover { background: #d4891a; color: white; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(245,166,35,0.4); }
 .btn-secondary {
   display: inline-block;
   background: #FDFCF9;
@@ -397,8 +397,8 @@ img { max-width: 100%; height: auto; }
 }
 /* Category icon colors */
 .eyecatch-learning { background: #F5A623; }
-.eyecatch-coaching { background: linear-gradient(160deg, #7c3aed, #6d28d9); }
-.eyecatch-otoku    { background: linear-gradient(160deg, #d97706, #b45309); }
+.eyecatch-coaching { background: linear-gradient(160deg, #e8a020, #d4891a); }
+.eyecatch-otoku    { background: linear-gradient(160deg, #c8a060, #a07840); }
 .eyecatch-career   { background: #F5A623; }
 .eyecatch-other    { background: #F5A623; }
 .article-card-body { padding: 14px 18px; flex: 1; min-width: 0; }
@@ -444,11 +444,11 @@ img { max-width: 100%; height: auto; }
   letter-spacing: 0.04em;
 }
 /* カテゴリ色分け */
-.article-category.cat-learning { background: #fff7ed; color: #c2410c; }
-.article-category.cat-coaching { background: #f5f3ff; color: #6d28d9; }
-.article-category.cat-otoku    { background: #ecfdf5; color: #065f46; }
-.article-category.cat-career   { background: #eff6ff; color: #1d4ed8; }
-.article-category.cat-other    { background: #f0fdf4; color: #15803d; }
+.article-category.cat-learning { background: rgba(245,166,35,0.12); color: #c2410c; }
+.article-category.cat-coaching { background: rgba(245,166,35,0.10); color: #a07020; }
+.article-category.cat-otoku    { background: rgba(200,160,96,0.12); color: #7a5820; }
+.article-category.cat-career   { background: rgba(245,166,35,0.10); color: #b87010; }
+.article-category.cat-other    { background: rgba(245,166,35,0.08); color: #8a6010; }
 
 .article-card h3 { font-size: 0.95rem; line-height: 1.6; font-weight: 700; transition: color 0.2s; }
 .article-card a { text-decoration: none; color: var(--text); }
@@ -559,7 +559,7 @@ img { max-width: 100%; height: auto; }
   padding: 28px 32px;
   text-align: center;
   margin: 36px 0;
-  box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+  box-shadow: 0 8px 24px rgba(245,166,35,0.15);
 }
 .cta-box h3 { font-size: 1.15rem; margin-bottom: 10px; font-weight: 700; }
 .cta-box p { opacity: 0.9; margin-bottom: 20px; font-size: 0.93rem; }
@@ -646,7 +646,7 @@ img { max-width: 100%; height: auto; }
   position: sticky;
   top: 57px;
   z-index: 90;
-  background: rgba(255,255,255,0.95);
+  background: rgba(248,246,241,0.95);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   padding: 12px 20px;
@@ -756,7 +756,7 @@ img { max-width: 100%; height: auto; }
   transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
 }
 .app-promo-card:hover {
-  border-color: var(--accent); box-shadow: 0 4px 16px rgba(16,185,129,0.12);
+  border-color: var(--primary); box-shadow: 0 4px 16px rgba(245,166,35,0.12);
   transform: translateY(-2px); color: inherit;
 }
 .app-promo-icon {
@@ -3236,7 +3236,7 @@ img { max-width: 100%; height: auto; }
       <span class="app-promo-badge">無料</span>
     </a>
     <a href="/kioku-shinai/" class="app-promo-card">
-      <div class="app-promo-icon" style="background:rgba(16,185,129,0.08)">🧠</div>
+      <div class="app-promo-icon" style="background:rgba(245,166,35,0.08)">🧠</div>
       <div class="app-promo-name">語根記憶術</div>
       <div class="app-promo-desc">語根で覚える<br>新しい単語学習</div>
       <span class="app-promo-badge">無料</span>
