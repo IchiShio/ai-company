@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B9WEBKYEP"></script>
+  <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','G-5B9WEBKYEP',{send_page_view:false});
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>問題を報告する | native-real</title>
+  <meta name="description" content="native-real.comで見つけた不具合やエラーを報告できます。サイトの改善にご協力ください。">
+  <link rel="canonical" href="https://native-real.com/feedback/">
+  <meta property="og:title" content="問題を報告する | native-real">
+  <meta property="og:description" content="不具合やエラーの報告にご協力ください。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://native-real.com/feedback/">
+  <meta property="og:site_name" content="native-real">
+  <meta property="og:image" content="https://native-real.com/assets/ogp.png">
+  <meta property="og:locale" content="ja_JP">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="問題を報告する | native-real">
+  <meta name="twitter:description" content="不具合やエラーの報告にご協力ください。">
+  <meta name="author" content="native-real">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+    /* ── UNIFIED HEADER ── */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 300;
+      background: rgba(248,246,241,0.92); backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid #E8E4DC; padding: 10px 0;
+      transition: padding 0.3s ease, box-shadow 0.3s ease;
+    }
+    .site-header.scrolled { padding: 6px 0; box-shadow: 0 1px 12px rgba(26,26,26,0.08); }
+    .site-header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+    .site-header-logo { font-size: 15px; font-weight: 800; color: rgba(26,26,26,0.88); text-decoration: none; white-space: nowrap; display: flex; align-items: center; gap: 7px; }
+    .site-header-logo svg { width: 18px; height: 18px; color: #F5A623; }
+    .site-header-nav { display: flex; align-items: center; gap: 2px; }
+    .site-header-nav > a { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); text-decoration: none; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; position: relative; }
+    .site-header-nav > a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .site-header-nav > a.active { color: #F5A623; font-weight: 700; }
+    .site-header-nav > a.active::after { content: ''; position: absolute; bottom: 2px; left: 50%; transform: translateX(-50%); width: 16px; height: 2px; border-radius: 1px; background: #F5A623; }
+    .nav-dd { position: relative; }
+    .nav-dd-trigger { font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.55); background: none; border: none; cursor: pointer; padding: 7px 12px; border-radius: 10px; transition: all 0.2s ease; white-space: nowrap; display: flex; align-items: center; gap: 3px; font-family: inherit; }
+    .nav-dd-trigger:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-trigger.active { color: #F5A623; font-weight: 700; }
+    .dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+    .nav-dd:hover .dd-chevron, .nav-dd.open .dd-chevron { transform: rotate(180deg); }
+    .nav-dd-menu { display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 180px; background: #FDFCF9; border-radius: 12px; border: 1px solid #E8E4DC; box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04); padding: 6px; margin-top: 4px; z-index: 310; }
+    .nav-dd:hover .nav-dd-menu, .nav-dd.open .nav-dd-menu { display: block; }
+    .nav-dd-menu a { display: block; font-size: 13px; font-weight: 500; color: rgba(26,26,26,0.62); text-decoration: none; padding: 9px 14px; border-radius: 8px; transition: all 0.15s ease; white-space: nowrap; }
+    .nav-dd-menu a:hover { color: rgba(26,26,26,0.88); background: rgba(26,26,26,0.04); }
+    .nav-dd-menu a.active { color: #F5A623; font-weight: 700; }
+    .site-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; width: 40px; height: 40px; border-radius: 10px; position: relative; z-index: 302; }
+    .site-hamburger span { display: block; width: 18px; height: 2px; background: rgba(26,26,26,0.88); margin: 4px auto; border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
+    .site-hamburger.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    .site-hamburger.active span:nth-child(2) { opacity: 0; }
+    .site-hamburger.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+    .site-mobile-nav { display: flex; visibility: hidden; pointer-events: none; position: fixed; inset: 0; background: rgba(10,10,10,0.96); z-index: 301; backdrop-filter: blur(20px); flex-direction: column; align-items: center; justify-content: center; gap: 4px; opacity: 0; transition: opacity 0.3s, visibility 0.3s; }
+    .site-mobile-nav.active { visibility: visible; pointer-events: auto; opacity: 1; }
+    .site-mobile-nav a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 17px; font-weight: 600; padding: 14px 40px; border-radius: 14px; width: 260px; text-align: center; }
+    .site-mobile-nav a:hover { background: rgba(255,255,255,0.08); color: #fff; }
+    .site-mobile-nav a.active { color: #F5A623; }
+    .mobile-nav-label { color: rgba(255,255,255,0.3); font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 0 2px; width: 260px; text-align: center; }
+    @media (max-width: 768px) { .site-header-nav { display: none; } .site-hamburger { display: block; } }
+    .mobile-nav-close { position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #fff; cursor: pointer; width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .mobile-nav-close:hover { background: rgba(255,255,255,0.2); }
+    /* ── END UNIFIED HEADER ── */
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter','Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;background:#F8F6F1;color:rgba(26,26,26,0.88);min-height:100vh;-webkit-font-smoothing:antialiased;line-height:1.8}
+
+.wrap{max-width:640px;margin:0 auto;padding:0 24px}
+.site-header-spacer{height:54px}
+
+/* ── HERO ── */
+.hero{padding:80px 0 40px;text-align:center}
+.hero-label{font-size:13px;font-weight:700;color:rgba(26,26,26,0.42);letter-spacing:1px;text-transform:uppercase;margin-bottom:16px}
+.hero h1{font-size:28px;font-weight:900;line-height:1.35;letter-spacing:-.5px;margin-bottom:12px}
+.hero-sub{font-size:15px;color:rgba(26,26,26,0.62);line-height:1.7}
+
+/* ── FORM ── */
+.fb-form{margin:0 0 48px}
+.fb-group{margin-bottom:24px}
+.fb-label{display:block;font-size:14px;font-weight:700;color:rgba(26,26,26,0.88);margin-bottom:8px}
+.fb-label .req{color:#DC2626;font-size:12px;font-weight:600;margin-left:6px}
+.fb-hint{font-size:12px;color:rgba(26,26,26,0.42);margin-bottom:8px;line-height:1.5}
+
+.fb-select,
+.fb-input,
+.fb-textarea{
+  width:100%;font-family:inherit;font-size:15px;
+  background:#FDFCF9;border:1.5px solid #E8E4DC;border-radius:12px;
+  padding:12px 16px;color:rgba(26,26,26,0.88);
+  transition:border-color 0.2s,box-shadow 0.2s;
+  -webkit-appearance:none;appearance:none;
+}
+.fb-select:focus,
+.fb-input:focus,
+.fb-textarea:focus{
+  outline:none;border-color:#F5A623;
+  box-shadow:0 0 0 3px rgba(245,166,35,0.12);
+}
+.fb-select{
+  background-image:url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%231a1a1a' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.4'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center;
+  padding-right:36px;cursor:pointer;
+}
+.fb-textarea{min-height:140px;resize:vertical;line-height:1.7}
+
+/* ── SUBMIT ── */
+.fb-submit{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:linear-gradient(180deg,#F8C347 0%,#F5A623 50%,#E09520 100%);
+  color:rgba(26,26,26,0.88);border:none;padding:14px 40px;
+  border-radius:9999px;font-size:16px;font-weight:800;
+  cursor:pointer;transition:all 0.15s;font-family:inherit;
+  box-shadow:0 1px 3px rgba(224,149,32,0.3);
+  width:100%;
+}
+.fb-submit:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(224,149,32,0.3)}
+.fb-submit:active{transform:scale(0.98)}
+.fb-submit:disabled{opacity:0.5;cursor:not-allowed;transform:none;box-shadow:none}
+
+/* ── TOAST ── */
+.fb-toast{
+  position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:rgba(26,26,26,0.92);color:#fff;padding:14px 28px;border-radius:14px;
+  font-size:14px;font-weight:600;z-index:400;opacity:0;pointer-events:none;
+  transition:opacity 0.3s,transform 0.3s;backdrop-filter:blur(12px);
+  max-width:90vw;text-align:center;
+}
+.fb-toast.show{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto}
+.fb-toast.error{background:rgba(220,38,38,0.92)}
+
+/* ── FOOTER ── */
+.footer{text-align:center;padding:48px 20px 32px;font-size:12px;color:rgba(26,26,26,0.42)}
+.footer a{color:rgba(26,26,26,0.42);text-decoration:none}
+.footer a:hover{color:rgba(26,26,26,0.62)}
+</style>
+<link rel="stylesheet" href="/assets/global-design.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PS9R9844" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="site-header-spacer"></div>
+<header class="site-header" id="siteHeader">
+  <div class="site-header-inner">
+    <a href="/" class="site-header-logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>native-real</a>
+    <nav class="site-header-nav">
+      <a href="/listening/">ListenUp</a>
+      <div class="nav-dd">
+        <button class="nav-dd-trigger" type="button">学ぶ<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+        <div class="nav-dd-menu">
+          <a href="/grammar/">文法クイズ</a>
+          <a href="/words/">WordsUp</a>
+          <a href="/kioku-shinai/">記憶しない英単語</a>
+        </div>
+      </div>
+      <div class="nav-dd">
+        <button class="nav-dd-trigger" type="button">読む<svg class="dd-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5L5 6.5L7.5 3.5"/></svg></button>
+        <div class="nav-dd-menu">
+          <a href="/articles/">学習コラム</a>
+          <a href="/real-phrases/">フレーズ集</a>
+          <a href="/prompts/">AIプロンプト</a>
+        </div>
+      </div>
+      <a href="/ranking/">英会話スクール</a>
+    </nav>
+    <button class="site-hamburger" id="siteHamburger" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="site-mobile-nav" id="siteMobileNav">
+  <button class="mobile-nav-close" id="siteMobileNavClose" aria-label="メニューを閉じる">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/listening/">ListenUp</a>
+  <div class="mobile-nav-label">学ぶ</div>
+  <a href="/grammar/">文法クイズ</a>
+  <a href="/words/">WordsUp</a>
+  <a href="/kioku-shinai/">記憶しない英単語</a>
+  <div class="mobile-nav-label">読む</div>
+  <a href="/articles/">学習コラム</a>
+  <a href="/real-phrases/">フレーズ集</a>
+  <a href="/prompts/">AIプロンプト</a>
+  <div class="mobile-nav-label"></div>
+  <a href="/ranking/">英会話スクール</a>
+</div>
+
+<div class="wrap">
+
+  <div class="hero">
+    <div class="hero-label">Feedback</div>
+    <h1>問題を報告する</h1>
+    <p class="hero-sub">不具合・エラー・改善の提案など、<br>お気軽にお送りください。</p>
+  </div>
+
+  <form class="fb-form" id="feedbackForm">
+
+    <div class="fb-group">
+      <label class="fb-label" for="fbCategory">カテゴリ<span class="req">必須</span></label>
+      <select class="fb-select" id="fbCategory" required>
+        <option value="" disabled selected>選択してください</option>
+        <option value="bug">不具合・エラー</option>
+        <option value="content">コンテンツの誤り（誤字・音声・解説）</option>
+        <option value="suggestion">機能の提案・改善リクエスト</option>
+        <option value="other">その他</option>
+      </select>
+    </div>
+
+    <div class="fb-group">
+      <label class="fb-label" for="fbPage">該当ページ</label>
+      <p class="fb-hint">問題が起きたページのURLまたはページ名（例：ListenUp、記憶しない英単語）</p>
+      <input class="fb-input" type="text" id="fbPage" placeholder="https://native-real.com/listening/" autocomplete="off">
+    </div>
+
+    <div class="fb-group">
+      <label class="fb-label" for="fbDetail">詳細<span class="req">必須</span></label>
+      <p class="fb-hint">どんな操作をしたとき、何が起きたかを教えてください</p>
+      <textarea class="fb-textarea" id="fbDetail" required placeholder="例：ListenUpでLevel 3の問題を再生すると音声が流れない"></textarea>
+    </div>
+
+    <div class="fb-group">
+      <label class="fb-label" for="fbEmail">メールアドレス（任意）</label>
+      <p class="fb-hint">返信が必要な場合のみご記入ください</p>
+      <input class="fb-input" type="email" id="fbEmail" placeholder="example@mail.com" autocomplete="email">
+    </div>
+
+    <button class="fb-submit" type="submit" id="fbSubmit">送信する</button>
+  </form>
+
+  <div class="footer">
+    <a href="/">ホーム</a> &middot; <a href="/about/">このサイトについて</a> &middot; <a href="/privacy/">プライバシーポリシー</a><br>
+    &copy; 2026 native-real.com
+  </div>
+
+</div>
+
+<div class="fb-toast" id="fbToast"></div>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script>
+(function(){
+  // Firebase init
+  firebase.initializeApp({
+    apiKey: "AIzaSyA0dOb3Mtr33_3U70agJyszD6p-QuEGuTE",
+    authDomain: "native-real.firebaseapp.com",
+    projectId: "native-real",
+    storageBucket: "native-real.firebasestorage.app",
+    messagingSenderId: "996275422639",
+    appId: "1:996275422639:web:4a80aa83a2f00bef969b5a"
+  });
+  var db = firebase.firestore();
+  var auth = firebase.auth();
+  var uid = null;
+
+  auth.signInAnonymously().catch(function(e){ console.warn('[Firebase] anon auth error:', e); });
+  auth.onAuthStateChanged(function(u){ if(u) uid = u.uid; });
+
+  // Toast
+  function showToast(msg, isError){
+    var t = document.getElementById('fbToast');
+    t.textContent = msg;
+    t.className = 'fb-toast show' + (isError ? ' error' : '');
+    setTimeout(function(){ t.classList.remove('show'); }, 4000);
+  }
+
+  // Submit
+  var form = document.getElementById('feedbackForm');
+  var submitBtn = document.getElementById('fbSubmit');
+
+  form.addEventListener('submit', async function(e){
+    e.preventDefault();
+    submitBtn.disabled = true;
+    submitBtn.textContent = '送信中...';
+
+    try {
+      var category = document.getElementById('fbCategory').value;
+      var page = document.getElementById('fbPage').value.trim();
+      var detail = document.getElementById('fbDetail').value.trim();
+      var email = document.getElementById('fbEmail').value.trim();
+
+      await db.collection('feedback').add({
+        category: category,
+        page: page,
+        detail: detail,
+        email: email,
+        uid: uid || null,
+        userAgent: navigator.userAgent,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp()
+      });
+
+      showToast('送信しました。ご報告ありがとうございます!');
+      form.reset();
+    } catch(err) {
+      console.error('[Feedback] submit error:', err);
+      showToast('送信に失敗しました。時間をおいて再度お試しください。', true);
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = '送信する';
+    }
+  });
+
+  // GA
+  try{ gtag('event','page_view',{page_title:'Feedback',page_location:location.href}); }catch(_){}
+})();
+</script>
+
+<script>
+(function(){
+  var b=document.getElementById('siteHamburger'),n=document.getElementById('siteMobileNav');
+  if(b&&n){
+    b.addEventListener('click',function(){b.classList.toggle('active');n.classList.toggle('active');document.body.style.overflow=n.classList.contains('active')?'hidden':'';});
+    n.addEventListener('click',function(e){if(e.target===n||e.target.tagName==='A'){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';}});
+    var c=document.getElementById('siteMobileNavClose');if(c){c.addEventListener('click',function(){n.classList.remove('active');b.classList.remove('active');document.body.style.overflow='';});}
+  }
+  var h=document.getElementById('siteHeader');
+  if(h){var t=false;window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){h.classList.toggle('scrolled',window.scrollY>40);t=false;});t=true;}});}
+  document.querySelectorAll('.nav-dd-trigger').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement;
+      document.querySelectorAll('.nav-dd.open').forEach(function(d){if(d!==dd)d.classList.remove('open');});
+      dd.classList.toggle('open');
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.nav-dd.open').forEach(function(d){d.classList.remove('open');});});
+})();
+</script>
+<script src="/assets/global.js" defer></script>
+</body>
+</html>

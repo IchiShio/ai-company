@@ -655,6 +655,45 @@ body.hints-on .ja-hint {
   font-weight: 700;
 }
 
+/* ═══════════════════════════════════════════
+   FLOATING FEEDBACK BUTTON
+   ═══════════════════════════════════════════ */
+.fb-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(26,26,26,0.88);
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 16px rgba(26,26,26,0.18);
+  transition: background 0.2s, transform 0.2s, opacity 0.3s;
+  opacity: 0;
+  pointer-events: none;
+}
+.fb-float.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.fb-float:hover {
+  background: rgba(26,26,26,0.96);
+  transform: translateY(-2px);
+}
+.fb-float svg {
+  flex-shrink: 0;
+}
+@media (max-width: 480px) {
+  .fb-float span { display: none; }
+  .fb-float { padding: 12px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
