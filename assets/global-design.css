@@ -83,10 +83,13 @@ html {
 /* ═══════════════════════════════════════════
    3. SITE HEADER — Cream Backdrop
    ═══════════════════════════════════════════ */
+.site-header-spacer { height: 54px; }
+
 .site-header {
   background: rgba(248,246,241,0.92) !important;
   backdrop-filter: blur(16px) saturate(180%) !important;
   -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  border-bottom: 1px solid #E8E4DC !important;
   border-bottom-color: #E8E4DC !important;
   position: fixed !important;
   top: 0 !important; left: 0 !important; right: 0 !important;
@@ -121,8 +124,20 @@ html {
   flex-shrink: 0 !important;
 }
 
+/* ── Nav ── */
+.site-header-nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: 2px !important;
+}
 .site-header-nav > a {
+  font-size: 13px !important; font-weight: 500 !important;
   color: rgba(26,26,26,0.55) !important;
+  text-decoration: none !important;
+  padding: 7px 12px !important;
+  border-radius: 10px !important;
+  white-space: nowrap !important;
+  position: relative !important;
 }
 .site-header-nav > a:hover {
   color: rgba(26,26,26,0.88) !important;
@@ -130,43 +145,119 @@ html {
 }
 .site-header-nav > a.active {
   color: #F5A623 !important;
+  font-weight: 700 !important;
 }
 .site-header-nav > a.active::after {
-  background: #F5A623 !important;
+  content: '' !important;
+  position: absolute !important; bottom: 2px !important; left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 16px !important; height: 2px !important;
+  border-radius: 1px !important; background: #F5A623 !important;
 }
 
 /* ── Nav Dropdown ── */
-.nav-dd-menu {
-  background: #FDFCF9 !important;
-  border: 1px solid #E8E4DC !important;
-  box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04) !important;
-}
-.nav-dd-menu a {
-  color: rgba(26,26,26,0.62) !important;
-}
-.nav-dd-menu a:hover {
-  color: rgba(26,26,26,0.88) !important;
-  background: rgba(26,26,26,0.04) !important;
-}
-.nav-dd-menu a.active {
-  color: #F5A623 !important;
-}
-
+.nav-dd { position: relative !important; }
 .nav-dd-trigger {
+  font-size: 13px !important; font-weight: 500 !important;
   color: rgba(26,26,26,0.55) !important;
+  background: none !important; border: none !important;
+  cursor: pointer !important;
+  padding: 7px 12px !important; border-radius: 10px !important;
+  white-space: nowrap !important;
+  display: flex !important; align-items: center !important; gap: 3px !important;
+  font-family: inherit !important;
 }
 .nav-dd-trigger:hover {
   color: rgba(26,26,26,0.88) !important;
   background: rgba(26,26,26,0.04) !important;
 }
-.nav-dd-trigger.active {
-  color: #F5A623 !important;
+.nav-dd-trigger.active { color: #F5A623 !important; font-weight: 700 !important; }
+.dd-chevron { transition: transform 0.2s ease; flex-shrink: 0; }
+.nav-dd:hover .dd-chevron, .nav-dd.open .dd-chevron { transform: rotate(180deg); }
+
+.nav-dd-menu {
+  display: none !important;
+  position: absolute !important; top: 100% !important; left: 50% !important;
+  transform: translateX(-50%) !important;
+  min-width: 180px !important;
+  background: #FDFCF9 !important;
+  border: 1px solid #E8E4DC !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(26,26,26,0.10), 0 2px 8px rgba(26,26,26,0.04) !important;
+  padding: 6px !important; margin-top: 4px !important; z-index: 310 !important;
+}
+.nav-dd:hover .nav-dd-menu,
+.nav-dd.open .nav-dd-menu { display: block !important; }
+.nav-dd-menu a {
+  display: block !important;
+  font-size: 13px !important; font-weight: 500 !important;
+  color: rgba(26,26,26,0.62) !important;
+  text-decoration: none !important;
+  padding: 9px 14px !important; border-radius: 8px !important;
+  white-space: nowrap !important;
+}
+.nav-dd-menu a:hover {
+  color: rgba(26,26,26,0.88) !important;
+  background: rgba(26,26,26,0.04) !important;
+}
+.nav-dd-menu a.active { color: #F5A623 !important; font-weight: 700 !important; }
+
+/* ── Hamburger ── */
+.site-hamburger {
+  display: none !important;
+  background: none !important; border: none !important;
+  cursor: pointer !important; padding: 8px !important;
+  width: 40px !important; height: 40px !important;
+  border-radius: 10px !important; position: relative !important; z-index: 302 !important;
+}
+.site-hamburger span {
+  display: block !important;
+  width: 18px !important; height: 2px !important;
+  background: rgba(26,26,26,0.88) !important;
+  margin: 4px auto !important; border-radius: 2px !important;
+}
+.site-hamburger:hover { background: rgba(26,26,26,0.04) !important; }
+@media (max-width: 768px) {
+  .site-header-nav { display: none !important; }
+  .site-hamburger { display: block !important; }
 }
 
-/* ── Hamburger lines ── */
-.site-hamburger span {
-  background: rgba(26,26,26,0.88) !important;
+/* ── Mobile Nav ── */
+.site-mobile-nav {
+  display: flex !important; visibility: hidden !important;
+  pointer-events: none !important;
+  position: fixed !important; inset: 0 !important;
+  background: rgba(10,10,10,0.96) !important;
+  z-index: 301 !important; backdrop-filter: blur(20px) !important;
+  flex-direction: column !important; align-items: center !important;
+  justify-content: center !important; gap: 4px !important;
+  opacity: 0 !important; transition: opacity 0.3s, visibility 0.3s !important;
 }
+.site-mobile-nav.active {
+  visibility: visible !important; pointer-events: auto !important; opacity: 1 !important;
+}
+.site-mobile-nav a {
+  color: rgba(255,255,255,0.7) !important; text-decoration: none !important;
+  font-size: 17px !important; font-weight: 600 !important;
+  padding: 14px 40px !important; border-radius: 14px !important;
+  width: 260px !important; text-align: center !important;
+}
+.site-mobile-nav a:hover { background: rgba(255,255,255,0.08) !important; color: #fff !important; }
+.site-mobile-nav a.active { color: #F5A623 !important; }
+.mobile-nav-label {
+  color: rgba(255,255,255,0.3) !important; font-size: 11px !important;
+  font-weight: 700 !important; letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  padding: 10px 0 2px !important; width: 260px !important; text-align: center !important;
+}
+.mobile-nav-close {
+  position: absolute !important; top: 20px !important; right: 20px !important;
+  background: rgba(255,255,255,0.1) !important; border: none !important;
+  color: #fff !important; cursor: pointer !important;
+  width: 44px !important; height: 44px !important; border-radius: 12px !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
+}
+.mobile-nav-close:hover { background: rgba(255,255,255,0.2) !important; }
 
 /* ── App Header (listening quiz) ── */
 .app-header {
