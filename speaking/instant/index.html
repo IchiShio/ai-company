@@ -331,6 +331,36 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
   .rg-cell:nth-child(4){border-top:1px solid var(--border);border-right:none}
   .complete-card{padding:32px 16px}
 }
+/* ── Adaptive progress (LP) ── */
+.adapt-progress{margin-top:24px;padding:16px 20px;background:var(--surface,#FDFCF9);border:1px solid var(--border,#E8E4DC);border-radius:14px;text-align:left;max-width:440px;margin-left:auto;margin-right:auto}
+.adapt-seen-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.adapt-seen-lbl{font-size:12px;font-weight:700;color:var(--text-2);letter-spacing:.04em}
+.adapt-seen-val{font-size:13px;font-weight:700;color:var(--gold,#F5A623)}
+.adapt-seen-track{height:6px;background:var(--border,#E8E4DC);border-radius:99px;overflow:hidden}
+.adapt-seen-fill{height:100%;background:var(--gold,#F5A623);border-radius:99px;transition:width .5s}
+.adapt-cat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.adapt-cat-item{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--text-2)}
+.adapt-cat-bar{flex:1;height:4px;background:var(--border,#E8E4DC);border-radius:99px;overflow:hidden;position:relative}
+.adapt-cat-bar-fill{height:100%;border-radius:99px;transition:width .5s}
+.adapt-cat-val{font-size:11px;font-weight:700;min-width:32px;text-align:right}
+
+/* Review / Weak buttons */
+.cat-lp.review{background:rgba(139,92,246,0.10);color:#7c3aed;border-color:rgba(139,92,246,0.3)}
+.cat-lp.review:hover{background:rgba(139,92,246,0.18)}
+.cat-lp.weak{background:rgba(234,88,12,0.10);color:#c2410c;border-color:rgba(234,88,12,0.3)}
+.cat-lp.weak:hover{background:rgba(234,88,12,0.18)}
+
+/* ── Complete view: category breakdown ── */
+.c-cat-breakdown{margin:20px 0 8px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.c-cat-row{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-2)}
+.c-cat-row .c-cat-name{min-width:56px}
+.c-cat-row .c-cat-pct{font-weight:700;min-width:36px;text-align:right}
+.c-suggest{margin:12px 0 8px;padding:12px 16px;background:rgba(245,166,35,0.08);border:1px solid rgba(245,166,35,0.2);border-radius:10px;font-size:13px;color:var(--text-2);text-align:center}
+.c-suggest strong{color:var(--gold,#F5A623)}
+
+/* ── Session badge (quiz bar) ── */
+.qb-mode{font-size:10px;font-weight:700;padding:2px 8px;border-radius:6px;background:rgba(245,166,35,0.12);color:var(--gold,#F5A623);margin-left:8px}
+
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
@@ -379,10 +409,19 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         <button class="btn-outline" onclick="document.getElementById('howSec').scrollIntoView({behavior:'smooth'})">使い方を見る</button>
       </div>
       <div class="feat-strip">
-        <div class="feat"><div class="feat-icon">📝</div><div class="feat-val">200文</div><div class="feat-lbl">例文収録</div></div>
+        <div class="feat"><div class="feat-icon">📝</div><div class="feat-val" id="featTotal">200文</div><div class="feat-lbl">例文収録</div></div>
         <div class="feat"><div class="feat-icon">🏷️</div><div class="feat-val">4分野</div><div class="feat-lbl">カテゴリ</div></div>
         <div class="feat"><div class="feat-icon">🎯</div><div class="feat-val">無料</div><div class="feat-lbl">登録不要</div></div>
         <div class="feat"><div class="feat-icon">📱</div><div class="feat-val">毎日</div><div class="feat-lbl">スマホ対応</div></div>
+      </div>
+      <!-- Adaptive progress -->
+      <div class="adapt-progress" id="adaptProgress" style="display:none">
+        <div class="adapt-seen-row">
+          <span class="adapt-seen-lbl">消化率</span>
+          <span class="adapt-seen-val" id="adaptSeenVal">0%</span>
+        </div>
+        <div class="adapt-seen-track"><div class="adapt-seen-fill" id="adaptSeenFill" style="width:0%"></div></div>
+        <div class="adapt-cat-grid" id="adaptCatGrid"></div>
       </div>
     </div>
   </section>
@@ -413,6 +452,8 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         <button class="cat-lp" onclick="startQuiz('business')">💼 ビジネス</button>
         <button class="cat-lp" onclick="startQuiz('travel')">✈️ 旅行</button>
         <button class="cat-lp" onclick="startQuiz('emotion')">💬 感情表現</button>
+        <button class="cat-lp review" id="reviewBtn" onclick="startQuiz('review')" style="display:none">🔄 復習モード</button>
+        <button class="cat-lp weak" id="weakBtn" onclick="startQuiz('weak')" style="display:none">🎯 弱点集中</button>
       </div>
     </div>
   </section>
@@ -443,7 +484,7 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
   <div class="quiz-bar">
     <div style="display:flex;align-items:center">
       <button class="qb-exit" onclick="exitQuiz()">← 終了</button>
-      <span class="qb-title">瞬間英作文</span>
+      <span class="qb-title">瞬間英作文</span><span class="qb-mode" id="qbMode"></span>
     </div>
     <div class="qb-xp">⚡ <span id="qXP">0</span> XP</div>
   </div>
@@ -543,8 +584,12 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         </div>
         <div class="xp-track"><div class="xp-fill" id="xpFill" style="width:0%"></div></div>
       </div>
+      <!-- Category breakdown -->
+      <div class="c-cat-breakdown" id="cCatBreak"></div>
+      <!-- Weak suggestion -->
+      <div class="c-suggest" id="cSuggest" style="display:none"></div>
       <div class="c-btns">
-        <button class="btn-solid" onclick="restartQuiz()">🔄 もう一度練習する</button>
+        <button class="btn-solid" id="cNextBtn" onclick="restartQuiz()">🔄 もう一度練習する</button>
         <button class="btn-line"  onclick="exitQuiz()">← トップに戻る</button>
       </div>
     </div>
@@ -808,13 +853,119 @@ const DATA=[
    STATE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 const XPReq=[0,50,120,220,350,500,700,950,1250,1600,2000];
-let S={mode:'all',queue:[],idx:0,xp:0,correct:0,almost:0,missed:0,streak:0,timerI:null,answered:false};
+let S={mode:'all',queue:[],idx:0,xp:0,correct:0,almost:0,missed:0,streak:0,timerI:null,answered:false,sessionRatings:[]};
 
 const $=id=>document.getElementById(id);
 function shuffle(a){return[...a].sort(()=>Math.random()-.5)}
 function getLevel(xp){return XPReq.findIndex((v,i)=>xp<(XPReq[i+1]??Infinity))+1||XPReq.length}
 function getLvPct(xp){const l=getLevel(xp),base=XPReq[l-1]??0,next=XPReq[l]??(XPReq.at(-1)+500);return{l,pct:Math.min(100,((xp-base)/(next-base))*100),next}}
 function showView(id){document.querySelectorAll('.view').forEach(v=>v.classList.remove('show'));$(id).classList.add('show');window.scrollTo(0,0)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ADAPTIVE LEARNING — localStorage persistence
+   Keys:
+     nr_instant_seen   — JSON array of seen question _i values
+     nr_instant_qstats — JSON object { "_i": { perfect:N, almost:N, missed:N } }
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+function loadSeen(){try{return new Set(JSON.parse(localStorage.getItem('nr_instant_seen'))||[])}catch(_){return new Set()}}
+function saveSeen(s){localStorage.setItem('nr_instant_seen',JSON.stringify([...s]))}
+function markSeen(q){const s=loadSeen();s.add(q._i);if(s.size>=DATA.length){saveSeen(new Set())}else{saveSeen(s)}}
+
+function loadQStats(){try{return JSON.parse(localStorage.getItem('nr_instant_qstats'))||{}}catch(_){return {}}}
+function saveQStats(qs){localStorage.setItem('nr_instant_qstats',JSON.stringify(qs))}
+function recordQStat(q,type){
+  const qs=loadQStats();
+  const k=''+q._i;
+  if(!qs[k])qs[k]={perfect:0,almost:0,missed:0};
+  qs[k][type]++;
+  saveQStats(qs);
+}
+
+function getCatStats(){
+  const qs=loadQStats();
+  const cats={daily:{p:0,a:0,m:0},business:{p:0,a:0,m:0},travel:{p:0,a:0,m:0},emotion:{p:0,a:0,m:0}};
+  DATA.forEach(d=>{
+    const st=qs[''+d._i];
+    if(st&&cats[d.cat]){cats[d.cat].p+=st.perfect;cats[d.cat].a+=st.almost;cats[d.cat].m+=st.missed}
+  });
+  return cats;
+}
+
+function getWeakCat(){
+  const cs=getCatStats();
+  let worst=null,worstRate=Infinity;
+  for(const[cat,st]of Object.entries(cs)){
+    const total=st.p+st.a+st.m;
+    if(total<3)continue;
+    const rate=st.p/total;
+    if(rate<worstRate){worstRate=rate;worst=cat}
+  }
+  return worst;
+}
+
+function getReviewPool(){
+  const qs=loadQStats();
+  return DATA.filter(d=>{const st=qs[''+d._i];return st&&(st.missed>0||st.almost>0)});
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ADAPTIVE QUEUE BUILDER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+function buildQueue(mode){
+  const QSIZE=10;
+  const qs=loadQStats();
+  const seen=loadSeen();
+
+  // Review mode: missed & almost questions only
+  if(mode==='review'){
+    const pool=getReviewPool();
+    if(pool.length===0)return shuffle(DATA).slice(0,QSIZE);
+    return shuffle(pool).slice(0,Math.min(pool.length,QSIZE));
+  }
+
+  // Weak mode: focus on weakest category (70% weak, 30% other)
+  if(mode==='weak'){
+    const weakCat=getWeakCat();
+    if(!weakCat)return shuffle(DATA).slice(0,QSIZE);
+    const weakPool=DATA.filter(d=>d.cat===weakCat);
+    const otherPool=DATA.filter(d=>d.cat!==weakCat);
+    const weakN=Math.min(7,weakPool.length);
+    const otherN=QSIZE-weakN;
+    return shuffle([...shuffle(weakPool).slice(0,weakN),...shuffle(otherPool).slice(0,otherN)]);
+  }
+
+  // Normal / category mode
+  const base=mode==='all'?DATA:DATA.filter(d=>d.cat===mode);
+
+  // Split into buckets
+  const unseen=[], needReview=[], mastered=[];
+  base.forEach(d=>{
+    const st=qs[''+d._i];
+    if(!seen.has(d._i)){unseen.push(d)}
+    else if(st&&(st.missed>0||st.almost>st.perfect)){needReview.push(d)}
+    else{mastered.push(d)}
+  });
+
+  // Adaptive mix: unseen first, then review, then mastered
+  const result=[];
+  const pools=[shuffle(unseen),shuffle(needReview),shuffle(mastered)];
+  for(const pool of pools){
+    for(const q of pool){
+      if(result.length>=QSIZE)break;
+      result.push(q);
+    }
+    if(result.length>=QSIZE)break;
+  }
+  // If still not enough, pad from all
+  if(result.length<QSIZE){
+    const ids=new Set(result.map(r=>r._i));
+    for(const q of shuffle(base)){
+      if(result.length>=QSIZE)break;
+      if(!ids.has(q._i)){result.push(q);ids.add(q._i)}
+    }
+  }
+  return shuffle(result);
+}
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    TIMER — CSS animation approach (no per-tick DOM writes)
@@ -852,12 +1003,15 @@ function startTimer(){
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 function startQuiz(mode){
   S.mode=mode;
-  const f=mode==='all'?DATA:DATA.filter(d=>d.cat===mode);
-  S.queue=shuffle(f).slice(0,Math.min(f.length,10));
-  S.idx=0;S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;
+  S.queue=buildQueue(mode);
+  S.idx=0;S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;S.sessionRatings=[];
   S.xp=parseInt(localStorage.getItem('nr_instant_xp')||'0',10);
+  // Mode badge
+  const modeLabels={all:'',daily:'日常会話',business:'ビジネス',travel:'旅行',emotion:'感情表現',review:'復習',weak:'弱点集中'};
+  $('qbMode').textContent=modeLabels[mode]||'';
   $('siteHeader').style.display='none';
   showView('viewQuiz');
+  try{gtag('event','instant_start',{quiz_mode:mode})}catch(_){}
   loadQ();
 }
 
@@ -953,6 +1107,11 @@ function rate(type){
   if(type==='perfect'){S.correct++;S.streak++}
   else if(type==='almost'){S.almost++;S.streak=0}
   else{S.missed++;S.streak=0}
+  // Adaptive: record stats & mark seen
+  const q=S.queue[S.idx];
+  recordQStat(q,type);
+  markSeen(q);
+  S.sessionRatings.push({q,type});
   showToast(gain);
   if(++S.idx>=S.queue.length)showComplete();else loadQ();
 }
@@ -975,18 +1134,99 @@ function showComplete(){
   $('rAlmo').textContent=S.almost;
   $('rMiss').textContent=S.missed;
   $('rXP').textContent='+'+sessXP;
-  const rate=S.queue.length?S.correct/S.queue.length:0;
-  if(rate>=.8){$('cEmoji').textContent='🏆';$('cTitle').textContent='素晴らしい！';$('cSub').textContent='英語の瞬発力が確実に伸びています！'}
-  else if(rate>=.5){$('cEmoji').textContent='🎯';$('cTitle').textContent='よくできました！';$('cSub').textContent='言えなかった表現を繰り返し練習しよう。'}
+  const perfRate=S.queue.length?S.correct/S.queue.length:0;
+  if(perfRate>=.8){$('cEmoji').textContent='🏆';$('cTitle').textContent='素晴らしい！';$('cSub').textContent='英語の瞬発力が確実に伸びています！'}
+  else if(perfRate>=.5){$('cEmoji').textContent='🎯';$('cTitle').textContent='よくできました！';$('cSub').textContent='言えなかった表現を繰り返し練習しよう。'}
   else{$('cEmoji').textContent='💪';$('cTitle').textContent='お疲れ様！';$('cSub').textContent='今日学んだ表現を明日また復習しよう。'}
   const{l,pct,next}=getLvPct(S.xp);
   $('lvBadge').textContent='Lv.'+l;
   $('xpTxt').textContent=S.xp+' / '+next+' XP';
   setTimeout(()=>$('xpFill').style.width=pct+'%',350);
+
+  // Category breakdown for this session
+  const catLabels={daily:'日常',business:'ビジネス',travel:'旅行',emotion:'感情'};
+  const catColors={daily:'#22c55e',business:'#3b82f6',travel:'#f59e0b',emotion:'#ec4899'};
+  const sessCats={};
+  S.sessionRatings.forEach(r=>{
+    const c=r.q.cat;
+    if(!sessCats[c])sessCats[c]={p:0,t:0};
+    sessCats[c].t++;
+    if(r.type==='perfect')sessCats[c].p++;
+  });
+  let breakHtml='';
+  for(const[cat,st]of Object.entries(sessCats)){
+    const pctC=st.t?Math.round(st.p/st.t*100):0;
+    breakHtml+=`<div class="c-cat-row"><span class="c-cat-name">${catLabels[cat]||cat}</span><div class="adapt-cat-bar"><div class="adapt-cat-bar-fill" style="width:${pctC}%;background:${catColors[cat]||'#F5A623'}"></div></div><span class="c-cat-pct">${pctC}%</span></div>`;
+  }
+  $('cCatBreak').innerHTML=breakHtml;
+
+  // Suggest weak category
+  const weakCat=getWeakCat();
+  const sugEl=$('cSuggest');
+  if(weakCat&&getReviewPool().length>0){
+    sugEl.style.display='';
+    sugEl.innerHTML=`<strong>${catLabels[weakCat]||weakCat}</strong> が苦手傾向です。<button style="margin-left:8px;padding:4px 12px;border-radius:8px;background:var(--gold,#F5A623);color:#fff;border:none;font-size:12px;font-weight:700;cursor:pointer" onclick="startQuiz('weak')">弱点集中で練習</button>`;
+  }else if(getReviewPool().length>0){
+    sugEl.style.display='';
+    sugEl.innerHTML=`言えなかった表現が<strong>${getReviewPool().length}問</strong>あります。<button style="margin-left:8px;padding:4px 12px;border-radius:8px;background:rgba(139,92,246,0.9);color:#fff;border:none;font-size:12px;font-weight:700;cursor:pointer" onclick="startQuiz('review')">復習する</button>`;
+  }else{
+    sugEl.style.display='none';
+  }
+
+  // Next button label context
+  $('cNextBtn').textContent=S.mode==='review'?'🔄 さらに復習する':S.mode==='weak'?'🎯 弱点を続ける':'🔄 もう一度練習する';
+
+  // GA4
+  try{gtag('event','instant_complete',{quiz_mode:S.mode,perfect_rate:Math.round(perfRate*100),session_xp:sessXP})}catch(_){}
 }
 
 function restartQuiz(){startQuiz(S.mode)}
-function exitQuiz(){clearInterval(S.timerI);$('siteHeader').style.display='';showView('viewLP')}
+function exitQuiz(){clearInterval(S.timerI);$('siteHeader').style.display='';showView('viewLP');renderLPDashboard()}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LP DASHBOARD — progress bar, cat stats, mode buttons
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+function renderLPDashboard(){
+  const seen=loadSeen();
+  const total=DATA.length;
+  const seenN=seen.size;
+  const pctSeen=total?Math.round(seenN/total*100):0;
+
+  // Update total count in hero
+  $('featTotal').textContent=total+'文';
+
+  // Show progress section if user has started
+  const ap=$('adaptProgress');
+  if(seenN===0){ap.style.display='none';return}
+  ap.style.display='';
+
+  $('adaptSeenVal').textContent=`${seenN}/${total} (${pctSeen}%)`;
+  $('adaptSeenFill').style.width=pctSeen+'%';
+
+  // Category accuracy
+  const cs=getCatStats();
+  const catLabels={daily:'日常',business:'ビジネス',travel:'旅行',emotion:'感情'};
+  const catColors={daily:'#22c55e',business:'#3b82f6',travel:'#f59e0b',emotion:'#ec4899'};
+  let gridHtml='';
+  for(const[cat,st]of Object.entries(cs)){
+    const t=st.p+st.a+st.m;
+    const pctC=t?Math.round(st.p/t*100):0;
+    gridHtml+=`<div class="adapt-cat-item"><span style="min-width:44px">${catLabels[cat]||cat}</span><div class="adapt-cat-bar"><div class="adapt-cat-bar-fill" style="width:${pctC}%;background:${catColors[cat]||'#F5A623'}"></div></div><span class="adapt-cat-val" style="color:${catColors[cat]||'#F5A623'}">${t?pctC+'%':'—'}</span></div>`;
+  }
+  $('adaptCatGrid').innerHTML=gridHtml;
+
+  // Show/hide review and weak buttons
+  const reviewPool=getReviewPool();
+  const rb=$('reviewBtn');
+  if(reviewPool.length>0){rb.style.display='';rb.textContent=`🔄 復習モード (${reviewPool.length}問)`}else{rb.style.display='none'}
+
+  const weakCat=getWeakCat();
+  const wb=$('weakBtn');
+  if(weakCat){wb.style.display='';wb.textContent=`🎯 弱点集中 (${catLabels[weakCat]||weakCat})`}else{wb.style.display='none'}
+}
+
+// Render on page load
+renderLPDashboard();
 
 /* ── Hamburger ── */
 const hbg=$('hamburger'),mn=$('mobNav'),mc=$('mobClose');
