@@ -88,10 +88,31 @@ html {
   backdrop-filter: blur(16px) saturate(180%) !important;
   -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
   border-bottom-color: #E8E4DC !important;
+  position: fixed !important;
+  top: 0 !important; left: 0 !important; right: 0 !important;
+  z-index: 300 !important;
+  padding: 10px 0 !important;
+}
+
+.site-header-inner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
 }
 
 .site-header-logo {
+  display: flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
   color: rgba(26,26,26,0.88) !important;
+  white-space: nowrap !important;
 }
 .site-header-logo svg {
   width: 18px !important;
