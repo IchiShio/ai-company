@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PS9R9844');</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B9WEBKYEP"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-5B9WEBKYEP',{send_page_view:false});</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>瞬間英作文トレーナー｜英語の瞬発力を無料で鍛える | native-real</title>
+  <meta name="description" content="日本語を見て即座に英語で言う「瞬間英作文」を無料でトレーニング。日常・ビジネス・旅行・感情の4カテゴリ200文。自己評価 × XPゲーミフィケーションで英語の瞬発力が身につく。">
+  <link rel="canonical" href="https://native-real.com/speaking/instant/">
+  <meta property="og:title" content="瞬間英作文トレーナー｜英語の瞬発力を無料で鍛える">
+  <meta property="og:description" content="日本語を見て即座に英語で言う反射トレーニング。4カテゴリ200文。完全無料・登録不要。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://native-real.com/speaking/instant/">
+  <meta property="og:site_name" content="native-real">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"瞬間英作文トレーナー","url":"https://native-real.com/speaking/instant/","applicationCategory":"EducationalApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"},"publisher":{"@type":"Organization","name":"native-real","url":"https://native-real.com"},"inLanguage":"ja"}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <style>
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LOCAL ONLY — global-design.css provides base tokens
+   Variables here extend / alias the global system
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+:root {
+  --ok-b:    rgba(22,163,74,0.28);
+  --warn-b:  rgba(217,119,6,0.28);
+  --err-b:   rgba(220,38,38,0.28);
+}
+
+/* ── Reset ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{font-family:'Inter','Noto Sans JP',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--text-1);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--gold);text-decoration:none}
+button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:none}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   SITE HEADER — global-design.css handles .site-header
+   Only add what's missing
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.sh-inner{max-width:1100px;margin:0 auto;padding:0 20px;height:52px;display:flex;align-items:center;justify-content:space-between}
+.sh-logo{font-size:15px;font-weight:800;color:var(--text-1);text-decoration:none;display:flex;align-items:center;gap:7px}
+.sh-logo svg{width:18px;height:18px;color:var(--gold);flex-shrink:0}
+.sh-nav{display:flex;gap:2px}
+.sh-nav a{font-size:13px;font-weight:500;color:var(--text-2);text-decoration:none;padding:7px 12px;border-radius:10px;transition:color var(--t),background var(--t)}
+.sh-nav a:hover{color:var(--text-1);background:var(--surface)}
+.sh-nav a.active{color:var(--gold);font-weight:700;box-shadow:var(--gold) 0px -3px 0px 0px inset}
+.hamburger{display:none;background:none;border:none;padding:8px;width:40px;height:40px;border-radius:10px}
+.hamburger span{display:block;width:18px;height:2px;background:var(--text-1);margin:4px auto;border-radius:2px;transition:transform .3s,opacity .3s}
+.hamburger.open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+.mob-nav{display:flex;visibility:hidden;pointer-events:none;position:fixed;inset:0;background:rgba(8,8,8,0.96);z-index:301;backdrop-filter:blur(20px);flex-direction:column;align-items:center;justify-content:center;gap:4px;opacity:0;transition:opacity .3s,visibility .3s}
+.mob-nav.open{visibility:visible;pointer-events:auto;opacity:1}
+.mob-nav a{color:rgba(255,255,255,0.7);font-size:17px;font-weight:600;padding:14px 40px;border-radius:14px;width:260px;text-align:center;transition:background var(--t),color var(--t)}
+.mob-nav a:hover{background:rgba(255,255,255,0.08);color:#fff}
+.mob-nav a.active{color:var(--gold)}
+.mob-lbl{color:rgba(255,255,255,0.28);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:10px 0 2px;width:260px;text-align:center}
+.mob-close{position:absolute;top:20px;right:20px;background:rgba(255,255,255,0.1);border:none;color:#fff;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center}
+@media(max-width:768px){.sh-nav{display:none}.hamburger{display:block}}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   VIEWS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.view{display:none}
+.view.show{display:block}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LP — HERO
+   body background (dot-grid) shows through transparent hero
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.hero{padding:116px 20px 80px;text-align:center;position:relative;overflow:hidden}
+/* warm ambient orbs */
+.hero::before{content:'';position:absolute;top:-160px;right:-80px;width:520px;height:520px;background:radial-gradient(circle,rgba(245,166,35,0.10),transparent 68%);pointer-events:none;animation:orb-a 11s ease-in-out infinite}
+.hero::after{content:'';position:absolute;bottom:-100px;left:-60px;width:360px;height:360px;background:radial-gradient(circle,rgba(245,166,35,0.07),transparent 68%);pointer-events:none;animation:orb-b 14s ease-in-out infinite}
+@keyframes orb-a{0%,100%{transform:translateY(0)}50%{transform:translateY(-22px)}}
+@keyframes orb-b{0%,100%{transform:translateY(0)}50%{transform:translateY(16px)}}
+
+.hero-inner{max-width:700px;margin:0 auto;position:relative;z-index:1}
+
+/* eyebrow badge */
+.badge{display:inline-flex;align-items:center;gap:6px;background:var(--gold-bg);border:1px solid rgba(245,166,35,0.25);border-radius:var(--radius-pill);padding:6px 16px;font-size:12px;font-weight:700;color:var(--gold);letter-spacing:.05em;margin-bottom:28px;animation:fade-up .5s ease both}
+
+/* headline — gradient text (sync-style) */
+.hero-h1{font-size:clamp(36px,6.5vw,60px);font-weight:800;line-height:1.1;letter-spacing:-1.4px;color:var(--text-1);margin-bottom:22px;animation:fade-up .5s .08s ease both}
+.hero-h1 .hl{background:linear-gradient(125deg,#C87514 0%,#F5A623 40%,#F8C347 75%,#E09520 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+.hero-sub{font-size:17px;line-height:1.85;color:var(--text-2);max-width:500px;margin:0 auto 40px;animation:fade-up .5s .16s ease both}
+.hero-sub em{font-style:normal;color:var(--text-1);font-weight:600;border-bottom:1.5px solid rgba(245,166,35,0.5)}
+
+/* CTA */
+.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;animation:fade-up .5s .24s ease both}
+.btn-gold{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#E09520 0%,#F5A623 55%,#F8C347 100%);color:#000;font-size:16px;font-weight:800;padding:15px 32px;border-radius:var(--radius-pill);border:none;min-height:52px;letter-spacing:-.02em;box-shadow:0 2px 12px rgba(245,166,35,0.38),inset 0 1px 0 rgba(255,255,255,0.28);transition:transform var(--t),box-shadow var(--t)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(245,166,35,0.45),inset 0 1px 0 rgba(255,255,255,0.28)}
+.btn-gold:active{transform:none}
+.btn-outline{display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--text-1);border:1.5px solid rgba(26,26,26,0.22);padding:13px 24px;border-radius:var(--radius-pill);font-size:15px;font-weight:600;min-height:52px;transition:background var(--t),border-color var(--t)}
+.btn-outline:hover{background:var(--surface);border-color:rgba(26,26,26,0.35)}
+
+/* feature strip */
+.feat-strip{display:grid;grid-template-columns:repeat(4,1fr);max-width:480px;margin:56px auto 0;background:var(--bg-elevated);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;animation:fade-up .5s .32s ease both}
+.feat{padding:18px 12px;text-align:center;border-right:1px solid var(--border)}
+.feat:last-child{border-right:none}
+.feat-icon{font-size:18px;margin-bottom:3px}
+.feat-val{font-size:18px;font-weight:800;color:var(--text-1);letter-spacing:-.4px;line-height:1.2}
+.feat-lbl{font-size:10px;font-weight:600;color:var(--text-3);letter-spacing:.3px;margin-top:2px}
+
+@keyframes fade-up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LP — HOW IT WORKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.how{max-width:680px;margin:0 auto;padding:80px 20px 64px}
+.sec-eye{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text-3);text-align:center;margin-bottom:10px}
+.sec-h2{font-size:clamp(26px,4vw,34px);font-weight:700;letter-spacing:-.8px;text-align:center;margin-bottom:8px}
+.sec-sub{font-size:15px;color:var(--text-2);text-align:center;margin-bottom:52px}
+
+/* card shared base */
+.card{background:var(--bg-elevated);border:1px solid var(--border);border-radius:var(--radius-lg)}
+
+.steps{display:grid;gap:16px}
+.step-card{display:flex;gap:18px;align-items:flex-start;padding:24px;transition:border-color var(--t)}
+.step-card:hover{border-color:rgba(26,26,26,0.20)}
+.step-num{width:42px;height:42px;border-radius:var(--radius-pill);background:linear-gradient(135deg,#E09520,#F5A623);color:#000;font-size:16px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(245,166,35,0.28)}
+.step-h3{font-size:16px;font-weight:700;letter-spacing:-.3px;margin-bottom:4px}
+.step-p{font-size:14px;color:var(--text-2);line-height:1.75}
+
+/* cat buttons on LP */
+.cat-grid{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:48px}
+.cat-lp{padding:11px 20px;border-radius:var(--radius-pill);border:1.5px solid var(--border);background:var(--bg-elevated);font-size:14px;font-weight:600;color:var(--text-1);transition:border-color var(--t),background var(--t),transform var(--t)}
+.cat-lp:hover{border-color:var(--gold);background:var(--gold-bg);transform:translateY(-1px)}
+.cat-lp.primary{background:linear-gradient(135deg,#E09520,#F5A623,#F8C347);color:#000;border-color:transparent;font-weight:800;box-shadow:0 2px 10px rgba(245,166,35,0.30)}
+.cat-lp.primary:hover{box-shadow:0 6px 22px rgba(245,166,35,0.42);transform:translateY(-2px)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   LP — SEO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.seo{max-width:680px;margin:0 auto;padding:0 20px 80px}
+.seo-card{padding:28px 28px 24px;margin-bottom:16px}
+.seo-card h2{font-size:21px;font-weight:700;letter-spacing:-.5px;margin-bottom:12px}
+.seo-card p{font-size:15px;color:var(--text-2);line-height:1.85;margin-bottom:10px}
+.seo-card p:last-child{margin-bottom:0}
+.faq-item{padding:16px 0;border-bottom:1px solid var(--border)}
+.faq-item:last-child{border-bottom:none;padding-bottom:0}
+.faq-q{font-size:15px;font-weight:700;margin-bottom:7px;display:flex;gap:10px}
+.faq-q::before{content:'Q';color:var(--gold);font-weight:800;flex-shrink:0}
+.faq-a{font-size:14px;color:var(--text-2);line-height:1.8;padding-left:22px}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ — APP BAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.quiz-bar{position:fixed;top:0;left:0;right:0;z-index:300;height:52px;background:rgba(248,246,241,0.95);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.qb-exit{font-size:13px;font-weight:700;color:var(--text-2);background:none;border:none;padding:6px 12px;border-radius:var(--radius-pill);transition:background var(--t),color var(--t)}
+.qb-exit:hover{background:var(--surface);color:var(--text-1)}
+.qb-title{font-size:14px;font-weight:700;color:var(--text-1);margin-left:4px}
+.qb-xp{display:flex;align-items:center;gap:5px;background:var(--gold-bg);border:1px solid rgba(245,166,35,0.20);border-radius:var(--radius-pill);padding:4px 12px;font-size:13px;font-weight:700;color:var(--gold)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ — LAYOUT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.quiz-wrap{padding:64px 16px 56px;max-width:600px;margin:0 auto}
+
+/* progress */
+.prog-row{display:flex;justify-content:space-between;margin-bottom:7px}
+.prog-txt{font-size:12px;font-weight:600;color:var(--text-3);letter-spacing:.02em}
+.prog-track{height:3px;background:var(--surface-2);border-radius:var(--radius-pill);margin-bottom:20px}
+.prog-fill{height:100%;background:linear-gradient(90deg,#E09520,#F5A623,#F8C347);border-radius:var(--radius-pill);transition:width .45s cubic-bezier(.34,1.56,.64,1)}
+
+/* stats row */
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--bg-elevated);margin-bottom:18px}
+.sc{padding:12px 8px;text-align:center;border-right:1px solid var(--border)}
+.sc:last-child{border-right:none}
+.sc-num{font-size:18px;font-weight:800;letter-spacing:-.5px;font-variant-numeric:tabular-nums;line-height:1.1;color:var(--text-1)}
+.sc-num.gold{color:var(--gold)}
+.sc-num.orange{color:var(--streak)}
+.sc-lbl{font-size:10px;font-weight:600;color:var(--text-3);letter-spacing:.2px;margin-top:2px}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ — SENTENCE CARD (core experience)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.s-card{background:var(--bg-elevated);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:0;position:relative}
+
+/* decorative quote mark */
+.s-card::before{content:'"';position:absolute;top:-12px;right:18px;font-size:120px;line-height:1;color:rgba(245,166,35,0.06);font-family:'Noto Sans JP',sans-serif;font-weight:800;pointer-events:none;user-select:none;z-index:0}
+
+/* top strip: category + hint */
+.s-top{display:flex;align-items:center;gap:8px;padding:14px 18px 0;position:relative;z-index:1}
+.cat-pill{display:inline-flex;align-items:center;font-size:11px;font-weight:700;padding:3px 11px;border-radius:var(--radius-pill);letter-spacing:.04em}
+.cat-pill.daily  {background:rgba(14,165,233,0.10);color:#0369A1}
+.cat-pill.business{background:rgba(22,163,74,0.10);color:#166534}
+.cat-pill.travel {background:rgba(245,166,35,0.12);color:#92400E}
+.cat-pill.emotion{background:rgba(234,88,12,0.10);color:#9A3412}
+.s-hint{font-size:11px;font-weight:600;color:var(--text-3);letter-spacing:.04em;text-transform:uppercase}
+
+/* main Japanese sentence — dramatic */
+.s-body{padding:24px 24px 32px;text-align:center;position:relative;z-index:1}
+.s-ja{font-size:clamp(28px,5.5vw,46px);font-weight:800;line-height:1.35;color:var(--text-1);letter-spacing:.02em;margin-bottom:10px}
+.s-ctx{font-size:12px;color:var(--text-3);font-style:italic}
+
+/* timer — integrated at bottom of card (CSS animation, no JS DOM writes) */
+.timer-base{height:3px;background:var(--surface-2);position:relative}
+.timer-bar{position:absolute;top:0;left:0;height:100%;background:linear-gradient(90deg,var(--success),#84CC16 40%,var(--gold) 70%,var(--error));border-radius:0 var(--radius-pill) var(--radius-pill) 0;width:100%;transform-origin:left center}
+.timer-bar.running{animation:timer-drain 10s linear forwards}
+.timer-bar.urgent{animation:timer-drain-urgent 3s linear forwards}
+@keyframes timer-drain{from{width:100%}to{width:0%}}
+@keyframes timer-drain-urgent{from{width:30%;background:linear-gradient(90deg,var(--error),#EF4444)}to{width:0%;background:var(--error)}}
+
+.timer-secs{position:absolute;right:10px;top:-22px;font-size:11px;font-weight:700;color:var(--text-3);font-variant-numeric:tabular-nums;transition:color var(--t)}
+.timer-secs.urgent{color:var(--error)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ — REVEAL BUTTON
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.reveal-btn{width:100%;background:linear-gradient(135deg,#E09520 0%,#F5A623 55%,#F8C347 100%);color:#000;font-size:17px;font-weight:800;padding:17px 24px;border-radius:var(--radius-pill);border:none;min-height:56px;letter-spacing:-.02em;box-shadow:0 2px 12px rgba(245,166,35,0.35),inset 0 1px 0 rgba(255,255,255,0.28);transition:transform var(--t),box-shadow var(--t);display:flex;align-items:center;justify-content:center;gap:8px;margin-top:14px}
+.reveal-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(245,166,35,0.44)}
+.reveal-btn:active{transform:none}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ — ANSWER PANEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.ans-panel{display:none;margin-top:14px}
+.ans-panel.show{display:block;animation:ans-in .2s cubic-bezier(.2,.8,.4,1) both}
+@keyframes ans-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* answer card */
+.ans-card{padding:22px;border:1.5px solid var(--ok-b);border-radius:var(--radius-lg);background:var(--bg-elevated);margin-bottom:10px;position:relative;overflow:hidden}
+.ans-card::before{content:'';position:absolute;top:-24px;right:-24px;width:90px;height:90px;background:radial-gradient(circle,rgba(22,163,74,0.10),transparent 70%);pointer-events:none}
+.ans-flag{display:flex;align-items:center;gap:5px;font-size:11px;font-weight:700;color:var(--success);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+/* English answer — gradient text (sync technique) */
+.ans-main{font-size:clamp(20px,3.5vw,26px);font-weight:800;line-height:1.35;letter-spacing:-.3px;margin-bottom:8px;background:linear-gradient(120deg,rgba(26,26,26,0.88) 0%,rgba(26,26,26,0.88) 60%,rgba(22,163,74,0.80) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.ans-alt{font-size:13px;color:var(--text-2);line-height:1.7}
+.ans-alt em{font-style:italic;color:var(--text-1)}
+
+/* tip */
+.tip-card{padding:13px 16px;background:var(--hint-bg);border:1px solid rgba(217,119,6,0.25);border-radius:var(--radius-sm);margin-bottom:20px}
+.tip-lbl{display:flex;align-items:center;gap:5px;font-size:11px;font-weight:700;color:var(--hint);text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px}
+.tip-txt{font-size:13px;color:var(--text-2);line-height:1.75}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ — RATING BUTTONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.rating-hd{font-size:13px;font-weight:700;color:var(--text-2);text-align:center;margin-bottom:10px}
+.rating-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rate-btn{padding:14px 8px;border-radius:var(--radius);border:1.5px solid var(--border);background:var(--bg-elevated);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:84px;transition:border-color var(--t),background var(--t),transform var(--t),box-shadow var(--t)}
+.rate-btn:hover{transform:translateY(-2px)}
+.rate-btn:active{transform:none}
+.rate-icon{font-size:22px;line-height:1}
+.rate-txt{font-size:12px;font-weight:700;color:var(--text-1);text-align:center;line-height:1.3}
+.rate-xp{font-size:11px;font-weight:600;color:var(--text-3)}
+.rate-btn.ok  {border-color:var(--ok-b)}
+.rate-btn.ok:hover  {background:var(--success-bg);box-shadow:0 4px 14px rgba(22,163,74,0.14)}
+.rate-btn.warn{border-color:var(--warn-b)}
+.rate-btn.warn:hover{background:var(--hint-bg);box-shadow:0 4px 14px rgba(217,119,6,0.14)}
+.rate-btn.err {border-color:var(--err-b)}
+.rate-btn.err:hover {background:var(--error-bg);box-shadow:0 4px 14px rgba(220,38,38,0.14)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   XP TOAST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.xp-toast{position:fixed;top:62px;right:16px;z-index:500;background:var(--bg-elevated);border:1px solid rgba(245,166,35,0.28);border-radius:var(--radius);padding:9px 16px;font-size:13px;font-weight:800;color:var(--gold);box-shadow:0 4px 16px rgba(26,26,26,0.10);display:flex;align-items:center;gap:6px;pointer-events:none;animation:toast-in .2s ease,toast-fade .2s ease 1.7s both}
+@keyframes toast-in{from{opacity:0;transform:translateY(-12px) scale(.92)}to{opacity:1;transform:none}}
+@keyframes toast-fade{to{opacity:0;transform:translateY(-8px)}}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   COMPLETE VIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.complete-wrap{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:80px 16px 48px}
+.complete-card{width:100%;max-width:460px;padding:44px 28px;text-align:center;animation:fade-up .3s ease both}
+.c-emoji{font-size:52px;margin-bottom:16px;animation:tada .45s .1s ease both}
+@keyframes tada{0%,100%{transform:scale(1)}35%{transform:scale(1.18) rotate(-3deg)}65%{transform:scale(1.12) rotate(3deg)}}
+.c-title{font-size:26px;font-weight:800;letter-spacing:-.6px;margin-bottom:6px}
+.c-sub{font-size:15px;color:var(--text-2);margin-bottom:28px}
+
+/* result stats — matches stats-row */
+.result-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:24px}
+.rg-cell{padding:14px 8px;text-align:center;border-right:1px solid var(--border)}
+.rg-cell:last-child{border-right:none}
+.rg-val{font-size:24px;font-weight:800;color:var(--gold);letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.rg-lbl{font-size:10px;font-weight:600;color:var(--text-3);letter-spacing:.2px;margin-top:3px}
+
+/* XP bar */
+.xp-wrap{margin-bottom:24px}
+.xp-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.lv-badge{background:var(--gold-bg);color:var(--gold);border:1px solid rgba(245,166,35,0.25);border-radius:var(--radius-pill);padding:3px 11px;font-size:12px;font-weight:700}
+.xp-txt{font-size:12px;font-weight:600;color:var(--text-2)}
+.xp-track{height:6px;background:var(--surface-2);border-radius:var(--radius-pill);overflow:hidden}
+.xp-fill{height:100%;background:linear-gradient(90deg,#E09520,#F5A623,#F8C347);border-radius:var(--radius-pill);transition:width .55s cubic-bezier(.34,1.56,.64,1)}
+
+/* complete buttons */
+.c-btns{display:flex;flex-direction:column;gap:10px}
+.btn-solid{width:100%;background:linear-gradient(135deg,#E09520,#F5A623,#F8C347);color:#000;font-size:16px;font-weight:800;padding:15px;border-radius:var(--radius-pill);border:none;min-height:52px;box-shadow:0 2px 10px rgba(245,166,35,0.30);transition:transform var(--t),box-shadow var(--t)}
+.btn-solid:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(245,166,35,0.40)}
+.btn-line{width:100%;background:transparent;color:var(--text-2);font-size:15px;font-weight:600;padding:13px;border-radius:var(--radius-pill);border:1.5px solid rgba(26,26,26,0.18);transition:background var(--t),color var(--t)}
+.btn-line:hover{background:var(--surface);color:var(--text-1)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   FOOTER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+.site-footer{padding:40px 20px;text-align:center;font-size:13px;color:var(--text-3);border-top:1px solid var(--border)}
+.site-footer a{color:var(--text-2);margin:0 10px;transition:color var(--t)}
+.site-footer a:hover{color:var(--text-1)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   MOBILE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+@media(max-width:640px){
+  .hero{padding:88px 16px 60px}
+  .feat-strip{grid-template-columns:repeat(2,1fr)}
+  .feat:nth-child(2){border-right:none}
+  .feat:nth-child(3){border-top:1px solid var(--border)}
+  .feat:nth-child(4){border-top:1px solid var(--border);border-right:none}
+  .s-ja{font-size:28px}
+  .ans-main{font-size:20px}
+  .rating-grid{gap:6px}
+  .rate-btn{min-height:76px;padding:12px 6px}
+  .result-grid{grid-template-columns:repeat(2,1fr)}
+  .rg-cell:nth-child(2){border-right:none}
+  .rg-cell:nth-child(3){border-top:1px solid var(--border)}
+  .rg-cell:nth-child(4){border-top:1px solid var(--border);border-right:none}
+  .complete-card{padding:32px 16px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+  </style>
+</head>
+<body>
+
+<!-- ── SITE HEADER ── -->
+<header class="site-header" id="siteHeader">
+  <div class="sh-inner">
+    <a href="/" class="sh-logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      native-real
+    </a>
+    <nav class="sh-nav">
+      <a href="/listening/">ListenUp</a>
+      <a href="/grammar/">GrammarUp</a>
+      <a href="/speaking/" class="active">SpeakUp</a>
+      <a href="/ranking/">Ranking</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニュー"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mob-nav" id="mobNav">
+  <button class="mob-close" id="mobClose">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="mob-lbl">学ぶ</div>
+  <a href="/listening/">ListenUp</a>
+  <a href="/grammar/">GrammarUp</a>
+  <a href="/speaking/" class="active">SpeakUp</a>
+  <a href="/ranking/">英会話スクール</a>
+</div>
+
+<!-- ════════════════════════════════════════════
+     LP VIEW
+════════════════════════════════════════════ -->
+<div class="view show" id="viewLP">
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badge">⚡ 英語の瞬発力を鍛える</div>
+      <h1 class="hero-h1">日本語を見て、<br><span class="hl">即座に英語で言う。</span></h1>
+      <p class="hero-sub">「瞬間英作文」は、英語が口から出ない最大の原因——<em>頭の中の翻訳時間</em>——をゼロにするトレーニング法。毎日10分で英語の反射神経が鍛えられる。</p>
+      <div class="cta-row">
+        <button class="btn-gold" onclick="startQuiz('all')">⚡ 今すぐ練習する</button>
+        <button class="btn-outline" onclick="document.getElementById('howSec').scrollIntoView({behavior:'smooth'})">使い方を見る</button>
+      </div>
+      <div class="feat-strip">
+        <div class="feat"><div class="feat-icon">📝</div><div class="feat-val">200文</div><div class="feat-lbl">例文収録</div></div>
+        <div class="feat"><div class="feat-icon">🏷️</div><div class="feat-val">4分野</div><div class="feat-lbl">カテゴリ</div></div>
+        <div class="feat"><div class="feat-icon">🎯</div><div class="feat-val">無料</div><div class="feat-lbl">登録不要</div></div>
+        <div class="feat"><div class="feat-icon">📱</div><div class="feat-val">毎日</div><div class="feat-lbl">スマホ対応</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how" id="howSec">
+    <div class="sec-eye">How it works</div>
+    <h2 class="sec-h2">たった3ステップ</h2>
+    <p class="sec-sub">シンプルな繰り返しで英語の瞬発力が身につく</p>
+    <div class="steps">
+      <div class="step-card card">
+        <div class="step-num">1</div>
+        <div><div class="step-h3">日本語フレーズを見る</div><p class="step-p">日常・ビジネス・旅行・感情の4カテゴリから日本語のフレーズが表示される。タイマーが動く前に、声に出して英語で言ってみよう。</p></div>
+      </div>
+      <div class="step-card card">
+        <div class="step-num">2</div>
+        <div><div class="step-h3">ネイティブの英語を確認する</div><p class="step-p">「答えを見る」でネイティブが使う自然な英語と Native Tip が表示される。複数の表現とニュアンスの違いも確認できる。</p></div>
+      </div>
+      <div class="step-card card">
+        <div class="step-num">3</div>
+        <div><div class="step-h3">正直に自己評価してXPゲット</div><p class="step-p">「完璧に言えた」「だいたい言えた」「言えなかった」の3段階で自己採点。正直に評価するほど成長が速い。</p></div>
+      </div>
+    </div>
+    <div style="margin-top:12px;text-align:center">
+      <p style="font-size:11px;color:var(--text-3);font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px">カテゴリを選んで始める</p>
+      <div class="cat-grid">
+        <button class="cat-lp primary" onclick="startQuiz('all')">⚡ 全カテゴリ</button>
+        <button class="cat-lp" onclick="startQuiz('daily')">☀️ 日常会話</button>
+        <button class="cat-lp" onclick="startQuiz('business')">💼 ビジネス</button>
+        <button class="cat-lp" onclick="startQuiz('travel')">✈️ 旅行</button>
+        <button class="cat-lp" onclick="startQuiz('emotion')">💬 感情表現</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="seo">
+    <div class="seo-card card">
+      <h2>瞬間英作文とは？なぜ効果的なのか</h2>
+      <p>「瞬間英作文」とは、日本語を見て反射的に英語に変換するトレーニング法です。英語が口から出ない最大の原因は<strong>語順の違いと翻訳作業</strong>にあります。瞬間英作文を繰り返すことで、日本語を経由せず<strong>直接英語で考える回路</strong>が脳に形成されます。毎日10〜15分の継続で、3ヶ月後には英語の瞬発力が大きく向上します。</p>
+    </div>
+    <div class="seo-card card">
+      <h2>よくある質問</h2>
+      <div class="faq-item"><div class="faq-q">英語初心者でも使えますか？</div><div class="faq-a">はい。日常会話カテゴリは中学英語レベルのフレーズから始まります。「言えなかった」が多くても問題ありません。</div></div>
+      <div class="faq-item"><div class="faq-q">どのくらいの頻度でやればいいですか？</div><div class="faq-a">毎日10分が理想です。週5回以上続けることで、2〜3ヶ月で英語を反射的に話す感覚が身につきます。</div></div>
+      <div class="faq-item"><div class="faq-q">SpeakUp（SVO思考トレーナー）との違いは？</div><div class="faq-a">SpeakUpはSVO語順の思考トレーニングです。この瞬間英作文トレーナーはフレーズを丸ごと反射的に出す「瞬発力」を鍛えます。両方を組み合わせると効果的。</div></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 native-real</p>
+    <p style="margin-top:8px"><a href="/">ホーム</a><a href="/speaking/">SpeakUp</a><a href="/listening/">ListenUp</a><a href="/about/">About</a></p>
+  </footer>
+</div>
+
+<!-- ════════════════════════════════════════════
+     QUIZ VIEW
+════════════════════════════════════════════ -->
+<div class="view" id="viewQuiz">
+  <div class="quiz-bar">
+    <div style="display:flex;align-items:center">
+      <button class="qb-exit" onclick="exitQuiz()">← 終了</button>
+      <span class="qb-title">瞬間英作文</span>
+    </div>
+    <div class="qb-xp">⚡ <span id="qXP">0</span> XP</div>
+  </div>
+
+  <div class="quiz-wrap">
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="sc"><div class="sc-num gold" id="sCorr">0</div><div class="sc-lbl">完璧</div></div>
+      <div class="sc"><div class="sc-num" id="sAlmo">0</div><div class="sc-lbl">だいたい</div></div>
+      <div class="sc"><div class="sc-num" id="sMiss">0</div><div class="sc-lbl">言えなかった</div></div>
+      <div class="sc"><div class="sc-num orange" id="sStr">🔥0</div><div class="sc-lbl">連続</div></div>
+    </div>
+
+    <!-- Progress -->
+    <div class="prog-row">
+      <span class="prog-txt" id="progTxt">1 / 10</span>
+      <span class="prog-txt" id="progCat" style="color:var(--text-3)"></span>
+    </div>
+    <div class="prog-track"><div class="prog-fill" id="progFill" style="width:10%"></div></div>
+
+    <!-- Sentence card -->
+    <div class="s-card">
+      <div class="s-top">
+        <span class="cat-pill daily" id="catPill">日常会話</span>
+        <span class="s-hint">声に出して英語で言おう</span>
+      </div>
+      <div class="s-body">
+        <div class="s-ja" id="sentJa"></div>
+        <div class="s-ctx" id="sentCtx"></div>
+      </div>
+      <!-- CSS-animated timer strip at bottom of card -->
+      <div class="timer-base">
+        <div class="timer-bar" id="timerBar"></div>
+        <span class="timer-secs" id="timerSecs">10</span>
+      </div>
+    </div>
+
+    <!-- Reveal -->
+    <button class="reveal-btn" id="revealBtn" onclick="revealAnswer()">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      答えを見る
+    </button>
+
+    <!-- Answer panel -->
+    <div class="ans-panel" id="ansPanel">
+      <div class="ans-card">
+        <div class="ans-flag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          模範解答
+        </div>
+        <div class="ans-main" id="ansMain"></div>
+        <div class="ans-alt" id="ansAlt"></div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-lbl">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          Native Tip
+        </div>
+        <div class="tip-txt" id="tipTxt"></div>
+      </div>
+      <div class="rating-hd">英語で言えましたか？</div>
+      <div class="rating-grid">
+        <button class="rate-btn ok"   onclick="rate('perfect')"><span class="rate-icon">✅</span><span class="rate-txt">完璧に<br>言えた</span><span class="rate-xp">+20 XP</span></button>
+        <button class="rate-btn warn" onclick="rate('almost')"><span class="rate-icon">△</span><span class="rate-txt">だいたい<br>言えた</span><span class="rate-xp">+10 XP</span></button>
+        <button class="rate-btn err"  onclick="rate('missed')"><span class="rate-icon">❌</span><span class="rate-txt">言えな<br>かった</span><span class="rate-xp">+3 XP</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════════════════════════════════
+     COMPLETE VIEW
+════════════════════════════════════════════ -->
+<div class="view" id="viewComplete">
+  <div class="complete-wrap">
+    <div class="complete-card card">
+      <div class="c-emoji" id="cEmoji">🎉</div>
+      <h2 class="c-title" id="cTitle">セッション完了！</h2>
+      <p class="c-sub" id="cSub">お疲れ様でした</p>
+      <div class="result-grid">
+        <div class="rg-cell"><div class="rg-val" id="rCorr">0</div><div class="rg-lbl">完璧</div></div>
+        <div class="rg-cell"><div class="rg-val" id="rAlmo">0</div><div class="rg-lbl">だいたい</div></div>
+        <div class="rg-cell"><div class="rg-val" id="rMiss">0</div><div class="rg-lbl">言えなかった</div></div>
+        <div class="rg-cell"><div class="rg-val" id="rXP">+0</div><div class="rg-lbl">獲得XP</div></div>
+      </div>
+      <div class="xp-wrap">
+        <div class="xp-head">
+          <span class="lv-badge" id="lvBadge">Lv.1</span>
+          <span class="xp-txt" id="xpTxt">0 / 100 XP</span>
+        </div>
+        <div class="xp-track"><div class="xp-fill" id="xpFill" style="width:0%"></div></div>
+      </div>
+      <div class="c-btns">
+        <button class="btn-solid" onclick="restartQuiz()">🔄 もう一度練習する</button>
+        <button class="btn-line"  onclick="exitQuiz()">← トップに戻る</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   DATA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+const DATA=[
+  {cat:'daily',cl:'日常会話',ja:'今日も一日頑張ろう',ctx:'',main:"Let's make today a great one!",alt:'別の言い方: <em>"Have a great day!"</em> / <em>"Let\'s do this!"</em>',tip:'朝の別れ際などに使うポジティブな決意表明フレーズ。"Let\'s do this!" も同じ文脈でよく使われます。'},
+  {cat:'daily',cl:'日常会話',ja:'お腹すいた〜',ctx:'',main:"I'm starving.",alt:'別の言い方: <em>"I could eat a horse."</em>',tip:'"I\'m hungry." より "I\'m starving." の方がリアルな空腹感を表現できます。'},
+  {cat:'daily',cl:'日常会話',ja:'もう少し待って',ctx:'',main:"Hold on a sec.",alt:'別の言い方: <em>"Just a minute."</em> / <em>"Give me a moment."</em>',tip:'口語では "Hold on" や "One sec" がよく使われます。'},
+  {cat:'daily',cl:'日常会話',ja:'なんか疲れた',ctx:'',main:"I'm kind of worn out.",alt:'別の言い方: <em>"I\'m beat."</em> / <em>"I\'m drained."</em>',tip:'"worn out" や "beat" のほうが口語でよく使われます。'},
+  {cat:'daily',cl:'日常会話',ja:'気にしないで',ctx:'',main:"Don't worry about it.",alt:'別の言い方: <em>"No big deal."</em> / <em>"No worries!"</em>',tip:'"Never mind." は少し突き放した印象。"No worries!" が最も温かいニュアンス。'},
+  {cat:'daily',cl:'日常会話',ja:'早く帰りたい',ctx:'',main:"I can't wait to go home.",alt:'別の言い方: <em>"I just wanna head home."</em>',tip:'"can\'t wait to" は「〜するのが待ちきれない」という期待・切望を表す慣用表現。感情のニュアンスが加わります。'},
+  {cat:'daily',cl:'日常会話',ja:'いい感じだね',ctx:'',main:"That looks great!",alt:'別の言い方: <em>"That\'s looking good."</em> / <em>"Nice, I like it!"</em>',tip:'"That looks great on you!" と言えるとさらに自然です。'},
+  {cat:'daily',cl:'日常会話',ja:'やっぱりそうだったか',ctx:'',main:"I knew it.",alt:'別の言い方: <em>"Just as I thought."</em> / <em>"Called it!"</em>',tip:'"Called it!" は直感が当たったときのカジュアルな表現。'},
+  {cat:'daily',cl:'日常会話',ja:'最近どう？',ctx:'',main:"How have you been?",alt:'別の言い方: <em>"What\'s up?"</em> / <em>"How\'s everything going?"</em>',tip:'再会した知人には "How have you been?" がよく使われます。"What\'s up?" はより日常的なカジュアル表現。'},
+  {cat:'daily',cl:'日常会話',ja:'久しぶり！',ctx:'',main:"Long time no see!",alt:'別の言い方: <em>"It\'s been a while!"</em> / <em>"It\'s been forever!"</em>',tip:'"It\'s been ages!" はより大げさな表現で親しい間柄に。'},
+  {cat:'daily',cl:'日常会話',ja:'眠い…',ctx:'',main:"I'm so sleepy.",alt:'別の言い方: <em>"I can barely keep my eyes open."</em>',tip:'口語では "I need coffee ASAP." のような表現もよく聞きます。'},
+  {cat:'daily',cl:'日常会話',ja:'もう少しで終わる',ctx:'',main:"I'm almost done.",alt:'別の言い方: <em>"Almost there!"</em> / <em>"Just a little longer."</em>',tip:'自分を励ます文脈では "Almost there!" がよく使われます。'},
+  {cat:'daily',cl:'日常会話',ja:'そういうことか！',ctx:'',main:"Oh, that makes sense!",alt:'別の言い方: <em>"Ah, I see!"</em> / <em>"Got it!"</em>',tip:'"Oh, that makes sense!" は理解と納得感を同時に表せる定番フレーズ。"I see." より感情が乗ります。'},
+  {cat:'business',cl:'ビジネス',ja:'確認させてください',ctx:'ミーティング・メールで',main:"Let me double-check that.",alt:'別の言い方: <em>"Let me verify that."</em> / <em>"Let me confirm."</em>',tip:'"Let me double-check" は「念のため確認」のニュアンス。誠実な印象を与えます。'},
+  {cat:'business',cl:'ビジネス',ja:'後ほど折り返します',ctx:'',main:"I'll get back to you later.",alt:'別の言い方: <em>"I\'ll follow up with you."</em> / <em>"I\'ll circle back on that."</em>',tip:'メールでは "I\'ll get back to you shortly." が丁寧です。'},
+  {cat:'business',cl:'ビジネス',ja:'ご検討よろしくお願いします',ctx:'メール末尾で',main:"I look forward to your consideration.",alt:'別の言い方: <em>"Please let me know your thoughts."</em>',tip:'"Please let me know your thoughts." はメールの締め文句としてよく使われます。'},
+  {cat:'business',cl:'ビジネス',ja:'少しお時間よろしいですか？',ctx:'',main:"Do you have a moment?",alt:'別の言い方: <em>"Got a minute?"</em> / <em>"Are you free to chat?"</em>',tip:'カジュアルな職場では "Got a sec?" がよく使われます。'},
+  {cat:'business',cl:'ビジネス',ja:'資料をお送りします',ctx:'',main:"I'll send you the materials.",alt:'別の言い方: <em>"I\'ll forward the documents."</em> / <em>"I\'ll share the files."</em>',tip:'"share" はドライブ共有、"send" はメール添付のイメージ。'},
+  {cat:'business',cl:'ビジネス',ja:'了解しました',ctx:'',main:"Got it.",alt:'別の言い方: <em>"Understood."</em> / <em>"Will do!"</em>',tip:'メールには "Noted, thank you." が丁寧。"Sounds good!" は「いい案だね」のニュアンスも含みます。'},
+  {cat:'business',cl:'ビジネス',ja:'会議を延期できますか？',ctx:'',main:"Could we reschedule the meeting?",alt:'別の言い方: <em>"Can we push the meeting back?"</em>',tip:'"push back" は「後ろにずらす」、"move up" は「前倒し」という意味。'},
+  {cat:'business',cl:'ビジネス',ja:'進捗を教えてください',ctx:'',main:"Can you give me an update?",alt:'別の言い方: <em>"Where are we on this?"</em> / <em>"How\'s it coming along?"</em>',tip:'"Where are we on this?" はチームでの進捗確認によく使われます。'},
+  {cat:'business',cl:'ビジネス',ja:'期限はいつですか？',ctx:'',main:"What's the deadline?",alt:'別の言い方: <em>"When is this due?"</em> / <em>"When do you need this by?"</em>',tip:'"When do you need this by?" は相手の都合を聞く丁寧な言い方。'},
+  {cat:'business',cl:'ビジネス',ja:'共有ありがとうございます',ctx:'メール・Slackで',main:"Thanks for sharing that.",alt:'別の言い方: <em>"Appreciate the update."</em> / <em>"Thank you for the heads-up."</em>',tip:'Slackでは "Thanks for the heads-up!" がよく使われます。'},
+  {cat:'business',cl:'ビジネス',ja:'念のため確認しておきます',ctx:'',main:"Just to be safe, let me confirm.",alt:'別の言い方: <em>"Let me double-check just in case."</em>',tip:'"just in case" は「万が一のために」、"just to be safe" は「安全のために」。'},
+  {cat:'business',cl:'ビジネス',ja:'お忙しいところ失礼します',ctx:'メール冒頭で',main:"Sorry to bother you when you're busy.",alt:'別の言い方: <em>"I know you\'re busy, but..."</em>',tip:'英語圏では過度な謝罪は避ける傾向。"I have a quick question." とシンプルに切り出すのも自然。'},
+  {cat:'travel',cl:'旅行',ja:'チェックインをお願いします',ctx:'ホテルのフロントで',main:"I'd like to check in, please.",alt:'別の言い方: <em>"I have a reservation."</em>',tip:'"Hi, I have a reservation under [your name]." が自然な始め方。'},
+  {cat:'travel',cl:'旅行',ja:'近くにおすすめのレストランは？',ctx:'観光地・ホテルで',main:"Can you recommend a restaurant nearby?",alt:'別の言い方: <em>"Where\'s a good place to eat around here?"</em>',tip:'"Can you recommend ~?" のほうが会話が広がりやすい聞き方です。'},
+  {cat:'travel',cl:'旅行',ja:'道に迷ってしまいました',ctx:'',main:"I'm lost.",alt:'別の言い方: <em>"I think I took a wrong turn."</em>',tip:'"Can you show me where this is on the map?" と続けると助けてもらいやすい。'},
+  {cat:'travel',cl:'旅行',ja:'写真を撮ってもらえますか？',ctx:'',main:"Could you take a photo of me?",alt:'別の言い方: <em>"Would you mind taking a picture?"</em> / <em>"Can you snap a photo?"</em>',tip:'カメラを渡しながら "Could you take a photo of us?" と言えば完璧。'},
+  {cat:'travel',cl:'旅行',ja:'これをください',ctx:'お店で',main:"I'll take this.",alt:'別の言い方: <em>"I\'d like this one, please."</em>',tip:'"I\'ll take this." は購入・選択の意思を丁寧に示す表現。"I want this." はより直接的なニュアンス。'},
+  {cat:'travel',cl:'旅行',ja:'両替できますか？',ctx:'',main:"Can I exchange currency here?",alt:'別の言い方: <em>"Where can I exchange money?"</em>',tip:'空港では "currency exchange" または "exchange counter" を探しましょう。'},
+  {cat:'travel',cl:'旅行',ja:'何時に閉まりますか？',ctx:'お店・観光スポットで',main:"What time do you close?",alt:'別の言い方: <em>"When do you close?"</em> / <em>"Are you still open?"</em>',tip:'シンプルに "Closing time?" だけでも通じます。'},
+  {cat:'travel',cl:'旅行',ja:'どのくらい時間がかかりますか？',ctx:'移動・待ち時間',main:"How long does it take?",alt:'別の言い方: <em>"How far is it?"</em> / <em>"Is it within walking distance?"</em>',tip:'距離なら "How far?" 時間なら "How long?" を使い分けましょう。'},
+  {cat:'travel',cl:'旅行',ja:'領収書をもらえますか？',ctx:'',main:"Could I get a receipt?",alt:'別の言い方: <em>"Can I have the receipt?"</em>',tip:'レストランのお会計は "Could I get the check?" (US) / "bill?" (UK)。'},
+  {cat:'travel',cl:'旅行',ja:'窓側の席にしてもらえますか？',ctx:'レストランで',main:"Could I get a window seat?",alt:'別の言い方: <em>"I\'d prefer a seat by the window."</em>',tip:'飛行機でも同じ表現が使えます。'},
+  {cat:'emotion',cl:'感情表現',ja:'信じられない！',ctx:'',main:"I can't believe it!",alt:'別の言い方: <em>"No way!"</em> / <em>"You\'re kidding me!"</em>',tip:'ポジティブな驚きにも使えます。ネガティブな場合は "Are you serious?!" も。'},
+  {cat:'emotion',cl:'感情表現',ja:'本当に感謝しています',ctx:'',main:"I really appreciate it.",alt:'別の言い方: <em>"I\'m truly grateful."</em> / <em>"I can\'t thank you enough."</em>',tip:'"appreciate" は「〜の価値を認める」という意味を含む動詞。感謝の丁寧な表現として広く使われます。'},
+  {cat:'emotion',cl:'感情表現',ja:'ちょっとイライラしてる',ctx:'',main:"I'm a little frustrated.",alt:'別の言い方: <em>"I\'m getting a bit annoyed."</em>',tip:'"frustrated" は「思い通りにいかない」「もどかしい」のニュアンス。"angry" とは違います。'},
+  {cat:'emotion',cl:'感情表現',ja:'それは残念だね',ctx:'',main:"That's too bad.",alt:'別の言い方: <em>"What a shame."</em> / <em>"That\'s such a bummer."</em>',tip:'"That\'s such a bummer." はカジュアルで共感を示す言い方。'},
+  {cat:'emotion',cl:'感情表現',ja:'すごく嬉しい！',ctx:'',main:"I'm so happy!",alt:'別の言い方: <em>"I\'m thrilled!"</em> / <em>"I\'m over the moon!"</em>',tip:'"I\'m over the moon!" は「最高に嬉しい」という慣用表現。'},
+  {cat:'emotion',cl:'感情表現',ja:'心配しないで',ctx:'',main:"Don't worry.",alt:'別の言い方: <em>"It\'ll be okay."</em> / <em>"I\'ve got your back."</em>',tip:'"I\'ve got your back." (あなたを支えるよ) も温かい表現。'},
+  {cat:'emotion',cl:'感情表現',ja:'正直、不安です',ctx:'',main:"Honestly, I'm a bit nervous.",alt:'別の言い方: <em>"To be honest, I\'m anxious."</em>',tip:'"nervous" は「緊張・不安」、"anxious" は「心配・不安」のニュアンス。'},
+  {cat:'emotion',cl:'感情表現',ja:'やった！うまくいった！',ctx:'',main:"Yes! I did it!",alt:'別の言い方: <em>"Nailed it!"</em> / <em>"Crushed it!"</em>',tip:'"Nailed it!" は「完璧にやってのけた」のカジュアル表現。'},
+  {cat:'emotion',cl:'感情表現',ja:'それ、共感できる',ctx:'',main:"I totally get that.",alt:'別の言い方: <em>"I can relate."</em> / <em>"Same here."</em>',tip:'"I can relate." も「共感できる」の定番フレーズ。'},
+  {cat:'emotion',cl:'感情表現',ja:'なんとかなるよ',ctx:'',main:"It'll work out.",alt:'別の言い方: <em>"Things will be fine."</em> / <em>"It\'ll sort itself out."</em>',tip:'"Everything happens for a reason." も励ましのフレーズとしてよく使われます。'},
+  {cat:'emotion',cl:'感情表現',ja:'あなたのことが心配です',ctx:'',main:"I'm worried about you.",alt:'別の言い方: <em>"Are you doing okay?"</em> / <em>"I care about you."</em>',tip:'"I\'m concerned about you." は "worried" より少し穏やかなニュアンス。'},
+  {cat:"daily",cl:"日常会話",ja:"明日、空いてる？",ctx:"友人を誘うとき",main:"Are you free tomorrow?",alt:"別の言い方: <em>\"Are you available tomorrow?\"</em> / <em>\"Do you have time tomorrow?\"</em>",tip:"相手の予定が空いているかを確認する表現です"},
+  {cat:"business",cl:"ビジネス",ja:"後で詳細を連絡します",ctx:"打ち合わせやメールの締めくくりで",main:"I'll let you know the details later.",alt:"別の言い方: <em>\"I'll follow up with the details later.\"</em> / <em>\"I'll send you the details later.\"</em>",tip:"\"follow up\" は後ほど追って連絡することを表します"},
+  {cat:"emotion",cl:"感情表現",ja:"めちゃくちゃ緊張してる",ctx:"プレゼンや面接の直前",main:"I'm so nervous.",alt:"別の言い方: <em>\"I'm really on edge.\"</em> / <em>\"I have butterflies in my stomach.\"</em>",tip:"\"butterflies in my stomach\"は緊張で胸がソワソワする様子を表します"},
+  {cat:"travel",cl:"旅行",ja:"おすすめはありますか？",ctx:"店や観光地で提案を求める際",main:"What do you recommend?",alt:"別の言い方: <em>\"Do you have any recommendations?\"</em> / <em>\"Any suggestions?\"</em>",tip:"\"recommendation\" はおすすめの商品や場所を指します"},
+  {cat:"daily",cl:"日常会話",ja:"いい考えだね！",ctx:"相手の提案に賛成する時",main:"That's a great idea!",alt:"別の言い方: <em>\"Good thinking!\"</em> / <em>\"Sounds like a plan!\"</em>",tip:"相手の提案やアイデアを肯定的に評価する表現です"},
+  {cat:"business",cl:"ビジネス",ja:"打ち合わせを調整しましょう",ctx:"日程調整を提案する際",main:"Let's set up a meeting.",alt:"別の言い方: <em>\"Let's schedule a meeting.\"</em> / <em>\"Let's arrange a meeting.\"</em>",tip:"「日程を組む」際に使われる一般的な表現です"},
+  {cat:"emotion",cl:"感情表現",ja:"本当にがっかりしたよ",ctx:"期待していた結果にならなかった時",main:"I'm so disappointed.",alt:"別の言い方: <em>\"That's a huge disappointment.\"</em> / <em>\"I'm really let down.\"</em>",tip:"期待が外れて落ち込んだ状態を表す表現です"},
+  {cat:"travel",cl:"旅行",ja:"ここへの行き方を教えてください",ctx:"道案内をお願いするとき",main:"How do I get to this place?",alt:"別の言い方: <em>\"Can you show me the way to this location?\"</em> / <em>\"Could you tell me how to get here?\"</em>",tip:"「how to get to ~」で目的地への行き方を尋ねる表現になります"},
+  {cat:"daily",cl:"日常会話",ja:"ちょっといい？",ctx:"相手に話しかける際",main:"Got a second?",alt:"別の言い方: <em>\"Can I talk to you for a second?\"</em> / <em>\"Do you have a minute?\"</em>",tip:"相手の時間を短時間だけ借りたい時に使う表現です"},
+  {cat:"business",cl:"ビジネス",ja:"改めて検討します",ctx:"提案を受けたが即答できない場面",main:"I'll think about it.",alt:"別の言い方: <em>\"I'll sleep on it.\"</em> / <em>\"I'll consider it.\"</em>",tip:"\"sleep on it\" は一晩時間を置いて考える際に使われる慣用句"},
+  {cat:"emotion",cl:"感情表現",ja:"すごくワクワクする！",ctx:"楽しみな予定があるとき",main:"I'm so excited!",alt:"別の言い方: <em>\"I'm really looking forward to it!\"</em> / <em>\"I can't wait!\"</em>",tip:"\"excited\" は期待で胸が躍る状態を表します"},
+  {cat:"daily",cl:"日常会話",ja:"また連絡するね",ctx:"別れ際の挨拶",main:"I'll be in touch.",alt:"別の言い方: <em>\"I'll get back to you.\"</em> / <em>\"I'll hit you up later.\"</em>",tip:"\"be in touch\" は連絡を取り合う状態を指す表現"},
+  {cat:"travel",cl:"旅行",ja:"ここでおすすめの料理は？",ctx:"レストランで店員に尋ねる際",main:"What are your recommendations?",alt:"別の言い方: <em>\"What's the best dish here?\"</em> / <em>\"What do you recommend here?\"</em>",tip:"\"recommend\" は「勧める」という意味の動詞です"},
+  {cat:"business",cl:"ビジネス",ja:"議題を確認しましょう",ctx:"会議の冒頭で",main:"Let's go over the agenda.",alt:"別の言い方: <em>\"Let's check the agenda.\"</em> / <em>\"Let's review the agenda.\"</em>",tip:"\"go over\" は詳細を確認する際に使われる句動詞です"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、うんざり！",ctx:"繰り返し起こる不快な状況に対して",main:"I've had enough!",alt:"別の言い方: <em>\"I'm sick of this!\"</em> / <em>\"I'm fed up!\"</em>",tip:"限界まで我慢して、飽き飽きしている状態を表します"},
+  {cat:"daily",cl:"日常会話",ja:"もういいよ（諦め）",ctx:"議論が平行線で切り上げる時",main:"Just leave it.",alt:"別の言い方: <em>\"Never mind.\"</em> / <em>\"Forget it.\"</em>",tip:"\"Forget it\" は気にしないで、というニュアンスを含む諦めの表現"},
+  {cat:"travel",cl:"旅行",ja:"ここから遠いですか？",ctx:"目的地への距離を確認する際",main:"Is it far from here?",alt:"別の言い方: <em>\"Is it a long way from here?\"</em> / <em>\"Is it far away?\"</em>",tip:"距離を問う際の基本表現で、from hereを添えて現在地を基準にします"},
+  {cat:"business",cl:"ビジネス",ja:"改めてご連絡します",ctx:"検討後や確認後に連絡することを伝える場面",main:"I will get back to you.",alt:"別の言い方: <em>\"I will let you know later.\"</em> / <em>\"I will follow up with you.\"</em>",tip:"\"get back to someone\" は返答することを表す定番表現です"},
+  {cat:"emotion",cl:"感情表現",ja:"すごく楽しみ！",ctx:"期待している時に使う",main:"I'm so excited!",alt:"別の言い方: <em>\"I'm looking forward to it!\"</em> / <em>\"I can't wait!\"</em>",tip:"期待感や待ちきれない気持ちを表す表現です"},
+  {cat:"daily",cl:"日常会話",ja:"ちょっと手伝ってくれる？",ctx:"身近な人に軽い助けを求める時",main:"Could you help me out?",alt:"別の言い方: <em>\"Can you help me for a second?\"</em> / <em>\"Can you give me a hand?\"</em>",tip:"\"give someone a hand\" は手助けをするという意味の慣用表現"},
+  {cat:"daily",cl:"日常会話",ja:"気にしなくていいよ",ctx:"相手が謝罪した時",main:"Forget about it.",alt:"別の言い方: <em>\"Don't worry about it.\"</em> / <em>\"No worries.\"</em>",tip:"相手の謝罪や不安を軽くしてあげる際に使われる表現です"},
+  {cat:"business",cl:"ビジネス",ja:"承知いたしました",ctx:"上司や顧客からの指示を受けた際",main:"Will do.",alt:"別の言い方: <em>\"Certainly.\"</em> / <em>\"Understood.\"</em>",tip:"承諾や了解を示す表現で、相手との関係性で使い分けます"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、びっくりした！",ctx:"突然誰かに驚かされた時",main:"That gave me a fright!",alt:"別の言い方: <em>\"You scared me!\"</em> / <em>\"You startled me!\"</em>",tip:"「驚かされた」という受動的な感情を表現する言い回しです"},
+  {cat:"travel",cl:"旅行",ja:"予約しています",ctx:"ホテルやレストランの受付で",main:"I've got a booking.",alt:"別の言い方: <em>\"I have a reservation.\"</em> / <em>\"I have a booking.\"</em>",tip:"reservationとbookingはどちらも予約を意味します"},
+  {cat:"daily",cl:"日常会話",ja:"明日、雨かな？",ctx:"天気について話している時",main:"Is it going to rain tomorrow?",alt:"別の言い方: <em>\"Will it rain tomorrow?\"</em> / <em>\"Do you think it'll rain tomorrow?\"</em>",tip:"未来の天候を予測して尋ねる際の定番表現です"},
+  {cat:"business",cl:"ビジネス",ja:"後で検討しておきます",ctx:"提案を受けたが即答できない時",main:"I'll think about it later.",alt:"別の言い方: <em>\"I'll look into it later.\"</em> / <em>\"I'll consider it later.\"</em>",tip:"検討することを意味する think about, consider, look into を使用"},
+  {cat:"emotion",cl:"感情表現",ja:"本当に嬉しい！",ctx:"良い知らせを聞いたとき",main:"I'm so happy!",alt:"別の言い方: <em>\"I'm delighted!\"</em> / <em>\"I'm thrilled!\"</em>",tip:"thrilledは非常に興奮して嬉しい状態を表します"},
+  {cat:"travel",cl:"旅行",ja:"ここから駅まで歩けますか？",ctx:"目的地への移動手段を確認する時",main:"Is the station within walking distance?",alt:"別の言い方: <em>\"Is it walkable to the station from here?\"</em> / <em>\"Can I walk to the station from here?\"</em>",tip:"\"within walking distance\" は徒歩圏内という意味の定型表現です"},
+  {cat:"daily",cl:"日常会話",ja:"もう行くね",ctx:"別れ際や出発する時",main:"I'm off now.",alt:"別の言い方: <em>\"I've got to go.\"</em> / <em>\"I'm heading out.\"</em>",tip:"\"head out\" は「出かける」という意味の句動詞です"},
+  {cat:"business",cl:"ビジネス",ja:"詳細をメールします。",ctx:"打ち合わせの締めくくりなど",main:"I'll follow up with an email with the details.",alt:"別の言い方: <em>\"I'll send you the details by email.\"</em> / <em>\"I'll email you the details.\"</em>",tip:"「follow up」は後で詳細を伝える際によく使われます"},
+  {cat:"emotion",cl:"感情表現",ja:"緊張してドキドキする",ctx:"発表前や初対面の人に会う前",main:"I'm so nervous.",alt:"別の言い方: <em>\"I'm feeling jittery.\"</em> / <em>\"I have butterflies in my stomach.\"</em>",tip:"\"nervous\" は不安や緊張で落ち着かない状態を表します"},
+  {cat:"daily",cl:"日常会話",ja:"ちょっと考えさせて。",ctx:"返答を保留したい時",main:"I need a moment to think.",alt:"別の言い方: <em>\"Let me think about it for a bit.\"</em> / <em>\"Let me sleep on it.\"</em>",tip:"\"Let me think\" は一時的に思考時間を求める表現です"},
+  {cat:"travel",cl:"旅行",ja:"荷物を預かっていただけますか？",ctx:"ホテルのフロントで",main:"Could you keep my luggage?",alt:"別の言い方: <em>\"Would you be able to store my luggage?\"</em> / <em>\"Can you hold my bags?\"</em>",tip:"\"keep」は物を保管して持っておくという意味で使われます"},
+  {cat:"business",cl:"ビジネス",ja:"日程を調整しましょう。",ctx:"会議の日時を決めたいとき",main:"Let's figure out a time that works.",alt:"別の言い方: <em>\"Let's coordinate our schedules.\"</em> / <em>\"Let's align our calendars.\"</em>",tip:"\"coordinate\" は複数の予定を調整し合わせる際に使われます"},
+  {cat:"emotion",cl:"感情表現",ja:"もどかしい！",ctx:"思い通りにいかず苛立つ場面",main:"This is so frustrating!",alt:"別の言い方: <em>\"It's so frustrating!\"</em> / <em>\"I'm so frustrated!\"</em>",tip:"\"frustrating\" は期待通りにいかず不満が溜まる様子を表します"},
+  {cat:"daily",cl:"日常会話",ja:"ちょっといいですか？",ctx:"相手の時間を少しだけ奪いたい時",main:"Got a second?",alt:"別の言い方: <em>\"Can I talk to you for a moment?\"</em> / <em>\"Do you have a minute?\"</em>",tip:"\"have a minute\" は短時間の空きがあるか尋ねる定番表現"},
+  {cat:"travel",cl:"旅行",ja:"ここへ行きたいです",ctx:"地図や目的地を指差して伝えるとき",main:"I want to go here.",alt:"別の言い方: <em>\"I'm looking to go here.\"</em> / <em>\"I'd like to go here.\"</em>",tip:"\"want to\" は直接的な希望を伝える表現です"},
+  {cat:"business",cl:"ビジネス",ja:"お任せください",ctx:"責任を持って引き受ける時",main:"Leave it to me.",alt:"別の言い方: <em>\"I'll take care of it.\"</em> / <em>\"I'll handle it.\"</em>",tip:"\"take care of\" は「〜を処理する」「〜の面倒を見る」という意味。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、ムカつく！",ctx:"怒りをあらわにする時",main:"I'm so pissed off!",alt:"別の言い方: <em>\"I'm so mad!\"</em> / <em>\"I'm really annoyed!\"</em>",tip:"\"pissed off\" は非常に腹が立っている状態を表すカジュアルな表現。"},
+  {cat:"daily",cl:"日常会話",ja:"気分転換したいな",ctx:"気分を変えたいとき",main:"I want a change of scenery.",alt:"別の言い方: <em>\"I need to refresh myself.\"</em> / <em>\"I need a change of pace.\"</em>",tip:"\"change of pace\" は、いつもとは違う活動をして気分を変えることを指す。"},
+  {cat:"daily",cl:"日常会話",ja:"気分転換しよう",ctx:"勉強や仕事の合間に休憩を提案する時",main:"Let's have a change of pace.",alt:"別の言い方: <em>\"Let's take a break.\"</em> / <em>\"Let's clear our heads.\"</em>",tip:"\"change of pace\" は「気分転換」や「（単調な日常への）変化」を意味する。"},
+  {cat:"business",cl:"ビジネス",ja:"検討させていただきます",ctx:"提案に対して保留にする時",main:"I will look into it.",alt:"別の言い方: <em>\"I will give it some thought.\"</em> / <em>\"I will consider it.\"</em>",tip:"\"look into\" は「〜を検討する、調査する」という意味の句動詞。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、心折れた...",ctx:"絶望感や挫折感を感じた時",main:"I'm crushed.",alt:"別の言い方: <em>\"I'm devastated.\"</em> / <em>\"I'm heartbroken.\"</em>",tip:"\"devastated\" は精神的に大きなショックを受けて打ちのめされた状態を表す。"},
+  {cat:"travel",cl:"旅行",ja:"チェックインできますか？",ctx:"ホテルに到着した時",main:"Is it possible to check in?",alt:"別の言い方: <em>\"Can I check in now?\"</em> / <em>\"Could I check in, please?\"</em>",tip:"\"check in\" はホテルなどの宿泊手続きを行うことを表す句動詞。"},
+  {cat:"daily",cl:"日常会話",ja:"適当でいいよ",ctx:"こだわりがないことを伝える時",main:"Anything is fine.",alt:"別の言い方: <em>\"I don't mind.\"</em> / <em>\"Either one is okay.\"</em>",tip:"\"Anything is fine\" は、提示された選択肢のどれでも構わない時に使われる定番表現。"},
+  {cat:"business",cl:"ビジネス",ja:"承認をお願いします",ctx:"上司に書類や申請の承認を求める時",main:"I would like to request your approval.",alt:"別の言い方: <em>\"Please approve this.\"</em> / <em>\"Could you please authorize this?\"</em>",tip:"\"approve\" は、権限を持つ人が計画や書類などを「正式に承認する」という意味。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、最高の気分！",ctx:"非常に幸せで気分が高揚している時",main:"I'm on cloud nine!",alt:"別の言い方: <em>\"I'm over the moon!\"</em> / <em>\"I feel amazing!\"</em>",tip:"\"on cloud nine\" は「最高に幸せな」という状態を表す慣用句。"},
+  {cat:"travel",cl:"旅行",ja:"予約を確認したいです",ctx:"ホテルのフロントなどで",main:"I want to check my booking.",alt:"別の言い方: <em>\"I'm here to verify my reservation.\"</em> / <em>\"I'd like to confirm my reservation.\"</em>",tip:"\"confirm\" は「（予約や事実などを）確認・確定させる」という意味の動詞。"},
+  {cat:"daily",cl:"日常会話",ja:"ゆっくり休んでね",ctx:"体調が悪い人や疲れている人へかける言葉",main:"Get some rest.",alt:"別の言い方: <em>\"Take it easy.\"</em> / <em>\"Get plenty of rest.\"</em>",tip:"\"Get some rest\" は、心身を休ませるように促す定番の表現。"},
+  {cat:"business",cl:"ビジネス",ja:"お任せいたします",ctx:"相手に判断や決定を委ねる時",main:"I'll leave it to you.",alt:"別の言い方: <em>\"I'll leave it in your hands.\"</em> / <em>\"I'll defer to you.\"</em>",tip:"\"leave it to ~\" で「〜に任せる」という定型表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"楽しみで待ちきれない！",ctx:"期待感でワクワクしている時",main:"I'm so excited!",alt:"別の言い方: <em>\"I'm looking forward to it!\"</em> / <em>\"I can't wait!\"</em>",tip:"\"can't wait\" は直訳すると「待つことができない」で、強い期待感を表す。"},
+  {cat:"daily",cl:"日常会話",ja:"気が向いたら教えて",ctx:"相手に無理強いせず、都合の良い時に連絡してほしい時",main:"Let me know if you feel like it.",alt:"別の言い方: <em>\"Let me know if you're up for it.\"</em> / <em>\"Let me know if you're in the mood.\"</em>",tip:"\"feel like ~\" は「〜したい気がする」という気分や意向を表す表現。"},
+  {cat:"travel",cl:"旅行",ja:"空いている部屋はありますか？",ctx:"ホテルで空室を確認する時",main:"Are there any rooms free?",alt:"別の言い方: <em>\"Do you have any rooms available?\"</em> / <em>\"Do you have any vacancies?\"</em>",tip:"\"vacancy\" はホテルなどの「空室」を意味する名詞。"},
+  {cat:"business",cl:"ビジネス",ja:"お褒めいただき光栄です",ctx:"相手に褒められた際の返答",main:"That's very kind of you.",alt:"別の言い方: <em>\"I'm honored.\"</em> / <em>\"I'm flattered.\"</em>",tip:"\"be flattered\" は「（過分な評価を受けて）嬉しい、光栄だ」という意味。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、しっくりこないな",ctx:"納得がいかない様子で",main:"It doesn't feel right.",alt:"別の言い方: <em>\"It doesn't sit right with me.\"</em> / <em>\"Something feels off.\"</em>",tip:"\"feel right\" で「（感覚的に）正しい、しっくりくる」という意味になる。"},
+  {cat:"daily",cl:"日常会話",ja:"いい感じだね！",ctx:"物事の進み具合や様子を褒める時",main:"It's looking good!",alt:"別の言い方: <em>\"It's coming along nicely!\"</em> / <em>\"It's shaping up well!\"</em>",tip:"\"come along\" は（計画や作品などが）順調に進む、という意味。"},
+  {cat:"travel",cl:"旅行",ja:"おすすめの観光地は？",ctx:"現地の人やホテルスタッフに尋ねる時",main:"What are some recommended sightseeing spots?",alt:"別の言い方: <em>\"What are the must-visit places around here?\"</em> / <em>\"Which tourist attractions do you recommend?\"</em>",tip:"\"sightseeing spots\" は「観光地」を意味する一般的な表現。"},
+  {cat:"business",cl:"ビジネス",ja:"折り合いをつけましょう",ctx:"交渉などで妥協点を探る時",main:"Let's find a middle ground.",alt:"別の言い方: <em>\"Let's meet halfway.\"</em> / <em>\"Let's reach a compromise.\"</em>",tip:"\"middle ground\" は対立する二つの意見の間にある「妥協点」を指す。"},
+  {cat:"emotion",cl:"感情表現",ja:"心から感動したよ",ctx:"映画や芸術作品、人の行動に深く感銘を受けた時",main:"I was truly touched.",alt:"別の言い方: <em>\"I was deeply moved.\"</em> / <em>\"I was profoundly impressed.\"</em>",tip:"\"be moved\" は、感情が揺さぶられて「感動する」という意味で使われる。"},
+  {cat:"daily",cl:"日常会話",ja:"なんとなく分かる気がする",ctx:"相手の気持ちや状況に共感する時",main:"I kind of get it.",alt:"別の言い方: <em>\"I can sort of relate.\"</em> / <em>\"I somewhat understand.\"</em>",tip:"\"kind of\" は「なんとなく」「ある意味」と意味をぼかす口語表現。"},
+  {cat:"daily",cl:"日常会話",ja:"いいタイミングで来たね",ctx:"ちょうど良い時に誰かが訪ねてきた時",main:"You came at a good time.",alt:"別の言い方: <em>\"You've arrived at just the right moment.\"</em> / <em>\"Your timing is perfect.\"</em>",tip:"\"at a good time\" で「ちょうど良い時に」という意味になる。"},
+  {cat:"business",cl:"ビジネス",ja:"追ってご連絡します",ctx:"一旦切り上げ、後で詳細を伝えるとき",main:"I will get back to you shortly.",alt:"別の言い方: <em>\"I will let you know soon.\"</em> / <em>\"I'll follow up with you soon.\"</em>",tip:"\"get back to someone\" は「（後で）返事をする・連絡し直す」というビジネスの定番表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、気が気じゃないよ",ctx:"心配で落ち着かない時",main:"I'm a nervous wreck.",alt:"別の言い方: <em>\"I'm on pins and needles.\"</em> / <em>\"I'm so nervous.\"</em>",tip:"\"on pins and needles\" は、針の上に乗っているかのように「落ち着かず、ハラハラしている」状態を表す慣用句。"},
+  {cat:"travel",cl:"旅行",ja:"おすすめのプランは？",ctx:"旅行代理店や現地ガイドに提案を求める時",main:"Which plan would you recommend?",alt:"別の言い方: <em>\"What's your recommended itinerary?\"</em> / <em>\"What itinerary do you suggest?\"</em>",tip:"\"itinerary\" は旅行の「旅程」や「計画」を表す名詞。"},
+  {cat:"daily",cl:"日常会話",ja:"ちょうどいいタイミングだね",ctx:"誰かが絶妙なタイミングでやってきた時",main:"You came at the right time.",alt:"別の言い方: <em>\"Couldn't be better timing.\"</em> / <em>\"Perfect timing!\"</em>",tip:"\"Perfect timing\" は「完璧なタイミング」という意味の定番フレーズ。"},
+  {cat:"business",cl:"ビジネス",ja:"後ほど詳細を共有します",ctx:"会議やメールで、後で詳しい情報を送ることを伝える時",main:"I will share the details later.",alt:"別の言い方: <em>\"I will provide the details later.\"</em> / <em>\"I'll send over the details shortly.\"</em>",tip:"\"share the details\" はビジネスシーンで「詳細を共有する」という際によく使われる定番フレーズ。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、耐えられない！",ctx:"ストレスや不満が限界に達した時",main:"I've had enough!",alt:"別の言い方: <em>\"I can't take it anymore!\"</em> / <em>\"I can't stand it anymore!\"</em>",tip:"\"can't stand\" は「（不快なものに）耐えられない、我慢できない」という意味の表現。"},
+  {cat:"travel",cl:"旅行",ja:"おすすめのホテルはありますか？",ctx:"現地の人や旅行代理店に相談する時",main:"Are there any hotels you would recommend?",alt:"別の言い方: <em>\"Can you recommend a good hotel?\"</em> / <em>\"Do you have any recommended hotels?\"</em>",tip:"\"recommended\" は「おすすめの」という意味の形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"無理しないでね",ctx:"相手を気遣う時",main:"Take it easy.",alt:"別の言い方: <em>\"Don't push yourself too hard.\"</em> / <em>\"Don't overdo it.\"</em>",tip:"\"push yourself\" は「自分を追い込む」「無理をする」という意味。"},
+  {cat:"business",cl:"ビジネス",ja:"お見積もりをいただけますか？",ctx:"取引先に価格の提示を依頼する時",main:"May I have a quotation?",alt:"別の言い方: <em>\"Could you give me an estimate?\"</em> / <em>\"Could you provide a quote?\"</em>",tip:"\"provide a quote\" はビジネスで「見積もりを提示する」という定番の表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"めちゃくちゃ楽しみ！",ctx:"イベントや旅行などを心待ちにしている時",main:"I'm so looking forward to it!",alt:"別の言い方: <em>\"I can't wait!\"</em> / <em>\"I'm super excited!\"</em>",tip:"\"look forward to\" は「〜を楽しみに待つ」という定番の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"気が変わった",ctx:"決めていたことを変更したとき",main:"I've had a change of heart.",alt:"別の言い方: <em>\"I changed my mind.\"</em> / <em>\"I've reconsidered.\"</em>",tip:"\"change my mind\" は「考えを変える」「決心を翻す」という定番の表現。"},
+  {cat:"travel",cl:"旅行",ja:"空き部屋はありますか？",ctx:"ホテルで予約なしに部屋を探している時",main:"Are there any rooms left?",alt:"別の言い方: <em>\"Do you have any rooms available?\"</em> / <em>\"Do you have any vacancies?\"</em>",tip:"\"vacancy\" はホテルなどの「空室」を意味する名詞。"},
+  {cat:"business",cl:"ビジネス",ja:"お返事をお待ちしております",ctx:"メールの結びなどで返信を促す際",main:"I look forward to hearing from you.",alt:"別の言い方: <em>\"Looking forward to your response.\"</em> / <em>\"I await your reply.\"</em>",tip:"\"look forward to -ing\" は「〜するのを心待ちにする」という定番のビジネス表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、お手上げだ！",ctx:"どうしようもない状況に絶望した時",main:"I'm at my wit's end.",alt:"別の言い方: <em>\"I can't do this anymore.\"</em> / <em>\"I give up!\"</em>",tip:"\"give up\" は「諦める」や「降参する」という意味の句動詞。"},
+  {cat:"daily",cl:"日常会話",ja:"どっちがいいと思う？",ctx:"相手に意見や好みを尋ねる時",main:"Which one do you think is better?",alt:"別の言い方: <em>\"Which one would you go for?\"</em> / <em>\"Which do you prefer?\"</em>",tip:"\"Which one do you think is better?\" は、2つの選択肢からどちらが適切か意見を求める定番の表現。"},
+  {cat:"travel",cl:"旅行",ja:"おすすめの場所はどこですか？",ctx:"現地の人に観光地を尋ねる時",main:"What are your recommendations for places to visit?",alt:"別の言い方: <em>\"Which places do you recommend?\"</em> / <em>\"Where do you recommend going?\"</em>",tip:"\"recommend\" は「〜を推薦する・おすすめする」という意味の動詞。"},
+  {cat:"business",cl:"ビジネス",ja:"後ほど折り返しお電話します",ctx:"電話対応で相手が不在だったり、手が離せない時",main:"I will call you back later.",alt:"別の言い方: <em>\"I'll give you a call back shortly.\"</em> / <em>\"I will return your call later.\"</em>",tip:"\"call you back\" は「（電話に対して）折り返し電話する」という定型表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"心から感謝します",ctx:"深く感謝の意を伝える時",main:"I'm truly grateful.",alt:"別の言い方: <em>\"I'm deeply thankful.\"</em> / <em>\"I sincerely appreciate it.\"</em>",tip:"\"truly grateful\" は、単なる thanks よりも深く、心からの感謝を表す表現。"},
+  {cat:"daily",cl:"日常会話",ja:"気が楽になったよ",ctx:"悩み事を話して安心した時",main:"It's a weight off my shoulders.",alt:"別の言い方: <em>\"I feel much better now.\"</em> / <em>\"I feel relieved.\"</em>",tip:"\"relieved\" は、不安や緊張から解放されて「安心した」状態を表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"また今度ね",ctx:"別れ際や、誘いを断る時",main:"Maybe next time.",alt:"別の言い方: <em>\"Let's do it another time.\"</em> / <em>\"Catch you next time.\"</em>",tip:"\"Maybe next time\" は、丁寧かつカジュアルに「またの機会に」と伝える定番フレーズ。"},
+  {cat:"business",cl:"ビジネス",ja:"お気になさらず",ctx:"相手の謝罪や懸念を軽く受け流す時",main:"It's not a problem.",alt:"別の言い方: <em>\"Please don't worry about it.\"</em> / <em>\"No problem at all.\"</em>",tip:"\"don't worry about it\" は、相手の不安や申し訳なさを解消する定番のフレーズ。"},
+  {cat:"emotion",cl:"感情表現",ja:"すごくもどかしい！",ctx:"思い通りにいかず、じれったい気持ちの時",main:"This is so frustrating!",alt:"別の言い方: <em>\"It's so frustrating!\"</em> / <em>\"I'm so frustrated!\"</em>",tip:"\"frustrating\" は、期待通りにいかず「もどかしい」「いらいらする」という感情を表す。"},
+  {cat:"travel",cl:"旅行",ja:"迷わずに行けますか？",ctx:"目的地までの道のりの分かりやすさを確認する時",main:"Is it easy to find?",alt:"別の言い方: <em>\"Is it hard to miss?\"</em> / <em>\"Can I find it easily?\"</em>",tip:"\"easy to find\" は「簡単に見つけられる（迷わずに行ける）」という意味の定番表現。"},
+  {cat:"daily",cl:"日常会話",ja:"無理していいよ",ctx:"相手に負担をかけすぎないよう配慮する時",main:"Don't push yourself too hard.",alt:"別の言い方: <em>\"Don't strain yourself.\"</em> / <em>\"Don't overdo it.\"</em>",tip:"\"overdo it\" は「やりすぎる」や「無理をする」という意味。"},
+  {cat:"business",cl:"ビジネス",ja:"本題に入りましょう",ctx:"会議の冒頭で挨拶を終え、本論に移る時",main:"Let's get down to business.",alt:"別の言い方: <em>\"Let's get straight to the point.\"</em> / <em>\"Let's dive into the main topic.\"</em>",tip:"\"get down to business\" は「本題に入る」「仕事に取りかかる」という決まり文句。"},
+  {cat:"emotion",cl:"感情表現",ja:"最高に嬉しい！",ctx:"とても喜んでいる時",main:"I'm so thrilled!",alt:"別の言い方: <em>\"I'm over the moon!\"</em> / <em>\"I couldn't be happier!\"</em>",tip:"\"over the moon\" は、月を飛び越えるほど非常に嬉しいことを表す慣用句。"},
+  {cat:"travel",cl:"旅行",ja:"チェックアウトをお願いします",ctx:"ホテルのフロントで会計・手続きをする時",main:"I want to check out now.",alt:"別の言い方: <em>\"I'd like to check out, please.\"</em> / <em>\"Could I check out, please?\"</em>",tip:"\"I'd like to ~\" は「〜したい」を丁寧に伝える定番の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"今日はいい天気だね",ctx:"挨拶代わりの世間話",main:"It's a beautiful day, isn't it?",alt:"別の言い方: <em>\"Nice day today, huh?\"</em> / <em>\"Lovely weather we're having, right?\"</em>",tip:"\"beautiful day\" は単に晴れているだけでなく、心地よく素晴らしい日であることを表す。"},
+  {cat:"business",cl:"ビジネス",ja:"添付ファイルをご確認ください",ctx:"メールで資料を送信した際",main:"Please see the attached file.",alt:"別の言い方: <em>\"Please find the attached file.\"</em> / <em>\"Please refer to the attachment.\"</em>",tip:"\"Please find the attached...\" はビジネスメールで添付資料を案内する定番の定型表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"ひどく落ち込んでるよ",ctx:"悲しい出来事があり、精神的にダウンしている時",main:"I'm feeling down.",alt:"別の言い方: <em>\"I'm feeling blue.\"</em> / <em>\"I'm depressed.\"</em>",tip:"\"feel down\" は精神的に落ち込んだり、気分が沈んでいる状態を表す定番の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"お口に合いますか？",ctx:"料理を出した後に相手に確認する時",main:"How do you like the food?",alt:"別の言い方: <em>\"Does it taste okay?\"</em> / <em>\"Is everything tasting alright?\"</em>",tip:"\"taste okay\" で味に問題がないか、満足しているかを確認する表現。"},
+  {cat:"travel",cl:"旅行",ja:"お会計をお願いします",ctx:"レストランで食事を終え、支払いをしたい時",main:"I'd like the check, please.",alt:"別の言い方: <em>\"Check, please.\"</em> / <em>\"Could we have the bill, please?\"</em>",tip:"\"check\" は北米で「会計書（伝票）」を指す一般的な表現です。"},
+  {cat:"business",cl:"ビジネス",ja:"締め切りを延ばせますか？",ctx:"期限の延長を依頼する時",main:"Is it possible to push back the deadline?",alt:"別の言い方: <em>\"Can we extend the deadline?\"</em> / <em>\"Could the deadline be extended?\"</em>",tip:"\"extend the deadline\" は「締め切りを延長する」という定番のビジネス表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう、いい加減にして！",ctx:"相手の行動に苛立っている時",main:"Give it a rest!",alt:"別の言い方: <em>\"Enough is enough!\"</em> / <em>\"Stop it already!\"</em>",tip:"\"Enough is enough\" は「もう十分だ（いい加減にして）」と強く主張する定番フレーズ。"},
+  {cat:"daily",cl:"日常会話",ja:"クタクタだよ",ctx:"疲れ切っている時に",main:"I'm beat.",alt:"別の言い方: <em>\"I'm worn out.\"</em> / <em>\"I'm exhausted.\"</em>",tip:"\"exhausted\" は、精神的・身体的に完全に疲れ果てた状態を表す。"},
+  {cat:"travel",cl:"旅行",ja:"入場料はいくらですか？",ctx:"観光スポットのチケット売り場で",main:"What is the cost of admission?",alt:"別の言い方: <em>\"How much is the admission fee?\"</em> / <em>\"How much is the entry fee?\"</em>",tip:"\"admission fee\" は施設などの「入場料」を意味する定型表現。"},
+  {cat:"business",cl:"ビジネス",ja:"ご確認いただけますか？",ctx:"資料などのチェックを依頼する時",main:"Could you take a look at this?",alt:"別の言い方: <em>\"Could you please check this?\"</em> / <em>\"Would you mind reviewing this?\"</em>",tip:"\"Could you please\" は相手に丁寧に依頼する際の定番フレーズ。"},
+  {cat:"emotion",cl:"感情表現",ja:"なんだか不安だ",ctx:"結果待ちなどで、落ち着かない気持ちの時",main:"I'm a bit worried.",alt:"別の言い方: <em>\"I'm feeling anxious.\"</em> / <em>\"I'm feeling uneasy.\"</em>",tip:"\"anxious\" は、心配で落ち着かない、不安な状態を表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"予定を合わせよう",ctx:"会う日時を決めたい時",main:"Let's figure out a time that works.",alt:"別の言い方: <em>\"Let's sync our calendars.\"</em> / <em>\"Let's coordinate our schedules.\"</em>",tip:"\"coordinate\" は調整して調和させるという意味で、予定を合わせる際に頻出する。"},
+  {cat:"daily",cl:"日常会話",ja:"分かるよ、その気持ち",ctx:"相手に共感を示す時",main:"I know the feeling.",alt:"別の言い方: <em>\"I know how you feel.\"</em> / <em>\"I can relate to that.\"</em>",tip:"\"know the feeling\" で相手が感じていることと同じ経験や感情があることを示す。"},
+  {cat:"business",cl:"ビジネス",ja:"再度確認いたします",ctx:"ミスを防ぐため、あるいは念のために改めてチェックする場合",main:"I will check it again.",alt:"別の言い方: <em>\"I will verify it once more.\"</em> / <em>\"I will double-check.\"</em>",tip:"\"double-check\" は「念のために再確認する」という意味の定番表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"気持ちはわかるよ",ctx:"相手の状況や感情に共感する時",main:"I know how you feel.",alt:"別の言い方: <em>\"I feel you.\"</em> / <em>\"I can relate to that.\"</em>",tip:"\"know how you feel\" は相手の心境を理解していることを伝える定番の共感表現。"},
+  {cat:"travel",cl:"旅行",ja:"これをいただけますか？",ctx:"店で欲しい商品を指さして注文・購入する時",main:"Could I have this one?",alt:"別の言い方: <em>\"I'd like this one, please.\"</em> / <em>\"I'll take this one, please.\"</em>",tip:"\"take\" は買い物の際に「（それを）買う、もらう」という意味でよく使われます。"},
+  {cat:"daily",cl:"日常会話",ja:"わざわざありがとう",ctx:"相手が自分のために手間をかけてくれた時",main:"Thank you for going out of your way.",alt:"別の言い方: <em>\"Thanks for taking the time.\"</em> / <em>\"I appreciate you doing this.\"</em>",tip:"\"go out of one's way\" は「わざわざ〜する」「無理をして〜する」という意味の表現。"},
+  {cat:"business",cl:"ビジネス",ja:"ご都合の良い日を教えてください",ctx:"会議の日程を調整したい時",main:"Please let me know your availability.",alt:"別の言い方: <em>\"Please let me know when you are available.\"</em> / <em>\"Please let me know what dates work for you.\"</em>",tip:"\"availability\" は「都合がつくこと」や「空き状況」を指すビジネスの定番表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"あんなことしなきゃよかった",ctx:"過去の自分の行動を後悔している時",main:"I shouldn't have done that.",alt:"別の言い方: <em>\"I regret doing that.\"</em> / <em>\"I wish I hadn't done that.\"</em>",tip:"\"shouldn't have + 過去分詞\" で「〜すべきではなかった（のにした）」という後悔を表します。"},
+  {cat:"travel",cl:"旅行",ja:"予約をキャンセルしたいです",ctx:"ホテルや航空券の予約を取り消したい時",main:"I want to cancel my booking.",alt:"別の言い方: <em>\"I need to cancel my reservation.\"</em> / <em>\"I'd like to cancel my reservation.\"</em>",tip:"\"I'd like to...\" は丁寧な要望を伝える定番の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"そんなのあり？",ctx:"予想外の展開や手法に驚いた時",main:"Is that allowed?",alt:"別の言い方: <em>\"No way!\"</em> / <em>\"That's cheating!\"</em>",tip:"\"cheating\" は不正やズルを意味し、冗談混じりに「ありえない」と驚く際によく使われる。"},
+  {cat:"business",cl:"ビジネス",ja:"お会いできて光栄です",ctx:"初めて相手に会った時の挨拶",main:"It is a pleasure to meet you.",alt:"別の言い方: <em>\"It's an honor to meet you.\"</em> / <em>\"I'm honored to meet you.\"</em>",tip:"\"It's an honor to...\" は、相手への深い敬意を示す非常にフォーマルな表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"待ちきれないよ！",ctx:"期待でワクワクしている時",main:"I'm so excited!",alt:"別の言い方: <em>\"I'm looking forward to it!\"</em> / <em>\"I can't wait!\"</em>",tip:"\"can't wait\" は直訳すると「待てない」となり、強い期待感を表す定番表現。"},
+  {cat:"daily",cl:"日常会話",ja:"ちょっとコンビニまで行ってくるね",ctx:"家から短時間外出する時",main:"I'm just popping out to the convenience store.",alt:"別の言い方: <em>\"I'm just heading to the convenience store.\"</em> / <em>\"I'll be right back from the convenience store.\"</em>",tip:"\"pop out\" は「ちょっとの間、外出する」というニュアンスの口語表現。"},
+  {cat:"travel",cl:"旅行",ja:"クレジットカードは使えますか？",ctx:"店やレストランで支払い方法を確認する時",main:"Can I pay by credit card?",alt:"別の言い方: <em>\"Do you take credit cards?\"</em> / <em>\"Do you accept credit cards?\"</em>",tip:"\"take\" はここでは「（支払い方法として）受け付ける」という意味で使われています。"},
+  {cat:"business",cl:"ビジネス",ja:"協力して取り組みましょう",ctx:"チームでプロジェクトを推進する時",main:"Let's work together on this.",alt:"別の言い方: <em>\"Let's tackle this as a team.\"</em> / <em>\"Let's collaborate on this.\"</em>",tip:"\"work together\" は「協力して取り組む」という基本表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"やっと安心したよ",ctx:"心配事が解決して、ほっとした時",main:"What a relief!",alt:"別の言い方: <em>\"I can breathe a sigh of relief.\"</em> / <em>\"I'm relieved now.\"</em>",tip:"\"relieved\" は「（不安などが取り除かれて）安心した」という状態を表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"ゴミ出ししてくれた？",ctx:"家事の確認をする時",main:"Did you take out the trash?",alt:"別の言い方: <em>\"Did you put out the garbage?\"</em> / <em>\"Did you empty the bins?\"</em>",tip:"\"take out the trash\" は「ゴミを外に出す（ゴミ出しをする）」という定番の表現。"},
+  {cat:"travel",cl:"旅行",ja:"財布をなくしました",ctx:"警察やホテルで紛失を報告する時",main:"I lost my wallet.",alt:"別の言い方: <em>\"I've lost my wallet.\"</em> / <em>\"My wallet is missing.\"</em>",tip:"\"lost\" は「失くした」という状態や動作を表す基本表現。"},
+  {cat:"business",cl:"ビジネス",ja:"少々お待ちいただけますか",ctx:"顧客を待たせる際の丁寧な依頼",main:"Could you hold on for a moment, please?",alt:"別の言い方: <em>\"Could you please hold the line?\"</em> / <em>\"Would you mind waiting for a moment?\"</em>",tip:"\"hold on\" は電話や会話で「そのまま待つ」ことを表す句動詞。"},
+  {cat:"emotion",cl:"感情表現",ja:"イライラする！",ctx:"何かがうまくいかず、苛立ちを感じている時",main:"It's so frustrating!",alt:"別の言い方: <em>\"I'm so frustrated!\"</em> / <em>\"I'm getting annoyed!\"</em>",tip:"\"frustrated\" は、思うようにいかずもどかしさや苛立ちを感じる状態を表す。"},
+  {cat:"daily",cl:"日常会話",ja:"なんか体調が悪いんだ",ctx:"気分や身体の状態がいつもと違う時",main:"I'm not feeling well.",alt:"別の言い方: <em>\"I don't feel so good.\"</em> / <em>\"I'm feeling under the weather.\"</em>",tip:"\"feel well\" で健康状態が良いことを表し、否定形で「体調が悪い」となります。"},
+  {cat:"daily",cl:"日常会話",ja:"予定を変更してもいい？",ctx:"約束の時間や日程を変更したいとき",main:"Would it be okay to reschedule?",alt:"別の言い方: <em>\"Can we reschedule?\"</em> / <em>\"Can we change the plan?\"</em>",tip:"\"reschedule\" は「予定を組み直す（変更する）」という意味の便利な単語。"},
+  {cat:"business",cl:"ビジネス",ja:"締め切りに間に合いません",ctx:"期限に遅れることを報告する際",main:"I'm not going to make it by the deadline.",alt:"別の言い方: <em>\"I won't make the deadline.\"</em> / <em>\"I can't meet the deadline.\"</em>",tip:"\"make the deadline\" で「締め切りに間に合う」という定型表現になります。"},
+  {cat:"emotion",cl:"感情表現",ja:"なんとなく不安だ",ctx:"具体的に理由はないが、胸騒ぎがする時",main:"I have a bad feeling about this.",alt:"別の言い方: <em>\"I'm feeling a bit uneasy.\"</em> / <em>\"I'm slightly anxious.\"</em>",tip:"\"have a bad feeling about ~\" は「〜に悪い予感がする」という不安を表す定番表現。"},
+  {cat:"travel",cl:"旅行",ja:"荷物を預かってもらえますか？",ctx:"チェックイン前やチェックアウト後に荷物を預けたい時",main:"Is it possible to leave my luggage here?",alt:"別の言い方: <em>\"Can you keep my bags?\"</em> / <em>\"Could you hold my luggage?\"</em>",tip:"\"hold\" は、ここでは「（一時的に）預かる」という意味で使われています。"},
+  {cat:"daily",cl:"日常会話",ja:"喉が渇いた",ctx:"飲み物が欲しい時",main:"I need a drink.",alt:"別の言い方: <em>\"My throat is dry.\"</em> / <em>\"I'm thirsty.\"</em>",tip:"\"thirsty\" は「喉が渇いた」状態を表す形容詞。"},
+  {cat:"business",cl:"ビジネス",ja:"お手すきの際で構いません",ctx:"相手に負担をかけない形で依頼する時",main:"When you have a moment, please...",alt:"別の言い方: <em>\"At your earliest convenience, please...\"</em> / <em>\"Whenever you have a chance, please...\"</em>",tip:"\"have a moment\" は「少し時間がある」という意味で、相手の都合を優先する丁寧な表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"本当に感動したよ",ctx:"素晴らしい体験や作品に触れた時",main:"It was deeply moving.",alt:"別の言い方: <em>\"I was so touched.\"</em> / <em>\"I was truly moved.\"</em>",tip:"\"moved\" は感情を動かされ、「感動した」という状態を表す。"},
+  {cat:"travel",cl:"旅行",ja:"一本乗り遅れました",ctx:"交通機関に乗り遅れたことを伝える時",main:"I missed my train.",alt:"別の言い方: <em>\"I missed my bus.\"</em> / <em>\"I missed my flight.\"</em>",tip:"\"miss\" は乗り物を「乗り遅れる」という意味で使われる。"},
+  {cat:"daily",cl:"日常会話",ja:"もうくたくただよ",ctx:"疲れ切っていることを伝える時",main:"I'm spent.",alt:"別の言い方: <em>\"I'm worn out.\"</em> / <em>\"I'm exhausted.\"</em>",tip:"\"exhausted\" は単に疲れているだけでなく、「気力が尽きた」という強い疲れを表します。"},
+  {cat:"business",cl:"ビジネス",ja:"進捗を共有します",ctx:"会議やメールで状況を報告する時",main:"I'll give you a progress update.",alt:"別の言い方: <em>\"I'll keep you posted on the progress.\"</em> / <em>\"I'll share the progress.\"</em>",tip:"\"share the progress\" は、仕事の進み具合を共有する際の定番表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"ワクワクするね！",ctx:"これから起こる楽しいことに期待している時",main:"I'm so excited!",alt:"別の言い方: <em>\"I'm looking forward to it!\"</em> / <em>\"I can't wait!\"</em>",tip:"\"excited\" は期待で興奮している様子を表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"予定が詰まってるんだ",ctx:"スケジュールがいっぱいで忙しい時",main:"I'm fully booked.",alt:"別の言い方: <em>\"My schedule is packed.\"</em> / <em>\"I have a packed schedule.\"</em>",tip:"\"packed\" は「荷物が詰まった」から転じて、予定がぎっしり入っている状態を表す。"},
+  {cat:"travel",cl:"旅行",ja:"カードで支払えますか？",ctx:"店やホテルでの支払い方法を確認する時",main:"Can I pay by card?",alt:"別の言い方: <em>\"Is credit card accepted?\"</em> / <em>\"Do you take cards?\"</em>",tip:"\"pay by card\" で「カードで支払う」という意味になります。"},
+  {cat:"business",cl:"ビジネス",ja:"ご都合はいかがですか？",ctx:"打ち合わせの日程を調整する時",main:"Would that be convenient for you?",alt:"別の言い方: <em>\"Does that work for you?\"</em> / <em>\"Does that suit you?\"</em>",tip:"\"work for you\" は、予定や提案が都合に合うかを確認する際によく使われる表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"あぁ、ほっとした。",ctx:"心配事が解消して安心したとき",main:"What a relief.",alt:"別の言い方: <em>\"I'm so relieved.\"</em> / <em>\"Thank goodness.\"</em>",tip:"\"What a relief\" は、緊張が解けて安心した際に使われる定番のフレーズ。"},
+  {cat:"daily",cl:"日常会話",ja:"また今度誘って",ctx:"誘いを断るが、次回の機会を希望する時",main:"Can I take a rain check?",alt:"別の言い方: <em>\"Maybe some other time.\"</em> / <em>\"Rain check?\"</em>",tip:"\"rain check\" は、予定していたことを後日に延期してもらう際に使われる定番の表現。"},
+  {cat:"travel",cl:"旅行",ja:"配車アプリで呼びますね",ctx:"移動手段を決め、アプリで車を手配する際",main:"I'll call a ride-share.",alt:"別の言い方: <em>\"I'll book a car via the app.\"</em> / <em>\"I'll request a ride.\"</em>",tip:"\"call a ride-share\" で Uber などの配車サービスを呼ぶことを意味します。"},
+  {cat:"business",cl:"ビジネス",ja:"返信が遅くなり申し訳ありません",ctx:"メールで返信が遅れたことを謝罪する際",main:"I am sorry for the delay in getting back to you.",alt:"別の言い方: <em>\"Please accept my apologies for the late reply.\"</em> / <em>\"I apologize for the delay in responding.\"</em>",tip:"\"apologize for the delay\" はビジネスで定番の「遅れたことを謝罪する」という丁寧な表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"最高に幸せ！",ctx:"絶頂の喜びを感じている時",main:"I'm on cloud nine!",alt:"別の言い方: <em>\"I'm over the moon!\"</em> / <em>\"I couldn't be happier!\"</em>",tip:"\"on cloud nine\" は、最高の幸福感にあることを表す慣用句。"},
+  {cat:"daily",cl:"日常会話",ja:"ちょっと相談があるんだけど",ctx:"助言を求めたい時に切り出す表現",main:"I want to run something by you.",alt:"別の言い方: <em>\"I need your advice on something.\"</em> / <em>\"Can I ask for your advice?\"</em>",tip:"\"need your advice\" は、相手の助言が必要であることを伝える定番の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"道に迷っちゃった",ctx:"移動中に場所がわからなくなった時",main:"I'm lost.",alt:"別の言い方: <em>\"I've gotten lost.\"</em> / <em>\"I'm disoriented.\"</em>",tip:"\"lost\" は「迷った状態」を表す形容詞的な表現です。"},
+  {cat:"business",cl:"ビジネス",ja:"データを分析してみます",ctx:"分析作業に着手することを伝える時",main:"I'll look into the data.",alt:"別の言い方: <em>\"I'll examine the data.\"</em> / <em>\"I'll analyze the data.\"</em>",tip:"\"analyze\" はデータを詳細に分析して傾向を導き出す際に使われる標準的な表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"心に沁みました",ctx:"相手の言葉や親切に深く感動した時",main:"That was so touching.",alt:"別の言い方: <em>\"That really touched my heart.\"</em> / <em>\"I'm deeply moved.\"</em>",tip:"\"touch one's heart\" は「心を打つ」「心に深く響く」という感動を表す表現。"},
+  {cat:"travel",cl:"旅行",ja:"ここ、写真禁止です",ctx:"美術館や寺院などで撮影が制限されている時",main:"You can't take pictures here.",alt:"別の言い方: <em>\"Photos are not allowed here.\"</em> / <em>\"Photography is prohibited here.\"</em>",tip:"\"prohibited\" は規則などで「禁止されている」ことを表す堅い表現。"},
+  {cat:"daily",cl:"日常会話",ja:"ゴミ出ししてね",ctx:"家族に家事を頼む時",main:"Can you take the garbage out?",alt:"別の言い方: <em>\"Please take out the trash.\"</em> / <em>\"Don't forget to take out the trash.\"</em>",tip:"\"take out the trash\" は「ゴミを外に出す（ゴミ出しする）」という定番の表現。"},
+  {cat:"business",cl:"ビジネス",ja:"進捗はどうですか？",ctx:"プロジェクトの状況を確認する時",main:"How is it coming along?",alt:"別の言い方: <em>\"How is the progress?\"</em> / <em>\"What's the status of this?\"</em>",tip:"\"come along\" は物事が「順調に進む」ことを表す表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"気持ちは分かるよ",ctx:"相手の状況に共感する時",main:"I know how you feel.",alt:"別の言い方: <em>\"I understand what you're going through.\"</em> / <em>\"I can relate to that.\"</em>",tip:"\"know how you feel\" は、相手の感情や立場に深く共感する際の定番フレーズ。"},
+  {cat:"travel",cl:"旅行",ja:"往復チケットをください",ctx:"チケットカウンターで購入する時",main:"Can I get a round-trip ticket?",alt:"別の言い方: <em>\"I'd like a round-trip ticket, please.\"</em> / <em>\"A round-trip ticket, please.\"</em>",tip:"\"round-trip ticket\" は「往復チケット」を意味する。"},
+  {cat:"daily",cl:"日常会話",ja:"気が向いたら来てよ",ctx:"友達をカジュアルに誘う時",main:"Come by if you feel like it.",alt:"別の言い方: <em>\"Stop by if you're up for it.\"</em> / <em>\"Drop in if you fancy it.\"</em>",tip:"\"feel like it\" は「〜したい気分だ」という意味の慣用句。"},
+  {cat:"business",cl:"ビジネス",ja:"お待たせいたしました",ctx:"顧客を待たせた後に案内する時",main:"Thank you for waiting.",alt:"別の言い方: <em>\"Sorry to have kept you waiting.\"</em> / <em>\"I appreciate your patience.\"</em>",tip:"\"Thank you for waiting\" は、謝罪よりも感謝を伝えることでポジティブな印象を与える定番表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"あんなことしなければよかった",ctx:"過去の行動を後悔している時",main:"I shouldn't have done that.",alt:"別の言い方: <em>\"I regret doing that.\"</em> / <em>\"I wish I hadn't done that.\"</em>",tip:"\"shouldn't have + 過去分詞\" で「〜すべきではなかった（のにした）」という後悔を表します。"},
+  {cat:"daily",cl:"日常会話",ja:"都合がつかなくて",ctx:"誘いを断る際、理由を添えて",main:"I can't make it.",alt:"別の言い方: <em>\"I won't be able to make it.\"</em> / <em>\"I'm unable to make it.\"</em>",tip:"\"make it\" は、予定していた場所に「行く」や「都合をつける」という意味でよく使われる表現。"},
+  {cat:"travel",cl:"旅行",ja:"空港まで送ってください",ctx:"ホテルや知人宅から空港へ向かいたい時",main:"Could you take me to the airport?",alt:"別の言い方: <em>\"Can you give me a ride to the airport?\"</em> / <em>\"Please drive me to the airport.\"</em>",tip:"\"take (someone) to ~\" で「（人を）〜まで連れて行く・送る」という意味になります。"},
+  {cat:"business",cl:"ビジネス",ja:"ご都合の良い日はいつですか？",ctx:"打ち合わせの日程を調整する際",main:"When is a good time for you?",alt:"別の言い方: <em>\"When would be convenient for you?\"</em> / <em>\"What dates work best for you?\"</em>",tip:"\"convenient\" は「都合が良い」という意味で、ビジネスでの日程調整に非常に便利な単語です。"},
+  {cat:"emotion",cl:"感情表現",ja:"楽しみにしてるね",ctx:"今後の予定について期待を伝える時",main:"I'm looking forward to it.",alt:"別の言い方: <em>\"I can't wait!\"</em> / <em>\"I'm excited for it.\"</em>",tip:"\"look forward to\" は、何かを心待ちにする際に使われる定番の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"まさかそんなことが！",ctx:"予想外の出来事に驚いた時",main:"No way!",alt:"別の言い方: <em>\"I can't believe it!\"</em> / <em>\"That's unbelievable!\"</em>",tip:"\"can't believe it\" は信じられないほど驚いた時に使われる定番表現。"},
+  {cat:"travel",cl:"旅行",ja:"ここ、写真映えしそう！",ctx:"観光スポットで写真を撮りたい時",main:"This place looks Instagrammable!",alt:"別の言い方: <em>\"This looks like a great photo op!\"</em> / <em>\"This spot would look great in photos!\"</em>",tip:"\"Instagrammable\" は「インスタ映えする」を意味する形容詞。"},
+  {cat:"business",cl:"ビジネス",ja:"ご迷惑をおかけして申し訳ございません",ctx:"相手に不便や不利益を与えた時の謝罪",main:"We are sorry for the inconvenience.",alt:"別の言い方: <em>\"Please accept my apologies for the inconvenience.\"</em> / <em>\"I apologize for any inconvenience caused.\"</em>",tip:"\"apologize for any inconvenience caused\" はビジネスでの定型的な謝罪表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"ほっとしたよ",ctx:"心配事が解決して安心した時",main:"What a relief!",alt:"別の言い方: <em>\"I'm so relieved.\"</em> / <em>\"That's a weight off my shoulders.\"</em>",tip:"\"What a relief!\" は、緊張や不安から解放された時に使われる定番の感嘆文。"},
+  {cat:"daily",cl:"日常会話",ja:"駅まで歩いて行ける？",ctx:"目的地へのアクセスを確認する時",main:"Is the station within walking distance?",alt:"別の言い方: <em>\"Is it walkable to the station?\"</em> / <em>\"Can I walk to the station?\"</em>",tip:"\"walkable\" は「歩いて行ける距離にある」ことを表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"ゴミ出し忘れないでね",ctx:"家事の念押しをする時",main:"Remember to take out the garbage.",alt:"別の言い方: <em>\"Don't forget to take out the trash.\"</em> / <em>\"Don't forget the trash.\"</em>",tip:"\"take out the trash\" で「ゴミを外に出す（ゴミ出しをする）」という定型表現。"},
+  {cat:"business",cl:"ビジネス",ja:"詳細を添付いたします",ctx:"メールで資料を送付する際",main:"Please find the details attached.",alt:"別の言い方: <em>\"The details are attached to this email.\"</em> / <em>\"I have attached the details.\"</em>",tip:"\"attached\" はメールなどに「（ファイルが）添付された」状態を表す表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"めちゃくちゃ嬉しい！",ctx:"喜びを爆発させて伝える時",main:"I'm so thrilled!",alt:"別の言い方: <em>\"I'm over the moon!\"</em> / <em>\"I'm beyond happy!\"</em>",tip:"\"over the moon\" は、月まで届くほど非常に嬉しいという慣用表現。"},
+  {cat:"travel",cl:"旅行",ja:"予約を確定させてください",ctx:"ホテルや航空券の予約を完了させたい時",main:"I want to finalize my booking.",alt:"別の言い方: <em>\"I'd like to confirm my reservation.\"</em> / <em>\"Please confirm my booking.\"</em>",tip:"\"confirm my reservation\" で「予約を確定させる（確認する）」という定番の表現になります。"},
+  {cat:"daily",cl:"日常会話",ja:"予定が変わったんだ",ctx:"計画の変更を伝える時",main:"There's been a change in my plans.",alt:"別の言い方: <em>\"Something came up.\"</em> / <em>\"My plans have changed.\"</em>",tip:"\"plans have changed\" は予定が変更になったことを伝える定番のフレーズ。"},
+  {cat:"business",cl:"ビジネス",ja:"状況を教えてください",ctx:"プロジェクトの進捗を確認する際",main:"Could you give me an update on the situation?",alt:"別の言い方: <em>\"Please let me know the current status.\"</em> / <em>\"Please keep me updated on the status.\"</em>",tip:"\"keep me updated\" は「（状況が変わるたびに）最新情報を伝え続ける」という意味の定型表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"かなり落ち込んでるよ",ctx:"ショックなことがあり、気分がひどく沈んでいる時",main:"I'm really depressed.",alt:"別の言い方: <em>\"I'm feeling pretty down.\"</em> / <em>\"I'm feeling quite blue.\"</em>",tip:"\"feel down\" は、気分が沈んでいたり、落ち込んだりしている状態を表す。"},
+  {cat:"travel",cl:"旅行",ja:"チェックアウトを早められますか？",ctx:"ホテルのフロントで早朝の出発を相談する時",main:"Is it possible to check out early?",alt:"別の言い方: <em>\"Can I check out early?\"</em> / <em>\"Could I arrange an early check-out?\"</em>",tip:"\"check out early\" で「早めにチェックアウトする」という意味になります。"},
+  {cat:"daily",cl:"日常会話",ja:"予定を確認させて",ctx:"スケジュールの調整をしたい時",main:"Let me check my schedule.",alt:"別の言い方: <em>\"Let me check my calendar.\"</em> / <em>\"I'll check my availability.\"</em>",tip:"\"Let me check\" は「（今から）確認させてください」と切り出す際の定番フレーズ。"},
+  {cat:"business",cl:"ビジネス",ja:"お忙しいところ恐縮です",ctx:"相手の時間を奪うことへの配慮を示す際",main:"I am sorry to disturb you during your busy schedule.",alt:"別の言い方: <em>\"I apologize for bothering you while you are busy.\"</em> / <em>\"I apologize for interrupting your work.\"</em>",tip:"\"apologize for bothering you\" は相手の手を煩わせることへの丁寧な謝罪表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"言葉にできないほど嬉しい",ctx:"絶大な喜びや感動を伝える時",main:"I can't put it into words.",alt:"別の言い方: <em>\"Words can't describe how happy I am.\"</em> / <em>\"I'm beyond words.\"</em>",tip:"\"put it into words\" は「（感情などを）言葉で表現する」という慣用句。"},
+  {cat:"daily",cl:"日常会話",ja:"お気遣いありがとうございます",ctx:"相手の配慮や心配に対して感謝する時",main:"Thank you for your thoughtfulness.",alt:"別の言い方: <em>\"Thanks for being so thoughtful.\"</em> / <em>\"I appreciate your kindness.\"</em>",tip:"\"thoughtfulness\" は相手を思いやる「心遣い」や「配慮」を意味する名詞。"},
+  {cat:"travel",cl:"旅行",ja:"空港までどれくらいかかりますか？",ctx:"タクシーやホテルで移動時間を尋ねる時",main:"How much time will it take to reach the airport?",alt:"別の言い方: <em>\"How long does it take to get to the airport?\"</em> / <em>\"How long is the trip to the airport?\"</em>",tip:"\"take\" を使って時間や期間がかかることを表現します。"},
+  {cat:"business",cl:"ビジネス",ja:"ご検討いただけますか？",ctx:"提案を検討してほしい時に",main:"Could you give it some thought?",alt:"別の言い方: <em>\"Could you please consider it?\"</em> / <em>\"Would you be willing to consider it?\"</em>",tip:"\"consider\" は、ある事柄について慎重に検討することを表す。"},
+  {cat:"emotion",cl:"感情表現",ja:"あなたの気持ち、分かるよ",ctx:"相手に共感を示す時",main:"I know how you feel.",alt:"別の言い方: <em>\"I understand where you're coming from.\"</em> / <em>\"I can relate to that.\"</em>",tip:"\"know how you feel\" は、相手の状況や感情を深く理解していることを伝える定番の共感表現。"},
+  {cat:"daily",cl:"日常会話",ja:"まさか、そんなはずないよ",ctx:"予想外のことに驚き、否定する時",main:"No way!",alt:"別の言い方: <em>\"That can't be true.\"</em> / <em>\"That's impossible.\"</em>",tip:"\"No way\" は驚きや強い否定を表す非常にカジュアルな定型表現。"},
+  {cat:"travel",cl:"旅行",ja:"チェックアウトしたいです",ctx:"ホテルのフロントで手続きをする時",main:"I want to check out.",alt:"別の言い方: <em>\"I'm here to check out.\"</em> / <em>\"I'd like to check out.\"</em>",tip:"\"check out\" はホテルの宿泊手続きを終えて退室することを表す句動詞。"},
+  {cat:"business",cl:"ビジネス",ja:"お手伝いいただけますか？",ctx:"同僚や上司に助けを求める時",main:"Could you help me out?",alt:"別の言い方: <em>\"Could you give me a hand?\"</em> / <em>\"Would you be able to assist me?\"</em>",tip:"\"give me a hand\" は「手を貸す（助ける）」という意味の慣用句。"},
+  {cat:"emotion",cl:"感情表現",ja:"不安でたまらない",ctx:"結果を待っている時など",main:"I'm so anxious.",alt:"別の言い方: <em>\"I'm very worried.\"</em> / <em>\"I'm feeling nervous.\"</em>",tip:"\"anxious\" は、心配や不安で落ち着かない様子を表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"お腹ぺこぺこだよ",ctx:"非常に空腹であることを伝える時",main:"I'm starving.",alt:"別の言い方: <em>\"I'm ravenous.\"</em> / <em>\"I'm famished.\"</em>",tip:"\"starving\" は「飢えている」という意味から転じて、強い空腹感を表す。"},
+  {cat:"daily",cl:"日常会話",ja:"時間に余裕があるよ",ctx:"スケジュールの空きがあることを伝える時",main:"I have some time to spare.",alt:"別の言い方: <em>\"I have some free time.\"</em> / <em>\"I'm flexible with my time.\"</em>",tip:"\"time to spare\" は「余っている時間」を表す表現。"},
+  {cat:"business",cl:"ビジネス",ja:"深くお詫び申し上げます",ctx:"重大なミスを謝罪する時",main:"Please accept my sincerest apologies.",alt:"別の言い方: <em>\"I deeply apologize.\"</em> / <em>\"I sincerely apologize.\"</em>",tip:"\"sincerely\" は「心から、誠実に」という意味の副詞。"},
+  {cat:"emotion",cl:"感情表現",ja:"もう我慢できない！",ctx:"怒りや苛立ちが限界に達した時",main:"I've had enough!",alt:"別の言い方: <em>\"I can't take it anymore!\"</em> / <em>\"I can't stand it anymore!\"</em>",tip:"\"can't stand it\" は「（不快な状況などを）耐えられない」という意味の表現。"},
+  {cat:"travel",cl:"旅行",ja:"おすすめは何ですか？",ctx:"レストランで店員に料理を尋ねる時",main:"What's your recommendation?",alt:"別の言い方: <em>\"What would you suggest?\"</em> / <em>\"What do you recommend?\"</em>",tip:"\"recommend\" は「〜を勧める」という意味の動詞。"},
+  {cat:"daily",cl:"日常会話",ja:"あなたの気持ちが分かります",ctx:"相手の感情に寄り添い、共感を示す時",main:"I know how you feel.",alt:"別の言い方: <em>\"I understand how you feel.\"</em> / <em>\"I can relate to that.\"</em>",tip:"\"know how you feel\" は相手の心境を理解していることを表す表現。"},
+  {cat:"business",cl:"ビジネス",ja:"協力してやりましょう",ctx:"チームで取り組むことを提案する時",main:"Let's work together on this.",alt:"別の言い方: <em>\"Let's team up for this.\"</em> / <em>\"Let's collaborate on this.\"</em>",tip:"\"work together\" は「協力して取り組む」ことを表す表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"本当に楽しみ！",ctx:"待ちきれない気持ちを伝える時",main:"I'm so excited!",alt:"別の言い方: <em>\"I'm really looking forward to it!\"</em> / <em>\"I can't wait!\"</em>",tip:"\"look forward to\" は「〜を楽しみに待つ」という表現。"},
+  {cat:"travel",cl:"旅行",ja:"乗り継ぎはどこですか？",ctx:"空港で乗り継ぎ便の場所を確認する時",main:"Where is the transfer?",alt:"別の言い方: <em>\"Where is the connecting flight?\"</em> / <em>\"Where do I transfer?\"</em>",tip:"\"transfer\" は「乗り換え」や「乗り継ぎ」を意味する名詞。"},
+  {cat:"daily",cl:"日常会話",ja:"また今度にしよう",ctx:"誘いをやんわりと断る時",main:"Maybe some other time.",alt:"別の言い方: <em>\"Let's do it another time.\"</em> / <em>\"Rain check, please.\"</em>",tip:"\"some other time\" は「また別の機会に」という意。"},
+  {cat:"business",cl:"ビジネス",ja:"期限を延ばせますか？",ctx:"締め切りの延長を依頼する時",main:"Is it possible to push back the deadline?",alt:"別の言い方: <em>\"Can we extend the deadline?\"</em> / <em>\"Could the deadline be extended?\"</em>",tip:"\"extend the deadline\" は「締め切りを延長する」という表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"応援してるよ",ctx:"友人を励ます時",main:"I'm behind you.",alt:"別の言い方: <em>\"I'm cheering for you.\"</em> / <em>\"I'm rooting for you.\"</em>",tip:"\"root for ~\" は「〜を応援する」という意味の表現。"},
+  {cat:"daily",cl:"日常会話",ja:"相変わらずだよ",ctx:"近況を尋ねられて、特に変わりがない時",main:"Same as usual.",alt:"別の言い方: <em>\"Same old, same old.\"</em> / <em>\"Nothing much has changed.\"</em>",tip:"\"Same as usual\" は「いつもと同じ」という状態を表すフレーズ。"},
+  {cat:"travel",cl:"旅行",ja:"まっすぐ行ってください",ctx:"目的地への道を教える時",main:"Keep going straight.",alt:"別の言い方: <em>\"Go straight ahead.\"</em> / <em>\"Continue straight.\"</em>",tip:"\"Keep going\" は「進み続ける」ことを表す句動詞。"},
+  {cat:"business",cl:"ビジネス",ja:"詳細を確認します",ctx:"調査や確認を行うことを伝える時",main:"I will check the details.",alt:"別の言い方: <em>\"I will confirm the details.\"</em> / <em>\"I will verify the details.\"</em>",tip:"\"check the details\" は「詳細を確認する」という動作を表す表現。"},
+  {cat:"emotion",cl:"感情表現",ja:"本当に腹が立つ！",ctx:"相手の振る舞いなどに強く怒った時",main:"I'm so pissed off!",alt:"別の言い方: <em>\"I'm so angry!\"</em> / <em>\"I'm really furious!\"</em>",tip:"\"pissed off\" は「とても怒っている」を表すカジュアルな口語表現。"},
+  {cat:"daily",cl:"日常会話",ja:"寄り道して帰るね",ctx:"目的地へ直接行かず、別の場所に立ち寄ることを伝える時",main:"I'm going to make a detour on the way back.",alt:"別の言い方: <em>\"I'll stop by somewhere on my way home.\"</em> / <em>\"I'll swing by a few places before I go home.\"</em>",tip:"\"stop by\" は「（短時間）立ち寄る」という意味の句動詞。"},
+  {cat:"travel",cl:"旅行",ja:"窓側の席をお願いします",ctx:"飛行機や電車のチケットを予約・変更する時",main:"I'd like a window seat, please.",alt:"別の言い方: <em>\"A window seat, please.\"</em> / <em>\"Could I have a window seat?\"</em>",tip:"\"I'd like\" は \"I would like\" の短縮形で、丁寧に要望を伝える表現。"},
+  {cat:"business",cl:"ビジネス",ja:"詳細をグラフにまとめました",ctx:"報告書やプレゼン資料の説明をする時",main:"I've put the details into a graph.",alt:"別の言い方: <em>\"I've organized the details in a graph.\"</em> / <em>\"I've summarized the details in a graph.\"</em>",tip:"\"summarized\" は情報を要約してまとめることを表す単語。"},
+  {cat:"emotion",cl:"感情表現",ja:"心配だよ",ctx:"誰かの状況や結果が気になって不安な時",main:"I'm concerned.",alt:"別の言い方: <em>\"I'm worried.\"</em> / <em>\"I'm anxious.\"</em>",tip:"\"worried\" は「不安で心配している」状態を表す形容詞。"},
+  {cat:"daily",cl:"日常会話",ja:"また後でね",ctx:"友達と別れる時の挨拶",main:"Talk to you later.",alt:"別の言い方: <em>\"See you later.\"</em> / <em>\"Catch you later.\"</em>",tip:"\"Catch you later\" は「後で会おう」という意味のカジュアルな表現。"},
+];
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   STATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+const XPReq=[0,50,120,220,350,500,700,950,1250,1600,2000];
+let S={mode:'all',queue:[],idx:0,xp:0,correct:0,almost:0,missed:0,streak:0,timerI:null,answered:false};
+
+const $=id=>document.getElementById(id);
+function shuffle(a){return[...a].sort(()=>Math.random()-.5)}
+function getLevel(xp){return XPReq.findIndex((v,i)=>xp<(XPReq[i+1]??Infinity))+1||XPReq.length}
+function getLvPct(xp){const l=getLevel(xp),base=XPReq[l-1]??0,next=XPReq[l]??(XPReq.at(-1)+500);return{l,pct:Math.min(100,((xp-base)/(next-base))*100),next}}
+function showView(id){document.querySelectorAll('.view').forEach(v=>v.classList.remove('show'));$(id).classList.add('show');window.scrollTo(0,0)}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   TIMER — CSS animation approach (no per-tick DOM writes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+let timerStart=0;
+function startTimer(){
+  const bar=$('timerBar'),secs=$('timerSecs');
+  // restart CSS animation
+  bar.classList.remove('running','urgent');
+  void bar.offsetWidth; // reflow to reset
+  bar.classList.add('running');
+  secs.textContent='10';
+  secs.classList.remove('urgent');
+  timerStart=Date.now();
+  // update seconds display every 500ms (not every 100ms)
+  clearInterval(S.timerI);
+  S.timerI=setInterval(()=>{
+    const elapsed=(Date.now()-timerStart)/1000;
+    const remaining=Math.max(0,10-elapsed);
+    secs.textContent=Math.ceil(remaining);
+    const urgent=remaining<=3;
+    secs.classList.toggle('urgent',urgent);
+    if(urgent&&!bar.classList.contains('urgent')){
+      bar.classList.remove('running');
+      void bar.offsetWidth;
+      bar.style.width='30%';
+      bar.classList.add('urgent');
+    }
+    if(remaining<=0)clearInterval(S.timerI);
+  },500);
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   QUIZ LOGIC
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+function startQuiz(mode){
+  S.mode=mode;
+  const f=mode==='all'?DATA:DATA.filter(d=>d.cat===mode);
+  S.queue=shuffle(f).slice(0,Math.min(f.length,10));
+  S.idx=0;S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;
+  S.xp=parseInt(localStorage.getItem('nr_instant_xp')||'0',10);
+  $('siteHeader').style.display='none';
+  showView('viewQuiz');
+  loadQ();
+}
+
+function loadQ(){
+  const q=S.queue[S.idx],total=S.queue.length;
+  S.answered=false;
+  // progress
+  $('progTxt').textContent=`${S.idx+1} / ${total}`;
+  $('progFill').style.width=`${(S.idx/total)*100}%`;
+  $('progCat').textContent=q.cl;
+  // cat pill
+  const p=$('catPill');p.textContent=q.cl;p.className='cat-pill '+q.cat;
+  // sentence
+  $('sentJa').textContent=q.ja;
+  $('sentCtx').textContent=q.ctx;
+  // hide answer, show reveal
+  $('ansPanel').classList.remove('show');
+  const rb=$('revealBtn');rb.style.display='flex';rb.disabled=false;
+  // stats
+  $('sCorr').textContent=S.correct;
+  $('sAlmo').textContent=S.almost;
+  $('sMiss').textContent=S.missed;
+  $('sStr').textContent='🔥'+S.streak;
+  $('qXP').textContent=S.xp;
+  startTimer();
+}
+
+function revealAnswer(){
+  if(S.answered)return;
+  S.answered=true;
+  clearInterval(S.timerI);
+  // freeze timer visually
+  const bar=$('timerBar');
+  const elapsed=(Date.now()-timerStart)/1000;
+  const pct=Math.max(0,(1-elapsed/10)*100);
+  bar.style.cssText=`width:${pct}%;transition:none`;
+  bar.classList.remove('running','urgent');
+
+  const q=S.queue[S.idx];
+  $('ansMain').textContent=q.main;
+  $('ansAlt').innerHTML=q.alt||'';
+  $('tipTxt').textContent=q.tip;
+  $('revealBtn').style.display='none';
+  $('ansPanel').classList.add('show');
+  setTimeout(()=>$('ansPanel').scrollIntoView({behavior:'smooth',block:'nearest'}),80);
+}
+
+function rate(type){
+  const xpMap={perfect:20,almost:10,missed:3};
+  const gain=xpMap[type];
+  S.xp+=gain;
+  localStorage.setItem('nr_instant_xp',S.xp);
+  if(type==='perfect'){S.correct++;S.streak++}
+  else if(type==='almost'){S.almost++;S.streak=0}
+  else{S.missed++;S.streak=0}
+  showToast(gain);
+  if(++S.idx>=S.queue.length)showComplete();else loadQ();
+}
+
+function showToast(gain){
+  document.querySelectorAll('.xp-toast').forEach(t=>t.remove());
+  const t=document.createElement('div');
+  t.className='xp-toast';
+  t.innerHTML=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>+${gain} XP`;
+  document.body.appendChild(t);
+  setTimeout(()=>t.remove(),2100);
+}
+
+function showComplete(){
+  clearInterval(S.timerI);
+  $('siteHeader').style.display='';
+  showView('viewComplete');
+  const sessXP=S.correct*20+S.almost*10+S.missed*3;
+  $('rCorr').textContent=S.correct;
+  $('rAlmo').textContent=S.almost;
+  $('rMiss').textContent=S.missed;
+  $('rXP').textContent='+'+sessXP;
+  const rate=S.queue.length?S.correct/S.queue.length:0;
+  if(rate>=.8){$('cEmoji').textContent='🏆';$('cTitle').textContent='素晴らしい！';$('cSub').textContent='英語の瞬発力が確実に伸びています！'}
+  else if(rate>=.5){$('cEmoji').textContent='🎯';$('cTitle').textContent='よくできました！';$('cSub').textContent='言えなかった表現を繰り返し練習しよう。'}
+  else{$('cEmoji').textContent='💪';$('cTitle').textContent='お疲れ様！';$('cSub').textContent='今日学んだ表現を明日また復習しよう。'}
+  const{l,pct,next}=getLvPct(S.xp);
+  $('lvBadge').textContent='Lv.'+l;
+  $('xpTxt').textContent=S.xp+' / '+next+' XP';
+  setTimeout(()=>$('xpFill').style.width=pct+'%',350);
+}
+
+function restartQuiz(){startQuiz(S.mode)}
+function exitQuiz(){clearInterval(S.timerI);$('siteHeader').style.display='';showView('viewLP')}
+
+/* ── Hamburger ── */
+const hbg=$('hamburger'),mn=$('mobNav'),mc=$('mobClose');
+hbg.addEventListener('click',()=>{hbg.classList.toggle('open');mn.classList.toggle('open')});
+mc.addEventListener('click',()=>{hbg.classList.remove('open');mn.classList.remove('open')});
+/* ── Scroll shadow ── */
+window.addEventListener('scroll',()=>$('siteHeader').classList.toggle('scrolled',scrollY>10),{passive:true});
+</script>
+
+<!-- global-design.css: dot-grid body bg + design token !important overrides -->
+<link rel="stylesheet" href="/assets/global-design.css">
+<script src="/assets/global.js" defer></script>
+</body>
+</html>
