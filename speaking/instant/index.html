@@ -885,55 +885,37 @@ function loadQ(){
   startTimer();
 }
 
-// ── Voice (Web Speech API) ───────────────────
+// ── Voice (edge-tts MP3) ─────────────────────
 const ACCENT_ROTA = [
-  {lang:'en-US', flag:'🇺🇸', label:'US', gender:'female'},
-  {lang:'en-GB', flag:'🇬🇧', label:'UK', gender:'male'},
-  {lang:'en-US', flag:'🇺🇸', label:'US', gender:'male'},
-  {lang:'en-AU', flag:'🇦🇺', label:'AU', gender:'female'},
-  {lang:'en-GB', flag:'🇬🇧', label:'UK', gender:'female'},
-  {lang:'en-AU', flag:'🇦🇺', label:'AU', gender:'male'},
+  {flag:'🇺🇸', label:'US', glyph:'♀'},
+  {flag:'🇬🇧', label:'UK', glyph:'♂'},
+  {flag:'🇺🇸', label:'US', glyph:'♂'},
+  {flag:'🇦🇺', label:'AU', glyph:'♀'},
+  {flag:'🇬🇧', label:'UK', glyph:'♀'},
+  {flag:'🇦🇺', label:'AU', glyph:'♂'},
 ];
-const FEMALE_RE = /female|samantha|victoria|karen|moira|fiona|tessa|vicki|zira|google uk english female|ava|allison/i;
-const MALE_RE   = /male|daniel|alex|lee|gordon|rishi|oliver|fred|google uk english male|tom|aaron/i;
-let _voices = [];
-function _loadVoices(){ _voices = speechSynthesis.getVoices(); }
-speechSynthesis.onvoiceschanged = _loadVoices;
-_loadVoices();
+// DATAにオリジナルインデックスを付与（音声ファイル名の決定に使用）
+DATA.forEach((d, i) => d._i = i + 1);
 
-function _pickVoice(lang, gender){
-  if(!_voices.length) _loadVoices();
-  const pool = _voices.filter(v => v.lang.startsWith(lang.slice(0,5)));
-  if(!pool.length) return _voices.find(v=>v.lang.startsWith('en')) || null;
-  const re = gender === 'female' ? FEMALE_RE : MALE_RE;
-  return pool.find(v=>re.test(v.name)) || pool[0];
-}
-
-let _currentAccent = ACCENT_ROTA[0];
-
-function _setVoiceBadge(accent){
-  const glyph = accent.gender==='female' ? '♀' : '♂';
-  $('voiceBadge').textContent = `${accent.flag} ${accent.label} ${glyph}`;
-}
+const _audio = new Audio();
+_audio.preload = 'auto';
 
 function speakMain(){
-  if(!window.speechSynthesis) return;
-  const text = $('ansMain').textContent;
-  if(!text) return;
-  speechSynthesis.cancel();
-  const utt = new SpeechSynthesisUtterance(text);
-  const v = _pickVoice(_currentAccent.lang, _currentAccent.gender);
-  if(v) utt.voice = v;
-  utt.lang = _currentAccent.lang;
-  utt.rate = 0.92;
+  const q = S.queue[S.idx];
+  if(!q) return;
   const btn = $('voicePlayBtn');
+  const path = `audio/q${String(q._i).padStart(3,'0')}.mp3`;
+  _audio.pause();
+  _audio.src = path;
   btn.classList.add('playing');
   btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg> 再生中…';
-  utt.onend = utt.onerror = ()=>{
+  const reset = () => {
     btn.classList.remove('playing');
     btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg> 音声を聞く';
   };
-  speechSynthesis.speak(utt);
+  _audio.onended = reset;
+  _audio.onerror = reset;
+  _audio.play().catch(reset);
 }
 // ─────────────────────────────────────────────
 
@@ -955,9 +937,9 @@ function revealAnswer(){
   $('revealBtn').style.display='none';
   $('ansPanel').classList.add('show');
 
-  // set accent for this question
-  _currentAccent = ACCENT_ROTA[S.idx % ACCENT_ROTA.length];
-  _setVoiceBadge(_currentAccent);
+  // set accent badge for this question
+  const _ac = ACCENT_ROTA[(q._i - 1) % ACCENT_ROTA.length];
+  $('voiceBadge').textContent = `${_ac.flag} ${_ac.label} ${_ac.glyph}`;
   setTimeout(()=>speakMain(), 300);
 
   setTimeout(()=>$('ansPanel').scrollIntoView({behavior:'smooth',block:'nearest'}),80);
