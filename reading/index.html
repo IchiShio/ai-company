@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>ReadUp Series — レベル別英文を1日1分読む | native-real</title>
-  <meta name="description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階（VL2000〜7000）・辞書不要・毎週更新。">
+  <meta name="description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階（Lv.2000〜7000）・辞書不要・毎週更新。">
   <link rel="canonical" href="https://native-real.com/reading/">
   <meta property="og:title" content="ReadUp Series — レベル別英文を1日1分読む">
   <meta property="og:description" content="レベル別の英文を1日1分・1ページで読む。語彙制限テキスト4段階・辞書不要。">
@@ -21,7 +21,7 @@
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "ReadUp Series — レベル別英文リーディング",
-    "description": "語彙制限されたレベル別英文を1日1分読む。4段階（VL2000〜7000）・辞書不要・音声付き・毎週更新。",
+    "description": "語彙制限されたレベル別英文を1日1分読む。4段階（Lv.2000〜7000）・辞書不要・音声付き・毎週更新。",
     "url": "https://native-real.com/reading/",
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "Web",
@@ -755,12 +755,12 @@
         <div class="how-step">
           <div class="how-step-num">1</div>
           <div class="how-step-title">レベルを選ぶ</div>
-          <div class="how-step-desc">VL2000（基礎）からVL7000（上級）まで。知っている語彙数に合わせて選べます。</div>
+          <div class="how-step-desc">Lv.2000（基礎）からLv.7000（上級）まで。知っている語彙数に合わせて選べます。</div>
         </div>
         <div class="how-step">
           <div class="how-step-num">2</div>
           <div class="how-step-title">1分で読む</div>
-          <div class="how-step-desc">VL外の単語には下線表示。タップで意味を確認。音声を聴きながら読むことも可能。</div>
+          <div class="how-step-desc">レベル外の単語には下線表示。タップで意味を確認。音声を聴きながら読むことも可能。</div>
         </div>
         <div class="how-step">
           <div class="how-step-num">3</div>
@@ -774,22 +774,22 @@
       <h2 class="levels-title">4つのレベル</h2>
       <div class="level-cards">
         <div class="level-card">
-          <div class="level-card-vl">VL2000</div>
+          <div class="level-card-vl">Lv.2000</div>
           <div class="level-card-cefr">CEFR B1 · 80〜100語</div>
           <div class="level-card-desc">基本2000語で構成。英語学習を始めたばかりの方に。短い文、シンプルな構造。</div>
         </div>
         <div class="level-card">
-          <div class="level-card-vl">VL3000</div>
+          <div class="level-card-vl">Lv.3000</div>
           <div class="level-card-cefr">CEFR B1-B2 · 100〜120語</div>
           <div class="level-card-desc">やや複雑な文もOK。関係代名詞・受動態も登場。日常英語に自信がある方に。</div>
         </div>
         <div class="level-card">
-          <div class="level-card-vl">VL5000</div>
+          <div class="level-card-vl">Lv.5000</div>
           <div class="level-card-cefr">CEFR B2 · 120〜140語</div>
           <div class="level-card-desc">新聞英語に近い表現。ビジネス・学術語彙も含む。TOEIC 600点以上を目指す方に。</div>
         </div>
         <div class="level-card">
-          <div class="level-card-vl">VL7000</div>
+          <div class="level-card-vl">Lv.7000</div>
           <div class="level-card-cefr">CEFR C1 · 130〜150語</div>
           <div class="level-card-desc">ほぼネイティブ向け。高度な語彙と自然な表現。英字新聞を読みたい方に。</div>
         </div>
@@ -820,10 +820,10 @@
 
     <!-- Level Tabs -->
     <div class="level-tabs" role="tablist">
-      <button class="level-tab active" data-vl="vl2000" onclick="selectLevel('vl2000')" role="tab">VL2000</button>
-      <button class="level-tab" data-vl="vl3000" onclick="selectLevel('vl3000')" role="tab">VL3000</button>
-      <button class="level-tab" data-vl="vl5000" onclick="selectLevel('vl5000')" role="tab">VL5000</button>
-      <button class="level-tab" data-vl="vl7000" onclick="selectLevel('vl7000')" role="tab">VL7000</button>
+      <button class="level-tab active" data-vl="vl2000" onclick="selectLevel('vl2000')" role="tab">Lv.2000</button>
+      <button class="level-tab" data-vl="vl3000" onclick="selectLevel('vl3000')" role="tab">Lv.3000</button>
+      <button class="level-tab" data-vl="vl5000" onclick="selectLevel('vl5000')" role="tab">Lv.5000</button>
+      <button class="level-tab" data-vl="vl7000" onclick="selectLevel('vl7000')" role="tab">Lv.7000</button>
     </div>
     <p class="level-desc" id="level-desc">B1 · NGSL上位2000語 · 1文80〜100語</p>
 
@@ -857,7 +857,7 @@
   <div id="reader-view">
     <div class="reader-header">
       <button class="btn-back" onclick="backToHub()">← 記事一覧</button>
-      <span class="reader-badge" id="reader-vl-badge">VL2000</span>
+      <span class="reader-badge" id="reader-vl-badge">Lv.2000</span>
     </div>
     <h1 class="reader-title" id="reader-title"></h1>
     <p class="reader-title-ja" id="reader-title-ja"></p>
@@ -928,10 +928,10 @@
 
 // ── Constants ──
 const VL_LABELS = {
-  vl2000: 'VL2000',
-  vl3000: 'VL3000',
-  vl5000: 'VL5000',
-  vl7000: 'VL7000',
+  vl2000: 'Lv.2000',
+  vl3000: 'Lv.3000',
+  vl5000: 'Lv.5000',
+  vl7000: 'Lv.7000',
 };
 const VL_DESCS = {
   vl2000: 'B1 · NGSL上位2000語 · 80〜100語 · 約1分',

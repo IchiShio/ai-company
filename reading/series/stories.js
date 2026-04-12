@@ -73615,7 +73615,7 @@ const STORIES = [
           "砂に埋まっていたから"
         ],
         "answer": 1,
-        "expl": "本文に「The wood is still in good condition because the ground was very wet for a long time」と書かれています。"
+        "expl": "本文に「The wood is still in good condition because the ground had a lot of water in it for a long time」と書かれています。"
       },
       {
         "axis": "main_idea",
@@ -75408,7 +75408,7 @@ const STORIES = [
           "寒冷な気候で凍結保存されていたから"
         ],
         "answer": 1,
-        "expl": "本文に「the surrounding soil has remained saturated with water for thousands of years」と書かれています。"
+        "expl": "本文に「the surrounding soil has remained full of water for thousands of years」と書かれています。"
       },
       {
         "axis": "main_idea",
@@ -76444,7 +76444,7 @@ const STORIES = [
           "人工的な防腐処理が施されていた"
         ],
         "answer": 1,
-        "expl": "本文に「the waterlogged peat soil that has enveloped the site for millennia, effectively halting decomposition」と書かれています。"
+        "expl": "本文に「the water-soaked peat soil that has enveloped the site for thousands of years, effectively halting decomposition」と書かれています。"
       },
       {
         "axis": "inference",
