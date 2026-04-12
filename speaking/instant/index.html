@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>瞬間英作文トレーナー｜英語の瞬発力を無料で鍛える | native-real</title>
-  <meta name="description" content="日本語を見て即座に英語で言う「瞬間英作文」を無料でトレーニング。日常・ビジネス・旅行・感情の4カテゴリ200文。自己評価 × XPゲーミフィケーションで英語の瞬発力が身につく。">
+  <meta name="description" content="日本語を見て即座に英語で言う「瞬間英作文」を無料でトレーニング。苦手を自動検出する適応型学習 × 復習モード × 弱点集中で効率的にスピーキング力を鍛える。日常・ビジネス・旅行・感情の4カテゴリ200文。">
   <link rel="canonical" href="https://native-real.com/speaking/instant/">
   <meta property="og:title" content="瞬間英作文トレーナー｜英語の瞬発力を無料で鍛える">
-  <meta property="og:description" content="日本語を見て即座に英語で言う反射トレーニング。4カテゴリ200文。完全無料・登録不要。">
+  <meta property="og:description" content="苦手を自動検出して出題を最適化。日本語を見て即座に英語で言う適応型トレーニング。復習モード・弱点集中で効率的に鍛える。完全無料。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://native-real.com/speaking/instant/">
   <meta property="og:site_name" content="native-real">
@@ -361,6 +361,15 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
 /* ── Session badge (quiz bar) ── */
 .qb-mode{font-size:10px;font-weight:700;padding:2px 8px;border-radius:6px;background:rgba(245,166,35,0.12);color:var(--gold,#F5A623);margin-left:8px}
 
+/* ── Adaptive Feature Section (LP) ── */
+.adapt-feat{max-width:660px;margin:0 auto;padding:48px 20px 40px;text-align:center}
+.af-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px;text-align:left}
+.af-card{padding:20px;border-radius:14px;border:1px solid var(--border,#E8E4DC);background:var(--surface,#FDFCF9)}
+.af-icon{font-size:24px;margin-bottom:8px}
+.af-h{font-size:14px;font-weight:700;color:var(--text-1);margin-bottom:6px;letter-spacing:-0.2px}
+.af-p{font-size:12.5px;line-height:1.7;color:var(--text-2)}
+@media(max-width:480px){.af-grid{grid-template-columns:1fr}}
+
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
@@ -401,18 +410,18 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
 <div class="view show" id="viewLP">
   <section class="hero">
     <div class="hero-inner">
-      <div class="badge">⚡ 英語の瞬発力を鍛える</div>
+      <div class="badge">⚡ 適応型スピーキング練習</div>
       <h1 class="hero-h1">日本語を見て、<br><span class="hl">即座に英語で言う。</span></h1>
-      <p class="hero-sub">「瞬間英作文」は、英語が口から出ない最大の原因——<em>頭の中の翻訳時間</em>——をゼロにするトレーニング法。毎日10分で英語の反射神経が鍛えられる。</p>
+      <p class="hero-sub">苦手を自動検出して出題を最適化する「瞬間英作文」。頭の中の翻訳時間をゼロにし、毎日10分で英語の反射神経を鍛える。</p>
       <div class="cta-row">
         <button class="btn-gold" onclick="startQuiz('all')">⚡ 今すぐ練習する</button>
         <button class="btn-outline" onclick="document.getElementById('howSec').scrollIntoView({behavior:'smooth'})">使い方を見る</button>
       </div>
       <div class="feat-strip">
         <div class="feat"><div class="feat-icon">📝</div><div class="feat-val" id="featTotal">200文</div><div class="feat-lbl">例文収録</div></div>
-        <div class="feat"><div class="feat-icon">🏷️</div><div class="feat-val">4分野</div><div class="feat-lbl">カテゴリ</div></div>
+        <div class="feat"><div class="feat-icon">🧠</div><div class="feat-val">適応型</div><div class="feat-lbl">苦手自動検出</div></div>
+        <div class="feat"><div class="feat-icon">🔄</div><div class="feat-val">3モード</div><div class="feat-lbl">通常/復習/弱点</div></div>
         <div class="feat"><div class="feat-icon">🎯</div><div class="feat-val">無料</div><div class="feat-lbl">登録不要</div></div>
-        <div class="feat"><div class="feat-icon">📱</div><div class="feat-val">毎日</div><div class="feat-lbl">スマホ対応</div></div>
       </div>
       <!-- Adaptive progress -->
       <div class="adapt-progress" id="adaptProgress" style="display:none">
@@ -433,15 +442,15 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
     <div class="steps">
       <div class="step-card card">
         <div class="step-num">1</div>
-        <div><div class="step-h3">日本語フレーズを見る</div><p class="step-p">日常・ビジネス・旅行・感情の4カテゴリから日本語のフレーズが表示される。タイマーが動く前に、声に出して英語で言ってみよう。</p></div>
+        <div><div class="step-h3">日本語フレーズを見る</div><p class="step-p">日常・ビジネス・旅行・感情の4カテゴリから出題。AIがあなたの苦手を分析し、最適な問題を自動で選ぶ。</p></div>
       </div>
       <div class="step-card card">
         <div class="step-num">2</div>
-        <div><div class="step-h3">ネイティブの英語を確認する</div><p class="step-p">「答えを見る」でネイティブが使う自然な英語と Native Tip が表示される。複数の表現とニュアンスの違いも確認できる。</p></div>
+        <div><div class="step-h3">声に出して英語で言う</div><p class="step-p">10秒タイマーで瞬発力を鍛える。「答えを見る」でネイティブの自然な表現と Native Tip を確認。音声再生にも対応。</p></div>
       </div>
       <div class="step-card card">
         <div class="step-num">3</div>
-        <div><div class="step-h3">正直に自己評価してXPゲット</div><p class="step-p">「完璧に言えた」「だいたい言えた」「言えなかった」の3段階で自己採点。正直に評価するほど成長が速い。</p></div>
+        <div><div class="step-h3">自己評価で学習を最適化</div><p class="step-p">「完璧」「だいたい」「言えなかった」の3段階で評価。結果をもとに次のセッションの出題が自動調整される。</p></div>
       </div>
     </div>
     <div style="margin-top:12px;text-align:center">
@@ -458,6 +467,35 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
     </div>
   </section>
 
+  <!-- ══════════ ADAPTIVE FEATURES ══════════ -->
+  <section class="adapt-feat" id="adaptFeatSec">
+    <div class="sec-eye">Adaptive Learning</div>
+    <h2 class="sec-h2">使うほど<span style="color:var(--gold,#F5A623)">あなた専用</span>になる</h2>
+    <p class="sec-sub">回答履歴をもとにAIが出題を最適化。苦手を放置しない仕組み。</p>
+    <div class="af-grid">
+      <div class="af-card card">
+        <div class="af-icon">🧠</div>
+        <div class="af-h">苦手を自動検出</div>
+        <p class="af-p">4カテゴリ（日常・ビジネス・旅行・感情）ごとの正答率を自動計算。弱点カテゴリを特定し、集中出題。</p>
+      </div>
+      <div class="af-card card">
+        <div class="af-icon">🔄</div>
+        <div class="af-h">復習モード</div>
+        <p class="af-p">「言えなかった」「だいたい」と評価した問題だけを集中出題。確実に言えるようになるまで繰り返す。</p>
+      </div>
+      <div class="af-card card">
+        <div class="af-icon">📊</div>
+        <div class="af-h">未出題を優先</div>
+        <p class="af-p">回答済みの問題を記録し、まだ出会っていない表現を優先出題。全問消化したら自動リセット。</p>
+      </div>
+      <div class="af-card card">
+        <div class="af-icon">🎯</div>
+        <div class="af-h">弱点集中モード</div>
+        <p class="af-p">正答率が低いカテゴリを70%優先で出題。苦手分野だけを短時間で集中的に鍛える。</p>
+      </div>
+    </div>
+  </section>
+
   <section class="seo">
     <div class="seo-card card">
       <h2>瞬間英作文とは？なぜ効果的なのか</h2>
@@ -465,9 +503,10 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
     </div>
     <div class="seo-card card">
       <h2>よくある質問</h2>
-      <div class="faq-item"><div class="faq-q">英語初心者でも使えますか？</div><div class="faq-a">はい。日常会話カテゴリは中学英語レベルのフレーズから始まります。「言えなかった」が多くても問題ありません。</div></div>
-      <div class="faq-item"><div class="faq-q">どのくらいの頻度でやればいいですか？</div><div class="faq-a">毎日10分が理想です。週5回以上続けることで、2〜3ヶ月で英語を反射的に話す感覚が身につきます。</div></div>
-      <div class="faq-item"><div class="faq-q">瞬間英作文はどんな効果がありますか？</div><div class="faq-a">日本語を見て即座に英語に変換する反復練習により、頭の中の翻訳時間が短縮され、英語が口から自然に出るようになります。毎日10分の継続で効果を実感できます。</div></div>
+      <div class="faq-item"><div class="faq-q">英語初心者でも使えますか？</div><div class="faq-a">はい。日常会話カテゴリは中学英語レベルのフレーズから始まります。「言えなかった」が多くても、復習モードで繰り返せるので問題ありません。</div></div>
+      <div class="faq-item"><div class="faq-q">どのくらいの頻度でやればいいですか？</div><div class="faq-a">毎日10分が理想です。適応型学習が苦手を自動検出するので、週5回以上続ければ2〜3ヶ月で瞬発力が身につきます。</div></div>
+      <div class="faq-item"><div class="faq-q">復習モードはどう使えばいいですか？</div><div class="faq-a">過去に「言えなかった」「だいたい」と評価した問題だけを集中出題します。通常モードで一通り解いた後に使うと効果的です。</div></div>
+      <div class="faq-item"><div class="faq-q">弱点集中モードとは？</div><div class="faq-a">4カテゴリの正答率を自動分析し、最も苦手なカテゴリの問題を70%優先で出題します。弱点を短期間で克服できます。</div></div>
     </div>
   </section>
 
@@ -731,7 +770,7 @@ const DATA=[
   {cat:"business",cl:"ビジネス",ja:"お気になさらず",ctx:"相手の謝罪や懸念を軽く受け流す時",main:"It's not a problem.",alt:"別の言い方: <em>\"Please don't worry about it.\"</em> / <em>\"No problem at all.\"</em>",tip:"\"don't worry about it\" は、相手の不安や申し訳なさを解消する定番のフレーズ。"},
   {cat:"emotion",cl:"感情表現",ja:"すごくもどかしい！",ctx:"思い通りにいかず、じれったい気持ちの時",main:"This is so frustrating!",alt:"別の言い方: <em>\"It's so frustrating!\"</em> / <em>\"I'm so frustrated!\"</em>",tip:"\"frustrating\" は、期待通りにいかず「もどかしい」「いらいらする」という感情を表す。"},
   {cat:"travel",cl:"旅行",ja:"迷わずに行けますか？",ctx:"目的地までの道のりの分かりやすさを確認する時",main:"Is it easy to find?",alt:"別の言い方: <em>\"Is it hard to miss?\"</em> / <em>\"Can I find it easily?\"</em>",tip:"\"easy to find\" は「簡単に見つけられる（迷わずに行ける）」という意味の定番表現。"},
-  {cat:"daily",cl:"日常会話",ja:"無理していいよ",ctx:"相手に負担をかけすぎないよう配慮する時",main:"Don't push yourself too hard.",alt:"別の言い方: <em>\"Don't strain yourself.\"</em> / <em>\"Don't overdo it.\"</em>",tip:"\"overdo it\" は「やりすぎる」や「無理をする」という意味。"},
+  {cat:"daily",cl:"日常会話",ja:"無理しなくていいよ",ctx:"相手に負担をかけすぎないよう配慮する時",main:"Don't push yourself too hard.",alt:"別の言い方: <em>\"Don't strain yourself.\"</em> / <em>\"Don't overdo it.\"</em>",tip:"\"overdo it\" は「やりすぎる」や「無理をする」という意味。"},
   {cat:"business",cl:"ビジネス",ja:"本題に入りましょう",ctx:"会議の冒頭で挨拶を終え、本論に移る時",main:"Let's get down to business.",alt:"別の言い方: <em>\"Let's get straight to the point.\"</em> / <em>\"Let's dive into the main topic.\"</em>",tip:"\"get down to business\" は「本題に入る」「仕事に取りかかる」という決まり文句。"},
   {cat:"emotion",cl:"感情表現",ja:"最高に嬉しい！",ctx:"とても喜んでいる時",main:"I'm so thrilled!",alt:"別の言い方: <em>\"I'm over the moon!\"</em> / <em>\"I couldn't be happier!\"</em>",tip:"\"over the moon\" は、月を飛び越えるほど非常に嬉しいことを表す慣用句。"},
   {cat:"travel",cl:"旅行",ja:"チェックアウトをお願いします",ctx:"ホテルのフロントで会計・手続きをする時",main:"I want to check out now.",alt:"別の言い方: <em>\"I'd like to check out, please.\"</em> / <em>\"Could I check out, please?\"</em>",tip:"\"I'd like to ~\" は「〜したい」を丁寧に伝える定番の表現。"},
