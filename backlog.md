@@ -35,4 +35,4 @@
 - [x] grammar: GrammarUp 問題15問追加（g1563–g1577、比較・受動態・関係詞・条件文・仮定法など） <!-- 2026-04-11 -->
 - [x] grammar/index.html: questions_extra2.js のscriptタグ追加 + タイトル・meta の問題数を実際の問題数に更新（295問→1,544問、ID重複修正でg1578-g1592に renumber） <!-- 2026-04-12 -->
 - [x] listening: リスニング問題20問追加（speed/distractor軸を補強）<!-- 2026-04-12 -->
-- [ ] words/: 単語クイズに TOEIC 頻出語句20語追加
+- [x] words/: 単語クイズに TOEIC 頻出語句20語追加（q5573–q5592、reimburse/incur/fiscal/turnover 等） <!-- 2026-04-12 -->
