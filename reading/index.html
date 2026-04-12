@@ -61,6 +61,7 @@
       --t:             0.18s ease;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    button { -webkit-appearance: none; appearance: none; }
     html { scroll-behavior: smooth; }
     body {
       font-family: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -268,6 +269,8 @@
       padding: 10px 20px; min-height: 44px;
       font-size: 14px; font-weight: 600; color: var(--text-1);
       cursor: pointer; transition: border-color var(--t);
+      -webkit-appearance: none; appearance: none;
+      position: relative; z-index: 1;
     }
     .btn-audio:hover { border-color: var(--border-strong); }
     .btn-audio.playing { border-color: var(--gold); color: var(--gold); }
@@ -1228,20 +1231,20 @@ function initAudio(story) {
   const src = `series/audio/${story.id}.mp3`;
   const row = document.getElementById('audio-row');
   const a = new Audio();
-  a.preload = 'auto';
-  a.addEventListener('loadeddata', () => { row.style.display = 'block'; }, { once: true });
-  a.addEventListener('canplay', () => { row.style.display = 'block'; }, { once: true });
+  // iOS Safari では preload='auto' でも loadeddata/canplay が
+  // ユーザー操作前に発火しない機種があるため、即時表示してエラー時のみ隠す
+  a.preload = 'none';
   a.addEventListener('error', () => { row.style.display = 'none'; });
   a.addEventListener('ended', () => { resetAudioUI(); });
   a.src = src;
   storyAudio = a;
-  row.style.display = 'none';
+  row.style.display = 'block'; // 即時表示（iOS全機種対応）
   resetAudioUI();
 }
 function toggleAudio() {
   if (!storyAudio) return;
   if (storyAudio.paused) {
-    storyAudio.play();
+    storyAudio.play().catch(() => { /* autoplay blocked — user tapped, retry is ok */ });
     document.getElementById('btn-audio').classList.add('playing');
     document.getElementById('icon-play').style.display  = 'none';
     document.getElementById('icon-pause').style.display = 'inline';

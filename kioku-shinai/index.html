@@ -101,6 +101,7 @@
     /* ── END UNIFIED HEADER ── */
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+button{-webkit-appearance:none;appearance:none}
 
 :root{
   --bg:#F8F6F1;
@@ -168,7 +169,7 @@ body{font-family:'Noto Sans JP','Hiragino Kaku Gothic ProN',sans-serif;backgroun
 .etym-plus{color:var(--text3);font-size:14px;font-weight:300}
 
 /* Play button */
-.play-btn{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;transition:all .12s;flex-shrink:0}
+.play-btn{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;transition:all .12s;flex-shrink:0;-webkit-appearance:none;appearance:none;position:relative;z-index:1}
 .play-btn:hover{background:var(--accent2);transform:scale(1.06)}
 .play-btn:active{transform:scale(.95)}
 .play-btn svg{width:18px;height:18px;fill:#fff;margin-left:2px}
