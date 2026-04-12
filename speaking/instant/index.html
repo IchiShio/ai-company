@@ -235,6 +235,14 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
 .ans-alt{font-size:13px;color:var(--text-2);line-height:1.7}
 .ans-alt em{font-style:italic;color:var(--text-1)}
 
+/* voice card */
+.voice-card{display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:10px}
+.voice-badge{font-size:13px;font-weight:700;color:var(--text-2);white-space:nowrap;min-width:70px}
+.voice-play-btn{display:flex;align-items:center;gap:6px;padding:7px 14px;background:var(--gold);color:#fff;border:none;border-radius:9999px;font-size:13px;font-weight:700;cursor:pointer;transition:opacity .15s}
+.voice-play-btn:hover{opacity:.85}
+.voice-play-btn.playing{background:var(--success)}
+.voice-play-btn svg{flex-shrink:0}
+
 /* tip */
 .tip-card{padding:13px 16px;background:var(--hint-bg);border:1px solid rgba(217,119,6,0.25);border-radius:var(--radius-sm);margin-bottom:20px}
 .tip-lbl{display:flex;align-items:center;gap:5px;font-size:11px;font-weight:700;color:var(--hint);text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px}
@@ -488,6 +496,13 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         </div>
         <div class="ans-main" id="ansMain"></div>
         <div class="ans-alt" id="ansAlt"></div>
+      </div>
+      <div class="voice-card" id="voiceCard">
+        <span class="voice-badge" id="voiceBadge">🇺🇸 US ♀</span>
+        <button class="voice-play-btn" id="voicePlayBtn" onclick="speakMain()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+          音声を聞く
+        </button>
       </div>
       <div class="tip-card">
         <div class="tip-lbl">
@@ -870,6 +885,58 @@ function loadQ(){
   startTimer();
 }
 
+// ── Voice (Web Speech API) ───────────────────
+const ACCENT_ROTA = [
+  {lang:'en-US', flag:'🇺🇸', label:'US', gender:'female'},
+  {lang:'en-GB', flag:'🇬🇧', label:'UK', gender:'male'},
+  {lang:'en-US', flag:'🇺🇸', label:'US', gender:'male'},
+  {lang:'en-AU', flag:'🇦🇺', label:'AU', gender:'female'},
+  {lang:'en-GB', flag:'🇬🇧', label:'UK', gender:'female'},
+  {lang:'en-AU', flag:'🇦🇺', label:'AU', gender:'male'},
+];
+const FEMALE_RE = /female|samantha|victoria|karen|moira|fiona|tessa|vicki|zira|google uk english female|ava|allison/i;
+const MALE_RE   = /male|daniel|alex|lee|gordon|rishi|oliver|fred|google uk english male|tom|aaron/i;
+let _voices = [];
+function _loadVoices(){ _voices = speechSynthesis.getVoices(); }
+speechSynthesis.onvoiceschanged = _loadVoices;
+_loadVoices();
+
+function _pickVoice(lang, gender){
+  if(!_voices.length) _loadVoices();
+  const pool = _voices.filter(v => v.lang.startsWith(lang.slice(0,5)));
+  if(!pool.length) return _voices.find(v=>v.lang.startsWith('en')) || null;
+  const re = gender === 'female' ? FEMALE_RE : MALE_RE;
+  return pool.find(v=>re.test(v.name)) || pool[0];
+}
+
+let _currentAccent = ACCENT_ROTA[0];
+
+function _setVoiceBadge(accent){
+  const glyph = accent.gender==='female' ? '♀' : '♂';
+  $('voiceBadge').textContent = `${accent.flag} ${accent.label} ${glyph}`;
+}
+
+function speakMain(){
+  if(!window.speechSynthesis) return;
+  const text = $('ansMain').textContent;
+  if(!text) return;
+  speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(text);
+  const v = _pickVoice(_currentAccent.lang, _currentAccent.gender);
+  if(v) utt.voice = v;
+  utt.lang = _currentAccent.lang;
+  utt.rate = 0.92;
+  const btn = $('voicePlayBtn');
+  btn.classList.add('playing');
+  btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg> 再生中…';
+  utt.onend = utt.onerror = ()=>{
+    btn.classList.remove('playing');
+    btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg> 音声を聞く';
+  };
+  speechSynthesis.speak(utt);
+}
+// ─────────────────────────────────────────────
+
 function revealAnswer(){
   if(S.answered)return;
   S.answered=true;
@@ -887,6 +954,12 @@ function revealAnswer(){
   $('tipTxt').textContent=q.tip;
   $('revealBtn').style.display='none';
   $('ansPanel').classList.add('show');
+
+  // set accent for this question
+  _currentAccent = ACCENT_ROTA[S.idx % ACCENT_ROTA.length];
+  _setVoiceBadge(_currentAccent);
+  setTimeout(()=>speakMain(), 300);
+
   setTimeout(()=>$('ansPanel').scrollIntoView({behavior:'smooth',block:'nearest'}),80);
 }
 
