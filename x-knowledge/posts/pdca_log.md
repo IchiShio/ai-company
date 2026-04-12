@@ -6,6 +6,32 @@ GitHub Actions が毎朝 6:00 JST に自動取得・追記する。
 | 日時 | テーマ | フック | imp | RT (率) | likes | replies |
 |---|---|---|---|---|---|---|
 
+## 2026-04-12 日次PDCA（夜実行 23:00）
+
+### 4/12 投稿サマリー
+
+| 枠 | テーマ | フック型 | fact_ref | imp | 評価 |
+|---|---|---|---|---|---|
+| morning 7:00 | 学習習慣・継続のコツ | P9(今すぐやめてください) | study-habits/F1 | 計測中 | posted=true |
+| noon 12:00 | スピーキング練習法 | H3テスト②(断言型) | speaking/F3 | — | posted=false（未投稿） |
+| evening 18:00 | リスニング上達法 | H4テスト②(疑問形フック) | listening/F1 | 計測中 | posted=true |
+| night 21:00 | スピーキング練習法 | H8テスト⑤(対比型×4/3/2) | speaking/F1 | — | posted=false（未投稿） |
+
+**4/12総評**: confirmed投稿はmorning・eveningの2件。noon・nightは引き続きposted:false（自動投稿フロー未実行状態が継続中）。直近ベスト: 4/11 evening vocabulary/F1 × P8 = **7,700 imp (A)**。H4テスト②のeveningデータは翌朝計測予定。
+
+### 4/13 翌日設計（P12チェック済み）
+
+| 枠 | テーマ | フック型 | fact_ref | P12チェック |
+|---|---|---|---|---|
+| morning 7:00 | 学習習慣・継続のコツ | P7(完全に間違えてます) | study-habits/F4 | ✅ 前回4/5夕（8日前）※P12修正: listening/F3→差し替え |
+| noon 12:00 | リスニング上達法 | H4テスト③(疑問形フック) | listening/F4 | ✅ 前回4/6朝（7日・境界OK） |
+| evening 18:00 | 語彙の増やし方 | P4+P8(悪習慣指摘×作文アクション) | vocabulary/F2 | ✅ 前回4/5朝（8日前）※P12修正: toeic/F-TOEIC-002→差し替え |
+| night 21:00 | 語彙の増やし方 | H3テスト③(断言型フック) | vocabulary/F3 | ✅ 前回4/3朝（10日前） |
+
+**P12対処**: 既存4/13 morning(listening/F3 ← 4/9朝=4日以内)・evening(toeic/F-TOEIC-002 ← 4/7夜=6日以内)を両方P12違反として全差し替え。H4テスト③はlistening/F4(7日境界OK)で継続。H3テスト③断言型を夜枠で新設。
+
+---
+
 ## 2026-04-11 日次PDCA（夜実行 23:00）
 
 ### 4/11 投稿サマリー
