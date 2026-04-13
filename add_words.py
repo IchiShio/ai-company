@@ -109,6 +109,23 @@ def get_next_audio_num():
     return max(nums) + 1 if nums else 1
 
 
+_WH_WORDS = re.compile(r'^(what|where|when|who|whom|whose|which|why|how)\b', re.IGNORECASE)
+
+
+def get_intonation(text: str) -> tuple:
+    """文末記号とWh語からイントネーション(pitch, rate)を返す"""
+    t = text.strip()
+    if t.endswith("?"):
+        if _WH_WORDS.match(t):
+            return ("+0Hz", "-5%")   # Wh疑問文: 下降調
+        else:
+            return ("+20Hz", "-8%")  # Yes/No疑問文: 上昇調
+    elif t.endswith("!"):
+        return ("+10Hz", "+0%")
+    else:
+        return ("+0Hz", "-5%")
+
+
 def generate_audio(questions, start_num):
     """Edge TTS で音声生成"""
     print(f"\n音声生成開始: {len(questions)} 問 (q{start_num:02d}〜)")
@@ -126,10 +143,12 @@ def generate_audio(questions, start_num):
             print(f"  [{i+1}/{len(questions)}] SKIP {filename} (exists)")
             continue
 
+        pitch, rate = get_intonation(q["text"])
         for attempt in range(3):
             try:
                 result = subprocess.run(
-                    ["edge-tts", "--voice", voice, "--text", q["text"], "--write-media", str(filepath)],
+                    ["edge-tts", "--voice", voice, "--pitch", pitch, "--rate", rate,
+                     "--text", q["text"], "--write-media", str(filepath)],
                     capture_output=True, text=True, timeout=60,
                 )
                 if result.returncode == 0:
