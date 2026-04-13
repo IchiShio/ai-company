@@ -814,10 +814,31 @@ const DATA=[
 ];
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   DIFF AUTO-ASSIGN (before _i assignment)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+DATA.forEach(d => {
+  if (d.diff === undefined) {
+    const wc = (d.main || '').trim().split(/\s+/).length;
+    d.diff = wc <= 5 ? 1 : wc <= 10 ? 2 : 3;
+  }
+});
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    STATE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 const XPReq=[0,50,120,220,350,500,700,950,1250,1600,2000];
-let S={mode:'all',queue:[],idx:0,xp:0,correct:0,almost:0,missed:0,streak:0,timerI:null,answered:false};
+let S={
+  mode:'all',
+  curDiff:1,
+  okStreak:0,
+  sessionSeen:new Set(),
+  curQ:null,
+  sessionCount:0,
+  SESSION_LEN:15,
+  sessionAnswers:[],
+  xp:0,correct:0,almost:0,missed:0,streak:0,
+  timerI:null,answered:false
+};
 
 const $=id=>document.getElementById(id);
 function shuffle(a){return[...a].sort(()=>Math.random()-.5)}
@@ -861,21 +882,25 @@ function startTimer(){
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 function startQuiz(mode){
   S.mode=mode;
-  const f=mode==='all'?DATA:DATA.filter(d=>d.cat===mode);
-  S.queue=shuffle(f).slice(0,Math.min(f.length,10));
-  S.idx=0;S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;
+  S.curDiff=1;
+  S.okStreak=0;
+  S.sessionSeen=new Set();
+  S.sessionCount=0;
+  S.sessionAnswers=[];
+  S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;
   S.xp=parseInt(localStorage.getItem('nr_instant_xp')||'0',10);
   $('siteHeader').style.display='none';
   showView('viewQuiz');
+  S.curQ=pickNext();
   loadQ();
 }
 
 function loadQ(){
-  const q=S.queue[S.idx],total=S.queue.length;
+  const q=S.curQ,total=S.SESSION_LEN;
   S.answered=false;
   // progress
-  $('progTxt').textContent=`${S.idx+1} / ${total}`;
-  $('progFill').style.width=`${(S.idx/total)*100}%`;
+  $('progTxt').textContent=`${S.sessionCount+1} / ${total}`;
+  $('progFill').style.width=`${(S.sessionCount/total)*100}%`;
   $('progCat').textContent=q.cl;
   // cat pill
   const p=$('catPill');p.textContent=q.cl;p.className='cat-pill '+q.cat;
@@ -903,6 +928,55 @@ const ACCENT_ROTA = [
   {flag:'🇬🇧', label:'UK', glyph:'♀'},
   {flag:'🇦🇺', label:'AU', glyph:'♂'},
 ];
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   SEEN SET — localStorage
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+const SEEN_KEY = 'nr_instant_seen';
+function loadSeen() {
+  try { return new Set(JSON.parse(localStorage.getItem(SEEN_KEY) || '[]')); }
+  catch { return new Set(); }
+}
+function saveSeen(s) {
+  localStorage.setItem(SEEN_KEY, JSON.stringify([...s]));
+}
+function markSeen(q) {
+  const s = loadSeen();
+  s.add(q._i);
+  saveSeen(s);
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   ADAPTIVE PICK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+function pickNext() {
+  const all = S.mode === 'all' ? DATA : DATA.filter(d => d.cat === S.mode);
+  const globalSeen = loadSeen();
+
+  function getCandidates(diff) {
+    return all.filter(d => d.diff === diff && !S.sessionSeen.has(d._i));
+  }
+
+  let candidates = getCandidates(S.curDiff);
+
+  if (candidates.length === 0) {
+    candidates = getCandidates(Math.max(1, S.curDiff - 1))
+                 .concat(getCandidates(Math.min(3, S.curDiff + 1)));
+  }
+  if (candidates.length === 0) {
+    candidates = all.filter(d => !S.sessionSeen.has(d._i));
+  }
+  if (candidates.length === 0) {
+    S.sessionSeen.clear();
+    candidates = all.filter(d => d.diff === S.curDiff);
+    if (candidates.length === 0) candidates = all;
+  }
+
+  const unseen = candidates.filter(d => !globalSeen.has(d._i));
+  const pool = unseen.length > 0 ? unseen : candidates;
+
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
 // DATAにオリジナルインデックスを付与（音声ファイル名の決定に使用）
 DATA.forEach((d, i) => d._i = i + 1);
 
@@ -910,7 +984,7 @@ const _audio = new Audio();
 _audio.preload = 'auto';
 
 function speakMain(){
-  const q = S.queue[S.idx];
+  const q = S.curQ;
   if(!q) return;
   const btn = $('voicePlayBtn');
   const path = `audio/q${String(q._i).padStart(3,'0')}.mp3`;
@@ -981,7 +1055,7 @@ function revealAnswer(){
   bar.style.cssText=`width:${pct}%;transition:none`;
   bar.classList.remove('running','urgent');
 
-  const q=S.queue[S.idx];
+  const q=S.curQ;
   $('ansMain').textContent=q.main;
   $('ansAlt').innerHTML=q.alt||'';
   $('tipTxt').textContent=q.tip;
@@ -1021,14 +1095,35 @@ function revealAnswer(){
 
 function rate(type){
   const xpMap={perfect:20,almost:10,missed:3};
-  const gain=xpMap[type];
-  S.xp+=gain;
+  S.xp+=xpMap[type];
   localStorage.setItem('nr_instant_xp',S.xp);
-  if(type==='perfect'){S.correct++;S.streak++}
-  else if(type==='almost'){S.almost++;S.streak=0}
-  else{S.missed++;S.streak=0}
-  showToast(gain);
-  if(++S.idx>=S.queue.length)showComplete();else loadQ();
+
+  // seenSet に記録
+  markSeen(S.curQ);
+  S.sessionSeen.add(S.curQ._i);
+  S.sessionAnswers.push({q:S.curQ,type});
+
+  // アダプティブ難易度更新
+  if(type==='perfect'){
+    S.correct++;S.streak++;
+    S.okStreak++;
+    if(S.okStreak>=4){
+      S.curDiff=Math.min(3,S.curDiff+1);
+      S.okStreak=0;
+    }
+  } else if(type==='almost'){
+    S.almost++;S.streak=0;
+    S.okStreak=Math.max(0,S.okStreak-1);
+  } else {
+    S.missed++;S.streak=0;
+    S.curDiff=Math.max(1,S.curDiff-1);
+    S.okStreak=0;
+  }
+
+  showToast(xpMap[type]);
+  S.sessionCount++;
+
+  if(S.sessionCount>=S.SESSION_LEN){showComplete();}else{S.curQ=pickNext();loadQ();}
 }
 
 function showToast(gain){
@@ -1049,7 +1144,7 @@ function showComplete(){
   $('rAlmo').textContent=S.almost;
   $('rMiss').textContent=S.missed;
   $('rXP').textContent='+'+sessXP;
-  const rate=S.queue.length?S.correct/S.queue.length:0;
+  const rate=S.SESSION_LEN?S.correct/S.SESSION_LEN:0;
   if(rate>=.8){$('cEmoji').textContent='🏆';$('cTitle').textContent='素晴らしい！';$('cSub').textContent='英語の瞬発力が確実に伸びています！'}
   else if(rate>=.5){$('cEmoji').textContent='🎯';$('cTitle').textContent='よくできました！';$('cSub').textContent='言えなかった表現を繰り返し練習しよう。'}
   else{$('cEmoji').textContent='💪';$('cTitle').textContent='お疲れ様！';$('cSub').textContent='今日学んだ表現を明日また復習しよう。'}
