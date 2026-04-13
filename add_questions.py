@@ -112,11 +112,34 @@ def get_existing_count(content):
     return count
 
 
+_WH_WORDS = re.compile(r'^(what|where|when|who|whom|whose|which|why|how)\b', re.IGNORECASE)
+
+
+def get_intonation(text: str) -> tuple:
+    """文末記号とWh語からイントネーション(pitch, rate)を返す
+    - Yes/No疑問文 (?)  → +20Hz / -8%  (上昇調 ↗)
+    - Wh疑問文    (?)  → +0Hz  / -5%  (下降調 ↘ ネイティブ自然)
+    - 感嘆文      (!)  → +10Hz / +0%
+    - 平叙文      (.)  → +0Hz  / -5%  (下降調)
+    """
+    t = text.strip()
+    if t.endswith("?"):
+        if _WH_WORDS.match(t):
+            return ("+0Hz", "-5%")
+        else:
+            return ("+20Hz", "-8%")
+    elif t.endswith("!"):
+        return ("+10Hz", "+0%")
+    else:
+        return ("+0Hz", "-5%")
+
+
 async def generate_audio_async(text, voice, output_path):
     """edge-tts で非同期 MP3 生成"""
     import edge_tts
 
-    communicate = edge_tts.Communicate(text, voice)
+    pitch, rate = get_intonation(text)
+    communicate = edge_tts.Communicate(text, voice, pitch=pitch, rate=rate)
     await communicate.save(str(output_path))
 
 
