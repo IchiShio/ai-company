@@ -235,6 +235,13 @@
     .btn-primary-lg:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(245,166,35,0.45); filter: brightness(1.05); }
     .btn-primary-lg:active { transform: translateY(0); }
     .hero-fine { font-size: 13px; color: var(--text-3); animation: fadeUp 0.6s 0.4s ease-out both; }
+    .btn-revenge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #FDFCF9; color: var(--text-1); font-weight: 700; font-size: 15px;
+      border: 1.5px solid var(--border); border-radius: 9999px; padding: 14px 28px;
+      cursor: pointer; transition: all var(--t); font-family: inherit;
+    }
+    .btn-revenge:hover { border-color: #F5A623; color: #F5A623; background: rgba(245,166,35,0.06); }
     @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
 
     /* ── FEATURE STRIP ── */
@@ -457,6 +464,9 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
             文法クイズを始める
           </button>
+          <button id="btnRevenge" class="btn-revenge" onclick="beginReview()" style="display:none;">
+            🔁 <span class="revenge-count"></span>
+          </button>
         </div>
         <p class="hero-fine">登録不要・完全無料・すぐ始められます</p>
       </div>
@@ -565,7 +575,11 @@
         <h2>トレーニング完了！</h2>
         <div class="result-score" id="final-score"></div>
         <p id="result-message"></p>
+        <div id="srs-status" style="display:none;font-size:13px;color:var(--text-2);margin:6px 0 16px;padding:8px 14px;background:rgba(245,166,35,0.08);border-radius:8px;border:1px solid rgba(245,166,35,0.2);"></div>
         <button class="restart-btn" onclick="restartQuiz()">もう一度チャレンジ</button>
+        <button id="btnRevengeResult" class="btn-revenge" onclick="beginReview()" style="display:none;margin-top:10px;width:100%;">
+          🔁 <span class="revenge-count-result"></span>
+        </button>
       </div>
 
       <!-- Tier 1 CTA -->
@@ -646,6 +660,85 @@ function goToStart() {
   window.scrollTo(0, 0);
 }
 
+/* ── SRS (Spaced Repetition System) ── */
+const SRS_KEY  = 'grammar_srs';
+const WO_KEY   = 'grammar_wo';
+const SRS_TTL  = 30;
+const SRS_MAX  = 200;
+let srsItems   = {};
+let wrongOnce  = new Set();
+
+function _addDays(n) {
+  const d = new Date(); d.setDate(d.getDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+function _today() { return new Date().toISOString().slice(0, 10); }
+function loadSrs()  { try { return JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); } catch(e) { return {}; } }
+function loadWO()   { try { return new Set(JSON.parse(localStorage.getItem(WO_KEY) || '[]')); } catch(e) { return new Set(); } }
+function saveWO()   { try { localStorage.setItem(WO_KEY, JSON.stringify([...wrongOnce])); } catch(e) {} }
+function pruneSrs() { const cut=_addDays(-SRS_TTL); for(const id of Object.keys(srsItems)) if(srsItems[id].dueDate < cut) delete srsItems[id]; }
+function capSrs()   { if(Object.keys(srsItems).length<=SRS_MAX) return; const e=Object.entries(srsItems).sort((a,b)=>a[1].dueDate<b[1].dueDate?1:-1); for(const[id] of e.slice(SRS_MAX)) delete srsItems[id]; }
+function saveSrs()  { pruneSrs(); capSrs(); try { localStorage.setItem(SRS_KEY, JSON.stringify(srsItems)); } catch(e) {} }
+function getSrsId(q) { return q.id || null; }
+function updateSrsItem(item, correct) {
+  if (!correct) return { interval:1, reps:0, dueDate:_addDays(1) };
+  const reps = (item?.reps || 0) + 1;
+  const interval = reps===1 ? 1 : reps===2 ? 3 : reps===3 ? 7 : Math.min(Math.round((item.interval||1)*2.5), 60);
+  return { interval, reps, dueDate:_addDays(interval) };
+}
+function getDueIds() {
+  const today = _today();
+  return Object.entries(srsItems).filter(([,v]) => v.dueDate <= today).map(([id]) => id);
+}
+function updateSrsOnAnswer(q, isCorrect) {
+  const id = getSrsId(q); if (!id) return;
+  if (!isCorrect) {
+    if (srsItems[id]) {
+      srsItems[id] = updateSrsItem(srsItems[id], false);
+    } else if (wrongOnce.has(id)) {
+      srsItems[id] = updateSrsItem(undefined, false);
+      wrongOnce.delete(id); saveWO();
+    } else {
+      wrongOnce.add(id); saveWO();
+    }
+  } else if (srsItems[id]) {
+    const updated = updateSrsItem(srsItems[id], true);
+    if (updated.reps >= 5) delete srsItems[id]; else srsItems[id] = updated;
+  }
+  saveSrs();
+}
+function initSrsUI() {
+  srsItems  = loadSrs();
+  wrongOnce = loadWO();
+  const dueIds = getDueIds();
+  const totalWeak = Object.keys(srsItems).length + wrongOnce.size;
+  const btn = document.getElementById('btnRevenge');
+  if (btn && totalWeak > 0) {
+    btn.style.display = '';
+    btn.querySelector('.revenge-count').textContent =
+      dueIds.length > 0 ? `復習 ${dueIds.length}問` : `苦手 ${totalWeak}問 あり`;
+  }
+}
+function updateSrsResultUI() {
+  const srsCount = Object.keys(srsItems).length;
+  const woCount  = wrongOnce.size;
+  const total    = srsCount + woCount;
+  const dueIds   = getDueIds();
+  const el = document.getElementById('srs-status');
+  if (el && total > 0) {
+    el.style.display = '';
+    el.textContent = dueIds.length > 0
+      ? `🔁 本日の復習: ${dueIds.length}問 — 「復習モード」で集中トレーニングできます`
+      : `📚 登録済み苦手問題: ${total}問（次回 due まで継続中）`;
+  }
+  const btn2 = document.getElementById('btnRevengeResult');
+  if (btn2 && total > 0) {
+    btn2.style.display = '';
+    btn2.querySelector('.revenge-count-result').textContent =
+      dueIds.length > 0 ? `今日の復習 ${dueIds.length}問 をやる` : `苦手 ${total}問 を復習`;
+  }
+}
+
 /* ── History ── */
 const HISTORY_KEY = 'grammar_history';
 
@@ -702,7 +795,14 @@ function beginQuiz() {
 }
 
 function startQuiz() {
-  sessionQuestions = shuffle(allQuestions).slice(0, QUESTIONS_PER_SESSION);
+  srsItems  = loadSrs();
+  wrongOnce = loadWO();
+  // due問題を最大5件優先挿入
+  const dueIds  = new Set(getDueIds());
+  const dueQs   = shuffle(allQuestions.filter(q => dueIds.has(q.id))).slice(0, 5);
+  const dueIdSet = new Set(dueQs.map(q => q.id));
+  const others  = shuffle(allQuestions.filter(q => !dueIdSet.has(q.id)));
+  sessionQuestions = shuffle([...dueQs, ...others.slice(0, QUESTIONS_PER_SESSION - dueQs.length)]);
   currentQuestion  = 0;
   score            = 0;
   answered         = false;
@@ -711,6 +811,32 @@ function startQuiz() {
   document.getElementById('total-q').textContent  = sessionQuestions.length;
   document.getElementById('hdrTotal').textContent = sessionQuestions.length;
   showQuestion();
+}
+
+function beginReview() {
+  srsItems  = loadSrs();
+  wrongOnce = loadWO();
+  const dueIds = getDueIds();
+  let pool;
+  if (dueIds.length > 0) {
+    pool = allQuestions.filter(q => dueIds.includes(q.id));
+  } else {
+    const ids = new Set([...Object.keys(srsItems), ...wrongOnce]);
+    pool = allQuestions.filter(q => ids.has(q.id));
+  }
+  if (pool.length === 0) return;
+  sessionQuestions = shuffle(pool).slice(0, QUESTIONS_PER_SESSION);
+  currentQuestion  = 0;
+  score            = 0;
+  answered         = false;
+  axisWindow       = { formal:0, casual:0, direct:0, indirect:0, logical:0, emotional:0, structured:0, flexible:0 };
+  axisWindowCount  = 0;
+  document.getElementById('total-q').textContent  = sessionQuestions.length;
+  document.getElementById('hdrTotal').textContent = sessionQuestions.length;
+  showQuestion();
+  showScreen('quizScreen');
+  document.getElementById('appHeader').classList.add('active');
+  window.scrollTo(0, 0);
 }
 
 function updateProgress() {
@@ -758,6 +884,7 @@ function checkAnswer(selected, q) {
 
   const isCorrect = selected === q.answer;
   if (isCorrect) score++;
+  updateSrsOnAnswer(q, isCorrect);
 
   if (q.axes) {
     Object.keys(q.axes).forEach(axis => {
@@ -815,6 +942,7 @@ function finishQuiz() {
 
   saveResult(score, sessionQuestions.length);
   loadHistory();
+  updateSrsResultUI();
   try { gtag('event', 'grammar_quiz_complete', { score, total: sessionQuestions.length, pct }); } catch(_) {}
 }
 
@@ -888,6 +1016,9 @@ document.querySelectorAll('.nav-dd-trigger').forEach(function(btn) {
 document.addEventListener('click', function() {
   document.querySelectorAll('.nav-dd').forEach(function(d) { d.classList.remove('open'); });
 });
+
+/* ── SRS 初期化 ── */
+document.addEventListener('DOMContentLoaded', initSrsUI);
   </script>
 <script src="/assets/global.js" defer></script>
 </body>
