@@ -30,17 +30,27 @@ HTML_PATH = Path(__file__).parent / "index.html"
 AUDIO_DIR = Path(__file__).parent / "audio"
 
 
+WH_WORDS = re.compile(r'^(what|where|when|who|whom|whose|which|why|how)\b', re.IGNORECASE)
+
+
 def get_intonation(text: str) -> tuple[str, str]:
-    """文末記号からイントネーション(pitch Hz, rate)を返す
+    """文末記号とWh語からイントネーション(pitch Hz, rate)を返す
     edge-tts の pitch は ±NHz 形式
+    - Yes/No疑問文 (?)  → pitch +20Hz  rate -8%  (上昇調 ↗)
+    - Wh疑問文    (?)  → pitch +0Hz   rate -5%  (下降調 ↘ ネイティブ自然)
+    - 感嘆文      (!)  → pitch +10Hz  rate +0%
+    - 平叙文      (.)  → pitch +0Hz   rate -5%  (下降調)
     """
     t = text.strip()
     if t.endswith("?"):
-        return ("+20Hz", "-8%")   # 疑問文: 上昇調（ベースピッチを高く）
+        if WH_WORDS.match(t):
+            return ("+0Hz",  "-5%")   # Wh疑問文: 下降調（ネイティブ自然）
+        else:
+            return ("+20Hz", "-8%")   # Yes/No疑問文: 上昇調
     elif t.endswith("!"):
-        return ("+10Hz", "+0%")   # 感嘆文: やや高め
+        return ("+10Hz", "+0%")       # 感嘆文: やや高め
     else:
-        return ("+0Hz",  "-5%")   # 平叙文: 自然な下降調
+        return ("+0Hz",  "-5%")       # 平叙文: 自然な下降調
 
 
 def extract_mains(html: str) -> list[str]:
