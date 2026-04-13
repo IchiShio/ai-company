@@ -334,6 +334,13 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+/* ── Elapsed time badge ── */
+.elapsed-badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;padding:3px 10px;border-radius:9999px;margin-bottom:9px}
+.elapsed-badge.fast{background:#ecfdf5;color:#065f46}
+.elapsed-badge.mid{background:#fffbeb;color:#92400e}
+.elapsed-badge.slow{background:#fff1f2;color:#9f1239}
+/* ── Intonation badge ── */
+.intonation-badge{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;padding:3px 10px;border-radius:9999px;background:rgba(245,166,35,0.12);color:#E09520;margin-left:4px}
   </style>
 </head>
 <body>
@@ -494,11 +501,13 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           模範解答
         </div>
+        <div id="elapsedBadge" style="display:none"></div>
         <div class="ans-main" id="ansMain"></div>
         <div class="ans-alt" id="ansAlt"></div>
       </div>
       <div class="voice-card" id="voiceCard">
         <span class="voice-badge" id="voiceBadge">🇺🇸 US ♀</span>
+        <span id="intonationBadge" style="display:none"></span>
         <button class="voice-play-btn" id="voicePlayBtn" onclick="speakMain()">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
           音声を聞く
@@ -919,6 +928,48 @@ function speakMain(){
 }
 // ─────────────────────────────────────────────
 
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   WEB SPEECH API — イントネーション付き読み上げ
+   疑問文 (?) → pitch 1.2 (上昇調 / rising)
+   感嘆文 (!) → pitch 1.15
+   平叙文      → pitch 1.0  (下降調 / falling)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+let _ttsVoice = null;
+(function initTTSVoices(){
+  const pick = () => {
+    const vs = speechSynthesis.getVoices();
+    if(!vs.length) return;
+    _ttsVoice =
+      vs.find(v=>v.lang.startsWith('en')&&/natural|premium|enhanced/i.test(v.name)) ||
+      vs.find(v=>v.lang==='en-US'&&v.localService) ||
+      vs.find(v=>v.lang==='en-GB'&&v.localService) ||
+      vs.find(v=>v.lang==='en-US') ||
+      vs.find(v=>v.lang.startsWith('en-')) || null;
+  };
+  pick();
+  if('onvoiceschanged' in speechSynthesis) speechSynthesis.onvoiceschanged = pick;
+})();
+
+function getSentenceType(text){
+  const t = text.trim();
+  if(t.endsWith('?')) return 'ques';
+  if(t.endsWith('!')) return 'excl';
+  return 'stmt';
+}
+
+function speakWithIntonation(text){
+  if(!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(text);
+  if(_ttsVoice) u.voice = _ttsVoice;
+  u.volume = 1;
+  const type = getSentenceType(text);
+  if(type==='ques')      { u.pitch=1.2;  u.rate=0.88; }
+  else if(type==='excl') { u.pitch=1.15; u.rate=0.92; }
+  else                   { u.pitch=1.0;  u.rate=0.88; }
+  speechSynthesis.speak(u);
+}
+
 function revealAnswer(){
   if(S.answered)return;
   S.answered=true;
@@ -937,10 +988,33 @@ function revealAnswer(){
   $('revealBtn').style.display='none';
   $('ansPanel').classList.add('show');
 
+  // ── Elapsed time badge ──
+  const elSec = elapsed.toFixed(1);
+  const elEl  = $('elapsedBadge');
+  const elClass = elapsed<3 ? 'fast' : elapsed<6 ? 'mid' : 'slow';
+  const elIcon  = elapsed<3 ? '⚡' : elapsed<6 ? '🟡' : '🔴';
+  elEl.className = 'elapsed-badge ' + elClass;
+  elEl.textContent = `${elIcon} ${elSec}s で回答`;
+  elEl.style.display = 'inline-flex';
+
+  // ── Intonation badge ──
+  const sentType = getSentenceType(q.main);
+  const itonEl = $('intonationBadge');
+  const itonMap = {
+    ques: '↗ 疑問文（上昇調）',
+    excl: '↗↘ 感嘆文',
+    stmt: '↘ 平叙文（下降調）',
+  };
+  itonEl.className = 'intonation-badge';
+  itonEl.textContent = itonMap[sentType];
+  itonEl.style.display = 'inline-flex';
+
   // set accent badge for this question
   const _ac = ACCENT_ROTA[(q._i - 1) % ACCENT_ROTA.length];
   $('voiceBadge').textContent = `${_ac.flag} ${_ac.label} ${_ac.glyph}`;
-  setTimeout(()=>speakMain(), 300);
+
+  // Auto-play: Web Speech API with intonation (MP3 button still available for natural voice)
+  setTimeout(()=>speakWithIntonation(q.main), 300);
 
   setTimeout(()=>$('ansPanel').scrollIntoView({behavior:'smooth',block:'nearest'}),80);
 }
