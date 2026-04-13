@@ -1013,8 +1013,8 @@ function revealAnswer(){
   const _ac = ACCENT_ROTA[(q._i - 1) % ACCENT_ROTA.length];
   $('voiceBadge').textContent = `${_ac.flag} ${_ac.label} ${_ac.glyph}`;
 
-  // Auto-play: Web Speech API with intonation (MP3 button still available for natural voice)
-  setTimeout(()=>speakWithIntonation(q.main), 300);
+  // Auto-play: Edge TTS MP3（ボタンと同じ高品質音声）
+  setTimeout(()=>speakMain(), 300);
 
   setTimeout(()=>$('ansPanel').scrollIntoView({behavior:'smooth',block:'nearest'}),80);
 }
