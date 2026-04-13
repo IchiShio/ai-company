@@ -135,6 +135,8 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
 .cat-lp:hover{border-color:var(--gold);background:var(--gold-bg);transform:translateY(-1px)}
 .cat-lp.primary{background:linear-gradient(135deg,#E09520,#F5A623,#F8C347);color:#000;border-color:transparent;font-weight:800;box-shadow:0 2px 10px rgba(245,166,35,0.30)}
 .cat-lp.primary:hover{box-shadow:0 6px 22px rgba(245,166,35,0.42);transform:translateY(-2px)}
+.cat-lp.revenge-lp{border-color:rgba(245,166,35,0.4);color:var(--gold);font-weight:700}
+.cat-lp.revenge-lp:hover{border-color:var(--gold);background:rgba(245,166,35,0.08)}
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    LP — SEO
@@ -420,6 +422,7 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         <button class="cat-lp" onclick="startQuiz('business')">💼 ビジネス</button>
         <button class="cat-lp" onclick="startQuiz('travel')">✈️ 旅行</button>
         <button class="cat-lp" onclick="startQuiz('emotion')">💬 感情表現</button>
+        <button id="btnInstantRevenge" class="cat-lp revenge-lp" onclick="startReview()" style="display:none;">🔁 <span id="instantRevengeLabel">復習</span></button>
       </div>
     </div>
   </section>
@@ -552,8 +555,10 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         </div>
         <div class="xp-track"><div class="xp-fill" id="xpFill" style="width:0%"></div></div>
       </div>
+      <div id="instantSrsStatus" style="display:none;font-size:13px;color:var(--text-2);margin:6px 0 14px;padding:8px 14px;background:rgba(245,166,35,0.08);border-radius:8px;border:1px solid rgba(245,166,35,0.2);text-align:center;"></div>
       <div class="c-btns">
         <button class="btn-solid" onclick="restartQuiz()">🔄 もう一度練習する</button>
+        <button id="btnInstantRevengeResult" class="btn-line" onclick="startReview()" style="display:none;">🔁 <span id="instantRevengeLabelResult">苦手を復習</span></button>
         <button class="btn-line"  onclick="exitQuiz()">← トップに戻る</button>
       </div>
     </div>
@@ -986,6 +991,7 @@ function startTimer(){
    QUIZ LOGIC
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 function startQuiz(mode){
+  instSrs=instLoadSrs();instWO=instLoadWO();
   S.mode=mode;
   S.curDiff=1;
   S.okStreak=0;
@@ -993,6 +999,7 @@ function startQuiz(mode){
   S.sessionCount=0;
   S.sessionAnswers=[];
   S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;
+  S._srsPool=null;S._srsIdx=0;
   S.xp=parseInt(localStorage.getItem('nr_instant_xp')||'0',10);
   $('siteHeader').style.display='none';
   showView('viewQuiz');
@@ -1051,10 +1058,111 @@ function markSeen(q) {
 }
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   SRS (Spaced Repetition System)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+const INST_SRS_KEY = 'nr_instant_srs';
+const INST_WO_KEY  = 'nr_instant_wo';
+const INST_SRS_TTL = 30;
+const INST_SRS_MAX = 200;
+let instSrs = {};
+let instWO  = new Set();
+
+function _instAddDays(n){const d=new Date();d.setDate(d.getDate()+n);return d.toISOString().slice(0,10);}
+function _instToday(){return new Date().toISOString().slice(0,10);}
+function instLoadSrs(){try{return JSON.parse(localStorage.getItem(INST_SRS_KEY)||'{}');}catch{return{};}}
+function instLoadWO(){try{return new Set(JSON.parse(localStorage.getItem(INST_WO_KEY)||'[]'));}catch{return new Set();}}
+function instSaveWO(){try{localStorage.setItem(INST_WO_KEY,JSON.stringify([...instWO]));}catch{}}
+function instPruneSrs(){const c=_instAddDays(-INST_SRS_TTL);for(const id of Object.keys(instSrs))if(instSrs[id].dueDate<c)delete instSrs[id];}
+function instCapSrs(){if(Object.keys(instSrs).length<=INST_SRS_MAX)return;const e=Object.entries(instSrs).sort((a,b)=>a[1].dueDate<b[1].dueDate?1:-1);for(const[id]of e.slice(INST_SRS_MAX))delete instSrs[id];}
+function instSaveSrs(){instPruneSrs();instCapSrs();try{localStorage.setItem(INST_SRS_KEY,JSON.stringify(instSrs));}catch{}}
+function instSrsId(q){return q._i?String(q._i):null;}
+function instUpdateItem(item,correct){
+  if(!correct)return{interval:1,reps:0,dueDate:_instAddDays(1)};
+  const reps=(item?.reps||0)+1;
+  const interval=reps===1?1:reps===2?3:reps===3?7:Math.min(Math.round((item.interval||1)*2.5),60);
+  return{interval,reps,dueDate:_instAddDays(interval)};
+}
+function instGetDueIds(){
+  const today=_instToday();
+  return Object.entries(instSrs).filter(([,v])=>v.dueDate<=today).map(([id])=>id);
+}
+function instUpdateSrs(q,type){
+  // perfect→SRS進める / missed→wrongOnce/SRS登録 / almost→変化なし
+  const id=instSrsId(q);if(!id)return;
+  if(type==='missed'){
+    if(instSrs[id]){instSrs[id]=instUpdateItem(instSrs[id],false);}
+    else if(instWO.has(id)){instSrs[id]=instUpdateItem(undefined,false);instWO.delete(id);instSaveWO();}
+    else{instWO.add(id);instSaveWO();}
+  } else if(type==='perfect'){
+    if(instSrs[id]){
+      const u=instUpdateItem(instSrs[id],true);
+      if(u.reps>=5)delete instSrs[id];else instSrs[id]=u;
+    }
+  }
+  instSaveSrs();
+}
+function instInitSrsUI(){
+  instSrs=instLoadSrs();instWO=instLoadWO();
+  const dueIds=instGetDueIds();
+  const total=Object.keys(instSrs).length+instWO.size;
+  const btn=document.getElementById('btnInstantRevenge');
+  if(btn&&total>0){
+    btn.style.display='';
+    document.getElementById('instantRevengeLabel').textContent=
+      dueIds.length>0?`復習 ${dueIds.length}問`:`苦手 ${total}問`;
+  }
+}
+function instSrsResultUI(){
+  const dueIds=instGetDueIds();
+  const total=Object.keys(instSrs).length+instWO.size;
+  const el=document.getElementById('instantSrsStatus');
+  if(el&&total>0){
+    el.style.display='';
+    el.textContent=dueIds.length>0
+      ?`🔁 今日の復習: ${dueIds.length}問 あります`
+      :`📚 登録済み苦手: ${total}問（次回due待ち）`;
+  }
+  const btn=document.getElementById('btnInstantRevengeResult');
+  if(btn&&total>0){
+    btn.style.display='';
+    document.getElementById('instantRevengeLabelResult').textContent=
+      dueIds.length>0?`今日の復習 ${dueIds.length}問`:`苦手 ${total}問 を復習`;
+  }
+}
+function startReview(){
+  instSrs=instLoadSrs();instWO=instLoadWO();
+  const dueIds=instGetDueIds();
+  let pool;
+  if(dueIds.length>0){
+    const dueSet=new Set(dueIds);
+    pool=DATA.filter(q=>dueSet.has(instSrsId(q)));
+  } else {
+    const ids=new Set([...Object.keys(instSrs),...instWO]);
+    pool=DATA.filter(q=>ids.has(instSrsId(q)));
+  }
+  if(pool.length===0)return;
+  S.mode='srs';
+  S.curDiff=1;S.okStreak=0;S.sessionSeen=new Set();S.sessionCount=0;S.sessionAnswers=[];
+  S.correct=0;S.almost=0;S.missed=0;S.streak=0;S.answered=false;
+  S.xp=parseInt(localStorage.getItem('nr_instant_xp')||'0',10);
+  S._srsPool=shuffle(pool);
+  S._srsIdx=0;
+  $('siteHeader').style.display='none';
+  showView('viewQuiz');
+  S.curQ=S._srsPool[S._srsIdx++]||pickNext();
+  loadQ();
+}
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    ADAPTIVE PICK
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 function pickNext() {
-  const all = S.mode === 'all' ? DATA : DATA.filter(d => d.cat === S.mode);
+  // SRSモード: poolから順に出題
+  if(S.mode==='srs'&&S._srsPool){
+    if(S._srsIdx<S._srsPool.length)return S._srsPool[S._srsIdx++];
+    // poolを使い切ったら通常pickに fallback
+  }
+  const all = S.mode === 'all' || S.mode === 'srs' ? DATA : DATA.filter(d => d.cat === S.mode);
   const globalSeen = loadSeen();
 
   function getCandidates(diff) {
@@ -1203,6 +1311,8 @@ function rate(type){
   S.xp+=xpMap[type];
   localStorage.setItem('nr_instant_xp',S.xp);
 
+  // SRS更新
+  instUpdateSrs(S.curQ, type);
   // seenSet に記録
   markSeen(S.curQ);
   S.sessionSeen.add(S.curQ._i);
@@ -1257,10 +1367,14 @@ function showComplete(){
   $('lvBadge').textContent='Lv.'+l;
   $('xpTxt').textContent=S.xp+' / '+next+' XP';
   setTimeout(()=>$('xpFill').style.width=pct+'%',350);
+  instSrsResultUI();
 }
 
-function restartQuiz(){startQuiz(S.mode)}
+function restartQuiz(){startQuiz(S.mode==='srs'?'all':S.mode)}
 function exitQuiz(){clearInterval(S.timerI);$('siteHeader').style.display='';showView('viewLP')}
+
+/* ── SRS 初期化 ── */
+document.addEventListener('DOMContentLoaded', instInitSrsUI);
 
 /* ── Hamburger ── */
 const hbg=$('hamburger'),mn=$('mobNav'),mc=$('mobClose');
