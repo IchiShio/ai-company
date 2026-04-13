@@ -203,16 +203,21 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
 .s-ja{font-size:clamp(28px,5.5vw,46px);font-weight:800;line-height:1.35;color:var(--text-1);letter-spacing:.02em;margin-bottom:10px}
 .s-ctx{font-size:12px;color:var(--text-3);font-style:italic}
 
-/* timer — integrated at bottom of card (CSS animation, no JS DOM writes) */
-.timer-base{height:3px;background:var(--surface-2);position:relative}
-.timer-bar{position:absolute;top:0;left:0;height:100%;background:linear-gradient(90deg,var(--success),#84CC16 40%,var(--gold) 70%,var(--error));border-radius:0 var(--radius-pill) var(--radius-pill) 0;width:100%;transform-origin:left center}
+/* timer — prominent top-of-card display */
+.timer-wrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.timer-secs{
+  font-size:28px;font-weight:800;font-variant-numeric:tabular-nums;
+  color:var(--success);min-width:2ch;text-align:right;
+  transition:color 0.3s;line-height:1;
+}
+.timer-secs.urgent{color:var(--error);animation:timer-pulse 0.6s ease-in-out infinite}
+@keyframes timer-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.7;transform:scale(1.08)}}
+.timer-track{flex:1;height:8px;background:var(--surface-2);border-radius:var(--radius-pill);overflow:hidden}
+.timer-bar{height:100%;background:linear-gradient(90deg,var(--success),#84CC16 40%,var(--gold) 70%,var(--error));border-radius:var(--radius-pill);width:100%;transform-origin:left center}
 .timer-bar.running{animation:timer-drain 10s linear forwards}
 .timer-bar.urgent{animation:timer-drain-urgent 3s linear forwards}
 @keyframes timer-drain{from{width:100%}to{width:0%}}
-@keyframes timer-drain-urgent{from{width:30%;background:linear-gradient(90deg,var(--error),#EF4444)}to{width:0%;background:var(--error)}}
-
-.timer-secs{position:absolute;right:10px;top:-22px;font-size:11px;font-weight:700;color:var(--text-3);font-variant-numeric:tabular-nums;transition:color var(--t)}
-.timer-secs.urgent{color:var(--error)}
+@keyframes timer-drain-urgent{from{width:30%;filter:none}to{width:0%;filter:brightness(1.2)}}
 
 /* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    QUIZ — REVEAL BUTTON
@@ -480,14 +485,16 @@ button{font-family:inherit;cursor:pointer;-webkit-appearance:none;appearance:non
         <span class="cat-pill daily" id="catPill">日常会話</span>
         <span class="s-hint">声に出して英語で言おう</span>
       </div>
+      <!-- timer: prominent row above question text -->
+      <div class="timer-wrap">
+        <span class="timer-secs" id="timerSecs">10</span>
+        <div class="timer-track">
+          <div class="timer-bar" id="timerBar"></div>
+        </div>
+      </div>
       <div class="s-body">
         <div class="s-ja" id="sentJa"></div>
         <div class="s-ctx" id="sentCtx"></div>
-      </div>
-      <!-- CSS-animated timer strip at bottom of card -->
-      <div class="timer-base">
-        <div class="timer-bar" id="timerBar"></div>
-        <span class="timer-secs" id="timerSecs">10</span>
       </div>
     </div>
 
@@ -968,6 +975,7 @@ function startTimer(){
   bar.classList.add('running');
   secs.textContent='10';
   secs.classList.remove('urgent');
+  secs.style.color='';
   timerStart=Date.now();
   // update seconds display every 500ms (not every 100ms)
   clearInterval(S.timerI);
@@ -976,6 +984,10 @@ function startTimer(){
     const remaining=Math.max(0,10-elapsed);
     secs.textContent=Math.ceil(remaining);
     const urgent=remaining<=3;
+    // 残り時間で色変化: >7=緑, 4-7=金, ≤3=赤(pulse)
+    if(remaining>7)secs.style.color='var(--success)';
+    else if(remaining>3)secs.style.color='var(--gold)';
+    else secs.style.color='';  // urgent CSSクラスに委ねる
     secs.classList.toggle('urgent',urgent);
     if(urgent&&!bar.classList.contains('urgent')){
       bar.classList.remove('running');
